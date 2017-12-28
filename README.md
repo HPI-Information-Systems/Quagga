@@ -1,3 +1,5 @@
+**Cleaned up code and documentation will follow before March 2018**
+
 # Quagga
 An email segmentation system:
 - reference implementation of ECIR 2018 paper

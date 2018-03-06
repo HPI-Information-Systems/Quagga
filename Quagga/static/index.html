@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quagga Email Zoning</title>
+
+    <style type="text/css">
+        .wrapper {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        #input {
+            width: 100%;
+            height: 150px;
+            padding: 8px 15px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+
+        #submit {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            /*margin: 4px 2px;*/
+            cursor: pointer;
+            font-size: 1.1em;
+            margin: 1em auto;
+        }
+
+        #target {
+            width: 100%;
+        }
+
+        #output {
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 0;
+            margin: 0;
+            padding: 0.4em 1em;
+        }
+
+        .tgl + .tgl-btn {
+            outline: 0;
+            display: block;
+            width: 6em;
+            height: 2em;
+            position: relative;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            float: left;
+            margin: 0 2px;
+        }
+
+        .tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+            position: relative;
+            display: block;
+            content: "";
+            width: 50%;
+            height: 100%;
+        }
+
+        .tgl + .tgl-btn:after {
+            left: 0;
+        }
+
+        .tgl + .tgl-btn:before {
+            display: none;
+        }
+
+        .tgl:checked + .tgl-btn:after {
+            left: 50%;
+        }
+
+        .tgl-skewed + .tgl-btn {
+            overflow: hidden;
+            -webkit-transition: all .2s ease;
+            transition: all .2s ease;
+            font-family: sans-serif;
+            background: #8BB7F0; /*#888;*/
+        }
+
+        .tgl-skewed + .tgl-btn:after, .tgl-skewed + .tgl-btn:before {
+            display: inline-block;
+            -webkit-transition: all .2s ease;
+            transition: all .2s ease;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            line-height: 2em;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .tgl-skewed + .tgl-btn:after {
+            left: 100%;
+            content: attr(data-tg-on);
+        }
+
+        .tgl-skewed + .tgl-btn:before {
+            left: 0;
+            content: attr(data-tg-off);
+        }
+
+        .tgl-skewed + .tgl-btn:active {
+            background: #8BB7F0; /*#888;*/
+        }
+
+        .tgl-skewed + .tgl-btn:active:before {
+            left: -10%;
+        }
+
+        .tgl-skewed:checked + .tgl-btn {
+            background: #86d993;
+        }
+
+        .tgl-skewed:checked + .tgl-btn:before {
+            left: -100%;
+        }
+
+        .tgl-skewed:checked + .tgl-btn:after {
+            left: 0;
+        }
+
+        .tgl-skewed:checked + .tgl-btn:active:after {
+            left: 10%;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        <div id="example-mails"></div>
+        <textarea id="input" title="input">
+
+Daren:
+
+Just wanted to follow up with you on the April noms at Texas
+City..............   the volumes recorded for April 1 were 5300 and 1165...
+since we have been directed not to change Sitara deal tickets for now, would
+you please correct?
+
+Thanks!!
+
+
+Charlotte
+
+---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000
+01:37 PM ---------------------------
+
+
+
+	From:  Charlotte Hawkins                           03/30/2000 11:33 AM
+
+
+To: Daren J Farmer/HOU/ECT@ECT, Stacey Neuweiler/HOU/ECT@ECT
+cc: Vance L Taylor/HOU/ECT@ECT, Mary Jo Johnson/HOU/ECT@ECT, Melissa
+Graves/HOU/ECT@ECT
+Subject: April, Aspect Volume @ Texas City
+
+
+For April 1, 2000:
+
+Cross Media                         989815 =    903 MMBtu
+TNCT                                      989816  = 5878  MMBtu
+
+Any questions, just call.
+
+Thanks,
+
+Charlotte Hawkins
+</textarea>
+    </div>
+    <button id="submit" style="float:left;">Quagga it!</button>
+    <div style="float:right">
+        <input class="tgl tgl-skewed" style="display:none;" id="cb3" type="checkbox"/>
+        <label class="tgl-btn" data-tg-off="5 Zones" data-tg-on="2 Zones" for="cb3" id="zone-toggle"></label>
+        <input class="tgl tgl-skewed" style="display:none;" id="cb5" type="checkbox"/>
+        <label class="tgl-btn" data-tg-off="Enron" data-tg-on="ASF" for="cb5" id="train-toggle"></label>
+        <input class="tgl tgl-skewed" style="display:none;" id="cb4" type="checkbox"/>
+        <label class="tgl-btn" data-tg-off="CRF" data-tg-on="CNN" for="cb4" id="model-toggle"></label>
+    </div>
+    <div style="clear:both"></div>
+
+
+    <div id="target">
+        <div style="width: 100px; height:100px; margin:10% auto;">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+				<g>
+					<rect x="22.5" y="27.5" style="fill:#F5C276;" width="4" height="11"/>
+					<path style="fill:#C29653;" d="M26,28v10h-3V28H26 M27,27h-5v12h5V27L27,27z"/>
+				</g>
+				<g>
+					<path style="fill:#8BB7F0;" d="M6.5,27.5V14c0-3.584,2.916-6.5,6.5-6.5h19c3.584,0,6.5,2.916,6.5,6.5v13.5H6.5z"/>
+					<path style="fill:#4E7AB5;" d="M32,8c3.308,0,6,2.692,6,6v13H7V14c0-3.308,2.692-6,6-6H32 M32,7H13c-3.85,0-7,3.15-7,7v14h33V14
+						C39,10.15,35.85,7,32,7L32,7z"/>
+				</g>
+				<g>
+					<path style="fill:#8BB7F0;" d="M6.5,27.5V13.853C6.5,10.409,9.477,7.5,13,7.5c3.584,0,6.5,2.916,6.5,6.5v13.5H6.5z"/>
+					<g>
+						<path style="fill:#4E7AB5;" d="M13,8c3.308,0,6,2.692,6,6v13H7V13.853C7,10.68,9.748,8,13,8 M13,7c-3.85,0-7,3.15-7,6.853V28h14
+							V14C20,10.15,16.85,7,13,7L13,7z"/>
+					</g>
+				</g>
+				<g>
+					<rect x="24.5" y="1.5" style="fill:#F78F8F;" width="5" height="3"/>
+					<path style="fill:#C74343;" d="M29,2v2h-4V2H29 M30,1h-6v4h6V1L30,1z"/>
+				</g>
+				<g>
+					<polygon style="fill:#C74343;" points="25,1 24,1 24,12 25,12 25,1 	"/>
+				</g>
+				<g>
+					<circle style="fill:#F78F8F;" cx="24.5" cy="12.5" r="1"/>
+					<path style="fill:#C74343;" d="M24.5,12c0.276,0,0.5,0.224,0.5,0.5S24.776,13,24.5,13S24,12.776,24,12.5S24.224,12,24.5,12
+						 M24.5,11c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5s1.5-0.672,1.5-1.5S25.328,11,24.5,11L24.5,11z"/>
+				</g>
+				<g>
+					<rect x="9" y="15" style="fill:#8BB7F0;" width="8" height="1"/>
+					<polygon style="fill:#4E7AB5;" points="17,15 9,15 9,16 17,16 17,15 	"/>
+				</g>
+			</svg>
+        </div>
+    </div>
+</div>
+
+<script type="application/javascript">
+
+    var zonesToPredict = 5; // or 2
+    var model = 'crf'; // or cnn
+    var trainedOn = 'enron'; // or asf
+    var models = {};
+
+    function submit() {
+        var rawText = document.getElementById('input').value;
+        getPredictions(rawText).then(function (predictions) {
+            document.getElementById('target').innerHTML = drawTable(predictions);
+        }).catch(function (error) {
+            console.error(error);
+        });
+    }
+
+    function getPredictions(text) {
+        var basePath = 'http://localhost:5000/' + ((zonesToPredict === 2) ? 'two' : 'five');
+
+        return post(basePath, {'rawText': text, 'model': model, 'trainedOn': trainedOn});
+
+        function post(path, payload) {
+            return new Promise(function (resolve, reject) {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        if (this.status === 200) {
+                            try {
+                                resolve(JSON.parse(this.responseText));
+                            } catch (e) {
+                                resolve(this.responseText)
+                            }
+                        } else {
+                            reject('Error ' + this.status + ' ' + this.statusText);
+                        }
+                    }
+                };
+                // send list of elements as JSON to the server
+                xhr.open('POST', path, true);
+                xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+                xhr.send(JSON.stringify(payload));
+            });
+        }
+    }
+
+    function drawTable(predictions) {
+        var labels = Object.keys(predictions[0]['predictions']);
+        var ret = '<table id="output"><thead><tr>';
+        labels.forEach(function (label) {
+            var parts = label.split('/');
+            ret += '<th>' + parts[parts.length - 1] + '</th>';
+        });
+        ret += '<th style="width:80%">Text</th></tr></thead><tbody>';
+        predictions.forEach(function (prediction) {
+            ret += '<tr>';
+            var max = null;
+            labels.forEach(function (label) {
+                if (max === null)
+                    max = {'label': label, 'confidence': prediction['predictions'][label]};
+                else if (max['confidence'] < prediction['predictions'][label])
+                    max = {'label': label, 'confidence': prediction['predictions'][label]};
+                ret += '<td style="' + getColour(label, prediction['predictions'][label]) + '">' +
+                    prediction['predictions'][label].toFixed(2) + '</td>';
+            });
+            ret += '<td style="' + getColour(max['label'], max['confidence']) + '">' + prediction['text'] + '</td>';
+            ret += '</tr>';
+        });
+        ret += '</tbody></table>';
+        return ret;
+
+        function getColour(label, confidence) {
+            if (label === 'Body')
+                return ret('0', '110', '81');   // Lush Meadow
+            if (label === 'Header')
+                return ret('158', '70', '36');  // Potter's Clay
+            if (label === 'Body/Signature')
+                return ret('173', '93', '93');  // Dusty Cedar
+            if (label === 'Body/Intro')
+                return ret('185', '58', '50');  // Aurora Red
+            if (label === 'Body/Outro')
+                return ret('216', '174', '71'); // Spicy Mustard
+
+            function ret(r, g, b) {
+                return 'background-color: rgba(' + r + ',' + g + ',' + b + ',' + confidence + ')';
+            }
+        }
+    }
+
+    document.getElementById('submit').onclick = submit;
+    document.getElementById('zone-toggle').onclick = function () {
+        zonesToPredict = (zonesToPredict === 2) ? 5 : 2;
+    };
+    document.getElementById('model-toggle').onclick = function () {
+        model = (model === 'crf') ? 'cnn' : 'crf';
+    };
+    document.getElementById('train-toggle').onclick = function () {
+        trainedOn = (trainedOn === 'enron') ? 'asf' : 'enron';
+    };
+
+
+    var exampleMails = [
+        "Rishabh,\n\nHave you come across any ANSI SQL queries that Spark SQL didn't support?\nI'd be interested to hear if you have.\n\nAndrew\n\nOn Tue, Jan 17, 2017 at 8:14 PM, Deepak Sharma <deepakmca05@gmail.com>\nwrote:\n\n> From spark documentation page:\n> Spark SQL can now run all 99 TPC-DS queries.\n>\n> On Jan 18, 2017 9:39 AM, \"Rishabh Bhardwaj\" <rbnext29@gmail.com> wrote:\n>\n>> Hi All,\n>>\n>> Does Spark 2.0 Sql support full ANSI SQL query standards?\n>>\n>> Thanks,\n>> Rishabh.\n>>\n>",
+        "\nDaren:\n\nJust wanted to follow up with you on the April noms at Texas\nCity..............   the volumes recorded for April 1 were 5300 and 1165...\nsince we have been directed not to change Sitara deal tickets for now, would\nyou please correct?\n\nThanks!!\n\n\nCharlotte\n\n---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000\n01:37 PM ---------------------------\n\n\n\n\tFrom:  Charlotte Hawkins                           03/30/2000 11:33 AM\n\n\nTo: Daren J Farmer/HOU/ECT@ECT, Stacey Neuweiler/HOU/ECT@ECT\ncc: Vance L Taylor/HOU/ECT@ECT, Mary Jo Johnson/HOU/ECT@ECT, Melissa\nGraves/HOU/ECT@ECT\nSubject: April, Aspect Volume @ Texas City\n\n\nFor April 1, 2000:\n\nCross Media                         989815 =    903 MMBtu\nTNCT                                      989816  = 5878  MMBtu\n\nAny questions, just call.\n\nThanks,\n\nCharlotte Hawkins",
+        "The trigger interval is optionally specified in the writeStream option\nbefore start.\n\nval windowedCounts = words.groupBy(\n  window($\"timestamp\", \"24 hours\", \"24 hours\"),\n  $\"word\"\n).count()\n.writeStream\n.trigger(ProcessingTime(\"10 seconds\"))  // optional\n.format(\"memory\")\n.queryName(\"tableName\")\n.start()\n\nSee the full example here -\nhttps://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/sql/streaming/StructuredNetworkWordCountWindowed.scala\n\n\nOn Mon, Apr 10, 2017 at 12:55 PM, kant kodali <kanth909@gmail.com> wrote:\n\n> Thanks again! Looks like the update mode is not available in 2.1 (which\n> seems to be the latest version as of today) and I am assuming there will be\n> a way to specify trigger interval with the next release because with the\n> following code I don't see a way to specify trigger interval.\n>\n> val windowedCounts = words.groupBy(\n>   window($\"timestamp\", \"24 hours\", \"24 hours\"),\n>   $\"word\").count()\n>\n>\n> On Mon, Apr 10, 2017 at 12:32 PM, Michael Armbrust <michael@databricks.com\n> > wrote:\n>\n>> It sounds like you want a tumbling window (where the slide and duration\n>> are the same).  This is the default if you give only one interval.  You\n>> should set the output mode to \"update\" (i.e. output only the rows that have\n>> been updated since the last trigger) and the trigger to \"1 second\".\n>>\n>> Try thinking about the batch query that would produce the answer you\n>> want.  Structured streaming will figure out an efficient way to compute\n>> that answer incrementally as new data arrives.\n>>\n>> On Mon, Apr 10, 2017 at 12:20 PM, kant kodali <kanth909@gmail.com> wrote:\n>>\n>>> Hi Michael,\n>>>\n>>> Thanks for the response. I guess I was thinking more in terms of the\n>>> regular streaming model. so In this case I am little confused what my\n>>> window interval and slide interval be for the following case?\n>>>\n>>> I need to hold a state (say a count) for 24 hours while capturing all\n>>> its updates and produce results every second. I also need to reset the\n>>> state (the count) back to zero every 24 hours.\n>>>\n>>>\n>>>\n>>>\n>>>\n>>>\n>>> On Mon, Apr 10, 2017 at 11:49 AM, Michael Armbrust <\n>>> michael@databricks.com> wrote:\n>>>\n>>>> Nope, structured streaming eliminates the limitation that\n>>>> micro-batching should affect the results of your streaming query.  Trigger\n>>>> is just an indication of how often you want to produce results (and if you\n>>>> leave it blank we just run as quickly as possible).\n>>>>\n>>>> To control how tuples are grouped into a window, take a look at the\n>>>> window\n>>>> <http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#window-operations-on-event-time>\n>>>> function.\n>>>>\n>>>> On Thu, Apr 6, 2017 at 10:26 AM, kant kodali <kanth909@gmail.com>\n>>>> wrote:\n>>>>\n>>>>> Hi All,\n>>>>>\n>>>>> Is the trigger interval mentioned in this doc\n>>>>> <http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html>\n>>>>> the same as batch interval in structured streaming? For example I have\na\n>>>>> long running receiver(not kafka) which sends me a real time stream I\nwant\n>>>>> to use window interval, slide interval of 24 hours to create the Tumbling\n>>>>> window effect but I want to process updates every second.\n>>>>>\n>>>>> Thanks!\n>>>>>\n>>>>\n>>>>\n>>>\n>>\n>\n\n",
+        "Thanks for the reply. Yeah I found the same doc and am able to use multiple\ncores in spark-shell, however, when I use pyspark, it appears only to use\none core, I am wondering if this is something I did't configure correctly\nor something supported in pyspark.\n\nOn Fri, Mar 24, 2017 at 3:52 PM, Kadam, Gangadhar (GE Aviation, Non-GE) <\nGangadhar.Kadam@ge.com> wrote:\n\n> In Local Mode  all processes are executed inside a single JVM.\n> Application is started in a local mode by setting master to local,\n> local[*] or local[n].\n> spark.executor.cores and spark.executor.cores are not applicable in the\n> local mode because there is only one embedded executor.\n>\n>\n> In Standalone mode, you need  standalone Spark cluster<\n> https://spark.apache.org/docs/latest/spark-standalone.html>.\n>\n> It requires a master node (can be started using\n> SPARK_HOME/sbin/start-master.sh script) and at least one worker node (can\n> be started using SPARK_HOME/sbin/start-slave.sh script).SparkConf should\n> use master node address to create (spark://host:port)\n>\n> Thanks!\n>\n> Gangadhar\n> From: Li Jin <ice.xelloss@gmail.com<mailto:ice.xelloss@gmail.com>>\n> Date: Friday, March 24, 2017 at 3:43 PM\n> To: \"user@spark.apache.org<mailto:user@spark.apache.org>\" <\n> user@spark.apache.org<mailto:user@spark.apache.org>>\n> Subject: EXT: Multiple cores/executors in Pyspark standalone mode\n>\n> Hi,\n>\n> I am wondering does pyspark standalone (local) mode support multi\n> cores/executors?\n>\n> Thanks,\n> Li\n>\n\n",
+        "Please give me a call and we can discuss.  Shari is now definately moving to \npower trading (not public yet) so we really need to figure out how we are \ngoing to cover all the bases - short and long term.  I will be out the 14th \nthrough the 17th and plan to be in S.A. the last week in March.  It would be \ngrea if we could both be there for the second seminar (looks like the more \npertinent to our issues) but I hate to think of Carol left all by herself \nthat much.  Let's see what we can figure out to make sure everything is \ncovered.\n\n\n\n\nSara Shackleton\n03/01/2000 07:43 AM\nTo: Mark Taylor/HOU/ECT@ECT\ncc: Kaye Ellis/HOU/ECT@ECT \nSubject: Trip to Brazil\n\nMark:  I have been in touch with Sami Arap who is now Andrea Bertone's boss.  \nThere are currently two seminars scheduled in Sao Paulo aimed for the \ncommercial group and the lawyers as follows:\n\n1.  March 17 - Milbank Tweed  (Securitization)\n2.  March 27 - Bracewell (legal issues for contracts)\n\nI think I should attend these and was considering a trip to arrive before the \nstart and after the termination of the seminars (approx March 15 - March \n28).  In the interim I could (hopefully) wrap up financial issues with \nTozzini and address at length physical issues with Tozzini.  Also, I can \nspeak with commercial groups and plan a \"swap\"seminar for the commercial and \nlegal groups (date TBD but probably after the legal seminar in San Antonio).  \nPlease let me know if the timing works for our group in Houston and if you \nhave other thoughts.   Hope all is well.  Sara",
+        "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 09/08/2000 \n08:25 AM ---------------------------\n\n\nShirley Crenshaw\n09/06/2000 12:56 PM\nTo: ludkam@aol.com\ncc:  (bcc: Vince J Kaminski/HOU/ECT)\nSubject: Vince's Travel Itinerary\n\nLudmilla:\n\nHere is Vince's travel itinerary for Sunday to New York.\n\n\n\n                                           DATE 06SEPTEMBER00\n                                           BOOKING REF ZE56TX\n\n                                           KAMINSKI/WINCENTY  S0C0011R10\n\n  ENRON CORP                               KAMINSKI/WINCENTY\n                                           EB 1962\n                                           E-TKT RECEIPT\n                                           **REVIEW UPGRADE BELOW**\n\nSERVICE               DATE  FROM           TO             DEPART  ARRIVE\n\nCONTINENTAL AIRLINES  10SEP HOUSTON TX     NEW YORK NY    539P    1000P\nCO 1672    A          SUN   G.BUSH INTERCO LA GUARDIA\n                            TERMINAL C     TERMINAL M\n                            DINNER                        NON STOP\n                            RESERVATION CONFIRMED         3:21 DURATION\n                  AIRCRAFT: BOEING 737-800\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nHOTEL                 10SEP HILTON MILLENIUM\n                      11SEP 55 CHURCH STREET\n                            NEW YORK, NY 10007\n                            UNITED STATES OF AMERICA\n                            TELEPHONE: 212-693-2001\n                            FAX: 212-571-2316\n                            TELEX: TLX NONE\n                            CONFIRMATION: 3110994415\n                            SINGLE ROOM QUEEN SIZE BED\n                            RATE: RA1 USD 339.00 PER NIGHT\n                            GUARANTEE GIVEN\n                            NONSMOKING KING ENRON CORP\n      TO AVOID BILLING CANCEL 24 HOURS PRIOR TO ARRIVAL HOTEL TIME\n\nCONTINENTAL AIRLINES  11SEP NEW YORK NY    HOUSTON TX     745P    1033P\nCO 1963    A          MON   LA GUARDIA     G.BUSH INTERCO\n                            TERMINAL M     TERMINAL C\n                            SNACK                         NON STOP\n                            RESERVATION CONFIRMED         3:48 DURATION\n                  AIRCRAFT: BOEING 737-300\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nMISCELLANEOUS         10NOV HOUSTON TX\n                      FRI   ** THANK YOU FOR USING THE TAP **\n\nKAMINSKI/WINCENTY  S0C0011R1000\n\nCO  FREQUENT FLYER COWT472179\nSHIRLEY CRENSHAW: 853-5290\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRONASSISTANCE INFO\nCALL SOS: IN U.S 800 523-6586/INTL 215 245-4707 (COLLECT)\n*******************************************\nTHIS IS THE PASSENGER RECEIPT FOR YOUR ELECTRONIC TICKET",
+        "Monday 4/10 looks fine.\n\n\nVince\n\n\n\n\n\n\nMichael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 02:55 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc: Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n\nVince,\n\nI am not totally clear from your note on your availability.  Are you free \nnext Monday (4/10)?\n\nMichael\n\n\n\nVince J Kaminski@ECT\n04/05/2000 02:45 PM\nTo: Michael J Popkin/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Vince J Kaminski/HOU/ECT@ECT, Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n\nMichael,\n\nNext week starting Friday. Outr on Thu and Fri.\n\nVince\n\n\n\nMichael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 12:54 PM\nTo: Vince J Kaminski@ECT\ncc:  \nSubject: Sorry\n\nVince,\n\nSorry about lunch yesterday.  I hope you got the message in time that I was \nout sick.  I'd like to rescheduel.  When are you free?\n\nMichael\n\n\n",
+        "Quentin,\n\nI forwarded your resume to our Sydney office with a request\nto invite you for an introductory interview. I would also like  to \narrange a phone interview with you sometimes next week.\nMy assistant will call you regarding the timing.\n\nVince",
+        "To Team Enron:  We have permission to share the following thoughts accompanying a pledge made to Jeff Skilling by an Enron employee, Michael Brown.  His $500 pledge to Jeff is dedicated as follows:\n\nIn loving memory of\nHayden M. Brown\nJanuary 11, 2000 - October 24, 2000\n\n---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM ---------------------------\nFrom:\tMichael Brown/ENRON@enronXgate on 04/19/2001 05:54 PM\nTo:\tJeff Skilling/Corp/Enron@ENRON\ncc:\t \n\nSubject:\tRE:  MS150\n\nI am sure that you have forwarded this email to a more senior Michael Brown, however, I would be glad to pledge to Jeff's ride this weekend.  You see, last fall my daughter died of Spinal Muscular Atrophy (SMA), she was nine months old and if they find a cure for MS, the cure for SMA will not be far behind as they are similar diseases.\n\nSo I would like to pledge $500 towards the ride in honor of my daughter, Hayden.  All I ask is that when the ride gets really hard, to think of her & all the others like her that will benefit from this ride, then pedal a little harder.\n\nYou can send someone to pick up my check as I am located @ EB 3108F.\n\nSincerely,\nMichael L. Brown\nDirector\nEnron North America\nEast Originatioin\nx31930\n",
+        "tx, rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 10:11 AM\nTo:\tBuy, Rick\nCc:\tGorte, David\nSubject:\tRE: FYI - Project Raven\n\nMy first official involvement (along with Chip)  was a meeting with Brad Richter on 5/23 to discuss the strategy and valuation approach.  This was the EBS' structuring teams introduction as well.   The model that Lehman had prepared only looked at the Managed Hosting business and had a number of questionable assumptions that were pointed out to the corporate development team.  \n\nRAC did not prepare its own numbers.  I had more questions about strategy and understanding the different parts of the transaction.\n\n RAC was not invited to the meeting with Skilling.\n\nThe transaction was being run by EBS Corporate Development - Jeff Donohue was heavily involved from the start of discussions with the company.  Brad Richter, who works for Donohue, was the day to day contact at the end. \n\nDavid\n\n\n\n\n\n\tRick Buy/ENRON@enronXgate 05/30/01 09:20 AM \t   To: David Crews/Enron Communications@Enron Communications  cc: David Gorte/ENRON@enronXgate  Subject: RE: FYI - Project Raven\t\n\n\nWere we involved in transaction? Did we run any numbers. Were we at the meeting with Skilling? Was corporate development involved? Who? Rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 8:25 AM\nTo:\tBuy, Rick\nCc:\tDavid Gorte/HOU/ECT@ENRON\nSubject:\tRE: FYI - Project Raven\n\nI spoke briefly yesterday with Brad Richter who was going to put something more formal together.  I will send that to you when I have it.\n\nJeff and the commercial team had different opinions about the managed hosting side of the business.  Part of EBS liked the technical capabilitiy of PSI Net and felt that this capability would allow EBS to run a managed hosting business (basically outsourcing the operation of company web sites).  Jeff did not like this business and had told EBS last week to not put any growth on this part of the business in their analysis.  \n\nWithout growth on the managed hosting part of the business, EBS needed to find $100 million/year of benefit through the acquisition.  A large part of this would have come from IP Transit which, due to its size, PSI Net would have received free through peering and which EBS currently pays for.  These saving depend a lot on hockey stick projections from EBS' current activities (although MSN would provide a large portion of this savings).  The rest of the benefit was to come through cross selling PSI Net's existing customers and new customers obtained due to the combination of their technical capability and Enron's financial capability.  This increased technical capability is diametrically opposed to Project Reset (the sale of EBS' long haul network to Qwest in return for a series of options on capacity).\n\nPSI Net wanted a quick decision and a purchase of the whole company through a packaged bankruptcy to try and maintain staff and customers.  I have heard comments that they wanted Enron to purchase their consulting arm as well.  This group had approximately 1,000 people and held no particular interest to EBS.  I do not know whether it was the speed of the transaction, the consulting arm, the managed hosting business, or the increased technical direction that killed the transaction.\n\n\n\n\n\n\n\n\n\tRick Buy/ENRON@enronXgate 05/30/01 07:58 AM \t   To: David Crews/Enron Communications@Enron Communications  cc:   Subject: RE: FYI - Project Raven\t\n\n\n\ni would like more detail if we have it tx rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tTuesday, May 29, 2001 11:57 AM\nTo:\tRick Buy/HOU/ECT@ENRON; David Gorte/HOU/ECT@ENRON\nSubject:\tFYI - Project Raven\n\nThe proposed purchase of PSI Net by EBS was officially killed by Skilling this morning.\n\nDavid\n",
+        "yes\n\n -----Original Message-----\nFrom: \tSchoppe, Tammie  \nSent:\tTuesday, October 02, 2001 12:14 PM\nTo:\tKitchen, Louise\nSubject:\tFW: Houston Aeros Tickets\n\nAre you interested?\n -----Original Message-----\nFrom: \tDaw, Nicki  \nSent:\tFriday, September 28, 2001 3:28 PM\nTo:\tSchoppe, Tammie; Brooks, Loretta; Hillis, Kimberly; Phillips, Cathy; Burns, Jennifer; Ford, Sue; Schiller, Marsha; Blackwood, Connie; Burns, Jennifer; Chapman, Kay; Dauterive, Inez; Daw, Nicki; Elbertson, Janette; Ferrari, Kerry; Fleming, Rosalee; Ford, Sue; Harris, Stephanie J; Heathman, Karen K.; Maronge, Bridget; Marshall, Lucy; McVicker, Maureen; Phillips, Cathy; Rapacioli, Marisa; Schiller, Marsha; Stark, Cindy; Taylor, Liz M.; Valencia, Laura; Westbrook, Sharron; Vuittonet, Laura; Zoch, Judy; Venable, Rachael; Harvey, Claudette; Armstrong, Julie; Tijerina, Shirley; Fallon, Susan; Rode, Tina; Clyatt, Julie; Angelos, Megan; Westbrook, Cherylene R.; Black, Tamara Jae; Elbertson, Janette; Watson, Denys; Rangel, Ina; Palmer, Rhonna\nCc:\tTaylor, Liz M.; Tagliarino, David; Williamson, Joannie; Grissom, Greg\nSubject:\tHouston Aeros Tickets\n\n\nMark Frevert has purchased 4 tickets for the Houston Aeros 2001-02 season, for use by all business units, the same way as the Astros tickets.  This is the Aeros first year in the American Hockey League.  Their first game is on October 12th, go to http://www.aeros.com/schedule/ to see the full schedule.\n\nOur seats are located in Section 108, Row R, Seats 1-4.\n\nIf your group in interested in using these tickets, please give me a call (x33497).  \n\nIn addition, I have 3 invitations (each admit 2 people) to the \"Meet the Team Party\" on Tuesday, 2nd October.  If you would like to attend, please let me know.  The party will be held at the Compaq Center from 6pm to 8pm.\n\nRegards,\n\nNicki\n\n\nNicki Daw\nEnron Corp\nTel: 713 853 3497\nFax: 713 646 3330",
+        "Yea, someone should have warned you about the drinks being poured at the\nol' GK.  They tend to be pretty stiff.\n\n...and ...\"Swerve on?\"  I have only a select group of friends who use such\nterminology - you must be one of those cool-guy types!\n\nA night out on Thursday sounds really good right now - maybe I will see\nyou.  Downing Street is one of my favorite low-key spots - a bit of a meat\nmarket at times, but low key nonetheless.  Not to be rude, but to be\nthorough rather, would you describe yourself as blond or more of a\nbrunette?\n\nJen\n\n\nTo:   IMCEANOTES-jennifer+2Esanders/40us/2Eandersen/2Ecom/40ENRON@enron.com\ncc:     (bcc: Jennifer D. Sanders)\nDate: 08/07/2001 03:09 PM\nFrom: Gerald.Nemec@enron.com\nSubject:  RE: Hello!\n\n\nYea, we definitely had our swerve on that night.  I will have to have a\ntalk with that bartender next time, because I was over-served.  Probably\nnot a good idea to start at GK at 6  and stay til 2 in the morning.\n\nThanks for your gracious response.  Let me tell you, I had much debate over\nwhether email was the appropriate communication medium or the phone.  I was\nswung in favor of email to save myself the potential awkwardness of the\nfollowing phone conversation scenario:\n\n     Jennifer:  \"Hello\"\n     Gerald:  \"Hi, Jennifer, this is Gerald.  We met at the Gallant Knight\non Friday\"\n     Jennifer:  \"Who?\"\n\nAs I said Friday night was kind of hazy for me.  I'll probably be meeting\nsome friends for happy hour on Thursday night at Downing Street.  If you\nand your friends are out, why don't you try and stop by.\n\nGerald.\n\n    -----Original Message-----\n   From:   jennifer.d.sanders@us.andersen.com@ENRON\n\n[mailto:IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com]\n\n\n\n   Sent:   Tuesday, August 07, 2001 10:58 AM\n   To:     Nemec, Gerald\n   Subject:  Re: Hello!\n\n\n   Of course I remember you.  GK is really a great spot on Fridays - Looked\n   like you guys were having a good time!\n   I found you quite nice as well, but I am currently dating someone.  No\n   worries.  While I've never been a big fan of unconventional dating\n   practices (i.e. hooking up over the internet), i do fancy your approach\n   of\n   straightforward and clever ingenuity!!  And if you ever want to just\n   have\n   lunch or a drink anyway, let me know.\n\n   Jen\n\n   P.S.   Tell Mike \"no worries\"  as well!\n\n\n\n   To:   Jennifer D. Sanders@ANDERSEN WO\n   cc:\n   Date: 08/06/2001 03:54 PM\n   From: Gerald.Nemec@enron.com\n   Subject:  Hello!\n\n\n   Hi Jennifer,  I don't know if you remember, but we met at Gallant Knight\n   on Friday night.  I was with Mike Robison and the Enron group.  I had\n   never been there before, but that place is alot of fun.  Definition of\n   \"Swanky\".  You are probably wondering, \"Why is this guy emailing me!\"\n   We'll, I will be straightforward and say that I found you very charming.\n   I wanted to see if you would be interested in meeting me for lunch or a\n   drink afterwork!  I apologize in advance if you are dating or involved\n   with someone, but I thought I would take that chance.\n\n   P.S.  Mike gave me your email address, but don't hold it against him.\n   ;-)\n\n   Gerald\n\n\n   **********************************************************************\n   This e-mail is the property of Enron Corp. and/or its relevant affiliate\n   and may contain confidential and privileged material for the sole use of\n   the intended recipient (s). Any review, use, distribution or disclosure\n   by\n   others is strictly prohibited. If you are not the intended recipient (or\n   authorized to receive for the recipient), please contact the sender or\n   reply to Enron Corp. at enron.messaging.administration@enron.com and\n   delete\n   all copies of the message. This e-mail (and any attachments hereto) are\n   not\n   intended to be an offer (or an acceptance) and do not create or evidence\n   a\n   binding and enforceable contract between Enron Corp. (or any of its\n   affiliates) and the intended recipient or any other party, and may not\n   be\n   relied on by anyone as the basis of a contract by estoppel or otherwise.\n   Thank you.\n   **********************************************************************\n\n\n\n\n\n\n\n   *******************Internet Email Confidentiality\n   Footer*******************\n\n\n   Privileged/Confidential Information may be contained in this message.\n   If\n   you are not the addressee indicated in this message (or responsible for\n   delivery of the message to such person), you may not copy or deliver\n   this\n   message to anyone. In such case, you should destroy this message and\n   kindly\n   notify the sender by reply email. Please advise immediately if you or\n   your\n   employer do not consent to Internet email for messages of this kind.\n   Opinions, conclusions and other information in this message that do not\n   relate to the official business of my firm shall be understood as\n   neither\n   given nor endorsed by it.\n\n\n\n\n\n\n\n\n\n*******************Internet Email Confidentiality Footer*******************\n\n\nPrivileged/Confidential Information may be contained in this message.  If\nyou are not the addressee indicated in this message (or responsible for\ndelivery of the message to such person), you may not copy or deliver this\nmessage to anyone. In such case, you should destroy this message and kindly\nnotify the sender by reply email. Please advise immediately if you or your\nemployer do not consent to Internet email for messages of this kind.\nOpinions, conclusions and other information in this message that do not\nrelate to the official business of my firm shall be understood as neither\ngiven nor endorsed by it."
+    ];
+
+    function loadExample(i) {
+        document.getElementById('input').value = exampleMails[i];
+    }
+
+    document.getElementById('example-mails').innerHTML = 'Load Example: ' + exampleMails.map(function (mail, i) {
+        return '<a href="#" onclick="loadExample(' + i + ')" id="example-mail-' + i + '">Example ' + (i + 1) + '</a>';
+    }).join(' | ');
+
+</script>
+</body>
+</html>

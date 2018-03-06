@@ -1,0 +1,277 @@
+{
+  "class_name": "Model",
+  "config": {
+    "name": "model_2",
+    "layers": [
+      {
+        "name": "input_2",
+        "class_name": "InputLayer",
+        "config": {
+          "batch_input_shape": [
+            null,
+            null,
+            101
+          ],
+          "dtype": "float32",
+          "sparse": false,
+          "name": "input_2"
+        },
+        "inbound_nodes": []
+      },
+      {
+        "name": "conv1d_3",
+        "class_name": "Conv1D",
+        "config": {
+          "name": "conv1d_3",
+          "trainable": true,
+          "filters": 64,
+          "kernel_size": [
+            3
+          ],
+          "strides": [
+            1
+          ],
+          "padding": "valid",
+          "dilation_rate": [
+            1
+          ],
+          "activation": "relu",
+          "use_bias": true,
+          "kernel_initializer": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1.0,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "bias_initializer": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "kernel_regularizer": null,
+          "bias_regularizer": null,
+          "activity_regularizer": null,
+          "kernel_constraint": null,
+          "bias_constraint": null
+        },
+        "inbound_nodes": [
+          [
+            [
+              "input_2",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "max_pooling1d_2",
+        "class_name": "MaxPooling1D",
+        "config": {
+          "name": "max_pooling1d_2",
+          "trainable": true,
+          "strides": [
+            3
+          ],
+          "pool_size": [
+            3
+          ],
+          "padding": "valid"
+        },
+        "inbound_nodes": [
+          [
+            [
+              "conv1d_3",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "conv1d_4",
+        "class_name": "Conv1D",
+        "config": {
+          "name": "conv1d_4",
+          "trainable": true,
+          "filters": 128,
+          "kernel_size": [
+            3
+          ],
+          "strides": [
+            1
+          ],
+          "padding": "valid",
+          "dilation_rate": [
+            1
+          ],
+          "activation": "relu",
+          "use_bias": true,
+          "kernel_initializer": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1.0,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "bias_initializer": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "kernel_regularizer": null,
+          "bias_regularizer": null,
+          "activity_regularizer": null,
+          "kernel_constraint": null,
+          "bias_constraint": null
+        },
+        "inbound_nodes": [
+          [
+            [
+              "max_pooling1d_2",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "global_average_pooling1d_2",
+        "class_name": "GlobalAveragePooling1D",
+        "config": {
+          "name": "global_average_pooling1d_2",
+          "trainable": true
+        },
+        "inbound_nodes": [
+          [
+            [
+              "conv1d_4",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "dropout_2",
+        "class_name": "Dropout",
+        "config": {
+          "name": "dropout_2",
+          "trainable": true,
+          "rate": 0.4
+        },
+        "inbound_nodes": [
+          [
+            [
+              "global_average_pooling1d_2",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "dense_3",
+        "class_name": "Dense",
+        "config": {
+          "name": "dense_3",
+          "trainable": true,
+          "units": 32,
+          "activation": "linear",
+          "use_bias": true,
+          "kernel_initializer": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1.0,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "bias_initializer": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "kernel_regularizer": null,
+          "bias_regularizer": null,
+          "activity_regularizer": null,
+          "kernel_constraint": null,
+          "bias_constraint": null
+        },
+        "inbound_nodes": [
+          [
+            [
+              "dropout_2",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "dense_4",
+        "class_name": "Dense",
+        "config": {
+          "name": "dense_4",
+          "trainable": true,
+          "units": 2,
+          "activation": "softmax",
+          "use_bias": true,
+          "kernel_initializer": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1.0,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "bias_initializer": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "kernel_regularizer": null,
+          "bias_regularizer": null,
+          "activity_regularizer": null,
+          "kernel_constraint": null,
+          "bias_constraint": null
+        },
+        "inbound_nodes": [
+          [
+            [
+              "dense_3",
+              0,
+              0,
+              {}
+            ]
+          ]
+        ]
+      }
+    ],
+    "input_layers": [
+      [
+        "input_2",
+        0,
+        0
+      ]
+    ],
+    "output_layers": [
+      [
+        "dense_4",
+        0,
+        0
+      ]
+    ]
+  },
+  "keras_version": "2.0.8",
+  "backend": "tensorflow"
+}

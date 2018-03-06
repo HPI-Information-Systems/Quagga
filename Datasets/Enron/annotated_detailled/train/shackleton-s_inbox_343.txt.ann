@@ -1,0 +1,415 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have received the email below and have only two minor comments concerning\nthe Confirmation.\n\n1.  In the \"Cash Settlement Amount\" paragraph, \"Notional Amount\" should be\nchanged to \"Notional Quantity\" to be consistent.\n\n2.  For sake of avoiding doubt that the payment date is the fifth business\nday following the date on which the product is priced for the last pricing\nday of the prior month, I would amend the existing language of the Payment\nDate(s) to add the following at the end of the sentence:  \"for the\napplicable Determination Period.\"\n\n\tIf you have any questions or comments, please let me know.\n\nKeith E. Graham\nSenior Counsel\nUnited States Filter Corporation\n55 Shuman Boulevard\nNaperville, Illinois 60563\nTelephone No.: (630) 778-4810\nFacsimile Transmission No.: (630) 717-4594\nEmail Address: grahamk@usfilter.com\n\nConfidentiality Note:   This e-mail message and any attachments to it are\nintended only for the named recipients and may contain legally privileged\nand/or confidential information.  If you are not one of the intended\nrecipients, please do not duplicate or forward this e-mail message and\nimmediately delete it from your computer.\n\n\n-----Original Message-----\nFrom: Griffin, Scott [mailto:Scott.Griffin@ENRON.com]\nSent: Tuesday, October 02, 2001 2:08 PM\nTo: fieldst@usfilter.com; grahamk@usfilter.com\nCc: Berkeland, Bill; Shackleton, Sara; Hendry, Brent\nSubject: Revised Contract\n\n\nTom,\n\nAttached below is a revised draft contract and an updated Annex A that\nshould address your legal department's concerns.  If there are\nadditional enquiries, Mr. Graham should speak directly to Sara\nShackleton at 713-853-5620 or Brent Hendry at 713-853-7124 in our legal\ndepartment.\n\n\n\nThanks,\n\nScott Griffin\n\n\n <<Annex A - ENA(03-02-00).doc>>\n<<USFilterfixedbasisswap(10-01-01)1.doc>>\nScott F. Griffin\nEnron Global Markets, LLC\n1400 Smith Street\nHouston, TX 77002-7361\n\nOffice:     (713)-853-0973\nMobile:    (713)-503-5686\n\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1941,
+      "end": 2900,
+      "text": "**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 829,
+      "end": 1159,
+      "text": "Confidentiality Note:   This e-mail message and any attachments to it are\nintended only for the named recipients and may contain legally privileged\nand/or confidential information.  If you are not one of the intended\nrecipients, please do not duplicate or forward this e-mail message and\nimmediately delete it from your computer.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 807,
+      "end": 827,
+      "text": "grahamk@usfilter.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 777,
+      "end": 791,
+      "text": "(630) 717-4594",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 734,
+      "end": 748,
+      "text": "(630) 778-4810",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 672,
+      "end": 718,
+      "text": "55 Shuman Boulevard\nNaperville, Illinois 60563",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 639,
+      "end": 671,
+      "text": "United States Filter Corporation",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 624,
+      "end": 638,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 608,
+      "end": 623,
+      "text": "Keith E. Graham",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 608,
+      "end": 828,
+      "text": "Keith E. Graham\nSenior Counsel\nUnited States Filter Corporation\n55 Shuman Boulevard\nNaperville, Illinois 60563\nTelephone No.: (630) 778-4810\nFacsimile Transmission No.: (630) 717-4594\nEmail Address: grahamk@usfilter.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 1161,
+      "text": "I have received the email below and have only two minor comments concerning\nthe Confirmation.\n\n1.  In the \"Cash Settlement Amount\" paragraph, \"Notional Amount\" should be\nchanged to \"Notional Quantity\" to be consistent.\n\n2.  For sake of avoiding doubt that the payment date is the fifth business\nday following the date on which the product is priced for the last pricing\nday of the prior month, I would amend the existing language of the Payment\nDate(s) to add the following at the end of the sentence:  \"for the\napplicable Determination Period.\"\n\n\tIf you have any questions or comments, please let me know.\n\nKeith E. Graham\nSenior Counsel\nUnited States Filter Corporation\n55 Shuman Boulevard\nNaperville, Illinois 60563\nTelephone No.: (630) 778-4810\nFacsimile Transmission No.: (630) 717-4594\nEmail Address: grahamk@usfilter.com\n\nConfidentiality Note:   This e-mail message and any attachments to it are\nintended only for the named recipients and may contain legally privileged\nand/or confidential information.  If you are not one of the intended\nrecipients, please do not duplicate or forward this e-mail message and\nimmediately delete it from your computer.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1193,
+      "end": 1208,
+      "text": " Griffin, Scott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1217,
+      "end": 1240,
+      "text": "Scott.Griffin@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1257,
+      "end": 1273,
+      "text": "October 02, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1274,
+      "end": 1281,
+      "text": "2:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1286,
+      "end": 1306,
+      "text": "fieldst@usfilter.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1308,
+      "end": 1328,
+      "text": "grahamk@usfilter.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1333,
+      "end": 1348,
+      "text": "Berkeland, Bill",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1350,
+      "end": 1366,
+      "text": "Shackleton, Sara",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1368,
+      "end": 1381,
+      "text": "Hendry, Brent",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1391,
+      "end": 1407,
+      "text": "Revised Contract",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1161,
+      "end": 1408,
+      "text": "-----Original Message-----\nFrom: Griffin, Scott [mailto:Scott.Griffin@ENRON.com]\nSent: Tuesday, October 02, 2001 2:08 PM\nTo: fieldst@usfilter.com; grahamk@usfilter.com\nCc: Berkeland, Bill; Shackleton, Sara; Hendry, Brent\nSubject: Revised Contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1410,
+      "end": 1413,
+      "text": "Tom",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1709,
+      "end": 1722,
+      "text": "Scott Griffin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1700,
+      "end": 1723,
+      "text": "Thanks,\n\nScott Griffin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1728,
+      "end": 1755,
+      "text": "Annex A - ENA(03-02-00).doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1760,
+      "end": 1797,
+      "text": "USFilterfixedbasisswap(10-01-01)1.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1725,
+      "end": 1800,
+      "text": " <<Annex A - ENA(03-02-00).doc>>\n<<USFilterfixedbasisswap(10-01-01)1.doc>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1800,
+      "end": 1816,
+      "text": "Scott F. Griffin",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1817,
+      "end": 1842,
+      "text": "Enron Global Markets, LLC",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1843,
+      "end": 1883,
+      "text": "1400 Smith Street\nHouston, TX 77002-7361",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1897,
+      "end": 1911,
+      "text": "(713)-853-0973",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1923,
+      "end": 1937,
+      "text": "(713)-503-5686",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1800,
+      "end": 1938,
+      "text": "Scott F. Griffin\nEnron Global Markets, LLC\n1400 Smith Street\nHouston, TX 77002-7361\n\nOffice:     (713)-853-0973\nMobile:    (713)-503-5686\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1408,
+      "end": 2900,
+      "text": "\n\nTom,\n\nAttached below is a revised draft contract and an updated Annex A that\nshould address your legal department's concerns.  If there are\nadditional enquiries, Mr. Graham should speak directly to Sara\nShackleton at 713-853-5620 or Brent Hendry at 713-853-7124 in our legal\ndepartment.\n\n\n\nThanks,\n\nScott Griffin\n\n\n <<Annex A - ENA(03-02-00).doc>>\n<<USFilterfixedbasisswap(10-01-01)1.doc>>\nScott F. Griffin\nEnron Global Markets, LLC\n1400 Smith Street\nHouston, TX 77002-7361\n\nOffice:     (713)-853-0973\nMobile:    (713)-503-5686\n\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 9,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 7,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 9,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 9,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 3,
+      "target": 9,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 9,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 23,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 24,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 29,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 29,
+      "target": 30,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 31,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 32,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 33,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23522915.1075858815953.JavaMail.evans@thyme>",
+      "Date": "Fri, 5 Oct 2001 11:54:50 -0700 (PDT)",
+      "From": "grahamk@usfilter.com",
+      "To": "scott.griffin@enron.com, bill.berkeland@enron.com, sara.shackleton@enron.com, \n\tbrent.hendry@enron.com",
+      "Subject": "RE: Revised Contract",
+      "Cc": "fieldst@usfilter.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "fieldst@usfilter.com",
+      "X-From": "\"Graham, Keith\" <GrahamK@USFilter.com>@ENRON <IMCEANOTES-+22Graham+2C+20Keith+22+20+3CGrahamK+40USFilter+2Ecom+3E+40ENRON@ENRON.com>",
+      "X-To": "Griffin, Scott </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SGRIFFI2>, Berkeland, Bill </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BBERKELA>, Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>, Hendry, Brent </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BHENDRY>",
+      "X-cc": "Fields Tom <FieldsT@USFilter.com>",
+      "X-bcc": "",
+      "X-Folder": "\\SSHACKL (Non-Privileged)\\Shackleton, Sara\\Inbox",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "SSHACKL (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_inbox_343.txt"
+}

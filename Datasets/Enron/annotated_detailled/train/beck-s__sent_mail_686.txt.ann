@@ -1,0 +1,167 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have my list at home, but I know that we need Dad's sister Jane and her \nhusband, Homer and Karen, Sarah in Austin (whose kids are independently \ndell-wealthy) and I can't remember who else.  I know that there were ten \ninvitations needed, including Mom and Dad.  The list below plus those in this \nparagraph total 8 - so we must be missing 2.  \n\nI will try to catch David and have him look at the list that I copied from \nMom.  \n\nThanks for these.  I will do invitations this weekend.  Do you have the \naddress for Josephine's House?  And do we have a time?  --Sally\n\n\n\n\n\"Cindy White and Richard Hernandez\" <piropos@austin.rr.com> on 04/19/2001 \n09:01:03 PM\nTo: \"Sally\" <sally.beck@enron.com>\ncc:  \nSubject: finally remembered!\n\n\nSally,\n\nThat tiki person is out according to mom....\n\nFabian and Mary Ann Block\n103 Waterlily Circle\nGeorgetown, TX  78628\n\nBarney and Joann Boyette\n2631 Inwood View\nSan Antonio, TX  78248\n\nBuddy and Nelwyn Hare\n11827 Wink Rd.\nHouston 77024\n\nMary Souter\n13811 Cedar Canyon\nSan Antonio  78231\n\nwho am i forgetting?  I think someone in Victoria?\n\n \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 564,
+      "end": 569,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 574,
+      "text": "I have my list at home, but I know that we need Dad's sister Jane and her \nhusband, Homer and Karen, Sarah in Austin (whose kids are independently \ndell-wealthy) and I can't remember who else.  I know that there were ten \ninvitations needed, including Mom and Dad.  The list below plus those in this \nparagraph total 8 - so we must be missing 2.  \n\nI will try to catch David and have him look at the list that I copied from \nMom.  \n\nThanks for these.  I will do invitations this weekend.  Do you have the \naddress for Josephine's House?  And do we have a time?  --Sally\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 575,
+      "end": 586,
+      "text": "Cindy White",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 591,
+      "end": 608,
+      "text": "Richard Hernandez",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 611,
+      "end": 632,
+      "text": "piropos@austin.rr.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 637,
+      "end": 647,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 649,
+      "end": 660,
+      "text": "09:01:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 666,
+      "end": 671,
+      "text": "Sally",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 674,
+      "end": 694,
+      "text": "sally.beck@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 711,
+      "end": 730,
+      "text": "finally remembered!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 574,
+      "end": 731,
+      "text": "\"Cindy White and Richard Hernandez\" <piropos@austin.rr.com> on 04/19/2001 \n09:01:03 PM\nTo: \"Sally\" <sally.beck@enron.com>\ncc:  \nSubject: finally remembered!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 733,
+      "end": 738,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 731,
+      "end": 1081,
+      "text": "\n\nSally,\n\nThat tiki person is out according to mom....\n\nFabian and Mary Ann Block\n103 Waterlily Circle\nGeorgetown, TX  78628\n\nBarney and Joann Boyette\n2631 Inwood View\nSan Antonio, TX  78248\n\nBuddy and Nelwyn Hare\n11827 Wink Rd.\nHouston 77024\n\nMary Souter\n13811 Cedar Canyon\nSan Antonio  78231\n\nwho am i forgetting?  I think someone in Victoria?\n\n \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2427658.1075856091988.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Apr 2001 03:06:00 -0700 (PDT)",
+      "From": "sally.beck@enron.com",
+      "To": "piropos@austin.rr.com",
+      "Subject": "Re: finally remembered!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "\"Cindy White and Richard Hernandez\" <piropos@austin.rr.com> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Jun2001\\Notes Folders\\'sent mail",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s__sent_mail_686.txt"
+}

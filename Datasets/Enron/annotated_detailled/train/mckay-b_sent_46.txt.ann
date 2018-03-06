@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/mckay-b_sent_46.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<4271071.1075857295862.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Apr 2001 08:41:00 -0700 (PDT)",
+      "From": "brad.mckay@enron.com",
+      "To": "meredithcrow@aol.com",
+      "Subject": "Re: (no subject)",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brad McKay",
+      "X-To": "Meredithcrow@aol.com @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Bradley_McKay_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "McKay-B",
+      "X-FileName": "bmckay.nsf"
+    }
+  },
+  "text": "Mer Mer: I was amazed to see that they had a record of me it must have been \nwhen I went streaking through the RICE campus one late night. The campus \npolice told me that they were the only ones with the file and that no one \nelse would have access. What a complete bummer. Should I call the FBI?",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 296,
+      "text": "Mer Mer: I was amazed to see that they had a record of me it must have been \nwhen I went streaking through the RICE campus one late night. The campus \npolice told me that they were the only ones with the file and that no one \nelse would have access. What a complete bummer. Should I call the FBI?",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

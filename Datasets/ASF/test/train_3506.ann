@@ -1,0 +1,200 @@
+{
+  "wrapper": "plaintext",
+  "text": "It's depends on programming style ,I would like to say setup few rules to\navoid complex code in scala , if needed ask programmer to add proper\ncomments.\n\n\nRegards,\nVaquar khan\n\nOn Jun 8, 2017 4:17 AM, \"JB Data\" <jbdata31@gmail.com> wrote:\n\n> Java is Object langage borned to Data, Python is Data langage borned to\n> Objects or else... Eachone has its owns uses.\n>\n>\n>\n> @JBD <http://jbigdata.fr>\n>\n>\n> 2017-06-08 8:44 GMT+02:00 J\u00c3\u00b6rn Franke <jornfranke@gmail.com>:\n>\n>> A slight advantage of Java is also the tooling that exist around it -\n>> better support by build tools and plugins, advanced static code analysis\n>> (security, bugs, performance) etc.\n>>\n>> On 8. Jun 2017, at 08:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>\n>> wrote:\n>>\n>> What I like about Scala is that it is less ceremonial compared to Java.\n>> Java users claim that Scala is built on Java so the error tracking is very\n>> difficult. Also Scala sits on top of Java and that makes it virtually\n>> depending on Java.\n>>\n>> For me the advantage of Scala is its simplicity and compactness. I can\n>> write a Spark streaming code in Sala pretty fast or import massive RDBMS\n>> table into Hive and table of my design equally very fast using Scala.\n>>\n>> I don't know may be I cannot be bothered writing 100 lines of Java for a\n>> simple query from a table :)\n>>\n>> Dr Mich Talebzadeh\n>>\n>>\n>>\n>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>\n>>\n>>\n>> http://talebzadehmich.wordpress.com\n>>\n>>\n>> *Disclaimer:* Use it at your own risk. Any and all responsibility for\n>> any loss, damage or destruction of data or any other property which may\n>> arise from relying on this email's technical content is explicitly\n>> disclaimed. The author will in no case be liable for any monetary damages\n>> arising from such loss, damage or destruction.\n>>\n>>\n>>\n>> On 8 June 2017 at 00:11, Matt Tenenbaum <matt.tenenbaum@rockyou.com>\n>> wrote:\n>>\n>>> A lot depends on your context as well. If I'm using Spark _for\n>>> analysis_, I frequently use python; it's a starting point, from which I can\n>>> then leverage pandas, matplotlib/seaborn, and other powerful tools\n>>> available on top of python.\n>>>\n>>> If the Spark outputs are the ends themselves, rather than the means to\n>>> further exploration, Scala still feels like the \"first class\"\n>>> language---most thorough feature set, best debugging support, etc.\n>>>\n>>> More crudely: if the eventual goal is a dataset, I tend to prefer Scala;\n>>> if it's a visualization or some summary values, I tend to prefer Python.\n>>>\n>>> Of course, I also agree that this is more theological than technical.\n>>> Appropriately size your grains of salt.\n>>>\n>>> Cheers\n>>> -mt\n>>>\n>>> On Wed, Jun 7, 2017 at 12:39 PM, Bryan Jeffrey <bryan.jeffrey@gmail.com>\n>>> wrote:\n>>>\n>>>> Mich,\n>>>>\n>>>> We use Scala for a large project.  On our team we've set a few\n>>>> standards to ensure readability (we try to avoid excessive use of tuples,\n>>>> use named functions, etc.)  Given these constraints, I find Scala to be\n>>>> very readable, and far easier to use than Java.  The Lambda functionality\n>>>> of Java provides a lot of similar features, but the amount of typing\n>>>> required to set down a small function is excessive at best!\n>>>>\n>>>> Regards,\n>>>>\n>>>> Bryan Jeffrey\n>>>>\n>>>> On Wed, Jun 7, 2017 at 12:51 PM, J\u00c3\u00b6rn Franke <jornfranke@gmail.com>\n>>>> wrote:\n>>>>\n>>>>> I think this is a religious question ;-)\n>>>>> Java is often underestimated, because people are not aware of its\n>>>>> lambda functionality which makes the code very readable. Scala - it depends\n>>>>> who programs it. People coming with the normal Java background write\n>>>>> Java-like code in scala which might not be so good. People from a\n>>>>> functional background write it more functional like - i.e. You have a\nlot\n>>>>> of things in one line of code which can be a curse even for other\n>>>>> functional programmers, especially if the application is distributed\nas in\n>>>>> the case of Spark. Usually no comment is provided and you have - even\nas a\n>>>>> functional programmer - to do a lot of drill down. Python is somehow\n>>>>> similar, but since it has no connection with Java you do not have these\n>>>>> extremes. There it depends more on the community (e.g. Medical, financials)\n>>>>> and skills of people how the code look likes.\n>>>>> However the difficulty comes with the distributed applications behind\n>>>>> Spark which may have unforeseen side effects if the users do not know\nthis,\n>>>>> ie if they have never been used to parallel programming.\n>>>>>\n>>>>> On 7. Jun 2017, at 17:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>\n>>>>> wrote:\n>>>>>\n>>>>>\n>>>>> Hi,\n>>>>>\n>>>>> I am a fan of Scala and functional programming hence I prefer Scala.\n>>>>>\n>>>>> I had a discussion with a hardcore Java programmer and a data\n>>>>> scientist who prefers Python.\n>>>>>\n>>>>> Their view is that in a collaborative work using Scala programming it\n>>>>> is almost impossible to understand someone else's Scala code.\n>>>>>\n>>>>> Hence I was wondering how much truth is there in this statement. Given\n>>>>> that Spark uses Scala as its core development language, what is the general\n>>>>> view on the use of Scala, Python or Java?\n>>>>>\n>>>>> Thanks,\n>>>>>\n>>>>> Dr Mich Talebzadeh\n>>>>>\n>>>>>\n>>>>>\n>>>>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>>>>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>>>>\n>>>>>\n>>>>>\n>>>>> http://talebzadehmich.wordpress.com\n>>>>>\n>>>>>\n>>>>> *Disclaimer:* Use it at your own risk. Any and all responsibility for\n>>>>> any loss, damage or destruction of data or any other property which may\n>>>>> arise from relying on this email's technical content is explicitly\n>>>>> disclaimed. The author will in no case be liable for any monetary damages\n>>>>> arising from such loss, damage or destruction.\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>\n>>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 154,
+      "end": 176,
+      "text": "\nRegards,\nVaquar khan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 177,
+      "text": "It's depends on programming style ,I would like to say setup few rules to\navoid complex code in scala , if needed ask programmer to add proper\ncomments.\n\n\nRegards,\nVaquar khan\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 177,
+      "end": 239,
+      "text": "On Jun 8, 2017 4:17 AM, \"JB Data\" <jbdata31@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 239,
+      "end": 400,
+      "text": "\n> Java is Object langage borned to Data, Python is Data langage borned to\n> Objects or else... Eachone has its owns uses.\n>\n>\n>\n> @JBD <http://jbigdata.fr>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 400,
+      "end": 465,
+      "text": "> 2017-06-08 8:44 GMT+02:00 J\u00c3\u00b6rn Franke <jornfranke@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 465,
+      "end": 657,
+      "text": ">\n>> A slight advantage of Java is also the tooling that exist around it -\n>> better support by build tools and plugins, advanced static code analysis\n>> (security, bugs, performance) etc.\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 657,
+      "end": 740,
+      "text": ">> On 8. Jun 2017, at 08:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1328,
+      "end": 1353,
+      "text": ">>\n>> Dr Mich Talebzadeh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1359,
+      "end": 1592,
+      "text": ">>\n>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>\n>>\n>>\n>> http://talebzadehmich.wordpress.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 740,
+      "end": 1952,
+      "text": ">>\n>> What I like about Scala is that it is less ceremonial compared to Java.\n>> Java users claim that Scala is built on Java so the error tracking is very\n>> difficult. Also Scala sits on top of Java and that makes it virtually\n>> depending on Java.\n>>\n>> For me the advantage of Scala is its simplicity and compactness. I can\n>> write a Spark streaming code in Sala pretty fast or import massive RDBMS\n>> table into Hive and table of my design equally very fast using Scala.\n>>\n>> I don't know may be I cannot be bothered writing 100 lines of Java for a\n>> simple query from a table :)\n>>\n>> Dr Mich Talebzadeh\n>>\n>>\n>>\n>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>\n>>\n>>\n>> http://talebzadehmich.wordpress.com\n>>\n>>\n>> *Disclaimer:* Use it at your own risk. Any and all responsibility for\n>> any loss, damage or destruction of data or any other property which may\n>> arise from relying on this email's technical content is explicitly\n>> disclaimed. The author will in no case be liable for any monetary damages\n>> arising from such loss, damage or destruction.\n>>\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1952,
+      "end": 2034,
+      "text": ">> On 8 June 2017 at 00:11, Matt Tenenbaum <matt.tenenbaum@rockyou.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2783,
+      "end": 2806,
+      "text": ">>>\n>>> Cheers\n>>> -mt\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2034,
+      "end": 2810,
+      "text": ">>\n>>> A lot depends on your context as well. If I'm using Spark _for\n>>> analysis_, I frequently use python; it's a starting point, from which I can\n>>> then leverage pandas, matplotlib/seaborn, and other powerful tools\n>>> available on top of python.\n>>>\n>>> If the Spark outputs are the ends themselves, rather than the means to\n>>> further exploration, Scala still feels like the \"first class\"\n>>> language---most thorough feature set, best debugging support, etc.\n>>>\n>>> More crudely: if the eventual goal is a dataset, I tend to prefer Scala;\n>>> if it's a visualization or some summary values, I tend to prefer Python.\n>>>\n>>> Of course, I also agree that this is more theological than technical.\n>>> Appropriately size your grains of salt.\n>>>\n>>> Cheers\n>>> -mt\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2810,
+      "end": 2898,
+      "text": ">>> On Wed, Jun 7, 2017 at 12:39 PM, Bryan Jeffrey <bryan.jeffrey@gmail.com>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2898,
+      "end": 2913,
+      "text": ">>>\n>>>> Mich,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3360,
+      "end": 3403,
+      "text": ">>>>\n>>>> Regards,\n>>>>\n>>>> Bryan Jeffrey\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2898,
+      "end": 3408,
+      "text": ">>>\n>>>> Mich,\n>>>>\n>>>> We use Scala for a large project.  On our team we've set a few\n>>>> standards to ensure readability (we try to avoid excessive use of tuples,\n>>>> use named functions, etc.)  Given these constraints, I find Scala to be\n>>>> very readable, and far easier to use than Java.  The Lambda functionality\n>>>> of Java provides a lot of similar features, but the amount of typing\n>>>> required to set down a small function is excessive at best!\n>>>>\n>>>> Regards,\n>>>>\n>>>> Bryan Jeffrey\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3408,
+      "end": 3494,
+      "text": ">>>> On Wed, Jun 7, 2017 at 12:51 PM, J\u00c3\u00b6rn Franke <jornfranke@gmail.com>\n>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 3494,
+      "end": 4675,
+      "text": ">>>>\n>>>>> I think this is a religious question ;-)\n>>>>> Java is often underestimated, because people are not aware of its\n>>>>> lambda functionality which makes the code very readable. Scala - it depends\n>>>>> who programs it. People coming with the normal Java background write\n>>>>> Java-like code in scala which might not be so good. People from a\n>>>>> functional background write it more functional like - i.e. You have a\nlot\n>>>>> of things in one line of code which can be a curse even for other\n>>>>> functional programmers, especially if the application is distributed\nas in\n>>>>> the case of Spark. Usually no comment is provided and you have - even\nas a\n>>>>> functional programmer - to do a lot of drill down. Python is somehow\n>>>>> similar, but since it has no connection with Java you do not have these\n>>>>> extremes. There it depends more on the community (e.g. Medical, financials)\n>>>>> and skills of people how the code look likes.\n>>>>> However the difficulty comes with the distributed applications behind\n>>>>> Spark which may have unforeseen side effects if the users do not know\nthis,\n>>>>> ie if they have never been used to parallel programming.\n>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 4675,
+      "end": 4764,
+      "text": ">>>>> On 7. Jun 2017, at 17:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>\n>>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 4770,
+      "end": 4786,
+      "text": ">>>>>\n>>>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 5340,
+      "end": 5391,
+      "text": ">>>>>\n>>>>> Thanks,\n>>>>>\n>>>>> Dr Mich Talebzadeh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 5403,
+      "end": 5657,
+      "text": ">>>>>\n>>>>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>>>>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>>>>\n>>>>>\n>>>>>\n>>>>> http://talebzadehmich.wordpress.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 4764,
+      "end": 6068,
+      "text": ">>>>>\n>>>>>\n>>>>> Hi,\n>>>>>\n>>>>> I am a fan of Scala and functional programming hence I prefer Scala.\n>>>>>\n>>>>> I had a discussion with a hardcore Java programmer and a data\n>>>>> scientist who prefers Python.\n>>>>>\n>>>>> Their view is that in a collaborative work using Scala programming it\n>>>>> is almost impossible to understand someone else's Scala code.\n>>>>>\n>>>>> Hence I was wondering how much truth is there in this statement. Given\n>>>>> that Spark uses Scala as its core development language, what is the general\n>>>>> view on the use of Scala, Python or Java?\n>>>>>\n>>>>> Thanks,\n>>>>>\n>>>>> Dr Mich Talebzadeh\n>>>>>\n>>>>>\n>>>>>\n>>>>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n>>>>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n>>>>>\n>>>>>\n>>>>>\n>>>>> http://talebzadehmich.wordpress.com\n>>>>>\n>>>>>\n>>>>> *Disclaimer:* Use it at your own risk. Any and all responsibility for\n>>>>> any loss, damage or destruction of data or any other property which may\n>>>>> arise from relying on this email's technical content is explicitly\n>>>>> disclaimed. The author will in no case be liable for any monetary damages\n>>>>> arising from such loss, damage or destruction.\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>\n>>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3506"
+}

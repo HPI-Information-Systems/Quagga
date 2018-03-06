@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "I will be participating in Enron=01,s Executive Impact and Influence Progra=\nm on=20\nMay 10-11, 2000.  Prior to attending the program, each participant is asked=\n=20\nto gather input on individual management styles and practices from his/her=\n=20\nimmediate manager, each direct report, and up to eight peers/colleagues.\n\nI value your input and have asked Keilty, Goldsmith & Company to send you a=\n=20\nfeedback packet to provide feedback about my management practices.  Your=20\nanswers will be kept confidential, so please be candid and honest.  Based o=\nn=20\nyour input =01) combined with the input of others =01) I will develop an ac=\ntion=20\nplan to improve.\n\nWhen you receive your packet, it is important that you adhere to the deadli=\nne=20\ndate indicated.  If you have any questions about the program, what feedback=\n=20\nis expected, or how the feedback will be used, please contact Susan Lewis=\n=20\n(713-853-9712) or Dick Amabile (713-853-3972) at Enron Corp.\n\nI appreciate your input.\n\nRegards,\n\nFernley",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1010,
+      "text": "I will be participating in Enron=01,s Executive Impact and Influence Progra=\nm on=20\nMay 10-11, 2000.  Prior to attending the program, each participant is asked=\n=20\nto gather input on individual management styles and practices from his/her=\n=20\nimmediate manager, each direct report, and up to eight peers/colleagues.\n\nI value your input and have asked Keilty, Goldsmith & Company to send you a=\n=20\nfeedback packet to provide feedback about my management practices.  Your=20\nanswers will be kept confidential, so please be candid and honest.  Based o=\nn=20\nyour input =01) combined with the input of others =01) I will develop an ac=\ntion=20\nplan to improve.\n\nWhen you receive your packet, it is important that you adhere to the deadli=\nne=20\ndate indicated.  If you have any questions about the program, what feedback=\n=20\nis expected, or how the feedback will be used, please contact Susan Lewis=\n=20\n(713-853-9712) or Dick Amabile (713-853-3972) at Enron Corp.\n\nI appreciate your input.\n\nRegards,\n\nFernley",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1003,
+      "end": 1010,
+      "text": "Fernley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 993,
+      "end": 1010,
+      "text": "Regards,\n\nFernley",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21160738.1075855875439.JavaMail.evans@thyme>",
+      "Date": "Mon, 3 Apr 2000 04:25:00 -0700 (PDT)",
+      "From": "nicole.scott@enron.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "Executive Impact and Influence Program - Fernley Dyson",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Nicole Scott",
+      "X-To": "Sally Beck",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Europe",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_europe_121.txt"
+}

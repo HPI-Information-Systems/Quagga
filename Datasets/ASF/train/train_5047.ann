@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ronald:\n\nActually, people generally don't search on master ;). The idea is that\nmaster is configured for heavy indexing and then people search on the\nslaves which are configured for heavy query loads (e.g. memory,\nautowarming, whatever may be different). Which is it's own problem\nsince the time the slaves poll won't necessarily be the exact same\nwall-clock time.....\n\nSolrCloud doesn't use replication except in certain recovery\nscenarios. In normal operations, documents are forwarded to each\nreplica and indexed separately on all nodes. That's about the only way\nto support Near Real Time.\n\nBest,\nErick\n\nOn Tue, Jul 25, 2017 at 9:39 AM, Stanonik, Ronald <rstanonik@ucsd.edu> wrote:\n> Bingo!  Right on both counts!  opensearcher was false.  When I changed it to true, then\nI could see that master(searching) and master(replicable) both changed.  And autocommit.maxtime\nis causing a commit on the master.\n>\n> Who uses master(replicable)?  It seems for my simple master/slave configuration master(searching)\nis the relevant version.  Maybe solr cloud uses master(replicable)?\n>\n> Thanks,\n>\n> Ron\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Ronald:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 594,
+      "end": 607,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 608,
+      "end": 686,
+      "text": "On Tue, Jul 25, 2017 at 9:39 AM, Stanonik, Ronald <rstanonik@ucsd.edu> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 608,
+      "text": "Ronald:\n\nActually, people generally don't search on master ;). The idea is that\nmaster is configured for heavy indexing and then people search on the\nslaves which are configured for heavy query loads (e.g. memory,\nautowarming, whatever may be different). Which is it's own problem\nsince the time the slaves poll won't necessarily be the exact same\nwall-clock time.....\n\nSolrCloud doesn't use replication except in certain recovery\nscenarios. In normal operations, documents are forwarded to each\nreplica and indexed separately on all nodes. That's about the only way\nto support Near Real Time.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1077,
+      "end": 1097,
+      "text": ">\n> Thanks,\n>\n> Ron\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 686,
+      "end": 1102,
+      "text": "> Bingo!  Right on both counts!  opensearcher was false.  When I changed it to true, then\nI could see that master(searching) and master(replicable) both changed.  And autocommit.maxtime\nis causing a commit on the master.\n>\n> Who uses master(replicable)?  It seems for my simple master/slave configuration master(searching)\nis the relevant version.  Maybe solr cloud uses master(replicable)?\n>\n> Thanks,\n>\n> Ron\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5047"
+}

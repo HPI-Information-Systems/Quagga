@@ -1,0 +1,15 @@
+Hi,
+I'm trying to use the ManagedSynonyms with *ignoreCase=true*
+It is working fine for the identifying part but the problem comes in
+synonym value
+Suppose i have a synonym *iwatch ==>appleWatch,iWatch*
+If the user query is *iwatch (in any case)*  it was identifying the synonym
+and replace the token with *applewatch and iwatch*  (in lowercase),which i
+didn't want
+I need the synonyms to comes with the same case what i have configured
+i.e. *appleWatch and iWatch*
+Any idea on how to so that .
+
+Thanks,
+Aman Deep Singh
+

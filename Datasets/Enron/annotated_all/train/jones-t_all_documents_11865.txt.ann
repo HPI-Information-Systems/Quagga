@@ -1,0 +1,710 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Bob\nI received the docs this morning and will get back to Mark asap.\nDo you think it possible to have the 5 guest user Id's emailed which will\ngive us access to EnronOnline temporarily as per your earlier suggestion ,\nso that we can become familiar and accustomed to the system.\n\nThanks and kind regards\nIan\n\n\n-----Original Message-----\nFrom: Bob.Shults@enron.com [mailto:Bob.Shults@enron.com]\nSent: Wednesday, May 16, 2001 3:49 PM\nTo: Goldsmith, Ian\nCc: Keith.Clark@enron.com; Sheri.Thomas@enron.com; JCogen Natsource;\nTana.Jones@enron.com; Mark.Greenberg@enron.com\nSubject: RE: Enron on Line\n\n\nI will have the documents emailed today.  In addition please feel free to\ncontact Ms. Anna Gardiner +44 20 7783 4304 (ANNA.GARDINER@ENRON.COM) with\nany operational questions.  We will need to get a customer list from you at\nyour convenience so that we can begin comparing to our counterparty list.\nPlease forward this list to Anna once it is ready.  Thanks\n\n    -----Original Message-----\n   From:   \"Goldsmith, Ian\" <IGoldsmith@NatSourceTullettEurope.com>@ENRON\n\n[mailto:IMCEANOTES-+22Goldsmith+2C+20Ian+22+20+3CIGoldsmith+40NatSourceTulle\nttEurope+2Ecom+3E+40ENRON@ENRON.com]\n\n\n   Sent:   Wednesday, May 16, 2001 8:28 AM\n   To:     Shults, Bob\n   Cc:     Clark, Keith; Thomas, Sheri; JCogen Natsource\n   Subject:  RE: Enron on Line\n\n   Hi Bob\n   Thanks for your help\n   I have left a message on your voice mail.\n   If I dont speak tp you for some reason please send the documentation to\n\n   Ian Goldsmith\n   Natsource - Tullett Europe Ltd\n   Cable House\n   54 - 62 New Broad Street\n   London\n   EC2M  IJJ\n\n   Kind regards\n   Ian\n\n   -----Original Message-----\n   From: Bob.Shults@enron.com [mailto:Bob.Shults@enron.com]\n   Sent: Wednesday, May 16, 2001 2:14 PM\n   To: Goldsmith, Ian\n   Cc: Keith.Clark@enron.com; Sheri.Thomas@enron.com; JCogen Natsource\n   Subject: RE: Enron on Line\n\n\n   Ian,\n\n   I will have 5 guest user Id's emailed which will give you access to\n   EnronOnline temporarily.  I have the documentation ready for your\n   review.\n   Where do you want the documentation sent?\n\n       -----Original Message-----\n      From:   \"Goldsmith, Ian\" <IGoldsmith@NatSourceTullettEurope.com>\n   @ENRON\n\n\n[mailto:IMCEANOTES-+22Goldsmith+2C+20Ian+22+20+3CIGoldsmith+40NatSourceTulle\n   ttEurope+2Ecom+3E+40ENRON@ENRON.com]\n\n\n      Sent:   Wednesday, May 16, 2001 2:22 AM\n      To:     Shults, Bob\n      Cc:     JCogen Natsource; Marc Mellman; Wold, Per-otto; Kandolha,\n   David;\n                Harvey W. Abrahams; Ann, Henry; 'Steve Touchstone (E-mail)'\n      Subject:  RE: Enron on Line\n\n      Hi Bob\n      Thanks for your call\n      I would very much like to have access and see EOL while you work on\n   the\n      documentation\n      I will call you this afternoon on 713 853 0397 to confirm the details\n      etc\n      Kind regards\n      Ian",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 7,
+      "end": 10,
+      "text": "Bob",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 10,
+      "text": "Thanks Bob",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 287,
+      "end": 314,
+      "text": "Thanks and kind regards\nIan",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 311,
+      "end": 314,
+      "text": "Ian",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 317,
+      "text": "Thanks Bob\nI received the docs this morning and will get back to Mark asap.\nDo you think it possible to have the 5 guest user Id's emailed which will\ngive us access to EnronOnline temporarily as per your earlier suggestion ,\nso that we can become familiar and accustomed to the system.\n\nThanks and kind regards\nIan\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 350,
+      "end": 370,
+      "text": "Bob.Shults@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 379,
+      "end": 399,
+      "text": "Bob.Shults@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 418,
+      "end": 430,
+      "text": "May 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 431,
+      "end": 438,
+      "text": "3:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 443,
+      "end": 457,
+      "text": "Goldsmith, Ian",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 462,
+      "end": 483,
+      "text": "Keith.Clark@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 485,
+      "end": 507,
+      "text": "Sheri.Thomas@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 509,
+      "end": 525,
+      "text": "JCogen Natsource",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 527,
+      "end": 547,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 549,
+      "end": 573,
+      "text": "Mark.Greenberg@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 583,
+      "end": 600,
+      "text": "RE: Enron on Line",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 317,
+      "end": 601,
+      "text": "-----Original Message-----\nFrom: Bob.Shults@enron.com [mailto:Bob.Shults@enron.com]\nSent: Wednesday, May 16, 2001 3:49 PM\nTo: Goldsmith, Ian\nCc: Keith.Clark@enron.com; Sheri.Thomas@enron.com; JCogen Natsource;\nTana.Jones@enron.com; Mark.Greenberg@enron.com\nSubject: RE: Enron on Line\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 601,
+      "end": 961,
+      "text": "\n\nI will have the documents emailed today.  In addition please feel free to\ncontact Ms. Anna Gardiner +44 20 7783 4304 (ANNA.GARDINER@ENRON.COM) with\nany operational questions.  We will need to get a customer list from you at\nyour convenience so that we can begin comparing to our counterparty list.\nPlease forward this list to Anna once it is ready.  Thanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1004,
+      "end": 1018,
+      "text": "Goldsmith, Ian",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1021,
+      "end": 1058,
+      "text": "IGoldsmith@NatSourceTullettEurope.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1205,
+      "end": 1217,
+      "text": "May 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1218,
+      "end": 1225,
+      "text": "8:28 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1237,
+      "end": 1248,
+      "text": "Shults, Bob",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1260,
+      "end": 1272,
+      "text": "Clark, Keith",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1274,
+      "end": 1287,
+      "text": "Thomas, Sheri",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1289,
+      "end": 1305,
+      "text": "JCogen Natsource",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1319,
+      "end": 1336,
+      "text": "RE: Enron on Line",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 961,
+      "end": 1337,
+      "text": "    -----Original Message-----\n   From:   \"Goldsmith, Ian\" <IGoldsmith@NatSourceTullettEurope.com>@ENRON\n\n[mailto:IMCEANOTES-+22Goldsmith+2C+20Ian+22+20+3CIGoldsmith+40NatSourceTulle\nttEurope+2Ecom+3E+40ENRON@ENRON.com]\n\n\n   Sent:   Wednesday, May 16, 2001 8:28 AM\n   To:     Shults, Bob\n   Cc:     Clark, Keith; Thomas, Sheri; JCogen Natsource\n   Subject:  RE: Enron on Line\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1344,
+      "end": 1347,
+      "text": "Bob",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1341,
+      "end": 1347,
+      "text": "Hi Bob",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1614,
+      "end": 1633,
+      "text": "Kind regards\n   Ian",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1630,
+      "end": 1633,
+      "text": "Ian",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1337,
+      "end": 1635,
+      "text": "\n   Hi Bob\n   Thanks for your help\n   I have left a message on your voice mail.\n   If I dont speak tp you for some reason please send the documentation to\n\n   Ian Goldsmith\n   Natsource - Tullett Europe Ltd\n   Cable House\n   54 - 62 New Broad Street\n   London\n   EC2M  IJJ\n\n   Kind regards\n   Ian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1674,
+      "end": 1694,
+      "text": "Bob.Shults@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1703,
+      "end": 1723,
+      "text": "Bob.Shults@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1745,
+      "end": 1757,
+      "text": "May 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1758,
+      "end": 1765,
+      "text": "2:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1773,
+      "end": 1787,
+      "text": "Goldsmith, Ian",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1795,
+      "end": 1816,
+      "text": "Keith.Clark@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1818,
+      "end": 1840,
+      "text": "Sheri.Thomas@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1842,
+      "end": 1858,
+      "text": "JCogen Natsource",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1871,
+      "end": 1888,
+      "text": "RE: Enron on Line",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1635,
+      "end": 1889,
+      "text": "   -----Original Message-----\n   From: Bob.Shults@enron.com [mailto:Bob.Shults@enron.com]\n   Sent: Wednesday, May 16, 2001 2:14 PM\n   To: Goldsmith, Ian\n   Cc: Keith.Clark@enron.com; Sheri.Thomas@enron.com; JCogen Natsource\n   Subject: RE: Enron on Line\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1894,
+      "end": 1897,
+      "text": "Ian",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1889,
+      "end": 2097,
+      "text": "\n\n   Ian,\n\n   I will have 5 guest user Id's emailed which will give you access to\n   EnronOnline temporarily.  I have the documentation ready for your\n   review.\n   Where do you want the documentation sent?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 2146,
+      "end": 2160,
+      "text": "Goldsmith, Ian",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 2163,
+      "end": 2200,
+      "text": "IGoldsmith@NatSourceTullettEurope.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 2358,
+      "end": 2370,
+      "text": "May 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2371,
+      "end": 2378,
+      "text": "2:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2393,
+      "end": 2404,
+      "text": "Shults, Bob",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2419,
+      "end": 2435,
+      "text": "JCogen Natsource",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 2437,
+      "end": 2449,
+      "text": "Marc Mellman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2451,
+      "end": 2465,
+      "text": "Wold, Per-otto",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2467,
+      "end": 2485,
+      "text": "Kandolha,\n   David",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2503,
+      "end": 2521,
+      "text": "Harvey W. Abrahams",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2523,
+      "end": 2533,
+      "text": "Ann, Henry",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2536,
+      "end": 2552,
+      "text": "Steve Touchstone",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 2579,
+      "end": 2596,
+      "text": "RE: Enron on Line",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 2097,
+      "end": 2597,
+      "text": "       -----Original Message-----\n      From:   \"Goldsmith, Ian\" <IGoldsmith@NatSourceTullettEurope.com>\n   @ENRON\n\n\n[mailto:IMCEANOTES-+22Goldsmith+2C+20Ian+22+20+3CIGoldsmith+40NatSourceTulle\n   ttEurope+2Ecom+3E+40ENRON@ENRON.com]\n\n\n      Sent:   Wednesday, May 16, 2001 2:22 AM\n      To:     Shults, Bob\n      Cc:     JCogen Natsource; Marc Mellman; Wold, Per-otto; Kandolha,\n   David;\n                Harvey W. Abrahams; Ann, Henry; 'Steve Touchstone (E-mail)'\n      Subject:  RE: Enron on Line\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 2607,
+      "end": 2610,
+      "text": "Bob",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 2604,
+      "end": 2610,
+      "text": "Hi Bob",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 2831,
+      "end": 2853,
+      "text": "Kind regards\n      Ian",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 2850,
+      "end": 2853,
+      "text": "Ian",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 2597,
+      "end": 2853,
+      "text": "\n      Hi Bob\n      Thanks for your call\n      I would very much like to have access and see EOL while you work on\n   the\n      documentation\n      I will call you this afternoon on 713 853 0397 to confirm the details\n      etc\n      Kind regards\n      Ian",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 19,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 11,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 25,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 26,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 23,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 32,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 60,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 63,
+      "target": 46,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 46,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 46,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 44,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 38,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 34,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 35,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 50,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 41,
+      "target": 51,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 40,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 26,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 39,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3668976.1075847377883.JavaMail.evans@thyme>",
+      "Date": "Thu, 17 May 2001 00:32:00 -0700 (PDT)",
+      "From": "igoldsmith@natsourcetulletteurope.com",
+      "To": "bob.shults@enron.com",
+      "Subject": "RE: Enron on Line",
+      "Cc": "keith.clark@enron.com, sheri.thomas@enron.com, jcogen@natsource.com, \n\ttana.jones@enron.com, mark.greenberg@enron.com, \n\tdkandolha@natsourcetulletteurope.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "keith.clark@enron.com, sheri.thomas@enron.com, jcogen@natsource.com, \n\ttana.jones@enron.com, mark.greenberg@enron.com, \n\tdkandolha@natsourcetulletteurope.com",
+      "X-From": "\"Goldsmith, Ian\" <IGoldsmith@NatSourceTullettEurope.com>",
+      "X-To": "\"'Bob.Shults@enron.com'\" <Bob.Shults@enron.com>",
+      "X-cc": "Keith.Clark@enron.com, Sheri.Thomas@enron.com, JCogen Natsource\t <jcogen@natsource.com>, Tana.Jones@enron.com, Mark.Greenberg@enron.com, \"Kandolha, David\" <DKandolha@NatSourceTullettEurope.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_11865.txt"
+}

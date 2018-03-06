@@ -1,0 +1,208 @@
+{
+  "wrapper": "plaintext",
+  "text": "I think creating poll for ES ppl with question: \"How do you run master \nnodes? A) on some data nodes B) dedicated node C) dedicated server\" \nwould give some insight how big issue is having ZK and if hiding ZK \nbehind Solr would do any good.\n\nEmir\n\n\nOn 25.04.2017 23:13, Otis Gospodneti\u00c4\u2021 wrote:\n> Hi Erick,\n>\n> Could one run *only* embedded ZK on some SolrCloud nodes, sans any data?\n> It would be equivalent of dedicated Elasticsearch nodes, which is the\n> current ES best practice/recommendation.  I've never heard of anyone being\n> scared of running 3 dedicated master ES nodes, so if SolrCloud offered the\n> same, perhaps even completely hiding ZK from users, that would present the\n> same level of complexity (err, simplicity) ES users love about ES.  Don't\n> want to talk about SolrCloud vs. ES here at all, just trying to share\n> observations since we work a lot with both Elasticsearch and Solr(Cloud) at\n> Sematext.\n>\n> Otis\n> --\n> Monitoring - Log Management - Alerting - Anomaly Detection\n> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n>\n>\n> On Tue, Apr 25, 2017 at 4:03 PM, Erick Erickson <erickerickson@gmail.com>\n> wrote:\n>\n>> bq: I read somewhere that you should run your own ZK externally, and\n>> turn off SolrCloud\n>>\n>> this is a bit confused. \"turn off SolrCloud\" has nothing to do with\n>> running ZK internally or externally. SolrCloud requires ZK, whether\n>> internal or external is irrelevant to the term SolrCloud.\n>>\n>> On to running an external ZK ensemble. Mostly, that's administratively\n>> by far the safest. If you're running the embedded ZK, then the ZK\n>> instances are tied to your Solr instance. Now if, for any reason, your\n>> Solr nodes hosting ZK go down, you lose ZK quorum, can't index.\n>> etc....\n>>\n>> Now consider a cluster with, say, 100 Solr nodes. Not talking replicas\n>> in a collection here, I'm talking 100 physical machines. BTW, this is\n>> not even close to the largest ones I'm aware of. Which three (for\n>> example) are running ZK? If I want to upgrade Solr I better make\n>> really sure not to upgrade to of the Solr instances running ZK at once\n>> if I want my cluster to keep going....\n>>\n>> And, ZK is sensitive to system resources. So putting ZK on a Solr node\n>> then hosing, say, updates to my Solr cluster can cause ZK to be\n>> starved for resources.\n>>\n>> This is one of those deals where _functionally_, it's OK to run\n>> embedded ZK, but administratively it's suspect.\n>>\n>> Best,\n>> Erick\n>>\n>> On Tue, Apr 25, 2017 at 10:49 AM, Rick Leir <rleir@leirtech.com> wrote:\n>>> All,\n>>> I read somewhere that you should run your own ZK externally, and turn\n>> off SolrCloud. Comments please!\n>>> Rick\n>>>\n>>> On April 25, 2017 1:33:31 PM EDT, \"Otis Gospodneti\u00c4\u2021\" <\n>> otis.gospodnetic@gmail.com> wrote:\n>>>> This is interesting - that ZK is seen as adding so much complexity that\n>>>> it\n>>>> turns people off!\n>>>>\n>>>> If you think about it, Elasticsearch users have no choice -- except\n>>>> their\n>>>> \"ZK\" is built-in, hidden, so one doesn't have to think about it, at\n>>>> least\n>>>> not initially.\n>>>>\n>>>> I think I saw mentions (maybe on user or dev MLs or JIRA) about\n>>>> potentially, in the future, there only being SolrCloud mode (and\n>>>> dropping\n>>>> SolrCloud name in favour of Solr).  If the above comment from Charlie\n>>>> about\n>>>> complexity is really true for Solr users, and if that's the reason why\n>>>> we\n>>>> see so few people running SolrCloud today, perhaps that's a good signal\n>>>> for\n>>>> Solr development/priorities in terms of ZK\n>>>> hiding/automating/embedding/something...\n>>>>\n>>>> Otis\n>>>> --\n>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n>>>>\n>>>>\n>>>> On Tue, Apr 25, 2017 at 4:50 AM, Charlie Hull <charlie@flax.co.uk>\n>>>> wrote:\n>>>>\n>>>>> On 24/04/2017 15:58, Otis Gospodneti\u00c4\u2021 wrote:\n>>>>>\n>>>>>> Hi,\n>>>>>>\n>>>>>> I'm really really surprised here.  Back in 2013 we did a poll to\nsee\n>>>> how\n>>>>>> people were running Master-Slave (4.x back then) and SolrCloud was\na\n>>>> bit\n>>>>>> more popular than Master-Slave:\n>>>>>> https://sematext.com/blog/2013/02/25/poll-solr-cloud-or-not/\n>>>>>>\n>>>>>> Here is a fresh new poll with pretty much the same question - How\ndo\n>>>> you\n>>>>>> run your Solr?\n>>>> <https://twitter.com/sematext/status/854927627748036608> -\n>>>>>> and guess what?  SolrCloud is *not* at all a lot more prevalent than\n>>>>>> Master-Slave.\n>>>>>>\n>>>>>> We definitely see a lot more SolrCloud used by Sematext Solr\n>>>>>> consulting/support customers, so I'm a bit surprised by the results\n>>>> of\n>>>>>> this\n>>>>>> poll so far.\n>>>>>>\n>>>>> I'm not particularly surprised. We regularly see clients either with\n>>>>> single nodes or elderly versions of Solr (or even Lucene). Zookeeper\n>>>> is\n>>>>> still seen as a bit of a black art. Once you move from 'how do I run\n>>>> a\n>>>>> search engine' to 'how do I manage a cluster of servers with scaling\n>>>> for\n>>>>> performance/resilience/failover' you're looking at a completely new\n>>>> set\n>>>>> of skills and challenges, which I think puts many people off.\n>>>>>\n>>>>> Charlie\n>>>>>\n>>>>>> Is anyone else surprised by this?  See https://twitter.com/sematext/\n>>>>>> status/854927627748036608\n>>>>>>\n>>>>>> Thanks,\n>>>>>> Otis\n>>>>>> --\n>>>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>>>> Solr & Elasticsearch Consulting Support Training -\n>>>> http://sematext.com/\n>>>>>>\n>>>>>> ---\n>>>>>> This email has been checked for viruses by AVG.\n>>>>>> http://www.avg.com\n>>>>>>\n>>>>>>\n>>>>> --\n>>>>> Charlie Hull\n>>>>> Flax - Open Source Enterprise Search\n>>>>>\n>>>>> tel/fax: +44 (0)8700 118334\n>>>>> mobile:  +44 (0)7767 825828\n>>>>> web: www.flax.co.uk\n>>>>>\n>>> --\n>>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nMonitoring * Alerting * Anomaly Detection * Centralized Log Management\nSolr & Elasticsearch Support * http://sematext.com/\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 241,
+      "end": 247,
+      "text": "\nEmir\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 249,
+      "text": "I think creating poll for ES ppl with question: \"How do you run master \nnodes? A) on some data nodes B) dedicated node C) dedicated server\" \nwould give some insight how big issue is having ZK and if hiding ZK \nbehind Solr would do any good.\n\nEmir\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 249,
+      "end": 295,
+      "text": "On 25.04.2017 23:13, Otis Gospodneti\u00c4\u2021 wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 295,
+      "end": 307,
+      "text": "> Hi Erick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 925,
+      "end": 934,
+      "text": ">\n> Otis\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 934,
+      "end": 1074,
+      "text": "> --\n> Monitoring - Log Management - Alerting - Anomaly Detection\n> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 295,
+      "end": 1078,
+      "text": "> Hi Erick,\n>\n> Could one run *only* embedded ZK on some SolrCloud nodes, sans any data?\n> It would be equivalent of dedicated Elasticsearch nodes, which is the\n> current ES best practice/recommendation.  I've never heard of anyone being\n> scared of running 3 dedicated master ES nodes, so if SolrCloud offered the\n> same, perhaps even completely hiding ZK from users, that would present the\n> same level of complexity (err, simplicity) ES users love about ES.  Don't\n> want to talk about SolrCloud vs. ES here at all, just trying to share\n> observations since we work a lot with both Elasticsearch and Solr(Cloud) at\n> Sematext.\n>\n> Otis\n> --\n> Monitoring - Log Management - Alerting - Anomaly Detection\n> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1078,
+      "end": 1163,
+      "text": "> On Tue, Apr 25, 2017 at 4:03 PM, Erick Erickson <erickerickson@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2457,
+      "end": 2478,
+      "text": ">>\n>> Best,\n>> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1163,
+      "end": 2481,
+      "text": ">\n>> bq: I read somewhere that you should run your own ZK externally, and\n>> turn off SolrCloud\n>>\n>> this is a bit confused. \"turn off SolrCloud\" has nothing to do with\n>> running ZK internally or externally. SolrCloud requires ZK, whether\n>> internal or external is irrelevant to the term SolrCloud.\n>>\n>> On to running an external ZK ensemble. Mostly, that's administratively\n>> by far the safest. If you're running the embedded ZK, then the ZK\n>> instances are tied to your Solr instance. Now if, for any reason, your\n>> Solr nodes hosting ZK go down, you lose ZK quorum, can't index.\n>> etc....\n>>\n>> Now consider a cluster with, say, 100 Solr nodes. Not talking replicas\n>> in a collection here, I'm talking 100 physical machines. BTW, this is\n>> not even close to the largest ones I'm aware of. Which three (for\n>> example) are running ZK? If I want to upgrade Solr I better make\n>> really sure not to upgrade to of the Solr instances running ZK at once\n>> if I want my cluster to keep going....\n>>\n>> And, ZK is sensitive to system resources. So putting ZK on a Solr node\n>> then hosing, say, updates to my Solr cluster can cause ZK to be\n>> starved for resources.\n>>\n>> This is one of those deals where _functionally_, it's OK to run\n>> embedded ZK, but administratively it's suspect.\n>>\n>> Best,\n>> Erick\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2481,
+      "end": 2556,
+      "text": ">> On Tue, Apr 25, 2017 at 10:49 AM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2556,
+      "end": 2565,
+      "text": ">>> All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2674,
+      "end": 2683,
+      "text": ">>> Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2556,
+      "end": 2687,
+      "text": ">>> All,\n>>> I read somewhere that you should run your own ZK externally, and turn\n>> off SolrCloud. Comments please!\n>>> Rick\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2687,
+      "end": 2785,
+      "text": ">>> On April 25, 2017 1:33:31 PM EDT, \"Otis Gospodneti\u00c4\u2021\" <\n>> otis.gospodnetic@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3594,
+      "end": 3609,
+      "text": ">>>>\n>>>> Otis\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 3609,
+      "end": 3758,
+      "text": ">>>> --\n>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2785,
+      "end": 3768,
+      "text": ">>>> This is interesting - that ZK is seen as adding so much complexity that\n>>>> it\n>>>> turns people off!\n>>>>\n>>>> If you think about it, Elasticsearch users have no choice -- except\n>>>> their\n>>>> \"ZK\" is built-in, hidden, so one doesn't have to think about it, at\n>>>> least\n>>>> not initially.\n>>>>\n>>>> I think I saw mentions (maybe on user or dev MLs or JIRA) about\n>>>> potentially, in the future, there only being SolrCloud mode (and\n>>>> dropping\n>>>> SolrCloud name in favour of Solr).  If the above comment from Charlie\n>>>> about\n>>>> complexity is really true for Solr users, and if that's the reason why\n>>>> we\n>>>> see so few people running SolrCloud today, perhaps that's a good signal\n>>>> for\n>>>> Solr development/priorities in terms of ZK\n>>>> hiding/automating/embedding/something...\n>>>>\n>>>> Otis\n>>>> --\n>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>> Solr & Elasticsearch Consulting Support Training - http://sematext.com/\n>>>>\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 3768,
+      "end": 3852,
+      "text": ">>>> On Tue, Apr 25, 2017 at 4:50 AM, Charlie Hull <charlie@flax.co.uk>\n>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 3852,
+      "end": 3909,
+      "text": ">>>>\n>>>>> On 24/04/2017 15:58, Otis Gospodneti\u00c4\u2021 wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 3909,
+      "end": 3926,
+      "text": ">>>>>\n>>>>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 5292,
+      "end": 5326,
+      "text": ">>>>>>\n>>>>>> Thanks,\n>>>>>> Otis\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 5326,
+      "end": 5504,
+      "text": ">>>>>> --\n>>>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>>>> Solr & Elasticsearch Consulting Support Training -\n>>>> http://sematext.com/\n>>>>>>\n>>>>>> ---\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 5599,
+      "end": 5783,
+      "text": ">>>>> --\n>>>>> Charlie Hull\n>>>>> Flax - Open Source Enterprise Search\n>>>>>\n>>>>> tel/fax: +44 (0)8700 118334\n>>>>> mobile:  +44 (0)7767 825828\n>>>>> web: www.flax.co.uk\n>>>>>\n>>> --\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 3909,
+      "end": 5985,
+      "text": ">>>>>\n>>>>>> Hi,\n>>>>>>\n>>>>>> I'm really really surprised here.  Back in 2013 we did a poll to\nsee\n>>>> how\n>>>>>> people were running Master-Slave (4.x back then) and SolrCloud was\na\n>>>> bit\n>>>>>> more popular than Master-Slave:\n>>>>>> https://sematext.com/blog/2013/02/25/poll-solr-cloud-or-not/\n>>>>>>\n>>>>>> Here is a fresh new poll with pretty much the same question - How\ndo\n>>>> you\n>>>>>> run your Solr?\n>>>> <https://twitter.com/sematext/status/854927627748036608> -\n>>>>>> and guess what?  SolrCloud is *not* at all a lot more prevalent than\n>>>>>> Master-Slave.\n>>>>>>\n>>>>>> We definitely see a lot more SolrCloud used by Sematext Solr\n>>>>>> consulting/support customers, so I'm a bit surprised by the results\n>>>> of\n>>>>>> this\n>>>>>> poll so far.\n>>>>>>\n>>>>> I'm not particularly surprised. We regularly see clients either with\n>>>>> single nodes or elderly versions of Solr (or even Lucene). Zookeeper\n>>>> is\n>>>>> still seen as a bit of a black art. Once you move from 'how do I run\n>>>> a\n>>>>> search engine' to 'how do I manage a cluster of servers with scaling\n>>>> for\n>>>>> performance/resilience/failover' you're looking at a completely new\n>>>> set\n>>>>> of skills and challenges, which I think puts many people off.\n>>>>>\n>>>>> Charlie\n>>>>>\n>>>>>> Is anyone else surprised by this?  See https://twitter.com/sematext/\n>>>>>> status/854927627748036608\n>>>>>>\n>>>>>> Thanks,\n>>>>>> Otis\n>>>>>> --\n>>>>>> Monitoring - Log Management - Alerting - Anomaly Detection\n>>>>>> Solr & Elasticsearch Consulting Support Training -\n>>>> http://sematext.com/\n>>>>>>\n>>>>>> ---\n>>>>>> This email has been checked for viruses by AVG.\n>>>>>> http://www.avg.com\n>>>>>>\n>>>>>>\n>>>>> --\n>>>>> Charlie Hull\n>>>>> Flax - Open Source Enterprise Search\n>>>>>\n>>>>> tel/fax: +44 (0)8700 118334\n>>>>> mobile:  +44 (0)7767 825828\n>>>>> web: www.flax.co.uk\n>>>>>\n>>> --\n>>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nMonitoring * Alerting * Anomaly Detection * Centralized Log Management\nSolr & Elasticsearch Support * http://sematext.com/\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2801"
+}

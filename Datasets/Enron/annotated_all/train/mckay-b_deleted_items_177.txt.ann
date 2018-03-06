@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/mckay-b_deleted_items_177.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<30828001.1075851570094.JavaMail.evans@thyme>",
+      "Date": "Thu, 18 Oct 2001 07:20:33 -0700 (PDT)",
+      "From": "feedback@intcx.com",
+      "To": "iceuserslist@list.intcx.com",
+      "Subject": "IntercontinentalExchange is UP",
+      "Cc": "sales@intcx.com, icehelpdesk@intcx.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "Bcc": "sales@intcx.com, icehelpdesk@intcx.com",
+      "X-From": "IntercontinentalExchange <feedback@intcx.com>",
+      "X-To": "iceuserslist@list.intcx.com",
+      "X-cc": "sales@intcx.com, icehelpdesk@intcx.com",
+      "X-bcc": "",
+      "X-Folder": "\\BMCKAY (Non-Privileged)\\Deleted Items",
+      "X-Origin": "MCKAY-B",
+      "X-FileName": "BMCKAY (Non-Privileged).pst"
+    }
+  },
+  "text": "\nAt 10:13 EST the IntercontinentalExchange System is available for trading.\n\n\n\n\n\n\n\n\n\n\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                        ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1111,
+      "text": "\nAt 10:13 EST the IntercontinentalExchange System is available for trading.\n\n\n\n\n\n\n\n\n\n\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                                                                           =\n                        ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

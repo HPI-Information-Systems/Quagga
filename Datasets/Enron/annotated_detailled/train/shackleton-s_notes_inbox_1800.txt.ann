@@ -1,0 +1,258 @@
+{
+  "wrapper": "plaintext",
+  "text": "Lance is the person to speak to , he has been working with Linklaters ( John \nGoodwin ) when the company is handed over to us it will go on the database .\nIf you can not find Lance speak to Justin Boyd who is working on the \nintegration of MG into EEL .\nMichael\n\n\nFrom: Sara Shackleton on 22/05/2000 14:59 CDT\nTo: Michael R Brown/LON/ECT@ECT\ncc:  \n\nSubject: Enron Investments plc (\"EIplc\") - new brokerage account\n\n\n----- Forwarded by Sara Shackleton/HOU/ECT on 05/22/2000 02:59 PM -----\n\n\tSara Shackleton\n\t05/22/2000 11:12 AM\n\t\t \n\t\t To: Mark Elliott/LON/ECT, Paul Simons/LON/ECT, Lance Schuler-Legal/HOU/ECT\n\t\t cc: Sheila Glover/HOU/ECT@ECT, Susan Flynn/HOU/ECT@ECT\n\t\t Subject: Enron Investments plc (\"EIplc\") - new brokerage account\n\nAll:  Sheila and I have been trying to coordinate the account(s) to receive \nthe shares of the above entity.  I can't locate the company on the corporate \ndatabase.  My understanding is that CF First Boston will receive the shares \nand then transfer to our Morgan account (upon our instructions).  \n\nCF First Boston has an Enron Corp. account (pre-1994) and can open a \nsubaccount for EIplc.  However, two (2) items are required:\n(1)  a letter of beneficiary ownership\n(2)  Is EIplc a regulated UK company?  If the answer is no, then it (or the \ncompany reporting for it) must provide a net  asset valuation\n\nHas someone in London already handled these issues?  If not, can one of you \nsupply me with that information?  We have spoken with Andrew Bracken in \nLondon (0207 888 3196) at andrew.bracken@csfb.com\n\nThanks for your help.  Sara\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 254,
+      "end": 261,
+      "text": "Michael",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 264,
+      "text": "Lance is the person to speak to , he has been working with Linklaters ( John \nGoodwin ) when the company is handed over to us it will go on the database .\nIf you can not find Lance speak to Justin Boyd who is working on the \nintegration of MG into EEL .\nMichael\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 270,
+      "end": 285,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 289,
+      "end": 299,
+      "text": "22/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 300,
+      "end": 309,
+      "text": "14:59 CDT",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 314,
+      "end": 329,
+      "text": "Michael R Brown",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 358,
+      "end": 413,
+      "text": "Enron Investments plc (\"EIplc\") - new brokerage account",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 264,
+      "end": 414,
+      "text": "From: Sara Shackleton on 22/05/2000 14:59 CDT\nTo: Michael R Brown/LON/ECT@ECT\ncc:  \n\nSubject: Enron Investments plc (\"EIplc\") - new brokerage account\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 435,
+      "end": 450,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 462,
+      "end": 472,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 473,
+      "end": 481,
+      "text": "02:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 414,
+      "end": 488,
+      "text": "\n\n----- Forwarded by Sara Shackleton/HOU/ECT on 05/22/2000 02:59 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 490,
+      "end": 505,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 507,
+      "end": 517,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 518,
+      "end": 526,
+      "text": "11:12 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 538,
+      "end": 550,
+      "text": "Mark Elliott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 560,
+      "end": 571,
+      "text": "Paul Simons",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 581,
+      "end": 594,
+      "text": "Lance Schuler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 616,
+      "end": 629,
+      "text": "Sheila Glover",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 643,
+      "end": 654,
+      "text": "Susan Flynn",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 679,
+      "end": 734,
+      "text": "Enron Investments plc (\"EIplc\") - new brokerage account",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 488,
+      "end": 735,
+      "text": "\n\tSara Shackleton\n\t05/22/2000 11:12 AM\n\t\t \n\t\t To: Mark Elliott/LON/ECT, Paul Simons/LON/ECT, Lance Schuler-Legal/HOU/ECT\n\t\t cc: Sheila Glover/HOU/ECT@ECT, Susan Flynn/HOU/ECT@ECT\n\t\t Subject: Enron Investments plc (\"EIplc\") - new brokerage account\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 735,
+      "end": 1576,
+      "text": "\nAll:  Sheila and I have been trying to coordinate the account(s) to receive \nthe shares of the above entity.  I can't locate the company on the corporate \ndatabase.  My understanding is that CF First Boston will receive the shares \nand then transfer to our Morgan account (upon our instructions).  \n\nCF First Boston has an Enron Corp. account (pre-1994) and can open a \nsubaccount for EIplc.  However, two (2) items are required:\n(1)  a letter of beneficiary ownership\n(2)  Is EIplc a regulated UK company?  If the answer is no, then it (or the \ncompany reporting for it) must provide a net  asset valuation\n\nHas someone in London already handled these issues?  If not, can one of you \nsupply me with that information?  We have spoken with Andrew Bracken in \nLondon (0207 888 3196) at andrew.bracken@csfb.com\n\nThanks for your help.  Sara\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1569,
+      "end": 1573,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1546,
+      "end": 1574,
+      "text": "Thanks for your help.  Sara\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 24,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4193578.1075844510176.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 May 2000 01:45:00 -0700 (PDT)",
+      "From": "michael.brown@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: Enron Investments plc (\"EIplc\") - new brokerage account",
+      "Cc": "justin.boyd@enron.com, lance.schuler-legal@enron.com, paul.simons@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "justin.boyd@enron.com, lance.schuler-legal@enron.com, paul.simons@enron.com",
+      "X-From": "Michael R Brown",
+      "X-To": "Sara Shackleton",
+      "X-cc": "Justin Boyd, Lance Schuler-Legal, Paul Simons",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_notes_inbox_1800.txt"
+}

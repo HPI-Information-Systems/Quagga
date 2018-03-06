@@ -1,0 +1,259 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI\n\nVince\n\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 11/08/2000 \n10:38 AM ---------------------------\n\n\nEnergyWriter@aol.com on 11/08/2000 02:19:55 AM\nPlease respond to EnergyWriter@aol.com\nTo: EnergyWriter@aol.com\ncc:  \nSubject: Natural Gas Storage research\n\n\nI am working on a report aimed at Energy Marketers that will examine\nNatural Gas Storage: Effects on Energy Trading. I am looking for people\nwho can talk about the importance of this subject to power marketers.\nPlease contact me if you can inform me on any of the following subjects.\n\nI am interested in exploring the following issues:\n1. Storage process: transportation, injection, withdrawal\n2. Are all storage facilities connected to pipelines?\n3. Description of types of storage facilities: salt caverns,\nabove-ground tanks, inactive underground volcano, others\n4. Problems that limit underground reservoir effectiveness\n5. Historical storage data\n6. Contributing factors to storage levels: weather, generation demand,\nreliability concerns\n7. National map of storage facilities and capacities\n8. Terms definitions: base gas, working gas, underground storage,\ntraditional storage, salt caverns, other relevant terms\n9. Impact of storage fluctuations on prices and energy trading\n10. Safety issues of natural gas storage\n11. Seasonal storage trends\n12. Total amount of national storage capacity\n13.  Future storage capacity needs\n14. LNG as storage alternative\n15. Technology improvements\n16. Who regulated natural gas storage?\n17. List of storage facility owners\n\nIf you are involved with natural gas storage, or are an energy trader\nwho is affected by natural gas storage, please contact me by November\n13th. Thank you in advance for your help!\n\nBarbara Drazga\nIndependent Journalist\nDenver, Colo.\nTel: 303-369-3533\nFax: 303-369-3510\nEnergyWriter@aol.com\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 10,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 12,
+      "text": "FYI\n\nVince\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 48,
+      "end": 64,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 76,
+      "end": 86,
+      "text": "11/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 88,
+      "end": 96,
+      "text": "10:38 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 12,
+      "end": 125,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 11/08/2000 \n10:38 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 127,
+      "end": 147,
+      "text": "EnergyWriter@aol.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 192,
+      "end": 212,
+      "text": "EnergyWriter@aol.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 217,
+      "end": 237,
+      "text": "EnergyWriter@aol.com",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 253,
+      "end": 281,
+      "text": "Natural Gas Storage research",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 151,
+      "end": 161,
+      "text": "11/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 162,
+      "end": 173,
+      "text": "02:19:55 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 125,
+      "end": 282,
+      "text": "\n\nEnergyWriter@aol.com on 11/08/2000 02:19:55 AM\nPlease respond to EnergyWriter@aol.com\nTo: EnergyWriter@aol.com\ncc:  \nSubject: Natural Gas Storage research\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1734,
+      "end": 1748,
+      "text": "Barbara Drazga",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1749,
+      "end": 1771,
+      "text": "Independent Journalist",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1772,
+      "end": 1785,
+      "text": "Denver, Colo.",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1791,
+      "end": 1803,
+      "text": "303-369-3533",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1809,
+      "end": 1821,
+      "text": "303-369-3510",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1822,
+      "end": 1842,
+      "text": "EnergyWriter@aol.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1734,
+      "end": 1843,
+      "text": "Barbara Drazga\nIndependent Journalist\nDenver, Colo.\nTel: 303-369-3533\nFax: 303-369-3510\nEnergyWriter@aol.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 282,
+      "end": 1845,
+      "text": "\n\nI am working on a report aimed at Energy Marketers that will examine\nNatural Gas Storage: Effects on Energy Trading. I am looking for people\nwho can talk about the importance of this subject to power marketers.\nPlease contact me if you can inform me on any of the following subjects.\n\nI am interested in exploring the following issues:\n1. Storage process: transportation, injection, withdrawal\n2. Are all storage facilities connected to pipelines?\n3. Description of types of storage facilities: salt caverns,\nabove-ground tanks, inactive underground volcano, others\n4. Problems that limit underground reservoir effectiveness\n5. Historical storage data\n6. Contributing factors to storage levels: weather, generation demand,\nreliability concerns\n7. National map of storage facilities and capacities\n8. Terms definitions: base gas, working gas, underground storage,\ntraditional storage, salt caverns, other relevant terms\n9. Impact of storage fluctuations on prices and energy trading\n10. Safety issues of natural gas storage\n11. Seasonal storage trends\n12. Total amount of national storage capacity\n13.  Future storage capacity needs\n14. LNG as storage alternative\n15. Technology improvements\n16. Who regulated natural gas storage?\n17. List of storage facility owners\n\nIf you are involved with natural gas storage, or are an energy trader\nwho is affected by natural gas storage, please contact me by November\n13th. Thank you in advance for your help!\n\nBarbara Drazga\nIndependent Journalist\nDenver, Colo.\nTel: 303-369-3533\nFax: 303-369-3510\nEnergyWriter@aol.com\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 16,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 18,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 19,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 14,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 8,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 9,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<543181.1075856473519.JavaMail.evans@thyme>",
+      "Date": "Wed, 8 Nov 2000 02:31:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "jim.schwieger@enron.com, hunter.shively@enron.com, mike.roberts@enron.com",
+      "Subject": "Natural Gas Storage research",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Jim Schwieger, Hunter S Shively, Mike A Roberts",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1559.txt"
+}

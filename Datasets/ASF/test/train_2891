@@ -1,0 +1,16 @@
+After lots of expermiments, I have figured out that it was a potential bug in
+cloudera with Hive on Spark.
+Hive on Spark does not populate consistent output on aggregate functions.
+
+Hopefully, it will be fixed in next relaese.
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Hive-on-Spark-is-not-populating-correct-records-tp28128p28650.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

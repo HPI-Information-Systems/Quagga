@@ -1,0 +1,294 @@
+{
+  "wrapper": "plaintext",
+  "text": "Info re the Bingham deal team\n----- Forwarded by Barton Clark/HOU/ECT on 09/12/2000 09:56 AM -----\n\n\t\"Politan, Nicholas H.\" <PolitaNH@bingham.com>\n\t09/07/2000 11:21 AM\n\t\t \n\t\t To: \"Barton Clark (E-mail)\" <Barton.Clark@enron.com>\n\t\t cc: \n\t\t Subject: FW: Mark Oland Biography.DOC\n\n\nBart- Here is Mark's bio.  Others will follow separately.  Thanks.  --Nick\n\n\n>  -----Original Message-----\n> From:  Balukas, Deborah T.\n> Sent: Thursday, September 07, 2000 10:04 AM\n> To: Politan, Nicholas H.\n> Cc: Silvers, Bruce C.\n> Subject: Mark Oland Biography.DOC\n>\n> Attached is my biography.\n>\n>  <<Mark Oland Biography.DOC>>\n\n - Mark Oland Biography.DOC",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 30,
+      "text": "Info re the Bingham deal team\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 49,
+      "end": 61,
+      "text": "Barton Clark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 73,
+      "end": 83,
+      "text": "09/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 84,
+      "end": 92,
+      "text": "09:56 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 102,
+      "end": 122,
+      "text": "Politan, Nicholas H.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 30,
+      "end": 99,
+      "text": "----- Forwarded by Barton Clark/HOU/ECT on 09/12/2000 09:56 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 125,
+      "end": 145,
+      "text": "PolitaNH@bingham.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 148,
+      "end": 158,
+      "text": "09/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 159,
+      "end": 167,
+      "text": "11:21 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 180,
+      "end": 192,
+      "text": "Barton Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 204,
+      "end": 226,
+      "text": "Barton.Clark@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 248,
+      "end": 276,
+      "text": "FW: Mark Oland Biography.DOC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 99,
+      "end": 277,
+      "text": "\n\t\"Politan, Nicholas H.\" <PolitaNH@bingham.com>\n\t09/07/2000 11:21 AM\n\t\t \n\t\t To: \"Barton Clark (E-mail)\" <Barton.Clark@enron.com>\n\t\t cc: \n\t\t Subject: FW: Mark Oland Biography.DOC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 279,
+      "end": 283,
+      "text": "Bart",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 349,
+      "end": 353,
+      "text": "Nick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 338,
+      "end": 354,
+      "text": "Thanks.  --Nick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 277,
+      "end": 356,
+      "text": "\n\nBart- Here is Mark's bio.  Others will follow separately.  Thanks.  --Nick\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 395,
+      "end": 414,
+      "text": "Balukas, Deborah T.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 433,
+      "end": 451,
+      "text": "September 07, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 452,
+      "end": 460,
+      "text": "10:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 467,
+      "end": 487,
+      "text": "Politan, Nicholas H.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 493,
+      "end": 511,
+      "text": " Silvers, Bruce C.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 523,
+      "end": 547,
+      "text": "Mark Oland Biography.DOC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 356,
+      "end": 548,
+      "text": ">  -----Original Message-----\n> From:  Balukas, Deborah T.\n> Sent: Thursday, September 07, 2000 10:04 AM\n> To: Politan, Nicholas H.\n> Cc: Silvers, Bruce C.\n> Subject: Mark Oland Biography.DOC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 585,
+      "end": 609,
+      "text": "Mark Oland Biography.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 616,
+      "end": 640,
+      "text": "Mark Oland Biography.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 580,
+      "end": 640,
+      "text": ">  <<Mark Oland Biography.DOC>>\n\n - Mark Oland Biography.DOC",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 548,
+      "end": 640,
+      "text": ">\n> Attached is my biography.\n>\n>  <<Mark Oland Biography.DOC>>\n\n - Mark Oland Biography.DOC",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 15,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 21,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15860152.1075845767296.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Sep 2000 02:57:00 -0700 (PDT)",
+      "From": "barton.clark@enron.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "FW: Mark Oland Biography.DOC",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Barton Clark",
+      "X-To": "Kay Mann",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_613.txt"
+}

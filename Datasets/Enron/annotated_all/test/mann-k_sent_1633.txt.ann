@@ -1,0 +1,169 @@
+{
+  "wrapper": "plaintext",
+  "text": "I think he needs meds, including Prozac or something like that.  He is flat \nout having an anxiety attack.\n\n\nFrom: Suzanne Adams@ECT on 11/29/2000 01:30 PM\nTo: Kay Mann/Corp/Enron@ENRON\ncc:  \n\nSubject: Re:   \n\nThere's a front coming in, and I'm surprised my sinuses aren't bad.  You know \nsince I got off the allergy shots, I've been feeling a whole lot better.  \nI'll be interested to see what the CT scan looked like too.  \n\nDan called and said he had lost 4 pounds in 2 hours and was wigging out.  He \nwas going to wait another 2 hours and then call the doctor.  He's driving \nhimself crazy.  They need to give him some meds to calm him down.  I hope \nit's nothing serious.\n\nI don't blame you for wanting to go home.  I know where to find you if I need \nyou.  I'll put calls into voicemail, but I'm not going to tell anyone you are \nat home (unless you want me to).\n\n\n\n\n\n\tKay Mann@ENRON\n\t11/29/2000 12:48 PM\n\t\t \n\t\t To: Suzanne Adams/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: \n\nAt the risk of sounding like a wimp, I may just go home after my hair \napptment.  I don't feel up to snuff, and I think it is my sinuses (check the \nweather).  I can work from there just as well as I can from here, only in my \njammys.\n\nKay\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 109,
+      "text": "I think he needs meds, including Prozac or something like that.  He is flat \nout having an anxiety attack.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 115,
+      "end": 128,
+      "text": "Suzanne Adams",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 136,
+      "end": 146,
+      "text": "11/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 147,
+      "end": 155,
+      "text": "01:30 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 160,
+      "end": 168,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 202,
+      "end": 205,
+      "text": "Re:",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 109,
+      "end": 209,
+      "text": "From: Suzanne Adams@ECT on 11/29/2000 01:30 PM\nTo: Kay Mann/Corp/Enron@ENRON\ncc:  \n\nSubject: Re:   \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 209,
+      "end": 874,
+      "text": "\nThere's a front coming in, and I'm surprised my sinuses aren't bad.  You know \nsince I got off the allergy shots, I've been feeling a whole lot better.  \nI'll be interested to see what the CT scan looked like too.  \n\nDan called and said he had lost 4 pounds in 2 hours and was wigging out.  He \nwas going to wait another 2 hours and then call the doctor.  He's driving \nhimself crazy.  They need to give him some meds to calm him down.  I hope \nit's nothing serious.\n\nI don't blame you for wanting to go home.  I know where to find you if I need \nyou.  I'll put calls into voicemail, but I'm not going to tell anyone you are \nat home (unless you want me to).\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 875,
+      "end": 883,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 891,
+      "end": 901,
+      "text": "11/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 902,
+      "end": 910,
+      "text": "12:48 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 922,
+      "end": 935,
+      "text": "Suzanne Adams",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 875,
+      "end": 969,
+      "text": "Kay Mann@ENRON\n\t11/29/2000 12:48 PM\n\t\t \n\t\t To: Suzanne Adams/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1206,
+      "end": 1209,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 969,
+      "end": 1214,
+      "text": "\nAt the risk of sounding like a wimp, I may just go home after my hair \napptment.  I don't feel up to snuff, and I think it is my sinuses (check the \nweather).  I can work from there just as well as I can from here, only in my \njammys.\n\nKay\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18268398.1075845957958.JavaMail.evans@thyme>",
+      "Date": "Wed, 29 Nov 2000 05:44:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "suzanne.adams@enron.com",
+      "Subject": "Re:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Suzanne Adams",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_1633.txt"
+}

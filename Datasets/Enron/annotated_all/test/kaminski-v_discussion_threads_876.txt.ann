@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dr. Bill McMullen called you this morning and said that you had called\nthe school last week asking for courses that they scheduled for quantitive\nanalysis.\n\nThey gave your name to Dr. McMullen and he would like you to email\nhim exactly what you are looking for.\n\nHis email address is:  mcmullew@tamug.tamu.edu\n\nThanks!\n\nShirley\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 320,
+      "end": 327,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 311,
+      "end": 328,
+      "text": "Thanks!\n\nShirley\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 328,
+      "text": "Dr. Bill McMullen called you this morning and said that you had called\nthe school last week asking for courses that they scheduled for quantitive\nanalysis.\n\nThey gave your name to Dr. McMullen and he would like you to email\nhim exactly what you are looking for.\n\nHis email address is:  mcmullew@tamug.tamu.edu\n\nThanks!\n\nShirley\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26409720.1075856346813.JavaMail.evans@thyme>",
+      "Date": "Tue, 29 Aug 2000 02:51:00 -0700 (PDT)",
+      "From": "shirley.crenshaw@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "Texas A&M at Galveston",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shirley Crenshaw",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_876.txt"
+}

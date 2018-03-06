@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 2/2/2017 6:16 AM, deepak.ghayal@mediawide.com wrote:\n> I am writting query for getting response from specific index content first.\n> eg.\n> http://192.168.200.14:8983/solr/mypgmee/select?q=*blood*&fq=id:(*/939/* OR **)&fl=id&wt=json&indent=true\n>  \n> In above query I am getting response, Means suppose I Get 4 result for course \"939\" out\nof 10. It works fine by releanvence. \n> But Now I want \"939\" course result first then other result.So Please let me how can I\ndo that.\n\nAre those asterisks in your actual query, or did you add some of them\nfor emphasis?  I'm guessing that at least some of them are added for\nemphasis.  Asterisks in a query are wildcard characters, and wildcard\nqueries frequently do not behave like people expect them to.\n\nWe need to see the actual query, without any extra characters.  If\nasterisks have been added, then we will have an incorrect understanding\nabout what the query says.\n\nAttempting to guess what you are actually doing, here is what I THINK\nyou might have meant:\n\nq=blood\nfq=id:(939 OR *)\n\nIf I'm right about that filter query, I do not know what you were trying\nto do.  If you were trying to query for 939 or any other value, use this\ninstead:\n\nfq=id:[* TO *]\n\nThis is a range query that will match all documents where the id field\ncontains SOMETHING.  Documents where it is not present will not be\nmatched.  If you do not actually want to *filter* on the id value, then\nyou can simply remove the fq parameter entirely.  Filter queries do not\ncontribute to scoring at all -- they *only* filter.\n\nThe last part of your message says you want documents with an id of 939\nto be listed first.  I think you can do that with this:\n\nbq=id:939^10\n\nThe bq parameter means \"boost query\".  The ^10 part of what I've written\nis the boost value.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 56,
+      "text": "On 2/2/2017 6:16 AM, deepak.ghayal@mediawide.com wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1777,
+      "end": 1792,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 56,
+      "end": 1794,
+      "text": "> I am writting query for getting response from specific index content first.\n> eg.\n> http://192.168.200.14:8983/solr/mypgmee/select?q=*blood*&fq=id:(*/939/* OR **)&fl=id&wt=json&indent=true\n>  \n> In above query I am getting response, Means suppose I Get 4 result for course \"939\" out\nof 10. It works fine by releanvence. \n> But Now I want \"939\" course result first then other result.So Please let me how can I\ndo that.\n\nAre those asterisks in your actual query, or did you add some of them\nfor emphasis?  I'm guessing that at least some of them are added for\nemphasis.  Asterisks in a query are wildcard characters, and wildcard\nqueries frequently do not behave like people expect them to.\n\nWe need to see the actual query, without any extra characters.  If\nasterisks have been added, then we will have an incorrect understanding\nabout what the query says.\n\nAttempting to guess what you are actually doing, here is what I THINK\nyou might have meant:\n\nq=blood\nfq=id:(939 OR *)\n\nIf I'm right about that filter query, I do not know what you were trying\nto do.  If you were trying to query for 939 or any other value, use this\ninstead:\n\nfq=id:[* TO *]\n\nThis is a range query that will match all documents where the id field\ncontains SOMETHING.  Documents where it is not present will not be\nmatched.  If you do not actually want to *filter* on the id value, then\nyou can simply remove the fq parameter entirely.  Filter queries do not\ncontribute to scoring at all -- they *only* filter.\n\nThe last part of your message says you want documents with an id of 939\nto be listed first.  I think you can do that with this:\n\nbq=id:939^10\n\nThe bq parameter means \"boost query\".  The ^10 part of what I've written\nis the boost value.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_697"
+}

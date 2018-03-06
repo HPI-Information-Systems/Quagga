@@ -1,0 +1,230 @@
+{
+  "wrapper": "plaintext",
+  "text": "Read it and weep...Just let me know if you want me to bring some sand back \nwith me in case you don't make it out there this weekend.  I'm thinking I may \nneed to get Julie to hook me up with a job like hers...if it will allow me to \nlive like we're evidently going to this weekend.\n\nShorty\n\n---------------------- Forwarded by Susan M Scott/HOU/ECT on 08/28/2000 05:33 \nPM ---------------------------\n   \n\tEnron Capital & Trade Resources Corp.\n\t\n\tFrom:  Julie Gibson <julieg@qualcomm.com>                           \n08/28/2000 05:28 PM\n\t\n\nTo: Susan M Scott <Susan.M.Scott@enron.com>\ncc:  \nSubject: this weekend!\n\n\nHI Susan-\n\nI'm so excited for your visit this weekend!  Whenever you get a chance, let\nme know your arrival time on Saturday and departure on Monday so I can plan\naround them both....\n\nI've been brainstorming some fun things for us to do, and thought we could\nspend some time lounging at the beach, shopping at the outlet center near\nme, go out for a champagne bunch on Sunday, grill out on the beach, and\npossibly go to a polo match or the Del Mar races.  Which of these interests\nyou?  Are there any tourist sites that you would like to see while in\ntown?  The zoo, Balboa Park (where all the museums are), or anything\nelse?  Oh- I've arranged for us to have a massage on Monday- the woman is\ncoming to my house!  We'll each get a 30 minute massage....I think this\nwill be great quality, girl time!  I've missed our shopping binges!\n\nPlease bring any current pictures of friends and family- I can't wait to\nhear how everyone in your life is doing.  Weather has been beautiful as\nusual- about 75 degrees and perfect.  In the evenings it gets cool enough\nto wear you need a light sweater or jacket, but you can always borrow\nsomething from me, too.\n\nThe condo I'm living in now is tiny, but cute.  I've been living there for\na year and am moving out in 2 weeks.  I could have moved out this Labor Day\nweekend, but obviously didn't want to be doing that while you were in\ntown.  So you'll have to excuse a bit of the mess and come back another\ntime when I move into the cuter place- I love the new place I'm moving\ninto- it's 2 stories with vaulted ceilings and lots of skylights.\n\nSee you soon!\nJulie\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 284,
+      "end": 290,
+      "text": "Shorty",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 292,
+      "text": "Read it and weep...Just let me know if you want me to bring some sand back \nwith me in case you don't make it out there this weekend.  I'm thinking I may \nneed to get Julie to hook me up with a job like hers...if it will allow me to \nlive like we're evidently going to this weekend.\n\nShorty\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 328,
+      "end": 341,
+      "text": "Susan M Scott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 353,
+      "end": 363,
+      "text": "08/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 364,
+      "end": 373,
+      "text": "05:33 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 292,
+      "end": 402,
+      "text": "---------------------- Forwarded by Susan M Scott/HOU/ECT on 08/28/2000 05:33 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 402,
+      "end": 447,
+      "text": "   \n\tEnron Capital & Trade Resources Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 455,
+      "end": 467,
+      "text": "Julie Gibson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 469,
+      "end": 488,
+      "text": "julieg@qualcomm.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 517,
+      "end": 527,
+      "text": "08/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 528,
+      "end": 536,
+      "text": "05:28 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 544,
+      "end": 557,
+      "text": "Susan M Scott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 559,
+      "end": 582,
+      "text": "Susan.M.Scott@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 599,
+      "end": 612,
+      "text": "this weekend!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 448,
+      "end": 613,
+      "text": "From:  Julie Gibson <julieg@qualcomm.com>                           \n08/28/2000 05:28 PM\n\t\n\nTo: Susan M Scott <Susan.M.Scott@enron.com>\ncc:  \nSubject: this weekend!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 618,
+      "end": 623,
+      "text": "Susan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 615,
+      "end": 625,
+      "text": "HI Susan-\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2210,
+      "end": 2215,
+      "text": "Julie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2196,
+      "end": 2216,
+      "text": "See you soon!\nJulie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 613,
+      "end": 2217,
+      "text": "\n\nHI Susan-\n\nI'm so excited for your visit this weekend!  Whenever you get a chance, let\nme know your arrival time on Saturday and departure on Monday so I can plan\naround them both....\n\nI've been brainstorming some fun things for us to do, and thought we could\nspend some time lounging at the beach, shopping at the outlet center near\nme, go out for a champagne bunch on Sunday, grill out on the beach, and\npossibly go to a polo match or the Del Mar races.  Which of these interests\nyou?  Are there any tourist sites that you would like to see while in\ntown?  The zoo, Balboa Park (where all the museums are), or anything\nelse?  Oh- I've arranged for us to have a massage on Monday- the woman is\ncoming to my house!  We'll each get a 30 minute massage....I think this\nwill be great quality, girl time!  I've missed our shopping binges!\n\nPlease bring any current pictures of friends and family- I can't wait to\nhear how everyone in your life is doing.  Weather has been beautiful as\nusual- about 75 degrees and perfect.  In the evenings it gets cool enough\nto wear you need a light sweater or jacket, but you can always borrow\nsomething from me, too.\n\nThe condo I'm living in now is tiny, but cute.  I've been living there for\na year and am moving out in 2 weeks.  I could have moved out this Labor Day\nweekend, but obviously didn't want to be doing that while you were in\ntown.  So you'll have to excuse a bit of the mess and come back another\ntime when I move into the cuter place- I love the new place I'm moving\ninto- it's 2 stories with vaulted ceilings and lots of skylights.\n\nSee you soon!\nJulie\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 16,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 3,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24857257.1075846816629.JavaMail.evans@thyme>",
+      "Date": "Mon, 28 Aug 2000 10:37:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "ted.noble@enron.com",
+      "Subject": "this weekend!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Susan M Scott",
+      "X-To": "Ted Noble",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_2\\Notes Folders\\'sent mail",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott5.nsf"
+    }
+  },
+  "id": "train/scott-s__sent_mail_678.txt"
+}

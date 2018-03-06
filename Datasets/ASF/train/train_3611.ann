@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "Damn,\nMath is hard\n\nDC1 : 3 non observers\nDC2 : 2 non observers\n\n3 + 2 = 5 non observers\n\nObservers don't participate in voting = non observers participate in voting\n\n5 non observers = 5 votes\n\nIn addition to the 2 non observer, DC2 also has an observer, which as you\npointed out does not participate in the voting.\n\nWe still have 5 voting nodes.\n\n\nThink of the observer as a standby name node in Hadoop 1.x, where some\nintervention needed if the primary name node went down.\n\n\nI hope my math makes sense\n\nOn May 26, 2017 9:04 AM, \"Susheel Kumar\" <susheel2777@gmail.com> wrote:\n\n>From ZK documentation, observers do not participate in vote,  so Pushkar,\nwhen you said 5 nodes participate in voting, what exactly you mean?\n\n-- Observers are non-voting members of an ensemble which only hear the\nresults of votes, not the agreement protocol that leads up to them.\n\nPer ZK documentation, 3.4 includes observers,  does that mean Jan thought\nexperiment is practically possible, correct?\n\n\nOn Fri, May 26, 2017 at 3:53 AM, Rick Leir <rleir@leirtech.com> wrote:\n\n> Jan, Shawn, Susheel\n>\n> First steps first. First, let's do a fault-tolerant cluster, then maybe a\n> _geographically_ fault-tolerant cluster.\n>\n> Add another server in either DC1 or DC2, in a separate rack, with\n> independent power etc. As Shawn says below, install the third ZK there.\nYou\n> would satisfy most of your requirements that way.\n>\n> cheers -- Rick\n>\n>\n> On 2017-05-23 12:56 PM, Shawn Heisey wrote:\n>\n>> On 5/23/2017 10:12 AM, Susheel Kumar wrote:\n>>\n>>> Hi Jan, FYI - Since last year, I have been running a Solr 6.0 cluster in\n>>> one of lower env with 6 shards/replica in dc1 & 6 shard/replica in dc2\n>>> (each shard replicated cross data center) with 3 ZK in dc1 and 2 ZK in\ndc2.\n>>> (I didn't have the availability of 3rd data center for ZK so went with\nonly\n>>> 2 data center with above configuration) and so far no issues. Its been\n>>> running fine, indexing, replicating data, serving queries etc. So in my\n>>> test, setting up single cluster across two zones/data center works\nwithout\n>>> any issue when there is no or very minimal latency (in my case around\n30ms\n>>> one way\n>>>\n>>\n>> With that setup, if dc2 goes down, you're all good, but if dc1 goes down,\n>> you're not.\n>>\n>> There aren't enough ZK servers in dc2 to maintain quorum when dc1 is\n>> unreachable, and SolrCloud is going to go read-only.  Queries would most\n>> likely work, but you would not be able to change the indexes at all.\n>>\n>> ZooKeeper with N total servers requires int((N/2)+1) servers to be\n>> operational to maintain quorum.  This means that with five total servers,\n>> three must be operational and able to talk to each other, or ZK cannot\n>> guarantee that there is no split-brain, so quorum is lost.\n>>\n>> ZK in two data centers will never be fully fault-tolerant. There is no\n>> combination of servers that will work properly.  You must have three data\n>> centers for a geographically fault-tolerant cluster.  Solr would be\n>> optional in the third data center.  ZK must be installed in all three.\n>>\n>> Thanks,\n>> Shawn\n>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 6,
+      "end": 506,
+      "text": "Math is hard\n\nDC1 : 3 non observers\nDC2 : 2 non observers\n\n3 + 2 = 5 non observers\n\nObservers don't participate in voting = non observers participate in voting\n\n5 non observers = 5 votes\n\nIn addition to the 2 non observer, DC2 also has an observer, which as you\npointed out does not participate in the voting.\n\nWe still have 5 voting nodes.\n\n\nThink of the observer as a standby name node in Hadoop 1.x, where some\nintervention needed if the primary name node went down.\n\n\nI hope my math makes sense\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 506,
+      "end": 578,
+      "text": "On May 26, 2017 9:04 AM, \"Susheel Kumar\" <susheel2777@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 578,
+      "end": 984,
+      "text": "\n>From ZK documentation, observers do not participate in vote,  so Pushkar,\nwhen you said 5 nodes participate in voting, what exactly you mean?\n\n-- Observers are non-voting members of an ensemble which only hear the\nresults of votes, not the agreement protocol that leads up to them.\n\nPer ZK documentation, 3.4 includes observers,  does that mean Jan thought\nexperiment is practically possible, correct?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 984,
+      "end": 1055,
+      "text": "On Fri, May 26, 2017 at 3:53 AM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1055,
+      "end": 1078,
+      "text": "\n> Jan, Shawn, Susheel\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1399,
+      "end": 1418,
+      "text": ">\n> cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1055,
+      "end": 1422,
+      "text": "\n> Jan, Shawn, Susheel\n>\n> First steps first. First, let's do a fault-tolerant cluster, then maybe a\n> _geographically_ fault-tolerant cluster.\n>\n> Add another server in either DC1 or DC2, in a separate rack, with\n> independent power etc. As Shawn says below, install the third ZK there.\nYou\n> would satisfy most of your requirements that way.\n>\n> cheers -- Rick\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1422,
+      "end": 1468,
+      "text": "> On 2017-05-23 12:56 PM, Shawn Heisey wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1468,
+      "end": 1517,
+      "text": ">\n>> On 5/23/2017 10:12 AM, Susheel Kumar wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1517,
+      "end": 1531,
+      "text": ">>\n>>> Hi Jan,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3060,
+      "end": 3083,
+      "text": ">>\n>> Thanks,\n>> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1517,
+      "end": 3092,
+      "text": ">>\n>>> Hi Jan, FYI - Since last year, I have been running a Solr 6.0 cluster in\n>>> one of lower env with 6 shards/replica in dc1 & 6 shard/replica in dc2\n>>> (each shard replicated cross data center) with 3 ZK in dc1 and 2 ZK in\ndc2.\n>>> (I didn't have the availability of 3rd data center for ZK so went with\nonly\n>>> 2 data center with above configuration) and so far no issues. Its been\n>>> running fine, indexing, replicating data, serving queries etc. So in my\n>>> test, setting up single cluster across two zones/data center works\nwithout\n>>> any issue when there is no or very minimal latency (in my case around\n30ms\n>>> one way\n>>>\n>>\n>> With that setup, if dc2 goes down, you're all good, but if dc1 goes down,\n>> you're not.\n>>\n>> There aren't enough ZK servers in dc2 to maintain quorum when dc1 is\n>> unreachable, and SolrCloud is going to go read-only.  Queries would most\n>> likely work, but you would not be able to change the indexes at all.\n>>\n>> ZooKeeper with N total servers requires int((N/2)+1) servers to be\n>> operational to maintain quorum.  This means that with five total servers,\n>> three must be operational and able to talk to each other, or ZK cannot\n>> guarantee that there is no split-brain, so quorum is lost.\n>>\n>> ZK in two data centers will never be fully fault-tolerant. There is no\n>> combination of servers that will work properly.  You must have three data\n>> centers for a geographically fault-tolerant cluster.  Solr would be\n>> optional in the third data center.  ZK must be installed in all three.\n>>\n>> Thanks,\n>> Shawn\n>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3611"
+}

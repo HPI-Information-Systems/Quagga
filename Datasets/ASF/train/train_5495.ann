@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hey guys. I have sent email to solr-user-unsubscribe@lucene.apache.org\nseveral times, but doesn't seem to be having any effect.\n\nRegards\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 128,
+      "end": 137,
+      "text": "\nRegards\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 10,
+      "text": "Hey guys. ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 138,
+      "text": "Hey guys. I have sent email to solr-user-unsubscribe@lucene.apache.org\nseveral times, but doesn't seem to be having any effect.\n\nRegards\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5495"
+}

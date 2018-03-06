@@ -1,0 +1,93 @@
+Ooops, sorry.
+I meant Maria DB.
+
+
+
+2017-04-21 12:51 GMT+09:00 Takeshi Yamamuro <linguin.m.s@gmail.com>:
+
+> Why you use a mysql jdbc driver?
+>
+> // maropu
+>
+> On Fri, Apr 21, 2017 at 11:54 AM, Cinyoung Hur <cinyoung.hur@gmail.com>
+> wrote:
+>
+>> Hi,
+>>
+>> I tried to insert Dataframe into Postgres DB.
+>>
+>> But, I don't know what causes this error.
+>>
+>>
+>> properties = {
+>>     "user": "user",
+>>     "password": "pass",
+>>     "driver": "com.mysql.jdbc.Driver",
+>> }
+>> url = "jdbc:mysql://ip address/MYDB?useServerPrepStmts=false&rewriteBatchedStatements=true"
+>> df.write.jdbc(url=url, table=table_name, mode='overwrite', properties=properties)
+>>
+>>
+>>
+>> The schema of Dataframe is this.
+>>
+>> root
+>>  |-- fom_tp_cd: string (nullable = true)
+>>  |-- agg: integer (nullable = true)
+>>  |-- sex_tp_cd: integer (nullable = true)
+>>  |-- dgsbjt_cd: string (nullable = true)
+>>  |-- recu_cl_cd: integer (nullable = true)
+>>  |-- sick_set: string (nullable = true)
+>>  |-- gnl_nm_set: string (nullable = true)
+>>  |-- count: long (nullable = false)
+>>
+>>
+>>
+>> Py4JJavaErrorTraceback (most recent call last)<ipython-input-64-300efd2c6967>
+in <module>()----> 1 result1.filter(result1["gnl_nm_set"] == "").count()
+>> /usr/local/linewalks/spark/spark/python/pyspark/sql/dataframe.pyc in count(self)
+   297         2    298         """--> 299         return int(self._jdf.count())    300
+    301     @ignore_unicode_prefix
+>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/java_gateway.py
+in __call__(self, *args)    931         answer = self.gateway_client.send_command(command)
+   932         return_value = get_return_value(--> 933             answer, self.gateway_client,
+self.target_id, self.name)    934     935         for temp_arg in temp_args:
+>> /usr/local/linewalks/spark/spark/python/pyspark/sql/utils.pyc in deco(*a, **kw) 
+   61     def deco(*a, **kw):     62         try:---> 63             return f(*a, **kw)
+    64         except py4j.protocol.Py4JJavaError as e:     65             s = e.java_exception.toString()
+>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/protocol.py
+in get_return_value(answer, gateway_client, target_id, name)    310                 raise
+Py4JJavaError(    311                     "An error occurred while calling {0}{1}{2}.\n".-->
+312                     format(target_id, ".", name), value)    313             else:    314
+                raise Py4JError(
+>> Py4JJavaError: An error occurred while calling o1331.count.
+>> : org.apache.spark.SparkException: Job aborted due to stage failure: Task 178 in
+stage 324.0 failed 4 times, most recent failure: Lost task 178.3 in stage 324.0 (TID 14274,
+7.linewalks.local): org.apache.spark.api.python.PythonException: Traceback (most recent call
+last):
+>>   File "/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py",
+line 172, in main
+>>     process()
+>>   File "/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py",
+line 167, in process
+>>     serializer.dump_stream(func(split_index, iterator), outfile)
+>>   File "/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py",
+line 106, in <lambda>
+>>     func = lambda _, it: map(mapper, it)
+>>   File "/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py",
+line 92, in <lambda>
+>>     mapper = lambda a: udf(*a)
+>>   File "/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py",
+line 70, in <lambda>
+>>     return lambda *a: f(*a)
+>>   File "<ipython-input-22-457936c8f59f>", line 3, in <lambda>
+>> TypeError: sequence item 0: expected string, NoneType found
+>>
+>>
+>
+>
+> --
+> ---
+> Takeshi Yamamuro
+>
+

@@ -1,0 +1,45 @@
+Jan, Shawn, Susheel
+
+First steps first. First, let's do a fault-tolerant cluster, then maybe 
+a _geographically_ fault-tolerant cluster.
+
+Add another server in either DC1 or DC2, in a separate rack, with 
+independent power etc. As Shawn says below, install the third ZK there. 
+You would satisfy most of your requirements that way.
+
+cheers -- Rick
+
+On 2017-05-23 12:56 PM, Shawn Heisey wrote:
+> On 5/23/2017 10:12 AM, Susheel Kumar wrote:
+>> Hi Jan, FYI - Since last year, I have been running a Solr 6.0 cluster 
+>> in one of lower env with 6 shards/replica in dc1 & 6 shard/replica in 
+>> dc2 (each shard replicated cross data center) with 3 ZK in dc1 and 2 
+>> ZK in dc2. (I didn't have the availability of 3rd data center for ZK 
+>> so went with only 2 data center with above configuration) and so far 
+>> no issues. Its been running fine, indexing, replicating data, serving 
+>> queries etc. So in my test, setting up single cluster across two 
+>> zones/data center works without any issue when there is no or very 
+>> minimal latency (in my case around 30ms one way
+>
+> With that setup, if dc2 goes down, you're all good, but if dc1 goes 
+> down, you're not.
+>
+> There aren't enough ZK servers in dc2 to maintain quorum when dc1 is 
+> unreachable, and SolrCloud is going to go read-only.  Queries would 
+> most likely work, but you would not be able to change the indexes at all.
+>
+> ZooKeeper with N total servers requires int((N/2)+1) servers to be 
+> operational to maintain quorum.  This means that with five total 
+> servers, three must be operational and able to talk to each other, or 
+> ZK cannot guarantee that there is no split-brain, so quorum is lost.
+>
+> ZK in two data centers will never be fully fault-tolerant. There is no 
+> combination of servers that will work properly.  You must have three 
+> data centers for a geographically fault-tolerant cluster.  Solr would 
+> be optional in the third data center.  ZK must be installed in all three.
+>
+> Thanks,
+> Shawn
+>
+
+

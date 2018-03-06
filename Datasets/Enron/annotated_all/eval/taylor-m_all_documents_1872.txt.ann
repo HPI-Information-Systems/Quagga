@@ -1,0 +1,183 @@
+{
+  "wrapper": "plaintext",
+  "text": "Robin:\n\nWe use two firms for U.S. derivatives advice - both in New York and both \nhighly recommended:\n\nDavid Mitchell of Cadwalader, Wickersham & Taft (212)504-6285\nKen Raisler of Sullivan & Cromwell (212)558-4675\n\nDavid we use for contract issues - what should our forms look like under \nvarious conditions, etc. and Ken, who is a former General Counsel of the \nCFTC, we use for policy questions, political (lobbying) and e-commerce issues.\n\nMark\n\n\nFrom: ROBIN TOMPKINS/ENRON@Gateway on 04/24/2000 05:11 PM\nTo: Mark Taylor/HOU/ECT@ECT\ncc:  \nSubject: Recommendation of outside counsel\n\nHi Mark:\n\nAs Portland General Electric Company prepares for its sale to Sierra Pacific\nResources later this year, we are reassessing how we deploy our legal\nresources.  To that end, we most likely will be in need of outside counsel to\nassist us with ISDA issues.  Is there a firm, or an individual that you could\nrecommend?\n\nRobin Tompkins\n503-464-7037\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Robin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 443,
+      "end": 447,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 450,
+      "text": "Robin:\n\nWe use two firms for U.S. derivatives advice - both in New York and both \nhighly recommended:\n\nDavid Mitchell of Cadwalader, Wickersham & Taft (212)504-6285\nKen Raisler of Sullivan & Cromwell (212)558-4675\n\nDavid we use for contract issues - what should our forms look like under \nvarious conditions, etc. and Ken, who is a former General Counsel of the \nCFTC, we use for policy questions, political (lobbying) and e-commerce issues.\n\nMark\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 456,
+      "end": 470,
+      "text": "ROBIN TOMPKINS",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 512,
+      "end": 523,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 488,
+      "end": 498,
+      "text": "04/24/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 499,
+      "end": 507,
+      "text": "05:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 551,
+      "end": 584,
+      "text": "Recommendation of outside counsel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 450,
+      "end": 585,
+      "text": "From: ROBIN TOMPKINS/ENRON@Gateway on 04/24/2000 05:11 PM\nTo: Mark Taylor/HOU/ECT@ECT\ncc:  \nSubject: Recommendation of outside counsel\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 589,
+      "end": 593,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 586,
+      "end": 595,
+      "text": "Hi Mark:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 911,
+      "end": 925,
+      "text": "Robin Tompkins",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 926,
+      "end": 938,
+      "text": "503-464-7037",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 911,
+      "end": 939,
+      "text": "Robin Tompkins\n503-464-7037\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 585,
+      "end": 941,
+      "text": "\nHi Mark:\n\nAs Portland General Electric Company prepares for its sale to Sierra Pacific\nResources later this year, we are reassessing how we deploy our legal\nresources.  To that end, we most likely will be in need of outside counsel to\nassist us with ISDA issues.  Is there a firm, or an individual that you could\nrecommend?\n\nRobin Tompkins\n503-464-7037\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9047157.1075859922285.JavaMail.evans@thyme>",
+      "Date": "Wed, 26 Apr 2000 04:22:00 -0700 (PDT)",
+      "From": "mark.taylor@enron.com",
+      "To": "robin.tompkins@enron.com",
+      "Subject": "Re: Recommendation of outside counsel",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark Taylor",
+      "X-To": "ROBIN TOMPKINS",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\All documents",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_all_documents_1872.txt"
+}

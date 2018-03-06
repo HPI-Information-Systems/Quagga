@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nWe have written a java spark application (primarily uses spark sql). We\nwant to expand this to provide our application \"as a service\". For this, we\nare trying to write a REST API. While a simple REST API can be easily made,\nand I can get Spark to run through the launcher. I wonder, how the spark\ncontext can be used by service requests, to process data.\n\nAre there any simple JAVA examples to illustrate this use-case? I am sure\npeople have faced this before.\n\n\nThanks\nNipun\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 467,
+      "end": 481,
+      "text": "\nThanks\nNipun\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 482,
+      "text": "Hi,\n\nWe have written a java spark application (primarily uses spark sql). We\nwant to expand this to provide our application \"as a service\". For this, we\nare trying to write a REST API. While a simple REST API can be easily made,\nand I can get Spark to run through the launcher. I wonder, how the spark\ncontext can be used by service requests, to process data.\n\nAre there any simple JAVA examples to illustrate this use-case? I am sure\npeople have faced this before.\n\n\nThanks\nNipun\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3055"
+}

@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Any other definitions in that URP chain are triggered?\n\nAre you seeing this in a nested document by any chance?\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 13 March 2017 at 10:29, Furkan KAMACI <furkankamaci@gmail.com> wrote:\n> Hi,\n>\n> I'm testing schemaless mode of Solr 6.4.2. Solr predicts fields types when\n> I generate dummy data and index it to Solr. However I could not make Solr\n> to predict date fields. I tried that:\n>\n>  \"custom_start\":[\"2017-05-16T00:00\"]\n>\n> which is a date parse result of SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm\");\n>\n> and\n>\n>  \"custom_start\":[\"2017-05-16\"]\n>\n> from SimpleDateFormat(\"yyyy-MM-dd\");\n>\n> at both scenarios, predicted type is:\n>\n> org.apache.solr.schema.StrField\n>\n> I use fresh version of Solr which does not have custom modifications and\n> has proper solr.ParseDateFieldUpdateProcessorFactory definition.\n>\n> What I'm missing?\n>\n> Kind Regards,\n> Furkan KAMACI\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 112,
+      "end": 131,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 213,
+      "text": "Any other definitions in that URP chain are triggered?\n\nAre you seeing this in a nested document by any chance?\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 213,
+      "end": 286,
+      "text": "On 13 March 2017 at 10:29, Furkan KAMACI <furkankamaci@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 286,
+      "end": 292,
+      "text": "> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 932,
+      "end": 966,
+      "text": ">\n> Kind Regards,\n> Furkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 286,
+      "end": 967,
+      "text": "> Hi,\n>\n> I'm testing schemaless mode of Solr 6.4.2. Solr predicts fields types when\n> I generate dummy data and index it to Solr. However I could not make Solr\n> to predict date fields. I tried that:\n>\n>  \"custom_start\":[\"2017-05-16T00:00\"]\n>\n> which is a date parse result of SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm\");\n>\n> and\n>\n>  \"custom_start\":[\"2017-05-16\"]\n>\n> from SimpleDateFormat(\"yyyy-MM-dd\");\n>\n> at both scenarios, predicted type is:\n>\n> org.apache.solr.schema.StrField\n>\n> I use fresh version of Solr which does not have custom modifications and\n> has proper solr.ParseDateFieldUpdateProcessorFactory definition.\n>\n> What I'm missing?\n>\n> Kind Regards,\n> Furkan KAMACI\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1644"
+}

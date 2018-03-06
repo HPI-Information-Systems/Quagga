@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Solr,\nI admit the issue you mentioned has not been transparently solved, and\nindeed you would need to explicitly use the method=uif to get 4.10.1\nbehavior.\n\nThis is valid if you were using  fc/fcs approaches with high cardinality\nfields.\n\nIn the case you facet method is enum ( Term Enumeration), the issue has been\ntransparently solved ( \nhttps://issues.apache.org/jira/browse/SOLR-9176 )\n\nCheers\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Upgrade-SOLR-version-facets-perfomance-regression-tp4315027p4315512.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Solr,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 393,
+      "end": 401,
+      "text": "\nCheers\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 608,
+      "text": "Hi Solr,\nI admit the issue you mentioned has not been transparently solved, and\nindeed you would need to explicitly use the method=uif to get 4.10.1\nbehavior.\n\nThis is valid if you were using  fc/fcs approaches with high cardinality\nfields.\n\nIn the case you facet method is enum ( Term Enumeration), the issue has been\ntransparently solved ( \nhttps://issues.apache.org/jira/browse/SOLR-9176 )\n\nCheers\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Upgrade-SOLR-version-facets-perfomance-regression-tp4315027p4315512.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_386"
+}

@@ -1,0 +1,25 @@
+I think it is for hive dependency.
+On Thu, Aug 10, 2017 at 4:14 PM kant kodali <kanth909@gmail.com> wrote:
+
+> Since I see a calcite dependency in Spark I wonder where Calcite is being
+> used?
+>
+> On Thu, Aug 10, 2017 at 1:30 PM, Sathish Kumaran Vairavelu <
+> vsathishkumaran@gmail.com> wrote:
+>
+>> Spark SQL doesn't use Calcite
+>>
+>> On Thu, Aug 10, 2017 at 3:14 PM kant kodali <kanth909@gmail.com> wrote:
+>>
+>>> Hi All,
+>>>
+>>> Does Spark SQL uses Calcite? If so, what for? I thought the Spark SQL
+>>> has catalyst which would generate its own logical plans, physical plans and
+>>> other optimizations.
+>>>
+>>> Thanks,
+>>> Kant
+>>>
+>>
+>
+

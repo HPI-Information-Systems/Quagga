@@ -1,0 +1,371 @@
+{
+  "wrapper": "plaintext",
+  "text": "Update - \n---------------------- Forwarded by Kate Symes/PDX/ECT on 03/06/2001 11:53 AM \n---------------------------\nStephanie Piwetz   03/06/2001 11:56 AM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Confirm Letters - Grant County  \n\nKate, here is the latest....I have just received a copy of deals 432854.01 \nand 420529.01 (unsigned by Enron, executed by Grant County)\nStill need a copy of 420554.01 and 420563.01.  \n\nThanks\nStephanie\n\n\n   Kate Symes                03/06/2001 11:07 AM\n\nTo: Stephanie Piwetz/HOU/ECT@ECT\ncc:  \nSubject: Re: Confirm Letters - Grant County\n\nHave you received any of these - I had notified Holli of four total missing \nconfirm letters.\n\nKate\n---------------------- Forwarded by Kate Symes/PDX/ECT on 03/06/2001 09:11 AM \n---------------------------\n   \n\t\n\t\n\tFrom:  Holli Krebs                           03/06/2001 09:06 AM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Confirm Letters - Grant County  \n\nGrant said they sent the signed confirms to Houston.  Holli\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Update - \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 46,
+      "end": 56,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 68,
+      "end": 78,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 79,
+      "end": 87,
+      "text": "11:53 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 10,
+      "end": 117,
+      "text": "---------------------- Forwarded by Kate Symes/PDX/ECT on 03/06/2001 11:53 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 117,
+      "end": 133,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 136,
+      "end": 146,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 147,
+      "end": 155,
+      "text": "11:56 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 161,
+      "end": 171,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 200,
+      "end": 234,
+      "text": "Re: Confirm Letters - Grant County",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 117,
+      "end": 237,
+      "text": "Stephanie Piwetz   03/06/2001 11:56 AM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Confirm Letters - Grant County  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 238,
+      "end": 242,
+      "text": "Kate",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 430,
+      "end": 439,
+      "text": "Stephanie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 423,
+      "end": 440,
+      "text": "Thanks\nStephanie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 237,
+      "end": 442,
+      "text": "\nKate, here is the latest....I have just received a copy of deals 432854.01 \nand 420529.01 (unsigned by Enron, executed by Grant County)\nStill need a copy of 420554.01 and 420563.01.  \n\nThanks\nStephanie\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 445,
+      "end": 455,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 471,
+      "end": 481,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 482,
+      "end": 490,
+      "text": "11:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 496,
+      "end": 512,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 540,
+      "end": 574,
+      "text": "Re: Confirm Letters - Grant County",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 442,
+      "end": 575,
+      "text": "   Kate Symes                03/06/2001 11:07 AM\n\nTo: Stephanie Piwetz/HOU/ECT@ECT\ncc:  \nSubject: Re: Confirm Letters - Grant County\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 671,
+      "end": 675,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 575,
+      "end": 676,
+      "text": "\nHave you received any of these - I had notified Holli of four total missing \nconfirm letters.\n\nKate\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 712,
+      "end": 722,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 734,
+      "end": 744,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 745,
+      "end": 753,
+      "text": "09:11 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 676,
+      "end": 783,
+      "text": "---------------------- Forwarded by Kate Symes/PDX/ECT on 03/06/2001 09:11 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 799,
+      "end": 810,
+      "text": "Holli Krebs",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 837,
+      "end": 847,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 848,
+      "end": 856,
+      "text": "09:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 864,
+      "end": 874,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 903,
+      "end": 937,
+      "text": "Re: Confirm Letters - Grant County",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 783,
+      "end": 940,
+      "text": "   \n\t\n\t\n\tFrom:  Holli Krebs                           03/06/2001 09:06 AM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Confirm Letters - Grant County  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 995,
+      "end": 1000,
+      "text": "Holli",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 940,
+      "end": 1007,
+      "text": "\nGrant said they sent the signed confirms to Houston.  Holli\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 12,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 24,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 31,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 34,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17688349.1075841819535.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Mar 2001 03:49:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "holli.krebs@enron.com",
+      "Subject": "Re: Confirm Letters - Grant County",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Holli Krebs",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Discussion threads",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_discussion_threads_2205.txt"
+}

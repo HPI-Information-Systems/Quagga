@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nWhat are you doing with RTG that you care about sorting/paging?\n\nhttps://people.apache.org/~hossman/#xyproblem\nXY Problem\n\nYour question appears to be an \"XY Problem\" ... that is: you are dealing\nwith \"X\", you are assuming \"Y\" will help you, and you are asking about \"Y\"\nwithout giving more details about the \"X\" so that we can understand the\nfull issue.  Perhaps the best solution doesn't involve \"Y\" at all?\nSee Also: http://www.perlmonks.org/index.pl?node_id=542341\n\n\n\n\n: Date: Thu, 9 Mar 2017 13:27:13 +0200\n: From: \u00d0\u00a1\u00d0\u00b5\u00d1\u20ac\u00d0\u00b3\u00d0\u00b5\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b2\u00d0\u00b5\u00d1\u20ac\u00d0\u00b4\u00d0\u00be\u00d1\u2026\u00d0\u00bb\u00d0\u00b5\u00d0\u00b1 <selik.oo@gmail.com>\n: Reply-To: solr-user@lucene.apache.org\n: To: solr-user@lucene.apache.org\n: Subject: Paging\\sorting with RTG\n: \n: Hi,\n: \n: I wonder if it is possible to somehow set start/rows/sort parameteres to\n: RTG request?\n: Official CWiki says only FQ is supported, however there could be some\n: workaround.\n: \n: -- \n: Regards,\n: Sergey Tverdokhleb\n: \n\n-Hoss\nhttp://www.lucidworks.com/\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 474,
+      "end": 685,
+      "text": ": Date: Thu, 9 Mar 2017 13:27:13 +0200\n: From: \u00d0\u00a1\u00d0\u00b5\u00d1\u20ac\u00d0\u00b3\u00d0\u00b5\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b2\u00d0\u00b5\u00d1\u20ac\u00d0\u00b4\u00d0\u00be\u00d1\u2026\u00d0\u00bb\u00d0\u00b5\u00d0\u00b1 <selik.oo@gmail.com>\n: Reply-To: solr-user@lucene.apache.org\n: To: solr-user@lucene.apache.org\n: Subject: Paging\\sorting with RTG\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 685,
+      "end": 694,
+      "text": ": \n: Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 876,
+      "end": 914,
+      "text": ": -- \n: Regards,\n: Sergey Tverdokhleb\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 917,
+      "end": 951,
+      "text": "\n-Hoss\nhttp://www.lucidworks.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 685,
+      "end": 951,
+      "text": ": \n: Hi,\n: \n: I wonder if it is possible to somehow set start/rows/sort parameteres to\n: RTG request?\n: Official CWiki says only FQ is supported, however there could be some\n: workaround.\n: \n: -- \n: Regards,\n: Sergey Tverdokhleb\n: \n\n-Hoss\nhttp://www.lucidworks.com/\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 474,
+      "text": "\nWhat are you doing with RTG that you care about sorting/paging?\n\nhttps://people.apache.org/~hossman/#xyproblem\nXY Problem\n\nYour question appears to be an \"XY Problem\" ... that is: you are dealing\nwith \"X\", you are assuming \"Y\" will help you, and you are asking about \"Y\"\nwithout giving more details about the \"X\" so that we can understand the\nfull issue.  Perhaps the best solution doesn't involve \"Y\" at all?\nSee Also: http://www.perlmonks.org/index.pl?node_id=542341\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1564"
+}

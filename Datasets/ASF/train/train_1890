@@ -1,0 +1,13 @@
+Hi,
+
+Is it possible to store the index of different collections of the same
+shard under different directory or even different hard disk?
+
+For example, I want to store the index of collection1 in C drive, and the
+index of collection2 in D drive.
+
+I'm using SolrCloud in Solr 6.4.2
+
+Regards,
+Edwin
+

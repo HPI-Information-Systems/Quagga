@@ -1,0 +1,89 @@
+Hi All,
+
+I am trying to create a DataSet from DataFrame, where dataframe has been
+created successfully, and using the same bean I am trying to create dataset.
+
+But when I am running it, Dataframe is created as expected. I am able to
+print the content as well. But not the dataset. The DataSet is having only
+one column populated with Person object blob and rest all are null.
+
+I am using Java Api not scala
+
+List<Person> data = new ArrayList<>();
+    Calendar cal = Calendar.getInstance();
+    long time = cal.getTime().getTime();
+    data.add(new Person( "0",0,100L, new Timestamp(time)));
+    data.add(new Person( "1",1,101L, new Timestamp(time)));
+
+    JavaRDD<Person> rdd = (JavaRDD<Person>)jsc().parallelize(data);
+
+    SQLContext sqlContext = SQLContext.getOrCreate(jsc().sc());
+
+    DataFrame df = sqlContext.createDataFrame(rdd,Person.class);
+
+
+    df.show();
+    Encoder<Person> es = Encoders.bean(Person.class);
+
+    Dataset<Person> dsi = new Dataset<>(sqlContext,df.logicalPlan(),es);
+
+    //Dataset<Person> dsi = df.as(es);
+
+
+    dsi.printSchema();
+    dsi.show()
+
+And
+
+public class Person  implements Serializable{
+
+String id;
+Integer partition;
+Long offset;
+Timestamp eventTime;
+
+public Person() {
+}
+
+public Person(String id, Integer partition, Long offset, Timestamp eventTime) {
+    this.id = id;
+    this.partition = partition;
+    this.offset = offset;
+    this.eventTime = eventTime;
+}
+
+public String getId() {
+    return id;
+}
+
+public void setId(String id) {
+    this.id = id;
+}
+
+public Integer getPartition() {
+    return partition;
+}
+
+public void setPartition(Integer partition) {
+    this.partition = partition;
+}
+
+public Long getOffset() {
+    return offset;
+}
+
+public void setOffset(Long offset) {
+
+
+    this.offset = offset;
+}
+
+public Timestamp getEventTime() {
+    return eventTime;
+}
+
+public void setEventTime(Timestamp eventTime) {
+    this.eventTime = eventTime;
+}
+}
+

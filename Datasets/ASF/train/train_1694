@@ -1,0 +1,28 @@
+On 3/15/2017 7:55 AM, serwah sabetghadam wrote:
+> Thanks Erick for the fast answer:)
+>
+> I knew about sharding, just as far as I know it will work on different
+> servers.
+> I wonder if it is possible to do sth like sharding as you mentioned but on
+> a single standalone Solr?
+> Can I use the implicit routing on standalone then?
+
+If you're running standalone (not SolrCloud), then everything having to
+do with shards must be 100 percent managed by you.  There is no
+routing.  There is no capability of automatically managing which
+implicit shards belong to which logical index.  There's no automatic
+replication of index data for redundancy.  You're in charge of
+*everything* that SolrCloud would normally handle automatically.
+
+https://cwiki.apache.org/confluence/display/solr/Distributed+Search+with+Index+Sharding
+
+Multiple shards can live in a single Solr instance, whether you use
+SolrCloud or the old way described above.  If your query rate is very
+low, this probably will perform well.  As the query rate increases, it's
+best to only have one core per Solr instance.  Either way, it's
+*usually* best to only have one Solr instance per machine.
+
+Thanks,
+Shawn
+
+

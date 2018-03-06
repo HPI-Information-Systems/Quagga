@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 3/27/2017 5:51 AM, John Blythe wrote:\n> The new versions of solr come out in pretty regular fashion. We are\n> currently on 6.0. I'm curious what drives you / your team to run the\n> upgrades when you do. Particular features or patches you're\n> eyeballing? Only concerned w major releases? Some other protocol that\n> is set internally?\n\nThe pace of development in the Lucene/Solr project is extremely swift. \nReleases are made when one of the developers feels that enough bugfixes\nand features have been added to justify a new release, and volunteers to\nbe the release manager.  The release manager will decide whether a\nparticular fix or feature under development will delay the release or\nwhether it should wait until the next release.\n\nMinor releases are very frequent on this project compared to others. \nThe project is particularly interested in making sure that bugs are\nfound and fixed quickly, but each minor release will also include new\nfeatures as well.  If a nasty bug is found, a buxfix release will\nusually follow, within the same minor release.\n\nMajor releases are less frequent, but follow a similar pattern.  The\nnext major release is developed in an entirely different branch of the\nsource repository (named master) and it takes quite a lot of work to get\nthat branch ready for release and make sure it works as desired.\n\nLike Alessandro mentioned, we do recommend that you try to stay current\nin your Solr install.  If you let your install get far enough behind,\nyou'll probably find that many new versions have been released in the\nmeantime, fixing a large number of bugs and adding new functionality\nthat may benefit your installation.\n\nThe people involved with developing Solr are also *users* of the\nsoftware.  They are aware of the challenges involved in qualifying a new\nrelease before upgrading.  Most of them are unwilling to upgrade a\nproduction install without first trying the new version out in an dev\nenvironment.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 41,
+      "text": "On 3/27/2017 5:51 AM, John Blythe wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1947,
+      "end": 1962,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 41,
+      "end": 1964,
+      "text": "> The new versions of solr come out in pretty regular fashion. We are\n> currently on 6.0. I'm curious what drives you / your team to run the\n> upgrades when you do. Particular features or patches you're\n> eyeballing? Only concerned w major releases? Some other protocol that\n> is set internally?\n\nThe pace of development in the Lucene/Solr project is extremely swift. \nReleases are made when one of the developers feels that enough bugfixes\nand features have been added to justify a new release, and volunteers to\nbe the release manager.  The release manager will decide whether a\nparticular fix or feature under development will delay the release or\nwhether it should wait until the next release.\n\nMinor releases are very frequent on this project compared to others. \nThe project is particularly interested in making sure that bugs are\nfound and fixed quickly, but each minor release will also include new\nfeatures as well.  If a nasty bug is found, a buxfix release will\nusually follow, within the same minor release.\n\nMajor releases are less frequent, but follow a similar pattern.  The\nnext major release is developed in an entirely different branch of the\nsource repository (named master) and it takes quite a lot of work to get\nthat branch ready for release and make sure it works as desired.\n\nLike Alessandro mentioned, we do recommend that you try to stay current\nin your Solr install.  If you let your install get far enough behind,\nyou'll probably find that many new versions have been released in the\nmeantime, fixing a large number of bugs and adding new functionality\nthat may benefit your installation.\n\nThe people involved with developing Solr are also *users* of the\nsoftware.  They are aware of the challenges involved in qualifying a new\nrelease before upgrading.  Most of them are unwilling to upgrade a\nproduction install without first trying the new version out in an dev\nenvironment.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2060"
+}

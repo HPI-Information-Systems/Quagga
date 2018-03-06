@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hey folks,\n\nI'm experiencing some strange query behaviour, and it isn't immediately\nclear to me why this wouldn happen. The definition of the query syntax\non the wiki is a bit fuzzy, so my interpretation of the syntax might be off.\n\nThis query does work (no results, when results are expected).\n\n(-someField:Foo) AND (otherField: (Bar OR Baz))\n\nWith debug enabled, Solr interprets the query as\n\n+(-someField:Foo) +(otherField:Bar otherField:Baz)\n\nThis query DOES work, results are returned.\n\n-someField:Foo +(otherField:Bar otherField:Baz)\n\nWith debug enabled:\n\n-someField:Foo +(otherField:Bar otherField:Baz)\n\n\nThe only difference between these queries is the presence of parantheses\naround the field with a single NOT condition. From a boolean point of\nview, they are equivalent.\n\nTo make matters stranger, if I add a *:* clause to the NOT field,\neverything works again.\n\n(-someField:Foo AND *:*) AND (otherField: (Bar OR Baz))\nand\n-someField:Foo AND *:* AND (otherField: (Bar OR Baz))\nboth work.\n\nIs this is query parser bug? Or are parenthesized groups with a single\nnegated expression not supported? :-/\n\nI've only tested this on 5.5.4 using the default query parser, I don't\nhave access to any other versions at the moment.\n\nThanks for any insights,\n\n - Bram\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hey folks,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1256,
+      "end": 1265,
+      "text": "\n - Bram\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1266,
+      "text": "Hey folks,\n\nI'm experiencing some strange query behaviour, and it isn't immediately\nclear to me why this wouldn happen. The definition of the query syntax\non the wiki is a bit fuzzy, so my interpretation of the syntax might be off.\n\nThis query does work (no results, when results are expected).\n\n(-someField:Foo) AND (otherField: (Bar OR Baz))\n\nWith debug enabled, Solr interprets the query as\n\n+(-someField:Foo) +(otherField:Bar otherField:Baz)\n\nThis query DOES work, results are returned.\n\n-someField:Foo +(otherField:Bar otherField:Baz)\n\nWith debug enabled:\n\n-someField:Foo +(otherField:Bar otherField:Baz)\n\n\nThe only difference between these queries is the presence of parantheses\naround the field with a single NOT condition. From a boolean point of\nview, they are equivalent.\n\nTo make matters stranger, if I add a *:* clause to the NOT field,\neverything works again.\n\n(-someField:Foo AND *:*) AND (otherField: (Bar OR Baz))\nand\n-someField:Foo AND *:* AND (otherField: (Bar OR Baz))\nboth work.\n\nIs this is query parser bug? Or are parenthesized groups with a single\nnegated expression not supported? :-/\n\nI've only tested this on 5.5.4 using the default query parser, I don't\nhave access to any other versions at the moment.\n\nThanks for any insights,\n\n - Bram\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4538"
+}

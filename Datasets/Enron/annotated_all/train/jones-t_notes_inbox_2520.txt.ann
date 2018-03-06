@@ -1,0 +1,347 @@
+{
+  "wrapper": "plaintext",
+  "text": "I will prepare Unanimous Consent electing Robert Jones.  What do we want to \nuse as effective date?  Please advise.  Thanks, Deb\n\n\nDeb Korkmas\nEnron North America Corp.\nENA Legal Dept.\n1400 Smith Street, Room 3819\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n\n\n\n\tTana Jones\n\t11/09/2000 01:09 PM\n\t\t\n\t\t To: Leslie Hansen/HOU/ECT@ECT\n\t\t cc: Deb Korkmas/HOU/ECT@ECT, Michelle Cash/HOU/ECT@ECT\n\t\t Subject: Re: Signatory Authority for Net Works and EnronOnline\n\nRobert Jones appears to be a VP of Enron Net Works, but not EnronOnline. \n\nBy copy of this email to Deb Korkmas, I would like to confirm that the above \nis correct, and if it is, can we please get Robert Jones added as a VP of \nEnronOnline.\n\nThanks!\n\n\n\n\tLeslie Hansen\n\t11/09/2000 01:00 PM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Signatory Authority for Net Works and EnronOnline\n\nTana:\n\nDoes Robert Jones, HR VP, have signatory authority for Net Works and \nEnronOnline?   Per Michelle Cash, he needs it since he signs employment \ncontracts, ect.  If he does not, we'll need to have some retroactive \nresolutions prepared.\n\nPlease let me know.\n\nLeslie\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 125,
+      "end": 128,
+      "text": "Deb",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 117,
+      "end": 128,
+      "text": "Thanks, Deb",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 131,
+      "end": 142,
+      "text": "Deb Korkmas",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 143,
+      "end": 168,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 169,
+      "end": 184,
+      "text": "ENA Legal Dept.",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 185,
+      "end": 232,
+      "text": "1400 Smith Street, Room 3819\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 241,
+      "end": 253,
+      "text": "713-853-5448",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 260,
+      "end": 272,
+      "text": "713-646-3393",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 131,
+      "end": 273,
+      "text": "Deb Korkmas\nEnron North America Corp.\nENA Legal Dept.\n1400 Smith Street, Room 3819\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 276,
+      "text": "I will prepare Unanimous Consent electing Robert Jones.  What do we want to \nuse as effective date?  Please advise.  Thanks, Deb\n\n\nDeb Korkmas\nEnron North America Corp.\nENA Legal Dept.\n1400 Smith Street, Room 3819\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 277,
+      "end": 287,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 289,
+      "end": 299,
+      "text": "11/09/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 300,
+      "end": 308,
+      "text": "01:09 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 319,
+      "end": 332,
+      "text": "Leslie Hansen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 352,
+      "end": 363,
+      "text": "Deb Korkmas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 377,
+      "end": 390,
+      "text": "Michelle Cash",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 415,
+      "end": 468,
+      "text": "Re: Signatory Authority for Net Works and EnronOnline",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 277,
+      "end": 469,
+      "text": "Tana Jones\n\t11/09/2000 01:09 PM\n\t\t\n\t\t To: Leslie Hansen/HOU/ECT@ECT\n\t\t cc: Deb Korkmas/HOU/ECT@ECT, Michelle Cash/HOU/ECT@ECT\n\t\t Subject: Re: Signatory Authority for Net Works and EnronOnline\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 712,
+      "end": 719,
+      "text": "Thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 469,
+      "end": 723,
+      "text": "\nRobert Jones appears to be a VP of Enron Net Works, but not EnronOnline. \n\nBy copy of this email to Deb Korkmas, I would like to confirm that the above \nis correct, and if it is, can we please get Robert Jones added as a VP of \nEnronOnline.\n\nThanks!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 724,
+      "end": 737,
+      "text": "Leslie Hansen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 739,
+      "end": 749,
+      "text": "11/09/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 750,
+      "end": 758,
+      "text": "01:00 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 770,
+      "end": 780,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 813,
+      "end": 862,
+      "text": "Signatory Authority for Net Works and EnronOnline",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 724,
+      "end": 863,
+      "text": "Leslie Hansen\n\t11/09/2000 01:00 PM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Signatory Authority for Net Works and EnronOnline\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 864,
+      "end": 868,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1128,
+      "end": 1134,
+      "text": "Leslie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1107,
+      "end": 1134,
+      "text": "Please let me know.\n\nLeslie",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 863,
+      "end": 1137,
+      "text": "\nTana:\n\nDoes Robert Jones, HR VP, have signatory authority for Net Works and \nEnronOnline?   Per Michelle Cash, he needs it since he signs employment \ncontracts, ect.  If he does not, we'll need to have some retroactive \nresolutions prepared.\n\nPlease let me know.\n\nLeslie\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 15,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 28,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 24,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 14,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 24,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30647243.1075847130439.JavaMail.evans@thyme>",
+      "Date": "Thu, 9 Nov 2000 07:27:00 -0800 (PST)",
+      "From": "deb.korkmas@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "Re: Signatory Authority for Net Works and EnronOnline",
+      "Cc": "leslie.hansen@enron.com, michelle.cash@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "leslie.hansen@enron.com, michelle.cash@enron.com",
+      "X-From": "Deb Korkmas",
+      "X-To": "Tana Jones",
+      "X-cc": "Leslie Hansen, Michelle Cash",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_2520.txt"
+}

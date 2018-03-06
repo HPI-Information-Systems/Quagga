@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "All:\n\nPlease review the attached rough arguments on what the FERC must do to fix it's current WSCC wide price mitigation mechanism.\n\nEnron's (or its trade associations') filing(s) will attack bigger issues such as whether there should be price controls at all and whether the CAISO needs to be audited.  However, assuming we are stuck with a cap, I want to provide FERC with comments that at least allows marketers to stay in business.  The comments in the attached document are designed to address these \"nuts and bolts\" issues.  Formal comments are due next week but I need input from commercial folks like you by WEDNESDAY of this week.\n\nThanks,\n\nAlan Comnes\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "All:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 650,
+      "end": 661,
+      "text": "Alan Comnes",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 641,
+      "end": 662,
+      "text": "Thanks,\n\nAlan Comnes\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 664,
+      "text": "All:\n\nPlease review the attached rough arguments on what the FERC must do to fix it's current WSCC wide price mitigation mechanism.\n\nEnron's (or its trade associations') filing(s) will attack bigger issues such as whether there should be price controls at all and whether the CAISO needs to be audited.  However, assuming we are stuck with a cap, I want to provide FERC with comments that at least allows marketers to stay in business.  The comments in the attached document are designed to address these \"nuts and bolts\" issues.  Formal comments are due next week but I need input from commercial folks like you by WEDNESDAY of this week.\n\nThanks,\n\nAlan Comnes\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10490042.1075840019611.JavaMail.evans@thyme>",
+      "Date": "Mon, 9 Jul 2001 20:31:28 -0700 (PDT)",
+      "From": "alan.comnes@enron.com",
+      "To": "christian.yoder@enron.com, c..hall@enron.com, h..foster@enron.com, \n\tdiana.scholtes@enron.com, sean.crandall@enron.com, \n\tbill.williams@enron.com, tom.alonso@enron.com, \n\tmark.fischer@enron.com, greg.wolfe@enron.com",
+      "Subject": "Request for clarificatiobn of FERC order",
+      "Cc": "susan.mara@enron.com, dave.perrino@enron.com, tim.belden@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "susan.mara@enron.com, dave.perrino@enron.com, tim.belden@enron.com",
+      "X-From": "Comnes, Alan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ACOMNES>",
+      "X-To": "Yoder, Christian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cyoder>, Hall, Steve C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Shall4>, Foster, Chris H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cfoster>, Scholtes, Diana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dscholt>, Crandall, Sean </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Scranda>, Williams III, Bill </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bwillia5>, Alonso, Tom </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Talonso>, Fischer, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mfische2>, Wolfe, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gwolfe>",
+      "X-cc": "Mara, Susan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=8a20ece9-992cf340-8625697d-7146e9>, Perrino, Dave </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=13e30736-7885e1b0-86256a31-56095b>, Belden, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbelden>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Scholtes, Diana\\FERC",
+      "X-Origin": "SCHOLTES-D",
+      "X-FileName": ""
+    }
+  },
+  "id": "train/scholtes-d_ferc_21.txt"
+}

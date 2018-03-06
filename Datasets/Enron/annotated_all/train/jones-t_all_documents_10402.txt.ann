@@ -1,0 +1,277 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Tana Jones/HOU/ECT on 03/22/2001 04:24 PM -----\n\n\t\"Dellacona, Dana (Commodities - NY)\" <ddellacona@Hess.com>\n\t03/22/2001 04:21 PM\n\t\t \n\t\t To: \"'tana.jones@enron.com'\" <tana.jones@enron.com>\n\t\t cc: \"Cerria, Chuck (Commodities - NY)\" <ccerria@Hess.com>, \"Lovvorn, Kelly\" \n<klovvorn@Hess.com>\n\t\t Subject: Enron On-line-AHC Trading\n\n\nTana,\n\nThis confirms our conversation today regarding Amerada Hess Corporation's\nability to trade on Enron On-line.  As discussed, I will check to see what\nspecific products we intend to trade with regard to Energy, Physicals,\nand/or Derivatives.  I will also check to see whether we intend to trade in\nthe US, Canada, and/or Europe. I do understand that you cannot give me an\naccurate answer as to our ability to trade On-line until I provide this to\nyou.  Thank you for getting back to me so quickly, I will try to do the\nsame.\n\nRegards,\n\nDana M. Dellacona\n1185 Avenue of the Americas\nNY, NY 10036\nPh:212.536.8133\nFx:917.342.8810\nddellacona@hess.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 29,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 51,
+      "text": "03/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 52,
+      "end": 61,
+      "text": "04:24 PM ",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 67,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 03/22/2001 04:24 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 70,
+      "end": 85,
+      "text": "Dellacona, Dana",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 107,
+      "end": 126,
+      "text": "ddellacona@Hess.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 129,
+      "end": 139,
+      "text": "03/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 140,
+      "end": 148,
+      "text": "04:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 162,
+      "end": 182,
+      "text": "tana.jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 186,
+      "end": 206,
+      "text": "tana.jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 216,
+      "end": 229,
+      "text": "Cerria, Chuck",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 251,
+      "end": 267,
+      "text": "ccerria@Hess.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 271,
+      "end": 285,
+      "text": "Lovvorn, Kelly",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 289,
+      "end": 306,
+      "text": "klovvorn@Hess.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 320,
+      "end": 345,
+      "text": "Enron On-line-AHC Trading",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 69,
+      "end": 346,
+      "text": "\"Dellacona, Dana (Commodities - NY)\" <ddellacona@Hess.com>\n\t03/22/2001 04:21 PM\n\t\t \n\t\t To: \"'tana.jones@enron.com'\" <tana.jones@enron.com>\n\t\t cc: \"Cerria, Chuck (Commodities - NY)\" <ccerria@Hess.com>, \"Lovvorn, Kelly\" \n<klovvorn@Hess.com>\n\t\t Subject: Enron On-line-AHC Trading\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 348,
+      "end": 352,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 889,
+      "end": 906,
+      "text": "Dana M. Dellacona",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 879,
+      "end": 906,
+      "text": "Regards,\n\nDana M. Dellacona",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 907,
+      "end": 947,
+      "text": "1185 Avenue of the Americas\nNY, NY 10036",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 951,
+      "end": 963,
+      "text": "212.536.8133",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 967,
+      "end": 979,
+      "text": "917.342.8810",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 980,
+      "end": 999,
+      "text": "ddellacona@hess.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 907,
+      "end": 1001,
+      "text": "1185 Avenue of the Americas\nNY, NY 10036\nPh:212.536.8133\nFx:917.342.8810\nddellacona@hess.com\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 346,
+      "end": 1001,
+      "text": "\n\nTana,\n\nThis confirms our conversation today regarding Amerada Hess Corporation's\nability to trade on Enron On-line.  As discussed, I will check to see what\nspecific products we intend to trade with regard to Energy, Physicals,\nand/or Derivatives.  I will also check to see whether we intend to trade in\nthe US, Canada, and/or Europe. I do understand that you cannot give me an\naccurate answer as to our ability to trade On-line until I provide this to\nyou.  Thank you for getting back to me so quickly, I will try to do the\nsame.\n\nRegards,\n\nDana M. Dellacona\n1185 Avenue of the Americas\nNY, NY 10036\nPh:212.536.8133\nFx:917.342.8810\nddellacona@hess.com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 18,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19713951.1075847332484.JavaMail.evans@thyme>",
+      "Date": "Thu, 22 Mar 2001 08:24:00 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "walter.guidroz@enron.com",
+      "Subject": "Enron On-line-AHC Trading",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Walter Guidroz",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_10402.txt"
+}

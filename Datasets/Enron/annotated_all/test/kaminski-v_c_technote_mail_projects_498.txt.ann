@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello all:\n\nPaige Grumulaitis will give an FASB133 Training Session on Tuesday, March\n7, 2000 from 1:30 - 5:30 pm in EB46C1.\n\nPlease mark your calendars.\n\nThanks!\n\nShirley",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hello all:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 164,
+      "end": 171,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 155,
+      "end": 171,
+      "text": "Thanks!\n\nShirley",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 171,
+      "text": "Hello all:\n\nPaige Grumulaitis will give an FASB133 Training Session on Tuesday, March\n7, 2000 from 1:30 - 5:30 pm in EB46C1.\n\nPlease mark your calendars.\n\nThanks!\n\nShirley",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24095489.1075857033246.JavaMail.evans@thyme>",
+      "Date": "Thu, 17 Feb 2000 06:11:00 -0800 (PST)",
+      "From": "shirley.crenshaw@enron.com",
+      "To": "vince.kaminski@enron.com, stinson.gibner@enron.com, \n\tpinnamaneni.krishnarao@enron.com, vasant.shanbhogue@enron.com, \n\tmike.roberts@enron.com, joseph.hrgovcic@enron.com, \n\tgrant.masson@enron.com, tanya.tamarchenko@enron.com, \n\tzimin.lu@enron.com, jason.sokolov@enron.com, vincent.tang@enron.com, \n\talexios.kollaros@enron.com, martin.lin@enron.com, \n\tmaureen.raymond@enron.com, osman.sezgen@enron.com, \n\tpaulo.issler@enron.com, michael.sergeev@enron.com, \n\tpatricia.tlapek@enron.com, farouk.lalji@enron.com, \n\tamitava.dhar@enron.com, alex.huang@enron.com, \n\tronnie.chahal@enron.com, kevin.kindall@enron.com, \n\tkevin.moore@enron.com, clayton.vernon@enron.com, \n\twilliam.smith@enron.com, ravi.thuraisingham@enron.com, \n\tleandro.ibasco@enron.com, yanna.crystal@enron.com, \n\tjose.marquez@enron.com, samer.takriti@enron.com",
+      "Subject": "FASB133 Presentation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shirley Crenshaw",
+      "X-To": "Vince J Kaminski, Stinson Gibner, Pinnamaneni Krishnarao, Vasant Shanbhogue, Mike A Roberts, Joseph Hrgovcic, Grant Masson, Tanya Tamarchenko, Zimin Lu, Jason Sokolov, Vincent Tang, Alexios Kollaros, Martin Lin, Maureen Raymond, Osman Sezgen, Paulo Issler, Michael Sergeev, Patricia Tlapek, Farouk Lalji, Amitava Dhar, Alex Huang, Ronnie Chahal, Kevin Kindall, Kevin G Moore, Clayton Vernon, William Smith, Ravi Thuraisingham, Leandro Ibasco, Yanna Crystal, Jose Marquez, Samer Takriti",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_9\\Notes Folders\\C:\\Technote\\Mail\\Projects",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_c_technote_mail_projects_498.txt"
+}

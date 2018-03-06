@@ -1,0 +1,602 @@
+{
+  "wrapper": "plaintext",
+  "text": "We need to set a further round of inteviews for Tony Hamilton. Can everyone \nlet Gloria Solis know their availability over the next 2 weeks.  Below are \nthe results from our initial interviews and the candidate's resume\nThanks\nJen\n---------------------- Forwarded by Mike A Roberts/HOU/ECT on 12/15/2000 \n10:16 AM ---------------------------\n\n\nTony Hamilton <th@mssl.ucl.ac.uk> on 12/15/2000 02:11:58 AM\nPlease respond to Tony Hamilton <th@mssl.ucl.ac.uk>\nTo: Mike.A.Roberts@enron.com\ncc:  \nSubject: Meteorologist/Forecaster\n\n\nDear Mike\n\nI would like to apply for the above position as advertised in \"EARTHWORKS\" and\nenclose my full CV (In Word 97/00 format) in support.\n\nI am currently a research Fellow with UCL conducting research, and building\nforecasting models for the statistical prediction of North Atlantic Sea \nSurface\nTemperatures and other climatic parameters at long leads (1-12 months ahead of\nforecast period).\n\nI have recently applied this model to the North Sea in order to aid long-lead\nforecasts of Fish Stocks (see SAP-symposium, 4-6 December, Bergen, Norway), \nand\nhave recently been applying similar models to the North Atlantic Oscillation, \nan\natmospheric phenomena which is strongly correlated with winter climate over\nUK/Norway and NW Europe, particularly temperatures, rainfall and windspeeds \n(see\nenclosed poster which was presented recently at an international conference on\nthe NAO in Vigo, Spain)\n\nAs you will see from my CV, I have 2+ years experience consulting in several\nareas of geoscience to the oil, gas and minerals industries and have good\nprogramming skills, both on Unix machines and on PCs.\n\nI am particularly keen to apply my skills in the commercial sector and \ninitiate\na permanent career path.\n\nI look forward to the opportunity of hopefully discussing my skills further \nwith\nyou in the near future.\n\nYours sincerely\n\nTony Hamilton\n\n********************************************************\n* Dr. Tony Hamilton    *\n* Research Fellow     *\n* Benfield Greig Hazard Research Centre  *\n* Department of Space and Climate Physics  *\n* University College London   *\n* HOLMBURY ST MARY    *\n* Dorking      *\n* Surrey RH5 6NT     *\n*       *\n* E-mail:  th@mssl.ucl.ac.uk  *\n* Telephone: +44 (0)1483 560107  *\n* Fax:  +44 (0)1483 278312  *\n* Web-site: http://forecast.mssl.ucl.ac.uk/ *\n********************************************************\n\n - TH_CV.doc\n - NAO_PosterV2.gif\n---------------------- Forwarded by Jennifer Fraser/HOU/ECT on 08/01/2001 \n13:11 ---------------------------\n   \n\t\n\t\n\tFrom:  Jennifer Fraser                           21/12/2000 07:32\n\t\n\nTo: Jeffrey A Shankman/HOU/ECT@ECT, Chris Mahoney/LON/ECT@ECT, Mike A \nRoberts/HOU/ECT@ECT, Vince J Kaminski/HOU/ECT@ECT\ncc: Stewart Peter/LON/ECT@ECT, Niamh Clarke/LON/ECT@ECT \nSubject: Weather Person for London EGM\n\nFolks:\nWe interviewed three candidates. One of the three (Tony Hamilton)  seems to \nbe a very good fit within the Enron culture and values.\nRecommended Next Steps\nVince, Mike and Jeff interview Tony via video conference or avistar\n\nTony Hamilton Key Strengths\nQuick thinker\nGood teams skills\nDriven - will be able to get the project off the ground quickly\nHas a commercial attitude\nSees \"the big picture\"\n\nTony Hamilton is available for follow up interviews the first week of January.\nThanks\nJen\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 227,
+      "end": 230,
+      "text": "Jen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 220,
+      "end": 231,
+      "text": "Thanks\nJen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 231,
+      "text": "We need to set a further round of inteviews for Tony Hamilton. Can everyone \nlet Gloria Solis know their availability over the next 2 weeks.  Below are \nthe results from our initial interviews and the candidate's resume\nThanks\nJen\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 267,
+      "end": 281,
+      "text": "Mike A Roberts",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 293,
+      "end": 303,
+      "text": "12/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 305,
+      "end": 313,
+      "text": "10:16 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 231,
+      "end": 342,
+      "text": "---------------------- Forwarded by Mike A Roberts/HOU/ECT on 12/15/2000 \n10:16 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 344,
+      "end": 357,
+      "text": "Tony Hamilton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 359,
+      "end": 376,
+      "text": "th@mssl.ucl.ac.uk",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 381,
+      "end": 391,
+      "text": "12/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 392,
+      "end": 403,
+      "text": "02:11:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 437,
+      "end": 454,
+      "text": "th@mssl.ucl.ac.uk",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 422,
+      "end": 435,
+      "text": "Tony Hamilton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 460,
+      "end": 484,
+      "text": "Mike.A.Roberts@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 500,
+      "end": 524,
+      "text": "Meteorologist/Forecaster",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 342,
+      "end": 525,
+      "text": "\n\nTony Hamilton <th@mssl.ucl.ac.uk> on 12/15/2000 02:11:58 AM\nPlease respond to Tony Hamilton <th@mssl.ucl.ac.uk>\nTo: Mike.A.Roberts@enron.com\ncc:  \nSubject: Meteorologist/Forecaster\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 532,
+      "end": 536,
+      "text": "Mike",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 527,
+      "end": 537,
+      "text": "Dear Mike\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1867,
+      "end": 1880,
+      "text": "Tony Hamilton",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1850,
+      "end": 1881,
+      "text": "Yours sincerely\n\nTony Hamilton\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2386,
+      "end": 2395,
+      "text": "TH_CV.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2399,
+      "end": 2415,
+      "text": "NAO_PosterV2.gif",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2383,
+      "end": 2416,
+      "text": " - TH_CV.doc\n - NAO_PosterV2.gif\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1941,
+      "end": 1958,
+      "text": "Dr. Tony Hamilton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1966,
+      "end": 1981,
+      "text": "Research Fellow",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1990,
+      "end": 2027,
+      "text": "Benfield Greig Hazard Research Centre",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2033,
+      "end": 2072,
+      "text": "Department of Space and Climate Physics",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2078,
+      "end": 2103,
+      "text": "University College London",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2110,
+      "end": 2126,
+      "text": "HOLMBURY ST MARY",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2134,
+      "end": 2141,
+      "text": "Dorking",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2151,
+      "end": 2165,
+      "text": "Surrey RH5 6NT",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 2193,
+      "end": 2210,
+      "text": "th@mssl.ucl.ac.uk",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 2227,
+      "end": 2245,
+      "text": "+44 (0)1483 560107",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 2257,
+      "end": 2275,
+      "text": "+44 (0)1483 278312",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1882,
+      "end": 2382,
+      "text": "********************************************************\n* Dr. Tony Hamilton    *\n* Research Fellow     *\n* Benfield Greig Hazard Research Centre  *\n* Department of Space and Climate Physics  *\n* University College London   *\n* HOLMBURY ST MARY    *\n* Dorking      *\n* Surrey RH5 6NT     *\n*       *\n* E-mail:  th@mssl.ucl.ac.uk  *\n* Telephone: +44 (0)1483 560107  *\n* Fax:  +44 (0)1483 278312  *\n* Web-site: http://forecast.mssl.ucl.ac.uk/ *\n********************************************************\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 525,
+      "end": 2416,
+      "text": "\n\nDear Mike\n\nI would like to apply for the above position as advertised in \"EARTHWORKS\" and\nenclose my full CV (In Word 97/00 format) in support.\n\nI am currently a research Fellow with UCL conducting research, and building\nforecasting models for the statistical prediction of North Atlantic Sea \nSurface\nTemperatures and other climatic parameters at long leads (1-12 months ahead of\nforecast period).\n\nI have recently applied this model to the North Sea in order to aid long-lead\nforecasts of Fish Stocks (see SAP-symposium, 4-6 December, Bergen, Norway), \nand\nhave recently been applying similar models to the North Atlantic Oscillation, \nan\natmospheric phenomena which is strongly correlated with winter climate over\nUK/Norway and NW Europe, particularly temperatures, rainfall and windspeeds \n(see\nenclosed poster which was presented recently at an international conference on\nthe NAO in Vigo, Spain)\n\nAs you will see from my CV, I have 2+ years experience consulting in several\nareas of geoscience to the oil, gas and minerals industries and have good\nprogramming skills, both on Unix machines and on PCs.\n\nI am particularly keen to apply my skills in the commercial sector and \ninitiate\na permanent career path.\n\nI look forward to the opportunity of hopefully discussing my skills further \nwith\nyou in the near future.\n\nYours sincerely\n\nTony Hamilton\n\n********************************************************\n* Dr. Tony Hamilton    *\n* Research Fellow     *\n* Benfield Greig Hazard Research Centre  *\n* Department of Space and Climate Physics  *\n* University College London   *\n* HOLMBURY ST MARY    *\n* Dorking      *\n* Surrey RH5 6NT     *\n*       *\n* E-mail:  th@mssl.ucl.ac.uk  *\n* Telephone: +44 (0)1483 560107  *\n* Fax:  +44 (0)1483 278312  *\n* Web-site: http://forecast.mssl.ucl.ac.uk/ *\n********************************************************\n\n - TH_CV.doc\n - NAO_PosterV2.gif\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 2452,
+      "end": 2467,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 2479,
+      "end": 2489,
+      "text": "08/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2491,
+      "end": 2496,
+      "text": "13:11",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2416,
+      "end": 2525,
+      "text": "---------------------- Forwarded by Jennifer Fraser/HOU/ECT on 08/01/2001 \n13:11 ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2541,
+      "end": 2556,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2583,
+      "end": 2593,
+      "text": "21/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2594,
+      "end": 2599,
+      "text": "07:32",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2607,
+      "end": 2625,
+      "text": "Jeffrey A Shankman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2639,
+      "end": 2652,
+      "text": "Chris Mahoney",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 2666,
+      "end": 2681,
+      "text": "Mike A \nRoberts",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 2695,
+      "end": 2711,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 2728,
+      "end": 2741,
+      "text": "Stewart Peter",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2755,
+      "end": 2767,
+      "text": "Niamh Clarke",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2790,
+      "end": 2819,
+      "text": "Weather Person for London EGM",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2525,
+      "end": 2820,
+      "text": "   \n\t\n\t\n\tFrom:  Jennifer Fraser                           21/12/2000 07:32\n\t\n\nTo: Jeffrey A Shankman/HOU/ECT@ECT, Chris Mahoney/LON/ECT@ECT, Mike A \nRoberts/HOU/ECT@ECT, Vince J Kaminski/HOU/ECT@ECT\ncc: Stewart Peter/LON/ECT@ECT, Niamh Clarke/LON/ECT@ECT \nSubject: Weather Person for London EGM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 3313,
+      "end": 3316,
+      "text": "Jen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 3306,
+      "end": 3317,
+      "text": "Thanks\nJen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2820,
+      "end": 3317,
+      "text": "\nFolks:\nWe interviewed three candidates. One of the three (Tony Hamilton)  seems to \nbe a very good fit within the Enron culture and values.\nRecommended Next Steps\nVince, Mike and Jeff interview Tony via video conference or avistar\n\nTony Hamilton Key Strengths\nQuick thinker\nGood teams skills\nDriven - will be able to get the project off the ground quickly\nHas a commercial attitude\nSees \"the big picture\"\n\nTony Hamilton is available for follow up interviews the first week of January.\nThanks\nJen\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 31,
+      "target": 30,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 30,
+      "target": 29,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 28,
+      "target": 27,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 27,
+      "target": 26,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 29,
+      "target": 26,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 25,
+      "target": 24,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 24,
+      "target": 26,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 32,
+      "target": 24,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 33,
+      "target": 24,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 34,
+      "target": 24,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 4,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 14,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 8,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 24,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 52,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 41,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 46,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29664352.1075856387616.JavaMail.evans@thyme>",
+      "Date": "Mon, 8 Jan 2001 05:16:00 -0800 (PST)",
+      "From": "jennifer.fraser@enron.com",
+      "To": "mark.tawney@enron.com, vince.kaminski@enron.com, mike.roberts@enron.com",
+      "Subject": "Weather Person for London EGM",
+      "Cc": "gloria.solis@enron.com, betty.coneway@enron.com, kevin.moore@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "gloria.solis@enron.com, betty.coneway@enron.com, kevin.moore@enron.com",
+      "X-From": "Jennifer Fraser",
+      "X-To": "Mark Tawney, Vince J Kaminski, Mike A Roberts",
+      "X-cc": "Gloria Solis, Betty J Coneway, Kevin G Moore",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_2512.txt"
+}

@@ -1,0 +1,377 @@
+{
+  "wrapper": "plaintext",
+  "text": "Monday 4/10 looks fine.\n\n\nVince\n\n\n\n\n\n\nMichael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 02:55 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc: Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n\nVince,\n\nI am not totally clear from your note on your availability.  Are you free \nnext Monday (4/10)?\n\nMichael\n\n\n\nVince J Kaminski@ECT\n04/05/2000 02:45 PM\nTo: Michael J Popkin/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Vince J Kaminski/HOU/ECT@ECT, Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n\nMichael,\n\nNext week starting Friday. Outr on Thu and Fri.\n\nVince\n\n\n\nMichael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 12:54 PM\nTo: Vince J Kaminski@ECT\ncc:  \nSubject: Sorry\n\nVince,\n\nSorry about lunch yesterday.  I hope you got the message in time that I was \nout sick.  I'd like to rescheduel.  When are you free?\n\nMichael\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 792,
+      "end": 799,
+      "text": "Michael",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 651,
+      "end": 656,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 650,
+      "end": 807,
+      "text": "\nVince,\n\nSorry about lunch yesterday.  I hope you got the message in time that I was \nout sick.  I'd like to rescheduel.  When are you free?\n\nMichael\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 644,
+      "end": 649,
+      "text": "Sorry",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 608,
+      "end": 624,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 549,
+      "end": 565,
+      "text": "Michael J Popkin",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 584,
+      "end": 594,
+      "text": "04/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 595,
+      "end": 603,
+      "text": "12:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 549,
+      "end": 650,
+      "text": "Michael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 12:54 PM\nTo: Vince J Kaminski@ECT\ncc:  \nSubject: Sorry\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 540,
+      "end": 545,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 481,
+      "end": 488,
+      "text": "Michael",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 480,
+      "end": 549,
+      "text": "\nMichael,\n\nNext week starting Friday. Outr on Thu and Fri.\n\nVince\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 468,
+      "end": 477,
+      "text": "Re: Sorry",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 399,
+      "end": 415,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 429,
+      "end": 445,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 342,
+      "end": 358,
+      "text": "Michael J Popkin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 297,
+      "end": 313,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 318,
+      "end": 328,
+      "text": "04/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 329,
+      "end": 337,
+      "text": "02:45 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 297,
+      "end": 480,
+      "text": "Vince J Kaminski@ECT\n04/05/2000 02:45 PM\nTo: Michael J Popkin/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Vince J Kaminski/HOU/ECT@ECT, Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 26,
+      "end": 31,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 0,
+      "end": 38,
+      "text": "Monday 4/10 looks fine.\n\n\nVince\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 38,
+      "end": 54,
+      "text": "Michael J Popkin",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 73,
+      "end": 83,
+      "text": "04/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 84,
+      "end": 92,
+      "text": "02:55 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 97,
+      "end": 113,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 130,
+      "end": 146,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 169,
+      "end": 178,
+      "text": "Re: Sorry",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 38,
+      "end": 181,
+      "text": "Michael J Popkin@ENRON_DEVELOPMENT\n04/05/2000 02:55 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc: Shirley Crenshaw/HOU/ECT@ECT \nSubject: Re: Sorry  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 182,
+      "end": 187,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 286,
+      "end": 293,
+      "text": "Michael",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 181,
+      "end": 297,
+      "text": "\nVince,\n\nI am not totally clear from your note on your availability.  Are you free \nnext Monday (4/10)?\n\nMichael\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 16,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 14,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 21,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 23,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 30,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 27,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 31,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 17,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 14,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13619755.1075856751412.JavaMail.evans@thyme>",
+      "Date": "Wed, 5 Apr 2000 08:01:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "michael.popkin@enron.com",
+      "Subject": "Re: Sorry",
+      "Cc": "shirley.crenshaw@enron.com, vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "shirley.crenshaw@enron.com, vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Michael J Popkin",
+      "X-cc": "Shirley Crenshaw, Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_6\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_9773.txt"
+}

@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Per our conversation last Friday please prepare a CA for the two projects ECS is working on with Rusk County Electric ( RCE). As requested, the following is the info for both projects:\n\n1) Oakhill \n\nLocation: Rusk Co., TX \nLegal Entity Name:Oakhill Pipeline\nFacility Name: Oakhill Pipeline's Hinkle Compressor Station\nProject Description: Add 7,000 Hp to OHP's existing station.\n\n2) Carthage\n\nLocation: Carthage, TX \nLegal Entity Name: Anadarko Energy Services Company\nFacility Name: Anadarko's Carthage Facility\nProject Description: Add/ replace 12,000 to 15,000 Hp to Anadarko's Carthage facility.\n\nAs a recap to our conversation on Friday we want to make sure the deatails of our request for service will be held private for at least six months and preferably longer.  Give me a call at 3-4503 if you have any questions. \n\nThanks!\nNed\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 841,
+      "text": "Per our conversation last Friday please prepare a CA for the two projects ECS is working on with Rusk County Electric ( RCE). As requested, the following is the info for both projects:\n\n1) Oakhill \n\nLocation: Rusk Co., TX \nLegal Entity Name:Oakhill Pipeline\nFacility Name: Oakhill Pipeline's Hinkle Compressor Station\nProject Description: Add 7,000 Hp to OHP's existing station.\n\n2) Carthage\n\nLocation: Carthage, TX \nLegal Entity Name: Anadarko Energy Services Company\nFacility Name: Anadarko's Carthage Facility\nProject Description: Add/ replace 12,000 to 15,000 Hp to Anadarko's Carthage facility.\n\nAs a recap to our conversation on Friday we want to make sure the deatails of our request for service will be held private for at least six months and preferably longer.  Give me a call at 3-4503 if you have any questions. \n\nThanks!\nNed\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 834,
+      "end": 837,
+      "text": "Ned",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 826,
+      "end": 838,
+      "text": "Thanks!\nNed\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24850342.1075858578032.JavaMail.evans@thyme>",
+      "Date": "Mon, 16 Jul 2001 08:56:10 -0700 (PDT)",
+      "From": "ned.higgins@enron.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "Rusk Co. Electric",
+      "Cc": "mark.knippa@enron.com, chris.hilgert@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "mark.knippa@enron.com, chris.hilgert@enron.com",
+      "X-From": "Higgins, Ned </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NHIGGIN>",
+      "X-To": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gnemec>",
+      "X-cc": "Knippa, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mknippa>, Hilgert, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Chilger>",
+      "X-bcc": "",
+      "X-Folder": "\\Nemec, Gerald (Non-Privileged)\\Nemec, Gerald\\Inbox",
+      "X-Origin": "Nemec-G",
+      "X-FileName": "Nemec, Gerald (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_inbox_1014.txt"
+}

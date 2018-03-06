@@ -1,0 +1,266 @@
+{
+  "wrapper": "plaintext",
+  "text": "8 AM. 10 AM. 3 PM.\n\nBest,\nJeff\n\n\n\n\tRobin Deguara <robin@perfect.com>\n\t06/29/2001 06:51 PM\n\t\t \n\t\t To: \"'jeff_dasovich@enron.com'\" <jeff_dasovich@enron.com>\n\t\t cc: \n\t\t Subject: Conf call with Cameron and Ian\n\n\nJeff,\n\nPlease provide me with three time slots you would be available to have a\nconf call on Friday the 6th between Cameron and Ian. \n\nThank you,\n\nRobin Deguara\nExecutive Assistant\n <<...OLE_Obj...>> \nPerfect Commerce, Inc. tel: 650-798-3367\nfax: 650-858-1095 email: robin@perfect.com\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 26,
+      "end": 30,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 20,
+      "end": 31,
+      "text": "Best,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 34,
+      "text": "8 AM. 10 AM. 3 PM.\n\nBest,\nJeff\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 35,
+      "end": 48,
+      "text": "Robin Deguara",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 50,
+      "end": 67,
+      "text": "robin@perfect.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 70,
+      "end": 80,
+      "text": "06/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 81,
+      "end": 89,
+      "text": "06:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 103,
+      "end": 126,
+      "text": "jeff_dasovich@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 130,
+      "end": 153,
+      "text": "jeff_dasovich@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 175,
+      "end": 205,
+      "text": "Conf call with Cameron and Ian",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 35,
+      "end": 206,
+      "text": "Robin Deguara <robin@perfect.com>\n\t06/29/2001 06:51 PM\n\t\t \n\t\t To: \"'jeff_dasovich@enron.com'\" <jeff_dasovich@enron.com>\n\t\t cc: \n\t\t Subject: Conf call with Cameron and Ian\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 208,
+      "end": 212,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 355,
+      "end": 368,
+      "text": "Robin Deguara",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 369,
+      "end": 388,
+      "text": "Executive Assistant",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 409,
+      "end": 431,
+      "text": "Perfect Commerce, Inc.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 437,
+      "end": 449,
+      "text": "650-798-3367",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 455,
+      "end": 467,
+      "text": "650-858-1095",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 475,
+      "end": 492,
+      "text": "robin@perfect.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 355,
+      "end": 493,
+      "text": "Robin Deguara\nExecutive Assistant\n <<...OLE_Obj...>> \nPerfect Commerce, Inc. tel: 650-798-3367\nfax: 650-858-1095 email: robin@perfect.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 343,
+      "end": 354,
+      "text": "Thank you,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 206,
+      "end": 495,
+      "text": "\n\nJeff,\n\nPlease provide me with three time slots you would be available to have a\nconf call on Friday the 6th between Cameron and Ian. \n\nThank you,\n\nRobin Deguara\nExecutive Assistant\n <<...OLE_Obj...>> \nPerfect Commerce, Inc. tel: 650-798-3367\nfax: 650-858-1095 email: robin@perfect.com\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 14,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 16,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 18,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 17,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33167575.1075849297450.JavaMail.evans@thyme>",
+      "Date": "Thu, 5 Jul 2001 04:11:00 -0700 (PDT)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "robin@perfect.com",
+      "Subject": "Re: Conf call with Cameron and Ian",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "Robin Deguara <robin@perfect.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_28297.txt"
+}

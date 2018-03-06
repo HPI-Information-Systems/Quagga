@@ -1,0 +1,210 @@
+{
+  "wrapper": "plaintext",
+  "text": "Per my voice mail, attached is the resume for Aram Sogomonian.  Please \nschedule a telephone interview with John Lavorato and Aram Sogomonian.  If \nyou have any questions please let me know.\n\nNorma Villarreal\nSr. Human Resource Represenative\nX31545\n\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 10/12/2000 \n11:02 AM ---------------------------\n\n\n\"Sogomonian, Aram\" <Aram.Sogomonian@pacificorp.com> on 10/11/2000 12:03:16 PM\nTo: \"'vkamins@enron.com'\" <vkamins@enron.com>\ncc:  \nSubject: FW: ARAM G. SOGOMONIAN\n\n\n - aram g2.doc\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 192,
+      "end": 208,
+      "text": "Norma Villarreal",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 209,
+      "end": 241,
+      "text": "Sr. Human Resource Represenative",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 192,
+      "end": 249,
+      "text": "Norma Villarreal\nSr. Human Resource Represenative\nX31545\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 250,
+      "text": "Per my voice mail, attached is the resume for Aram Sogomonian.  Please \nschedule a telephone interview with John Lavorato and Aram Sogomonian.  If \nyou have any questions please let me know.\n\nNorma Villarreal\nSr. Human Resource Represenative\nX31545\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 286,
+      "end": 302,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 314,
+      "end": 324,
+      "text": "10/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 326,
+      "end": 334,
+      "text": "11:02 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 250,
+      "end": 363,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 10/12/2000 \n11:02 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 366,
+      "end": 382,
+      "text": "Sogomonian, Aram",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 385,
+      "end": 415,
+      "text": "Aram.Sogomonian@pacificorp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 420,
+      "end": 430,
+      "text": "10/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 431,
+      "end": 442,
+      "text": "12:03:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 449,
+      "end": 466,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 470,
+      "end": 487,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 504,
+      "end": 526,
+      "text": "FW: ARAM G. SOGOMONIAN",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 363,
+      "end": 527,
+      "text": "\n\n\"Sogomonian, Aram\" <Aram.Sogomonian@pacificorp.com> on 10/11/2000 12:03:16 PM\nTo: \"'vkamins@enron.com'\" <vkamins@enron.com>\ncc:  \nSubject: FW: ARAM G. SOGOMONIAN\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 532,
+      "end": 543,
+      "text": "aram g2.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 529,
+      "end": 544,
+      "text": " - aram g2.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 527,
+      "end": 546,
+      "text": "\n\n - aram g2.doc\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18732719.1075856368395.JavaMail.evans@thyme>",
+      "Date": "Thu, 9 Nov 2000 10:34:00 -0800 (PST)",
+      "From": "norma.villarreal@enron.com",
+      "To": "kimberly.hillis@enron.com",
+      "Subject": "FW: ARAM G. SOGOMONIAN",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Norma Villarreal",
+      "X-To": "Kimberly Hillis",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_1766.txt"
+}

@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "11:30 Sounds fine.  Meet you downstairs.\n\n\n\n\n\n\nJanel Guerrero@ENRON\n04/11/2000 08:18 AM\nTo: Gerald Nemec/HOU/ECT@ECT\ncc:  \nSubject: lunch\n\nDo you mind meeting at 11:30 for lunch today?  I've got a 1:00 meeting I need \nto get back for.  I can meet you by the revolving glass doors downstairs if \nwe're still on.  \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 47,
+      "text": "11:30 Sounds fine.  Meet you downstairs.\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 47,
+      "end": 61,
+      "text": "Janel Guerrero",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 68,
+      "end": 78,
+      "text": "04/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 79,
+      "end": 87,
+      "text": "08:18 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 92,
+      "end": 104,
+      "text": "Gerald Nemec",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 137,
+      "text": "lunch",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 47,
+      "end": 138,
+      "text": "Janel Guerrero@ENRON\n04/11/2000 08:18 AM\nTo: Gerald Nemec/HOU/ECT@ECT\ncc:  \nSubject: lunch\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 138,
+      "end": 314,
+      "text": "\nDo you mind meeting at 11:30 for lunch today?  I've got a 1:00 meeting I need \nto get back for.  I can meet you by the revolving glass doors downstairs if \nwe're still on.  \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16577629.1075842589745.JavaMail.evans@thyme>",
+      "Date": "Tue, 11 Apr 2000 02:03:00 -0700 (PDT)",
+      "From": "gerald.nemec@enron.com",
+      "To": "janel.guerrero@enron.com",
+      "Subject": "Re: lunch",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Gerald Nemec",
+      "X-To": "Janel Guerrero",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_all_documents_515.txt"
+}

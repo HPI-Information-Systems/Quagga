@@ -1,0 +1,163 @@
+{
+  "wrapper": "plaintext",
+  "text": "Melissa\n \nAttached is the suggested template for physical power confirmations as \ndiscussed.\n\n As you know the \"Confirmation Letter\" is defined in the GTCs as being in the \nform attached as Exhibit A to the GTCs, any changes to the confirmation that \nthe counterparties can expect to receive should also be reflected on the \nWebsite in Exhibit A.\n \nKind regards,\n \nMarcus\n \n\n\n\n\n\tMelissa Ann Murphy@ECT\n\t04/30/2001 04:51 PM\n\t\t \n\t\t To: Marcus Nettelton/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: EOL GTC Confirms\n\nHello, I wanted to make sure I understand where the new language is to be \ninserted in our EOL GTC confirmation letter.  Bob Bowen was telling me they \nare putting the new paragraph at the beginning of the confirm letter.  The \nonly problem I see is that we have the trade date and the energy type (firm \nenergy, etc.) in the first paragraph as well.  We also already have language \nin the last paragraph about returning the confirm to us within 2 days.  \n\nPlease look at the following template and let me know where you would prefer \nto see the language added.  We are planning on changing our templates \ntomorrow morning.\n\n\n\nThanks,\nMelissa\n3-1886\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Melissa",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 365,
+      "end": 371,
+      "text": "Marcus",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 349,
+      "end": 372,
+      "text": "Kind regards,\n \nMarcus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 378,
+      "text": "Melissa\n \nAttached is the suggested template for physical power confirmations as \ndiscussed.\n\n As you know the \"Confirmation Letter\" is defined in the GTCs as being in the \nform attached as Exhibit A to the GTCs, any changes to the confirmation that \nthe counterparties can expect to receive should also be reflected on the \nWebsite in Exhibit A.\n \nKind regards,\n \nMarcus\n \n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 379,
+      "end": 397,
+      "text": "Melissa Ann Murphy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 403,
+      "end": 413,
+      "text": "04/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 414,
+      "end": 422,
+      "text": "04:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 434,
+      "end": 450,
+      "text": "Marcus Nettelton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 486,
+      "end": 502,
+      "text": "EOL GTC Confirms",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 379,
+      "end": 503,
+      "text": "Melissa Ann Murphy@ECT\n\t04/30/2001 04:51 PM\n\t\t \n\t\t To: Marcus Nettelton/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: EOL GTC Confirms\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 504,
+      "end": 510,
+      "text": "Hello,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1139,
+      "end": 1146,
+      "text": "Melissa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1131,
+      "end": 1154,
+      "text": "Thanks,\nMelissa\n3-1886\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 503,
+      "end": 1154,
+      "text": "\nHello, I wanted to make sure I understand where the new language is to be \ninserted in our EOL GTC confirmation letter.  Bob Bowen was telling me they \nare putting the new paragraph at the beginning of the confirm letter.  The \nonly problem I see is that we have the trade date and the energy type (firm \nenergy, etc.) in the first paragraph as well.  We also already have language \nin the last paragraph about returning the confirm to us within 2 days.  \n\nPlease look at the following template and let me know where you would prefer \nto see the language added.  We are planning on changing our templates \ntomorrow morning.\n\n\n\nThanks,\nMelissa\n3-1886\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9305831.1075859607062.JavaMail.evans@thyme>",
+      "Date": "Tue, 1 May 2001 01:43:00 -0700 (PDT)",
+      "From": "marcus.nettelton@enron.com",
+      "To": "melissa.murphy@enron.com",
+      "Subject": "Re: EOL GTC Confirms",
+      "Cc": "sheri.thomas@enron.com, kim.theriot@enron.com, tana.jones@enron.com, \n\tmark.taylor@enron.com, jeffrey.hodge@enron.com, \n\telizabeth.sager@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "sheri.thomas@enron.com, kim.theriot@enron.com, tana.jones@enron.com, \n\tmark.taylor@enron.com, jeffrey.hodge@enron.com, \n\telizabeth.sager@enron.com",
+      "X-From": "Marcus Nettelton",
+      "X-To": "Melissa Ann Murphy",
+      "X-cc": "Sheri Thomas, Kim S Theriot, Tana Jones, Mark Taylor, Jeffrey T Hodge, Elizabeth Sager",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "id": "train/sager-e_notes_inbox_827.txt"
+}

@@ -1,0 +1,26 @@
+Since it hits heap, moving to docValues might make sense.
+
+On Wed, Mar 22, 2017 at 7:47 AM, Midas A <test.midas@gmail.com> wrote:
+
+> waiting for reply . Actually Heap utilization increases when we sort with
+> dynamic fields
+>
+> On Tue, Mar 21, 2017 at 10:37 AM, Midas A <test.midas@gmail.com> wrote:
+>
+> > Hi ,
+> >
+> > How can i improve the performance of dynamic field sorting .
+> >
+> > index size is : 20 GB
+> >
+> > Regards,
+> > Midas
+> >
+>
+
+
+
+-- 
+Sincerely yours
+Mikhail Khludnev
+

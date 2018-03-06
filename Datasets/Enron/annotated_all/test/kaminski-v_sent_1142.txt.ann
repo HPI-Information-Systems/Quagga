@@ -1,0 +1,185 @@
+{
+  "wrapper": "plaintext",
+  "text": "Steve,\n\nMy phone number is 281 367 5377.\n\nWe shall be very glad to join you to celebrate the holidays.\n\nVince\n\n\n   \n                        \t\n\tEnron Technology\n\t\n\tFrom:  Stephen Stock                           12/20/2000 11:19 AM\n\t\n\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Christmas\n\nVince,\n\nDebbie and I are trying to pick a day for an open house invite to a few \nwoodlands locals over, so if you would like to drop in please let me know \nwhat your home phone number is (or cellular) so I can contact you. I'm going \nto invite Beth, Mike Fowler, and Jennifer Richard over too...\n\nWhen does your wife fly in?, it would be great to see her too!\n\nregards\n\nSteve\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 104,
+      "end": 109,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 143,
+      "end": 159,
+      "text": "Enron Technology",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 143,
+      "end": 160,
+      "text": "Enron Technology\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 162,
+      "text": "Steve,\n\nMy phone number is 281 367 5377.\n\nWe shall be very glad to join you to celebrate the holidays.\n\nVince\n\n\n   \n                        \t\n\tEnron Technology\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 170,
+      "end": 183,
+      "text": "Stephen Stock",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 210,
+      "end": 220,
+      "text": "12/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 221,
+      "end": 229,
+      "text": "11:19 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 237,
+      "end": 253,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 281,
+      "end": 290,
+      "text": "Christmas",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 163,
+      "end": 291,
+      "text": "From:  Stephen Stock                           12/20/2000 11:19 AM\n\t\n\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Christmas\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 292,
+      "end": 297,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 662,
+      "end": 667,
+      "text": "Steve",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 653,
+      "end": 668,
+      "text": "regards\n\nSteve\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 291,
+      "end": 670,
+      "text": "\nVince,\n\nDebbie and I are trying to pick a day for an open house invite to a few \nwoodlands locals over, so if you would like to drop in please let me know \nwhat your home phone number is (or cellular) so I can contact you. I'm going \nto invite Beth, Mike Fowler, and Jennifer Richard over too...\n\nWhen does your wife fly in?, it would be great to see her too!\n\nregards\n\nSteve\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18421815.1075856463599.JavaMail.evans@thyme>",
+      "Date": "Fri, 22 Dec 2000 09:26:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "stephen.stock@enron.com",
+      "Subject": "Re: Christmas",
+      "Cc": "vkaminski@aol.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vkaminski@aol.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Stephen Stock",
+      "X-cc": "vkaminski@aol.com",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1142.txt"
+}

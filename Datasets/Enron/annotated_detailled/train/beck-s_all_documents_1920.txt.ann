@@ -1,0 +1,492 @@
+{
+  "wrapper": "plaintext",
+  "text": "More detail than you probably want on the document I gave you at the \nDoubletree....  Mike was responding to an email that Steve Young had sent \nhim.  Just wanted you to know that this is moving forward and that I will \ncoordinate the Houston side of this for now (I will coordinate London going \nforward if that responsibility is given to me).  Let me know if you have \nquestions.\n\n---------------------- Forwarded by Brent A Price/HOU/ECT on 06/28/2000 03:01 \nPM ---------------------------\n\n\nMike Jordan\n06/28/2000 07:26 PM\nTo: Steve W Young/LON/ECT@ECT\ncc: Brent A Price/HOU/ECT@ECT, John Sherriff/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, David Port/Market Risk/Corp/Enron@ENRON, Fernley \nDyson/LON/ECT@ECT \nSubject: Re: Revised Operating Standards  \n\nSteve\n\nMy assessment of the next steps are as follows :-\n\nWe finalise the intial draft of the one page summary  - Action Mike/Brent to \nconsolidate feedback to date - to be delivered tomorrow\nThe one pager to be sent to all business heads commenting on John's belief ( \nwhich I think we all share ) that the Business unit head has ultimate \nresponsibility to ensure operating standards are met and that we aim to \nprovide them with a joint summary of 'status' from Commercial Support and \nRAC. This summary could be reviewed by AA, but I believe the process would be \nmore beneficial if it is \na self assessment process\nescalates judgement on material issues \ncapable of being monitored and repeated on an agreed frequency\ncomplimentary to the BRM process\nThe timeline for thie intial feedback could be within one week - I have an \nassessment from David Port to match to ours already!\n\nAs to your other questions\n\nI will be adding two additional detail points within the required structure \ndefinition - ie the structure must have :-\n\nFull functionality and interfaces for market risk, credit risk and Corporate \nreporting, and/or a systems roadmap for that development\nAppropriate involvement in business for specialist services ( Legal, Tax and \nHR )\n\nThe Operating Standards MUST only cover one page to retain the ease of \ncommunication for them - the above definitions identify that businesses must \nconsider all Legal and RAC issues - and there will significant detail \ninvolved in that - which will be defined elsewhere ( see David's separate \ncomments on risk reporting )\n\nIn summary I think it is best to move to publish the intial draft to \nstimulate communication  - would welcome your thoughts\n\nMike\n\n - some changes  -awaiting possible additions from Brent  - if none - to be \npublished tomorrow\n\n\n\n\n\n\nSteve W Young\n27/06/2000 20:03\nTo: Mike Jordan/LON/ECT@ECT\ncc: Brent A Price/HOU/ECT@ECT, John Sherriff/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, David Port/Market Risk/Corp/Enron@ENRON, Fernley \nDyson/LON/ECT@ECT \n\nSubject: Re: Revised Operating Standards  \n\nMike: \n\nIs this the most current version of the proposed Operating Standards?  Since \nI've been out of the office since we last discussed, I wanted to get an \nupdate on the status.  A couple of questions: \n\nWhat are the next steps? \nHow will this be communicated and to whom?\nHow do you see this being implemented to best assure it is respected?\nLegal Standards are absent?  I suspect this is still in draft form and they \nare to follow in the next version; however, let me know how you see legal \nStandards playing into this as I believe they should be on this list as well.\n\nAs discussed, I strongly believe that a brief and clear list of \"absolutes\" \nsimilar to the attachment will be most useful if first agreed by all that \nneed to be involved and then effectively communicated and respected by all in \nEEL.  Let me know if this list is now considered representative of the views \nof all that need to have input.  I suggest we meet again with a broader group \nto assure this list is complete and to discuss next steps.  I have some \nsuggested adjustments but will get back to you by end of week with comments \nor questions from RAC after we discuss this in our weekly RAC manager's \nmeeting.   \n\nThanks,\n\nSteve\n\n\n\nBrent A Price\n15/06/2000 13:28\nTo: Mike Jordan/LON/ECT@ECT\ncc: John Sherriff/LON/ECT@ECT, Steve W Young/LON/ECT@ECT \n\nSubject: Revised Operating Standards\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 383,
+      "text": "More detail than you probably want on the document I gave you at the \nDoubletree....  Mike was responding to an email that Steve Young had sent \nhim.  Just wanted you to know that this is moving forward and that I will \ncoordinate the Houston side of this for now (I will coordinate London going \nforward if that responsibility is given to me).  Let me know if you have \nquestions.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 419,
+      "end": 432,
+      "text": "Brent A Price",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 444,
+      "end": 454,
+      "text": "06/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 455,
+      "end": 464,
+      "text": "03:01 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 383,
+      "end": 493,
+      "text": "---------------------- Forwarded by Brent A Price/HOU/ECT on 06/28/2000 03:01 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 495,
+      "end": 506,
+      "text": "Mike Jordan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 507,
+      "end": 517,
+      "text": "06/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 518,
+      "end": 526,
+      "text": "07:26 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 531,
+      "end": 544,
+      "text": "Steve W Young",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 561,
+      "end": 574,
+      "text": "Brent A Price",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 588,
+      "end": 601,
+      "text": "John Sherriff",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 615,
+      "end": 626,
+      "text": "Tim \nDavies",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 640,
+      "end": 650,
+      "text": "David Port",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 681,
+      "end": 695,
+      "text": "Fernley \nDyson",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 718,
+      "end": 749,
+      "text": "Re: Revised Operating Standards",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 493,
+      "end": 752,
+      "text": "\n\nMike Jordan\n06/28/2000 07:26 PM\nTo: Steve W Young/LON/ECT@ECT\ncc: Brent A Price/HOU/ECT@ECT, John Sherriff/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, David Port/Market Risk/Corp/Enron@ENRON, Fernley \nDyson/LON/ECT@ECT \nSubject: Re: Revised Operating Standards  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 753,
+      "end": 758,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 752,
+      "end": 2567,
+      "text": "\nSteve\n\nMy assessment of the next steps are as follows :-\n\nWe finalise the intial draft of the one page summary  - Action Mike/Brent to \nconsolidate feedback to date - to be delivered tomorrow\nThe one pager to be sent to all business heads commenting on John's belief ( \nwhich I think we all share ) that the Business unit head has ultimate \nresponsibility to ensure operating standards are met and that we aim to \nprovide them with a joint summary of 'status' from Commercial Support and \nRAC. This summary could be reviewed by AA, but I believe the process would be \nmore beneficial if it is \na self assessment process\nescalates judgement on material issues \ncapable of being monitored and repeated on an agreed frequency\ncomplimentary to the BRM process\nThe timeline for thie intial feedback could be within one week - I have an \nassessment from David Port to match to ours already!\n\nAs to your other questions\n\nI will be adding two additional detail points within the required structure \ndefinition - ie the structure must have :-\n\nFull functionality and interfaces for market risk, credit risk and Corporate \nreporting, and/or a systems roadmap for that development\nAppropriate involvement in business for specialist services ( Legal, Tax and \nHR )\n\nThe Operating Standards MUST only cover one page to retain the ease of \ncommunication for them - the above definitions identify that businesses must \nconsider all Legal and RAC issues - and there will significant detail \ninvolved in that - which will be defined elsewhere ( see David's separate \ncomments on risk reporting )\n\nIn summary I think it is best to move to publish the intial draft to \nstimulate communication  - would welcome your thoughts\n\nMike\n\n - some changes  -awaiting possible additions from Brent  - if none - to be \npublished tomorrow\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2459,
+      "end": 2463,
+      "text": "Mike",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2465,
+      "end": 2561,
+      "text": " - some changes  -awaiting possible additions from Brent  - if none - to be \npublished tomorrow\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2567,
+      "end": 2580,
+      "text": "Steve W Young",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2581,
+      "end": 2591,
+      "text": "27/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2592,
+      "end": 2597,
+      "text": "20:03",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2602,
+      "end": 2613,
+      "text": "Mike Jordan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2630,
+      "end": 2643,
+      "text": "Brent A Price",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2657,
+      "end": 2670,
+      "text": "John Sherriff",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2684,
+      "end": 2695,
+      "text": "Tim \nDavies",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2709,
+      "end": 2719,
+      "text": "David Port",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2750,
+      "end": 2764,
+      "text": "Fernley \nDyson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2788,
+      "end": 2819,
+      "text": "Re: Revised Operating Standards",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2567,
+      "end": 2822,
+      "text": "Steve W Young\n27/06/2000 20:03\nTo: Mike Jordan/LON/ECT@ECT\ncc: Brent A Price/HOU/ECT@ECT, John Sherriff/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, David Port/Market Risk/Corp/Enron@ENRON, Fernley \nDyson/LON/ECT@ECT \n\nSubject: Re: Revised Operating Standards  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 2823,
+      "end": 2827,
+      "text": "Mike",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 4033,
+      "end": 4038,
+      "text": "Steve",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 4024,
+      "end": 4039,
+      "text": "Thanks,\n\nSteve\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2822,
+      "end": 4042,
+      "text": "\nMike: \n\nIs this the most current version of the proposed Operating Standards?  Since \nI've been out of the office since we last discussed, I wanted to get an \nupdate on the status.  A couple of questions: \n\nWhat are the next steps? \nHow will this be communicated and to whom?\nHow do you see this being implemented to best assure it is respected?\nLegal Standards are absent?  I suspect this is still in draft form and they \nare to follow in the next version; however, let me know how you see legal \nStandards playing into this as I believe they should be on this list as well.\n\nAs discussed, I strongly believe that a brief and clear list of \"absolutes\" \nsimilar to the attachment will be most useful if first agreed by all that \nneed to be involved and then effectively communicated and respected by all in \nEEL.  Let me know if this list is now considered representative of the views \nof all that need to have input.  I suggest we meet again with a broader group \nto assure this list is complete and to discuss next steps.  I have some \nsuggested adjustments but will get back to you by end of week with comments \nor questions from RAC after we discuss this in our weekly RAC manager's \nmeeting.   \n\nThanks,\n\nSteve\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 4042,
+      "end": 4055,
+      "text": "Brent A Price",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 4056,
+      "end": 4066,
+      "text": "15/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 4067,
+      "end": 4072,
+      "text": "13:28",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 4077,
+      "end": 4088,
+      "text": "Mike Jordan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 4105,
+      "end": 4118,
+      "text": "John Sherriff",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 4132,
+      "end": 4145,
+      "text": "Steve W Young",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 4169,
+      "end": 4196,
+      "text": "Revised Operating Standards",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 4042,
+      "end": 4197,
+      "text": "Brent A Price\n15/06/2000 13:28\nTo: Mike Jordan/LON/ECT@ECT\ncc: John Sherriff/LON/ECT@ECT, Steve W Young/LON/ECT@ECT \n\nSubject: Revised Operating Standards\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 4197,
+      "end": 4205,
+      "text": "\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 19,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 24,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 21,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 11,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 27,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 14,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 28,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 32,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 33,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 36,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 39,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 40,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 41,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32435560.1075855791389.JavaMail.evans@thyme>",
+      "Date": "Wed, 28 Jun 2000 08:10:00 -0700 (PDT)",
+      "From": "brent.price@enron.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "Re: Revised Operating Standards",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brent A Price",
+      "X-To": "Sally Beck",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_all_documents_1920.txt"
+}

@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Susan,\n\nPlease see the attached file. I got to leave, if you have any questions, I'll \nanswer it first thing tomorrow mornning...\n\nShouan",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Susan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 131,
+      "end": 137,
+      "text": "Shouan",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 137,
+      "text": "Susan,\n\nPlease see the attached file. I got to leave, if you have any questions, I'll \nanswer it first thing tomorrow mornning...\n\nShouan",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<140067.1075846798297.JavaMail.evans@thyme>",
+      "Date": "Mon, 13 Nov 2000 09:26:00 -0800 (PST)",
+      "From": "shouan.tang@enron.com",
+      "To": "susan.scott@enron.com",
+      "Subject": "nov_1_1",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shouan Tang",
+      "X-To": "Susan M Scott",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott5.nsf"
+    }
+  },
+  "id": "train/scott-s_notes_inbox_423.txt"
+}

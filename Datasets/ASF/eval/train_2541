@@ -1,0 +1,116 @@
+Hi Sathi,
+
+configuring managed memory and taskmanager heap memory also depends on 
+your jobs. If your jobs involve much sorting, then a high managed memory 
+is helpful. If you are creating a lot of objects in your functions, that 
+need some time until they get garbage collected (ideally you should not 
+use `new` at all), then a larger Java heap might be useful instead of 
+managed memory.
+
+Regards,
+Timo
+
+
+Am 31.05.17 um 09:43 schrieb Sathi Chowdhury:
+> Thanks Nico for a good gist on memory management of flink…
+> If I have 64 GB in each task manager …should I be aggressive of setting taskmanager.heap.mb
+to a very large value 56GB let;s say,563200 was a mistake,that’s abruptly high.
+> I am actually trying to come up with an understanding how to maximum utilize task manager’s
+memory so there is not a large amount of memory left unused, and
+> Flink is starving of memory…heap is used for sorting/hashing…
+> If I do not mention taskmanager.heap.mb and yarn-session -tm option (actually are they
+the same thing?) … I am going to try out how much memory is used
+> Thanks again
+> Sathi
+>
+>
+>
+> On 5/30/17, 3:22 AM, "Nico Kruber" <nico@data-artisans.com> wrote:
+>
+>> By default, Flink allocates a fraction of 0.7 (taskmanager.memory.fraction) of
+>> the free memory (total memory configured via taskmanager.heap.mb minus memory
+>> used for network buffers) for its managed memory. An absolute value may be set
+>> using taskmanager.memory.size (overrides the fraction parameter). [1]
+>> In general, [1] is a good read for how the different memory settings work
+>> together.
+>>
+>> The 10000 network buffers of size taskmanager.memory.segment-size (default:
+>> 32k) will this remove 320MB from your taskmanager.heap.mb (which in your
+>> example is set to 563GB?!) and therefore do not affect the managed memory size
+>> much.
+>>
+>> Whether the size used by the JVM is preallocated--and thus immediately
+>> visible--depends on taskmanager.memory.preallocate.
+>>
+>>
+>> But actually what are trying to fix? Is your node flushing data to disk yet? Or
+>> has it just not accumulated that much operator state yet?
+>>
+>>
+>>
+>> Nico
+>>
+>> [1] https://ci.apache.org/projects/flink/flink-docs-release-1.3/setup/
+>> config.html#managed-memory
+>>
+>>
+>> On Monday, 29 May 2017 19:09:55 CEST Sathi Chowdhury wrote:
+>>> For got to mention I am running 10 slots in each machine and
+>>> taskmanager.network.numberOfBuffers: 10000
+>> Is there a scope of improving
+>>> memory usage?
+>>>
+>>> From: Sathi Chowdhury
+>>> <Sathi.Chowdhury@elliemae.com<mailto:Sathi.Chowdhury@elliemae.com>>
+>> Date:
+>>> Monday, May 29, 2017 at 9:55 AM
+>>> To: "user@flink.apache.org<mailto:user@flink.apache.org>"
+>>> <user@flink.apache.org<mailto:user@flink.apache.org>>
+>> Subject: How can I
+>>> increase Flink managed memory?
+>>>
+>>> Hello Flink Dev and Community
+>>> I have 5 task managers each tie 64 GB of memory
+>>> I am running flink on yarn with task manager heap taskmanager.heap.mb:
+>>> 563200
+>> Link still shows that it is using about 21 GB memory leaving 35 GB
+>>> available..how and what can I do to fix it? Please suggest
+>>> Thanks
+>>> Sathi
+>>> =============Notice to Recipient: This e-mail transmission, and any
+>>> documents, files or previous e-mail messages attached to it may contain
+>>> information that is confidential or legally privileged, and intended for
+>>> the use of the individual or entity named above. If you are not the
+>>> intended recipient, or a person responsible for delivering it to the
+>>> intended recipient, you are hereby notified that you must not read this
+>>> transmission and that any disclosure, copying, printing, distribution or
+>>> use of any of the information contained in or attached to this transmission
+>>> is STRICTLY PROHIBITED. If you have received this transmission in error,
+>>> please immediately notify the sender by telephone or return e-mail and
+>>> delete the original transmission and its attachments without reading or
+>>> saving in any manner. Thank you. =============
+>> =============Notice to
+>>> Recipient: This e-mail transmission, and any documents, files or previous
+>>> e-mail messages attached to it may contain information that is confidential
+>>> or legally privileged, and intended for the use of the individual or entity
+>>> named above. If you are not the intended recipient, or a person responsible
+>>> for delivering it to the intended recipient, you are hereby notified that
+>>> you must not read this transmission and that any disclosure, copying,
+>>> printing, distribution or use of any of the information contained in or
+>>> attached to this transmission is STRICTLY PROHIBITED. If you have received
+>>> this transmission in error, please immediately notify the sender by
+>>> telephone or return e-mail and delete the original transmission and its
+>>> attachments without reading or saving in any manner. Thank you.
+>>> =============
+> =============Notice to Recipient: This e-mail transmission, and any documents, files
+or previous e-mail messages attached to it may contain information that is confidential or
+legally privileged, and intended for the use of the individual or entity named above. If you
+are not the intended recipient, or a person responsible for delivering it to the intended
+recipient, you are hereby notified that you must not read this transmission and that any disclosure,
+copying, printing, distribution or use of any of the information contained in or attached
+to this transmission is STRICTLY PROHIBITED. If you have received this transmission in error,
+please immediately notify the sender by telephone or return e-mail and delete the original
+transmission and its attachments without reading or saving in any manner. Thank you. =============
+
+
+

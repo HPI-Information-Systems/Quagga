@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n> On May 8, 2017, at 11:07 AM, Dirceu Semighini Filho <dirceu.semighini@gmail.com>\nwrote:\n> \n> Hello,\n> I've a very complex case class structure, with a lot of fields.\n> When I try to union two datasets of this class, it doesn't work with the following error\n:\n> ds.union(ds1)\n> Exception in thread \"main\" org.apache.spark.sql.AnalysisException: Union can only be\nperformed on tables with the compatible column types\n> \n> But when use it's rdd, the union goes right:\n> ds.rdd.union(ds1.rdd)\n> res8: org.apache.spark.rdd.RDD[\n> \n> Is there any reason for this to happen (besides a bug ;) )\n> \n> \n\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 91,
+      "text": "\n> On May 8, 2017, at 11:07 AM, Dirceu Semighini Filho <dirceu.semighini@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 91,
+      "end": 103,
+      "text": "> \n> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 91,
+      "end": 727,
+      "text": "> \n> Hello,\n> I've a very complex case class structure, with a lot of fields.\n> When I try to union two datasets of this class, it doesn't work with the following error\n:\n> ds.union(ds1)\n> Exception in thread \"main\" org.apache.spark.sql.AnalysisException: Union can only be\nperformed on tables with the compatible column types\n> \n> But when use it's rdd, the union goes right:\n> ds.rdd.union(ds1.rdd)\n> res8: org.apache.spark.rdd.RDD[\n> \n> Is there any reason for this to happen (besides a bug ;) )\n> \n> \n\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2953"
+}

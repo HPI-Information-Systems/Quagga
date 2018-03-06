@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Steve,\nThis is a wild guess because you are not telling us nearly enough. The guess: you are not\ngetting any matches or hits. O. Cheers --Rick\n\nOn July 12, 2017 4:29:43 PM EDT, Steve Pruitt <bpruitt@opentext.com> wrote:\n>I'm having difficulty finding the value for numFound that is in the\n>response.  My context is a custom component in the last-components list\n>for /select.\n>\n>Where rb is the ResponseBuilder parameter for the process(..) method:\n>\n>rb.getNumberDocumentsFound() is 0.\n>rb.totalHitCount is 0.\n>\n>I don't understand those values, why they are 0.\n>\n>rb.getResults().docList.size() returns only the row size from the\n>query.  I need the total hits.\n>\n>In the JavaDoc it states rb.rsp.getResponse() returns just an Object. \n>I found it to be an instance of BasicResultContext in my case.  But,\n>nothing in its description hints at how to get at the total found.\n>\n>Can someone help?\n>\n>Thanks.\n>\n>-S\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Steve,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 144,
+      "text": "Steve,\nThis is a wild guess because you are not telling us nearly enough. The guess: you are not\ngetting any matches or hits. O. Cheers --Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 144,
+      "end": 220,
+      "text": "On July 12, 2017 4:29:43 PM EDT, Steve Pruitt <bpruitt@opentext.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 897,
+      "end": 914,
+      "text": ">\n>Thanks.\n>\n>-S\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 220,
+      "end": 988,
+      "text": ">I'm having difficulty finding the value for numFound that is in the\n>response.  My context is a custom component in the last-components list\n>for /select.\n>\n>Where rb is the ResponseBuilder parameter for the process(..) method:\n>\n>rb.getNumberDocumentsFound() is 0.\n>rb.totalHitCount is 0.\n>\n>I don't understand those values, why they are 0.\n>\n>rb.getResults().docList.size() returns only the row size from the\n>query.  I need the total hits.\n>\n>In the JavaDoc it states rb.rsp.getResponse() returns just an Object. \n>I found it to be an instance of BasicResultContext in my case.  But,\n>nothing in its description hints at how to get at the total found.\n>\n>Can someone help?\n>\n>Thanks.\n>\n>-S\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4740"
+}

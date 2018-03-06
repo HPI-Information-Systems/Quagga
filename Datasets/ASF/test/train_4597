@@ -1,0 +1,29 @@
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    Hello,<br>
+    <br>
+    I recently came across the "--driver-cores" option when, for
+    example, launching a PySpark shell.<br>
+    <br>
+    Provided that there are idle CPUs on driver's node, what would be
+    the benefit of having multiple driver cores? For example, will this
+    accelerate the "collect()" operations? Will they be done in
+    parallel?<br>
+    <br>
+    Can't find any documentation about how the behavior will change from
+    using just 1 core for the driver.<br>
+    <br>
+    Thanks in advance.<br>
+    <br>
+    Judit<br>
+  </body>
+</html>
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

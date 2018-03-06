@@ -1,0 +1,282 @@
+{
+  "wrapper": "plaintext",
+  "text": "I do not have a problem with this as the process has been approved for other \nagency type arrangements. Credit are fully aware of this and will manage the \nexposure accordingly.\n\n\n\n\tTana Jones@ECT\n\t04/25/2001 12:52 PM\n\t\t \n\t\t To: Marcus Nettelton/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: Alliant Energy Corporate Services, Inc.\n\nI never heard back whether you were OK with the \"for 3 listed utilities\" \nbeing dropped off the \"as agent\" thing...\n----- Forwarded by Tana Jones/HOU/ECT on 04/25/2001 12:51 PM -----\n\n\tSamuel Schott\n\t04/25/2001 12:42 PM\n\t\t\n\t\t To: Rhonda L Denton/HOU/ECT@ECT\n\t\t cc: Tana Jones/HOU/ECT@ECT\n\t\t Subject: Re: Alliant Energy Corporate Services, Inc.\n\nHey Rhonda,\n\nMy understanding is that this record is still on \"hold\" pending Legal advise. \n(Tana Jones)\n\nPlease advise.\n\nSamuel\n\n\n\n\nRhonda L Denton\n04/25/2001 11:33 AM\nTo: Samuel Schott/HOU/ECT@ECT\ncc: Sharen Cason/HOU/ECT@ECT \nSubject: Alliant Energy Corporate Services, Inc.\n\nPlease unlink this CP from Enpower at the end of the day today.  all deals \nhave been moved to the authorized agent record.  Please let me know when \ncomplete so that I can refresh.\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 181,
+      "text": "I do not have a problem with this as the process has been approved for other \nagency type arrangements. Credit are fully aware of this and will manage the \nexposure accordingly.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 182,
+      "end": 192,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 198,
+      "end": 208,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 209,
+      "end": 217,
+      "text": "12:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 229,
+      "end": 245,
+      "text": "Marcus Nettelton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 281,
+      "end": 324,
+      "text": "Re: Alliant Energy Corporate Services, Inc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 182,
+      "end": 325,
+      "text": "Tana Jones@ECT\n\t04/25/2001 12:52 PM\n\t\t \n\t\t To: Marcus Nettelton/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: Alliant Energy Corporate Services, Inc.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 325,
+      "end": 442,
+      "text": "\nI never heard back whether you were OK with the \"for 3 listed utilities\" \nbeing dropped off the \"as agent\" thing...\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 461,
+      "end": 471,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 483,
+      "end": 493,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 494,
+      "end": 502,
+      "text": "12:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 442,
+      "end": 509,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 04/25/2001 12:51 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 511,
+      "end": 524,
+      "text": "Samuel Schott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 526,
+      "end": 536,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 537,
+      "end": 545,
+      "text": "12:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 556,
+      "end": 571,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 591,
+      "end": 601,
+      "text": "Tana Jones",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 626,
+      "end": 669,
+      "text": "Re: Alliant Energy Corporate Services, Inc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 509,
+      "end": 670,
+      "text": "\n\tSamuel Schott\n\t04/25/2001 12:42 PM\n\t\t\n\t\t To: Rhonda L Denton/HOU/ECT@ECT\n\t\t cc: Tana Jones/HOU/ECT@ECT\n\t\t Subject: Re: Alliant Energy Corporate Services, Inc.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 675,
+      "end": 681,
+      "text": "Rhonda",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 671,
+      "end": 682,
+      "text": "Hey Rhonda,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 777,
+      "end": 799,
+      "text": "Please advise.\n\nSamuel",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 793,
+      "end": 799,
+      "text": "Samuel",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 671,
+      "end": 804,
+      "text": "Hey Rhonda,\n\nMy understanding is that this record is still on \"hold\" pending Legal advise. \n(Tana Jones)\n\nPlease advise.\n\nSamuel\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 804,
+      "end": 819,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 820,
+      "end": 830,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 831,
+      "end": 839,
+      "text": "11:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 844,
+      "end": 857,
+      "text": "Samuel Schott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 874,
+      "end": 886,
+      "text": "Sharen Cason",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 909,
+      "end": 948,
+      "text": "Alliant Energy Corporate Services, Inc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 804,
+      "end": 949,
+      "text": "Rhonda L Denton\n04/25/2001 11:33 AM\nTo: Samuel Schott/HOU/ECT@ECT\ncc: Sharen Cason/HOU/ECT@ECT \nSubject: Alliant Energy Corporate Services, Inc.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 949,
+      "end": 1136,
+      "text": "\nPlease unlink this CP from Enpower at the end of the day today.  all deals \nhave been moved to the authorized agent record.  Please let me know when \ncomplete so that I can refresh.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32337018.1075847359162.JavaMail.evans@thyme>",
+      "Date": "Wed, 25 Apr 2001 07:05:00 -0700 (PDT)",
+      "From": "marcus.nettelton@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "Re: Alliant Energy Corporate Services, Inc.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Marcus Nettelton",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_11265.txt"
+}

@@ -1,0 +1,246 @@
+{
+  "wrapper": "plaintext",
+  "text": "no issues - please contact\n\n-----Original Message-----\nFrom: Steffes, James D. \nSent: Friday, January 04, 2002 3:19 PM\nTo: Kitchen, Louise\nSubject: RE: Presentation\n\n\nLouise --\n \nNever heard from Shawn.  Any issues with me contacting on Monday?\n\nJim\n\n-----Original Message-----\nFrom: Kitchen, Louise \nSent: Wednesday, January 02, 2002 1:16 PM\nTo: 'shawn.k.feeney@ssmb.com'\nCc: Steffes, James D.\nSubject: RE: Presentation\n\n\nShawn\n \nWe have had a lot of discussion on the contractual arrangements we would need to put in place in order to recommence trading as quickly as possible.  I am working on producing a fuller list for you today.  However, there is one particular contract/licence which does require special treatment - Power Marketing Licence to be granted by FERC.  In order to ensure that we start this process as quickly as possible we are looking to complete the filing documentation in advance of the bankruptcy decision on our future.\n \nOur current strategy is as follows (all dates are approximate)\n \nPresent - January 10th, 2002        Complete filing documentation\nJanuary 11th                                Visit with FERC (One of senior executives here plus a senior executive from our buyer)\nJanuary 13th                                 File and request an expedited process\n \nIt would be extremelly helpful if you could identify someone for the Head of our Regulatory Group (Jim Steffes) to co-ordinate with at Citi.\n \nThanks\n \nLouise",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 28,
+      "text": "no issues - please contact\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 61,
+      "end": 78,
+      "text": "Steffes, James D.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 94,
+      "end": 110,
+      "text": "January 04, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 111,
+      "end": 118,
+      "text": "3:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 123,
+      "end": 138,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 148,
+      "end": 164,
+      "text": "RE: Presentation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 28,
+      "end": 165,
+      "text": "-----Original Message-----\nFrom: Steffes, James D. \nSent: Friday, January 04, 2002 3:19 PM\nTo: Kitchen, Louise\nSubject: RE: Presentation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 167,
+      "end": 173,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 167,
+      "end": 177,
+      "text": "Louise --\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 246,
+      "end": 249,
+      "text": "Jim",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 165,
+      "end": 251,
+      "text": "\n\nLouise --\n \nNever heard from Shawn.  Any issues with me contacting on Monday?\n\nJim\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 284,
+      "end": 299,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 318,
+      "end": 334,
+      "text": "January 02, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 335,
+      "end": 342,
+      "text": "1:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 348,
+      "end": 371,
+      "text": "shawn.k.feeney@ssmb.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 377,
+      "end": 394,
+      "text": "Steffes, James D.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 404,
+      "end": 420,
+      "text": "RE: Presentation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 251,
+      "end": 421,
+      "text": "-----Original Message-----\nFrom: Kitchen, Louise \nSent: Wednesday, January 02, 2002 1:16 PM\nTo: 'shawn.k.feeney@ssmb.com'\nCc: Steffes, James D.\nSubject: RE: Presentation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 423,
+      "end": 428,
+      "text": "Shawn",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1449,
+      "end": 1455,
+      "text": "Louise",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1440,
+      "end": 1455,
+      "text": "Thanks\n \nLouise",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 421,
+      "end": 1455,
+      "text": "\n\nShawn\n \nWe have had a lot of discussion on the contractual arrangements we would need to put in place in order to recommence trading as quickly as possible.  I am working on producing a fuller list for you today.  However, there is one particular contract/licence which does require special treatment - Power Marketing Licence to be granted by FERC.  In order to ensure that we start this process as quickly as possible we are looking to complete the filing documentation in advance of the bankruptcy decision on our future.\n \nOur current strategy is as follows (all dates are approximate)\n \nPresent - January 10th, 2002        Complete filing documentation\nJanuary 11th                                Visit with FERC (One of senior executives here plus a senior executive from our buyer)\nJanuary 13th                                 File and request an expedited process\n \nIt would be extremelly helpful if you could identify someone for the Head of our Regulatory Group (Jim Steffes) to co-ordinate with at Citi.\n \nThanks\n \nLouise",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 20,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2027232.1075840964837.JavaMail.evans@thyme>",
+      "Date": "Fri, 4 Jan 2002 13:20:20 -0800 (PST)",
+      "From": "louise.kitchen@enron.com",
+      "To": "d..steffes@enron.com",
+      "Subject": "RE: Presentation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-To": "Steffes, James D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jsteffe>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\Sent Items",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l_sent_items_395.txt"
+}

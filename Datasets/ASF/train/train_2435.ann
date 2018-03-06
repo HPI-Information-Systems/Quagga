@@ -1,0 +1,240 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm using Solr 6.4.2.\n\nThe JARs from SolrJ which I'm using are also from Solr 6.4.2.\n\nRegards,\nEdwin\n\n\nOn 18 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:\n\n> I tested this with the\n>\n> following code\n>\n> SolrRequest req = new QueryRequest(new SolrQuery(\"*:*\"));//create a new\n> req.setBasicAuthCredentials(\"solr\", \"SolrRocks\");\n> client.setDefaultCollection(COLLECTION);\n> NamedList<Object> res = cluster.getSolrClient().request(req);\n> System.out.println(\"successful\"+ Utils.toJSON(res.asMap(5)));\n>\n> seems to work for me.\n>\n> which version of Solr and SolrJ are you using\n>\n> On Sun, Apr 16, 2017 at 11:40 AM, Zheng Lin Edwin Yeo\n> <edwinyeozl@gmail.com> wrote:\n> > Ok, thank you.\n> >\n> > Regards,\n> > Edwin\n> >\n> > On 15 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:\n> >\n> >> I'll test with this and let you know\n> >>\n> >> On Apr 13, 2017 23:06, \"Zheng Lin Edwin Yeo\" <edwinyeozl@gmail.com>\n> wrote:\n> >>\n> >> > The security.json which I'm using is the default one that is available\n> >> from\n> >> > the Solr Documentation https://cwiki.apache.org/confluence/display/\n> >> > solr/Basic+Authentication+Plugin.\n> >> >\n> >> > {\n> >> > \"authentication\":{\n> >> >    \"blockUnknown\": true,\n> >> >    \"class\":\"solr.BasicAuthPlugin\",\n> >> >    \"credentials\":{\"solr\":\"IV0EHq1OnNrj6gvRCwvFwTrZ1+\n> z1oBbnQdiVC3otuq0=\n> >> > Ndd7LKvVBAaZIF0QAVi1ekCfAJXr1GGfLtRUXhgrF8c=\"}\n> >> > },\n> >> > \"authorization\":{\n> >> >    \"class\":\"solr.RuleBasedAuthorizationPlugin\",\n> >> >    \"user-role\":{\"solr\":\"admin\"},\n> >> >    \"permissions\":[{\"name\":\"security-edit\",\n> >> >                   \"role\":\"admin\"}]\n> >> > }}\n> >> >\n> >> >\n> >> > Regards,\n> >> > Edwin\n> >> >\n> >> > On 13 April 2017 at 19:53, Noble Paul <noble.paul@gmail.com> wrote:\n> >> >\n> >> > > That looks good. can you share the security.json (commenting out\n> >> > > anything that's sensitive of course)\n> >> > >\n> >> > > On Wed, Apr 12, 2017 at 5:10 PM, Zheng Lin Edwin Yeo\n> >> > > <edwinyeozl@gmail.com> wrote:\n> >> > > > This is what I get when I run the code.\n> >> > > >\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$\n> >> RemoteSolrException:\n> >> > > Error\n> >> > > > from server at http://localhost:8983/solr/testing: Expected mime\n> >> type\n> >> > > > application/octet-stream but got text/html. <html>\n> >> > > > <head>\n> >> > > > <meta http-equiv=\"Content-Type\" content=\"text/html;charset=\n> utf-8\"/>\n> >> > > > <title>Error 401 require authentication</title>\n> >> > > > </head>\n> >> > > > <body><h2>HTTP ERROR 401</h2>\n> >> > > > <p>Problem accessing /solr/testing/update. Reason:\n> >> > > > <pre>    require authentication</pre></p>\n> >> > > > </body>\n> >> > > > </html>\n> >> > > >\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.\n> >> > > executeMethod(HttpSolrClient.java:578)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:279)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:268)\n> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(\n> >> > > SolrRequest.java:149)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:106)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:71)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:85)\n> >> > > > at testing.indexing(testing.java:2939)\n> >> > > > at testing.main(testing.java:329)\n> >> > > > Exception in thread \"main\"\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$\n> >> RemoteSolrException:\n> >> > > Error\n> >> > > > from server at http://localhost:8983/solr/testing: Expected mime\n> >> type\n> >> > > > application/octet-stream but got text/html. <html>\n> >> > > > <head>\n> >> > > > <meta http-equiv=\"Content-Type\" content=\"text/html;charset=\n> utf-8\"/>\n> >> > > > <title>Error 401 require authentication</title>\n> >> > > > </head>\n> >> > > > <body><h2>HTTP ERROR 401</h2>\n> >> > > > <p>Problem accessing /solr/testing/update. Reason:\n> >> > > > <pre>    require authentication</pre></p>\n> >> > > > </body>\n> >> > > > </html>\n> >> > > >\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.\n> >> > > executeMethod(HttpSolrClient.java:578)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:279)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:268)\n> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(\n> >> > > SolrRequest.java:149)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.\n> >> java:484)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.\n> >> java:463)\n> >> > > > at testing.indexing(testing.java:3063)\n> >> > > > at testing.main(testing.java:329)\n> >> > > >\n> >> > > > Regards,\n> >> > > > Edwin\n> >> > > >\n> >> > > >\n> >> > > > On 12 April 2017 at 14:28, Noble Paul <noble.paul@gmail.com>\n> wrote:\n> >> > > >\n> >> > > >> can u paste the stacktrace here\n> >> > > >>\n> >> > > >> On Tue, Apr 11, 2017 at 1:19 PM, Zheng Lin Edwin Yeo\n> >> > > >> <edwinyeozl@gmail.com> wrote:\n> >> > > >> > I found from StackOverflow  that we should declare it\nthis way:\n> >> > > >> > http://stackoverflow.com/questions/43335419/using-\n> >> > > >> basicauth-with-solrj-code\n> >> > > >> >\n> >> > > >> >\n> >> > > >> > SolrRequest req = new QueryRequest(new\n> SolrQuery(\"*:*\"));//create\n> >> a\n> >> > > new\n> >> > > >> > request object\n> >> > > >> > req.setBasicAuthCredentials(userName, password);\n> >> > > >> > solrClient.request(req);\n> >> > > >> >\n> >> > > >> > Is that correct?\n> >> > > >> >\n> >> > > >> > For this, the NullPointerException is not coming out,\nbut the\n> >> SolrJ\n> >> > is\n> >> > > >> > still not able to get authenticated. I'm still getting\nError\n> Code\n> >> > 401\n> >> > > >> even\n> >> > > >> > after putting in this code.\n> >> > > >> >\n> >> > > >> > Any advice on which part of the SolrJ code should we\nplace this\n> >> code\n> >> > > in?\n> >> > > >> >\n> >> > > >> > Regards,\n> >> > > >> > Edwin\n> >> > > >> >\n> >> > > >> >\n> >> > > >> > On 10 April 2017 at 23:50, Zheng Lin Edwin Yeo <\n> >> > edwinyeozl@gmail.com>\n> >> > > >> wrote:\n> >> > > >> >\n> >> > > >> >> Hi,\n> >> > > >> >>\n> >> > > >> >> I have just set up the Basic Authentication Plugin\nin Solr\n> 6.4.2\n> >> on\n> >> > > >> >> SolrCloud, and I am trying to modify my SolrJ code\nso that the\n> >> code\n> >> > > can\n> >> > > >> go\n> >> > > >> >> through the authentication and do the indexing.\n> >> > > >> >>\n> >> > > >> >> I tried using the following code from the Solr Documentation\n> >> > > >> >> https://cwiki.apache.org/confluence/display/solr/Basic+\n> >> > > Authentication+\n> >> > > >> >> Plugin.\n> >> > > >> >>\n> >> > > >> >> SolrRequest req ;//create a new request object\n> >> > > >> >> req.setBasicAuthCredentials(userName, password);\n> >> > > >> >> solrClient.request(req);\n> >> > > >> >>\n> >> > > >> >> However, the code complains that the req is not\ninitialized.\n> >> > > >> >>\n> >> > > >> >> If I initialized it, it will be initialize as null.\n> >> > > >> >>\n> >> > > >> >> SolrRequest req = null;//create a new request object\n> >> > > >> >> req.setBasicAuthCredentials(userName, password);\n> >> > > >> >> solrClient.request(req);\n> >> > > >> >>\n> >> > > >> >> This will caused a null pointer exception.\n> >> > > >> >> Exception in thread \"main\" java.lang.NullPointerException\n> >> > > >> >>\n> >> > > >> >> How should we go about putting these codes, so that\nthe error\n> can\n> >> > be\n> >> > > >> >> prevented?\n> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >> Edwin\n> >> > > >> >>\n> >> > > >> >>\n> >> > > >>\n> >> > > >>\n> >> > > >>\n> >> > > >> --\n> >> > > >> -----------------------------------------------------\n> >> > > >> Noble Paul\n> >> > > >>\n> >> > >\n> >> > >\n> >> > >\n> >> > > --\n> >> > > -----------------------------------------------------\n> >> > > Noble Paul\n> >> > >\n> >> >\n> >>\n>\n>\n>\n> --\n> -----------------------------------------------------\n> Noble Paul\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 85,
+      "end": 101,
+      "text": "\nRegards,\nEdwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 103,
+      "text": "I'm using Solr 6.4.2.\n\nThe JARs from SolrJ which I'm using are also from Solr 6.4.2.\n\nRegards,\nEdwin\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 103,
+      "end": 171,
+      "text": "On 18 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 171,
+      "end": 593,
+      "text": "\n> I tested this with the\n>\n> following code\n>\n> SolrRequest req = new QueryRequest(new SolrQuery(\"*:*\"));//create a new\n> req.setBasicAuthCredentials(\"solr\", \"SolrRocks\");\n> client.setDefaultCollection(COLLECTION);\n> NamedList<Object> res = cluster.getSolrClient().request(req);\n> System.out.println(\"successful\"+ Utils.toJSON(res.asMap(5)));\n>\n> seems to work for me.\n>\n> which version of Solr and SolrJ are you using\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 593,
+      "end": 681,
+      "text": "> On Sun, Apr 16, 2017 at 11:40 AM, Zheng Lin Edwin Yeo\n> <edwinyeozl@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 700,
+      "end": 727,
+      "text": "> >\n> > Regards,\n> > Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 681,
+      "end": 731,
+      "text": "> > Ok, thank you.\n> >\n> > Regards,\n> > Edwin\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 731,
+      "end": 803,
+      "text": "> > On 15 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 803,
+      "end": 854,
+      "text": "> >\n> >> I'll test with this and let you know\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 854,
+      "end": 936,
+      "text": "> >> On Apr 13, 2017 23:06, \"Zheng Lin Edwin Yeo\" <edwinyeozl@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1635,
+      "end": 1671,
+      "text": "> >> >\n> >> > Regards,\n> >> > Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1678,
+      "end": 1753,
+      "text": "> >> > On 13 April 2017 at 19:53, Noble Paul <noble.paul@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 936,
+      "end": 1678,
+      "text": "> >>\n> >> > The security.json which I'm using is the default one that is available\n> >> from\n> >> > the Solr Documentation https://cwiki.apache.org/confluence/display/\n> >> > solr/Basic+Authentication+Plugin.\n> >> >\n> >> > {\n> >> > \"authentication\":{\n> >> >    \"blockUnknown\": true,\n> >> >    \"class\":\"solr.BasicAuthPlugin\",\n> >> >    \"credentials\":{\"solr\":\"IV0EHq1OnNrj6gvRCwvFwTrZ1+\n> z1oBbnQdiVC3otuq0=\n> >> > Ndd7LKvVBAaZIF0QAVi1ekCfAJXr1GGfLtRUXhgrF8c=\"}\n> >> > },\n> >> > \"authorization\":{\n> >> >    \"class\":\"solr.RuleBasedAuthorizationPlugin\",\n> >> >    \"user-role\":{\"solr\":\"admin\"},\n> >> >    \"permissions\":[{\"name\":\"security-edit\",\n> >> >                   \"role\":\"admin\"}]\n> >> > }}\n> >> >\n> >> >\n> >> > Regards,\n> >> > Edwin\n> >> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1753,
+      "end": 1889,
+      "text": "> >> >\n> >> > > That looks good. can you share the security.json (commenting out\n> >> > > anything that's sensitive of course)\n> >> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1889,
+      "end": 1990,
+      "text": "> >> > > On Wed, Apr 12, 2017 at 5:10 PM, Zheng Lin Edwin Yeo\n> >> > > <edwinyeozl@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 4870,
+      "end": 4918,
+      "text": "> >> > > >\n> >> > > > Regards,\n> >> > > > Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1990,
+      "end": 4940,
+      "text": "> >> > > > This is what I get when I run the code.\n> >> > > >\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$\n> >> RemoteSolrException:\n> >> > > Error\n> >> > > > from server at http://localhost:8983/solr/testing: Expected mime\n> >> type\n> >> > > > application/octet-stream but got text/html. <html>\n> >> > > > <head>\n> >> > > > <meta http-equiv=\"Content-Type\" content=\"text/html;charset=\n> utf-8\"/>\n> >> > > > <title>Error 401 require authentication</title>\n> >> > > > </head>\n> >> > > > <body><h2>HTTP ERROR 401</h2>\n> >> > > > <p>Problem accessing /solr/testing/update. Reason:\n> >> > > > <pre>    require authentication</pre></p>\n> >> > > > </body>\n> >> > > > </html>\n> >> > > >\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.\n> >> > > executeMethod(HttpSolrClient.java:578)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:279)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:268)\n> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(\n> >> > > SolrRequest.java:149)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:106)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:71)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.\n> java:85)\n> >> > > > at testing.indexing(testing.java:2939)\n> >> > > > at testing.main(testing.java:329)\n> >> > > > Exception in thread \"main\"\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$\n> >> RemoteSolrException:\n> >> > > Error\n> >> > > > from server at http://localhost:8983/solr/testing: Expected mime\n> >> type\n> >> > > > application/octet-stream but got text/html. <html>\n> >> > > > <head>\n> >> > > > <meta http-equiv=\"Content-Type\" content=\"text/html;charset=\n> utf-8\"/>\n> >> > > > <title>Error 401 require authentication</title>\n> >> > > > </head>\n> >> > > > <body><h2>HTTP ERROR 401</h2>\n> >> > > > <p>Problem accessing /solr/testing/update. Reason:\n> >> > > > <pre>    require authentication</pre></p>\n> >> > > > </body>\n> >> > > > </html>\n> >> > > >\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.\n> >> > > executeMethod(HttpSolrClient.java:578)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:279)\n> >> > > > at\n> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(\n> >> > > HttpSolrClient.java:268)\n> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(\n> >> > > SolrRequest.java:149)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.\n> >> java:484)\n> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.\n> >> java:463)\n> >> > > > at testing.indexing(testing.java:3063)\n> >> > > > at testing.main(testing.java:329)\n> >> > > >\n> >> > > > Regards,\n> >> > > > Edwin\n> >> > > >\n> >> > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 4940,
+      "end": 5021,
+      "text": "> >> > > > On 12 April 2017 at 14:28, Noble Paul <noble.paul@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 5021,
+      "end": 5088,
+      "text": "> >> > > >\n> >> > > >> can u paste the stacktrace here\n> >> > > >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 5088,
+      "end": 5195,
+      "text": "> >> > > >> On Tue, Apr 11, 2017 at 1:19 PM, Zheng Lin Edwin Yeo\n> >> > > >> <edwinyeozl@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 6060,
+      "end": 6117,
+      "text": "> >> > > >> >\n> >> > > >> > Regards,\n> >> > > >> > Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 5195,
+      "end": 6145,
+      "text": "> >> > > >> > I found from StackOverflow  that we should declare it\nthis way:\n> >> > > >> > http://stackoverflow.com/questions/43335419/using-\n> >> > > >> basicauth-with-solrj-code\n> >> > > >> >\n> >> > > >> >\n> >> > > >> > SolrRequest req = new QueryRequest(new\n> SolrQuery(\"*:*\"));//create\n> >> a\n> >> > > new\n> >> > > >> > request object\n> >> > > >> > req.setBasicAuthCredentials(userName, password);\n> >> > > >> > solrClient.request(req);\n> >> > > >> >\n> >> > > >> > Is that correct?\n> >> > > >> >\n> >> > > >> > For this, the NullPointerException is not coming out,\nbut the\n> >> SolrJ\n> >> > is\n> >> > > >> > still not able to get authenticated. I'm still getting\nError\n> Code\n> >> > 401\n> >> > > >> even\n> >> > > >> > after putting in this code.\n> >> > > >> >\n> >> > > >> > Any advice on which part of the SolrJ code should we\nplace this\n> >> code\n> >> > > in?\n> >> > > >> >\n> >> > > >> > Regards,\n> >> > > >> > Edwin\n> >> > > >> >\n> >> > > >> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 6145,
+      "end": 6256,
+      "text": "> >> > > >> > On 10 April 2017 at 23:50, Zheng Lin Edwin Yeo <\n> >> > edwinyeozl@gmail.com>\n> >> > > >> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 6256,
+      "end": 6289,
+      "text": "> >> > > >> >\n> >> > > >> >> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 7604,
+      "end": 7664,
+      "text": "> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >> Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 7745,
+      "end": 7834,
+      "text": "> >> > > >> -----------------------------------------------------\n> >> > > >> Noble Paul\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 7885,
+      "end": 7968,
+      "text": "> >> > > -----------------------------------------------------\n> >> > > Noble Paul\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 8000,
+      "end": 8069,
+      "text": "> -----------------------------------------------------\n> Noble Paul\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 6256,
+      "end": 8072,
+      "text": "> >> > > >> >\n> >> > > >> >> Hi,\n> >> > > >> >>\n> >> > > >> >> I have just set up the Basic Authentication Plugin\nin Solr\n> 6.4.2\n> >> on\n> >> > > >> >> SolrCloud, and I am trying to modify my SolrJ code\nso that the\n> >> code\n> >> > > can\n> >> > > >> go\n> >> > > >> >> through the authentication and do the indexing.\n> >> > > >> >>\n> >> > > >> >> I tried using the following code from the Solr Documentation\n> >> > > >> >> https://cwiki.apache.org/confluence/display/solr/Basic+\n> >> > > Authentication+\n> >> > > >> >> Plugin.\n> >> > > >> >>\n> >> > > >> >> SolrRequest req ;//create a new request object\n> >> > > >> >> req.setBasicAuthCredentials(userName, password);\n> >> > > >> >> solrClient.request(req);\n> >> > > >> >>\n> >> > > >> >> However, the code complains that the req is not\ninitialized.\n> >> > > >> >>\n> >> > > >> >> If I initialized it, it will be initialize as null.\n> >> > > >> >>\n> >> > > >> >> SolrRequest req = null;//create a new request object\n> >> > > >> >> req.setBasicAuthCredentials(userName, password);\n> >> > > >> >> solrClient.request(req);\n> >> > > >> >>\n> >> > > >> >> This will caused a null pointer exception.\n> >> > > >> >> Exception in thread \"main\" java.lang.NullPointerException\n> >> > > >> >>\n> >> > > >> >> How should we go about putting these codes, so that\nthe error\n> can\n> >> > be\n> >> > > >> >> prevented?\n> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >> Edwin\n> >> > > >> >>\n> >> > > >> >>\n> >> > > >>\n> >> > > >>\n> >> > > >>\n> >> > > >> --\n> >> > > >> -----------------------------------------------------\n> >> > > >> Noble Paul\n> >> > > >>\n> >> > >\n> >> > >\n> >> > >\n> >> > > --\n> >> > > -----------------------------------------------------\n> >> > > Noble Paul\n> >> > >\n> >> >\n> >>\n>\n>\n>\n> --\n> -----------------------------------------------------\n> Noble Paul\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2435"
+}

@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks very much. I noticed the times recorded in the web interface. I was\na little hesitant to use that as I might make mistake when recording the\ntimes. Could you please point me to the code in flink these runtimes are\ncomputed?\n\nThanks,\nCharith\n\nOn Mon, Jan 16, 2017 at 3:15 AM, Ufuk Celebi <uce@apache.org> wrote:\n\n> Unfortunately no. You only get the complete execution time after the\n> job has finished. What you can do is browse to the web interface and\n> check the runtime for each operator there (asumming that each\n> iterative process is a separate operator).\n>\n> Does this help?\n>\n> On Mon, Jan 16, 2017 at 7:36 AM, Charith Wickramarachchi\n> <charith.dhanushka@gmail.com> wrote:\n> > Hi All,\n> >\n> > I have a program that executes multiple (data dependent) iterative jobs\n> one\n> > after another in the same execution plan.\n> >\n> > It has the following structure\n> >\n> > ExecutionEnvironment env = ......\n> >\n> > LoadData\n> >\n> > Iterative Process 1\n> >\n> > Iterative Process 2\n> >\n> > ...\n> >\n> > Iterative Process N\n> >\n> > env.execute(\"...\")\n> >\n> >\n> > I want to measure the execution time for each Iterative process. Does\n> flink\n> > has a direct way to measure this time? It will be great if you could\n> provide\n> > a pointer.\n> >\n> > Thanks,\n> > Charith\n> >\n> >\n> >\n> >\n> > --\n> > Charith Dhanushka Wickramaarachchi\n> >\n> > Tel  +1 213 447 4253\n> > Blog  http://charith.wickramaarachchi.org/\n> > Twitter  @charithwiki\n> >\n> > This communication may contain privileged or other confidential\n> information\n> > and is intended exclusively for the addressee/s. If you are not the\n> intended\n> > recipient/s, or believe that you may have\n> > received this communication in error, please reply to the sender\n> indicating\n> > that fact and delete the copy you received and in addition, you should\n> not\n> > print, copy, retransmit, disseminate, or otherwise use the information\n> > contained in this communication. Internet communications cannot be\n> > guaranteed to be timely, secure, error or virus-free. The sender does not\n> > accept liability for any errors or omissions\n>\n\n\n\n-- \nCharith Dhanushka Wickramaarachchi\n\nTel  +1 213 447 4253\nBlog  http://charith.wickramaarachchi.org/\n<http://charithwiki.blogspot.com/>\nTwitter  @charithwiki <https://twitter.com/charithwiki>\n\nThis communication may contain privileged or other confidential information\nand is intended exclusively for the addressee/s. If you are not the\nintended recipient/s, or believe that you may have\nreceived this communication in error, please reply to the sender indicating\nthat fact and delete the copy you received and in addition, you should not\nprint, copy, retransmit, disseminate, or otherwise use the information\ncontained in this communication. Internet communications cannot be\nguaranteed to be timely, secure, error or virus-free. The sender does not\naccept liability for any errors or omissions\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 231,
+      "end": 248,
+      "text": "\nThanks,\nCharith\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 249,
+      "text": "Thanks very much. I noticed the times recorded in the web interface. I was\na little hesitant to use that as I might make mistake when recording the\ntimes. Could you please point me to the code in flink these runtimes are\ncomputed?\n\nThanks,\nCharith\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 249,
+      "end": 318,
+      "text": "On Mon, Jan 16, 2017 at 3:15 AM, Ufuk Celebi <uce@apache.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 318,
+      "end": 592,
+      "text": "\n> Unfortunately no. You only get the complete execution time after the\n> job has finished. What you can do is browse to the web interface and\n> check the runtime for each operator there (asumming that each\n> iterative process is a separate operator).\n>\n> Does this help?\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 592,
+      "end": 690,
+      "text": "> On Mon, Jan 16, 2017 at 7:36 AM, Charith Wickramarachchi\n> <charith.dhanushka@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 690,
+      "end": 702,
+      "text": "> > Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1243,
+      "end": 1271,
+      "text": "> >\n> > Thanks,\n> > Charith\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1287,
+      "end": 1435,
+      "text": "> > --\n> > Charith Dhanushka Wickramaarachchi\n> >\n> > Tel  +1 213 447 4253\n> > Blog  http://charith.wickramaarachchi.org/\n> > Twitter  @charithwiki\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2091,
+      "end": 2286,
+      "text": "-- \nCharith Dhanushka Wickramaarachchi\n\nTel  +1 213 447 4253\nBlog  http://charith.wickramaarachchi.org/\n<http://charithwiki.blogspot.com/>\nTwitter  @charithwiki <https://twitter.com/charithwiki>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 690,
+      "end": 2891,
+      "text": "> > Hi All,\n> >\n> > I have a program that executes multiple (data dependent) iterative jobs\n> one\n> > after another in the same execution plan.\n> >\n> > It has the following structure\n> >\n> > ExecutionEnvironment env = ......\n> >\n> > LoadData\n> >\n> > Iterative Process 1\n> >\n> > Iterative Process 2\n> >\n> > ...\n> >\n> > Iterative Process N\n> >\n> > env.execute(\"...\")\n> >\n> >\n> > I want to measure the execution time for each Iterative process. Does\n> flink\n> > has a direct way to measure this time? It will be great if you could\n> provide\n> > a pointer.\n> >\n> > Thanks,\n> > Charith\n> >\n> >\n> >\n> >\n> > --\n> > Charith Dhanushka Wickramaarachchi\n> >\n> > Tel  +1 213 447 4253\n> > Blog  http://charith.wickramaarachchi.org/\n> > Twitter  @charithwiki\n> >\n> > This communication may contain privileged or other confidential\n> information\n> > and is intended exclusively for the addressee/s. If you are not the\n> intended\n> > recipient/s, or believe that you may have\n> > received this communication in error, please reply to the sender\n> indicating\n> > that fact and delete the copy you received and in addition, you should\n> not\n> > print, copy, retransmit, disseminate, or otherwise use the information\n> > contained in this communication. Internet communications cannot be\n> > guaranteed to be timely, secure, error or virus-free. The sender does not\n> > accept liability for any errors or omissions\n>\n\n\n\n-- \nCharith Dhanushka Wickramaarachchi\n\nTel  +1 213 447 4253\nBlog  http://charith.wickramaarachchi.org/\n<http://charithwiki.blogspot.com/>\nTwitter  @charithwiki <https://twitter.com/charithwiki>\n\nThis communication may contain privileged or other confidential information\nand is intended exclusively for the addressee/s. If you are not the\nintended recipient/s, or believe that you may have\nreceived this communication in error, please reply to the sender indicating\nthat fact and delete the copy you received and in addition, you should not\nprint, copy, retransmit, disseminate, or otherwise use the information\ncontained in this communication. Internet communications cannot be\nguaranteed to be timely, secure, error or virus-free. The sender does not\naccept liability for any errors or omissions\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_310"
+}

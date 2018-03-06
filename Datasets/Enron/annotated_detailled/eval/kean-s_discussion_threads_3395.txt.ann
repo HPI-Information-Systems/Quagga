@@ -1,0 +1,259 @@
+{
+  "wrapper": "plaintext",
+  "text": "I just had to share this with you.  I hope you haven't seen it already.\n---------------------- Forwarded by Rebecca W Cantrell/HOU/ECT on 05/24/2001 \n05:09 PM ---------------------------\n\n\n\"Randall Rich\" <rrich@bracepatt.com> on 05/24/2001 05:10:19 PM\nTo: <llawner@enron.com>, <rebecca.w.cantrell@enron.com>\ncc:  \nSubject: Fwd: The Answer!\n\n\nThought you'd enjoy this.\nReceived: from mcafee.bracepatt.com by mail.bracepatt.com; Thu, 24 May 2001 \n00:49:13 -0500\nReceived: FROM hountnmail1.ngccorp.com BY mcafee.bracepatt.com ; Thu May 24 \n00:59:27 2001 -0500\nX-Proxy: keymaster.bracepatt.com protected\nFrom: Betsy.Carr@dynegy.com\nSubject: The Answer!\nTo: tbradley@bracepatt.com, asettanni@bracepatt.com\nSender: Betsy.Carr@dynegy.com\nDate: Wed, 23 May 2001 23:11:59 -0500\nMessage-ID: <OF120FB6CE.1A60FE9A-ON86256A56.0016ECD1@ngccorp.com>\nX-MIMETrack: Serialize by Router on HOUNTNMAIL1/HOUSRV/Dynegy(Release 5.0.5 \n|September 22, 2000) at 05/24/2001 12:44:04 AM\nMIME-Version: 1.0\nContent-type: multipart/mixed ; \nBoundary=\"0__=86256A560016ECD18f9e8a93df938690918c86256A560016ECD1\"\nContent-Disposition: inline\n\nfinally.......\n\n\n\n(See attached file: windmilldavis.gif)\n\n\n\n\n - windmilldavis.gif\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 72,
+      "text": "I just had to share this with you.  I hope you haven't seen it already.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 108,
+      "end": 126,
+      "text": "Rebecca W Cantrell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 138,
+      "end": 148,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 150,
+      "end": 158,
+      "text": "05:09 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 72,
+      "end": 187,
+      "text": "---------------------- Forwarded by Rebecca W Cantrell/HOU/ECT on 05/24/2001 \n05:09 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 190,
+      "end": 202,
+      "text": "Randall Rich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 205,
+      "end": 224,
+      "text": "rrich@bracepatt.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 229,
+      "end": 239,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 240,
+      "end": 251,
+      "text": "05:10:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 257,
+      "end": 274,
+      "text": "llawner@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 278,
+      "end": 306,
+      "text": "rebecca.w.cantrell@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 323,
+      "end": 339,
+      "text": "Fwd: The Answer!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 187,
+      "end": 340,
+      "text": "\n\n\"Randall Rich\" <rrich@bracepatt.com> on 05/24/2001 05:10:19 PM\nTo: <llawner@enron.com>, <rebecca.w.cantrell@enron.com>\ncc:  \nSubject: Fwd: The Answer!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1145,
+      "end": 1162,
+      "text": "windmilldavis.gif",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1171,
+      "end": 1188,
+      "text": "windmilldavis.gif",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1125,
+      "end": 1189,
+      "text": "(See attached file: windmilldavis.gif)\n\n\n\n\n - windmilldavis.gif\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 340,
+      "end": 368,
+      "text": "\n\nThought you'd enjoy this.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 606,
+      "end": 627,
+      "text": "Betsy.Carr@dynegy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 637,
+      "end": 648,
+      "text": "The Answer!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 653,
+      "end": 675,
+      "text": "tbradley@bracepatt.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 677,
+      "end": 700,
+      "text": "asettanni@bracepatt.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 709,
+      "end": 730,
+      "text": "Betsy.Carr@dynegy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 742,
+      "end": 753,
+      "text": "23 May 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 754,
+      "end": 768,
+      "text": "23:11:59 -0500",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 368,
+      "end": 1106,
+      "text": "Received: from mcafee.bracepatt.com by mail.bracepatt.com; Thu, 24 May 2001 \n00:49:13 -0500\nReceived: FROM hountnmail1.ngccorp.com BY mcafee.bracepatt.com ; Thu May 24 \n00:59:27 2001 -0500\nX-Proxy: keymaster.bracepatt.com protected\nFrom: Betsy.Carr@dynegy.com\nSubject: The Answer!\nTo: tbradley@bracepatt.com, asettanni@bracepatt.com\nSender: Betsy.Carr@dynegy.com\nDate: Wed, 23 May 2001 23:11:59 -0500\nMessage-ID: <OF120FB6CE.1A60FE9A-ON86256A56.0016ECD1@ngccorp.com>\nX-MIMETrack: Serialize by Router on HOUNTNMAIL1/HOUSRV/Dynegy(Release 5.0.5 \n|September 22, 2000) at 05/24/2001 12:44:04 AM\nMIME-Version: 1.0\nContent-type: multipart/mixed ; \nBoundary=\"0__=86256A560016ECD18f9e8a93df938690918c86256A560016ECD1\"\nContent-Disposition: inline\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1106,
+      "end": 1189,
+      "text": "\nfinally.......\n\n\n\n(See attached file: windmilldavis.gif)\n\n\n\n\n - windmilldavis.gif\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 18,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31913591.1075848189414.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 10:11:00 -0700 (PDT)",
+      "From": "rebecca.cantrell@enron.com",
+      "To": "james.steffes@enron.com, richard.shapiro@enron.com, steven.kean@enron.com",
+      "Subject": "Fwd: The Answer!",
+      "Cc": "leslie.lawner@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "leslie.lawner@enron.com",
+      "X-From": "Rebecca W Cantrell",
+      "X-To": "James D Steffes, Richard Shapiro, Steven J Kean",
+      "X-cc": "Leslie Lawner",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_discussion_threads_3395.txt"
+}

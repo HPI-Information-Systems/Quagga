@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "test/kaminski-v_discussion_threads_7961.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<28082786.1075856889210.JavaMail.evans@thyme>",
+      "Date": "Fri, 1 Dec 2000 10:34:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.worldwide@enron.com",
+      "Subject": "eThink About It",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron Announcements",
+      "X-To": "All Enron Worldwide",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_7\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "text": "eThink Stuff For Sale!\nThat's right; get your very own eThink apparel, accessories and office \ngadgets at the Signature Shop online.  Direct your web browser to the \nSignature Shop, and then click \"eThink Merchandise\" to see the complete \nline.  Happy shopping!\n\n\neSpeak is back!  Tuesday, December 5 at 10:00 am Houston time, please join \nChairman and CEO Ken Lay for an open-mike eSpeak event.  This is your last \nchance of the year to ask Ken questions about the issues most important to \nyou.  Don't miss it!",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 512,
+      "text": "eThink Stuff For Sale!\nThat's right; get your very own eThink apparel, accessories and office \ngadgets at the Signature Shop online.  Direct your web browser to the \nSignature Shop, and then click \"eThink Merchandise\" to see the complete \nline.  Happy shopping!\n\n\neSpeak is back!  Tuesday, December 5 at 10:00 am Houston time, please join \nChairman and CEO Ken Lay for an open-mike eSpeak event.  This is your last \nchance of the year to ask Ken questions about the issues most important to \nyou.  Don't miss it!",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

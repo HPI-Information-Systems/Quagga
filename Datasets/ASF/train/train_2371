@@ -1,0 +1,69 @@
+Mike
+With SolrCloud you want to have nodes each on their own machine, do you not?. Can your nodes
+connect to each other?
+Cheers -- Rick
+
+On April 8, 2017 10:02:07 PM EDT, Mike Thomsen <mikerthomsen@gmail.com> wrote:
+>Hi Rick,
+>
+>No, I just used the "official" one on Docker Hub (
+>https://hub.docker.com/_/solr/) and followed the instructions for
+>linking
+>and working with ZooKeeper to get SolrCloud up and running.
+>
+>I may have to go to the Docker forum in the end, but I thought I'd ask
+>here
+>first since the only thing that seems to be broken is the Java client
+>API,
+>not the servers, in this environment/configuration.
+>
+>Thanks,
+>
+>Mike
+>
+>On Sat, Apr 8, 2017 at 9:41 PM, Rick Leir <rleir@leirtech.com> wrote:
+>
+>> Hi Mike
+>> Did you dockerize Solr yourself? I have some knowledge of Docker, and
+>> think that this question would get better help in a Docker forum.
+>> Cheers -- Rick
+>>
+>> On April 8, 2017 8:42:13 PM EDT, Mike Thomsen
+><mikerthomsen@gmail.com>
+>> wrote:
+>> >I'm running two nodes of SolrCloud in Docker on Windows using Docker
+>> >Toolbox.  The problem I am having is that Docker Toolbox runs inside
+>of
+>> >a
+>> >VM and so it has an internal network inside the VM that is not
+>> >accessible
+>> >to the Docker Toolbox VM's host OS. If I go to the VM's IP which is
+>> >192.168.99.100, I can load the admin UI and do basic operations that
+>> >are
+>> >written to go against that IP and port (like querying, schema
+>editor,
+>> >manually adding documents, etc.)
+>> >
+>> >However, when I try to run code that uses SolrJ to add documents, it
+>> >fails
+>> >because the ZK configuration has the IPs for the internal Docker
+>> >network
+>> >which is 172.X.Y..Z. If I log into the toolbox VM and run the Java
+>code
+>> >from there, it works just fine. From the host OS, doesn't.
+>> >
+>> >Anyone have any ideas on how to get around this? If I rewrite the
+>> >indexing
+>> >code to do a manual JSON POST to the update handler on one of the
+>> >nodes, it
+>> >does work just fine, but that leaves me not using SolrJ.
+>> >
+>> >Thanks,
+>> >
+>> >Mike
+>>
+>> --
+>> Sorry for being brief. Alternate email is rickleir at yahoo dot com
+
+-- 
+Sorry for being brief. Alternate email is rickleir at yahoo dot com 

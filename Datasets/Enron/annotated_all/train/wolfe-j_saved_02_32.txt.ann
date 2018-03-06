@@ -1,0 +1,283 @@
+{
+  "wrapper": "plaintext",
+  "text": "-----Original Message-----\nFrom: Live Person [mailto:liveperson@ice.com]\nSent: Monday, February 26, 2001 8:46 AM\nTo: beth.cherry@enform.com\nSubject: RE: General Mailbox\n\n\nDear Customer,\nThank you very much for your keen observation.\nThe correction will be done today.\nAs a token of our appreciation, please accpet this 10% coupon to be used\ntowards your purchase on our site.  BCD10-512106\nKind Regards,\nJudy Paul\n\n\nJudy Paul\nCustomer Service Representative\njudy.paul@ice.com\n1-800-539-3580 Ext 108\n\n-----Original Message-----\nFrom: beth.cherry@enform.com [mailto:beth.cherry@enform.com]\nSent: Sunday, February 25, 2001 1:58 PM\nTo: liveperson@ice.com\nSubject: General Mailbox\n\n\nclick on engagement.\nthe last entry is described as a bracelet when it is a ring...just trying to\nhelp",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 33,
+      "end": 44,
+      "text": "Live Person",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 53,
+      "end": 71,
+      "text": "liveperson@ice.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 87,
+      "end": 104,
+      "text": "February 26, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 105,
+      "end": 112,
+      "text": "8:46 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 117,
+      "end": 139,
+      "text": "beth.cherry@enform.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 149,
+      "end": 168,
+      "text": "RE: General Mailbox",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 169,
+      "text": "-----Original Message-----\nFrom: Live Person [mailto:liveperson@ice.com]\nSent: Monday, February 26, 2001 8:46 AM\nTo: beth.cherry@enform.com\nSubject: RE: General Mailbox\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 171,
+      "end": 186,
+      "text": "Dear Customer,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 404,
+      "end": 413,
+      "text": "Judy Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 390,
+      "end": 414,
+      "text": "Kind Regards,\nJudy Paul\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 416,
+      "end": 425,
+      "text": "Judy Paul",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 426,
+      "end": 457,
+      "text": "Customer Service Representative",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 458,
+      "end": 475,
+      "text": "judy.paul@ice.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 476,
+      "end": 490,
+      "text": "1-800-539-3580",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 416,
+      "end": 499,
+      "text": "Judy Paul\nCustomer Service Representative\njudy.paul@ice.com\n1-800-539-3580 Ext 108\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 169,
+      "end": 500,
+      "text": "\n\nDear Customer,\nThank you very much for your keen observation.\nThe correction will be done today.\nAs a token of our appreciation, please accpet this 10% coupon to be used\ntowards your purchase on our site.  BCD10-512106\nKind Regards,\nJudy Paul\n\n\nJudy Paul\nCustomer Service Representative\njudy.paul@ice.com\n1-800-539-3580 Ext 108\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 533,
+      "end": 555,
+      "text": "beth.cherry@enform.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 564,
+      "end": 586,
+      "text": "beth.cherry@enform.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 602,
+      "end": 619,
+      "text": "February 25, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 620,
+      "end": 627,
+      "text": "1:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 632,
+      "end": 650,
+      "text": "liveperson@ice.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 660,
+      "end": 675,
+      "text": "General Mailbox",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 500,
+      "end": 676,
+      "text": "-----Original Message-----\nFrom: beth.cherry@enform.com [mailto:beth.cherry@enform.com]\nSent: Sunday, February 25, 2001 1:58 PM\nTo: liveperson@ice.com\nSubject: General Mailbox\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 676,
+      "end": 780,
+      "text": "\n\nclick on engagement.\nthe last entry is described as a bracelet when it is a ring...just trying to\nhelp",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 17,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 21,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23259489.1075851768912.JavaMail.evans@thyme>",
+      "Date": "Mon, 26 Feb 2001 01:13:00 -0800 (PST)",
+      "From": "beth.cherry@enform.com",
+      "To": "jason.wolfe@enron.com",
+      "Subject": "FW: General Mailbox",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Cherry, Beth\" <Beth.Cherry@enform.com>",
+      "X-To": "\"Jason. Wolfe@enron. com (E-mail)\" <Jason.Wolfe@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jason_Wolfe_Nov2001\\Notes Folders\\Saved-02",
+      "X-Origin": "WOLFE-J",
+      "X-FileName": "jwolfe.nsf"
+    }
+  },
+  "id": "train/wolfe-j_saved_02_32.txt"
+}

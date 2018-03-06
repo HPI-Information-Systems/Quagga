@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sorry, I take back my ignore email. Can someone please respond to the initial question:\n\nI unload a core from Solr using the CoreAdmin page on UI or send unload request via the api,\nit works perfectly fine. In my code, I\u00e2\u20ac\u2122m trying to unload a core using the call:\n\nCoreAdminRequest.unloadCore(<coreName>, <solrClient>);\n\n\nI get following response:\n\n{responseHeader={status=0,QTime=0}}\n\n\nAt this step, I had put a debug point and Solr UI still shows the core that I have unloaded.\nAlso, I killed the solr process using kill \u00e2\u20ac\u201c9 command and restarted Solr. The core is still\npresent in Solr. When does it get unloaded then? Please note that, I\u00e2\u20ac\u2122m making these requests\nfrom a CoreAdminHandler.\n\n\nThanks,\nShashank Pedamallu\n\n\n\n\n\n\nOn 5/3/17, 1:09 PM, \"Shashank Pedamallu\" <spedamallu@vmware.com> wrote:\n\n>Please ignore this question. I\u00e2\u20ac\u2122m not able to reproduce this, it should have been a mistake\nby me.\n>\n>Thanks,\n>Shashank Pedamallu\n>\n>\n>\n>\n>\n>\n>On 5/3/17, 12:52 PM, \"Shashank Pedamallu\" <spedamallu@vmware.com> wrote:\n>\n>>Hi all,\n>>\n>>I unload a core from Solr using the CoreAdmin page on UI or send unload request via\nthe api, it works perfectly fine. In my code, I\u00e2\u20ac\u2122m trying to unload a core using the call:\n>>\n>>CoreAdminRequest.unloadCore(<coreName>, <solrClient>);\n>>\n>>\n>>I get following response:\n>>\n>> {responseHeader={status=0,QTime=0}}\n>>\n>>\n>>At this step, I had put a debug point and Solr UI still shows the core that I have\nunloaded. Also, I killed the solr process using kill \u00e2\u20ac\u201c9 command and restarted Solr. The\ncore is still present in Solr. When does it get unloaded then?\n>>\n>>Thanks in advance!\n>>\n>>Thanks,\n>>Shashank Pedamallu\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 696,
+      "end": 724,
+      "text": "\nThanks,\nShashank Pedamallu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 730,
+      "text": "Sorry, I take back my ignore email. Can someone please respond to the initial question:\n\nI unload a core from Solr using the CoreAdmin page on UI or send unload request via the api,\nit works perfectly fine. In my code, I\u00e2\u20ac\u2122m trying to unload a core using the call:\n\nCoreAdminRequest.unloadCore(<coreName>, <solrClient>);\n\n\nI get following response:\n\n{responseHeader={status=0,QTime=0}}\n\n\nAt this step, I had put a debug point and Solr UI still shows the core that I have unloaded.\nAlso, I killed the solr process using kill \u00e2\u20ac\u201c9 command and restarted Solr. The core is still\npresent in Solr. When does it get unloaded then? Please note that, I\u00e2\u20ac\u2122m making these requests\nfrom a CoreAdminHandler.\n\n\nThanks,\nShashank Pedamallu\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 730,
+      "end": 802,
+      "text": "On 5/3/17, 1:09 PM, \"Shashank Pedamallu\" <spedamallu@vmware.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 904,
+      "end": 935,
+      "text": ">\n>Thanks,\n>Shashank Pedamallu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 802,
+      "end": 947,
+      "text": "\n>Please ignore this question. I\u00e2\u20ac\u2122m not able to reproduce this, it should have been a mistake\nby me.\n>\n>Thanks,\n>Shashank Pedamallu\n>\n>\n>\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 947,
+      "end": 1021,
+      "text": ">On 5/3/17, 12:52 PM, \"Shashank Pedamallu\" <spedamallu@vmware.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1021,
+      "end": 1033,
+      "text": ">\n>>Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1618,
+      "end": 1652,
+      "text": ">>\n>>Thanks,\n>>Shashank Pedamallu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1021,
+      "end": 1652,
+      "text": ">\n>>Hi all,\n>>\n>>I unload a core from Solr using the CoreAdmin page on UI or send unload request via\nthe api, it works perfectly fine. In my code, I\u00e2\u20ac\u2122m trying to unload a core using the call:\n>>\n>>CoreAdminRequest.unloadCore(<coreName>, <solrClient>);\n>>\n>>\n>>I get following response:\n>>\n>> {responseHeader={status=0,QTime=0}}\n>>\n>>\n>>At this step, I had put a debug point and Solr UI still shows the core that I have\nunloaded. Also, I killed the solr process using kill \u00e2\u20ac\u201c9 command and restarted Solr. The\ncore is still present in Solr. When does it get unloaded then?\n>>\n>>Thanks in advance!\n>>\n>>Thanks,\n>>Shashank Pedamallu\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3109"
+}

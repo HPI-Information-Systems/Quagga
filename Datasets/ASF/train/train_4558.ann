@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thnaks a lot alessandro!\n\nYes, we have very big physical dedicated machines, with a topology of 5\nshards and10 replicas each shard.\n\n\n1. transaction log files are increasing but not with this rate\n\n2.  we 've probed with values between 300 and 2000 MB... without any\nvisible results\n\n3.  We don't use those features\n\n4. No.\n\n5. I've probed with low and high mergefacors and i think that is  the point.\n\nWith low merge factor (over 4) we 've high write disk rate as i said\npreviously\n\nwith merge factor of 20, writing disk rate is decreasing, but now, with\nhigh qps rates (over 1000 qps) system is overloaded.\n\ni think that's the expected behaviour :(\n\n\n\n\n2017-07-05 15:49 GMT+02:00 alessandro.benedetti <a.benedetti@sease.io>:\n\n> Point 2 was the ram Buffer size :\n>\n> *ramBufferSizeMB* sets the amount of RAM that may be used by Lucene\n>          indexing for buffering added documents and deletions before they\n> are\n>          flushed to the Directory.\n>          maxBufferedDocs sets a limit on the number of documents buffered\n>          before flushing.\n>          If both ramBufferSizeMB and maxBufferedDocs is set, then\n>          Lucene will flush based on whichever limit is hit first.\n>\n> <ramBufferSizeMB>100</ramBufferSizeMB>\n> <maxBufferedDocs>1000</maxBufferedDocs>\n>\n>\n>\n>\n> -----\n> ---------------\n> Alessandro Benedetti\n> Search Consultant, R&D Software Engineer, Director\n> Sease Ltd. - www.sease.io\n> --\n> View this message in context: http://lucene.472066.n3.\n> nabble.com/High-disk-write-usage-tp4344356p4344386.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 655,
+      "text": "Thnaks a lot alessandro!\n\nYes, we have very big physical dedicated machines, with a topology of 5\nshards and10 replicas each shard.\n\n\n1. transaction log files are increasing but not with this rate\n\n2.  we 've probed with values between 300 and 2000 MB... without any\nvisible results\n\n3.  We don't use those features\n\n4. No.\n\n5. I've probed with low and high mergefacors and i think that is  the point.\n\nWith low merge factor (over 4) we 've high write disk rate as i said\npreviously\n\nwith merge factor of 20, writing disk rate is decreasing, but now, with\nhigh qps rates (over 1000 qps) system is overloaded.\n\ni think that's the expected behaviour :(\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 655,
+      "end": 727,
+      "text": "2017-07-05 15:49 GMT+02:00 alessandro.benedetti <a.benedetti@sease.io>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1296,
+      "end": 1423,
+      "text": "> ---------------\n> Alessandro Benedetti\n> Search Consultant, R&D Software Engineer, Director\n> Sease Ltd. - www.sease.io\n> --\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 727,
+      "end": 1605,
+      "text": "\n> Point 2 was the ram Buffer size :\n>\n> *ramBufferSizeMB* sets the amount of RAM that may be used by Lucene\n>          indexing for buffering added documents and deletions before they\n> are\n>          flushed to the Directory.\n>          maxBufferedDocs sets a limit on the number of documents buffered\n>          before flushing.\n>          If both ramBufferSizeMB and maxBufferedDocs is set, then\n>          Lucene will flush based on whichever limit is hit first.\n>\n> <ramBufferSizeMB>100</ramBufferSizeMB>\n> <maxBufferedDocs>1000</maxBufferedDocs>\n>\n>\n>\n>\n> -----\n> ---------------\n> Alessandro Benedetti\n> Search Consultant, R&D Software Engineer, Director\n> Sease Ltd. - www.sease.io\n> --\n> View this message in context: http://lucene.472066.n3.\n> nabble.com/High-disk-write-usage-tp4344356p4344386.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4558"
+}

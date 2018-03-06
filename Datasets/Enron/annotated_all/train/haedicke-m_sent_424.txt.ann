@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Rob, I want to keep a relatively low profile until we settle Project \nStanley.  With respect to cooperating with TransAlta while the lawsuit is \npending -- that seems to send the wrong signal to TransAlta.\n\nMark",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Rob,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 206,
+      "end": 211,
+      "text": "\nMark",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 211,
+      "text": "Rob, I want to keep a relatively low profile until we settle Project \nStanley.  With respect to cooperating with TransAlta while the lawsuit is \npending -- that seems to send the wrong signal to TransAlta.\n\nMark",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1111330.1075845050927.JavaMail.evans@thyme>",
+      "Date": "Fri, 1 Sep 2000 10:26:00 -0700 (PDT)",
+      "From": "mark.haedicke@enron.com",
+      "To": "rob.milnthorp@enron.com",
+      "Subject": "Re: Project Stanley - Recent Meetings with Alberta Government and\n TransAlta",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark E Haedicke",
+      "X-To": "Rob Milnthorp",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Oct2001\\Notes Folders\\Sent",
+      "X-Origin": "HAEDICKE-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_sent_424.txt"
+}

@@ -1,0 +1,417 @@
+{
+  "wrapper": "plaintext",
+  "text": "Stuart,  We can sell gas in the ordinary course of business.  I would sell as much as they will let you sell.\n\n-----Original Message-----\nFrom: Zisman, Stuart \nSent: Tuesday, February 05, 2002 10:19 AM\nTo: Nemec, Gerald\nCc: Parks, Joe; Meyer, Chris; Schneider, Chip\nSubject: FW: Centana Storage Arrangement\n\n\nGerald,\n \nJoe Parks just indicated that Centana is willing to allow us to sell gas without paying them first.  Just as we first talked about with Bridgeline, they want to hold back an amount of inventory sufficient to cover the pre and post-petition demand charges.  My reaction is to sell the gas ASAP and worry about the remaining inventory later.  Please advise if this is a problem.  From my prior discussions with you, my understanding is that sales of gas by ENA are permitted without prior approval.  Let me know if that is not the case.\n \nThanks\n\nStuart\n \n-----Original Message-----\nFrom: Parks, Joe \nSent: Tuesday, February 05, 2002 9:46 AM\nTo: Zisman, Stuart\nSubject: RE: Centana Storage Arrangement\n\n\nSPOKE WITH CENTANA, HE HAS TOLD ME THAT HE IS WILLING TO LET ME SELL SOME OF THE INVENTORY. HE HAS STATED THAT HE WILL WANT TO KEEP SOME OF THE INVENTORY AS COLLATERAL FOR PRE AND POST PETITION DEMAND  FEES.\n\n-----Original Message-----\nFrom: Zisman, Stuart \nSent: Monday, February 04, 2002 10:19 PM\nTo: Meyer, Chris; Parks, Joe\nCc: Schneider, Chip; Nemec, Gerald\nSubject: Centana Storage Arrangement\n\n\nChris/Joe\n \nAttached are my comments to the Batch Funding Request for Centana.\n \nBy carbon copy of this email, I am sending it to Chip and Gerald for their review and comment (Chip and Gerald should accept all changes to simplify their review given that this is their first pass at it).  Chip is up to speed on this deal (I spoke with him about this last week).  I am not sure whether Gerald knows anything about this transaction, but his skill set and knowledge base make him the ideal lawyer for this arrangement.\n \nGerald - I would truly appreciate it if you would look at this.  The good news on this transaction is that there is very little in the way of documentation.  Your insight would be invaluable given your Bridgeline dealings.\n \nThanks in advance.\n\nStuart\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Stuart",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 111,
+      "text": "Stuart,  We can sell gas in the ordinary course of business.  I would sell as much as they will let you sell.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 144,
+      "end": 158,
+      "text": "Zisman, Stuart",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 175,
+      "end": 192,
+      "text": "February 05, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 193,
+      "end": 201,
+      "text": "10:19 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 206,
+      "end": 219,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 224,
+      "end": 234,
+      "text": "Parks, Joe",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 236,
+      "end": 248,
+      "text": "Meyer, Chris",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 250,
+      "end": 265,
+      "text": "Schneider, Chip",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 275,
+      "end": 306,
+      "text": "FW: Centana Storage Arrangement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 111,
+      "end": 307,
+      "text": "-----Original Message-----\nFrom: Zisman, Stuart \nSent: Tuesday, February 05, 2002 10:19 AM\nTo: Nemec, Gerald\nCc: Parks, Joe; Meyer, Chris; Schneider, Chip\nSubject: FW: Centana Storage Arrangement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 309,
+      "end": 315,
+      "text": "Gerald",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 864,
+      "end": 870,
+      "text": "Stuart",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 856,
+      "end": 871,
+      "text": "Thanks\n\nStuart\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 307,
+      "end": 873,
+      "text": "\n\nGerald,\n \nJoe Parks just indicated that Centana is willing to allow us to sell gas without paying them first.  Just as we first talked about with Bridgeline, they want to hold back an amount of inventory sufficient to cover the pre and post-petition demand charges.  My reaction is to sell the gas ASAP and worry about the remaining inventory later.  Please advise if this is a problem.  From my prior discussions with you, my understanding is that sales of gas by ENA are permitted without prior approval.  Let me know if that is not the case.\n \nThanks\n\nStuart\n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 906,
+      "end": 916,
+      "text": "Parks, Joe",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 933,
+      "end": 950,
+      "text": "February 05, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 951,
+      "end": 958,
+      "text": "9:46 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 963,
+      "end": 977,
+      "text": "Zisman, Stuart",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 987,
+      "end": 1018,
+      "text": "RE: Centana Storage Arrangement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 873,
+      "end": 1019,
+      "text": "-----Original Message-----\nFrom: Parks, Joe \nSent: Tuesday, February 05, 2002 9:46 AM\nTo: Zisman, Stuart\nSubject: RE: Centana Storage Arrangement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1019,
+      "end": 1230,
+      "text": "\n\nSPOKE WITH CENTANA, HE HAS TOLD ME THAT HE IS WILLING TO LET ME SELL SOME OF THE INVENTORY. HE HAS STATED THAT HE WILL WANT TO KEEP SOME OF THE INVENTORY AS COLLATERAL FOR PRE AND POST PETITION DEMAND  FEES.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1263,
+      "end": 1277,
+      "text": "Zisman, Stuart",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1293,
+      "end": 1310,
+      "text": "February 04, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1311,
+      "end": 1319,
+      "text": "10:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1324,
+      "end": 1336,
+      "text": "Meyer, Chris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1338,
+      "end": 1348,
+      "text": "Parks, Joe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1353,
+      "end": 1368,
+      "text": "Schneider, Chip",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1370,
+      "end": 1383,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1393,
+      "end": 1420,
+      "text": "Centana Storage Arrangement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1230,
+      "end": 1421,
+      "text": "-----Original Message-----\nFrom: Zisman, Stuart \nSent: Monday, February 04, 2002 10:19 PM\nTo: Meyer, Chris; Parks, Joe\nCc: Schneider, Chip; Nemec, Gerald\nSubject: Centana Storage Arrangement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1423,
+      "end": 1428,
+      "text": "Chris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1429,
+      "end": 1432,
+      "text": "Joe",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1423,
+      "end": 1433,
+      "text": "Chris/Joe\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2186,
+      "end": 2192,
+      "text": "Stuart",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 2166,
+      "end": 2193,
+      "text": "Thanks in advance.\n\nStuart\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1421,
+      "end": 2194,
+      "text": "\n\nChris/Joe\n \nAttached are my comments to the Batch Funding Request for Centana.\n \nBy carbon copy of this email, I am sending it to Chip and Gerald for their review and comment (Chip and Gerald should accept all changes to simplify their review given that this is their first pass at it).  Chip is up to speed on this deal (I spoke with him about this last week).  I am not sure whether Gerald knows anything about this transaction, but his skill set and knowledge base make him the ideal lawyer for this arrangement.\n \nGerald - I would truly appreciate it if you would look at this.  The good news on this transaction is that there is very little in the way of documentation.  Your insight would be invaluable given your Bridgeline dealings.\n \nThanks in advance.\n\nStuart\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 27,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 29,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 28,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 32,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 33,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 35,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16698274.1075841376122.JavaMail.evans@thyme>",
+      "Date": "Tue, 5 Feb 2002 12:42:10 -0800 (PST)",
+      "From": "gerald.nemec@enron.com",
+      "To": "stuart.zisman@enron.com",
+      "Subject": "RE: Centana Storage Arrangement",
+      "Cc": "joe.parks@enron.com, chris.meyer@enron.com, chip.schneider@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "joe.parks@enron.com, chris.meyer@enron.com, chip.schneider@enron.com",
+      "X-From": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-To": "Zisman, Stuart </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Szisman>",
+      "X-cc": "Parks, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jparks>, Meyer, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cmeyer>, Schneider, Chip </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cschneid>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Parks, Joe\\Deleted Items",
+      "X-Origin": "PARKS-J",
+      "X-FileName": "joe parks 6-26-02.pst"
+    }
+  },
+  "id": "train/parks-j_deleted_items_798.txt"
+}

@@ -1,0 +1,40 @@
+Hi
+
+Ineed to create afield that will be prefix and suffix with code 
+'z01x'.This field needs to have the code in the index and during query.
+I can either
+1.
+have the source data of the field formatted with the code before 
+indexing (outside solr).
+use a charFilter in the query stage of the field typeto add the 
+codeduring query.
+
+<charFilter class="solr.PatternReplaceCharFilterFactory" 
+pattern="^(.*)$" replacement="z01x $1 z01x" />
+
+OR
+
+2.
+use the charFilter before tokenizerclass during the index and query 
+analyzer stage of the field type.
+
+The collection has between 100k - 200k documents currentlybut it may 
+increase in the future.
+Theindexing time with option 2 and current indexing time is almost the 
+same, between 2-3 minutes.
+
+Which option would you advice?
+
+Derek
+
+----------------------
+CONFIDENTIALITY NOTICE 
+
+This e-mail (including any attachments) may contain confidential and/or privileged information.
+If you are not the intended recipient or have received this e-mail in error, please inform
+the sender immediately and delete this e-mail (including any attachments) from your computer,
+and you must not use, disclose to anyone else or copy this e-mail (including any attachments),
+whether in whole or in part. 
+
+This e-mail and any reply to it may be monitored for security, legal, regulatory compliance
+and/or other appropriate reasons.

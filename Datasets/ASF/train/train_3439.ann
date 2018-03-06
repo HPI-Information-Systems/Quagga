@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "hey all. i'm sending data out that could represent a purchased item or a\ncompetitive alternative. when the results are returned i'm needing to know\nwhich of the two were hit so i can serve up the *other*.\n\ni can make a blunt instrument in the application layer to simply look for a\nmatch between the queried terms and the resulting fields, but the problem\nof fuzzy matching and some of the special analysis being done to get the\nhits will be for naught.\n\ncursory googling landed me at a similar discussion that suggested using hit\nhighlighting or retrieving the debuggers explain data to sort through.\n\nis there another, more efficient means or are these the two tools in the\ntoolbox?\n\nthanks!\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 685,
+      "end": 694,
+      "text": "\nthanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 8,
+      "text": "hey all.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 695,
+      "text": "hey all. i'm sending data out that could represent a purchased item or a\ncompetitive alternative. when the results are returned i'm needing to know\nwhich of the two were hit so i can serve up the *other*.\n\ni can make a blunt instrument in the application layer to simply look for a\nmatch between the queried terms and the resulting fields, but the problem\nof fuzzy matching and some of the special analysis being done to get the\nhits will be for naught.\n\ncursory googling landed me at a similar discussion that suggested using hit\nhighlighting or retrieving the debuggers explain data to sort through.\n\nis there another, more efficient means or are these the two tools in the\ntoolbox?\n\nthanks!\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3439"
+}

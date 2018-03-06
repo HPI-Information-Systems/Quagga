@@ -1,0 +1,16 @@
+Hello,
+
+I would like to get started on Spark Streaming with a simple window.
+
+I've got some existing Spark code that takes a dataframe, and outputs a dataframe. This includes
+various joins and operations that are not supported by structured streaming yet. I am looking
+to essentially map/apply this on the data for each window.
+
+Is there any way to apply a function to a dataframe that would correspond to each window?
+This would mean accumulate data until watermark is reached, and then mapping the full corresponding
+dataframe.
+
+I am using pyspark. I've seen the foreach writer, but it seems to operate at partition level
+instead of a full "window dataframe" and is not available for Python anyway.
+
+Thanks!

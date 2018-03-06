@@ -1,0 +1,369 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tRosman, Stewart  \nSent:\tMonday, June 11, 2001 11:04 AM\nTo:\tHall, Steve C.\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n\n\n\n -----Original Message-----\nFrom: \tDonovan, Terry W.  \nSent:\tMonday, June 11, 2001 10:40 AM\nTo:\tEtringer, Michael; Wente, Laura; Chen, Andy; Rasmussen, Dale; Jones, Karen E.; Thomas, Jake; Rosman, Stewart; Choi, Paul; Bill Jacqmein (E-mail); Calvert, Gray; Wax, Brandon\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n\n\nGood Houston pictures!\n\n\n -----Original Message-----\nFrom: \tCross, Edith  \nSent:\tMonday, June 11, 2001 12:32 PM\nTo:\tDonovan, Terry W.\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n\n\n\n -----Original Message-----\nFrom: \tDahlke, Andrea  \nSent:\tMonday, June 11, 2001 11:06 AM\nTo:\tCross, Edith; Hiemstra, Nick; ACrow@heart.org; ELMohle@heart.org; kdahlke@kingwoodcable.com\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n\nWait until you see these!\n\n\n\n    \n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 52,
+      "text": "Rosman, Stewart",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 69,
+      "end": 82,
+      "text": "June 11, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 83,
+      "end": 91,
+      "text": "11:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 96,
+      "end": 110,
+      "text": "Hall, Steve C.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 120,
+      "end": 169,
+      "text": "FW: Pictures of Downtown Houston Tunnels Flooding",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 170,
+      "text": "\n\n -----Original Message-----\nFrom: \tRosman, Stewart  \nSent:\tMonday, June 11, 2001 11:04 AM\nTo:\tHall, Steve C.\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 208,
+      "end": 225,
+      "text": "Donovan, Terry W.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 242,
+      "end": 255,
+      "text": "June 11, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 256,
+      "end": 264,
+      "text": "10:40 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 269,
+      "end": 286,
+      "text": "Etringer, Michael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 288,
+      "end": 300,
+      "text": "Wente, Laura",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 302,
+      "end": 312,
+      "text": "Chen, Andy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 314,
+      "end": 329,
+      "text": "Rasmussen, Dale",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 331,
+      "end": 346,
+      "text": "Jones, Karen E.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 348,
+      "end": 360,
+      "text": "Thomas, Jake",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 362,
+      "end": 377,
+      "text": "Rosman, Stewart",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 379,
+      "end": 389,
+      "text": "Choi, Paul",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 391,
+      "end": 404,
+      "text": "Bill Jacqmein",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 415,
+      "end": 428,
+      "text": "Calvert, Gray",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 430,
+      "end": 442,
+      "text": "Wax, Brandon",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 452,
+      "end": 501,
+      "text": "FW: Pictures of Downtown Houston Tunnels Flooding",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 170,
+      "end": 502,
+      "text": "\n\n\n -----Original Message-----\nFrom: \tDonovan, Terry W.  \nSent:\tMonday, June 11, 2001 10:40 AM\nTo:\tEtringer, Michael; Wente, Laura; Chen, Andy; Rasmussen, Dale; Jones, Karen E.; Thomas, Jake; Rosman, Stewart; Choi, Paul; Bill Jacqmein (E-mail); Calvert, Gray; Wax, Brandon\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 502,
+      "end": 529,
+      "text": "\n\nGood Houston pictures!\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 564,
+      "end": 576,
+      "text": "Cross, Edith",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 593,
+      "end": 606,
+      "text": "June 11, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 607,
+      "end": 615,
+      "text": "12:32 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 620,
+      "end": 637,
+      "text": "Donovan, Terry W.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 647,
+      "end": 696,
+      "text": "FW: Pictures of Downtown Houston Tunnels Flooding",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 529,
+      "end": 697,
+      "text": " -----Original Message-----\nFrom: \tCross, Edith  \nSent:\tMonday, June 11, 2001 12:32 PM\nTo:\tDonovan, Terry W.\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 735,
+      "end": 749,
+      "text": "Dahlke, Andrea",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 766,
+      "end": 779,
+      "text": "June 11, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 780,
+      "end": 788,
+      "text": "11:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 793,
+      "end": 805,
+      "text": "Cross, Edith",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 807,
+      "end": 821,
+      "text": "Hiemstra, Nick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 823,
+      "end": 838,
+      "text": "ACrow@heart.org",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 840,
+      "end": 857,
+      "text": "ELMohle@heart.org",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 859,
+      "end": 884,
+      "text": "kdahlke@kingwoodcable.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 894,
+      "end": 943,
+      "text": "FW: Pictures of Downtown Houston Tunnels Flooding",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 697,
+      "end": 944,
+      "text": "\n\n\n -----Original Message-----\nFrom: \tDahlke, Andrea  \nSent:\tMonday, June 11, 2001 11:06 AM\nTo:\tCross, Edith; Hiemstra, Nick; ACrow@heart.org; ELMohle@heart.org; kdahlke@kingwoodcable.com\nSubject:\tFW: Pictures of Downtown Houston Tunnels Flooding\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 944,
+      "end": 985,
+      "text": "\nWait until you see these!\n\n\n\n    \n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 27,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 33,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21869800.1075858545813.JavaMail.evans@thyme>",
+      "Date": "Mon, 11 Jun 2001 17:50:00 -0700 (PDT)",
+      "From": "steve.hall@enron.com",
+      "To": "christian.yoder@enron.com, elizabeth.sager@enron.com",
+      "Subject": "FW: Pictures of Downtown Houston Tunnels Flooding",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steve C Hall <Steve C Hall/ENRON@enronXgate@ENRON>",
+      "X-To": "Christian Yoder <Christian Yoder/ENRON@enronXgate>, Elizabeth Sager <Elizabeth Sager/HOU/ECT@ECT>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sager, Elizabeth (Non-Privileged)\\Elizabeth Sager",
+      "X-Origin": "Sager-E",
+      "X-FileName": "Sager, Elizabeth (Non-Privileged).pst"
+    }
+  },
+  "id": "train/sager-e_elizabeth_sager_11.txt"
+}

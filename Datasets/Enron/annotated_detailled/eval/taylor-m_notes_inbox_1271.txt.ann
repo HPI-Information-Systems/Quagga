@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is the proposed agenda for the ENA Legal Conference schedule for \nOctober 5-6.  I wanted to give the Legal Committee a preview before it was \nfinalized.\n\nThe DealBench demonstration was only recently added to the agenda, and is \nsubject to further development.  Also, an attorney with Milbank, Tweed's \ne-commerce and technology group will be making a presentation, but we have \nnot yet developed the topic, so any suggestions would be helpful.  \n\nFinally, the exact schedule is subject to change, depending on individual \nspeakers' preferences and schedules.\n\n    \n\n \n\nTravis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3817\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 579,
+      "end": 596,
+      "text": "Travis McCullough",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 597,
+      "end": 622,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 623,
+      "end": 668,
+      "text": "1400 Smith Street EB 3817\nHouston Texas 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 677,
+      "end": 691,
+      "text": "(713) 853-1575",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 697,
+      "end": 711,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 579,
+      "end": 717,
+      "text": "Travis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3817\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      ",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 717,
+      "text": "Attached is the proposed agenda for the ENA Legal Conference schedule for \nOctober 5-6.  I wanted to give the Legal Committee a preview before it was \nfinalized.\n\nThe DealBench demonstration was only recently added to the agenda, and is \nsubject to further development.  Also, an attorney with Milbank, Tweed's \ne-commerce and technology group will be making a presentation, but we have \nnot yet developed the topic, so any suggestions would be helpful.  \n\nFinally, the exact schedule is subject to change, depending on individual \nspeakers' preferences and schedules.\n\n    \n\n \n\nTravis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3817\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21924374.1075860018879.JavaMail.evans@thyme>",
+      "Date": "Wed, 23 Aug 2000 12:16:00 -0700 (PDT)",
+      "From": "travis.mccullough@enron.com",
+      "To": "mark.haedicke@enron.com, alan.aronowitz@enron.com, barbara.gray@enron.com, \n\tjeffrey.hodge@enron.com, julia.murray@enron.com, \n\trichard.sanders@enron.com, lance.schuler-legal@enron.com, \n\tsheila.tweed@enron.com, mark.taylor@enron.com, \n\tmichelle.cash@enron.com, mark.evans@enron.com, dan.lyons@enron.com, \n\tpeter.keohane@enron.com, justin.boyd@enron.com, \n\tlisa.mellencamp@enron.com, elizabeth.sager@enron.com",
+      "Subject": "Enron North America Legal Conference Agenda",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Travis McCullough",
+      "X-To": "Mark E Haedicke, Alan Aronowitz, Barbara N Gray, Jeffrey T Hodge, Julia Murray, Richard B Sanders, Lance Schuler-Legal, Sheila Tweed, Mark Taylor, Michelle Cash, Mark Evans, Dan Lyons, Peter Keohane, Justin Boyd, Lisa Mellencamp, Elizabeth Sager",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_notes_inbox_1271.txt"
+}

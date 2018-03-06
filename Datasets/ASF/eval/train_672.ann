@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "eval/train_672",
+  "meta": {},
+  "text": "I recommend multiple Jobs. You can still share most of the code by creating\nJava / Scala packages. THis makes it easier to update Jobs.\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Many-streaming-jobs-vs-one-tp11449p11450.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 377,
+      "text": "I recommend multiple Jobs. You can still share most of the code by creating\nJava / Scala packages. THis makes it easier to update Jobs.\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Many-streaming-jobs-vs-one-tp11449p11450.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

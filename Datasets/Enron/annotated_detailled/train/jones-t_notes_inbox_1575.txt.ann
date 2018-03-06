@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "After reviewing new information i am comforatable amending the existing \nMaster Agreement's credit line from $2.25MM to $3.00.\n\nLet me know if I can be of any futher assistance.\n\nthanks\nbrant\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 186,
+      "end": 191,
+      "text": "brant",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 179,
+      "end": 191,
+      "text": "thanks\nbrant",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 192,
+      "text": "After reviewing new information i am comforatable amending the existing \nMaster Agreement's credit line from $2.25MM to $3.00.\n\nLet me know if I can be of any futher assistance.\n\nthanks\nbrant\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33229243.1075847105454.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Sep 2000 07:50:00 -0700 (PDT)",
+      "From": "brant.reves@enron.com",
+      "To": "susan.bailey@enron.com, tana.jones@enron.com, samantha.boyd@enron.com, \n\tstephanie.panus@enron.com",
+      "Subject": "Torch Amendment",
+      "Cc": "fred.lagrasta@enron.com, ross.prevatt@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "fred.lagrasta@enron.com, ross.prevatt@enron.com",
+      "X-From": "Brant Reves",
+      "X-To": "Susan Bailey, Tana Jones, Samantha Boyd, Stephanie Panus",
+      "X-cc": "Fred Lagrasta, Ross Prevatt",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_1575.txt"
+}

@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for the references. Looking at the REST API, would adding new\nPatterns not work via this?\n\nhttps://ci.apache.org/projects/flink/flink-docs-release-1.3/monitoring/rest_api.html#submitting-programs\n\nMoiz\n\nOn Wed, May 3, 2017 at 2:52 PM, Aljoscha Krettek <aljoscha@apache.org>\nwrote:\n\n> Hi,\n> For managing a Job you can either use the bin/flink command-line tool or\n> the Rest API [1]. As for dynamically adding patterns, that\u00e2\u20ac\u2122s outside of the\n> scope of Flink right now. There are, however, some users that implemented\n> this on top of Flink, see for example RBEA [2]. The basic idea is to use a\n> ConnectedStream where one input is the main input and the other input is a\n> control stream that updates the existing patterns.\n>\n> [1] https://ci.apache.org/projects/flink/flink-docs-\n> release-1.3/monitoring/rest_api.html\n> [2] https://techblog.king.com/rbea-scalable-real-time-analytics-king/\n>\n> On 3. May 2017, at 10:02, Moiz S Jinia <moiz.jinia@gmail.com> wrote:\n>\n> Is there an API that allows remotely adding, modifying, and cancelling\n> Flink jobs? Example - changing the time window of a deployed Pattern,\n> adding new Patterns, etc.\n>\n> Whats the best way to go about this? To the end user the Pattern would\n> manifest as rules that can be updated anytime.\n>\n>\n> Moiz\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 203,
+      "end": 209,
+      "text": "\nMoiz\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 210,
+      "text": "Thanks for the references. Looking at the REST API, would adding new\nPatterns not work via this?\n\nhttps://ci.apache.org/projects/flink/flink-docs-release-1.3/monitoring/rest_api.html#submitting-programs\n\nMoiz\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 210,
+      "end": 288,
+      "text": "On Wed, May 3, 2017 at 2:52 PM, Aljoscha Krettek <aljoscha@apache.org>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 288,
+      "end": 295,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 288,
+      "end": 903,
+      "text": "\n> Hi,\n> For managing a Job you can either use the bin/flink command-line tool or\n> the Rest API [1]. As for dynamically adding patterns, that\u00e2\u20ac\u2122s outside of the\n> scope of Flink right now. There are, however, some users that implemented\n> this on top of Flink, see for example RBEA [2]. The basic idea is to use a\n> ConnectedStream where one input is the main input and the other input is a\n> control stream that updates the existing patterns.\n>\n> [1] https://ci.apache.org/projects/flink/flink-docs-\n> release-1.3/monitoring/rest_api.html\n> [2] https://techblog.king.com/rbea-scalable-real-time-analytics-king/\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 903,
+      "end": 974,
+      "text": "> On 3. May 2017, at 10:02, Moiz S Jinia <moiz.jinia@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1275,
+      "end": 1284,
+      "text": ">\n> Moiz\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 974,
+      "end": 1291,
+      "text": ">\n> Is there an API that allows remotely adding, modifying, and cancelling\n> Flink jobs? Example - changing the time window of a deployed Pattern,\n> adding new Patterns, etc.\n>\n> Whats the best way to go about this? To the end user the Pattern would\n> manifest as rules that can be updated anytime.\n>\n>\n> Moiz\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_2142"
+}

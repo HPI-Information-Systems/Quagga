@@ -1,0 +1,195 @@
+{
+  "wrapper": "plaintext",
+  "text": "fyi.. \n---------------------- Forwarded by Sheila Glover/HOU/ECT on 11/20/2000 08:07 \nAM ---------------------------\n   \n\t\n\t\n\tFrom:  Sheila Glover                           11/17/2000 12:16 PM\n\t\n\nTo: Shona Wilson/NA/Enron@Enron, Chris Abel/HOU/ECT@ECT\ncc: Tom Doukas/NA/Enron@ENRON, Markus Fiala/LON/ECT@ECT, Jeff \nKinneman/HOU/ECT@ECT, Paul Pizzolato/HOU/ECT@ECT, Richard Sage/LON/ECT@ECT, \nBryan Seyfried/LON/ECT@ECT, David A Wall/Risk Mgmt/LON/ECT@ECT \nSubject: Debt Trading Daily Loss violation November 16, 2000\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "fyi.. \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 43,
+      "end": 56,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 68,
+      "end": 78,
+      "text": "11/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 79,
+      "end": 88,
+      "text": "08:07 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 7,
+      "end": 117,
+      "text": "---------------------- Forwarded by Sheila Glover/HOU/ECT on 11/20/2000 08:07 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 133,
+      "end": 146,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 173,
+      "end": 183,
+      "text": "11/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 184,
+      "end": 192,
+      "text": "12:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 200,
+      "end": 212,
+      "text": "Shona Wilson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 229,
+      "end": 239,
+      "text": "Chris Abel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 256,
+      "end": 266,
+      "text": "Tom Doukas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 283,
+      "end": 295,
+      "text": "Markus Fiala",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 309,
+      "end": 323,
+      "text": "Jeff \nKinneman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 337,
+      "end": 351,
+      "text": "Paul Pizzolato",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 365,
+      "end": 377,
+      "text": "Richard Sage",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 392,
+      "end": 406,
+      "text": "Bryan Seyfried",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 420,
+      "end": 432,
+      "text": "David A Wall",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 465,
+      "end": 516,
+      "text": "Debt Trading Daily Loss violation November 16, 2000",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 117,
+      "end": 517,
+      "text": "   \n\t\n\t\n\tFrom:  Sheila Glover                           11/17/2000 12:16 PM\n\t\n\nTo: Shona Wilson/NA/Enron@Enron, Chris Abel/HOU/ECT@ECT\ncc: Tom Doukas/NA/Enron@ENRON, Markus Fiala/LON/ECT@ECT, Jeff \nKinneman/HOU/ECT@ECT, Paul Pizzolato/HOU/ECT@ECT, Richard Sage/LON/ECT@ECT, \nBryan Seyfried/LON/ECT@ECT, David A Wall/Risk Mgmt/LON/ECT@ECT \nSubject: Debt Trading Daily Loss violation November 16, 2000\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 517,
+      "end": 520,
+      "text": "\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30574001.1075855765805.JavaMail.evans@thyme>",
+      "Date": "Mon, 20 Nov 2000 00:08:00 -0800 (PST)",
+      "From": "sheila.glover@enron.com",
+      "To": "sally.beck@enron.com, brent.price@enron.com, gary.hickerson@enron.com",
+      "Subject": "Debt Trading Daily Loss violation November 16, 2000",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sheila Glover",
+      "X-To": "Sally Beck, Brent A Price, Gary Hickerson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_all_documents_899.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

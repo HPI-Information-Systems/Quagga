@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi guys,\n\nI was wondering does the introduction of shards actually increase CPU usage?\n\nI have a 30GB index split into two shards (15GB each), and by analyzing \nthe logs, I figured out that ~80% of the queries have the \n\"&shard.url=http://10.3.4.12:8080/solr/mycore/|http://10.3.4.14:8080/solr/mycore/\".\n\nI basically don't need sharding, and am now starting to wonder if shards \nare actually increasing the CPU usage of my nodes or not, cause of the \nhuge percentage of queries with \"shard.url=\" flag?\n\nI'm fighting with high cpu usage, and if turning sharding of and just \nkeeping the replicas in my collection would lower the CPU usage for more \nthen 10% I would choose that path..\n\n\nAny insights?\n\nThanks.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi guys,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 700,
+      "end": 709,
+      "text": "\nThanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 711,
+      "text": "Hi guys,\n\nI was wondering does the introduction of shards actually increase CPU usage?\n\nI have a 30GB index split into two shards (15GB each), and by analyzing \nthe logs, I figured out that ~80% of the queries have the \n\"&shard.url=http://10.3.4.12:8080/solr/mycore/|http://10.3.4.14:8080/solr/mycore/\".\n\nI basically don't need sharding, and am now starting to wonder if shards \nare actually increasing the CPU usage of my nodes or not, cause of the \nhuge percentage of queries with \"shard.url=\" flag?\n\nI'm fighting with high cpu usage, and if turning sharding of and just \nkeeping the replicas in my collection would lower the CPU usage for more \nthen 10% I would choose that path..\n\n\nAny insights?\n\nThanks.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2892"
+}

@@ -1,0 +1,155 @@
+{
+  "wrapper": "plaintext",
+  "text": "Did you find out anything about this deal?  We really need to get this out of \nthe NEW Counterparty status.\n\nThanks!\n---------------------- Forwarded by Sharen Cason/HOU/ECT on 02/07/2001 08:59 \nAM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Sharen Cason                           02/06/2001 08:42 AM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \nSubject: # 509638\n\nThis deal was entered as New Counterparty which is fine for a short period of \ntime.  However, within a few days someone needs to make sure to change the \ndeal to the correct counterparty name.  Can you look into this and let me \nknow?\n\nThanks!\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 109,
+      "end": 116,
+      "text": "Thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 117,
+      "text": "Did you find out anything about this deal?  We really need to get this out of \nthe NEW Counterparty status.\n\nThanks!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 153,
+      "end": 165,
+      "text": "Sharen Cason",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 177,
+      "end": 187,
+      "text": "02/07/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 188,
+      "end": 197,
+      "text": "08:59 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 117,
+      "end": 226,
+      "text": "---------------------- Forwarded by Sharen Cason/HOU/ECT on 02/07/2001 08:59 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 226,
+      "end": 259,
+      "text": "   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 267,
+      "end": 279,
+      "text": "Sharen Cason",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 306,
+      "end": 316,
+      "text": "02/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 317,
+      "end": 325,
+      "text": "08:42 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 333,
+      "end": 343,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 371,
+      "end": 379,
+      "text": "# 509638",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 260,
+      "end": 380,
+      "text": "From:  Sharen Cason                           02/06/2001 08:42 AM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \nSubject: # 509638\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 618,
+      "end": 625,
+      "text": "Thanks!",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 380,
+      "end": 626,
+      "text": "\nThis deal was entered as New Counterparty which is fine for a short period of \ntime.  However, within a few days someone needs to make sure to change the \ndeal to the correct counterparty name.  Can you look into this and let me \nknow?\n\nThanks!\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21225719.1075841735019.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Feb 2001 00:57:00 -0800 (PST)",
+      "From": "sharen.cason@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "# 509638",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sharen Cason",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Deal communication\\Deal discrepancies",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_deal_communication_deal_discrepancies_425.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

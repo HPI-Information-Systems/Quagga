@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "Should release by the end of this month.\n\nOn Fri, May 19, 2017 at 4:07 PM, kant kodali <kanth909@gmail.com> wrote:\n\n> Hi Patrick,\n>\n> I am using 2.1.1 and I tried the above code you sent and I get\n>\n> \"java.lang.UnsupportedOperationException: Data source kafka does not\n> support streamed writing\"\n>\n> so yeah this probably works only from Spark 2.2 onwards. I am not sure\n> when it officially releases.\n>\n> Thanks!\n>\n> On Fri, May 19, 2017 at 8:39 AM, <kanth909@gmail.com> wrote:\n>\n>> Hi!\n>>\n>> Is this possible possible in spark 2.1.1?\n>>\n>> Sent from my iPhone\n>>\n>> On May 19, 2017, at 5:55 AM, Patrick McGloin <mcgloin.patrick@gmail.com>\n>> wrote:\n>>\n>> # Write key-value data from a DataFrame to a Kafka topic specified in an option\n>> query = df \\\n>>   .selectExpr(\"CAST(userId AS STRING) AS key\", \"to_json(struct(*)) AS value\") \\\n>>   .writeStream \\\n>>   .format(\"kafka\") \\\n>>   .option(\"kafka.bootstrap.servers\", \"host1:port1,host2:port2\") \\\n>>   .option(\"topic\", \"topic1\") \\\n>>   .option(\"checkpointLocation\", \"/path/to/HDFS/dir\") \\\n>>   .start()\n>>\n>> Described here:\n>>\n>> https://databricks.com/blog/2017/04/26/processing-data-in-apache-kafka-with-structured-streaming-in-apache-spark-2-2.html\n>>\n>>\n>>\n>> On 19 May 2017 at 10:45, <kanth909@gmail.com> wrote:\n>>\n>>> Is there a Kafka sink for Spark Structured Streaming ?\n>>>\n>>> Sent from my iPhone\n>>>\n>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 42,
+      "text": "Should release by the end of this month.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 42,
+      "end": 115,
+      "text": "On Fri, May 19, 2017 at 4:07 PM, kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 115,
+      "end": 130,
+      "text": "\n> Hi Patrick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 404,
+      "end": 416,
+      "text": ">\n> Thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 418,
+      "text": "\n> Hi Patrick,\n>\n> I am using 2.1.1 and I tried the above code you sent and I get\n>\n> \"java.lang.UnsupportedOperationException: Data source kafka does not\n> support streamed writing\"\n>\n> so yeah this probably works only from Spark 2.2 onwards. I am not sure\n> when it officially releases.\n>\n> Thanks!\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 418,
+      "end": 481,
+      "text": "> On Fri, May 19, 2017 at 8:39 AM, <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 481,
+      "end": 490,
+      "text": ">\n>> Hi!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 481,
+      "end": 567,
+      "text": ">\n>> Hi!\n>>\n>> Is this possible possible in spark 2.1.1?\n>>\n>> Sent from my iPhone\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 567,
+      "end": 653,
+      "text": ">> On May 19, 2017, at 5:55 AM, Patrick McGloin <mcgloin.patrick@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 653,
+      "end": 1216,
+      "text": ">>\n>> # Write key-value data from a DataFrame to a Kafka topic specified in an option\n>> query = df \\\n>>   .selectExpr(\"CAST(userId AS STRING) AS key\", \"to_json(struct(*)) AS value\") \\\n>>   .writeStream \\\n>>   .format(\"kafka\") \\\n>>   .option(\"kafka.bootstrap.servers\", \"host1:port1,host2:port2\") \\\n>>   .option(\"topic\", \"topic1\") \\\n>>   .option(\"checkpointLocation\", \"/path/to/HDFS/dir\") \\\n>>   .start()\n>>\n>> Described here:\n>>\n>> https://databricks.com/blog/2017/04/26/processing-data-in-apache-kafka-with-structured-streaming-in-apache-spark-2-2.html\n>>\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1216,
+      "end": 1272,
+      "text": ">> On 19 May 2017 at 10:45, <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1272,
+      "end": 1375,
+      "text": ">>\n>>> Is there a Kafka sink for Spark Structured Streaming ?\n>>>\n>>> Sent from my iPhone\n>>>\n>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3188"
+}

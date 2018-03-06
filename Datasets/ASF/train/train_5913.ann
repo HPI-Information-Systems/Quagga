@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "you could use filter clause to create a custom cursor  since the results\nare sorted. I had used the approach with raw cloudsolr stream, not with\nparallelSQL though.\nThis would be useful-\nhttps://lucidworks.com/2013/12/12/coming-soon-to-solr-efficient-cursor-based-iteration-of-large-result-sets/\n\nThanks,\nSusmit\n\nOn Wed, Sep 6, 2017 at 10:45 PM, Imran Rajjad <imran@elogic.pk> wrote:\n\n> My only concern is the performance as the cursor moves forward in\n> resultset with approximately 2 billion records\n>\n> Regards,\n> Imran\n>\n> Sent from Mail for Windows 10\n>\n> From: Joel Bernstein\n> Sent: Wednesday, September 6, 2017 7:04 PM\n> To: solr-user@lucene.apache.org\n> Subject: Re: deep paging in parallel sql\n>\n> Parallel SQL supports unlimited SELECT statements which return the entire\n> result set. The documentation discusses the differences between the limited\n> and unlimited SELECT statements. Other then the LIMIT clause there is not\n> yet support for paging.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n> On Wed, Sep 6, 2017 at 9:11 AM, Imran Rajjad <imran@elogic.pk> wrote:\n>\n> > Dear list,\n> >\n> > Is it possible to enable deep paging when querying data through Parallel\n> > SQL?\n> >\n> > Regards,\n> > Imran\n> >\n> > Sent from Mail for Windows 10\n> >\n> >\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 296,
+      "end": 312,
+      "text": "\nThanks,\nSusmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 313,
+      "text": "you could use filter clause to create a custom cursor  since the results\nare sorted. I had used the approach with raw cloudsolr stream, not with\nparallelSQL though.\nThis would be useful-\nhttps://lucidworks.com/2013/12/12/coming-soon-to-solr-efficient-cursor-based-iteration-of-large-result-sets/\n\nThanks,\nSusmit\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 313,
+      "end": 384,
+      "text": "On Wed, Sep 6, 2017 at 10:45 PM, Imran Rajjad <imran@elogic.pk> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 502,
+      "end": 523,
+      "text": ">\n> Regards,\n> Imran\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 384,
+      "end": 559,
+      "text": "\n> My only concern is the performance as the cursor moves forward in\n> resultset with approximately 2 billion records\n>\n> Regards,\n> Imran\n>\n> Sent from Mail for Windows 10\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 559,
+      "end": 704,
+      "text": "> From: Joel Bernstein\n> Sent: Wednesday, September 6, 2017 7:04 PM\n> To: solr-user@lucene.apache.org\n> Subject: Re: deep paging in parallel sql\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 962,
+      "end": 1013,
+      "text": ">\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 704,
+      "end": 1015,
+      "text": ">\n> Parallel SQL supports unlimited SELECT statements which return the entire\n> result set. The documentation discusses the differences between the limited\n> and unlimited SELECT statements. Other then the LIMIT clause there is not\n> yet support for paging.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1015,
+      "end": 1087,
+      "text": "> On Wed, Sep 6, 2017 at 9:11 AM, Imran Rajjad <imran@elogic.pk> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1087,
+      "end": 1104,
+      "text": ">\n> > Dear list,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1194,
+      "end": 1221,
+      "text": "> >\n> > Regards,\n> > Imran\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1087,
+      "end": 1272,
+      "text": ">\n> > Dear list,\n> >\n> > Is it possible to enable deep paging when querying data through Parallel\n> > SQL?\n> >\n> > Regards,\n> > Imran\n> >\n> > Sent from Mail for Windows 10\n> >\n> >\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5913"
+}

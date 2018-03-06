@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Patrick,\n\nI think (but I'm not 100% sure) its not a difference in what the engine\ndoes in the end, its more of an API thing. When you are grouping, you can\nperform operations such as reducing afterwards.\nOn a partitioned dataset, you can do stuff like processing each partition\nin parallel, or sort them.\n\nThe parallelism is independent of the partitioning or grouping. Usually\nthere are more partitions than parallel instances, so each instance will\ntake care of multiple partitions.\n\n\n\nOn Thu, Feb 23, 2017 at 6:16 PM, Patrick Brunmayr <jay@kpibench.com> wrote:\n\n> What is the basic difference between partitioning datasets by key or\n> grouping them by key ?\n>\n> Does it make a difference in terms of paralellism ?\n>\n> Thx\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hi Patrick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 720,
+      "end": 728,
+      "text": ">\n> Thx\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 731,
+      "text": "Hi Patrick,\n\nI think (but I'm not 100% sure) its not a difference in what the engine\ndoes in the end, its more of an API thing. When you are grouping, you can\nperform operations such as reducing afterwards.\nOn a partitioned dataset, you can do stuff like processing each partition\nin parallel, or sort them.\n\nThe parallelism is independent of the partitioning or grouping. Usually\nthere are more partitions than parallel instances, so each instance will\ntake care of multiple partitions.\n\n\n\nOn Thu, Feb 23, 2017 at 6:16 PM, Patrick Brunmayr <jay@kpibench.com> wrote:\n\n> What is the basic difference between partitioning datasets by key or\n> grouping them by key ?\n>\n> Does it make a difference in terms of paralellism ?\n>\n> Thx\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1082"
+}

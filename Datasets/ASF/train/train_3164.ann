@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "This may work for you:\nhttps://cwiki.apache.org/confluence/display/solr/Graph+Traversal\n\nJoel Bernstein\nhttp://joelsolr.blogspot.com/\n\nOn Fri, May 5, 2017 at 5:39 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n\n> Hi,\n>\n> I'm using Solr 6.4.2.\n>\n> Is it possible to do a query based on output from another collection in\n> Solr Streaming, so that the entire query can be passed at one go?\n>\n> For example, I have a field called reference_s in collection1. In\n> collection2, I will need to pass what is in the reference_s from\n> collection1 into the search in collection2.\n>\n> Currently, I will need to do a normal query to collection1, to retrieve all\n> the required values in reference_s, and put them into this join query,\n> which is a two step process. This is probably not so effective and also\n> slow down the search.\n>\n>\n> hashJoin(parallel(collection2,\n>                             workers=3,\n>                             sort=\"id asc\",\n>                             innerJoin(search(collection1, q=\"*:*\",\n> fl=\"id,reference_s\",\n>                             sort=\"id asc\", qt=\"/export\",\n> partitionKeys=\"id\"),\n>                                     search(collection2,\n>                                            q=\"reference_s:?\", fl=\"id,\n> year_i,reference_s\", sort=\"id asc\", qt=\"/export\",\n>                                            partitionKeys=\"id\"),\n>                                            on=\"id\")),\n>                                            hashed=search(collection3,\n> q=\"day_i:7\", fl=\"id, day_i\",\n>                                  sort=\"id asc\", qt=\"/export\"),\n>                             on=\"id\")\n>\n>\n> Regards,\n> Edwin\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 88,
+      "end": 134,
+      "text": "\nJoel Bernstein\nhttp://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 135,
+      "text": "This may work for you:\nhttps://cwiki.apache.org/confluence/display/solr/Graph+Traversal\n\nJoel Bernstein\nhttp://joelsolr.blogspot.com/\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 135,
+      "end": 217,
+      "text": "On Fri, May 5, 2017 at 5:39 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 217,
+      "end": 224,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1638,
+      "end": 1659,
+      "text": ">\n> Regards,\n> Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 217,
+      "end": 1662,
+      "text": "\n> Hi,\n>\n> I'm using Solr 6.4.2.\n>\n> Is it possible to do a query based on output from another collection in\n> Solr Streaming, so that the entire query can be passed at one go?\n>\n> For example, I have a field called reference_s in collection1. In\n> collection2, I will need to pass what is in the reference_s from\n> collection1 into the search in collection2.\n>\n> Currently, I will need to do a normal query to collection1, to retrieve all\n> the required values in reference_s, and put them into this join query,\n> which is a two step process. This is probably not so effective and also\n> slow down the search.\n>\n>\n> hashJoin(parallel(collection2,\n>                             workers=3,\n>                             sort=\"id asc\",\n>                             innerJoin(search(collection1, q=\"*:*\",\n> fl=\"id,reference_s\",\n>                             sort=\"id asc\", qt=\"/export\",\n> partitionKeys=\"id\"),\n>                                     search(collection2,\n>                                            q=\"reference_s:?\", fl=\"id,\n> year_i,reference_s\", sort=\"id asc\", qt=\"/export\",\n>                                            partitionKeys=\"id\"),\n>                                            on=\"id\")),\n>                                            hashed=search(collection3,\n> q=\"day_i:7\", fl=\"id, day_i\",\n>                                  sort=\"id asc\", qt=\"/export\"),\n>                             on=\"id\")\n>\n>\n> Regards,\n> Edwin\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3164"
+}

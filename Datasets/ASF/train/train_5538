@@ -1,0 +1,20 @@
+Hi all,
+
+I've run into an issue with solr 6.3.0 where the splitshard command placed
+both replicas of the new smaller shard on the same node, and I was curious
+as to whether the behavior should be expected or not.
+
+Without having dug into the source code, this is what I've observed
+splitshard doing until now for a 2 replica setup (1 leader, 1 follower).
+The leader replica splits into the requested number of new shards on the
+same node. Then the second copy of the new shards are created on other
+nodes which may or may not be the same node that the original follower
+replica was located on.
+
+How does solr determine where to put the new follower replicas, and is
+there a way to prevent it from colocating the leader and the follower of
+the new shards?
+
+Thanks,
+Chris
+

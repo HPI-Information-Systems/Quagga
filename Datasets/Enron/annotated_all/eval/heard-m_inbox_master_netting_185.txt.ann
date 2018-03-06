@@ -1,0 +1,84 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nYes they are to prepare all the UCC filings.\n -----Original Message-----\nFrom: \tHeinitz, Mary J.  \nSent:\tSaturday, November 03, 2001 1:52 PM\nTo:\tJones, Tana; Heard, Marie\nSubject:\tFW: UCC Lien Searches\n\nI thought he knew this... they are to prepare the filings, correct?\n\n -----Original Message-----\nFrom: \t\"Lech Kalembka\" <Lech.Kalembka@cwt.com>@ENRON  \nSent:\tFriday, November 02, 2001 3:20 PM\nTo:\tKorkmas, Deb\nCc:\tHeinitz, Mary J.\nSubject:\tRe: UCC Lien Searches\n\n\nSame question as in my prior message.  Specifically, should we also prepare\nfilings?\n\nLech Kalembka\nCadwalader, Wickersham & Taft\n100 Maiden Lane\nNew York, NY  10038\nTel.: (212) 504-6918\nFax: (212) 504-6666\nE-mail: lech.kalembka@cwt.com\n\n\n\n                    \"Korkmas,\n                    Deb\"                 To:     <lech.kalembka@cwt.com>\n                    <Deb.Korkmas@        cc:     \"Heinitz, Mary J.\"\n                    ENRON.com>           <Mary.J.Heinitz@ENRON.com>\n                    Office:              Subject:     UCC Lien Searches\n\n                    11/02/2001\n                    10:42 AM\n\n\n\n\n\n\nHere are a few more names for UCC Lien Searches:\n\nIncorporated in Virginia:     Dominion Resources, Inc., 100 Tredegar\nSt., Richmond, VA  23219\n               Virginia Power Energy Marketing, Inc., 5000\nDominion Blvd., Glen Allen, VA  23060\n\nIncorporated in Delaware:\n               Dominion Exploration & Production, Inc., CNG\nTower, 1450 Poydras St., New Orleans, LA  70112\n               Dominion Field Services, Inc., 445 West Main\nStreet, Clarksburg, WV  23601\n               Dominion Transmission, Inc., 445 West Main\nStreet, Clarksburg, WV  23601\n\nThanks for your assistance.\n\nDeb Korkmas\nEnron North America Corp.\n1400 Smith Street, ECN 3834A\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n\n\n\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate\nand may contain confidential and privileged material for the sole use of\nthe intended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or\nreply to Enron Corp. at enron.messaging.administration@enron.com and delete\nall copies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************\n\n\n\n\n==============================================================================\nNOTE:  The information in this email is confidential and may be legally privileged.  If you are not the intended recipient, you must not read, use or disseminate the information.  Although this email and any attachments are believed to be free of any virus or other defect\nthat might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by Cadwalader, Wickersham\n& Taft for any loss or damage arising in any way from its use.\n\n\n==============================================================================",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 46,
+      "text": "\nYes they are to prepare all the UCC filings.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 46,
+      "end": 203,
+      "text": " -----Original Message-----\nFrom: \tHeinitz, Mary J.  \nSent:\tSaturday, November 03, 2001 1:52 PM\nTo:\tJones, Tana; Heard, Marie\nSubject:\tFW: UCC Lien Searches\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 203,
+      "end": 273,
+      "text": "\nI thought he knew this... they are to prepare the filings, correct?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 273,
+      "end": 465,
+      "text": " -----Original Message-----\nFrom: \t\"Lech Kalembka\" <Lech.Kalembka@cwt.com>@ENRON  \nSent:\tFriday, November 02, 2001 3:20 PM\nTo:\tKorkmas, Deb\nCc:\tHeinitz, Mary J.\nSubject:\tRe: UCC Lien Searches\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 553,
+      "end": 704,
+      "text": "Lech Kalembka\nCadwalader, Wickersham & Taft\n100 Maiden Lane\nNew York, NY  10038\nTel.: (212) 504-6918\nFax: (212) 504-6666\nE-mail: lech.kalembka@cwt.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1668,
+      "end": 1795,
+      "text": "\nDeb Korkmas\nEnron North America Corp.\n1400 Smith Street, ECN 3834A\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 465,
+      "end": 3469,
+      "text": "\n\nSame question as in my prior message.  Specifically, should we also prepare\nfilings?\n\nLech Kalembka\nCadwalader, Wickersham & Taft\n100 Maiden Lane\nNew York, NY  10038\nTel.: (212) 504-6918\nFax: (212) 504-6666\nE-mail: lech.kalembka@cwt.com\n\n\n\n                    \"Korkmas,\n                    Deb\"                 To:     <lech.kalembka@cwt.com>\n                    <Deb.Korkmas@        cc:     \"Heinitz, Mary J.\"\n                    ENRON.com>           <Mary.J.Heinitz@ENRON.com>\n                    Office:              Subject:     UCC Lien Searches\n\n                    11/02/2001\n                    10:42 AM\n\n\n\n\n\n\nHere are a few more names for UCC Lien Searches:\n\nIncorporated in Virginia:     Dominion Resources, Inc., 100 Tredegar\nSt., Richmond, VA  23219\n               Virginia Power Energy Marketing, Inc., 5000\nDominion Blvd., Glen Allen, VA  23060\n\nIncorporated in Delaware:\n               Dominion Exploration & Production, Inc., CNG\nTower, 1450 Poydras St., New Orleans, LA  70112\n               Dominion Field Services, Inc., 445 West Main\nStreet, Clarksburg, WV  23601\n               Dominion Transmission, Inc., 445 West Main\nStreet, Clarksburg, WV  23601\n\nThanks for your assistance.\n\nDeb Korkmas\nEnron North America Corp.\n1400 Smith Street, ECN 3834A\nHouston, TX  77002\nPhone:  713-853-5448\nFax:  713-646-3393\n\n\n\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate\nand may contain confidential and privileged material for the sole use of\nthe intended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or\nreply to Enron Corp. at enron.messaging.administration@enron.com and delete\nall copies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************\n\n\n\n\n==============================================================================\nNOTE:  The information in this email is confidential and may be legally privileged.  If you are not the intended recipient, you must not read, use or disseminate the information.  Although this email and any attachments are believed to be free of any virus or other defect\nthat might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by Cadwalader, Wickersham\n& Taft for any loss or damage arising in any way from its use.\n\n\n==============================================================================",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19172879.1075861928241.JavaMail.evans@thyme>",
+      "Date": "Sat, 3 Nov 2001 12:02:35 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "j..heinitz@enron.com",
+      "Subject": "RE: UCC Lien Searches",
+      "Cc": "marie.heard@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "marie.heard@enron.com",
+      "X-From": "Jones, Tana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=TJONES>",
+      "X-To": "Heinitz, Mary J. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mheinit>",
+      "X-cc": "Heard, Marie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mheard>",
+      "X-bcc": "",
+      "X-Folder": "\\MHEARD (Non-Privileged)\\Heard, Marie\\Inbox\\master netting",
+      "X-Origin": "Heard-M",
+      "X-FileName": "MHEARD (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/heard-m_inbox_master_netting_185.txt"
+}

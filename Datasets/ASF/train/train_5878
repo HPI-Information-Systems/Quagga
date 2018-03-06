@@ -1,0 +1,55 @@
+Hello,
+
+I've a situation where I need the same configuration (schema.xml and
+solrconfig.xml) for all the cores in my solr instance, and I can manage
+this with the same configset.
+BUT, in my case the synonyms and stopwords should be managed by tenant/core
+(each tenant is a solr core), and can be different for each one.
+
+I was trying to use managed resources, but I guess it doesn't handle the
+core when using configset.
+Once I pass the core name in CRUD operations, it looks like a bug, because
+it's not handling different resources, and if I don't reload the core right
+before a PUT request, for example, the next PUT in other core will override
+the previous and ignore them. Here's what I'm trying:
+
+Create core1 using techproducts configset:
+curl "
+http://localhost:8983/solr/admin/cores?action=CREATE&name=core1&instanceDir=core1&configSet=sample_techproducts_configs
+"
+
+Create core2 using techproducts configset:
+curl "
+http://localhost:8983/solr/admin/cores?action=CREATE&name=core2&instanceDir=core2&configSet=sample_techproducts_configs
+"
+
+Check the current stopwords (they are the same at this point): --this
+requests will be used again later
+curl "http://localhost:8983/solr/core1/schema/analysis/stopwords/english"
+curl "http://localhost:8983/solr/core2/schema/analysis/stopwords/english"
+
+Add a stopword in core1:
+curl -X PUT -H 'Content-type:application/json' --data-binary '["zz1"]' "
+http://localhost:8983/solr/core1/schema/analysis/stopwords/english"
+
+Check the current stopwords (now the core2 does NOT have the inserted
+stopword - and shouldn't, because the request was specifically for core1)
+
+ADD a stopword in core2:
+curl -X PUT -H 'Content-type:application/json' --data-binary '["zz2"]' "
+http://localhost:8983/solr/core2/schema/analysis/stopwords/english"
+
+Check the current stopwords (now both cores have what I expected - "zz1" in
+core1 and "zz2" in core2)
+
+The problem is, now when I reload the core1, it will override the stopwords
+with the last updated version, which means it'll lose the "zz1" word.
+curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=core1"
+curl "http://localhost:8983/solr/core1/schema/analysis/stopwords/english"
+
+Did I make myself clear? :)
+Can someone confirm if this is a bug or if I doing something wrong?
+
+Thanks in advance,
+Alessandro Hoss
+

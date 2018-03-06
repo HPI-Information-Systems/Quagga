@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "John Schultes is quite smart and very precise in his use of language.? Even \nthough he speaks with an accent, he is easy to understand and he is very \ncareful with his words.? I thought he acquitted himself reasonably well under \ndifficult conditions.? However, Schultes' natural demeanor is somewhat formal \nand aloof; I don't think a jury is going to like him.? At best they'll be \nneutral; they won't warm up to him. \n\nSchultes has sued McDonald and SDI in Cleveland, Ohio--apparently some sort \nof defamation and wrongful termination.? I am getting the complaint, will \nhave it sent to you.? Schultes was deposed for three days a few weeks ago in \nthat case.? We will try to get the transcript.\n\nSchultes is unemployed.? His defense is being paid for by AIG under a D&O \npolicy. \n\nKathy spent a lot of time on Schultes' response in 9/98 to Bob Walters 8/98 \nmemo.? In his response Schultes acknowledged a number of shortcomings at NSM \nbut took the position that everyone knew all about them at the time of the \noffering.\n\nKPMG wrote management letters in connection with NSM financial statements for \nthe year ended 12/31/96 and the quarters ended 3/31/97 and 6/30/97--probably \nfor later periods as well, like 12/31/97.? KPMG has produced documents.? We \nare getting them this week.? E&Y also did a special report for McDonald in \nthe second half of 1997; McDonald has produced a copy.? E&Y is still fighting \nabout producing its documents.? Schultes says he never saw the E&Y report.\n\nEnron came up twice today, not with much emphasis--both times dealing with \nevents after the closing.? A memo of Brian's dated 7/28/98 relating to a \nManagement Company meeting was discussed briefly.? The report or review that \nthe Enron team prepared in August 1998 was discussed at a little more \nlength.? Nothing harmful.? To date there has been virtually no testimony \nabout any role of Enron or ECT in the underwriting process--just about all \ntestimony has been about post-closing events.\n\nKathy also pressed Schultes to admit that NSM's actual production of steel \nbefore the offering was quite limited.? Schultes quarreled with her a bit on \nthis.\n\nThis e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2629,
+      "text": "John Schultes is quite smart and very precise in his use of language.? Even \nthough he speaks with an accent, he is easy to understand and he is very \ncareful with his words.? I thought he acquitted himself reasonably well under \ndifficult conditions.? However, Schultes' natural demeanor is somewhat formal \nand aloof; I don't think a jury is going to like him.? At best they'll be \nneutral; they won't warm up to him. \n\nSchultes has sued McDonald and SDI in Cleveland, Ohio--apparently some sort \nof defamation and wrongful termination.? I am getting the complaint, will \nhave it sent to you.? Schultes was deposed for three days a few weeks ago in \nthat case.? We will try to get the transcript.\n\nSchultes is unemployed.? His defense is being paid for by AIG under a D&O \npolicy. \n\nKathy spent a lot of time on Schultes' response in 9/98 to Bob Walters 8/98 \nmemo.? In his response Schultes acknowledged a number of shortcomings at NSM \nbut took the position that everyone knew all about them at the time of the \noffering.\n\nKPMG wrote management letters in connection with NSM financial statements for \nthe year ended 12/31/96 and the quarters ended 3/31/97 and 6/30/97--probably \nfor later periods as well, like 12/31/97.? KPMG has produced documents.? We \nare getting them this week.? E&Y also did a special report for McDonald in \nthe second half of 1997; McDonald has produced a copy.? E&Y is still fighting \nabout producing its documents.? Schultes says he never saw the E&Y report.\n\nEnron came up twice today, not with much emphasis--both times dealing with \nevents after the closing.? A memo of Brian's dated 7/28/98 relating to a \nManagement Company meeting was discussed briefly.? The report or review that \nthe Enron team prepared in August 1998 was discussed at a little more \nlength.? Nothing harmful.? To date there has been virtually no testimony \nabout any role of Enron or ECT in the underwriting process--just about all \ntestimony has been about post-closing events.\n\nKathy also pressed Schultes to admit that NSM's actual production of steel \nbefore the offering was quite limited.? Schultes quarreled with her a bit on \nthis.\n\nThis e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2149,
+      "end": 2629,
+      "text": "This e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20137885.1075853176430.JavaMail.evans@thyme>",
+      "Date": "Mon, 31 Jul 2000 14:13:00 -0700 (PDT)",
+      "From": "showard@milbank.com",
+      "To": "richard.b.sanders@enron.com",
+      "Subject": "First Day of Schultes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "SHoward@milbank.com",
+      "X-To": "Richard.B.Sanders@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_339.txt"
+}

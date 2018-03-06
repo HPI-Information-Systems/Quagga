@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Most of you are aware that Unify experienced some major performance issues as \nwe tried to close out the month of July.  Not to go into any details but \nthere seemed to be a lot of smaller issues which when combined caused the \nissues we saw on Monday and to a lesser degree on Tuesday.  Almost all of the \nissues relate to the quirkiness of the current version of Sybase which is \nused for Unify's database.  Jeff Johnson and his team are putting together a \nplan that will address most of these issues and hopefully result in \nacceptable performance as we go through next bidweek and try to close for \nAugust.  The short term tactical plans include the following:\n\nEnhancing certain programs which seem to have become resource hogs as the \namount of data grows.\nTest and hopefully migrate to the latest version of Sybase which will address \nsome of the issues.  This may also require some hardware changes as to where \nwe store certain data.  We will also need some user help in stress testing \nprior to moving to production.\nAddressing with the users billing transactions that have never been finaled.  \nI have been told that we still have transactions going back to Jan of 99 that \nhave not been finaled or closed out.  This puts quite a load on the PMA and \naccrual process since it has to go back to those open transactions to see \nwhat if any action should be taken with these transactions.\n\nOnce these changes have been implemented and hopefully bought us a little \ntime to absorb the tremendous growth we've been seeing via EOL  then we will \nfocus on delivering more intermediate and longer term solutions.  These \ninclude the following:\n\nRewriting most of the code and moving to a 3 tier environment which will be \nmuch more scalable.\nMoving off of Sybase and on to Microsoft SQL Server or Oracle.  It will be \neasier to move Microsoft SQL Server but we have to be sure it is the right \nsolution in the long term.\n\nJeff will be following up with some of you to go over a much more detailed \nplan.  Needless to say that this is his groups highest priority and his best \npeople are working on these efforts.  This will slow down major enhancement \nefforts such as enhancing the gas applications to handle hourly trades and \nnominations.  We will keep you informed as we start to roll out the tactical \nsolutions.  In the mean time feel free to contact me at x-36858 or Jeff at \nx-39694 if you have any questions or require additional detail.  Thanks!  -  \nTommy",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2470,
+      "text": "Most of you are aware that Unify experienced some major performance issues as \nwe tried to close out the month of July.  Not to go into any details but \nthere seemed to be a lot of smaller issues which when combined caused the \nissues we saw on Monday and to a lesser degree on Tuesday.  Almost all of the \nissues relate to the quirkiness of the current version of Sybase which is \nused for Unify's database.  Jeff Johnson and his team are putting together a \nplan that will address most of these issues and hopefully result in \nacceptable performance as we go through next bidweek and try to close for \nAugust.  The short term tactical plans include the following:\n\nEnhancing certain programs which seem to have become resource hogs as the \namount of data grows.\nTest and hopefully migrate to the latest version of Sybase which will address \nsome of the issues.  This may also require some hardware changes as to where \nwe store certain data.  We will also need some user help in stress testing \nprior to moving to production.\nAddressing with the users billing transactions that have never been finaled.  \nI have been told that we still have transactions going back to Jan of 99 that \nhave not been finaled or closed out.  This puts quite a load on the PMA and \naccrual process since it has to go back to those open transactions to see \nwhat if any action should be taken with these transactions.\n\nOnce these changes have been implemented and hopefully bought us a little \ntime to absorb the tremendous growth we've been seeing via EOL  then we will \nfocus on delivering more intermediate and longer term solutions.  These \ninclude the following:\n\nRewriting most of the code and moving to a 3 tier environment which will be \nmuch more scalable.\nMoving off of Sybase and on to Microsoft SQL Server or Oracle.  It will be \neasier to move Microsoft SQL Server but we have to be sure it is the right \nsolution in the long term.\n\nJeff will be following up with some of you to go over a much more detailed \nplan.  Needless to say that this is his groups highest priority and his best \npeople are working on these efforts.  This will slow down major enhancement \nefforts such as enhancing the gas applications to handle hourly trades and \nnominations.  We will keep you informed as we start to roll out the tactical \nsolutions.  In the mean time feel free to contact me at x-36858 or Jeff at \nx-39694 if you have any questions or require additional detail.  Thanks!  -  \nTommy",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2465,
+      "end": 2470,
+      "text": "Tommy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2452,
+      "end": 2470,
+      "text": "Thanks!  -  \nTommy",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13983715.1075855929570.JavaMail.evans@thyme>",
+      "Date": "Wed, 2 Aug 2000 07:45:00 -0700 (PDT)",
+      "From": "tommy.yanowski@enron.com",
+      "To": "brenda.herod@enron.com, edward.gottlob@enron.com, brent.price@enron.com, \n\tsally.beck@enron.com",
+      "Subject": "Unify Performance Issues are Priority Number One",
+      "Cc": "brian.redmond@enron.com, beth.perlman@enron.com, jeff.johnson@enron.com, \n\theather.johnson@enron.com, john.lavorato@enron.com, \n\tphilippe.bibi@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "brian.redmond@enron.com, beth.perlman@enron.com, jeff.johnson@enron.com, \n\theather.johnson@enron.com, john.lavorato@enron.com, \n\tphilippe.bibi@enron.com",
+      "X-From": "Tommy J Yanowski",
+      "X-To": "Brenda Herod, Edward D Gottlob, Brent A Price, Sally Beck",
+      "X-cc": "Brian Redmond, Beth Perlman, Jeff Johnson, Heather A Johnson, John J Lavorato, Philippe Bibi",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Unify",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_unify_4.txt"
+}

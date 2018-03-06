@@ -1,0 +1,105 @@
+Hi Alex,
+
+After full re-indexing things work out fine.
+
+But is there any other way to make schema changes on the go?
+
+Or we have to reindex entire data whenever a schema change is done?
+
+we are having 30-40 million documents and it is a tedious and time taking
+task.
+
+What other approaches are there to change schema on the fly?
+
+Regards,
+Kshitij
+
+On Sun, Apr 9, 2017 at 12:55 AM, Alexandre Rafalovitch <arafalov@gmail.com>
+wrote:
+
+> Did you do a full reindex? Try completely deleting the index and
+> redoing it from scratch (at least as a test). If you have left over
+> documents and changed type definitions, things may get messy. If
+> that's too hard, just index a single record into a separate collection
+> with matching-definition and check there to find the difference.
+>
+> A type change could be especially complicated if one type was defined
+> (on field OR on type) with DocValues and another one without.
+>
+> Regards,
+>    Alex.
+> ----
+> http://www.solr-start.com/ - Resources for Solr users, new and experienced
+>
+>
+> On 8 April 2017 at 18:42, kshitij tyagi <kshitij.shopclues@gmail.com>
+> wrote:
+> > Hi Alex,
+> >
+> > Thanks for the response.
+> >
+> > 1. Actually everything was working fine earlier unless I made changes on
+> a
+> > dynamic field whose facets are being created, I changed the field type to
+> > "strings" earlier I was tokenizing my field on based delimeter '_'.
+> >
+> > 2. When I made the changes and started indexing then facet count started
+> > coming zero, though I was able to query properly on facets and results
+> were
+> > fine but facet count was giving zero.
+> >
+> > 3. Then I reverted my changes back in schema file but my problem was not
+> > solved and it was still giving zero facet count after reindexing.
+> >
+> > I am unable to understand that when I have reverted my schema changes
+> then
+> > things should be back to normal but the case is almost opposite.
+> >
+> > Kindly help!'
+> > Let me know if u require any other information.
+> >
+> >
+> > On Sat, Apr 8, 2017 at 9:00 PM, Alexandre Rafalovitch <
+> arafalov@gmail.com>
+> > wrote:
+> >
+> >> What happens when you facet on a 'all document query' (q=*:*)? Are you
+> >> sure your facet fields actually have the content? If they are stored,
+> >> they should be returned with the query. If they are not stored, you
+> >> could see what they contain in the Schema screen of the Admin UI (load
+> >> tokens checkbox).
+> >>
+> >> Hope that helps to narrow down the issue.
+> >>
+> >> Regards,
+> >>    Alex.
+> >> P.s. I don't doubt you, but for myself, I would also do a sanity check
+> >> that I AM actually getting results because I am querying on THOSE
+> >> fields and not - say - on some other field and/or copyField target.
+> >> Enabling debug would show you exactly what fields are being querying
+> >> with what (analyzed) token.
+> >> ----
+> >> http://www.solr-start.com/ - Resources for Solr users, new and
+> experienced
+> >>
+> >>
+> >> On 8 April 2017 at 17:53, kshitij tyagi <kshitij.shopclues@gmail.com>
+> >> wrote:
+> >> > Hi,
+> >> >
+> >> > I am getting zero count for all facets created by using facet.field in
+> >> solr
+> >> > 5.1
+> >> >
+> >> > The surprise element is that I am able to query correctly on fields,
+> but
+> >> my
+> >> > facet counts are returning zero count.
+> >> >
+> >> > Can anyone help me out here on what all I should check?
+> >> >
+> >> > Regards,
+> >> > Kshitij
+> >>
+>
+

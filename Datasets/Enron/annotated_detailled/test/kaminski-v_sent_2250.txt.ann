@@ -1,0 +1,247 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi David,\n\nIt was nice meeting you and Jana again. I hope you will have terrific \nvacation.\nIt's likely to be very hot, wherever you go.\n\nVince\n\nP.S. Our  e-mail addresses are  vkaminski@aol.com   and    ludkam @aol.com\n\n\n\n\n\n\n\"David Phillips\" <DavidPhillips@bankunited.com> on 08/04/2000 08:48:07 AM\nTo: <vkamins@enron.com>\ncc:  \nSubject: Dinner\n\n\nDear Vince:\n\nJana and I really enjoyed having dinner with you and Ludmila last Saturday \nnight.  It was very nice getting to meet and visit with Ludmila.\n\nWe will call you later this month after we get back from vacation.\n\nSincerely,\nDavid Phillips\nBank United\n(713) 543-5528\n\nP.S.:  As we discussed at dinner, please send me your home e-mail address.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 8,
+      "text": "David",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 9,
+      "text": "Hi David,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 138,
+      "end": 143,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 145,
+      "end": 220,
+      "text": "P.S. Our  e-mail addresses are  vkaminski@aol.com   and    ludkam @aol.com\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 226,
+      "text": "Hi David,\n\nIt was nice meeting you and Jana again. I hope you will have terrific \nvacation.\nIt's likely to be very hot, wherever you go.\n\nVince\n\nP.S. Our  e-mail addresses are  vkaminski@aol.com   and    ludkam @aol.com\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 227,
+      "end": 241,
+      "text": "David Phillips",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 244,
+      "end": 272,
+      "text": "DavidPhillips@bankunited.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 277,
+      "end": 287,
+      "text": "08/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 288,
+      "end": 299,
+      "text": "08:48:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 305,
+      "end": 322,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 339,
+      "end": 345,
+      "text": "Dinner",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 226,
+      "end": 346,
+      "text": "\"David Phillips\" <DavidPhillips@bankunited.com> on 08/04/2000 08:48:07 AM\nTo: <vkamins@enron.com>\ncc:  \nSubject: Dinner\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 353,
+      "end": 358,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 348,
+      "end": 360,
+      "text": "Dear Vince:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 582,
+      "end": 596,
+      "text": "David Phillips",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 571,
+      "end": 597,
+      "text": "Sincerely,\nDavid Phillips\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 597,
+      "end": 608,
+      "text": "Bank United",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 597,
+      "end": 624,
+      "text": "Bank United\n(713) 543-5528\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 609,
+      "end": 623,
+      "text": "(713) 543-5528",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 625,
+      "end": 700,
+      "text": "P.S.:  As we discussed at dinner, please send me your home e-mail address.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 346,
+      "end": 703,
+      "text": "\n\nDear Vince:\n\nJana and I really enjoyed having dinner with you and Ludmila last Saturday \nnight.  It was very nice getting to meet and visit with Ludmila.\n\nWe will call you later this month after we get back from vacation.\n\nSincerely,\nDavid Phillips\nBank United\n(713) 543-5528\n\nP.S.:  As we discussed at dinner, please send me your home e-mail address.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 17,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 20,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 3,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 13,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 15,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7072018.1075856490230.JavaMail.evans@thyme>",
+      "Date": "Fri, 4 Aug 2000 02:01:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "davidphillips@bankunited.com",
+      "Subject": "Re: Dinner",
+      "Cc": "vkaminski@aol.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vkaminski@aol.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"David Phillips\" <DavidPhillips@bankunited.com> @ ENRON",
+      "X-cc": "vkaminski@aol.com",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_2250.txt"
+}

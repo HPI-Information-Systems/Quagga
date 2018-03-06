@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Yes. In general, any expression can be nested inside other expressions or\nstream sources.\n\nOn Sat, Jul 1, 2017 at 1:43 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n\n> Is it possible to do a Join (Eg: hashJoin, innerJoin) on the facet stream\n> expression?\n>\n> Regards,\n> Edwin\n>\n> On 1 July 2017 at 03:30, Susheel Kumar <susheel2777@gmail.com> wrote:\n>\n> > I doubt it can work.  Why not utilise facet stream expression which use\n> > JSON facet under the cover.\n> >\n> > On Thu, Jun 29, 2017 at 9:44 PM, Zheng Lin Edwin Yeo <\n> edwinyeozl@gmail.com\n> > >\n> > wrote:\n> >\n> > > Hi,\n> > >\n> > > Is it currently possible to include JSON facet inside Solr Streaming?\n> > >\n> > > I am trying out with the following query, which combines JSON facet\n> > > together with the hashJoin from Streaming, but we get the error saying\n> > > that is\n> > > not a proper expression clause.\n> > >\n> > > If it is possible, what should be the correct way to include it?\n> > >\n> > > I'm using Solr 6.5.1.\n> > >\n> > > http://localhost:8983/edm/collection1/stream?expr=hashJoin(\n> > >   search(collection1,\n> > > q=\"id:1111\",\n> > > fq=\"{!child of=\"contentType_s:collection1Header\"}field1a:*&\n> json.facet={\n> > > TotalAmount1:\"sum(totalAmount1)\"}\",\n> > > fl=\"field1a,field1b,field1c,field1d\",\n> > > sort=\"field1a asc\",\n> > > qt=\"/export\"),\n> > >   hashed=search(collection2,\n> > > q\"=id:1111\",\n> > > fq=\"json.facet={\n> > > TotalAmount2:\"sum(totalAmount2)\"}\",\n> > > fl=\"field2a,field2b,field2c,field2d\",\n> > > sort=\"field2a asc\",\n> > > qt=\"/export\"),\n> > >   on=\"field1a=field1b\"\n> > > )&indent=true\n> > >\n> > >\n> > > Regards,\n> > > Edwin\n> > >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 91,
+      "text": "Yes. In general, any expression can be nested inside other expressions or\nstream sources.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 91,
+      "end": 173,
+      "text": "On Sat, Jul 1, 2017 at 1:43 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 264,
+      "end": 285,
+      "text": ">\n> Regards,\n> Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 287,
+      "end": 359,
+      "text": "> On 1 July 2017 at 03:30, Susheel Kumar <susheel2777@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 173,
+      "end": 287,
+      "text": "\n> Is it possible to do a Join (Eg: hashJoin, innerJoin) on the facet stream\n> expression?\n>\n> Regards,\n> Edwin\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 359,
+      "end": 473,
+      "text": ">\n> > I doubt it can work.  Why not utilise facet stream expression which use\n> > JSON facet under the cover.\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 473,
+      "end": 572,
+      "text": "> > On Thu, Jun 29, 2017 at 9:44 PM, Zheng Lin Edwin Yeo <\n> edwinyeozl@gmail.com\n> > >\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 572,
+      "end": 586,
+      "text": "> >\n> > > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1586,
+      "end": 1619,
+      "text": "> > >\n> > > Regards,\n> > > Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 576,
+      "end": 1632,
+      "text": "> > > Hi,\n> > >\n> > > Is it currently possible to include JSON facet inside Solr Streaming?\n> > >\n> > > I am trying out with the following query, which combines JSON facet\n> > > together with the hashJoin from Streaming, but we get the error saying\n> > > that is\n> > > not a proper expression clause.\n> > >\n> > > If it is possible, what should be the correct way to include it?\n> > >\n> > > I'm using Solr 6.5.1.\n> > >\n> > > http://localhost:8983/edm/collection1/stream?expr=hashJoin(\n> > >   search(collection1,\n> > > q=\"id:1111\",\n> > > fq=\"{!child of=\"contentType_s:collection1Header\"}field1a:*&\n> json.facet={\n> > > TotalAmount1:\"sum(totalAmount1)\"}\",\n> > > fl=\"field1a,field1b,field1c,field1d\",\n> > > sort=\"field1a asc\",\n> > > qt=\"/export\"),\n> > >   hashed=search(collection2,\n> > > q\"=id:1111\",\n> > > fq=\"json.facet={\n> > > TotalAmount2:\"sum(totalAmount2)\"}\",\n> > > fl=\"field2a,field2b,field2c,field2d\",\n> > > sort=\"field2a asc\",\n> > > qt=\"/export\"),\n> > >   on=\"field1a=field1b\"\n> > > )&indent=true\n> > >\n> > >\n> > > Regards,\n> > > Edwin\n> > >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4479"
+}

@@ -1,0 +1,168 @@
+{
+  "wrapper": "plaintext",
+  "text": "Fiona - \n\nWelcome to the Legal Dept.!  I think Taffy was coordinating with you \nregarding my dinner with Mark this week,  Unfortunately, my trip was canceled \nat the very last minute this afternoon.  Mark is already aware of the change \nbut he may now have an open slot for dinner on Wed.  \n\nI'm sorry I won't be able to meet you this week but will look forward to it \non my next trip over.\n\nMark\n\n\n\n\nFiona Lavelle\n09/08/99 09:05 AM\nTo: Mark - ECT Legal Taylor/HOU/ECT@ECT\ncc:  \nSubject: Mark Haedicke's visit to London\n\nHello Mark\n\nJust to let you know, I have replaced Meagan, she has moved on to another \ndepartment.\nMark would like to meet you for dinner on either Monday or Wednesday night \nnext week.\nI am doing his itenerary and would appreciate it if you could e-mail me and \nlet me know what suits you.  I am of course assuming that you will be in \nLondon next week.\n\nThanks\nFiona\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Fiona",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 392,
+      "end": 396,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 401,
+      "text": "Fiona - \n\nWelcome to the Legal Dept.!  I think Taffy was coordinating with you \nregarding my dinner with Mark this week,  Unfortunately, my trip was canceled \nat the very last minute this afternoon.  Mark is already aware of the change \nbut he may now have an open slot for dinner on Wed.  \n\nI'm sorry I won't be able to meet you this week but will look forward to it \non my next trip over.\n\nMark\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 401,
+      "end": 414,
+      "text": "Fiona Lavelle",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 415,
+      "end": 423,
+      "text": "09/08/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 424,
+      "end": 432,
+      "text": "09:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 437,
+      "end": 441,
+      "text": "Mark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 488,
+      "end": 519,
+      "text": "Mark Haedicke's visit to London",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 401,
+      "end": 520,
+      "text": "Fiona Lavelle\n09/08/99 09:05 AM\nTo: Mark - ECT Legal Taylor/HOU/ECT@ECT\ncc:  \nSubject: Mark Haedicke's visit to London\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 527,
+      "end": 531,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 521,
+      "end": 532,
+      "text": "Hello Mark\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 884,
+      "end": 889,
+      "text": "Fiona",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 877,
+      "end": 890,
+      "text": "Thanks\nFiona\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 520,
+      "end": 891,
+      "text": "\nHello Mark\n\nJust to let you know, I have replaced Meagan, she has moved on to another \ndepartment.\nMark would like to meet you for dinner on either Monday or Wednesday night \nnext week.\nI am doing his itenerary and would appreciate it if you could e-mail me and \nlet me know what suits you.  I am of course assuming that you will be in \nLondon next week.\n\nThanks\nFiona\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 2,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7918504.1075859891830.JavaMail.evans@thyme>",
+      "Date": "Mon, 13 Sep 1999 11:33:00 -0700 (PDT)",
+      "From": "mark.taylor@enron.com",
+      "To": "fiona.lavelle@enron.com",
+      "Subject": "Re: Mark Haedicke's visit to London",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark - ECT Legal Taylor",
+      "X-To": "Fiona Lavelle",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\All documents",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_all_documents_610.txt"
+}

@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "Looks like part of our nightly processing was restarting the solr server\nbefore all indexing was done bc of using a blunt object approach of doing\nso at designated times, doh!\n\nOn Tue, Aug 8, 2017 at 9:35 PM John Blythe <john@curvolabs.com> wrote:\n\n> Thanks Erick. I don't think all of those ifs are in place. Must be\n> something in our nightly process that is conflicting. Will dive in tomorrow\n> to figure out and report back.\n>\n> On Tue, Aug 8, 2017 at 1:27 PM Erick Erickson <erickerickson@gmail.com>\n> wrote:\n>\n>> First, are you absolutely sure you're committing before shutting down?\n>> Hard commit in this case, openSearcher shouldn't matter.\n>>\n>> SolrCloud? And if not SolrCloud, how are you shutting Solr down? \"Kill\n>> -9\" is evil.\n>>\n>> If you have transaction logs enabled then you shouldn't be losing\n>> docs, any uncommitted docs should be replayed from the transaction\n>> log.\n>>\n>> This should absolutely _not_ be happening assuming hard commits\n>> happen. One possible explanation is that you have hard commits turned\n>> off and are using soft commits _and_ the transaction log isn't\n>> enabled. And you kill Solr with evil intent. But that's a long chain\n>> of \"ifs\"....\n>>\n>> Best,\n>> Erick\n>>\n>> On Tue, Aug 8, 2017 at 6:02 AM, John Blythe <john@curvolabs.com> wrote:\n>> > hi all.\n>> >\n>> > i have a core that contains about 22 million documents. when the solr\n>> > server is restarted it drops to 200-400k. the dashbaord says that it's\n>> both\n>> > optimized and current.\n>> >\n>> > is there config issues i need to address in solr or the server? not\n>> really\n>> > sure where to begin in hunting this down.\n>> >\n>> > thanks-\n>>\n> --\n> --\n> *John Blythe*\n> Product Manager & Lead Developer\n>\n> 251.605.3071 | john@curvolabs.com\n> www.curvolabs.com\n>\n> 58 Adams Ave\n> Evansville, IN 47713\n>\n-- \n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 177,
+      "text": "Looks like part of our nightly processing was restarting the solr server\nbefore all indexing was done bc of using a blunt object approach of doing\nso at designated times, doh!\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 177,
+      "end": 248,
+      "text": "On Tue, Aug 8, 2017 at 9:35 PM John Blythe <john@curvolabs.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 248,
+      "end": 264,
+      "text": "\n> Thanks Erick.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 248,
+      "end": 431,
+      "text": "\n> Thanks Erick. I don't think all of those ifs are in place. Must be\n> something in our nightly process that is conflicting. Will dive in tomorrow\n> to figure out and report back.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 431,
+      "end": 514,
+      "text": "> On Tue, Aug 8, 2017 at 1:27 PM Erick Erickson <erickerickson@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1190,
+      "end": 1211,
+      "text": ">>\n>> Best,\n>> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1214,
+      "end": 1289,
+      "text": ">> On Tue, Aug 8, 2017 at 6:02 AM, John Blythe <john@curvolabs.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 514,
+      "end": 1214,
+      "text": ">\n>> First, are you absolutely sure you're committing before shutting down?\n>> Hard commit in this case, openSearcher shouldn't matter.\n>>\n>> SolrCloud? And if not SolrCloud, how are you shutting Solr down? \"Kill\n>> -9\" is evil.\n>>\n>> If you have transaction logs enabled then you shouldn't be losing\n>> docs, any uncommitted docs should be replayed from the transaction\n>> log.\n>>\n>> This should absolutely _not_ be happening assuming hard commits\n>> happen. One possible explanation is that you have hard commits turned\n>> off and are using soft commits _and_ the transaction log isn't\n>> enabled. And you kill Solr with evil intent. But that's a long chain\n>> of \"ifs\"....\n>>\n>> Best,\n>> Erick\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1289,
+      "end": 1302,
+      "text": ">> > hi all.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1629,
+      "end": 1647,
+      "text": ">> >\n>> > thanks-\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1815,
+      "end": 1955,
+      "text": "-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1655,
+      "end": 1815,
+      "text": "> --\n> *John Blythe*\n> Product Manager & Lead Developer\n>\n> 251.605.3071 | john@curvolabs.com\n> www.curvolabs.com\n>\n> 58 Adams Ave\n> Evansville, IN 47713\n>\n-- \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1289,
+      "end": 1955,
+      "text": ">> > hi all.\n>> >\n>> > i have a core that contains about 22 million documents. when the solr\n>> > server is restarted it drops to 200-400k. the dashbaord says that it's\n>> both\n>> > optimized and current.\n>> >\n>> > is there config issues i need to address in solr or the server? not\n>> really\n>> > sure where to begin in hunting this down.\n>> >\n>> > thanks-\n>>\n> --\n> --\n> *John Blythe*\n> Product Manager & Lead Developer\n>\n> 251.605.3071 | john@curvolabs.com\n> www.curvolabs.com\n>\n> 58 Adams Ave\n> Evansville, IN 47713\n>\n-- \n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5357"
+}

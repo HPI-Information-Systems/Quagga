@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "What is the query you are executing if you can share. Due you think\ndifference could be due to updates/ingestion happening same time?\n\nThanks,\nSusheel\n\nOn Tue, Jul 25, 2017 at 7:47 AM, Bernd Fehling <\nbernd.fehling@uni-bielefeld.de> wrote:\n\n> With SolrCloud 6.4.2 (5 shards on 5 server) and a wildcard query\n> I get different results between the same query.\n>\n> I assume this is alltogether due to the distributed search and\n> the response time of each server and the constant score of 1.0 ???\n>\n> Is there any config where I can set the shard order (shard_1...shard_n)\n> as result order for results with same score?\n>\n> Or for results of wildcard query?\n>\n> Any ideas?\n>\n> Regards\n> Bernd\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 134,
+      "end": 151,
+      "text": "\nThanks,\nSusheel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 152,
+      "text": "What is the query you are executing if you can share. Due you think\ndifference could be due to updates/ingestion happening same time?\n\nThanks,\nSusheel\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 152,
+      "end": 240,
+      "text": "On Tue, Jul 25, 2017 at 7:47 AM, Bernd Fehling <\nbernd.fehling@uni-bielefeld.de> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 670,
+      "end": 690,
+      "text": ">\n> Regards\n> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 240,
+      "end": 693,
+      "text": "\n> With SolrCloud 6.4.2 (5 shards on 5 server) and a wildcard query\n> I get different results between the same query.\n>\n> I assume this is alltogether due to the distributed search and\n> the response time of each server and the constant score of 1.0 ???\n>\n> Is there any config where I can set the shard order (shard_1...shard_n)\n> as result order for results with same score?\n>\n> Or for results of wildcard query?\n>\n> Any ideas?\n>\n> Regards\n> Bernd\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5052"
+}

@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_1523",
+  "meta": {},
+  "text": "\n>The first advise is NOT to expose your Solr directly to the public.\n>Anyone that can hit /search, can also hit /update and wipe out your index.\n\nI would second that too. We have never exposed Solr and I also sanitise queries in the proxy.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 564,
+      "text": "\n>The first advise is NOT to expose your Solr directly to the public.\n>Anyone that can hit /search, can also hit /update and wipe out your index.\n\nI would second that too. We have never exposed Solr and I also sanitise queries in the proxy.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

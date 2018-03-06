@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/mccarty-d_deleted_items_100.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<9180042.1075852166574.JavaMail.evans@thyme>",
+      "Date": "Thu, 25 Oct 2001 14:28:54 -0700 (PDT)",
+      "From": "enron_update@concureworkplace.com",
+      "To": "dmccarty@enron.com",
+      "Subject": "<<Concur Expense Document>> - MKMILLER 8/24/01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "enron_update@concureworkplace.com@ENRON",
+      "X-To": "Danny McCarty <dmccarty@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\DMCCARTY (Non-Privileged)\\McCarty, Danny\\Deleted Items",
+      "X-Origin": "MCCARTY-D",
+      "X-FileName": "DMCCARTY (Non-Privileged).pst"
+    }
+  },
+  "text": "The following expense report is ready for approval:\n\nEmployee Name: Mary Kay  . Miller\nStatus last changed by:  Automated Administrator\nExpense Report Name: MKMILLER 8/24/01\nReport Total: $3,947.61\nAmount Due Employee: $3,947.61\n\n\nTo approve this expense report, click on the following link for Concur Expense.\nhttp://expensexms.enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 338,
+      "text": "The following expense report is ready for approval:\n\nEmployee Name: Mary Kay  . Miller\nStatus last changed by:  Automated Administrator\nExpense Report Name: MKMILLER 8/24/01\nReport Total: $3,947.61\nAmount Due Employee: $3,947.61\n\n\nTo approve this expense report, click on the following link for Concur Expense.\nhttp://expensexms.enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

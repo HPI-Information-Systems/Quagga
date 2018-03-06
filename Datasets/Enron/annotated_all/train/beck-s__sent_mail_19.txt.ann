@@ -1,0 +1,355 @@
+{
+  "wrapper": "plaintext",
+  "text": "Good memo - let me know if you see results.  \n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Shona Wilson @ ENRON                           12/07/2000 10:45 AM\n\t\n\nTo: Bob M Hall/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, Jeffrey C \nGossett/HOU/ECT@ECT, Peggy Hedstrom/CAL/ECT@ECT, Kathy Reeves/CAL/ECT@ECT, \nStacey W White/HOU/ECT@ECT, Monica Lande/PDX/ECT@ECT, David \nMaxwell/HOU/ECT@ECT, Martha Stevens/HOU/ECT@ECT, Scott Mills/HOU/ECT@ECT, \nScott Earnest/HOU/ECT@ECT, Michelle Bruce/HOU/ECT@ECT, Sheila \nGlover/HOU/ECT@ECT, D Todd Hall/HOU/ECT@ECT, Brenda F Herod/HOU/ECT@ECT, \nMichael E Moscoso/HOU/ECT@ECT, Kristin Albrecht/Enron Communications@Enron \nCommunications, Gary Stadler/Enron Communications@Enron Communications, \nMeredith M Eggleston/HOU/EES@EES, James New/LON/ECT@ECT, Heidi \nMason/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jan-Erland Bekeng/AP/Enron@Enron\ncc: Sally Beck/HOU/ECT@ECT, Brent A Price/HOU/ECT@ECT, Mike \nJordan/LON/ECT@ECT, Chris Abel/HOU/ECT@ECT, Kenneth \nThibodeaux/NA/Enron@ENRON, Michael Benien/Corp/Enron@ENRON, Daniel \nFalcone/Corp/Enron@ENRON, Eugenio Perez/HOU/ECT@ECT \nSubject: timing of submitting information to Risk Controls\n\nOver the past few weeks, we have not been receiving information from the risk \nmanagement groups on a timely basis.    This memo serves to convey our \ndeadlines to you and to reiterate deadlines for the risk management group.\n\nOur reporting is as follows (Houston time):\n\n7:45 - posting of preliminary DPR to website (needed to be done prior to RAC \n8am meeting)\n7:45 - 2:00 - preparation of the violation/notification memos\n2:00 - finalization of the DPR & memos\n\nIn order to meet these deadlines we need the risk management departments to \nmeet the following deadlines (Houston time):\n\nbefore leaving to go home (Houston): officialization of books (to ensure \ninformation is captured in VAR engine and Credit AGG)\n4:00 (London):  officialization and sending of feeds to IT\n7:20 (all): export of preliminary information\n7:20-3:00: support on explanations of violations/notification memos\n11:00 (London only): export of final information (needed at that time for \nMerchant Asset group)\n12:00 (Houston only): export of final information\n \nEveryday at least one group misses the deadline, which is unacceptable.  \nPlease ensure deadlines are met going forward.  Remember, the DPR cannot go \nout until all information is received and final so one group holds up the \nwhole process.\n\nThank you,\n\nShona Wilson\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 53,
+      "end": 78,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 81,
+      "text": "Good memo - let me know if you see results.  \n\n\n   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 89,
+      "end": 101,
+      "text": "Shona Wilson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 136,
+      "end": 146,
+      "text": "12/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 147,
+      "end": 155,
+      "text": "10:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 163,
+      "end": 173,
+      "text": "Bob M Hall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 190,
+      "end": 203,
+      "text": "Leslie Reeves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 217,
+      "end": 235,
+      "text": "Jeffrey C \nGossett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 249,
+      "end": 263,
+      "text": "Peggy Hedstrom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 277,
+      "end": 289,
+      "text": "Kathy Reeves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 304,
+      "end": 318,
+      "text": "Stacey W White",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 332,
+      "end": 344,
+      "text": "Monica Lande",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 358,
+      "end": 372,
+      "text": "David \nMaxwell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 386,
+      "end": 400,
+      "text": "Martha Stevens",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 414,
+      "end": 425,
+      "text": "Scott Mills",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 440,
+      "end": 453,
+      "text": "Scott Earnest",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 467,
+      "end": 481,
+      "text": "Michelle Bruce",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 495,
+      "end": 509,
+      "text": "Sheila \nGlover",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 523,
+      "end": 534,
+      "text": "D Todd Hall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 548,
+      "end": 562,
+      "text": "Brenda F Herod",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 577,
+      "end": 594,
+      "text": "Michael E Moscoso",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 608,
+      "end": 624,
+      "text": "Kristin Albrecht",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 669,
+      "end": 681,
+      "text": "Gary Stadler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 726,
+      "end": 746,
+      "text": "Meredith M Eggleston",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 760,
+      "end": 769,
+      "text": "James New",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 783,
+      "end": 795,
+      "text": "Heidi \nMason",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 833,
+      "end": 850,
+      "text": "Jan-Erland Bekeng",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 870,
+      "end": 880,
+      "text": "Sally Beck",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 894,
+      "end": 907,
+      "text": "Brent A Price",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 921,
+      "end": 933,
+      "text": "Mike \nJordan",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 947,
+      "end": 957,
+      "text": "Chris Abel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 971,
+      "end": 990,
+      "text": "Kenneth \nThibodeaux",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1007,
+      "end": 1021,
+      "text": "Michael Benien",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1040,
+      "end": 1055,
+      "text": "Daniel \nFalcone",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1074,
+      "end": 1087,
+      "text": "Eugenio Perez",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1110,
+      "end": 1159,
+      "text": "timing of submitting information to Risk Controls",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 82,
+      "end": 1160,
+      "text": "From:  Shona Wilson @ ENRON                           12/07/2000 10:45 AM\n\t\n\nTo: Bob M Hall/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, Jeffrey C \nGossett/HOU/ECT@ECT, Peggy Hedstrom/CAL/ECT@ECT, Kathy Reeves/CAL/ECT@ECT, \nStacey W White/HOU/ECT@ECT, Monica Lande/PDX/ECT@ECT, David \nMaxwell/HOU/ECT@ECT, Martha Stevens/HOU/ECT@ECT, Scott Mills/HOU/ECT@ECT, \nScott Earnest/HOU/ECT@ECT, Michelle Bruce/HOU/ECT@ECT, Sheila \nGlover/HOU/ECT@ECT, D Todd Hall/HOU/ECT@ECT, Brenda F Herod/HOU/ECT@ECT, \nMichael E Moscoso/HOU/ECT@ECT, Kristin Albrecht/Enron Communications@Enron \nCommunications, Gary Stadler/Enron Communications@Enron Communications, \nMeredith M Eggleston/HOU/EES@EES, James New/LON/ECT@ECT, Heidi \nMason/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jan-Erland Bekeng/AP/Enron@Enron\ncc: Sally Beck/HOU/ECT@ECT, Brent A Price/HOU/ECT@ECT, Mike \nJordan/LON/ECT@ECT, Chris Abel/HOU/ECT@ECT, Kenneth \nThibodeaux/NA/Enron@ENRON, Michael Benien/Corp/Enron@ENRON, Daniel \nFalcone/Corp/Enron@ENRON, Eugenio Perez/HOU/ECT@ECT \nSubject: timing of submitting information to Risk Controls\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 2453,
+      "end": 2465,
+      "text": "Shona Wilson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2441,
+      "end": 2466,
+      "text": "Thank you,\n\nShona Wilson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1160,
+      "end": 2467,
+      "text": "\nOver the past few weeks, we have not been receiving information from the risk \nmanagement groups on a timely basis.    This memo serves to convey our \ndeadlines to you and to reiterate deadlines for the risk management group.\n\nOur reporting is as follows (Houston time):\n\n7:45 - posting of preliminary DPR to website (needed to be done prior to RAC \n8am meeting)\n7:45 - 2:00 - preparation of the violation/notification memos\n2:00 - finalization of the DPR & memos\n\nIn order to meet these deadlines we need the risk management departments to \nmeet the following deadlines (Houston time):\n\nbefore leaving to go home (Houston): officialization of books (to ensure \ninformation is captured in VAR engine and Credit AGG)\n4:00 (London):  officialization and sending of feeds to IT\n7:20 (all): export of preliminary information\n7:20-3:00: support on explanations of violations/notification memos\n11:00 (London only): export of final information (needed at that time for \nMerchant Asset group)\n12:00 (Houston only): export of final information\n \nEveryday at least one group misses the deadline, which is unacceptable.  \nPlease ensure deadlines are met going forward.  Remember, the DPR cannot go \nout until all information is received and final so one group holds up the \nwhole process.\n\nThank you,\n\nShona Wilson\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20916224.1075855913034.JavaMail.evans@thyme>",
+      "Date": "Thu, 7 Dec 2000 03:43:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "shona.wilson@enron.com",
+      "Subject": "Re: timing of submitting information to Risk Controls",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Shona Wilson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s__sent_mail_19.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 38,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

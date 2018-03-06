@@ -1,0 +1,22 @@
+I agree with you Gyula, this change is dangerous. I have seen another case
+from a user with Hadoop dependencies that crashed in Flink 1.2.0 that
+didn't in 1.1.x
+
+I wonder if we should introduce a config flag for Flink 1.2.1 to disable
+the behavior if needed.
+
+On Fri, Feb 24, 2017 at 2:27 PM, Ufuk Celebi <uce@apache.org> wrote:
+
+> On Fri, Feb 24, 2017 at 11:05 AM, Gyula Fóra <gyula.fora@gmail.com> wrote:
+> > I was not aware of this big change (I know it's my fault) but I am not
+> sure
+> > if I agree with the rationale.
+>
+> No comment on the actual issue from my side, but I strongly disagree
+> that this is your fault. We should have covered this better in the
+> release announcement in my opinion. Of course, this doesn't help now.
+> ;-)
+>
+> – Ufuk
+>
+

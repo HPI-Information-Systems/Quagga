@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mike\nWith SolrCloud you want to have nodes each on their own machine, do you not?. Can your nodes\nconnect to each other?\nCheers -- Rick\n\nOn April 8, 2017 10:02:07 PM EDT, Mike Thomsen <mikerthomsen@gmail.com> wrote:\n>Hi Rick,\n>\n>No, I just used the \"official\" one on Docker Hub (\n>https://hub.docker.com/_/solr/) and followed the instructions for\n>linking\n>and working with ZooKeeper to get SolrCloud up and running.\n>\n>I may have to go to the Docker forum in the end, but I thought I'd ask\n>here\n>first since the only thing that seems to be broken is the Java client\n>API,\n>not the servers, in this environment/configuration.\n>\n>Thanks,\n>\n>Mike\n>\n>On Sat, Apr 8, 2017 at 9:41 PM, Rick Leir <rleir@leirtech.com> wrote:\n>\n>> Hi Mike\n>> Did you dockerize Solr yourself? I have some knowledge of Docker, and\n>> think that this question would get better help in a Docker forum.\n>> Cheers -- Rick\n>>\n>> On April 8, 2017 8:42:13 PM EDT, Mike Thomsen\n><mikerthomsen@gmail.com>\n>> wrote:\n>> >I'm running two nodes of SolrCloud in Docker on Windows using Docker\n>> >Toolbox.  The problem I am having is that Docker Toolbox runs inside\n>of\n>> >a\n>> >VM and so it has an internal network inside the VM that is not\n>> >accessible\n>> >to the Docker Toolbox VM's host OS. If I go to the VM's IP which is\n>> >192.168.99.100, I can load the admin UI and do basic operations that\n>> >are\n>> >written to go against that IP and port (like querying, schema\n>editor,\n>> >manually adding documents, etc.)\n>> >\n>> >However, when I try to run code that uses SolrJ to add documents, it\n>> >fails\n>> >because the ZK configuration has the IPs for the internal Docker\n>> >network\n>> >which is 172.X.Y..Z. If I log into the toolbox VM and run the Java\n>code\n>> >from there, it works just fine. From the host OS, doesn't.\n>> >\n>> >Anyone have any ideas on how to get around this? If I rewrite the\n>> >indexing\n>> >code to do a manual JSON POST to the update handler on one of the\n>> >nodes, it\n>> >does work just fine, but that leaves me not using SolrJ.\n>> >\n>> >Thanks,\n>> >\n>> >Mike\n>>\n>> --\n>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Mike\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 121,
+      "end": 136,
+      "text": "Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 137,
+      "text": "Mike\nWith SolrCloud you want to have nodes each on their own machine, do you not?. Can your nodes\nconnect to each other?\nCheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 137,
+      "end": 216,
+      "text": "On April 8, 2017 10:02:07 PM EDT, Mike Thomsen <mikerthomsen@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 216,
+      "end": 226,
+      "text": ">Hi Rick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 627,
+      "end": 646,
+      "text": ">\n>Thanks,\n>\n>Mike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 648,
+      "end": 719,
+      "text": ">On Sat, Apr 8, 2017 at 9:41 PM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 719,
+      "end": 732,
+      "text": ">\n>> Hi Mike\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 874,
+      "end": 892,
+      "text": ">> Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 719,
+      "end": 895,
+      "text": ">\n>> Hi Mike\n>> Did you dockerize Solr yourself? I have some knowledge of Docker, and\n>> think that this question would get better help in a Docker forum.\n>> Cheers -- Rick\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 216,
+      "end": 648,
+      "text": ">Hi Rick,\n>\n>No, I just used the \"official\" one on Docker Hub (\n>https://hub.docker.com/_/solr/) and followed the instructions for\n>linking\n>and working with ZooKeeper to get SolrCloud up and running.\n>\n>I may have to go to the Docker forum in the end, but I thought I'd ask\n>here\n>first since the only thing that seems to be broken is the Java client\n>API,\n>not the servers, in this environment/configuration.\n>\n>Thanks,\n>\n>Mike\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 895,
+      "end": 980,
+      "text": ">> On April 8, 2017 8:42:13 PM EDT, Mike Thomsen\n><mikerthomsen@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2025,
+      "end": 2056,
+      "text": ">> >\n>> >Thanks,\n>> >\n>> >Mike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 980,
+      "end": 2210,
+      "text": ">> >I'm running two nodes of SolrCloud in Docker on Windows using Docker\n>> >Toolbox.  The problem I am having is that Docker Toolbox runs inside\n>of\n>> >a\n>> >VM and so it has an internal network inside the VM that is not\n>> >accessible\n>> >to the Docker Toolbox VM's host OS. If I go to the VM's IP which is\n>> >192.168.99.100, I can load the admin UI and do basic operations that\n>> >are\n>> >written to go against that IP and port (like querying, schema\n>editor,\n>> >manually adding documents, etc.)\n>> >\n>> >However, when I try to run code that uses SolrJ to add documents, it\n>> >fails\n>> >because the ZK configuration has the IPs for the internal Docker\n>> >network\n>> >which is 172.X.Y..Z. If I log into the toolbox VM and run the Java\n>code\n>> >from there, it works just fine. From the host OS, doesn't.\n>> >\n>> >Anyone have any ideas on how to get around this? If I rewrite the\n>> >indexing\n>> >code to do a manual JSON POST to the update handler on one of the\n>> >nodes, it\n>> >does work just fine, but that leaves me not using SolrJ.\n>> >\n>> >Thanks,\n>> >\n>> >Mike\n>>\n>> --\n>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2371"
+}

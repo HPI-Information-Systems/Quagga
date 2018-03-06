@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi folks,\n\nIs there a API to implement a retryHandler in HttpSolrServer ?\n\nI'm using solrj 4.10.4\n\nLasitha Wattaladeniya\nSoftware Engineer\n\nMobile : +6593896893\nBlog : techreadme.blogspot.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi folks,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 98,
+      "end": 192,
+      "text": "\nLasitha Wattaladeniya\nSoftware Engineer\n\nMobile : +6593896893\nBlog : techreadme.blogspot.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 193,
+      "text": "Hi folks,\n\nIs there a API to implement a retryHandler in HttpSolrServer ?\n\nI'm using solrj 4.10.4\n\nLasitha Wattaladeniya\nSoftware Engineer\n\nMobile : +6593896893\nBlog : techreadme.blogspot.com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2299"
+}

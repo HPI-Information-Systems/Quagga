@@ -1,0 +1,49 @@
+{
+  "wrapper": "plaintext",
+  "text": "How goes it?\n\nWanna come to a Murder Mystery dinner party for my birthday on Oct 21? Sat\nnight 7-11\n\nNeed your mailing address to send you an invitation.\n\n40 people come as different characters you'll receive your character in the\ninvitation.\n\nMark Miller cell # 512 415 1757\n\nTake care!\n\nMark",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 289,
+      "end": 293,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 277,
+      "end": 293,
+      "text": "Take care!\n\nMark",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 293,
+      "text": "How goes it?\n\nWanna come to a Murder Mystery dinner party for my birthday on Oct 21? Sat\nnight 7-11\n\nNeed your mailing address to send you an invitation.\n\n40 people come as different characters you'll receive your character in the\ninvitation.\n\nMark Miller cell # 512 415 1757\n\nTake care!\n\nMark",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12972830.1075842651181.JavaMail.evans@thyme>",
+      "Date": "Tue, 19 Sep 2000 10:24:00 -0700 (PDT)",
+      "From": "mmiller3@austin.rr.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Mark Miller\" <mmiller3@austin.rr.com>",
+      "X-To": "\"Gerald Nemec\" <Gerald.Nemec@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  }
+}

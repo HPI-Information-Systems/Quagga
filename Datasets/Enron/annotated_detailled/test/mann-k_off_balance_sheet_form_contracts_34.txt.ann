@@ -1,0 +1,179 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have never seen the language requested before and have not signed off on \nit.  Rob Taylor and I only discussed the concept because I had never seen a \ndraft of the Consent until a signed copy was delivered to me yesterday.\n\n>>> <Kay.Mann@enron.com> 12/14/00 08:47AM >>>\n\nThis language is different that what GE was told was requested before.  I\nam more comfortable going back to GE with what was requested previously.\n\nKay\n\n\n\n\n\"Timothy Oxley\" <TOxley@winston.com> on 12/13/2000 08:38:52 PM\n\nTo:   <Kay.mann@enron.com>\ncc:   <robtaylor@andrews-kurth.com>\n\nSubject:  GE Release\n\nPursuant to the request of Rose Engeldorf, the following is the\nsuggested language for insertion into the GE Consent:\n\n\"Each of GE Packaged Power and GE acknowledge that WestLB is a third\nparty beneficiary of this Consent and shall be entitled to enforce its\nprovisions against GE Packaged Power and GE, respectively, as if a\nparty to this Consent.\"\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 226,
+      "text": "I have never seen the language requested before and have not signed off on \nit.  Rob Taylor and I only discussed the concept because I had never seen a \ndraft of the Consent until a signed copy was delivered to me yesterday.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 231,
+      "end": 249,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 251,
+      "end": 259,
+      "text": "12/14/00",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 260,
+      "end": 267,
+      "text": "08:47AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 226,
+      "end": 272,
+      "text": ">>> <Kay.Mann@enron.com> 12/14/00 08:47AM >>>\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 421,
+      "end": 424,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 272,
+      "end": 429,
+      "text": "\nThis language is different that what GE was told was requested before.  I\nam more comfortable going back to GE with what was requested previously.\n\nKay\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 430,
+      "end": 443,
+      "text": "Timothy Oxley",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 446,
+      "end": 464,
+      "text": "TOxley@winston.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 469,
+      "end": 479,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 480,
+      "end": 491,
+      "text": "08:38:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 500,
+      "end": 518,
+      "text": "Kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 527,
+      "end": 554,
+      "text": "robtaylor@andrews-kurth.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 567,
+      "end": 577,
+      "text": "GE Release",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 429,
+      "end": 578,
+      "text": "\"Timothy Oxley\" <TOxley@winston.com> on 12/13/2000 08:38:52 PM\n\nTo:   <Kay.mann@enron.com>\ncc:   <robtaylor@andrews-kurth.com>\n\nSubject:  GE Release\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 578,
+      "end": 933,
+      "text": "\nPursuant to the request of Rose Engeldorf, the following is the\nsuggested language for insertion into the GE Consent:\n\n\"Each of GE Packaged Power and GE acknowledge that WestLB is a third\nparty beneficiary of this Consent and shall be entitled to enforce its\nprovisions against GE Packaged Power and GE, respectively, as if a\nparty to this Consent.\"\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 2,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4774142.1075845914910.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Dec 2000 01:18:00 -0800 (PST)",
+      "From": "toxley@winston.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "Re: GE Release",
+      "Cc": "robtaylor@andrews-kurth.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "robtaylor@andrews-kurth.com",
+      "X-From": "\"Timothy Oxley\" <TOxley@winston.com>",
+      "X-To": "<Kay.Mann@enron.com>",
+      "X-cc": "<robtaylor@andrews-kurth.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Off balance sheet_form contracts",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_off_balance_sheet_form_contracts_34.txt"
+}

@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is another redlined draft of the Pastoria IM.  It is much more close \nto completion because it now includes comments from all necessary parties. \n\nPlease carefully review and send me any changes no later than Monday.  If you \nsend them today (Sunday) send them via e-mail.  Beginning Monday (12 PM CDT) \nI'll be in SF, so if you fax them send them to 415.782.7827.\n\nPlease call me at 713.629.0929 or 713.398.6412 should you have any \nquestions.  Thanks.\n\n\nPS  for Dave Parquet:  Not all of your proposed changes were made simply \nbecause I could not ready many of them and the changes were too late at night \nto call you.  I was asked to get a draft out ASAP so I will call you today \n(Sunday) to discuss them.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 465,
+      "end": 720,
+      "text": "PS  for Dave Parquet:  Not all of your proposed changes were made simply \nbecause I could not ready many of them and the changes were too late at night \nto call you.  I was asked to get a draft out ASAP so I will call you today \n(Sunday) to discuss them.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 455,
+      "end": 462,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 722,
+      "text": "Attached is another redlined draft of the Pastoria IM.  It is much more close \nto completion because it now includes comments from all necessary parties. \n\nPlease carefully review and send me any changes no later than Monday.  If you \nsend them today (Sunday) send them via e-mail.  Beginning Monday (12 PM CDT) \nI'll be in SF, so if you fax them send them to 415.782.7827.\n\nPlease call me at 713.629.0929 or 713.398.6412 should you have any \nquestions.  Thanks.\n\n\nPS  for Dave Parquet:  Not all of your proposed changes were made simply \nbecause I could not ready many of them and the changes were too late at night \nto call you.  I was asked to get a draft out ASAP so I will call you today \n(Sunday) to discuss them.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24234033.1075857201281.JavaMail.evans@thyme>",
+      "Date": "Sun, 27 Aug 2000 00:36:00 -0700 (PDT)",
+      "From": "ron.coker@enron.com",
+      "To": "andrew.kelemen@enron.com, mark.fillinger@enron.com, samuel.wehn@enron.com, \n\twcheng8962@yahoo.com, vicky.ha@enron.com, gauri.khokha@enron.com, \n\tdean.russell@enron.com, sheila.tweed@enron.com, eric.thode@enron.com, \n\trob.bakondy@enron.com, david.leboe@enron.com, \n\troger.ondreko@enron.com, jeff.dasovich@enron.com, \n\tkaren.jones@enron.com, don.miller@enron.com, ben.jacoby@enron.com, \n\tbenjamin.rogers@enron.com, jinsung.myung@enron.com, \n\taykelemen@dellnet.com, mike.miller@enron.com, \n\tdavid.parquet@enron.com",
+      "Subject": "Urgent - Response Required 8/28/00 - Pastoria Information\n Memorandum - Draft 8/27/00",
+      "Cc": "christopher.calger@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "christopher.calger@enron.com",
+      "X-From": "Ron Coker",
+      "X-To": "Andrew Kelemen, Mark Fillinger, Samuel Wehn, wcheng8962@yahoo.com, Vicky Ha, Gauri Sohoni Khokha, Dean Russell, Sheila Tweed, Eric Thode, Rob Bakondy, David Leboe, Roger Ondreko, Jeff Dasovich, Karen E Jones, Don.miller@enron.com, Ben Jacoby, Benjamin Rogers, Jinsung Myung, aykelemen@dellnet.com, Mike J Miller, David Parquet",
+      "X-cc": "Christopher F Calger",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_950.txt"
+}

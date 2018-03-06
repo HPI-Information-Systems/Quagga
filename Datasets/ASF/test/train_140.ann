@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please unsubscribe by sending an email to user-unsubscribe@spark.apache.org\nHTH!\n \n\n\n\n\n\nOn Mon, Jan 9, 2017 4:40 PM, william tellme williamtellme123@gmail.com\nwrote:\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 76,
+      "end": 81,
+      "text": "HTH!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 88,
+      "end": 166,
+      "text": "On Mon, Jan 9, 2017 4:40 PM, william tellme williamtellme123@gmail.com\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 88,
+      "text": "Please unsubscribe by sending an email to user-unsubscribe@spark.apache.org\nHTH!\n \n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_140"
+}

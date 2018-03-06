@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Its really hard to filter through the issues in Jira,  710 open\nmajor/critical issues since 2010, using this query:\n\nproject = SOLR AND issuetype = Bug And priority in (Blocker,Critical,\nMajor) AND status in (Open, \"In Progress\", Reopened) ORDER BY createdDate\nASC\n\nAre there any performance tests done on solr for each release?\n\nOn Thu, 28 Sep 2017 at 16:46, Nawab Zada Asad Iqbal <khichi@gmail.com>\nwrote:\n\n> Hi Lars\n>\n> Although, that doesn't really answer of whether 6.6.1 is the most stable\n> one or not, but there has been a recent security fix, so definitely go to\n> 6.6.1 .\n>\n> Copied the detail below:-\n>\n>\n>\n> CVE-2017-9803: Security vulnerability in kerberos delegation token\n> functionality\n>\n> Severity: Important\n>\n> Vendor:\n> The Apache Software Foundation\n>\n> Versions Affected:\n> Apache Solr 6.2.0 to 6.6.0\n>\n> Description:\n>\n> Solr's Kerberos plugin can be configured to use delegation tokens,\n> which allows an application to reuse the authentication of an end-user\n> or another application.\n> There are two issues with this functionality (when using\n> SecurityAwareZkACLProvider type of ACL provider e.g.\n> SaslZkACLProvider),\n>\n> Firstly, access to the security configuration can be leaked to users\n> other than the solr super user. Secondly, malicious users can exploit\n> this leaked configuration for privilege escalation to further\n> expose/modify private data and/or disrupt operations in the Solr\n> cluster.\n>\n> The vulnerability is fixed from Solr 6.6.1 onwards.\n>\n> Mitigation:\n> 6.x users should upgrade to 6.6.1\n>\n> Credit:\n> This issue was discovered by Hrishikesh Gadre of Cloudera Inc.\n>\n> References:\n> https://issues.apache.org/jira/browse/SOLR-11184\n> https://wiki.apache.org/solr/SolrSecurity\n>\n> On Thu, Sep 28, 2017 at 6:24 AM, Lars Karlsson <\n> lars.karlsson.sthlm@gmail.com> wrote:\n>\n> > Hi, wanted to check if anyone can help guide with most stable version\n> > between\n> >\n> > 6.3 and 6.6.1\n> >\n> > Which should I choose ?\n> >\n> > And, are there any performance tests that one can look at for each\n> release?\n> >\n> > Regards\n> > Lars\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 330,
+      "text": "Its really hard to filter through the issues in Jira,  710 open\nmajor/critical issues since 2010, using this query:\n\nproject = SOLR AND issuetype = Bug And priority in (Blocker,Critical,\nMajor) AND status in (Open, \"In Progress\", Reopened) ORDER BY createdDate\nASC\n\nAre there any performance tests done on solr for each release?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 330,
+      "end": 408,
+      "text": "On Thu, 28 Sep 2017 at 16:46, Nawab Zada Asad Iqbal <khichi@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 408,
+      "end": 419,
+      "text": "\n> Hi Lars\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 408,
+      "end": 1732,
+      "text": "\n> Hi Lars\n>\n> Although, that doesn't really answer of whether 6.6.1 is the most stable\n> one or not, but there has been a recent security fix, so definitely go to\n> 6.6.1 .\n>\n> Copied the detail below:-\n>\n>\n>\n> CVE-2017-9803: Security vulnerability in kerberos delegation token\n> functionality\n>\n> Severity: Important\n>\n> Vendor:\n> The Apache Software Foundation\n>\n> Versions Affected:\n> Apache Solr 6.2.0 to 6.6.0\n>\n> Description:\n>\n> Solr's Kerberos plugin can be configured to use delegation tokens,\n> which allows an application to reuse the authentication of an end-user\n> or another application.\n> There are two issues with this functionality (when using\n> SecurityAwareZkACLProvider type of ACL provider e.g.\n> SaslZkACLProvider),\n>\n> Firstly, access to the security configuration can be leaked to users\n> other than the solr super user. Secondly, malicious users can exploit\n> this leaked configuration for privilege escalation to further\n> expose/modify private data and/or disrupt operations in the Solr\n> cluster.\n>\n> The vulnerability is fixed from Solr 6.6.1 onwards.\n>\n> Mitigation:\n> 6.x users should upgrade to 6.6.1\n>\n> Credit:\n> This issue was discovered by Hrishikesh Gadre of Cloudera Inc.\n>\n> References:\n> https://issues.apache.org/jira/browse/SOLR-11184\n> https://wiki.apache.org/solr/SolrSecurity\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1732,
+      "end": 1823,
+      "text": "> On Thu, Sep 28, 2017 at 6:24 AM, Lars Karlsson <\n> lars.karlsson.sthlm@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1823,
+      "end": 1832,
+      "text": ">\n> > Hi,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2051,
+      "end": 2076,
+      "text": "> >\n> > Regards\n> > Lars\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1823,
+      "end": 2083,
+      "text": ">\n> > Hi, wanted to check if anyone can help guide with most stable version\n> > between\n> >\n> > 6.3 and 6.6.1\n> >\n> > Which should I choose ?\n> >\n> > And, are there any performance tests that one can look at for each\n> release?\n> >\n> > Regards\n> > Lars\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6405"
+}

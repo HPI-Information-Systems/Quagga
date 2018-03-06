@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "I realized, my case class was inside the object. It should be defined\noutside the scope of the object. Thanks\n\nOn Wed, Mar 22, 2017 at 6:07 PM, shyla deshpande <deshpandeshyla@gmail.com>\nwrote:\n\n> Why userDS is Dataset[Any], instead of Dataset[Teamuser]?  Appreciate your help. Thanks\n>\n>     val spark = SparkSession\n>       .builder\n>       .config(\"spark.cassandra.connection.host\", cassandrahost)\n>       .appName(getClass.getSimpleName)\n>       .getOrCreate()\n>\n>     import spark.implicits._\n>     val sqlContext = spark.sqlContext\n>     import sqlContext.implicits._\n>\n>     case class Teamuser(teamid:String, userid:String, role:String)\n>     spark\n>       .read\n>       .format(\"org.apache.spark.sql.cassandra\")\n>       .options(Map(\"keyspace\" -> \"test\", \"table\" -> \"teamuser\"))\n>       .load\n>       .createOrReplaceTempView(\"teamuser\")\n>\n>     val userDF = spark.sql(\"SELECT teamid, userid, role FROM teamuser\")\n>\n>     userDF.show()\n>\n>     val userDS:Dataset[Teamuser] = userDF.as[Teamuser]\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 111,
+      "text": "I realized, my case class was inside the object. It should be defined\noutside the scope of the object. Thanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 194,
+      "text": "On Wed, Mar 22, 2017 at 6:07 PM, shyla deshpande <deshpandeshyla@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 194,
+      "end": 1009,
+      "text": "\n> Why userDS is Dataset[Any], instead of Dataset[Teamuser]?  Appreciate your help. Thanks\n>\n>     val spark = SparkSession\n>       .builder\n>       .config(\"spark.cassandra.connection.host\", cassandrahost)\n>       .appName(getClass.getSimpleName)\n>       .getOrCreate()\n>\n>     import spark.implicits._\n>     val sqlContext = spark.sqlContext\n>     import sqlContext.implicits._\n>\n>     case class Teamuser(teamid:String, userid:String, role:String)\n>     spark\n>       .read\n>       .format(\"org.apache.spark.sql.cassandra\")\n>       .options(Map(\"keyspace\" -> \"test\", \"table\" -> \"teamuser\"))\n>       .load\n>       .createOrReplaceTempView(\"teamuser\")\n>\n>     val userDF = spark.sql(\"SELECT teamid, userid, role FROM teamuser\")\n>\n>     userDF.show()\n>\n>     val userDS:Dataset[Teamuser] = userDF.as[Teamuser]\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2068"
+}

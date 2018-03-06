@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "OK, new collection.\n\n1> With schemaless? When you add a document in schemaless mode, it\nmakes some guesses that may not play nice later.\n\n2> Are you storing the _destination_ of any copyField? Atomic updates\ndo odd things if you set stored=\"true\" for fields that are\ndestinations for atomic updates, specifically accumulate values in\nthem. You should set stored=\"false\" for all destinations of copyField\ndirectives.\n\nBest,\nErick\n\nOn Fri, Jun 23, 2017 at 9:23 AM, Aman Deep Singh\n<amandeep.cool99@gmail.com> wrote:\n> No Shawn,\n> I download the latest solr again then run without installing by command\n> ./bin/solr -c\n> after upload the fresh configset and create the new collection\n> Then create a single document in solr\n> after do atomic update\n> and the same error occurs again.\n>\n>\n> On Fri, Jun 23, 2017 at 7:53 PM Shawn Heisey <apache@elyograg.org> wrote:\n>\n>> On 6/20/2017 11:01 PM, Aman Deep Singh wrote:\n>> > If I am using docValues=false getting this exception\n>> > java.lang.IllegalStateException: Type mismatch: isBlibliShipping was\n>> > indexed with multiple values per document, use SORTED_SET instead at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl$SortedDocValuesCache.createValue(FieldCacheImpl.java:799)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl$Cache.get(FieldCacheImpl.java:187)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:767)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:747)\n>> > at\n>> > But if docValues=true then getting this error\n>> > java.lang.IllegalStateException: unexpected docvalues type NUMERIC for\n>> > field 'isBlibliShipping' (expected=SORTED). Re-index with correct\n>> docvalues\n>> > type. at org.apache.lucene.index.DocValues.checkField(DocValues.java:212)\n>> > at org.apache.lucene.index.DocValues.getSorted(DocValues.java:264) at\n>> >\n>> org.apache.lucene.search.grouping.term.TermGroupFacetCollector$SV.doSetNextReader(TermGroupFacetCollector.java:129)\n>> > at\n>> >\n>> org.apache.lucene.search.SimpleCollector.getLeafCollector(SimpleCollector.java:33)\n>> > at org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:659)\n>> at\n>> > org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:472) at\n>> >\n>> org.apache.solr.request.SimpleFacets.getGroupedCounts(SimpleFacets.java:692)\n>> > at\n>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:476)\n>> > at\n>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:405)\n>> > at\n>> >\n>> org.apache.solr.request.SimpleFacets.lambda$getFacetFieldCounts$0(SimpleFacets.java:803)\n>> >\n>> > It Only appear in case when we facet on group query normal facet works\n>> fine\n>> >\n>> > Also appears only when we atomically update the document.\n>>\n>> These errors look like problems that appear when you *change* the\n>> schema, but try to use that new schema with an existing Lucene index\n>> directory.  As Erick already mentioned, certain changes in the schema\n>> *require* completely deleting the index directory and\n>> restarting/reloading, or starting with a brand new index.  Deleting all\n>> documents instead of wiping out the index may leave Lucene remnants with\n>> incorrect metadata for the new schema.\n>>\n>> What you've said elsewhere in the thread is that you're starting with a\n>> brand new collection ... but the error messages suggest that we're still\n>> dealing with an index where you had one schema setting, indexed some\n>> data, then changed the schema without completely wiping out the index\n>> from the disk.\n>>\n>> Thanks,\n>> Shawn\n>>\n>>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 416,
+      "end": 429,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 430,
+      "text": "OK, new collection.\n\n1> With schemaless? When you add a document in schemaless mode, it\nmakes some guesses that may not play nice later.\n\n2> Are you storing the _destination_ of any copyField? Atomic updates\ndo odd things if you set stored=\"true\" for fields that are\ndestinations for atomic updates, specifically accumulate values in\nthem. You should set stored=\"false\" for all destinations of copyField\ndirectives.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 430,
+      "end": 514,
+      "text": "On Fri, Jun 23, 2017 at 9:23 AM, Aman Deep Singh\n<amandeep.cool99@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 514,
+      "end": 785,
+      "text": "> No Shawn,\n> I download the latest solr again then run without installing by command\n> ./bin/solr -c\n> after upload the fresh configset and create the new collection\n> Then create a single document in solr\n> after do atomic update\n> and the same error occurs again.\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 785,
+      "end": 861,
+      "text": "> On Fri, Jun 23, 2017 at 7:53 PM Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 861,
+      "end": 912,
+      "text": ">\n>> On 6/20/2017 11:01 PM, Aman Deep Singh wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 3580,
+      "end": 3603,
+      "text": ">>\n>> Thanks,\n>> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 912,
+      "end": 3610,
+      "text": ">> > If I am using docValues=false getting this exception\n>> > java.lang.IllegalStateException: Type mismatch: isBlibliShipping was\n>> > indexed with multiple values per document, use SORTED_SET instead at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl$SortedDocValuesCache.createValue(FieldCacheImpl.java:799)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl$Cache.get(FieldCacheImpl.java:187)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:767)\n>> > at\n>> >\n>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:747)\n>> > at\n>> > But if docValues=true then getting this error\n>> > java.lang.IllegalStateException: unexpected docvalues type NUMERIC for\n>> > field 'isBlibliShipping' (expected=SORTED). Re-index with correct\n>> docvalues\n>> > type. at org.apache.lucene.index.DocValues.checkField(DocValues.java:212)\n>> > at org.apache.lucene.index.DocValues.getSorted(DocValues.java:264) at\n>> >\n>> org.apache.lucene.search.grouping.term.TermGroupFacetCollector$SV.doSetNextReader(TermGroupFacetCollector.java:129)\n>> > at\n>> >\n>> org.apache.lucene.search.SimpleCollector.getLeafCollector(SimpleCollector.java:33)\n>> > at org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:659)\n>> at\n>> > org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:472) at\n>> >\n>> org.apache.solr.request.SimpleFacets.getGroupedCounts(SimpleFacets.java:692)\n>> > at\n>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:476)\n>> > at\n>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:405)\n>> > at\n>> >\n>> org.apache.solr.request.SimpleFacets.lambda$getFacetFieldCounts$0(SimpleFacets.java:803)\n>> >\n>> > It Only appear in case when we facet on group query normal facet works\n>> fine\n>> >\n>> > Also appears only when we atomically update the document.\n>>\n>> These errors look like problems that appear when you *change* the\n>> schema, but try to use that new schema with an existing Lucene index\n>> directory.  As Erick already mentioned, certain changes in the schema\n>> *require* completely deleting the index directory and\n>> restarting/reloading, or starting with a brand new index.  Deleting all\n>> documents instead of wiping out the index may leave Lucene remnants with\n>> incorrect metadata for the new schema.\n>>\n>> What you've said elsewhere in the thread is that you're starting with a\n>> brand new collection ... but the error messages suggest that we're still\n>> dealing with an index where you had one schema setting, indexed some\n>> data, then changed the schema without completely wiping out the index\n>> from the disk.\n>>\n>> Thanks,\n>> Shawn\n>>\n>>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4146"
+}

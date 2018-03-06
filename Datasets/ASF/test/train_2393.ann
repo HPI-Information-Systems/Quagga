@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "I paste this right from Spark shell (Spark 2.1.0):\n\n\n/scala> spark.sql(\"SELECT count(distinct col) FROM Table\").show()//\n//+-------------------------+ //\n//|count(DISTINCT col)|//\n//+-------------------------+//\n//|            4697            |//\n//+-------------------------+//\n\n//scala> spark.sql(\"SELECT distinct col FROM Table\").count()//\n//res8: Long = 4698 /\n\nThat is, `dataframe.count()` is returning one more count that the \nin-query `COUNT()` function.\n\nAny explanations?\n\nCheers,\nMohamed\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 481,
+      "end": 498,
+      "text": "\nCheers,\nMohamed\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 499,
+      "text": "I paste this right from Spark shell (Spark 2.1.0):\n\n\n/scala> spark.sql(\"SELECT count(distinct col) FROM Table\").show()//\n//+-------------------------+ //\n//|count(DISTINCT col)|//\n//+-------------------------+//\n//|            4697            |//\n//+-------------------------+//\n\n//scala> spark.sql(\"SELECT distinct col FROM Table\").count()//\n//res8: Long = 4698 /\n\nThat is, `dataframe.count()` is returning one more count that the \nin-query `COUNT()` function.\n\nAny explanations?\n\nCheers,\nMohamed\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2393"
+}

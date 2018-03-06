@@ -1,0 +1,21 @@
+Hello Sara,
+
+There is hard n fast rule, performance depends on caches, RAM, hdd etc.and
+how much resourced you could invest to keep the acceptable performance.
+Information on Number of Indexed documents, number of dynamic fields can be
+viewed from the below link. I hope this helps.
+
+http://lucene.472066.n3.nabble.com/Solr-limitations-td4076250.html
+
+On Sat, Jul 29, 2017, 13:23 sara hajili <hajili.sara@gmail.com> wrote:
+
+> hi all,
+> I want to know when standalone solr can't be sufficient for storing data
+> and we need to migrate to solr cloud?for example standalone solr take too
+> much time to return query result or to store document or etc.
+>
+> in other word ,what is best capacity and data index size in  standalone
+> solr  that doesn't bad effect on query running and data inserting
+> performance?and after passing this index size i must switch to solr cloud?
+>
+

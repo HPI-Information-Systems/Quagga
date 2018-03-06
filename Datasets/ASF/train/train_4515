@@ -1,0 +1,108 @@
+With 8GB of RAM and 5.5 GB of Java memory, there is zero room for caching indexes. The OS will
+eat a gigabyte or so, then there are other processes running. So either the index accesses
+are pounding on the disk or the Java heap is getting swapped out.
+
+This machine is too small. The smallest Solr machine we deploy, even in test and dev, has
+15 GB of RAM, SSD disks, and has an 8 GB Java heap. In prod, we run with enough RAM that the
+entire index can live in RAM file buffers.
+
+We don’t do a lot of faceting or other memory-intensive queries. We mostly just search.
+
+wunder 
+Walter Underwood
+wunder@wunderwood.org
+http://observer.wunderwood.org/  (my blog)
+
+
+> On Jul 3, 2017, at 5:53 PM, Erick Erickson <erickerickson@gmail.com> wrote:
+> 
+> The physical memory is something of a red herring, see:
+> http://blog.thetaphi.de/2012/07/use-lucenes-mmapdirectory-on-64bit.html
+> 
+> The JVM being near the limit is cause for concern. At a glance you are
+> simply running too close to the edge of your JVM. One thing I've seen
+> when running this close is that garbage collection kicks in and only
+> recovers a bit of memory, just enough to keep going then immediately
+> goes into another GC cycle, spending lots of CPU cycles doing nothing
+> but GC.
+> 
+> Try looking at your GC logs with something like gcviewer
+> (https://sourceforge.net/projects/gcviewer/) or gceasy
+> (http://gceasy.io/) to get a sense of what's really going on.
+> 
+> One common mistake is to issue commits from the client after every
+> batch of docs is indexed to Solr. You may be wasting a lot of cycles
+> if you're doing that, I'd let my autocommit interval handle it all.
+> See: https://lucidworks.com/2013/08/23/understanding-transaction-logs-softcommit-and-commit-in-sorlcloud/
+> 
+> Best,
+> Erick
+> 
+> On Mon, Jul 3, 2017 at 12:55 PM, Venkateswarlu Bommineni
+> <bvr917@gmail.com> wrote:
+>> Hi Eric,
+>> 
+>> Thanks for reply.
+>> 
+>> Please find the image in below url .
+>> 
+>> https://drive.google.com/open?id=0B9BkzwYA2P-VelJIRXhybFhpLUk
+>> 
+>> As per me the physical memory and JVM heap is not proportionate , Please
+>> correct me if i am wrong.
+>> 
+>> and in solr logs i am not getting any OOM errors as such.
+>> 
+>> I have gone through the Shawn's post partially , problem here is that i
+>> can't change much of the configuration.
+>> but i will try.
+>> 
+>> 
+>> Thanks,
+>> Venkat.
+>> 
+>> 
+>> On Mon, Jul 3, 2017 at 11:12 PM, Erick Erickson <erickerickson@gmail.com>
+>> wrote:
+>> 
+>>> Images don't come through, you'll have to put it somewhere and post a link.
+>>> Have you seen Shawn's page?
+>>> 
+>>> https://wiki.apache.org/solr/ShawnHeisey
+>>> 
+>>> And what does your Solr log say happens? OOM? Other? Could you throttle
+>>> your indexing client to spare some CPU cycles for querying?
+>>> 
+>>> Best,
+>>> Erick
+>>> 
+>>> On Mon, Jul 3, 2017 at 8:32 AM, Venkateswarlu Bommineni <bvr917@gmail.com>
+>>> wrote:
+>>> 
+>>>> Hi Team,
+>>>> 
+>>>> Background:
+>>>> 
+>>>> We have a Solr 6.2 having multiple cores ( Six cores ) in it , We have
+>>>> other system (CMS) that will push the data to Solr.
+>>>> 
+>>>> Issue:
+>>>> 
+>>>> When ever we are doing full index from other system (installed in
+>>>> different box) , some times Solr JVM is crashing.sometimes even don't
+>>> crash
+>>>> the query performance is very slow especially AutoSuggestion query (using
+>>>> spellCheck component).
+>>>> 
+>>>> Please find the below memory settings:
+>>>> [image: Inline image 1]
+>>>> 
+>>>> Please help me in setting optimal memory settings.
+>>>> 
+>>>> 
+>>>> Thanks,
+>>>> Venkat.
+>>>> 
+>>> 
+
+

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all.\n\nI need to implement an indexation solution where my Solr index doesn't get a\nwrong version.\nDue to the fact I have many version for the same entity In some cases my\nclient may end up indexing an earlier version of my entity after a newer\none.\n\nI was wondering if I can use the _version_ field where I send always the\ntimespam of last update to the entity.\n\nIs this going to reject earlier versions if a newer is already indexed?\n\nThanks,\nSergio\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/version-Versioning-using-timespan-tp4338171.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 438,
+      "end": 454,
+      "text": "\nThanks,\nSergio\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 639,
+      "text": "Hi all.\n\nI need to implement an indexation solution where my Solr index doesn't get a\nwrong version.\nDue to the fact I have many version for the same entity In some cases my\nclient may end up indexing an earlier version of my entity after a newer\none.\n\nI was wondering if I can use the _version_ field where I send always the\ntimespam of last update to the entity.\n\nIs this going to reject earlier versions if a newer is already indexed?\n\nThanks,\nSergio\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/version-Versioning-using-timespan-tp4338171.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3755"
+}

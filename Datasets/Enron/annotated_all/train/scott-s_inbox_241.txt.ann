@@ -1,0 +1,97 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello!\n\nJust wanted to update you on a couple major changes in my life.....\n\nYou (hopefully!) know by now that Brendan and I got engaged last month,\nabout which I'm thrilled.\n\nThe other big news in my life is that I willl be leaving QUALCOMM on\nNovember 2nd to work for the US State Department.  This means (another!)\ncross-country move from San Diego to Washington, D.C.\n\nPlease take note of my new mailing address and email below, and PLEASE keep\nin touch!  I'll especially need to hear from you going through this\ntransition- I'm sad to be leaving QUALCOMM and San Diego, but am looking\nforward to this next big adventure.\n\nLove,\nJulie\n\n7008 Aronow Drive\nFalls Church, VA  22042\n\njuliecgibson@yahoo.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 633,
+      "end": 638,
+      "text": "Julie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 627,
+      "end": 639,
+      "text": "Love,\nJulie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 640,
+      "end": 681,
+      "text": "7008 Aronow Drive\nFalls Church, VA  22042",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 683,
+      "end": 705,
+      "text": "juliecgibson@yahoo.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 640,
+      "end": 705,
+      "text": "7008 Aronow Drive\nFalls Church, VA  22042\n\njuliecgibson@yahoo.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 705,
+      "text": "Hello!\n\nJust wanted to update you on a couple major changes in my life.....\n\nYou (hopefully!) know by now that Brendan and I got engaged last month,\nabout which I'm thrilled.\n\nThe other big news in my life is that I willl be leaving QUALCOMM on\nNovember 2nd to work for the US State Department.  This means (another!)\ncross-country move from San Diego to Washington, D.C.\n\nPlease take note of my new mailing address and email below, and PLEASE keep\nin touch!  I'll especially need to hear from you going through this\ntransition- I'm sad to be leaving QUALCOMM and San Diego, but am looking\nforward to this next big adventure.\n\nLove,\nJulie\n\n7008 Aronow Drive\nFalls Church, VA  22042\n\njuliecgibson@yahoo.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21993739.1075858936083.JavaMail.evans@thyme>",
+      "Date": "Fri, 19 Oct 2001 10:11:18 -0700 (PDT)",
+      "From": "julieg@qualcomm.com",
+      "Subject": "New Job and New Address",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Julie Gibson <julieg@qualcomm.com>@ENRON",
+      "X-To": "(Friends)@ENRON <??S(Friends)@ENRON>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SSCOTT5 (Non-Privileged)\\Scott, Susan M.\\Inbox",
+      "X-Origin": "Scott-S",
+      "X-FileName": "SSCOTT5 (Non-Privileged).pst"
+    }
+  },
+  "id": "train/scott-s_inbox_241.txt"
+}

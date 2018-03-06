@@ -1,0 +1,82 @@
+We've hit this issue again since solr defaults new fields to string type
+which has docvalues. Changing those to be lowercase text does not remove
+the docvalues and breaks faceting. Is there a way to remove docvalues for a
+field w/o starting fresh?
+
+On Tue, Oct 18, 2016 at 8:19 PM, Yonik Seeley <yseeley@gmail.com> wrote:
+
+> Actually, a delete-by-query of *:* may also be hit-or-miss on replicas
+> in a solr cloud setup because of reorders.
+> If it does work, you should see something in the logs at the INFO
+> level like "REMOVING ALL DOCUMENTS FROM INDEX"
+>
+> -Yonik
+>
+> On Tue, Oct 18, 2016 at 11:02 PM, Yonik Seeley <yseeley@gmail.com> wrote:
+> > A delete-by-query of *:* may do it (because it special cases to
+> > removing the index).
+> > The underlying issue is when lucene merges a segment without docvalues
+> > with a segment that has them.
+> > -Yonik
+> >
+> >
+> > On Tue, Oct 18, 2016 at 10:09 PM, John Davis <johndavis925254@gmail.com>
+> wrote:
+> >> Thanks. Is there a way around to not starting fresh and forcing the
+> reindex
+> >> to remove docValues?
+> >>
+> >> On Tue, Oct 18, 2016 at 6:56 PM, Yonik Seeley <yseeley@gmail.com>
+> wrote:
+> >>>
+> >>> This sounds like you didn't actually start fresh, but just reindexed
+> your
+> >>> data.
+> >>> This would mean that docValues would still exist in the index for this
+> >>> field (just with no values), and that normal faceting would use those.
+> >>> Forcing facet.method=enum forces the use of the index instead of
+> >>> docvalues (or the fieldcache if the field is configured w/o
+> >>> docvalues).
+> >>>
+> >>> -Yonik
+> >>>
+> >>> On Tue, Oct 18, 2016 at 9:43 PM, John Davis <johndavis925254@gmail.com
+> >
+> >>> wrote:
+> >>> > Hi,
+> >>> >
+> >>> > I have converted one of my fields from StrField to TextField and am
+> not
+> >>> > getting back any facets for that field. Here's the exact
+> configuration
+> >>> > of
+> >>> > the TextField. I have tested it with 6.2.0 on a fresh instance and
+it
+> >>> > repros consistently. From reading through past archives and
+> >>> > documentation,
+> >>> > it feels like this should just work. I would appreciate any input.
+> >>> >
+> >>> > <fieldType name="lowercase" class="solr.TextField" omitNorms="true"
+> >>> > omitTermFreqAndPositions="true" indexed="true" stored="true"
+> >>> > positionIncrementGap="100" sortMissingLast="true" multiValued="true">
+> >>> >     <analyzer>
+> >>> >       <tokenizer class="solr.KeywordTokenizerFactory"/>
+> >>> >       <filter class="solr.LowerCaseFilterFactory"/>
+> >>> >     </analyzer>
+> >>> >   </fieldType>
+> >>> >
+> >>> >
+> >>> > Search
+> >>> > query:
+> >>> > /select/?facet.field=FACET_FIELD_NAME&facet=on&indent=on&
+> q=QUERY_STRING&wt=json
+> >>> >
+> >>> > Interestingly facets are returned if I change facet.method to enum
+> >>> > instead
+> >>> > of default fc.
+> >>> >
+> >>> > John
+> >>
+> >>
+>
+

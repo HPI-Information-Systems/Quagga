@@ -1,0 +1,299 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI.\n\nCarl,\n\nWill you please have someone input this information into the pricing model?\n\nThanks,\n\nMichelle\n---------------------- Forwarded by Michelle Parks/Corp/Enron on 04/20/2000 \n09:38 AM ---------------------------\n\n\n\"Chris Lloyd\" <ChrisL@pandaenergy.com> on 04/20/2000 09:13:33 AM\nTo: <michelle.parks@enron.com>\ncc:  \n\nSubject: CA & Turbine Payments\n\n\nMichelle, I just faxes you an executed copy of the CA.\n\nIn addition, please find the turbine payment schedule, attached.  We are \npossibly signing a deal for the April 2000 payment ($69MM) tomorrow (so move \nquickly if you want that one!).  Therefore, I would suggest that you mainly \nfocus on the payments scheduled after April 2000.  Finally, please keep in \nmind that the last column is for ABB turbines for our Arkansas project (the \nrest are GE).\n\nPlease give me a call to discuss.  I should be in the office today until \naround 2:00, and then back on Monday.\n\nRegards,\n\n\n\n\nChris Lloyd\nManager-Corporate Development\nPanda Energy International, Inc.\n(972) 455-3806 Direct\n(972) 455-3796 Fax\n\n - Turbine Payment Scheda.xls\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 6,
+      "end": 10,
+      "text": "Carl",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 99,
+      "end": 107,
+      "text": "Michelle",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 90,
+      "end": 108,
+      "text": "Thanks,\n\nMichelle\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "FYI.\n\nCarl,\n\nWill you please have someone input this information into the pricing model?\n\nThanks,\n\nMichelle\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 144,
+      "end": 158,
+      "text": "Michelle Parks",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 173,
+      "end": 183,
+      "text": "04/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 185,
+      "end": 193,
+      "text": "09:38 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 108,
+      "end": 222,
+      "text": "---------------------- Forwarded by Michelle Parks/Corp/Enron on 04/20/2000 \n09:38 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 225,
+      "end": 236,
+      "text": "Chris Lloyd",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 239,
+      "end": 261,
+      "text": "ChrisL@pandaenergy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 266,
+      "end": 276,
+      "text": "04/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 277,
+      "end": 288,
+      "text": "09:13:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 294,
+      "end": 318,
+      "text": "michelle.parks@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 336,
+      "end": 357,
+      "text": "CA & Turbine Payments",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 222,
+      "end": 358,
+      "text": "\n\n\"Chris Lloyd\" <ChrisL@pandaenergy.com> on 04/20/2000 09:13:33 AM\nTo: <michelle.parks@enron.com>\ncc:  \n\nSubject: CA & Turbine Payments\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 360,
+      "end": 368,
+      "text": "Michelle",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 939,
+      "end": 950,
+      "text": "Chris Lloyd",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 951,
+      "end": 980,
+      "text": "Manager-Corporate Development",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 981,
+      "end": 1013,
+      "text": "Panda Energy International, Inc.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1014,
+      "end": 1028,
+      "text": "(972) 455-3806",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1036,
+      "end": 1050,
+      "text": "(972) 455-3796",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 939,
+      "end": 1055,
+      "text": "Chris Lloyd\nManager-Corporate Development\nPanda Energy International, Inc.\n(972) 455-3806 Direct\n(972) 455-3796 Fax\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1059,
+      "end": 1085,
+      "text": "Turbine Payment Scheda.xls",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1056,
+      "end": 1086,
+      "text": " - Turbine Payment Scheda.xls\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 926,
+      "end": 935,
+      "text": "Regards,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 358,
+      "end": 1086,
+      "text": "\n\nMichelle, I just faxes you an executed copy of the CA.\n\nIn addition, please find the turbine payment schedule, attached.  We are \npossibly signing a deal for the April 2000 payment ($69MM) tomorrow (so move \nquickly if you want that one!).  Therefore, I would suggest that you mainly \nfocus on the payments scheduled after April 2000.  Finally, please keep in \nmind that the last column is for ABB turbines for our Arkansas project (the \nrest are GE).\n\nPlease give me a call to discuss.  I should be in the office today until \naround 2:00, and then back on Monday.\n\nRegards,\n\n\n\n\nChris Lloyd\nManager-Corporate Development\nPanda Energy International, Inc.\n(972) 455-3806 Direct\n(972) 455-3796 Fax\n\n - Turbine Payment Scheda.xls\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 21,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 17,
+      "target": 19,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 18,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21261011.1075857159554.JavaMail.evans@thyme>",
+      "Date": "Thu, 20 Apr 2000 02:40:00 -0700 (PDT)",
+      "From": "michelle.parks@enron.com",
+      "To": "carl.tricoli@enron.com, benjamin.rogers@enron.com, scott.healy@enron.com",
+      "Subject": "CA & Turbine Payments",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Michelle Parks",
+      "X-To": "Carl Tricoli, Benjamin Rogers, Scott Healy",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_1\\Notes Folders\\All documents",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_all_documents_1505.txt"
+}

@@ -1,0 +1,100 @@
+{
+  "wrapper": "plaintext",
+  "text": "OK.  When accounting did their initial draft for June production, we had a \nvolume of 1,089,120 on deal ticket 268094.  Today, this same deal ticket has \na volume of 497,015.  I think this  was loaded back from Unify.  Can we get \nthat fixed?\n---------------------- Forwarded by Chris Germany/HOU/ECT on 08/21/2000 01:32 \nPM ---------------------------\n\n\nChris Germany\n08/21/2000 01:32 PM\nTo: dkinney@columbiaenergygroup.com @ ENRON, Scott Goodell/Corp/Enron@ENRON\ncc: Joann Collins/Corp/Enron@ENRON, Robert Allwein/HOU/ECT@ECT, Molly \nSumrow/HOU/ECT@ECT, Victor Lamadrid/HOU/ECT@ECT \nSubject: Re: Theoretical Storage Inventories  \n\nDoug, we billed you incorrectly for June on the CGAS storage.  We should have \nbilled you for 1,089,289 but we only entered 497,015 in our system.  We will \nget that fixed.\n\n\n\ndkinney@columbiaenergygroup.com on 08/17/2000 07:44:41 AM\nTo: \" - *scott.goodell@enron.com\" <scott.goodell@enron.com>, \" - \n*Chris.Germany@enron.com\" <Chris.Germany@enron.com>\ncc: \" - *tray@enron.com\" <tray@enron.com>, \" - *Contos, Richard\" \n<rcontos@columbiaenergygroup.com>, \" - *Porter, Jeffrey\" \n<jporte1@columbiaenergygroup.com>, \" - *Simien, Ernie\" \n<esimien@columbiaenergygroup.com>, \" - *Molly.Sumrow@enron.com\" \n<Molly.Sumrow@enron.com> \nSubject: Theoretical Storage Inventories\n\n\nScott and Chris--Yesterday, I asked Scott if you guys could provide me with a\nsummary of the volumes of gas sold to CES during April, May, June, and July \nfor\nthe theoretical storage services under our 12/99 Agreement with ENA.   \nAttached\nis a file that I prepared showing the theoretical storage injections for the 4\nstorage services as they appear on ENA's monthly invoices.   I note that the\nJune injection for the TCO storage appears to be only about half of what we\nrequested and what appears in our GMS system.  My ultimate objective here is \nto\nprovide The New Power Company with  definitive estimates of the end-of-July\ninventories (including left-over inventory from last winter) as well as the\nvolumes \"injected\" in July alone.  I hope the attached file helps.   If we\ncould get this resolved next week, that would be great.\n\n\n\n\n\n\n\nDoug Kinney\nPh:  703-561-6339\nFax:  703-561-7317\n\n - Stg invoice info.xls\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 243,
+      "text": "OK.  When accounting did their initial draft for June production, we had a \nvolume of 1,089,120 on deal ticket 268094.  Today, this same deal ticket has \na volume of 497,015.  I think this  was loaded back from Unify.  Can we get \nthat fixed?\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 243,
+      "end": 353,
+      "text": "---------------------- Forwarded by Chris Germany/HOU/ECT on 08/21/2000 01:32 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 353,
+      "end": 632,
+      "text": "\n\nChris Germany\n08/21/2000 01:32 PM\nTo: dkinney@columbiaenergygroup.com @ ENRON, Scott Goodell/Corp/Enron@ENRON\ncc: Joann Collins/Corp/Enron@ENRON, Robert Allwein/HOU/ECT@ECT, Molly \nSumrow/HOU/ECT@ECT, Victor Lamadrid/HOU/ECT@ECT \nSubject: Re: Theoretical Storage Inventories  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 632,
+      "end": 638,
+      "text": "\nDoug,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 632,
+      "end": 809,
+      "text": "\nDoug, we billed you incorrectly for June on the CGAS storage.  We should have \nbilled you for 1,089,289 but we only entered 497,015 in our system.  We will \nget that fixed.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 809,
+      "end": 1297,
+      "text": "dkinney@columbiaenergygroup.com on 08/17/2000 07:44:41 AM\nTo: \" - *scott.goodell@enron.com\" <scott.goodell@enron.com>, \" - \n*Chris.Germany@enron.com\" <Chris.Germany@enron.com>\ncc: \" - *tray@enron.com\" <tray@enron.com>, \" - *Contos, Richard\" \n<rcontos@columbiaenergygroup.com>, \" - *Porter, Jeffrey\" \n<jporte1@columbiaenergygroup.com>, \" - *Simien, Ernie\" \n<esimien@columbiaenergygroup.com>, \" - *Molly.Sumrow@enron.com\" \n<Molly.Sumrow@enron.com> \nSubject: Theoretical Storage Inventories\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1298,
+      "end": 1314,
+      "text": "\nScott and Chris",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2141,
+      "end": 2191,
+      "text": "\nDoug Kinney\nPh:  703-561-6339\nFax:  703-561-7317\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1297,
+      "end": 2219,
+      "text": "\n\nScott and Chris--Yesterday, I asked Scott if you guys could provide me with a\nsummary of the volumes of gas sold to CES during April, May, June, and July \nfor\nthe theoretical storage services under our 12/99 Agreement with ENA.   \nAttached\nis a file that I prepared showing the theoretical storage injections for the 4\nstorage services as they appear on ENA's monthly invoices.   I note that the\nJune injection for the TCO storage appears to be only about half of what we\nrequested and what appears in our GMS system.  My ultimate objective here is \nto\nprovide The New Power Company with  definitive estimates of the end-of-July\ninventories (including left-over inventory from last winter) as well as the\nvolumes \"injected\" in July alone.  I hope the attached file helps.   If we\ncould get this resolved next week, that would be great.\n\n\n\n\n\n\n\nDoug Kinney\nPh:  703-561-6339\nFax:  703-561-7317\n\n - Stg invoice info.xls\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29522317.1075853830217.JavaMail.evans@thyme>",
+      "Date": "Mon, 21 Aug 2000 06:44:00 -0700 (PDT)",
+      "From": "chris.germany@enron.com",
+      "To": "joann.collins@enron.com, robert.allwein@enron.com, molly.sumrow@enron.com, \n\tvictor.lamadrid@enron.com",
+      "Subject": "Re: Theoretical Storage Inventories",
+      "Cc": "jeff.westover@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jeff.westover@enron.com",
+      "X-From": "Chris Germany",
+      "X-To": "Joann Collins, Robert Allwein, Molly Sumrow, Victor Lamadrid",
+      "X-cc": "Jeff W Westover",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c__sent_mail_791.txt"
+}

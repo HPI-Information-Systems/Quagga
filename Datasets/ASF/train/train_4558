@@ -1,0 +1,58 @@
+Thnaks a lot alessandro!
+
+Yes, we have very big physical dedicated machines, with a topology of 5
+shards and10 replicas each shard.
+
+
+1. transaction log files are increasing but not with this rate
+
+2.  we 've probed with values between 300 and 2000 MB... without any
+visible results
+
+3.  We don't use those features
+
+4. No.
+
+5. I've probed with low and high mergefacors and i think that is  the point.
+
+With low merge factor (over 4) we 've high write disk rate as i said
+previously
+
+with merge factor of 20, writing disk rate is decreasing, but now, with
+high qps rates (over 1000 qps) system is overloaded.
+
+i think that's the expected behaviour :(
+
+
+
+
+2017-07-05 15:49 GMT+02:00 alessandro.benedetti <a.benedetti@sease.io>:
+
+> Point 2 was the ram Buffer size :
+>
+> *ramBufferSizeMB* sets the amount of RAM that may be used by Lucene
+>          indexing for buffering added documents and deletions before they
+> are
+>          flushed to the Directory.
+>          maxBufferedDocs sets a limit on the number of documents buffered
+>          before flushing.
+>          If both ramBufferSizeMB and maxBufferedDocs is set, then
+>          Lucene will flush based on whichever limit is hit first.
+>
+> <ramBufferSizeMB>100</ramBufferSizeMB>
+> <maxBufferedDocs>1000</maxBufferedDocs>
+>
+>
+>
+>
+> -----
+> ---------------
+> Alessandro Benedetti
+> Search Consultant, R&D Software Engineer, Director
+> Sease Ltd. - www.sease.io
+> --
+> View this message in context: http://lucene.472066.n3.
+> nabble.com/High-disk-write-usage-tp4344356p4344386.html
+> Sent from the Solr - User mailing list archive at Nabble.com.
+>
+

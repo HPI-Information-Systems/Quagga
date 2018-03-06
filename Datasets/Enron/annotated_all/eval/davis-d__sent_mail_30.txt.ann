@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Dana Davis/HOU/ECT on 12/04/2000 02:43 PM \n---------------------------\n\n\n\"Bonnie & Rayford Abraham\" <abraham5@flash.net> on 12/04/2000 10:31:32 AM\nTo: <Dana.Davis@enron.com>\ncc:  \nSubject: Re: New Number\n\n\nThank You Dana!!\n\n----- Original Message -----\nFrom: <Dana.Davis@enron.com>\nTo: <abraham5@flash.net>\nSent: Monday, December 04, 2000 10:06 AM\nSubject: New Number\n\n\n> Bonnie did you get this message from Pastor Wallace?\n> ---------------------- Forwarded by Dana Davis/HOU/ECT on 12/04/2000 08:47\n> AM ---------------------------\n>\n>\n> \"Thomas E. Wallace\" <thomas456@juno.com> on 12/02/2000 04:53:07 PM\n>\n> To:   abraham5@frash.net\n> cc:   jwashing@mail.mdanderson.org, denise.moore@dhs.state.tx.us,\n>       Dana.Davis@enron.com\n> Subject:  New Number\n>\n>\n> Hello Rayford and Bonnie,\n>      I have just about completed the process of moving and I've\nestablished\n> a\n> new home telephone number that will be available for the church and\n> public usage.  The new number is 281-438-9638.  If anyone needs to\n> contact me this is the number that they will be able to call.  Of course,\n> for the next two weeks I will not be at that number over night because\n> I'm waiting for the wedding date.  I will lease a suite for that two week\n> period until the nuptuals are done.  I will also frequently check for\n> messages so that if I'm not at the number when someone calls I can at\n> least respond in a timely manner.  Feel free to call and leave a message\n> for me at any time that you need.\n>      Thanks for all that the two of you are doing for the Lord and the\n> church.  I look forward to a new walk with Christ together.\n>\n>\n>\n>\n> ________________________________________________________________\n> GET INTERNET ACCESS FROM JUNO!\n> Juno offers FREE or PREMIUM Internet access for less!\n> Join Juno today!  For your FREE software, visit:\n> http:dl.www.juno.com/get/tagj.\n>\n>\n>\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 109,
+      "text": "---------------------- Forwarded by Dana Davis/HOU/ECT on 12/04/2000 02:43 PM \n---------------------------\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 109,
+      "end": 240,
+      "text": "\"Bonnie & Rayford Abraham\" <abraham5@flash.net> on 12/04/2000 10:31:32 AM\nTo: <Dana.Davis@enron.com>\ncc:  \nSubject: Re: New Number\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 240,
+      "end": 260,
+      "text": "\n\nThank You Dana!!\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 260,
+      "end": 404,
+      "text": "----- Original Message -----\nFrom: <Dana.Davis@enron.com>\nTo: <abraham5@flash.net>\nSent: Monday, December 04, 2000 10:06 AM\nSubject: New Number\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 795,
+      "end": 825,
+      "text": ">\n> Hello Rayford and Bonnie,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 793,
+      "end": 1922,
+      "text": ">\n>\n> Hello Rayford and Bonnie,\n>      I have just about completed the process of moving and I've\nestablished\n> a\n> new home telephone number that will be available for the church and\n> public usage.  The new number is 281-438-9638.  If anyone needs to\n> contact me this is the number that they will be able to call.  Of course,\n> for the next two weeks I will not be at that number over night because\n> I'm waiting for the wedding date.  I will lease a suite for that two week\n> period until the nuptuals are done.  I will also frequently check for\n> messages so that if I'm not at the number when someone calls I can at\n> least respond in a timely manner.  Feel free to call and leave a message\n> for me at any time that you need.\n>      Thanks for all that the two of you are doing for the Lord and the\n> church.  I look forward to a new walk with Christ together.\n>\n>\n>\n>\n> ________________________________________________________________\n> GET INTERNET ACCESS FROM JUNO!\n> Juno offers FREE or PREMIUM Internet access for less!\n> Join Juno today!  For your FREE software, visit:\n> http:dl.www.juno.com/get/tagj.\n>\n>\n>\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 404,
+      "end": 461,
+      "text": "\n\n> Bonnie did you get this message from Pastor Wallace?\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 461,
+      "end": 571,
+      "text": "> ---------------------- Forwarded by Dana Davis/HOU/ECT on 12/04/2000 08:47\n> AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 571,
+      "end": 793,
+      "text": ">\n>\n> \"Thomas E. Wallace\" <thomas456@juno.com> on 12/02/2000 04:53:07 PM\n>\n> To:   abraham5@frash.net\n> cc:   jwashing@mail.mdanderson.org, denise.moore@dhs.state.tx.us,\n>       Dana.Davis@enron.com\n> Subject:  New Number\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31053650.1075853952434.JavaMail.evans@thyme>",
+      "Date": "Mon, 4 Dec 2000 06:43:00 -0800 (PST)",
+      "From": "dana.davis@enron.com",
+      "To": "kdavis2075@aol.com",
+      "Subject": "Re: New Number",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Dana Davis",
+      "X-To": "kdavis2075@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Dana_Davis_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Davis-D",
+      "X-FileName": "ddavis2.nsf"
+    }
+  },
+  "id": "eval/davis-d__sent_mail_30.txt"
+}

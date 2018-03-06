@@ -1,0 +1,52 @@
+Alexandre:
+
+We recommend only using alphanum and underscore here:
+https://cwiki.apache.org/confluence/display/solr/Defining+Fields. WDYT
+about adding an explicit warning about this problem there? Or a JIRA
+about "field names with periods cannot use field qualifiers like
+f.<fieldname>.facet.limit where <fieldname> contains periods"?
+
+Erick
+
+On Mon, Jan 30, 2017 at 10:35 AM, KRIS MUSSHORN <musshorns@comcast.net> wrote:
+>
+> Alexandre..
+>
+> Once i converted to fieldnames without dots it worked.. thank you
+>
+> Kris
+> ----- Original Message -----
+>
+> From: "Alexandre Rafalovitch" <arafalov@gmail.com>
+> To: "solr-user" <solr-user@lucene.apache.org>
+> Sent: Thursday, January 26, 2017 11:40:49 AM
+> Subject: Re: How to alter the facet query limit default
+>
+> facet.limit?
+> f.<fieldname>.facet.limit? (not sure how that would work with field
+> name that contains dots)
+>
+> Docs are at: https://cwiki.apache.org/confluence/display/solr/Faceting
+>
+> Regards,
+> Alex.
+> ----
+> http://www.solr-start.com/ - Resources for Solr users, new and experienced
+>
+>
+> On 26 January 2017 at 10:36, KRIS MUSSHORN <musshorns@comcast.net> wrote:
+>> SOLR 5.4.1 i am running a query with multiple facet fields.
+>> _snip_ select?q=*%3A*&sort=metatag.date.prefix4+DESC&rows=7910&fl=metatag.date.prefix7&wt=json&indent=true&facet=true&facet.field=metatag.date.prefix7
+&facet.field=metatag.date.prefix4&facet.field=metatag.doctype
+>>
+>> field metatag.date.prefix7 has way more facets than the default of 100.
+>>
+>> How would I set up solr, or modify my query, to ensure that the facets return all
+values.
+>>
+>> TIA,
+>>
+>> Kris
+>>
+>
+

@@ -1,0 +1,600 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Jeff,\n\nThe times shown on the report are Houston time and converting it to London time it would approximately be 9.30 a.m. there.\n\nSavita\n -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 1:31 PM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n\nyes, but no one is in the office at that time.  I'm confused.\n\n -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tTuesday, October 23, 2001 1:23 PM\nTo:\tShankman, Jeffrey A.\nSubject:\tRE: EnronOnline- Change to Autohedge\n\nThose would be products managed out of London.\n\n -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 11:46 AM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n\nI don't understand the times on the report.  many of them are 3 or 4 in the morning.\n\n -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tTuesday, October 23, 2001 9:07 AM\nTo:\tShankman, Jeffrey A.\nSubject:\tRE: EnronOnline- Change to Autohedge\n\nSorry about last week. I will make sure you get one today and find out what happened last week. \n\n -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 8:19 AM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n\nI did not get a suspend report last week.  I need one today by 1:00 pm.  thanks.  Jeff\n\n -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tFriday, October 19, 2001 1:10 PM\nTo:\tEOL Non North America Traders; EOL North America Traders\nCc:\tProduct Control - Houston; EOL Call Center; Enron London - EOL Product Control Group; Mandola, Teresa; Connelly, Angela; Richter, Brad; Pickering, Mark; Piper, Greg; Renaud, Lindsay; Pacheco, Leonardo; Carter, Carl; Meredith, Kevin\nSubject:\tEnronOnline- Change to Autohedge\n\nEffective Monday, October 22, 2001 the following changes will be made to the Autohedge functionality on EnronOnline.\n\nThe volume on the hedge will now respect the minimum volume and volume increment settings on the parent product. See rules below: \n\n?\tIf the transaction volume on the child is less than half of the parent's minimum volume no hedge will occur.\n?\tIf the transaction volume on the child is more than half the parent's minimum volume but less than half the volume increment on the parent, the hedge will volume will be the parent's minimum volume.\n?\tFor all other volumes, the same rounding rules will apply based on the volume increment on the parent product.\n\nPlease see example below:\n\nParent's Settings:\nMinimum: \t5000\nIncrement:  1000\n\nVolume on Autohedge transaction\t\t\tVolume Hedged\n1      - 2499\t\t\t\t\t\t\t0\n2500 - 5499\t\t\t\t\t\t\t5000\n5500 - 6499\t\t\t\t\t\t\t6000",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 7,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Jeff,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 134,
+      "end": 140,
+      "text": "Savita",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 141,
+      "text": "Hi Jeff,\n\nThe times shown on the report are Houston time and converting it to London time it would approximately be 9.30 a.m. there.\n\nSavita\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 176,
+      "end": 196,
+      "text": "Shankman, Jeffrey A.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 214,
+      "end": 230,
+      "text": "October 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 231,
+      "end": 238,
+      "text": "1:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 243,
+      "end": 259,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 269,
+      "end": 305,
+      "text": "RE: EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 141,
+      "end": 306,
+      "text": " -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 1:31 PM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 306,
+      "end": 370,
+      "text": "\nyes, but no one is in the office at that time.  I'm confused.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 405,
+      "end": 421,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 439,
+      "end": 455,
+      "text": "October 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 456,
+      "end": 463,
+      "text": "1:23 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 468,
+      "end": 488,
+      "text": "Shankman, Jeffrey A.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 498,
+      "end": 534,
+      "text": "RE: EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 370,
+      "end": 535,
+      "text": " -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tTuesday, October 23, 2001 1:23 PM\nTo:\tShankman, Jeffrey A.\nSubject:\tRE: EnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 535,
+      "end": 584,
+      "text": "\nThose would be products managed out of London.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 619,
+      "end": 639,
+      "text": "Shankman, Jeffrey A.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 657,
+      "end": 673,
+      "text": "October 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 674,
+      "end": 682,
+      "text": "11:46 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 687,
+      "end": 703,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 713,
+      "end": 749,
+      "text": "RE: EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 584,
+      "end": 750,
+      "text": " -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 11:46 AM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 750,
+      "end": 837,
+      "text": "\nI don't understand the times on the report.  many of them are 3 or 4 in the morning.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 872,
+      "end": 888,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 906,
+      "end": 922,
+      "text": "October 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 923,
+      "end": 930,
+      "text": "9:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 935,
+      "end": 955,
+      "text": "Shankman, Jeffrey A.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 965,
+      "end": 1001,
+      "text": "RE: EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 837,
+      "end": 1002,
+      "text": " -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tTuesday, October 23, 2001 9:07 AM\nTo:\tShankman, Jeffrey A.\nSubject:\tRE: EnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1002,
+      "end": 1101,
+      "text": "\nSorry about last week. I will make sure you get one today and find out what happened last week. \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1136,
+      "end": 1156,
+      "text": "Shankman, Jeffrey A.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1174,
+      "end": 1190,
+      "text": "October 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1191,
+      "end": 1198,
+      "text": "8:19 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1203,
+      "end": 1219,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1229,
+      "end": 1265,
+      "text": "RE: EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1101,
+      "end": 1266,
+      "text": " -----Original Message-----\nFrom: \tShankman, Jeffrey A.  \nSent:\tTuesday, October 23, 2001 8:19 AM\nTo:\tPuthigai, Savita\nSubject:\tRE: EnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1349,
+      "end": 1353,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1340,
+      "end": 1353,
+      "text": "thanks.  Jeff",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1266,
+      "end": 1355,
+      "text": "\nI did not get a suspend report last week.  I need one today by 1:00 pm.  thanks.  Jeff\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1390,
+      "end": 1406,
+      "text": "Puthigai, Savita",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1423,
+      "end": 1439,
+      "text": "October 19, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1440,
+      "end": 1447,
+      "text": "1:10 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1452,
+      "end": 1481,
+      "text": "EOL Non North America Traders",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1483,
+      "end": 1508,
+      "text": "EOL North America Traders",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1513,
+      "end": 1538,
+      "text": "Product Control - Houston",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1540,
+      "end": 1555,
+      "text": "EOL Call Center",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1557,
+      "end": 1597,
+      "text": "Enron London - EOL Product Control Group",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1599,
+      "end": 1614,
+      "text": "Mandola, Teresa",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1616,
+      "end": 1632,
+      "text": "Connelly, Angela",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1634,
+      "end": 1647,
+      "text": "Richter, Brad",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1649,
+      "end": 1664,
+      "text": "Pickering, Mark",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1666,
+      "end": 1677,
+      "text": "Piper, Greg",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1679,
+      "end": 1694,
+      "text": "Renaud, Lindsay",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1696,
+      "end": 1713,
+      "text": "Pacheco, Leonardo",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1715,
+      "end": 1727,
+      "text": "Carter, Carl",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1729,
+      "end": 1744,
+      "text": "Meredith, Kevin",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1754,
+      "end": 1786,
+      "text": "EnronOnline- Change to Autohedge",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1355,
+      "end": 1787,
+      "text": " -----Original Message-----\nFrom: \tPuthigai, Savita  \nSent:\tFriday, October 19, 2001 1:10 PM\nTo:\tEOL Non North America Traders; EOL North America Traders\nCc:\tProduct Control - Houston; EOL Call Center; Enron London - EOL Product Control Group; Mandola, Teresa; Connelly, Angela; Richter, Brad; Pickering, Mark; Piper, Greg; Renaud, Lindsay; Pacheco, Leonardo; Carter, Carl; Meredith, Kevin\nSubject:\tEnronOnline- Change to Autohedge\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1787,
+      "end": 2658,
+      "text": "\nEffective Monday, October 22, 2001 the following changes will be made to the Autohedge functionality on EnronOnline.\n\nThe volume on the hedge will now respect the minimum volume and volume increment settings on the parent product. See rules below: \n\n?\tIf the transaction volume on the child is less than half of the parent's minimum volume no hedge will occur.\n?\tIf the transaction volume on the child is more than half the parent's minimum volume but less than half the volume increment on the parent, the hedge will volume will be the parent's minimum volume.\n?\tFor all other volumes, the same rounding rules will apply based on the volume increment on the parent product.\n\nPlease see example below:\n\nParent's Settings:\nMinimum: \t5000\nIncrement:  1000\n\nVolume on Autohedge transaction\t\t\tVolume Hedged\n1      - 2499\t\t\t\t\t\t\t0\n2500 - 5499\t\t\t\t\t\t\t5000\n5500 - 6499\t\t\t\t\t\t\t6000",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 29,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 36,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 39,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 42,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5151584.1075852629214.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 Oct 2001 13:22:09 -0700 (PDT)",
+      "From": "savita.puthigai@enron.com",
+      "To": "a..shankman@enron.com",
+      "Subject": "RE: EnronOnline- Change to Autohedge",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Puthigai, Savita </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SPUTHIGA>",
+      "X-To": "Shankman, Jeffrey A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jshankm>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\JSHANKM (Non-Privileged)\\Deleted Items",
+      "X-Origin": "Skilling-J",
+      "X-FileName": "JSKILLIN (Non-Privileged).pst"
+    }
+  },
+  "id": "test/shankman-j_deleted_items_214.txt"
+}

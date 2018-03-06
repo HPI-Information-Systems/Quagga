@@ -1,0 +1,122 @@
+{
+  "wrapper": "plaintext",
+  "text": "Gil:\n\nBefore any brokerage account can be opened, you need to advise the RAC group.  Please send an email to the three persons (\"Cc\") above explaining what accounts Enron North America Corp. (\"ENA\") requires and the purpose of those accounts (if you have not already done so).  ENA has a brokerage agreement with Bear Stearns Compamies, Inc. but not with Bear Stearns International Limited.  ENA already has resolutions for opening brokerage accounts.\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Gil",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 453,
+      "end": 468,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 469,
+      "end": 493,
+      "text": "Enron Wholesale Services",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 494,
+      "end": 539,
+      "text": "1400 Smith Street, EB3801a\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 545,
+      "end": 559,
+      "text": "(713) 853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 565,
+      "end": 579,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 453,
+      "end": 579,
+      "text": "Sara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 579,
+      "text": "Gil:\n\nBefore any brokerage account can be opened, you need to advise the RAC group.  Please send an email to the three persons (\"Cc\") above explaining what accounts Enron North America Corp. (\"ENA\") requires and the purpose of those accounts (if you have not already done so).  ENA has a brokerage agreement with Bear Stearns Compamies, Inc. but not with Bear Stearns International Limited.  ENA already has resolutions for opening brokerage accounts.\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9590374.1075858809141.JavaMail.evans@thyme>",
+      "Date": "Mon, 8 Oct 2001 15:31:25 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "m..melman@enron.com, joseph.henry@enron.com",
+      "Subject": "opening brokerage accounts",
+      "Cc": "donna.lowry@enron.com, cassandra.schultz@enron.com, tanya.rohauer@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "donna.lowry@enron.com, cassandra.schultz@enron.com, tanya.rohauer@enron.com",
+      "X-From": "Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>",
+      "X-To": "Melman, Gil M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gmelman2>, Henry, Joseph </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jhenry5>",
+      "X-cc": "Lowry, Donna </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dlowry>, Schultz, Cassandra </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cschult>, Rohauer, Tanya </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Trohaue>",
+      "X-bcc": "",
+      "X-Folder": "\\SSHACKL (Non-Privileged)\\Shackleton, Sara\\Sent Items",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "SSHACKL (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_sent_items_150.txt"
+}

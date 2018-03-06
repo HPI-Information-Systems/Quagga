@@ -1,0 +1,158 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nHey Andy-\n \nLong time since we last spoke.  I hope all is  well with you.  I assume you are still happily living in Texas.  I'm  still living in Colorado, and I met a nice girl named Paula, and we're getting  married.  Paula and I wanted to send you an invitation to our wedding in  August.  Can you send us your address so we can mail you an  invitation?\n \n-Sully (and Paula)\n \nPaula Veil & Mark Sullivan\n9549 Garland Court\nWestminster, CO  80021\n(303) 420-8280\n \nAOL IM:   SullivanMarkX",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 9,
+      "text": "Andy",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1,
+      "end": 11,
+      "text": "Hey Andy-\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 360,
+      "end": 365,
+      "text": "Sully",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 371,
+      "end": 376,
+      "text": "Paula",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 359,
+      "end": 378,
+      "text": "-Sully (and Paula)\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 380,
+      "end": 390,
+      "text": "Paula Veil",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 393,
+      "end": 406,
+      "text": "Mark Sullivan",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 407,
+      "end": 448,
+      "text": "9549 Garland Court\nWestminster, CO  80021",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 449,
+      "end": 463,
+      "text": "(303) 420-8280",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 380,
+      "end": 489,
+      "text": "Paula Veil & Mark Sullivan\n9549 Garland Court\nWestminster, CO  80021\n(303) 420-8280\n \nAOL IM:   SullivanMarkX",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 489,
+      "text": "\nHey Andy-\n \nLong time since we last spoke.  I hope all is  well with you.  I assume you are still happily living in Texas.  I'm  still living in Colorado, and I met a nice girl named Paula, and we're getting  married.  Paula and I wanted to send you an invitation to our wedding in  August.  Can you send us your address so we can mail you an  invitation?\n \n-Sully (and Paula)\n \nPaula Veil & Mark Sullivan\n9549 Garland Court\nWestminster, CO  80021\n(303) 420-8280\n \nAOL IM:   SullivanMarkX",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 6,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 6,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 9,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4245603.1075845228314.JavaMail.evans@thyme>",
+      "Date": "Sun, 20 May 2001 23:23:25 -0700 (PDT)",
+      "From": "zerosully1@home.com",
+      "To": "alewis@ect.enron.com",
+      "Subject": "address",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Mark Sullivan\" <zerosully1@home.com>@ENRON <IMCEANOTES-+22Mark+20Sullivan+22+20+3Czerosully1+40home+2Ecom+3E+40ENRON@ENRON.com>",
+      "X-To": "alewis@ect.enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Lewis, Andrew H.\\Lewis, Andrew H.\\Inbox",
+      "X-Origin": "LEWIS-A",
+      "X-FileName": "Lewis, Andrew H..pst"
+    }
+  },
+  "id": "test/lewis-a_inbox_74.txt"
+}

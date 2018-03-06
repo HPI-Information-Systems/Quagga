@@ -1,0 +1,196 @@
+Thanks so much for all the answer, gonna test it out then..
+
+
+Best Regards,
+
+Felix Stanley
+
+
+
+-----Original Message-----
+From: Walter Underwood [mailto:wunder@wunderwood.org] 
+Sent: Wednesday, September 20, 2017 1:05 AM
+To: solr-user@lucene.apache.org
+Subject: Re: Using SOLR J 5.5.4 with SOLR 6.5
+
+As I understand it, any node in the cluster will direct the document to the leader for the
+appropriate shard.
+
+Works for us.
+
+wunder
+Walter Underwood
+wunder@wunderwood.org
+http://observer.wunderwood.org/  (my blog)
+
+
+> On Sep 19, 2017, at 9:59 AM, David Hastings <hastings.recursive@gmail.com> wrote:
+> 
+> Thanks! Going to have to throw up another solr 6.x instance for 
+> testing again.  Solr cloud will maintain index integrity across the 
+> nodes if indexed to just one node correct?
+> 
+> On Tue, Sep 19, 2017 at 12:55 PM, Walter Underwood 
+> <wunder@wunderwood.org>
+> wrote:
+> 
+>> Yes, good old HTTP.
+>> 
+>> wunder
+>> Walter Underwood
+>> wunder@wunderwood.org
+>> http://observer.wunderwood.org/  (my blog)
+>> 
+>> 
+>>> On Sep 19, 2017, at 9:54 AM, David Hastings <
+>> hastings.recursive@gmail.com> wrote:
+>>> 
+>>> Do you use HttpSolrClient then?
+>>> 
+>>> On Tue, Sep 19, 2017 at 12:26 PM, Walter Underwood <
+>> wunder@wunderwood.org>
+>>> wrote:
+>>> 
+>>>> We run SolrJ 4.7.1 with Solr 6.5.1 (16 node cloud). No problems.
+>>>> 
+>>>> We do not use the cloud-specific client and I’m pretty sure that we
+>> don’t
+>>>> use ConcurrentUpdateSolrServer. The latter is because it doesn’t 
+>>>> report errors properly.
+>>>> 
+>>>> We do our indexing through the load balancer and let the Solr Cloud 
+>>>> cluster get the right docs to the right shards. That runs at 1 
+>>>> million docs/minute, so it isn’t worth doing anything fancier.
+>>>> 
+>>>> wunder
+>>>> Walter Underwood
+>>>> wunder@wunderwood.org
+>>>> http://observer.wunderwood.org/  (my blog)
+>>>> 
+>>>> 
+>>>>> On Sep 19, 2017, at 9:05 AM, David Hastings <
+>>>> hastings.recursive@gmail.com> wrote:
+>>>>> 
+>>>>> What about the ConcurrentUpdateSolrServer for solrj?  That is what
+>> almost
+>>>>> all of my indexing code is using for solr 5.x, Its been a while 
+>>>>> since I experimented with upgrading but i seem to remember having 
+>>>>> to go to HttpSolrClient and couldnt get the code to compile, so i 
+>>>>> tabled the experiment for a while.  eventually I will need to move 
+>>>>> to solr 6, but
+>>>> if i
+>>>>> could keep the same indexing code that would be ideal
+>>>>> 
+>>>>> On Tue, Sep 19, 2017 at 11:59 AM, Erick Erickson <
+>>>> erickerickson@gmail.com>
+>>>>> wrote:
+>>>>> 
+>>>>>> Felix:
+>>>>>> 
+>>>>>> There's no specific testing that I know of for this issue, it's 
+>>>>>> "best effort". Which means it _should_ work but I can't make promises.
+>>>>>> 
+>>>>>> Now that said, underlying it all is just HTTP requests going back
+
+>>>>>> and forth so I know of no a-priori reasons it wouldn't be fine. 
+>>>>>> It's just "try it and see" though.
+>>>>>> 
+>>>>>> Best,
+>>>>>> Erick
+>>>>>> 
+>>>>>> I'm probably preaching to the choir, but Java 1.7 is two years 
+>>>>>> past the end of support from Oracle, somebody sometime has to 
+>>>>>> deal with upgrading.
+>>>>>> 
+>>>>>> On Mon, Sep 18, 2017 at 10:47 PM, Felix Stanley 
+>>>>>> <felixstanley@globalsources.com> wrote:
+>>>>>>> Hi there,
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> We are planning to use SOLR J 5.5.4 to query from SOLR 6.5.
+>>>>>>> 
+>>>>>>> The reason was that we have to rely on JDK 1.7 at the client
+and 
+>>>>>>> as
+>> far
+>>>>>> as I
+>>>>>>> know SOLR J 6.x.x only support JDK 1.8.
+>>>>>>> 
+>>>>>>> I understood that SOLR J generally maintains backwards/forward
+>>>>>> compatibility
+>>>>>>> from this article:
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> https://wiki.apache.org/solr/Solrj
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> Would there though be any exception that we need to take caution
+
+>>>>>>> of
+>> for
+>>>>>> this
+>>>>>>> specific version?
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> Thanks a lot.
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> Best Regards,
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> Felix Stanley
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> 
+>>>>>>> ----------------------
+>>>>>>> CONFIDENTIALITY NOTICE
+>>>>>>> 
+>>>>>>> This e-mail (including any attachments) may contain confidential
+>> and/or
+>>>>>> privileged information. If you are not the intended recipient or
+
+>>>>>> have received this e-mail in error, please inform the sender 
+>>>>>> immediately
+>> and
+>>>>>> delete this e-mail (including any attachments) from your 
+>>>>>> computer, and
+>>>> you
+>>>>>> must not use, disclose to anyone else or copy this e-mail 
+>>>>>> (including
+>> any
+>>>>>> attachments), whether in whole or in part.
+>>>>>>> 
+>>>>>>> This e-mail and any reply to it may be monitored for security,
+
+>>>>>>> legal,
+>>>>>> regulatory compliance and/or other appropriate reasons.
+>>>>>> 
+>>>> 
+>>>> 
+>> 
+>> 
+
+
+
+----------------------
+CONFIDENTIALITY NOTICE 
+
+This e-mail (including any attachments) may contain confidential and/or privileged information.
+If you are not the intended recipient or have received this e-mail in error, please inform
+the sender immediately and delete this e-mail (including any attachments) from your computer,
+and you must not use, disclose to anyone else or copy this e-mail (including any attachments),
+whether in whole or in part. 
+
+This e-mail and any reply to it may be monitored for security, legal, regulatory compliance
+and/or other appropriate reasons.
+
+

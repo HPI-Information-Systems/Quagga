@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Sara, Maria Gelnett from New York State Electric & Gas called me.  She \nwould like to talk to an attorney about annex A that is attached to the \nfinancial confirmation letters that we send them.  I have attached the \nconfirmation letter that she is reviewing.\n\n\n\nMaria's phone number is (607) 762-7688.\n\nThanks,\nMelissa",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 7,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 8,
+      "text": "Hi Sara,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 315,
+      "end": 322,
+      "text": "Melissa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 307,
+      "end": 322,
+      "text": "Thanks,\nMelissa",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 322,
+      "text": "Hi Sara, Maria Gelnett from New York State Electric & Gas called me.  She \nwould like to talk to an attorney about annex A that is attached to the \nfinancial confirmation letters that we send them.  I have attached the \nconfirmation letter that she is reviewing.\n\n\n\nMaria's phone number is (607) 762-7688.\n\nThanks,\nMelissa",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29422406.1075844711610.JavaMail.evans@thyme>",
+      "Date": "Thu, 15 Mar 2001 00:43:00 -0800 (PST)",
+      "From": "melissa.murphy@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "NYSEG",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Melissa Ann Murphy",
+      "X-To": "Sara Shackleton",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_9812.txt"
+}

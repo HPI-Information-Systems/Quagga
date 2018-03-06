@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "There will NOT be a SWAP Group Meeting tomorrow, Wed, 8/29.    Please correct \nyour calendars to reflect The SWAP Group meeting is scheduled for the 1st and \n3rd Wed. of each month--not every other Wed., as I had previously stated.  I \napologize for any inconvenience this may have caused.\n\nTaffy ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 291,
+      "end": 296,
+      "text": "Taffy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 297,
+      "text": "There will NOT be a SWAP Group Meeting tomorrow, Wed, 8/29.    Please correct \nyour calendars to reflect The SWAP Group meeting is scheduled for the 1st and \n3rd Wed. of each month--not every other Wed., as I had previously stated.  I \napologize for any inconvenience this may have caused.\n\nTaffy ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5702016.1075846997652.JavaMail.evans@thyme>",
+      "Date": "Tue, 29 Aug 2000 09:56:00 -0700 (PDT)",
+      "From": "taffy.milligan@enron.com",
+      "To": "susan.bailey@enron.com, susan.flynn@enron.com, tana.jones@enron.com, \n\tsara.shackleton@enron.com, carol.clair@enron.com, \n\tmark.taylor@enron.com, samantha.boyd@enron.com, \n\tjason.peters@enron.com, mary.cook@enron.com, brent.hendry@enron.com, \n\trobert.bruce@enron.com",
+      "Subject": "SWAP Group Meeting",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Taffy Milligan",
+      "X-To": "Susan Bailey, Susan Flynn, Tana Jones, Sara Shackleton, Carol St Clair, Mark Taylor, Samantha Boyd, Jason Peters, Mary Cook, Brent Hendry, Robert Bruce",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_3504.txt"
+}

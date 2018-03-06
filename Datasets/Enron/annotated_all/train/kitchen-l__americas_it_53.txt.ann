@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please see below for the weekly project status update of GTV and the attached file for the updated project timeline. Changes are underlined.\n\nGTV status meeting attendees:  Thu Dang, Nayan Dattani, Bill Fortney, Jeff Gossett, George Grant, Brad Jones, Jay Krish, Russ Severson, Michael Swaim, Zhiyong Wei, Jeremy Wong.\n\nAccomplishments:\n?\tGTV2 Phase 1 items\no\tReleased to production.\n?\tSaving different views in TDS:\no\tReleased to production.\n?\tCapability for desk roll-ups on an ad hoc basis (phase 2, on hold since 7/9/01):\no\tNew process for roll-up aggregators has been completed.\n?\tOption Grid (phase 2):\no\tReleased to production.\n?\tGas Daily options (phase 2):\no\tReleased to production.\n?\tBasis Options (phase 2):\no\tDevelopment of deal entry type for Basis Options has been completed in TAGG.\no\tDevelopment of loading correlation curves has been completed.\no\tChanges to the Translator have been completed.\no\tDevelopment of Portcalc valuation of Basis Spread Options completed.\n?\tTransport Deal Capture & Valuation (phase 2):\no\tCreation of new deal entry type & database changes has been completed.\no\tChanges to the Translator have been completed.\n?\tAdd more information to the drill-down deal details.\no\tReleased to production.\n?\tNew Flexible Deal Viewer.\no\tDatabase schema design completed.\no\tInitial Load of active Deals from Sitara completed.\no\tTIBCO work completed.\no\tUnits of Measure conversions completed.\no\tUpdate of active deals from Sitara completed.\no\tDevelopment of Query Engine completed.\no\tDevelopment of Delphi feed to Excel completed.\no\tSchema mapping completed.\no\tInitial loading of active deals from TAGG completed.\no\t3 new requests (from last Wednesday's demo) for Update Server completed.\no\tComplete Development of Excel VB.\no\tComplete remaining new request for Update Server (SIC codes).\no\tComplete development of update of active deals from TAGG.\n\nPlans for the week ending 09/28/01:\n?\tContinue IT development of Phase II issues.\no\tComplete Option reports (PL reports).\no\tContinue development of Portcalc to value Transport deals.\no\tContinue testing of Basis Options.\n?\tNew Flexible Deal Viewer.\no\tResume user acceptance testing.\n?\tProject timeline estimate of implementing TDS for Calgary office.\n?\tInvestigate ways of improving EOL bridging to Sitara and TAGG for term physical deals.\n?\tDiscuss with Jeff Gossett about possible new requirements for Option Reports.\n?\tStart development of screening volume feedback in TDS Deal Ticker.\n\nIssues:\n?\tNone.\nNotes\n?\tUser acceptance test of New Flexible Deal Viewer has been temporarily at halt and will possibly resume soon.\n?\tCalgary still needs to test Y-Calc.\n?\tTAGG/ERMS test database has been down due to some technical issues after Oracle 8i migration, which affects testing.\n?\tThe recent computer virus attack had some negative impact on our development.\n\n \n\nThanks\n\nZhiyong",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2845,
+      "end": 2852,
+      "text": "Zhiyong",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2837,
+      "end": 2852,
+      "text": "Thanks\n\nZhiyong",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2852,
+      "text": "Please see below for the weekly project status update of GTV and the attached file for the updated project timeline. Changes are underlined.\n\nGTV status meeting attendees:  Thu Dang, Nayan Dattani, Bill Fortney, Jeff Gossett, George Grant, Brad Jones, Jay Krish, Russ Severson, Michael Swaim, Zhiyong Wei, Jeremy Wong.\n\nAccomplishments:\n?\tGTV2 Phase 1 items\no\tReleased to production.\n?\tSaving different views in TDS:\no\tReleased to production.\n?\tCapability for desk roll-ups on an ad hoc basis (phase 2, on hold since 7/9/01):\no\tNew process for roll-up aggregators has been completed.\n?\tOption Grid (phase 2):\no\tReleased to production.\n?\tGas Daily options (phase 2):\no\tReleased to production.\n?\tBasis Options (phase 2):\no\tDevelopment of deal entry type for Basis Options has been completed in TAGG.\no\tDevelopment of loading correlation curves has been completed.\no\tChanges to the Translator have been completed.\no\tDevelopment of Portcalc valuation of Basis Spread Options completed.\n?\tTransport Deal Capture & Valuation (phase 2):\no\tCreation of new deal entry type & database changes has been completed.\no\tChanges to the Translator have been completed.\n?\tAdd more information to the drill-down deal details.\no\tReleased to production.\n?\tNew Flexible Deal Viewer.\no\tDatabase schema design completed.\no\tInitial Load of active Deals from Sitara completed.\no\tTIBCO work completed.\no\tUnits of Measure conversions completed.\no\tUpdate of active deals from Sitara completed.\no\tDevelopment of Query Engine completed.\no\tDevelopment of Delphi feed to Excel completed.\no\tSchema mapping completed.\no\tInitial loading of active deals from TAGG completed.\no\t3 new requests (from last Wednesday's demo) for Update Server completed.\no\tComplete Development of Excel VB.\no\tComplete remaining new request for Update Server (SIC codes).\no\tComplete development of update of active deals from TAGG.\n\nPlans for the week ending 09/28/01:\n?\tContinue IT development of Phase II issues.\no\tComplete Option reports (PL reports).\no\tContinue development of Portcalc to value Transport deals.\no\tContinue testing of Basis Options.\n?\tNew Flexible Deal Viewer.\no\tResume user acceptance testing.\n?\tProject timeline estimate of implementing TDS for Calgary office.\n?\tInvestigate ways of improving EOL bridging to Sitara and TAGG for term physical deals.\n?\tDiscuss with Jeff Gossett about possible new requirements for Option Reports.\n?\tStart development of screening volume feedback in TDS Deal Ticker.\n\nIssues:\n?\tNone.\nNotes\n?\tUser acceptance test of New Flexible Deal Viewer has been temporarily at halt and will possibly resume soon.\n?\tCalgary still needs to test Y-Calc.\n?\tTAGG/ERMS test database has been down due to some technical issues after Oracle 8i migration, which affects testing.\n?\tThe recent computer virus attack had some negative impact on our development.\n\n \n\nThanks\n\nZhiyong",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2664497.1075840860884.JavaMail.evans@thyme>",
+      "Date": "Wed, 26 Sep 2001 09:10:39 -0700 (PDT)",
+      "From": "zhiyong.wei@enron.com",
+      "To": "louise.kitchen@enron.com, geoff.storey@enron.com, mark.pickering@enron.com, \n\tbeth.perlman@enron.com, stephen.stock@enron.com",
+      "Subject": "GTV weekly status update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Wei, Zhiyong </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ZWEI>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>, Storey, Geoff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gstorey>, Pickering, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MPICKER>, Perlman, Beth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bperlman>, Stock, Stephen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sstock>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\IT",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_it_53.txt"
+}

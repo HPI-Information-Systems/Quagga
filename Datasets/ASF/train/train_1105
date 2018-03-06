@@ -1,0 +1,140 @@
+Sure..
+
+So this is for a car search-application
+
+
+If i change:
+
+q={!tag=mq}nissan
+
+to
+
+q=*:*
+
+I get all the makes.
+
+VAR ECHO:
+
+responseHeader: {
+status: 0,
+QTime: 4,
+params: {
+mm: "2",
+facet.field: [
+"{!ex=tag_make,tag_model,tag_mq}feature_s_1_make",
+"{!ex=tag_model}feature_s_2_model"
+
+],
+qs: "5",
+components: [
+"query",
+"stats",
+"facet",
+"debug"
+],
+df: "text",
+ps: "5",
+echoParams: "all",
+start: "0",
+q.op: "OR",
+rows: "20",
+q: "{!tag=mq}nissan",
+tie: "0.1",
+facet.limit: "200",
+defType: "edismax",
+qf: "name name_raw ",
+facet.method: "fcs",
+facet.threads: "6",
+facet.mincount: "1",
+pf3: "",
+wt: "json",
+facet: "true",
+tr: "example.xsl"
+
+
+--->RESPONSE - expecting ALL car makes...
+facet_fields: {
+feature_s_1_make: [
+"nissan",
+55
+],
+
+
+On 21 February 2017 at 19:36, Chris Hostetter <hossman_lucene@fucit.org>
+wrote:
+
+>
+> :  Solr3.1 <https://wiki.apache.org/solr/Solr3.1> Starting with Solr 3.1,
+> the
+> : primary relevance query (i.e. the one normally specified by the *q*
+> parameter)
+> : may also be excluded.
+> :
+> : But doesnt show me how to exlude it ??
+>
+> same tag + ex local params, as you had in your example...
+>
+> : 2. ....q={!tag=mq}blah&facet.field={!ex=tag_man,mq}manufacturer
+>         ...
+> : But  I still only get the facets WITH the main query  of "blah"
+>
+> Can you give us a more more complete picture of what your data & full
+> request & response looks like? ... it's working fine for me with Solr 6
+> and the techproducts sample data (see below).
+>
+> https://wiki.apache.org/solr/UsingMailingLists
+>
+>
+> $ curl 'http://localhost:8983/solr/techproducts/query?rows=0&fq=%
+> 7B!tag=y%7dinStock:true&q=%7B!tag=x%7dname:ipod&facet=true&
+> facet.field=inStock&facet.field=%7b!key=exclude_x+ex=x%
+> 7dinStock&facet.field=%7b!key=exclude_xy+ex=x,y%7dinStock'
+> {
+>   "responseHeader":{
+>     "status":0,
+>     "QTime":2,
+>     "params":{
+>       "q":"{!tag=x}name:ipod",
+>       "facet.field":["inStock",
+>         "{!key=exclude_x ex=x}inStock",
+>         "{!key=exclude_xy ex=x,y}inStock"],
+>       "fq":"{!tag=y}inStock:true",
+>       "rows":"0",
+>       "facet":"true"}},
+>   "response":{"numFound":1,"start":0,"docs":[]
+>   },
+>   "facet_counts":{
+>     "facet_queries":{},
+>     "facet_fields":{
+>       "inStock":[
+>         "true",1,
+>         "false",0],
+>       "exclude_x":[
+>         "true",17,
+>         "false",0],
+>       "exclude_xy":[
+>         "true",17,
+>         "false",4]},
+>     "facet_ranges":{},
+>     "facet_intervals":{},
+>     "facet_heatmaps":{}}}
+>
+>
+>
+>
+>
+> -Hoss
+> http://www.lucidworks.com/
+>
+
+
+
+-- 
+Jacques du Rand
+Senior R&D  Programmer
+
+T: +27214688017
+F: +27862160617
+E: jacques@pricecheck.co.za
+<https://mail.naspers.com/owa/redir.aspx?SURL=uQ0aY47BwKkgYjLPs4CuWJgrQlRUZlf73Ere0TGrauf5NrymvPnSCG0AYQBpAGwAdABvADoAagBhAGMAcQB1AGUAcwBAAHAAcgBpAGMAZQBjAGgAZQBjAGsALgBjAG8ALgB6AGEA&URL=mailto%3ajacques%40pricecheck.co.za>
+

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 7/20/2017 12:29 AM, rajat rastogi wrote:\n> I shared The code base, config , schema with you . Were they of any help , or can You\npoint what I am doing wrong in them .\n\nI did not see any schema or config.\n\nThe top output shows that you have three large Java processes, all\nrunning as root.  Which of these is Solr?  Are they all instances of Solr?\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 44,
+      "text": "On 7/20/2017 12:29 AM, rajat rastogi wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 350,
+      "end": 365,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 44,
+      "end": 367,
+      "text": "> I shared The code base, config , schema with you . Were they of any help , or can You\npoint what I am doing wrong in them .\n\nI did not see any schema or config.\n\nThe top output shows that you have three large Java processes, all\nrunning as root.  Which of these is Solr?  Are they all instances of Solr?\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4932"
+}

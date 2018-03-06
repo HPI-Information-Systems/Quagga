@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Then try AEP in Columbus.  They have a big shop and you should know some of \nthe people there. \n\n\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Re: Hello!  \n\nThank you for the leads, but I am going to stay here in \"the land of grey \nwinter\", until Todd is ready to move south.  That will hopefully be in 2 or 3 \nyears.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 98,
+      "text": "Then try AEP in Columbus.  They have a big shop and you should know some of \nthe people there. \n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 98,
+      "end": 156,
+      "text": "To: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Re: Hello!  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 156,
+      "end": 319,
+      "text": "\nThank you for the leads, but I am going to stay here in \"the land of grey \nwinter\", until Todd is ready to move south.  That will hopefully be in 2 or 3 \nyears.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29058943.1075853862123.JavaMail.evans@thyme>",
+      "Date": "Thu, 19 Apr 2001 07:14:00 -0700 (PDT)",
+      "From": "chris.germany@enron.com",
+      "To": "susan.weison@enron.com",
+      "Subject": "Re: Hello!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Chris Germany",
+      "X-To": "Susan Weison",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Jun2001\\Notes Folders\\All documents",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_all_documents_2779.txt"
+}

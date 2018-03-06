@@ -1,0 +1,241 @@
+I’ve run with 8GB for years for moderate data sets (250K to 15M docs). Faceting can need
+more space.
+
+Make -Xms equal to -Xmx. The heap will grow to the max size regardless and you’ll get pauses
+while it grows. Starting at the max will avoid that pain.
+
+Solr uses lots and lots of short-lived allocations. Unless it goes into cache, everything
+allocated for a single request is garbage afterwards. You want to slow down the growth of
+tenured (old) space, so that it only includes cache ejections.
+
+I run with 8GB heap and 2GB of new/eden space. That makes my friend who works on the Go garbage
+collector cringe, but it works for Solr. I don’t fool around with all the ratio options.
+Just set the sizes and sleep well at night.
+
+Watch the sawtooth of the old space under load. The highest of the minimum allocated old space
+plus the eden space is your smallest working set. Add a bit of breathing space above that.
+Not tons, because more old space garbage means longer collections.
+
+wunder
+Walter Underwood
+wunder@wunderwood.org
+http://observer.wunderwood.org/  (my blog)
+
+
+> On Feb 21, 2017, at 5:18 PM, Erick Erickson <erickerickson@gmail.com> wrote:
+> 
+> Solr is very memory-intensive. 1g is still a very small heap. For any
+> sizeable data store people often run with at least 4G, often 8G or
+> more. If you facet or group or sort on fields that are _not_
+> docValues="true" fields you'll use up a lot of JVM memory. The
+> filterCache uses up maxDoc/8 bytes for every entry etc.
+> 
+> I guess my point is that you shouldn't be surprised if 1G is too
+> small. I'd start with 4-8G and then reduce it after you get some
+> experience with your data and queries and now much memory they
+> require.
+> 
+> Best,
+> Erick
+> 
+> On Tue, Feb 21, 2017 at 3:07 PM, Sadheera Vithanage <sadheerav@gmail.com> wrote:
+>> Thanks Eric, It looked like the garbage collection was blocking the other
+>> processes.
+>> 
+>> I updated the SOLR_JAVA_MEM="-Xms1g -Xmx4g" as it was the default before
+>> and looked like the garbage collection was triggered too frequent.
+>> 
+>> Lets see how it goes now.
+>> 
+>> Thanks again for the support.
+>> 
+>> On Mon, Feb 20, 2017 at 11:50 AM, Erick Erickson <erickerickson@gmail.com>
+>> wrote:
+>> 
+>>> The first place to look for something like his is garbage collection.
+>>> Are you hitting any really long stop-the-world GC pauses?
+>>> 
+>>> Best,
+>>> Erick
+>>> 
+>>> On Sun, Feb 19, 2017 at 2:21 PM, Sadheera Vithanage <sadheerav@gmail.com>
+>>> wrote:
+>>>> Hi Experts,
+>>>> 
+>>>> I have a solr cloud node (Just 1 node for now with a zookeeper running on
+>>>> the same machine) running on ubuntu and It has been running without
+>>> issues
+>>>> for a while.
+>>>> 
+>>>> This morning I noticed below error in the error log.
+>>>> 
+>>>> 
+>>>> *2017-02-19 20:27:54.724 ERROR (qtp97730845-4968) [   ]
+>>>> o.a.s.s.HttpSolrCall null:java.io.IOException:
+>>>> java.util.concurrent.TimeoutException: Idle timeout expired:
+>>> 50001/50000 ms*
+>>>> * at
+>>>> org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(
+>>> SharedBlockingCallback.java:226)*
+>>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:164)*
+>>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:530)*
+>>>> * at
+>>>> org.apache.commons.io.output.ProxyOutputStream.write(
+>>> ProxyOutputStream.java:55)*
+>>>> * at
+>>>> org.apache.solr.response.QueryResponseWriterUtil$1.
+>>> write(QueryResponseWriterUtil.java:54)*
+>>>> * at java.io.OutputStream.write(OutputStream.java:116)*
+>>>> * at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)*
+>>>> * at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)*
+>>>> * at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)*
+>>>> * at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)*
+>>>> * at org.apache.solr.util.FastWriter.flush(FastWriter.java:140)*
+>>>> * at org.apache.solr.util.FastWriter.write(FastWriter.java:54)*
+>>>> * at
+>>>> org.apache.solr.response.JSONWriter.writeStr(
+>>> JSONResponseWriter.java:454)*
+>>>> * at
+>>>> org.apache.solr.response.TextResponseWriter.writeVal(
+>>> TextResponseWriter.java:128)*
+>>>> * at
+>>>> org.apache.solr.response.JSONWriter.writeSolrDocument(
+>>> JSONResponseWriter.java:346)*
+>>>> * at
+>>>> org.apache.solr.response.TextResponseWriter.writeSolrDocumentList(
+>>> TextResponseWriter.java:239)*
+>>>> * at
+>>>> org.apache.solr.response.TextResponseWriter.writeVal(
+>>> TextResponseWriter.java:163)*
+>>>> * at
+>>>> org.apache.solr.response.JSONWriter.writeNamedListAsMapWithDups(
+>>> JSONResponseWriter.java:184)*
+>>>> * at
+>>>> org.apache.solr.response.JSONWriter.writeNamedList(
+>>> JSONResponseWriter.java:300)*
+>>>> * at
+>>>> org.apache.solr.response.JSONWriter.writeResponse(
+>>> JSONResponseWriter.java:96)*
+>>>> * at
+>>>> org.apache.solr.response.JSONResponseWriter.write(
+>>> JSONResponseWriter.java:55)*
+>>>> * at
+>>>> org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(
+>>> QueryResponseWriterUtil.java:65)*
+>>>> * at
+>>>> org.apache.solr.servlet.HttpSolrCall.writeResponse(
+>>> HttpSolrCall.java:728)*
+>>>> * at
+>>>> org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(
+>>> HttpSolrCall.java:667)*
+>>>> * at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:441)*
+>>>> * at
+>>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(
+>>> SolrDispatchFilter.java:303)*
+>>>> * at
+>>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(
+>>> SolrDispatchFilter.java:254)*
+>>>> * at
+>>>> org.eclipse.jetty.servlet.ServletHandler$CachedChain.
+>>> doFilter(ServletHandler.java:1668)*
+>>>> * at
+>>>> org.eclipse.jetty.servlet.ServletHandler.doHandle(
+>>> ServletHandler.java:581)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(
+>>> ScopedHandler.java:143)*
+>>>> * at
+>>>> org.eclipse.jetty.security.SecurityHandler.handle(
+>>> SecurityHandler.java:548)*
+>>>> * at
+>>>> org.eclipse.jetty.server.session.SessionHandler.
+>>> doHandle(SessionHandler.java:226)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.ContextHandler.
+>>> doHandle(ContextHandler.java:1160)*
+>>>> * at
+>>>> org.eclipse.jetty.servlet.ServletHandler.doScope(
+>>> ServletHandler.java:511)*
+>>>> * at
+>>>> org.eclipse.jetty.server.session.SessionHandler.
+>>> doScope(SessionHandler.java:185)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.ContextHandler.
+>>> doScope(ContextHandler.java:1092)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(
+>>> ScopedHandler.java:141)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(
+>>> ContextHandlerCollection.java:213)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.HandlerCollection.
+>>> handle(HandlerCollection.java:119)*
+>>>> * at
+>>>> org.eclipse.jetty.server.handler.HandlerWrapper.handle(
+>>> HandlerWrapper.java:134)*
+>>>> * at org.eclipse.jetty.server.Server.handle(Server.java:518)*
+>>>> * at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)*
+>>>> * at
+>>>> org.eclipse.jetty.server.HttpConnection.onFillable(
+>>> HttpConnection.java:244)*
+>>>> * at
+>>>> org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(
+>>> AbstractConnection.java:273)*
+>>>> * at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)*
+>>>> * at
+>>>> org.eclipse.jetty.io.SelectChannelEndPoint$2.run(
+>>> SelectChannelEndPoint.java:93)*
+>>>> * at
+>>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.
+>>> produceAndRun(ExecuteProduceConsume.java:246)*
+>>>> * at
+>>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(
+>>> ExecuteProduceConsume.java:156)*
+>>>> * at
+>>>> org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(
+>>> QueuedThreadPool.java:654)*
+>>>> * at
+>>>> org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(
+>>> QueuedThreadPool.java:572)*
+>>>> * at java.lang.Thread.run(Thread.java:745)*
+>>>> *Caused by: java.util.concurrent.TimeoutException: Idle timeout expired:
+>>>> 50001/50000 ms*
+>>>> * at
+>>>> org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:166)*
+>>>> * at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)*
+>>>> * at
+>>>> java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)*
+>>>> * at java.util.concurrent.FutureTask.run(FutureTask.java:266)*
+>>>> * at
+>>>> java.util.concurrent.ScheduledThreadPoolExecutor$
+>>> ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)*
+>>>> * at
+>>>> java.util.concurrent.ScheduledThreadPoolExecutor$
+>>> ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)*
+>>>> * at
+>>>> java.util.concurrent.ThreadPoolExecutor.runWorker(
+>>> ThreadPoolExecutor.java:1142)*
+>>>> * at
+>>>> java.util.concurrent.ThreadPoolExecutor$Worker.run(
+>>> ThreadPoolExecutor.java:617)*
+>>>> * ... 1 more*
+>>>> 
+>>>> It has been there for 3 minutes and nothing after that.
+>>>> 
+>>>> Any Clue?
+>>>> 
+>>>> --
+>>>> Regards
+>>>> 
+>>>> Sadheera Vithanage
+>>> 
+>> 
+>> 
+>> 
+>> --
+>> Regards
+>> 
+>> Sadheera Vithanage
+
+

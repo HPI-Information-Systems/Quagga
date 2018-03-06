@@ -1,0 +1,11 @@
+Hi,
+
+I am using Apache spark 2.0.2 randomforest ml (standalone mode) for text
+classification. TF-IDF feature extractor is also used. The training part
+runs without any issues and returns 100% accuracy. But when I am trying to
+do prediction using trained model and compute test error, it fails with
+java.util.NosuchElementException: key not found exception.
+Any help will be much appreciated.
+
+Thanks
+

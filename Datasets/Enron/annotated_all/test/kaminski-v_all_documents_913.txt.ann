@@ -1,0 +1,888 @@
+{
+  "wrapper": "plaintext",
+  "text": "Bernard,\n\nMy coordinates:\n\nVincent Kaminski\nManaging Director - Research\nEnron Corp.\n1400 Smith Street\nRoom EB1962\nHouston, TX 77002-7361\n\nPhone: (713) 853 3848\n (713) 410 5396 (cell)\nFax  :  (713) 646 2503\nE-mail: vkamins@enron.com\n\nYes, we are going into a very interesting summer both here and in the UK. \n\n\nVince\n\n\n\n\n\n\n\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/27/2001 01:23:04 AM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: RE: Thesis on Electricity Price Jump-Diffusions\n\n\nHi Vince,\n\nCan you e-mail me your mailing address in Houston and I will send you a hard\ncopy of the above today.  Apologies for delay, but I wanted to ensure that\nLes Clewlow had received his copy in Sydney before distributing any other\ncopies.\n\nIncidentally, today (March 27th) is a red letter day in the UK as the NETA /\nnew electricity trading arrangements have gone 'live'.  Should be\ninteresting to observe the development of the paper market in the coming\nmonths - you're no doubt aware that IPE have just launched an electricity\nfutures contract.\n\nRegards\n\nBernard\n\n\n\n\n\n-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: 01 March 2001 15:37\nTo: Murphy, Bernard\nCc: vkaminski@aol.com; Vince.J.Kaminski@enron.com\nSubject: RE: 1997 Risk paper on Pricing of Electricity Derivatives\n\n\n\nBernard,\n\nYes, I can  read a DVI file. You can also  cc\nmy home address: Vkaminski@aol.com. I shall\ntry to send you an answer to your question on weekend.\n\nVince\n\n\n\n\n\n\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/01/2001 09:18:58 AM\n\nTo:   \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:\nSubject:  RE: 1997 Risk paper on Pricing of Electricity Derivatives\n\n\nVince,\n\nI can send you a Scientific Word DVI file (at the weekend) if you can read\nSCientific Word files ?  The dissertation hasn't been reviewed by Les or\nthe\nExternal yet - although its been at FORC for 2 months. I think that the\nEmpirical Chapter is probably the one which would be of most relevance to\nboth our company's businesses - although I ultimately didn't have the time\nto 'explicitly' price the jump risk-premium which I conjectured is possibly\nimplicit in the prices of exchange-traded electricity futures-options -\nrather I developed an implicit estimation procedure which will enable a\nrough assessment (with a little bit of further work, but not too much) be\nmade of the price of jump risk in wholesale power markets.\n\nIn other words, I assumed spot jump-risk to be undiversifiable, and\nessentially devoted 2 Theoretical Chapters to :\n\n1) proving that a jump-diffusion trading model is \"incomplete\"\n(synthesising\nthe securities markets framework with martingale representation theory) -\nnote that I did not assume that markets could be dynamically completed with\n'term structure' securities as in the HJM w/ jumps papers of Shirakawa and\nDas and;\n\n2) deriving an explicit risk-adjustment process for 'implementing' the\nprice\nof jump-risk using a jump-diffusion marginal indirect utility of wealth\nprocess (ie. a jump-augmented production economy approach in the spirit of\nCIR, Bates, Ahn & Thompson).\n\n\nIncidentally, I would be keen to find out if you or any of your team done\nmuch work on real-asset valuations in a spark-spread option-valuation\nframework ?  I'm about to start a project evaluation of embedded\noptionality, and have a dilemna whether I should model the spot or forward\ngas / power price processes.  With the former, I can model mean-reversion\nand jumps explicitly (obviously, important for capturing the optionality of\nout-of-the-money plant, which might otherwise be ignored in a\npure-diffusion\nframework) but am not maximising the informational content of the available\nmarket data (that is, assuming there was a long-term market forward curve\nfor electricity); whereas in the latter the driftless forward supposition\nmeans that I have to capture mean-reversion via the futures volatility\nfunction, and jumps are less easy to calibrate.  Any suggestions ?\n\nRegards\n\n\nBernard\n\n\n\n\n\n-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: 01 March 2001 14:54\nTo: Murphy, Bernard\nCc: Shirley.Crenshaw@enron.com; Vince.J.Kaminski@enron.com\nSubject: Re: 1997 Risk paper on Pricing of Electricity Derivatives\n\n\n\nBernard,\n\nI am forwarding your message to my assistant and she will mail you a\nreprint.\nI would be glad to take a look at your dissertation. Is it available as a\npublication, working paper?\n\nVince\n\n\n\n\n\n\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/01/2001 02:17:39 AM\n\nTo:   \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:\nSubject:  1997 Risk paper on Pricing of Electricity Derivatives\n\n\nHello Vince,\n\nMy name is Bernard Murphy - I received your e-mail address from Les\nClewlow,\nwho was my PhD supervisor at the Financia Options Research Centre at\nWarwick\nBusiness School.  I've just finished my PhD on Electricity Price Jump\nDiffusions :  A Theoretical and Empirical Study in Incomplete Markets -\nhence my interest in electricity price modelling and derivative pricing.  I\nwas looking to get hold of a copy of your 1997 paper, which has recently\ncome to my attention :\n\n\"The Challenge of Pricing & Risk-Managing Electricity Derivatives\", The US\nPOwer Market, Risk Publications, pp. 149-171.\n\nand Les suggested that I contact you directly (Les is travelling at present\nand doesn't have an electronic copy available) to request an e-copy.\n\nIncidentally, I am Lecturer in Finance / Financial Mathematics at\nUniversity\nof Limerick (Ireland) and have taken a year out to work for Caminus UK,\nwhere I am working on introducing and developing a markets-based approach\n(spark-spread) to real asset valuations in the UK power industry.\n\nThanks in advancve\n\nBernard Murphy\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Bernard",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 27,
+      "end": 43,
+      "text": "Vincent Kaminski",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 44,
+      "end": 72,
+      "text": "Managing Director - Research",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 73,
+      "end": 84,
+      "text": "Enron Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 85,
+      "end": 137,
+      "text": "1400 Smith Street\nRoom EB1962\nHouston, TX 77002-7361",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 146,
+      "end": 160,
+      "text": "(713) 853 3848",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 162,
+      "end": 176,
+      "text": "(713) 410 5396",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 192,
+      "end": 206,
+      "text": "(713) 646 2503",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 215,
+      "end": 232,
+      "text": "vkamins@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 27,
+      "end": 233,
+      "text": "Vincent Kaminski\nManaging Director - Research\nEnron Corp.\n1400 Smith Street\nRoom EB1962\nHouston, TX 77002-7361\n\nPhone: (713) 853 3848\n (713) 410 5396 (cell)\nFax  :  (713) 646 2503\nE-mail: vkamins@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 311,
+      "end": 316,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 0,
+      "end": 323,
+      "text": "Bernard,\n\nMy coordinates:\n\nVincent Kaminski\nManaging Director - Research\nEnron Corp.\n1400 Smith Street\nRoom EB1962\nHouston, TX 77002-7361\n\nPhone: (713) 853 3848\n (713) 410 5396 (cell)\nFax  :  (713) 646 2503\nE-mail: vkamins@enron.com\n\nYes, we are going into a very interesting summer both here and in the UK. \n\n\nVince\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 324,
+      "end": 339,
+      "text": "Murphy, Bernard",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 342,
+      "end": 368,
+      "text": "Bernard.Murphy@caminus.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 373,
+      "end": 383,
+      "text": "03/27/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 384,
+      "end": 395,
+      "text": "01:23:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 432,
+      "end": 458,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 402,
+      "end": 428,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 475,
+      "end": 522,
+      "text": "RE: Thesis on Electricity Price Jump-Diffusions",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 323,
+      "end": 523,
+      "text": "\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/27/2001 01:23:04 AM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: RE: Thesis on Electricity Price Jump-Diffusions\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 528,
+      "end": 533,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 525,
+      "end": 534,
+      "text": "Hi Vince,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1080,
+      "end": 1096,
+      "text": "Regards\n\nBernard",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1089,
+      "end": 1096,
+      "text": "Bernard",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 523,
+      "end": 1102,
+      "text": "\n\nHi Vince,\n\nCan you e-mail me your mailing address in Houston and I will send you a hard\ncopy of the above today.  Apologies for delay, but I wanted to ensure that\nLes Clewlow had received his copy in Sydney before distributing any other\ncopies.\n\nIncidentally, today (March 27th) is a red letter day in the UK as the NETA /\nnew electricity trading arrangements have gone 'live'.  Should be\ninteresting to observe the development of the paper market in the coming\nmonths - you're no doubt aware that IPE have just launched an electricity\nfutures contract.\n\nRegards\n\nBernard\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1135,
+      "end": 1161,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1170,
+      "end": 1196,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1204,
+      "end": 1217,
+      "text": "01 March 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1218,
+      "end": 1223,
+      "text": "15:37",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1228,
+      "end": 1243,
+      "text": "Murphy, Bernard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1248,
+      "end": 1265,
+      "text": "vkaminski@aol.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1267,
+      "end": 1293,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1303,
+      "end": 1360,
+      "text": "RE: 1997 Risk paper on Pricing of Electricity Derivatives",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1102,
+      "end": 1361,
+      "text": "-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: 01 March 2001 15:37\nTo: Murphy, Bernard\nCc: vkaminski@aol.com; Vince.J.Kaminski@enron.com\nSubject: RE: 1997 Risk paper on Pricing of Electricity Derivatives\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1364,
+      "end": 1371,
+      "text": "Bernard",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1520,
+      "end": 1525,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1361,
+      "end": 1531,
+      "text": "\n\n\nBernard,\n\nYes, I can  read a DVI file. You can also  cc\nmy home address: Vkaminski@aol.com. I shall\ntry to send you an answer to your question on weekend.\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1532,
+      "end": 1547,
+      "text": "Murphy, Bernard",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1550,
+      "end": 1576,
+      "text": "Bernard.Murphy@caminus.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1581,
+      "end": 1591,
+      "text": "03/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1592,
+      "end": 1603,
+      "text": "09:18:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1613,
+      "end": 1639,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1643,
+      "end": 1669,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1685,
+      "end": 1742,
+      "text": "RE: 1997 Risk paper on Pricing of Electricity Derivatives",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1531,
+      "end": 1743,
+      "text": "\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/01/2001 09:18:58 AM\n\nTo:   \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:\nSubject:  RE: 1997 Risk paper on Pricing of Electricity Derivatives\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1745,
+      "end": 1750,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 4048,
+      "end": 4055,
+      "text": "Bernard",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 4038,
+      "end": 4056,
+      "text": "Regards\n\n\nBernard\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1743,
+      "end": 4061,
+      "text": "\n\nVince,\n\nI can send you a Scientific Word DVI file (at the weekend) if you can read\nSCientific Word files ?  The dissertation hasn't been reviewed by Les or\nthe\nExternal yet - although its been at FORC for 2 months. I think that the\nEmpirical Chapter is probably the one which would be of most relevance to\nboth our company's businesses - although I ultimately didn't have the time\nto 'explicitly' price the jump risk-premium which I conjectured is possibly\nimplicit in the prices of exchange-traded electricity futures-options -\nrather I developed an implicit estimation procedure which will enable a\nrough assessment (with a little bit of further work, but not too much) be\nmade of the price of jump risk in wholesale power markets.\n\nIn other words, I assumed spot jump-risk to be undiversifiable, and\nessentially devoted 2 Theoretical Chapters to :\n\n1) proving that a jump-diffusion trading model is \"incomplete\"\n(synthesising\nthe securities markets framework with martingale representation theory) -\nnote that I did not assume that markets could be dynamically completed with\n'term structure' securities as in the HJM w/ jumps papers of Shirakawa and\nDas and;\n\n2) deriving an explicit risk-adjustment process for 'implementing' the\nprice\nof jump-risk using a jump-diffusion marginal indirect utility of wealth\nprocess (ie. a jump-augmented production economy approach in the spirit of\nCIR, Bates, Ahn & Thompson).\n\n\nIncidentally, I would be keen to find out if you or any of your team done\nmuch work on real-asset valuations in a spark-spread option-valuation\nframework ?  I'm about to start a project evaluation of embedded\noptionality, and have a dilemna whether I should model the spot or forward\ngas / power price processes.  With the former, I can model mean-reversion\nand jumps explicitly (obviously, important for capturing the optionality of\nout-of-the-money plant, which might otherwise be ignored in a\npure-diffusion\nframework) but am not maximising the informational content of the available\nmarket data (that is, assuming there was a long-term market forward curve\nfor electricity); whereas in the latter the driftless forward supposition\nmeans that I have to capture mean-reversion via the futures volatility\nfunction, and jumps are less easy to calibrate.  Any suggestions ?\n\nRegards\n\n\nBernard\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 4094,
+      "end": 4120,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 4129,
+      "end": 4155,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 4163,
+      "end": 4176,
+      "text": "01 March 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 4177,
+      "end": 4182,
+      "text": "14:54",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 4187,
+      "end": 4202,
+      "text": "Murphy, Bernard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 4207,
+      "end": 4233,
+      "text": "Shirley.Crenshaw@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 4235,
+      "end": 4261,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 4271,
+      "end": 4328,
+      "text": "Re: 1997 Risk paper on Pricing of Electricity Derivatives",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 4061,
+      "end": 4329,
+      "text": "-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: 01 March 2001 14:54\nTo: Murphy, Bernard\nCc: Shirley.Crenshaw@enron.com; Vince.J.Kaminski@enron.com\nSubject: Re: 1997 Risk paper on Pricing of Electricity Derivatives\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 4332,
+      "end": 4339,
+      "text": "Bernard",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 4523,
+      "end": 4528,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 4329,
+      "end": 4534,
+      "text": "\n\n\nBernard,\n\nI am forwarding your message to my assistant and she will mail you a\nreprint.\nI would be glad to take a look at your dissertation. Is it available as a\npublication, working paper?\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 4535,
+      "end": 4550,
+      "text": "Murphy, Bernard",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 4553,
+      "end": 4579,
+      "text": "Bernard.Murphy@caminus.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 4584,
+      "end": 4594,
+      "text": "03/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 4595,
+      "end": 4606,
+      "text": "02:17:39 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 4616,
+      "end": 4642,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 4646,
+      "end": 4672,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 4688,
+      "end": 4741,
+      "text": "1997 Risk paper on Pricing of Electricity Derivatives",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 4534,
+      "end": 4742,
+      "text": "\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> on 03/01/2001 02:17:39 AM\n\nTo:   \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:\nSubject:  1997 Risk paper on Pricing of Electricity Derivatives\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 4750,
+      "end": 4755,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 4744,
+      "end": 4757,
+      "text": "Hello Vince,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 5805,
+      "end": 5819,
+      "text": "Bernard Murphy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 5785,
+      "end": 5820,
+      "text": "Thanks in advancve\n\nBernard Murphy\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 4742,
+      "end": 5823,
+      "text": "\n\nHello Vince,\n\nMy name is Bernard Murphy - I received your e-mail address from Les\nClewlow,\nwho was my PhD supervisor at the Financia Options Research Centre at\nWarwick\nBusiness School.  I've just finished my PhD on Electricity Price Jump\nDiffusions :  A Theoretical and Empirical Study in Incomplete Markets -\nhence my interest in electricity price modelling and derivative pricing.  I\nwas looking to get hold of a copy of your 1997 paper, which has recently\ncome to my attention :\n\n\"The Challenge of Pricing & Risk-Managing Electricity Derivatives\", The US\nPOwer Market, Risk Publications, pp. 149-171.\n\nand Les suggested that I contact you directly (Les is travelling at present\nand doesn't have an electronic copy available) to request an e-copy.\n\nIncidentally, I am Lecturer in Finance / Financial Mathematics at\nUniversity\nof Limerick (Ireland) and have taken a year out to work for Caminus UK,\nwhere I am working on introducing and developing a markets-based approach\n(spark-spread) to real asset valuations in the UK power industry.\n\nThanks in advancve\n\nBernard Murphy\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 2,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 5,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 13,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 11,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 18,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 11,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 21,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 24,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 26,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 27,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 30,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 26,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 32,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 35,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 36,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 38,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 38,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 42,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 42,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 46,
+      "target": 42,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "origin": 47,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "origin": 46,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "origin": 50,
+      "target": 51,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "origin": 54,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "origin": 56,
+      "target": 51,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "origin": 59,
+      "target": 54,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "origin": 60,
+      "target": 56,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "origin": 62,
+      "target": 59,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "origin": 62,
+      "target": 63,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "origin": 66,
+      "target": 67,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "origin": 66,
+      "target": 60,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "origin": 70,
+      "target": 66,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "origin": 72,
+      "target": 62,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11224415.1075856203227.JavaMail.evans@thyme>",
+      "Date": "Thu, 29 Mar 2001 10:03:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "bernard.murphy@caminus.com",
+      "Subject": "RE: Thesis on Electricity Price Jump-Diffusions",
+      "Cc": "vkaminski@aol.com, vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vkaminski@aol.com, vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"Murphy, Bernard\" <Bernard.Murphy@caminus.com> @ ENRON",
+      "X-cc": "vkaminski@aol.com, Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_913.txt"
+}

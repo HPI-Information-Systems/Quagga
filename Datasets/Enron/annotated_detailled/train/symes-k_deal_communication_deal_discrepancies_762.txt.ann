@@ -1,0 +1,193 @@
+{
+  "wrapper": "plaintext",
+  "text": "What's the status on the changes?\n\n\n\n\n\n   Kate Symes @ ECT                04/04/2001 05:44 PM\n\nTo: Evelyn Metoyer/Corp/Enron@ENRON\ncc:  \n\nSubject: Re: 4/4 Checkout  \n\n570011 - Prebon said it's their deal\n570023 - broker was changed to Prebon\n570801 - I'm waiting until after the calc to change del.point to NP\n570473 - waiting for calc to add .005 broker fee\n570444 - waiting for calc to add .005 broker fee\n569957 - changed in CAPS but not Enpower - waiting for calc\n\nSorry about all those unfinished ones, but Risk started calcing a while \nbefore I got your e-mail, and they're still going. I'll let you know when \nthese deals have been corrected.\n\nThanks,\nKate\n\n\n\nEvelyn Metoyer@ENRON\n04/04/2001 02:58 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 4/4 Checkout\n\n\n\nPREBON WEST\n\nChris Mallory\ndeal 570011\nPrebon does not recognize\n\ndeal 570023\nBroker should be Prebon not APB\n\ndeal 570801\nlocation s/b NP not SP\n\n\nAMEREX WEST\nAll deals are fine.\n\n\n\nBLOOMBERG\n\n\nDEAL 570473\nbloomberg shows fee of .005\n\ndeal 570444\nbloomberg shows fee of .005\n\ndeal 569957\nBloomberg shows cp as Allegheny Energy and we show Duke Energy\nP.S. if this did should be Duke the correct entity should be Duke Power, a \ndivision.......not Duke Energy Marketing..\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 39,
+      "text": "What's the status on the changes?\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 42,
+      "end": 52,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 74,
+      "end": 84,
+      "text": "04/04/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 85,
+      "end": 93,
+      "text": "05:44 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 99,
+      "end": 113,
+      "text": "Evelyn Metoyer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 147,
+      "end": 163,
+      "text": "Re: 4/4 Checkout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 39,
+      "end": 166,
+      "text": "   Kate Symes @ ECT                04/04/2001 05:44 PM\n\nTo: Evelyn Metoyer/Corp/Enron@ENRON\ncc:  \n\nSubject: Re: 4/4 Checkout  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 166,
+      "end": 667,
+      "text": "\n570011 - Prebon said it's their deal\n570023 - broker was changed to Prebon\n570801 - I'm waiting until after the calc to change del.point to NP\n570473 - waiting for calc to add .005 broker fee\n570444 - waiting for calc to add .005 broker fee\n569957 - changed in CAPS but not Enpower - waiting for calc\n\nSorry about all those unfinished ones, but Risk started calcing a while \nbefore I got your e-mail, and they're still going. I'll let you know when \nthese deals have been corrected.\n\nThanks,\nKate\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 659,
+      "end": 663,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 651,
+      "end": 664,
+      "text": "Thanks,\nKate\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 667,
+      "end": 681,
+      "text": "Evelyn Metoyer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 688,
+      "end": 698,
+      "text": "04/04/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 699,
+      "end": 707,
+      "text": "02:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 712,
+      "end": 722,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 751,
+      "end": 763,
+      "text": "4/4 Checkout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 667,
+      "end": 764,
+      "text": "Evelyn Metoyer@ENRON\n04/04/2001 02:58 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 4/4 Checkout\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1119,
+      "end": 1238,
+      "text": "P.S. if this did should be Duke the correct entity should be Duke Power, a \ndivision.......not Duke Energy Marketing..\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 764,
+      "end": 1245,
+      "text": "\n\n\nPREBON WEST\n\nChris Mallory\ndeal 570011\nPrebon does not recognize\n\ndeal 570023\nBroker should be Prebon not APB\n\ndeal 570801\nlocation s/b NP not SP\n\n\nAMEREX WEST\nAll deals are fine.\n\n\n\nBLOOMBERG\n\n\nDEAL 570473\nbloomberg shows fee of .005\n\ndeal 570444\nbloomberg shows fee of .005\n\ndeal 569957\nBloomberg shows cp as Allegheny Energy and we show Duke Energy\nP.S. if this did should be Duke the correct entity should be Duke Power, a \ndivision.......not Duke Energy Marketing..\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6404459.1075841742920.JavaMail.evans@thyme>",
+      "Date": "Thu, 5 Apr 2001 02:17:00 -0700 (PDT)",
+      "From": "evelyn.metoyer@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "Re: 4/4 Checkout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Evelyn Metoyer",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Deal communication\\Deal discrepancies",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_deal_communication_deal_discrepancies_762.txt"
+}

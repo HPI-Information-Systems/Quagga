@@ -1,0 +1,78 @@
+Its really hard to filter through the issues in Jira,  710 open
+major/critical issues since 2010, using this query:
+
+project = SOLR AND issuetype = Bug And priority in (Blocker,Critical,
+Major) AND status in (Open, "In Progress", Reopened) ORDER BY createdDate
+ASC
+
+Are there any performance tests done on solr for each release?
+
+On Thu, 28 Sep 2017 at 16:46, Nawab Zada Asad Iqbal <khichi@gmail.com>
+wrote:
+
+> Hi Lars
+>
+> Although, that doesn't really answer of whether 6.6.1 is the most stable
+> one or not, but there has been a recent security fix, so definitely go to
+> 6.6.1 .
+>
+> Copied the detail below:-
+>
+>
+>
+> CVE-2017-9803: Security vulnerability in kerberos delegation token
+> functionality
+>
+> Severity: Important
+>
+> Vendor:
+> The Apache Software Foundation
+>
+> Versions Affected:
+> Apache Solr 6.2.0 to 6.6.0
+>
+> Description:
+>
+> Solr's Kerberos plugin can be configured to use delegation tokens,
+> which allows an application to reuse the authentication of an end-user
+> or another application.
+> There are two issues with this functionality (when using
+> SecurityAwareZkACLProvider type of ACL provider e.g.
+> SaslZkACLProvider),
+>
+> Firstly, access to the security configuration can be leaked to users
+> other than the solr super user. Secondly, malicious users can exploit
+> this leaked configuration for privilege escalation to further
+> expose/modify private data and/or disrupt operations in the Solr
+> cluster.
+>
+> The vulnerability is fixed from Solr 6.6.1 onwards.
+>
+> Mitigation:
+> 6.x users should upgrade to 6.6.1
+>
+> Credit:
+> This issue was discovered by Hrishikesh Gadre of Cloudera Inc.
+>
+> References:
+> https://issues.apache.org/jira/browse/SOLR-11184
+> https://wiki.apache.org/solr/SolrSecurity
+>
+> On Thu, Sep 28, 2017 at 6:24 AM, Lars Karlsson <
+> lars.karlsson.sthlm@gmail.com> wrote:
+>
+> > Hi, wanted to check if anyone can help guide with most stable version
+> > between
+> >
+> > 6.3 and 6.6.1
+> >
+> > Which should I choose ?
+> >
+> > And, are there any performance tests that one can look at for each
+> release?
+> >
+> > Regards
+> > Lars
+> >
+>
+

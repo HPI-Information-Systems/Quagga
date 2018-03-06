@@ -1,0 +1,139 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI.\n---------------------- Forwarded by James D Steffes/HOU/EES on 12/10/99 05:26 \nPM ---------------------------\nFrom: Jennifer Fraser@ECT on 12/09/99 07:53 AM\nTo: Richard Shapiro/HOU/EES@EES\ncc: James D Steffes/HOU/EES@EES \nSubject: For my favorite card carrying commie\n\n\n\n - xmas.gif\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "FYI.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 56,
+      "text": "James D Steffes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 68,
+      "end": 76,
+      "text": "12/10/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 77,
+      "end": 86,
+      "text": "05:26 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 5,
+      "end": 115,
+      "text": "---------------------- Forwarded by James D Steffes/HOU/EES on 12/10/99 05:26 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 121,
+      "end": 136,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 166,
+      "end": 181,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 198,
+      "end": 213,
+      "text": "James D Steffes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 236,
+      "end": 272,
+      "text": "For my favorite card carrying commie",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 115,
+      "end": 273,
+      "text": "From: Jennifer Fraser@ECT on 12/09/99 07:53 AM\nTo: Richard Shapiro/HOU/EES@EES\ncc: James D Steffes/HOU/EES@EES \nSubject: For my favorite card carrying commie\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 273,
+      "end": 290,
+      "text": "\n\n\n - xmas.gif\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 279,
+      "end": 287,
+      "text": "xmas.gif",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 276,
+      "end": 288,
+      "text": " - xmas.gif\n",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9592461.1075846275945.JavaMail.evans@thyme>",
+      "Date": "Fri, 10 Dec 1999 09:28:00 -0800 (PST)",
+      "From": "james.steffes@enron.com",
+      "To": "steven.kean@enron.com, joe.hillings@enron.com, terence.thorn@enron.com, \n\trichard.shapiro@enron.com",
+      "Subject": "Xmas card from Seattle",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "James D Steffes",
+      "X-To": "Steven J Kean, Joe Hillings, Terence H Thorn, Richard Shapiro",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Calendar\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_calendar_untitled_196.txt"
+}

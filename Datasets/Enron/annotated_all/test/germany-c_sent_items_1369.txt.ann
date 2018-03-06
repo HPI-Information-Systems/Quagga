@@ -1,0 +1,170 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm wonderful thank you very much.  Where have you been?  How are you doing?\n\n -----Original Message-----\nFrom: \tCampos, Sylvia A.  \nSent:\tMonday, November 19, 2001 2:47 PM\nTo:\tGermany, Chris\nSubject:\tRE: CGLF contract\n\nHow are you doing Chris?  I've been away for awhile....just wanted to let you know that I'm working on it.\n\n -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tMonday, November 19, 2001 12:36 PM\nTo:\tCampos, Sylvia A.\nSubject:\tRE: CGLF contract\n\nAnd, because I waited so long, it should be done in a great big hurry!\n\n -----Original Message-----\nFrom: \tHilliard, Marlene  \nSent:\tFriday, November 16, 2001 3:05 PM\nTo:\tCampos, Sylvia A.\nCc:\tGermany, Chris; Nemec, Gerald\nSubject:\tFW: CGLF contract\n\n\n\nAttached is a copy of a termination letter.  Per the terms of the contract, notice of termination should be 6 months prior to termination.  Chris Germany has requested that this contract be terminated. \n\n\nThe termination letter should be routed to Gerald Nemec for review and redlining.  Then, routed for review and initial  to the Trader, Chris Germany, to Legal - Gerald Nemec, and then to the Vice President - Scott Neal.  Contact Scott Neal through Kimberly Bates\n\n\n << File: CGLF Termination Letter#37393.doc >> \n\n-----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tFriday, November 16, 2001 2:15 PM\nTo:\tHilliard, Marlene\nSubject:\tFW: CGLF contract\n\n\n\nOur contact for this is Janice Felton.  Her number is 713-267-4210.  Please call her on Monday and let her know that ENA wishes to terminate contract 37393 effective 5/31/2002.  Ask her what she needs in writing from us then draft it and send it to her attentions.\n\nThanks\n\n -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tTuesday, October 23, 2001 1:35 PM\nTo:\tHilliard, Marlene\nSubject:\tRE: CGLF contract\n\nI believe its Janice Felton but I will make sure.\n\nThanks\n\n -----Original Message-----\nFrom: \tHilliard, Marlene  \nSent:\tTuesday, October 23, 2001 12:44 PM\nTo:\tGermany, Chris\nSubject:\tFW: CGLF contract\n\nYes Chris I can draft a termination letter.  The termination notice period is 6 months prior  written notice to either party.\n\n\nLet me know who it should be addressed to and I will draft the letter and forward it prior to December 1, 2001 which will give the counterparty 6 month prior written notice.  I will have to have it executed by the proper parties of course.\n\n\nI will wait to hear from you. \n\n\n\n -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tTuesday, October 23, 2001 12:31 PM\nTo:\tRamirez, Robert\nCc:\tFletcher, Brenda H.; Hilliard, Marlene\nSubject:\tCGLF contract\n\nRobert, when you get a chance, please give me all the service deal numbers for CGLF k#37393.\n\nMarlene, the new termination date for this contract is 5/31/2002.  If I have time, I am going to send CGLF a termination notice for this contract effective 5/31/2002.  Is that something you could do for me?\n\nLet me know.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 78,
+      "text": "I'm wonderful thank you very much.  Where have you been?  How are you doing?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 78,
+      "end": 219,
+      "text": " -----Original Message-----\nFrom: \tCampos, Sylvia A.  \nSent:\tMonday, November 19, 2001 2:47 PM\nTo:\tGermany, Chris\nSubject:\tRE: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 219,
+      "end": 328,
+      "text": "\nHow are you doing Chris?  I've been away for awhile....just wanted to let you know that I'm working on it.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 328,
+      "end": 470,
+      "text": " -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tMonday, November 19, 2001 12:36 PM\nTo:\tCampos, Sylvia A.\nSubject:\tRE: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 470,
+      "end": 543,
+      "text": "\nAnd, because I waited so long, it should be done in a great big hurry!\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 543,
+      "end": 721,
+      "text": " -----Original Message-----\nFrom: \tHilliard, Marlene  \nSent:\tFriday, November 16, 2001 3:05 PM\nTo:\tCampos, Sylvia A.\nCc:\tGermany, Chris; Nemec, Gerald\nSubject:\tFW: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 721,
+      "end": 1243,
+      "text": "\n\n\nAttached is a copy of a termination letter.  Per the terms of the contract, notice of termination should be 6 months prior to termination.  Chris Germany has requested that this contract be terminated. \n\n\nThe termination letter should be routed to Gerald Nemec for review and redlining.  Then, routed for review and initial  to the Trader, Chris Germany, to Legal - Gerald Nemec, and then to the Vice President - Scott Neal.  Contact Scott Neal through Kimberly Bates\n\n\n << File: CGLF Termination Letter#37393.doc >> \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1243,
+      "end": 1383,
+      "text": "-----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tFriday, November 16, 2001 2:15 PM\nTo:\tHilliard, Marlene\nSubject:\tFW: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1651,
+      "end": 1659,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1383,
+      "end": 1660,
+      "text": "\n\n\nOur contact for this is Janice Felton.  Her number is 713-267-4210.  Please call her on Monday and let her know that ENA wishes to terminate contract 37393 effective 5/31/2002.  Ask her what she needs in writing from us then draft it and send it to her attentions.\n\nThanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1660,
+      "end": 1801,
+      "text": " -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tTuesday, October 23, 2001 1:35 PM\nTo:\tHilliard, Marlene\nSubject:\tRE: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1852,
+      "end": 1860,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1801,
+      "end": 1861,
+      "text": "\nI believe its Janice Felton but I will make sure.\n\nThanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1861,
+      "end": 2003,
+      "text": " -----Original Message-----\nFrom: \tHilliard, Marlene  \nSent:\tTuesday, October 23, 2001 12:44 PM\nTo:\tGermany, Chris\nSubject:\tFW: CGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2003,
+      "end": 2408,
+      "text": "\nYes Chris I can draft a termination letter.  The termination notice period is 6 months prior  written notice to either party.\n\n\nLet me know who it should be addressed to and I will draft the letter and forward it prior to December 1, 2001 which will give the counterparty 6 month prior written notice.  I will have to have it executed by the proper parties of course.\n\n\nI will wait to hear from you. \n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2408,
+      "end": 2587,
+      "text": " -----Original Message-----\nFrom: \tGermany, Chris  \nSent:\tTuesday, October 23, 2001 12:31 PM\nTo:\tRamirez, Robert\nCc:\tFletcher, Brenda H.; Hilliard, Marlene\nSubject:\tCGLF contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2587,
+      "end": 2595,
+      "text": "\nRobert,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2587,
+      "end": 2902,
+      "text": "\nRobert, when you get a chance, please give me all the service deal numbers for CGLF k#37393.\n\nMarlene, the new termination date for this contract is 5/31/2002.  If I have time, I am going to send CGLF a termination notice for this contract effective 5/31/2002.  Is that something you could do for me?\n\nLet me know.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23961805.1075861227013.JavaMail.evans@thyme>",
+      "Date": "Mon, 19 Nov 2001 12:50:43 -0800 (PST)",
+      "From": "chris.germany@enron.com",
+      "To": "a..campos@enron.com",
+      "Subject": "RE: CGLF contract",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Germany, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CGERMAN>",
+      "X-To": "Campos, Sylvia A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Scampos>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\CGERMAN (Non-Privileged)\\Germany, Chris\\Sent Items",
+      "X-Origin": "Germany-C",
+      "X-FileName": "CGERMAN (Non-Privileged).pst"
+    }
+  },
+  "id": "test/germany-c_sent_items_1369.txt"
+}

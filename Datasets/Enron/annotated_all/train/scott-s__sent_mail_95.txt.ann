@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "The attached draft reflects revisions made pursuant to our discussions with \nFERC staff.  You will be receiving a hard copy of the tariff sheets \nseparately.\n\nPlease make sure you read the \"Waivers\" section towards the end of the \ndocument as it contains some additional requests for waivers.\n\nAlso, there seems to be some confusion over whether we are going to post all \noptions, not just Shipper call options.  My previous drafts have provided for \nposting of Shipper call options only.  All other types of options will be \ngenerally available, on a nondiscriminatory basis, through our tariff.  My \nthinking was that it is commercially impracticable to post the specifics of \nall types of options, and it's not necessary since options will be noted on \nour transaction reports required by Order 637.  Let me know what you think.\n\nLet me know your comments as soon as possible.  I understand that the \nCommercial Group told Stan Horton this would be filed this week and Shelley \nreported at staff meeting on Monday that it would be filed this week or next \nweek.  As soon as I get everyone's comments we can get this finalized.\n\nThank you.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1142,
+      "text": "The attached draft reflects revisions made pursuant to our discussions with \nFERC staff.  You will be receiving a hard copy of the tariff sheets \nseparately.\n\nPlease make sure you read the \"Waivers\" section towards the end of the \ndocument as it contains some additional requests for waivers.\n\nAlso, there seems to be some confusion over whether we are going to post all \noptions, not just Shipper call options.  My previous drafts have provided for \nposting of Shipper call options only.  All other types of options will be \ngenerally available, on a nondiscriminatory basis, through our tariff.  My \nthinking was that it is commercially impracticable to post the specifics of \nall types of options, and it's not necessary since options will be noted on \nour transaction reports required by Order 637.  Let me know what you think.\n\nLet me know your comments as soon as possible.  I understand that the \nCommercial Group told Stan Horton this would be filed this week and Shelley \nreported at staff meeting on Monday that it would be filed this week or next \nweek.  As soon as I get everyone's comments we can get this finalized.\n\nThank you.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1131,
+      "end": 1142,
+      "text": "Thank you.\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21862494.1075846733698.JavaMail.evans@thyme>",
+      "Date": "Thu, 12 Oct 2000 04:55:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "mary.miller@enron.com, shelley.corman@enron.com, steven.harris@enron.com, \n\tglen.hass@enron.com, mary.darveaux@enron.com, sstojic@gbmdc.com",
+      "Subject": "options draft",
+      "Cc": "jeffery.fawcett@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jeffery.fawcett@enron.com",
+      "X-From": "Susan Scott",
+      "X-To": "Drew Fossum@ENRON, Mary Kay Miller, Shelley Corman, Steven Harris, Glen Hass, Mary Darveaux, sstojic@gbmdc.com",
+      "X-cc": "Jeffery Fawcett",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\'sent mail",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s__sent_mail_95.txt"
+}

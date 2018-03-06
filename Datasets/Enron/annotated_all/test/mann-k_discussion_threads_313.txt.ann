@@ -1,0 +1,299 @@
+{
+  "wrapper": "plaintext",
+  "text": "fyi\n---------------------- Forwarded by Kay Mann/Corp/Enron on 08/04/2000 08:34 \nAM ---------------------------\n\n\n\"Duncan, Allyson\" <aduncan@kilstock.com> on 08/03/2000 02:06:00 PM\nTo: \"'Keenan Jeffrey'\" <Jeffrey.M.Keenan@enron.com>, \"'Mann Kay'\" \n<Kay.Mann@enron.com>, \"'Kroll Heather'\" <Heather.Kroll@enron.com>, \"'Chapman \nTom'\" <tom.chapman@enron.com>, \"'Mellencamp Lisa'\" <lisa.mellencamp@enron.com>\ncc: \"Fine, Jonathan\" <JFine@kilstock.com>, \"Grigg, Mary\" \n<mgrigg@kilstock.com> \n\nSubject: ENA CPCN\n\nThe Commission issued its procedural order, as expected, on August 2.  It\nreads just like the draft, except that the Commission did not include the\ndate for proposed orders that we requested.  We can still make that request\nat the evidentiary hearing.\n\n      The public and evidentiary hearing is scheduled to begin\nMonday, October 2, 2000 at 2:00 pm\n      Petitions to intervene are due by September 8;  \n      intervenor testimony by September 15; \n      ENA rebuttal by September 27.\n\nCP & L vigorously opposed the interventions in its merger and holding\ncompany documents;  we are going through those filings and roughing out an\nopposition to its intervention here should it decide to do so.  I am\nchecking with the Public Staff on the status of their discovery requests.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "fyi\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 40,
+      "end": 48,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 63,
+      "end": 73,
+      "text": "08/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 74,
+      "end": 83,
+      "text": "08:34 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 4,
+      "end": 112,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 08/04/2000 08:34 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 115,
+      "end": 130,
+      "text": "Duncan, Allyson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 133,
+      "end": 153,
+      "text": "aduncan@kilstock.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 158,
+      "end": 168,
+      "text": "08/03/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 169,
+      "end": 180,
+      "text": "02:06:00 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 187,
+      "end": 201,
+      "text": "Keenan Jeffrey",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 205,
+      "end": 231,
+      "text": "Jeffrey.M.Keenan@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 236,
+      "end": 244,
+      "text": "Mann Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 249,
+      "end": 267,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 272,
+      "end": 285,
+      "text": "Kroll Heather",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 289,
+      "end": 312,
+      "text": "Heather.Kroll@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 317,
+      "end": 329,
+      "text": "Chapman \nTom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 333,
+      "end": 354,
+      "text": "tom.chapman@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 359,
+      "end": 374,
+      "text": "Mellencamp Lisa",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 378,
+      "end": 403,
+      "text": "lisa.mellencamp@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 410,
+      "end": 424,
+      "text": "Fine, Jonathan",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 427,
+      "end": 445,
+      "text": "JFine@kilstock.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 449,
+      "end": 460,
+      "text": "Grigg, Mary",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 464,
+      "end": 483,
+      "text": "mgrigg@kilstock.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 496,
+      "end": 504,
+      "text": "ENA CPCN",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 112,
+      "end": 505,
+      "text": "\n\n\"Duncan, Allyson\" <aduncan@kilstock.com> on 08/03/2000 02:06:00 PM\nTo: \"'Keenan Jeffrey'\" <Jeffrey.M.Keenan@enron.com>, \"'Mann Kay'\" \n<Kay.Mann@enron.com>, \"'Kroll Heather'\" <Heather.Kroll@enron.com>, \"'Chapman \nTom'\" <tom.chapman@enron.com>, \"'Mellencamp Lisa'\" <lisa.mellencamp@enron.com>\ncc: \"Fine, Jonathan\" <JFine@kilstock.com>, \"Grigg, Mary\" \n<mgrigg@kilstock.com> \n\nSubject: ENA CPCN\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 505,
+      "end": 1283,
+      "text": "\nThe Commission issued its procedural order, as expected, on August 2.  It\nreads just like the draft, except that the Commission did not include the\ndate for proposed orders that we requested.  We can still make that request\nat the evidentiary hearing.\n\n      The public and evidentiary hearing is scheduled to begin\nMonday, October 2, 2000 at 2:00 pm\n      Petitions to intervene are due by September 8;  \n      intervenor testimony by September 15; \n      ENA rebuttal by September 27.\n\nCP & L vigorously opposed the interventions in its merger and holding\ncompany documents;  we are going through those filings and roughing out an\nopposition to its intervention here should it decide to do so.  I am\nchecking with the Public Staff on the status of their discovery requests.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 16,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 18,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 22,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15436365.1075845759897.JavaMail.evans@thyme>",
+      "Date": "Fri, 4 Aug 2000 01:34:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "nwodka@bracepatt.com",
+      "Subject": "ENA CPCN",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "nwodka@bracepatt.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_313.txt"
+}

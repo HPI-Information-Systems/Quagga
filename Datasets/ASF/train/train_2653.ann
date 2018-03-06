@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Yeah, if it is just once a day then you can afford to do an optimize.\nFor a more NRT indexing approach, I wouldn't recommend optimize at\nall.\n\nOn Thu, Apr 20, 2017 at 5:29 PM, Andrea Gazzarini <gxsubs@gmail.com> wrote:\n> Ok, many thanks\n>\n> I see / read that it should be better to rely on the background merging\n> instead of issuing explicit optimizes, but I think in this case one optimize\n> in a day it shouldn't be a problem.\n>\n> Did I get you correctly?\n>\n> Thanks again,\n> Andrea\n>\n>\n> On 20/04/17 13:17, Shalin Shekhar Mangar wrote:\n>>\n>> Can the client not send an optimize command explicitly after all\n>> indexing/deleting is complete?\n>\n>\n\n\n\n-- \nRegards,\nShalin Shekhar Mangar.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 143,
+      "end": 219,
+      "text": "On Thu, Apr 20, 2017 at 5:29 PM, Andrea Gazzarini <gxsubs@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 143,
+      "text": "Yeah, if it is just once a day then you can afford to do an optimize.\nFor a more NRT indexing approach, I wouldn't recommend optimize at\nall.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 219,
+      "end": 237,
+      "text": "> Ok, many thanks\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 459,
+      "end": 486,
+      "text": ">\n> Thanks again,\n> Andrea\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 219,
+      "end": 490,
+      "text": "> Ok, many thanks\n>\n> I see / read that it should be better to rely on the background merging\n> instead of issuing explicit optimizes, but I think in this case one optimize\n> in a day it shouldn't be a problem.\n>\n> Did I get you correctly?\n>\n> Thanks again,\n> Andrea\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 490,
+      "end": 540,
+      "text": "> On 20/04/17 13:17, Shalin Shekhar Mangar wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 652,
+      "end": 688,
+      "text": "-- \nRegards,\nShalin Shekhar Mangar.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 540,
+      "end": 689,
+      "text": ">>\n>> Can the client not send an optimize command explicitly after all\n>> indexing/deleting is complete?\n>\n>\n\n\n\n-- \nRegards,\nShalin Shekhar Mangar.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2653"
+}

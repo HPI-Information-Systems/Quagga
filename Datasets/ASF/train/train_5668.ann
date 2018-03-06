@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "Odd. The way core discovery works, it starts at SOLR_HOME and\nrecursively descends the directories. Whenever the recursion finds a\n\"core.properties\" file it says \"Aha, this must be a core\". From there\nit assumes the data directory is immediately below where it found the\ncore.properties file in the absence of any dataDir overrides.\n\nSo how the write.lock file is getting preserved across Solr restarts\nis a mystery to me. Doing a \"kill -9\" is one way to make that happen\nif it is done at just the wrong time, but that's unlikely in what\nyou're describing.\n\nAre you totally sure that there were no old Solr processes running?\nAnd there have been some issues in the past where the log display of\nthe admin UI hold on to errors and displays them after the problem has\nbeen fixed. I'm assuming you can't query the new core, is that\ncorrect? Because if you can query the core then _something_ has the\nindex open. I'm grasping at straws here mind you.\n\nBest,\nErick\n\nOn Thu, Aug 24, 2017 at 9:02 PM, Phil Scadden <P.Scadden@gns.cri.nz> wrote:\n> SOLR_HOME is /var/www/solr/data\n> The zip was actually the entire data directory which also included configsets. And yes\ncore.properties is in var/www/solr/data/prindex (just has single line name=prindex, in it).\nNo other cores are present.\n> The data directory should have been unzipped before the solr instance was started (I\ncant actually touch the machine so communicating via a deployment document but the operator\nusually follows every step to the letter.\n> The sequence was:\n> mkdir /var/www/solr\n> sudo bash ./install_solr_service.sh solr-6.5.1.tgz -i /opt/local -d /var/www/solr\n> edit /etc/default/solr.in.sh to set various items. (esp SOLR_HOME and to set SOLR_PID_DIR\nto /var/www/solr)\n> unzip the data directory\n> service solr start.\n>\n> No other instance of solr installed.\n>\n> Notice: This email and any attachments are confidential and may not be used, published\nor redistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 947,
+      "end": 960,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 961,
+      "text": "Odd. The way core discovery works, it starts at SOLR_HOME and\nrecursively descends the directories. Whenever the recursion finds a\n\"core.properties\" file it says \"Aha, this must be a core\". From there\nit assumes the data directory is immediately below where it found the\ncore.properties file in the absence of any dataDir overrides.\n\nSo how the write.lock file is getting preserved across Solr restarts\nis a mystery to me. Doing a \"kill -9\" is one way to make that happen\nif it is done at just the wrong time, but that's unlikely in what\nyou're describing.\n\nAre you totally sure that there were no old Solr processes running?\nAnd there have been some issues in the past where the log display of\nthe admin UI hold on to errors and displays them after the problem has\nbeen fixed. I'm assuming you can't query the new core, is that\ncorrect? Because if you can query the core then _something_ has the\nindex open. I'm grasping at straws here mind you.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 961,
+      "end": 1037,
+      "text": "On Thu, Aug 24, 2017 at 9:02 PM, Phil Scadden <P.Scadden@gns.cri.nz> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1037,
+      "end": 2155,
+      "text": "> SOLR_HOME is /var/www/solr/data\n> The zip was actually the entire data directory which also included configsets. And yes\ncore.properties is in var/www/solr/data/prindex (just has single line name=prindex, in it).\nNo other cores are present.\n> The data directory should have been unzipped before the solr instance was started (I\ncant actually touch the machine so communicating via a deployment document but the operator\nusually follows every step to the letter.\n> The sequence was:\n> mkdir /var/www/solr\n> sudo bash ./install_solr_service.sh solr-6.5.1.tgz -i /opt/local -d /var/www/solr\n> edit /etc/default/solr.in.sh to set various items. (esp SOLR_HOME and to set SOLR_PID_DIR\nto /var/www/solr)\n> unzip the data directory\n> service solr start.\n>\n> No other instance of solr installed.\n>\n> Notice: This email and any attachments are confidential and may not be used, published\nor redistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5668"
+}

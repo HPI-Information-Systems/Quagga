@@ -1,0 +1,34 @@
+Hello!
+
+I am running Spark on Java and bumped into a problem I can't solve or find
+anything helpful among answered questions, so I would really appreciate
+your help.
+
+I am running some calculations, creating rows for each result:
+
+List<Row> results = new LinkedList<Row>();
+
+for(something){
+results.add(RowFactory.create( someStringVariable, someIntegerVariable ));
+         }
+
+Now I ended up with a list of rows I need to turn into dataframe to perform
+some spark sql operations on them, like groupings and sorting. Would like
+to keep the dataTypes.
+
+I tried:
+
+Dataset<Row> toShow = spark.createDataFrame(results, Row.class);
+
+but it throws nullpointer. (spark being SparkSession) Is my logic wrong
+there somewhere, should this operation be possible, resulting in what I
+want?
+Or do I have to create a custom class which extends serializable and create
+a list of those objects rather than Rows? Will I be able to perform SQL
+queries on dataset consisting of custom class objects rather than rows?
+
+I'm sorry if this is a duplicate question.
+Thank you for your help!
+
+Karin
+

@@ -1,0 +1,72 @@
+Thanks Alessandro!
+
+On Mon, Sep 11, 2017 at 11:31 AM, Alessandro Hoss <alehoss@gmail.com> wrote:
+
+> Solr 6.6.1 was already released on September 7:
+>
+> http://www.apache.org/dyn/closer.lua/lucene/solr/6.6.1
+> Release notes: https://lucene.apache.org/solr/6_6_1/changes/Changes.html
+>
+> Guess you should give it a try.
+>
+> On Mon, Sep 11, 2017 at 1:15 PM Gunalan V <visagan2007@gmail.com> wrote:
+>
+> > Thank You!
+> >
+> > I believe 6.6 should have fixed all the previous version issues. But in
+> 6.6
+> > is there any major issues noticed?  if so I will go with 6.5.1 else will
+> > proceed with 6.6.
+> >
+> > Kindly confirm!
+> >
+> >
+> >
+> > GVK
+> >
+> > On Mon, Sep 11, 2017 at 10:59 AM, Walter Underwood <
+> wunder@wunderwood.org>
+> > wrote:
+> >
+> > > We have been running 6.5.1 in production since May. I would not run
+> > > anything before that.
+> > >
+> > > The new metrics code caused performance problems. That was fixed in
+> > 6.5.0.
+> > >
+> > > There was a memory leak talking to Zookeeper. That was fixed in 6.5.1.
+> > >
+> > > Solr 6.6.1 should be released very soon.
+> > >
+> > > wunder
+> > > Walter Underwood
+> > > wunder@wunderwood.org
+> > > http://observer.wunderwood.org/  (my blog)
+> > >
+> > >
+> > > > On Sep 11, 2017, at 8:36 AM, Gunalan V <visagan2007@gmail.com>
+> wrote:
+> > > >
+> > > > Hello,
+> > > >
+> > > > In our project we are planning to use SOLR and I'm new to it. So,
+> what
+> > is
+> > > > the latest stable version we can use and that is supported by Apache?
+> > > >
+> > > > Kindly let me know your suggestions because we started with
+> installing
+> > > SOLR
+> > > > 6.2 but heard that there are many issues and need to be upgraded to
+> 6.3
+> > > or
+> > > > so.
+> > > >
+> > > >
+> > > > Thanks,
+> > > > GVK
+> > >
+> > >
+> >
+>
+

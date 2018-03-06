@@ -1,0 +1,153 @@
+hi ,
+
+i am trying to work on nested documents in solr 6.2.1. I am trying to
+generate employee info from database.
+
+parent node consists of empid,cid,sid,pid.
+child node consists of price,empid,cid,sid,pid.[multiple prices will be
+exists, remaining values are same as parent]
+
+data-config.xml
+---------------
+
+<entity name="employee" query="select empid,cid,sid,pid  from
+xxxxxxxxxxxxxxxxxxx;">
+	
+	<field column="empid" name="empid" />
+	<field column="cid" name="cid" />
+	<field column="pid" name="pid" />
+
+    <entity child="true" name = "basicinfo" query="SELECT
+price,empid,cid,sid,pid from xxxxxxxx where empid = '${employee.empid}'; " >
+			<field column="empid" name="empid" />
+			<field column="cid" name="cid" />
+			<field column="pid" name="pid" />
+			<field column="price" name="price" />			
+	</entity>
+
+</entity>
+
+managed-schema
+--------------
+
+	<field name="_root_" type="string" indexed="true" stored="true"
+multiValued="true" required="false"/>
+
+	<field name="empid" 		type="imi_string" indexed="true" required="false"
+stored="true"/>
+	
+	<field name="sid" 			type="imi_string" 	indexed="true"	stored="true" 
+default="0"/>
+	<field name="price" 		type="imi_string" 	indexed="true"	stored="true" 
+default="0"/>
+	<field name="cid" 			type="imi_string" 		indexed="true" required="false"
+stored="true"/>
+	<field name="pid" 			type="imi_string" 		indexed="true" required="false"
+stored="true"/>
+	
+
+<uniqueKey>empid</uniqueKey>
+
+Did full-import, completed successfully. when i used select query, below
+resonse got.
+
+http://localhost:9119/solr/employee/select?q=*:*
+
+{
+	"responseHeader": {
+		"status": 0,
+		"QTime": 0,
+		"params": {
+			"q": "*:*",
+			"indent": "on",
+			"rows": "100",
+			"wt": "json",
+			"_": "1496057171982"
+		}
+	},
+	"response": {
+		"numFound": 3,
+		"start": 0,
+		"docs": [{
+				"empid": "E1",
+				"cid": "c1",
+				"sid": "s1",
+				"pid": "p1",
+				"price": "123"
+			},
+			{
+				"empid": "E1",
+				"cid": "c1",
+				"sid": "s1",
+				"pid": "p1",
+				"price": "567"
+			},
+			{
+				"empid": "E1",
+				"cid": "c1",
+				"sid": "s1",
+				"pid": "p1",
+				"price": "0"
+			}
+		]
+	}
+}
+
+when i query above, got the childs along with parent.[parent node that is
+which is having price 'zero'].
+
+I don't know how to write the solr query to get the below response.
+
+
+{
+	"responseHeader": {
+		"status": 0,
+		"QTime": 0,
+		"params": {
+			"q": "*:*",
+			"indent": "on",
+			"rows": "100",
+			"wt": "json",
+			"_": "1496057171982"
+		}
+	},
+	"response": {
+		"numFound": 3,
+		"start": 0,
+		"docs": [{
+			"empid": "E1",
+			"cid": "c1",
+			"sid": "s1",
+			"pid": "p1",
+			"price": "0",
+			"_childDocuments_": [{
+					"empid": "E1",
+					"cid": "c1",
+					"sid": "s1",
+					"pid": "p1",
+					"price": "123"
+				},
+				{
+					"empid": "E1",
+					"cid": "c1",
+					"sid": "s1",
+					"pid": "p1",
+					"price": "567"
+				}
+			]
+		}]
+	}
+}
+
+Please help me in this.
+
+Many thanks in advance.
+
+
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Nested-documents-using-solr-6-2-1-tp4338024.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

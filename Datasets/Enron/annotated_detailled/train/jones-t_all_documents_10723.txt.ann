@@ -1,0 +1,514 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ditto Credit.\n\n\n\n\tTana Jones@ECT\n\t04/02/2001 04:59 PM\n\t\t \n\t\t To: Alan Aronowitz/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, Marcus \nNettelton/NA/Enron@ENRON, Harry M Collins/HOU/ECT@ECT, David \nMinns/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, Marie Heard/Enron \nCommunications@Enron Communications, Robbi Rossi/Enron Communications@Enron \nCommunications, John Viverito/Corp/Enron@Enron, Jane McBride/AP/Enron@Enron, \nAndrea Calo/SA/Enron@Enron, Peter Keohane/CAL/ECT@ECT\n\t\t cc: \n\t\t Subject: EOL approvals, 04-02-01\n\n\n----- Forwarded by Tana Jones/HOU/ECT on 04/02/2001 04:58 PM -----\n\n\tWalter Guidroz/ENRON@enronXgate\n\t04/02/2001 04:30 PM\n\t\t \n\t\t To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal Contracts and Facilities@ENRON, Enron Europe Global \nCounterParty/LON/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Tom \nMoran/ENRON@enronXgate, Claudia Clark/HOU/ECT@ECT, William S \nBradford/ENRON@enronXgate, Lisa Lees/HOU/ECT@ECT, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/NA/Enron@Enron, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D \nHare/HOU/ECT@ect, Amy Heffernan/Enron Communications@Enron Communications, \nMolly LaFuze/Enron Communications@Enron Communications, Danny Clark/Enron \nCommunications@Enron Communications\n\t\t cc: \n\t\t Subject: EOL approvals, 04-02-01\n\nPlease see attached.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 17,
+      "text": "Ditto Credit.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 34,
+      "end": 44,
+      "text": "04/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 45,
+      "end": 53,
+      "text": "04:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 65,
+      "end": 79,
+      "text": "Alan Aronowitz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 93,
+      "end": 108,
+      "text": "Jeffrey T Hodge",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 122,
+      "end": 139,
+      "text": "Marcus \nNettelton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 171,
+      "text": "Harry M Collins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 185,
+      "end": 197,
+      "text": "David \nMinns",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 235,
+      "end": 246,
+      "text": "Marie Heard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 291,
+      "end": 303,
+      "text": "Robbi Rossi/",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 347,
+      "end": 360,
+      "text": "John Viverito",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 379,
+      "end": 391,
+      "text": "Jane McBride",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 409,
+      "end": 420,
+      "text": "Andrea Calo",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 437,
+      "end": 450,
+      "text": "Peter Keohane",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 483,
+      "end": 506,
+      "text": "EOL approvals, 04-02-01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 18,
+      "end": 507,
+      "text": "Tana Jones@ECT\n\t04/02/2001 04:59 PM\n\t\t \n\t\t To: Alan Aronowitz/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, Marcus \nNettelton/NA/Enron@ENRON, Harry M Collins/HOU/ECT@ECT, David \nMinns/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, Marie Heard/Enron \nCommunications@Enron Communications, Robbi Rossi/Enron Communications@Enron \nCommunications, John Viverito/Corp/Enron@Enron, Jane McBride/AP/Enron@Enron, \nAndrea Calo/SA/Enron@Enron, Peter Keohane/CAL/ECT@ECT\n\t\t cc: \n\t\t Subject: EOL approvals, 04-02-01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 507,
+      "end": 509,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 528,
+      "end": 538,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 550,
+      "end": 560,
+      "text": "04/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 561,
+      "end": 569,
+      "text": "04:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 509,
+      "end": 576,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 04/02/2001 04:58 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 578,
+      "end": 592,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 611,
+      "end": 621,
+      "text": "04/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 622,
+      "end": 630,
+      "text": "04:30 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 642,
+      "end": 655,
+      "text": "Karen Lambert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 669,
+      "end": 679,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 693,
+      "end": 707,
+      "text": "Samuel \nSchott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 721,
+      "end": 732,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 746,
+      "end": 757,
+      "text": "Brant Reves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 777,
+      "end": 794,
+      "text": "Debbie R Brackett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 808,
+      "end": 819,
+      "text": "David Hardy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 833,
+      "end": 848,
+      "text": "Lesli \nCampbell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 867,
+      "end": 880,
+      "text": "Cynthia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 999,
+      "end": 1014,
+      "text": "Stephanie Sever",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1028,
+      "end": 1038,
+      "text": "Tom \nMoran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1057,
+      "end": 1070,
+      "text": "Claudia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1084,
+      "end": 1103,
+      "text": "William S \nBradford",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1122,
+      "end": 1131,
+      "text": "Lisa Lees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1145,
+      "end": 1158,
+      "text": "Juana \nFayett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1177,
+      "end": 1187,
+      "text": "Jana Morse",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1206,
+      "end": 1214,
+      "text": "Trang Le",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1229,
+      "end": 1239,
+      "text": "Paul Maley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1253,
+      "end": 1265,
+      "text": "Sonya Clarke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1279,
+      "end": 1289,
+      "text": "Tim Davies",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1304,
+      "end": 1315,
+      "text": "Karen O'Day",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1332,
+      "end": 1345,
+      "text": "Tanya Rohauer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1364,
+      "end": 1379,
+      "text": "Kelly \nLombardi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1396,
+      "end": 1409,
+      "text": "Brian Lindsay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1477,
+      "end": 1494,
+      "text": "Bernice Rodriguez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1508,
+      "end": 1520,
+      "text": "Bill D \nHare",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1534,
+      "end": 1547,
+      "text": "Amy Heffernan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1592,
+      "end": 1604,
+      "text": "Molly LaFuze",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1648,
+      "end": 1659,
+      "text": "Danny Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1723,
+      "end": 1746,
+      "text": "EOL approvals, 04-02-01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 576,
+      "end": 1747,
+      "text": "\n\tWalter Guidroz/ENRON@enronXgate\n\t04/02/2001 04:30 PM\n\t\t \n\t\t To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal Contracts and Facilities@ENRON, Enron Europe Global \nCounterParty/LON/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Tom \nMoran/ENRON@enronXgate, Claudia Clark/HOU/ECT@ECT, William S \nBradford/ENRON@enronXgate, Lisa Lees/HOU/ECT@ECT, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/NA/Enron@Enron, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D \nHare/HOU/ECT@ect, Amy Heffernan/Enron Communications@Enron Communications, \nMolly LaFuze/Enron Communications@Enron Communications, Danny Clark/Enron \nCommunications@Enron Communications\n\t\t cc: \n\t\t Subject: EOL approvals, 04-02-01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1747,
+      "end": 1772,
+      "text": "\nPlease see attached.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 18,
+      "end": 28,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 899,
+      "end": 944,
+      "text": "Enron Europe \nGlobal Contracts and Facilities",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 952,
+      "end": 985,
+      "text": "Enron Europe Global \nCounterParty",
+      "type": "Header/Org/To",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 2,
+      "origin": 19,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 19,
+      "target": 58,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22410796.1075847342066.JavaMail.evans@thyme>",
+      "Date": "Tue, 3 Apr 2001 03:35:00 -0700 (PDT)",
+      "From": "marcus.nettelton@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "Re: EOL approvals, 04-02-01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Marcus Nettelton",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_10723.txt"
+}

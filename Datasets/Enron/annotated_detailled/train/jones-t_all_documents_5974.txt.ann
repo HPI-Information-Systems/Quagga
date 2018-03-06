@@ -1,0 +1,288 @@
+{
+  "wrapper": "plaintext",
+  "text": "This confirmation should have the regular Omnibus Annex A attached as well as \nthe additional Chilean Annex which Tana forwarded last week.  Please call me \nif you have any questions.\n\nMark\n\n\n\n\n\tCraig Breslau\n\t12/13/2000 01:51 PM\n\t\t \n\t\t To: Derek Bailey/Corp/Enron@ENRON, Tana Jones/HOU/ECT@ECT, Mark \nTaylor/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: 12 December Trade\n\nCan you please help me to resolve this ASAP.\n\nThank you,\nCraig\n---------------------- Forwarded by Craig Breslau/HOU/ECT on 12/13/2000 01:50 \nPM ---------------------------\n\n\n\"Pablo Jaramillo\" <pablo.jaramillo@gasmar.cl> on 12/13/2000 01:54:54 PM\nTo: <craig.Breslau@enron.com>\ncc:  \nSubject: 12 December Trade\n\n\n\nI received from Derek Bailey the Confirmation Form  and the Chilean Annex, \nbut I feel there is still missing the Annex A, as it is  refferred in the \nConfirmation Form as part of the terms and conditions of the  transaction. \nPlease confirm.\n?\nRegards,\nPablo Jaramillo\n?\n?\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 185,
+      "end": 189,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 194,
+      "text": "This confirmation should have the regular Omnibus Annex A attached as well as \nthe additional Chilean Annex which Tana forwarded last week.  Please call me \nif you have any questions.\n\nMark\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 195,
+      "end": 208,
+      "text": "Craig Breslau",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 210,
+      "end": 220,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 221,
+      "end": 229,
+      "text": "01:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 241,
+      "end": 253,
+      "text": "Derek Bailey",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 272,
+      "end": 282,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 296,
+      "end": 308,
+      "text": "Mark \nTaylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 341,
+      "end": 358,
+      "text": "12 December Trade",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 195,
+      "end": 359,
+      "text": "Craig Breslau\n\t12/13/2000 01:51 PM\n\t\t \n\t\t To: Derek Bailey/Corp/Enron@ENRON, Tana Jones/HOU/ECT@ECT, Mark \nTaylor/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: 12 December Trade\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 417,
+      "end": 422,
+      "text": "Craig",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 406,
+      "end": 422,
+      "text": "Thank you,\nCraig",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 359,
+      "end": 423,
+      "text": "\nCan you please help me to resolve this ASAP.\n\nThank you,\nCraig\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 459,
+      "end": 472,
+      "text": "Craig Breslau",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 484,
+      "end": 494,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 495,
+      "end": 504,
+      "text": "01:50 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 423,
+      "end": 533,
+      "text": "---------------------- Forwarded by Craig Breslau/HOU/ECT on 12/13/2000 01:50 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 536,
+      "end": 551,
+      "text": "Pablo Jaramillo",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 554,
+      "end": 579,
+      "text": "pablo.jaramillo@gasmar.cl",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 584,
+      "end": 594,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 595,
+      "end": 606,
+      "text": "01:54:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 612,
+      "end": 635,
+      "text": "craig.Breslau@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 652,
+      "end": 669,
+      "text": "12 December Trade",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 533,
+      "end": 670,
+      "text": "\n\n\"Pablo Jaramillo\" <pablo.jaramillo@gasmar.cl> on 12/13/2000 01:54:54 PM\nTo: <craig.Breslau@enron.com>\ncc:  \nSubject: 12 December Trade\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 927,
+      "end": 942,
+      "text": "Pablo Jaramillo",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 918,
+      "end": 942,
+      "text": "Regards,\nPablo Jaramillo",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 670,
+      "end": 949,
+      "text": "\n\n\nI received from Derek Bailey the Confirmation Form  and the Chilean Annex, \nbut I feel there is still missing the Annex A, as it is  refferred in the \nConfirmation Form as part of the terms and conditions of the  transaction. \nPlease confirm.\n?\nRegards,\nPablo Jaramillo\n?\n?\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 25,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26914570.1075847064065.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 08:55:00 -0800 (PST)",
+      "From": "mark.taylor@enron.com",
+      "To": "craig.breslau@enron.com",
+      "Subject": "Re: 12 December Trade",
+      "Cc": "derek.bailey@enron.com, tana.jones@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "derek.bailey@enron.com, tana.jones@enron.com",
+      "X-From": "Mark Taylor",
+      "X-To": "Craig Breslau",
+      "X-cc": "Derek Bailey, Tana Jones",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_5974.txt"
+}

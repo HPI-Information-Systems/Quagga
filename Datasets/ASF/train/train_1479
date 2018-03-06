@@ -1,0 +1,56 @@
+The default text field definition (text_general) tokenizes on spaces,
+so - if I understand the question correctly - it should just work. Are
+you by any chance searching against name field that is defined as
+String (and is not tokenized).
+
+If you do Solr tutorial, you search on "ipod", which seems like a
+similar case to me. So, can you start from there? You can just index
+your own text into the example config for example.
+
+Regards,
+   Alex.
+P.s. If you are coming from Lucene, copyField instruction may be
+slightly confusing. In the examples provided, your text is copied from
+named specific fields to text/_text_ field which is actually the
+default field searched, using the type definition associated with that
+text/_text_ field, rather than with the original field.
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 7 March 2017 at 09:30, OTH <omer.t.h.7@gmail.com> wrote:
+> Hello,
+>
+> I am new to Solr.  I am using v. 6.4.1.  I have what is probably a pretty
+> simple question.
+>
+> Let's say I have these documents with the following values in a single
+> field (let's call it "name"):
+>
+> Sandoval@company.example.com
+> Sandburg@company.example.com
+> Sands@company.example.com
+> Sancho Landolt
+> Sanders Greenley
+> Sanders Massey
+> Santa Catarina
+> San Carlos de Bariloche
+> San Francisco
+> San Mateo
+>
+> I would like, if the search query is "San", for Solr to return the
+> following and only the following:
+> San Carlos de Bariloche
+> San Francisco
+> San Mateo
+>
+> So basically, I'd like to search based on tokens.  I'd also like Solr to
+> return an associated score.  So eg, if the user searches "San Francisco",
+> it should still return the above results, but obviously the score for the
+> document with "San Francisco" would be much higher.
+>
+> I've been doing this pretty easily using Lucene from Java, however I'm
+> unable to figure out how to do it using Solr.
+>
+> Much thanks
+

@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "That's good to hear. I didn't think there would be any reason that using\nlvm would impact solr's performance but wanted to see if there was anything\nI've missed.\n\nAs far as other performance goes, we use pcie and sata solid state drives\nsince the indexes are mostly too large to cache entirely in memory, and we\nhaven't had any performance problems so far. So I'm not expecting that to\nchange too much when moving the cloud architecture.\n\nThanks again.\n\n\nOn Thu, Jan 5, 2017 at 7:55 PM Shawn Heisey <apache@elyograg.org> wrote:\n\n> On 1/5/2017 3:12 PM, Chris Ulicny wrote:\n> > Is there any known significant performance impact of running solrcloud\n> with\n> > lvm on linux?\n> >\n> > While migrating to solrcloud we don't have the storage capacity for our\n> > expected final size, so we are planning on setting up the solrcloud\n> > instances on a logical volume that we can grow when hardware becomes\n> > available.\n>\n> Nothing specific.  Whatever the general performance impacts for LVM are\n> is what Solr would encounter when it reads and writes data to/from the\n> disk.\n>\n> If your system has enough memory for good performance, then disk reads\n> will be rare, so the performance of the storage volume wouldn't matter\n> much.  If you don't have enough memory, then the disk performance would\n> matter ...although Solr's performance at that point would probably be\n> bad enough that you'd be looking for ways to improve it.\n>\n> Here's some information:\n>\n> https://wiki.apache.org/solr/SolrPerformanceProblems\n>\n> Exactly how much memory is enough depends on enough factors that there's\n> no good general advice.  The only thing we can say in general is to\n> recommend the ideal setup -- where you have enough spare memory that\n> your OS can cache the ENTIRE index.  The ideal setup is usually not\n> required for good performance.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 438,
+      "end": 453,
+      "text": "\nThanks again.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 455,
+      "text": "That's good to hear. I didn't think there would be any reason that using\nlvm would impact solr's performance but wanted to see if there was anything\nI've missed.\n\nAs far as other performance goes, we use pcie and sata solid state drives\nsince the indexes are mostly too large to cache entirely in memory, and we\nhaven't had any performance problems so far. So I'm not expecting that to\nchange too much when moving the cloud architecture.\n\nThanks again.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 455,
+      "end": 528,
+      "text": "On Thu, Jan 5, 2017 at 7:55 PM Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 529,
+      "end": 572,
+      "text": "> On 1/5/2017 3:12 PM, Chris Ulicny wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 528,
+      "end": 529,
+      "text": "\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1829,
+      "end": 1849,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 572,
+      "end": 1854,
+      "text": "> > Is there any known significant performance impact of running solrcloud\n> with\n> > lvm on linux?\n> >\n> > While migrating to solrcloud we don't have the storage capacity for our\n> > expected final size, so we are planning on setting up the solrcloud\n> > instances on a logical volume that we can grow when hardware becomes\n> > available.\n>\n> Nothing specific.  Whatever the general performance impacts for LVM are\n> is what Solr would encounter when it reads and writes data to/from the\n> disk.\n>\n> If your system has enough memory for good performance, then disk reads\n> will be rare, so the performance of the storage volume wouldn't matter\n> much.  If you don't have enough memory, then the disk performance would\n> matter ...although Solr's performance at that point would probably be\n> bad enough that you'd be looking for ways to improve it.\n>\n> Here's some information:\n>\n> https://wiki.apache.org/solr/SolrPerformanceProblems\n>\n> Exactly how much memory is enough depends on enough factors that there's\n> no good general advice.  The only thing we can say in general is to\n> recommend the ideal setup -- where you have enough spare memory that\n> your OS can cache the ENTIRE index.  The ideal setup is usually not\n> required for good performance.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_123"
+}

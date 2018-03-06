@@ -1,0 +1,552 @@
+{
+  "wrapper": "plaintext",
+  "text": "Let's just keep it at 10 so we don't have to re-coordinate things.\n\n\n\n\t\"Patti Young\" <pyoung@cliverunnells.com>\n\t05/18/2001 12:34 PM\n\t\t \n\t\t To: <Tana.Jones@enron.com>\n\t\t cc: \n\t\t Subject: RE: Thursday\n\n\nI'm back.  I just changed my hair appt. to next week.  Would you rather meet\nat 9 or 9:30 in the a.m.?  Let me know soon so I can change everyone around.\nShould we leave it?  Phyllis is o.k. with either time.\n\n\n\n-----Original Message-----\nFrom: Tana.Jones@enron.com [mailto:Tana.Jones@enron.com]\nSent: Thursday, May 17, 2001 1:56 PM\nTo: pyoung@cliverunnells.com\nSubject: RE: Thursday\n\n\n\nPlease call Carol.  How about the Buffalo Grille, or is that too busy?\n\n\n\n                    \"Patti Young\"\n                    <pyoung@cliverun        To:     <Tana.Jones@enron.com>\n                    nells.com>              cc:\n                                            Subject:     RE: Thursday\n                    05/17/2001 05:53\n                    PM\n\n\n\n\n\n\nGood!!  If you want to get Hollie, Lucinda, etc., to come, please feel free\nto do so.  Is there any special place you want to go???\n\nI have been thinking about you as well.  I have your bicycle and will\nreturn\nit to you when you are ready for it.  I can bring it on Saturday.  Will it\nfit in your car?  If not, I can drop it by after breakfast.  Might need to\ncome by anyway to see what else you have done to it.\n\nI will call Carol, too, if you don't care.\n\n\n-----Original Message-----\nFrom: Tana.Jones@enron.com [mailto:Tana.Jones@enron.com]\nSent: Thursday, May 17, 2001 1:36 PM\nTo: pyoung@cliverunnells.com\nSubject: Re: Thursday\n\n\n\nBreakfast at 10:00 sounds great!  Wherever you want to go...also, I need to\nget my bike back from you, I might be doing some biking.  I've been\nthinking about you.  Hope all is going well.\n\n\n\n                    \"Patti Young\"\n                    <pyoung@cliverun        To:     \"Tana Jones\"\n<tana.jones@enron.com>\n                    nells.com>              cc:\n                                            Subject:     Thursday\n                    05/17/2001 05:33\n                    PM\n\n\n\n\n\n\nMiss Tana,\n\nIs there a chance you might like to try to get together this weekend?  I\nthought I would check with you first and then see if Phyllis is available.\n\nI have a hair appointment at 8 a.m. on Saturday.  We could do breakfast at\n10, or whatever...\n\nLet me know.\n\nPatti\n\n(\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 70,
+      "text": "Let's just keep it at 10 so we don't have to re-coordinate things.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 72,
+      "end": 83,
+      "text": "Patti Young",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 86,
+      "end": 110,
+      "text": "pyoung@cliverunnells.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 113,
+      "end": 123,
+      "text": "05/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 124,
+      "end": 132,
+      "text": "12:34 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 145,
+      "end": 165,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 187,
+      "end": 199,
+      "text": "RE: Thursday",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 71,
+      "end": 200,
+      "text": "\"Patti Young\" <pyoung@cliverunnells.com>\n\t05/18/2001 12:34 PM\n\t\t \n\t\t To: <Tana.Jones@enron.com>\n\t\t cc: \n\t\t Subject: RE: Thursday\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 200,
+      "end": 414,
+      "text": "\n\nI'm back.  I just changed my hair appt. to next week.  Would you rather meet\nat 9 or 9:30 in the a.m.?  Let me know soon so I can change everyone around.\nShould we leave it?  Phyllis is o.k. with either time.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 447,
+      "end": 467,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 476,
+      "end": 496,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 514,
+      "end": 526,
+      "text": "May 17, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 527,
+      "end": 534,
+      "text": "1:56 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 539,
+      "end": 563,
+      "text": "pyoung@cliverunnells.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 573,
+      "end": 585,
+      "text": "RE: Thursday",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 414,
+      "end": 586,
+      "text": "-----Original Message-----\nFrom: Tana.Jones@enron.com [mailto:Tana.Jones@enron.com]\nSent: Thursday, May 17, 2001 1:56 PM\nTo: pyoung@cliverunnells.com\nSubject: RE: Thursday\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 586,
+      "end": 663,
+      "text": "\n\n\nPlease call Carol.  How about the Buffalo Grille, or is that too busy?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2354,
+      "end": 2359,
+      "text": "Patti",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2084,
+      "end": 2093,
+      "text": "Miss Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2078,
+      "end": 2370,
+      "text": "\n\n\n\n\n\nMiss Tana,\n\nIs there a chance you might like to try to get together this weekend?  I\nthought I would check with you first and then see if Phyllis is available.\n\nI have a hair appointment at 8 a.m. on Saturday.  We could do breakfast at\n10, or whatever...\n\nLet me know.\n\nPatti\n\n(\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2038,
+      "end": 2048,
+      "text": "05/17/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2009,
+      "end": 2017,
+      "text": "Thursday",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1869,
+      "end": 1879,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1882,
+      "end": 1902,
+      "text": "tana.jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1803,
+      "end": 1814,
+      "text": "Patti Young",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1924,
+      "end": 1933,
+      "text": "nells.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1837,
+      "end": 1852,
+      "text": "pyoung@cliverun",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2049,
+      "end": 2054,
+      "text": "05:33",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2075,
+      "end": 2077,
+      "text": "PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 718,
+      "end": 733,
+      "text": "pyoung@cliverun",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 684,
+      "end": 695,
+      "text": "Patti Young",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 792,
+      "end": 801,
+      "text": "nells.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 877,
+      "end": 889,
+      "text": "RE: Thursday",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 750,
+      "end": 770,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 910,
+      "end": 920,
+      "text": "05/17/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 921,
+      "end": 926,
+      "text": "05:53",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 947,
+      "end": 949,
+      "text": "PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 663,
+      "end": 950,
+      "text": "                    \"Patti Young\"\n                    <pyoung@cliverun        To:     <Tana.Jones@enron.com>\n                    nells.com>              cc:\n                                            Subject:     RE: Thursday\n                    05/17/2001 05:53\n                    PM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 950,
+      "end": 1415,
+      "text": "\n\n\n\n\n\nGood!!  If you want to get Hollie, Lucinda, etc., to come, please feel free\nto do so.  Is there any special place you want to go???\n\nI have been thinking about you as well.  I have your bicycle and will\nreturn\nit to you when you are ready for it.  I can bring it on Saturday.  Will it\nfit in your car?  If not, I can drop it by after breakfast.  Might need to\ncome by anyway to see what else you have done to it.\n\nI will call Carol, too, if you don't care.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1782,
+      "end": 2078,
+      "text": "                    \"Patti Young\"\n                    <pyoung@cliverun        To:     \"Tana Jones\"\n<tana.jones@enron.com>\n                    nells.com>              cc:\n                                            Subject:     Thursday\n                    05/17/2001 05:33\n                    PM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1587,
+      "end": 1782,
+      "text": "\n\n\nBreakfast at 10:00 sounds great!  Wherever you want to go...also, I need to\nget my bike back from you, I might be doing some biking.  I've been\nthinking about you.  Hope all is going well.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1574,
+      "end": 1586,
+      "text": "Re: Thursday",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1540,
+      "end": 1564,
+      "text": "pyoung@cliverunnells.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1515,
+      "end": 1527,
+      "text": "May 17, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1528,
+      "end": 1535,
+      "text": "1:36 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1448,
+      "end": 1468,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1477,
+      "end": 1497,
+      "text": "Tana.Jones@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1415,
+      "end": 1587,
+      "text": "-----Original Message-----\nFrom: Tana.Jones@enron.com [mailto:Tana.Jones@enron.com]\nSent: Thursday, May 17, 2001 1:36 PM\nTo: pyoung@cliverunnells.com\nSubject: Re: Thursday\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 33,
+      "target": 31,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 31,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 38,
+      "target": 37,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 30,
+      "target": 29,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 27,
+      "target": 28,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 28,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 48,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 10,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 10,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 14,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 32,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 35,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 35,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 44,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 26,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 24,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 24,
+      "target": 48,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 19,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 18,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8988636.1075847380066.JavaMail.evans@thyme>",
+      "Date": "Fri, 18 May 2001 03:46:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "pyoung@cliverunnells.com",
+      "Subject": "RE: Thursday",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "\"Patti Young\" <pyoung@cliverunnells.com>@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_11927.txt"
+}

@@ -1,0 +1,151 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please disregard first set.\n\nPage numbering was incorrect.\n\nUse this package.\n\n\n---------------------------------------------------------------\n\nMungo Hardwicke-Brown\nBlake, Cassels & Graydon LLP\n#3500, 855 - 2nd Street S.W.\nCalgary, Alberta T2P 4J8\n403-260-9674 (telephone)\n403-260-9700 (facsimile)\nmhb@blakes.com (email)\n\nThis email communication is confidential and legally privileged.  If you are not the intended recipient, please notify me at the telephone number shown above or by return email and delete this communication and any copy immediately.\nThank you.\n\n - ERMT Documents - 2nd set.pdf ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 324,
+      "end": 568,
+      "text": "This email communication is confidential and legally privileged.  If you are not the intended recipient, please notify me at the telephone number shown above or by return email and delete this communication and any copy immediately.\nThank you.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 572,
+      "end": 600,
+      "text": "ERMT Documents - 2nd set.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 569,
+      "end": 601,
+      "text": " - ERMT Documents - 2nd set.pdf ",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 145,
+      "end": 166,
+      "text": "Mungo Hardwicke-Brown",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 167,
+      "end": 195,
+      "text": "Blake, Cassels & Graydon LLP",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 196,
+      "end": 249,
+      "text": "#3500, 855 - 2nd Street S.W.\nCalgary, Alberta T2P 4J8",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 250,
+      "end": 262,
+      "text": "403-260-9674",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 275,
+      "end": 287,
+      "text": "403-260-9700",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 300,
+      "end": 314,
+      "text": "mhb@blakes.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 80,
+      "end": 323,
+      "text": "---------------------------------------------------------------\n\nMungo Hardwicke-Brown\nBlake, Cassels & Graydon LLP\n#3500, 855 - 2nd Street S.W.\nCalgary, Alberta T2P 4J8\n403-260-9674 (telephone)\n403-260-9700 (facsimile)\nmhb@blakes.com (email)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 601,
+      "text": "Please disregard first set.\n\nPage numbering was incorrect.\n\nUse this package.\n\n\n---------------------------------------------------------------\n\nMungo Hardwicke-Brown\nBlake, Cassels & Graydon LLP\n#3500, 855 - 2nd Street S.W.\nCalgary, Alberta T2P 4J8\n403-260-9674 (telephone)\n403-260-9700 (facsimile)\nmhb@blakes.com (email)\n\nThis email communication is confidential and legally privileged.  If you are not the intended recipient, please notify me at the telephone number shown above or by return email and delete this communication and any copy immediately.\nThank you.\n\n - ERMT Documents - 2nd set.pdf ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10366836.1075861971197.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Nov 2001 15:35:59 -0800 (PST)",
+      "From": "mungo.hardwicke.brown@blakes.com",
+      "To": "legal <.taylor@enron.com>, morris.clark@enron.com, h..douglas@enron.com",
+      "Subject": "ERMT Documents - 2nd Set",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"MUNGO HARDWICKE-BROWN\" <mungo.hardwicke.brown@blakes.com>@ENRON",
+      "X-To": "Taylor, Mark E (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MTAYLO1>, Clark, Morris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MCLARK>, Douglas, Stephen H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SDOUGLA>, kbristor@skadden.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\MTAYLO1 (Non-Privileged)\\Taylor, Mark E (Legal)\\Archive\\2001/11",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "MTAYLO1 (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/taylor-m_archive_2001_11_47.txt"
+}

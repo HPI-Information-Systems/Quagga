@@ -1,0 +1,113 @@
+Yes, this is very strange. My bet: you have something
+custom, a setting, indexing code, whatever that
+is getting in the way.
+
+Second possibility (really stretching here): your
+merge settings are set to 10 segments having to exist
+before merging and somehow not all the docs in the
+segments are replaced. So until you get to the 10th
+re-index (and assuming a single segment is
+produced per re-index) the older segments aren't
+merged. If that were the case I'd expect to see the
+number of deleted docs drop back periodically
+then build up again. A real shot in the dark. One way
+to test this would be to specify "segmentsPerTier" of, say,
+2 rather than the default 10, see:
+https://cwiki.apache.org/confluence/display/solr/IndexConfig+in+SolrConfig
+If this were the case I'd expect with a setting of 2 that
+your index might have 50% deleted docs, that would at
+least tell us whether we're on the right track.
+
+Take a look at your index on disk. If you're seeing gaps
+in the numbering, you are getting merging, it may be
+that they're not happening very often.
+
+And I take it you have no custom code here and you are
+doing commits? (hard commits are all that matters
+for merging, it doesn't matter whether openSearcher
+is set to true or false).
+
+I just tried the "techproducts" example as follows:
+1> indexed all the sample files with the bin/solr -e techproducts example
+2> started re-indexing the sample docs one at a time with post.jar
+
+It took a while, but eventually the original segments got merged away so
+I doubt it's any weirdness with a small index.
+
+Speaking of small index, why are you sharding with only
+8K docs? Sharding will probably slow things down for such
+a small index. This isn't germane to your question though.
+
+Best,
+Erick
+
+
+On Wed, Apr 12, 2017 at 5:56 AM, Shawn Heisey <apache@elyograg.org> wrote:
+> On 4/12/2017 5:11 AM, Markus Jelsma wrote:
+>> One of our 2 shard collections is rather small and gets all its entries reindexed
+every 20 minutes orso. Now i just noticed maxDoc is ten times greater than numDoc, the merger
+is never scheduled but settings are default. We just overwrite the existing entries, all of
+them.
+>>
+>> Here are the stats:
+>>
+>> Last Modified:    12 minutes ago
+>> Num Docs:     8336
+>> Max Doc:    82362
+>> Heap Memory Usage:     -1
+>> Deleted Docs:     74026
+>> Version:     3125
+>> Segment Count:     10
+>
+> This discrepancy would typically mean that when you reindex, you're
+> indexing MOST of the documents, but not ALL of them, so at least one
+> document is still not deleted in each older segment.  When segments have
+> all their documents deleted, they are automatically removed by Lucene,
+> but if there's even one document NOT deleted, the segment will remain
+> until it is merged.
+>
+> There's no information here about how large this core is, but unless the
+> documents are REALLY enormous, I'm betting that an optimize would happen
+> quickly.  With a document count this low and an indexing pattern that
+> results in such a large maxdoc, this might be a good time to go against
+> general advice and perform an optimize at least once a day.
+>
+> An alternate idea that would not require optimizes:  If the intent is to
+> completely rebuild the index, you might want to consider issuing a
+> "delete all docs by query" before beginning the indexing process.  This
+> would ensure that none of the previous documents remain.  As long as you
+> don't do a commit that opens a new searcher before the indexing is
+> complete, clients won't ever know that everything was deleted.
+>
+>> This is the config:
+>>
+>>   <luceneMatchVersion>6.5.0</luceneMatchVersion>
+>>   <dataDir>${solr.data.dir:}</dataDir>
+>>   <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.NRTCachingDirectoryFactory}"/>
+>>   <codecFactory class="solr.SchemaCodecFactory"/>
+>>   <schemaFactory class="ClassicIndexSchemaFactory"/>
+>>
+>>   <indexConfig>
+>>     <lockType>${solr.lock.type:native}</lockType>
+>>      <infoStream>false</infoStream>
+>>   </indexConfig>
+>>
+>>   <jmx />
+>>
+>>   <updateHandler class="solr.DirectUpdateHandler2">
+>>     <updateLog>
+>>       <str name="dir">${solr.ulog.dir:}</str>
+>>     </updateLog>
+>>   </updateHandler>
+>
+> Side issue: This config is missing autoCommit.  You really should have
+> autoCommit with openSearcher set to false and a maxTime in the
+> neighborhood of 60000.  It goes inside the updateHandler section.  This
+> won't change the maxDoc issue, but because of the other problems it can
+> prevent, it is strongly recommended.  It can be omitted if you are
+> confident that your indexing code is correctly managing hard commits.
+>
+> Thanks,
+> Shawn
+>
+

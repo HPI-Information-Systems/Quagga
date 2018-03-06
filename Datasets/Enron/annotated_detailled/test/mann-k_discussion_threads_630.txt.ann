@@ -1,0 +1,331 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 09/12/2000 11:05 \nAM ---------------------------\n\n\nmichael.barnas@ps.ge.com on 09/07/2000 07:46:07 PM\nTo: stephen.swift@ps.ge.com, Sheila.Tweed.@enron.com, \nRoseann.Engeldorf@enron.com, Kay.Mann@enron.com, Scott.Dieball@enron.com, \nMartin.W.Penkwitz@enron.com\ncc: kent.shoemaker@ae.ge.com \n\nSubject: GE Language\n\n\nFolks,\n\nHaving conferred at last with my colleagues, I can now forward to you our\ndraft language for the Indemnity and LOL clauses.  As Steve mentioned in his\nearlier message, he has suggested some issues to discuss which could bring\nus closer to resolution on that issue.  Please let me know if you have any\nquestion!\n\nBest regards,\n\n\n\n Mike\ng _____________\nMichael C. Barnas\nCounsel, Power Plants Commercial Operations\nGE Power Systems\nOne River Road - Building 37, Room 307\nSchenectady,  NY 12345  USA\nPhone 8*235-7602       (518) 385 7602\nFax     8*235 5466        (518) 385 5466\nMobile 518 369 9538\n\n\n\n\n\n\n - MajorClausesGE01.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "09/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "11:05 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 09/12/2000 11:05 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 134,
+      "text": "michael.barnas@ps.ge.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 138,
+      "end": 148,
+      "text": "09/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 149,
+      "end": 160,
+      "text": "07:46:07 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 165,
+      "end": 188,
+      "text": "stephen.swift@ps.ge.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 190,
+      "end": 213,
+      "text": "Sheila.Tweed.@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 216,
+      "end": 243,
+      "text": "Roseann.Engeldorf@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 245,
+      "end": 263,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 264,
+      "end": 288,
+      "text": " Scott.Dieball@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 291,
+      "end": 318,
+      "text": "Martin.W.Penkwitz@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 323,
+      "end": 347,
+      "text": "kent.shoemaker@ae.ge.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 359,
+      "end": 370,
+      "text": "GE Language",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 108,
+      "end": 371,
+      "text": "\n\nmichael.barnas@ps.ge.com on 09/07/2000 07:46:07 PM\nTo: stephen.swift@ps.ge.com, Sheila.Tweed.@enron.com, \nRoseann.Engeldorf@enron.com, Kay.Mann@enron.com, Scott.Dieball@enron.com, \nMartin.W.Penkwitz@enron.com\ncc: kent.shoemaker@ae.ge.com \n\nSubject: GE Language\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 711,
+      "end": 715,
+      "text": "Mike",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 693,
+      "end": 716,
+      "text": "Best regards,\n\n\n\n Mike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 732,
+      "end": 749,
+      "text": "Michael C. Barnas",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 750,
+      "end": 793,
+      "text": "Counsel, Power Plants Commercial Operations",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 794,
+      "end": 810,
+      "text": "GE Power Systems",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 811,
+      "end": 877,
+      "text": "One River Road - Building 37, Room 307\nSchenectady,  NY 12345  USA",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 901,
+      "end": 915,
+      "text": "(518) 385 7602",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 942,
+      "end": 956,
+      "text": "(518) 385 5466",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 964,
+      "end": 976,
+      "text": "518 369 9538",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 716,
+      "end": 977,
+      "text": "g _____________\nMichael C. Barnas\nCounsel, Power Plants Commercial Operations\nGE Power Systems\nOne River Road - Building 37, Room 307\nSchenectady,  NY 12345  USA\nPhone 8*235-7602       (518) 385 7602\nFax     8*235 5466        (518) 385 5466\nMobile 518 369 9538\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 986,
+      "end": 1006,
+      "text": "MajorClausesGE01.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 983,
+      "end": 1007,
+      "text": " - MajorClausesGE01.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 371,
+      "end": 1007,
+      "text": "\n\nFolks,\n\nHaving conferred at last with my colleagues, I can now forward to you our\ndraft language for the Indemnity and LOL clauses.  As Steve mentioned in his\nearlier message, he has suggested some issues to discuss which could bring\nus closer to resolution on that issue.  Please let me know if you have any\nquestion!\n\nBest regards,\n\n\n\n Mike\ng _____________\nMichael C. Barnas\nCounsel, Power Plants Commercial Operations\nGE Power Systems\nOne River Road - Building 37, Room 307\nSchenectady,  NY 12345  USA\nPhone 8*235-7602       (518) 385 7602\nFax     8*235 5466        (518) 385 5466\nMobile 518 369 9538\n\n\n\n\n\n\n - MajorClausesGE01.doc\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 373,
+      "end": 380,
+      "text": "Folks,\n",
+      "type": "Body/Intro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 19,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 20,
+      "target": 19,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 19,
+      "target": 21,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 21,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 19,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 24,
+      "target": 19,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 25,
+      "target": 19,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 17,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27588892.1075845767683.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Sep 2000 04:05:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "john.schwartzenburg@enron.com",
+      "Subject": "GE Language",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "John Schwartzenburg",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_630.txt"
+}

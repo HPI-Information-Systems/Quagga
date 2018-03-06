@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here is my time sheet for the week of March 1st.  Thanks\nBen\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 57,
+      "end": 60,
+      "text": "Ben",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 50,
+      "end": 61,
+      "text": "Thanks\nBen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 61,
+      "text": "Here is my time sheet for the week of March 1st.  Thanks\nBen\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14063880.1075857185862.JavaMail.evans@thyme>",
+      "Date": "Wed, 1 Mar 2000 00:00:00 -0800 (PST)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "rebecca.torres@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Benjamin Rogers",
+      "X-To": "Rebecca Torres",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_288.txt"
+}

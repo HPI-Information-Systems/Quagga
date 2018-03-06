@@ -1,0 +1,99 @@
+<html><body><span style="font-family:Verdana; color:#000000; font-size:10pt;"><div>you
+may use hdfs file not local file under yarn.<br><br></div>
+<blockquote id="replyBlockquote" webmail="1" style="border-left: 2px solid blue; margin-left:
+8px; padding-left: 8px; font-size:10pt; color:black; font-family:verdana;">
+<div id="wmQuoteWrapper">
+-------- Original Message --------<br>
+Subject: spark-submit: file not found exception occurs<br>
+From: Shupeng Geng &lt;<a href="mailto:shupeng.geng@envisioncn.com">shupeng.geng@envisioncn.com</a>&gt;<br>
+Date: Thu, June 15, 2017 8:14 pm<br>
+To: "<a href="mailto:user@spark.apache.org">user@spark.apache.org</a>" &lt;<a
+href="mailto:user@spark.apache.org">user@spark.apache.org</a>&gt;,<br>
+"<a href="mailto:dev@spark.apache.org">dev@spark.apache.org</a>" &lt;<a
+href="mailto:dev@spark.apache.org">dev@spark.apache.org</a>&gt;<br>
+<br>
+    <style>
+ #wmQuoteWrapper /* Font Definitions */ @font-face  {font-family:\5B8B\4F53; panose-1:2 1
+6 0 3 1 1 1 1 1;}
+ #wmQuoteWrapper @font-face  {font-family:"Cambria Math"; panose-1:2 4 5 3 5 4 6 3 2 4;}
+ #wmQuoteWrapper @font-face  {font-family:Calibri; panose-1:2 15 5 2 2 2 4 3 2 4;}
+ #wmQuoteWrapper @font-face  {font-family:"\@\5B8B\4F53"; panose-1:2 1 6 0 3 1 1 1 1 1;}
+ #wmQuoteWrapper /* Style Definitions */ p.MsoNormal, #wmQuoteWrapper li.MsoNormal, #wmQuoteWrapper
+div.MsoNormal  {margin:0cm; margin-bottom:.0001pt; text-align:justify; text-justify:inter-ideograph;
+font-size:10.5pt; font-family:"Calibri","sans-serif";}
+ #wmQuoteWrapper a:link, #wmQuoteWrapper span.MsoHyperlink  {mso-style-priority:99; color:#0563C1;
+text-decoration:underline;}
+ #wmQuoteWrapper a:visited, #wmQuoteWrapper span.MsoHyperlinkFollowed  {mso-style-priority:99;
+color:#954F72; text-decoration:underline;}
+ #wmQuoteWrapper span.EmailStyle17  {mso-style-type:personal-compose; font-family:"Calibri","sans-serif";
+color:windowtext;}
+ #wmQuoteWrapper .MsoChpDefault  {mso-style-type:export-only; font-family:"Calibri","sans-serif";}
+ #wmQuoteWrapper /* Page Definitions */ @page WordSection1  {size:612.0pt 792.0pt; margin:72.0pt
+90.0pt 72.0pt 90.0pt;}
+ #wmQuoteWrapper div.WordSection1  {page:WordSection1;}
+
+</style>   <div class="WordSection1"> <div class="MsoNormal" style="font-size:12pt;"><span
+lang="EN-US">Hi, everyone,<o:p></o:p></span></div> <div class="MsoNormal"
+style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+An annoying problem occurs to me.<o:p></o:p></span></div> <div
+style="mso-element:para-border-div;border:none;border-bottom:double windowtext 6.75pt;padding:0cm
+0cm 1.0pt 0cm"> <div class="MsoNormal" style="font-size:12pt;border:none;padding:0cm"><span
+lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When submitting a spark job, the jar file not found exception is thrown as follows:<o:p></o:p></span></div>
+</div> <div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">does not existread
+"main" <a href="http://java.io">java.io</a>.FileNotFoundException: File file:/home/algo/shupeng/eeop_bridger/EeopBridger-1.0-SNAPSHOT.jar<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.RawLocalFileSystem.deprecatedGetFileStatus(RawLocalFileSystem.java:534)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.RawLocalFileSystem.getFileLinkStatusInternal(RawLocalFileSystem.java:747)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.RawLocalFileSystem.getFileStatus(RawLocalFileSystem.java:524)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:409)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:337)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:289)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.spark.deploy.yarn.Client.copyFileToRemote(Client.scala:340)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at <a href="http://org.apache.spark.deploy.yarn.Client.org">org.apache.spark.deploy.yarn.Client.org</a>$apache$spark$deploy$yarn$Client$$distribute$1(Client.scala:433)<o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.spark.deploy.yarn.Client$$anonfun$prepareLocalResources$10.apply(Client.scala:530)<o:p></o:p></span></div>
+<div style="mso-element:para-border-div;border:none;border-bottom:double windowtext 6.75pt;padding:0cm
+0cm 1.0pt 0cm"> <div class="MsoNormal" style="font-size:12pt;border:none;padding:0cm"><span
+lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+at org.apache.spark.deploy.yarn.Client$$anonfun$prepareLocalResources$10.apply(Client.scala:529)<o:p></o:p></span></div>
+</div> <div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">I’m pretty
+sure the file is located just where it should be. <o:p></o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">Here is the
+submit shell cmd:<o:p></o:p></span></div> <div class="MsoNormal"
+style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<div style="mso-element:para-border-div;border-top:double windowtext 6.75pt;border-left:none;border-bottom:double
+windowtext 6.75pt;border-right:none;padding:1.0pt 0cm 1.0pt 0cm"> <div class="MsoNormal"
+style="font-size:12pt;border:none;padding:0cm"><span lang="EN-US">/usr/local/hadoop/spark-release/bin/spark-submit
+--master yarn --deploy-mode cluster --queue root.algo --name eeop_bridiger --class Bridger
+EeopBridger-1.0-SNAPSHOT.jar<o:p></o:p></span></div> </div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<div class="MsoNormal" style="font-size:12pt;"><span lang="EN-US">Somebody give
+me some help, please. Many Thanks.<o:p></o:p></span></div> <div
+class="MsoNormal" style="font-size:12pt;"><span lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+</div> <br> <br> <br> 本邮件(包括任何附件）内容机密并受法律保护。如果您意外地收到这封邮件，请回复通知发件人并从当前系统中删除本邮件。任何未经授权者，严禁使用并部分或者全部的转发本条信息。任何未经授权的使用或传播都是被严格禁止的。远景能源与其分公司不对因不正确和不完整的转发此邮件包含的信息以及因任何因邮件延迟或对你的系统造成的损害而负责。远景能源不能保证此邮件的真实完整性,也不能确定此邮件是否含有病毒或者监听程序。
+<br> This email message (including any attachments) is confidential and may be legally
+privileged. If you have received it by mistake, please notify the sender by return email and
+delete this message from your system. Any unauthorized use or dissemination of this message
+in whole or in part is strictly prohibited. Envision Energy Limited and all its subsidiaries
+shall not be liable for the improper or incomplete transmission of the information contained
+in this email nor for any delay in its receipt or damage to your system. Envision Energy Limited
+does not guarantee the integrity of this email message, nor that this email message is free
+of viruses, interceptions, or interference.   
+</div>
+</blockquote></span></body></html>
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

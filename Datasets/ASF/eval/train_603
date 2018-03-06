@@ -1,0 +1,12 @@
+In  case anyone is having similar issues with Flink on Yarn on MapR, I
+managed to  solve
+<https://community.mapr.com/message/55664-re-netty-issues-while-deploying-flink-with-yarn-on-mapr>
+ 
+this issue with help from the MapR community.
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Netty-issues-while-deploying-Flink-with-Yarn-on-MapR-tp11411p11486.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+

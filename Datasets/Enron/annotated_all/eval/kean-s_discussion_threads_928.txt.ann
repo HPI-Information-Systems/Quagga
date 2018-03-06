@@ -1,0 +1,33 @@
+{
+  "wrapper": "enron",
+  "id": "eval/kean-s_discussion_threads_928.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<24635262.1075848093635.JavaMail.evans@thyme>",
+      "Date": "Wed, 16 Aug 2000 19:50:00 -0700 (PDT)",
+      "From": "john.ambler@enron.com",
+      "Subject": "Japan Power Plant Statement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "John Ambler",
+      "X-To": "Steven J Kean@EES, Mark Koenig@ENRON, Paula Rieker@ENRON, Mark Palmer@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "text": "Commencing with an NHK (Japanese public TV) report and quickly spreading to \nmedia inquiries and wire reports, earlier today a story spread through Japan \nthat the Enron affiliate E Power has immediate plans to build at least one \nlarge (1000 MW) power plant.   In fact,  appears that E Power has been \npursuing this prospect on a smaller scly, but nothing has progressed to high \nlevel management or board approval.\n\n\n\n\nWe are in the process of providing interviews and responding to inquiries \nfrom major Japanese media and others.  These inquiries have been in \nanticipation of the March 21 partial liberalization of the Japanese power \nsector.  These discussions also are being utilized to confirm that Enron will \nbe opening a merchant office in Japan.  This is in addition to the EnCom/E \nPower affiliate, which is focused on industrial power generation.  Attached \nare the Q&As we are using in response to media inquiries.\n\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 933,
+      "text": "Commencing with an NHK (Japanese public TV) report and quickly spreading to \nmedia inquiries and wire reports, earlier today a story spread through Japan \nthat the Enron affiliate E Power has immediate plans to build at least one \nlarge (1000 MW) power plant.   In fact,  appears that E Power has been \npursuing this prospect on a smaller scly, but nothing has progressed to high \nlevel management or board approval.\n\n\n\n\nWe are in the process of providing interviews and responding to inquiries \nfrom major Japanese media and others.  These inquiries have been in \nanticipation of the March 21 partial liberalization of the Japanese power \nsector.  These discussions also are being utilized to confirm that Enron will \nbe opening a merchant office in Japan.  This is in addition to the EnCom/E \nPower affiliate, which is focused on industrial power generation.  Attached \nare the Q&As we are using in response to media inquiries.\n\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

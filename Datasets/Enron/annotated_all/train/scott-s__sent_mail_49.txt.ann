@@ -1,0 +1,184 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Maria Victoria!  I'm planning to be there right at 12.  At the entrance \nthey usually have a table where you pick up your name tag; we can meet there \nif you like.  See you soon!\n\n\n\n\n\"Vargas, Maria Victoria\" <mvargas@AkinGump.com> on 11/16/2000 10:14:55 AM\nTo: \"'Susan.Scott@enron.com'\" <Susan.Scott@enron.com>\ncc:  \n\nSubject: CLE lunch/ presentation\n\n\nHello!!!\nHope things went really well for you last week/end.  I wanted to check if you \nwill be attending the CLE presentation today so that we can arrange to meet \nthere.\nMaria Victoria\n\nThe information contained in this e-mail message is intended only for the \npersonal and confidential use of the recipient(s) named above. This message \nmay be an attorney-client communication and/or work product and as such is \nprivileged and confidential. If the reader of this message is not the \nintended recipient or an agent responsible for delivering it to the intended \nrecipient, you are hereby notified that you have received this document in \nerror and that any review, dissemination, distribution, or copying of this \nmessage is strictly prohibited. If you have received this communication in \nerror, please notify us immediately by e-mail, and delete the original \nmessage.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 186,
+      "text": "Hi Maria Victoria!  I'm planning to be there right at 12.  At the entrance \nthey usually have a table where you pick up your name tag; we can meet there \nif you like.  See you soon!\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 3,
+      "end": 17,
+      "text": "Maria Victoria",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 18,
+      "text": "Hi Maria Victoria!",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 167,
+      "end": 181,
+      "text": " See you soon!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 187,
+      "end": 209,
+      "text": "Vargas, Maria Victoria",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 212,
+      "end": 232,
+      "text": "mvargas@AkinGump.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 237,
+      "end": 247,
+      "text": "11/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 248,
+      "end": 259,
+      "text": "10:14:55 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 266,
+      "end": 287,
+      "text": "Susan.Scott@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 291,
+      "end": 312,
+      "text": "Susan.Scott@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 330,
+      "end": 353,
+      "text": "CLE lunch/ presentation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 186,
+      "end": 354,
+      "text": "\"Vargas, Maria Victoria\" <mvargas@AkinGump.com> on 11/16/2000 10:14:55 AM\nTo: \"'Susan.Scott@enron.com'\" <Susan.Scott@enron.com>\ncc:  \n\nSubject: CLE lunch/ presentation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 528,
+      "end": 542,
+      "text": "Maria Victoria",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 356,
+      "end": 365,
+      "text": "Hello!!!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 544,
+      "end": 1230,
+      "text": "The information contained in this e-mail message is intended only for the \npersonal and confidential use of the recipient(s) named above. This message \nmay be an attorney-client communication and/or work product and as such is \nprivileged and confidential. If the reader of this message is not the \nintended recipient or an agent responsible for delivering it to the intended \nrecipient, you are hereby notified that you have received this document in \nerror and that any review, dissemination, distribution, or copying of this \nmessage is strictly prohibited. If you have received this communication in \nerror, please notify us immediately by e-mail, and delete the original \nmessage.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 354,
+      "end": 1233,
+      "text": "\n\nHello!!!\nHope things went really well for you last week/end.  I wanted to check if you \nwill be attending the CLE presentation today so that we can arrange to meet \nthere.\nMaria Victoria\n\nThe information contained in this e-mail message is intended only for the \npersonal and confidential use of the recipient(s) named above. This message \nmay be an attorney-client communication and/or work product and as such is \nprivileged and confidential. If the reader of this message is not the \nintended recipient or an agent responsible for delivering it to the intended \nrecipient, you are hereby notified that you have received this document in \nerror and that any review, dissemination, distribution, or copying of this \nmessage is strictly prohibited. If you have received this communication in \nerror, please notify us immediately by e-mail, and delete the original \nmessage.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26560549.1075846732639.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Nov 2000 02:17:00 -0800 (PST)",
+      "From": "susan.scott@enron.com",
+      "To": "mvargas@akingump.com",
+      "Subject": "Re: CLE lunch/ presentation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Susan Scott",
+      "X-To": "\"Vargas, Maria Victoria\" <mvargas@AkinGump.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\'sent mail",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s__sent_mail_49.txt"
+}

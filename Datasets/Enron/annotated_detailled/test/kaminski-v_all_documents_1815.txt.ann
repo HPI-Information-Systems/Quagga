@@ -1,0 +1,146 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/26/2001 \n04:49 PM ---------------------------\n\n\nStinson Gibner\n01/12/2001 04:16 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Research Re-Org\n\nPlease let me know of any corrections.\n--Stinson\n\nTeams reporting to Krishna, Tanya,  Mike, and Maureen have no changes.\n\nENA/EGM/EIM support to be primarily organized by type of support rather than \nby business line under Stinson and Vasant:\n\nStinson \n(EBS)     \nMartin Lin(*),  Shalesh Ganjoo, Chonawee Supatgiat, Iris Mack\n(Option Pricing)\nZimin Lu,  Alex Huang, Tom Halliburton,  Bob Lee,  Paulo Issler,  Ken \nParkhill,  Tom Barkley, Hector Campos\n\n\nVasant\n(Power)\nMartin Lin(*),    Lance Cunningham,    Sevil Yaman\n(Risk and Market analysis)\nAmitava Dhar,    Joe Hrgovcic,    Nelson Neale,   Kate Lucas\n\n\n\n(*) Martin to have the option of maintaining ties to EBS or to gradually move \nto mainly power fundamentals.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "01/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "04:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/26/2001 \n04:49 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 129,
+      "text": "Stinson Gibner",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 130,
+      "end": 140,
+      "text": "01/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 141,
+      "end": 149,
+      "text": "04:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 154,
+      "end": 170,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 198,
+      "end": 213,
+      "text": "Research Re-Org",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 113,
+      "end": 214,
+      "text": "\n\nStinson Gibner\n01/12/2001 04:16 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Research Re-Org\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 256,
+      "end": 263,
+      "text": "Stinson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 254,
+      "end": 264,
+      "text": "--Stinson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 214,
+      "end": 935,
+      "text": "\nPlease let me know of any corrections.\n--Stinson\n\nTeams reporting to Krishna, Tanya,  Mike, and Maureen have no changes.\n\nENA/EGM/EIM support to be primarily organized by type of support rather than \nby business line under Stinson and Vasant:\n\nStinson \n(EBS)     \nMartin Lin(*),  Shalesh Ganjoo, Chonawee Supatgiat, Iris Mack\n(Option Pricing)\nZimin Lu,  Alex Huang, Tom Halliburton,  Bob Lee,  Paulo Issler,  Ken \nParkhill,  Tom Barkley, Hector Campos\n\n\nVasant\n(Power)\nMartin Lin(*),    Lance Cunningham,    Sevil Yaman\n(Risk and Market analysis)\nAmitava Dhar,    Joe Hrgovcic,    Nelson Neale,   Kate Lucas\n\n\n\n(*) Martin to have the option of maintaining ties to EBS or to gradually move \nto mainly power fundamentals.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7312544.1075856225863.JavaMail.evans@thyme>",
+      "Date": "Fri, 26 Jan 2001 08:47:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Research Re-Org",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_1815.txt"
+}

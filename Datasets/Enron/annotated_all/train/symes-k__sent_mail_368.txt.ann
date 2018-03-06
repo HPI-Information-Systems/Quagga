@@ -1,0 +1,176 @@
+{
+  "wrapper": "plaintext",
+  "text": "550206 - price is in correctly at $187.27 because this deal is a sale from \nEPMI to EES\n (550205 is the deal where EPMI buys from EES - price is therefore $5 less \nthan weighted average, making it $177.27)\n\n552990 - price is in at $195 off peak and $295 on peak, which are the prices \nreflected in my worksheet \n Brooklyn may be looking at a price for a real time deal. If the desk is \nShort Term West Hourly, that means the deal was done in the    hour-ahead, \nnot day-ahead market, and the price will be different. Bill Williams at the \nreal time desk should be sending out a spreadsheet   outlining the deals \nthey've done on EES's behalf. \n\nPlease let me know if this answers your questions. Or call and we can discuss \nit person to person.\n\nThanks,\nKate Symes\nTrading Support\n503-464-7486\n\n\n\n\n\n\nMark Confer\n03/23/2001 06:19 AM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Two More Questions\n\nDeal 550206.1 12-15 2.65 mw's $187.27 is this another curtailment.\n\nDeal 552990.1 99.08 mw's $195.  Brooklyn has your schedule showing priced at \n$499.08?\n\n\nThanks\n\nMark \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 754,
+      "end": 764,
+      "text": "Kate Symes",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 765,
+      "end": 780,
+      "text": "Trading Support",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 781,
+      "end": 793,
+      "text": "503-464-7486",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 765,
+      "end": 794,
+      "text": "Trading Support\n503-464-7486\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 746,
+      "end": 794,
+      "text": "Thanks,\nKate Symes\nTrading Support\n503-464-7486\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 800,
+      "text": "550206 - price is in correctly at $187.27 because this deal is a sale from \nEPMI to EES\n (550205 is the deal where EPMI buys from EES - price is therefore $5 less \nthan weighted average, making it $177.27)\n\n552990 - price is in at $195 off peak and $295 on peak, which are the prices \nreflected in my worksheet \n Brooklyn may be looking at a price for a real time deal. If the desk is \nShort Term West Hourly, that means the deal was done in the    hour-ahead, \nnot day-ahead market, and the price will be different. Bill Williams at the \nreal time desk should be sending out a spreadsheet   outlining the deals \nthey've done on EES's behalf. \n\nPlease let me know if this answers your questions. Or call and we can discuss \nit person to person.\n\nThanks,\nKate Symes\nTrading Support\n503-464-7486\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 800,
+      "end": 811,
+      "text": "Mark Confer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 812,
+      "end": 822,
+      "text": "03/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 823,
+      "end": 831,
+      "text": "06:19 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 836,
+      "end": 846,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 875,
+      "end": 893,
+      "text": "Two More Questions",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 800,
+      "end": 894,
+      "text": "Mark Confer\n03/23/2001 06:19 AM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Two More Questions\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1060,
+      "end": 1065,
+      "text": "Mark ",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1052,
+      "end": 1066,
+      "text": "Thanks\n\nMark \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 894,
+      "end": 1067,
+      "text": "\nDeal 550206.1 12-15 2.65 mw's $187.27 is this another curtailment.\n\nDeal 552990.1 99.08 mw's $195.  Brooklyn has your schedule showing priced at \n$499.08?\n\n\nThanks\n\nMark \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13396043.1075841918298.JavaMail.evans@thyme>",
+      "Date": "Fri, 23 Mar 2001 02:30:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "mark.confer@enron.com",
+      "Subject": "Re: Two More Questions",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Mark Confer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\'sent mail",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k__sent_mail_368.txt"
+}

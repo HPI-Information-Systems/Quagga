@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nGuessing it's a timing issue. Once you started the query the batch 0 did\nnot have rows to save or didn't start yet (it's a separate thread) and so\nspark.sql ran once and saved nothing.\n\nYou should rather use foreach writer to save results to Hive.\n\nJacek\n\nOn 29 Sep 2017 11:36 am, \"HanPan\" <panda@thinkingdata.cn> wrote:\n\n> Hi guys,\n>\n>\n>\n>      I\u00e2\u20ac\u2122m new to spark structured streaming. I\u00e2\u20ac\u2122m using 2.1.0 and my\n> scenario is reading specific topic from kafka and do some data mining\n> tasks, then save the result dataset to hive.\n>\n>      While writing data to hive, somehow it seems like not supported yet\n> and I tried this:\n>\n>    It runs ok, but no result in hive.\n>\n>\n>\n>    Any idea writing the stream result to hive?\n>\n>\n>\n> Thanks\n>\n> Pan\n>\n>\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 253,
+      "end": 260,
+      "text": "\nJacek\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 261,
+      "text": "Hi,\n\nGuessing it's a timing issue. Once you started the query the batch 0 did\nnot have rows to save or didn't start yet (it's a separate thread) and so\nspark.sql ran once and saved nothing.\n\nYou should rather use foreach writer to save results to Hive.\n\nJacek\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 261,
+      "end": 326,
+      "text": "On 29 Sep 2017 11:36 am, \"HanPan\" <panda@thinkingdata.cn> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 326,
+      "end": 338,
+      "text": "\n> Hi guys,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 734,
+      "end": 753,
+      "text": ">\n> Thanks\n>\n> Pan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 326,
+      "end": 764,
+      "text": "\n> Hi guys,\n>\n>\n>\n>      I\u00e2\u20ac\u2122m new to spark structured streaming. I\u00e2\u20ac\u2122m using 2.1.0 and my\n> scenario is reading specific topic from kafka and do some data mining\n> tasks, then save the result dataset to hive.\n>\n>      While writing data to hive, somehow it seems like not supported yet\n> and I tried this:\n>\n>    It runs ok, but no result in hive.\n>\n>\n>\n>    Any idea writing the stream result to hive?\n>\n>\n>\n> Thanks\n>\n> Pan\n>\n>\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5484"
+}

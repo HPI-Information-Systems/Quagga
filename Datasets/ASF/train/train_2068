@@ -1,0 +1,9 @@
+When we restart solr on a leader node while we are doing updates, we've
+noticed that some small percentage of data is lost.  maybe 9 records out of
+1k.  Updating using min_rf=3 or full quorum seems to resolve this since our
+rf = 3.  Updates then seem to only succeed when all nodes are back up. Why
+would we see record loss during a node restart?  I assumed the transaction
+log would get replayed.  We have a 4 node cluster with 24 shards.
+
+-shawn
+

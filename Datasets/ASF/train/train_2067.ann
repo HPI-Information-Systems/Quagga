@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "Yes, one to many fetches will be implemented.\n\nAt the moment there isn't a workaround that I can think of.\n\nIf you decide to work on a patch for fetch I'll review the patch.\n\nJoel Bernstein\nhttp://joelsolr.blogspot.com/\n\nOn Mon, Mar 27, 2017 at 2:33 PM, adfel70 <adfel70@gmail.com> wrote:\n\n> Any ideas how to workaround this with the current streaming capabilities?\n>\n>\n>\n>\n>\n> --\n> View this message in context: http://lucene.472066.n3.\n> nabble.com/Streaming-expressions-Any-plans-to-add-\n> one-to-many-fetches-to-the-fetch-decorator-tp4326989.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 175,
+      "end": 220,
+      "text": "Joel Bernstein\nhttp://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 221,
+      "end": 289,
+      "text": "On Mon, Mar 27, 2017 at 2:33 PM, adfel70 <adfel70@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 289,
+      "end": 618,
+      "text": "\n> Any ideas how to workaround this with the current streaming capabilities?\n>\n>\n>\n>\n>\n> --\n> View this message in context: http://lucene.472066.n3.\n> nabble.com/Streaming-expressions-Any-plans-to-add-\n> one-to-many-fetches-to-the-fetch-decorator-tp4326989.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 221,
+      "text": "Yes, one to many fetches will be implemented.\n\nAt the moment there isn't a workaround that I can think of.\n\nIf you decide to work on a patch for fetch I'll review the patch.\n\nJoel Bernstein\nhttp://joelsolr.blogspot.com/\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2067"
+}

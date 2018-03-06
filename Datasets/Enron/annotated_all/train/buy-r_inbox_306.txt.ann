@@ -1,0 +1,157 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nYou're sending biz e-mails at 7:30 on Saturday morning?  You must have kids---at any rate, thanks for the note.  Am glad things worked out well and that you were so flexible re: scheduling---let me know if you need anything going forward (as I assume you will be)---and if I don't talk to you, (try to) have a terrific holiday! \n\nmb\n\n\nMarcy Brinegar\nMBM Consultants\n(770) 886-6202 (Office)\n(678) 234-7644 (Cell)\n(770) 886-8202 (fax)\nbrinconsult@aol.com\nmbmconsult@adelphia.net",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 331,
+      "end": 333,
+      "text": "mb",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 336,
+      "end": 350,
+      "text": "Marcy Brinegar",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 351,
+      "end": 366,
+      "text": "MBM Consultants",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 367,
+      "end": 381,
+      "text": "(770) 886-6202",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 391,
+      "end": 405,
+      "text": "(678) 234-7644",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 413,
+      "end": 427,
+      "text": "(770) 886-8202",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 434,
+      "end": 453,
+      "text": "brinconsult@aol.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 454,
+      "end": 477,
+      "text": "mbmconsult@adelphia.net",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 336,
+      "end": 477,
+      "text": "Marcy Brinegar\nMBM Consultants\n(770) 886-6202 (Office)\n(678) 234-7644 (Cell)\n(770) 886-8202 (fax)\nbrinconsult@aol.com\nmbmconsult@adelphia.net",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 477,
+      "text": "\nYou're sending biz e-mails at 7:30 on Saturday morning?  You must have kids---at any rate, thanks for the note.  Am glad things worked out well and that you were so flexible re: scheduling---let me know if you need anything going forward (as I assume you will be)---and if I don't talk to you, (try to) have a terrific holiday! \n\nmb\n\n\nMarcy Brinegar\nMBM Consultants\n(770) 886-6202 (Office)\n(678) 234-7644 (Cell)\n(770) 886-8202 (fax)\nbrinconsult@aol.com\nmbmconsult@adelphia.net",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 7,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 8,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17354834.1075840387247.JavaMail.evans@thyme>",
+      "Date": "Mon, 10 Dec 2001 09:15:00 -0800 (PST)",
+      "From": "brinconsult@aol.com",
+      "To": "rick.buy@enron.com",
+      "Subject": "Re: Energy Project - minor little detail",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brinconsult@aol.com",
+      "X-To": "Buy, Rick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RBUY>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\rbuy\\Inbox",
+      "X-Origin": "BUY-R",
+      "X-FileName": "richard buy 1-30-02..pst"
+    }
+  },
+  "id": "train/buy-r_inbox_306.txt"
+}

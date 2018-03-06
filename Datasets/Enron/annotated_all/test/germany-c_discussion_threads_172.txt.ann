@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Paul Drexelius/CES/ColumbiaGas on 12/27/99\n08:07 AM ---------------------------\n\n\nMarianne Stiles\n12/22/99 04:00 PM\n\nTo: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas\ncc: Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Noel\nBartlo/CES/ColumbiaGas@ColumbiaGas, Joanne \nSwogger/CES/ColumbiaGas@ColumbiaGas,\nFrank Kronz/CES/ColumbiaGas@ColumbiaGas, Brian\nPerrone/CES/ColumbiaGas@ColumbiaGas, Melissa\nFlewellyn/CES/ColumbiaGas@ColumbiaGas, Morgan\nSharifi/CES/ColumbiaGas@ColumbiaGas\nSubject: January 2000 AGT volumes\n\nHere are the approximate January daily volumes for each of the gates.   Please\ndo not forget that January 1 and January 2 will be lower because of the\nweekend/holiday.    I know you wanted an exact volume for 1/1 but I will not\nhave that for all of the Algonquin markets until Monday, 12/27.      We will\nneed a range from 3200 dth to 4200 dth per day.   This large swing is normal\nfor these types of markets due to weekends, weather, and customer situations.\n\n\n\n\n - agt012000.xls",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 116,
+      "text": "---------------------- Forwarded by Paul Drexelius/CES/ColumbiaGas on 12/27/99\n08:07 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 116,
+      "end": 543,
+      "text": "\n\nMarianne Stiles\n12/22/99 04:00 PM\n\nTo: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas\ncc: Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Noel\nBartlo/CES/ColumbiaGas@ColumbiaGas, Joanne \nSwogger/CES/ColumbiaGas@ColumbiaGas,\nFrank Kronz/CES/ColumbiaGas@ColumbiaGas, Brian\nPerrone/CES/ColumbiaGas@ColumbiaGas, Melissa\nFlewellyn/CES/ColumbiaGas@ColumbiaGas, Morgan\nSharifi/CES/ColumbiaGas@ColumbiaGas\nSubject: January 2000 AGT volumes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 543,
+      "end": 1024,
+      "text": "\nHere are the approximate January daily volumes for each of the gates.   Please\ndo not forget that January 1 and January 2 will be lower because of the\nweekend/holiday.    I know you wanted an exact volume for 1/1 but I will not\nhave that for all of the Algonquin markets until Monday, 12/27.      We will\nneed a range from 3200 dth to 4200 dth per day.   This large swing is normal\nfor these types of markets due to weekends, weather, and customer situations.\n\n\n\n\n - agt012000.xls",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27107157.1075853735351.JavaMail.evans@thyme>",
+      "Date": "Mon, 27 Dec 1999 06:01:00 -0800 (PST)",
+      "From": "pdrexel@columbiaenergygroup.com",
+      "To": "chris.germany@enron.com",
+      "Subject": "January 2000 AGT volumes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "pdrexel@columbiaenergygroup.com",
+      "X-To": "Chris Germany",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_discussion_threads_172.txt"
+}

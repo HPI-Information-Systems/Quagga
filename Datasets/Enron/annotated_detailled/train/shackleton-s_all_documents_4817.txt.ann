@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "I am finalizing the negotiation of the ISDA Master Agreement with SITA.  You \nwill recall that this is an ECTRIC; master NOT ENA.  SITA has (1) requested \nevidence of EEFT's ability to sign for ECTRIC and (2) confirmation that \"EEFT \nis signing on the basis of their authority under the investment services \ndirective\".  Would you please provide directly to SITA's lawyers as follows:\n\nSusan Hopkinson and Sharon Lewis at Lovells in Paris:\n\nsusan.hopkinson@lovells.com\nsharon.lewis@lovells.com\n\nIf you require phone or fax:\n\nTel:  33 1 53 67 47 47\nFax:  33 1 47 23 96 12\n\nPlease let me know when you have satisfied this request.  Thanks.  Sara",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 639,
+      "end": 643,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 630,
+      "end": 643,
+      "text": "Thanks.  Sara",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 643,
+      "text": "I am finalizing the negotiation of the ISDA Master Agreement with SITA.  You \nwill recall that this is an ECTRIC; master NOT ENA.  SITA has (1) requested \nevidence of EEFT's ability to sign for ECTRIC and (2) confirmation that \"EEFT \nis signing on the basis of their authority under the investment services \ndirective\".  Would you please provide directly to SITA's lawyers as follows:\n\nSusan Hopkinson and Sharon Lewis at Lovells in Paris:\n\nsusan.hopkinson@lovells.com\nsharon.lewis@lovells.com\n\nIf you require phone or fax:\n\nTel:  33 1 53 67 47 47\nFax:  33 1 47 23 96 12\n\nPlease let me know when you have satisfied this request.  Thanks.  Sara",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20495944.1075844435041.JavaMail.evans@thyme>",
+      "Date": "Wed, 22 Nov 2000 01:22:00 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "paul.simons@enron.com, matthew.dawson@enron.com",
+      "Subject": "SITA master agreement with ECTRIC",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Paul Simons, Matthew Dawson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_4817.txt"
+}

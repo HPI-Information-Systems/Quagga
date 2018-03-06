@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Try tachyon.. its less fuss\n\n\nOn Fri, 29 Sep 2017 at 8:32 PM lucas.gary@gmail.com <lucas.gary@gmail.com>\nwrote:\n\n> We use S3, there are caveats and issues with that but it can be made to\n> work.\n>\n> If interested let me know and I'll show you our workarounds.  I wouldn't\n> do it naively though, there's lots of potential problems.  If you already\n> have HDFS use that, otherwise all things told it's probably less effort to\n> use S3.\n>\n> Gary\n>\n> On 29 September 2017 at 05:03, Arun Rai <arunkumarrai@gmail.com> wrote:\n>\n>> Or you can try mounting that drive to all node.\n>>\n>> On Fri, Sep 29, 2017 at 6:14 AM J\u00c3\u00b6rn Franke <jornfranke@gmail.com> wrote:\n>>\n>>> You should use a distributed filesystem such as HDFS. If you want to use\n>>> the local filesystem then you have to copy each file to each node.\n>>>\n>>>\n>>>\n>>>\n>>>\n>>> > On 29. Sep 2017, at 12:05, Gaurav1809 <gauravhpandya@gmail.com> wrote:\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Hi All,\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > I have multi node architecture of (1 master,2 workers) Spark cluster,\n>>> the\n>>>\n>>>\n>>> > job runs to read CSV file data and it works fine when run on local mode\n>>>\n>>>\n>>> > (Local(*)).\n>>>\n>>>\n>>> > However, when the same job is ran in cluster mode(Spark://HOST:PORT),\n>>> it is\n>>>\n>>>\n>>> > not able to read it.\n>>>\n>>>\n>>> > I want to know how to reference the files Or where to store them?\n>>> Currently\n>>>\n>>>\n>>> > the CSV data file is on master(from where the job is submitted).\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Following code works fine in local mode but not in cluster mode.\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > val spark = SparkSession\n>>>\n>>>\n>>> >      .builder()\n>>>\n>>>\n>>> >      .appName(\"SampleFlightsApp\")\n>>>\n>>>\n>>> >      .master(\"spark://masterIP:7077\") // change it to\n>>> .master(\"local[*])\n>>>\n>>>\n>>> > for local mode\n>>>\n>>>\n>>> >      .getOrCreate()\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >    val flightDF =\n>>>\n>>>\n>>> > spark.read.option(\"header\",true).csv(\"/home/username/sampleflightdata\")\n>>>\n>>>\n>>> >    flightDF.printSchema()\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Error: FileNotFoundException: File\n>>> file:/home/username/sampleflightdata does\n>>>\n>>>\n>>> > not exist\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > --\n>>>\n>>>\n>>> > Sent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > ---------------------------------------------------------------------\n>>>\n>>>\n>>> > To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>>\n>>>\n>>>\n>>> ---------------------------------------------------------------------\n>>>\n>>>\n>>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>\n>>>\n>>>\n>>>\n>>>\n>>>\n>>\n>>\n>\n>\n> --\nSent from Gmail Mobile\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 30,
+      "text": "Try tachyon.. its less fuss\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 30,
+      "end": 112,
+      "text": "On Fri, 29 Sep 2017 at 8:32 PM lucas.gary@gmail.com <lucas.gary@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 435,
+      "end": 444,
+      "text": ">\n> Gary\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 112,
+      "end": 446,
+      "text": "\n> We use S3, there are caveats and issues with that but it can be made to\n> work.\n>\n> If interested let me know and I'll show you our workarounds.  I wouldn't\n> do it naively though, there's lots of potential problems.  If you already\n> have HDFS use that, otherwise all things told it's probably less effort to\n> use S3.\n>\n> Gary\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 446,
+      "end": 520,
+      "text": "> On 29 September 2017 at 05:03, Arun Rai <arunkumarrai@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 520,
+      "end": 576,
+      "text": ">\n>> Or you can try mounting that drive to all node.\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 576,
+      "end": 654,
+      "text": ">> On Fri, Sep 29, 2017 at 6:14 AM J\u00c3\u00b6rn Franke <jornfranke@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 825,
+      "end": 902,
+      "text": ">>> > On 29. Sep 2017, at 12:05, Gaurav1809 <gauravhpandya@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 654,
+      "end": 825,
+      "text": ">>\n>>> You should use a distributed filesystem such as HDFS. If you want to use\n>>> the local filesystem then you have to copy each file to each node.\n>>>\n>>>\n>>>\n>>>\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 920,
+      "end": 938,
+      "text": ">>>\n>>> > Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 902,
+      "end": 2687,
+      "text": ">>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Hi All,\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > I have multi node architecture of (1 master,2 workers) Spark cluster,\n>>> the\n>>>\n>>>\n>>> > job runs to read CSV file data and it works fine when run on local mode\n>>>\n>>>\n>>> > (Local(*)).\n>>>\n>>>\n>>> > However, when the same job is ran in cluster mode(Spark://HOST:PORT),\n>>> it is\n>>>\n>>>\n>>> > not able to read it.\n>>>\n>>>\n>>> > I want to know how to reference the files Or where to store them?\n>>> Currently\n>>>\n>>>\n>>> > the CSV data file is on master(from where the job is submitted).\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Following code works fine in local mode but not in cluster mode.\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > val spark = SparkSession\n>>>\n>>>\n>>> >      .builder()\n>>>\n>>>\n>>> >      .appName(\"SampleFlightsApp\")\n>>>\n>>>\n>>> >      .master(\"spark://masterIP:7077\") // change it to\n>>> .master(\"local[*])\n>>>\n>>>\n>>> > for local mode\n>>>\n>>>\n>>> >      .getOrCreate()\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >    val flightDF =\n>>>\n>>>\n>>> > spark.read.option(\"header\",true).csv(\"/home/username/sampleflightdata\")\n>>>\n>>>\n>>> >    flightDF.printSchema()\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > Error: FileNotFoundException: File\n>>> file:/home/username/sampleflightdata does\n>>>\n>>>\n>>> > not exist\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > --\n>>>\n>>>\n>>> > Sent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>> > ---------------------------------------------------------------------\n>>>\n>>>\n>>> > To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>\n>>>\n>>> >\n>>>\n>>>\n>>>\n>>>\n>>>\n>>> ---------------------------------------------------------------------\n>>>\n>>>\n>>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>\n>>>\n>>>\n>>>\n>>>\n>>>\n>>\n>>\n>\n>\n> --\nSent from Gmail Mobile\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5492"
+}

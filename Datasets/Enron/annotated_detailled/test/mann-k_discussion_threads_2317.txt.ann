@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have attached two documents below --\n\n\nLetter directed to SW to address their claim that title had passed -- \n\n\n\nUpdated version of project chronology -- \n\n\nThe Project Chronology document indicates letters or correspondence I am \ntrying to track down from EECC.  I would appreciate your comments on the \nletter I plan to send to SW in repsonse to the December 8th fax and any \nupdates to the chronolgy that appear to be incorrect or lacking.\n\nPlease call me if you have any questions.  Thanks, Ron.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 497,
+      "end": 500,
+      "text": "Ron",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 489,
+      "end": 500,
+      "text": "Thanks, Ron",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 501,
+      "text": "I have attached two documents below --\n\n\nLetter directed to SW to address their claim that title had passed -- \n\n\n\nUpdated version of project chronology -- \n\n\nThe Project Chronology document indicates letters or correspondence I am \ntrying to track down from EECC.  I would appreciate your comments on the \nletter I plan to send to SW in repsonse to the December 8th fax and any \nupdates to the chronolgy that appear to be incorrect or lacking.\n\nPlease call me if you have any questions.  Thanks, Ron.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14238809.1075845809297.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 Jan 2001 03:32:00 -0800 (PST)",
+      "From": "ron.tapscott@enron.com",
+      "To": "ben.jacoby@enron.com",
+      "Subject": "501d5a",
+      "Cc": "kay.mann@enron.com, james.studdert@enron.com, chris.booth@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kay.mann@enron.com, james.studdert@enron.com, chris.booth@enron.com",
+      "X-From": "Ron Tapscott",
+      "X-To": "Ben Jacoby",
+      "X-cc": "Kay Mann, James P Studdert, Chris Booth",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_2317.txt"
+}

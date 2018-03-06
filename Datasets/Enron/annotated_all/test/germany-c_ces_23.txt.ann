@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "The attached file contains our daily volume requirements for  7/31(7/31A) and\n8/1(7/31B) and  the following day(s) as listed .    There are three  \nworksheets\nlabelled as follows:\n\n'Total Reqs':  Contains the volumes that CES is requesting from Enron at each\nof the delivery points and dates indicated in the columns labelled \"NOM\".   \nThe\nEnron schedulers will want to check this sheet to see how much gas is needed \nat\na specific point.   The AGL volumes are not timely and should be ignored until\nfurther notice.    CES schedulers note:  the attached file is archived on\nP:\\Energy Ops\\Enron\\May_00\\Daily\\ *.xls, so you don't have to save a duplicate\ncopy elsewhere on the network.\n'Daily Change' :  shows the change (increase +/decrease -) in the daily volume\nneeded from Enron at the designated citygate delivery point relative to the\nsupply volumes arranged previously with Enron prior to the current date.  For\nthe current gas day, the change is an intra-day change and is calculated using\nthe previous day's volume request for the current day (e.g., If the current \ngas\nday is 3/28, then the change is computed with respect to the 3/27 request for\n3/28.  Note that this procedure assumes that the prior day supply change was \nin\nfact effectuated).  For tomorrow's gas day and any subsequent ones shown, the\nchange is computed as the latest Dth Nomination requirement less the\nFirst-of-the-month supply volume plus or minus any adjustments made since the\nfirst-of-the-month to the FOM supply for the (future) days shown.  (e.g., If\ntoday is 3/28, then the change for 3/29, 3/30, etc. is computed with respect \nto\nthe first-of-the-month volumes for those days adjusted for any additional\npurchases or sell-backs since the first-of-the-month thru 3/27.)   This sheet\nshould be useful in determining prices for daily changes in gas volumes that \nwe\ntake or turn back.   The column labelled \"ENA Daily Swing +/- vs FOM volume'\nshows the absolute magnitude of the daily swings allowed by ENA at\npre-specified prices.  Prices for Swing volumes exceeding these magnitudes or\nfor swings at delivery points without pre-specified pricing must be \nnegotiated.\n'Comments':   Contains comments on selected items on various days.\n\n\n\n\n\nHans Herzog\nph: 703 561 6331\nfax: 703 561 7317\n\n - 07-31A-00 daily vols.xls\n - 07-31B-00 daily vols.xls",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2226,
+      "end": 2274,
+      "text": "\nHans Herzog\nph: 703 561 6331\nfax: 703 561 7317\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2330,
+      "text": "The attached file contains our daily volume requirements for  7/31(7/31A) and\n8/1(7/31B) and  the following day(s) as listed .    There are three  \nworksheets\nlabelled as follows:\n\n'Total Reqs':  Contains the volumes that CES is requesting from Enron at each\nof the delivery points and dates indicated in the columns labelled \"NOM\".   \nThe\nEnron schedulers will want to check this sheet to see how much gas is needed \nat\na specific point.   The AGL volumes are not timely and should be ignored until\nfurther notice.    CES schedulers note:  the attached file is archived on\nP:\\Energy Ops\\Enron\\May_00\\Daily\\ *.xls, so you don't have to save a duplicate\ncopy elsewhere on the network.\n'Daily Change' :  shows the change (increase +/decrease -) in the daily volume\nneeded from Enron at the designated citygate delivery point relative to the\nsupply volumes arranged previously with Enron prior to the current date.  For\nthe current gas day, the change is an intra-day change and is calculated using\nthe previous day's volume request for the current day (e.g., If the current \ngas\nday is 3/28, then the change is computed with respect to the 3/27 request for\n3/28.  Note that this procedure assumes that the prior day supply change was \nin\nfact effectuated).  For tomorrow's gas day and any subsequent ones shown, the\nchange is computed as the latest Dth Nomination requirement less the\nFirst-of-the-month supply volume plus or minus any adjustments made since the\nfirst-of-the-month to the FOM supply for the (future) days shown.  (e.g., If\ntoday is 3/28, then the change for 3/29, 3/30, etc. is computed with respect \nto\nthe first-of-the-month volumes for those days adjusted for any additional\npurchases or sell-backs since the first-of-the-month thru 3/27.)   This sheet\nshould be useful in determining prices for daily changes in gas volumes that \nwe\ntake or turn back.   The column labelled \"ENA Daily Swing +/- vs FOM volume'\nshows the absolute magnitude of the daily swings allowed by ENA at\npre-specified prices.  Prices for Swing volumes exceeding these magnitudes or\nfor swings at delivery points without pre-specified pricing must be \nnegotiated.\n'Comments':   Contains comments on selected items on various days.\n\n\n\n\n\nHans Herzog\nph: 703 561 6331\nfax: 703 561 7317\n\n - 07-31A-00 daily vols.xls\n - 07-31B-00 daily vols.xls",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25570275.1075853725819.JavaMail.evans@thyme>",
+      "Date": "Mon, 31 Jul 2000 03:04:00 -0700 (PDT)",
+      "From": "hherzog@columbiaenergygroup.com",
+      "To": "kevin.ruscitti@enron.com, chris.germany@enron.com",
+      "Subject": "CES Daily for Jul'00 Requirements for 7/31/00 and 8/1/00 and",
+      "Cc": "hherzog@columbiaenergygroup.com, cdalpho@columbiaenergygroup.com, \n\tdjones1@columbiaenergygroup.com, kdestep@columbiaenergygroup.com, \n\tcfrankl2@enron.com, vversen@enron.com, cindy.vachuska@enron.com, \n\tcora_pendergrass@enron.com, mmitche2@enron.com, \n\tscott.goodell@enron.com, steve.gillespie@enron.com, \n\tcgarcia@enron.com, despey@enron.com, joann.collins@enron.com, \n\tdkinney@columbiaenergygroup.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "hherzog@columbiaenergygroup.com, cdalpho@columbiaenergygroup.com, \n\tdjones1@columbiaenergygroup.com, kdestep@columbiaenergygroup.com, \n\tcfrankl2@enron.com, vversen@enron.com, cindy.vachuska@enron.com, \n\tcora_pendergrass@enron.com, mmitche2@enron.com, \n\tscott.goodell@enron.com, steve.gillespie@enron.com, \n\tcgarcia@enron.com, despey@enron.com, joann.collins@enron.com, \n\tdkinney@columbiaenergygroup.com",
+      "X-From": "hherzog@columbiaenergygroup.com",
+      "X-To": "\" - *Kevin.Ruscitti@enron.com\" <Kevin.Ruscitti@enron.com>, \" - *chris.germany@enron.com\" <chris.germany@enron.com>",
+      "X-cc": "\" - *Herzog, Hans\" <hherzog@columbiaenergygroup.com>, \" - *Dalphon, Charles\" <cdalpho@columbiaenergygroup.com>, \" - *Jones, Donna\" <djones1@columbiaenergygroup.com>, \" - *Destephanis, Kara\" <kdestep@columbiaenergygroup.com>, \" - *cfrankl2@enron.com\" <cfrankl2@enron.com>, \" - *vversen@enron.com\" <vversen@enron.com>, \" - *cindy.vachuska@enron.com\" <cindy.vachuska@enron.com>, \" - *cora_pendergrass@enron.com\" <cora_pendergrass@enron.com>, \" - *mmitche2@enron.com\" <mmitche2@enron.com>, \" - *scott.goodell@enron.com\" <scott.goodell@enron.com>, \" - *steve.gillespie@enron.com\" <steve.gillespie@enron.com>, \" - *cgarcia@enron.com\" <cgarcia@enron.com>, \" - *despey@enron.com\" <despey@enron.com>, \" - *joann.collins@enron.com\" <joann.collins@enron.com>, \" - *Kinney, Doug\" <dkinney@columbiaenergygroup.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Ces",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_ces_23.txt"
+}

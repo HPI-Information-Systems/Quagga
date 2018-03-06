@@ -1,0 +1,144 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm not sure I fully understand what you're trying to do but this is what I\ndo to ensure replicas are not on the same rack:\n\nrule=shard:*,replica:<2,sysprop.rack:*\n\nOn 23 May 2017 at 22:37, Bernd Fehling <bernd.fehling@uni-bielefeld.de>\nwrote:\n\n> Yes, I tried that already.\n> Sure, it assigns 2 nodes with port 8983 to shard1 (e.g.\n> server1:8983,server2:8983).\n> But due to no replica rule (which defaults to wildcard) I also get\n> shard3 --> server2:8983,server2:7574\n> shard2 --> server1:7574,server3:8983\n>\n> The result is 3 replicas on server2 and also 2 replicas on one node of\n> server2\n> but _no_ replica on node server3:7574.\n>\n> I also tried to really nail it down with the rule:\n> rule=shard:shard1,replica:<2,sysprop.rack:1&\n> rule=shard:shard2,replica:<2,sysprop.rack:2&\n> rule=shard:shard3,replica:<2,sysprop.rack:3\n>\n> The nodes were started with the correct -Drack=x property, but no luck.\n>\n> From debugging I can see that the code is \"over complicated\" written.\n> Probably to catch all possibilities (core, node, port, ip_x,...) but with\n> the lack\n> not really trying all permutations and obeying the rules.\n>\n> I will open a ticket for this.\n>\n> Regards\n> Bernd\n>\n> Am 23.05.2017 um 14:09 schrieb Noble Paul:\n> > did you try the rule\n> > shard:shard1,port:8983\n> >\n> > this ensures that all replicas of shard1 is allocated in the node w/\n> port 8983.\n> >\n> > if it doesn't , it's a bug. Please open  aticket\n> >\n> > On Tue, May 23, 2017 at 7:10 PM, Bernd Fehling\n> > <bernd.fehling@uni-bielefeld.de> wrote:\n> >> After some analysis it turns out that they compare apples with oranges\n> :-(\n> >>\n> >> Inside \"tryAPermutationOfRules\" the rule is called with rules.get() and\n> >> the next step is calling rule.compare(), but they don't compare the\n> nodes\n> >> against the rule (or rules). They compare the nodes against each other.\n> >>\n> >> E.g. server1:8983, server2:7574, server1:7574,...\n> >> What do you think will happen if comparing server1:8983 against\n> server2:7574 (and so on)???\n> >> It will _NEVER_ match!!!\n> >>\n> >> Regards\n> >> Bernd\n> >>\n> >>\n> >> Am 23.05.2017 um 08:54 schrieb Bernd Fehling:\n> >>> No, that is way off, because:\n> >>> 1. you have no \"tag\" defined.\n> >>>    shard and replica can be omitted and they will default to wildcard,\n> >>>    but a \"tag\" must be defined.\n> >>> 2. replica must be an integer or a wildcard.\n> >>>\n> >>> Regards\n> >>> Bernd\n> >>>\n> >>> Am 23.05.2017 um 01:17 schrieb Damien Kamerman:\n> >>>> If you want all the replicas for shard1 on the same port then I think\n> the\n> >>>> rule is: 'shard:shard1,replica:port:8983'\n> >>>>\n> >>>> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.\n> de>\n> >>>> wrote:\n> >>>>\n> >>>>> I tried many settings with \"Rule-based Replica Placement\" on Solr\n> 6.5.1\n> >>>>> and came to the conclusion that it is not working at all.\n> >>>>>\n> >>>>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each\n> server).\n> >>>>>\n> >>>>> The call to create a new collection is\n> >>>>> \"http://localhost:8983/solr/admin/collections?action=\n> CREATE&name=boss&\n> >>>>> collection.configName=boss_configs&numShards=3&replicationFactor=2&\n> >>>>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983\"\n> >>>>>\n> >>>>> With \"rule=shard:shard1,replica:<2,port:8983\" I expect that shard1\n> has\n> >>>>> only nodes with port 8983 _OR_ it shoud fail due to \"strict mode\"\n> because\n> >>>>> the fuzzy operator \"~\" it not set.\n> >>>>>\n> >>>>> The result of the call is:\n> >>>>> shard1 --> server2:7574 / server1:8983\n> >>>>> shard2 --> server1:7574 / server3:8983\n> >>>>> shard3 --> server2:8983 / server3:7574\n> >>>>>\n> >>>>> The expected result should be (at least!!!) shard1 --> server_x:8983\n> /\n> >>>>> server_y:8983\n> >>>>> where \"_x\" and \"_y\" can be anything between 1 and 3 but must be\n> different.\n> >>>>>\n> >>>>> I think the problem is somewhere in \"class ReplicaAssigner\" with\n> >>>>> \"tryAllPermutations\"\n> >>>>> and \"tryAPermutationOfRules\".\n> >>>>>\n> >>>>> Regards\n> >>>>> Bernd\n> >>>>>\n> >>>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 165,
+      "text": "I'm not sure I fully understand what you're trying to do but this is what I\ndo to ensure replicas are not on the same rack:\n\nrule=shard:*,replica:<2,sysprop.rack:*\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 165,
+      "end": 244,
+      "text": "On 23 May 2017 at 22:37, Bernd Fehling <bernd.fehling@uni-bielefeld.de>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1162,
+      "end": 1182,
+      "text": ">\n> Regards\n> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 244,
+      "end": 1184,
+      "text": "\n> Yes, I tried that already.\n> Sure, it assigns 2 nodes with port 8983 to shard1 (e.g.\n> server1:8983,server2:8983).\n> But due to no replica rule (which defaults to wildcard) I also get\n> shard3 --> server2:8983,server2:7574\n> shard2 --> server1:7574,server3:8983\n>\n> The result is 3 replicas on server2 and also 2 replicas on one node of\n> server2\n> but _no_ replica on node server3:7574.\n>\n> I also tried to really nail it down with the rule:\n> rule=shard:shard1,replica:<2,sysprop.rack:1&\n> rule=shard:shard2,replica:<2,sysprop.rack:2&\n> rule=shard:shard3,replica:<2,sysprop.rack:3\n>\n> The nodes were started with the correct -Drack=x property, but no luck.\n>\n> From debugging I can see that the code is \"over complicated\" written.\n> Probably to catch all possibilities (core, node, port, ip_x,...) but with\n> the lack\n> not really trying all permutations and obeying the rules.\n>\n> I will open a ticket for this.\n>\n> Regards\n> Bernd\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1184,
+      "end": 1229,
+      "text": "> Am 23.05.2017 um 14:09 schrieb Noble Paul:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1229,
+      "end": 1432,
+      "text": "> > did you try the rule\n> > shard:shard1,port:8983\n> >\n> > this ensures that all replicas of shard1 is allocated in the node w/\n> port 8983.\n> >\n> > if it doesn't , it's a bug. Please open  aticket\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1432,
+      "end": 1527,
+      "text": "> > On Tue, May 23, 2017 at 7:10 PM, Bernd Fehling\n> > <bernd.fehling@uni-bielefeld.de> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2038,
+      "end": 2067,
+      "text": "> >>\n> >> Regards\n> >> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1527,
+      "end": 2077,
+      "text": "> >> After some analysis it turns out that they compare apples with oranges\n> :-(\n> >>\n> >> Inside \"tryAPermutationOfRules\" the rule is called with rules.get() and\n> >> the next step is calling rule.compare(), but they don't compare the\n> nodes\n> >> against the rule (or rules). They compare the nodes against each other.\n> >>\n> >> E.g. server1:8983, server2:7574, server1:7574,...\n> >> What do you think will happen if comparing server1:8983 against\n> server2:7574 (and so on)???\n> >> It will _NEVER_ match!!!\n> >>\n> >> Regards\n> >> Bernd\n> >>\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2077,
+      "end": 2128,
+      "text": "> >> Am 23.05.2017 um 08:54 schrieb Bernd Fehling:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2366,
+      "end": 2398,
+      "text": "> >>>\n> >>> Regards\n> >>> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2128,
+      "end": 2404,
+      "text": "> >>> No, that is way off, because:\n> >>> 1. you have no \"tag\" defined.\n> >>>    shard and replica can be omitted and they will default to wildcard,\n> >>>    but a \"tag\" must be defined.\n> >>> 2. replica must be an integer or a wildcard.\n> >>>\n> >>> Regards\n> >>> Bernd\n> >>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2404,
+      "end": 2458,
+      "text": "> >>> Am 23.05.2017 um 01:17 schrieb Damien Kamerman:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2458,
+      "end": 2597,
+      "text": "> >>>> If you want all the replicas for shard1 on the same port then I think\n> the\n> >>>> rule is: 'shard:shard1,replica:port:8983'\n> >>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2597,
+      "end": 2693,
+      "text": "> >>>> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.\n> de>\n> >>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3965,
+      "end": 4003,
+      "text": "> >>>>>\n> >>>>> Regards\n> >>>>> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2693,
+      "end": 4021,
+      "text": "> >>>>\n> >>>>> I tried many settings with \"Rule-based Replica Placement\" on Solr\n> 6.5.1\n> >>>>> and came to the conclusion that it is not working at all.\n> >>>>>\n> >>>>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each\n> server).\n> >>>>>\n> >>>>> The call to create a new collection is\n> >>>>> \"http://localhost:8983/solr/admin/collections?action=\n> CREATE&name=boss&\n> >>>>> collection.configName=boss_configs&numShards=3&replicationFactor=2&\n> >>>>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983\"\n> >>>>>\n> >>>>> With \"rule=shard:shard1,replica:<2,port:8983\" I expect that shard1\n> has\n> >>>>> only nodes with port 8983 _OR_ it shoud fail due to \"strict mode\"\n> because\n> >>>>> the fuzzy operator \"~\" it not set.\n> >>>>>\n> >>>>> The result of the call is:\n> >>>>> shard1 --> server2:7574 / server1:8983\n> >>>>> shard2 --> server1:7574 / server3:8983\n> >>>>> shard3 --> server2:8983 / server3:7574\n> >>>>>\n> >>>>> The expected result should be (at least!!!) shard1 --> server_x:8983\n> /\n> >>>>> server_y:8983\n> >>>>> where \"_x\" and \"_y\" can be anything between 1 and 3 but must be\n> different.\n> >>>>>\n> >>>>> I think the problem is somewhere in \"class ReplicaAssigner\" with\n> >>>>> \"tryAllPermutations\"\n> >>>>> and \"tryAPermutationOfRules\".\n> >>>>>\n> >>>>> Regards\n> >>>>> Bernd\n> >>>>>\n> >>>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3572"
+}

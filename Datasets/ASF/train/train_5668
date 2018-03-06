@@ -1,0 +1,44 @@
+Odd. The way core discovery works, it starts at SOLR_HOME and
+recursively descends the directories. Whenever the recursion finds a
+"core.properties" file it says "Aha, this must be a core". From there
+it assumes the data directory is immediately below where it found the
+core.properties file in the absence of any dataDir overrides.
+
+So how the write.lock file is getting preserved across Solr restarts
+is a mystery to me. Doing a "kill -9" is one way to make that happen
+if it is done at just the wrong time, but that's unlikely in what
+you're describing.
+
+Are you totally sure that there were no old Solr processes running?
+And there have been some issues in the past where the log display of
+the admin UI hold on to errors and displays them after the problem has
+been fixed. I'm assuming you can't query the new core, is that
+correct? Because if you can query the core then _something_ has the
+index open. I'm grasping at straws here mind you.
+
+Best,
+Erick
+
+On Thu, Aug 24, 2017 at 9:02 PM, Phil Scadden <P.Scadden@gns.cri.nz> wrote:
+> SOLR_HOME is /var/www/solr/data
+> The zip was actually the entire data directory which also included configsets. And yes
+core.properties is in var/www/solr/data/prindex (just has single line name=prindex, in it).
+No other cores are present.
+> The data directory should have been unzipped before the solr instance was started (I
+cant actually touch the machine so communicating via a deployment document but the operator
+usually follows every step to the letter.
+> The sequence was:
+> mkdir /var/www/solr
+> sudo bash ./install_solr_service.sh solr-6.5.1.tgz -i /opt/local -d /var/www/solr
+> edit /etc/default/solr.in.sh to set various items. (esp SOLR_HOME and to set SOLR_PID_DIR
+to /var/www/solr)
+> unzip the data directory
+> service solr start.
+>
+> No other instance of solr installed.
+>
+> Notice: This email and any attachments are confidential and may not be used, published
+or redistributed without the prior written consent of the Institute of Geological and Nuclear
+Sciences Limited (GNS Science). If received in error please destroy and immediately notify
+GNS Science. Do not copy or disclose the contents.
+

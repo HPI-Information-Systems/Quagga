@@ -1,0 +1,86 @@
+Thanks.
+Both of these are working in my case:
+name:"tv promotion"   -->  name:"tv promotion"
+name:tv AND name:promotion --> name:tv AND name:promotion
+(Although I'm assuming, the first might not have worked if my document had
+been say 'promotion tv' or 'tv xyz promotion')
+
+However, these are returning only those documents which have both the terms
+'tv promotion' in them (there are a few).  It's not returning any document
+which have only 'tv' or only 'promotion' in them.
+
+That's not an absolute requirement of mine, I could work around it, but I
+was just wondering, if it were possible to pass a single solr query with
+both the terms 'tv' and 'promotion' in them, and have them return all the
+documents which contain either of those terms, but with higher scores
+attached to those documents with both those terms?
+
+Much thanks
+
+On Thu, Jun 8, 2017 at 1:43 AM, David Hastings <hastings.recursive@gmail.com
+> wrote:
+
+> sorry, i meant debug query where you would get output like this:
+>
+> "debug": {
+>     "rawquerystring": "name:tv promotion",
+>     "querystring": "name:tv promotion",
+>     "parsedquery": "+name:tv +text:promotion",
+>
+>
+> On Wed, Jun 7, 2017 at 4:41 PM, David Hastings <
+> hastings.recursive@gmail.com
+> > wrote:
+>
+> > well, short answer, use the analyzer to see whats happening.
+> > long answer
+> >  theres a difference between
+> > name:tv promotion   -->  name:tv default_field:promotion
+> > name:"tv promotion"   -->  name:"tv promotion"
+> > name:tv AND name:promotion --> name:tv AND name:promotion
+> >
+> >
+> > since your default field most likely isnt name, its going to search only
+> > the default field for it.  you can alter this behavior using qf
+> parameters:
+> >
+> >
+> >
+> > qf='name^5 text'
+> >
+> >
+> > for example would apply a boost of 5 if it matched the field 'name', and
+> > only 1 for 'text'
+> >
+> > On Wed, Jun 7, 2017 at 4:35 PM, OTH <omer.t.h.7@gmail.com> wrote:
+> >
+> >> Hello,
+> >>
+> >> I have what I would think to be a fairly simple problem to solve,
+> however
+> >> I'm not sure how it's done in Solr and couldn't find an answer on
+> Google.
+> >>
+> >> Say I have two documents, "TV" and "TV promotion".  If the search query
+> is
+> >> "TV promotion", then, obviously, I would like the document "TV
+> promotion"
+> >> to score higher.  However, that is not the case right now.
+> >>
+> >> My syntax is something like this:
+> >> http://localhost:8983/solr/sales/select?indent=on&wt=json&
+> >> fl=*,score&q=name:tv
+> >> promotion
+> >> (I tried "q=name:tv+promotion (added the '+'), but it made no
+> difference.)
+> >>
+> >> It's not scoring the document "TV promotion" higher than "TV"; in fact
+> >> it's
+> >> scoring it lower.
+> >>
+> >> Thanks
+> >>
+> >
+> >
+>
+

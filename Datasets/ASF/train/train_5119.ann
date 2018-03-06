@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "You're better off just using one core.  Perhaps think about pre-processing\nthe logs to \"summarize\" them into less \"documents\"\nI do this and in my situation i summarize things like, user-hits-item, for\nexample.  so i find all the times a certain user had hits on a certain item\nin one day and put that into one document.  I have about 4/5 years of http\nlogs and it sits at around 265 million documents and 17gb.  so hardly an\nissue for performance\n\nOn Fri, Jul 28, 2017 at 10:04 AM, Chellasamy G <chellasamy.g@zohocorp.com>\nwrote:\n\n> Hi,\n>\n>\n>\n> I am working on a log management tool and considering to use solr to\n> index/search the logs.\n>\n> I have few doubts about how to organize or create the cores.\n>\n>\n>\n> The tool  should process 200 million events per day with each event\n> containing 40 to 50 fields. Currently I have planned to create a core per\n> day pushing all the data to the day's core. This may lead to the creation\n> of many cores. Is this a good design? If not please suggest a good\n> design.(Also, if multiple cores are used, will it slowdown the solr\n> process' uptime)\n>\n>\n>\n>\n>\n> Thanks,\n>\n> Satyan\n>\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 448,
+      "text": "You're better off just using one core.  Perhaps think about pre-processing\nthe logs to \"summarize\" them into less \"documents\"\nI do this and in my situation i summarize things like, user-hits-item, for\nexample.  so i find all the times a certain user had hits on a certain item\nin one day and put that into one document.  I have about 4/5 years of http\nlogs and it sits at around 265 million documents and 17gb.  so hardly an\nissue for performance\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 448,
+      "end": 530,
+      "text": "On Fri, Jul 28, 2017 at 10:04 AM, Chellasamy G <chellasamy.g@zohocorp.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 530,
+      "end": 537,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1098,
+      "end": 1121,
+      "text": ">\n> Thanks,\n>\n> Satyan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 530,
+      "end": 1130,
+      "text": "\n> Hi,\n>\n>\n>\n> I am working on a log management tool and considering to use solr to\n> index/search the logs.\n>\n> I have few doubts about how to organize or create the cores.\n>\n>\n>\n> The tool  should process 200 million events per day with each event\n> containing 40 to 50 fields. Currently I have planned to create a core per\n> day pushing all the data to the day's core. This may lead to the creation\n> of many cores. Is this a good design? If not please suggest a good\n> design.(Also, if multiple cores are used, will it slowdown the solr\n> process' uptime)\n>\n>\n>\n>\n>\n> Thanks,\n>\n> Satyan\n>\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5119"
+}

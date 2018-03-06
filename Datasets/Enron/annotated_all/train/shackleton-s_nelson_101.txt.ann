@@ -1,0 +1,583 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sara, do you want me to include on the Brokerage Agreement Report any other \nupdates on the futures or other agreements you are working on?  You can \nforward to me and I will make sure it gets added.\n\nThanx.\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n\n\n\n\tSara Shackleton@ECT\n\t04/12/2001 03:59 PM\n\t\t \n\t\t To: Theresa T Brogan/HOU/ECT@ECT\n\t\t cc: Cheryl Nelson/NA/Enron@Enron\n\t\t Subject: Re: JP Morgan Futures Broker Agreement\n\nSent for execution on April 6.  Aneela called JP to hurry them along for \nfinal docs.  You may need to call them as we've not received account \ninformation.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n----- Forwarded by Sara Shackleton/HOU/ECT on 04/12/2001 03:57 PM -----\n\n\tCheryl Nelson@ENRON\n\tSent by: Cheryl Nelson@ENRON\n\t04/12/2001 03:44 PM\n\t\t\n\t\t To: Theresa T Brogan/HOU/ECT@ECT\n\t\t cc: Sara Shackleton/HOU/ECT@ECT\n\t\t Subject: Re: JP Morgan Futures Broker Agreement\n\nTheresa, this is one that Sara is working on.\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n\n\n\n\tTheresa T Brogan@ECT\n\t04/11/2001 05:23 PM\n\t\t \n\t\t To: Cheryl Nelson/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: JP Morgan Futures Broker Agreement\n\nCheryl,\n Just want to confirm with you that the futures brokerage agreement with JP \nMorgan has been executed.\n\nThanks,\nTB\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 209,
+      "end": 222,
+      "text": "Cheryl Nelson",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 223,
+      "end": 237,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 245,
+      "end": 259,
+      "text": "(713) 345-4693",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 209,
+      "end": 260,
+      "text": "Cheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 263,
+      "text": "Sara, do you want me to include on the Brokerage Agreement Report any other \nupdates on the futures or other agreements you are working on?  You can \nforward to me and I will make sure it gets added.\n\nThanx.\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 4,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 264,
+      "end": 279,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 285,
+      "end": 295,
+      "text": "04/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 296,
+      "end": 304,
+      "text": "03:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 316,
+      "end": 332,
+      "text": "Theresa T Brogan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 352,
+      "end": 365,
+      "text": "Cheryl Nelson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 393,
+      "end": 431,
+      "text": "Re: JP Morgan Futures Broker Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 264,
+      "end": 432,
+      "text": "Sara Shackleton@ECT\n\t04/12/2001 03:59 PM\n\t\t \n\t\t To: Theresa T Brogan/HOU/ECT@ECT\n\t\t cc: Cheryl Nelson/NA/Enron@Enron\n\t\t Subject: Re: JP Morgan Futures Broker Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 591,
+      "end": 606,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 607,
+      "end": 632,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 633,
+      "end": 682,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 683,
+      "end": 695,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 704,
+      "end": 716,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 723,
+      "end": 748,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 591,
+      "end": 749,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 432,
+      "end": 749,
+      "text": "\nSent for execution on April 6.  Aneela called JP to hurry them along for \nfinal docs.  You may need to call them as we've not received account \ninformation.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 768,
+      "end": 783,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 795,
+      "end": 805,
+      "text": "04/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 806,
+      "end": 814,
+      "text": "03:57 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 749,
+      "end": 821,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 04/12/2001 03:57 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 823,
+      "end": 836,
+      "text": "Cheryl Nelson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 853,
+      "end": 866,
+      "text": "Cheryl Nelson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 874,
+      "end": 884,
+      "text": "04/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 885,
+      "end": 893,
+      "text": "03:44 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 904,
+      "end": 920,
+      "text": "Theresa T Brogan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 940,
+      "end": 955,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 980,
+      "end": 1018,
+      "text": "Re: JP Morgan Futures Broker Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 821,
+      "end": 1019,
+      "text": "\n\tCheryl Nelson@ENRON\n\tSent by: Cheryl Nelson@ENRON\n\t04/12/2001 03:44 PM\n\t\t\n\t\t To: Theresa T Brogan/HOU/ECT@ECT\n\t\t cc: Sara Shackleton/HOU/ECT@ECT\n\t\t Subject: Re: JP Morgan Futures Broker Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1020,
+      "end": 1027,
+      "text": "Theresa",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1067,
+      "end": 1080,
+      "text": "Cheryl Nelson",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1081,
+      "end": 1095,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1103,
+      "end": 1117,
+      "text": "(713) 345-4693",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1067,
+      "end": 1118,
+      "text": "Cheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1019,
+      "end": 1121,
+      "text": "\nTheresa, this is one that Sara is working on.\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1122,
+      "end": 1138,
+      "text": "Theresa T Brogan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1144,
+      "end": 1154,
+      "text": "04/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1155,
+      "end": 1163,
+      "text": "05:23 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1175,
+      "end": 1188,
+      "text": "Cheryl Nelson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1224,
+      "end": 1258,
+      "text": "JP Morgan Futures Broker Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1122,
+      "end": 1259,
+      "text": "Theresa T Brogan@ECT\n\t04/11/2001 05:23 PM\n\t\t \n\t\t To: Cheryl Nelson/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: JP Morgan Futures Broker Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1260,
+      "end": 1266,
+      "text": "Cheryl",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1380,
+      "end": 1382,
+      "text": "TB",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1372,
+      "end": 1383,
+      "text": "Thanks,\nTB\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1259,
+      "end": 1386,
+      "text": "\nCheryl,\n Just want to confirm with you that the futures brokerage agreement with JP \nMorgan has been executed.\n\nThanks,\nTB\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 1,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 14,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 16,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 17,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 18,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 19,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 26,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 26,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 30,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 31,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 34,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 35,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 36,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 37,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 40,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 43,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 46,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 47,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13005415.1075844782561.JavaMail.evans@thyme>",
+      "Date": "Thu, 12 Apr 2001 10:27:00 -0700 (PDT)",
+      "From": "cheryl.nelson@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: JP Morgan Futures Broker Agreement",
+      "Cc": "theresa.brogan@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "theresa.brogan@enron.com",
+      "X-From": "Cheryl Nelson",
+      "X-To": "Sara Shackleton",
+      "X-cc": "Theresa T Brogan",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\Nelson",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_nelson_101.txt"
+}

@@ -1,0 +1,43 @@
+Hi,
+
+I don't think Queryable State is good for that use case because it can lead to inconsistencies.
+However, I think my answer here and the linked presentation might be helpful for your use
+case: https://lists.apache.org/thread.html/3907cd6433c9c066126ce150cb2fdcc298d366eb55bca890be716020@%3Cuser.flink.apache.org%3E
+<https://lists.apache.org/thread.html/3907cd6433c9c066126ce150cb2fdcc298d366eb55bca890be716020@%3Cuser.flink.apache.org%3E>
+
+Best,
+Aljoscha
+
+> On 9. Aug 2017, at 14:33, Biplob Biswas <revolutionisme@gmail.com> wrote:
+> 
+> Hi Aljoscha,
+> 
+> I was expecting that I could set the jobmanager address and port by setting
+> it up in the configuration and passing it to the execution environment, but
+> learnt later that it was a wrong approach. 
+> 
+> My motivation of accessing the jobmanager coordinates was to setup a
+> queryablestateclient such that I could query the states I created in the
+> same job.  
+> My job wants me to have 2 states and query based on specific keys on both
+> the states at the same time, so I couldn't imagine achieving this within the
+> same operator as states are created and updated pe key.
+> 
+> is there any abstraction which exposes these values for jobmanager? 
+> 
+> For now what I did to achieve what I want is to create 2 states in one flink
+> job and passed the job id and jobmanager information as parameters to the
+> second job which queries the states. 
+> 
+> is there a better way to do this? 
+> 
+> thanks & regards,
+> Biplob
+> 
+> 
+> 
+> --
+> View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Getting-JobManager-address-and-port-within-a-running-job-tp14656p14759.html
+> Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+
+

@@ -1,0 +1,51 @@
+Sure, someone changed the system variable "solr.install.dir" (i.e.
+-Dsolr.install.dir=some other place). Or removed it. Or changed the
+startup script. Or....
+
+I've gotten very skeptical of "we didn't change anything but suddenly
+it stopped working". Usually it's something someone's changed
+unbeknownst to the person you're interacting with.
+
+The solr log usually shows the paths where everything gets loaded
+from. You should be able to track where Solr is looking for all its
+resources.
+
+It's also possible one of the jars was corrupted on disk (disks do go bad).
+
+So you can also inspect the jars to see if that class. Here's a way to
+look for one:
+
+find . -name '*jar' -exec bash -c 'jar tvf {} | grep
+ParserDiscoveryAnnotation' \; -print
+
+where ParserDiscoveryAnnotation is the class you're not finding.
+
+Best,
+Erick
+
+On Mon, Jun 26, 2017 at 9:48 PM, MatthewMeredith
+<matthewmeredith345@gmail.com> wrote:
+> Thanks so much for the reply, Erick!
+>
+> I haven't touched anything in several months; I got a message from the
+> client I built the website for saying the PDF files they're putting into the
+> folder weren't being indexed so I went in to investigate and discovered the
+> error. Here's the applicable part of my solrconfig.xml (again, I haven't
+> changed anything in the files):
+>
+>   <lib dir="${solr.install.dir:../../../..}/contrib/extraction/lib"
+> regex=".*\.jar" />
+>   <lib dir="${solr.install.dir:../../../..}/dist/"
+> regex="solr-cell-\d.*\.jar" />
+>
+> The contrib/extraction/lib folder has 33 .jar files including
+> pdfbox-1.8.8.jar tika-core-1.7.jar tika-java7-1.7.jar etc...
+>
+> Can you think of any other reason it would be giving that 500 error?
+>
+>
+>
+> --
+> View this message in context: http://lucene.472066.n3.nabble.com/Solr-PDF-parsing-failing-with-java-error-tp4342909p4342958.html
+> Sent from the Solr - User mailing list archive at Nabble.com.
+

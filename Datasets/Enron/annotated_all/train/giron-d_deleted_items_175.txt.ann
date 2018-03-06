@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n-----Original Message-----\nFrom: SHIELDS, TERRY K [mailto:tshield@entergy.com]\nSent: Tuesday, October 16, 2001 3:35 PM\nTo: 'bfrihart@enron.com'\nSubject: FW: eBay product\n\n\n\n\n-----Original Message-----\nFrom: McIlvoy, Karen D. [mailto:Karen.D.McIlvoy@enron.com]\nSent: Tuesday, October 16, 2001 3:17 PM\nTo: Davis (E-mail)\nSubject: FW: eBay product\n\n\n\n\nhttp://home.houston.rr.com/surrenderownz/auction.htm\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2,
+      "end": 172,
+      "text": "-----Original Message-----\nFrom: SHIELDS, TERRY K [mailto:tshield@entergy.com]\nSent: Tuesday, October 16, 2001 3:35 PM\nTo: 'bfrihart@enron.com'\nSubject: FW: eBay product\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 172,
+      "end": 176,
+      "text": "\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 176,
+      "end": 347,
+      "text": "-----Original Message-----\nFrom: McIlvoy, Karen D. [mailto:Karen.D.McIlvoy@enron.com]\nSent: Tuesday, October 16, 2001 3:17 PM\nTo: Davis (E-mail)\nSubject: FW: eBay product\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 347,
+      "end": 404,
+      "text": "\n\n\n\nhttp://home.houston.rr.com/surrenderownz/auction.htm\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12041528.1075852221112.JavaMail.evans@thyme>",
+      "Date": "Tue, 16 Oct 2001 13:39:14 -0700 (PDT)",
+      "From": "bryant.frihart@enron.com",
+      "To": "c..giron@enron.com",
+      "Subject": "FW: eBay product",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Frihart, Bryant </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BFRIHART>",
+      "X-To": "Giron, Darron C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dgiron>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\DGIRON (Non-Privileged)\\Giron, Darron C.\\Deleted Items",
+      "X-Origin": "GIRON-D",
+      "X-FileName": "DGIRON (Non-Privileged).pst"
+    }
+  },
+  "id": "train/giron-d_deleted_items_175.txt"
+}

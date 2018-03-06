@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_5567",
+  "meta": {},
+  "text": "Is there a way to return only the matched field from a multivalued field\nusing filtering?\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Return-only-matched-multi-valued-field-tp4351494.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 280,
+      "text": "Is there a way to return only the matched field from a multivalued field\nusing filtering?\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Return-only-matched-multi-valued-field-tp4351494.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

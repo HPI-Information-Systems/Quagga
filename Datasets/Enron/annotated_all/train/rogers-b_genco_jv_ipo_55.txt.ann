@@ -1,0 +1,245 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 12/04/2000 10:10 AM \n---------------------------\n\n\n\"Tang, David\" <dtang@Cinergy.com> on 11/30/2000 07:45:51 PM\nTo: \"'don.miller@enron.com'\" <don.miller@enron.com>\ncc: \"Whitehead, Robert\" <rwhitehead@Cinergy.com>, \"Hoyos, Sergio\" \n<sergio.hoyos@cinergy.com>, \"Chaney, Tom\" <tchaney@Cinergy.com>, \"Vivar, Art\" \n<avivar@Cinergy.com> \nSubject: Question 2\n\n\nMore Questions:\n\nBoth Plants\n\n1.  What are the short term NOx and CO emissions during startups, and are\nthere limitations during start-ups.\n\n2.  Are industrial stormwater permits required at either site?\n\nCaledonia\n\n3.  In Caledonia, what is the custom fuel sampling schedule?\n\nBrownsville\n\n4.  What is the agency's response to the Enron letter regarding the 2nd\nstormwater NOV?\n\n5.  Has there been any further action by the agency since the 1st stormwater\nNOV was never responded to?\n\n6.  One memo stated that the stormwater is channeled to a wetland.  Was that\nduring construction only or is it ongoing?\n\n7.  Were there any further problems with the B T Readymix concrete dumping\nissue?\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 46,
+      "text": "Don Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 58,
+      "end": 68,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 69,
+      "end": 77,
+      "text": "10:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 107,
+      "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 12/04/2000 10:10 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 121,
+      "text": "Tang, David",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 124,
+      "end": 141,
+      "text": "dtang@Cinergy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 146,
+      "end": 156,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 157,
+      "end": 168,
+      "text": "07:45:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 175,
+      "end": 195,
+      "text": "don.miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 199,
+      "end": 219,
+      "text": "don.miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 226,
+      "end": 243,
+      "text": "Whitehead, Robert",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 246,
+      "end": 268,
+      "text": "rwhitehead@Cinergy.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 272,
+      "end": 285,
+      "text": "Hoyos, Sergio",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 289,
+      "end": 313,
+      "text": "sergio.hoyos@cinergy.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 317,
+      "end": 328,
+      "text": "Chaney, Tom",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 331,
+      "end": 350,
+      "text": "tchaney@Cinergy.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 354,
+      "end": 364,
+      "text": "Vivar, Art",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 368,
+      "end": 386,
+      "text": "avivar@Cinergy.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 398,
+      "end": 408,
+      "text": "Question 2",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 107,
+      "end": 409,
+      "text": "\n\n\"Tang, David\" <dtang@Cinergy.com> on 11/30/2000 07:45:51 PM\nTo: \"'don.miller@enron.com'\" <don.miller@enron.com>\ncc: \"Whitehead, Robert\" <rwhitehead@Cinergy.com>, \"Hoyos, Sergio\" \n<sergio.hoyos@cinergy.com>, \"Chaney, Tom\" <tchaney@Cinergy.com>, \"Vivar, Art\" \n<avivar@Cinergy.com> \nSubject: Question 2\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 409,
+      "end": 1101,
+      "text": "\n\nMore Questions:\n\nBoth Plants\n\n1.  What are the short term NOx and CO emissions during startups, and are\nthere limitations during start-ups.\n\n2.  Are industrial stormwater permits required at either site?\n\nCaledonia\n\n3.  In Caledonia, what is the custom fuel sampling schedule?\n\nBrownsville\n\n4.  What is the agency's response to the Enron letter regarding the 2nd\nstormwater NOV?\n\n5.  Has there been any further action by the agency since the 1st stormwater\nNOV was never responded to?\n\n6.  One memo stated that the stormwater is channeled to a wetland.  Was that\nduring construction only or is it ongoing?\n\n7.  Were there any further problems with the B T Readymix concrete dumping\nissue?\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 15,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32486498.1075857270770.JavaMail.evans@thyme>",
+      "Date": "Mon, 4 Dec 2000 02:11:00 -0800 (PST)",
+      "From": "don.miller@enron.com",
+      "To": "benjamin.rogers@enron.com",
+      "Subject": "Question 2",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Don Miller",
+      "X-To": "Benjamin Rogers",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_4\\Notes Folders\\Genco-jv_ipo",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_genco_jv_ipo_55.txt"
+}

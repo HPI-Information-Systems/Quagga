@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ditto:  Caps, stink, but if they must be done in the short term, only do them \nfor residential (since of course the damage that wholesale prices will \ninflict will grossly outweigh and alleged benefits). But any caps must be \naccompanied by real, strucutural reforms.  Have a great time.  Please let us \nknow how it goes.  (I have a sneaking suspicion they listen to you more than \nyou let on.)\n\nBest,\nJeff",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 402,
+      "end": 406,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 396,
+      "end": 406,
+      "text": "Best,\nJeff",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 406,
+      "text": "Ditto:  Caps, stink, but if they must be done in the short term, only do them \nfor residential (since of course the damage that wholesale prices will \ninflict will grossly outweigh and alleged benefits). But any caps must be \naccompanied by real, strucutural reforms.  Have a great time.  Please let us \nknow how it goes.  (I have a sneaking suspicion they listen to you more than \nyou let on.)\n\nBest,\nJeff",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19653163.1075842979620.JavaMail.evans@thyme>",
+      "Date": "Mon, 25 Sep 2000 11:36:00 -0700 (PDT)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "harry.kingerski@enron.com",
+      "Subject": "Re: Presentation in NM on California experience",
+      "Cc": "leslie.lawner@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "leslie.lawner@enron.com",
+      "X-From": "Jeff Dasovich",
+      "X-To": "Harry Kingerski",
+      "X-cc": "Leslie Lawner",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_1738.txt"
+}

@@ -1,0 +1,116 @@
+{
+  "wrapper": "plaintext",
+  "text": "CES is buying 2500 dth/day from Equitable in Tenn Z4.  CES is selling 2500 \ndth/day to FirstEnergy in Tenn Z4.  Looks like a match to me.  I told Fred \nwith Equitable the information John Singer gave to Phil below.  For future \nreference Fred's number is 412-395-3295.  A backup contact at Equitable is \nSteve Rafferty, 412-395-3268.\n\nPer John, FirstEnergy bought the meter (??) from Beldon & Blake effective \n12/1/99.  On CNG, we are showing a purchase (deal 141688) and a sale (deal \n141952) for 2500 dth/day with Beldon & Blake.  I don't see a sale anywhere to \nFirstEnergy.  \n\nAlso, I still see an Equitable supply (deal 135956) on CNG for 3226 dth/day.  \nI believe this is a duplicate of deal 138741 in Tetco M2.\n\nComments?\n\n---------------------- Forwarded by Chris Germany/HOU/ECT on 12/30/99 10:23 \nAM ---------------------------\n\n\npvillag@columbiaenergygroup.com on 12/29/99 03:29:10 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Jan sale to FirstEnergy @ Carroll Co Meter\n\n\n\nChris,\n\nThis has to do with that TENN zone 4 deal that you e-mailed me about this\nmorning. Like I mentioned earlier, we never scheduled this gas, it was handled\non a back to back basis.\n\nPhil\n\n\n---------------------- Forwarded by Phil Villagomez/CES/ColumbiaGas on \n12/29/99\n03:33 PM ---------------------------\n\nJohn Singer\n12/29/99 03:05 PM\n\n\nTo: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas\ncc:\nSubject: Jan sale to FirstEnergy @ Carroll Co Meter\n\nPhil,\nFirstEnergy called to change the contract number for the sale I made to them\n(originally to Belden & Blake) to be delivered to the Carroll Co Meter.  The\nnew contract number is 32082.\nIf you receive this email before you page me, that's what the page is about.\nCall or email me with any questions.\nThanks,\nJohn\n\nHAPPY NEW YEAR!!!!!!!!!!!!!!!!!!!\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 730,
+      "text": "CES is buying 2500 dth/day from Equitable in Tenn Z4.  CES is selling 2500 \ndth/day to FirstEnergy in Tenn Z4.  Looks like a match to me.  I told Fred \nwith Equitable the information John Singer gave to Phil below.  For future \nreference Fred's number is 412-395-3295.  A backup contact at Equitable is \nSteve Rafferty, 412-395-3268.\n\nPer John, FirstEnergy bought the meter (??) from Beldon & Blake effective \n12/1/99.  On CNG, we are showing a purchase (deal 141688) and a sale (deal \n141952) for 2500 dth/day with Beldon & Blake.  I don't see a sale anywhere to \nFirstEnergy.  \n\nAlso, I still see an Equitable supply (deal 135956) on CNG for 3226 dth/day.  \nI believe this is a duplicate of deal 138741 in Tetco M2.\n\nComments?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 730,
+      "end": 838,
+      "text": "---------------------- Forwarded by Chris Germany/HOU/ECT on 12/30/99 10:23 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 838,
+      "end": 984,
+      "text": "\n\npvillag@columbiaenergygroup.com on 12/29/99 03:29:10 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Jan sale to FirstEnergy @ Carroll Co Meter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 986,
+      "end": 994,
+      "text": "\nChris,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1173,
+      "end": 1179,
+      "text": "\nPhil\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 984,
+      "end": 1181,
+      "text": "\n\n\nChris,\n\nThis has to do with that TENN zone 4 deal that you e-mailed me about this\nmorning. Like I mentioned earlier, we never scheduled this gas, it was handled\non a back to back basis.\n\nPhil\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1181,
+      "end": 1299,
+      "text": "---------------------- Forwarded by Phil Villagomez/CES/ColumbiaGas on \n12/29/99\n03:33 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1299,
+      "end": 1436,
+      "text": "\nJohn Singer\n12/29/99 03:05 PM\n\n\nTo: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas\ncc:\nSubject: Jan sale to FirstEnergy @ Carroll Co Meter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1436,
+      "end": 1443,
+      "text": "\nPhil,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1741,
+      "end": 1754,
+      "text": "Thanks,\nJohn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1436,
+      "end": 1790,
+      "text": "\nPhil,\nFirstEnergy called to change the contract number for the sale I made to them\n(originally to Belden & Blake) to be delivered to the Carroll Co Meter.  The\nnew contract number is 32082.\nIf you receive this email before you page me, that's what the page is about.\nCall or email me with any questions.\nThanks,\nJohn\n\nHAPPY NEW YEAR!!!!!!!!!!!!!!!!!!!\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1335181.1075853733451.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Dec 1999 02:44:00 -0800 (PST)",
+      "From": "chris.germany@enron.com",
+      "To": "clarissa.garcia@enron.com, cindy.vachuska@enron.com, \n\tpvillag@columbiaenergy.com, molly.lafuze@enron.com, \n\tmsharif@columbiaenergygroup.com, david.oliver@enron.com, \n\tvictoria.versen@enron.com",
+      "Subject": "Jan sale to FirstEnergy @ Carroll Co Meter",
+      "Cc": "katherine.kelly@enron.com, victor.lamadrid@enron.com, \n\tchris.germany@enron.com, scott.hendrickson@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "katherine.kelly@enron.com, victor.lamadrid@enron.com, \n\tchris.germany@enron.com, scott.hendrickson@enron.com",
+      "X-From": "Chris Germany",
+      "X-To": "Clarissa Garcia, Cindy Vachuska, pvillag@columbiaenergy.com, Molly LaFuze, msharif@columbiaenergygroup.com, David Oliver, Victoria Versen",
+      "X-cc": "Katherine L Kelly, Victor Lamadrid, Chris Germany, Scott Hendrickson",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Ces",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_ces_357.txt"
+}

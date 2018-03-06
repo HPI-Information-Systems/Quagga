@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi\n\nIneed to create afield that will be prefix and suffix with code \n'z01x'.This field needs to have the code in the index and during query.\nI can either\n1.\nhave the source data of the field formatted with the code before \nindexing (outside solr).\nuse a charFilter in the query stage of the field typeto add the \ncodeduring query.\n\n<charFilter class=\"solr.PatternReplaceCharFilterFactory\" \npattern=\"^(.*)$\" replacement=\"z01x $1 z01x\" />\n\nOR\n\n2.\nuse the charFilter before tokenizerclass during the index and query \nanalyzer stage of the field type.\n\nThe collection has between 100k - 200k documents currentlybut it may \nincrease in the future.\nTheindexing time with option 2 and current indexing time is almost the \nsame, between 2-3 minutes.\n\nWhich option would you advice?\n\nDerek\n\n----------------------\nCONFIDENTIALITY NOTICE \n\nThis e-mail (including any attachments) may contain confidential and/or privileged information.\nIf you are not the intended recipient or have received this e-mail in error, please inform\nthe sender immediately and delete this e-mail (including any attachments) from your computer,\nand you must not use, disclose to anyone else or copy this e-mail (including any attachments),\nwhether in whole or in part. \n\nThis e-mail and any reply to it may be monitored for security, legal, regulatory compliance\nand/or other appropriate reasons.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 774,
+      "end": 781,
+      "text": "\nDerek\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1363,
+      "text": "Hi\n\nIneed to create afield that will be prefix and suffix with code \n'z01x'.This field needs to have the code in the index and during query.\nI can either\n1.\nhave the source data of the field formatted with the code before \nindexing (outside solr).\nuse a charFilter in the query stage of the field typeto add the \ncodeduring query.\n\n<charFilter class=\"solr.PatternReplaceCharFilterFactory\" \npattern=\"^(.*)$\" replacement=\"z01x $1 z01x\" />\n\nOR\n\n2.\nuse the charFilter before tokenizerclass during the index and query \nanalyzer stage of the field type.\n\nThe collection has between 100k - 200k documents currentlybut it may \nincrease in the future.\nTheindexing time with option 2 and current indexing time is almost the \nsame, between 2-3 minutes.\n\nWhich option would you advice?\n\nDerek\n\n----------------------\nCONFIDENTIALITY NOTICE \n\nThis e-mail (including any attachments) may contain confidential and/or privileged information.\nIf you are not the intended recipient or have received this e-mail in error, please inform\nthe sender immediately and delete this e-mail (including any attachments) from your computer,\nand you must not use, disclose to anyone else or copy this e-mail (including any attachments),\nwhether in whole or in part. \n\nThis e-mail and any reply to it may be monitored for security, legal, regulatory compliance\nand/or other appropriate reasons.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2147"
+}

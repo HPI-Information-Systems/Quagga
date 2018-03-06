@@ -1,0 +1,33 @@
+{
+  "wrapper": "enron",
+  "id": "eval/mcconnell-m_to_do_16.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<27345815.1075854961144.JavaMail.evans@thyme>",
+      "Date": "Thu, 26 Jul 2001 15:44:00 -0700 (PDT)",
+      "From": "mark.mcconnell@enron.com",
+      "Subject": "Call Joe - church tractor",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark McConnell",
+      "X-To": "",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\MMCCONNE (Non-Privileged)\\To Do",
+      "X-Origin": "McConnell-M",
+      "X-FileName": "MMCCONNE (Non-Privileged).pst"
+    }
+  },
+  "text": "\tTASK ASSIGNMENT\n\n\nStatus:\t\tcompleted\n\nTask Priority:\t\t2\nTask Due On:\t\t7/18/2001\nTask Start Date:\t7/18/2001\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1,
+      "end": 108,
+      "text": "TASK ASSIGNMENT\n\n\nStatus:\t\tcompleted\n\nTask Priority:\t\t2\nTask Due On:\t\t7/18/2001\nTask Start Date:\t7/18/2001\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

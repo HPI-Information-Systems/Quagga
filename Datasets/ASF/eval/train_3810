@@ -1,0 +1,37 @@
+Hi,
+
+How are you specifying the port? Because in YARN mode the config setting is different: yarn.application-master.port.
+Also, you cannot specify the IP of the JobManager in YARN mode because Flink does not have
+any influence in how YARN schedules the JobManager so it could run on any machine in the YARN
+cluster.
+
+By the way, what's the motivation for knowing the JobManager coordinates within a Job?
+
+Best,
+Aljoscha
+
+> On 3. Aug 2017, at 15:43, Biplob Biswas <revolutionisme@gmail.com> wrote:
+> 
+> Hi nico,
+> 
+> This behaviour was on my cluster and not on the local mode as I wanted to
+> check whether it's an issue of my job or the behaviour with jobmanager is
+> consistent everywhere.
+> 
+> When I run my job on the yarn-cluster mode, it's not honouring the IP and
+> port I specified and its randomly assigning a node and port. For this
+> reason, I created a yarn session and I ran my flink job within this session.
+> 
+> But still i am having issues with fetching the jobid within a running flink
+> instance.
+> 
+> Thanks 
+> Biplob
+> 
+> 
+> 
+> --
+> View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Getting-JobManager-address-and-port-within-a-running-job-tp14656p14662.html
+> Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+
+

@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Well, I know they can change.\n\nI think, the main problem here it that (in this point) documents completely\nunrelated to a topic are being ranked as high as documents related. So, in\norder to penalize them we are trying to use the ratio or term frequency/word\nlength.\n\nNevertheless we aren't able to find a practical way to make it.\n\nGreetings.\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Modify-solr-score-tp4331300p4331342.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 332,
+      "end": 344,
+      "text": "\nGreetings.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 519,
+      "text": "Well, I know they can change.\n\nI think, the main problem here it that (in this point) documents completely\nunrelated to a topic are being ranked as high as documents related. So, in\norder to penalize them we are trying to use the ratio or term frequency/word\nlength.\n\nNevertheless we aren't able to find a practical way to make it.\n\nGreetings.\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Modify-solr-score-tp4331300p4331342.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2760"
+}

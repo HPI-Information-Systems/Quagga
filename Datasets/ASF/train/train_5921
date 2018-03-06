@@ -1,0 +1,25 @@
+Hi,
+
+
+I indexed documents in Solr using dataImportHandler.
+
+Now when I want to query using the below URL, it gives me the results i want.
+
+
+http://localhost:8983/solr/mycore/select?indent=on&q=id:7fd326e23ffa8d1cb9c0a7b4fc5c4269&wt=json
+
+
+Can Solr handle bulk queries if I send over more than 10,000 ids in the query and get their
+result instead of sending 1 id each time to solr-server ?
+
+
+I am using Solr-5.2.1
+
+Any pointers would help.
+
+
+
+Thanks!
+
+
+

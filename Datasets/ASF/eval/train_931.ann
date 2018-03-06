@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Robert,\n\nsorry for the long delay.\n\n> I wonder why the decompression with the XmlInputFormat doesn't work. Did\n> you get any exception?\n\nI didn't get any exception, it just seems to read nothing (or at least\ndon't match any opening/closing tags).\n\nI digged a bit into the code and found out, that Mahout's XmlInputFormat\n[0] extends the TextInputFormat [1].  TextInputFormat then uses the\nLineRecordReader [2] which handles the compressed data.\n\nHowever, the Mahout XMLRecordReader [3] does not contain the compression\nhandling. So I tried to build a XmlRecordReader which tries to achieve\nthat [4]. I use it to split the wikipedia dumps into pages with <page>\nand </page> tags. [5]\n\nIt does work, but somehow misses some data sometimes and I guess this is\nbecause of the different splits. How do FileSplits work? Can a process\nread beyond the FileSplit boundary or not?\n\nI'm also a bit confused why the Flink Doc says that Bzip2 is not\nsplittable? [6]\nAfaik hadoop (and flink in compatibility mode) does support splittable,\ncompressed data.\n\nI would appreciate some input/ideas/help with this.\n\nAll the best,\nSebastian\n\n\n[0]:\nhttps://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java\n\n[1]:\nhttps://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.java\n\n[2]:\nhttps://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/LineRecordReader.java\n\n[3]:\nhttps://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java#L64\n\n[4]:\nhttp://paste.gehaxelt.in/?69af3c91480b6bfb#ze+G/X9b3yTHfu1QW70aJioDvXWKoFFOCnLND1ow0sU=\n\n[5]:\nhttp://paste.gehaxelt.in/?e869d1f1f9f6f1be#kXrNaWXTNqLiHEKL4a6rWVMxhbVcmpXu24jGqJcap1A=\n\n[6]:\nhttps://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/batch/index.html#read-compressed-files\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Robert,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1098,
+      "end": 1123,
+      "text": "\nAll the best,\nSebastian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2076,
+      "text": "Hi Robert,\n\nsorry for the long delay.\n\n> I wonder why the decompression with the XmlInputFormat doesn't work. Did\n> you get any exception?\n\nI didn't get any exception, it just seems to read nothing (or at least\ndon't match any opening/closing tags).\n\nI digged a bit into the code and found out, that Mahout's XmlInputFormat\n[0] extends the TextInputFormat [1].  TextInputFormat then uses the\nLineRecordReader [2] which handles the compressed data.\n\nHowever, the Mahout XMLRecordReader [3] does not contain the compression\nhandling. So I tried to build a XmlRecordReader which tries to achieve\nthat [4]. I use it to split the wikipedia dumps into pages with <page>\nand </page> tags. [5]\n\nIt does work, but somehow misses some data sometimes and I guess this is\nbecause of the different splits. How do FileSplits work? Can a process\nread beyond the FileSplit boundary or not?\n\nI'm also a bit confused why the Flink Doc says that Bzip2 is not\nsplittable? [6]\nAfaik hadoop (and flink in compatibility mode) does support splittable,\ncompressed data.\n\nI would appreciate some input/ideas/help with this.\n\nAll the best,\nSebastian\n\n\n[0]:\nhttps://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java\n\n[1]:\nhttps://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.java\n\n[2]:\nhttps://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/LineRecordReader.java\n\n[3]:\nhttps://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java#L64\n\n[4]:\nhttp://paste.gehaxelt.in/?69af3c91480b6bfb#ze+G/X9b3yTHfu1QW70aJioDvXWKoFFOCnLND1ow0sU=\n\n[5]:\nhttp://paste.gehaxelt.in/?e869d1f1f9f6f1be#kXrNaWXTNqLiHEKL4a6rWVMxhbVcmpXu24jGqJcap1A=\n\n[6]:\nhttps://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/batch/index.html#read-compressed-files\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_931"
+}

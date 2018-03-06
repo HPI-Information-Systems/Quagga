@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Beth, Mark - \n\nI think we are ready to move on implementing flat screen monitors in all of \nEnron Building passenger elevator cabs, i.e. proposal is for two 14\" monitors \nper cab, one for Corporate content, other for local Houston messages.  Will \ntry to flush mount them in the stainless steel cab panels, for a clean, \nattractive look.    \n\nTechnical details have generally been worked out between our group (Steve \nWoods and Harry Grubbs) and Enron's IT Dept.  such that  we know total costs \nare below $500K (more in $350-400K range plus whatever temporary, \nnon-elevator monitors appropriate for Three Allen Center occupants).  We have \na 3 month implementation schedule.\n\nContent can be anything available on Enron's LAN (developed @ the desk top) \nor any video signal, i.e. Cable TV stations, tapes, etc.\n\nLet me know next steps.  We can discuss funding sources.  - Bill",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 873,
+      "end": 877,
+      "text": "Bill",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 4,
+      "text": "Beth",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 5,
+      "end": 10,
+      "text": " Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 877,
+      "text": "Beth, Mark - \n\nI think we are ready to move on implementing flat screen monitors in all of \nEnron Building passenger elevator cabs, i.e. proposal is for two 14\" monitors \nper cab, one for Corporate content, other for local Houston messages.  Will \ntry to flush mount them in the stainless steel cab panels, for a clean, \nattractive look.    \n\nTechnical details have generally been worked out between our group (Steve \nWoods and Harry Grubbs) and Enron's IT Dept.  such that  we know total costs \nare below $500K (more in $350-400K range plus whatever temporary, \nnon-elevator monitors appropriate for Three Allen Center occupants).  We have \na 3 month implementation schedule.\n\nContent can be anything available on Enron's LAN (developed @ the desk top) \nor any video signal, i.e. Cable TV stations, tapes, etc.\n\nLet me know next steps.  We can discuss funding sources.  - Bill",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18069164.1075846279018.JavaMail.evans@thyme>",
+      "Date": "Fri, 11 Feb 2000 01:25:00 -0800 (PST)",
+      "From": "bill.donovan@enron.com",
+      "To": "elizabeth.tilney@enron.com, mark.palmer@enron.com",
+      "Subject": "Video Screens in EB Elevator Cabs",
+      "Cc": "pam.benson@enron.com, david.mims@enron.com, steven.kean@enron.com, \n\tterrie.james@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "pam.benson@enron.com, david.mims@enron.com, steven.kean@enron.com, \n\tterrie.james@enron.com",
+      "X-From": "Bill Donovan",
+      "X-To": "Elizabeth Tilney, Mark Palmer",
+      "X-cc": "Pam Benson, David Mims, Steven J Kean, Terrie James",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Calendar\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_calendar_untitled_314.txt"
+}

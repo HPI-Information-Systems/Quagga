@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello - FieldCache is your problem. This can be solved in many ways but only one really beneficial:\ndecrease number of documents, increase heap, facet on fewer fields, don't do function query\non many fields. Or, of course, reindex with doc values. And you get a bonus, you can also\ndrastically reduce your heap size.\n\n----Original message-----\n> From:Kelly, Frank <frank.kelly@here.com>\n> Sent: Thursday 9th February 2017 14:20\n> To: solr-user@lucene.apache.org\n> Subject: Solr Heap Dump: Any suggestions on what to look for?\n> \n> Got a heap dump on an Out of Memory error. \n> Analyzing the dump now in Visual VM \n> \n \n> Seeing a lot of byte[] arrays (77% of our 8GB Heap) in \n> TreeMap$Entry FieldCacheImpl$SortedDocValues \n> We\u00e2\u20ac\u2122re considering switch over to DocValues but would rather be definitive about the\nroot cause before we experiment with DocValues and require a reindex of our 200M document\nindex\u00c2\u00a0 \n> In each of our 4 data centers. \n> \n \n> Any suggestions on what I should look for in this heap dump to get a definitive root\ncause? \n> \n \n> Cheers! \n> \n \n> -Frank \n> \n \n> \n \n> Frank Kelly \n> Principal Software Engineer \n> HERE\u00c2\u00a0 \n> 5 Wayside Rd, Burlington, MA 01803, USA \n> 42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W \n>\u00c2\u00a0 <http://360.here.com/>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.twitter.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.facebook.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.linkedin.com/company/heremaps>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.instagram.com/here/>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Hello ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 318,
+      "text": "Hello - FieldCache is your problem. This can be solved in many ways but only one really beneficial:\ndecrease number of documents, increase heap, facet on fewer fields, don't do function query\non many fields. Or, of course, reindex with doc values. And you get a bonus, you can also\ndrastically reduce your heap size.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 318,
+      "end": 526,
+      "text": "----Original message-----\n> From:Kelly, Frank <frank.kelly@here.com>\n> Sent: Thursday 9th February 2017 14:20\n> To: solr-user@lucene.apache.org\n> Subject: Solr Heap Dump: Any suggestions on what to look for?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1049,
+      "end": 1077,
+      "text": " \n> Cheers! \n> \n \n> -Frank \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1085,
+      "end": 1436,
+      "text": " \n> Frank Kelly \n> Principal Software Engineer \n> HERE\u00c2\u00a0 \n> 5 Wayside Rd, Burlington, MA 01803, USA \n> 42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W \n>\u00c2\u00a0 <http://360.here.com/>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.twitter.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.facebook.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.linkedin.com/company/heremaps>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.instagram.com/here/>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 526,
+      "end": 1437,
+      "text": "> \n> Got a heap dump on an Out of Memory error. \n> Analyzing the dump now in Visual VM \n> \n \n> Seeing a lot of byte[] arrays (77% of our 8GB Heap) in \n> TreeMap$Entry FieldCacheImpl$SortedDocValues \n> We\u00e2\u20ac\u2122re considering switch over to DocValues but would rather be definitive about the\nroot cause before we experiment with DocValues and require a reindex of our 200M document\nindex\u00c2\u00a0 \n> In each of our 4 data centers. \n> \n \n> Any suggestions on what I should look for in this heap dump to get a definitive root\ncause? \n> \n \n> Cheers! \n> \n \n> -Frank \n> \n \n> \n \n> Frank Kelly \n> Principal Software Engineer \n> HERE\u00c2\u00a0 \n> 5 Wayside Rd, Burlington, MA 01803, USA \n> 42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W \n>\u00c2\u00a0 <http://360.here.com/>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.twitter.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.facebook.com/here>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.linkedin.com/company/heremaps>\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 \n>\u00c2\u00a0 <https://www.instagram.com/here/>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_894"
+}

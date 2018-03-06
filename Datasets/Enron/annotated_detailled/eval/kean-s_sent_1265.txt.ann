@@ -1,0 +1,146 @@
+{
+  "wrapper": "plaintext",
+  "text": "We are discontinuing the executive car wash.  You, Steve and I should talk.\n\n\nFrom: Bill Donovan@ECT on 05/17/2001 03:29 PM\nTo: Steven J Kean/NA/Enron@Enron, Maureen McVicker/NA/Enron@Enron\ncc:  \n\nSubject: Weekly Notes\n\nSteve - \n\nI will be taking this Friday, the 18th, off on vacation.  Here are notes for \nyour staff meeting.\n\nBuyer/Seller have executed Offer Letter on Falcon EX ($32,750,000 price).  \nAircraft goes to pre-purchase inspection this weekend.  Close is no later \nthan June 6th.  All indications are that buyer is very motivated to complete \nthe deal.\nEnron Center South (ECS) Project remains solidly on track.  We are 10 weeks \nout on initial occupancy with Level 3 occupancy (EGM moves Aug. 3rd).  Levels \n4 (EIM, ENW, & Credit.Com) occupies two weeks later (Aug. 17).  Level 5 \n(Power) occupies two weeks after (Aug. 31st  - Labor Day weekend).  Level 6 \n(Gas) occupies two weeks after (Sept. 14th).  Level 7 (Executive) and the 1st \nfloor public spaces occupies year end.  Level 2 (Cafeteria) opens Nov.\nFound a Law firm interested in Azurix's present space in Three Allen Center \n(3 floors).  Goal is cut deal and have them in by year end.\nEnron Broadband indicates an intent to remain on their present ECN floors \n(Levels 44 and 45), plus backfill balance of operations into Wholesale's \nvacated trading floors.  This splits them into two elevator banks and becomes \nproblematic for ETS - who wants continuous floors, ECN Levels 39 through 46.\nWe are seeking subtenants for Broadband's Portland office space.  They plan \nto vacate the Riverplace building by Oct. \nNegotiating new food service contract with Sedexo Marriott to add ECS \ncafeteria.  Total compensation will be based on 3% fee on gross revenue - \nonly on individual sales of $2 or more (promote greater # of meals served) \nand bonus based on sharing of net operating income with Enron.  Global \nSourcing is participating with us in negotiations.\nNeed to decide if Executive Car Care program is going to be continued (30 \nexecutives participate with employee paying $70 per month and business units \nsubsidizing $275 per month).  Decision needed because new Garage will require \n$60K in improvements to get set up for car washing.  Present lease on remote \ncar washing facility (@ $5k per month) expired and we are on month to month \nholdover.\nWe are two weeks out to close on Beltway 8 land deal ($1.7 purchase price).  \nReal estate being acquired for construction of new $18 mill. Data Center and \nDisaster Recovery Facility.  Phillipe and I meet with Frevert next week to \nget approvals.\n\n- Bill\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 78,
+      "text": "We are discontinuing the executive car wash.  You, Steve and I should talk.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 84,
+      "end": 96,
+      "text": "Bill Donovan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 104,
+      "end": 114,
+      "text": "05/17/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 115,
+      "end": 123,
+      "text": "03:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 128,
+      "end": 141,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 158,
+      "end": 174,
+      "text": "Maureen McVicker",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 206,
+      "end": 218,
+      "text": "Weekly Notes",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 78,
+      "end": 219,
+      "text": "From: Bill Donovan@ECT on 05/17/2001 03:29 PM\nTo: Steven J Kean/NA/Enron@Enron, Maureen McVicker/NA/Enron@Enron\ncc:  \n\nSubject: Weekly Notes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 220,
+      "end": 225,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2578,
+      "end": 2582,
+      "text": "Bill",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2576,
+      "end": 2583,
+      "text": "- Bill\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 219,
+      "end": 2584,
+      "text": "\nSteve - \n\nI will be taking this Friday, the 18th, off on vacation.  Here are notes for \nyour staff meeting.\n\nBuyer/Seller have executed Offer Letter on Falcon EX ($32,750,000 price).  \nAircraft goes to pre-purchase inspection this weekend.  Close is no later \nthan June 6th.  All indications are that buyer is very motivated to complete \nthe deal.\nEnron Center South (ECS) Project remains solidly on track.  We are 10 weeks \nout on initial occupancy with Level 3 occupancy (EGM moves Aug. 3rd).  Levels \n4 (EIM, ENW, & Credit.Com) occupies two weeks later (Aug. 17).  Level 5 \n(Power) occupies two weeks after (Aug. 31st  - Labor Day weekend).  Level 6 \n(Gas) occupies two weeks after (Sept. 14th).  Level 7 (Executive) and the 1st \nfloor public spaces occupies year end.  Level 2 (Cafeteria) opens Nov.\nFound a Law firm interested in Azurix's present space in Three Allen Center \n(3 floors).  Goal is cut deal and have them in by year end.\nEnron Broadband indicates an intent to remain on their present ECN floors \n(Levels 44 and 45), plus backfill balance of operations into Wholesale's \nvacated trading floors.  This splits them into two elevator banks and becomes \nproblematic for ETS - who wants continuous floors, ECN Levels 39 through 46.\nWe are seeking subtenants for Broadband's Portland office space.  They plan \nto vacate the Riverplace building by Oct. \nNegotiating new food service contract with Sedexo Marriott to add ECS \ncafeteria.  Total compensation will be based on 3% fee on gross revenue - \nonly on individual sales of $2 or more (promote greater # of meals served) \nand bonus based on sharing of net operating income with Enron.  Global \nSourcing is participating with us in negotiations.\nNeed to decide if Executive Car Care program is going to be continued (30 \nexecutives participate with employee paying $70 per month and business units \nsubsidizing $275 per month).  Decision needed because new Garage will require \n$60K in improvements to get set up for car washing.  Present lease on remote \ncar washing facility (@ $5k per month) expired and we are on month to month \nholdover.\nWe are two weeks out to close on Beltway 8 land deal ($1.7 purchase price).  \nReal estate being acquired for construction of new $18 mill. Data Center and \nDisaster Recovery Facility.  Phillipe and I meet with Frevert next week to \nget approvals.\n\n- Bill\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 220,
+      "end": 229,
+      "text": "Steve - \n",
+      "type": "Body/Intro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28748493.1075848246528.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 07:01:00 -0700 (PDT)",
+      "From": "steven.kean@enron.com",
+      "To": "bill.donovan@enron.com",
+      "Subject": "Re: Weekly Notes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Bill Donovan",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_5\\Notes Folders\\Sent",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_sent_1265.txt"
+}

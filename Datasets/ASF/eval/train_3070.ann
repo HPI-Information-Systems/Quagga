@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "eval/train_3070",
+  "meta": {},
+  "text": "I had same concern regarding HBase . So I also added metric to measure Hbase\nop time in flatmap (Basically complete flatmap op).\n\n>From metrics I see that aprox 96 % time op time was under 1 sec. (Still I\ncan do a dummy run without HBase op . But  did these timing make sense?)\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Partitioner-is-spending-around-2-to-4-minutes-while-pushing-data-to-next-operator-tp13913p14040.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 574,
+      "text": "I had same concern regarding HBase . So I also added metric to measure Hbase\nop time in flatmap (Basically complete flatmap op).\n\n>From metrics I see that aprox 96 % time op time was under 1 sec. (Still I\ncan do a dummy run without HBase op . But  did these timing make sense?)\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Partitioner-is-spending-around-2-to-4-minutes-while-pushing-data-to-next-operator-tp13913p14040.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

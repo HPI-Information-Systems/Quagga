@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "What about setting a default value for the field? That is probably\nfaster than negative search clauses?\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 16 April 2017 at 23:58, Mikhail Khludnev <mkhl@apache.org> wrote:\n> +name:test +(type:research (*:* -type:[* TO *]))\n>\n> On Sun, Apr 16, 2017 at 11:47 PM, Furkan KAMACI <furkankamaci@gmail.com>\n> wrote:\n>\n>> Hi,\n>>\n>> I have a schema like:\n>>\n>> name,\n>> department,\n>> type\n>>\n>> type is an optional field. Some documents don't have that field. Let's\n>> assume I have these:\n>>\n>> Doc 1:\n>> name: test\n>> type: research\n>>\n>> Doc 2:\n>> name: test\n>> type: developer\n>>\n>> Doc 3:\n>> name: test\n>>\n>> I want to search name: test and type:research if type field exists (result\n>> will be Doc 1 and Doc 3).\n>>\n>> How can I do that?\n>>\n>> Kind Regards,\n>> Furkan KAMACI\n>>\n>\n>\n>\n> --\n> Sincerely yours\n> Mikhail Khludnev\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 104,
+      "end": 123,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 205,
+      "text": "What about setting a default value for the field? That is probably\nfaster than negative search clauses?\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 205,
+      "end": 274,
+      "text": "On 16 April 2017 at 23:58, Mikhail Khludnev <mkhl@apache.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 274,
+      "end": 327,
+      "text": "> +name:test +(type:research (*:* -type:[* TO *]))\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 327,
+      "end": 411,
+      "text": "> On Sun, Apr 16, 2017 at 11:47 PM, Furkan KAMACI <furkankamaci@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 411,
+      "end": 420,
+      "text": ">\n>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 837,
+      "end": 874,
+      "text": ">>\n>> Kind Regards,\n>> Furkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 883,
+      "end": 925,
+      "text": "> --\n> Sincerely yours\n> Mikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 411,
+      "end": 926,
+      "text": ">\n>> Hi,\n>>\n>> I have a schema like:\n>>\n>> name,\n>> department,\n>> type\n>>\n>> type is an optional field. Some documents don't have that field. Let's\n>> assume I have these:\n>>\n>> Doc 1:\n>> name: test\n>> type: research\n>>\n>> Doc 2:\n>> name: test\n>> type: developer\n>>\n>> Doc 3:\n>> name: test\n>>\n>> I want to search name: test and type:research if type field exists (result\n>> will be Doc 1 and Doc 3).\n>>\n>> How can I do that?\n>>\n>> Kind Regards,\n>> Furkan KAMACI\n>>\n>\n>\n>\n> --\n> Sincerely yours\n> Mikhail Khludnev\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2608"
+}

@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "test/mann-k_coral_51.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<7349039.1075845750885.JavaMail.evans@thyme>",
+      "Date": "Mon, 11 Dec 2000 04:15:00 -0800 (PST)",
+      "From": "gkutzschbach@fulbright.com",
+      "To": "ben.f.jacoby@enron.com, kay.mann@enron.com, ccampbell@kslaw.com, \n\tjkeffer@kslaw.com",
+      "Subject": "Three (3) letter agreements",
+      "Cc": "areynaud@coral-energy.com, dwhaley@coral-energy.com, \n\ttseigler@coral-energy.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "areynaud@coral-energy.com, dwhaley@coral-energy.com, \n\ttseigler@coral-energy.com",
+      "X-From": "\"George Kutzschbach\" <gkutzschbach@fulbright.com>",
+      "X-To": "Ben.F.Jacoby@enron.com, Kay.Mann@enron.com, CCampbell@KSLAW.com, JKeffer@KSLAW.com",
+      "X-cc": "areynaud@coral-energy.com, dwhaley@coral-energy.com, TSeigler@coral-energy.com",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_1\\Notes Folders\\Coral",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "text": "I have not received all TEH's comments, however, in the interest of time\nI am passing along the following changes to all three (3) of the letter\nagreements:\n\nSection 3(g):  The addition of \"in ENA's possession\" should be deleted\nfrom Section 3(g).  We were told that Exhibit T (or Exhibit B-2 in the\ncase of the ABB) was deleted from the Facility Agreement because the\ndocuments had already been furnished to ENA.  If all these documents\nhave been furnished by GE (or ABB), then the addition of \"in ENA's\npossession\" is not needed.  If all of these documents have not been\nfurnished by GE (or ABB), then the Facility Agreement should specify the\ndocuments not yet furnished and bind GE to furnish those not yet\nfurnished, and in the letter agreement ENA should covenant to deliver\nthe specified documents which have been furnished.\n\nSection 6(b):  Clause (iv) of Section 6(b) should be revised as\nfollows:\n\n\"(iv) following the date from the execution of the Facility Agreement\nthrough the closing of the Transaction, neither ENA nor the LLC\nwill not have agreed to or issued agree to or issue any written election\nor waiver with respect to the Facility Agreement as of the date of\nclosing.\"\n\nThe draft of the Facililty Agreement contemplates that the date of the\nFacility Agreement and the date of execution are the same.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1321,
+      "text": "I have not received all TEH's comments, however, in the interest of time\nI am passing along the following changes to all three (3) of the letter\nagreements:\n\nSection 3(g):  The addition of \"in ENA's possession\" should be deleted\nfrom Section 3(g).  We were told that Exhibit T (or Exhibit B-2 in the\ncase of the ABB) was deleted from the Facility Agreement because the\ndocuments had already been furnished to ENA.  If all these documents\nhave been furnished by GE (or ABB), then the addition of \"in ENA's\npossession\" is not needed.  If all of these documents have not been\nfurnished by GE (or ABB), then the Facility Agreement should specify the\ndocuments not yet furnished and bind GE to furnish those not yet\nfurnished, and in the letter agreement ENA should covenant to deliver\nthe specified documents which have been furnished.\n\nSection 6(b):  Clause (iv) of Section 6(b) should be revised as\nfollows:\n\n\"(iv) following the date from the execution of the Facility Agreement\nthrough the closing of the Transaction, neither ENA nor the LLC\nwill not have agreed to or issued agree to or issue any written election\nor waiver with respect to the Facility Agreement as of the date of\nclosing.\"\n\nThe draft of the Facililty Agreement contemplates that the date of the\nFacility Agreement and the date of execution are the same.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

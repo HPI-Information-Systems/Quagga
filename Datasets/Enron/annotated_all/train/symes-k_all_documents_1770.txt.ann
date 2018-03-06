@@ -1,0 +1,122 @@
+{
+  "wrapper": "plaintext",
+  "text": "EES spreadsheet\n---------------------- Forwarded by Stephanie Piwetz/HOU/ECT on 02/14/2001 \n12:19 PM ---------------------------\n\n\nJubran Whalan@EES\n11/14/2000 02:43 PM\nTo: Term Hedges for EES Portfolio\ncc:  \nSubject: 11/14\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 52,
+      "end": 68,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 80,
+      "end": 90,
+      "text": "02/14/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 92,
+      "end": 100,
+      "text": "12:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 16,
+      "end": 129,
+      "text": "---------------------- Forwarded by Stephanie Piwetz/HOU/ECT on 02/14/2001 \n12:19 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 16,
+      "text": "EES spreadsheet\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 131,
+      "end": 144,
+      "text": "Jubran Whalan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 149,
+      "end": 159,
+      "text": "11/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 160,
+      "end": 168,
+      "text": "02:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 173,
+      "end": 184,
+      "text": "Term Hedges",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 218,
+      "end": 223,
+      "text": "11/14",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 129,
+      "end": 224,
+      "text": "\n\nJubran Whalan@EES\n11/14/2000 02:43 PM\nTo: Term Hedges for EES Portfolio\ncc:  \nSubject: 11/14\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 224,
+      "end": 226,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13323997.1075841655932.JavaMail.evans@thyme>",
+      "Date": "Wed, 14 Feb 2001 04:17:00 -0800 (PST)",
+      "From": "stephanie.piwetz@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "11/14",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stephanie Piwetz",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\All documents",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_all_documents_1770.txt"
+}

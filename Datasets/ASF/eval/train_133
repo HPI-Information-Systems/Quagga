@@ -1,0 +1,43 @@
+I think I figured it out: the problem is due to Flink's behavior when a job has checkpointing
+enabled.
+
+When the job graph is created, if checkpointing is enabled but a restart strategy hasn't been
+programmatically configured, Flink changes the job graph's execution config to use the fixed
+delay restart strategy. That gets serialized with the job graph. Then, when the JobManager
+deserializes the execution config, it sees that there's a restart strategy configured for
+the job and uses that instead of using the restart strategy that's configured on the cluster.
+
+Clearly, the documentation definitely needs to be adjusted. Maybe I can add some changes to
+https://github.com/apache/flink/pull/3059
+
+However, should we also consider some implementation changes? Is it intentional that enabling
+checkpoint overrides the restart strategy set on the cluster, and that the only way to control
+the restart strategy on a checkpointed job is to set it programmatically? If not, then would
+it be reasonable to only set fixed-delay restart strategy if checkpointing is enabled AND
+the cluster doesn't explicitly configure it? Flink would no longer be use the execution config
+to control the strategy, but would instead do it in the JobManager#submitJob().
+
+-Shannon
+
+From: Shannon Carey <scarey@expedia.com<mailto:scarey@expedia.com>>
+Date: Thursday, January 5, 2017 at 1:50 PM
+To: "user@flink.apache.org<mailto:user@flink.apache.org>" <user@flink.apache.org<mailto:user@flink.apache.org>>
+Subject: failure-rate restart strategy not working?
+
+I recently updated my cluster with the following config:
+
+restart-strategy: failure-rate
+restart-strategy.failure-rate.max-failures-per-interval: 3
+restart-strategy.failure-rate.failure-rate-interval: 5 min
+restart-strategy.failure-rate.delay: 10 s
+
+I see the settings inside the JobManager web UI, as expected. I am not setting the restart-strategy
+programmatically, but the job does have checkpointing enabled.
+
+However, if I launch a job that (intentionally) fails every 10 seconds by throwing a RuntimeException,
+it continues to restart beyond the limit of 3 failures.
+
+Does anyone know why this might be happening? Any ideas of things I could check?
+
+Thanks!
+Shannon

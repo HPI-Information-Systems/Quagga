@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "k#  MDQ  Delivery Receipt\n894027  8000  M2  Access (this is less than the MDQ for now)\n\n\n---------------------- Forwarded by Chris Germany/HOU/ECT on 09/29/2000 03:47 \nPM ---------------------------\n\n\nChris Germany\n09/29/2000 03:44 PM\nTo: Meredith Mitchell/HOU/ECT@ECT, Cynthia Franklin/Corp/Enron@ENRON\ncc: Scott Goodell/Corp/Enron@ENRON, Judy Townsend/HOU/ECT@ECT \nSubject: Tetco MDQ's\n\n \n\nTetco MDQ's for OCT\n\nk#  MDQ  Delivery Receipt\n892510  16136  M3  Access (same as last month)\n892511  7500  M3  Access (same as last month)\n893145  5000  M3  Access (same as last month)\n892875  9400  M3  Access (same as last month)\n\n892872  19355  M2  Access (same as last month - this # may be too high)\n894029  5000  M2  Access (new)\n894028  5000  M2  ELA (new)\n\nVNGk#\n830015  10555  M2  Access (MDQ is higher but only use 10,555 dth)\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 89,
+      "end": 199,
+      "text": "---------------------- Forwarded by Chris Germany/HOU/ECT on 09/29/2000 03:47 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 89,
+      "text": "k#  MDQ  Delivery Receipt\n894027  8000  M2  Access (this is less than the MDQ for now)\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 199,
+      "end": 388,
+      "text": "\n\nChris Germany\n09/29/2000 03:44 PM\nTo: Meredith Mitchell/HOU/ECT@ECT, Cynthia Franklin/Corp/Enron@ENRON\ncc: Scott Goodell/Corp/Enron@ENRON, Judy Townsend/HOU/ECT@ECT \nSubject: Tetco MDQ's\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 388,
+      "end": 830,
+      "text": "\n \n\nTetco MDQ's for OCT\n\nk#  MDQ  Delivery Receipt\n892510  16136  M3  Access (same as last month)\n892511  7500  M3  Access (same as last month)\n893145  5000  M3  Access (same as last month)\n892875  9400  M3  Access (same as last month)\n\n892872  19355  M2  Access (same as last month - this # may be too high)\n894029  5000  M2  Access (new)\n894028  5000  M2  ELA (new)\n\nVNGk#\n830015  10555  M2  Access (MDQ is higher but only use 10,555 dth)\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4389565.1075853790599.JavaMail.evans@thyme>",
+      "Date": "Fri, 29 Sep 2000 08:48:00 -0700 (PDT)",
+      "From": "chris.germany@enron.com",
+      "To": "meredith.mitchell@enron.com, cynthia.franklin@enron.com",
+      "Subject": "Tetco MDQ's",
+      "Cc": "scott.goodell@enron.com, judy.townsend@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "scott.goodell@enron.com, judy.townsend@enron.com",
+      "X-From": "Chris Germany",
+      "X-To": "Meredith Mitchell, Cynthia Franklin",
+      "X-cc": "Scott Goodell, Judy Townsend",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_sent_347.txt"
+}

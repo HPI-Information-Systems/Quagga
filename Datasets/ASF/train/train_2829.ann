@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello All,\n\nI created solr cloud instance and collection on Google cloud (Windows\nInstance).\nI used below command.\n\n*solr create_collection -c booleansearch -shards 1 -replicationFactor 1*\n\n\nI would like to add one more server to this cloud to have extra documents\nindexed and better performance.\nCould you please suggest me the steps I need to perform ?\n\nThanks,\nNilesh Kamani\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hello All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 355,
+      "end": 378,
+      "text": "\nThanks,\nNilesh Kamani\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 379,
+      "text": "Hello All,\n\nI created solr cloud instance and collection on Google cloud (Windows\nInstance).\nI used below command.\n\n*solr create_collection -c booleansearch -shards 1 -replicationFactor 1*\n\n\nI would like to add one more server to this cloud to have extra documents\nindexed and better performance.\nCould you please suggest me the steps I need to perform ?\n\nThanks,\nNilesh Kamani\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2829"
+}

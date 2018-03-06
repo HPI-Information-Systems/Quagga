@@ -1,0 +1,18 @@
+hi,
+my problem is that my index freeze several time and i don't know why. So i
+lost all the data of my index.
+I have 14 million of documents from postgresql database. I have an only node
+with 31 GO for my JVM and my server has 64GO. My index make 6 GO on the HDD.
+Is it a good configuration?
+
+Someone can help me.
+
+thank for advance 
+
+
+
+
+
+--
+Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html
+

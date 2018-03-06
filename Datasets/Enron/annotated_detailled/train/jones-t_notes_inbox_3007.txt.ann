@@ -1,0 +1,489 @@
+{
+  "wrapper": "plaintext",
+  "text": "Tana -\n\nFYI\n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n----- Forwarded by Mark Greenberg/NA/Enron on 02/15/2001 12:14 PM -----\n\n\tPeter Feltman/ENRON@enronXgate\n\t02/15/2001 09:30 AM\n\t\t \n\t\t To: Mark Greenberg/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: RE: AW Tech - NDA\n\nMark:\n\nThe changes you made are fine.\n\nI will forward the revised NDA to AW Technologies.\n\nThanks,\n\nPeter Feltman\n\n -----Original Message-----\nFrom:  Greenberg, Mark  \nSent: Wednesday, February 14, 2001 11:54 PM\nTo: Feltman, Peter\nCc: Jones, Tana\nSubject: AW Tech - NDA\n\nPeter -\n\nAttached is a version of the NDA proposed by AW Technologies which has been \nmarked to reflect my comments.\n\nPlease review and let me know if you should need to discuss anything noted.  \nIf not, please feel free to forward this as you deem appropriate and to also \nforward my name and contact information.\n\n << File: aw-nda (enroncomments 2-14-01).rtf >> \n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 13,
+      "end": 17,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 18,
+      "end": 32,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 49,
+      "end": 61,
+      "text": "713-345-8897",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 73,
+      "end": 85,
+      "text": "713-646-3940",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 99,
+      "end": 123,
+      "text": "Mark.Greenberg@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 34,
+      "end": 37,
+      "text": "ENA",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 143,
+      "end": 157,
+      "text": "Mark Greenberg",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 170,
+      "end": 180,
+      "text": "02/15/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 181,
+      "end": 189,
+      "text": "12:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 124,
+      "end": 196,
+      "text": "----- Forwarded by Mark Greenberg/NA/Enron on 02/15/2001 12:14 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 198,
+      "end": 211,
+      "text": "Peter Feltman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 230,
+      "end": 240,
+      "text": "02/15/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 241,
+      "end": 249,
+      "text": "09:30 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 261,
+      "end": 275,
+      "text": "Mark Greenberg",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 310,
+      "end": 328,
+      "text": " RE: AW Tech - NDA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 196,
+      "end": 329,
+      "text": "\n\tPeter Feltman/ENRON@enronXgate\n\t02/15/2001 09:30 AM\n\t\t \n\t\t To: Mark Greenberg/NA/Enron@ENRON\n\t\t cc: \n\t\t Subject: RE: AW Tech - NDA\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 330,
+      "end": 334,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 430,
+      "end": 443,
+      "text": "Peter Feltman",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 421,
+      "end": 443,
+      "text": "Thanks,\n\nPeter Feltman",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 329,
+      "end": 445,
+      "text": "\nMark:\n\nThe changes you made are fine.\n\nI will forward the revised NDA to AW Technologies.\n\nThanks,\n\nPeter Feltman\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 480,
+      "end": 495,
+      "text": "Greenberg, Mark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 515,
+      "end": 532,
+      "text": "February 14, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 533,
+      "end": 541,
+      "text": "11:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 546,
+      "end": 560,
+      "text": "Feltman, Peter",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 565,
+      "end": 576,
+      "text": "Jones, Tana",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 586,
+      "end": 599,
+      "text": "AW Tech - NDA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 445,
+      "end": 600,
+      "text": " -----Original Message-----\nFrom:  Greenberg, Mark  \nSent: Wednesday, February 14, 2001 11:54 PM\nTo: Feltman, Peter\nCc: Jones, Tana\nSubject: AW Tech - NDA\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 601,
+      "end": 606,
+      "text": "Peter",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 927,
+      "end": 961,
+      "text": "aw-nda (enroncomments 2-14-01).rtf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 917,
+      "end": 966,
+      "text": " << File: aw-nda (enroncomments 2-14-01).rtf >> \n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 18,
+      "end": 124,
+      "text": "Senior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 0,
+      "end": 124,
+      "text": "Tana -\n\nFYI\n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 967,
+      "end": 971,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 972,
+      "end": 986,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 988,
+      "end": 991,
+      "text": "ENA",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1003,
+      "end": 1015,
+      "text": "713-345-8897",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1027,
+      "end": 1039,
+      "text": "713-646-3940",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1053,
+      "end": 1077,
+      "text": "Mark.Greenberg@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 967,
+      "end": 1077,
+      "text": "Mark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 600,
+      "end": 1077,
+      "text": "\nPeter -\n\nAttached is a version of the NDA proposed by AW Technologies which has been \nmarked to reflect my comments.\n\nPlease review and let me know if you should need to discuss anything noted.  \nIf not, please feel free to forward this as you deem appropriate and to also \nforward my name and contact information.\n\n << File: aw-nda (enroncomments 2-14-01).rtf >> \n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 2,
+      "target": 8,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 16,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 19,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 27,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 23,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 26,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 30,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 40,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 39,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 38,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 35,
+      "target": 37,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 36,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 35,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27073641.1075847397983.JavaMail.evans@thyme>",
+      "Date": "Thu, 15 Feb 2001 04:15:00 -0800 (PST)",
+      "From": "mark.greenberg@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "RE: AW Tech - NDA",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark Greenberg",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_3007.txt"
+}

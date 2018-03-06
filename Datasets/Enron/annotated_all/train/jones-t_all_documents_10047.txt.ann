@@ -1,0 +1,242 @@
+{
+  "wrapper": "plaintext",
+  "text": "Susan,\nI don't know who Laura Dewett is, but the other three are on \"my\" Confirm \ndesk.  We have a couple of new people starting next week, so I'll send you an \nupdated list as soon as they're set up for e-mail access.\n\nThanks,\nJoe\n\n\n\n\n\n\nSusan Bailey\n03/12/2001 02:01 PM\nTo: Larry Joe Hunter/HOU/ECT@ECT\ncc: Tana Jones/HOU/ECT@ECT, Samantha Boyd/NA/Enron@Enron, Stephanie \nPanus/NA/Enron@Enron \nSubject: Confirm Desk Group\n\nJoe,\n\nAs mentioned in my voice mail -- please advise as to whether the following \nindividuals should to be included in the Group known as \"Confirm Desk\":\n\n   Andrea Guillen\n   Gordon Heaney\n   Scott Tackett\n   Laura Dewett\n\nThanks.\n\nCordially,\nSusan S. Bailey\nEnron North America Corp.\n1400 Smith Street, Suite 3806A\nHouston, Texas 77002\nPhone: (713) 853-4737\nFax: (713) 646-3490\nE:mail:  Susan.Bailey@enron.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Susan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 220,
+      "end": 232,
+      "text": "Thanks,\nJoe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 228,
+      "end": 231,
+      "text": "Joe",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 238,
+      "text": "Susan,\nI don't know who Laura Dewett is, but the other three are on \"my\" Confirm \ndesk.  We have a couple of new people starting next week, so I'll send you an \nupdated list as soon as they're set up for e-mail access.\n\nThanks,\nJoe\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 238,
+      "end": 250,
+      "text": "Susan Bailey",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 251,
+      "end": 261,
+      "text": "03/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 262,
+      "end": 270,
+      "text": "02:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 275,
+      "end": 291,
+      "text": "Larry Joe Hunter",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 308,
+      "end": 318,
+      "text": "Tana Jones",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 332,
+      "end": 345,
+      "text": "Samantha Boyd",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 362,
+      "end": 378,
+      "text": "Stephanie \nPanus",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 404,
+      "end": 422,
+      "text": "Confirm Desk Group",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 238,
+      "end": 423,
+      "text": "Susan Bailey\n03/12/2001 02:01 PM\nTo: Larry Joe Hunter/HOU/ECT@ECT\ncc: Tana Jones/HOU/ECT@ECT, Samantha Boyd/NA/Enron@Enron, Stephanie \nPanus/NA/Enron@Enron \nSubject: Confirm Desk Group\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 424,
+      "end": 427,
+      "text": "Joe",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 668,
+      "end": 683,
+      "text": "Susan S. Bailey",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 657,
+      "end": 683,
+      "text": "Cordially,\nSusan S. Bailey",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 684,
+      "end": 709,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 710,
+      "end": 761,
+      "text": "1400 Smith Street, Suite 3806A\nHouston, Texas 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 769,
+      "end": 783,
+      "text": "(713) 853-4737",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 789,
+      "end": 803,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 813,
+      "end": 835,
+      "text": "Susan.Bailey@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 684,
+      "end": 837,
+      "text": "Enron North America Corp.\n1400 Smith Street, Suite 3806A\nHouston, Texas 77002\nPhone: (713) 853-4737\nFax: (713) 646-3490\nE:mail:  Susan.Bailey@enron.com\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 423,
+      "end": 837,
+      "text": "\nJoe,\n\nAs mentioned in my voice mail -- please advise as to whether the following \nindividuals should to be included in the Group known as \"Confirm Desk\":\n\n   Andrea Guillen\n   Gordon Heaney\n   Scott Tackett\n   Laura Dewett\n\nThanks.\n\nCordially,\nSusan S. Bailey\nEnron North America Corp.\n1400 Smith Street, Suite 3806A\nHouston, Texas 77002\nPhone: (713) 853-4737\nFax: (713) 646-3490\nE:mail:  Susan.Bailey@enron.com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30192021.1075847321984.JavaMail.evans@thyme>",
+      "Date": "Mon, 12 Mar 2001 06:57:00 -0800 (PST)",
+      "From": "larry.hunter@enron.com",
+      "To": "susan.bailey@enron.com",
+      "Subject": "Re: Confirm Desk Group",
+      "Cc": "tana.jones@enron.com, samantha.boyd@enron.com, stephanie.panus@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "tana.jones@enron.com, samantha.boyd@enron.com, stephanie.panus@enron.com",
+      "X-From": "Larry Joe Hunter",
+      "X-To": "Susan Bailey",
+      "X-cc": "Tana Jones, Samantha Boyd, Stephanie Panus",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_10047.txt"
+}

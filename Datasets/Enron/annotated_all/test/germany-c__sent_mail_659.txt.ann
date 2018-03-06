@@ -1,0 +1,196 @@
+{
+  "wrapper": "plaintext",
+  "text": "When did Bay State bill ENA for this?  And, did Bay State pay there bill for \ngas ENA sold them or did they deduct this from the payment?\n\nIt does work out to 5,500 dt per day at $.09.\n\n\n\n\nIsabel Y Resendez\n09/21/2000 10:58 AM\nTo: Chris Germany/HOU/ECT@ECT\ncc: Genaro Mendoza/NA/Enron@Enron, Elizabeth L Hernandez/HOU/ECT@ECT \nSubject: Re: Bay State\n\nHello Chris,\nRemember the demand charge that was entered in the sales side that you killed \nabout a week ago?(deal # 233091)  Well, the demand charges need to be in the \npurchase side not the sales side.  Per Bay State, Enron should be paying the \ndemand charges.  Are they correct???  Bay State is also charging interest for \nlate payment.  Please let me know if you need any more information.\nProduction month Amount\nApril   $14,850.00\nMay   $15,345.00\nJune   $14,850.00\nJuly   $15,345.00\nAugust   $15,345.00\nInterest   $926.32\n\n---------------------- Forwarded by Isabel Y Resendez/HOU/ECT on 09/21/2000 \n10:47 AM ---------------------------\n\n\nIsabel Y Resendez\n09/20/2000 09:14 AM\nTo: Elizabeth L Hernandez/HOU/ECT@ECT\ncc: Genaro Mendoza/NA/Enron@Enron \nSubject: Re: Bay State\n\nGood morning Elizabeth,\nDo you know if Chris put in the demand charge on the purchase side???\nBay State is charging Genaro the demand charge on the purchase side.\nThank you for you help\nisabel\n\n\n\n\nElizabeth L Hernandez\n09/11/2000 10:37 AM\nTo: Isabel Y Resendez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State  \n\nI forwarded this information to Chris Germany and I know he was working on it \nFriday.  I will get with him today to find out what the status of this issue \nis.  I'll get back with you.\n\n\n\n\nIsabel Y Resendez\n09/11/2000 10:34 AM\nTo: Elizabeth L Hernandez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State\n\nGood Elizabeth,\nCould you give me an update on this matter.  Please let me know if you need \nanything from me or if you want me to speak to someone.\n\nThank you \nisabel\n---------------------- Forwarded by Isabel Y Resendez/HOU/ECT on 09/11/2000 \n10:29 AM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Shawna Johnson @ ENRON                           09/05/2000 11:32 AM\n\t\n\nTo: Isabel Y Resendez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State  \n\nI have forwarded the following request to Elizabeth Hernandez.  She handles \nthe East desk.  Any deals regarding the Central, Ontario or West desk please \nsend to me!!\n\n:  )\nsmj\n\n\n\nIsabel Y Resendez@ECT\n09/05/2000 10:40 AM\nTo: Shawna Johnson/Corp/Enron@ENRON\ncc:  \n\nSubject: Bay State\n\nShawna,\nI am Isabel and I work in Gas Settlements.  Could you help me out with the \nfollowing?\n\nDeal # 233091 for Bay State is charging a demand charge every month.  \nAccourding to Bay State Enron should not be charging demand charges.  Could \nyou let me know if this correct.  Should Enron be charging demand charges?  \nMaureen Smith is down as the trader on the deal.  However, I am not sure if \nthat is correct.  Please let me know if you are not the correct person to \nsend this note too.  \nThank you for your help!\nisabel\n3-0440\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 189,
+      "end": 350,
+      "text": "Isabel Y Resendez\n09/21/2000 10:58 AM\nTo: Chris Germany/HOU/ECT@ECT\ncc: Genaro Mendoza/NA/Enron@Enron, Elizabeth L Hernandez/HOU/ECT@ECT \nSubject: Re: Bay State\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 189,
+      "text": "When did Bay State bill ENA for this?  And, did Bay State pay there bill for \ngas ENA sold them or did they deduct this from the payment?\n\nIt does work out to 5,500 dt per day at $.09.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 350,
+      "end": 364,
+      "text": "\nHello Chris,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 882,
+      "end": 996,
+      "text": "---------------------- Forwarded by Isabel Y Resendez/HOU/ECT on 09/21/2000 \n10:47 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 350,
+      "end": 882,
+      "text": "\nHello Chris,\nRemember the demand charge that was entered in the sales side that you killed \nabout a week ago?(deal # 233091)  Well, the demand charges need to be in the \npurchase side not the sales side.  Per Bay State, Enron should be paying the \ndemand charges.  Are they correct???  Bay State is also charging interest for \nlate payment.  Please let me know if you need any more information.\nProduction month Amount\nApril   $14,850.00\nMay   $15,345.00\nJune   $14,850.00\nJuly   $15,345.00\nAugust   $15,345.00\nInterest   $926.32\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 996,
+      "end": 1132,
+      "text": "\n\nIsabel Y Resendez\n09/20/2000 09:14 AM\nTo: Elizabeth L Hernandez/HOU/ECT@ECT\ncc: Genaro Mendoza/NA/Enron@Enron \nSubject: Re: Bay State\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1132,
+      "end": 1157,
+      "text": "\nGood morning Elizabeth,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1132,
+      "end": 1330,
+      "text": "\nGood morning Elizabeth,\nDo you know if Chris put in the demand charge on the purchase side???\nBay State is charging Genaro the demand charge on the purchase side.\nThank you for you help\nisabel\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1330,
+      "end": 1437,
+      "text": "Elizabeth L Hernandez\n09/11/2000 10:37 AM\nTo: Isabel Y Resendez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1437,
+      "end": 1628,
+      "text": "\nI forwarded this information to Chris Germany and I know he was working on it \nFriday.  I will get with him today to find out what the status of this issue \nis.  I'll get back with you.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1628,
+      "end": 1733,
+      "text": "Isabel Y Resendez\n09/11/2000 10:34 AM\nTo: Elizabeth L Hernandez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1733,
+      "end": 1750,
+      "text": "\nGood Elizabeth,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1883,
+      "end": 1902,
+      "text": "\nThank you \nisabel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1733,
+      "end": 1902,
+      "text": "\nGood Elizabeth,\nCould you give me an update on this matter.  Please let me know if you need \nanything from me or if you want me to speak to someone.\n\nThank you \nisabel\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1902,
+      "end": 2016,
+      "text": "---------------------- Forwarded by Isabel Y Resendez/HOU/ECT on 09/11/2000 \n10:29 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2016,
+      "end": 2194,
+      "text": "   \n\tEnron North America Corp.\n\t\n\tFrom:  Shawna Johnson @ ENRON                           09/05/2000 11:32 AM\n\t\n\nTo: Isabel Y Resendez/HOU/ECT@ECT\ncc:  \nSubject: Re: Bay State  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2194,
+      "end": 2376,
+      "text": "\nI have forwarded the following request to Elizabeth Hernandez.  She handles \nthe East desk.  Any deals regarding the Central, Ontario or West desk please \nsend to me!!\n\n:  )\nsmj\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2376,
+      "end": 2480,
+      "text": "Isabel Y Resendez@ECT\n09/05/2000 10:40 AM\nTo: Shawna Johnson/Corp/Enron@ENRON\ncc:  \n\nSubject: Bay State\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2480,
+      "end": 2489,
+      "text": "\nShawna,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2976,
+      "end": 3008,
+      "text": "Thank you for your help!\nisabel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2480,
+      "end": 3031,
+      "text": "\nShawna,\nI am Isabel and I work in Gas Settlements.  Could you help me out with the \nfollowing?\n\nDeal # 233091 for Bay State is charging a demand charge every month.  \nAccourding to Bay State Enron should not be charging demand charges.  Could \nyou let me know if this correct.  Should Enron be charging demand charges?  \nMaureen Smith is down as the trader on the deal.  However, I am not sure if \nthat is correct.  Please let me know if you are not the correct person to \nsend this note too.  \nThank you for your help!\nisabel\n3-0440\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28886090.1075853827258.JavaMail.evans@thyme>",
+      "Date": "Fri, 22 Sep 2000 07:01:00 -0700 (PDT)",
+      "From": "chris.germany@enron.com",
+      "To": "isabel.resendez@enron.com",
+      "Subject": "Re: Bay State",
+      "Cc": "genaro.mendoza@enron.com, elizabeth.hernandez@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "genaro.mendoza@enron.com, elizabeth.hernandez@enron.com",
+      "X-From": "Chris Germany",
+      "X-To": "Isabel Y Resendez",
+      "X-cc": "Genaro Mendoza, Elizabeth L Hernandez",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c__sent_mail_659.txt"
+}

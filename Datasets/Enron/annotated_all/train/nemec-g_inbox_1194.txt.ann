@@ -1,0 +1,385 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nYea, someone should have warned you about the drinks being poured at the\nol' GK.  They tend to be pretty stiff.\n\n...and ...\"Swerve on?\"  I have only a select group of friends who use such\nterminology - you must be one of those cool-guy types!\n\nA night out on Thursday sounds really good right now - maybe I will see\nyou.  Downing Street is one of my favorite low-key spots - a bit of a meat\nmarket at times, but low key nonetheless.  Not to be rude, but to be\nthorough rather, would you describe yourself as blond or more of a\nbrunette?\n\nJen\n\n\nTo:   IMCEANOTES-jennifer+2Esanders/40us/2Eandersen/2Ecom/40ENRON@enron.com\ncc:     (bcc: Jennifer D. Sanders)\nDate: 08/07/2001 03:09 PM\nFrom: Gerald.Nemec@enron.com\nSubject:  RE: Hello!\n\n\nYea, we definitely had our swerve on that night.  I will have to have a\ntalk with that bartender next time, because I was over-served.  Probably\nnot a good idea to start at GK at 6  and stay til 2 in the morning.\n\nThanks for your gracious response.  Let me tell you, I had much debate over\nwhether email was the appropriate communication medium or the phone.  I was\nswung in favor of email to save myself the potential awkwardness of the\nfollowing phone conversation scenario:\n\n     Jennifer:  \"Hello\"\n     Gerald:  \"Hi, Jennifer, this is Gerald.  We met at the Gallant Knight\non Friday\"\n     Jennifer:  \"Who?\"\n\nAs I said Friday night was kind of hazy for me.  I'll probably be meeting\nsome friends for happy hour on Thursday night at Downing Street.  If you\nand your friends are out, why don't you try and stop by.\n\nGerald.\n\n    -----Original Message-----\n   From:   jennifer.d.sanders@us.andersen.com@ENRON\n\n[mailto:IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com]\n\n\n\n   Sent:   Tuesday, August 07, 2001 10:58 AM\n   To:     Nemec, Gerald\n   Subject:  Re: Hello!\n\n\n   Of course I remember you.  GK is really a great spot on Fridays - Looked\n   like you guys were having a good time!\n   I found you quite nice as well, but I am currently dating someone.  No\n   worries.  While I've never been a big fan of unconventional dating\n   practices (i.e. hooking up over the internet), i do fancy your approach\n   of\n   straightforward and clever ingenuity!!  And if you ever want to just\n   have\n   lunch or a drink anyway, let me know.\n\n   Jen\n\n   P.S.   Tell Mike \"no worries\"  as well!\n\n\n\n   To:   Jennifer D. Sanders@ANDERSEN WO\n   cc:\n   Date: 08/06/2001 03:54 PM\n   From: Gerald.Nemec@enron.com\n   Subject:  Hello!\n\n\n   Hi Jennifer,  I don't know if you remember, but we met at Gallant Knight\n   on Friday night.  I was with Mike Robison and the Enron group.  I had\n   never been there before, but that place is alot of fun.  Definition of\n   \"Swanky\".  You are probably wondering, \"Why is this guy emailing me!\"\n   We'll, I will be straightforward and say that I found you very charming.\n   I wanted to see if you would be interested in meeting me for lunch or a\n   drink afterwork!  I apologize in advance if you are dating or involved\n   with someone, but I thought I would take that chance.\n\n   P.S.  Mike gave me your email address, but don't hold it against him.\n   ;-)\n\n   Gerald\n\n\n   **********************************************************************\n   This e-mail is the property of Enron Corp. and/or its relevant affiliate\n   and may contain confidential and privileged material for the sole use of\n   the intended recipient (s). Any review, use, distribution or disclosure\n   by\n   others is strictly prohibited. If you are not the intended recipient (or\n   authorized to receive for the recipient), please contact the sender or\n   reply to Enron Corp. at enron.messaging.administration@enron.com and\n   delete\n   all copies of the message. This e-mail (and any attachments hereto) are\n   not\n   intended to be an offer (or an acceptance) and do not create or evidence\n   a\n   binding and enforceable contract between Enron Corp. (or any of its\n   affiliates) and the intended recipient or any other party, and may not\n   be\n   relied on by anyone as the basis of a contract by estoppel or otherwise.\n   Thank you.\n   **********************************************************************\n\n\n\n\n\n\n\n   *******************Internet Email Confidentiality\n   Footer*******************\n\n\n   Privileged/Confidential Information may be contained in this message.\n   If\n   you are not the addressee indicated in this message (or responsible for\n   delivery of the message to such person), you may not copy or deliver\n   this\n   message to anyone. In such case, you should destroy this message and\n   kindly\n   notify the sender by reply email. Please advise immediately if you or\n   your\n   employer do not consent to Internet email for messages of this kind.\n   Opinions, conclusions and other information in this message that do not\n   relate to the official business of my firm shall be understood as\n   neither\n   given nor endorsed by it.\n\n\n\n\n\n\n\n\n\n*******************Internet Email Confidentiality Footer*******************\n\n\nPrivileged/Confidential Information may be contained in this message.  If\nyou are not the addressee indicated in this message (or responsible for\ndelivery of the message to such person), you may not copy or deliver this\nmessage to anyone. In such case, you should destroy this message and kindly\nnotify the sender by reply email. Please advise immediately if you or your\nemployer do not consent to Internet email for messages of this kind.\nOpinions, conclusions and other information in this message that do not\nrelate to the official business of my firm shall be understood as neither\ngiven nor endorsed by it.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 539,
+      "end": 542,
+      "text": "Jen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 545,
+      "text": "\nYea, someone should have warned you about the drinks being poured at the\nol' GK.  They tend to be pretty stiff.\n\n...and ...\"Swerve on?\"  I have only a select group of friends who use such\nterminology - you must be one of those cool-guy types!\n\nA night out on Thursday sounds really good right now - maybe I will see\nyou.  Downing Street is one of my favorite low-key spots - a bit of a meat\nmarket at times, but low key nonetheless.  Not to be rude, but to be\nthorough rather, would you describe yourself as blond or more of a\nbrunette?\n\nJen\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 551,
+      "end": 580,
+      "text": "IMCEANOTES-jennifer+2Esanders",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 635,
+      "end": 654,
+      "text": "Jennifer D. Sanders",
+      "type": "Header/Person/Bcc",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 662,
+      "end": 672,
+      "text": "08/07/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 673,
+      "end": 681,
+      "text": "03:09 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 688,
+      "end": 710,
+      "text": "Gerald.Nemec@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 720,
+      "end": 731,
+      "text": " RE: Hello!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 545,
+      "end": 732,
+      "text": "To:   IMCEANOTES-jennifer+2Esanders/40us/2Eandersen/2Ecom/40ENRON@enron.com\ncc:     (bcc: Jennifer D. Sanders)\nDate: 08/07/2001 03:09 PM\nFrom: Gerald.Nemec@enron.com\nSubject:  RE: Hello!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1551,
+      "end": 1558,
+      "text": "Gerald.",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 732,
+      "end": 1560,
+      "text": "\n\nYea, we definitely had our swerve on that night.  I will have to have a\ntalk with that bartender next time, because I was over-served.  Probably\nnot a good idea to start at GK at 6  and stay til 2 in the morning.\n\nThanks for your gracious response.  Let me tell you, I had much debate over\nwhether email was the appropriate communication medium or the phone.  I was\nswung in favor of email to save myself the potential awkwardness of the\nfollowing phone conversation scenario:\n\n     Jennifer:  \"Hello\"\n     Gerald:  \"Hi, Jennifer, this is Gerald.  We met at the Gallant Knight\non Friday\"\n     Jennifer:  \"Who?\"\n\nAs I said Friday night was kind of hazy for me.  I'll probably be meeting\nsome friends for happy hour on Thursday night at Downing Street.  If you\nand your friends are out, why don't you try and stop by.\n\nGerald.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1602,
+      "end": 1636,
+      "text": "jennifer.d.sanders@us.andersen.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1652,
+      "end": 1725,
+      "text": "IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1750,
+      "end": 1765,
+      "text": "August 07, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1766,
+      "end": 1774,
+      "text": "10:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1786,
+      "end": 1799,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1813,
+      "end": 1823,
+      "text": "Re: Hello!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1560,
+      "end": 1824,
+      "text": "    -----Original Message-----\n   From:   jennifer.d.sanders@us.andersen.com@ENRON\n\n[mailto:IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com]\n\n\n\n   Sent:   Tuesday, August 07, 2001 10:58 AM\n   To:     Nemec, Gerald\n   Subject:  Re: Hello!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2294,
+      "end": 2297,
+      "text": "Jen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2299,
+      "end": 2342,
+      "text": "   P.S.   Tell Mike \"no worries\"  as well!\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1824,
+      "end": 2345,
+      "text": "\n\n   Of course I remember you.  GK is really a great spot on Fridays - Looked\n   like you guys were having a good time!\n   I found you quite nice as well, but I am currently dating someone.  No\n   worries.  While I've never been a big fan of unconventional dating\n   practices (i.e. hooking up over the internet), i do fancy your approach\n   of\n   straightforward and clever ingenuity!!  And if you ever want to just\n   have\n   lunch or a drink anyway, let me know.\n\n   Jen\n\n   P.S.   Tell Mike \"no worries\"  as well!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2354,
+      "end": 2373,
+      "text": "Jennifer D. Sanders",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2402,
+      "end": 2412,
+      "text": "08/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2413,
+      "end": 2421,
+      "text": "03:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2431,
+      "end": 2453,
+      "text": "Gerald.Nemec@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2467,
+      "end": 2473,
+      "text": "Hello!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2345,
+      "end": 2474,
+      "text": "   To:   Jennifer D. Sanders@ANDERSEN WO\n   cc:\n   Date: 08/06/2001 03:54 PM\n   From: Gerald.Nemec@enron.com\n   Subject:  Hello!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2482,
+      "end": 2490,
+      "text": "Jennifer",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2476,
+      "end": 2491,
+      "text": "   Hi Jennifer,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 3055,
+      "end": 3135,
+      "text": "   P.S.  Mike gave me your email address, but don't hold it against him.\n   ;-)\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 3139,
+      "end": 3145,
+      "text": "Gerald",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 3148,
+      "end": 4165,
+      "text": "   **********************************************************************\n   This e-mail is the property of Enron Corp. and/or its relevant affiliate\n   and may contain confidential and privileged material for the sole use of\n   the intended recipient (s). Any review, use, distribution or disclosure\n   by\n   others is strictly prohibited. If you are not the intended recipient (or\n   authorized to receive for the recipient), please contact the sender or\n   reply to Enron Corp. at enron.messaging.administration@enron.com and\n   delete\n   all copies of the message. This e-mail (and any attachments hereto) are\n   not\n   intended to be an offer (or an acceptance) and do not create or evidence\n   a\n   binding and enforceable contract between Enron Corp. (or any of its\n   affiliates) and the intended recipient or any other party, and may not\n   be\n   relied on by anyone as the basis of a contract by estoppel or otherwise.\n   Thank you.\n   **********************************************************************\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 4172,
+      "end": 4909,
+      "text": "   *******************Internet Email Confidentiality\n   Footer*******************\n\n\n   Privileged/Confidential Information may be contained in this message.\n   If\n   you are not the addressee indicated in this message (or responsible for\n   delivery of the message to such person), you may not copy or deliver\n   this\n   message to anyone. In such case, you should destroy this message and\n   kindly\n   notify the sender by reply email. Please advise immediately if you or\n   your\n   employer do not consent to Internet email for messages of this kind.\n   Opinions, conclusions and other information in this message that do not\n   relate to the official business of my firm shall be understood as\n   neither\n   given nor endorsed by it.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 4918,
+      "end": 5607,
+      "text": "*******************Internet Email Confidentiality Footer*******************\n\n\nPrivileged/Confidential Information may be contained in this message.  If\nyou are not the addressee indicated in this message (or responsible for\ndelivery of the message to such person), you may not copy or deliver this\nmessage to anyone. In such case, you should destroy this message and kindly\nnotify the sender by reply email. Please advise immediately if you or your\nemployer do not consent to Internet email for messages of this kind.\nOpinions, conclusions and other information in this message that do not\nrelate to the official business of my firm shall be understood as neither\ngiven nor endorsed by it.",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2474,
+      "end": 5607,
+      "text": "\n\n   Hi Jennifer,  I don't know if you remember, but we met at Gallant Knight\n   on Friday night.  I was with Mike Robison and the Enron group.  I had\n   never been there before, but that place is alot of fun.  Definition of\n   \"Swanky\".  You are probably wondering, \"Why is this guy emailing me!\"\n   We'll, I will be straightforward and say that I found you very charming.\n   I wanted to see if you would be interested in meeting me for lunch or a\n   drink afterwork!  I apologize in advance if you are dating or involved\n   with someone, but I thought I would take that chance.\n\n   P.S.  Mike gave me your email address, but don't hold it against him.\n   ;-)\n\n   Gerald\n\n\n   **********************************************************************\n   This e-mail is the property of Enron Corp. and/or its relevant affiliate\n   and may contain confidential and privileged material for the sole use of\n   the intended recipient (s). Any review, use, distribution or disclosure\n   by\n   others is strictly prohibited. If you are not the intended recipient (or\n   authorized to receive for the recipient), please contact the sender or\n   reply to Enron Corp. at enron.messaging.administration@enron.com and\n   delete\n   all copies of the message. This e-mail (and any attachments hereto) are\n   not\n   intended to be an offer (or an acceptance) and do not create or evidence\n   a\n   binding and enforceable contract between Enron Corp. (or any of its\n   affiliates) and the intended recipient or any other party, and may not\n   be\n   relied on by anyone as the basis of a contract by estoppel or otherwise.\n   Thank you.\n   **********************************************************************\n\n\n\n\n\n\n\n   *******************Internet Email Confidentiality\n   Footer*******************\n\n\n   Privileged/Confidential Information may be contained in this message.\n   If\n   you are not the addressee indicated in this message (or responsible for\n   delivery of the message to such person), you may not copy or deliver\n   this\n   message to anyone. In such case, you should destroy this message and\n   kindly\n   notify the sender by reply email. Please advise immediately if you or\n   your\n   employer do not consent to Internet email for messages of this kind.\n   Opinions, conclusions and other information in this message that do not\n   relate to the official business of my firm shall be understood as\n   neither\n   given nor endorsed by it.\n\n\n\n\n\n\n\n\n\n*******************Internet Email Confidentiality Footer*******************\n\n\nPrivileged/Confidential Information may be contained in this message.  If\nyou are not the addressee indicated in this message (or responsible for\ndelivery of the message to such person), you may not copy or deliver this\nmessage to anyone. In such case, you should destroy this message and kindly\nnotify the sender by reply email. Please advise immediately if you or your\nemployer do not consent to Internet email for messages of this kind.\nOpinions, conclusions and other information in this message that do not\nrelate to the official business of my firm shall be understood as neither\ngiven nor endorsed by it.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 16,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 19,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 22,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 25,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 28,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 31,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30649314.1075858582322.JavaMail.evans@thyme>",
+      "Date": "Tue, 7 Aug 2001 13:18:45 -0700 (PDT)",
+      "From": "jennifer.d.sanders@us.andersen.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "RE: Hello!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "jennifer.d.sanders@us.andersen.com@ENRON <IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com>",
+      "X-To": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Nemec, Gerald (Non-Privileged)\\Nemec, Gerald\\Inbox",
+      "X-Origin": "Nemec-G",
+      "X-FileName": "Nemec, Gerald (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_inbox_1194.txt"
+}

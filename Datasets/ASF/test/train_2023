@@ -1,0 +1,9 @@
+Just wanted to clarify!!!
+
+Is foreachPartition in spark  an output operation?
+
+Which one is better use mapPartitions or foreachPartitions?
+
+Regards
+Diwakar
+

@@ -1,0 +1,107 @@
+{
+  "wrapper": "plaintext",
+  "text": "Christopher:\nWe have done a trade with a Bermuda hedge fund and have negotiated collateral \nprovisions that may require them to post csah to us.  The agreement will be \ngoverned by either Texas or New York law.  We need your advice on how to \nperfect our interest in any cash posted to us that we would hold in an \naccount in the United States.  Could you please call either me or Sara \nShackelton (713)853-5620 if possible tomorrow or you can send me an e-mail if \nthat is easier.  I'm hoping that our possession of the cash is enough.  Sorry \nfor the short fuse on this.  If you need any additional information, please \ncontact me or Sara.  I will be unavailable from 9-11 and 2-3 tomorrow Houston \ntime.\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Christopher",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 708,
+      "end": 723,
+      "text": "Carol St. Clair",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 732,
+      "end": 744,
+      "text": "713-853-3989",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 753,
+      "end": 765,
+      "text": "713-646-3393",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 772,
+      "end": 796,
+      "text": "carol.st.clair@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 708,
+      "end": 796,
+      "text": "Carol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 796,
+      "text": "Christopher:\nWe have done a trade with a Bermuda hedge fund and have negotiated collateral \nprovisions that may require them to post csah to us.  The agreement will be \ngoverned by either Texas or New York law.  We need your advice on how to \nperfect our interest in any cash posted to us that we would hold in an \naccount in the United States.  Could you please call either me or Sara \nShackelton (713)853-5620 if possible tomorrow or you can send me an e-mail if \nthat is easier.  I'm hoping that our possession of the cash is enough.  Sorry \nfor the short fuse on this.  If you need any additional information, please \ncontact me or Sara.  I will be unavailable from 9-11 and 2-3 tomorrow Houston \ntime.\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27044323.1075853640623.JavaMail.evans@thyme>",
+      "Date": "Tue, 17 Apr 2001 09:54:00 -0700 (PDT)",
+      "From": "carol.clair@enron.com",
+      "To": "cggarrod@cdp.bm",
+      "Subject": "Cash Collateral",
+      "Cc": "brent.hendry@enron.com, sara.shackleton@enron.com, paul.radous@enron.com, \n\tcaroline.abramo@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "brent.hendry@enron.com, sara.shackleton@enron.com, paul.radous@enron.com, \n\tcaroline.abramo@enron.com",
+      "X-From": "Carol St Clair",
+      "X-To": "cggarrod@cdp.bm",
+      "X-cc": "Brent Hendry, Sara Shackleton, Paul Radous, Caroline Abramo",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Nov2001\\Notes Folders\\Carol stclair",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_carol_stclair_29.txt"
+}

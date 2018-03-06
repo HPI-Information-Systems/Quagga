@@ -1,0 +1,74 @@
+
+I have looked at many examples on how to do what I want, but they tend to only show fragments
+or they 
+are based on older versions of Solr. I'm hoping there are new features that make what I'm
+doing easier. 
+
+I am running version 6.5 and am testing by running in cloud mode but only on a single machine.
+
+
+Basically, I have a large number of documents stored as JSON in individual files. I want to
+take that JSON 
+document and index it without having to do any pre-processing, etc. I also need to be able
+to write newly indexed 
+JSON data back to individual files in the same format. 
+
+For example, let's say I have a json document that looks like the following: 
+
+{ 
+"id" : "bb903493-55b0-421f-a83e-2199ea11e136", 
+"productName_s" : "UsefulWidget", 
+"productCategory_s" : "tool", 
+"suppliers" : [ 
+{ 
+"id" : " bb903493-55b0-421f-a83e-2199ea11e221", 
+"name_s" : "Acme Tools", 
+"productNumber_s" : "10342UW" 
+}, { 
+"id" : " bb903493-55b0-421a-a83e-2199ea11e445", 
+"name_s" : "Snappy Tools", 
+"productNumber_s" : "ST-X100023" 
+} 
+], 
+"resellers" : [ 
+{ 
+"id" : "cc 903493-55b0-421f-a83e-2199ea11e221", 
+"name_s" : "Target", 
+"productSKU_s" : "TA092310342UW" 
+}, { 
+"id" : "bc903493-55b0-421a-a83e-2199ea11e445", 
+"name_s" : "Wal-Mart", 
+"productSKU_s" : "029342ABLSWM" 
+} 
+] 
+} 
+
+I know I can use the /update/json/docs handler to insert the above but from what I understand,
+I'd have to set up parameters 
+telling it how to split the children, etc. Though that is a bit of a pain, I can make that
+happen. 
+
+The problem is that, when I then try to query for the data, it comes back with _childDocuments_
+instead of the names of the 
+child document lists. So, how can I have Solr return the document as it was originally indexed
+(I know it would be embedded 
+in the results structure, but I can deal with that)? 
+
+I am running version 6.5 and I am hoping there is a method I haven't seen documented that
+can do this. If not, can someone 
+point me to some examples of how to do this another way. 
+
+If there is no easy way to do this with the current version, can someone point me to a good
+resource for writing my own 
+handlers? 
+
+Thank you. 
+
+
+
+
+
+
+
+
+

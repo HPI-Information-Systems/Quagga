@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Everyone,\n\nI have a document that contains data like this \"Bachelor's degree is easier\nto get\" in the 'body' field and I am making a query on this field searching\nfor word 'Bachelor's degree' like this - query?fq=body:\"bachelor%27s%\n20degree\"&fl=body_frequency:termfreq(body,\"bachelor%27s%20degree\"),body and\nI am getting zero results in response even when I have documents that\ncontains words like 'Bachelor's degree'.\n\nI checked in the admin panel tab , there i can see the\nWordDelimiterFilterFactory applied on the word 'Bachelor's Degree' and\nconverting it to 'Bachelor degree'. So both in the Field Value (Query) and\nField Value (Index) the WordDelimiterFilterFactory is converting the word\n'Bachelor's Degree' to 'Bachelor's Degree' , SO why I am getting zero\nresults when quering. I have attached the screenshots of my analysis page.\n\n\nI have attached a code file 'code.txt' where you can see the code for the\nfield 'body'.\n\n\nPlease tell me what Am I doing wrong.\n\nThanks\n\n-- \n*CONFIDENTIALITY NOTICE: This e-mail transmission, and any documents, files \nor previous e-mail messages attached to it, are confidential and may be \nprivileged.  If you are not the intended recipient, or a person responsible \nfor delivering it to the intended recipient, you are hereby notified that \nany review, disclosure, copying, distribution, retransmission, \ndissemination or other use of any of the information contained in, or \nattached to, this transmission is STRICTLY PROHIBITED.  If you have \nreceived this transmission in error, please immediately notify the sender. \n Please destroy the original transmission and its attachments without \nreading or saving in any manner. Thank you.*\n\n*algoscale technologies private limited*\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Hi Everyone,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 974,
+      "end": 982,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1728,
+      "text": "Hi Everyone,\n\nI have a document that contains data like this \"Bachelor's degree is easier\nto get\" in the 'body' field and I am making a query on this field searching\nfor word 'Bachelor's degree' like this - query?fq=body:\"bachelor%27s%\n20degree\"&fl=body_frequency:termfreq(body,\"bachelor%27s%20degree\"),body and\nI am getting zero results in response even when I have documents that\ncontains words like 'Bachelor's degree'.\n\nI checked in the admin panel tab , there i can see the\nWordDelimiterFilterFactory applied on the word 'Bachelor's Degree' and\nconverting it to 'Bachelor degree'. So both in the Field Value (Query) and\nField Value (Index) the WordDelimiterFilterFactory is converting the word\n'Bachelor's Degree' to 'Bachelor's Degree' , SO why I am getting zero\nresults when quering. I have attached the screenshots of my analysis page.\n\n\nI have attached a code file 'code.txt' where you can see the code for the\nfield 'body'.\n\n\nPlease tell me what Am I doing wrong.\n\nThanks\n\n-- \n*CONFIDENTIALITY NOTICE: This e-mail transmission, and any documents, files \nor previous e-mail messages attached to it, are confidential and may be \nprivileged.  If you are not the intended recipient, or a person responsible \nfor delivering it to the intended recipient, you are hereby notified that \nany review, disclosure, copying, distribution, retransmission, \ndissemination or other use of any of the information contained in, or \nattached to, this transmission is STRICTLY PROHIBITED.  If you have \nreceived this transmission in error, please immediately notify the sender. \n Please destroy the original transmission and its attachments without \nreading or saving in any manner. Thank you.*\n\n*algoscale technologies private limited*\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2262"
+}

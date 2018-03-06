@@ -1,0 +1,42 @@
+Hi Furkan,
+
+No, In the schema we also defined some static fields such as uri and geo
+field.
+
+On 5 July 2017 at 17:07, Furkan KAMACI <furkankamaci@gmail.com> wrote:
+
+> Hi Thaer,
+>
+> Do you use schemeless mode [1] ?
+>
+> Kind Regards,
+> Furkan KAMACI
+>
+> [1] https://cwiki.apache.org/confluence/display/solr/Schemaless+Mode
+>
+> On Wed, Jul 5, 2017 at 4:23 PM, Thaer Sammar <t.sammar@geophy.com> wrote:
+>
+> > Hi,
+> > We are trying to index documents of different types. Document have
+> > different fields. fields are known at indexing time. We run a query on a
+> > database and we index what comes using query variables as field names in
+> > solr. Our current solution: we use dynamic fields with prefix, for
+> example
+> > feature_i_*, the issue with that
+> > 1) we need to define the type of the dynamic field and to be able to
+> cover
+> > the type of discovered fields we define the following
+> > feature_i_* for integers, feature_t_* for string, feature_d_* for double,
+> > ....
+> > 1.a) this means we need to check the type of the discovered field and
+> then
+> > put in the corresponding dynamic field
+> > 2) at search time, we need to know the right prefix
+> > We are looking for help to find away to ignore the prefix and check of
+> the
+> > type
+> >
+> > regards,
+> > Thaer
+>
+

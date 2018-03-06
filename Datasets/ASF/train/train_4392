@@ -1,0 +1,46 @@
+Hi,
+ I am new to Solr Geospatial data and have set up JTS within solr. I have
+geo spatial data with Multipolygons. I am passing the coordinates and trying
+to find out which multipolygon contains those coordinates.However, The
+search query is working fine if I insert the data as a polygon. The same is
+not working if my data is inserted as a Multipolygon. I am unable to figure
+out what am I missing. Can anyone suggest where am I going wrong?
+
+Data as Polygon:
+ {     "parcel_id":"6",
+        "geo":["POLYGON((-86.452970463 32.449739005, 
+                                  -86.452889912 32.4494390510001, 
+                                  -86.453365379 32.449428021000095, 
+                                  -86.453514854 32.449424535999995))"]
+}
+
+Data as Multipolygon:
+
+ {     "parcel_id":"6",
+        "geo":["MULTIPOLYGON(((-86.452970463 32.449739005, 
+                                  -86.452889912 32.4494390510001, 
+                                  -86.453365379 32.449428021000095, 
+                                  -86.453514854 32.449424535999995)))"]
+}
+
+My search query:
+fq=geo:"Intersects(-86.4530978929999 32.449735102)"
+
+This device surely lies between the polygon (My polygon coordinates are many
+more in the actual data. To reduce the size here I have omited few of the
+coordinates)
+
+The query is returning only the polygon data. The multipolygon search is not
+happening.
+
+Any help is highly appreciated.
+
+Thanks in Advance,
+Puneeta
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Polygon-search-query-working-but-NOT-Multipolygon-tp4343143.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

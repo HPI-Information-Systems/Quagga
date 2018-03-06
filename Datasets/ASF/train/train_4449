@@ -1,0 +1,26 @@
+Thanks Joel. For my use case I can switch to rollup for now which can work
+with "/export" query type.
+
+On Thu, Jun 29, 2017 at 10:11 AM, Joel Bernstein <joelsolr@gmail.com> wrote:
+
+> Yes, I see this is hardcoded into the parameter checks. We can create a
+> ticket to allow unlimited.
+>
+> Joel Bernstein
+> http://joelsolr.blogspot.com/
+>
+> On Thu, Jun 29, 2017 at 10:06 AM, Pratik Patel <pratik@semandex.net>
+> wrote:
+>
+> > Hey Everyone,
+> >
+> > This is about the facet function of Streaming Expression. Is there any
+> way
+> > to set limit for number of facets to infinite?  The *bucketSizeLimit
+> > parameter *seems to accept only those numbers which are greater than 0.
+> >
+> > Thanks,
+> > Pratik
+> >
+>
+

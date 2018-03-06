@@ -1,0 +1,181 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vince,\n\nGreetings.\n\nI write at this time to follow up on your kind intercession on our behalf\nwith Jeff Skilling's office regarding his participation in our Spring\nConference.  We have secured hotel rooms at the Radisson Hotel, will\nshortly have to provide a guarantee on those rooms, and would therefore\nlike to ascertain his participation as keynote speaker the evening of Thur.\n2/22.\n\nHope all is well.  See you Oct. 11th, if not sooner.  Best,\nEhud\n\n==============================================\n     Ehud I. Ronn\n     Jack S. Josey Professor in Energy Studies\n     Department of Finance\n     McCombs School of Business\n     University of Texas at Austin\n     Austin, TX. 78712-1179\n     Voice:  (512) 471-5853\n      FAX:   (512) 471-5073\n      Internet:  eronn@mail.utexas.edu\n=================================================",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 18,
+      "text": "Vince,\n\nGreetings.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 448,
+      "end": 452,
+      "text": "Ehud",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 442,
+      "end": 453,
+      "text": "Best,\nEhud\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 506,
+      "end": 518,
+      "text": "Ehud I. Ronn",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 524,
+      "end": 565,
+      "text": "Jack S. Josey Professor in Energy Studies",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 571,
+      "end": 659,
+      "text": "Department of Finance\n     McCombs School of Business\n     University of Texas at Austin",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 665,
+      "end": 687,
+      "text": "Austin, TX. 78712-1179",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 701,
+      "end": 715,
+      "text": "(512) 471-5853",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 729,
+      "end": 743,
+      "text": "(512) 471-5073",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 761,
+      "end": 782,
+      "text": "eronn@mail.utexas.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 454,
+      "end": 832,
+      "text": "==============================================\n     Ehud I. Ronn\n     Jack S. Josey Professor in Energy Studies\n     Department of Finance\n     McCombs School of Business\n     University of Texas at Austin\n     Austin, TX. 78712-1179\n     Voice:  (512) 471-5853\n      FAX:   (512) 471-5073\n      Internet:  eronn@mail.utexas.edu\n=================================================",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 0,
+      "end": 832,
+      "text": "Vince,\n\nGreetings.\n\nI write at this time to follow up on your kind intercession on our behalf\nwith Jeff Skilling's office regarding his participation in our Spring\nConference.  We have secured hotel rooms at the Radisson Hotel, will\nshortly have to provide a guarantee on those rooms, and would therefore\nlike to ascertain his participation as keynote speaker the evening of Thur.\n2/22.\n\nHope all is well.  See you Oct. 11th, if not sooner.  Best,\nEhud\n\n==============================================\n     Ehud I. Ronn\n     Jack S. Josey Professor in Energy Studies\n     Department of Finance\n     McCombs School of Business\n     University of Texas at Austin\n     Austin, TX. 78712-1179\n     Voice:  (512) 471-5853\n      FAX:   (512) 471-5073\n      Internet:  eronn@mail.utexas.edu\n=================================================",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 7,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 6,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 3,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6896762.1075856282422.JavaMail.evans@thyme>",
+      "Date": "Tue, 3 Oct 2000 10:52:00 -0700 (PDT)",
+      "From": "eronn@mail.utexas.edu",
+      "To": "vince.j.kaminski@enron.com",
+      "Subject": "Re: University of Texas conference on energy finance, February 2001",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Ehud I. Ronn\" <eronn@mail.utexas.edu>",
+      "X-To": "Vince.J.Kaminski@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_4060.txt"
+}

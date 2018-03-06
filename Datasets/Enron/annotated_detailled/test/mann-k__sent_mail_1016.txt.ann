@@ -1,0 +1,222 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 04/03/2001 12:58 \nPM ---------------------------\nFrom: Travis McCullough@ECT on 04/03/2001 12:52 PM\nTo: Gregg Penman/Corp/Enron@Enron\ncc: Kay Mann/Corp/Enron@Enron \n\nSubject: enovate, LLC\n\nGregg:\n\nHere is a very brief summary of my review of the LLC Agreement.  It appears \nthat the only thing we really need in order for Enron to more actively manage \nenovate's funds is a resolution by enovate's Board of Managers approving \nEnron Corp.'s investment of enovate's funds according to a policy that \nmirror's Enron's investment policy.  This would enable our treasury group to \ninvest enovate's funds in the same manner that they invest Enron's.  I \nbelieve the following provisions of the LLC Agreement already contemplate \nsuch an arrangement:  \n\nenovate is managed by the Board of Managers, which delegates its management \nrights to the Managing Member (which is an Enron entity) (Section 6.1).\nThe Board adopts various policies and guidelines for certain activities of \nenovate, and enovate has apparently already adopted Enron Corp.'s risk \nprocedures and control guidelines (see def'n of Risk Procedures and Control \nGuidelines).  The mechanism is already in place for enovate to adopt Enron's \ninvestment policies.\nThe Managing Member has the express authority under Section 6.1.2, subject to \nthe risk guidelines, to (among other things) open and maintain bank and \ninvestment accounts (Section 6.1.2(c) and invest Company funds in the name \nand on behalf of the Company (Section 6.1.2(j)).  The Managing Member is also \nrequired to establish and maintain certain accounts for the Company (Section \n10.4).  \nThe Managing Member has the obligation to provide reports to the Board of \nManagers, which will enable the Board of Managers to ensure that Enron is \ncomplying with the investment policy.\nThe LLC agreement does prohibit the Managing Member from commingling \nenovate's funds with those of any other member.  Our treasury group has \nconfirmed that any investment of enovate's funds by Enron will be as agent \nfor enovate and investments will be held in enovate's name.\nEnron's treasury group already provides a similar function to several other \nentities with third party investors in which we are the managing member.  I \nam certain that they would be happy to answer any questions that Peoples may \nhave about how the investment program would be implemented and conducted.\n\nTherefore, I think that the LLC agreement already provides the basic \nauthorization for Enron to invest enovate's funds; in fact, Enron could \nreally just go ahead and start an investment program without any action by \nthe members whatsoever -- adopting an investment policy and investing funds \nis clearly within the authority already granted to the Managing Member.   \nObviously, though, it is in our best interests to make sure that Peoples is \ncomfortable with what we are doing,  We could probably also \"customize\" the \nresolutions authorizing Enron to provide this service to address any concerns \nthat Peoples may have; however, I think it would be best if we did not \nsubstantially depart from the existing Enron guidelines, as it may make it \nmore difficult for the treasury group to manage the funds if they are \nrequired to operate by different rules.\n\nFeel free to pass this message on to Peoples, and feel free to call if you \nhave any questions before our Thursday call.  \n  \nTravis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3893\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "04/03/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "12:58 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 114,
+      "end": 131,
+      "text": "Travis McCullough",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 04/03/2001 12:58 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 139,
+      "end": 149,
+      "text": "04/03/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 150,
+      "end": 158,
+      "text": "12:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 163,
+      "end": 175,
+      "text": "Gregg Penman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 197,
+      "end": 205,
+      "text": "Kay Mann",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 234,
+      "end": 246,
+      "text": "enovate, LLC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 108,
+      "end": 247,
+      "text": "From: Travis McCullough@ECT on 04/03/2001 12:52 PM\nTo: Gregg Penman/Corp/Enron@Enron\ncc: Kay Mann/Corp/Enron@Enron \n\nSubject: enovate, LLC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 248,
+      "end": 253,
+      "text": "Gregg",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3438,
+      "end": 3455,
+      "text": "Travis McCullough",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3456,
+      "end": 3481,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3482,
+      "end": 3527,
+      "text": "1400 Smith Street EB 3893\nHouston Texas 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3536,
+      "end": 3550,
+      "text": "(713) 853-1575",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 3556,
+      "end": 3570,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3438,
+      "end": 3577,
+      "text": "Travis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3893\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 247,
+      "end": 3577,
+      "text": "\nGregg:\n\nHere is a very brief summary of my review of the LLC Agreement.  It appears \nthat the only thing we really need in order for Enron to more actively manage \nenovate's funds is a resolution by enovate's Board of Managers approving \nEnron Corp.'s investment of enovate's funds according to a policy that \nmirror's Enron's investment policy.  This would enable our treasury group to \ninvest enovate's funds in the same manner that they invest Enron's.  I \nbelieve the following provisions of the LLC Agreement already contemplate \nsuch an arrangement:  \n\nenovate is managed by the Board of Managers, which delegates its management \nrights to the Managing Member (which is an Enron entity) (Section 6.1).\nThe Board adopts various policies and guidelines for certain activities of \nenovate, and enovate has apparently already adopted Enron Corp.'s risk \nprocedures and control guidelines (see def'n of Risk Procedures and Control \nGuidelines).  The mechanism is already in place for enovate to adopt Enron's \ninvestment policies.\nThe Managing Member has the express authority under Section 6.1.2, subject to \nthe risk guidelines, to (among other things) open and maintain bank and \ninvestment accounts (Section 6.1.2(c) and invest Company funds in the name \nand on behalf of the Company (Section 6.1.2(j)).  The Managing Member is also \nrequired to establish and maintain certain accounts for the Company (Section \n10.4).  \nThe Managing Member has the obligation to provide reports to the Board of \nManagers, which will enable the Board of Managers to ensure that Enron is \ncomplying with the investment policy.\nThe LLC agreement does prohibit the Managing Member from commingling \nenovate's funds with those of any other member.  Our treasury group has \nconfirmed that any investment of enovate's funds by Enron will be as agent \nfor enovate and investments will be held in enovate's name.\nEnron's treasury group already provides a similar function to several other \nentities with third party investors in which we are the managing member.  I \nam certain that they would be happy to answer any questions that Peoples may \nhave about how the investment program would be implemented and conducted.\n\nTherefore, I think that the LLC agreement already provides the basic \nauthorization for Enron to invest enovate's funds; in fact, Enron could \nreally just go ahead and start an investment program without any action by \nthe members whatsoever -- adopting an investment policy and investing funds \nis clearly within the authority already granted to the Managing Member.   \nObviously, though, it is in our best interests to make sure that Peoples is \ncomfortable with what we are doing,  We could probably also \"customize\" the \nresolutions authorizing Enron to provide this service to address any concerns \nthat Peoples may have; however, I think it would be best if we did not \nsubstantially depart from the existing Enron guidelines, as it may make it \nmore difficult for the treasury group to manage the funds if they are \nrequired to operate by different rules.\n\nFeel free to pass this message on to Peoples, and feel free to call if you \nhave any questions before our Thursday call.  \n  \nTravis McCullough\nEnron North America Corp.\n1400 Smith Street EB 3893\nHouston Texas 77002\nPhone:  (713) 853-1575\nFax: (713) 646-3490      \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 14,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 4,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13716305.1075846053076.JavaMail.evans@thyme>",
+      "Date": "Tue, 3 Apr 2001 05:58:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "jeffrey.hodge@enron.com",
+      "Subject": "enovate, LLC",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Jeffrey T Hodge",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k__sent_mail_1016.txt"
+}

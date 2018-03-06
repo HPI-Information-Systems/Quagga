@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi, Tomas. It helped. Thank you.\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-6-how-to-get-SortedSetDocValues-from-index-by-field-name-tp4340388p4342002.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi, Tomas.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 254,
+      "text": "Hi, Tomas. It helped. Thank you.\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-6-how-to-get-SortedSetDocValues-from-index-by-field-name-tp4340388p4342002.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4062"
+}

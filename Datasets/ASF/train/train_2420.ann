@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Also you should change the heap 32GB->30GB so you're guaranteed to get\npointer compression. I think you should have no need to increase it more\nthan this, since most things have moved to out-of-heap stuff, like\ndocValues etc.\n\nOn Tue, Apr 11, 2017 at 12:07 PM, Dorian Hoxha <dorian.hoxha@gmail.com>\nwrote:\n\n> Isn't 18K lucene-indexes (1 for each shard, not counting the replicas) a\n> little too much for 3TB of data ?\n> Something like 0.167GB for each shard ?\n> Isn't that too much overhead (i've mostly worked with es but still lucene\n> underneath) ?\n>\n> Can't you use 1/100 the current number of collections ?\n>\n>\n> On Mon, Apr 10, 2017 at 5:22 PM, jpereira <jpereira431@gmail.com> wrote:\n>\n>> Hello guys,\n>>\n>> I manage a Solr cluster and I am experiencing some problems with dynamic\n>> schemas.\n>>\n>> The cluster has 16 nodes and 1500 collections with 12 shards per\n>> collection\n>> and 2 replicas per shard. The nodes can be divided in 2 major tiers:\n>>  - tier1 is composed of 12 machines with 4 physical cores (8 virtual),\n>> 32GB\n>> ram and 4TB ssd; these are used mostly for direct queries and data\n>> exports;\n>>  - tier2 is composed of 4 machines with 20 physical cores (40 virtual),\n>> 128GB and 4TB ssd; these are mostly for aggregation queries (facets)\n>>\n>> The problem I am experiencing is that when using dynamic schemas, the Solr\n>> heap size rises dramatically.\n>>\n>> I have two tier2 machines (lets call them A and B) running one Solr\n>> instance\n>> each with 96GB heap size, with 36 collections totaling 3TB of mainly\n>> fixed-schema (55GB schemaless) data indexed in each machine, and the heap\n>> consumption is on average 60GB (it peaks at around 80GB and drops to\n>> around\n>> 40GB after a GC run).\n>>\n>> On the other tier2 machines (C and D) I was running one Solr instance on\n>> each machine with 32GB heap size and 4 fixed schema collections with about\n>> 725GB of data indexed in each machine, which took up about 12GB of heap\n>> size. Recently I added 46 collections to these machines with about 220Gb\n>> of\n>> data. In order to do this I was forced to raise the heap size to 64GB and\n>> after indexing everything now the machines have an averaged consumption of\n>> 48GB (!!!) (max ~55GB, after GC runs ~37GB)\n>>\n>> I also noticed that when indexed fixed schema data the CPU utilization is\n>> also dramatically lower. I have around 100 workers indexing fixed schema\n>> data with and CPU utilization rate of about 10%, while I have only one\n>> worker for schemaless data with a CPU utilization cost of about 20%.\n>>\n>> So, I have a two big questions here:\n>> 1. Is this dramatic rise in resources consumption when using dynamic\n>> fields\n>> \"normal\"?\n>> 2. Is there a way to lower the memory requirements? If so, how?\n>>\n>> Thanks for your time!\n>>\n>>\n>>\n>> --\n>> View this message in context: http://lucene.472066.n3.nabble\n>> .com/Dynamic-schema-memory-consumption-tp4329184.html\n>> Sent from the Solr - User mailing list archive at Nabble.com.\n>>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 227,
+      "text": "Also you should change the heap 32GB->30GB so you're guaranteed to get\npointer compression. I think you should have no need to increase it more\nthan this, since most things have moved to out-of-heap stuff, like\ndocValues etc.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 227,
+      "end": 306,
+      "text": "On Tue, Apr 11, 2017 at 12:07 PM, Dorian Hoxha <dorian.hoxha@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 306,
+      "end": 616,
+      "text": "\n> Isn't 18K lucene-indexes (1 for each shard, not counting the replicas) a\n> little too much for 3TB of data ?\n> Something like 0.167GB for each shard ?\n> Isn't that too much overhead (i've mostly worked with es but still lucene\n> underneath) ?\n>\n> Can't you use 1/100 the current number of collections ?\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 616,
+      "end": 691,
+      "text": "> On Mon, Apr 10, 2017 at 5:22 PM, jpereira <jpereira431@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 691,
+      "end": 708,
+      "text": ">\n>> Hello guys,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 691,
+      "end": 2983,
+      "text": ">\n>> Hello guys,\n>>\n>> I manage a Solr cluster and I am experiencing some problems with dynamic\n>> schemas.\n>>\n>> The cluster has 16 nodes and 1500 collections with 12 shards per\n>> collection\n>> and 2 replicas per shard. The nodes can be divided in 2 major tiers:\n>>  - tier1 is composed of 12 machines with 4 physical cores (8 virtual),\n>> 32GB\n>> ram and 4TB ssd; these are used mostly for direct queries and data\n>> exports;\n>>  - tier2 is composed of 4 machines with 20 physical cores (40 virtual),\n>> 128GB and 4TB ssd; these are mostly for aggregation queries (facets)\n>>\n>> The problem I am experiencing is that when using dynamic schemas, the Solr\n>> heap size rises dramatically.\n>>\n>> I have two tier2 machines (lets call them A and B) running one Solr\n>> instance\n>> each with 96GB heap size, with 36 collections totaling 3TB of mainly\n>> fixed-schema (55GB schemaless) data indexed in each machine, and the heap\n>> consumption is on average 60GB (it peaks at around 80GB and drops to\n>> around\n>> 40GB after a GC run).\n>>\n>> On the other tier2 machines (C and D) I was running one Solr instance on\n>> each machine with 32GB heap size and 4 fixed schema collections with about\n>> 725GB of data indexed in each machine, which took up about 12GB of heap\n>> size. Recently I added 46 collections to these machines with about 220Gb\n>> of\n>> data. In order to do this I was forced to raise the heap size to 64GB and\n>> after indexing everything now the machines have an averaged consumption of\n>> 48GB (!!!) (max ~55GB, after GC runs ~37GB)\n>>\n>> I also noticed that when indexed fixed schema data the CPU utilization is\n>> also dramatically lower. I have around 100 workers indexing fixed schema\n>> data with and CPU utilization rate of about 10%, while I have only one\n>> worker for schemaless data with a CPU utilization cost of about 20%.\n>>\n>> So, I have a two big questions here:\n>> 1. Is this dramatic rise in resources consumption when using dynamic\n>> fields\n>> \"normal\"?\n>> 2. Is there a way to lower the memory requirements? If so, how?\n>>\n>> Thanks for your time!\n>>\n>>\n>>\n>> --\n>> View this message in context: http://lucene.472066.n3.nabble\n>> .com/Dynamic-schema-memory-consumption-tp4329184.html\n>> Sent from the Solr - User mailing list archive at Nabble.com.\n>>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2420"
+}

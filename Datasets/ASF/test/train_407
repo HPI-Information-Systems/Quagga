@@ -1,0 +1,24 @@
+I need to filter out outliers from a dataframe by all columns. I can
+manually list all columns like:
+
+df.filter(x=>math.abs(x.get(0).toString().toDouble-means(0))<=3*stddevs(0))
+
+    .filter(x=>math.abs(x.get(1).toString().toDouble-means(1))<=3*stddevs(1
+))
+
+    ...
+
+But I want to turn it into a general function which can handle variable
+number of columns. How could I do that? Thanks in advance!
+
+
+Regards,
+
+Shawn
+
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/filter-rows-by-all-columns-tp28309.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nIs it possible to store the index of different collections of the same\nshard under different directory or even different hard disk?\n\nFor example, I want to store the index of collection1 in C drive, and the\nindex of collection2 in D drive.\n\nI'm using SolrCloud in Solr 6.4.2\n\nRegards,\nEdwin\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 280,
+      "end": 296,
+      "text": "\nRegards,\nEdwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 297,
+      "text": "Hi,\n\nIs it possible to store the index of different collections of the same\nshard under different directory or even different hard disk?\n\nFor example, I want to store the index of collection1 in C drive, and the\nindex of collection2 in D drive.\n\nI'm using SolrCloud in Solr 6.4.2\n\nRegards,\nEdwin\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1890"
+}

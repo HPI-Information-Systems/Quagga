@@ -1,0 +1,170 @@
+{
+  "wrapper": "plaintext",
+  "text": "Fran - It looks like you either made changes or added legs to this deal \ntoday. Do they need to reconfirm this? Please let me know.\n\nThanks,\nKate\n---------------------- Forwarded by Kate Symes/PDX/ECT on 03/08/2001 03:14 PM \n---------------------------\n   \n\t\n\t\n\tFrom:  Sharen Cason                           03/08/2001 03:13 PM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 412868\n\nCan you find out if we are supposed to confirm the legs of this City of \nRoseville deal that were input today.  And what it is exactly that they are \ndoing with these legs.\n\nThanks!\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Fran",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 141,
+      "end": 145,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 133,
+      "end": 146,
+      "text": "Thanks,\nKate\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 146,
+      "text": "Fran - It looks like you either made changes or added legs to this deal \ntoday. Do they need to reconfirm this? Please let me know.\n\nThanks,\nKate\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 182,
+      "end": 192,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 204,
+      "end": 214,
+      "text": "03/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 215,
+      "end": 224,
+      "text": "03:14 PM ",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 146,
+      "end": 253,
+      "text": "---------------------- Forwarded by Kate Symes/PDX/ECT on 03/08/2001 03:14 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 269,
+      "end": 281,
+      "text": "Sharen Cason",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 308,
+      "end": 318,
+      "text": "03/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 319,
+      "end": 327,
+      "text": "03:13 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 335,
+      "end": 345,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 374,
+      "end": 380,
+      "text": "412868",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 253,
+      "end": 381,
+      "text": "   \n\t\n\t\n\tFrom:  Sharen Cason                           03/08/2001 03:13 PM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 412868\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 556,
+      "end": 564,
+      "text": "Thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 381,
+      "end": 564,
+      "text": "\nCan you find out if we are supposed to confirm the legs of this City of \nRoseville deal that were input today.  And what it is exactly that they are \ndoing with these legs.\n\nThanks!\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13047447.1075841897529.JavaMail.evans@thyme>",
+      "Date": "Thu, 8 Mar 2001 07:12:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "fran.chang@enron.com",
+      "Subject": "412868",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Fran Chang",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Sent",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_sent_808.txt"
+}

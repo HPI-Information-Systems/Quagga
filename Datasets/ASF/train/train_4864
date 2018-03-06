@@ -1,0 +1,37 @@
+On 7/17/2017 11:39 AM, Joe Obernberger wrote:
+> We use puppet to deploy the solr instance to all the nodes.  I changed 
+> what was deployed to use the CDH jars, but our puppet module deletes 
+> the old directory and replaces it.  So, all the core configuration 
+> files under server/solr/ were removed. Zookeeper still has the 
+> configuration, but the nodes won't come up.
+>
+> Is there a way around this?  Re-creating these files manually isn't 
+> realistic; do I need to re-index?
+
+Put the solr home elsewhere so it's not under the program directory and 
+doesn't get deleted when you re-deploy Solr.  When starting Solr 
+manually with bin/solr, this is done with the -s option.
+
+If you install Solr as a service, which works on operating systems with 
+a strong GNU presence (such as Linux), then the solr home will typically 
+not be in the program directory.  The configuration script (default 
+filename is /etc/default/solr.in.sh) should not get deleted if Solr is 
+reinstalled, but I have not confirmed that this is the case.  The 
+service installer script is included in the Solr download.
+
+With SolrCloud, deleting all the core data like that will NOT be 
+automatically fixed by restarting Solr.  SolrCloud will have lost part 
+of its data.  If you have enough replicas left after a losslike that to 
+remain fully operational, then you'll need to use the DELETEREPLICA and 
+ADDREPLICA actions on the Collections API to rebuild the data on that 
+server from the leader of each shard.
+
+If the collection is incomplete after the solr home on a server gets 
+deleted, you'll probably need to completely delete the collection, then 
+recreate it, and reindex.  And you'll need to look into adding 
+servers/replicas so the loss of a single server cannot take you offline.
+
+Thanks,
+Shawn
+
+

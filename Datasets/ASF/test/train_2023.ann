@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Just wanted to clarify!!!\n\nIs foreachPartition in spark  an output operation?\n\nWhich one is better use mapPartitions or foreachPartitions?\n\nRegards\nDiwakar\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 139,
+      "end": 156,
+      "text": "\nRegards\nDiwakar\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 157,
+      "text": "Just wanted to clarify!!!\n\nIs foreachPartition in spark  an output operation?\n\nWhich one is better use mapPartitions or foreachPartitions?\n\nRegards\nDiwakar\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2023"
+}

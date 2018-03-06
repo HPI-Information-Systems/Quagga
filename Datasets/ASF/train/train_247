@@ -1,0 +1,125 @@
++1.
+
+Also, you don't have to be a committer to do this! If you don't
+already have access to edit the Wiki we can cure that ;)
+
+On Thu, Jan 12, 2017 at 3:31 AM, Jan Høydahl <jan.asf@cominvent.com> wrote:
+> Hi,
+>
+> We have a Wiki page at https://wiki.apache.org/solr/PublicServers where users can maintain
+a list of known Solr installations.
+> Now, that list contains a staggering 248 public sites and 27 other users.
+> Problem is that the list grows but noone ever takes something away when they go out of
+business, or fix dead links :-(
+>
+> Having a maintained list will give a better first impression for people intending to
+check out sites using Solr.
+> So I kicked off a dead-link crawl for the site, and found 383 link URLs in total, of
+which 63 were dead.
+> Some of those dead links represent companies that are out of business, some are 404’s
+due to new website and yet others have merged or changed name and still using Solr.
+>
+> I’d like to call out a small gardening project to clean up the page. This is a task
+that does not require Java skills, so welcome to contribute even if you are new.
+>
+> Here are suggestions for tasks you can take on...
+>
+> Fix broken links
+> ----------------
+> Test every broken link (list at the end of this email) and see if there’s an easy fix.
+> If you cannot fix the link, move the entire entry to the new section “Broken links
+graveyard”
+>
+>
+> QA of the other sites
+> ---------------------
+> For all public websites listed, try to validate the claims and correct obvious errors.
+> If it is obvious that the site does not use Solr anymore, or it is clearly broken or
+outdated,
+> remove it or send an email to the company asking them to comment.
+> Where it says "Company X uses Solr version x.y…”, remove the version info since it
+is irrelevant
+> To keep track of which entries that have been validated, please move them above the horizontal
+line as you go.
+>
+>
+> Add new entries you know about
+> ------------------------------
+> Add your own site or your customer’s site
+>
+>
+>
+>
+> The following deadlinks were found by my script:
+>
+> https://wiki.apache.org/solr/PublicServers
+>         http://jobuzu.co.uk/
+>         http://jobblu.co.uk/
+>         http://www.attinteractive.com/
+>         http://ca.buy.com
+>         http://fr.buy.com
+>         http://www.stubhub.com/
+>         http://siris-collections.si.edu/search/
+>         http://www.golfvex.com/
+>         http://www.wickedin.co.uk/
+>         http://jobs.wickedin.co.uk/
+>         http://homes.wickedin.co.uk/
+>         http://cars.wickedin.co.uk/
+>         http://motorcycles.wickedin.co.uk/
+>         http://pets.wickedin.co.uk/
+>         http://campers.wickedin.co.uk/
+>         http://classifieds.wickedin.co.uk/
+>         http://jetwick.com/
+>         http://www.pannous.info/products/jetwick-twitter-search/
+>         http://www.allplumbingrepair.com/
+>         http://www.thebigjobs.com
+>         http://www.manta.com/mb
+>         http://www.discogs.com/
+>         http://codeconsult.ch/bertrand/archives/000760.html
+>         http://www.zvents.com/
+>         http://www.pricejunkie.com/
+>         http://reddit.com
+>         http://mamereviews.hubmed.org/
+>         http://peel.hubmed.org/
+>         http://www.bazaaria.com/
+>         http://www.autoo.ro
+>         http://www.rez.ro
+>         http://www.imoo.ro
+>         http://www.rallyformusic.com
+>         http://lab.cheaptickets.com/shop/reviews
+>         http://www.webcity.fr/concert/recherche-evenement
+>         http://www.adidastrainers.co.uk
+>         http://firm-ua.com/
+>         http://www.findthatzipfile.com
+>         http://www.findthatexe.com
+>         http://www.findthataudio.com,http://www.findthatvideo.com
+>         http://www.saveur.com/solrSearchResults.jsp
+>         http://www.voucher-code-discount.co.uk
+>         http://blog.gkudos.com/2010/03/05/observatory-of-presidential-elections-colombia-2010/
+>         http://www.tvtv.co.uk
+>         http://www.jounce.com/
+>         http://katalog.finn.no/
+>         http://jobs.trovit.com/
+>         http://www.shipsmoorings.com
+>         http://www.talenttube.co/CampusSearch.do
+>         http://www.rondhuit-demo.com/loganalyzer/loganalyzer.html
+>         http://dazzlepod.com/gifiles/
+>         http://www.searchbyquote.com/
+>         http://www.benipaltechnologies.com
+>         http://phx.corporate-ir.net/phoenix.zhtml?c=98566&p=irol-aboutIMOverview
+>         http://www.webcity.fr/hotels/recherche-lieu
+>         http://www.talenttube.co/CorporateSearch.do
+>         http://dazzlepod.com/cable/
+>         http://www.webcity.fr/restaurants/recherche-lieu
+>         http://www.talenttube.co/JobSearch.do
+>         http://www.webcity.fr/
+>         http://www.talenttube.co/CandidateSearch.do
+>         http://www.talenttube.co/StudentSearch.do
+>         http://www.talenttube.co/
+>
+>
+> --
+> Jan Høydahl, search solution architect
+> Cominvent AS - www.cominvent.com
+>
+

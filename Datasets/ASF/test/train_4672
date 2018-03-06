@@ -1,0 +1,23 @@
+
+
+________________________________
+From: john_test_test <john_test_test@hotmail.com>
+Sent: Wednesday, August 9, 2017 3:09:44 AM
+To: user@spark.apache.org
+Subject: speculative execution in spark
+
+Is it possible by anyhow to take advantage of the already processed portion
+of the failed task so I can use the speculative execution to reassign only
+the what is left from the original task to another node? if yes then how can
+I read it from memroy?
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/speculative-execution-in-spark-tp29042.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "Amerex is correct. Deal has been changed.\n\n\n\n\nEvelyn Metoyer@ENRON\n01/16/2001 01:50 PM\nTo: Kate.Symes@enron.com\ncc:  \n\nSubject: 1/16/0` Checkout\n\n\nMark Fischer\ndeal 497791\nAmerex shows price as $155 and enpower has $135\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 46,
+      "text": "Amerex is correct. Deal has been changed.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 46,
+      "end": 60,
+      "text": "Evelyn Metoyer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 67,
+      "end": 77,
+      "text": "01/16/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 78,
+      "end": 86,
+      "text": "01:50 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 91,
+      "end": 111,
+      "text": "Kate.Symes@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 128,
+      "end": 144,
+      "text": "1/16/0` Checkout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 46,
+      "end": 145,
+      "text": "Evelyn Metoyer@ENRON\n01/16/2001 01:50 PM\nTo: Kate.Symes@enron.com\ncc:  \n\nSubject: 1/16/0` Checkout\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 145,
+      "end": 221,
+      "text": "\n\nMark Fischer\ndeal 497791\nAmerex shows price as $155 and enpower has $135\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31236507.1075841887639.JavaMail.evans@thyme>",
+      "Date": "Tue, 16 Jan 2001 05:55:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "evelyn.metoyer@enron.com",
+      "Subject": "Re: 1/16/0` Checkout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Evelyn Metoyer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Sent",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_sent_381.txt"
+}

@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here's a first stab at the LOI.  I just guessed on the attachment.  \n\nI have a couple of questions:\n\nAny thought as to how we get/split money (other than the obvious up side for \nus)?\n\nDo we want to work toward a \"Project Development Agreement\" which will set \nforth the basis for how we develop projects on a project-by-project basis? Or \ndo you envision a different next step?  \n\nTalk to you soon,\n\nKay\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 401,
+      "end": 404,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 382,
+      "end": 405,
+      "text": "Talk to you soon,\n\nKay\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 405,
+      "text": "Here's a first stab at the LOI.  I just guessed on the attachment.  \n\nI have a couple of questions:\n\nAny thought as to how we get/split money (other than the obvious up side for \nus)?\n\nDo we want to work toward a \"Project Development Agreement\" which will set \nforth the basis for how we develop projects on a project-by-project basis? Or \ndo you envision a different next step?  \n\nTalk to you soon,\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2397870.1075845813119.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Feb 2001 03:03:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "heather.kroll@enron.com, jeffery.ader@enron.com",
+      "Subject": "NJNG LOI/MOU/LOU/HOA",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Heather Kroll, Jeffery Ader",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_2468.txt"
+}

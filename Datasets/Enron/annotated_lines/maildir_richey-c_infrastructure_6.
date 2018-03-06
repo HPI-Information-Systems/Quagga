@@ -1,0 +1,96 @@
+Message-ID: <29641921.1075841470729.JavaMail.evans@thyme>
+Date: Sat, 3 Nov 2001 10:11:13 -0800 (PST)
+From: mark.hall@enron.com
+To: cooper.richey@enron.com
+Subject: RE: albertapower.enron.com added to trusted sites list
+Cc: faheem.qavi@enron.com, dan.dietrich@enron.com, simon.burgess@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: faheem.qavi@enron.com, dan.dietrich@enron.com, simon.burgess@enron.com
+X-From: Hall, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JOEA>
+X-To: Richey, Cooper </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Crichey>
+X-cc: Qavi, Faheem </O=ENRON/OU=NA/CN=RECIPIENTS/CN=FQAVI>, Dietrich, Dan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ddietri>, Burgess, Simon </O=ENRON/OU=EU/cn=Recipients/cn=SBurgess>
+X-bcc: 
+X-Folder: \ExMerge - Richey, Cooper\infrastructure
+X-Origin: RICHEY-C
+X-FileName: cooper richey 6-26-02.PST
+
+B>Who controls, developes and designs the activeX control?  If the control is developed in housen the component should follow and proper review/release process and then signed for production.  If this control is developed by an outside source, what is the functionality of the object?  what processes where taken to ensure the assurance of "fair-play" from a security risk evaluation point on this version and all potention upgrade versions?  And what relationship do we have with them to inquire about a signed version of their component?
+B>
+B>Sorry for the incovienence of these queries, and I am sorry that these questions have to come from a desktop architect.  But to maintain tight security to ensure the stability for Enrons network, I think that these are important issues.
+B>
+B> 
+B>From Mark Hall's Blackberry
+B>
+H>-----Original Message-----
+H>From: Richey, Cooper <Cooper.Richey@ENRON.com>
+H>To: Hall, Mark <Mark.Hall@ENRON.com>
+H>CC: Qavi, Faheem <Faheem.Qavi@ENRON.com>; Dietrich, Dan <Dan.Dietrich@ENRON.com>
+H>Sent: Fri Nov 02 16:58:08 2001
+H>Subject: RE: albertapower.enron.com added to trusted sites list
+B>
+B>
+B>		What is the particulars of the reasoning behind needing the site to be listed as Trusted?
+B>		TO FACILITATE POWER AND GAS TRADERS' ACCESS TO WEB-BASED DECISION
+B>		SUPPORT TOOLS.
+B>
+B>		What functionality is missing or broken because it is only listed as a intranet site?
+B>		ACCESS DATA SOURCES FROM OTHER DOMAINS
+B>
+B>		What option in the configuration of Trusted sites facilitates the functionality that is broken or missing?
+B>		(1) DOWNLOAD UNSIGNED ACTIVE-X CONTROLS
+B>
+B>		are these answers satisfactory? if not, please let me know what else I can possibly do
+B>		to get this done.   
+B>
+B>		Cooper
+B>
+B>
+B>
+H>	 -----Original Message-----
+H>	From: 	Hall, Mark  
+H>	Sent:	Friday, November 02, 2001 3:34 PM
+H>	To:	Richey, Cooper
+H>	Cc:	Qavi, Faheem; Dietrich, Dan
+H>	Subject:	RE: albertapower.enron.com added to trusted sites list
+B>
+B>	Here are few question that I think should be asked before the approval of this change be granted:
+B>		What is the particulars of the reasoning behind needing the site to be listed as Trusted?
+B>		What functionality is missing or broken because it is only listed as a intranet site?
+B>		What option in the configuration of Trusted sites facilitates the functionality that is broken or missing?
+B>
+B>	Please remit answer at your earliest convience.
+B>
+S>	Mark Hall
+S>	Desktop Architecture
+S>
+H>		 -----Original Message-----
+H>		From: 	Qavi, Faheem  
+H>		Sent:	Friday, November 02, 2001 11:11 AM
+H>		To:	Hall, Mark
+H>		Subject:	FW: albertapower.enron.com added to trusted sites list
+B>
+B>		Mark,
+B>
+B>			Will this suffice or do you need more?  Thanks.
+B>
+S>		Faheem A. Qavi
+S>		Enron Net Works
+S>		IT Security & Controls
+S>		* Faheem.Qavi@Enron.Com  
+S>		*  (713) 345-8338
+S>
+S>
+H>		 -----Original Message-----
+H>		From: 	Richey, Cooper  
+H>		Sent:	Friday, November 02, 2001 11:09 AM
+H>		To:	Qavi, Faheem
+H>		Subject:	albertapower.enron.com added to trusted sites list
+B>
+B>		please add "http://albertapower.enron.com" to the trusted sites list to facilitate power and gas traders' access to web-based decision 	support tools.  
+B>
+B>		let me know if there are other questions/issues
+B>
+S>		Cooper Richey
+S>		403 974 6946

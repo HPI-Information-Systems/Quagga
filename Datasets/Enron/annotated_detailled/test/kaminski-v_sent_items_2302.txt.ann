@@ -1,0 +1,401 @@
+{
+  "wrapper": "plaintext",
+  "text": "Paul,\n \nI hope you feel better. I have seen the message from Christian in which he confirmed\nthat he approached the Research in Houston on his own. He did not\nreceive any encouragement from me and from Mike. I hope this closes this issue.\n \nI can understand Christian's motivation but don't endorse the way he takes to reach his goals.\nHe hopes to accomplish more in a larger group where he can have more interaction with his peers\nwho have similar backgrounds. I think also that he developed an appreciation for good interpersonal \nrelations in my group he could observe during his stay in Houston.\n \nMy advice is to try to figure out how to use his skills for Enron and how to develop his social\nintelligence.\n \n \nVince\n \n\n-----Original Message-----\nFrom: Quilkey, Paul \nSent: Thursday, July 19, 2001 6:33 PM\nTo: Kaminski, Vince J\nSubject: RE: Christian\n\n\nVince\n \nThank you for the clarification -  this is not the case presented to me by Christian and he has been obtuse to the point of deception with regard to this matter.\nThis lead to my conclusion that Houston was poaching and hence my blunt email to you - I apologise.\nI am still sick but will call you next week to discuss the correct way of moving forward.\n \nRgds\n \nPaul\n\n[Quilkey, Paul] \n \n \n \n -----Original Message-----\nFrom: Kaminski, Vince J \nSent: 19 July 2001 23:16\nTo: Quilkey, Paul\nCc: Roberts, Mike A.\nSubject: RE: Christian\n\n\n\nPaul,\n \nI am glad you sent me this message. It will help to clarify a few issues.\n \n1. I was contacted by Christian (this means I did not start this phase of the process)\n    last Friday, as far as I can remember.\n \n    Christian expressed interest in joining the Research Group. I told him two things:\n       a. We would be delighted to have him here.\n       b. Our mutual relationship and good practices require that he receives\n           your blessing before we can move ahead.\n    We agreed to have a conference call Wed morning, your time, with you, Christian and\n    Mike Roberts.\n \n  2. Wednesday call was subsequently cancelled by Christian. Mike and I decided to call you\n      anyway Thu morning your time, directly, to discuss the matter. I was in a PRC all afternoon and \n      asked Mike to call you  in case I could not sneak out to join him. Mike called and was\n      told you were out sick.\n \n 3. I am leaving in a few hours for California. I shall be driving back to Houston for the next\n     3 days. Please, feel free to call Mike an discuss this matter with  him in my absence.\n \n 4. I think Christian has a strong preference to be in the Research Group, assuming he moves to\n     Houston. I think he came to this conclusion after visiting Houston in early July. I did not \n     bring up the issue of transfer with him at all when he was here.\n \n     I can  understand his motivation and think we should take his preferences into account. But the\n     first  issue is if he can leave Sydney at all.\n \nI hope it helps. Cheers.\n \n \nVince\n \n    \n \n \n\n-----Original Message-----\nFrom: Quilkey, Paul \nSent: Thursday, July 19, 2001 4:08 AM\nTo: Kaminski, Vince J\nSubject: Christian\n\n\nVince\n \nI have spoken to Christian and explained to him that he is critical to our local operations and should provide 100% focus on his role here.  As a small office it would be devestating for us should Christian be lured away.  I would appreciate you calling me rather than working through Christian on this matter.  \n \nRgds\n \nPaul",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 716,
+      "end": 721,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 725,
+      "text": "Paul,\n \nI hope you feel better. I have seen the message from Christian in which he confirmed\nthat he approached the Research in Houston on his own. He did not\nreceive any encouragement from me and from Mike. I hope this closes this issue.\n \nI can understand Christian's motivation but don't endorse the way he takes to reach his goals.\nHe hopes to accomplish more in a larger group where he can have more interaction with his peers\nwho have similar backgrounds. I think also that he developed an appreciation for good interpersonal \nrelations in my group he could observe during his stay in Houston.\n \nMy advice is to try to figure out how to use his skills for Enron and how to develop his social\nintelligence.\n \n \nVince\n \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 758,
+      "end": 771,
+      "text": "Quilkey, Paul",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 789,
+      "end": 802,
+      "text": "July 19, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 803,
+      "end": 810,
+      "text": "6:33 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 815,
+      "end": 832,
+      "text": "Kaminski, Vince J",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 841,
+      "end": 855,
+      "text": " RE: Christian",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 725,
+      "end": 856,
+      "text": "-----Original Message-----\nFrom: Quilkey, Paul \nSent: Thursday, July 19, 2001 6:33 PM\nTo: Kaminski, Vince J\nSubject: RE: Christian\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 858,
+      "end": 863,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1227,
+      "end": 1231,
+      "text": "Paul",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1220,
+      "end": 1232,
+      "text": "Rgds\n \nPaul\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 856,
+      "end": 1256,
+      "text": "\n\nVince\n \nThank you for the clarification -  this is not the case presented to me by Christian and he has been obtuse to the point of deception with regard to this matter.\nThis lead to my conclusion that Houston was poaching and hence my blunt email to you - I apologise.\nI am still sick but will call you next week to discuss the correct way of moving forward.\n \nRgds\n \nPaul\n\n[Quilkey, Paul] \n \n \n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1233,
+      "end": 1248,
+      "text": "[Quilkey, Paul]",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1290,
+      "end": 1307,
+      "text": "Kaminski, Vince J",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1315,
+      "end": 1327,
+      "text": "19 July 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1328,
+      "end": 1333,
+      "text": "23:16",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1338,
+      "end": 1351,
+      "text": "Quilkey, Paul",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1356,
+      "end": 1372,
+      "text": "Roberts, Mike A.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1382,
+      "end": 1395,
+      "text": "RE: Christian",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1256,
+      "end": 1396,
+      "text": " -----Original Message-----\nFrom: Kaminski, Vince J \nSent: 19 July 2001 23:16\nTo: Quilkey, Paul\nCc: Roberts, Mike A.\nSubject: RE: Christian\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1399,
+      "end": 1403,
+      "text": "Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2949,
+      "end": 2954,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2920,
+      "end": 2955,
+      "text": "I hope it helps. Cheers.\n \n \nVince\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1396,
+      "end": 2967,
+      "text": "\n\n\nPaul,\n \nI am glad you sent me this message. It will help to clarify a few issues.\n \n1. I was contacted by Christian (this means I did not start this phase of the process)\n    last Friday, as far as I can remember.\n \n    Christian expressed interest in joining the Research Group. I told him two things:\n       a. We would be delighted to have him here.\n       b. Our mutual relationship and good practices require that he receives\n           your blessing before we can move ahead.\n    We agreed to have a conference call Wed morning, your time, with you, Christian and\n    Mike Roberts.\n \n  2. Wednesday call was subsequently cancelled by Christian. Mike and I decided to call you\n      anyway Thu morning your time, directly, to discuss the matter. I was in a PRC all afternoon and \n      asked Mike to call you  in case I could not sneak out to join him. Mike called and was\n      told you were out sick.\n \n 3. I am leaving in a few hours for California. I shall be driving back to Houston for the next\n     3 days. Please, feel free to call Mike an discuss this matter with  him in my absence.\n \n 4. I think Christian has a strong preference to be in the Research Group, assuming he moves to\n     Houston. I think he came to this conclusion after visiting Houston in early July. I did not \n     bring up the issue of transfer with him at all when he was here.\n \n     I can  understand his motivation and think we should take his preferences into account. But the\n     first  issue is if he can leave Sydney at all.\n \nI hope it helps. Cheers.\n \n \nVince\n \n    \n \n \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 3000,
+      "end": 3013,
+      "text": "Quilkey, Paul",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 3031,
+      "end": 3044,
+      "text": "July 19, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 3045,
+      "end": 3052,
+      "text": "4:08 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 3057,
+      "end": 3074,
+      "text": "Kaminski, Vince J",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 3084,
+      "end": 3093,
+      "text": "Christian",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2967,
+      "end": 3094,
+      "text": "-----Original Message-----\nFrom: Quilkey, Paul \nSent: Thursday, July 19, 2001 4:08 AM\nTo: Kaminski, Vince J\nSubject: Christian\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 3096,
+      "end": 3101,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 3426,
+      "end": 3430,
+      "text": "Paul",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 3419,
+      "end": 3430,
+      "text": "Rgds\n \nPaul",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 3094,
+      "end": 3430,
+      "text": "\n\nVince\n \nI have spoken to Christian and explained to him that he is critical to our local operations and should provide 100% focus on his role here.  As a small office it would be devestating for us should Christian be lured away.  I would appreciate you calling me rather than working through Christian on this matter.  \n \nRgds\n \nPaul",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 18,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 15,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 32,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 22,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 15,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 23,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 26,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30497387.1075863431760.JavaMail.evans@thyme>",
+      "Date": "Mon, 23 Jul 2001 08:21:35 -0700 (PDT)",
+      "From": "j.kaminski@enron.com",
+      "To": "paul.quilkey@enron.com",
+      "Subject": "RE: Christian",
+      "Cc": "a..roberts@enron.com, j.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "a..roberts@enron.com, j.kaminski@enron.com",
+      "X-From": "Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VKAMINS>",
+      "X-To": "Quilkey, Paul </O=ENRON/OU=NA/CN=RECIPIENTS/CN=EU/cn=Recipients/cn=pquilke>",
+      "X-cc": "Roberts, Mike A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mrobert>, Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vkamins>",
+      "X-bcc": "",
+      "X-Folder": "\\VKAMINS (Non-Privileged)\\Kaminski, Vince J\\Sent Items",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "VKAMINS (Non-Privileged).pst"
+    }
+  },
+  "id": "test/kaminski-v_sent_items_2302.txt"
+}

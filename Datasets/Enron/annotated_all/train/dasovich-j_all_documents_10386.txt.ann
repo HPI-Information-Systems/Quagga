@@ -1,0 +1,453 @@
+{
+  "wrapper": "plaintext",
+  "text": "I suggest that you all start without me.  I'm going to be absent for the\nnext 2\nweeks with the competition, work and vacation.  After that time, I'll be\nready\nto do whatever needs to be done.\n\n**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n\n\n____________________Reply Separator____________________\nSubject:    Meeting for Group Project\nAuthor: \"Vavrek; Carolyn (US - San Francisco)\" <SMTP:cvavrek@deloitte.com>\nDate:       03/23/2001 2:40 PM\n\nWhen would everyone like to get together to discuss?  Maybe we could all do\na little research and then meet (or conference call) early next week to\ndivide and conquer.\n\nCarolyn M. Vavrek\nManager - Human Capital Advisory Services\nDeloitte & Touche\n50 Fremont Street\nSan Francisco, CA  94105\n\nphone: 415-783-5137\nfax: 415-783-8760\ne-mail: cvavrek@deloitte.com\n\n\n-----Original Message-----\nFrom: Jeff.Dasovich@enron.com [mailto:Jeff.Dasovich@enron.com]\nSent: Friday, March 16, 2001 11:03 AM\nTo: tasker@haas.berkeley.edu\nCc: Anil Sama; Mark Guinney; Cvavrek\nSubject: Group Project--E221\n\n\nGreetings Professor:\n\nOur group consists of Jeff Dasovich, Mark Guinney, Anil Sama and Carolyn\nVavrek.\n\nWe propose to examine the recently failed acquisition by Coke of Quaker\nOats:  Why merge?  What was the value?  Upside?  Downside?  Why did it go\nbust?  Should it have gone through?  What's up with this Buffet guy,\nanyway?\n\nIf you have any concerns with this proposal, please let us know.\n\nFinally, if possible, we'd like to present on Thursday, April 26th.\n\nBest,\nJeff\n- This message (including any attachments) contains confidential information\nintended for a specific individual and purpose, and is protected by law.  -\nIf you are not the intended recipient, you should delete this message and\nare hereby notified that any disclosure, copying, or distribution of this\nmessage, or the taking of any action based on it, is strictly prohibited.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 240,
+      "end": 255,
+      "text": "Mark D. Guinney",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 261,
+      "end": 271,
+      "text": "Consultant",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 272,
+      "end": 306,
+      "text": "Watson Wyatt Investment Consulting",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 307,
+      "end": 364,
+      "text": "345 California Street, Ste. 1400\nSan Francisco, CA  94104",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 365,
+      "end": 379,
+      "text": "(415) 733-4487",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 384,
+      "end": 398,
+      "text": "(415) 733-4190",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 193,
+      "end": 403,
+      "text": "**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 405,
+      "text": "I suggest that you all start without me.  I'm going to be absent for the\nnext 2\nweeks with the competition, work and vacation.  After that time, I'll be\nready\nto do whatever needs to be done.\n\n**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 473,
+      "end": 498,
+      "text": "Meeting for Group Project",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 508,
+      "end": 523,
+      "text": "Vavrek; Carolyn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 552,
+      "end": 572,
+      "text": "cvavrek@deloitte.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 586,
+      "end": 596,
+      "text": "03/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 597,
+      "end": 604,
+      "text": "2:40 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 405,
+      "end": 605,
+      "text": "____________________Reply Separator____________________\nSubject:    Meeting for Group Project\nAuthor: \"Vavrek; Carolyn (US - San Francisco)\" <SMTP:cvavrek@deloitte.com>\nDate:       03/23/2001 2:40 PM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 775,
+      "end": 792,
+      "text": "Carolyn M. Vavrek",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 793,
+      "end": 834,
+      "text": "Manager - Human Capital Advisory Services",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 835,
+      "end": 852,
+      "text": "Deloitte & Touche",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 853,
+      "end": 895,
+      "text": "50 Fremont Street\nSan Francisco, CA  94105",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 904,
+      "end": 916,
+      "text": "415-783-5137",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 922,
+      "end": 934,
+      "text": "415-783-8760",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 943,
+      "end": 963,
+      "text": "cvavrek@deloitte.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 775,
+      "end": 964,
+      "text": "Carolyn M. Vavrek\nManager - Human Capital Advisory Services\nDeloitte & Touche\n50 Fremont Street\nSan Francisco, CA  94105\n\nphone: 415-783-5137\nfax: 415-783-8760\ne-mail: cvavrek@deloitte.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 605,
+      "end": 966,
+      "text": "\nWhen would everyone like to get together to discuss?  Maybe we could all do\na little research and then meet (or conference call) early next week to\ndivide and conquer.\n\nCarolyn M. Vavrek\nManager - Human Capital Advisory Services\nDeloitte & Touche\n50 Fremont Street\nSan Francisco, CA  94105\n\nphone: 415-783-5137\nfax: 415-783-8760\ne-mail: cvavrek@deloitte.com\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 999,
+      "end": 1022,
+      "text": "Jeff.Dasovich@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1031,
+      "end": 1054,
+      "text": "Jeff.Dasovich@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1070,
+      "end": 1084,
+      "text": "March 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1085,
+      "end": 1093,
+      "text": "11:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1098,
+      "end": 1122,
+      "text": "tasker@haas.berkeley.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1127,
+      "end": 1136,
+      "text": "Anil Sama",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1152,
+      "end": 1159,
+      "text": "Cvavrek",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1138,
+      "end": 1150,
+      "text": "Mark Guinney",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1169,
+      "end": 1188,
+      "text": "Group Project--E221",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 966,
+      "end": 1189,
+      "text": "-----Original Message-----\nFrom: Jeff.Dasovich@enron.com [mailto:Jeff.Dasovich@enron.com]\nSent: Friday, March 16, 2001 11:03 AM\nTo: tasker@haas.berkeley.edu\nCc: Anil Sama; Mark Guinney; Cvavrek\nSubject: Group Project--E221\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1191,
+      "end": 1212,
+      "text": "Greetings Professor:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1665,
+      "end": 2039,
+      "text": "- This message (including any attachments) contains confidential information\nintended for a specific individual and purpose, and is protected by law.  -\nIf you are not the intended recipient, you should delete this message and\nare hereby notified that any disclosure, copying, or distribution of this\nmessage, or the taking of any action based on it, is strictly prohibited.",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1660,
+      "end": 1664,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1654,
+      "end": 1665,
+      "text": "Best,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1189,
+      "end": 2039,
+      "text": "\n\nGreetings Professor:\n\nOur group consists of Jeff Dasovich, Mark Guinney, Anil Sama and Carolyn\nVavrek.\n\nWe propose to examine the recently failed acquisition by Coke of Quaker\nOats:  Why merge?  What was the value?  Upside?  Downside?  Why did it go\nbust?  Should it have gone through?  What's up with this Buffet guy,\nanyway?\n\nIf you have any concerns with this proposal, please let us know.\n\nFinally, if possible, we'd like to present on Thursday, April 26th.\n\nBest,\nJeff\n- This message (including any attachments) contains confidential information\nintended for a specific individual and purpose, and is protected by law.  -\nIf you are not the intended recipient, you should delete this message and\nare hereby notified that any disclosure, copying, or distribution of this\nmessage, or the taking of any action based on it, is strictly prohibited.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 16,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 15,
+      "target": 17,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 18,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 19,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 20,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 21,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 15,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 15,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 25,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 37,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3376455.1075843404555.JavaMail.evans@thyme>",
+      "Date": "Fri, 23 Mar 2001 03:46:00 -0800 (PST)",
+      "From": "mark_guinney@watsonwyatt.com",
+      "To": "cvavrek@deloitte.com, jeff.dasovich@enron.com",
+      "Subject": "Re:Meeting for Group Project",
+      "Cc": "asama@yahoo.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "asama@yahoo.com",
+      "X-From": "\"Guinney, Mark\" <Mark_Guinney@watsonwyatt.com>",
+      "X-To": "\"\\\"Vavrek, Carolyn (US - San Francisco)\\\" \" <cvavrek@deloitte.com>, \"\\\"Jeff.Dasovich@enron.com\\\" \" <Jeff.Dasovich@enron.com>",
+      "X-cc": "\"\\\"Anil Sama\\\" \" <asama@yahoo.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_10386.txt"
+}

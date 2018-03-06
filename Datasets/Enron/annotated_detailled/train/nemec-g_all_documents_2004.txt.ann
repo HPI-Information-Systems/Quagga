@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/nemec-g_all_documents_2004.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<21100379.1075842628067.JavaMail.evans@thyme>",
+      "Date": "Tue, 14 Nov 2000 11:17:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "eligible.employees@enron.com",
+      "Subject": "Deferral Enrollment 2001",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Enron Announcements",
+      "X-To": "Eligible Employees",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "text": "                                              =20\n\nGood news!  Deferral program enrollment begins Wednesday, November 15, 2000=\n. =20\n Enron's Bonus Stock Option and Bonus Phantom Stock Programs provide you wi=\nth=20\nan opportunity to receive stock options and phantom stock in lieu of all or=\n a=20\nportion of the cash bonus you may receive during 2001.   To make enrollment=\n=20\neven more convenient for you, this year's deferral program information is=\n=20\navailable on eHRonline. =20\n\nTo learn more about your deferral program opportunities and to enroll for=\n=20\n2001 deferrals, access eHRonline at http://ehronline.enron.com.  (Call the=\n=20\nISC Help Desk at 713-345-4727 if you need your ID or password to access the=\n=20\nsystem.)\n\n1. Review the program descriptions (attached to the Election Form) before y=\nou=20\nmake your elections.\n2. If you decide to defer compensation, complete the Election Form before=\n=20\nFriday, December 8,  2000 (the enrollment deadline).\n3. Print your 2001 Election Form and Confirmation Statement right from the=\n=20\nweb site and you=01,re   finished!=20\n\nSound easy?  It is!\n\nDEFERRAL ENROLLMENT 2001--ADDED VALUE FOR YOUR FUTURE",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1168,
+      "text": "                                              =20\n\nGood news!  Deferral program enrollment begins Wednesday, November 15, 2000=\n. =20\n Enron's Bonus Stock Option and Bonus Phantom Stock Programs provide you wi=\nth=20\nan opportunity to receive stock options and phantom stock in lieu of all or=\n a=20\nportion of the cash bonus you may receive during 2001.   To make enrollment=\n=20\neven more convenient for you, this year's deferral program information is=\n=20\navailable on eHRonline. =20\n\nTo learn more about your deferral program opportunities and to enroll for=\n=20\n2001 deferrals, access eHRonline at http://ehronline.enron.com.  (Call the=\n=20\nISC Help Desk at 713-345-4727 if you need your ID or password to access the=\n=20\nsystem.)\n\n1. Review the program descriptions (attached to the Election Form) before y=\nou=20\nmake your elections.\n2. If you decide to defer compensation, complete the Election Form before=\n=20\nFriday, December 8,  2000 (the enrollment deadline).\n3. Print your 2001 Election Form and Confirmation Statement right from the=\n=20\nweb site and you=01,re   finished!=20\n\nSound easy?  It is!\n\nDEFERRAL ENROLLMENT 2001--ADDED VALUE FOR YOUR FUTURE",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

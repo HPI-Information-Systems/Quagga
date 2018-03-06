@@ -1,0 +1,96 @@
+Hi,
+
+I have a data frame collection called “secondDf” when I tried to perform groupBy and then
+sum of each column it works perfectly. However when I tried to calculate average of that column
+it says the column name is not found. The details are as follow
+
+val total = secondDf.filter("ImageWidth > 1 and ImageHeight > 1").
+                               groupBy("MainDomainCode").
+                               agg(sum("ImageWidth"),
+                                   sum("ImageHeight"),
+                                   sum("ImageArea”))
+
+
+total.show  will show result as expected, However when I tried to calculate avg, the result
+is script error. Any help to resolve this issue?
+
+Regards,
+Eko
+
+
+  val average = secondDf.filter("ImageWidth > 1 and ImageHeight > 1").
+                                       groupBy("MainDomainCode").
+                                       agg(avg("ImageWidth"),
+                                           avg("ImageHeight"),
+                                           avg("ImageArea"))
+
+
+org.apache.spark.sql.AnalysisException: Cannot resolve column name "ImageWidth" among (MainDomainCode,
+avg(length(ImageWidth)));
+	at org.apache.spark.sql.DataFrame$$anonfun$resolve$1.apply(DataFrame.scala:152)
+	at org.apache.spark.sql.DataFrame$$anonfun$resolve$1.apply(DataFrame.scala:152)
+	at scala.Option.getOrElse(Option.scala:120)
+	at org.apache.spark.sql.DataFrame.resolve(DataFrame.scala:151)
+	at org.apache.spark.sql.DataFrame.col(DataFrame.scala:664)
+	at org.apache.spark.sql.DataFrame.apply(DataFrame.scala:652)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:42)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:49)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:51)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:53)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:55)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:57)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:59)
+	at $iwC$$iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:61)
+	at $iwC$$iwC$$iwC$$iwC$$iwC.<init>(<console>:63)
+	at $iwC$$iwC$$iwC$$iwC.<init>(<console>:65)
+	at $iwC$$iwC$$iwC.<init>(<console>:67)
+	at $iwC$$iwC.<init>(<console>:69)
+	at $iwC.<init>(<console>:71)
+	at <init>(<console>:73)
+	at .<init>(<console>:77)
+	at .<clinit>(<console>)
+	at .<init>(<console>:7)
+	at .<clinit>(<console>)
+	at $print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1346)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:875)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:875)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:875)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:875)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoop.processLine$1(SparkILoop.scala:657)
+	at org.apache.spark.repl.SparkILoop.innerLoop$1(SparkILoop.scala:665)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$loop(SparkILoop.scala:670)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:997)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:731)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:181)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:206)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:121)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+
+

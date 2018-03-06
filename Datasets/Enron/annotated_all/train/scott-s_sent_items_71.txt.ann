@@ -1,0 +1,981 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ditto\n\n\n\n  =20\n=09  From:  Christi L Nicolay                           04/11/2001 09:11 AM=\n=09\n=09=09\n\n\nTo:=09Susan M Scott/HOU/ECT@ECT\ncc:=09=20\nSubject:=09GridSouth and Southern RTO Orders\n\n\n---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 04/11/2001=\n 09:10 AM ---------------------------\n  =20\n=09  From:  Christi L Nicolay                           03/21/2001 11:05 AM=\n=09\n=09=09\n\n\nTo:=09Reagan Rorschach/NA/Enron\ncc:=09=20\n\nSubject:=09GridSouth and Southern RTO Orders\n\n\n---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 03/21/2001=\n 10:56 AM ---------------------------\n  =20\n=09  From:  Christi L Nicolay                           03/21/2001 11:05 AM=\n=09\n=09=09\n\n\nTo:=09Jeff Brown/NA/Enron@Enron, Ron McNamara/NA/Enron@Enron, James D Steff=\nes/NA/Enron@Enron, Sarah Novosel/Corp/Enron@ENRON, Aleck Dadson/TOR/ECT@ECT=\n, Daniel Allegretti/NA/Enron@Enron, Howard Fromer/NA/Enron@Enron, Joe Harts=\noe/Corp/Enron@ENRON, Donna Fulton/Corp/Enron@ENRON, Tom Hoatson/NA/Enron@En=\nron, Steve Montovano/NA/Enron@Enron, Jean Ryall/NA/Enron@ENRON, Tom Chapman=\n/HOU/ECT@ECT, Janine Migden/NA/Enron@Enron, Dave Mangskau/Corp/Enron@ENRON,=\n Dan Staines/HOU/ECT@ECT, Mike Roan/ENRON@enronXgate, Joe Connor/NA/Enron@E=\nnron, Kerry Stroup/NA/Enron@Enron, Steve Walton/HOU/ECT@ECT, Mary Hain/HOU/=\nECT@ECT, Alan Comnes/PDX/ECT@ECT, Susan J Mara/NA/Enron@ENRON, Thane Twiggs=\n/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, ozzie.pagan@enron.com, heather.kroll@=\nenron.com, david.fairley@enron.com, george.mccormick@enron.com, wjennin@enr=\non.com, joseph.wagner@enron.com, elizabeth.johnston@enron.com, bill.rust@en=\nron.com, Edith Cross/HOU/ECT@ECT, Berney C Aucoin/HOU/ECT@ECT, Jennifer Bag=\nwell/NA/Enron, Billy Braddock/NA/Enron, Ben Jacoby/HOU/ECT@ECT, Dave Keller=\nmeyer/HOU/ECT@ECT, Jeffrey Keenan/HOU/ECT@ECT, Rusty Stevens/Corp/Enron@ENR=\nON, Rebecca Walker/NA/Enron@Enron, John Moore/Corp/Enron@Enron, Fred Mitro/=\nHOU/ECT@ECT, Raimund Grube/Corp/Enron@ENRON, Chris Booth/NA/Enron@Enron, Gr=\neg Krause/Corp/Enron@Enron, Mathew Gimble/HOU/ECT@ECT, Steven Krimsky/Corp/=\nEnron@Enron, Michelle Zhang/HOU/ECT, Ron Tapscott/HOU/ECT@ECT, Jeff William=\ns/Corp/Enron@Enron, W David Duran/HOU/ECT@ECT, Rogers Herndon/HOU/ECT@ect, =\nKevin M Presto/HOU/ECT@ECT, John M Forney/NA/Enron@Enron, Laura Podurgiel/H=\nOU/ECT@ECT, Mike Carson/Corp/Enron@Enron, Eric Saibi/Corp/Enron@ENRON, Bill=\n Rust/HOU/ECT@ECT\ncc:=09=20\n\nSubject:=09GridSouth and Southern RTO Orders\n\nSee Joe Hartsoe's summaries of FERC recent RTO orders.\n---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 03/21/2001=\n 10:53 AM ---------------------------\nFrom:=09Joe Hartsoe@ENRON on 03/21/2001 10:46 AM\n\nRick  -- Attached is my list of rehearing issues for the Southern and GridS=\nouth RTO orders that you requested.=20\n\n=09=09=09=20\n\nAlso included are summaries of GridSouth and Southern Orders.\n\n=09=09 =20\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 15,
+      "text": "Ditto\n\n\n\n  =20\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 27,
+      "end": 44,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 71,
+      "end": 81,
+      "text": "04/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 82,
+      "end": 90,
+      "text": "09:11 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 111,
+      "end": 124,
+      "text": "Susan M Scott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 158,
+      "end": 191,
+      "text": "GridSouth and Southern RTO Orders",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 15,
+      "end": 192,
+      "text": "=09  From:  Christi L Nicolay                           04/11/2001 09:11 AM=\n=09\n=09=09\n\n\nTo:=09Susan M Scott/HOU/ECT@ECT\ncc:=09=20\nSubject:=09GridSouth and Southern RTO Orders\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 230,
+      "end": 247,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 259,
+      "end": 269,
+      "text": "04/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 272,
+      "end": 280,
+      "text": "09:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 192,
+      "end": 309,
+      "text": "\n\n---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 04/11/2001=\n 09:10 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 327,
+      "end": 344,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 371,
+      "end": 381,
+      "text": "03/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 382,
+      "end": 390,
+      "text": "11:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 411,
+      "end": 427,
+      "text": "Reagan Rorschach",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 459,
+      "end": 492,
+      "text": "GridSouth and Southern RTO Orders",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 309,
+      "end": 493,
+      "text": "  =20\n=09  From:  Christi L Nicolay                           03/21/2001 11:05 AM=\n=09\n=09=09\n\n\nTo:=09Reagan Rorschach/NA/Enron\ncc:=09=20\n\nSubject:=09GridSouth and Southern RTO Orders\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 531,
+      "end": 548,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 560,
+      "end": 570,
+      "text": "03/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 573,
+      "end": 581,
+      "text": "10:56 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 493,
+      "end": 610,
+      "text": "\n\n---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 03/21/2001=\n 10:56 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 628,
+      "end": 645,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 672,
+      "end": 682,
+      "text": "03/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 683,
+      "end": 691,
+      "text": "11:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 712,
+      "end": 722,
+      "text": "Jeff Brown",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 739,
+      "end": 751,
+      "text": "Ron McNamara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 768,
+      "end": 781,
+      "text": "James D Steff",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 783,
+      "end": 785,
+      "text": "es",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 802,
+      "end": 815,
+      "text": "Sarah Novosel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 834,
+      "end": 846,
+      "text": "Aleck Dadson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 862,
+      "end": 879,
+      "text": "Daniel Allegretti",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 896,
+      "end": 909,
+      "text": "Howard Fromer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 926,
+      "end": 935,
+      "text": "Joe Harts",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 937,
+      "end": 939,
+      "text": "oe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 958,
+      "end": 970,
+      "text": "Donna Fulton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 989,
+      "end": 1000,
+      "text": "Tom Hoatson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1019,
+      "end": 1034,
+      "text": "Steve Montovano",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1051,
+      "end": 1061,
+      "text": "Jean Ryall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1078,
+      "end": 1089,
+      "text": "Tom Chapman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1105,
+      "end": 1118,
+      "text": "Janine Migden",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1135,
+      "end": 1148,
+      "text": "Dave Mangskau",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1169,
+      "end": 1180,
+      "text": "Dan Staines",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1194,
+      "end": 1203,
+      "text": "Mike Roan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1222,
+      "end": 1232,
+      "text": "Joe Connor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1251,
+      "end": 1263,
+      "text": "Kerry Stroup",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1280,
+      "end": 1292,
+      "text": "Steve Walton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1306,
+      "end": 1315,
+      "text": "Mary Hain",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1331,
+      "end": 1342,
+      "text": "Alan Comnes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1356,
+      "end": 1368,
+      "text": "Susan J Mara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1385,
+      "end": 1397,
+      "text": "Thane Twiggs",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1437,
+      "end": 1458,
+      "text": "ozzie.pagan@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1460,
+      "end": 1474,
+      "text": "heather.kroll@",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1476,
+      "end": 1485,
+      "text": "enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1487,
+      "end": 1510,
+      "text": "david.fairley@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1512,
+      "end": 1538,
+      "text": "george.mccormick@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1540,
+      "end": 1551,
+      "text": "wjennin@enr",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1553,
+      "end": 1559,
+      "text": "on.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1561,
+      "end": 1584,
+      "text": "joseph.wagner@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1586,
+      "end": 1614,
+      "text": "elizabeth.johnston@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1616,
+      "end": 1628,
+      "text": "bill.rust@en",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1630,
+      "end": 1637,
+      "text": "ron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1639,
+      "end": 1650,
+      "text": "Edith Cross",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1664,
+      "end": 1679,
+      "text": "Berney C Aucoin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1693,
+      "end": 1705,
+      "text": "Jennifer Bag",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1707,
+      "end": 1711,
+      "text": "well",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1722,
+      "end": 1736,
+      "text": "Billy Braddock",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1747,
+      "end": 1757,
+      "text": "Ben Jacoby",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1771,
+      "end": 1782,
+      "text": "Dave Keller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1784,
+      "end": 1789,
+      "text": "meyer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 1803,
+      "end": 1817,
+      "text": "Jeffrey Keenan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 1831,
+      "end": 1844,
+      "text": "Rusty Stevens",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 1865,
+      "end": 1879,
+      "text": "Rebecca Walker",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 1896,
+      "end": 1906,
+      "text": "John Moore",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 1925,
+      "end": 1935,
+      "text": "Fred Mitro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 1951,
+      "end": 1964,
+      "text": "Raimund Grube",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 1983,
+      "end": 1994,
+      "text": "Chris Booth",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 77,
+      "start": 2011,
+      "end": 2013,
+      "text": "Gr",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 78,
+      "start": 2015,
+      "end": 2024,
+      "text": "eg Krause",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 79,
+      "start": 2043,
+      "end": 2056,
+      "text": "Mathew Gimble",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 80,
+      "start": 2070,
+      "end": 2084,
+      "text": "Steven Krimsky",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 81,
+      "start": 2105,
+      "end": 2119,
+      "text": "Michelle Zhang",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 82,
+      "start": 2129,
+      "end": 2141,
+      "text": "Ron Tapscott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 83,
+      "start": 2155,
+      "end": 2167,
+      "text": "Jeff William",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 84,
+      "start": 2169,
+      "end": 2170,
+      "text": "s",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 85,
+      "start": 2189,
+      "end": 2202,
+      "text": "W David Duran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 86,
+      "start": 2216,
+      "end": 2230,
+      "text": "Rogers Herndon",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 87,
+      "start": 2246,
+      "end": 2260,
+      "text": "Kevin M Presto",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 88,
+      "start": 2274,
+      "end": 2287,
+      "text": "John M Forney",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 89,
+      "start": 2304,
+      "end": 2319,
+      "text": "Laura Podurgiel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 90,
+      "start": 2335,
+      "end": 2346,
+      "text": "Mike Carson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 91,
+      "start": 2365,
+      "end": 2375,
+      "text": "Eric Saibi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 92,
+      "start": 2394,
+      "end": 2398,
+      "text": "Bill",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 93,
+      "start": 2400,
+      "end": 2405,
+      "text": " Rust",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 94,
+      "start": 2440,
+      "end": 2473,
+      "text": "GridSouth and Southern RTO Orders",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 95,
+      "start": 610,
+      "end": 2474,
+      "text": "  =20\n=09  From:  Christi L Nicolay                           03/21/2001 11:05 AM=\n=09\n=09=09\n\n\nTo:=09Jeff Brown/NA/Enron@Enron, Ron McNamara/NA/Enron@Enron, James D Steff=\nes/NA/Enron@Enron, Sarah Novosel/Corp/Enron@ENRON, Aleck Dadson/TOR/ECT@ECT=\n, Daniel Allegretti/NA/Enron@Enron, Howard Fromer/NA/Enron@Enron, Joe Harts=\noe/Corp/Enron@ENRON, Donna Fulton/Corp/Enron@ENRON, Tom Hoatson/NA/Enron@En=\nron, Steve Montovano/NA/Enron@Enron, Jean Ryall/NA/Enron@ENRON, Tom Chapman=\n/HOU/ECT@ECT, Janine Migden/NA/Enron@Enron, Dave Mangskau/Corp/Enron@ENRON,=\n Dan Staines/HOU/ECT@ECT, Mike Roan/ENRON@enronXgate, Joe Connor/NA/Enron@E=\nnron, Kerry Stroup/NA/Enron@Enron, Steve Walton/HOU/ECT@ECT, Mary Hain/HOU/=\nECT@ECT, Alan Comnes/PDX/ECT@ECT, Susan J Mara/NA/Enron@ENRON, Thane Twiggs=\n/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, ozzie.pagan@enron.com, heather.kroll@=\nenron.com, david.fairley@enron.com, george.mccormick@enron.com, wjennin@enr=\non.com, joseph.wagner@enron.com, elizabeth.johnston@enron.com, bill.rust@en=\nron.com, Edith Cross/HOU/ECT@ECT, Berney C Aucoin/HOU/ECT@ECT, Jennifer Bag=\nwell/NA/Enron, Billy Braddock/NA/Enron, Ben Jacoby/HOU/ECT@ECT, Dave Keller=\nmeyer/HOU/ECT@ECT, Jeffrey Keenan/HOU/ECT@ECT, Rusty Stevens/Corp/Enron@ENR=\nON, Rebecca Walker/NA/Enron@Enron, John Moore/Corp/Enron@Enron, Fred Mitro/=\nHOU/ECT@ECT, Raimund Grube/Corp/Enron@ENRON, Chris Booth/NA/Enron@Enron, Gr=\neg Krause/Corp/Enron@Enron, Mathew Gimble/HOU/ECT@ECT, Steven Krimsky/Corp/=\nEnron@Enron, Michelle Zhang/HOU/ECT, Ron Tapscott/HOU/ECT@ECT, Jeff William=\ns/Corp/Enron@Enron, W David Duran/HOU/ECT@ECT, Rogers Herndon/HOU/ECT@ect, =\nKevin M Presto/HOU/ECT@ECT, John M Forney/NA/Enron@Enron, Laura Podurgiel/H=\nOU/ECT@ECT, Mike Carson/Corp/Enron@Enron, Eric Saibi/Corp/Enron@ENRON, Bill=\n Rust/HOU/ECT@ECT\ncc:=09=20\n\nSubject:=09GridSouth and Southern RTO Orders\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 96,
+      "start": 2474,
+      "end": 2530,
+      "text": "\nSee Joe Hartsoe's summaries of FERC recent RTO orders.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 97,
+      "start": 2566,
+      "end": 2583,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 98,
+      "start": 2595,
+      "end": 2605,
+      "text": "03/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 99,
+      "start": 2608,
+      "end": 2616,
+      "text": "10:53 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 100,
+      "start": 2530,
+      "end": 2645,
+      "text": "---------------------- Forwarded by Christi L Nicolay/HOU/ECT on 03/21/2001=\n 10:53 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 101,
+      "start": 2653,
+      "end": 2664,
+      "text": "Joe Hartsoe",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 102,
+      "start": 2674,
+      "end": 2684,
+      "text": "03/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 103,
+      "start": 2685,
+      "end": 2693,
+      "text": "10:46 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 104,
+      "start": 2645,
+      "end": 2694,
+      "text": "From:=09Joe Hartsoe@ENRON on 03/21/2001 10:46 AM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 105,
+      "start": 2695,
+      "end": 2699,
+      "text": "Rick",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 106,
+      "start": 2694,
+      "end": 2908,
+      "text": "\nRick  -- Attached is my list of rehearing issues for the Southern and GridS=\nouth RTO orders that you requested.=20\n\n=09=09=09=20\n\nAlso included are summaries of GridSouth and Southern Orders.\n\n=09=09 =20\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 28,
+      "target": 27,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 34,
+      "target": 33,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 53,
+      "target": 52,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 57,
+      "target": 56,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 61,
+      "target": 60,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 65,
+      "target": 64,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 69,
+      "target": 68,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 78,
+      "target": 77,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 84,
+      "target": 83,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 93,
+      "target": 92,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 12,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 22,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 22,
+      "target": 97,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27114386.1075858917306.JavaMail.evans@thyme>",
+      "Date": "Wed, 11 Apr 2001 12:14:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "christi.nicolay@enron.com",
+      "Subject": "Re: GridSouth and Southern RTO Orders",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Susan M Scott",
+      "X-To": "Christi L Nicolay <Christi L Nicolay/HOU/ECT@ECT>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SSCOTT5 (Non-Privileged)\\Scott, Susan M.\\Sent Items",
+      "X-Origin": "Scott-S",
+      "X-FileName": "SSCOTT5 (Non-Privileged).pst"
+    }
+  },
+  "id": "train/scott-s_sent_items_71.txt"
+}

@@ -1,0 +1,13 @@
+On 7/20/2017 12:29 AM, rajat rastogi wrote:
+> I shared The code base, config , schema with you . Were they of any help , or can You
+point what I am doing wrong in them .
+
+I did not see any schema or config.
+
+The top output shows that you have three large Java processes, all
+running as root.  Which of these is Solr?  Are they all instances of Solr?
+
+Thanks,
+Shawn
+
+

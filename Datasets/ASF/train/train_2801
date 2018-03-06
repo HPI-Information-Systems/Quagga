@@ -1,0 +1,170 @@
+I think creating poll for ES ppl with question: "How do you run master 
+nodes? A) on some data nodes B) dedicated node C) dedicated server" 
+would give some insight how big issue is having ZK and if hiding ZK 
+behind Solr would do any good.
+
+Emir
+
+
+On 25.04.2017 23:13, Otis Gospodnetić wrote:
+> Hi Erick,
+>
+> Could one run *only* embedded ZK on some SolrCloud nodes, sans any data?
+> It would be equivalent of dedicated Elasticsearch nodes, which is the
+> current ES best practice/recommendation.  I've never heard of anyone being
+> scared of running 3 dedicated master ES nodes, so if SolrCloud offered the
+> same, perhaps even completely hiding ZK from users, that would present the
+> same level of complexity (err, simplicity) ES users love about ES.  Don't
+> want to talk about SolrCloud vs. ES here at all, just trying to share
+> observations since we work a lot with both Elasticsearch and Solr(Cloud) at
+> Sematext.
+>
+> Otis
+> --
+> Monitoring - Log Management - Alerting - Anomaly Detection
+> Solr & Elasticsearch Consulting Support Training - http://sematext.com/
+>
+>
+> On Tue, Apr 25, 2017 at 4:03 PM, Erick Erickson <erickerickson@gmail.com>
+> wrote:
+>
+>> bq: I read somewhere that you should run your own ZK externally, and
+>> turn off SolrCloud
+>>
+>> this is a bit confused. "turn off SolrCloud" has nothing to do with
+>> running ZK internally or externally. SolrCloud requires ZK, whether
+>> internal or external is irrelevant to the term SolrCloud.
+>>
+>> On to running an external ZK ensemble. Mostly, that's administratively
+>> by far the safest. If you're running the embedded ZK, then the ZK
+>> instances are tied to your Solr instance. Now if, for any reason, your
+>> Solr nodes hosting ZK go down, you lose ZK quorum, can't index.
+>> etc....
+>>
+>> Now consider a cluster with, say, 100 Solr nodes. Not talking replicas
+>> in a collection here, I'm talking 100 physical machines. BTW, this is
+>> not even close to the largest ones I'm aware of. Which three (for
+>> example) are running ZK? If I want to upgrade Solr I better make
+>> really sure not to upgrade to of the Solr instances running ZK at once
+>> if I want my cluster to keep going....
+>>
+>> And, ZK is sensitive to system resources. So putting ZK on a Solr node
+>> then hosing, say, updates to my Solr cluster can cause ZK to be
+>> starved for resources.
+>>
+>> This is one of those deals where _functionally_, it's OK to run
+>> embedded ZK, but administratively it's suspect.
+>>
+>> Best,
+>> Erick
+>>
+>> On Tue, Apr 25, 2017 at 10:49 AM, Rick Leir <rleir@leirtech.com> wrote:
+>>> All,
+>>> I read somewhere that you should run your own ZK externally, and turn
+>> off SolrCloud. Comments please!
+>>> Rick
+>>>
+>>> On April 25, 2017 1:33:31 PM EDT, "Otis Gospodnetić" <
+>> otis.gospodnetic@gmail.com> wrote:
+>>>> This is interesting - that ZK is seen as adding so much complexity that
+>>>> it
+>>>> turns people off!
+>>>>
+>>>> If you think about it, Elasticsearch users have no choice -- except
+>>>> their
+>>>> "ZK" is built-in, hidden, so one doesn't have to think about it, at
+>>>> least
+>>>> not initially.
+>>>>
+>>>> I think I saw mentions (maybe on user or dev MLs or JIRA) about
+>>>> potentially, in the future, there only being SolrCloud mode (and
+>>>> dropping
+>>>> SolrCloud name in favour of Solr).  If the above comment from Charlie
+>>>> about
+>>>> complexity is really true for Solr users, and if that's the reason why
+>>>> we
+>>>> see so few people running SolrCloud today, perhaps that's a good signal
+>>>> for
+>>>> Solr development/priorities in terms of ZK
+>>>> hiding/automating/embedding/something...
+>>>>
+>>>> Otis
+>>>> --
+>>>> Monitoring - Log Management - Alerting - Anomaly Detection
+>>>> Solr & Elasticsearch Consulting Support Training - http://sematext.com/
+>>>>
+>>>>
+>>>> On Tue, Apr 25, 2017 at 4:50 AM, Charlie Hull <charlie@flax.co.uk>
+>>>> wrote:
+>>>>
+>>>>> On 24/04/2017 15:58, Otis Gospodnetić wrote:
+>>>>>
+>>>>>> Hi,
+>>>>>>
+>>>>>> I'm really really surprised here.  Back in 2013 we did a poll to
+see
+>>>> how
+>>>>>> people were running Master-Slave (4.x back then) and SolrCloud was
+a
+>>>> bit
+>>>>>> more popular than Master-Slave:
+>>>>>> https://sematext.com/blog/2013/02/25/poll-solr-cloud-or-not/
+>>>>>>
+>>>>>> Here is a fresh new poll with pretty much the same question - How
+do
+>>>> you
+>>>>>> run your Solr?
+>>>> <https://twitter.com/sematext/status/854927627748036608> -
+>>>>>> and guess what?  SolrCloud is *not* at all a lot more prevalent than
+>>>>>> Master-Slave.
+>>>>>>
+>>>>>> We definitely see a lot more SolrCloud used by Sematext Solr
+>>>>>> consulting/support customers, so I'm a bit surprised by the results
+>>>> of
+>>>>>> this
+>>>>>> poll so far.
+>>>>>>
+>>>>> I'm not particularly surprised. We regularly see clients either with
+>>>>> single nodes or elderly versions of Solr (or even Lucene). Zookeeper
+>>>> is
+>>>>> still seen as a bit of a black art. Once you move from 'how do I run
+>>>> a
+>>>>> search engine' to 'how do I manage a cluster of servers with scaling
+>>>> for
+>>>>> performance/resilience/failover' you're looking at a completely new
+>>>> set
+>>>>> of skills and challenges, which I think puts many people off.
+>>>>>
+>>>>> Charlie
+>>>>>
+>>>>>> Is anyone else surprised by this?  See https://twitter.com/sematext/
+>>>>>> status/854927627748036608
+>>>>>>
+>>>>>> Thanks,
+>>>>>> Otis
+>>>>>> --
+>>>>>> Monitoring - Log Management - Alerting - Anomaly Detection
+>>>>>> Solr & Elasticsearch Consulting Support Training -
+>>>> http://sematext.com/
+>>>>>>
+>>>>>> ---
+>>>>>> This email has been checked for viruses by AVG.
+>>>>>> http://www.avg.com
+>>>>>>
+>>>>>>
+>>>>> --
+>>>>> Charlie Hull
+>>>>> Flax - Open Source Enterprise Search
+>>>>>
+>>>>> tel/fax: +44 (0)8700 118334
+>>>>> mobile:  +44 (0)7767 825828
+>>>>> web: www.flax.co.uk
+>>>>>
+>>> --
+>>> Sorry for being brief. Alternate email is rickleir at yahoo dot com
+
+-- 
+Monitoring * Alerting * Anomaly Detection * Centralized Log Management
+Solr & Elasticsearch Support * http://sematext.com/
+
+

@@ -1,0 +1,152 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Michael,\nthank you for fast answer - I have tried it, but it's not exactly what I\nneed. I hope that I understood it good - the problem is that if I will\nwrite foo bar and foo bar is not found in root entity then it returns\nnothing even if any field in children contains foo bar.\nI need to write foo bar and find all documents where foo bar exists in\ndocument A OR B OR C OR D even if in A will have FOO and in e.g C will be\nbar. But if I will write bar of chocolate then I need return nothing.\n\nmy idea was to use\nedismax and filter query for each word:\nhttp://localhost:8983/solr/demo/select?q=*:*&fq={!parent\nwhich=type:root}foo*&fq={!parent\nwhich=typ:root}bar*&wt=json&indent=true&defType=edismax&qf=$allfields&stopwords=true&lowercaseOperators=true&allfieldscolor,\nfirst_country, power, name, country\n\nthe problem is that I'm not able to find also parent documents in one\ncondition with children.\n\nHow I wrote I'm able solve it with another parent and then also doc A will\nbe child and everything will work fine - but I would like to solve it\nbetter.\n\n\nDo you have or someone else another idea?:)\n\nThanks\nJan\n\n\n2017-03-16 21:51 GMT+01:00 Mikhail Khludnev <mkhl@apache.org>:\n\n> Hello Jan,\n>\n> What if you combine child and parent dismaxes like below\n> q={!edismax qf=$parentfields}foo bar {!parent ..}{!dismax qf=$childfields\n> v=$childclauses}&childclauses=foo bar +type:child&parentfields=...&\n> parentfields=...\n>\n> On Thu, Mar 16, 2017 at 10:54 PM, Jan Nekuda <jan.nekuda@gmail.com> wrote:\n>\n> > Hello Mikhail,\n> >\n> > thanks for fast answer. The problem is, that I want to have the dismax on\n> > child and parent together - to have the filter evaluated together.\n> >\n> > I need to have documents:\n> >\n> >\n> > path: car\n> >\n> > type:car\n> >\n> > color:red\n> >\n> > first_country: CZ\n> >\n> > name:seat\n> >\n> >\n> >\n> > path: car\\engine\n> >\n> > type:engine\n> >\n> > power:63KW\n> >\n> >\n> >\n> > path: car\\engine\\manufacturer\n> >\n> > type:manufacturer\n> >\n> > name: xx\n> >\n> > country:PL\n> >\n> >\n> > path: car\n> >\n> > type:car\n> >\n> > color:green\n> >\n> > first_country: CZ\n> >\n> > name:skoda\n> >\n> >\n> >\n> > path: car\\engine\n> >\n> > type:engine\n> >\n> > power:88KW\n> >\n> >\n> >\n> > path: car\\engine\\manufacturer\n> >\n> > type:manufacturer\n> >\n> > name: yy\n> >\n> > country:PL\n> >\n> >\n> > where car is parent document engine is its child a manufacturer is child\n> > of engine and the structure can be deep.\n> >\n> > I need to make a query with edismax over fields color, first_country,\n> > power, name, country over parent and all childern.\n> >\n> > when I ask then \"seat 63 kw\" i need to get seat car\n> >\n> > the same if I will write only \"seat\" or only \"63kw\" or only \"xx\"\n> >\n> > but if I will write \"seat 88kw\" i expect that i will get no result\n> >\n> > I need to return parents in which tree are all the words which I wrote to\n> > query.\n> >\n> > How I wrote before my solution was to split the query text and use q:*:*\n> > and for each /word/ in query make\n> >\n> > fq={!parent which=type:car}/word//\n> > /\n> >\n> > //and edismax with qf=color, first_country, power, name, country\n> >\n> > Thank you for your time:)\n> >\n> > Jan\n> >\n> >\n> > Dne 16.03.2017 v 20:00 Mikhail Khludnev napsal(a):\n> >\n> >\n> > Hello,\n> >>\n> >> It's hard to get into the problem. but you probably want to have dismax\n> on\n> >> child level:\n> >> q={!parent ...}{!edismax qf='childF1 childF2' v=$chq}&chq=foo bar\n> >> It's usually broken because child query might match parents which is not\n> >> allowed. Thus, it's probably can solved by adding +type:child into chq.\n> >> IIRC edismax supports lucene syntax.\n> >>\n> >> On Thu, Mar 16, 2017 at 4:47 PM, Jan Nekuda <jan.nekuda@gmail.com>\n> wrote:\n> >>\n> >> Hi,\n> >>> I have a question for which I wasn't able to find a good solution.\n> >>> I have this structure of documents\n> >>>\n> >>> A\n> >>> |\\\n> >>> | \\\n> >>> B \\\n> >>>       \\\n> >>>        C\n> >>>         \\\n> >>>          \\\n> >>>           \\\n> >>>            D\n> >>>\n> >>> Document type A has fields id_number, date_from, date_to\n> >>> Document type C  has fields first_name, surname, birthdate\n> >>> Document type D AND B has fields street_name, house_number, city\n> >>>\n> >>>\n> >>> I want to find *all parents with block join and edismax*.\n> >>> The problem is that I have found that possible is find children by\n> >>> parent,\n> >>> or parent by children.\n> >>> *I want to find parent by values in parent and in children*. I want to\n> >>> use\n> >>> edismax with all fields from all documents (id_number, date_from,\n> >>> date_to,\n> >>> has fields first_name, surname, birthdate,street_name, house_number,\n> >>> city).\n> >>> I want to write *Hynek* AND *Brojova* AND 14 and I expect that it\n> returns\n> >>> document A because it found Hynek in surname, Brojova in street and 14\n> in\n> >>> house number.\n> >>> This is easy with {!parent which=type:A}\n> >>> the problem is, that I'm not able to find by condition 789 AND\n> *Brojova*\n> >>> where 789 is id_number from type A and Brojova is Street from D.\n> >>>\n> >>> In short I need to find all parents of tree (parent and childern) in\n> >>> which\n> >>> are matched all the word which i send to condition\n> >>>\n> >>>\n> >>> My only solution is to make root type X. Then A will be its child.\n> Then I\n> >>> can use {!parent which=type:X}.\n> >>> Than this will work:\n> >>>\n> >>> http://localhost:8983/solr/demo/select?q=*:*&fq={!parent\n> >>> which=type:X}brojova*&fq={!parent which=type:X}16&wt=json&\n> >>> indent=true&defType=edismax&qf=id_number date_from date_to has fields\n> >>> first_name surname birthdate street_name house_number\n> >>> city&stopwords=true&\n> >>> lowercaseOperators=true\n> >>>\n> >>>\n> >>> But I believe it can be solved much better.\n> >>>\n> >>> X\n> >>> |\n> >>> A\n> >>> |\\\n> >>> | \\\n> >>> B \\\n> >>>       \\\n> >>>        C\n> >>>         \\\n> >>>          \\\n> >>>           \\\n> >>>            D\n> >>>\n> >>>\n> >>> Thanks for your help\n> >>> Jan\n> >>>\n> >>>\n> >>\n> >>\n> >\n> >\n> > ---\n> > Tato zpr\u00c3\u00a1va byla zkontrolov\u00c3\u00a1na na viry programem Avast Antivirus.\n> > https://www.avast.com/antivirus\n> >\n>\n>\n>\n> --\n> Sincerely yours\n> Mikhail Khludnev\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hi Michael,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1104,
+      "end": 1116,
+      "text": "\nThanks\nJan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1118,
+      "text": "Hi Michael,\nthank you for fast answer - I have tried it, but it's not exactly what I\nneed. I hope that I understood it good - the problem is that if I will\nwrite foo bar and foo bar is not found in root entity then it returns\nnothing even if any field in children contains foo bar.\nI need to write foo bar and find all documents where foo bar exists in\ndocument A OR B OR C OR D even if in A will have FOO and in e.g C will be\nbar. But if I will write bar of chocolate then I need return nothing.\n\nmy idea was to use\nedismax and filter query for each word:\nhttp://localhost:8983/solr/demo/select?q=*:*&fq={!parent\nwhich=type:root}foo*&fq={!parent\nwhich=typ:root}bar*&wt=json&indent=true&defType=edismax&qf=$allfields&stopwords=true&lowercaseOperators=true&allfieldscolor,\nfirst_country, power, name, country\n\nthe problem is that I'm not able to find also parent documents in one\ncondition with children.\n\nHow I wrote I'm able solve it with another parent and then also doc A will\nbe child and everything will work fine - but I would like to solve it\nbetter.\n\n\nDo you have or someone else another idea?:)\n\nThanks\nJan\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1118,
+      "end": 1181,
+      "text": "2017-03-16 21:51 GMT+01:00 Mikhail Khludnev <mkhl@apache.org>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1181,
+      "end": 1195,
+      "text": "\n> Hello Jan,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1181,
+      "end": 1423,
+      "text": "\n> Hello Jan,\n>\n> What if you combine child and parent dismaxes like below\n> q={!edismax qf=$parentfields}foo bar {!parent ..}{!dismax qf=$childfields\n> v=$childclauses}&childclauses=foo bar +type:child&parentfields=...&\n> parentfields=...\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1423,
+      "end": 1500,
+      "text": "> On Thu, Mar 16, 2017 at 10:54 PM, Jan Nekuda <jan.nekuda@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1500,
+      "end": 1521,
+      "text": ">\n> > Hello Mikhail,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3078,
+      "end": 3124,
+      "text": "> >\n> > Thank you for your time:)\n> >\n> > Jan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1500,
+      "end": 3132,
+      "text": ">\n> > Hello Mikhail,\n> >\n> > thanks for fast answer. The problem is, that I want to have the dismax on\n> > child and parent together - to have the filter evaluated together.\n> >\n> > I need to have documents:\n> >\n> >\n> > path: car\n> >\n> > type:car\n> >\n> > color:red\n> >\n> > first_country: CZ\n> >\n> > name:seat\n> >\n> >\n> >\n> > path: car\\engine\n> >\n> > type:engine\n> >\n> > power:63KW\n> >\n> >\n> >\n> > path: car\\engine\\manufacturer\n> >\n> > type:manufacturer\n> >\n> > name: xx\n> >\n> > country:PL\n> >\n> >\n> > path: car\n> >\n> > type:car\n> >\n> > color:green\n> >\n> > first_country: CZ\n> >\n> > name:skoda\n> >\n> >\n> >\n> > path: car\\engine\n> >\n> > type:engine\n> >\n> > power:88KW\n> >\n> >\n> >\n> > path: car\\engine\\manufacturer\n> >\n> > type:manufacturer\n> >\n> > name: yy\n> >\n> > country:PL\n> >\n> >\n> > where car is parent document engine is its child a manufacturer is child\n> > of engine and the structure can be deep.\n> >\n> > I need to make a query with edismax over fields color, first_country,\n> > power, name, country over parent and all childern.\n> >\n> > when I ask then \"seat 63 kw\" i need to get seat car\n> >\n> > the same if I will write only \"seat\" or only \"63kw\" or only \"xx\"\n> >\n> > but if I will write \"seat 88kw\" i expect that i will get no result\n> >\n> > I need to return parents in which tree are all the words which I wrote to\n> > query.\n> >\n> > How I wrote before my solution was to split the query text and use q:*:*\n> > and for each /word/ in query make\n> >\n> > fq={!parent which=type:car}/word//\n> > /\n> >\n> > //and edismax with qf=color, first_country, power, name, country\n> >\n> > Thank you for your time:)\n> >\n> > Jan\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3132,
+      "end": 3187,
+      "text": "> > Dne 16.03.2017 v 20:00 Mikhail Khludnev napsal(a):\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 3191,
+      "end": 3206,
+      "text": "> >\n> > Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3187,
+      "end": 3584,
+      "text": "> >\n> >\n> > Hello,\n> >>\n> >> It's hard to get into the problem. but you probably want to have dismax\n> on\n> >> child level:\n> >> q={!parent ...}{!edismax qf='childF1 childF2' v=$chq}&chq=foo bar\n> >> It's usually broken because child query might match parents which is not\n> >> allowed. Thus, it's probably can solved by adding +type:child into chq.\n> >> IIRC edismax supports lucene syntax.\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3584,
+      "end": 3665,
+      "text": "> >> On Thu, Mar 16, 2017 at 4:47 PM, Jan Nekuda <jan.nekuda@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3665,
+      "end": 3679,
+      "text": "> >>\n> >> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 5839,
+      "end": 5882,
+      "text": "> >>>\n> >>> Thanks for your help\n> >>> Jan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 6038,
+      "end": 6080,
+      "text": "> --\n> Sincerely yours\n> Mikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3665,
+      "end": 6083,
+      "text": "> >>\n> >> Hi,\n> >>> I have a question for which I wasn't able to find a good solution.\n> >>> I have this structure of documents\n> >>>\n> >>> A\n> >>> |\\\n> >>> | \\\n> >>> B \\\n> >>>       \\\n> >>>        C\n> >>>         \\\n> >>>          \\\n> >>>           \\\n> >>>            D\n> >>>\n> >>> Document type A has fields id_number, date_from, date_to\n> >>> Document type C  has fields first_name, surname, birthdate\n> >>> Document type D AND B has fields street_name, house_number, city\n> >>>\n> >>>\n> >>> I want to find *all parents with block join and edismax*.\n> >>> The problem is that I have found that possible is find children by\n> >>> parent,\n> >>> or parent by children.\n> >>> *I want to find parent by values in parent and in children*. I want to\n> >>> use\n> >>> edismax with all fields from all documents (id_number, date_from,\n> >>> date_to,\n> >>> has fields first_name, surname, birthdate,street_name, house_number,\n> >>> city).\n> >>> I want to write *Hynek* AND *Brojova* AND 14 and I expect that it\n> returns\n> >>> document A because it found Hynek in surname, Brojova in street and 14\n> in\n> >>> house number.\n> >>> This is easy with {!parent which=type:A}\n> >>> the problem is, that I'm not able to find by condition 789 AND\n> *Brojova*\n> >>> where 789 is id_number from type A and Brojova is Street from D.\n> >>>\n> >>> In short I need to find all parents of tree (parent and childern) in\n> >>> which\n> >>> are matched all the word which i send to condition\n> >>>\n> >>>\n> >>> My only solution is to make root type X. Then A will be its child.\n> Then I\n> >>> can use {!parent which=type:X}.\n> >>> Than this will work:\n> >>>\n> >>> http://localhost:8983/solr/demo/select?q=*:*&fq={!parent\n> >>> which=type:X}brojova*&fq={!parent which=type:X}16&wt=json&\n> >>> indent=true&defType=edismax&qf=id_number date_from date_to has fields\n> >>> first_name surname birthdate street_name house_number\n> >>> city&stopwords=true&\n> >>> lowercaseOperators=true\n> >>>\n> >>>\n> >>> But I believe it can be solved much better.\n> >>>\n> >>> X\n> >>> |\n> >>> A\n> >>> |\\\n> >>> | \\\n> >>> B \\\n> >>>       \\\n> >>>        C\n> >>>         \\\n> >>>          \\\n> >>>           \\\n> >>>            D\n> >>>\n> >>>\n> >>> Thanks for your help\n> >>> Jan\n> >>>\n> >>>\n> >>\n> >>\n> >\n> >\n> > ---\n> > Tato zpr\u00c3\u00a1va byla zkontrolov\u00c3\u00a1na na viry programem Avast Antivirus.\n> > https://www.avast.com/antivirus\n> >\n>\n>\n>\n> --\n> Sincerely yours\n> Mikhail Khludnev\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1810"
+}

@@ -1,0 +1,468 @@
+{
+  "wrapper": "plaintext",
+  "text": "Christi,\n As I have been thinking about this problem, my opposition to a standard \nmodel is declining, partly out of frustration with the slow progress being \nmade.  I think, however, that we ought to think about the potential \nconsequences of recommending a standard model.  If we simply endorse PJM, \nthen we may inadvertently get its warts as well -- no secondary transmission \nmarket, ICAP market, etc.  I think we are considering the same thing approach \nas was reported by Charles Yeung's in his note on Tuesday's Inter-RTO \nCoordination (Seams) Conference:\n\n\"Harvey Reed, Constellation Power, suggested that FERC impose a standard \ntariff for all RTOs to work from that did not restrict RTOs from filing \ndifferent proposals, but would limit their ability to diverge from a single \nmarket model.\"\n\n In addition to the standard model, there needs to be a deadline for either \nfiling the tariff or for filing the standard tariff.  Without a \"feet to the \nfire\" feature, nothing the grand stall will continue.  In arguing for a \nstandard model, the PJM system could be the core of a proposal but we should \nspecific modifications to address our concerns.  On the transmission rights \nissue, for instance, a simple \"don't allocate\" solution won't work.  The lack \nof the secondary market for NY TCCs or PJM FTRs goes both to the lack of \ninformation and to the way the rights are defined.  If as Harvey Reed \nsuggests, RTOs can submit alternative approaches, at least there will be \npressure to get moving.  I have not discussed this idea with West Power.  \n\n It then occurred to me that FERC  is unlikely to impose a standard tariff \nwithout a rulemaking proceeding.  Whether they could act by fiat or not is a \nmoot point, since  I doubt that they would do so without creating a record.  \nThere are two possible down sides to a rule making.  (1)  The outcome of a \nrulemaking is something of a crap shoot.  The incumbents have a pretty good \nrecord in the past, of coming out of rulemakings with plenty of goodies such \nas the native load exemption in Order No. 888.  There is a also a distinct \nrisk that PJM's ICAP or transmission right allocation process is given \nblessed status, which will make revision of them later to be a huge uphill \nbattle.  (2)  The other consequence of a rulemaking its effect on current  \nRTO discussions.  The best outcome is that the uncertainty of the rulemaking \ncreates an urgency  to get a proposal filed before a new FERC rule cuts off \noptions from a new the standard for review.  The uncertainty prior to the \nissuance of Order No. 888 in fact had that effect in the West.  On the other \nhand it can mean that nothing happens until the new rule is issued.  This \nalso happened prior to Order No. 888, with a number of companies sitting on \ntheir hands, using the time delay to protect existing positions, while \nwhipping up State regulators' fears of jurisdictional shift as necessary to \nboost their own position.\n\n These are only own views.  I have not had a chance to speak with West Power \nthis week, but I will approach Tim when I am in Portland again next week.\n\nSteve\n\n\n\n\n\tChristi L Nicolay\n\t06/19/2001 04:21 PM\n\t\t\n\t\t To: Steve Walton/HOU/ECT@ECT\n\t\t cc: James D Steffes/NA/Enron@ENRON, Richard Shapiro/NA/Enron@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron\n\t\t Subject: Re: INTERIM MODEL TALKING POINTS\n\nCan we focus the PJM language as an interim fix toward the East (while maybe \nthe threat of PJM in the West will make the West RTOs act quickly and adopt \neverything that Steve W. has been advocating).  Also, I agree with the ISO \nbeing required to provide much greater information on where the congestion \noccurs.  While the allocation of FTRs is a problem and the idiosyncratic \nnature is also a problem, it is because the traders do not have access to all \nthe information.  They have told me that if they had access to all the \ninformation about congestion from the past several years, they could \nessentially build a model for anticipated congestion that could trade \"above\" \nthe underlying FTRs as financial instruments.\n\n\n\nSteve Walton\n06/18/2001 03:30 PM\nTo: James D Steffes/NA/Enron@ENRON\ncc: Christi L Nicolay/HOU/ECT@ECT, Richard Shapiro/NA/Enron@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron \n\nSubject: Re: INTERIM MODEL TALKING POINTS  \n\nJim,\n\n I have added my comments to your draft.  My concern with the \"Adopt PJM\" \napproach is that it will become a fiat accompli with regard to congestion \nmanagement. and the nature of future transmission rights.  Once adopted as \nthe standard, nothing else will be accepted and any move to a decentralized \napproach is highly unlikely.  Unlike the British, we have a hard time \nchanging horses because of our multi-jurisdictional Federal system of \ngovernment.\n\n The PJM's lack of a secondary FTR market is more that just an allocation \nproblem.  If that were true, they New York would have a secondary market -- \nnone exists there either.  The unpredictability of prices is probably the \nbiggest problem since no one knows how to value FTRs or TCCs.  I think the \nnature of instrument is also not particularly helpful.\n\n During our discussion of Seabron Adamson's last draft, I maintained that a \ncentralized unit commitment process didn't fit the Pacific Northwest (PNW) \nwith its pattern of trading to achieve coordination between hydroelectric and \nthermoelectric generation.  You asked me to provide more detail hydro-thermal \noperation.  I am including a paper that covers the nature of PNW operations \nand contracting with observations about the nature of unit commitment.  Given \nother work and travel, it has taken some time to complete the paper and its \nexamples.  I hope this will help to explain why I am hesitant to endorse a \ncentralize unit commitment implementation.\n\nSteve\n\n\n\n\n\n\tJames D Steffes@ENRON\n\t06/18/2001 01:48 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Christi L \nNicolay/HOU/ECT@ECT, Sarah Novosel/Corp/Enron@ENRON, Steve Walton/HOU/ECT\n\t\t cc: \n\t\t Subject: INTERIM MODEL TALKING POINTS\n\nHere is the draft of an Interim step for Enron to give to Lay.  Please give \nme your comments.  This is CONFIDENTIAL and should not be shared outside the \ncompany.\n\nJim\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Christi",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 3114,
+      "end": 3119,
+      "text": "Steve",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 3124,
+      "text": "Christi,\n As I have been thinking about this problem, my opposition to a standard \nmodel is declining, partly out of frustration with the slow progress being \nmade.  I think, however, that we ought to think about the potential \nconsequences of recommending a standard model.  If we simply endorse PJM, \nthen we may inadvertently get its warts as well -- no secondary transmission \nmarket, ICAP market, etc.  I think we are considering the same thing approach \nas was reported by Charles Yeung's in his note on Tuesday's Inter-RTO \nCoordination (Seams) Conference:\n\n\"Harvey Reed, Constellation Power, suggested that FERC impose a standard \ntariff for all RTOs to work from that did not restrict RTOs from filing \ndifferent proposals, but would limit their ability to diverge from a single \nmarket model.\"\n\n In addition to the standard model, there needs to be a deadline for either \nfiling the tariff or for filing the standard tariff.  Without a \"feet to the \nfire\" feature, nothing the grand stall will continue.  In arguing for a \nstandard model, the PJM system could be the core of a proposal but we should \nspecific modifications to address our concerns.  On the transmission rights \nissue, for instance, a simple \"don't allocate\" solution won't work.  The lack \nof the secondary market for NY TCCs or PJM FTRs goes both to the lack of \ninformation and to the way the rights are defined.  If as Harvey Reed \nsuggests, RTOs can submit alternative approaches, at least there will be \npressure to get moving.  I have not discussed this idea with West Power.  \n\n It then occurred to me that FERC  is unlikely to impose a standard tariff \nwithout a rulemaking proceeding.  Whether they could act by fiat or not is a \nmoot point, since  I doubt that they would do so without creating a record.  \nThere are two possible down sides to a rule making.  (1)  The outcome of a \nrulemaking is something of a crap shoot.  The incumbents have a pretty good \nrecord in the past, of coming out of rulemakings with plenty of goodies such \nas the native load exemption in Order No. 888.  There is a also a distinct \nrisk that PJM's ICAP or transmission right allocation process is given \nblessed status, which will make revision of them later to be a huge uphill \nbattle.  (2)  The other consequence of a rulemaking its effect on current  \nRTO discussions.  The best outcome is that the uncertainty of the rulemaking \ncreates an urgency  to get a proposal filed before a new FERC rule cuts off \noptions from a new the standard for review.  The uncertainty prior to the \nissuance of Order No. 888 in fact had that effect in the West.  On the other \nhand it can mean that nothing happens until the new rule is issued.  This \nalso happened prior to Order No. 888, with a number of companies sitting on \ntheir hands, using the time delay to protect existing positions, while \nwhipping up State regulators' fears of jurisdictional shift as necessary to \nboost their own position.\n\n These are only own views.  I have not had a chance to speak with West Power \nthis week, but I will approach Tim when I am in Portland again next week.\n\nSteve\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 3125,
+      "end": 3142,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 3144,
+      "end": 3154,
+      "text": "06/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 3155,
+      "end": 3163,
+      "text": "04:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 3174,
+      "end": 3186,
+      "text": "Steve Walton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 3206,
+      "end": 3221,
+      "text": "James D Steffes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3238,
+      "end": 3253,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 3270,
+      "end": 3284,
+      "text": "Sarah \nNovosel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3303,
+      "end": 3316,
+      "text": "Steven J Kean",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 3344,
+      "end": 3376,
+      "text": "Re: INTERIM MODEL TALKING POINTS",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3125,
+      "end": 3377,
+      "text": "Christi L Nicolay\n\t06/19/2001 04:21 PM\n\t\t\n\t\t To: Steve Walton/HOU/ECT@ECT\n\t\t cc: James D Steffes/NA/Enron@ENRON, Richard Shapiro/NA/Enron@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron\n\t\t Subject: Re: INTERIM MODEL TALKING POINTS\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3377,
+      "end": 4108,
+      "text": "\nCan we focus the PJM language as an interim fix toward the East (while maybe \nthe threat of PJM in the West will make the West RTOs act quickly and adopt \neverything that Steve W. has been advocating).  Also, I agree with the ISO \nbeing required to provide much greater information on where the congestion \noccurs.  While the allocation of FTRs is a problem and the idiosyncratic \nnature is also a problem, it is because the traders do not have access to all \nthe information.  They have told me that if they had access to all the \ninformation about congestion from the past several years, they could \nessentially build a model for anticipated congestion that could trade \"above\" \nthe underlying FTRs as financial instruments.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 4108,
+      "end": 4120,
+      "text": "Steve Walton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 4121,
+      "end": 4131,
+      "text": "06/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 4132,
+      "end": 4140,
+      "text": "03:30 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 4145,
+      "end": 4160,
+      "text": "James D Steffes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 4180,
+      "end": 4197,
+      "text": "Christi L Nicolay",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 4211,
+      "end": 4226,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 4243,
+      "end": 4257,
+      "text": "Sarah \nNovosel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 4276,
+      "end": 4289,
+      "text": "Steven J Kean",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 4316,
+      "end": 4348,
+      "text": "Re: INTERIM MODEL TALKING POINTS",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 4108,
+      "end": 4351,
+      "text": "Steve Walton\n06/18/2001 03:30 PM\nTo: James D Steffes/NA/Enron@ENRON\ncc: Christi L Nicolay/HOU/ECT@ECT, Richard Shapiro/NA/Enron@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron \n\nSubject: Re: INTERIM MODEL TALKING POINTS  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 4352,
+      "end": 4355,
+      "text": "Jim",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 5839,
+      "end": 5844,
+      "text": "Steve",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 4351,
+      "end": 5850,
+      "text": "\nJim,\n\n I have added my comments to your draft.  My concern with the \"Adopt PJM\" \napproach is that it will become a fiat accompli with regard to congestion \nmanagement. and the nature of future transmission rights.  Once adopted as \nthe standard, nothing else will be accepted and any move to a decentralized \napproach is highly unlikely.  Unlike the British, we have a hard time \nchanging horses because of our multi-jurisdictional Federal system of \ngovernment.\n\n The PJM's lack of a secondary FTR market is more that just an allocation \nproblem.  If that were true, they New York would have a secondary market -- \nnone exists there either.  The unpredictability of prices is probably the \nbiggest problem since no one knows how to value FTRs or TCCs.  I think the \nnature of instrument is also not particularly helpful.\n\n During our discussion of Seabron Adamson's last draft, I maintained that a \ncentralized unit commitment process didn't fit the Pacific Northwest (PNW) \nwith its pattern of trading to achieve coordination between hydroelectric and \nthermoelectric generation.  You asked me to provide more detail hydro-thermal \noperation.  I am including a paper that covers the nature of PNW operations \nand contracting with observations about the nature of unit commitment.  Given \nother work and travel, it has taken some time to complete the paper and its \nexamples.  I hope this will help to explain why I am hesitant to endorse a \ncentralize unit commitment implementation.\n\nSteve\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 5851,
+      "end": 5866,
+      "text": "James D Steffes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 5874,
+      "end": 5884,
+      "text": "06/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 5885,
+      "end": 5893,
+      "text": "01:48 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 5905,
+      "end": 5918,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 5935,
+      "end": 5950,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 5967,
+      "end": 5985,
+      "text": "Christi L \nNicolay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 5999,
+      "end": 6012,
+      "text": "Sarah Novosel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 6031,
+      "end": 6043,
+      "text": "Steve Walton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 6072,
+      "end": 6100,
+      "text": "INTERIM MODEL TALKING POINTS",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 5851,
+      "end": 6101,
+      "text": "James D Steffes@ENRON\n\t06/18/2001 01:48 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Christi L \nNicolay/HOU/ECT@ECT, Sarah Novosel/Corp/Enron@ENRON, Steve Walton/HOU/ECT\n\t\t cc: \n\t\t Subject: INTERIM MODEL TALKING POINTS\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 6267,
+      "end": 6270,
+      "text": "Jim",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 6101,
+      "end": 6278,
+      "text": "\nHere is the draft of an Interim step for Enron to give to Lay.  Please give \nme your comments.  This is CONFIDENTIAL and should not be shared outside the \ncompany.\n\nJim\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 20,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 10,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 22,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 15,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 38,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 28,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 25,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 19,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 32,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 21,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 35,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 31,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 33,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7515895.1075850039728.JavaMail.evans@thyme>",
+      "Date": "Thu, 21 Jun 2001 09:39:00 -0700 (PDT)",
+      "From": "steve.walton@enron.com",
+      "To": "christi.nicolay@enron.com",
+      "Subject": "Re: INTERIM MODEL TALKING POINTS",
+      "Cc": "james.steffes@enron.com, richard.shapiro@enron.com, sarah.novosel@enron.com, \n\tsteven.kean@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "james.steffes@enron.com, richard.shapiro@enron.com, sarah.novosel@enron.com, \n\tsteven.kean@enron.com",
+      "X-From": "Steve Walton",
+      "X-To": "Christi L Nicolay",
+      "X-cc": "James D Steffes, Richard Shapiro, Sarah Novosel, Steven J Kean",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Nov2001_2\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_8921.txt"
+}

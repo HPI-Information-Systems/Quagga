@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Res for Denver - pls review! Note:  it's *booked* but not yet *ticketed* -- \nwe should do this upon your return!\n---------------------- Forwarded by Joseph Alamo/NA/Enron on 05/24/2001 04:22 \nPM ---------------------------\n\n\nCynthia Biggs <cynthia.biggs@travelpark.com> on 05/24/2001 04:21:13 PM\nTo: \"'joseph.alamo@enron.com'\" <joseph.alamo@enron.com>\ncc:  \n\nSubject: itinerary for jeff dasovich 13jun travel\n\n                                          AGENT CB/CB BOOKING REF YE3V8U\n \n                                          DASOVICH/JEFF\n                                          ENRON CORP\n                                          101 CALIFORNIA ST STE 1950\n  ENRON CORP                              SAN FRANCISCO CA 94111\n                                          MAIL ETKT RCPT\n \n \n \n \n  DATE:  MAY 24 2001\n \nSERVICE               DATE  FROM           TO             DEPART  ARRIVE\n \nUNITED AIRLINES       13JUN SAN F CA       DENVER CO      225P    551P\nUA 1958    B          WED   SAN FRANCISCO  DENVER INTL\n           NON SMOKING      TERMINAL N\n                                                          NON STOP\n                            RESERVATION CONFIRMED         2:26 DURATION\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 29G NO SMOKING CONFIRMED DASOVICH/JEFF(I\n \nUNITED AIRLINES       15JUN DENVER CO      SAN F CA       235P    404P\nUA 533     B          FRI   DENVER INTL    SAN FRANCISCO\n           NON SMOKING                     TERMINAL N\n                                                          NON STOP\n                            RESERVATION CONFIRMED         2:29 DURATION\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 32G NO SMOKING CONFIRMED DASOVICH/JEFF(I\n \nMISCELLANEOUS         13OCT HOUSTON TX\n                      SAT   ** THANK YOU FOR USING THE TAP **\n \nRESERVATION NUMBER(S)  UA/MS70PQ\n \nDASOVICH/JEFF  S0C0011R1000\n \n*******************************************\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRON ASSISTANCE INFO\nCALL SOS MEDICAL EMERGENCY:IN U.S 800 523-6586\nCALL SOS MEDICAL EMERGENCY:INTL 215 245-4707 (COLLECT)\n*********************************************\nTHIS IS THE PASSENGER RECEIPT FOR YOUR ELECTRONIC TICKET.\nLEASE CHECK-IN WITH PHOTO IDENTIFICATION AND WITH\nEITHER (1) THIS RECEIPT OR (2) YOUR CONFIRMATION NUMBER.\nYOUR ETKT CONFIRMATION NUMBER IS: MS70PQ\nALL FARES ARE SUBJECT TO CHANGE UNTIL TICKETED/PURCHASED\n\n\n",
+  "denotations": [
+    {
+      "id": 3,
+      "start": 409,
+      "end": 2445,
+      "text": "\n                                          AGENT CB/CB BOOKING REF YE3V8U\n \n                                          DASOVICH/JEFF\n                                          ENRON CORP\n                                          101 CALIFORNIA ST STE 1950\n  ENRON CORP                              SAN FRANCISCO CA 94111\n                                          MAIL ETKT RCPT\n \n \n \n \n  DATE:  MAY 24 2001\n \nSERVICE               DATE  FROM           TO             DEPART  ARRIVE\n \nUNITED AIRLINES       13JUN SAN F CA       DENVER CO      225P    551P\nUA 1958    B          WED   SAN FRANCISCO  DENVER INTL\n           NON SMOKING      TERMINAL N\n                                                          NON STOP\n                            RESERVATION CONFIRMED         2:26 DURATION\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 29G NO SMOKING CONFIRMED DASOVICH/JEFF(I\n \nUNITED AIRLINES       15JUN DENVER CO      SAN F CA       235P    404P\nUA 533     B          FRI   DENVER INTL    SAN FRANCISCO\n           NON SMOKING                     TERMINAL N\n                                                          NON STOP\n                            RESERVATION CONFIRMED         2:29 DURATION\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 32G NO SMOKING CONFIRMED DASOVICH/JEFF(I\n \nMISCELLANEOUS         13OCT HOUSTON TX\n                      SAT   ** THANK YOU FOR USING THE TAP **\n \nRESERVATION NUMBER(S)  UA/MS70PQ\n \nDASOVICH/JEFF  S0C0011R1000\n \n*******************************************\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRON ASSISTANCE INFO\nCALL SOS MEDICAL EMERGENCY:IN U.S 800 523-6586\nCALL SOS MEDICAL EMERGENCY:INTL 215 245-4707 (COLLECT)\n*********************************************\nTHIS IS THE PASSENGER RECEIPT FOR YOUR ELECTRONIC TICKET.\nLEASE CHECK-IN WITH PHOTO IDENTIFICATION AND WITH\nEITHER (1) THIS RECEIPT OR (2) YOUR CONFIRMATION NUMBER.\nYOUR ETKT CONFIRMATION NUMBER IS: MS70PQ\nALL FARES ARE SUBJECT TO CHANGE UNTIL TICKETED/PURCHASED\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "Res for Denver - pls review! Note:  it's *booked* but not yet *ticketed* -- \nwe should do this upon your return!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 223,
+      "text": "---------------------- Forwarded by Joseph Alamo/NA/Enron on 05/24/2001 04:22 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 223,
+      "end": 409,
+      "text": "\n\nCynthia Biggs <cynthia.biggs@travelpark.com> on 05/24/2001 04:21:13 PM\nTo: \"'joseph.alamo@enron.com'\" <joseph.alamo@enron.com>\ncc:  \n\nSubject: itinerary for jeff dasovich 13jun travel\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12665857.1075843615608.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 09:24:00 -0700 (PDT)",
+      "From": "joseph.alamo@enron.com",
+      "To": "jeff.dasovich@enron.com",
+      "Subject": "itinerary for jeff dasovich 13jun travel",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Joseph Alamo",
+      "X-To": "Jeff Dasovich",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_2928.txt"
+}

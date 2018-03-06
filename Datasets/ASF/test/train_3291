@@ -1,0 +1,41 @@
+Some more info:
+It seems this is caused due to complex data structure.
+Consider the following simple example:
+
+case class A(v: Int)
+case class B(v: A)
+val filename = "test"
+val a = A(1)
+val b = B(a)
+val df1: DataFrame = Seq[B](b).toDF
+df1.write.parquet(filename)
+val df2 = spark.read.parquet(filename)
+df2.show()
+
+Any ideas?
+
+Thanks,
+              Assaf.
+
+From: Mendelson, Assaf [mailto:Assaf.Mendelson@rsa.com]
+Sent: Thursday, May 25, 2017 9:55 AM
+To: user@spark.apache.org
+Subject: strange warning
+
+Hi all,
+
+Today, I got the following warning:
+[WARN] org.apache.parquet.hadoop.ParquetRecordReader: Can not initialize counter due to context
+is not a instance of TaskInputOutputContext, but is org.apache.hadoop.mapreduce.task.TaskAttemptContextImpl
+
+This occurs on one of my tests but not on others (all use parquet). I found this https://issues.apache.org/jira/browse/PARQUET-220
+but I am using spark 2.1.0 which uses parquet 1.8 if I am not mistaken. I also found this:
+https://issues.apache.org/jira/browse/SPARK-8118 but again, it is very old. Also it only happens
+on one case where I save my parquet files and not others.
+
+Does anyone know what it means and how to get rid of it?
+
+Thanks,
+              Assaf.
+
+

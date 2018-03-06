@@ -1,0 +1,176 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 03/27/2000 \n04:35 PM ---------------------------\n\n\nMPakulski@bjservices.com on 03/27/2000 12:30:25 PM\nTo: vkamins@ect.enron.com\ncc:  (bcc: Vince J Kaminski/HOU/ECT)\nSubject: INVESTMENTS\n\n\n\nHi Vicek,\n\nFuel Cells\nA scientist at The University of Pennsylvania discovered a material for\nfuel cells electrodes which has a potential for common applications.\nEverything known before would plug-up a cell.\n\nBiochemistry\nWhat do you thing about Martek Biosciences (MATK).  It is the only company\nin the world producing polyunsaturated fatty acids (nutritional oils).\nAccording to very recent research results their product added to baby\nformula substantially increases IQ of babies.  They are quite small now ;\nhowever, already have licenses in several countries.  Martek is still\nwaiting for FDA approval in US.  Competitive product, fish oil is\ncontaminated with other undesired compounds.\n\nAre you going to Poland anytime soon?\n\nMarek\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "03/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "04:35 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 03/27/2000 \n04:35 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 139,
+      "text": "MPakulski@bjservices.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 143,
+      "end": 153,
+      "text": "03/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 154,
+      "end": 165,
+      "text": "12:30:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 170,
+      "end": 191,
+      "text": "vkamins@ect.enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 203,
+      "end": 219,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/Bcc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 237,
+      "end": 249,
+      "text": " INVESTMENTS",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 113,
+      "end": 250,
+      "text": "\n\nMPakulski@bjservices.com on 03/27/2000 12:30:25 PM\nTo: vkamins@ect.enron.com\ncc:  (bcc: Vince J Kaminski/HOU/ECT)\nSubject: INVESTMENTS\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 987,
+      "end": 992,
+      "text": "Marek",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 256,
+      "end": 261,
+      "text": "Vicek",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 253,
+      "end": 263,
+      "text": "Hi Vicek,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 250,
+      "end": 994,
+      "text": "\n\n\nHi Vicek,\n\nFuel Cells\nA scientist at The University of Pennsylvania discovered a material for\nfuel cells electrodes which has a potential for common applications.\nEverything known before would plug-up a cell.\n\nBiochemistry\nWhat do you thing about Martek Biosciences (MATK).  It is the only company\nin the world producing polyunsaturated fatty acids (nutritional oils).\nAccording to very recent research results their product added to baby\nformula substantially increases IQ of babies.  They are quite small now ;\nhowever, already have licenses in several countries.  Martek is still\nwaiting for FDA approval in US.  Competitive product, fish oil is\ncontaminated with other undesired compounds.\n\nAre you going to Poland anytime soon?\n\nMarek\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28956837.1075856938055.JavaMail.evans@thyme>",
+      "Date": "Mon, 27 Mar 2000 08:34:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "INVESTMENTS",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_8\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_4306.txt"
+}

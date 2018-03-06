@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nPlease help me understand: http://localhost:8983/solr/wemi/select?facet.field=m_mediaType_s&facet=on&indent=on&q=*:*&wt=json\nreturns:\n\n\"facet_counts\":{\n    \"facet_queries\":{},\n    \"facet_fields\":{\n      \"m_mediaType_s\":[\n        \"2\",25561,\n        \"3\",19027,\n        \"10\",1966,\n        \"11\",1705,\n        \"12\",1067,\n        \"4\",1056,\n        \"5\",291,\n        \"8\",68,\n        \"13\",2,\n        \"6\",2,\n        \"7\",1,\n        \"9\",1,\n        \"1\",0]},\n    \"facet_ranges\":{},\n    \"facet_intervals\":{},\n    \"facet_heatmaps\":{}}}\n\nhttp://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%222%22&indent=on&q=*:*&rows=0&start=0&wt=json\n\n\n?  \"response\":{\"numFound\":25561,\"start\":0,\"docs\":[]\n\nhttp://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%220%22&indent=on&q=*:*&rows=0&start=0&wt=json\n\n\n?  \"response\":{\"numFound\":0,\"start\":0,\"docs\":[]\n\nSo why does the search for facet.field even contain the value \"1\", if it does not exist?\n\nAnd why does it e.g. not contain \"SomeReallyCrazyOtherValueWhichLikeValue\"1\"DoesNotExistButLetsIncludeItInTheFacetFieldsResultListAnywaysWithCountZero\"\n: 0\n\nBest regards,\nSebastian\n\nAdditional info, field m_mediaType_s is a string;\n<dynamicField name=\"*_s\"     type=\"string\"                   indexed=\"true\"  stored=\"true\"\n/>\n<fieldType name=\"string\" class=\"solr.StrField\" sortMissingLast=\"true\" />\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1084,
+      "end": 1109,
+      "text": "\nBest regards,\nSebastian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1329,
+      "text": "Hi,\n\nPlease help me understand: http://localhost:8983/solr/wemi/select?facet.field=m_mediaType_s&facet=on&indent=on&q=*:*&wt=json\nreturns:\n\n\"facet_counts\":{\n    \"facet_queries\":{},\n    \"facet_fields\":{\n      \"m_mediaType_s\":[\n        \"2\",25561,\n        \"3\",19027,\n        \"10\",1966,\n        \"11\",1705,\n        \"12\",1067,\n        \"4\",1056,\n        \"5\",291,\n        \"8\",68,\n        \"13\",2,\n        \"6\",2,\n        \"7\",1,\n        \"9\",1,\n        \"1\",0]},\n    \"facet_ranges\":{},\n    \"facet_intervals\":{},\n    \"facet_heatmaps\":{}}}\n\nhttp://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%222%22&indent=on&q=*:*&rows=0&start=0&wt=json\n\n\n?  \"response\":{\"numFound\":25561,\"start\":0,\"docs\":[]\n\nhttp://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%220%22&indent=on&q=*:*&rows=0&start=0&wt=json\n\n\n?  \"response\":{\"numFound\":0,\"start\":0,\"docs\":[]\n\nSo why does the search for facet.field even contain the value \"1\", if it does not exist?\n\nAnd why does it e.g. not contain \"SomeReallyCrazyOtherValueWhichLikeValue\"1\"DoesNotExistButLetsIncludeItInTheFacetFieldsResultListAnywaysWithCountZero\"\n: 0\n\nBest regards,\nSebastian\n\nAdditional info, field m_mediaType_s is a string;\n<dynamicField name=\"*_s\"     type=\"string\"                   indexed=\"true\"  stored=\"true\"\n/>\n<fieldType name=\"string\" class=\"solr.StrField\" sortMissingLast=\"true\" />\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_262"
+}

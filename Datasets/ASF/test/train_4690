@@ -1,0 +1,86 @@
+Depends on your Spark version, have you considered the Dataset api?
+
+You can do something like:
+
+val df1 = rdd1.toDF("userid")
+
+val listRDD = sc.parallelize(listForRule77)
+
+val listDF = listRDD.toDF("data")
+
+df1.crossJoin(listDF).orderBy("userid").show(60, truncate=false)
+
++------+----------------------+
+
+|userid|data                  |
+
++------+----------------------+
+
+|1     |1,1,100.00|1483891200,|
+
+|1     |1,1,100.00|1483804800,|
+
+...
+
+|1     |1,1,100.00|1488902400,|
+
+|1     |1,1,100.00|1489075200,|
+
+|1     |1,1,100.00|1488470400,|
+
+...
+
+On Wed, Aug 9, 2017 at 10:44 AM, Ryan <ryan.hd.ren@gmail.com> wrote:
+
+> It's just sort of inner join operation... If the second dataset isn't very
+> large it's ok(btw, you can use flatMap directly instead of map followed by
+> flatmap/flattern), otherwise you can register the second one as a
+> rdd/dataset, and join them on user id.
+>
+> On Wed, Aug 9, 2017 at 4:29 PM, <luohui20001@sina.com> wrote:
+>
+>> hello guys:
+>>       I have a simple rdd like :
+>> val userIDs = 1 to 10000
+>> val rdd1 = sc.parallelize(userIDs , 16)   //this rdd has 10000 user id
+>>       And I have a List[String] like below:
+>> scala> listForRule77
+>> res76: List[String] = List(1,1,100.00|1483286400, 1,1,100.00|1483372800,
+>> 1,1,100.00|1483459200, 1,1,100.00|1483545600, 1,1,100.00|1483632000,
+>> 1,1,100.00|1483718400, 1,1,100.00|1483804800, 1,1,100.00|1483891200,
+>> 1,1,100.00|1483977600, 3,1,200.00|1485878400, 1,1,100.00|1485964800,
+>> 1,1,100.00|1486051200, 1,1,100.00|1488384000, 1,1,100.00|1488470400,
+>> 1,1,100.00|1488556800, 1,1,100.00|1488643200, 1,1,100.00|1488729600,
+>> 1,1,100.00|1488816000, 1,1,100.00|1488902400, 1,1,100.00|1488988800,
+>> 1,1,100.00|1489075200, 1,1,100.00|1489161600, 1,1,100.00|1489248000,
+>> 1,1,100.00|1489334400, 1,1,100.00|1489420800, 1,1,100.00|1489507200,
+>> 1,1,100.00|1489593600, 1,1,100.00|1489680000, 1,1,100.00|1489766400)
+>>
+>> scala> listForRule77.length
+>> res77: Int = 29
+>>
+>>       I need to create a rdd containing  290000 records. for every userid
+>> in rdd1 , I need to create 29 records according to listForRule77, each
+>> record start with the userid, for example 1(the
+>> userid),1,1,100.00|1483286400.
+>>       My idea is like below:
+>> 1.write a udf
+>> to add the userid to the beginning of every string element
+>> of listForRule77.
+>> 2.use
+>> val rdd2 = rdd1.map{x=> List_udf(x))}.flatmap()
+>> , the result rdd2 maybe what I need.
+>>
+>>       My question: Are there any problems in my idea? Is there a better
+>> way to do this ?
+>>
+>>
+>>
+>> --------------------------------
+>>
+>> Thanks&amp;Best regards!
+>> San.Luo
+>>
+>
+>
+

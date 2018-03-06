@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Mitch,\n\nHere's a darft of the revised letter.  Please let me know what you think.\n\n\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 8,
+      "text": "Mitch",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Mitch,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 88,
+      "end": 91,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 91,
+      "text": "Hi Mitch,\n\nHere's a darft of the revised letter.  Please let me know what you think.\n\n\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25787806.1075846133874.JavaMail.evans@thyme>",
+      "Date": "Wed, 6 Dec 2000 12:13:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "mitch.robinson@enron.com",
+      "Subject": "Westinghouse letter",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Mitch Robinson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_4\\Notes Folders\\Westinghouse",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_westinghouse_19.txt"
+}

@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Alessandro!\n\nOn Mon, Sep 11, 2017 at 11:31 AM, Alessandro Hoss <alehoss@gmail.com> wrote:\n\n> Solr 6.6.1 was already released on September 7:\n>\n> http://www.apache.org/dyn/closer.lua/lucene/solr/6.6.1\n> Release notes: https://lucene.apache.org/solr/6_6_1/changes/Changes.html\n>\n> Guess you should give it a try.\n>\n> On Mon, Sep 11, 2017 at 1:15 PM Gunalan V <visagan2007@gmail.com> wrote:\n>\n> > Thank You!\n> >\n> > I believe 6.6 should have fixed all the previous version issues. But in\n> 6.6\n> > is there any major issues noticed?  if so I will go with 6.5.1 else will\n> > proceed with 6.6.\n> >\n> > Kindly confirm!\n> >\n> >\n> >\n> > GVK\n> >\n> > On Mon, Sep 11, 2017 at 10:59 AM, Walter Underwood <\n> wunder@wunderwood.org>\n> > wrote:\n> >\n> > > We have been running 6.5.1 in production since May. I would not run\n> > > anything before that.\n> > >\n> > > The new metrics code caused performance problems. That was fixed in\n> > 6.5.0.\n> > >\n> > > There was a memory leak talking to Zookeeper. That was fixed in 6.5.1.\n> > >\n> > > Solr 6.6.1 should be released very soon.\n> > >\n> > > wunder\n> > > Walter Underwood\n> > > wunder@wunderwood.org\n> > > http://observer.wunderwood.org/  (my blog)\n> > >\n> > >\n> > > > On Sep 11, 2017, at 8:36 AM, Gunalan V <visagan2007@gmail.com>\n> wrote:\n> > > >\n> > > > Hello,\n> > > >\n> > > > In our project we are planning to use SOLR and I'm new to it. So,\n> what\n> > is\n> > > > the latest stable version we can use and that is supported by Apache?\n> > > >\n> > > > Kindly let me know your suggestions because we started with\n> installing\n> > > SOLR\n> > > > 6.2 but heard that there are many issues and need to be upgraded to\n> 6.3\n> > > or\n> > > > so.\n> > > >\n> > > >\n> > > > Thanks,\n> > > > GVK\n> > >\n> > >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 20,
+      "text": "Thanks Alessandro!\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 20,
+      "end": 97,
+      "text": "On Mon, Sep 11, 2017 at 11:31 AM, Alessandro Hoss <alehoss@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 97,
+      "end": 320,
+      "text": "\n> Solr 6.6.1 was already released on September 7:\n>\n> http://www.apache.org/dyn/closer.lua/lucene/solr/6.6.1\n> Release notes: https://lucene.apache.org/solr/6_6_1/changes/Changes.html\n>\n> Guess you should give it a try.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 320,
+      "end": 395,
+      "text": "> On Mon, Sep 11, 2017 at 1:15 PM Gunalan V <visagan2007@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 597,
+      "end": 641,
+      "text": "> >\n> > Kindly confirm!\n> >\n> >\n> >\n> > GVK\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 395,
+      "end": 645,
+      "text": ">\n> > Thank You!\n> >\n> > I believe 6.6 should have fixed all the previous version issues. But in\n> 6.6\n> > is there any major issues noticed?  if so I will go with 6.5.1 else will\n> > proceed with 6.6.\n> >\n> > Kindly confirm!\n> >\n> >\n> >\n> > GVK\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 395,
+      "end": 412,
+      "text": ">\n> > Thank You!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 645,
+      "end": 738,
+      "text": "> > On Mon, Sep 11, 2017 at 10:59 AM, Walter Underwood <\n> wunder@wunderwood.org>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1071,
+      "end": 1190,
+      "text": "> > >\n> > > wunder\n> > > Walter Underwood\n> > > wunder@wunderwood.org\n> > > http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 738,
+      "end": 1202,
+      "text": "> >\n> > > We have been running 6.5.1 in production since May. I would not run\n> > > anything before that.\n> > >\n> > > The new metrics code caused performance problems. That was fixed in\n> > 6.5.0.\n> > >\n> > > There was a memory leak talking to Zookeeper. That was fixed in 6.5.1.\n> > >\n> > > Solr 6.6.1 should be released very soon.\n> > >\n> > > wunder\n> > > Walter Underwood\n> > > wunder@wunderwood.org\n> > > http://observer.wunderwood.org/  (my blog)\n> > >\n> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1202,
+      "end": 1282,
+      "text": "> > > > On Sep 11, 2017, at 8:36 AM, Gunalan V <visagan2007@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1282,
+      "end": 1305,
+      "text": "> > > >\n> > > > Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1690,
+      "end": 1726,
+      "text": "> > > >\n> > > > Thanks,\n> > > > GVK\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1282,
+      "end": 1745,
+      "text": "> > > >\n> > > > Hello,\n> > > >\n> > > > In our project we are planning to use SOLR and I'm new to it. So,\n> what\n> > is\n> > > > the latest stable version we can use and that is supported by Apache?\n> > > >\n> > > > Kindly let me know your suggestions because we started with\n> installing\n> > > SOLR\n> > > > 6.2 but heard that there are many issues and need to be upgraded to\n> 6.3\n> > > or\n> > > > so.\n> > > >\n> > > >\n> > > > Thanks,\n> > > > GVK\n> > >\n> > >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5994"
+}

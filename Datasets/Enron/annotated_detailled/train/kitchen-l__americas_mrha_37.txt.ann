@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nPaul,\n\nThank you for taking the time to meet with Louise and myself this past Wednesday.  I felt that the meeting was very informative and that discussions between Enron and Marathon have progressed in a constructive manner to broach a potential asset management outsourcing arrangement.  \n\nAs promised during the meeting, I have attached Enron's Confidentiality / Non-disclosure agreement. Enron's appropriate legal contact for further questions or comments regarding this document would be Mr. Gerald Nemec.  He can be reached at (713) 853-3512.\n\nAfter the Confidentiality Agreement is signed, I look forward to delivering a proposal for the above mentioned commercial arrangement.\n\nIf I can be of further assistance, please do not hesitate to call.  I can be reached at (713) 853-1931.\n\nRegards,\n\nJean \n\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1,
+      "end": 5,
+      "text": "Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 801,
+      "end": 805,
+      "text": "Jean",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 791,
+      "end": 807,
+      "text": "Regards,\n\nJean \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 810,
+      "text": "\nPaul,\n\nThank you for taking the time to meet with Louise and myself this past Wednesday.  I felt that the meeting was very informative and that discussions between Enron and Marathon have progressed in a constructive manner to broach a potential asset management outsourcing arrangement.  \n\nAs promised during the meeting, I have attached Enron's Confidentiality / Non-disclosure agreement. Enron's appropriate legal contact for further questions or comments regarding this document would be Mr. Gerald Nemec.  He can be reached at (713) 853-3512.\n\nAfter the Confidentiality Agreement is signed, I look forward to delivering a proposal for the above mentioned commercial arrangement.\n\nIf I can be of further assistance, please do not hesitate to call.  I can be reached at (713) 853-1931.\n\nRegards,\n\nJean \n\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12376046.1075840867550.JavaMail.evans@thyme>",
+      "Date": "Thu, 9 Aug 2001 17:07:24 -0700 (PDT)",
+      "From": "jean.mrha@enron.com",
+      "To": "prbaillargeon@marathonoil.com",
+      "Subject": "Confidentiality Agreement",
+      "Cc": "gerald.nemec@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "gerald.nemec@enron.com",
+      "X-From": "Mrha, Jean </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JMRHA>",
+      "X-To": "Paul R. Baillargeon (E-mail) <PRBaillargeon@marathonoil.com>",
+      "X-cc": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gnemec>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Mrha",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_mrha_37.txt"
+}

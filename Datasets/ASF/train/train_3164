@@ -1,0 +1,48 @@
+This may work for you:
+https://cwiki.apache.org/confluence/display/solr/Graph+Traversal
+
+Joel Bernstein
+http://joelsolr.blogspot.com/
+
+On Fri, May 5, 2017 at 5:39 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>
+wrote:
+
+> Hi,
+>
+> I'm using Solr 6.4.2.
+>
+> Is it possible to do a query based on output from another collection in
+> Solr Streaming, so that the entire query can be passed at one go?
+>
+> For example, I have a field called reference_s in collection1. In
+> collection2, I will need to pass what is in the reference_s from
+> collection1 into the search in collection2.
+>
+> Currently, I will need to do a normal query to collection1, to retrieve all
+> the required values in reference_s, and put them into this join query,
+> which is a two step process. This is probably not so effective and also
+> slow down the search.
+>
+>
+> hashJoin(parallel(collection2,
+>                             workers=3,
+>                             sort="id asc",
+>                             innerJoin(search(collection1, q="*:*",
+> fl="id,reference_s",
+>                             sort="id asc", qt="/export",
+> partitionKeys="id"),
+>                                     search(collection2,
+>                                            q="reference_s:?", fl="id,
+> year_i,reference_s", sort="id asc", qt="/export",
+>                                            partitionKeys="id"),
+>                                            on="id")),
+>                                            hashed=search(collection3,
+> q="day_i:7", fl="id, day_i",
+>                                  sort="id asc", qt="/export"),
+>                             on="id")
+>
+>
+> Regards,
+> Edwin
+>
+

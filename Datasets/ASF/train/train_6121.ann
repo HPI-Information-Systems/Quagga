@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "A suggester rebuild will mmap the entire index. So'll you need free memory\nfor depending on your index size.\n\nOn 19 September 2017 at 13:47, shamik <shamikb@gmail.com> wrote:\n\n> I agree, should have made it clear in my initial post. The reason I thought\n> it's little trivial since the newly introduced collection has only few\n> hundred documents and is not being used in search yet. Neither it's being\n> indexed at a regular interval. The cache parameters are kept to a minimum\n> as\n> well. But there might be overheads of a simply creating a collection which\n> I'm not aware of.\n>\n> I did bring down the heap size to 8gb, changed to G1 and reduced the cache\n> params. The memory so far has been holding up but will wait for a while\n> before passing on a judgment.\n>\n> <filterCache class=\"solr.FastLRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <queryResultCache class=\"solr.LRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <documentCache class=\"solr.LRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <cache name=\"perSegFilter\" class=\"solr.search.LRUCache\" size=\"10\"\n> initialSize=\"0\" autowarmCount=\"10\" regenerator=\"solr.NoOpRegenerator\" />\n> <fieldValueCache class=\"solr.FastLRUCache\" size=\"256\" autowarmCount=\"256\"\n> showItems=\"0\" />\n>\n> The change seemed to have increased the number of slow queries (1000 ms),\n> but I'm willing to address the OOM over performance at this point. One\n> thing\n> I realized is that I provided the wrong index size here. It's 49gb instead\n> of 25, which I mistakenly picked from one shard. I hope the heap size will\n> continue to sustain for the index size.\n>\n>\n>\n> --\n> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 110,
+      "text": "A suggester rebuild will mmap the entire index. So'll you need free memory\nfor depending on your index size.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 110,
+      "end": 175,
+      "text": "On 19 September 2017 at 13:47, shamik <shamikb@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 175,
+      "end": 1721,
+      "text": "\n> I agree, should have made it clear in my initial post. The reason I thought\n> it's little trivial since the newly introduced collection has only few\n> hundred documents and is not being used in search yet. Neither it's being\n> indexed at a regular interval. The cache parameters are kept to a minimum\n> as\n> well. But there might be overheads of a simply creating a collection which\n> I'm not aware of.\n>\n> I did bring down the heap size to 8gb, changed to G1 and reduced the cache\n> params. The memory so far has been holding up but will wait for a while\n> before passing on a judgment.\n>\n> <filterCache class=\"solr.FastLRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <queryResultCache class=\"solr.LRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <documentCache class=\"solr.LRUCache\" size=\"256\" initialSize=\"256\"\n> autowarmCount=\"0\"/>\n> <cache name=\"perSegFilter\" class=\"solr.search.LRUCache\" size=\"10\"\n> initialSize=\"0\" autowarmCount=\"10\" regenerator=\"solr.NoOpRegenerator\" />\n> <fieldValueCache class=\"solr.FastLRUCache\" size=\"256\" autowarmCount=\"256\"\n> showItems=\"0\" />\n>\n> The change seemed to have increased the number of slow queries (1000 ms),\n> but I'm willing to address the OOM over performance at this point. One\n> thing\n> I realized is that I provided the wrong index size here. It's 49gb instead\n> of 25, which I mistakenly picked from one shard. I hope the heap size will\n> continue to sustain for the index size.\n>\n>\n>\n> --\n> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6121"
+}

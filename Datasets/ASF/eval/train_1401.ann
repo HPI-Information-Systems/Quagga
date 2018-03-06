@@ -1,0 +1,128 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Paul,\n\nsince each operator uses the minimum watermark of all its inputs, you must\nensure that each parallel task is producing data.\nIf a source does not produce data, it will not increase the timestamps of\nits watermarks.\n\nAnother challenge, that you might run into is that you need to make sure\nthat the file (or file chunks if it is split for parallel reading) is read\nin the increasing timestamp order.\nOtherwise, watermarks will be emitted too early. I\n\nIf I got understood your use case correctly, you are just experimenting\nwith file input to get a feeling for the API.\nI would try to set the parallelism of the file source to 1 to ensure that\nthe data is read in the same order and that all tasks are producing data.\n\nHope this helps,\nFabian\n\n2017-03-15 23:54 GMT+01:00 Paul Smith <psmith@aconex.com>:\n\n> Thanks Fabian, I\u00e2\u20ac\u2122m pretty sure you are correct here.  I can see in the\n> Metric view that the currentLowWaterMark is set to MIN_VALUE by the looks\n> of it, so Watermarks are not being emitted at all until the end.  This\n> stays all the way through the job.\n>\n>\n>\n> I\u00e2\u20ac\u2122m not sure why this is the case.  I\u00e2\u20ac\u2122ve verified that my\n> TimestampExtractor class is being called, and returning the value I\u00e2\u20ac\u2122d\n> expect (The timestamp from the log line), and looks legitimate.  My\n> WindowFunction which is doing the aggregation is not being called until\n> right at the end of the job, but yet the windows comes out ok in the\n> destination.\n>\n>\n>\n> I am not sure how to debug this one.  Do you or anyone have any other\n> suggestions on how to debug why the Windowing is not being triggered?  I\n> can\u00e2\u20ac\u2122t glean any useful further ideas from the metrics I can see..\n>\n>\n>\n> Appreciate the help\n>\n>\n>\n> Cheers,\n>\n>\n> Paul\n>\n>\n>\n> *From: *Fabian Hueske <fhueske@gmail.com>\n> *Reply-To: *\"user@flink.apache.org\" <user@flink.apache.org>\n> *Date: *Tuesday, 14 March 2017 at 7:59 pm\n> *To: *\"user@flink.apache.org\" <user@flink.apache.org>\n> *Subject: *Re: Batch stream Sink delay ?\n>\n>\n>\n> Hi Paul,\n>\n> This might be an issue with the watermarks. A window operation can only be\n> compute and emit its results when the watermark time is later than the end\n> time of the window.\n>\n> Each operator keeps track of the maximum timestamp of all its input tasks\n> and computes its own time as the minimum of all those maximum timestamps.\n>\n> If one (or all) watermarks received by the window operator is not later\n> than the end time of the window, the window will not be computed.\n>\n> When an file input is completely processed, Flink sends a Long.MAX_VALUE\n> timestamp which might trigger the execution at the end of the job.\n>\n> I would try to debug the watermarks of your job. The web dashboard\n> provides a few metrics for that.\n>\n> Best, Fabian\n>\n>\n>\n> 2017-03-14 2:47 GMT+01:00 Paul Smith <psmith@aconex.com>:\n>\n> Using Flink 1.2.\n>\n>\n>\n> Hi all, I have a question about Batch processing and Sinks.  I have a\n> Flink job that parses a User Request log file that contains performance\n> data per request. It accumulates metric data values into 15 minute time\n> windows.  Each log line is mapped to multiple records, so that each of the\n> metric value can be 'billed' against a few different categories (User,\n> Organisation, Project, Action).  The goal of the Flink job is to distil the\n> volume of request data into more manageable summaries.  We can then see\n> breakdowns of, say, User CPU utilised by distinct categories (e.g. Users)\n> and allow us to look for trends/outliers.\n>\n>\n>\n> It is working very well as a batch, but with one unexpected behaviour.\n>\n>\n>\n> What I can't understand is that the Sink does not appear to get _any_\n> records until the rest of the chain has completed over the entire file.\n> I've played around with parallelism (1->3), and also verified with logging\n> that the Sink isn't seeing any data until the entire previous chain is\n> complete.  Is this expected behaviour? I was thinking that as each Time\n> Window passed a 'block' of the results would be emitted to the sink.  Since\n> we use Event Time characteristics, the batch job ought to emit these chunks\n> as each 15 minute segment passes?\n>\n>\n>\n> You can see the base job here, with an example of a single log line with\n> the metrics here:\n>\n>\n>\n> https://gist.github.com/tallpsmith/a2e5212547fb3c7220b0e49846d2f152\n>\n>\n>\n> Each Category I've called an 'identifierType' (User, Organisation..), with\n> the 'identifier' the value of that (a UserId for example).  I key the\n> stream by this pair of records and then Fold the records by the Time window\n> summing each metric type's value up.  I have yet to work out the proper use\n> case for Fold versus Reduce, I may have got that wrong, but I can't see how\n> that changes the flow here.\n>\n>\n>\n> The output is a beautiful rolled up summary by 15 minutes by each\n> identifierType & identifier.  I have yet to attempt a live Streaming\n> version of this, but had thought the Batch version would also be concurrent\n> and start emitting 15 minute windows as soon as the stream chunks\n> transitions into the next window.   Given the entire job takes about 5\n> minutes on my laptop for 8 million raw source lines whose data is spread\n> out over an entire day, I would have thought there's some part of that 5\n> minutes that would be emitting chunks of summary data to the sink?  But\n> nothing turns up until the entire job is done.\n>\n>\n>\n> Maybe the data is just too small.. Maybe there's buffering going on\n> somewhere in the chain. ?\n>\n>\n>\n> Any pointers would be appreciated in understanding the flow here.\n>\n>\n>\n> Cheers,\n>\n>\n>\n> Paul Smith\n>\n>\n>\n>\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Paul,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 727,
+      "end": 752,
+      "text": "\nHope this helps,\nFabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 753,
+      "text": "Hi Paul,\n\nsince each operator uses the minimum watermark of all its inputs, you must\nensure that each parallel task is producing data.\nIf a source does not produce data, it will not increase the timestamps of\nits watermarks.\n\nAnother challenge, that you might run into is that you need to make sure\nthat the file (or file chunks if it is split for parallel reading) is read\nin the increasing timestamp order.\nOtherwise, watermarks will be emitted too early. I\n\nIf I got understood your use case correctly, you are just experimenting\nwith file input to get a feeling for the API.\nI would try to set the parallelism of the file source to 1 to ensure that\nthe data is read in the same order and that all tasks are producing data.\n\nHope this helps,\nFabian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 753,
+      "end": 812,
+      "text": "2017-03-15 23:54 GMT+01:00 Paul Smith <psmith@aconex.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1703,
+      "end": 1726,
+      "text": ">\n> Cheers,\n>\n>\n> Paul\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 812,
+      "end": 1732,
+      "text": "\n> Thanks Fabian, I\u00e2\u20ac\u2122m pretty sure you are correct here.  I can see in the\n> Metric view that the currentLowWaterMark is set to MIN_VALUE by the looks\n> of it, so Watermarks are not being emitted at all until the end.  This\n> stays all the way through the job.\n>\n>\n>\n> I\u00e2\u20ac\u2122m not sure why this is the case.  I\u00e2\u20ac\u2122ve verified that my\n> TimestampExtractor class is being called, and returning the value I\u00e2\u20ac\u2122d\n> expect (The timestamp from the log line), and looks legitimate.  My\n> WindowFunction which is doing the aggregation is not being called until\n> right at the end of the job, but yet the windows comes out ok in the\n> destination.\n>\n>\n>\n> I am not sure how to debug this one.  Do you or anyone have any other\n> suggestions on how to debug why the Windowing is not being triggered?  I\n> can\u00e2\u20ac\u2122t glean any useful further ideas from the metrics I can see..\n>\n>\n>\n> Appreciate the help\n>\n>\n>\n> Cheers,\n>\n>\n> Paul\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 812,
+      "end": 829,
+      "text": "\n> Thanks Fabian,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1732,
+      "end": 1981,
+      "text": "> *From: *Fabian Hueske <fhueske@gmail.com>\n> *Reply-To: *\"user@flink.apache.org\" <user@flink.apache.org>\n> *Date: *Tuesday, 14 March 2017 at 7:59 pm\n> *To: *\"user@flink.apache.org\" <user@flink.apache.org>\n> *Subject: *Re: Batch stream Sink delay ?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1985,
+      "end": 1998,
+      "text": ">\n> Hi Paul,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2726,
+      "end": 2743,
+      "text": ">\n> Best, Fabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1981,
+      "end": 2749,
+      "text": ">\n>\n>\n> Hi Paul,\n>\n> This might be an issue with the watermarks. A window operation can only be\n> compute and emit its results when the watermark time is later than the end\n> time of the window.\n>\n> Each operator keeps track of the maximum timestamp of all its input tasks\n> and computes its own time as the minimum of all those maximum timestamps.\n>\n> If one (or all) watermarks received by the window operator is not later\n> than the end time of the window, the window will not be computed.\n>\n> When an file input is completely processed, Flink sends a Long.MAX_VALUE\n> timestamp which might trigger the execution at the end of the job.\n>\n> I would try to debug the watermarks of your job. The web dashboard\n> provides a few metrics for that.\n>\n> Best, Fabian\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2749,
+      "end": 2809,
+      "text": "> 2017-03-14 2:47 GMT+01:00 Paul Smith <psmith@aconex.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2834,
+      "end": 2845,
+      "text": ">\n> Hi all,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 5540,
+      "end": 5571,
+      "text": ">\n> Cheers,\n>\n>\n>\n> Paul Smith\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2809,
+      "end": 5586,
+      "text": ">\n> Using Flink 1.2.\n>\n>\n>\n> Hi all, I have a question about Batch processing and Sinks.  I have a\n> Flink job that parses a User Request log file that contains performance\n> data per request. It accumulates metric data values into 15 minute time\n> windows.  Each log line is mapped to multiple records, so that each of the\n> metric value can be 'billed' against a few different categories (User,\n> Organisation, Project, Action).  The goal of the Flink job is to distil the\n> volume of request data into more manageable summaries.  We can then see\n> breakdowns of, say, User CPU utilised by distinct categories (e.g. Users)\n> and allow us to look for trends/outliers.\n>\n>\n>\n> It is working very well as a batch, but with one unexpected behaviour.\n>\n>\n>\n> What I can't understand is that the Sink does not appear to get _any_\n> records until the rest of the chain has completed over the entire file.\n> I've played around with parallelism (1->3), and also verified with logging\n> that the Sink isn't seeing any data until the entire previous chain is\n> complete.  Is this expected behaviour? I was thinking that as each Time\n> Window passed a 'block' of the results would be emitted to the sink.  Since\n> we use Event Time characteristics, the batch job ought to emit these chunks\n> as each 15 minute segment passes?\n>\n>\n>\n> You can see the base job here, with an example of a single log line with\n> the metrics here:\n>\n>\n>\n> https://gist.github.com/tallpsmith/a2e5212547fb3c7220b0e49846d2f152\n>\n>\n>\n> Each Category I've called an 'identifierType' (User, Organisation..), with\n> the 'identifier' the value of that (a UserId for example).  I key the\n> stream by this pair of records and then Fold the records by the Time window\n> summing each metric type's value up.  I have yet to work out the proper use\n> case for Fold versus Reduce, I may have got that wrong, but I can't see how\n> that changes the flow here.\n>\n>\n>\n> The output is a beautiful rolled up summary by 15 minutes by each\n> identifierType & identifier.  I have yet to attempt a live Streaming\n> version of this, but had thought the Batch version would also be concurrent\n> and start emitting 15 minute windows as soon as the stream chunks\n> transitions into the next window.   Given the entire job takes about 5\n> minutes on my laptop for 8 million raw source lines whose data is spread\n> out over an entire day, I would have thought there's some part of that 5\n> minutes that would be emitting chunks of summary data to the sink?  But\n> nothing turns up until the entire job is done.\n>\n>\n>\n> Maybe the data is just too small.. Maybe there's buffering going on\n> somewhere in the chain. ?\n>\n>\n>\n> Any pointers would be appreciated in understanding the flow here.\n>\n>\n>\n> Cheers,\n>\n>\n>\n> Paul Smith\n>\n>\n>\n>\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1401"
+}

@@ -1,0 +1,23 @@
+Is it possible to concisely create a dataset from a dataframe with missing columns? Specifically,
+suppose I create a dataframe with:
+val df: DataFrame  = Seq(("v1"),("v2")).toDF("f1")
+
+Then, I have a case class for a dataset defined as:
+case class CC(f1: String, f2: Option[String] = None)
+
+I’d like to use df.as[CC] to get an instance of the case class, but this gives me the following
+error:
+org.apache.spark.sql.AnalysisException: cannot resolve '`f2`' given input columns: [f1];
+
+Is there a concise way to use the default values as defined by the case class?
+
+________________________________________________________
+
+The information contained in this e-mail is confidential and/or proprietary to Capital One
+and/or its affiliates and may only be used solely in performance of work or services for Capital
+One. The information transmitted herewith is intended only for use by the individual or entity
+to which it is addressed. If the reader of this message is not the intended recipient, you
+are hereby notified that any review, retransmission, dissemination, distribution, copying
+or other use of, or taking of any action in reliance upon this information is strictly prohibited.
+If you have received this communication in error, please contact the sender and delete the
+material from your computer.

@@ -1,0 +1,59 @@
+
+Hi,
+
+I have a table in Hive(data is stored as avro files).
+Using python spark shell I am trying to join two datasets
+
+events = spark.sql('select * from mydb.events')
+
+intersect = events.where('attr2 in (5,6,7) and attr1 in (1,2,3)')
+intersect.count()
+
+But I am constantly receiving the following
+
+java.lang.NullPointerException
+        at org.apache.hadoop.hive.serde2.avro.AvroObjectInspectorGenerator.supportedCategories(AvroObjectInspectorGenerator.java:142)
+        at org.apache.hadoop.hive.serde2.avro.AvroObjectInspectorGenerator.createObjectInspectorWorker(AvroObjectInspectorGenerator.java:91)
+        at org.apache.hadoop.hive.serde2.avro.AvroObjectInspectorGenerator.createObjectInspectorWorker(AvroObjectInspectorGenerator.java:104)
+        at org.apache.hadoop.hive.serde2.avro.AvroObjectInspectorGenerator.createObjectInspector(AvroObjectInspectorGenerator.java:83)
+        at org.apache.hadoop.hive.serde2.avro.AvroObjectInspectorGenerator.<init>(AvroObjectInspectorGenerator.java:56)
+        at org.apache.hadoop.hive.serde2.avro.AvroSerDe.initialize(AvroSerDe.java:124)
+        at org.apache.spark.sql.hive.HadoopTableReader$$anonfun$5$$anonfun$10.apply(TableReader.scala:251)
+        at org.apache.spark.sql.hive.HadoopTableReader$$anonfun$5$$anonfun$10.apply(TableReader.scala:239)
+        at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:766)
+        at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:766)
+        at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.rdd.UnionRDD.compute(UnionRDD.scala:103)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38)
+        at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+        at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+        at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:79)
+        at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:47)
+        at org.apache.spark.scheduler.Task.run(Task.scala:85)
+        at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:274)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+        at java.lang.Thread.run(Thread.java:745)
+
+Using Spark 2.0.0.2.5.0.0-1245
+
+Any help will be appreciated
+
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

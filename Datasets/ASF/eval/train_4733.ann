@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nAs Biplob said this means that the JM cannot find the requested state.\n\nThe reasons can be one of the above but given that you said you are using\nthe FlinkMiniCluster, I assume you are testing. In this case, it can also\nbe that you start querying your state to soon after the job is submitted,\nso the state is not yet there as the job that creates it has not yet\nstarted.\n\nIn this case you can retry the query when it fails until it succeeds\n (assuming that none of the coditions that Biplob mentioned holds). If you\nhave access to the flink code, you can check the tests in the\nqueryablestate IT cases.\n\nKostas\n\nOn Sep 13, 2017 4:45 PM, \"Biplob Biswas\" <revolutionisme@gmail.com> wrote:\n\n> Hi Hayden,\n>\n> From what I know, \"No KvStateLocation found for KvState instance with name\n> 'word_sums'\" is exactly what it means. Your current job can't find the\n> KVState instance. This could result due to a few reasons that I know of:\n>\n> 1. The jobID you supplied for the queryclient job is not equal to the jobID\n> of the state creator job.\n> 2. There is a typo in the name either when you are creating the state or\n> when you are accessing the state.\n> 3. You are connected to a completely different jobmanager and not where the\n> state is.\n>\n> There could be more reasons, but these are the ones on top of myhead.\n>\n>\n>\n> --\n> Sent from: http://apache-flink-user-mailing-list-archive.2336050.\n> n4.nabble.com/\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 609,
+      "end": 617,
+      "text": "\nKostas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 618,
+      "text": "Hi,\n\nAs Biplob said this means that the JM cannot find the requested state.\n\nThe reasons can be one of the above but given that you said you are using\nthe FlinkMiniCluster, I assume you are testing. In this case, it can also\nbe that you start querying your state to soon after the job is submitted,\nso the state is not yet there as the job that creates it has not yet\nstarted.\n\nIn this case you can retry the query when it fails until it succeeds\n (assuming that none of the coditions that Biplob mentioned holds). If you\nhave access to the flink code, you can check the tests in the\nqueryablestate IT cases.\n\nKostas\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 618,
+      "end": 693,
+      "text": "On Sep 13, 2017 4:45 PM, \"Biplob Biswas\" <revolutionisme@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 693,
+      "end": 707,
+      "text": "\n> Hi Hayden,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 693,
+      "end": 1416,
+      "text": "\n> Hi Hayden,\n>\n> From what I know, \"No KvStateLocation found for KvState instance with name\n> 'word_sums'\" is exactly what it means. Your current job can't find the\n> KVState instance. This could result due to a few reasons that I know of:\n>\n> 1. The jobID you supplied for the queryclient job is not equal to the jobID\n> of the state creator job.\n> 2. There is a typo in the name either when you are creating the state or\n> when you are accessing the state.\n> 3. You are connected to a completely different jobmanager and not where the\n> state is.\n>\n> There could be more reasons, but these are the ones on top of myhead.\n>\n>\n>\n> --\n> Sent from: http://apache-flink-user-mailing-list-archive.2336050.\n> n4.nabble.com/\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_4733"
+}

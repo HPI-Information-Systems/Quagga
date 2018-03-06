@@ -1,0 +1,165 @@
+bq: To me this seems like a design flaw. The Solr fieldtypes seem like they
+allow a developer to create types that should handle wildcards
+intelligently.
+
+Well, that's pretty impossible. WordDelimiter(Graph)FilterFactory is a
+case in point. It's designed to break up on
+uppercase/lowercase/numeric/non-alpha-num transitions. This is to
+expressly support, say, phone numbers where the input is 123-456-7890
+or (123) 456-7890 or..... This is just basically incompatible with
+WDFF. How would one support wildcards here? Would you expect 123-45*
+to match? What about 123 45* What about..... you see the problem.
+
+It's not even valid to fail on wildcards in, say, WDFF. There's no
+a-priori reason why the asterisk character is "special", as it may not
+be in some situations.
+
+There's been some progress from the bad old days, but it's an ongoing
+process. See: https://lucidworks.com/2011/11/29/whats-with-lowercasing-wildcard-multiterm-queries-in-solr/
+
+It's just a messy problem.
+
+Best,
+Erick
+
+On Thu, Jul 27, 2017 at 2:15 PM, Webster Homer <webster.homer@sial.com> wrote:
+> It doesn't seem to matter what you do in the query analyzer, if you have a
+> wildcard, it won't use it. Which is exactly the behavior I observed.
+>
+> the solution was to set preserveOriginal="1" and change the etl process to
+> not strip the dashes, letting the index analyzer do that. We have a lot of
+> legacy etl which was developed to load Endeca. It's not always what we want
+> with Solr
+>
+> On Thu, Jul 27, 2017 at 2:07 PM, Saurabh Sethi <saurabh.sethi@sendgrid.com>
+> wrote:
+>
+>> Webster, did you try escaping the special character (assuming you did not
+>> do what Shawn did by replacing - with some other text and your indexed
+>> tokens have -)?
+>>
+>> On Thu, Jul 27, 2017 at 12:03 PM, Webster Homer <webster.homer@sial.com>
+>> wrote:
+>>
+>> > Shawn,
+>> > Thank you for that. I didn't know about that feature of the WDF. It
+>> doesn't
+>> > help my situation but it's great to know about.
+>> > Googling solr wildcard searches I found this link
+>> > http://lucene.472066.n3.nabble.com/Wildcard-search-
+>> > not-working-with-search-term-having-special-characters-and-
+>> > digits-td4133385.html
+>> >
+>> > "The use of a wildcard in a query term with embedded special characters
+>> > will bypass
+>> > normal analysis - you need to enter the term exactly as it would be
+>> > analyzed
+>> > at index time for wildcard to work."
+>> >
+>> > To me this seems like a design flaw. The Solr fieldtypes seem like they
+>> > allow a developer to create types that should handle wildcards
+>> > intelligently. At the very least the Analyzer tool should show this
+>> > behavior, and not even try to analyze terms with wildcards.
+>> >
+>> > Actually the behavior would more correctly be stated as "You need to
+>> enter
+>> > the term exactly as the data is after it has been indexed" If the
+>> fieldtype
+>> > removes hyphens then you must enter the wildcard query without hyphens.
+>> >
+>> > On Thu, Jul 27, 2017 at 8:35 AM, Shawn Heisey <apache@elyograg.org>
+>> wrote:
+>> >
+>> > > On 7/26/2017 12:33 PM, Webster Homer wrote:
+>> > > > checked the Pattern Replace it's OK. Can't use the preserve original
+>> > > > since it preserves the hyphens too, which I don't want. It would be
+>> > > > best if it didn't touch the * at all
+>> > >
+>> > > You can tell WDF to change the meaning of certain characters.  Here's a
+>> > > WDF entry in one of my schemas:
+>> > >
+>> > >         <filter class="solr.WordDelimiterFilterFactory"
+>> > >           splitOnCaseChange="0"
+>> > >           splitOnNumerics="0"
+>> > >           stemEnglishPossessive="0"
+>> > >           generateWordParts="1"
+>> > >           generateNumberParts="1"
+>> > >           catenateWords="0"
+>> > >           catenateNumbers="0"
+>> > >           catenateAll="0"
+>> > >           preserveOriginal="1"
+>> > >           types="wdftypes_mt.txt"
+>> > >         />
+>> > >
+>> > > This is the contents of wdftypes_mt.txt (between the --- lines):
+>> > >
+>> > > ---
+>> > > - => ALPHA
+>> > > _ => ALPHA
+>> > > ---
+>> > >
+>> > > I have defined the hyphen and underscore as alphabetic characters in
+>> > > this situation.  This is in a fieldType that I use for a field that
+>> > > contains a typical mime-type, where I do not want to split on a hyphen
+>> > > or underscore.
+>> > >
+>> > > I am having a hard time finding documentation on the "types" parameter
+>> > > for WDF.  I no longer remember where I found the information on how to
+>> > > format that file.  I may have looked at the source code.
+>> > >
+>> > > Thanks,
+>> > > Shawn
+>> > >
+>> > >
+>> >
+>> > --
+>> >
+>> >
+>> > This message and any attachment are confidential and may be privileged or
+>> > otherwise protected from disclosure. If you are not the intended
+>> recipient,
+>> > you must not copy this message or attachment or disclose the contents to
+>> > any other person. If you have received this transmission in error, please
+>> > notify the sender immediately and delete the message and any attachment
+>> > from your system. Merck KGaA, Darmstadt, Germany and any of its
+>> > subsidiaries do not accept liability for any omissions or errors in this
+>> > message which may arise as a result of E-Mail-transmission or for damages
+>> > resulting from any unauthorized changes of the content of this message
+>> and
+>> > any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its
+>> > subsidiaries do not guarantee that this message is free of viruses and
+>> does
+>> > not accept liability for any damages caused by any virus transmitted
+>> > therewith.
+>> >
+>> > Click http://www.emdgroup.com/disclaimer to access the German, French,
+>> > Spanish and Portuguese versions of this disclaimer.
+>> >
+>>
+>>
+>>
+>> --
+>> Saurabh Sethi
+>> Principal Engineer I | Engineering
+>>
+>
+> --
+>
+>
+> This message and any attachment are confidential and may be privileged or
+> otherwise protected from disclosure. If you are not the intended recipient,
+> you must not copy this message or attachment or disclose the contents to
+> any other person. If you have received this transmission in error, please
+> notify the sender immediately and delete the message and any attachment
+> from your system. Merck KGaA, Darmstadt, Germany and any of its
+> subsidiaries do not accept liability for any omissions or errors in this
+> message which may arise as a result of E-Mail-transmission or for damages
+> resulting from any unauthorized changes of the content of this message and
+> any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its
+> subsidiaries do not guarantee that this message is free of viruses and does
+> not accept liability for any damages caused by any virus transmitted
+> therewith.
+>
+> Click http://www.emdgroup.com/disclaimer to access the German, French,
+> Spanish and Portuguese versions of this disclaimer.
+

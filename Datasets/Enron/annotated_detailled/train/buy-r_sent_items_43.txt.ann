@@ -1,0 +1,154 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have fixed our slide. Rick\n\n -----Original Message-----\nFrom: \tParsons, Andrew  \nSent:\tThursday, December 13, 2001 11:52 AM\nTo:\tBuy, Rick; Port, David\nSubject:\tInternal Controls presentation\n\n\nAttached is the draft presentation of the internal controls component of the audit.  We are only planning on including the first 4 of 8 pages.   The last 4 pages were built anticipating Andersen being involved and are included here for reference only.\n\nPage 4 is the RAC component. \n\nThanks,\n\nAndrew\n\n << File: Audit Ctee Dec 10 draft6.ppt >> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 24,
+      "end": 28,
+      "text": "Rick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 30,
+      "text": "I have fixed our slide. Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 65,
+      "end": 80,
+      "text": "Parsons, Andrew",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 99,
+      "end": 116,
+      "text": "December 13, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 117,
+      "end": 125,
+      "text": "11:52 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 130,
+      "end": 139,
+      "text": "Buy, Rick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 141,
+      "end": 152,
+      "text": "Port, David",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 162,
+      "end": 192,
+      "text": "Internal Controls presentation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 30,
+      "end": 193,
+      "text": " -----Original Message-----\nFrom: \tParsons, Andrew  \nSent:\tThursday, December 13, 2001 11:52 AM\nTo:\tBuy, Rick; Port, David\nSubject:\tInternal Controls presentation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 488,
+      "end": 494,
+      "text": "Andrew",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 479,
+      "end": 495,
+      "text": "Thanks,\n\nAndrew\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 506,
+      "end": 534,
+      "text": "Audit Ctee Dec 10 draft6.ppt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 496,
+      "end": 538,
+      "text": " << File: Audit Ctee Dec 10 draft6.ppt >> ",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 193,
+      "end": 538,
+      "text": "\n\nAttached is the draft presentation of the internal controls component of the audit.  We are only planning on including the first 4 of 8 pages.   The last 4 pages were built anticipating Andersen being involved and are included here for reference only.\n\nPage 4 is the RAC component. \n\nThanks,\n\nAndrew\n\n << File: Audit Ctee Dec 10 draft6.ppt >> ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1148921.1075840391356.JavaMail.evans@thyme>",
+      "Date": "Fri, 14 Dec 2001 11:39:50 -0800 (PST)",
+      "From": "rick.buy@enron.com",
+      "To": "andrew.parsons@enron.com",
+      "Subject": "RE: Internal Controls presentation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Buy, Rick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RBUY>",
+      "X-To": "Parsons, Andrew </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Aparson>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\rbuy\\Sent Items",
+      "X-Origin": "BUY-R",
+      "X-FileName": "richard buy 1-30-02..pst"
+    }
+  },
+  "id": "train/buy-r_sent_items_43.txt"
+}

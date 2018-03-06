@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI\n\nI am currently out of books.  I should be getting some more in today.  As \nsoon as they come in, I will make sure you get a copy.\n\n-Brenda\n\n---------------------- Forwarded by Brenda Flores-Cuellar/HOU/ECT on \n02/23/2000 04:26 PM ---------------------------\nTo: Phillip K Allen/HOU/ECT@ECT, Eric Bass/HOU/ECT@ECT, Sandra F \nBrawner/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Brian \nHoskins/HOU/ECT@ECT, Dick Jenkins/HOU/ECT@ECT, Peter F Keavey/HOU/ECT@ECT, \nMatthew Lenhart/HOU/ECT@ECT, Andrew H Lewis/HOU/ECT@ECT, Thomas A \nMartin/HOU/ECT@ECT, Greg McClendon/HOU/ECT@ECT, Brad McKay/HOU/ECT@ECT, Carey \nM Metz/HOU/ECT@ECT, Sarah Mulholland/HOU/ECT@ECT, Scott Neal/HOU/ECT@ECT, Eva \nPao/HOU/ECT@ECT, Jim Schwieger/HOU/ECT@ECT, Elizabeth Shim/Corp/Enron@Enron, \nHunter S Shively/HOU/ECT@ECT, Geoff Storey/HOU/ECT@ECT, Fletcher J \nSturm/HOU/ECT@ECT, Patricia Tlapek/HOU/ECT@ECT\ncc: Shirley Crenshaw/HOU/ECT@ECT \nSubject: RE: Options Training Classes\n\nFor those of you who did not see the memos from Jeff that went out on \nFebruary 17th. & February 22nd. regarding the upcoming Options training \nclassed, I have attached both memos below:\n\n\n\nI have the books at my desk for those of you that have not received your \ncopy.  \n\nThere will be a third memo in the next couple of days with regards to the \nlocation of the classes.\n\nIf you have any other questions, please feel free to contact me.\n\n-Brenda\nx31914\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 135,
+      "end": 144,
+      "text": "\n-Brenda\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 145,
+      "text": "FYI\n\nI am currently out of books.  I should be getting some more in today.  As \nsoon as they come in, I will make sure you get a copy.\n\n-Brenda\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 145,
+      "end": 263,
+      "text": "---------------------- Forwarded by Brenda Flores-Cuellar/HOU/ECT on \n02/23/2000 04:26 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 263,
+      "end": 974,
+      "text": "To: Phillip K Allen/HOU/ECT@ECT, Eric Bass/HOU/ECT@ECT, Sandra F \nBrawner/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Brian \nHoskins/HOU/ECT@ECT, Dick Jenkins/HOU/ECT@ECT, Peter F Keavey/HOU/ECT@ECT, \nMatthew Lenhart/HOU/ECT@ECT, Andrew H Lewis/HOU/ECT@ECT, Thomas A \nMartin/HOU/ECT@ECT, Greg McClendon/HOU/ECT@ECT, Brad McKay/HOU/ECT@ECT, Carey \nM Metz/HOU/ECT@ECT, Sarah Mulholland/HOU/ECT@ECT, Scott Neal/HOU/ECT@ECT, Eva \nPao/HOU/ECT@ECT, Jim Schwieger/HOU/ECT@ECT, Elizabeth Shim/Corp/Enron@Enron, \nHunter S Shively/HOU/ECT@ECT, Geoff Storey/HOU/ECT@ECT, Fletcher J \nSturm/HOU/ECT@ECT, Patricia Tlapek/HOU/ECT@ECT\ncc: Shirley Crenshaw/HOU/ECT@ECT \nSubject: RE: Options Training Classes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1415,
+      "end": 1430,
+      "text": "-Brenda\nx31914\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 974,
+      "end": 1432,
+      "text": "\nFor those of you who did not see the memos from Jeff that went out on \nFebruary 17th. & February 22nd. regarding the upcoming Options training \nclassed, I have attached both memos below:\n\n\n\nI have the books at my desk for those of you that have not received your \ncopy.  \n\nThere will be a third memo in the next couple of days with regards to the \nlocation of the classes.\n\nIf you have any other questions, please feel free to contact me.\n\n-Brenda\nx31914\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12955863.1075854025405.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 Feb 2000 01:44:00 -0800 (PST)",
+      "From": "brenda.flores-cuellar@enron.com",
+      "To": "edward.gottlob@enron.com, lauri.allen@enron.com, daren.farmer@enron.com, \n\tdan.junek@enron.com, jared.kaiser@enron.com, judy.townsend@enron.com",
+      "Subject": "RE: Options Training Classes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brenda Flores-Cuellar",
+      "X-To": "Edward D Gottlob, Lauri A Allen, Daren J Farmer, Dan Junek, Jared Kaiser, Judy Townsend",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darren_Farmer_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Farmer-D",
+      "X-FileName": "dfarmer.nsf"
+    }
+  },
+  "id": "eval/farmer-d_all_documents_2491.txt"
+}

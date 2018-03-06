@@ -1,0 +1,487 @@
+{
+  "wrapper": "plaintext",
+  "text": "Gerald,\n\nCan you help me out on this?  I'll call you.\n\nThanks,\nChris\n---------------------- Forwarded by Chris Hilgert/HOU/ECT on 08/08/2000 12:01 \nPM ---------------------------\n\n\nStephanie Miller@ENRON\n08/08/2000 09:49 AM\nTo: Chris Hilgert/HOU/ECT@ect\ncc:  \nSubject: Mexicali\n\nHave you  been able to locate this information - If not, is there someone \nelse I can call?\n\nThanks,\n\nStephanie\n---------------------- Forwarded by Stephanie Miller/Corp/Enron on 08/08/2000 \n10:42 AM ---------------------------\n\n\nStephanie Miller\n08/03/2000 11:51 AM\nTo: Chris Hilgert/HOU/ECT@ect\ncc: Matthew Duffy/NA/Enron@Enron \n\nSubject: Mexicali\n\nChris - As we discussed in today's meeting, can you please forward to me and \nMatt a copy of the ENA \"pro forma\" firm sales agreement that we would use for \nthe type of sale discussed below.  Please let me know if you have any \nquestions.\n\nMany thanks,\n\nStephanie\n---------------------- Forwarded by Stephanie Miller/Corp/Enron on 08/03/2000 \n12:43 PM ---------------------------\n\n\nMatthew Duffy\n08/02/2000 10:37 AM\nTo: Stephanie Miller/Corp/Enron@ENRON\ncc:  \n\nSubject: Mexicali\n\nStephanie, I just want to follow up on the fuel supply discussion we had for \nFAPSA (the paper plant in Mexicali).\n\nI would like to recover the cost of the gas pipeline, which I'm including in \nthe capital costs of the plant, through a fuel supply agreement that we can \nmark to market.\n\nThe ideal terms would be for 20 years, an Index price plus SoCal transport \nprice, plus $0.22 / MMBtu to Enron project company for an amount of \napproximately 3000MMBtu / day.\n\nI look forward to receiving a draft copy of a standard fuel supply agreement \nso I can familiarize myself with standard market LD terminology.\n\nThanks,\nMatt\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Gerald",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 68,
+      "text": "Chris",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 55,
+      "end": 69,
+      "text": "Thanks,\nChris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 69,
+      "text": "Gerald,\n\nCan you help me out on this?  I'll call you.\n\nThanks,\nChris\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 105,
+      "end": 118,
+      "text": "Chris Hilgert",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 130,
+      "end": 140,
+      "text": "08/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 141,
+      "end": 150,
+      "text": "12:01 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 69,
+      "end": 179,
+      "text": "---------------------- Forwarded by Chris Hilgert/HOU/ECT on 08/08/2000 12:01 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 181,
+      "end": 197,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 204,
+      "end": 214,
+      "text": "08/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 215,
+      "end": 223,
+      "text": "09:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 228,
+      "end": 241,
+      "text": "Chris Hilgert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 269,
+      "end": 277,
+      "text": "Mexicali",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 179,
+      "end": 278,
+      "text": "\n\nStephanie Miller@ENRON\n08/08/2000 09:49 AM\nTo: Chris Hilgert/HOU/ECT@ect\ncc:  \nSubject: Mexicali\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 381,
+      "end": 390,
+      "text": "Stephanie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 372,
+      "end": 391,
+      "text": "Thanks,\n\nStephanie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 278,
+      "end": 391,
+      "text": "\nHave you  been able to locate this information - If not, is there someone \nelse I can call?\n\nThanks,\n\nStephanie\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 427,
+      "end": 443,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 458,
+      "end": 468,
+      "text": "08/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 470,
+      "end": 478,
+      "text": "10:42 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 391,
+      "end": 507,
+      "text": "---------------------- Forwarded by Stephanie Miller/Corp/Enron on 08/08/2000 \n10:42 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 509,
+      "end": 525,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 526,
+      "end": 536,
+      "text": "08/03/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 537,
+      "end": 545,
+      "text": "11:51 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 550,
+      "end": 563,
+      "text": "Chris Hilgert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 580,
+      "end": 593,
+      "text": "Matthew Duffy",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 620,
+      "end": 628,
+      "text": "Mexicali",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 507,
+      "end": 629,
+      "text": "\n\nStephanie Miller\n08/03/2000 11:51 AM\nTo: Chris Hilgert/HOU/ECT@ect\ncc: Matthew Duffy/NA/Enron@Enron \n\nSubject: Mexicali\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 630,
+      "end": 635,
+      "text": "Chris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 884,
+      "end": 893,
+      "text": "Stephanie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 870,
+      "end": 894,
+      "text": "Many thanks,\n\nStephanie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 629,
+      "end": 894,
+      "text": "\nChris - As we discussed in today's meeting, can you please forward to me and \nMatt a copy of the ENA \"pro forma\" firm sales agreement that we would use for \nthe type of sale discussed below.  Please let me know if you have any \nquestions.\n\nMany thanks,\n\nStephanie\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 930,
+      "end": 946,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 961,
+      "end": 971,
+      "text": "08/03/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 973,
+      "end": 981,
+      "text": "12:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 894,
+      "end": 1010,
+      "text": "---------------------- Forwarded by Stephanie Miller/Corp/Enron on 08/03/2000 \n12:43 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1012,
+      "end": 1025,
+      "text": "Matthew Duffy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1026,
+      "end": 1036,
+      "text": "08/02/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1037,
+      "end": 1045,
+      "text": "10:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1050,
+      "end": 1066,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1100,
+      "end": 1108,
+      "text": "Mexicali",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1010,
+      "end": 1109,
+      "text": "\n\nMatthew Duffy\n08/02/2000 10:37 AM\nTo: Stephanie Miller/Corp/Enron@ENRON\ncc:  \n\nSubject: Mexicali\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1110,
+      "end": 1119,
+      "text": "Stephanie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1727,
+      "end": 1731,
+      "text": "Matt",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1719,
+      "end": 1732,
+      "text": "Thanks,\nMatt\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1109,
+      "end": 1736,
+      "text": "\nStephanie, I just want to follow up on the fuel supply discussion we had for \nFAPSA (the paper plant in Mexicali).\n\nI would like to recover the cost of the gas pipeline, which I'm including in \nthe capital costs of the plant, through a fuel supply agreement that we can \nmark to market.\n\nThe ideal terms would be for 20 years, an Index price plus SoCal transport \nprice, plus $0.22 / MMBtu to Enron project company for an amount of \napproximately 3000MMBtu / day.\n\nI look forward to receiving a draft copy of a standard fuel supply agreement \nso I can familiarize myself with standard market LD terminology.\n\nThanks,\nMatt\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 22,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 18,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 25,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 29,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 30,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 37,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 40,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 43,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 44,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24143802.1075842643694.JavaMail.evans@thyme>",
+      "Date": "Tue, 8 Aug 2000 05:02:00 -0700 (PDT)",
+      "From": "chris.hilgert@enron.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "Mexicali",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Chris Hilgert",
+      "X-To": "Gerald Nemec",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_369.txt"
+}

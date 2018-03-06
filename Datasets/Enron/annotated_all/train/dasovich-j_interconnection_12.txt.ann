@@ -1,0 +1,108 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dah? Is he kidding us? Dirk\n\n-----Original Message-----\nFrom: \"Fantz, Donald\" <DIF1@pge.com>@ENRON@EES \nSent: Tuesday, November 30, 1999 8:39 PM\nTo: Cone, Rob\nCc: \"'Dick Smith'\" <dick_smith@csufresno.edu>@ENRON@EES; vanUlden, Dirk; \n\"Hagen, John H\" <JHH4@pge.com>@ENRON@EES; \"Kinert, Robert\" \n<RCK3@pge.com>@ENRON@EES\nSubject: RE: PG&E drawing request\n\n Rob,\nAfter discussion with one of our folks, who has experience with the CEQA\nprocess, we feel that the narrative should provide what you need for our\npart in the CEQA process.  If you need additional information regarding\nthis, please contact Mr. Gaylen Raymond at (559) 263-5239.\nBy the way, do we have a tentative date to meet again for around\nmid-December? I will not be available on Fridays in Dec.\nDon Fantz\n> ----------\n> From:  Cone, Rob[SMTP:Rob_Cone@enron.com]\n> Sent:  Tuesday, November 30, 1999 10:32 AM\n> To:  Fantz, Donald\n> Cc:  'Dick Smith'; vanUlden, Dirk\n> Subject:  PG&E drawing request\n>\n> Don\n>\n> Thank you again for the narrative of the proposed PG&E work on\n> overbuilding the existing overhead line for the new 115kV circuit.  Can I\n> still expect the drawing indicating the routing of the existing line\n> sometime this week?  I need to have this info. to discuss your proposed\n> work with our CEQA consultant.\n>\n> Thanks\n>\n> Rob Cone\n>\n> Project Manager\n> Enron Energy Services\n> 12647 Alcosta Blvd., Suite 500\n> San Ramon, CA 94583\n> Ph:925.543.3701, Fax:925.543.3550\n> Pager:888.397.5826\n>\n> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1289,
+      "end": 1313,
+      "text": ">\n> Thanks\n>\n> Rob Cone\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1313,
+      "end": 1469,
+      "text": ">\n> Project Manager\n> Enron Energy Services\n> 12647 Alcosta Blvd., Suite 500\n> San Ramon, CA 94583\n> Ph:925.543.3701, Fax:925.543.3550\n> Pager:888.397.5826\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 960,
+      "end": 968,
+      "text": ">\n> Don\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 768,
+      "end": 960,
+      "text": "> ----------\n> From:  Cone, Rob[SMTP:Rob_Cone@enron.com]\n> Sent:  Tuesday, November 30, 1999 10:32 AM\n> To:  Fantz, Donald\n> Cc:  'Dick Smith'; vanUlden, Dirk\n> Subject:  PG&E drawing request\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 960,
+      "end": 1473,
+      "text": ">\n> Don\n>\n> Thank you again for the narrative of the proposed PG&E work on\n> overbuilding the existing overhead line for the new 115kV circuit.  Can I\n> still expect the drawing indicating the routing of the existing line\n> sometime this week?  I need to have this info. to discuss your proposed\n> work with our CEQA consultant.\n>\n> Thanks\n>\n> Rob Cone\n>\n> Project Manager\n> Enron Energy Services\n> 12647 Alcosta Blvd., Suite 500\n> San Ramon, CA 94583\n> Ph:925.543.3701, Fax:925.543.3550\n> Pager:888.397.5826\n>\n> ",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 758,
+      "end": 768,
+      "text": "Don Fantz\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 352,
+      "end": 359,
+      "text": "\n Rob,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 352,
+      "end": 768,
+      "text": "\n Rob,\nAfter discussion with one of our folks, who has experience with the CEQA\nprocess, we feel that the narrative should provide what you need for our\npart in the CEQA process.  If you need additional information regarding\nthis, please contact Mr. Gaylen Raymond at (559) 263-5239.\nBy the way, do we have a tentative date to meet again for around\nmid-December? I will not be available on Fridays in Dec.\nDon Fantz\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 29,
+      "text": "Dah? Is he kidding us? Dirk\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 29,
+      "end": 352,
+      "text": "-----Original Message-----\nFrom: \"Fantz, Donald\" <DIF1@pge.com>@ENRON@EES \nSent: Tuesday, November 30, 1999 8:39 PM\nTo: Cone, Rob\nCc: \"'Dick Smith'\" <dick_smith@csufresno.edu>@ENRON@EES; vanUlden, Dirk; \n\"Hagen, John H\" <JHH4@pge.com>@ENRON@EES; \"Kinert, Robert\" \n<RCK3@pge.com>@ENRON@EES\nSubject: RE: PG&E drawing request\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32881033.1075843085139.JavaMail.evans@thyme>",
+      "Date": "Tue, 30 Nov 1999 08:47:00 -0800 (PST)",
+      "From": "dirk.vanulden@enron.com",
+      "To": "rob.cone@enron.com",
+      "Subject": "FW: PG&E drawing request",
+      "Cc": "jeff.dasovich@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jeff.dasovich@enron.com",
+      "X-From": "Dirk vanUlden",
+      "X-To": "Rob Cone",
+      "X-cc": "Jeff Dasovich",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\Interconnection",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_interconnection_12.txt"
+}

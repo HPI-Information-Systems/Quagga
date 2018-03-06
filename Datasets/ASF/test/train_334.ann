@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "I faced a similar issue and had to do two things;\n\n1. Submit Kryo jar with the spark-submit\n2. Set spark.executor.userClassPathFirst true in Spark conf\n\nOn Fri, Nov 18, 2016 at 7:39 PM, chrism <christopher.martensson@cics.se>\nwrote:\n\n> Regardless of the different ways we have tried deploying a jar together\n> with\n> Spark, when running a Spark Streaming job with Kryo as serializer on top of\n> Mesos, we sporadically get the following error (I have truncated a bit):\n>\n> /16/11/18 08:39:10 ERROR OneForOneBlockFetcher: Failed while starting block\n> fetches\n> java.lang.RuntimeException: org.apache.spark.SparkException: Failed to\n> register classes with Kryo\n>   at\n> org.apache.spark.serializer.KryoSerializer.newKryo(KryoSeria\n> lizer.scala:129)\n>   at\n> org.apache.spark.serializer.KryoSerializerInstance.borrowKry\n> o(KryoSerializer.scala:274)\n> ...\n>   at\n> org.apache.spark.serializer.SerializerManager.dataSerializeS\n> tream(SerializerManager.scala:125)\n>   at\n> org.apache.spark.storage.BlockManager$$anonfun$dropFromMemor\n> y$3.apply(BlockManager.scala:1265)\n>   at\n> org.apache.spark.storage.BlockManager$$anonfun$dropFromMemor\n> y$3.apply(BlockManager.scala:1261)\n> ...\n> Caused by: java.lang.ClassNotFoundException: cics.udr.compound_ran_udr\n>   at java.net.URLClassLoader.findClass(URLClassLoader.java:381)\n>   at java.lang.ClassLoader.loadClass(ClassLoader.java:424)/\n>\n> where \"cics.udr.compound_ran_udr\" is a class provided by us in a jar.\n>\n> We know that the jar containing \"cics.udr.compound_ran_udr\" is being\n> deployed and works because it is listed in the \"Environment\" tab in the\n> GUI,\n> and calculations using this class succeed.\n>\n> We have tried the following methods of deploying the jar containing the\n> class\n>  * Through --jars in spark-submit\n>  * Through SparkConf.setJar\n>  * Through spark.driver.extraClassPath and spark.executor.extraClassPath\n>  * By having it as the main jar used by spark-submit\n> with no luck. The logs (see attached) recognize that the jar is being added\n> to the classloader.\n>\n> We have tried registering the class using\n>  * SparkConf.registerKryoClasses.\n>  * spark.kryo.classesToRegister\n> with no luck.\n>\n> We are running on Mesos and the jar has been deployed on every machine on\n> the local file system in the same location.\n>\n> I would be very grateful for any help or ideas :)\n>\n>\n>\n> --\n> View this message in context: http://apache-spark-user-list.\n> 1001560.n3.nabble.com/Sporadic-ClassNotFoundException-with-K\n> ryo-tp28104.html\n> Sent from the Apache Spark User List mailing list archive at Nabble.com.\n>\n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>\n>\n\n\n-- \n\nThanks & regards,\nNirmal\n\nAssociate Technical Lead - Data Technologies Team, WSO2 Inc.\nMobile: +94715779733 <+94%2071%20577%209733>\nBlog: http://nirmalfdo.blogspot.com/\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 153,
+      "text": "I faced a similar issue and had to do two things;\n\n1. Submit Kryo jar with the spark-submit\n2. Set spark.executor.userClassPathFirst true in Spark conf\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 153,
+      "end": 233,
+      "text": "On Fri, Nov 18, 2016 at 7:39 PM, chrism <christopher.martensson@cics.se>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2716,
+      "end": 2746,
+      "text": "-- \n\nThanks & regards,\nNirmal\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2746,
+      "end": 2890,
+      "text": "\nAssociate Technical Lead - Data Technologies Team, WSO2 Inc.\nMobile: +94715779733 <+94%2071%20577%209733>\nBlog: http://nirmalfdo.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 233,
+      "end": 2891,
+      "text": "\n> Regardless of the different ways we have tried deploying a jar together\n> with\n> Spark, when running a Spark Streaming job with Kryo as serializer on top of\n> Mesos, we sporadically get the following error (I have truncated a bit):\n>\n> /16/11/18 08:39:10 ERROR OneForOneBlockFetcher: Failed while starting block\n> fetches\n> java.lang.RuntimeException: org.apache.spark.SparkException: Failed to\n> register classes with Kryo\n>   at\n> org.apache.spark.serializer.KryoSerializer.newKryo(KryoSeria\n> lizer.scala:129)\n>   at\n> org.apache.spark.serializer.KryoSerializerInstance.borrowKry\n> o(KryoSerializer.scala:274)\n> ...\n>   at\n> org.apache.spark.serializer.SerializerManager.dataSerializeS\n> tream(SerializerManager.scala:125)\n>   at\n> org.apache.spark.storage.BlockManager$$anonfun$dropFromMemor\n> y$3.apply(BlockManager.scala:1265)\n>   at\n> org.apache.spark.storage.BlockManager$$anonfun$dropFromMemor\n> y$3.apply(BlockManager.scala:1261)\n> ...\n> Caused by: java.lang.ClassNotFoundException: cics.udr.compound_ran_udr\n>   at java.net.URLClassLoader.findClass(URLClassLoader.java:381)\n>   at java.lang.ClassLoader.loadClass(ClassLoader.java:424)/\n>\n> where \"cics.udr.compound_ran_udr\" is a class provided by us in a jar.\n>\n> We know that the jar containing \"cics.udr.compound_ran_udr\" is being\n> deployed and works because it is listed in the \"Environment\" tab in the\n> GUI,\n> and calculations using this class succeed.\n>\n> We have tried the following methods of deploying the jar containing the\n> class\n>  * Through --jars in spark-submit\n>  * Through SparkConf.setJar\n>  * Through spark.driver.extraClassPath and spark.executor.extraClassPath\n>  * By having it as the main jar used by spark-submit\n> with no luck. The logs (see attached) recognize that the jar is being added\n> to the classloader.\n>\n> We have tried registering the class using\n>  * SparkConf.registerKryoClasses.\n>  * spark.kryo.classesToRegister\n> with no luck.\n>\n> We are running on Mesos and the jar has been deployed on every machine on\n> the local file system in the same location.\n>\n> I would be very grateful for any help or ideas :)\n>\n>\n>\n> --\n> View this message in context: http://apache-spark-user-list.\n> 1001560.n3.nabble.com/Sporadic-ClassNotFoundException-with-K\n> ryo-tp28104.html\n> Sent from the Apache Spark User List mailing list archive at Nabble.com.\n>\n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>\n>\n\n\n-- \n\nThanks & regards,\nNirmal\n\nAssociate Technical Lead - Data Technologies Team, WSO2 Inc.\nMobile: +94715779733 <+94%2071%20577%209733>\nBlog: http://nirmalfdo.blogspot.com/\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_334"
+}

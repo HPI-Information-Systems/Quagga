@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi All - any examples of using solrJ and streaming expressions \navailable?  Like calling UpdateStream from solrJ?\n\nThank you!\n\n-Joe\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 114,
+      "end": 132,
+      "text": "\nThank you!\n\n-Joe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 7,
+      "text": "Hi All ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 134,
+      "text": "Hi All - any examples of using solrJ and streaming expressions \navailable?  Like calling UpdateStream from solrJ?\n\nThank you!\n\n-Joe\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2673"
+}

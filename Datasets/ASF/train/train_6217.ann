@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "this _should_ be OK. I'd expect the new nodes to see that more than\n100 docs have been indexed and do a full sync.\n\nHowever, you can insure this by removing the entire data directory\nfrom the nodes that are down (rm -rf data). They'll\ncome back up, do a full sync and start answering queries only after\nthe full sync is completed.\n\nBest,\nErick\n\nOn Wed, Sep 20, 2017 at 3:00 PM, Joe Heasly <jheasly@llbean.com> wrote:\n> Hello,\n>\n> We have just moved from solr 4.6 master/slave to 6.4.2 SolrCloud.  We have three collections,\neach with a single shard and a varying number of replicas, all kept by an ensemble of three\nzooKeepers (on their own hosts).  As an ecommerce site, our capacity needs vary so we add\nand remove replicas with some frequency.  The basic topology is like this:\n>\n> solr1\n>   |- collection1\n>         |- shard1 - replica1\n>   |- collection2\n>         |- shard1 - replica1\n>   |- collection3\n>         |- shard1 - replica1\n>          .\n>          .\n>          .\n> solrN\n>   |- collection1\n>         |- shard1 - replicaN\n>   |- collection2\n>         |- shard1 - replicaN\n>   |- collection3\n>         |- shard1 - replicaN\n>\n> Where N varies between three and six most of the time.\n>\n> During a recent test, we ran our indexing processes to a set of nodes, and then two nodes\nwere removed from our configuration.  Subsequently the remaining nodes were reindexed, without\nproblems.  The two nodes that had been previously removed (by simply stopping solr on those\nboxes) were brought back into the cluster by starting solr with the appropriate zkHost strings.\n (These were the same zkHosts as when the instances were stopped.)  We found that the indexes\ndid not synch up until we re-indexed the entire cluster.\n>\n> What are we missing?  We need the re-added indexes to synchronize with those already\nactive in the cluster.  If we have to re-index the whole cluster, we risk inconsistent results\nbeing served from the new nodes while indexing is going on.  In reviewing the Reference Guide\nand doing various searches, I haven't found anything that clearly references adding replicas\nto a cluster when the cores already contain data.\n>\n> Thank you for any insights,\n> Joe\n>\n> Joe Heasly, Systems Analyst I\n> L.L.Bean, Inc. ~ Direct Channel Business & Technology Team\n> Office: 207.552.2254\n> Cell:    207.756.9250\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 331,
+      "end": 344,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 345,
+      "text": "this _should_ be OK. I'd expect the new nodes to see that more than\n100 docs have been indexed and do a full sync.\n\nHowever, you can insure this by removing the entire data directory\nfrom the nodes that are down (rm -rf data). They'll\ncome back up, do a full sync and start answering queries only after\nthe full sync is completed.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 345,
+      "end": 417,
+      "text": "On Wed, Sep 20, 2017 at 3:00 PM, Joe Heasly <jheasly@llbean.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 417,
+      "end": 426,
+      "text": "> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2146,
+      "end": 2184,
+      "text": ">\n> Thank you for any insights,\n> Joe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2184,
+      "end": 2326,
+      "text": ">\n> Joe Heasly, Systems Analyst I\n> L.L.Bean, Inc. ~ Direct Channel Business & Technology Team\n> Office: 207.552.2254\n> Cell:    207.756.9250\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 417,
+      "end": 2329,
+      "text": "> Hello,\n>\n> We have just moved from solr 4.6 master/slave to 6.4.2 SolrCloud.  We have three collections,\neach with a single shard and a varying number of replicas, all kept by an ensemble of three\nzooKeepers (on their own hosts).  As an ecommerce site, our capacity needs vary so we add\nand remove replicas with some frequency.  The basic topology is like this:\n>\n> solr1\n>   |- collection1\n>         |- shard1 - replica1\n>   |- collection2\n>         |- shard1 - replica1\n>   |- collection3\n>         |- shard1 - replica1\n>          .\n>          .\n>          .\n> solrN\n>   |- collection1\n>         |- shard1 - replicaN\n>   |- collection2\n>         |- shard1 - replicaN\n>   |- collection3\n>         |- shard1 - replicaN\n>\n> Where N varies between three and six most of the time.\n>\n> During a recent test, we ran our indexing processes to a set of nodes, and then two nodes\nwere removed from our configuration.  Subsequently the remaining nodes were reindexed, without\nproblems.  The two nodes that had been previously removed (by simply stopping solr on those\nboxes) were brought back into the cluster by starting solr with the appropriate zkHost strings.\n (These were the same zkHosts as when the instances were stopped.)  We found that the indexes\ndid not synch up until we re-indexed the entire cluster.\n>\n> What are we missing?  We need the re-added indexes to synchronize with those already\nactive in the cluster.  If we have to re-index the whole cluster, we risk inconsistent results\nbeing served from the new nodes while indexing is going on.  In reviewing the Reference Guide\nand doing various searches, I haven't found anything that clearly references adding replicas\nto a cluster when the cores already contain data.\n>\n> Thank you for any insights,\n> Joe\n>\n> Joe Heasly, Systems Analyst I\n> L.L.Bean, Inc. ~ Direct Channel Business & Technology Team\n> Office: 207.552.2254\n> Cell:    207.756.9250\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6217"
+}

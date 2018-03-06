@@ -1,0 +1,134 @@
+Are there any news regarding Tika 1.15? Maybe it's already ready for
+download somewhere
+
+G.
+
+On Wed, Apr 12, 2017 at 6:57 PM, Allison, Timothy B. <tallison@mitre.org>
+wrote:
+
+> The release candidate for POI was just cut...unfortunately, I think after
+> Nick Burch fixed the 'PolylineTo' issue...thank you, btw, for opening that!
+>
+> That'll be done within a week unless there are surprises.  Once that's
+> out, I have to update a few things, but I'd think we'd have a candidate for
+> Tika a week later, then a week for release.
+>
+> You can get nightly builds here: https://builds.apache.org/
+>
+> Please ask on the POI or Tika users lists for how to get the latest/latest
+> running, and thank you, again, for opening the issue on POI's Bugzilla.
+>
+> Best,
+>
+>            Tim
+>
+> -----Original Message-----
+> From: Gytis Mikuciunas [mailto:gytmkc@gmail.com]
+> Sent: Wednesday, April 12, 2017 1:00 AM
+> To: solr-user@lucene.apache.org
+> Subject: Re: Solr 6.4. Can't index MS Visio vsdx files
+>
+> when 1.15 will be released? maybe you have some beta version and I could
+> test it :)
+>
+> SAX sounds interesting, and from info that I found in google it could
+> solve my issues.
+>
+> On Tue, Apr 11, 2017 at 10:48 PM, Allison, Timothy B. <tallison@mitre.org>
+> wrote:
+>
+> > It depends.  We've been trying to make parsers more, erm, flexible,
+> > but there are some problems from which we cannot recover.
+> >
+> > Tl;dr there isn't a short answer.  :(
+> >
+> > My sense is that DIH/ExtractingDocumentHandler is intended to get
+> > people up and running with Solr easily but it is not really a great
+> > idea for production.  See Erick's gem: https://lucidworks.com/2012/
+> > 02/14/indexing-with-solrj/
+> >
+> > As for the Tika portion... at the very least, Tika _shouldn't_ cause
+> > the ingesting process to crash.  At most, it should fail at the file
+> > level and not cause greater havoc.  In practice, if you're processing
+> > millions of files from the wild, you'll run into bad behavior and need
+> > to defend against permanent hangs, oom, memory leaks.
+> >
+> > Also, at the least, if there's an exception with an embedded file,
+> > Tika should catch it and keep going with the rest of the file.  If
+> > this doesn't happen let us know!  We are aware that some types of
+> > embedded file stream problems were causing parse failures on the
+> > entire file, and we now catch those in Tika 1.15-SNAPSHOT and don't
+> > let them percolate up through the parent file (they're reported in the
+> metadata though).
+> >
+> > Specifically for your stack traces:
+> >
+> > For your initial problem with the missing class exceptions -- I
+> > thought we used to catch those in docx and log them.  I haven't been
+> > able to track this down, though.  I can look more if you have a need.
+> >
+> > For "Caused by: org.apache.poi.POIXMLException: Invalid 'Row_Type'
+> > name 'PolylineTo' ", this problem might go away if we implemented a
+> > pure SAX parser for vsdx.  We just did this for docx and pptx (coming
+> > in 1.15) and these are more robust to variation because they aren't
+> > requiring a match with the ooxml schema.  I haven't looked much at
+> > vsdx, but that _might_ help.
+> >
+> > For "TODO Support v5 Pointers", this isn't supported and would require
+> > contributions.  However, I agree that POI shouldn't throw a Runtime
+> > exception.  Perhaps open an issue in POI, or maybe we should catch
+> > this special example at the Tika level?
+> >
+> > For "Caused by: java.lang.ArrayIndexOutOfBoundsException:", the POI
+> > team _might_ be able to modify the parser to ignore a stream if
+> > there's an exception, but that's often a sign that something needs to
+> > be fixed with the parser.  In short, the solution will come from POI.
+> >
+> > Best,
+> >
+> >              Tim
+> >
+> > -----Original Message-----
+> > From: Gytis Mikuciunas [mailto:gytmkc@gmail.com]
+> > Sent: Tuesday, April 11, 2017 1:56 PM
+> > To: solr-user@lucene.apache.org
+> > Subject: RE: Solr 6.4. Can't index MS Visio vsdx files
+> >
+> > Thanks for your responses.
+> > Are there any posibilities to ignore parsing errors and continue
+> indexing?
+> > because now solr/tika stops parsing whole document if it finds any
+> > exception
+> >
+> > On Apr 11, 2017 19:51, "Allison, Timothy B." <tallison@mitre.org> wrote:
+> >
+> > > You might want to drop a note to the dev or user's list on Apache POI.
+> > >
+> > > I'm not extremely familiar with the vsd(x) portion of our code base.
+> > >
+> > > The first item ("PolylineTo") may be caused by a mismatch btwn your
+> > > doc and the ooxml spec.
+> > >
+> > > The second item appears to be an unsupported feature.
+> > >
+> > > The third item may be an area for improvement within our
+> > > codebase...I can't tell just from the stacktrace.
+> > >
+> > > You'll probably get more helpful answers over on POI.  Sorry, I
+> > > can't help with this...
+> > >
+> > > Best,
+> > >
+> > >            Tim
+> > >
+> > > P.S.
+> > > >  3.1. ooxml-schemas-1.3.jar instead of poi-ooxml-schemas-3.15.jar
+> > >
+> > > You shouldn't need both. Ooxml-schemas-1.3.jar should be a super set
+> > > of poi-ooxml-schemas-3.15.jar
+> > >
+> > >
+> > >
+> >
+>
+

@@ -1,0 +1,36 @@
+Here we go
+https://cwiki.apache.org/confluence/display/solr/Other+Parsers#OtherParsers-FunctionRangeQueryParser
+.
+But it's %100 YAGNI. You'd better tweak search to be more precise.
+
+On Mon, Apr 10, 2017 at 7:12 PM, Ahmet Arslan <iorixxx@yahoo.com.invalid>
+wrote:
+
+> Hi,
+> I remember that this is possible via frange query parser.But I don't have
+> the query string at hand.
+> Ahmet
+> On Monday, April 10, 2017, 9:00:09 PM GMT+3, David Kramer <
+> David.Kramer@shoebuy.com> wrote:
+> I’ve done quite a bit of searching on this.  Pretty much every page I find
+> says it’s a bad idea and won’t work well, but I’ve been asked to at least
+> try it to reduce the number of completely unrelated results returned.  We
+> are not trying to normalize the number, or display it as a percentage, and
+> I understand why those are not mathematically sound.  We are relying on
+> Solr for pagination, so we can’t just filter out low scores from the
+> results.
+>
+> I had assumed that you could use score in the filter query, but that
+> doesn’t appear to be the case.  Is there a special way to reference it, or
+> is there another way to attack the problem?  It seems like something that
+> should be allowed and possible.
+>
+> Thanks.
+>
+
+
+
+-- 
+Sincerely yours
+Mikhail Khludnev
+

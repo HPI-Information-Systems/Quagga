@@ -1,0 +1,49 @@
+Hi all,
+
+I am trying to run FP growth algorithm using spark and scala.sample input
+dataframe is following,
+
++-------------------------------------------------------------------------------------------+
+|productName
+
++-------------------------------------------------------------------------------------------+
+|Apple Iphone 7 128GB Jet Black with
+Facetime
+|Levi’s Blue Slim Fit Jeans- L5112,Rimmel London Lasting Finish Matte by
+Kate Moss 101 Dusky|
+|Iphone 6 Plus (5.5",Limited Stocks, TRA Oman
+Approved)
++-------------------------------------------------------------------------------------------+
+
+Each row contains unique items.
+
+I converted it into rdd like following
+
+val transactions = names.as[String].rdd.map(s =>s.split(","))
+
+val fpg = new FPGrowth().
+  setMinSupport(0.3).
+  setNumPartitions(100)
+
+
+val model = fpg.run(transactions)
+
+But I got error
+
+WARN TaskSetManager: Lost task 2.0 in stage 27.0 (TID 622, localhost):
+org.apache.spark.SparkException:
+Items in a transaction must be unique but got WrappedArray(
+Huawei GR3 Dual Sim 16GB 13MP 5Inch 4G,
+ Huawei G8 Gold 32GB,  4G,
+5.5 Inches, HTC Desire 816 (Dual Sim, 3G, 8GB),
+ Samsung Galaxy S7 Single Sim - 32GB,  4G LTE,
+Gold, Huawei P8 Lite 16GB,  4G LTE, Huawei Y625,
+Samsung Galaxy Note 5 - 32GB,  4G LTE,
+Samsung Galaxy S7 Dual Sim - 32GB)
+
+
+How to solve this?
+
+
+Thanks
+

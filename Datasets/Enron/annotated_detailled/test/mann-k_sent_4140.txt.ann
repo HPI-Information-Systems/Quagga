@@ -1,0 +1,131 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please prepare a bcc on the Siemens letter as indicated below.\n---------------------- Forwarded by Kay Mann/Corp/Enron on 05/18/2001 02:00 \nPM ---------------------------\n   \n\t\n\t\n\tFrom:  Kathleen Carnahan                           05/18/2001 01:49 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron\ncc:  \n\nSubject: Allegheny - Patty Clark's Fax for bcc on Westinghouse letter\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 63,
+      "text": "Please prepare a bcc on the Siemens letter as indicated below.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 99,
+      "end": 107,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 122,
+      "end": 132,
+      "text": "05/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 133,
+      "end": 142,
+      "text": "02:00 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 63,
+      "end": 171,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 05/18/2001 02:00 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 187,
+      "end": 204,
+      "text": "Kathleen Carnahan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 231,
+      "end": 241,
+      "text": "05/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 242,
+      "end": 250,
+      "text": "01:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 258,
+      "end": 266,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 300,
+      "end": 360,
+      "text": "Allegheny - Patty Clark's Fax for bcc on Westinghouse letter",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 171,
+      "end": 361,
+      "text": "   \n\t\n\t\n\tFrom:  Kathleen Carnahan                           05/18/2001 01:49 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron\ncc:  \n\nSubject: Allegheny - Patty Clark's Fax for bcc on Westinghouse letter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 361,
+      "end": 363,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11324986.1075846020422.JavaMail.evans@thyme>",
+      "Date": "Fri, 18 May 2001 07:01:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "suzanne.adams@enron.com",
+      "Subject": "Allegheny - Patty Clark's Fax for bcc on Westinghouse letter",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Suzanne Adams",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_4140.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

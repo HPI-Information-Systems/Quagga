@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nIn our Sink, we are dealing with a system that uses OAuth 2.0. So the in the open() method\nof the Sink we are getting the token and then we initialise the client that we can use in\norder to write from Flink to that API.\n\nIs there a better approach to handle that? \n\nopen() is a lifecycle method which I assume it will be called only once when creating a Sink,\ncorrect? Are there any conditions that might trigger open() to be called not upon creations?\n\nThanks a lot for your help and time.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 499,
+      "text": "Hello,\n\nIn our Sink, we are dealing with a system that uses OAuth 2.0. So the in the open() method\nof the Sink we are getting the token and then we initialise the client that we can use in\norder to write from Flink to that API.\n\nIs there a better approach to handle that? \n\nopen() is a lifecycle method which I assume it will be called only once when creating a Sink,\ncorrect? Are there any conditions that might trigger open() to be called not upon creations?\n\nThanks a lot for your help and time.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1241"
+}

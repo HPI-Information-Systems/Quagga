@@ -1,0 +1,314 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 10/19/2000 06:14 PM \n---------------------------\n\n\n\"Daigh, John\" <JDaigh@utilicorp.com> on 10/19/2000 09:43:45 AM\nTo: \"'Don.Miller@enron.com'\" <Don.Miller@enron.com>\ncc: \"Frantz, Rick\" <RFrantz@utilicorp.com> \nSubject: RE: Aquila Question 10.19.00\n\n\nDon, to be more specific....\n1) Are the units started in parallel or sequence? (Could you please provide\na diagram of the ramp-up sequence to include timing)\n2) How much start up power is required?\n3) Is start up power purchased from Cinergy &/or IPL?  At what tariff rate?\n4) How many Mwh are produced during start up? (May include as part of #1)\n5) How much fuel is burned (MMBTU's) during start up?(May include as part of\n#1)\n\nThanks for your help Don.\nJohn\n-----Original Message-----\nFrom: Daigh, John\nSent: Thursday, October 19, 2000 8:49 AM\nTo: 'Don.Miller@enron.com'\nCc: Frantz, Rick\nSubject: Aquila Question 10.19.00\n\n\nCan all four units at Wheatland be started simultaneously?\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 46,
+      "text": "Don Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 58,
+      "end": 68,
+      "text": "10/19/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 69,
+      "end": 77,
+      "text": "06:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 107,
+      "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 10/19/2000 06:14 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 121,
+      "text": "Daigh, John",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 124,
+      "end": 144,
+      "text": "JDaigh@utilicorp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 149,
+      "end": 159,
+      "text": "10/19/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 160,
+      "end": 171,
+      "text": "09:43:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 178,
+      "end": 198,
+      "text": "Don.Miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 202,
+      "end": 222,
+      "text": "Don.Miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 244,
+      "end": 265,
+      "text": "RFrantz@utilicorp.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 229,
+      "end": 241,
+      "text": "Frantz, Rick",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 277,
+      "end": 305,
+      "text": "RE: Aquila Question 10.19.00",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 107,
+      "end": 306,
+      "text": "\n\n\"Daigh, John\" <JDaigh@utilicorp.com> on 10/19/2000 09:43:45 AM\nTo: \"'Don.Miller@enron.com'\" <Don.Miller@enron.com>\ncc: \"Frantz, Rick\" <RFrantz@utilicorp.com> \nSubject: RE: Aquila Question 10.19.00\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 308,
+      "end": 311,
+      "text": "Don",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 764,
+      "end": 768,
+      "text": "John",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 738,
+      "end": 769,
+      "text": "Thanks for your help Don.\nJohn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 306,
+      "end": 769,
+      "text": "\n\nDon, to be more specific....\n1) Are the units started in parallel or sequence? (Could you please provide\na diagram of the ramp-up sequence to include timing)\n2) How much start up power is required?\n3) Is start up power purchased from Cinergy &/or IPL?  At what tariff rate?\n4) How many Mwh are produced during start up? (May include as part of #1)\n5) How much fuel is burned (MMBTU's) during start up?(May include as part of\n#1)\n\nThanks for your help Don.\nJohn\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 759,
+      "end": 762,
+      "text": "Don",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 802,
+      "end": 813,
+      "text": "Daigh, John",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 830,
+      "end": 846,
+      "text": "October 19, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 847,
+      "end": 854,
+      "text": "8:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 860,
+      "end": 880,
+      "text": "Don.Miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 886,
+      "end": 898,
+      "text": "Frantz, Rick",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 908,
+      "end": 932,
+      "text": "Aquila Question 10.19.00",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 769,
+      "end": 933,
+      "text": "-----Original Message-----\nFrom: Daigh, John\nSent: Thursday, October 19, 2000 8:49 AM\nTo: 'Don.Miller@enron.com'\nCc: Frantz, Rick\nSubject: Aquila Question 10.19.00\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 933,
+      "end": 995,
+      "text": "\n\nCan all four units at Wheatland be started simultaneously?\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 19,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 16,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 19,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 24,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3155763.1075857212126.JavaMail.evans@thyme>",
+      "Date": "Thu, 19 Oct 2000 11:15:00 -0700 (PDT)",
+      "From": "don.miller@enron.com",
+      "To": "benjamin.rogers@enron.com",
+      "Subject": "RE: Aquila Question 10.19.00",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Don Miller",
+      "X-To": "Benjamin Rogers",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_1414.txt"
+}

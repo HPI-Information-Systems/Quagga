@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Can,\n\nFor your first question: you should share more information with us as Rick\nindicated. Do you have any errors, do you have unique ids or not etc?\n\nFor the second one: you should read here:\nhttps://cwiki.apache.org/confluence/display/solr/Spatial+Search and ask\nyour questions if you have any.\n\nKind Regards,\nFurkan KAMACI\n\nOn Thu, Sep 14, 2017 at 1:34 PM, Rick Leir <rleir@leirtech.com> wrote:\n\n> hi Can Ezgi\n> > First of all, i want to use spatial index for my data include polyghons\n> and points. But solr indexed first 18 rows, other rows not indexed.\n>\n> Do all rows have a unique id field?\n>\n> Are there errors in the logfile?\n> cheers -- Rick\n>\n>\n> .\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi Can,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 301,
+      "end": 330,
+      "text": "\nKind Regards,\nFurkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 331,
+      "text": "Hi Can,\n\nFor your first question: you should share more information with us as Rick\nindicated. Do you have any errors, do you have unique ids or not etc?\n\nFor the second one: you should read here:\nhttps://cwiki.apache.org/confluence/display/solr/Spatial+Search and ask\nyour questions if you have any.\n\nKind Regards,\nFurkan KAMACI\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 331,
+      "end": 402,
+      "text": "On Thu, Sep 14, 2017 at 1:34 PM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 402,
+      "end": 417,
+      "text": "\n> hi Can Ezgi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 640,
+      "end": 657,
+      "text": "> cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 402,
+      "end": 668,
+      "text": "\n> hi Can Ezgi\n> > First of all, i want to use spatial index for my data include polyghons\n> and points. But solr indexed first 18 rows, other rows not indexed.\n>\n> Do all rows have a unique id field?\n>\n> Are there errors in the logfile?\n> cheers -- Rick\n>\n>\n> .\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6058"
+}

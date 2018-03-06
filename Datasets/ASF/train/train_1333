@@ -1,0 +1,52 @@
+Hi Emir,
+
+Thanks for your answer.
+However in my case I really need to separate results, because I need to
+treat those resultsets differently.
+
+Thanks.
+
+2017-03-02 15:57 GMT+02:00 Emir Arnautovic <emir.arnautovic@sematext.com>:
+
+> Hi Sergei,
+>
+> Usually you don't want to know which is which, but you do want to have
+> exact matches first. In case of simple queries and depending on your
+> usecase, you can use score to make distinction. If "bolter" matches "bolt"
+> because of some filters, you will need to index it in two fields and boost
+> fields differently to get different score for different matches:
+>
+> code_text_exact:bolt^10000 OR code_text:bolt
+>
+> If you want to use wildcards, you can use similar approach:
+>
+> code_text:bolt^10000 OR code_text:bolt*
+>
+> HTH,
+> Emir
+>
+>
+> On 02.03.2017 14:41, Сергей Твердохлеб wrote:
+>
+>> Hi,
+>>
+>> is there way to separate exact match from wildcard match in solr response?
+>> e.g. there are two documents: {code_text:bolt} and {code_text:bolter}.
+>> When
+>> I search for "bolt" I want to get both results, but somehow grouped, so I
+>> can determine either it was found with exact or non-exact match.
+>>
+>> Thanks.
+>>
+>>
+> --
+> Monitoring * Alerting * Anomaly Detection * Centralized Log Management
+> Solr & Elasticsearch Support * http://sematext.com/
+>
+>
+
+
+-- 
+Regards,
+Sergey Tverdokhleb
+

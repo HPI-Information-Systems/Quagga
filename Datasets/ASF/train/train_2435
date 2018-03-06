@@ -1,0 +1,262 @@
+I'm using Solr 6.4.2.
+
+The JARs from SolrJ which I'm using are also from Solr 6.4.2.
+
+Regards,
+Edwin
+
+
+On 18 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:
+
+> I tested this with the
+>
+> following code
+>
+> SolrRequest req = new QueryRequest(new SolrQuery("*:*"));//create a new
+> req.setBasicAuthCredentials("solr", "SolrRocks");
+> client.setDefaultCollection(COLLECTION);
+> NamedList<Object> res = cluster.getSolrClient().request(req);
+> System.out.println("successful"+ Utils.toJSON(res.asMap(5)));
+>
+> seems to work for me.
+>
+> which version of Solr and SolrJ are you using
+>
+> On Sun, Apr 16, 2017 at 11:40 AM, Zheng Lin Edwin Yeo
+> <edwinyeozl@gmail.com> wrote:
+> > Ok, thank you.
+> >
+> > Regards,
+> > Edwin
+> >
+> > On 15 April 2017 at 08:05, Noble Paul <noble.paul@gmail.com> wrote:
+> >
+> >> I'll test with this and let you know
+> >>
+> >> On Apr 13, 2017 23:06, "Zheng Lin Edwin Yeo" <edwinyeozl@gmail.com>
+> wrote:
+> >>
+> >> > The security.json which I'm using is the default one that is available
+> >> from
+> >> > the Solr Documentation https://cwiki.apache.org/confluence/display/
+> >> > solr/Basic+Authentication+Plugin.
+> >> >
+> >> > {
+> >> > "authentication":{
+> >> >    "blockUnknown": true,
+> >> >    "class":"solr.BasicAuthPlugin",
+> >> >    "credentials":{"solr":"IV0EHq1OnNrj6gvRCwvFwTrZ1+
+> z1oBbnQdiVC3otuq0=
+> >> > Ndd7LKvVBAaZIF0QAVi1ekCfAJXr1GGfLtRUXhgrF8c="}
+> >> > },
+> >> > "authorization":{
+> >> >    "class":"solr.RuleBasedAuthorizationPlugin",
+> >> >    "user-role":{"solr":"admin"},
+> >> >    "permissions":[{"name":"security-edit",
+> >> >                   "role":"admin"}]
+> >> > }}
+> >> >
+> >> >
+> >> > Regards,
+> >> > Edwin
+> >> >
+> >> > On 13 April 2017 at 19:53, Noble Paul <noble.paul@gmail.com> wrote:
+> >> >
+> >> > > That looks good. can you share the security.json (commenting out
+> >> > > anything that's sensitive of course)
+> >> > >
+> >> > > On Wed, Apr 12, 2017 at 5:10 PM, Zheng Lin Edwin Yeo
+> >> > > <edwinyeozl@gmail.com> wrote:
+> >> > > > This is what I get when I run the code.
+> >> > > >
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$
+> >> RemoteSolrException:
+> >> > > Error
+> >> > > > from server at http://localhost:8983/solr/testing: Expected mime
+> >> type
+> >> > > > application/octet-stream but got text/html. <html>
+> >> > > > <head>
+> >> > > > <meta http-equiv="Content-Type" content="text/html;charset=
+> utf-8"/>
+> >> > > > <title>Error 401 require authentication</title>
+> >> > > > </head>
+> >> > > > <body><h2>HTTP ERROR 401</h2>
+> >> > > > <p>Problem accessing /solr/testing/update. Reason:
+> >> > > > <pre>    require authentication</pre></p>
+> >> > > > </body>
+> >> > > > </html>
+> >> > > >
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.
+> >> > > executeMethod(HttpSolrClient.java:578)
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(
+> >> > > HttpSolrClient.java:279)
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(
+> >> > > HttpSolrClient.java:268)
+> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(
+> >> > > SolrRequest.java:149)
+> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.
+> java:106)
+> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.
+> java:71)
+> >> > > > at org.apache.solr.client.solrj.SolrClient.add(SolrClient.
+> java:85)
+> >> > > > at testing.indexing(testing.java:2939)
+> >> > > > at testing.main(testing.java:329)
+> >> > > > Exception in thread "main"
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient$
+> >> RemoteSolrException:
+> >> > > Error
+> >> > > > from server at http://localhost:8983/solr/testing: Expected mime
+> >> type
+> >> > > > application/octet-stream but got text/html. <html>
+> >> > > > <head>
+> >> > > > <meta http-equiv="Content-Type" content="text/html;charset=
+> utf-8"/>
+> >> > > > <title>Error 401 require authentication</title>
+> >> > > > </head>
+> >> > > > <body><h2>HTTP ERROR 401</h2>
+> >> > > > <p>Problem accessing /solr/testing/update. Reason:
+> >> > > > <pre>    require authentication</pre></p>
+> >> > > > </body>
+> >> > > > </html>
+> >> > > >
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.
+> >> > > executeMethod(HttpSolrClient.java:578)
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(
+> >> > > HttpSolrClient.java:279)
+> >> > > > at
+> >> > > > org.apache.solr.client.solrj.impl.HttpSolrClient.request(
+> >> > > HttpSolrClient.java:268)
+> >> > > > at org.apache.solr.client.solrj.SolrRequest.process(
+> >> > > SolrRequest.java:149)
+> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.
+> >> java:484)
+> >> > > > at org.apache.solr.client.solrj.SolrClient.commit(SolrClient.
+> >> java:463)
+> >> > > > at testing.indexing(testing.java:3063)
+> >> > > > at testing.main(testing.java:329)
+> >> > > >
+> >> > > > Regards,
+> >> > > > Edwin
+> >> > > >
+> >> > > >
+> >> > > > On 12 April 2017 at 14:28, Noble Paul <noble.paul@gmail.com>
+> wrote:
+> >> > > >
+> >> > > >> can u paste the stacktrace here
+> >> > > >>
+> >> > > >> On Tue, Apr 11, 2017 at 1:19 PM, Zheng Lin Edwin Yeo
+> >> > > >> <edwinyeozl@gmail.com> wrote:
+> >> > > >> > I found from StackOverflow  that we should declare it
+this way:
+> >> > > >> > http://stackoverflow.com/questions/43335419/using-
+> >> > > >> basicauth-with-solrj-code
+> >> > > >> >
+> >> > > >> >
+> >> > > >> > SolrRequest req = new QueryRequest(new
+> SolrQuery("*:*"));//create
+> >> a
+> >> > > new
+> >> > > >> > request object
+> >> > > >> > req.setBasicAuthCredentials(userName, password);
+> >> > > >> > solrClient.request(req);
+> >> > > >> >
+> >> > > >> > Is that correct?
+> >> > > >> >
+> >> > > >> > For this, the NullPointerException is not coming out,
+but the
+> >> SolrJ
+> >> > is
+> >> > > >> > still not able to get authenticated. I'm still getting
+Error
+> Code
+> >> > 401
+> >> > > >> even
+> >> > > >> > after putting in this code.
+> >> > > >> >
+> >> > > >> > Any advice on which part of the SolrJ code should we
+place this
+> >> code
+> >> > > in?
+> >> > > >> >
+> >> > > >> > Regards,
+> >> > > >> > Edwin
+> >> > > >> >
+> >> > > >> >
+> >> > > >> > On 10 April 2017 at 23:50, Zheng Lin Edwin Yeo <
+> >> > edwinyeozl@gmail.com>
+> >> > > >> wrote:
+> >> > > >> >
+> >> > > >> >> Hi,
+> >> > > >> >>
+> >> > > >> >> I have just set up the Basic Authentication Plugin
+in Solr
+> 6.4.2
+> >> on
+> >> > > >> >> SolrCloud, and I am trying to modify my SolrJ code
+so that the
+> >> code
+> >> > > can
+> >> > > >> go
+> >> > > >> >> through the authentication and do the indexing.
+> >> > > >> >>
+> >> > > >> >> I tried using the following code from the Solr Documentation
+> >> > > >> >> https://cwiki.apache.org/confluence/display/solr/Basic+
+> >> > > Authentication+
+> >> > > >> >> Plugin.
+> >> > > >> >>
+> >> > > >> >> SolrRequest req ;//create a new request object
+> >> > > >> >> req.setBasicAuthCredentials(userName, password);
+> >> > > >> >> solrClient.request(req);
+> >> > > >> >>
+> >> > > >> >> However, the code complains that the req is not
+initialized.
+> >> > > >> >>
+> >> > > >> >> If I initialized it, it will be initialize as null.
+> >> > > >> >>
+> >> > > >> >> SolrRequest req = null;//create a new request object
+> >> > > >> >> req.setBasicAuthCredentials(userName, password);
+> >> > > >> >> solrClient.request(req);
+> >> > > >> >>
+> >> > > >> >> This will caused a null pointer exception.
+> >> > > >> >> Exception in thread "main" java.lang.NullPointerException
+> >> > > >> >>
+> >> > > >> >> How should we go about putting these codes, so that
+the error
+> can
+> >> > be
+> >> > > >> >> prevented?
+> >> > > >> >>
+> >> > > >> >> Regards,
+> >> > > >> >> Edwin
+> >> > > >> >>
+> >> > > >> >>
+> >> > > >>
+> >> > > >>
+> >> > > >>
+> >> > > >> --
+> >> > > >> -----------------------------------------------------
+> >> > > >> Noble Paul
+> >> > > >>
+> >> > >
+> >> > >
+> >> > >
+> >> > > --
+> >> > > -----------------------------------------------------
+> >> > > Noble Paul
+> >> > >
+> >> >
+> >>
+>
+>
+>
+> --
+> -----------------------------------------------------
+> Noble Paul
+>
+

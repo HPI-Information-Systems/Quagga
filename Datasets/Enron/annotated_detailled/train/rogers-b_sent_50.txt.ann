@@ -1,0 +1,322 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Benjamin Rogers/HOU/ECT on 11/30/2000 \n06:42 PM ---------------------------\n\n\n\"Niles, Ray [EQRE]\" <ray.niles@ssmb.com> on 11/30/2000 06:33:31 PM\nTo: \"'Benjamin.Rogers@enron.com'\" <Benjamin.Rogers@enron.com>\ncc:  \nSubject: RE:\n\n\nAny time.  Let me know if you want to be added to our email list.  If you\nhave any feedback or questions, please call. - Ray\n\n\n\n-----Original Message-----\nFrom: Benjamin.Rogers@enron.com [mailto:Benjamin.Rogers@enron.com]\nSent: Thursday, November 30, 2000 6:49 PM\nTo: Niles, Ray [EQRE]\nSubject:\n\n\nRaymond:\nI work at Enron, in our corporate development group and have been through\nmany different analyst reports.  I went through your previous \"The Power\nCurve\" report and enjoyed it thoroughly and recently heard that the second\nversion is out and wanted to get a copy.  If that's possible that would be\ngreat.  Thanks in advance for this request.\nBen Rogers\n(713) 853-87998 Ph.\n(713) 646-8863 Fax\n\n\n - The Power Curve II.pdf\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 51,
+      "text": "Benjamin Rogers",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 73,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 75,
+      "end": 83,
+      "text": "06:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 112,
+      "text": "---------------------- Forwarded by Benjamin Rogers/HOU/ECT on 11/30/2000 \n06:42 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 125,
+      "text": "Niles, Ray",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 135,
+      "end": 153,
+      "text": "ray.niles@ssmb.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 158,
+      "end": 168,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 169,
+      "end": 180,
+      "text": "06:33:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 187,
+      "end": 212,
+      "text": "Benjamin.Rogers@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 216,
+      "end": 241,
+      "text": "Benjamin.Rogers@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 258,
+      "end": 261,
+      "text": "RE:",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 112,
+      "end": 262,
+      "text": "\n\n\"Niles, Ray [EQRE]\" <ray.niles@ssmb.com> on 11/30/2000 06:33:31 PM\nTo: \"'Benjamin.Rogers@enron.com'\" <Benjamin.Rogers@enron.com>\ncc:  \nSubject: RE:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 385,
+      "end": 388,
+      "text": "Ray",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 262,
+      "end": 392,
+      "text": "\n\nAny time.  Let me know if you want to be added to our email list.  If you\nhave any feedback or questions, please call. - Ray\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 425,
+      "end": 450,
+      "text": "Benjamin.Rogers@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 459,
+      "end": 484,
+      "text": "Benjamin.Rogers@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 502,
+      "end": 519,
+      "text": "November 30, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 520,
+      "end": 527,
+      "text": "6:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 532,
+      "end": 542,
+      "text": "Niles, Ray",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 392,
+      "end": 559,
+      "text": "-----Original Message-----\nFrom: Benjamin.Rogers@enron.com [mailto:Benjamin.Rogers@enron.com]\nSent: Thursday, November 30, 2000 6:49 PM\nTo: Niles, Ray [EQRE]\nSubject:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 561,
+      "end": 568,
+      "text": "Raymond",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 911,
+      "end": 921,
+      "text": "Ben Rogers",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 922,
+      "end": 937,
+      "text": "(713) 853-87998",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 942,
+      "end": 956,
+      "text": "(713) 646-8863",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 911,
+      "end": 961,
+      "text": "Ben Rogers\n(713) 853-87998 Ph.\n(713) 646-8863 Fax\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 966,
+      "end": 988,
+      "text": "The Power Curve II.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 963,
+      "end": 989,
+      "text": " - The Power Curve II.pdf\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 559,
+      "end": 989,
+      "text": "\n\nRaymond:\nI work at Enron, in our corporate development group and have been through\nmany different analyst reports.  I went through your previous \"The Power\nCurve\" report and enjoyed it thoroughly and recently heard that the second\nversion is out and wanted to get a copy.  If that's possible that would be\ngreat.  Thanks in advance for this request.\nBen Rogers\n(713) 853-87998 Ph.\n(713) 646-8863 Fax\n\n\n - The Power Curve II.pdf\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 16,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 19,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 21,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 22,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 23,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 24,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1967703.1075857227155.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Nov 2000 10:42:00 -0800 (PST)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "don.miller@enron.com",
+      "Subject": "RE:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Benjamin Rogers",
+      "X-To": "Don Miller",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_3\\Notes Folders\\Sent",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_sent_50.txt"
+}

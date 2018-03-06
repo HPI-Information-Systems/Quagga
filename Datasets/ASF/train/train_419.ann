@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Walter,\nWe have been using G1GC for more than a year now and are very happy with\nit.\n\nThe only flag we have enabled is 'ParallelRefProcEnabled'\n\nOn Jan 23, 2017 3:00 PM, \"Walter Underwood\" <wunder@wunderwood.org> wrote:\n\n> We have a workload with very long queries, and that can drive the CMS\n> collector into using about 20% of the CPU time. So I\u00e2\u20ac\u2122m ready to try G1 on a\n> couple of replicas and see what happens. I\u00e2\u20ac\u2122ve already upgraded to Java 8\n> update 121.\n>\n> I\u00e2\u20ac\u2122ve read these pages:\n>\n> https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector\n> <https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector\n> >\n> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66 <\n> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66>\n>\n> Any updates on recommended settings?\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Walter,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 148,
+      "text": "Hi Walter,\nWe have been using G1GC for more than a year now and are very happy with\nit.\n\nThe only flag we have enabled is 'ParallelRefProcEnabled'\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 148,
+      "end": 223,
+      "text": "On Jan 23, 2017 3:00 PM, \"Walter Underwood\" <wunder@wunderwood.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 835,
+      "end": 934,
+      "text": ">\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 223,
+      "end": 941,
+      "text": "\n> We have a workload with very long queries, and that can drive the CMS\n> collector into using about 20% of the CPU time. So I\u00e2\u20ac\u2122m ready to try G1 on a\n> couple of replicas and see what happens. I\u00e2\u20ac\u2122ve already upgraded to Java 8\n> update 121.\n>\n> I\u00e2\u20ac\u2122ve read these pages:\n>\n> https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector\n> <https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector\n> >\n> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66 <\n> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66>\n>\n> Any updates on recommended settings?\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_419"
+}

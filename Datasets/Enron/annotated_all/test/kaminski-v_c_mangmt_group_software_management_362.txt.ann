@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "This weekend, the Enron Global Information Technologies department will be \ndistributing a new version of the Oracle 8i client.  Due to the mobile \nenvironment of our user base, not all machines will receive the automatic \nupdate.  If you are a user of an Oracle based application and your machine is \nnot available to the network this weekend, you can manually upgrade your \nmachine via the following steps:  \n\n 1) Click on Start - Programs - Utilities \n 2) Then  click on \"Install Oracle 8i Client\".\n\n\nIf you are a user of Microsoft Excel spreadsheets or Microsoft Access \ndatabases that retrieve information from our Oracle databases, you can \nmanually convert your Oracle ODBC connections to the proper drivers via the \nfollowing steps:  \n\n 1) Click on Start - Programs - Utilities\n 2) Then  click on \"Update ODBC Data Source Names to Oracle 8i\".\n\n\nIf you do not see these icons, there is another icon under Start - Programs - \nUtilities called \"Update Start Menu\" that will re-populate your Start Menu.\n\n\nThank you for your co-operation -\nScott Williamson\nDirector, Database Infrastructure\nEnron Global Technology ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1010,
+      "end": 1043,
+      "text": "Thank you for your co-operation -",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1044,
+      "end": 1060,
+      "text": "Scott Williamson",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1061,
+      "end": 1094,
+      "text": "Director, Database Infrastructure",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1095,
+      "end": 1119,
+      "text": "Enron Global Technology ",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1044,
+      "end": 1119,
+      "text": "Scott Williamson\nDirector, Database Infrastructure\nEnron Global Technology ",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 1119,
+      "text": "This weekend, the Enron Global Information Technologies department will be \ndistributing a new version of the Oracle 8i client.  Due to the mobile \nenvironment of our user base, not all machines will receive the automatic \nupdate.  If you are a user of an Oracle based application and your machine is \nnot available to the network this weekend, you can manually upgrade your \nmachine via the following steps:  \n\n 1) Click on Start - Programs - Utilities \n 2) Then  click on \"Install Oracle 8i Client\".\n\n\nIf you are a user of Microsoft Excel spreadsheets or Microsoft Access \ndatabases that retrieve information from our Oracle databases, you can \nmanually convert your Oracle ODBC connections to the proper drivers via the \nfollowing steps:  \n\n 1) Click on Start - Programs - Utilities\n 2) Then  click on \"Update ODBC Data Source Names to Oracle 8i\".\n\n\nIf you do not see these icons, there is another icon under Start - Programs - \nUtilities called \"Update Start Menu\" that will re-populate your Start Menu.\n\n\nThank you for your co-operation -\nScott Williamson\nDirector, Database Infrastructure\nEnron Global Technology ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29801399.1075857028062.JavaMail.evans@thyme>",
+      "Date": "Fri, 17 Mar 2000 08:31:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.users@enron.com",
+      "Subject": "Oracle NT Client Software Upgrade - Manual Upgrade Steps",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron Announcements",
+      "X-To": "All Corp Domain Users",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_9\\Notes Folders\\C:\\Mangmt\\Group\\Software\\Management",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_c_mangmt_group_software_management_362.txt"
+}

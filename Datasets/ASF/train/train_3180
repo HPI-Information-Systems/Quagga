@@ -1,0 +1,22 @@
+So i figured out the issue i was facing
+https://issues.apache.org/jira/browse/SOLR-9803
+
+<updateHandler class="solr.DirectUpdateHandler2">
+    <updateLog>
+      <str name="dir">${solr.ulog.dir:}</str>
+      <int
+name="numVersionBuckets">${solr.ulog.numVersionBuckets:8388608}</int>
+    </updateLog>
+
+
+i had a huge value set fir numVersioinBuckets which was causing memory leak
+as stated in issue 9803
+
+Changing to default value solved my problem
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Overseer-session-expires-on-multiple-collection-creation-tp4331265p4333692.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

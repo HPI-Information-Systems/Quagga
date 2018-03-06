@@ -1,0 +1,33 @@
+First of all, Solr is a _search_ engine, it wasn't built to be an
+RDBMS. Whenever I see this question (paraphrasing) "I've indexed my
+tables and want to use Solr just like a DB" I cringe.
+
+The join performance goes up with the number of unique values for the
+join field. High-cardinality fields are the poorer performing type,
+which is what "initial join implementation is O(nterms)" is
+expressing.
+
+Have you considered either denormalizing the data or using block joins?
+
+Best,
+Erick
+
+On Mon, Sep 25, 2017 at 6:59 PM, Jaimin Patel <reach2jp@gmail.com> wrote:
+> I am facing a performance problem and could narrow it down to a join query
+> that we are using. The join is on a unique field.
+>
+> We have a person profile stored in RDB in a relational way. Like person
+> name table , address table etc. SOLR indexes are build using this RDB
+> data,Each children is stored as separate document with parent's unique id.
+> At query time , unique id of parent is joined with same in child
+> documents({!join
+> to=par_id from=par_id }) to allow search with AND condition for search
+> terms involving children data
+>
+> I am reading similar issues and it says "initial join implementation is
+> O(nterms)".. What does this mean ? I could not find any reference
+> explaining meaning of 0 num_terms_in_field.
+>
+>  Regards,
+> Jai
+

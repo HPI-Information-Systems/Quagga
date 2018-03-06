@@ -1,0 +1,61 @@
+Yes. In general, any expression can be nested inside other expressions or
+stream sources.
+
+On Sat, Jul 1, 2017 at 1:43 AM, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>
+wrote:
+
+> Is it possible to do a Join (Eg: hashJoin, innerJoin) on the facet stream
+> expression?
+>
+> Regards,
+> Edwin
+>
+> On 1 July 2017 at 03:30, Susheel Kumar <susheel2777@gmail.com> wrote:
+>
+> > I doubt it can work.  Why not utilise facet stream expression which use
+> > JSON facet under the cover.
+> >
+> > On Thu, Jun 29, 2017 at 9:44 PM, Zheng Lin Edwin Yeo <
+> edwinyeozl@gmail.com
+> > >
+> > wrote:
+> >
+> > > Hi,
+> > >
+> > > Is it currently possible to include JSON facet inside Solr Streaming?
+> > >
+> > > I am trying out with the following query, which combines JSON facet
+> > > together with the hashJoin from Streaming, but we get the error saying
+> > > that is
+> > > not a proper expression clause.
+> > >
+> > > If it is possible, what should be the correct way to include it?
+> > >
+> > > I'm using Solr 6.5.1.
+> > >
+> > > http://localhost:8983/edm/collection1/stream?expr=hashJoin(
+> > >   search(collection1,
+> > > q="id:1111",
+> > > fq="{!child of="contentType_s:collection1Header"}field1a:*&
+> json.facet={
+> > > TotalAmount1:"sum(totalAmount1)"}",
+> > > fl="field1a,field1b,field1c,field1d",
+> > > sort="field1a asc",
+> > > qt="/export"),
+> > >   hashed=search(collection2,
+> > > q"=id:1111",
+> > > fq="json.facet={
+> > > TotalAmount2:"sum(totalAmount2)"}",
+> > > fl="field2a,field2b,field2c,field2d",
+> > > sort="field2a asc",
+> > > qt="/export"),
+> > >   on="field1a=field1b"
+> > > )&indent=true
+> > >
+> > >
+> > > Regards,
+> > > Edwin
+> > >
+> >
+>
+

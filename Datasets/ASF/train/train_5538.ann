@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all,\n\nI've run into an issue with solr 6.3.0 where the splitshard command placed\nboth replicas of the new smaller shard on the same node, and I was curious\nas to whether the behavior should be expected or not.\n\nWithout having dug into the source code, this is what I've observed\nsplitshard doing until now for a 2 replica setup (1 leader, 1 follower).\nThe leader replica splits into the requested number of new shards on the\nsame node. Then the second copy of the new shards are created on other\nnodes which may or may not be the same node that the original follower\nreplica was located on.\n\nHow does solr determine where to put the new follower replicas, and is\nthere a way to prevent it from colocating the leader and the follower of\nthe new shards?\n\nThanks,\nChris\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 755,
+      "end": 770,
+      "text": "\nThanks,\nChris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 771,
+      "text": "Hi all,\n\nI've run into an issue with solr 6.3.0 where the splitshard command placed\nboth replicas of the new smaller shard on the same node, and I was curious\nas to whether the behavior should be expected or not.\n\nWithout having dug into the source code, this is what I've observed\nsplitshard doing until now for a 2 replica setup (1 leader, 1 follower).\nThe leader replica splits into the requested number of new shards on the\nsame node. Then the second copy of the new shards are created on other\nnodes which may or may not be the same node that the original follower\nreplica was located on.\n\nHow does solr determine where to put the new follower replicas, and is\nthere a way to prevent it from colocating the leader and the follower of\nthe new shards?\n\nThanks,\nChris\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5538"
+}

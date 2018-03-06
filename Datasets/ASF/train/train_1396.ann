@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Emir,Grouping is exactly what I wanted to achieve. Thanks !!Thank\nyou,Vrinda Davda\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-Query-Suggestion-tp4323180p4323743.html\nSent from the Solr - User mailing list archive at Nabble.com.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi Emir,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 86,
+      "text": "Thank\nyou,Vrinda Davda\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 264,
+      "text": "Hi Emir,Grouping is exactly what I wanted to achieve. Thanks !!Thank\nyou,Vrinda Davda\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-Query-Suggestion-tp4323180p4323743.html\nSent from the Solr - User mailing list archive at Nabble.com.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1396"
+}

@@ -1,0 +1,40 @@
+Hi,
+
+Guessing it's a timing issue. Once you started the query the batch 0 did
+not have rows to save or didn't start yet (it's a separate thread) and so
+spark.sql ran once and saved nothing.
+
+You should rather use foreach writer to save results to Hive.
+
+Jacek
+
+On 29 Sep 2017 11:36 am, "HanPan" <panda@thinkingdata.cn> wrote:
+
+> Hi guys,
+>
+>
+>
+>      I’m new to spark structured streaming. I’m using 2.1.0 and my
+> scenario is reading specific topic from kafka and do some data mining
+> tasks, then save the result dataset to hive.
+>
+>      While writing data to hive, somehow it seems like not supported yet
+> and I tried this:
+>
+>    It runs ok, but no result in hive.
+>
+>
+>
+>    Any idea writing the stream result to hive?
+>
+>
+>
+> Thanks
+>
+> Pan
+>
+>
+>
+>
+>
+

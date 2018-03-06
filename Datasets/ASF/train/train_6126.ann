@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "shamik <shamikb@gmail.com> wrote:\n> I've facet.limit=-1 configured for few search types, but facet.mincount is\n> always set as 1. Didn't know that's detrimental to doc values.\n\nIt is if you have a lot (1000+) of unique values in your facet field, especially when you\nhave more than 1 shard. Only ask for the number you need. Same goes for rows BTW.\n\n- Toke Eskildsen\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 349,
+      "end": 367,
+      "text": "\n- Toke Eskildsen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 34,
+      "end": 368,
+      "text": "> I've facet.limit=-1 configured for few search types, but facet.mincount is\n> always set as 1. Didn't know that's detrimental to doc values.\n\nIt is if you have a lot (1000+) of unique values in your facet field, especially when you\nhave more than 1 shard. Only ask for the number you need. Same goes for rows BTW.\n\n- Toke Eskildsen\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 34,
+      "text": "shamik <shamikb@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6126"
+}

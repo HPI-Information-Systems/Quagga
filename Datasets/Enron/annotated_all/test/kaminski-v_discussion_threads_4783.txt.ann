@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Charlene,\n\nThank you for accomodating our request to start Charlie Weldon in his \nrotation in the Research Group earlier than the incoming Associate official \nstart date of August 7th.\n\nAs we discussed, the business purpose for this request is related to the \nproject we have earmarked for him, which is linked to the hurricane season, \nwhich starts in June.\n\nAnd you have my e-handshake that we will release him to participate in the \nregularly organized orientation activities scheduled for August.\n\nWe expect he will report on Wednesday, June 21st.\n\nThanks again,\n\n\n-- Mike Roberts",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Charlene",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 572,
+      "end": 584,
+      "text": "Mike Roberts",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 553,
+      "end": 584,
+      "text": "Thanks again,\n\n\n-- Mike Roberts",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 584,
+      "text": "Charlene,\n\nThank you for accomodating our request to start Charlie Weldon in his \nrotation in the Research Group earlier than the incoming Associate official \nstart date of August 7th.\n\nAs we discussed, the business purpose for this request is related to the \nproject we have earmarked for him, which is linked to the hurricane season, \nwhich starts in June.\n\nAnd you have my e-handshake that we will release him to participate in the \nregularly organized orientation activities scheduled for August.\n\nWe expect he will report on Wednesday, June 21st.\n\nThanks again,\n\n\n-- Mike Roberts",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33185400.1075856803493.JavaMail.evans@thyme>",
+      "Date": "Fri, 11 Feb 2000 07:09:00 -0800 (PST)",
+      "From": "mike.roberts@enron.com",
+      "To": "charlene.jackson@enron.com",
+      "Subject": "Charlie Weldon",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Mike A Roberts",
+      "X-To": "Charlene Jackson",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_7\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_4783.txt"
+}

@@ -1,0 +1,246 @@
+{
+  "wrapper": "plaintext",
+  "text": "Soussan,\n\nThanks for your message. It would be great to meet you when you come to \nHouston.\n I shall be in town on December 7,  flying back from Philly in the morning.\nAssuming that the flight is on schedule, I shall be available for dinner.\nPlease, let me know how I can contact you on Thursday, December the 7th,\nto confirm.\n\nLook forward to meeting you.\n\nVince\n\n\n\n\n\n\n\"Faiz, Soussan\" <faizs@texaco.com> on 11/26/2000 09:04:01 PM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: Houston visit\n\n\nDear Vince,\n\nGreetings from NY and hope that all is well and you had a great\nThanksgiving.  I'll be coming to Houston for 12/6-12/7 and hope you are\navailable either evening for dinner.  Would be great to see you again and\ncatch up with the latest... I really enjoyed my visit last April, your\ninsights, and the risk book you gave me.\n\nI do hope you're available to meet and pls let me know which evening suits\nyou better.\n\nBest,\nSoussan Faiz\nTexaco Inc.\n914 253 4187\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Soussan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 358,
+      "end": 363,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 328,
+      "end": 364,
+      "text": "Look forward to meeting you.\n\nVince\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 370,
+      "text": "Soussan,\n\nThanks for your message. It would be great to meet you when you come to \nHouston.\n I shall be in town on December 7,  flying back from Philly in the morning.\nAssuming that the flight is on schedule, I shall be available for dinner.\nPlease, let me know how I can contact you on Thursday, December the 7th,\nto confirm.\n\nLook forward to meeting you.\n\nVince\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 371,
+      "end": 384,
+      "text": "Faiz, Soussan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 387,
+      "end": 403,
+      "text": "faizs@texaco.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 408,
+      "end": 418,
+      "text": "11/26/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 419,
+      "end": 430,
+      "text": "09:04:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 437,
+      "end": 463,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 467,
+      "end": 493,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 510,
+      "end": 523,
+      "text": "Houston visit",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 370,
+      "end": 524,
+      "text": "\"Faiz, Soussan\" <faizs@texaco.com> on 11/26/2000 09:04:01 PM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: Houston visit\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 531,
+      "end": 536,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 526,
+      "end": 537,
+      "text": "Dear Vince,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 950,
+      "end": 968,
+      "text": "Best,\nSoussan Faiz",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 956,
+      "end": 968,
+      "text": "Soussan Faiz",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 969,
+      "end": 980,
+      "text": "Texaco Inc.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 981,
+      "end": 993,
+      "text": "914 253 4187",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 969,
+      "end": 994,
+      "text": "Texaco Inc.\n914 253 4187\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 524,
+      "end": 995,
+      "text": "\n\nDear Vince,\n\nGreetings from NY and hope that all is well and you had a great\nThanksgiving.  I'll be coming to Houston for 12/6-12/7 and hope you are\navailable either evening for dinner.  Would be great to see you again and\ncatch up with the latest... I really enjoyed my visit last April, your\ninsights, and the risk book you gave me.\n\nI do hope you're available to meet and pls let me know which evening suits\nyou better.\n\nBest,\nSoussan Faiz\nTexaco Inc.\n914 253 4187\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 18,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 16,
+      "target": 17,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 16,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 13,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17583060.1075856256365.JavaMail.evans@thyme>",
+      "Date": "Mon, 27 Nov 2000 03:09:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "faizs@texaco.com",
+      "Subject": "Re: Houston visit",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"Faiz, Soussan\" <faizs@texaco.com> @ ENRON",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_3009.txt"
+}

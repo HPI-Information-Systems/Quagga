@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "I did use this class using batch file (from Windows server), but it still does not remove anything.\nI sent number of snapshots to keep as 3, but I have more in my folder.\n\n-----Original Message-----\nFrom: Xie, Sean [mailto:Sean.Xie@finra.org]\nSent: Sunday, July 9, 2017 7:33 PM\nTo: solr-user@lucene.apache.org\nSubject: Re: ZooKeeper transaction logs\n\nYou can try run purge manually see if it is working: org.apache.zookeeper.server.PurgeTxnLog.\n\nAnd use a cron job to do clean up.\n\n\nOn 7/9/17, 11:07 AM, \"Avi Steiner\" <asteiner@varonis.com> wrote:\n\n    Hello\n\n    I'm using Zookeeper 3.4.6\n\n    The ZK log data folder keeps growing with transaction logs files (log.*).\n\n    I set the following in zoo.cfg:\n    autopurge.purgeInterval=1\n    autopurge.snapRetainCount=3\n    dataDir=..\\\\data\n\n    Per ZK log, it reads those parameters:\n\n    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount\nset to 3\n    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval\nset to 1\n\n    It also says that cleanup process is running:\n\n    2017-07-09 17:44:59,792 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@138]\n- Purge task started.\n    2017-07-09 17:44:59,823 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@144]\n- Purge task completed.\n\n    But actually nothing is deleted.\n    Every service restart, new file is created.\n\n    The only parameter I managed to change is preAllocSize, which means the minimum size per\nfile. The default is 64MB. I changed it to 10KB only for watching the effect.\n\n\n    ________________________________\n    This email and any attachments thereto may contain private, confidential, and privileged\nmaterial for the sole use of the intended recipient. Any review, copying, or distribution\nof this email (or any attachments thereto) by others is strictly prohibited. If you are not\nthe intended recipient, please contact the sender immediately and permanently delete the original\nand any copies of this email and any attachments thereto.\n\n\n\nConfidentiality Notice::  This email, including attachments, may include non-public, proprietary,\nconfidential or legally privileged information.  If you are not an intended recipient or an\nauthorized agent of an intended recipient, you are hereby notified that any dissemination,\ndistribution or copying of the information contained in or transmitted with this e-mail is\nunauthorized and strictly prohibited.  If you have received this email in error, please notify\nthe sender by replying to this message and permanently delete this e-mail, its attachments,\nand any copies of it immediately.  You should not retain, copy or use this e-mail or any attachment\nfor any purpose, nor disclose all or any part of the contents to any other person. Thank you.\n________________________________\nThis email and any attachments thereto may contain private, confidential, and privileged material\nfor the sole use of the intended recipient. Any review, copying, or distribution of this email\n(or any attachments thereto) by others is strictly prohibited. If you are not the intended\nrecipient, please contact the sender immediately and permanently delete the original and any\ncopies of this email and any attachments thereto.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 172,
+      "text": "I did use this class using batch file (from Windows server), but it still does not remove anything.\nI sent number of snapshots to keep as 3, but I have more in my folder.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 172,
+      "end": 350,
+      "text": "-----Original Message-----\nFrom: Xie, Sean [mailto:Sean.Xie@finra.org]\nSent: Sunday, July 9, 2017 7:33 PM\nTo: solr-user@lucene.apache.org\nSubject: Re: ZooKeeper transaction logs\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 350,
+      "end": 483,
+      "text": "\nYou can try run purge manually see if it is working: org.apache.zookeeper.server.PurgeTxnLog.\n\nAnd use a cron job to do clean up.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 483,
+      "end": 548,
+      "text": "On 7/9/17, 11:07 AM, \"Avi Steiner\" <asteiner@varonis.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 548,
+      "end": 559,
+      "text": "\n    Hello\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 548,
+      "end": 3284,
+      "text": "\n    Hello\n\n    I'm using Zookeeper 3.4.6\n\n    The ZK log data folder keeps growing with transaction logs files (log.*).\n\n    I set the following in zoo.cfg:\n    autopurge.purgeInterval=1\n    autopurge.snapRetainCount=3\n    dataDir=..\\\\data\n\n    Per ZK log, it reads those parameters:\n\n    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount\nset to 3\n    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval\nset to 1\n\n    It also says that cleanup process is running:\n\n    2017-07-09 17:44:59,792 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@138]\n- Purge task started.\n    2017-07-09 17:44:59,823 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@144]\n- Purge task completed.\n\n    But actually nothing is deleted.\n    Every service restart, new file is created.\n\n    The only parameter I managed to change is preAllocSize, which means the minimum size per\nfile. The default is 64MB. I changed it to 10KB only for watching the effect.\n\n\n    ________________________________\n    This email and any attachments thereto may contain private, confidential, and privileged\nmaterial for the sole use of the intended recipient. Any review, copying, or distribution\nof this email (or any attachments thereto) by others is strictly prohibited. If you are not\nthe intended recipient, please contact the sender immediately and permanently delete the original\nand any copies of this email and any attachments thereto.\n\n\n\nConfidentiality Notice::  This email, including attachments, may include non-public, proprietary,\nconfidential or legally privileged information.  If you are not an intended recipient or an\nauthorized agent of an intended recipient, you are hereby notified that any dissemination,\ndistribution or copying of the information contained in or transmitted with this e-mail is\nunauthorized and strictly prohibited.  If you have received this email in error, please notify\nthe sender by replying to this message and permanently delete this e-mail, its attachments,\nand any copies of it immediately.  You should not retain, copy or use this e-mail or any attachment\nfor any purpose, nor disclose all or any part of the contents to any other person. Thank you.\n________________________________\nThis email and any attachments thereto may contain private, confidential, and privileged material\nfor the sole use of the intended recipient. Any review, copying, or distribution of this email\n(or any attachments thereto) by others is strictly prohibited. If you are not the intended\nrecipient, please contact the sender immediately and permanently delete the original and any\ncopies of this email and any attachments thereto.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4672"
+}

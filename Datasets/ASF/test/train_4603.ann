@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi All,\n\nI am trying to create a DataSet from DataFrame, where dataframe has been\ncreated successfully, and using the same bean I am trying to create dataset.\n\nBut when I am running it, Dataframe is created as expected. I am able to\nprint the content as well. But not the dataset. The DataSet is having only\none column populated with Person object blob and rest all are null.\n\nI am using Java Api not scala\n\nList<Person> data = new ArrayList<>();\n    Calendar cal = Calendar.getInstance();\n    long time = cal.getTime().getTime();\n    data.add(new Person( \"0\",0,100L, new Timestamp(time)));\n    data.add(new Person( \"1\",1,101L, new Timestamp(time)));\n\n    JavaRDD<Person> rdd = (JavaRDD<Person>)jsc().parallelize(data);\n\n    SQLContext sqlContext = SQLContext.getOrCreate(jsc().sc());\n\n    DataFrame df = sqlContext.createDataFrame(rdd,Person.class);\n\n\n    df.show();\n    Encoder<Person> es = Encoders.bean(Person.class);\n\n    Dataset<Person> dsi = new Dataset<>(sqlContext,df.logicalPlan(),es);\n\n    //Dataset<Person> dsi = df.as(es);\n\n\n    dsi.printSchema();\n    dsi.show()\n\nAnd\n\npublic class Person  implements Serializable{\n\nString id;\nInteger partition;\nLong offset;\nTimestamp eventTime;\n\npublic Person() {\n}\n\npublic Person(String id, Integer partition, Long offset, Timestamp eventTime) {\n    this.id = id;\n    this.partition = partition;\n    this.offset = offset;\n    this.eventTime = eventTime;\n}\n\npublic String getId() {\n    return id;\n}\n\npublic void setId(String id) {\n    this.id = id;\n}\n\npublic Integer getPartition() {\n    return partition;\n}\n\npublic void setPartition(Integer partition) {\n    this.partition = partition;\n}\n\npublic Long getOffset() {\n    return offset;\n}\n\npublic void setOffset(Long offset) {\n\n\n    this.offset = offset;\n}\n\npublic Timestamp getEventTime() {\n    return eventTime;\n}\n\npublic void setEventTime(Timestamp eventTime) {\n    this.eventTime = eventTime;\n}\n}\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1898,
+      "text": "Hi All,\n\nI am trying to create a DataSet from DataFrame, where dataframe has been\ncreated successfully, and using the same bean I am trying to create dataset.\n\nBut when I am running it, Dataframe is created as expected. I am able to\nprint the content as well. But not the dataset. The DataSet is having only\none column populated with Person object blob and rest all are null.\n\nI am using Java Api not scala\n\nList<Person> data = new ArrayList<>();\n    Calendar cal = Calendar.getInstance();\n    long time = cal.getTime().getTime();\n    data.add(new Person( \"0\",0,100L, new Timestamp(time)));\n    data.add(new Person( \"1\",1,101L, new Timestamp(time)));\n\n    JavaRDD<Person> rdd = (JavaRDD<Person>)jsc().parallelize(data);\n\n    SQLContext sqlContext = SQLContext.getOrCreate(jsc().sc());\n\n    DataFrame df = sqlContext.createDataFrame(rdd,Person.class);\n\n\n    df.show();\n    Encoder<Person> es = Encoders.bean(Person.class);\n\n    Dataset<Person> dsi = new Dataset<>(sqlContext,df.logicalPlan(),es);\n\n    //Dataset<Person> dsi = df.as(es);\n\n\n    dsi.printSchema();\n    dsi.show()\n\nAnd\n\npublic class Person  implements Serializable{\n\nString id;\nInteger partition;\nLong offset;\nTimestamp eventTime;\n\npublic Person() {\n}\n\npublic Person(String id, Integer partition, Long offset, Timestamp eventTime) {\n    this.id = id;\n    this.partition = partition;\n    this.offset = offset;\n    this.eventTime = eventTime;\n}\n\npublic String getId() {\n    return id;\n}\n\npublic void setId(String id) {\n    this.id = id;\n}\n\npublic Integer getPartition() {\n    return partition;\n}\n\npublic void setPartition(Integer partition) {\n    this.partition = partition;\n}\n\npublic Long getOffset() {\n    return offset;\n}\n\npublic void setOffset(Long offset) {\n\n\n    this.offset = offset;\n}\n\npublic Timestamp getEventTime() {\n    return eventTime;\n}\n\npublic void setEventTime(Timestamp eventTime) {\n    this.eventTime = eventTime;\n}\n}\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4603"
+}

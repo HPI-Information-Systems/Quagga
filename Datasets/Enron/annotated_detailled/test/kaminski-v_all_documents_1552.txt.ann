@@ -1,0 +1,308 @@
+{
+  "wrapper": "plaintext",
+  "text": "Martin,\n\nAll other things equal, I would prefer March 2nd as the following Friday is \nthe beginning of spring break for HISD.   Can you check with Racicot and \nFallon?\n\n--Stinson\n\n---------------------- Forwarded by Stinson Gibner/HOU/ECT on 02/12/2001 \n11:10 AM ---------------------------\n\n\nNick Bambos <bambos@stanford.edu> on 02/09/2001 11:33:33 AM\nTo: Stinson.Gibner@enron.com\ncc: gappy@stanford.edu, cope@csli.stanford.edu \nSubject: Re: visit to Houston\n\n\nHi Stinson,\n\nEventually, the team here (Giuseppe, Eric, myself) has converged to two\npossible dates to propose for a visit:\n\n1) Friday, March 2\n2) Friday, March 9\n\nHow do these look on your side?\n\nWe'll structure the agenda immediately after we fix the date.\n\nI look forward to seeing you again.\n\nBest,\nNick\n\nStinson.Gibner@enron.com wrote:\n>\n> Nick,\n>\n> I hope things are going well and you are not staying too busy.  We should\n> start planning for your next trip to Houston, as I'm sure your schedule\n> will be getting full very soon.     Perhaps you could give the people in\n> Enron Broadband an overview of the areas of interest within your research\n> group.   I'm sure we could also benefit from you views of how the current\n> technology is evolving.\n>\n> Are there certain dates which would potentially work for you?   Please let\n> me know by email  or give me a call at 713 853 4748.\n>\n> Looking forward to talking with you.\n>\n> --Stinson\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Martin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 171,
+      "end": 178,
+      "text": "Stinson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 169,
+      "end": 179,
+      "text": "--Stinson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 180,
+      "text": "Martin,\n\nAll other things equal, I would prefer March 2nd as the following Friday is \nthe beginning of spring break for HISD.   Can you check with Racicot and \nFallon?\n\n--Stinson\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 216,
+      "end": 230,
+      "text": "Stinson Gibner",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 242,
+      "end": 252,
+      "text": "02/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 254,
+      "end": 262,
+      "text": "11:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 180,
+      "end": 291,
+      "text": "---------------------- Forwarded by Stinson Gibner/HOU/ECT on 02/12/2001 \n11:10 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 293,
+      "end": 304,
+      "text": "Nick Bambos",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 306,
+      "end": 325,
+      "text": "bambos@stanford.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 330,
+      "end": 340,
+      "text": "02/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 341,
+      "end": 352,
+      "text": "11:33:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 357,
+      "end": 381,
+      "text": "Stinson.Gibner@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 386,
+      "end": 404,
+      "text": "gappy@stanford.edu",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 406,
+      "end": 428,
+      "text": "cope@csli.stanford.edu",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 439,
+      "end": 459,
+      "text": "Re: visit to Houston",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 291,
+      "end": 460,
+      "text": "\n\nNick Bambos <bambos@stanford.edu> on 02/09/2001 11:33:33 AM\nTo: Stinson.Gibner@enron.com\ncc: gappy@stanford.edu, cope@csli.stanford.edu \nSubject: Re: visit to Houston\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 465,
+      "end": 472,
+      "text": "Stinson",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 462,
+      "end": 474,
+      "text": "Hi Stinson,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 765,
+      "end": 769,
+      "text": "Nick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 759,
+      "end": 770,
+      "text": "Best,\nNick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 460,
+      "end": 771,
+      "text": "\n\nHi Stinson,\n\nEventually, the team here (Giuseppe, Eric, myself) has converged to two\npossible dates to propose for a visit:\n\n1) Friday, March 2\n2) Friday, March 9\n\nHow do these look on your side?\n\nWe'll structure the agenda immediately after we fix the date.\n\nI look forward to seeing you again.\n\nBest,\nNick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 771,
+      "end": 795,
+      "text": "Stinson.Gibner@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 771,
+      "end": 803,
+      "text": "Stinson.Gibner@enron.com wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 807,
+      "end": 811,
+      "text": "Nick",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1399,
+      "end": 1406,
+      "text": "Stinson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1354,
+      "end": 1407,
+      "text": "> Looking forward to talking with you.\n>\n> --Stinson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 803,
+      "end": 1407,
+      "text": ">\n> Nick,\n>\n> I hope things are going well and you are not staying too busy.  We should\n> start planning for your next trip to Houston, as I'm sure your schedule\n> will be getting full very soon.     Perhaps you could give the people in\n> Enron Broadband an overview of the areas of interest within your research\n> group.   I'm sure we could also benefit from you views of how the current\n> technology is evolving.\n>\n> Are there certain dates which would potentially work for you?   Please let\n> me know by email  or give me a call at 713 853 4748.\n>\n> Looking forward to talking with you.\n>\n> --Stinson\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 25,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 26,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16058917.1075856219439.JavaMail.evans@thyme>",
+      "Date": "Mon, 12 Feb 2001 03:07:00 -0800 (PST)",
+      "From": "stinson.gibner@enron.com",
+      "To": "martin.lin@enron.com, vince.kaminski@enron.com",
+      "Subject": "Re: visit to Houston",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stinson Gibner",
+      "X-To": "Martin Lin, Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_1552.txt"
+}

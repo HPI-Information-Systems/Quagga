@@ -1,0 +1,166 @@
+It's depends on programming style ,I would like to say setup few rules to
+avoid complex code in scala , if needed ask programmer to add proper
+comments.
+
+
+Regards,
+Vaquar khan
+
+On Jun 8, 2017 4:17 AM, "JB Data" <jbdata31@gmail.com> wrote:
+
+> Java is Object langage borned to Data, Python is Data langage borned to
+> Objects or else... Eachone has its owns uses.
+>
+>
+>
+> @JBD <http://jbigdata.fr>
+>
+>
+> 2017-06-08 8:44 GMT+02:00 Jörn Franke <jornfranke@gmail.com>:
+>
+>> A slight advantage of Java is also the tooling that exist around it -
+>> better support by build tools and plugins, advanced static code analysis
+>> (security, bugs, performance) etc.
+>>
+>> On 8. Jun 2017, at 08:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>
+>> wrote:
+>>
+>> What I like about Scala is that it is less ceremonial compared to Java.
+>> Java users claim that Scala is built on Java so the error tracking is very
+>> difficult. Also Scala sits on top of Java and that makes it virtually
+>> depending on Java.
+>>
+>> For me the advantage of Scala is its simplicity and compactness. I can
+>> write a Spark streaming code in Sala pretty fast or import massive RDBMS
+>> table into Hive and table of my design equally very fast using Scala.
+>>
+>> I don't know may be I cannot be bothered writing 100 lines of Java for a
+>> simple query from a table :)
+>>
+>> Dr Mich Talebzadeh
+>>
+>>
+>>
+>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw
+>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*
+>>
+>>
+>>
+>> http://talebzadehmich.wordpress.com
+>>
+>>
+>> *Disclaimer:* Use it at your own risk. Any and all responsibility for
+>> any loss, damage or destruction of data or any other property which may
+>> arise from relying on this email's technical content is explicitly
+>> disclaimed. The author will in no case be liable for any monetary damages
+>> arising from such loss, damage or destruction.
+>>
+>>
+>>
+>> On 8 June 2017 at 00:11, Matt Tenenbaum <matt.tenenbaum@rockyou.com>
+>> wrote:
+>>
+>>> A lot depends on your context as well. If I'm using Spark _for
+>>> analysis_, I frequently use python; it's a starting point, from which I can
+>>> then leverage pandas, matplotlib/seaborn, and other powerful tools
+>>> available on top of python.
+>>>
+>>> If the Spark outputs are the ends themselves, rather than the means to
+>>> further exploration, Scala still feels like the "first class"
+>>> language---most thorough feature set, best debugging support, etc.
+>>>
+>>> More crudely: if the eventual goal is a dataset, I tend to prefer Scala;
+>>> if it's a visualization or some summary values, I tend to prefer Python.
+>>>
+>>> Of course, I also agree that this is more theological than technical.
+>>> Appropriately size your grains of salt.
+>>>
+>>> Cheers
+>>> -mt
+>>>
+>>> On Wed, Jun 7, 2017 at 12:39 PM, Bryan Jeffrey <bryan.jeffrey@gmail.com>
+>>> wrote:
+>>>
+>>>> Mich,
+>>>>
+>>>> We use Scala for a large project.  On our team we've set a few
+>>>> standards to ensure readability (we try to avoid excessive use of tuples,
+>>>> use named functions, etc.)  Given these constraints, I find Scala to be
+>>>> very readable, and far easier to use than Java.  The Lambda functionality
+>>>> of Java provides a lot of similar features, but the amount of typing
+>>>> required to set down a small function is excessive at best!
+>>>>
+>>>> Regards,
+>>>>
+>>>> Bryan Jeffrey
+>>>>
+>>>> On Wed, Jun 7, 2017 at 12:51 PM, Jörn Franke <jornfranke@gmail.com>
+>>>> wrote:
+>>>>
+>>>>> I think this is a religious question ;-)
+>>>>> Java is often underestimated, because people are not aware of its
+>>>>> lambda functionality which makes the code very readable. Scala - it depends
+>>>>> who programs it. People coming with the normal Java background write
+>>>>> Java-like code in scala which might not be so good. People from a
+>>>>> functional background write it more functional like - i.e. You have a
+lot
+>>>>> of things in one line of code which can be a curse even for other
+>>>>> functional programmers, especially if the application is distributed
+as in
+>>>>> the case of Spark. Usually no comment is provided and you have - even
+as a
+>>>>> functional programmer - to do a lot of drill down. Python is somehow
+>>>>> similar, but since it has no connection with Java you do not have these
+>>>>> extremes. There it depends more on the community (e.g. Medical, financials)
+>>>>> and skills of people how the code look likes.
+>>>>> However the difficulty comes with the distributed applications behind
+>>>>> Spark which may have unforeseen side effects if the users do not know
+this,
+>>>>> ie if they have never been used to parallel programming.
+>>>>>
+>>>>> On 7. Jun 2017, at 17:20, Mich Talebzadeh <mich.talebzadeh@gmail.com>
+>>>>> wrote:
+>>>>>
+>>>>>
+>>>>> Hi,
+>>>>>
+>>>>> I am a fan of Scala and functional programming hence I prefer Scala.
+>>>>>
+>>>>> I had a discussion with a hardcore Java programmer and a data
+>>>>> scientist who prefers Python.
+>>>>>
+>>>>> Their view is that in a collaborative work using Scala programming it
+>>>>> is almost impossible to understand someone else's Scala code.
+>>>>>
+>>>>> Hence I was wondering how much truth is there in this statement. Given
+>>>>> that Spark uses Scala as its core development language, what is the general
+>>>>> view on the use of Scala, Python or Java?
+>>>>>
+>>>>> Thanks,
+>>>>>
+>>>>> Dr Mich Talebzadeh
+>>>>>
+>>>>>
+>>>>>
+>>>>> LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw
+>>>>> <https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*
+>>>>>
+>>>>>
+>>>>>
+>>>>> http://talebzadehmich.wordpress.com
+>>>>>
+>>>>>
+>>>>> *Disclaimer:* Use it at your own risk. Any and all responsibility for
+>>>>> any loss, damage or destruction of data or any other property which may
+>>>>> arise from relying on this email's technical content is explicitly
+>>>>> disclaimed. The author will in no case be liable for any monetary damages
+>>>>> arising from such loss, damage or destruction.
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>
+

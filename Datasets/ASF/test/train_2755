@@ -1,0 +1,30 @@
+Hello all,
+
+I would like to bring to your attention the (long overdue) release of a new
+version of TensorFrames. Thank you to all people who have reported some
+packaging and installation issues. This release fixes a large number of
+performance and stability problems, and brings a few improvements.
+
+As an example, following this notebook [1], you can distribute the
+classification of images using Spark, TensorFlow and the Inception V3 model
+from google. It is published as a Databricks notebook and it has been
+tested on Jupyter as well.
+
+What is TensorFrames?
+TensorFrames (TensorFlow on Spark Dataframes) lets you manipulate Spark's
+DataFrames with TensorFlow programs.
+
+Spark package:
+https://spark-packages.org/package/databricks/tensorframes
+
+Release notes:
+https://github.com/databricks/tensorframes/releases/tag/v0.2.8
+
+Best regards
+
+Tim Hunter
+
+
+[1]
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5181772898130619/2927463166045304/1282150081618649/latest.html
+

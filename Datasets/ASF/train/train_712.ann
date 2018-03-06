@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nit is possible to use BlobStore & Config API with enabled.runtime.lib=true to add custom\ntoken filters?\nI tried, but it doesn't work.\n\n1. Uploaded jar lucene-analyzers-morfologik-6.4.0.jar file to blob store .system with name\nlucene-analyzers-morfologik-6.4.0\n\n2. Add runtime library {\"add-runtimelib\": { \"name\":\"lucene-analyzers-morfologik-6.4.0\", \"version\":1\n}}\n\n3. Create custom field type:\ncurl -X POST -H 'Content-type:application/json' --data-binary '{\n  \"add-field-type\" : {\n     \"name\":\"txt_sk_lemma\",\n     \"class\":\"solr.TextField\",\n     \"positionIncrementGap\":\"100\",\n     \"analyzer\" : {\n        \"tokenizer\":{ \n           \"class\":\"solr.StandardTokenizerFactory\" },\n        \"filters\":[\n           {\n               \"class\":\"solr.SynonymFilterFactory\",\n               \"synonyms\":\"synonyms.txt\",\n               \"ignoreCase\":true,\n               \"expand\":false\n           },\n           {\n               \"class\":\"solr.StopFilterFactory\",\n               \"ignoreCase\":true,\n               \"words\":\"lang/stopwords_sk.txt\"\n           },\n           {\n               \"class\":\"solr.LowerCaseFilterFactory\"\n           },\n           {\n               \"class\":\"solr.KeywordMarkerFilterFactory\",\n               \"protected\":\"protwords.txt\"\n           },\n           {\n               \"runtimeLib\":true,\n               \"class\":\"org.apache.lucene.analysis.morfologik.MorfologikFilterFactory\",\n               \"dictionary\":\"morfologik/stemming/sk/sk.dict\"\n           }\n        ]}}\n}' http://localhost:8983/solr/default/schema\n\nI get error\n\n\"errorMessages\":[\"Plugin init failure for [schema.xml] fieldType\\nPlugin init failure for\n[schema.xml] analyzer/filter: Error loading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\\nError\nloading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\\norg.apache.lucene.analysis.morfologik.MorfologikFilterFactory\\n\"\n\n\nthanks, miso\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1884,
+      "end": 1898,
+      "text": "\nthanks, miso\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1899,
+      "text": "Hi,\n\nit is possible to use BlobStore & Config API with enabled.runtime.lib=true to add custom\ntoken filters?\nI tried, but it doesn't work.\n\n1. Uploaded jar lucene-analyzers-morfologik-6.4.0.jar file to blob store .system with name\nlucene-analyzers-morfologik-6.4.0\n\n2. Add runtime library {\"add-runtimelib\": { \"name\":\"lucene-analyzers-morfologik-6.4.0\", \"version\":1\n}}\n\n3. Create custom field type:\ncurl -X POST -H 'Content-type:application/json' --data-binary '{\n  \"add-field-type\" : {\n     \"name\":\"txt_sk_lemma\",\n     \"class\":\"solr.TextField\",\n     \"positionIncrementGap\":\"100\",\n     \"analyzer\" : {\n        \"tokenizer\":{ \n           \"class\":\"solr.StandardTokenizerFactory\" },\n        \"filters\":[\n           {\n               \"class\":\"solr.SynonymFilterFactory\",\n               \"synonyms\":\"synonyms.txt\",\n               \"ignoreCase\":true,\n               \"expand\":false\n           },\n           {\n               \"class\":\"solr.StopFilterFactory\",\n               \"ignoreCase\":true,\n               \"words\":\"lang/stopwords_sk.txt\"\n           },\n           {\n               \"class\":\"solr.LowerCaseFilterFactory\"\n           },\n           {\n               \"class\":\"solr.KeywordMarkerFilterFactory\",\n               \"protected\":\"protwords.txt\"\n           },\n           {\n               \"runtimeLib\":true,\n               \"class\":\"org.apache.lucene.analysis.morfologik.MorfologikFilterFactory\",\n               \"dictionary\":\"morfologik/stemming/sk/sk.dict\"\n           }\n        ]}}\n}' http://localhost:8983/solr/default/schema\n\nI get error\n\n\"errorMessages\":[\"Plugin init failure for [schema.xml] fieldType\\nPlugin init failure for\n[schema.xml] analyzer/filter: Error loading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\\nError\nloading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\\norg.apache.lucene.analysis.morfologik.MorfologikFilterFactory\\n\"\n\n\nthanks, miso\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_712"
+}

@@ -1,0 +1,32 @@
+Hi.  We’re just ramping up a product search engine for our eCommerce site, so this is all
+new development and we are slowly building up our Solr knowledgebase, so thanks in advance
+for any guidance.
+
+Our catalog (mostly shoes and apparel) has three objects nested: Products (title, description,
+etc), items (color, price, etc), and SKU (size, etc).  Since Solr doesn’t do documents nested
+three deep, the SKUs and items both get retrieved as children of products.  That has not bit
+us yet…  Also, our search results page expects a list of Item objects, then groups them
+(rolls them up) by their parent object.  Right now we are returning just the items, and that’s
+great, but we want to implement pagination of the products, so we need to return the items
+nested in products, then paginate on the products.
+
+If I send ‘q=docType:Product description:Armour&fl=title, description,id,[child parentFilter="docType:Product"
+childFilter="docType:Item"]’ I get a nice list of products with items nested inside them.
+Woot.
+
+The problem is, if we want to filter on item attributes, I get back products that have no
+children, which means we can’t paginate on the results if we remove those parents.  For
+instance, send ‘q=docType:Product description:Armour&fl=title, description,id,[child
+parentFilter="docType:Product" childFilter="docType:Item AND price:49.99"]’, we get the
+products and their items nicely nested, and only items with a price of 49.99 are shown, but
+so are parents that have no matching items.
+
+How can I build a query that will not return parents without children? I haven’t figured
+out a way to reference the children in the query.
+
+Since we’re not in production yet, I can change lots of things here.  I would PREFER not
+to denormalize the documents into one document per SKU with all the item and product information
+too, as our catalog is quite large and that would lead to a huge import file and lots of duplicated
+content between documents in the index.  If that’s the only way, though, it is possible.
+
+Thanks in advance.

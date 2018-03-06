@@ -1,0 +1,252 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tRohauer, Tanya  \nSent:\tTuesday, January 22, 2002 1:01 PM\nTo:\tShackleton, Sara; Moran, Tom\nSubject:\tRE: 11/30/01 FMTM credit file for ENA, ECC and EPMI\n\nis this the file I sent last week?  NYMEX - I would talk to Elaine Schield or Greg Whiting; however, this data is as of 11/30 before terminations and the like - so we may well have had open positions on the nymex.  I suspect it is made up of the forward value to the contracts, accrued interest, etc. I have no idea what the number is today - again Elaine or Leslie Reeves would be the best contact.  I suspect there are entries for both JPM and Chase Man because our back office was booking to both places even though that was not correct.  If the back office doesn't move the deals over, the data will be in both places.  It is all about data integrity - there will be many issues like this, I suspect.\n\n -----Original Message-----\nFrom: \tShackleton, Sara  \nSent:\tTuesday, January 22, 2002 12:40 PM\nTo:\tRohauer, Tanya; Moran, Tom\nSubject:\t11/30/01 FMTM credit file for ENA, ECC and EPMI\n\nA few questions:\n\n(1)  Where does the NYMEX amount come from (I understand that ENA has no open futures positions)?  Is it margin?  Also, what is that number today?\n\n(2)  Why are there entries for both \"JPMorgan Chase Bank\" and \"The Chase Manhattan Bank\"?  What is the difference?  For example, we have a termination notice from Chase but not JPMorgan Chase.\n\nThanks.\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 51,
+      "text": "Rohauer, Tanya",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 69,
+      "end": 85,
+      "text": "January 22, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 86,
+      "end": 93,
+      "text": "1:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 98,
+      "end": 114,
+      "text": "Shackleton, Sara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 116,
+      "end": 126,
+      "text": "Moran, Tom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 136,
+      "end": 187,
+      "text": "RE: 11/30/01 FMTM credit file for ENA, ECC and EPMI",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 188,
+      "text": "\n\n -----Original Message-----\nFrom: \tRohauer, Tanya  \nSent:\tTuesday, January 22, 2002 1:01 PM\nTo:\tShackleton, Sara; Moran, Tom\nSubject:\tRE: 11/30/01 FMTM credit file for ENA, ECC and EPMI\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 188,
+      "end": 895,
+      "text": "\nis this the file I sent last week?  NYMEX - I would talk to Elaine Schield or Greg Whiting; however, this data is as of 11/30 before terminations and the like - so we may well have had open positions on the nymex.  I suspect it is made up of the forward value to the contracts, accrued interest, etc. I have no idea what the number is today - again Elaine or Leslie Reeves would be the best contact.  I suspect there are entries for both JPM and Chase Man because our back office was booking to both places even though that was not correct.  If the back office doesn't move the deals over, the data will be in both places.  It is all about data integrity - there will be many issues like this, I suspect.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 930,
+      "end": 946,
+      "text": "Shackleton, Sara",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 964,
+      "end": 980,
+      "text": "January 22, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 981,
+      "end": 989,
+      "text": "12:40 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 994,
+      "end": 1008,
+      "text": "Rohauer, Tanya",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1010,
+      "end": 1020,
+      "text": "Moran, Tom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1030,
+      "end": 1077,
+      "text": "11/30/01 FMTM credit file for ENA, ECC and EPMI",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 895,
+      "end": 1078,
+      "text": " -----Original Message-----\nFrom: \tShackleton, Sara  \nSent:\tTuesday, January 22, 2002 12:40 PM\nTo:\tRohauer, Tanya; Moran, Tom\nSubject:\t11/30/01 FMTM credit file for ENA, ECC and EPMI\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1078,
+      "end": 1574,
+      "text": "\nA few questions:\n\n(1)  Where does the NYMEX amount come from (I understand that ENA has no open futures positions)?  Is it margin?  Also, what is that number today?\n\n(2)  Why are there entries for both \"JPMorgan Chase Bank\" and \"The Chase Manhattan Bank\"?  What is the difference?  For example, we have a termination notice from Chase but not JPMorgan Chase.\n\nThanks.\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1448,
+      "end": 1463,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1464,
+      "end": 1488,
+      "text": "Enron Wholesale Services",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1489,
+      "end": 1534,
+      "text": "1400 Smith Street, EB3801a\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1540,
+      "end": 1554,
+      "text": "(713) 853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1560,
+      "end": 1574,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 18,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 19,
+      "target": 18,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 20,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 21,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32332404.1075861049829.JavaMail.evans@thyme>",
+      "Date": "Tue, 29 Jan 2002 08:21:36 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "tom.moran@enron.com",
+      "Subject": "FW: 11/30/01 FMTM credit file for ENA, ECC and EPMI",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>",
+      "X-To": "Moran, Tom </O=ENRON/OU=NA/CN=RECIPIENTS/CN=TMORAN>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Mar2002\\Shackleton, Sara\\Sent Items",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackl (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_sent_items_335.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "April 12, 2001\n10:00 am EST\nCall-in #:  888-443-6515\nPass Code:  6279960\n\n\nwww.katzlaw.com\n_______________________________________\n\nThis transmission is intended to be delivered only to the named addressee(s) \nand may contain information that is confidential, proprietary, attorney \nwork-product or attorney-client privileged.  If this information is received \nby anyone other than the named addressee(s), the recipient should immediately \nnotify the sender by E-MAIL and by telephone (850) 224-9634 and obtain \ninstructions as to the disposal of the transmitted material.  In no event \nshall this material be read, used, copied, reproduced, stored or retained by \nanyone other than the named addressee(s), except with the express consent of \nthe sender or the named addressee(s).  Thank you.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 91,
+      "end": 801,
+      "text": "_______________________________________\n\nThis transmission is intended to be delivered only to the named addressee(s) \nand may contain information that is confidential, proprietary, attorney \nwork-product or attorney-client privileged.  If this information is received \nby anyone other than the named addressee(s), the recipient should immediately \nnotify the sender by E-MAIL and by telephone (850) 224-9634 and obtain \ninstructions as to the disposal of the transmitted material.  In no event \nshall this material be read, used, copied, reproduced, stored or retained by \nanyone other than the named addressee(s), except with the express consent of \nthe sender or the named addressee(s).  Thank you.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 793,
+      "text": "April 12, 2001\n10:00 am EST\nCall-in #:  888-443-6515\nPass Code:  6279960\n\n\nwww.katzlaw.com\n_______________________________________\n\nThis transmission is intended to be delivered only to the named addressee(s) \nand may contain information that is confidential, proprietary, attorney \nwork-product or attorney-client privileged.  If this information is received \nby anyone other than the named addressee(s), the recipient should immediately \nnotify the sender by E-MAIL and by telephone (850) 224-9634 and obtain \ninstructions as to the disposal of the transmitted material.  In no event \nshall this material be read, used, copied, reproduced, stored or retained by \nanyone other than the named addressee(s), except with the express consent of \nthe sender or the named addressee(s).  Thank you.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5749925.1075842817006.JavaMail.evans@thyme>",
+      "Date": "Wed, 11 Apr 2001 09:36:00 -0700 (PDT)",
+      "From": "daphne@katzlaw.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "Conference call info",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Daphne E. Gilbert\" <daphne@katzlaw.com>",
+      "X-To": "<Gerald.nemec@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_1654.txt"
+}

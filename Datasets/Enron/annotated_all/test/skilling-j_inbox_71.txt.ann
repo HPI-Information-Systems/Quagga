@@ -1,0 +1,195 @@
+{
+  "wrapper": "plaintext",
+  "text": "To Team Enron:  We have permission to share the following thoughts accompanying a pledge made to Jeff Skilling by an Enron employee, Michael Brown.  His $500 pledge to Jeff is dedicated as follows:\n\nIn loving memory of\nHayden M. Brown\nJanuary 11, 2000 - October 24, 2000\n\n---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM ---------------------------\nFrom:\tMichael Brown/ENRON@enronXgate on 04/19/2001 05:54 PM\nTo:\tJeff Skilling/Corp/Enron@ENRON\ncc:\t \n\nSubject:\tRE:  MS150\n\nI am sure that you have forwarded this email to a more senior Michael Brown, however, I would be glad to pledge to Jeff's ride this weekend.  You see, last fall my daughter died of Spinal Muscular Atrophy (SMA), she was nine months old and if they find a cure for MS, the cure for SMA will not be far behind as they are similar diseases.\n\nSo I would like to pledge $500 towards the ride in honor of my daughter, Hayden.  All I ask is that when the ride gets really hard, to think of her & all the others like her that will benefit from this ride, then pedal a little harder.\n\nYou can send someone to pick up my check as I am located @ EB 3108F.\n\nSincerely,\nMichael L. Brown\nDirector\nEnron North America\nEast Originatioin\nx31930\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 14,
+      "text": "To Team Enron:",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 272,
+      "text": "To Team Enron:  We have permission to share the following thoughts accompanying a pledge made to Jeff Skilling by an Enron employee, Michael Brown.  His $500 pledge to Jeff is dedicated as follows:\n\nIn loving memory of\nHayden M. Brown\nJanuary 11, 2000 - October 24, 2000\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 308,
+      "end": 319,
+      "text": "Sherri Sera",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 334,
+      "end": 344,
+      "text": "04/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 345,
+      "end": 353,
+      "text": "12:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 272,
+      "end": 382,
+      "text": "---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 388,
+      "end": 401,
+      "text": "Michael Brown",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 422,
+      "end": 432,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 433,
+      "end": 441,
+      "text": "05:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 446,
+      "end": 459,
+      "text": "Jeff Skilling",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 493,
+      "end": 503,
+      "text": "RE:  MS150",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 382,
+      "end": 504,
+      "text": "From:\tMichael Brown/ENRON@enronXgate on 04/19/2001 05:54 PM\nTo:\tJeff Skilling/Corp/Enron@ENRON\ncc:\t \n\nSubject:\tRE:  MS150\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1162,
+      "end": 1178,
+      "text": "Michael L. Brown",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1179,
+      "end": 1187,
+      "text": "Director",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1188,
+      "end": 1225,
+      "text": "Enron North America\nEast Originatioin",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1162,
+      "end": 1233,
+      "text": "Michael L. Brown\nDirector\nEnron North America\nEast Originatioin\nx31930\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1151,
+      "end": 1161,
+      "text": "Sincerely,",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 504,
+      "end": 1234,
+      "text": "\nI am sure that you have forwarded this email to a more senior Michael Brown, however, I would be glad to pledge to Jeff's ride this weekend.  You see, last fall my daughter died of Spinal Muscular Atrophy (SMA), she was nine months old and if they find a cure for MS, the cure for SMA will not be far behind as they are similar diseases.\n\nSo I would like to pledge $500 towards the ride in honor of my daughter, Hayden.  All I ask is that when the ride gets really hard, to think of her & all the others like her that will benefit from this ride, then pedal a little harder.\n\nYou can send someone to pick up my check as I am located @ EB 3108F.\n\nSincerely,\nMichael L. Brown\nDirector\nEnron North America\nEast Originatioin\nx31930\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5060581.1075840151552.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Apr 2001 16:16:00 -0700 (PDT)",
+      "From": "amelia.alder@enron.com",
+      "To": "amelia.alder@enron.com",
+      "Subject": "A PLEDGE TO JEFF SKILLING",
+      "Cc": "michael.brown@enron.com, pat.bertotti@txh.nmss.org",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "michael.brown@enron.com, pat.bertotti@txh.nmss.org",
+      "X-From": "Amelia Alder",
+      "X-To": "Amelia Alder <Amelia Alder/OTS/Enron@ENRON>",
+      "X-cc": "Michael Brown <Michael Brown/NA/Enron@ENRON>, pat.bertotti <pat.bertotti@txh.nmss.org>",
+      "X-bcc": "",
+      "X-Folder": "\\jskillin\\Inbox",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.pst"
+    }
+  },
+  "id": "test/skilling-j_inbox_71.txt"
+}

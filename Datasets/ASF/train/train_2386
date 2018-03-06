@@ -1,0 +1,31 @@
+Thanks for replying Shawn,
+
+There was an issue with the db connection url, silly mistake.
+
+I am facing one another problem, do not know if should post in the same
+thread or as a new post. Anyways posting here only, let me know if needs to
+be posted as new one.
+
+I am using DIH as you know. I have property_id as a unique key and I have i
+parent and 14-15 child entities(trying to improve performance for pretty old
+system hence can't avoid/reduce so many childs).
+We have around 2.5 lacs ids in DB. So full import is becoming kind of near
+impossible for me here. I tried to split this into multiple document files
+within the same core and added a new data import handler as well. but when I
+am running import on both urls. The latest data import overrides the
+previous one, hence I am not able to get complete data.
+
+So I have 2 questions here.
+
+1. Is there a better way of doing indexing and import than the way I am
+doing it right now?
+2. if no, then how can I make full import faster here?
+
+--Ankur
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Getting-error-while-excuting-full-import-tp4329153p4330305.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

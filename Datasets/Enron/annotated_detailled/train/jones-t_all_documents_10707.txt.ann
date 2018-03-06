@@ -1,0 +1,805 @@
+{
+  "wrapper": "plaintext",
+  "text": "Strictly informational.  I need to know everytime we have a governmental \nentity, so since there was no note in the side that this was connected a \ngovernmental I had to research that.  I was sharing the information I \ngathered with you so as to save you some time in case you didn't already know \nthis.  Obviously, you did.\n\n\n\n\tSamuel Schott\n\t04/02/2001 06:01 PM\n\t\t\n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: EOL approvals, 03-28-01 _ GCP Response\n\nWhat is your question ??\n\nSamuel\n\n\n\nFrom: Tana Jones on 04/02/2001 04:33 PM\nTo: Samuel Schott/HOU/ECT@ECT\ncc: Walter Guidroz/Enron@EnronXGate, Tom Moran/Enron@EnronXGate \nSubject: Re: EOL approvals, 03-28-01 _ GCP Response  \n\nMy notes show that this is a governmental.  It is the utility for the Town of \nColorado Springs, Colorado.\n\n\n\n\tSamuel Schott\n\t03/29/2001 10:13 AM\n\t\t\n\t\t To: Walter Guidroz/ENRON@enronXgate @ ENRON, Karen Lambert/HOU/ECT@ECT, Tana \nJones/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant \nReves/ENRON@enronXgate@ENRON, Debbie R Brackett/HOU/ECT@ECT, David \nHardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate@ENRON, Cynthia \nClark/ENRON@enronXgate@ENRON, Enron Europe Global Contracts and \nFacilities@ENRON, Enron Europe Global CounterParty/LON/ECT@ECT, Stephanie \nSever/HOU/ECT@ECT, Tom Moran/ENRON@enronXgate@ENRON, Claudia \nClark/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate@ENRON, Lisa \nLees/HOU/ECT@ECT, Juana Fayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, \nTrang Le/HOU/ECT@ECT, Paul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, Karen O'Day/NA/Enron@Enron, Tanya \nRohauer/ENRON@enronXgate@ENRON, Kelly Lombardi/NA/Enron@Enron, Brian \nLindsay/Enron Communications@Enron Communications@ENRON, EOL Call \nCenter@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D Hare/HOU/ECT@ect, Amy \nHeffernan/Enron Communications@Enron Communications@ENRON, Molly LaFuze/Enron \nCommunications@Enron Communications@ENRON, Danny Clark/Enron \nCommunications@Enron Communications@ENRON\n\t\t cc: \n\t\t Subject: Re: EOL approvals, 03-28-01 _ GCP Response\n\nAny GCP adjustments will be highlighted in red.\n\n \n\nRgds.\n\nSamuel x3-9890 (GCP)\nEnron Net Works _ Global Data Management\n\n\n\nFrom: Walter Guidroz/ENRON@enronXgate on 03/28/2001 04:42 PM\nTo: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal Contracts and Facilities@ENRON, Enron Europe Global \nCounterParty/LON/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Tom \nMoran/ENRON@enronXgate, Claudia Clark/HOU/ECT@ECT, William S \nBradford/ENRON@enronXgate, Lisa Lees/HOU/ECT@ECT, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/NA/Enron@Enron, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D \nHare/HOU/ECT@ect, Amy Heffernan/Enron Communications@Enron Communications, \nMolly LaFuze/Enron Communications@Enron Communications, Danny Clark/Enron \nCommunications@Enron Communications\ncc:  \nSubject: EOL approvals, 03-28-01\n\nPlease see attached.\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 328,
+      "text": "Strictly informational.  I need to know everytime we have a governmental \nentity, so since there was no note in the side that this was connected a \ngovernmental I had to research that.  I was sharing the information I \ngathered with you so as to save you some time in case you didn't already know \nthis.  Obviously, you did.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 329,
+      "end": 342,
+      "text": "Samuel Schott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 344,
+      "end": 354,
+      "text": "04/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 355,
+      "end": 363,
+      "text": "06:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 374,
+      "end": 384,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 417,
+      "end": 459,
+      "text": "Re: EOL approvals, 03-28-01 _ GCP Response",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 3332,
+      "end": 3364,
+      "text": "\nPlease see attached.\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 3308,
+      "end": 3331,
+      "text": "EOL approvals, 03-28-01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3238,
+      "end": 3249,
+      "text": "Danny Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 3182,
+      "end": 3194,
+      "text": "Molly LaFuze",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3124,
+      "end": 3137,
+      "text": "Amy Heffernan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 3098,
+      "end": 3110,
+      "text": "Bill D \nHare",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3067,
+      "end": 3084,
+      "text": "Bernice Rodriguez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2986,
+      "end": 2999,
+      "text": "Brian Lindsay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2922,
+      "end": 2935,
+      "text": "Tanya Rohauer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2954,
+      "end": 2969,
+      "text": "Kelly \nLombardi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2869,
+      "end": 2879,
+      "text": "Tim Davies",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2894,
+      "end": 2905,
+      "text": "Karen O'Day",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2843,
+      "end": 2855,
+      "text": "Sonya Clarke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2819,
+      "end": 2829,
+      "text": "Paul Maley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2796,
+      "end": 2804,
+      "text": "Trang Le",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2767,
+      "end": 2777,
+      "text": "Jana Morse",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2735,
+      "end": 2748,
+      "text": "Juana \nFayett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2712,
+      "end": 2721,
+      "text": "Lisa Lees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2674,
+      "end": 2693,
+      "text": "William S \nBradford",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2647,
+      "end": 2660,
+      "text": "Claudia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2589,
+      "end": 2604,
+      "text": "Stephanie Sever",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2618,
+      "end": 2628,
+      "text": "Tom \nMoran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2457,
+      "end": 2470,
+      "text": "Cynthia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2423,
+      "end": 2438,
+      "text": "Lesli \nCampbell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2398,
+      "end": 2409,
+      "text": "David Hardy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 2367,
+      "end": 2384,
+      "text": "Debbie R Brackett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 2336,
+      "end": 2347,
+      "text": "Brant Reves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 2311,
+      "end": 2322,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2283,
+      "end": 2297,
+      "text": "Samuel \nSchott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 2259,
+      "end": 2269,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 2232,
+      "end": 2245,
+      "text": "Karen Lambert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 2173,
+      "end": 2187,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2208,
+      "end": 2218,
+      "text": "03/28/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2219,
+      "end": 2227,
+      "text": "04:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2167,
+      "end": 3332,
+      "text": "From: Walter Guidroz/ENRON@enronXgate on 03/28/2001 04:42 PM\nTo: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal Contracts and Facilities@ENRON, Enron Europe Global \nCounterParty/LON/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Tom \nMoran/ENRON@enronXgate, Claudia Clark/HOU/ECT@ECT, William S \nBradford/ENRON@enronXgate, Lisa Lees/HOU/ECT@ECT, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/NA/Enron@Enron, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D \nHare/HOU/ECT@ect, Amy Heffernan/Enron Communications@Enron Communications, \nMolly LaFuze/Enron Communications@Enron Communications, Danny Clark/Enron \nCommunications@Enron Communications\ncc:  \nSubject: EOL approvals, 03-28-01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2123,
+      "end": 2163,
+      "text": "Enron Net Works _ Global Data Management",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2102,
+      "end": 2108,
+      "text": "Samuel",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2123,
+      "end": 2167,
+      "text": "Enron Net Works _ Global Data Management\n\n\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2095,
+      "end": 2108,
+      "text": "Rgds.\n\nSamuel",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 2042,
+      "end": 2167,
+      "text": "\nAny GCP adjustments will be highlighted in red.\n\n \n\nRgds.\n\nSamuel x3-9890 (GCP)\nEnron Net Works _ Global Data Management\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1999,
+      "end": 2041,
+      "text": "Re: EOL approvals, 03-28-01 _ GCP Response",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1918,
+      "end": 1929,
+      "text": "Danny Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1855,
+      "end": 1867,
+      "text": "Molly LaFuze",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1791,
+      "end": 1805,
+      "text": "Amy \nHeffernan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1735,
+      "end": 1752,
+      "text": "Bernice Rodriguez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1647,
+      "end": 1661,
+      "text": "Brian \nLindsay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1616,
+      "end": 1630,
+      "text": "Kelly Lombardi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1577,
+      "end": 1591,
+      "text": "Tanya \nRohauer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1549,
+      "end": 1560,
+      "text": "Karen O'Day",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1524,
+      "end": 1535,
+      "text": "Tim \nDavies",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1498,
+      "end": 1510,
+      "text": "Sonya Clarke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1474,
+      "end": 1484,
+      "text": "Paul Maley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1452,
+      "end": 1460,
+      "text": "Trang Le",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1422,
+      "end": 1432,
+      "text": "Jana Morse",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1391,
+      "end": 1403,
+      "text": "Juana Fayett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1367,
+      "end": 1377,
+      "text": "Lisa \nLees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1324,
+      "end": 1342,
+      "text": "William S Bradford",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1296,
+      "end": 1310,
+      "text": "Claudia \nClark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1262,
+      "end": 1271,
+      "text": "Tom Moran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1232,
+      "end": 1248,
+      "text": "Stephanie \nSever",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1094,
+      "end": 1108,
+      "text": "Cynthia \nClark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1055,
+      "end": 1069,
+      "text": "Lesli Campbell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1029,
+      "end": 1041,
+      "text": "David \nHardy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 998,
+      "end": 1015,
+      "text": "Debbie R Brackett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 961,
+      "end": 973,
+      "text": "Brant \nReves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 936,
+      "end": 947,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 911,
+      "end": 922,
+      "text": "Tana \nJones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 884,
+      "end": 897,
+      "text": "Karen Lambert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 843,
+      "end": 857,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 813,
+      "end": 823,
+      "text": "03/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 77,
+      "start": 824,
+      "end": 832,
+      "text": "10:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 78,
+      "start": 798,
+      "end": 811,
+      "text": "Samuel Schott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 79,
+      "start": 798,
+      "end": 2042,
+      "text": "Samuel Schott\n\t03/29/2001 10:13 AM\n\t\t\n\t\t To: Walter Guidroz/ENRON@enronXgate @ ENRON, Karen Lambert/HOU/ECT@ECT, Tana \nJones/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant \nReves/ENRON@enronXgate@ENRON, Debbie R Brackett/HOU/ECT@ECT, David \nHardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate@ENRON, Cynthia \nClark/ENRON@enronXgate@ENRON, Enron Europe Global Contracts and \nFacilities@ENRON, Enron Europe Global CounterParty/LON/ECT@ECT, Stephanie \nSever/HOU/ECT@ECT, Tom Moran/ENRON@enronXgate@ENRON, Claudia \nClark/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate@ENRON, Lisa \nLees/HOU/ECT@ECT, Juana Fayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, \nTrang Le/HOU/ECT@ECT, Paul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim \nDavies/LON/ECT@ECT, Karen O'Day/NA/Enron@Enron, Tanya \nRohauer/ENRON@enronXgate@ENRON, Kelly Lombardi/NA/Enron@Enron, Brian \nLindsay/Enron Communications@Enron Communications@ENRON, EOL Call \nCenter@ENRON, Bernice Rodriguez/HOU/ECT@ECT, Bill D Hare/HOU/ECT@ect, Amy \nHeffernan/Enron Communications@Enron Communications@ENRON, Molly LaFuze/Enron \nCommunications@Enron Communications@ENRON, Danny Clark/Enron \nCommunications@Enron Communications@ENRON\n\t\t cc: \n\t\t Subject: Re: EOL approvals, 03-28-01 _ GCP Response\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 80,
+      "start": 686,
+      "end": 797,
+      "text": "\nMy notes show that this is a governmental.  It is the utility for the Town of \nColorado Springs, Colorado.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 81,
+      "start": 641,
+      "end": 683,
+      "text": "Re: EOL approvals, 03-28-01 _ GCP Response",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 82,
+      "start": 571,
+      "end": 585,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 83,
+      "start": 604,
+      "end": 613,
+      "text": "Tom Moran",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 84,
+      "start": 541,
+      "end": 554,
+      "text": "Samuel Schott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 85,
+      "start": 503,
+      "end": 513,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 86,
+      "start": 517,
+      "end": 527,
+      "text": "04/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 87,
+      "start": 528,
+      "end": 536,
+      "text": "04:33 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 88,
+      "start": 497,
+      "end": 686,
+      "text": "From: Tana Jones on 04/02/2001 04:33 PM\nTo: Samuel Schott/HOU/ECT@ECT\ncc: Walter Guidroz/Enron@EnronXGate, Tom Moran/Enron@EnronXGate \nSubject: Re: EOL approvals, 03-28-01 _ GCP Response  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 89,
+      "start": 487,
+      "end": 493,
+      "text": "Samuel",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 90,
+      "start": 329,
+      "end": 460,
+      "text": "Samuel Schott\n\t04/02/2001 06:01 PM\n\t\t\n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: EOL approvals, 03-28-01 _ GCP Response\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 91,
+      "start": 460,
+      "end": 497,
+      "text": "\nWhat is your question ??\n\nSamuel\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 89,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 85,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 89,
+      "target": 84,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 84,
+      "target": 78,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 73,
+      "target": 85,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 35,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 43,
+      "target": 78,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27564946.1075847341629.JavaMail.evans@thyme>",
+      "Date": "Mon, 2 Apr 2001 11:13:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "samuel.schott@enron.com",
+      "Subject": "Re: EOL approvals, 03-28-01 _ GCP Response",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Samuel Schott",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_10707.txt"
+}

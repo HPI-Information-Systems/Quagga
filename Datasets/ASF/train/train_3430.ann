@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Shawn,\n\nI forgot that legacy-int-fields were deprecated. Point fields it is then.\n\nThanks,\nDorian\n\nOn Tue, May 16, 2017 at 3:01 PM, Shawn Heisey <apache@elyograg.org> wrote:\n\n> On 5/16/2017 3:33 AM, Dorian Hoxha wrote:\n> > Has anyone measured which is more efficient/performant between the 2\n> > intfields if we don't need to do range-checking ? (precisionStep=0)\n>\n> Point field support in Solr is *BRAND NEW*.  Very little information is\n> available yet on the Solr implementation.  Benchmarks were done at the\n> Lucene level, but I do not know what the numbers were.  If any Solr\n> benchmarks were done, which I can't be sure about, I do not know where\n> the results might be.\n>\n> Lucene had Points support long before Solr did.  The Lucene developers\n> felt so strongly about the superiority of the Point implementations that\n> they completely deprecated the legacy numeric field classes (which is\n> what Trie classes use) early in the 6.x development cycle, slating them\n> for removal in 7.0.\n>\n> If you wonder about backward compatibility in Solr 7.0 because the\n> Lucene legacy numerics are disappearing, then you've discovered a\n> dilemma that we're facing before the 7.0 release.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1192,
+      "end": 1212,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 102,
+      "end": 177,
+      "text": "On Tue, May 16, 2017 at 3:01 PM, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 177,
+      "end": 222,
+      "text": "\n> On 5/16/2017 3:33 AM, Dorian Hoxha wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 222,
+      "end": 1217,
+      "text": "> > Has anyone measured which is more efficient/performant between the 2\n> > intfields if we don't need to do range-checking ? (precisionStep=0)\n>\n> Point field support in Solr is *BRAND NEW*.  Very little information is\n> available yet on the Solr implementation.  Benchmarks were done at the\n> Lucene level, but I do not know what the numbers were.  If any Solr\n> benchmarks were done, which I can't be sure about, I do not know where\n> the results might be.\n>\n> Lucene had Points support long before Solr did.  The Lucene developers\n> felt so strongly about the superiority of the Point implementations that\n> they completely deprecated the legacy numeric field classes (which is\n> what Trie classes use) early in the 6.x development cycle, slating them\n> for removal in 7.0.\n>\n> If you wonder about backward compatibility in Solr 7.0 because the\n> Lucene legacy numerics are disappearing, then you've discovered a\n> dilemma that we're facing before the 7.0 release.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 85,
+      "end": 101,
+      "text": "\nThanks,\nDorian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Shawn,\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 102,
+      "text": "Hi Shawn,\n\nI forgot that legacy-int-fields were deprecated. Point fields it is then.\n\nThanks,\nDorian\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3430"
+}

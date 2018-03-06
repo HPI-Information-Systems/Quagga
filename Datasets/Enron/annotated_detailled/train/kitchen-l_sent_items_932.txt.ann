@@ -1,0 +1,622 @@
+{
+  "wrapper": "plaintext",
+  "text": "yes\n\n -----Original Message-----\nFrom: \tSchoppe, Tammie  \nSent:\tTuesday, October 02, 2001 12:14 PM\nTo:\tKitchen, Louise\nSubject:\tFW: Houston Aeros Tickets\n\nAre you interested?\n -----Original Message-----\nFrom: \tDaw, Nicki  \nSent:\tFriday, September 28, 2001 3:28 PM\nTo:\tSchoppe, Tammie; Brooks, Loretta; Hillis, Kimberly; Phillips, Cathy; Burns, Jennifer; Ford, Sue; Schiller, Marsha; Blackwood, Connie; Burns, Jennifer; Chapman, Kay; Dauterive, Inez; Daw, Nicki; Elbertson, Janette; Ferrari, Kerry; Fleming, Rosalee; Ford, Sue; Harris, Stephanie J; Heathman, Karen K.; Maronge, Bridget; Marshall, Lucy; McVicker, Maureen; Phillips, Cathy; Rapacioli, Marisa; Schiller, Marsha; Stark, Cindy; Taylor, Liz M.; Valencia, Laura; Westbrook, Sharron; Vuittonet, Laura; Zoch, Judy; Venable, Rachael; Harvey, Claudette; Armstrong, Julie; Tijerina, Shirley; Fallon, Susan; Rode, Tina; Clyatt, Julie; Angelos, Megan; Westbrook, Cherylene R.; Black, Tamara Jae; Elbertson, Janette; Watson, Denys; Rangel, Ina; Palmer, Rhonna\nCc:\tTaylor, Liz M.; Tagliarino, David; Williamson, Joannie; Grissom, Greg\nSubject:\tHouston Aeros Tickets\n\n\nMark Frevert has purchased 4 tickets for the Houston Aeros 2001-02 season, for use by all business units, the same way as the Astros tickets.  This is the Aeros first year in the American Hockey League.  Their first game is on October 12th, go to http://www.aeros.com/schedule/ to see the full schedule.\n\nOur seats are located in Section 108, Row R, Seats 1-4.\n\nIf your group in interested in using these tickets, please give me a call (x33497).  \n\nIn addition, I have 3 invitations (each admit 2 people) to the \"Meet the Team Party\" on Tuesday, 2nd October.  If you would like to attend, please let me know.  The party will be held at the Compaq Center from 6pm to 8pm.\n\nRegards,\n\nNicki\n\n\nNicki Daw\nEnron Corp\nTel: 713 853 3497\nFax: 713 646 3330",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "yes\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 40,
+      "end": 55,
+      "text": "Schoppe, Tammie",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 73,
+      "end": 89,
+      "text": "October 02, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 90,
+      "end": 98,
+      "text": "12:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 103,
+      "end": 118,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 128,
+      "end": 153,
+      "text": "FW: Houston Aeros Tickets",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 5,
+      "end": 154,
+      "text": " -----Original Message-----\nFrom: \tSchoppe, Tammie  \nSent:\tTuesday, October 02, 2001 12:14 PM\nTo:\tKitchen, Louise\nSubject:\tFW: Houston Aeros Tickets\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 154,
+      "end": 175,
+      "text": "\nAre you interested?\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 210,
+      "end": 220,
+      "text": "Daw, Nicki",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 237,
+      "end": 255,
+      "text": "September 28, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 256,
+      "end": 263,
+      "text": "3:28 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 268,
+      "end": 283,
+      "text": "Schoppe, Tammie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 285,
+      "end": 300,
+      "text": "Brooks, Loretta",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 302,
+      "end": 318,
+      "text": "Hillis, Kimberly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 320,
+      "end": 335,
+      "text": "Phillips, Cathy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 337,
+      "end": 352,
+      "text": "Burns, Jennifer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 354,
+      "end": 363,
+      "text": "Ford, Sue",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 365,
+      "end": 381,
+      "text": "Schiller, Marsha",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 996,
+      "end": 1010,
+      "text": "Palmer, Rhonna",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 983,
+      "end": 994,
+      "text": "Rangel, Ina",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 968,
+      "end": 981,
+      "text": "Watson, Denys",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 948,
+      "end": 966,
+      "text": "Elbertson, Janette",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 929,
+      "end": 946,
+      "text": "Black, Tamara Jae",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 904,
+      "end": 927,
+      "text": "Westbrook, Cherylene R.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 888,
+      "end": 902,
+      "text": "Angelos, Megan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 873,
+      "end": 886,
+      "text": "Clyatt, Julie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 861,
+      "end": 871,
+      "text": "Rode, Tina",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 846,
+      "end": 859,
+      "text": "Fallon, Susan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 827,
+      "end": 844,
+      "text": "Tijerina, Shirley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 809,
+      "end": 825,
+      "text": "Armstrong, Julie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 790,
+      "end": 807,
+      "text": "Harvey, Claudette",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 772,
+      "end": 788,
+      "text": "Venable, Rachael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 760,
+      "end": 770,
+      "text": "Zoch, Judy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 742,
+      "end": 758,
+      "text": "Vuittonet, Laura",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 722,
+      "end": 740,
+      "text": "Westbrook, Sharron",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 705,
+      "end": 720,
+      "text": "Valencia, Laura",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 689,
+      "end": 703,
+      "text": "Taylor, Liz M.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 675,
+      "end": 687,
+      "text": "Stark, Cindy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 657,
+      "end": 673,
+      "text": "Schiller, Marsha",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 638,
+      "end": 655,
+      "text": "Rapacioli, Marisa",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 621,
+      "end": 636,
+      "text": "Phillips, Cathy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 602,
+      "end": 619,
+      "text": "McVicker, Maureen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 586,
+      "end": 600,
+      "text": "Marshall, Lucy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 568,
+      "end": 584,
+      "text": "Maronge, Bridget",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 548,
+      "end": 566,
+      "text": "Heathman, Karen K.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 527,
+      "end": 546,
+      "text": "Harris, Stephanie J",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 516,
+      "end": 525,
+      "text": "Ford, Sue",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 498,
+      "end": 514,
+      "text": "Fleming, Rosalee",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 482,
+      "end": 496,
+      "text": "Ferrari, Kerry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 462,
+      "end": 480,
+      "text": "Elbertson, Janette",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 450,
+      "end": 460,
+      "text": "Daw, Nicki",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 433,
+      "end": 448,
+      "text": "Dauterive, Inez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 419,
+      "end": 431,
+      "text": "Chapman, Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 402,
+      "end": 416,
+      "text": "Burns, Jennife",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 383,
+      "end": 400,
+      "text": "Blackwood, Connie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1015,
+      "end": 1029,
+      "text": "Taylor, Liz M.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1031,
+      "end": 1048,
+      "text": "Tagliarino, David",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1050,
+      "end": 1069,
+      "text": "Williamson, Joannie",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1071,
+      "end": 1084,
+      "text": "Grissom, Greg",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1094,
+      "end": 1115,
+      "text": "Houston Aeros Tickets",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 175,
+      "end": 1116,
+      "text": " -----Original Message-----\nFrom: \tDaw, Nicki  \nSent:\tFriday, September 28, 2001 3:28 PM\nTo:\tSchoppe, Tammie; Brooks, Loretta; Hillis, Kimberly; Phillips, Cathy; Burns, Jennifer; Ford, Sue; Schiller, Marsha; Blackwood, Connie; Burns, Jennifer; Chapman, Kay; Dauterive, Inez; Daw, Nicki; Elbertson, Janette; Ferrari, Kerry; Fleming, Rosalee; Ford, Sue; Harris, Stephanie J; Heathman, Karen K.; Maronge, Bridget; Marshall, Lucy; McVicker, Maureen; Phillips, Cathy; Rapacioli, Marisa; Schiller, Marsha; Stark, Cindy; Taylor, Liz M.; Valencia, Laura; Westbrook, Sharron; Vuittonet, Laura; Zoch, Judy; Venable, Rachael; Harvey, Claudette; Armstrong, Julie; Tijerina, Shirley; Fallon, Susan; Rode, Tina; Clyatt, Julie; Angelos, Megan; Westbrook, Cherylene R.; Black, Tamara Jae; Elbertson, Janette; Watson, Denys; Rangel, Ina; Palmer, Rhonna\nCc:\tTaylor, Liz M.; Tagliarino, David; Williamson, Joannie; Grissom, Greg\nSubject:\tHouston Aeros Tickets\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1808,
+      "end": 1817,
+      "text": "Nicki Daw",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1818,
+      "end": 1828,
+      "text": "Enron Corp",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1834,
+      "end": 1846,
+      "text": "713 853 3497",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1852,
+      "end": 1864,
+      "text": "713 646 3330",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1808,
+      "end": 1864,
+      "text": "Nicki Daw\nEnron Corp\nTel: 713 853 3497\nFax: 713 646 3330",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1800,
+      "end": 1805,
+      "text": "Nicki",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1790,
+      "end": 1806,
+      "text": "Regards,\n\nNicki\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1116,
+      "end": 1864,
+      "text": "\n\nMark Frevert has purchased 4 tickets for the Houston Aeros 2001-02 season, for use by all business units, the same way as the Astros tickets.  This is the Aeros first year in the American Hockey League.  Their first game is on October 12th, go to http://www.aeros.com/schedule/ to see the full schedule.\n\nOur seats are located in Section 108, Row R, Seats 1-4.\n\nIf your group in interested in using these tickets, please give me a call (x33497).  \n\nIn addition, I have 3 invitations (each admit 2 people) to the \"Meet the Team Party\" on Tuesday, 2nd October.  If you would like to attend, please let me know.  The party will be held at the Compaq Center from 6pm to 8pm.\n\nRegards,\n\nNicki\n\n\nNicki Daw\nEnron Corp\nTel: 713 853 3497\nFax: 713 646 3330",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 65,
+      "target": 62,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 64,
+      "target": 62,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 62,
+      "target": 63,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 67,
+      "target": 62,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 67,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13808471.1075853020401.JavaMail.evans@thyme>",
+      "Date": "Tue, 2 Oct 2001 10:30:41 -0700 (PDT)",
+      "From": "louise.kitchen@enron.com",
+      "To": "tammie.schoppe@enron.com",
+      "Subject": "RE: Houston Aeros Tickets",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-To": "Schoppe, Tammie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tstaggs>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\Sent Items",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l_sent_items_932.txt"
+}

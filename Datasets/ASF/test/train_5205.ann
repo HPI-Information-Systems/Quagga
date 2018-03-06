@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi All,\n\nI was wondering if we need to checkpoint both read and write streams when\nreading from Kafka and inserting into a target store?\n\nfor example\n\nsparkSession.readStream().option(\"checkpointLocation\", \"hdfsPath\").load()\n\nvs\n\ndataSet.writeStream().option(\"checkpointLocation\", \"hdfsPath\")\n\nThanks!\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 293,
+      "end": 302,
+      "text": "\nThanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 303,
+      "text": "Hi All,\n\nI was wondering if we need to checkpoint both read and write streams when\nreading from Kafka and inserting into a target store?\n\nfor example\n\nsparkSession.readStream().option(\"checkpointLocation\", \"hdfsPath\").load()\n\nvs\n\ndataSet.writeStream().option(\"checkpointLocation\", \"hdfsPath\")\n\nThanks!\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5205"
+}

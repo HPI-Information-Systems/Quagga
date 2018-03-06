@@ -1,0 +1,34 @@
+Hi ,
+
+I have a situation here where I am required to log the slow queries into a
+seperate log file which then can be used for optimization purposes.
+For now this log is aggregated into the mainstream log marking
+[slow:......].
+I looked into the code and the configuration and I am really clueless as to
+how do I go about seperating the slow query logs as it needs another file
+appender
+to be created other than the one already present in the log4j.
+If I create another appender I can do so by degregating through log levels
+, so that moves all the WARN logs to another file (which is not what I am
+looking for).
+Also from the code prespective , I feel how about if I introduce another
+config setting along with the slowQueryThresholdMillis value , something
+like
+
+slowQueryLogFile = get("query/slowQueryLogFile", logfilepath);
+
+
+where slowQueryLogFile and if present it logs into this file otherwise it
+works on the already present along with
+
+slowQueryThresholdMillis = getInt("query/slowQueryThresholdMillis", -1);
+
+
+or should I tweak log4j ?
+I am not sure if anyone has done that before or have any pointers to guide
+me on this.
+Please help.
+
+Thanks in advance,
+Atita
+

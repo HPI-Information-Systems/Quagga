@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/dasovich-j_inbox_669.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<32000255.1075851659365.JavaMail.evans@thyme>",
+      "Date": "Thu, 18 Oct 2001 16:27:25 -0700 (PDT)",
+      "From": "eldon@direcpc.com",
+      "To": "e-mail <.bill@enron.com>, e-mail <.andy@enron.com>, \n\te-mail <.caryplatkin@enron.com>, e-mail <.donna@enron.com>, \n\te-mail <.greg@enron.com>, e-mail <.greg@enron.com>, \n\te-mail <.henry@enron.com>, jeff.dasovich@enron.com, \n\te-mail <.pat@enron.com>, e-mail <.sean@enron.com>",
+      "Subject": "Picks  of the Week--Wk. 6",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "eldon <eldon@direcpc.com>",
+      "X-To": "Bill Growney (E-mail 2) <growney@sbcglobal.net>, Bill Growney (E-mail) <growney@roxio.com>, Andy Bledsoe (E-mail) <Andy.Bledsoe@RobertMondavi.com>, Andy Bledsoe (E-mail 2) <maryandandynapa@aol.com>, CaryPlatkin (E-mail) (E-mail) <cplatkin@hotmail.com>, Donna Usnick (E-mail) <ddusnick@att.net>, Greg Brady (E-mail) <greg.brady@robertmondavi.com>, Greg Brady (E-mail) (E-mail) <greg.brady@robertmondavi.com>, Henry Salvo Jr. (E-mail) <hank.salvo@robertmondavi.com>, Dasovich, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JDASOVIC>, Pat Delong (E-mail) <patrick.delong@robertmondavi.com>, Pat Delong (E-mail 2) <giantvine@juno.com>, Prentice Sellers (E-mail 2) <Psellers@pacbell.net>, Sean Maloney (E-mail) <skmaloney@yahoo.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Dasovich, Jeff (Non-Privileged)\\Dasovich, Jeff\\Inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "Dasovich, Jeff (Non-Privileged).pst"
+    }
+  },
+  "text": "Don't have your picks yet.  At least give me your pick for tonight's game.\nYou only have an hour left.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 102,
+      "text": "Don't have your picks yet.  At least give me your pick for tonight's game.\nYou only have an hour left.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

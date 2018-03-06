@@ -1,0 +1,33 @@
+{
+  "wrapper": "enron",
+  "id": "train/giron-d_deleted_items_385.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<14072150.1075861275672.JavaMail.evans@thyme>",
+      "Date": "Mon, 19 Nov 2001 05:12:09 -0800 (PST)",
+      "From": "no.address@enron.com",
+      "Subject": "Enron In Action 11.19.01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron In Action@ENRON",
+      "X-To": "All Enron Houston@ENRON <??SAll Enron Houston@ENRON>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\DGIRON (Non-Privileged)\\Giron, Darron C.\\Deleted Items",
+      "X-Origin": "Giron-D",
+      "X-FileName": "DGIRON (Non-Privileged).pst"
+    }
+  },
+  "text": "\n\t\nEnron in Action can be accessed through the new Community Relations web site at http://cr.enron.com/eia.html .  In this week's issue you will find out information regarding:\n\nEnron Happenings \nSponsor a Child - Win a Ticket to Cirqie du Solei\n\nEnron Volunteer Opportunities\nSaint Nicholas Needs Your Help!\nNutcracker Volunteer Opportunity\nCamp Noah - Daycamp for Children Recovering from Disaster\nThanksgiving Volunteer Opportunity\n\nEnron Wellness\nHoliday Fashion Show & Luncheon\nWeight Watchers\n\nIn addition, Enron in Action is available through a channel on my.home.enron.com.  To add this channel to your set-up click on the channels link at the top of the screen and under announcements check the Enron in Action box.  \n\nIf you wish to add an announcement to Enron in Action, please fill out the attached form below and submit it to mailto:eia@enron.com no later than 12 PM Thursday each week.\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 903,
+      "text": "\n\t\nEnron in Action can be accessed through the new Community Relations web site at http://cr.enron.com/eia.html .  In this week's issue you will find out information regarding:\n\nEnron Happenings \nSponsor a Child - Win a Ticket to Cirqie du Solei\n\nEnron Volunteer Opportunities\nSaint Nicholas Needs Your Help!\nNutcracker Volunteer Opportunity\nCamp Noah - Daycamp for Children Recovering from Disaster\nThanksgiving Volunteer Opportunity\n\nEnron Wellness\nHoliday Fashion Show & Luncheon\nWeight Watchers\n\nIn addition, Enron in Action is available through a channel on my.home.enron.com.  To add this channel to your set-up click on the channels link at the top of the screen and under announcements check the Enron in Action box.  \n\nIf you wish to add an announcement to Enron in Action, please fill out the attached form below and submit it to mailto:eia@enron.com no later than 12 PM Thursday each week.\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

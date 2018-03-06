@@ -1,0 +1,59 @@
+Hello Jason,
+
+I figured it out:
+
+1) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder("http://localhost:8389/solr/core").build();
+2) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder("http://localhost:8389/solr/core")
+				.withQueueSize(20)
+				.build();
+
+1) fails with an IllegalArgumentException due to the fact the the queue size is not specified.
+2) works as expected.
+
+Cheers,
+P.
+
+> On 13 Aug 2017, at 22:58, Jason Gerlowski <gerlowskija@gmail.com> wrote:
+> 
+> Hi Paul,
+> 
+> I'll try reproducing this with the snippet provided, but I don't see
+> anything inherently wrong with the Builder usage you mentioned, assuming
+> the Solr base URL you provided is correct.
+> 
+> It would be easier to troubleshoot your issue though if you included some
+> more information about the NPE you're seeing. Could you post the stacktrace
+> to help others investigate please?
+> 
+> Best,
+> 
+> Jason
+> 
+> On Aug 13, 2017 5:43 AM, "Paul Smith Parker" <paul.smith.parker@gmail.com>
+> wrote:
+> 
+>> Hello,
+>> 
+>> I can’t find an example on how to properly instantiate/configure an
+>> instance of ConcurrentUpdateSolrClient.
+>> 
+>> I tried this but it gives me a NPE:
+>> 
+>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.
+>> Builder(“http://localhost:8389/solr <http://localhost:8389/solr>/
+>> core").build();
+>> 
+>> While this seems to work (it should use an internal httpClient):
+>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.
+>> Builder(“http://localhost:8389/solr <http://localhost:8389/solr>/core")
+>>                                .withHttpClient(null)
+>>                                .withQueueSize(1000)
+>>                                .withThreadCount(20)
+>>                                .build();
+>> 
+>> Is this the correct way to set it up?
+>> 
+>> Thanks,
+>> P.
+
+

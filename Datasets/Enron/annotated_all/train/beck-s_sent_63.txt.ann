@@ -1,0 +1,316 @@
+{
+  "wrapper": "plaintext",
+  "text": "Could there be other counterparties that have the same concern as Hess?  You \nwill have to explain to me what the issue was.  Thanks.  --Sally \n---------------------- Forwarded by Sally Beck/HOU/ECT on 11/20/2000 05:54 PM \n---------------------------\n\n\nBrent A Price\n11/20/2000 12:17 PM\nTo: Louise Kitchen/HOU/ECT@ECT\ncc: Sally Beck/HOU/ECT@ECT, Andy Zipper/Corp/Enron@Enron \nSubject: Re: Hess Trading Co  \n\nTalked to Steve a few minutes ago.  We will adjust our process as necessary \nto allow Hess to aggregate trades on a daily basis.  I do not know the reason \nwe stopped doing this but we will revert back to the old process.  Let me \nknow if you need anything else.\n\nBrent\n\n\n\n\nLouise Kitchen\n20/11/2000 10:54\nTo: Brent A Price/HOU/ECT@ECT\ncc: Sally Beck/HOU/ECT@ECT, Andy Zipper/Corp/Enron@Enron \nSubject: Hess Trading Co\n\nI received  a phone call from Steve Semlitz who runs Hess Trading in New \nYork.  He is frustrated with the new way he is dealing with settlement post \nthe introduction of EOL.  In that now we do not allow him to aggregate.  \nPlease give him a call and find a way to resolve his problem.\n\nSteve Semlitz 1 212 536 8470\n\nThanks\n\nLouise\n\nLet us know what happens.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 137,
+      "end": 142,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 126,
+      "end": 144,
+      "text": "Thanks.  --Sally \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 144,
+      "text": "Could there be other counterparties that have the same concern as Hess?  You \nwill have to explain to me what the issue was.  Thanks.  --Sally \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 180,
+      "end": 190,
+      "text": "Sally Beck",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 202,
+      "end": 212,
+      "text": "11/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 213,
+      "end": 221,
+      "text": "05:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 144,
+      "end": 251,
+      "text": "---------------------- Forwarded by Sally Beck/HOU/ECT on 11/20/2000 05:54 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 253,
+      "end": 266,
+      "text": "Brent A Price",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 267,
+      "end": 277,
+      "text": "11/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 278,
+      "end": 286,
+      "text": "12:17 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 291,
+      "end": 305,
+      "text": "Louise Kitchen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 322,
+      "end": 332,
+      "text": "Sally Beck",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 346,
+      "end": 357,
+      "text": "Andy Zipper",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 385,
+      "end": 404,
+      "text": "Re: Hess Trading Co",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 251,
+      "end": 407,
+      "text": "\n\nBrent A Price\n11/20/2000 12:17 PM\nTo: Louise Kitchen/HOU/ECT@ECT\ncc: Sally Beck/HOU/ECT@ECT, Andy Zipper/Corp/Enron@Enron \nSubject: Re: Hess Trading Co  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 672,
+      "end": 677,
+      "text": "Brent",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 407,
+      "end": 682,
+      "text": "\nTalked to Steve a few minutes ago.  We will adjust our process as necessary \nto allow Hess to aggregate trades on a daily basis.  I do not know the reason \nwe stopped doing this but we will revert back to the old process.  Let me \nknow if you need anything else.\n\nBrent\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 682,
+      "end": 696,
+      "text": "Louise Kitchen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 697,
+      "end": 707,
+      "text": "20/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 708,
+      "end": 713,
+      "text": "10:54",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 718,
+      "end": 731,
+      "text": "Brent A Price",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 748,
+      "end": 758,
+      "text": "Sally Beck",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 772,
+      "end": 783,
+      "text": "Andy Zipper",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 811,
+      "end": 826,
+      "text": "Hess Trading Co",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 682,
+      "end": 827,
+      "text": "Louise Kitchen\n20/11/2000 10:54\nTo: Brent A Price/HOU/ECT@ECT\ncc: Sally Beck/HOU/ECT@ECT, Andy Zipper/Corp/Enron@Enron \nSubject: Hess Trading Co\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1154,
+      "end": 1160,
+      "text": "Louise",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1146,
+      "end": 1161,
+      "text": "Thanks\n\nLouise\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1162,
+      "end": 1188,
+      "text": "Let us know what happens.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 827,
+      "end": 1191,
+      "text": "\nI received  a phone call from Steve Semlitz who runs Hess Trading in New \nYork.  He is frustrated with the new way he is dealing with settlement post \nthe introduction of EOL.  In that now we do not allow him to aggregate.  \nPlease give him a call and find a way to resolve his problem.\n\nSteve Semlitz 1 212 536 8470\n\nThanks\n\nLouise\n\nLet us know what happens.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 21,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 18,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 26,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15187503.1075855898256.JavaMail.evans@thyme>",
+      "Date": "Mon, 20 Nov 2000 09:58:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "brent.price@enron.com",
+      "Subject": "Re: Hess Trading Co",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Brent A Price",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_sent_63.txt"
+}

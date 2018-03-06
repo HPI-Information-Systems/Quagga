@@ -1,0 +1,21 @@
+I'm running two nodes of SolrCloud in Docker on Windows using Docker
+Toolbox.  The problem I am having is that Docker Toolbox runs inside of a
+VM and so it has an internal network inside the VM that is not accessible
+to the Docker Toolbox VM's host OS. If I go to the VM's IP which is
+192.168.99.100, I can load the admin UI and do basic operations that are
+written to go against that IP and port (like querying, schema editor,
+manually adding documents, etc.)
+
+However, when I try to run code that uses SolrJ to add documents, it fails
+because the ZK configuration has the IPs for the internal Docker network
+which is 172.X.Y..Z. If I log into the toolbox VM and run the Java code
+from there, it works just fine. From the host OS, doesn't.
+
+Anyone have any ideas on how to get around this? If I rewrite the indexing
+code to do a manual JSON POST to the update handler on one of the nodes, it
+does work just fine, but that leaves me not using SolrJ.
+
+Thanks,
+
+Mike
+

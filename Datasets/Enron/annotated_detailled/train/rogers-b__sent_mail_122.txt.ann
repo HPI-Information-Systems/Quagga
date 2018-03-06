@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Scott:\nHere are the Remote Control Operation Agreement Docs and the Interconnection \nAgreements with IPL.  Here are also the names of the attendees from our \nconference call.  We are working on pulling some other information for you \nguys, but please give us a call if you need anything else.  Thanks!\nBen\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Scott",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 302,
+      "end": 305,
+      "text": "Ben",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 294,
+      "end": 306,
+      "text": "Thanks!\nBen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 314,
+      "text": "Scott:\nHere are the Remote Control Operation Agreement Docs and the Interconnection \nAgreements with IPL.  Here are also the names of the attendees from our \nconference call.  We are working on pulling some other information for you \nguys, but please give us a call if you need anything else.  Thanks!\nBen\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22899619.1075857247735.JavaMail.evans@thyme>",
+      "Date": "Sat, 28 Oct 2000 09:16:00 -0700 (PDT)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "scott.miller@dplinc.com",
+      "Subject": "",
+      "Cc": "don.miller@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "don.miller@enron.com",
+      "X-From": "Benjamin Rogers",
+      "X-To": "Scott.Miller@DPLINC.com",
+      "X-cc": "Don Miller",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_3\\Notes Folders\\'sent mail",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b__sent_mail_122.txt"
+}

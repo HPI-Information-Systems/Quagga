@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nmaster   = \"spark://193.70.43.207:7077\"\nappName  = \"romain2\"\nspark = SparkSession.builder.master(master).appName(appName).getOrCreate()\n\nalso gives me an error : \n\n\nIllegalArgumentException: u\"Error while instantiating\n'org.apache.spark.sql.hive.HiveSessionState':\"\n\n\nAny way out ? \n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Spark-2-1-0-issue-with-spark-shell-and-pyspark-tp28339p28427.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 645,
+      "text": "Hi,\n\nmaster   = \"spark://193.70.43.207:7077\"\nappName  = \"romain2\"\nspark = SparkSession.builder.master(master).appName(appName).getOrCreate()\n\nalso gives me an error : \n\n\nIllegalArgumentException: u\"Error while instantiating\n'org.apache.spark.sql.hive.HiveSessionState':\"\n\n\nAny way out ? \n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Spark-2-1-0-issue-with-spark-shell-and-pyspark-tp28339p28427.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1300"
+}

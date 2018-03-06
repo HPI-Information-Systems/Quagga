@@ -1,0 +1,288 @@
+{
+  "wrapper": "plaintext",
+  "text": "The attached letter agreement reflects my discussion with Drew about the \nmarketing fee.  The FTS-1 Agreement will just be a plain vanilla agreement \n(i.e., minus the marketing fee language) and the parties will execute the \nattached instead.  Questions or comments -- let me know.\n\n\n\n\n   \n\t\n\t\n\tFrom:  Mary Kay Miller                           08/29/2000 06:19 PM\n\t\n\nTo: Susan Scott/ET&S/Enron@ENRON\ncc: Drew Fossum@ENRON, Steven Harris/ET&S/Enron@ENRON, Michelle \nLokay/ET&S/Enron@Enron, Kevin Hyatt/ET&S/Enron@Enron, Christine \nStokes/ET&S/Enron@ENRON, Glen Hass, Mary Darveaux \n\nSubject: Re: Oneok Contract  \n\nI've talked to Drew and he can report back-  MK\n\n\n   \n\t\n\t\n\tFrom:  Susan Scott                           08/29/2000 05:27 PM\n\t\n\nTo: Drew Fossum@ENRON, Mary Kay Miller/ET&S/Enron@ENRON, Steven \nHarris/ET&S/Enron@ENRON\ncc: Michelle Lokay/ET&S/Enron@Enron, Kevin Hyatt/ET&S/Enron@Enron, Christine \nStokes/ET&S/Enron@ENRON \n\nSubject: Oneok Contract\n\nAttached is the proposed contract with Oneok.  Since it is a maximum rate \ndeal, there is no discount letter.  However, I am circulating this for \napproval because it contains a special provision (found in the \"Other\" \nsection) regarding marketing of capacity for release, as allowed by Section \n30.8 of the General Terms and Conditions of Transwestern's tariff.\n\nChristine, you and Michele will need to fill in the address and account \ninformation.  My sincerest apologies for operating outside the usual \ncontracting procedure but since time is even more of the essence that usual \nhere, I felt it was best to get a pro forma version of this out for approval \nas soon as possible.\n\nPlease e-mail your approval to Christine and me by noon tomorrow if \npossible.  Thank you.\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 294,
+      "text": "The attached letter agreement reflects my discussion with Drew about the \nmarketing fee.  The FTS-1 Agreement will just be a plain vanilla agreement \n(i.e., minus the marketing fee language) and the parties will execute the \nattached instead.  Questions or comments -- let me know.\n\n\n\n\n   \n\t\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 302,
+      "end": 317,
+      "text": "Mary Kay Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 344,
+      "end": 354,
+      "text": "08/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 355,
+      "end": 363,
+      "text": "06:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 371,
+      "end": 382,
+      "text": "Susan Scott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 404,
+      "end": 415,
+      "text": "Drew Fossum",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 423,
+      "end": 436,
+      "text": "Steven Harris",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 455,
+      "end": 470,
+      "text": "Michelle \nLokay",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 489,
+      "end": 500,
+      "text": "Kevin Hyatt",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 519,
+      "end": 536,
+      "text": "Christine \nStokes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 555,
+      "end": 564,
+      "text": "Glen Hass",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 566,
+      "end": 579,
+      "text": "Mary Darveaux",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 591,
+      "end": 609,
+      "text": "Re: Oneok Contract",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 295,
+      "end": 612,
+      "text": "From:  Mary Kay Miller                           08/29/2000 06:19 PM\n\t\n\nTo: Susan Scott/ET&S/Enron@ENRON\ncc: Drew Fossum@ENRON, Steven Harris/ET&S/Enron@ENRON, Michelle \nLokay/ET&S/Enron@Enron, Kevin Hyatt/ET&S/Enron@Enron, Christine \nStokes/ET&S/Enron@ENRON, Glen Hass, Mary Darveaux \n\nSubject: Re: Oneok Contract  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 612,
+      "end": 671,
+      "text": "\nI've talked to Drew and he can report back-  MK\n\n\n   \n\t\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 679,
+      "end": 690,
+      "text": "Susan Scott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 717,
+      "end": 727,
+      "text": "08/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 728,
+      "end": 736,
+      "text": "05:27 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 744,
+      "end": 755,
+      "text": "Drew Fossum",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 763,
+      "end": 778,
+      "text": "Mary Kay Miller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 797,
+      "end": 811,
+      "text": "Steven \nHarris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 833,
+      "end": 847,
+      "text": "Michelle Lokay",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 866,
+      "end": 877,
+      "text": "Kevin Hyatt",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 896,
+      "end": 913,
+      "text": "Christine \nStokes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 942,
+      "end": 956,
+      "text": "Oneok Contract",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 672,
+      "end": 957,
+      "text": "From:  Susan Scott                           08/29/2000 05:27 PM\n\t\n\nTo: Drew Fossum@ENRON, Mary Kay Miller/ET&S/Enron@ENRON, Steven \nHarris/ET&S/Enron@ENRON\ncc: Michelle Lokay/ET&S/Enron@Enron, Kevin Hyatt/ET&S/Enron@Enron, Christine \nStokes/ET&S/Enron@ENRON \n\nSubject: Oneok Contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 957,
+      "end": 1739,
+      "text": "\nAttached is the proposed contract with Oneok.  Since it is a maximum rate \ndeal, there is no discount letter.  However, I am circulating this for \napproval because it contains a special provision (found in the \"Other\" \nsection) regarding marketing of capacity for release, as allowed by Section \n30.8 of the General Terms and Conditions of Transwestern's tariff.\n\nChristine, you and Michele will need to fill in the address and account \ninformation.  My sincerest apologies for operating outside the usual \ncontracting procedure but since time is even more of the essence that usual \nhere, I felt it was best to get a pro forma version of this out for approval \nas soon as possible.\n\nPlease e-mail your approval to Christine and me by noon tomorrow if \npossible.  Thank you.\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 21,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 22,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33402580.1075846727930.JavaMail.evans@thyme>",
+      "Date": "Wed, 30 Aug 2000 01:18:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "mary.miller@enron.com",
+      "Subject": "Re: Oneok Contract",
+      "Cc": "steven.harris@enron.com, michelle.lokay@enron.com, kevin.hyatt@enron.com, \n\tchristine.stokes@enron.com, glen.hass@enron.com, \n\tmary.darveaux@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "steven.harris@enron.com, michelle.lokay@enron.com, kevin.hyatt@enron.com, \n\tchristine.stokes@enron.com, glen.hass@enron.com, \n\tmary.darveaux@enron.com",
+      "X-From": "Susan Scott",
+      "X-To": "Mary Kay Miller",
+      "X-cc": "Drew Fossum@ENRON, Steven Harris, Michelle Lokay, Kevin Hyatt, Christine Stokes, Glen Hass, Mary Darveaux",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\Sent",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s_sent_299.txt"
+}

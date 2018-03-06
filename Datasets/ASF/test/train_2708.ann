@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Is there a API available to do this via SparkSession?\n\nSent from my iPhone\n\nOn Apr 24, 2017, at 6:20 AM, Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>\nwrote:\n\n\nThanks Hemanth for a quick reply.\n\n________________________________\nFrom: Hemanth Gudela <hemanth.gudela@qvantel.com<mailto:hemanth.gudela@qvantel.com>>\nSent: Monday, April 24, 2017 6:37:48 PM\nTo: Devender Yadav; user@spark.apache.org<mailto:user@spark.apache.org>\nSubject: Re: How to maintain order of key-value in DataFrame same as JSON?\n\nHi,\n\nOne option to use if you can is to force df to use the schema order you prefer like this.\n\nDataFrame df = sqlContext.read().json(jsonPath).select(\"name\",\"salary\",\"occupation\",\"address\")\n\n-Hemanth\n\nFrom: Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>\nDate: Monday, 24 April 2017 at 15.45\nTo: \"user@spark.apache.org<mailto:user@spark.apache.org>\" <user@spark.apache.org<mailto:user@spark.apache.org>>\nSubject: How to maintain order of key-value in DataFrame same as JSON?\n\n\n{\"name\": \"dev\",\"salary\": 100,\"occupation\": \"engg\",\"address\": \"noida\"}\n\n{\"name\": \"karthik\",\"salary\": 200,\"occupation\": \"engg\",\"address\": \"blore\"}\n\n________________________________\n\n\n\n\n\n\nNOTE: This message may contain information that is confidential, proprietary, privileged or\notherwise protected by law. The message is intended solely for the named addressee. If received\nin error, please destroy and notify the sender. Any use of this email is prohibited when received\nin error. Impetus does not represent, warrant and/or guarantee, that the integrity of this\ncommunication has been maintained nor that the communication is free of errors, virus, interception\nor interference.\n________________________________________________________\n\nThe information contained in this e-mail is confidential and/or proprietary to Capital One\nand/or its affiliates and may only be used solely in performance of work or services for Capital\nOne. The information transmitted herewith is intended only for use by the individual or entity\nto which it is addressed. If the reader of this message is not the intended recipient, you\nare hereby notified that any review, retransmission, dissemination, distribution, copying\nor other use of, or taking of any action in reliance upon this information is strictly prohibited.\nIf you have received this communication in error, please contact the sender and delete the\nmaterial from your computer.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 76,
+      "text": "Is there a API available to do this via SparkSession?\n\nSent from my iPhone\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 76,
+      "end": 195,
+      "text": "On Apr 24, 2017, at 6:20 AM, Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 195,
+      "end": 232,
+      "text": "\n\nThanks Hemanth for a quick reply.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 232,
+      "end": 537,
+      "text": "________________________________\nFrom: Hemanth Gudela <hemanth.gudela@qvantel.com<mailto:hemanth.gudela@qvantel.com>>\nSent: Monday, April 24, 2017 6:37:48 PM\nTo: Devender Yadav; user@spark.apache.org<mailto:user@spark.apache.org>\nSubject: Re: How to maintain order of key-value in DataFrame same as JSON?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 537,
+      "end": 542,
+      "text": "\nHi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 729,
+      "end": 739,
+      "text": "\n-Hemanth\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 537,
+      "end": 740,
+      "text": "\nHi,\n\nOne option to use if you can is to force df to use the schema order you prefer like this.\n\nDataFrame df = sqlContext.read().json(jsonPath).select(\"name\",\"salary\",\"occupation\",\"address\")\n\n-Hemanth\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 740,
+      "end": 1049,
+      "text": "From: Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>\nDate: Monday, 24 April 2017 at 15.45\nTo: \"user@spark.apache.org<mailto:user@spark.apache.org>\" <user@spark.apache.org<mailto:user@spark.apache.org>>\nSubject: How to maintain order of key-value in DataFrame same as JSON?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1049,
+      "end": 2471,
+      "text": "\n\n{\"name\": \"dev\",\"salary\": 100,\"occupation\": \"engg\",\"address\": \"noida\"}\n\n{\"name\": \"karthik\",\"salary\": 200,\"occupation\": \"engg\",\"address\": \"blore\"}\n\n________________________________\n\n\n\n\n\n\nNOTE: This message may contain information that is confidential, proprietary, privileged or\notherwise protected by law. The message is intended solely for the named addressee. If received\nin error, please destroy and notify the sender. Any use of this email is prohibited when received\nin error. Impetus does not represent, warrant and/or guarantee, that the integrity of this\ncommunication has been maintained nor that the communication is free of errors, virus, interception\nor interference.\n________________________________________________________\n\nThe information contained in this e-mail is confidential and/or proprietary to Capital One\nand/or its affiliates and may only be used solely in performance of work or services for Capital\nOne. The information transmitted herewith is intended only for use by the individual or entity\nto which it is addressed. If the reader of this message is not the intended recipient, you\nare hereby notified that any review, retransmission, dissemination, distribution, copying\nor other use of, or taking of any action in reliance upon this information is strictly prohibited.\nIf you have received this communication in error, please contact the sender and delete the\nmaterial from your computer.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2708"
+}

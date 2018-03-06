@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Erick,\n\nInitially I also thought of using Streaming for Joins. But looks like Joins\nwith Streaming is not for heavy QPS sort of queries and that's my use case. \nCurrently things are working fine with normal join for us as we have only\none shard. But in coming days number of documents to be indexed is going to\nbe increased drastically. So we need to split shards. The time I split\nshards I can't use Joins.\n\nWe thought of going with Implict routing for sharding. But if we go with\nImplicit routing, all indexing will not be distributed and so one shard\ncould be getting more load which we don't want. \nSo we badly looking for default Join.\nAs I have posted in different questions in this forum itself and you too\nhave replied.... our joins are between real documents and it's ACL\ndocuments. ACL document has multi value field whose value would be user or\ngroups. Why we want to keep ACL separately instead of keeping it in same\nreal document itself. It's because that our ACL can grow till 1L of users or\neven more. and for every change in ACL or its permission we don't want to\nre-index the real document as well. \n\nDo you think is there any better alternative ? or the way we have kept ACLs\nare wrong ? \n\nRegards,\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Allow-Join-over-two-sharded-collection-tp4343443p4343582.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Erick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1210,
+      "end": 1220,
+      "text": "\nRegards,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1416,
+      "text": "Hi Erick,\n\nInitially I also thought of using Streaming for Joins. But looks like Joins\nwith Streaming is not for heavy QPS sort of queries and that's my use case. \nCurrently things are working fine with normal join for us as we have only\none shard. But in coming days number of documents to be indexed is going to\nbe increased drastically. So we need to split shards. The time I split\nshards I can't use Joins.\n\nWe thought of going with Implict routing for sharding. But if we go with\nImplicit routing, all indexing will not be distributed and so one shard\ncould be getting more load which we don't want. \nSo we badly looking for default Join.\nAs I have posted in different questions in this forum itself and you too\nhave replied.... our joins are between real documents and it's ACL\ndocuments. ACL document has multi value field whose value would be user or\ngroups. Why we want to keep ACL separately instead of keeping it in same\nreal document itself. It's because that our ACL can grow till 1L of users or\neven more. and for every change in ACL or its permission we don't want to\nre-index the real document as well. \n\nDo you think is there any better alternative ? or the way we have kept ACLs\nare wrong ? \n\nRegards,\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Allow-Join-over-two-sharded-collection-tp4343443p4343582.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4458"
+}

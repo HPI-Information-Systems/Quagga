@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Juan,\n\nFriedWire Inc is pleased to announce the release of the California ISO module \nin our Traffic Report System.  With the\ninformation in the CA ISO module you'll be able to quickly assess the supply \nand demand fundamentals that drive market\ndecisions in the Western grid.  The real time information in the CA ISO \nmodule is incorporated into easy to read graphs,\ncharts and custom interactive maps.  Below is a snapshot of the new content:\n\nCALIFORNIA ISO MODULE OVERVIEW\n         Frequency Monitoring in WSCC (deviation from 60Hz)\n         Real-time California ISO loads for today, two weeks, month and year\n         Congestion Prices in California\n                -10 Minute Expost Incremental & Decremental Prices\n                -Hour Ending Expost Prices\n                -Hour Ahead Congestion Prices\n                -Day Ahead Congestion Prices\n         Day Ahead Congestion Price Summary\n         Congestion Zone Profiles\n         Branch Group Profiles\n         Maps illustrating Congestion, Flows & Prices\n         Day Ahead & Hour Ahead Schedules for Load, Generation, Imports & \nExports - Coming Soon!\n\nCOMPUTING & NETWORK UPGRADES\nRecently our ISP implemented several upgrades to improve connectivity to all \nof our failover uplinks and provide increased\nreliability during an outage with any one upstream provider. Unfortunately \nduring this upgrade some of you were unable to\nget to our website the morning of February 27th. I apologize for this and \nwant to re-confirm that we try to never perform\nany upgrades or maintenance during business hours.  FriedWire is also very \npleased to announce that our entire system will\nbe upgraded in the next 30-days.  We have entered into a contract with Verado \n(formerly Firstworld) to migrate all of our\nsystems to their facility in Denver, Colorado.  With this migration we should \nsee increased performance and reliability in\nall of our systems.\n\nOLD DATA IN MAPS?  RESET YOUR BROWSER CACHE SETTINGS!\nIf you have seen any maps or charts that seem contain old data then please \nmake sure that you set your browser NOT to cache\nweb pages.  Internet Explorer users can do this by going to the \"Tools\" menu \nand selecting \"Internet Options\".  On the\nGeneral tab press the \"Settings\" button for Temporary Internet Files and set \n\"Check for newer versions of stored pages\" to\n\"Every visit to the page\".  Netscape Navigator users can do the same by going \nto the \"Tools\" menu and selecting \"Edit\" then\n\"Preferences\".  Select \"Advanced\" then \"Cache\" in the Category window and set \n\"Document in cache is compared to document on\nnetwork\" to \"Every time\".\n\nNUCLEAR OUTAGE MAP\nNew labels on the map provide unit-level detail on outages.\n\nWe appreciate your business and look forward to providing additional energy \ninformation to your organization.  Please call\nus at 303-447-0288 if you have any questions.\n\nSincerely,\n\nBill Townsend\nPresident\nFriedWire Inc.\n3209 Walnut St.\nBoulder, CO. 80301\n(303)447-0288- extension 24\nbill@friedwire.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Dear Juan,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2877,
+      "end": 2998,
+      "text": "Bill Townsend\nPresident\nFriedWire Inc.\n3209 Walnut St.\nBoulder, CO. 80301\n(303)447-0288- extension 24\nbill@friedwire.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2864,
+      "end": 2891,
+      "text": "\nSincerely,\n\nBill Townsend\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 2998,
+      "text": "Dear Juan,\n\nFriedWire Inc is pleased to announce the release of the California ISO module \nin our Traffic Report System.  With the\ninformation in the CA ISO module you'll be able to quickly assess the supply \nand demand fundamentals that drive market\ndecisions in the Western grid.  The real time information in the CA ISO \nmodule is incorporated into easy to read graphs,\ncharts and custom interactive maps.  Below is a snapshot of the new content:\n\nCALIFORNIA ISO MODULE OVERVIEW\n         Frequency Monitoring in WSCC (deviation from 60Hz)\n         Real-time California ISO loads for today, two weeks, month and year\n         Congestion Prices in California\n                -10 Minute Expost Incremental & Decremental Prices\n                -Hour Ending Expost Prices\n                -Hour Ahead Congestion Prices\n                -Day Ahead Congestion Prices\n         Day Ahead Congestion Price Summary\n         Congestion Zone Profiles\n         Branch Group Profiles\n         Maps illustrating Congestion, Flows & Prices\n         Day Ahead & Hour Ahead Schedules for Load, Generation, Imports & \nExports - Coming Soon!\n\nCOMPUTING & NETWORK UPGRADES\nRecently our ISP implemented several upgrades to improve connectivity to all \nof our failover uplinks and provide increased\nreliability during an outage with any one upstream provider. Unfortunately \nduring this upgrade some of you were unable to\nget to our website the morning of February 27th. I apologize for this and \nwant to re-confirm that we try to never perform\nany upgrades or maintenance during business hours.  FriedWire is also very \npleased to announce that our entire system will\nbe upgraded in the next 30-days.  We have entered into a contract with Verado \n(formerly Firstworld) to migrate all of our\nsystems to their facility in Denver, Colorado.  With this migration we should \nsee increased performance and reliability in\nall of our systems.\n\nOLD DATA IN MAPS?  RESET YOUR BROWSER CACHE SETTINGS!\nIf you have seen any maps or charts that seem contain old data then please \nmake sure that you set your browser NOT to cache\nweb pages.  Internet Explorer users can do this by going to the \"Tools\" menu \nand selecting \"Internet Options\".  On the\nGeneral tab press the \"Settings\" button for Temporary Internet Files and set \n\"Check for newer versions of stored pages\" to\n\"Every visit to the page\".  Netscape Navigator users can do the same by going \nto the \"Tools\" menu and selecting \"Edit\" then\n\"Preferences\".  Select \"Advanced\" then \"Cache\" in the Category window and set \n\"Document in cache is compared to document on\nnetwork\" to \"Every time\".\n\nNUCLEAR OUTAGE MAP\nNew labels on the map provide unit-level detail on outages.\n\nWe appreciate your business and look forward to providing additional energy \ninformation to your organization.  Please call\nus at 303-447-0288 if you have any questions.\n\nSincerely,\n\nBill Townsend\nPresident\nFriedWire Inc.\n3209 Walnut St.\nBoulder, CO. 80301\n(303)447-0288- extension 24\nbill@friedwire.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20269384.1075855575455.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Mar 2001 06:42:00 -0800 (PST)",
+      "From": "bill@friedwire.com",
+      "To": "juan.hernandez@enron.com",
+      "Subject": "New Real-time California Market Information!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Bill Townsend\" <bill@friedwire.com>",
+      "X-To": "\"juan.hernandez@enron.com\" <juan.hernandez@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Juan_Hernandez_Jun2001\\Notes Folders\\24-hr power",
+      "X-Origin": "Hernandez-J",
+      "X-FileName": "jhernan3.nsf"
+    }
+  },
+  "id": "train/hernandez-j_24_hr_power_49.txt"
+}

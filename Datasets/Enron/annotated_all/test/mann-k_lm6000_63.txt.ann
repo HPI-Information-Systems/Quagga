@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Kent,\n\nHere's a revised change order #2.  Please let me know if you have any \ncomments:\n\n\n\nThanks,\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Kent",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 100,
+      "end": 103,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 91,
+      "end": 103,
+      "text": "Thanks,\n\nKay",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 103,
+      "text": "Kent,\n\nHere's a revised change order #2.  Please let me know if you have any \ncomments:\n\n\n\nThanks,\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25552674.1075845891966.JavaMail.evans@thyme>",
+      "Date": "Wed, 4 Oct 2000 05:50:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "kent.shoemaker@ae.ge.com",
+      "Subject": "LM 6000 change order #2",
+      "Cc": "ben.jacoby@enron.com, chris.booth@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "ben.jacoby@enron.com, chris.booth@enron.com",
+      "X-From": "Kay Mann",
+      "X-To": "kent.shoemaker@ae.ge.com",
+      "X-cc": "Ben Jacoby, Chris Booth",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Lm6000",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_lm6000_63.txt"
+}

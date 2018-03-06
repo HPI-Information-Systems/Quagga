@@ -1,0 +1,15 @@
+Hi,
+
+We have written a java spark application (primarily uses spark sql). We
+want to expand this to provide our application "as a service". For this, we
+are trying to write a REST API. While a simple REST API can be easily made,
+and I can get Spark to run through the launcher. I wonder, how the spark
+context can be used by service requests, to process data.
+
+Are there any simple JAVA examples to illustrate this use-case? I am sure
+people have faced this before.
+
+
+Thanks
+Nipun
+

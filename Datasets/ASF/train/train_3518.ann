@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 19.05.2017 16:33, Ravi Kumar Taminidi wrote:\n> Hello,  Scenario: Currently we have 2 Solr Servers running in 2 different servers (linux),\nIs there any way can we make the Core to be located in NAS or Network shared Drive so both\nthe solrs using the same Index.\n> \n> Let me know if any performance issues, our size of Index is appx 1GB.\n> \n> Thanks\n> \n> Ravi\n> \n\nThe operating system can cache a local filesystem for a infinitely long\ntime, because no one else is allowed to change the data. With network\nfilesystems, the operating system can not be sure, that the data have\nnot been altered by another one. So usually caches on network\nfilesystems are frequently invalidated.\n\nI think you loose the caching from the OS - memory speed vs. network\nfilesystem speed! Not sure if mmap helps here ....\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 48,
+      "text": "On 19.05.2017 16:33, Ravi Kumar Taminidi wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 339,
+      "end": 361,
+      "text": "> \n> Thanks\n> \n> Ravi\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 48,
+      "end": 802,
+      "text": "> Hello,  Scenario: Currently we have 2 Solr Servers running in 2 different servers (linux),\nIs there any way can we make the Core to be located in NAS or Network shared Drive so both\nthe solrs using the same Index.\n> \n> Let me know if any performance issues, our size of Index is appx 1GB.\n> \n> Thanks\n> \n> Ravi\n> \n\nThe operating system can cache a local filesystem for a infinitely long\ntime, because no one else is allowed to change the data. With network\nfilesystems, the operating system can not be sure, that the data have\nnot been altered by another one. So usually caches on network\nfilesystems are frequently invalidated.\n\nI think you loose the caching from the OS - memory speed vs. network\nfilesystem speed! Not sure if mmap helps here ....\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 48,
+      "end": 57,
+      "text": "> Hello, ",
+      "type": "Body/Intro",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3518"
+}

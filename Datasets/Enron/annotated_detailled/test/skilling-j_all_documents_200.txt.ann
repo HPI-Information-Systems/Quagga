@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "test/skilling-j_all_documents_200.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<20747567.1075840071853.JavaMail.evans@thyme>",
+      "Date": "Thu, 29 Jun 2000 08:07:00 -0700 (PDT)",
+      "From": "leonardo.pacheco@enron.com",
+      "To": "kenneth.lay@enron.com, jeff.skilling@enron.com, joseph.sutton@enron.com, \n\tcliff.baxter@enron.com, mike.mcconnell@enron.com, \n\tjay.fitzgerald@enron.com, mark.palmer@enron.com, \n\tjohn.sherriff@enron.com, greg.whalley@enron.com, \n\tjeffrey.shankman@enron.com, kimberly.hillis@enron.com, \n\tdaniel.reck@enron.com, tim.belden@enron.com, thor.lien@enron.com, \n\tdouglas.friedman@enron.com, bob.crane@enron.com, joe.gold@enron.com, \n\trichard.lewis@enron.com, john.nowlan@enron.com, \n\tpaul.quilkey@enron.com, mark.haedicke@enron.com, \n\tdave.samuels@enron.com, rahil.jafry@enron.com, \n\tlouise.kitchen@enron.com, bob.shults@enron.com, \n\tamita.gosalia@enron.com, george.mcclellan@enron.com, \n\tsally.beck@enron.com, steven.kean@enron.com, jim.fallon@enron.com, \n\tnick.mooney@enron.com, jeffrey.mcmahon@enron.com, \n\tjoseph.hirl@enron.com, william.bradford@enron.com, \n\tmark.frevert@enron.com",
+      "Subject": "EnronOnline Management Report for June 28, 2000",
+      "Cc": "david.forster@enron.com, carrie.southard@enron.com, sheri.thomas@enron.com, \n\tkal.shah@enron.com, andy.zipper@enron.com, \n\tmichael.danielson@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "Bcc": "david.forster@enron.com, carrie.southard@enron.com, sheri.thomas@enron.com, \n\tkal.shah@enron.com, andy.zipper@enron.com, \n\tmichael.danielson@enron.com",
+      "X-From": "Leonardo Pacheco",
+      "X-To": "Kenneth Lay, Jeff Skilling, Joseph W Sutton, Cliff Baxter, Mike McConnell, Jay Fitzgerald, Mark Palmer, John Sherriff, Greg Whalley, Jeffrey A Shankman, Kimberly Hillis, Daniel Reck, Tim Belden, Thor Lien, Douglas S Friedman, Bob Crane, Joe Gold, Richard Lewis, John L Nowlan, Paul Quilkey, Mark E Haedicke, Dave Samuels, Rahil Jafry, Louise Kitchen, Bob Shults, Amita Gosalia, George McClellan, Sally Beck, Steven J Kean, Jim Fallon, Nick Mooney, Jeffrey McMahon, Joseph P Hirl, William S Bradford, Mark Frevert",
+      "X-cc": "David Forster, Carrie Southard, Sheri Thomas, Kal Shah, Andy Zipper, Michael Danielson",
+      "X-bcc": "",
+      "X-Folder": "\\Jeffrey_Skilling_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.nsf"
+    }
+  },
+  "text": "Please see the attached Management Report for June 28, 2000:\n\nTotal  Today Year To Date Life To Date\n\nNumber of Transactions  2,529 171,066 176,067\nGross Notional Value $  1,505,907,788 81,059,899,421 82,274,585,994\n =20\nRevenue from Physical flows to date ($)  4,910,516,931 5,006,268,423\n\n =20\nNew Counterparties transacting today  1\nCounterparties having transacted to date  380\n\n\nAlso attached is the Public Domain Report, containing information which is=\n=20\nintended for use in presentations or reports which will be seen by=20\nindividuals outside Enron:\n\nTotal Life to Date Transactions   > 176,000, which is > 52 % of Enron=01,s=\n=20\ncurrent transactions for the month=20\nAverage Daily Transactions    > 2,000\nLife to Date Notional Value of Transactions > $82 billion\nAverage Daily Notional Value    =3D Approximately $1 billion, which is 45% =\nof=20\nEnron=01,s Notional Volume\nNumber of Products Offered Each Day  =3D Approximately 820\n\n =20\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 958,
+      "text": "Please see the attached Management Report for June 28, 2000:\n\nTotal  Today Year To Date Life To Date\n\nNumber of Transactions  2,529 171,066 176,067\nGross Notional Value $  1,505,907,788 81,059,899,421 82,274,585,994\n =20\nRevenue from Physical flows to date ($)  4,910,516,931 5,006,268,423\n\n =20\nNew Counterparties transacting today  1\nCounterparties having transacted to date  380\n\n\nAlso attached is the Public Domain Report, containing information which is=\n=20\nintended for use in presentations or reports which will be seen by=20\nindividuals outside Enron:\n\nTotal Life to Date Transactions   > 176,000, which is > 52 % of Enron=01,s=\n=20\ncurrent transactions for the month=20\nAverage Daily Transactions    > 2,000\nLife to Date Notional Value of Transactions > $82 billion\nAverage Daily Notional Value    =3D Approximately $1 billion, which is 45% =\nof=20\nEnron=01,s Notional Volume\nNumber of Products Offered Each Day  =3D Approximately 820\n\n =20\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

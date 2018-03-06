@@ -1,0 +1,199 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/19/2001 \n04:25 PM ---------------------------\n\n\nPamela Vande Krol Castro <castro@rice.edu> on 04/17/2001 10:28:47 AM\nTo: (Recipient list suppressed)\ncc: werckle@ruf.rice.edu \nSubject: final exams\n\n\nJust a reminder that final exam time for module 6 is almost upon us (April\n30 to May 4)!\n\nIf you need a slot reserved for your exam please contact Linda Werckle at\n713-348-3463 as soon as possible.  Space is filling up quickly and we have\nmany demands for this period of time.  We want you to have the best time\npossible so contact Linda as soon as you know you will be needing a room.\n\nLet me know if you have any questions!\n\nPamela Castro\nMBA Program Associate\nRice University\n713-348-6223\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "04:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/19/2001 \n04:25 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 139,
+      "text": "Pamela Vande Krol Castro",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 141,
+      "end": 156,
+      "text": "castro@rice.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 161,
+      "end": 171,
+      "text": "04/17/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 172,
+      "end": 183,
+      "text": "10:28:47 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 220,
+      "end": 240,
+      "text": "werckle@ruf.rice.edu",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 251,
+      "end": 262,
+      "text": "final exams",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 113,
+      "end": 263,
+      "text": "\n\nPamela Vande Krol Castro <castro@rice.edu> on 04/17/2001 10:28:47 AM\nTo: (Recipient list suppressed)\ncc: werckle@ruf.rice.edu \nSubject: final exams\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 692,
+      "end": 705,
+      "text": "Pamela Castro",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 706,
+      "end": 727,
+      "text": "MBA Program Associate",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 728,
+      "end": 743,
+      "text": "Rice University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 744,
+      "end": 756,
+      "text": "713-348-6223",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 692,
+      "end": 757,
+      "text": "Pamela Castro\nMBA Program Associate\nRice University\n713-348-6223\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 263,
+      "end": 758,
+      "text": "\n\nJust a reminder that final exam time for module 6 is almost upon us (April\n30 to May 4)!\n\nIf you need a slot reserved for your exam please contact Linda Werckle at\n713-348-3463 as soon as possible.  Space is filling up quickly and we have\nmany demands for this period of time.  We want you to have the best time\npossible so contact Linda as soon as you know you will be needing a room.\n\nLet me know if you have any questions!\n\nPamela Castro\nMBA Program Associate\nRice University\n713-348-6223\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 14,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8562672.1075856424025.JavaMail.evans@thyme>",
+      "Date": "Thu, 19 Apr 2001 09:25:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "final exams",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_3918.txt"
+}

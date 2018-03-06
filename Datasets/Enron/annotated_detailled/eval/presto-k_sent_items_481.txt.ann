@@ -1,0 +1,255 @@
+{
+  "wrapper": "plaintext",
+  "text": "Harry is getting with Kim Melodick (HR for wholesale trading) to coordinate the transfer.\n\n -----Original Message-----\nFrom: \tMack, Iris  \nSent:\tFriday, June 22, 2001 10:52 AM\nTo:\tShoemake, Lisa; Arora, Harry; Sturm, Fletcher J.; Presto, Kevin M.\nSubject:\tRE: Interview\n\nHi,\n\n\tMy current boss - Dr. Vince Kaminski - has informed Enron Credit that I will be moving to your group.  In addition, he has me training my \"successors\" to take over my current projects.  \n\n\tI have accepted a verbal offer from Harry but wanted to know what the next steps are.  Should I be receiving something in writing regarding my new job description, title, moving arrangements to the 31st floor, etc.?\n\n\tThanks in advance for your time.  \n\nRegards,\nIris\n\n -----Original Message-----\nFrom: \tShoemake, Lisa  \nSent:\tThursday, June 14, 2001 3:36 PM\nTo:\tMack, Iris\nSubject:\tInterview\n\nIris here is the schedule:\n\nFletch Sturm 1:30-2:00 EB3125\nKevin Presto 2:00-2:30 in EB3125\nHarry Arora 2:30-3:00 in EB3125\n\nIf you have any questions please let me know.\n\nThanks\nLisa x39194",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 91,
+      "text": "Harry is getting with Kim Melodick (HR for wholesale trading) to coordinate the transfer.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 126,
+      "end": 136,
+      "text": "Mack, Iris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 153,
+      "end": 166,
+      "text": "June 22, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 167,
+      "end": 175,
+      "text": "10:52 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 180,
+      "end": 194,
+      "text": "Shoemake, Lisa",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 196,
+      "end": 208,
+      "text": "Arora, Harry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 210,
+      "end": 228,
+      "text": "Sturm, Fletcher J.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 230,
+      "end": 246,
+      "text": "Presto, Kevin M.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 256,
+      "end": 269,
+      "text": "RE: Interview",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 91,
+      "end": 270,
+      "text": " -----Original Message-----\nFrom: \tMack, Iris  \nSent:\tFriday, June 22, 2001 10:52 AM\nTo:\tShoemake, Lisa; Arora, Harry; Sturm, Fletcher J.; Presto, Kevin M.\nSubject:\tRE: Interview\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 271,
+      "end": 275,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 729,
+      "end": 733,
+      "text": "Iris",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 684,
+      "end": 734,
+      "text": "Thanks in advance for your time.  \n\nRegards,\nIris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 270,
+      "end": 735,
+      "text": "\nHi,\n\n\tMy current boss - Dr. Vince Kaminski - has informed Enron Credit that I will be moving to your group.  In addition, he has me training my \"successors\" to take over my current projects.  \n\n\tI have accepted a verbal offer from Harry but wanted to know what the next steps are.  Should I be receiving something in writing regarding my new job description, title, moving arrangements to the 31st floor, etc.?\n\n\tThanks in advance for your time.  \n\nRegards,\nIris\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 770,
+      "end": 784,
+      "text": "Shoemake, Lisa",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 803,
+      "end": 816,
+      "text": "June 14, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 817,
+      "end": 824,
+      "text": "3:36 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 829,
+      "end": 839,
+      "text": "Mack, Iris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 849,
+      "end": 858,
+      "text": "Interview",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 735,
+      "end": 859,
+      "text": " -----Original Message-----\nFrom: \tShoemake, Lisa  \nSent:\tThursday, June 14, 2001 3:36 PM\nTo:\tMack, Iris\nSubject:\tInterview\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 860,
+      "end": 864,
+      "text": "Iris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1031,
+      "end": 1049,
+      "text": "Thanks\nLisa x39194",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1038,
+      "end": 1042,
+      "text": "Lisa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 859,
+      "end": 1049,
+      "text": "\nIris here is the schedule:\n\nFletch Sturm 1:30-2:00 EB3125\nKevin Presto 2:00-2:30 in EB3125\nHarry Arora 2:30-3:00 in EB3125\n\nIf you have any questions please let me know.\n\nThanks\nLisa x39194",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 18,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 21,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 23,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26460943.1075854841889.JavaMail.evans@thyme>",
+      "Date": "Fri, 22 Jun 2001 09:10:15 -0700 (PDT)",
+      "From": "m..presto@enron.com",
+      "To": "iris.mack@enron.com",
+      "Subject": "RE: Interview",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Presto, Kevin M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KPRESTO>",
+      "X-To": "Mack, Iris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Imack>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Presto, Kevin M (Non-Privileged)\\Presto, Kevin M.\\Sent Items",
+      "X-Origin": "Presto-K",
+      "X-FileName": "Presto, Kevin M (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/presto-k_sent_items_481.txt"
+}

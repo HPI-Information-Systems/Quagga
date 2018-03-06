@@ -1,0 +1,134 @@
+Hi,
+
+Will MongoDB not fit this solution?
+
+
+
+From: Vova Shelgunov [mailto:vvshvv@gmail.com]
+Sent: Wednesday, March 15, 2017 11:51 PM
+To: Muthu Jayakumar <babloo80@gmail.com>
+Cc: vincent gromakowski <vincent.gromakowski@gmail.com>; Richard Siebeling <rsiebeling@gmail.com>;
+user <user@spark.apache.org>; Shiva Ramagopal <tr.shiv@gmail.com>
+Subject: Re: Fast write datastore...
+
+Hi Muthu,.
+
+I did not catch from your message, what performance do you expect from subsequent queries?
+
+Regards,
+Uladzimir
+
+On Mar 15, 2017 9:03 PM, "Muthu Jayakumar" <babloo80@gmail.com<mailto:babloo80@gmail.com>>
+wrote:
+Hello Uladzimir / Shiva,
+
+From ElasticSearch documentation (i have to see the logical plan of a query to confirm), the
+richness of filters (like regex,..) is pretty good while comparing to Cassandra. As for aggregates,
+i think Spark Dataframes is quite rich enough to tackle.
+Let me know your thoughts.
+
+Thanks,
+Muthu
+
+
+On Wed, Mar 15, 2017 at 10:55 AM, vvshvv <vvshvv@gmail.com<mailto:vvshvv@gmail.com>>
+wrote:
+Hi muthu,
+
+I agree with Shiva, Cassandra also supports SASI indexes, which can partially replace Elasticsearch
+functionality.
+
+Regards,
+Uladzimir
+
+
+
+Sent from my Mi phone
+On Shiva Ramagopal <tr.shiv@gmail.com<mailto:tr.shiv@gmail.com>>, Mar 15, 2017
+5:57 PM wrote:
+Probably Cassandra is a good choice if you are mainly looking for a datastore that supports
+fast writes. You can ingest the data into a table and define one or more materialized views
+on top of it to support your queries. Since you mention that your queries are going to be
+simple you can define your indexes in the materialized views according to how you want to
+query the data.
+Thanks,
+Shiva
+
+
+On Wed, Mar 15, 2017 at 7:58 PM, Muthu Jayakumar <babloo80@gmail.com<mailto:babloo80@gmail.com>>
+wrote:
+Hello Vincent,
+
+Cassandra may not fit my bill if I need to define my partition and other indexes upfront.
+Is this right?
+
+Hello Richard,
+
+Let me evaluate Apache Ignite. I did evaluate it 3 months back and back then the connector
+to Apache Spark did not support Spark 2.0.
+
+Another drastic thought may be repartition the result count to 1 (but have to be cautions
+on making sure I don't run into Heap issues if the result is too large to fit into an executor)
+ and write to a relational database like mysql / postgres. But, I believe I can do the same
+using ElasticSearch too.
+
+A slightly over-kill solution may be Spark to Kafka to ElasticSearch?
+
+More thoughts welcome please.
+
+Thanks,
+Muthu
+
+On Wed, Mar 15, 2017 at 4:53 AM, Richard Siebeling <rsiebeling@gmail.com<mailto:rsiebeling@gmail.com>>
+wrote:
+maybe Apache Ignite does fit your requirements
+
+On 15 March 2017 at 08:44, vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>
+wrote:
+Hi
+If queries are statics and filters are on the same columns, Cassandra is a good option.
+
+Le 15 mars 2017 7:04 AM, "muthu" <babloo80@gmail.com<mailto:babloo80@gmail.com>>
+a écrit :
+Hello there,
+
+I have one or more parquet files to read and perform some aggregate queries
+using Spark Dataframe. I would like to find a reasonable fast datastore that
+allows me to write the results for subsequent (simpler queries).
+I did attempt to use ElasticSearch to write the query results using
+ElasticSearch Hadoop connector. But I am running into connector write issues
+if the number of Spark executors are too many for ElasticSearch to handle.
+But in the schema sense, this seems a great fit as ElasticSearch has smartz
+in place to discover the schema. Also in the query sense, I can perform
+simple filters and sort using ElasticSearch and for more complex aggregate,
+Spark Dataframe can come back to the rescue :).
+Please advice on other possible data-stores I could use?
+
+Thanks,
+Muthu
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Fast-write-datastore-tp28497.html<https://urldefense.proofpoint.com/v2/url?u=http-3A__apache-2Dspark-2Duser-2Dlist.1001560.n3.nabble.com_Fast-2Dwrite-2Ddatastore-2Dtp28497.html&d=DwMFaQ&c=eIGjsITfXP_y-DLLX0uEHXJvU8nOHrUK8IrwNKOtkVU&r=7scIIjM0jY9x3fjvY6a_yERLxMA2NwA8l0DnuyrL6yA&m=9OzGCUHXXQLjuS_SpMHII54QWHNzFKrwMma4qV3ADxE&s=6305WvqHeyTC5S2ZSBXamJrcO03n3MQyoU4tkMQlM_k&e=>
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org<mailto:user-unsubscribe@spark.apache.org>
+
+
+
+
+
+
+________________________________
+
+This message is for the designated recipient only and may contain privileged, proprietary,
+or otherwise confidential information. If you have received it in error, please notify the
+sender immediately and delete the original. Any other use of the e-mail by you is prohibited.
+Where allowed by local law, electronic communications with Accenture and its affiliates, including
+e-mail and instant messaging (including content), may be scanned by our systems for the purposes
+of information security and assessment of internal compliance with Accenture policy.
+______________________________________________________________________________________
+
+www.accenture.com

@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "Up on the web. New email address: kontko@attbi.com\n\nkari\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 51,
+      "end": 57,
+      "text": "\nkari\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 57,
+      "text": "Up on the web. New email address: kontko@attbi.com\n\nkari\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25432758.1075859212813.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Dec 2001 14:24:32 -0800 (PST)",
+      "From": "kontko@home.com",
+      "To": "undisclosed-recipients@enron.com",
+      "Subject": "I'm back!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "kari ontko <kontko@home.com>",
+      "X-To": "undisclosed-recipients <undisclosed-recipients:;>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Jan2002\\Dasovich, Jeff\\Inbox",
+      "X-Origin": "Dasovich-J",
+      "X-FileName": "jdasovic (Non-Privileged).pst"
+    }
+  },
+  "id": "train/dasovich-j_inbox_1031.txt"
+}

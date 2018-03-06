@@ -1,0 +1,341 @@
+{
+  "wrapper": "plaintext",
+  "text": "Let's have this signed and fax per below.  Thanks.  SS\n---------------------- Forwarded by Sara Shackleton/HOU/ECT on 11/17/99 02:25 \nPM ---------------------------\n\nMichael Etringer\n\n11/17/99 01:12 PM\n\nTo: Sara Shackleton/HOU/ECT@ECT\ncc:  \nSubject: Disclosure Agreement\n\n  Comments from Deseret attached.  Let me know if they are OK.  If ok please \nmake changes and fax a signed copy to Phil Tice at Deseret.  \nHis Fax Number is:  801-892-6599.  They will sign and return a copy.\n\nThanks for the help.\nMike\n\n\n---------------------- Forwarded by Michael Etringer/HOU/ECT on 11/17/99 \n11:10 AM ---------------------------\n   \n\tEnron Capital & Trade Resources Corp.\n\t\n\tFrom:  \"Phil Tice\" <philtice@deseretgt.com>                           \n11/17/99 11:03 AM\n\t\n\nTo: Michael Etringer/HOU/ECT@ECT\ncc:  \nSubject: Disclosure Agreement\n\n\n\nMike:  Attached are my comments on the disclosure agreement.\n\nPhil\n - CA(Deseret).doc\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 52,
+      "end": 54,
+      "text": "SS",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 43,
+      "end": 54,
+      "text": "Thanks.  SS",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 55,
+      "text": "Let's have this signed and fax per below.  Thanks.  SS\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 91,
+      "end": 106,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 118,
+      "end": 126,
+      "text": "11/17/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 127,
+      "end": 136,
+      "text": "02:25 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 55,
+      "end": 165,
+      "text": "---------------------- Forwarded by Sara Shackleton/HOU/ECT on 11/17/99 02:25 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 166,
+      "end": 182,
+      "text": "Michael Etringer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 184,
+      "end": 192,
+      "text": "11/17/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 193,
+      "end": 201,
+      "text": "01:12 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 207,
+      "end": 222,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 250,
+      "end": 270,
+      "text": "Disclosure Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 165,
+      "end": 271,
+      "text": "\nMichael Etringer\n\n11/17/99 01:12 PM\n\nTo: Sara Shackleton/HOU/ECT@ECT\ncc:  \nSubject: Disclosure Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 503,
+      "end": 507,
+      "text": "Mike",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 482,
+      "end": 508,
+      "text": "Thanks for the help.\nMike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 271,
+      "end": 510,
+      "text": "\n  Comments from Deseret attached.  Let me know if they are OK.  If ok please \nmake changes and fax a signed copy to Phil Tice at Deseret.  \nHis Fax Number is:  801-892-6599.  They will sign and return a copy.\n\nThanks for the help.\nMike\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 546,
+      "end": 562,
+      "text": "Michael Etringer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 574,
+      "end": 583,
+      "text": "11/17/99 ",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 584,
+      "end": 592,
+      "text": "11:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 510,
+      "end": 621,
+      "text": "---------------------- Forwarded by Michael Etringer/HOU/ECT on 11/17/99 \n11:10 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 621,
+      "end": 666,
+      "text": "   \n\tEnron Capital & Trade Resources Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 675,
+      "end": 684,
+      "text": "Phil Tice",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 687,
+      "end": 709,
+      "text": "philtice@deseretgt.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 738,
+      "end": 746,
+      "text": "11/17/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 747,
+      "end": 755,
+      "text": "11:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 763,
+      "end": 779,
+      "text": "Michael Etringer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 807,
+      "end": 827,
+      "text": "Disclosure Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 667,
+      "end": 828,
+      "text": "From:  \"Phil Tice\" <philtice@deseretgt.com>                           \n11/17/99 11:03 AM\n\t\n\nTo: Michael Etringer/HOU/ECT@ECT\ncc:  \nSubject: Disclosure Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 831,
+      "end": 835,
+      "text": "Mike",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 893,
+      "end": 897,
+      "text": "Phil",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 901,
+      "end": 916,
+      "text": "CA(Deseret).doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 898,
+      "end": 917,
+      "text": " - CA(Deseret).doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 828,
+      "end": 919,
+      "text": "\n\n\nMike:  Attached are my comments on the disclosure agreement.\n\nPhil\n - CA(Deseret).doc\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 26,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 30,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12889285.1075844330847.JavaMail.evans@thyme>",
+      "Date": "Wed, 17 Nov 1999 06:25:00 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "susan.flynn@enron.com",
+      "Subject": "Disclosure Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Susan Flynn",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_894.txt"
+}

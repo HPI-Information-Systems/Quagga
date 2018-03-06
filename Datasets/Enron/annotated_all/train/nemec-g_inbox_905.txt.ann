@@ -1,0 +1,138 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nEverything is going great over here.  We're really busy.  Come on over some\ntime and we'll give you the grand tour.  The varsity is on the 11th floor\nof the Metro Building (Louisiana Place).\n\nI caught the tail end of Wild At Heart last Sunday on the IFC channel ...\nalways awsome.  I got a satellite dish for my Father's Day present and\npicked up some new channels including the Independent Film Channel and the\nSundance Channel\n\nWell, back to work.\n\n          --> Frank\n\n\n\n\n\n\"Nemec, Gerald\" <Gerald.Nemec@enron.com> on 06/28/2001 10:01:29 AM\n\nTo:   <rscook@aep.com>\ncc:\n\nSubject:  Whazzup?\n\n\nMr.  Cook,  How is life at AEP?  The big E is still the same.  Minus\nabout 4 attorneys who decided to join you.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 478,
+      "end": 491,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 494,
+      "end": 516,
+      "text": "Gerald.Nemec@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 521,
+      "end": 531,
+      "text": "06/28/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 532,
+      "end": 543,
+      "text": "10:01:29 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 552,
+      "end": 566,
+      "text": "rscook@aep.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 583,
+      "end": 591,
+      "text": "Whazzup?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 477,
+      "end": 592,
+      "text": "\"Nemec, Gerald\" <Gerald.Nemec@enron.com> on 06/28/2001 10:01:29 AM\n\nTo:   <rscook@aep.com>\ncc:\n\nSubject:  Whazzup?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 594,
+      "end": 603,
+      "text": "Mr.  Cook",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 592,
+      "end": 709,
+      "text": "\n\nMr.  Cook,  How is life at AEP?  The big E is still the same.  Minus\nabout 4 attorneys who decided to join you.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 466,
+      "end": 471,
+      "text": "Frank",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 452,
+      "end": 472,
+      "text": "          --> Frank\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 0,
+      "end": 477,
+      "text": "\nEverything is going great over here.  We're really busy.  Come on over some\ntime and we'll give you the grand tour.  The varsity is on the 11th floor\nof the Metro Building (Louisiana Place).\n\nI caught the tail end of Wild At Heart last Sunday on the IFC channel ...\nalways awsome.  I got a satellite dish for my Father's Day present and\npicked up some new channels including the Independent Film Channel and the\nSundance Channel\n\nWell, back to work.\n\n          --> Frank\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3799822.1075858575342.JavaMail.evans@thyme>",
+      "Date": "Fri, 29 Jun 2001 04:09:15 -0700 (PDT)",
+      "From": "rscook@aep.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "Re: Whazzup?",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "rscook@aep.com@ENRON <IMCEANOTES-rscook+40aep+2Ecom+40ENRON@ENRON.com>",
+      "X-To": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Nemec, Gerald (Non-Privileged)\\Nemec, Gerald\\Inbox",
+      "X-Origin": "Nemec-G",
+      "X-FileName": "Nemec, Gerald (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_inbox_905.txt"
+}

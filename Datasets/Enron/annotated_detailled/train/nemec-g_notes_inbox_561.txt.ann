@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/nemec-g_notes_inbox_561.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<13731070.1075842648461.JavaMail.evans@thyme>",
+      "Date": "Thu, 31 Aug 2000 11:21:00 -0700 (PDT)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.users@enron.com",
+      "Subject": "Resolution Center's New Number - 853.1411",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Enron Announcements",
+      "X-To": "ALL Enron Corp Users",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "text": "___________________________________________________________________________=\n___\n___\n\nThe vision is coming into focus and it has a new name=01(Resolution Center!\nNow, it has one number=01(853.1411!=20\n\nEnron Net Works Resolution Center understands in this day and age, you have=\n=20\nenough numbers to remember: cell phones, pagers, fax machines, etc.  So, we=\n=20\nare simplifying your life when it comes to contacting the Resolution Center=\n=20\nfor IT support.  Now you have one easy number to remember =01) 853.1411.  A=\nnd=20\nmore than just being easier to remember, this change will allow us to bette=\nr=20\nmaximize our resources to ensure consistent, high quality service to all ou=\nr=20\ncustomers.\n\nEffective Tuesday, September 5, 2000, all you have to remember is 3.1411. =\n=20\nYou will reach the same friendly staff you did with the previous numbers. =\n=20\nCome meet some of the members of the Resolution Center team at our booth in=\n=20\nthe Enron building lobby between 11:00 a.m. and 1:00 p.m. on Tuesday,=20\nSeptember 5th.  We hope to see you there!\n\nTo get more information about our new services, check online at =20\nhttp://itcentral.enron.com.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1156,
+      "text": "___________________________________________________________________________=\n___\n___\n\nThe vision is coming into focus and it has a new name=01(Resolution Center!\nNow, it has one number=01(853.1411!=20\n\nEnron Net Works Resolution Center understands in this day and age, you have=\n=20\nenough numbers to remember: cell phones, pagers, fax machines, etc.  So, we=\n=20\nare simplifying your life when it comes to contacting the Resolution Center=\n=20\nfor IT support.  Now you have one easy number to remember =01) 853.1411.  A=\nnd=20\nmore than just being easier to remember, this change will allow us to bette=\nr=20\nmaximize our resources to ensure consistent, high quality service to all ou=\nr=20\ncustomers.\n\nEffective Tuesday, September 5, 2000, all you have to remember is 3.1411. =\n=20\nYou will reach the same friendly staff you did with the previous numbers. =\n=20\nCome meet some of the members of the Resolution Center team at our booth in=\n=20\nthe Enron building lobby between 11:00 a.m. and 1:00 p.m. on Tuesday,=20\nSeptember 5th.  We hope to see you there!\n\nTo get more information about our new services, check online at =20\nhttp://itcentral.enron.com.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

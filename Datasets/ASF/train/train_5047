@@ -1,0 +1,31 @@
+Ronald:
+
+Actually, people generally don't search on master ;). The idea is that
+master is configured for heavy indexing and then people search on the
+slaves which are configured for heavy query loads (e.g. memory,
+autowarming, whatever may be different). Which is it's own problem
+since the time the slaves poll won't necessarily be the exact same
+wall-clock time.....
+
+SolrCloud doesn't use replication except in certain recovery
+scenarios. In normal operations, documents are forwarded to each
+replica and indexed separately on all nodes. That's about the only way
+to support Near Real Time.
+
+Best,
+Erick
+
+On Tue, Jul 25, 2017 at 9:39 AM, Stanonik, Ronald <rstanonik@ucsd.edu> wrote:
+> Bingo!  Right on both counts!  opensearcher was false.  When I changed it to true, then
+I could see that master(searching) and master(replicable) both changed.  And autocommit.maxtime
+is causing a commit on the master.
+>
+> Who uses master(replicable)?  It seems for my simple master/slave configuration master(searching)
+is the relevant version.  Maybe solr cloud uses master(replicable)?
+>
+> Thanks,
+>
+> Ron
+>
+>
+

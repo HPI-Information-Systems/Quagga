@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\nI'm trying to use the ManagedSynonyms with *ignoreCase=true*\nIt is working fine for the identifying part but the problem comes in\nsynonym value\nSuppose i have a synonym *iwatch ==>appleWatch,iWatch*\nIf the user query is *iwatch (in any case)*  it was identifying the synonym\nand replace the token with *applewatch and iwatch*  (in lowercase),which i\ndidn't want\nI need the synonyms to comes with the same case what i have configured\ni.e. *appleWatch and iWatch*\nAny idea on how to so that .\n\nThanks,\nAman Deep Singh\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 495,
+      "end": 520,
+      "text": "\nThanks,\nAman Deep Singh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 521,
+      "text": "Hi,\nI'm trying to use the ManagedSynonyms with *ignoreCase=true*\nIt is working fine for the identifying part but the problem comes in\nsynonym value\nSuppose i have a synonym *iwatch ==>appleWatch,iWatch*\nIf the user query is *iwatch (in any case)*  it was identifying the synonym\nand replace the token with *applewatch and iwatch*  (in lowercase),which i\ndidn't want\nI need the synonyms to comes with the same case what i have configured\ni.e. *appleWatch and iWatch*\nAny idea on how to so that .\n\nThanks,\nAman Deep Singh\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5392"
+}

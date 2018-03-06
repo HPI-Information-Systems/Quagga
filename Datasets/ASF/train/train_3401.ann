@@ -1,0 +1,128 @@
+{
+  "wrapper": "plaintext",
+  "text": "So do you have _users_ directly entering Solr queries? And are the\ntotally trusted to be\n1> not malicious\n2> already know your schema?\n\nBecause direct access to the Solr URL allows me to delete all your\ndata. Usually there are drop-downs or other UI \"stuff\" that allows you\nto programmatically assign the field name.\n\nTrying to get in there and parse an arbitrary query in component is\ndo-able but difficult.\n\nAs Geraint says, field aliasing will work, but you'd need to cover all\nthe possibilities. All uppercase to lowercase is easy, but camel case\netc. would lead to a lot of aliases.....\n\nBest,\nErick\n\n2017-05-15 6:16 GMT-07:00 Peem\u00c3\u00b6ller, Bj\u00c3\u00b6rn <Bjoern.Peemoeller@berenberg.de>:\n> Hi Rick,\n>\n> thank you for your reply! I really meant field *names*, since our values are already\nprocessed by a lower case filter (both index and query). However, our users are confused because\nthey can search for \"id:1\" but not for \"ID:1\". Furthermore, we employ the EDisMax query parser,\nso then even get no error message.\n>\n> Therefore, I thought it may be sufficient to map all field names to lower case at the\nquery level so that I do not have to introduce additional fields.\n>\n> Regards,\n> Bj\u00c3\u00b6rn\n>\n> -----Urspr\u00c3\u00bcngliche Nachricht-----\n> Von: Rick Leir [mailto:rleir@leirtech.com]\n> Gesendet: Montag, 15. Mai 2017 13:48\n> An: solr-user@lucene.apache.org\n> Betreff: Re: Configure query parser to handle field name case-insensitive\n>\n> Bj\u00c3\u00b6rn\n> Field names or values? I assume values. Your analysis chain in schema.xml probably downcases\nchars, if not then that could be your problem.\n>\n> Field _name_? Then you might have to copyfield the field to a new field with the desired\ncase. Avoid doing that if you can. Cheers -- Rick\n>\n> On May 15, 2017 5:48:09 AM EDT, \"Peem\u00c3\u00b6ller, Bj\u00c3\u00b6rn\" <Bjoern.Peemoeller@berenberg.de>\nwrote:\n>>Hi all,\n>>\n>>I'm fairly new at using Solr and I need to configure our instance to\n>>accept field names in both uppercase and lowercase (they are defined as\n>>lowercase in our configuration). Is there a simple way to achieve this?\n>>\n>>Thanks in advance,\n>>Bj\u00c3\u00b6rn\n>>\n>>Bj\u00c3\u00b6rn Peem\u00c3\u00b6ller\n>>IT & IT Operations\n>>\n>>BERENBERG\n>>Joh. Berenberg, Gossler & Co. KG\n>>Neuer Jungfernstieg 20\n>>20354 Hamburg\n>>\n>>Telefon +49 40 350 60-8548\n>>Telefax +49 40 350 60-900\n>>E-Mail\n>>bjoern.peemoeller@berenberg.de<mailto:bjoern.peemoeller@berenberg.de>\n>>www.berenberg.de<http://www.berenberg.de/>\n>>\n>>Sitz: Hamburg - Amtsgericht Hamburg HRA 42659\n>>\n>>\n>>Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist\n>>vertraulich und kann dem Bank- und Datengeheimnis unterliegen oder\n>>sonst rechtlich geschuetzte Daten und Informationen enthalten. Wenn Sie\n>>nicht der richtige Adressat sind oder diese Nachricht irrtuemlich\n>>erhalten haben, informieren Sie bitte sofort den Absender \u00c3\u00bcber die\n>>Antwortfunktion. Anschliessend moechten Sie bitte diese Nachricht\n>>einschliesslich etwa beigefuegter Anhaenge unverzueglich vollstaendig\n>>loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht\n>>und/oder der ihr etwa beigefuegten Anhaenge sowie die unbefugte\n>>Weitergabe der darin enthaltenen Daten und Informationen sind nicht\n>>gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen\n>>namens unseres Hauses grundsaetzlich der Unterschriften zweier\n>>ausreichend bevollmaechtigter Vertreter unseres Hauses beduerfen. Wir\n>>verschicken daher keine rechtsverbindlichen Erklaerungen per E-Mail an\n>>Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen\n>>Erklaerungen oder Auftraege von Dritten entgegen.\n>>Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden\n>>Sie sich bitte an den Absender oder an info@berenberg.de. Please refer\n>>to http://www.berenberg.de/my_berenberg/disclaimer_e.html for our\n>>confidentiality notice.\n>\n> --\n> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n>\n> Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist vertraulich und kann dem\nBank- und Datengeheimnis unterliegen oder sonst rechtlich geschuetzte Daten und Informationen\nenthalten. Wenn Sie nicht der richtige Adressat sind oder diese Nachricht irrtuemlich erhalten\nhaben, informieren Sie bitte sofort den Absender \u00c3\u00bcber die Antwortfunktion. Anschliessend\nmoechten Sie bitte diese Nachricht einschliesslich etwa beigefuegter Anhaenge unverzueglich\nvollstaendig loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht und/oder der\nihr etwa beigefuegten Anhaenge sowie die unbefugte Weitergabe der darin enthaltenen Daten\nund Informationen sind nicht gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen\nnamens unseres Hauses grundsaetzlich der Unterschriften zweier ausreichend bevollmaechtigter\nVertreter unseres Hauses beduerfen. Wir verschicken daher keine rechtsverbindlichen Erklaerungen\nper E-Mail an Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen Erklaerungen\noder Auftraege von Dritten entgegen.\n> Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden Sie sich bitte an\nden Absender oder an info@berenberg.de. Please refer to http://www.berenberg.de/my_berenberg/disclaimer_e.html\nfor our confidentiality notice.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 592,
+      "end": 605,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 606,
+      "text": "So do you have _users_ directly entering Solr queries? And are the\ntotally trusted to be\n1> not malicious\n2> already know your schema?\n\nBecause direct access to the Solr URL allows me to delete all your\ndata. Usually there are drop-downs or other UI \"stuff\" that allows you\nto programmatically assign the field name.\n\nTrying to get in there and parse an arbitrary query in component is\ndo-able but difficult.\n\nAs Geraint says, field aliasing will work, but you'd need to cover all\nthe possibilities. All uppercase to lowercase is easy, but camel case\netc. would lead to a lot of aliases.....\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 606,
+      "end": 685,
+      "text": "2017-05-15 6:16 GMT-07:00 Peem\u00c3\u00b6ller, Bj\u00c3\u00b6rn <Bjoern.Peemoeller@berenberg.de>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 685,
+      "end": 696,
+      "text": "> Hi Rick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1169,
+      "end": 1191,
+      "text": ">\n> Regards,\n> Bj\u00c3\u00b6rn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 685,
+      "end": 1193,
+      "text": "> Hi Rick,\n>\n> thank you for your reply! I really meant field *names*, since our values are already\nprocessed by a lower case filter (both index and query). However, our users are confused because\nthey can search for \"id:1\" but not for \"ID:1\". Furthermore, we employ the EDisMax query parser,\nso then even get no error message.\n>\n> Therefore, I thought it may be sufficient to map all field names to lower case at the\nquery level so that I do not have to introduce additional fields.\n>\n> Regards,\n> Bj\u00c3\u00b6rn\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1193,
+      "end": 1424,
+      "text": "> -----Urspr\u00c3\u00bcngliche Nachricht-----\n> Von: Rick Leir [mailto:rleir@leirtech.com]\n> Gesendet: Montag, 15. Mai 2017 13:48\n> An: solr-user@lucene.apache.org\n> Betreff: Re: Configure query parser to handle field name case-insensitive\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1424,
+      "end": 1435,
+      "text": ">\n> Bj\u00c3\u00b6rn\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1704,
+      "end": 1720,
+      "text": " Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1424,
+      "end": 1722,
+      "text": ">\n> Bj\u00c3\u00b6rn\n> Field names or values? I assume values. Your analysis chain in schema.xml probably downcases\nchars, if not then that could be your problem.\n>\n> Field _name_? Then you might have to copyfield the field to a new field with the desired\ncase. Avoid doing that if you can. Cheers -- Rick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1722,
+      "end": 1817,
+      "text": "> On May 15, 2017 5:48:09 AM EDT, \"Peem\u00c3\u00b6ller, Bj\u00c3\u00b6rn\" <Bjoern.Peemoeller@berenberg.de>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1817,
+      "end": 1827,
+      "text": ">>Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2049,
+      "end": 2082,
+      "text": ">>\n>>Thanks in advance,\n>>Bj\u00c3\u00b6rn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2082,
+      "end": 2454,
+      "text": ">>\n>>Bj\u00c3\u00b6rn Peem\u00c3\u00b6ller\n>>IT & IT Operations\n>>\n>>BERENBERG\n>>Joh. Berenberg, Gossler & Co. KG\n>>Neuer Jungfernstieg 20\n>>20354 Hamburg\n>>\n>>Telefon +49 40 350 60-8548\n>>Telefax +49 40 350 60-900\n>>E-Mail\n>>bjoern.peemoeller@berenberg.de<mailto:bjoern.peemoeller@berenberg.de>\n>>www.berenberg.de<http://www.berenberg.de/>\n>>\n>>Sitz: Hamburg - Amtsgericht Hamburg HRA 42659\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1817,
+      "end": 5180,
+      "text": ">>Hi all,\n>>\n>>I'm fairly new at using Solr and I need to configure our instance to\n>>accept field names in both uppercase and lowercase (they are defined as\n>>lowercase in our configuration). Is there a simple way to achieve this?\n>>\n>>Thanks in advance,\n>>Bj\u00c3\u00b6rn\n>>\n>>Bj\u00c3\u00b6rn Peem\u00c3\u00b6ller\n>>IT & IT Operations\n>>\n>>BERENBERG\n>>Joh. Berenberg, Gossler & Co. KG\n>>Neuer Jungfernstieg 20\n>>20354 Hamburg\n>>\n>>Telefon +49 40 350 60-8548\n>>Telefax +49 40 350 60-900\n>>E-Mail\n>>bjoern.peemoeller@berenberg.de<mailto:bjoern.peemoeller@berenberg.de>\n>>www.berenberg.de<http://www.berenberg.de/>\n>>\n>>Sitz: Hamburg - Amtsgericht Hamburg HRA 42659\n>>\n>>\n>>Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist\n>>vertraulich und kann dem Bank- und Datengeheimnis unterliegen oder\n>>sonst rechtlich geschuetzte Daten und Informationen enthalten. Wenn Sie\n>>nicht der richtige Adressat sind oder diese Nachricht irrtuemlich\n>>erhalten haben, informieren Sie bitte sofort den Absender \u00c3\u00bcber die\n>>Antwortfunktion. Anschliessend moechten Sie bitte diese Nachricht\n>>einschliesslich etwa beigefuegter Anhaenge unverzueglich vollstaendig\n>>loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht\n>>und/oder der ihr etwa beigefuegten Anhaenge sowie die unbefugte\n>>Weitergabe der darin enthaltenen Daten und Informationen sind nicht\n>>gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen\n>>namens unseres Hauses grundsaetzlich der Unterschriften zweier\n>>ausreichend bevollmaechtigter Vertreter unseres Hauses beduerfen. Wir\n>>verschicken daher keine rechtsverbindlichen Erklaerungen per E-Mail an\n>>Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen\n>>Erklaerungen oder Auftraege von Dritten entgegen.\n>>Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden\n>>Sie sich bitte an den Absender oder an info@berenberg.de. Please refer\n>>to http://www.berenberg.de/my_berenberg/disclaimer_e.html for our\n>>confidentiality notice.\n>\n> --\n> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n>\n> Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist vertraulich und kann dem\nBank- und Datengeheimnis unterliegen oder sonst rechtlich geschuetzte Daten und Informationen\nenthalten. Wenn Sie nicht der richtige Adressat sind oder diese Nachricht irrtuemlich erhalten\nhaben, informieren Sie bitte sofort den Absender \u00c3\u00bcber die Antwortfunktion. Anschliessend\nmoechten Sie bitte diese Nachricht einschliesslich etwa beigefuegter Anhaenge unverzueglich\nvollstaendig loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht und/oder der\nihr etwa beigefuegten Anhaenge sowie die unbefugte Weitergabe der darin enthaltenen Daten\nund Informationen sind nicht gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen\nnamens unseres Hauses grundsaetzlich der Unterschriften zweier ausreichend bevollmaechtigter\nVertreter unseres Hauses beduerfen. Wir verschicken daher keine rechtsverbindlichen Erklaerungen\nper E-Mail an Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen Erklaerungen\noder Auftraege von Dritten entgegen.\n> Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden Sie sich bitte an\nden Absender oder an info@berenberg.de. Please refer to http://www.berenberg.de/my_berenberg/disclaimer_e.html\nfor our confidentiality notice.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3401"
+}

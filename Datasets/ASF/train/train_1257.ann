@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "By default its 10 rows on Admin UI and indeed its gray. But did you tried writing a number\ninto the text field for:\nStart,rows. See the screen shots attached.\n\n\n\n\nOn 2/28/17, 10:08 AM, \"OTH\" <omer.t.h.7@gmail.com> wrote:\n\n    Hello,\n    \n    In the browser-based Solr Admin, in the 'Query' page, the \"start\" and\n    \"rows\" input boxes have default values of 0 and 10 respectively, but these\n    values are grayed out the input boxes are not allowing me to change their\n    values.  Therefore, whenever I submit a query on this page, I am only ever\n    able to see the first 10 rows.  How can I see more rows / results?\n    \n    Thanks\n    \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 163,
+      "text": "By default its 10 rows on Admin UI and indeed its gray. But did you tried writing a number\ninto the text field for:\nStart,rows. See the screen shots attached.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 163,
+      "end": 221,
+      "text": "On 2/28/17, 10:08 AM, \"OTH\" <omer.t.h.7@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 221,
+      "end": 233,
+      "text": "\n    Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 619,
+      "end": 635,
+      "text": "    \n    Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 221,
+      "end": 641,
+      "text": "\n    Hello,\n    \n    In the browser-based Solr Admin, in the 'Query' page, the \"start\" and\n    \"rows\" input boxes have default values of 0 and 10 respectively, but these\n    values are grayed out the input boxes are not allowing me to change their\n    values.  Therefore, whenever I submit a query on this page, I am only ever\n    able to see the first 10 rows.  How can I see more rows / results?\n    \n    Thanks\n    \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1257"
+}

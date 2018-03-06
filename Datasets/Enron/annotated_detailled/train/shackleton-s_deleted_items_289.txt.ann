@@ -1,0 +1,183 @@
+{
+  "wrapper": "plaintext",
+  "text": "Works for me.\n -----Original Message-----\nFrom: \tShackleton, Sara  \nSent:\tMonday, January 14, 2002 3:03 PM\nTo:\tMann, Kay; Murphy, Harlan\nSubject:\tTuesday, Jan. 15 meeting - 9 am\n\nToday doesn't work for everyone.  How about my office in the morning?\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 14,
+      "text": "Works for me.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 49,
+      "end": 66,
+      "text": "Shackleton, Sara ",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 99,
+      "end": 106,
+      "text": "3:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 82,
+      "end": 98,
+      "text": "January 14, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 111,
+      "end": 120,
+      "text": "Mann, Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 122,
+      "end": 136,
+      "text": "Murphy, Harlan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 145,
+      "end": 177,
+      "text": "\tTuesday, Jan. 15 meeting - 9 am",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 14,
+      "end": 178,
+      "text": " -----Original Message-----\nFrom: \tShackleton, Sara  \nSent:\tMonday, January 14, 2002 3:03 PM\nTo:\tMann, Kay; Murphy, Harlan\nSubject:\tTuesday, Jan. 15 meeting - 9 am\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 250,
+      "end": 265,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 266,
+      "end": 290,
+      "text": "Enron Wholesale Services",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 291,
+      "end": 336,
+      "text": "1400 Smith Street, EB3801a\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 342,
+      "end": 356,
+      "text": "(713) 853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 362,
+      "end": 376,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 250,
+      "end": 376,
+      "text": "Sara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 178,
+      "end": 376,
+      "text": "\nToday doesn't work for everyone.  How about my office in the morning?\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 11,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8594747.1075861034736.JavaMail.evans@thyme>",
+      "Date": "Mon, 14 Jan 2002 13:12:44 -0800 (PST)",
+      "From": "harlan.murphy@enron.com",
+      "To": "sara.shackleton@enron.com, kay.mann@enron.com",
+      "Subject": "RE: Tuesday, Jan. 15 meeting - 9 am",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Murphy, Harlan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=HMURPHY2>",
+      "X-To": "Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sshackl>, Mann, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kmann>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Mar2002\\Shackleton, Sara\\Deleted Items",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackl (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_deleted_items_289.txt"
+}

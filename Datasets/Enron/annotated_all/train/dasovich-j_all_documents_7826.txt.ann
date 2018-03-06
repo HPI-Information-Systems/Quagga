@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/dasovich-j_all_documents_7826.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<31067318.1075843307644.JavaMail.evans@thyme>",
+      "Date": "Mon, 18 Dec 2000 07:27:00 -0800 (PST)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "susan.mara@enron.com",
+      "Subject": "Re: call-in info, please",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "Susan J Mara",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "text": "800.713.8600 code: 80435",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 24,
+      "text": "800.713.8600 code: 80435",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

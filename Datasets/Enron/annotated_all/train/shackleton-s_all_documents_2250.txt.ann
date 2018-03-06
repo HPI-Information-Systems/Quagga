@@ -1,0 +1,325 @@
+{
+  "wrapper": "plaintext",
+  "text": "John:  What's happening here?  Sara\n----- Forwarded by Sara Shackleton/HOU/ECT on 06/06/2000 11:09 AM -----\n\n\tJennifer Fraser\n\t06/06/2000 11:02 AM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Heritage Guarantee\n\nSara;\nDave's # is 403-262-6400\n---------------------- Forwarded by Jennifer Fraser/HOU/ECT on 06/06/2000 \n11:00 AM ---------------------------\n\n\nDavid Buker <dave@mpenergypartnership.com> on 06/06/2000 11:57:32 AM\nTo: Jennifer Fraser/HOU/ECT@ECT\ncc:  \nSubject: Heritage Guarantee\n\n\n\nHow are we coming with the ISDA agreement for MP with parental guarantee from \nHeritage?\n\nAlso, does MP need to invoice ENA for May SWAP transactions or do you issue a \ncredit invoice and wire\ntransfer payment to MP? (Deal #s NA 1279.1 and 1279.2).\n\n\nRegards,\n\nDave\n\n - att1.htm\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "John",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 31,
+      "end": 35,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 36,
+      "text": "John:  What's happening here?  Sara\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 55,
+      "end": 70,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 82,
+      "end": 92,
+      "text": "06/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 93,
+      "end": 101,
+      "text": "11:09 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 36,
+      "end": 108,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 06/06/2000 11:09 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 110,
+      "end": 125,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 127,
+      "end": 137,
+      "text": "06/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 138,
+      "end": 146,
+      "text": "11:02 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 158,
+      "end": 173,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 206,
+      "end": 224,
+      "text": "Heritage Guarantee",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 108,
+      "end": 225,
+      "text": "\n\tJennifer Fraser\n\t06/06/2000 11:02 AM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Heritage Guarantee\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 226,
+      "end": 230,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 225,
+      "end": 257,
+      "text": "\nSara;\nDave's # is 403-262-6400\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 293,
+      "end": 308,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 320,
+      "end": 330,
+      "text": "06/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 332,
+      "end": 340,
+      "text": "11:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 257,
+      "end": 369,
+      "text": "---------------------- Forwarded by Jennifer Fraser/HOU/ECT on 06/06/2000 \n11:00 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 371,
+      "end": 382,
+      "text": "David Buker",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 384,
+      "end": 412,
+      "text": "dave@mpenergypartnership.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 417,
+      "end": 427,
+      "text": "06/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 428,
+      "end": 439,
+      "text": "11:57:32 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 444,
+      "end": 459,
+      "text": "Jennifer Fraser",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 487,
+      "end": 505,
+      "text": "Heritage Guarantee",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 369,
+      "end": 506,
+      "text": "\n\nDavid Buker <dave@mpenergypartnership.com> on 06/06/2000 11:57:32 AM\nTo: Jennifer Fraser/HOU/ECT@ECT\ncc:  \nSubject: Heritage Guarantee\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 779,
+      "end": 787,
+      "text": "att1.htm",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 776,
+      "end": 788,
+      "text": " - att1.htm\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 770,
+      "end": 774,
+      "text": "Dave",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 760,
+      "end": 775,
+      "text": "Regards,\n\nDave\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 506,
+      "end": 789,
+      "text": "\n\n\nHow are we coming with the ISDA agreement for MP with parental guarantee from \nHeritage?\n\nAlso, does MP need to invoice ENA for May SWAP transactions or do you issue a \ncredit invoice and wire\ntransfer payment to MP? (Deal #s NA 1279.1 and 1279.2).\n\n\nRegards,\n\nDave\n\n - att1.htm\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 29,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 24,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23243888.1075844366491.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Jun 2000 04:11:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "john.suttle@enron.com",
+      "Subject": "Heritage Guarantee",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "John Suttle",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_2250.txt"
+}

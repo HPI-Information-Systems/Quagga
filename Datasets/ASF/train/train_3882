@@ -1,0 +1,34 @@
+Hi All,
+
+We are using managed synonyms functionality at index time but one-way & replacement are
+not working as desired. Below are some examples that are not working
+Can anyone help to understand how the index time synonyms works in Solr . We are using edismax
+with mm=2>-1 5>100%, ps=5
+
+Below entries highlighted in yellow are not working. We need to search to return results of
+"From" word along with "To" term but not vice-versa
+
+rust-oleum ; rust-oleum, rust o leum-  this is not working
+rust-oleum  ; rust-oleum, rust oleum -  in the analyzer it is showing that rust oleum is replaced
+with rust-oleum and then it should show result .
+rust-oleum   ;rust-oleum, rust oleum Canada  this will work once above entry works
+rust-oleum    ; rust-oleum, rust-oleum Canada   this is working
+rust-oleum     ;rust-oleum, rustoleum canada  this is working
+
+eye wash  ;   eye wash, douche occulaire  - this is not working
+eye wash  ;   eye wash, douche oculaire - this is working
+
+
+Gatorade; gatoraid - this is not working . We want to replace to term "gatoraid" with from
+term "Gatorade" but output is reversed. When we switch the entry, there is not impact of the
+rule
+
+Regards,
+Sweta Parekh
+Search / CRO - Associate Program Manager
+Digital Marketing Services
+sweta.parekh@clerx.com<mailto:sweta.parekh@clerx.com>
+Extn: 284887 | Mobile: +(91) 9004667625
+eClerx Services Limited [www.eClerx.com<http://www.eclerx.com/>]
+
+

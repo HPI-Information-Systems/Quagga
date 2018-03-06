@@ -1,0 +1,23 @@
+You may want to look at fetch function of Streaming expressions
+
+http://lucene.apache.org/solr/guide/6_6/stream-decorators.html
+
+Thanks,
+Susheel
+
+On Tue, Sep 12, 2017 at 11:11 AM, Brian Yee <byee@wayfair.com> wrote:
+
+> I have one solr collection used for auto-suggestions. If I submit a query
+> with q="coffe", I will get a responses back with documents that have a
+> field suggestion="coffee", "coffee table", "coffee maker", etc. I want to
+> know if those suggestions would have results if I used them to query a
+> second solr collection for products.
+>
+> Is there a way to do this without multiple solr queries? I could do the
+> first query to the suggestions collection, then take the results from that
+> and do more queries to the products collection. But I don't think that will
+> meet my performance requirements.
+>
+> Is this possible with a single join query? Any other ideas?
+>
+

@@ -1,0 +1,77 @@
+Hi,
+
+I upgraded to solr 7 today and i am seeing tonnes of following errors for
+various fields.
+
+o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Exception
+writing document id file_38810000549 to the index; possible analysis error:
+startOffset must be non-negative, and endOffset must be >= startOffset, and
+offsets must not go backwards startOffset=6,endOffset=8,lastStartOffset=9
+for field 'name_combined'
+
+We don't have a lot of custom code for analysis at indexing time, so my
+suspicion is on the schema definition, can someone suggest how should I
+start debugging this?
+
+    <field name="file_content_en"  type="text_stemming_en" indexed="true"
+stored="true" omitPositions="false"/>
+      <analyzer type="index">
+        <charFilter
+class="org.apache.lucene.analysis.icu.ICUNormalizer2CharFilterFactory"
+name="nfkc" mode="compose"/>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory"
+generateWordParts="1" generateNumberParts="1" catenateWords="1"
+catenateNumbers="1" catenateAll="0" preserveOriginal="1"
+splitOnCaseChange="0" splitOnNumerics="0" stemEnglishPossessive="1"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory"
+generateWordParts="1" generateNumberParts="1" catenateWords="1"
+catenateNumbers="1" catenateAll="0" preserveOriginal="1"
+splitOnCaseChange="1" splitOnNumerics="1" stemEnglishPossessive="1"/>
+        <filter class="solr.PatternReplaceFilterFactory"
+pattern="^(\p{Punct}*)(.*?)(\p{Punct}*)$" replacement="$2"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true"
+words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.SnowballPorterFilterFactory" />
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory"
+maxTokenCount="10000" consumeAllTokens="false"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="255"/>
+      </analyzer>
+
+
+    <field name="name_combined" type="text_ngram" indexed="true"
+stored="false" multiValued="true" omitPositions="true"/>
+      <analyzer type="index">
+        <charFilter
+class="org.apache.lucene.analysis.icu.ICUNormalizer2CharFilterFactory"
+name="nfkc" mode="compose"/>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory"
+generateWordParts="1" generateNumberParts="1" catenateWords="1"
+catenateNumbers="1" catenateAll="0" preserveOriginal="1"
+splitOnCaseChange="0" splitOnNumerics="0" stemEnglishPossessive="1"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory"
+generateWordParts="1" generateNumberParts="1" catenateWords="1"
+catenateNumbers="1" catenateAll="0" preserveOriginal="1"
+splitOnCaseChange="1" splitOnNumerics="1" stemEnglishPossessive="1"/>
+        <filter class="solr.PatternReplaceFilterFactory"
+pattern="^(\p{Punct}*)(.*?)(\p{Punct}*)$" replacement="$2"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true"
+words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.EdgeNGramFilterFactory" minGramSize="1"
+maxGramSize="255"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory"
+maxTokenCount="10000" consumeAllTokens="false"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="255"/>
+      </analyzer>
+
+
+Thanks
+nawab
+

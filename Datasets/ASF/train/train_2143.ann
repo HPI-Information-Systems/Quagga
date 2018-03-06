@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "There are too many things here. As far as I understand:\n*) You should not need to use Signature chain\n*) You should have a uniqueID assigned to the child record\n*) You should not assign parentID to the child record, it will be\nassigned automatically\n*) Double check that your unique_key field type is string (not text or\nsimilar), though this does not seem to be the issue\n\nMake sure to run the test against clean/empty index, just to see if\nmaybe something is hanging around. I would also test that against the\nlatest Solr, just in case something was fixed in a meanwhile.\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 29 March 2017 at 14:30, Wenjie Zhang <wenjiezhang2013@gmail.com> wrote:\n> BTW, we only have one node and the collection has just one shard.\n>\n> On Wed, Mar 29, 2017 at 10:52 AM, Wenjie Zhang <wenjiezhang2013@gmail.com>\n> wrote:\n>\n>> Hi there,\n>>\n>> We are in solr 6.0.1, here is our solr schema and config:\n>>\n>> <uniqueKey>_unique_key</uniqueKey>\n>>\n>> <updateRequestProcessorChain name=\"dedupe\">\n>>    <processor class=\"solr.TruncateFieldUpdateProcessorFactory\">\n>>     <str name=\"typeClass\">solr.StrField</str>\n>>     <int name=\"maxLength\">32766</int>\n>>   </processor>\n>>     <processor class=\"solr.LogUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.DistributedUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.RemoveBlankFieldUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.FieldNameMutatingUpdateProcessorFactory\">\n>>       <str name=\"pattern\">[^\\w-\\.]</str>\n>>       <str name=\"replacement\">_</str>\n>>     </processor>\n>>     <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>>   </updateRequestProcessorChain>\n>>\n>> When having above configuration, and doing following operations, we will\n>> see duplicate documents (two documents have same _unique_key)\n>>\n>> 1, Add document:\n>>\n>> *final SolrInputDocument document = new SolrInputDocument();*\n>>\n>> * document.setField(\"_unique_key\", \"key1\");*\n>>\n>> * final UpdateRequest request = new UpdateRequest();*\n>>\n>> *request.add(document);*\n>>\n>> *solrClient.request(request,collectionName);*\n>> 2, Overwrite the document with\n>>\n>> *final SolrInputDocument document = new SolrInputDocument();*\n>>\n>> *document.setField(\"_unique_key\", **\"key1\"**);*\n>>\n>> *final SolrInputDocument childDocument = **new SolrInputDocument();*\n>>\n>> *childDocument**.setField(\"name\", \"name\");*\n>>\n>> *childDocument**.setField(\"parent_id\", \"**key1**\");*\n>>\n>> * document.addChildDocument(childDocument);*\n>>\n>> *final UpdateRequest request = new UpdateRequest();*\n>>\n>> *request.add(document);*\n>>\n>> *solrClient.request(request,collectionName);*\n>>\n>> After this, we will see three documents in our collection, one for the\n>> child document we added, two for the parent document and both have\n>> \"_unique_key\" as \"key1\".\n>>\n>>\n>> After doing some researching, we found the \"SignatureUpdateProcessorFacto\n>> ry\", so we modified our solrConfig.xml to add \"\n>> SignatureUpdateProcessorFactory\".\n>>\n>>  <updateRequestProcessorChain name=\"dedupe\">\n>>     <processor class=\"org.apache.solr.update.processor.\n>> SignatureUpdateProcessorFactory\">\n>>       <str name=\"signatureField\">signatureField</str>\n>>       <bool name=\"overwriteDupes\">true</bool>\n>>       <str name=\"fields\">_entityKey</str>\n>>       <str name=\"signatureClass\">org.apache.solr.update.processor.\n>> Lookup3Signature</str>\n>>     </processor>\n>>     <processor class=\"solr.TruncateFieldUpdateProcessorFactory\">\n>>     <str name=\"typeClass\">solr.StrField</str>\n>>     <int name=\"maxLength\">32766</int>\n>>    </processor>\n>>     <processor class=\"solr.LogUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.DistributedUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.RemoveBlankFieldUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.FieldNameMutatingUpdateProcessorFactory\">\n>>       <str name=\"pattern\">[^\\w-\\.]</str>\n>>       <str name=\"replacement\">_</str>\n>>     </processor>\n>>     <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>>\n>>   </updateRequestProcessorChain>\n>>\n>> After the change, we run the code in a new collection, the duplicate\n>> document issue is gone, but the child document is also not shown in the\n>> search result when searching (*:*),.\n>> However, the block join ({!parent which=\"_unique_key:*\"}name:*) works\n>> fine, but not the join ({!join from=parent_id to=_unique_key}), it\n>> returns nothing.\n>>\n>> Any idea?\n>>\n>>\n>> Thanks,\n>> Jack\n>>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 574,
+      "end": 593,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 675,
+      "text": "There are too many things here. As far as I understand:\n*) You should not need to use Signature chain\n*) You should have a uniqueID assigned to the child record\n*) You should not assign parentID to the child record, it will be\nassigned automatically\n*) Double check that your unique_key field type is string (not text or\nsimilar), though this does not seem to be the issue\n\nMake sure to run the test against clean/empty index, just to see if\nmaybe something is hanging around. I would also test that against the\nlatest Solr, just in case something was fixed in a meanwhile.\n\nRegards,\n   Alex.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 675,
+      "end": 750,
+      "text": "On 29 March 2017 at 14:30, Wenjie Zhang <wenjiezhang2013@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 750,
+      "end": 820,
+      "text": "> BTW, we only have one node and the collection has just one shard.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 820,
+      "end": 906,
+      "text": "> On Wed, Mar 29, 2017 at 10:52 AM, Wenjie Zhang <wenjiezhang2013@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 906,
+      "end": 921,
+      "text": ">\n>> Hi there,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 4465,
+      "end": 4487,
+      "text": ">>\n>> Thanks,\n>> Jack\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 906,
+      "end": 4491,
+      "text": ">\n>> Hi there,\n>>\n>> We are in solr 6.0.1, here is our solr schema and config:\n>>\n>> <uniqueKey>_unique_key</uniqueKey>\n>>\n>> <updateRequestProcessorChain name=\"dedupe\">\n>>    <processor class=\"solr.TruncateFieldUpdateProcessorFactory\">\n>>     <str name=\"typeClass\">solr.StrField</str>\n>>     <int name=\"maxLength\">32766</int>\n>>   </processor>\n>>     <processor class=\"solr.LogUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.DistributedUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.RemoveBlankFieldUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.FieldNameMutatingUpdateProcessorFactory\">\n>>       <str name=\"pattern\">[^\\w-\\.]</str>\n>>       <str name=\"replacement\">_</str>\n>>     </processor>\n>>     <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>>   </updateRequestProcessorChain>\n>>\n>> When having above configuration, and doing following operations, we will\n>> see duplicate documents (two documents have same _unique_key)\n>>\n>> 1, Add document:\n>>\n>> *final SolrInputDocument document = new SolrInputDocument();*\n>>\n>> * document.setField(\"_unique_key\", \"key1\");*\n>>\n>> * final UpdateRequest request = new UpdateRequest();*\n>>\n>> *request.add(document);*\n>>\n>> *solrClient.request(request,collectionName);*\n>> 2, Overwrite the document with\n>>\n>> *final SolrInputDocument document = new SolrInputDocument();*\n>>\n>> *document.setField(\"_unique_key\", **\"key1\"**);*\n>>\n>> *final SolrInputDocument childDocument = **new SolrInputDocument();*\n>>\n>> *childDocument**.setField(\"name\", \"name\");*\n>>\n>> *childDocument**.setField(\"parent_id\", \"**key1**\");*\n>>\n>> * document.addChildDocument(childDocument);*\n>>\n>> *final UpdateRequest request = new UpdateRequest();*\n>>\n>> *request.add(document);*\n>>\n>> *solrClient.request(request,collectionName);*\n>>\n>> After this, we will see three documents in our collection, one for the\n>> child document we added, two for the parent document and both have\n>> \"_unique_key\" as \"key1\".\n>>\n>>\n>> After doing some researching, we found the \"SignatureUpdateProcessorFacto\n>> ry\", so we modified our solrConfig.xml to add \"\n>> SignatureUpdateProcessorFactory\".\n>>\n>>  <updateRequestProcessorChain name=\"dedupe\">\n>>     <processor class=\"org.apache.solr.update.processor.\n>> SignatureUpdateProcessorFactory\">\n>>       <str name=\"signatureField\">signatureField</str>\n>>       <bool name=\"overwriteDupes\">true</bool>\n>>       <str name=\"fields\">_entityKey</str>\n>>       <str name=\"signatureClass\">org.apache.solr.update.processor.\n>> Lookup3Signature</str>\n>>     </processor>\n>>     <processor class=\"solr.TruncateFieldUpdateProcessorFactory\">\n>>     <str name=\"typeClass\">solr.StrField</str>\n>>     <int name=\"maxLength\">32766</int>\n>>    </processor>\n>>     <processor class=\"solr.LogUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.DistributedUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.RemoveBlankFieldUpdateProcessorFactory\"/>\n>>     <processor class=\"solr.FieldNameMutatingUpdateProcessorFactory\">\n>>       <str name=\"pattern\">[^\\w-\\.]</str>\n>>       <str name=\"replacement\">_</str>\n>>     </processor>\n>>     <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>>\n>>   </updateRequestProcessorChain>\n>>\n>> After the change, we run the code in a new collection, the duplicate\n>> document issue is gone, but the child document is also not shown in the\n>> search result when searching (*:*),.\n>> However, the block join ({!parent which=\"_unique_key:*\"}name:*) works\n>> fine, but not the join ({!join from=parent_id to=_unique_key}), it\n>> returns nothing.\n>>\n>> Any idea?\n>>\n>>\n>> Thanks,\n>> Jack\n>>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2143"
+}

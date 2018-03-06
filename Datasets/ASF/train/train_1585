@@ -1,0 +1,26 @@
+I hope this is the right place to ask about custom search components.
+
+I'm writing a custom search component. My aim is iterate over the entire
+result set and do some aggregate computation. In order to implement my
+algorithm I require to iterate over the result set in the order declared in
+the search query. 
+
+I've taken statsComponent as a relevant example. It iterates over the
+results using rb.getResults().docSet and searcher.getIndexReader().leaves()
+but it seems that these methods does not respect the query sort order. 
+
+I've tried creating a new TopCollector and requesting it to collect all the
+data. It works but takes too long. 
+
+Is there a way to iterate over the sorted result set in an efficient way?
+I'm working on solr 4.11, but upgrading to a newer version is acceptable if
+necessary.
+
+Thanks!
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Iterating-sorted-result-docs-in-a-custom-search-component-tp4324497.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

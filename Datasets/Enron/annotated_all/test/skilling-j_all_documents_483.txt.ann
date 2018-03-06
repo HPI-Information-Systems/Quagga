@@ -1,0 +1,138 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Jeff,\nI've heard from one of your colleagues and friends (Cole Baxter)  that you\njust been appointed CEO of Enron.\nMy warmest congratulations and all the best of luck in this new endeavor.\nRegarding the dates for the meeting with Rafael Miranda, we're currently\nsetting the dates for a trip to the States in the seconnd half of January.\nAs soon as we have them ready, we'll let you know.\nMy best wishes for this Xmas and the new year.\n\nLuis Rivera\nDirector General de Planificaci?n y Medios\nENDESA\nTel.: +34915668615\nlrivera@endesa.es\n_________________________________________________________________________\nThis message is for the named person's use only.  It may contain\nconfidential, proprietary\nor legally privileged information.  No confidentiality or privilege is\nwaived or lost by any\nmistransmission. If you receive this message in error, please immediately\ndelete it and all\ncopies of it from your system, destroy any hard copies of it and notify the\nsender.  You\nmust not, directly or indirectly, use, disclose, distribute, print, or copy\nany part of this\nmessage if you are not the intended recipient. ENDESA and each of its\nsubsidiaries each\nreserve the right to monitor all e-mail communications through its networks.\nAny\nviews expressed in this message are those of the individual sender, except\nwhere the\nmessage states otherwise and the sender is authorised to state them.\n_______________________________________________________________\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 9,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 11,
+      "text": "Dear Jeff,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 441,
+      "end": 452,
+      "text": "Luis Rivera",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 453,
+      "end": 495,
+      "text": "Director General de Planificaci?n y Medios",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 496,
+      "end": 502,
+      "text": "ENDESA",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 509,
+      "end": 521,
+      "text": "+34915668615",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 522,
+      "end": 539,
+      "text": "lrivera@endesa.es",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 441,
+      "end": 540,
+      "text": "Luis Rivera\nDirector General de Planificaci?n y Medios\nENDESA\nTel.: +34915668615\nlrivera@endesa.es\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 540,
+      "end": 1459,
+      "text": "_________________________________________________________________________\nThis message is for the named person's use only.  It may contain\nconfidential, proprietary\nor legally privileged information.  No confidentiality or privilege is\nwaived or lost by any\nmistransmission. If you receive this message in error, please immediately\ndelete it and all\ncopies of it from your system, destroy any hard copies of it and notify the\nsender.  You\nmust not, directly or indirectly, use, disclose, distribute, print, or copy\nany part of this\nmessage if you are not the intended recipient. ENDESA and each of its\nsubsidiaries each\nreserve the right to monitor all e-mail communications through its networks.\nAny\nviews expressed in this message are those of the individual sender, except\nwhere the\nmessage states otherwise and the sender is authorised to state them.\n_______________________________________________________________\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 1459,
+      "text": "Dear Jeff,\nI've heard from one of your colleagues and friends (Cole Baxter)  that you\njust been appointed CEO of Enron.\nMy warmest congratulations and all the best of luck in this new endeavor.\nRegarding the dates for the meeting with Rafael Miranda, we're currently\nsetting the dates for a trip to the States in the seconnd half of January.\nAs soon as we have them ready, we'll let you know.\nMy best wishes for this Xmas and the new year.\n\nLuis Rivera\nDirector General de Planificaci?n y Medios\nENDESA\nTel.: +34915668615\nlrivera@endesa.es\n_________________________________________________________________________\nThis message is for the named person's use only.  It may contain\nconfidential, proprietary\nor legally privileged information.  No confidentiality or privilege is\nwaived or lost by any\nmistransmission. If you receive this message in error, please immediately\ndelete it and all\ncopies of it from your system, destroy any hard copies of it and notify the\nsender.  You\nmust not, directly or indirectly, use, disclose, distribute, print, or copy\nany part of this\nmessage if you are not the intended recipient. ENDESA and each of its\nsubsidiaries each\nreserve the right to monitor all e-mail communications through its networks.\nAny\nviews expressed in this message are those of the individual sender, except\nwhere the\nmessage states otherwise and the sender is authorised to state them.\n_______________________________________________________________\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20140551.1075840080887.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 10:36:00 -0800 (PST)",
+      "From": "lrivera@endesa.es",
+      "To": "jeff.skilling@enron.com",
+      "Subject": "meeting w. endesa",
+      "Cc": "rmiranda@endesa.es",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "rmiranda@endesa.es",
+      "X-From": "\"Rivera Novo, Luis\" <lrivera@endesa.es>",
+      "X-To": "\"'Jeff.Skilling@enron.com'\" <Jeff.Skilling@enron.com>",
+      "X-cc": "\"Miranda Robredo, Rafael\" <rmiranda@endesa.es>",
+      "X-bcc": "",
+      "X-Folder": "\\Jeffrey_Skilling_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.nsf"
+    }
+  },
+  "id": "test/skilling-j_all_documents_483.txt"
+}

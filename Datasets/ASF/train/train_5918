@@ -1,0 +1,110 @@
+Sarvo,
+I hope the users do not read JSON. I would have thought you'd have a web app in front of Solr
+and some Javascript in the browser. Either would be able to transform Solr's output into a
+display format. But I suspect there is more to the problem, and I do not understand it all.
+Cheers -- Rick
+
+On September 6, 2017 4:42:03 PM EDT, Sarvothaman Madhavan <reladric@gmail.com> wrote:
+>Rick,
+>
+>My use case is this :
+>
+>I have a set of documents each of which have "sub documents" associated
+>with it. I have this in the json format and I am able to load this into
+>a
+>solr collection. When I search within this set of documents using solr,
+>I
+>want the response in "grouped" json format
+>
+>i.e
+>
+>{
+>
+>  "key": "value",
+>
+>  "sub_doc": [
+>
+>    {
+>
+>      "inner_key": "inner_value"
+>
+>    }
+>
+>  ]
+>
+>}
+>
+>
+>
+>instead of solrs default flat json format:
+>
+>i.e.
+>
+>{
+>
+>               "key":"value",
+>
+>               "subdoc.inner_key"= ["inner_value"]
+>
+>}
+>
+>
+>
+>I think the "grouped" json format will be much more intuitive to my end
+>users who are going to use the search
+>
+>
+>
+>P.S: Just to be clear I am not having any trouble querying
+>children/parent
+>document since I have all of this stored using fully qualified names in
+>each document in the collection.
+>
+>
+>
+>
+>
+>Regards,
+>
+>Sarvo
+>
+>
+>
+>On Wed, Sep 6, 2017 at 3:52 PM, Rick Leir <rleir@leirtech.com> wrote:
+>
+>> Sarvo,
+>> What are you trying to achieve? Describe the use case.
+>> Cheers -- Rick
+>>
+>> On September 6, 2017 12:36:08 PM EDT, "Davis, Daniel (NIH/NLM) [C]" <
+>> daniel.davis@nih.gov> wrote:
+>> >It should be possible with a custom response handler.
+>> >
+>> >-----Original Message-----
+>> >From: Sarvothaman Madhavan [mailto:reladric@gmail.com]
+>> >Sent: Wednesday, September 06, 2017 10:17 AM
+>> >To: solr-user@lucene.apache.org
+>> >Subject: Customizing JSON response of a query
+>> >
+>> >Hello all,
+>> >After a week of research I've come to the conclusion that there is
+>no
+>> >mechanism within solr where I can create a nested json response like
+>> >this:
+>> >https://pastebin.com/XavvUP94 . I am able to get something like this
+>> >https://pastebin.com/FeXRqG59.
+>> >1. Am I right in assuming that within solr this is not possbile?
+>> >2. Assuming it is, I imagine I would need to write custom response
+>> >writer in Java to customize the response. I am having a hard time
+>> >locating the right resource to get me started on writing this.
+>> >
+>> >Any ideas?
+>> >
+>> >Thanks,
+>> >Sarvo
+>>
+>> --
+>> Sorry for being brief. Alternate email is rickleir at yahoo dot com
+
+-- 
+Sorry for being brief. Alternate email is rickleir at yahoo dot com 

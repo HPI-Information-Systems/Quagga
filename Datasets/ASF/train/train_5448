@@ -1,0 +1,28 @@
+Hi !
+
+
+I've a Lucene base coming from a C++ program linked with Lucene++, a
+port of Lucene 3.5.9. When I open this base with Luke, it show Lucene
+2.9. Can see a binary field I have in Luke, with data encoded in
+base64.
+
+
+I have upgrade this base from 2.9 => 4.0 => 5.0 =>6.0 so I can use it
+with Solr 6.5.1. I rebuild a schema for this base, who have one field
+in binary:
+
+
+<field name="document" type="binary" indexed="false" stored="true"/>
+
+
+When I try to retrieve this field with a query (with SOLR admin
+interface) it's fail with "can not use FieldCache on a field which is
+neither indexed nor has doc values: document"
+
+
+I can retrieve others fields, but can't find a way for this one. Does
+someone have an idea ? (At the end I want do this with php, but as it
+fail with Solr interface too ....).
+
+Thank you for any help !
+

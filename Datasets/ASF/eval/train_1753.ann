@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Nico,\n\nso I need an absolute file path? Because I moved the file into my project and IntelliJ did\nan autocomplete for the file path\n\nHow can I use a relative file path? Because I work on two different systems\n\n\nMarc\n\n> Am 11.04.2017 um 10:19 schrieb Nico Kruber <nico@data-artisans.com>:\n> \n> Hi Marc,\n> the file path doesn't look quite right, unless you really have such an \n> (absolute!) file path.\n> \n> Nico\n> \n> On Saturday, 8 April 2017 17:41:28 CEST Kaepke, Marc wrote:\n>> Hi,\n>> \n>> if I run my small Gelly application on IntelliJ (macOS and Ubuntu as well) I\n>> have this error:\n>> \n>> Caused by: java.io.FileNotFoundException: File\n>> /org/apache/flink/gelly/gellyTutorials/out.munmun_twitter_social does not\n>> exist or the user running Flink ('marc') has insufficient permissions to\n>> access it. at\n>> org.apache.flink.core.fs.local.LocalFileSystem.getFileStatus(LocalFileSyste\n>> m.java:102) at\n>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF\n>> ormat.java:473) at\n>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF\n>> ormat.java:62) at\n>> org.apache.flink.runtime.executiongraph.ExecutionJobVertex.<init>(Execution\n>> JobVertex.java:194) ... 26 more\n>> \n>> \n>> How can I fix it?\n>> \n>> Bests,\n>> Marc\n> \n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Nico,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 213,
+      "end": 219,
+      "text": "\nMarc\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 220,
+      "text": "Hi Nico,\n\nso I need an absolute file path? Because I moved the file into my project and IntelliJ did\nan autocomplete for the file path\n\nHow can I use a relative file path? Because I work on two different systems\n\n\nMarc\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 220,
+      "end": 291,
+      "text": "> Am 11.04.2017 um 10:19 schrieb Nico Kruber <nico@data-artisans.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 291,
+      "end": 305,
+      "text": "> \n> Hi Marc,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 404,
+      "end": 414,
+      "text": "> \n> Nico\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 291,
+      "end": 417,
+      "text": "> \n> Hi Marc,\n> the file path doesn't look quite right, unless you really have such an \n> (absolute!) file path.\n> \n> Nico\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 417,
+      "end": 479,
+      "text": "> On Saturday, 8 April 2017 17:41:28 CEST Kaepke, Marc wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 479,
+      "end": 486,
+      "text": ">> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1255,
+      "end": 1277,
+      "text": ">> \n>> Bests,\n>> Marc\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 479,
+      "end": 1282,
+      "text": ">> Hi,\n>> \n>> if I run my small Gelly application on IntelliJ (macOS and Ubuntu as well) I\n>> have this error:\n>> \n>> Caused by: java.io.FileNotFoundException: File\n>> /org/apache/flink/gelly/gellyTutorials/out.munmun_twitter_social does not\n>> exist or the user running Flink ('marc') has insufficient permissions to\n>> access it. at\n>> org.apache.flink.core.fs.local.LocalFileSystem.getFileStatus(LocalFileSyste\n>> m.java:102) at\n>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF\n>> ormat.java:473) at\n>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF\n>> ormat.java:62) at\n>> org.apache.flink.runtime.executiongraph.ExecutionJobVertex.<init>(Execution\n>> JobVertex.java:194) ... 26 more\n>> \n>> \n>> How can I fix it?\n>> \n>> Bests,\n>> Marc\n> \n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1753"
+}

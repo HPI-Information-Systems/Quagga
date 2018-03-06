@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "The issue has been fixed. Seems there is a problem in *solr/core/ivy.xml *\n\n<dependency org=\"commons-fileupload\" name=\"commons-fileupload\"\nrev=\"${/commons-fileupload/commons-fileupload}\" conf=\"compile\"/>\n\nIn this line, I replaced the ${/commons-fileupload/commons-fileupload} with\n1.3.2 as the variable seemed to be downloading version 1.3.1 of the\ncommons-fileupload instead of the latest 1.3.2 version.\n\nOnce this was done, ant built the sources successfully.\n\nThanks!\nSahil\n\nOn 13 February 2017 at 19:30, Shawn Heisey <apache@elyograg.org> wrote:\n\n> On 2/12/2017 11:52 PM, Sahil Agarwal wrote:\n> > I have not been able to build Solr 5.5.3 from the source.\n> <snip>\n> > Detected Java version: 1.8 in: /usr/lib/jvm/jdk1.8.0_121/jre\n>\n> The unresolved dependency error is unusual, I'm not really sure what's\n> going on there.  My best idea would be to delete the ivy cache entirely\n> and try again.  These would be the commands I would use, from the top\n> level of the source code:\n>\n> rm -rf ~/.ivy2\n> ant clean clean-jars\n>\n> This will cause ivy to re-download all dependent jars when you do the\n> compile, and if you are using ivy with any other java source code, might\n> cause some temporary issues for those builds.\n>\n> Even if you get ivy to work right, you're going to run into another\n> problem due to the JDK version you've got.  Oracle changed the javadoc\n> compiler to be more strict in that version, which broke the build.\n>\n> https://issues.apache.org/jira/browse/LUCENE-7651\n>\n> The fix has been backported to the 5.5 branch, so it will be available\n> in the 5.5.4 tag when it is created.  The 5.5.3 build will continue to\n> be broken with Java 8u121.\n>\n> You'll need to either get the branch_5_5 source code from git to build\n> 5.5.4, or downgrade your JDK version.  Alternatively, you can wait for\n> the 5.5.4 release to be available to get the source code, or get the\n> patch and apply it to your 5.5.3 code.  I do not know if the patch will\n> apply cleanly -- it may require manual work.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 462,
+      "end": 477,
+      "text": "\nThanks!\nSahil\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 478,
+      "text": "The issue has been fixed. Seems there is a problem in *solr/core/ivy.xml *\n\n<dependency org=\"commons-fileupload\" name=\"commons-fileupload\"\nrev=\"${/commons-fileupload/commons-fileupload}\" conf=\"compile\"/>\n\nIn this line, I replaced the ${/commons-fileupload/commons-fileupload} with\n1.3.2 as the variable seemed to be downloading version 1.3.1 of the\ncommons-fileupload instead of the latest 1.3.2 version.\n\nOnce this was done, ant built the sources successfully.\n\nThanks!\nSahil\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 478,
+      "end": 550,
+      "text": "On 13 February 2017 at 19:30, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 550,
+      "end": 597,
+      "text": "\n> On 2/12/2017 11:52 PM, Sahil Agarwal wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2006,
+      "end": 2026,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 597,
+      "end": 2031,
+      "text": "> > I have not been able to build Solr 5.5.3 from the source.\n> <snip>\n> > Detected Java version: 1.8 in: /usr/lib/jvm/jdk1.8.0_121/jre\n>\n> The unresolved dependency error is unusual, I'm not really sure what's\n> going on there.  My best idea would be to delete the ivy cache entirely\n> and try again.  These would be the commands I would use, from the top\n> level of the source code:\n>\n> rm -rf ~/.ivy2\n> ant clean clean-jars\n>\n> This will cause ivy to re-download all dependent jars when you do the\n> compile, and if you are using ivy with any other java source code, might\n> cause some temporary issues for those builds.\n>\n> Even if you get ivy to work right, you're going to run into another\n> problem due to the JDK version you've got.  Oracle changed the javadoc\n> compiler to be more strict in that version, which broke the build.\n>\n> https://issues.apache.org/jira/browse/LUCENE-7651\n>\n> The fix has been backported to the 5.5 branch, so it will be available\n> in the 5.5.4 tag when it is created.  The 5.5.3 build will continue to\n> be broken with Java 8u121.\n>\n> You'll need to either get the branch_5_5 source code from git to build\n> 5.5.4, or downgrade your JDK version.  Alternatively, you can wait for\n> the 5.5.4 release to be available to get the source code, or get the\n> patch and apply it to your 5.5.3 code.  I do not know if the patch will\n> apply cleanly -- it may require manual work.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_960"
+}

@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello Sara,\n\nThere is hard n fast rule, performance depends on caches, RAM, hdd etc.and\nhow much resourced you could invest to keep the acceptable performance.\nInformation on Number of Indexed documents, number of dynamic fields can be\nviewed from the below link. I hope this helps.\n\nhttp://lucene.472066.n3.nabble.com/Solr-limitations-td4076250.html\n\nOn Sat, Jul 29, 2017, 13:23 sara hajili <hajili.sara@gmail.com> wrote:\n\n> hi all,\n> I want to know when standalone solr can't be sufficient for storing data\n> and we need to migrate to solr cloud?for example standalone solr take too\n> much time to return query result or to store document or etc.\n>\n> in other word ,what is best capacity and data index size in  standalone\n> solr  that doesn't bad effect on query running and data inserting\n> performance?and after passing this index size i must switch to solr cloud?\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hello Sara,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 352,
+      "text": "Hello Sara,\n\nThere is hard n fast rule, performance depends on caches, RAM, hdd etc.and\nhow much resourced you could invest to keep the acceptable performance.\nInformation on Number of Indexed documents, number of dynamic fields can be\nviewed from the below link. I hope this helps.\n\nhttp://lucene.472066.n3.nabble.com/Solr-limitations-td4076250.html\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 352,
+      "end": 423,
+      "text": "On Sat, Jul 29, 2017, 13:23 sara hajili <hajili.sara@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 423,
+      "end": 434,
+      "text": "\n> hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 423,
+      "end": 873,
+      "text": "\n> hi all,\n> I want to know when standalone solr can't be sufficient for storing data\n> and we need to migrate to solr cloud?for example standalone solr take too\n> much time to return query result or to store document or etc.\n>\n> in other word ,what is best capacity and data index size in  standalone\n> solr  that doesn't bad effect on query running and data inserting\n> performance?and after passing this index size i must switch to solr cloud?\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5123"
+}

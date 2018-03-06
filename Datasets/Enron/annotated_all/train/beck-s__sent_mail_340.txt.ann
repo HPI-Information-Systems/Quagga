@@ -1,0 +1,161 @@
+{
+  "wrapper": "plaintext",
+  "text": "Can't remember at this point what the question was!  Thanks for following up \n-- I will call you if I remember.  --Sally \n\n\n\n\nRebecca Ford\n07/26/2000 05:20 PM\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: Question\n\nHi Sally,\n\nThe other day you stopped by my desk to ask me a question, but then you had \nto leave suddenly.  Did you still need to ask me something?  I just wanted to \nfollow up with you.\n\nThank you,\nBecky\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 115,
+      "end": 120,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 78,
+      "end": 122,
+      "text": "-- I will call you if I remember.  --Sally \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 126,
+      "text": "Can't remember at this point what the question was!  Thanks for following up \n-- I will call you if I remember.  --Sally \n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 126,
+      "end": 138,
+      "text": "Rebecca Ford",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 139,
+      "end": 149,
+      "text": "07/26/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 150,
+      "end": 158,
+      "text": "05:20 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 163,
+      "end": 173,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 201,
+      "end": 209,
+      "text": "Question",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 126,
+      "end": 210,
+      "text": "Rebecca Ford\n07/26/2000 05:20 PM\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: Question\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 214,
+      "end": 219,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 211,
+      "end": 221,
+      "text": "Hi Sally,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 410,
+      "end": 415,
+      "text": "Becky",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 399,
+      "end": 416,
+      "text": "Thank you,\nBecky\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 210,
+      "end": 417,
+      "text": "\nHi Sally,\n\nThe other day you stopped by my desk to ask me a question, but then you had \nto leave suddenly.  Did you still need to ask me something?  I just wanted to \nfollow up with you.\n\nThank you,\nBecky\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15032638.1075855920485.JavaMail.evans@thyme>",
+      "Date": "Mon, 31 Jul 2000 02:52:00 -0700 (PDT)",
+      "From": "sally.beck@enron.com",
+      "To": "rebecca.ford@enron.com",
+      "Subject": "Re: Question",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Rebecca Ford",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s__sent_mail_340.txt"
+}

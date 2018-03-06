@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/sager-e_all_documents_523.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<26518652.1075853410113.JavaMail.evans@thyme>",
+      "Date": "Tue, 3 Apr 2001 07:56:00 -0700 (PDT)",
+      "From": "elizabeth.sager@enron.com",
+      "To": "sheryl_gussett@reliantenergy.com",
+      "Subject": "Re: Easter Egg Hunt",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Elizabeth Sager",
+      "X-To": "Sheryl_Gussett@reliantenergy.com@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Nov2001\\Notes Folders\\All documents",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "text": "starts at 900 - see you there a little early?",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 45,
+      "text": "starts at 900 - see you there a little early?",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

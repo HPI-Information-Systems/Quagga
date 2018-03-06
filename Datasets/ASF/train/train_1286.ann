@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Many of our field values are large, so we want to use the unified highlighter for its performance\nbenefits. Development also seems to be focussed on that highlighter.\n\n> On 1 Mar 2017, at 19:07, Rick Leir <rleir@leirtech.com> wrote:\n> \n> Matthew, Is TVH term vector highlighter an option? Just a suggestion.\n> Cheers -- Rick\n> -- \n> Sent from my Android device with K-9 Mail. Please excuse my brevity.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 308,
+      "end": 325,
+      "text": "> Cheers -- Rick\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 236,
+      "end": 246,
+      "text": "> Matthew,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 168,
+      "end": 233,
+      "text": "> On 1 Mar 2017, at 19:07, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 233,
+      "end": 404,
+      "text": "> \n> Matthew, Is TVH term vector highlighter an option? Just a suggestion.\n> Cheers -- Rick\n> -- \n> Sent from my Android device with K-9 Mail. Please excuse my brevity.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 168,
+      "text": "Many of our field values are large, so we want to use the unified highlighter for its performance\nbenefits. Development also seems to be focussed on that highlighter.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1286"
+}

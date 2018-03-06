@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/beck-s_all_documents_657.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<7321856.1075855759858.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Dec 2000 02:07:00 -0800 (PST)",
+      "From": "arsystem@mailman.enron.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "Request Submitted: Access Request for diana.andel@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "ARSystem@mailman.enron.com",
+      "X-To": "sally.beck@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "text": "You have received this email because you are listed as a security approver. \nPlease click \nhttp://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000009797&Page=\nApproval to review and act upon this request.\n\n\n\n\nRequest ID          : 000000000009797\nRequest Create Date : 12/11/00 9:39:04 AM\nRequested For       : diana.andel@enron.com\nResource Name       : EOL Canada Backoffice Reports\nResource Type       : Applications\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 434,
+      "text": "You have received this email because you are listed as a security approver. \nPlease click \nhttp://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000009797&Page=\nApproval to review and act upon this request.\n\n\n\n\nRequest ID          : 000000000009797\nRequest Create Date : 12/11/00 9:39:04 AM\nRequested For       : diana.andel@enron.com\nResource Name       : EOL Canada Backoffice Reports\nResource Type       : Applications\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "Principal Operating Offices:\n\nBP Corporation North America Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Energy Company\n501 West Lake Park Boulevard\nHouston, Texas 77079\n\nVastar Resources, Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Canada Energy Company\n240 - 4th Avenue S.W.\nCalgary, Alberta T2P 4H4\n\nBP Canada Energy Marketing Corp.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nCibola Energy Services Corporation\n350 N. St. Paul Street\nDallas, TX 75201\n\nIGI Resources, Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Oil Supply Company\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Products North America Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Amoco Chemical Company\n200 East Randolph Drive\nChicago, Illinois 60601\n\nAtlantic Richfield Company\n333 S. Hope Street\nLos Angeles, CA 90071\n\nAmoco Production Company\n501 WestLake Park Boulevard\nHouston, Texas 77079\n\nBP Chemicals Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\n\n-----Original Message-----\nFrom: Heard, Marie [mailto:Marie.Heard@enron.com]\nSent: Tuesday, November 06, 2001 8:54 AM\nTo: billy.dixon@bp.com\nSubject: RE: Enron Canada Corp\n\n\nI sure will if you will tell me the principal place of business of all\nyour entities party to the Master Netting Agreement.\n\nEnron Canada Corp.\n3500, 400 - 3rd Avenue S.W.\nCalgary, Alberta  T2P 4H2\n\n>  -----Original Message-----\n> From: \t\"Dixon, Billy D\" <billy.dixon@bp.com>@ENRON\n> Sent:\tTuesday, November 06, 2001 7:47 AM\n> To:\tHeard, Marie\n> Subject:\tEnron Canada Corp\n>\n> Would you please tell me where Enron Canada Corp.'s principal place of\n> business in Canada is located?\n>\n> Very truly yours,\n>\n> BILLY\n> Billy D. Dixon\n> Attorney\n> BP America Inc.\n> 501 Westlake Park Blvd., Rm 16.166\n> Houston, Texas 77079\n> Direct 281/366-4745\n> Fax 281/366-5901\n> billy.dixon@bp.com\n>\n> ***IMPORTANT -- THIS EMAIL AND ANY ATTACHMENTS HERETO ARE\n> ATTORNEY-CLIENT\n> AND/OR ATTORNEY WORK-PRODUCT PRIVILEGED AND CONFIDENTIAL.  If you have\n> received this email in error, do not under any circumstances read,\n> forward,\n> copy, disseminate or save this email or any of its attachments.  If\n> you have\n> received this email in error, take the following actions: (1) reply to\n> this\n> email indicating that you received this email in error, and (2) delete\n> and\n> completely erase this email and its attachments from your computer and\n> any\n> backup systems or \"Deleted Items\" folders.\n>\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************",
+  "denotations": [
+    {
+      "id": 2,
+      "start": 1365,
+      "end": 1539,
+      "text": ">  -----Original Message-----\n> From: \t\"Dixon, Billy D\" <billy.dixon@bp.com>@ENRON\n> Sent:\tTuesday, November 06, 2001 7:47 AM\n> To:\tHeard, Marie\n> Subject:\tEnron Canada Corp\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 992,
+      "end": 1164,
+      "text": "-----Original Message-----\nFrom: Heard, Marie [mailto:Marie.Heard@enron.com]\nSent: Tuesday, November 06, 2001 8:54 AM\nTo: billy.dixon@bp.com\nSubject: RE: Enron Canada Corp\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1291,
+      "end": 1364,
+      "text": "Enron Canada Corp.\n3500, 400 - 3rd Avenue S.W.\nCalgary, Alberta  T2P 4H2\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1164,
+      "end": 1365,
+      "text": "\n\nI sure will if you will tell me the principal place of business of all\nyour entities party to the Master Netting Agreement.\n\nEnron Canada Corp.\n3500, 400 - 3rd Avenue S.W.\nCalgary, Alberta  T2P 4H2\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1647,
+      "end": 1679,
+      "text": ">\n> Very truly yours,\n>\n> BILLY\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1679,
+      "end": 1847,
+      "text": "> Billy D. Dixon\n> Attorney\n> BP America Inc.\n> 501 Westlake Park Blvd., Rm 16.166\n> Houston, Texas 77079\n> Direct 281/366-4745\n> Fax 281/366-5901\n> billy.dixon@bp.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1539,
+      "end": 3407,
+      "text": ">\n> Would you please tell me where Enron Canada Corp.'s principal place of\n> business in Canada is located?\n>\n> Very truly yours,\n>\n> BILLY\n> Billy D. Dixon\n> Attorney\n> BP America Inc.\n> 501 Westlake Park Blvd., Rm 16.166\n> Houston, Texas 77079\n> Direct 281/366-4745\n> Fax 281/366-5901\n> billy.dixon@bp.com\n>\n> ***IMPORTANT -- THIS EMAIL AND ANY ATTACHMENTS HERETO ARE\n> ATTORNEY-CLIENT\n> AND/OR ATTORNEY WORK-PRODUCT PRIVILEGED AND CONFIDENTIAL.  If you have\n> received this email in error, do not under any circumstances read,\n> forward,\n> copy, disseminate or save this email or any of its attachments.  If\n> you have\n> received this email in error, take the following actions: (1) reply to\n> this\n> email indicating that you received this email in error, and (2) delete\n> and\n> completely erase this email and its attachments from your computer and\n> any\n> backup systems or \"Deleted Items\" folders.\n>\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 992,
+      "text": "Principal Operating Offices:\n\nBP Corporation North America Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Energy Company\n501 West Lake Park Boulevard\nHouston, Texas 77079\n\nVastar Resources, Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Canada Energy Company\n240 - 4th Avenue S.W.\nCalgary, Alberta T2P 4H4\n\nBP Canada Energy Marketing Corp.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nCibola Energy Services Corporation\n350 N. St. Paul Street\nDallas, TX 75201\n\nIGI Resources, Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Oil Supply Company\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Products North America Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\nBP Amoco Chemical Company\n200 East Randolph Drive\nChicago, Illinois 60601\n\nAtlantic Richfield Company\n333 S. Hope Street\nLos Angeles, CA 90071\n\nAmoco Production Company\n501 WestLake Park Boulevard\nHouston, Texas 77079\n\nBP Chemicals Inc.\n200 East Randolph Drive\nChicago, Illinois 60601\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18975955.1075861929353.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Nov 2001 10:59:35 -0800 (PST)",
+      "From": "billy.dixon@bp.com",
+      "To": "marie.heard@enron.com",
+      "Subject": "RE: Enron Canada Corp",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Dixon, Billy D\" <billy.dixon@bp.com>@ENRON",
+      "X-To": "Heard, Marie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MHEARD>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\MHEARD (Non-Privileged)\\Heard, Marie\\Inbox\\master netting",
+      "X-Origin": "Heard-M",
+      "X-FileName": "MHEARD (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/heard-m_inbox_master_netting_229.txt"
+}

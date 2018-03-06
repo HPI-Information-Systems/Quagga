@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sorry for the typos in the previous mail, \"fg\" should be \"fq\"\n\nAm 02.06.2017 18:15 schrieb \"Daniel Angelov\" <dani.b.angelov@gmail.com>:\n\n> This means, that quering alias NNN pointing 3 collections, each 10 shards\n> and each 2 replicas, a query with very long fg value, say 200000 char\n> string. First query with fq will cache all 200000 chars 30 times (3 x 10\n> cores). The next query with the same fg, could not use the same cores as\n> the first time, i.e. could locate more mem in the unused replicas from the\n> first query. And in my case the soft commint is each 60 sec. this means a\n> lot of GC, is not it?\n>\n> BR\n> Daniel\n>\n> Am 02.06.2017 17:45 schrieb \"Erick Erickson\" <erickerickson@gmail.com>:\n>\n>> bq: This means, if we have a collection with 2 replicas, there is a\n>> chance,\n>> that 2 queries with identical fq values can be served from different\n>> replicas of the same shards, this means, that the second query will not\n>> use\n>> the cached set from the first query, is not it?\n>>\n>> Yes. In practice autowarming is often used to pre-warm the caches, but\n>> again that's local to each replica, i.e. the fqs used to autowarm\n>> replica1 or shard1 may be different than the ones used to autowarm\n>> replica2 of shard1. What tends to happen is that the replicas \"level\n>> out\". Any fq clause that's common enough to be useful eventually hits\n>> all the replicas. And the most common ones are run during autowarming\n>> since it's an LRU queue.\n>>\n>> To understand why there isn't a common cache, consider that the\n>> filterCache is conceptually a map. The key is the fq clause and the\n>> value is a bitset where each bit corresponds to the _internal_ Lucene\n>> document ID which is just an integer 0-maxDoc. There are two critical\n>> points here:\n>>\n>> 1> the internal ID changes when segments are merged\n>> 2> different replicas will have different _internal_ ids for the same\n>> document. By \"same\" here I mean have the same <uniqueKey>.\n>>\n>> So completely sidestepping the question of the propagation delays of\n>> trying to consult some kind of central filterCache, the nature of that\n>> cache is such that you couldn't share it between replicas anyway.\n>>\n>> Best,\n>> Erick\n>>\n>> On Fri, Jun 2, 2017 at 8:31 AM, Daniel Angelov <dani.b.angelov@gmail.com>\n>> wrote:\n>> > Thanks for the answer!\n>> > This means, if we have a collection with 2 replicas, there is a chance,\n>> > that 2 queries with identical fq values can be served from different\n>> > replicas of the same shards, this means, that the second query will not\n>> use\n>> > the cached set from the first query, is not it?\n>> >\n>> > Thanks\n>> > Daniel\n>> >\n>> > Am 02.06.2017 15:32 schrieb \"Susheel Kumar\" <susheel2777@gmail.com>:\n>> >\n>> >> Thanks for the correction Shawn.  Yes its only the heap allocation\n>> settings\n>> >> are per host/JVM.\n>> >>\n>> >> On Fri, Jun 2, 2017 at 9:23 AM, Shawn Heisey <apache@elyograg.org>\n>> wrote:\n>> >>\n>> >> > On 6/1/2017 11:40 PM, Daniel Angelov wrote:\n>> >> > > Is the filter cache separate for each host and then for each\n>> >> > > collection and then for each shard and then for each replica in\n>> >> > > SolrCloud? For example, on host1 we have, coll1 shard1 replica1\nand\n>> >> > > coll2 shard1 replica1, on host2 we have, coll1 shard2 replica2\nand\n>> >> > > coll2 shard2 replica2. Does this mean, that we have 4 filter\n>> caches,\n>> >> > > i.e. separate memory for each core? If they are separated and\nfor\n>> >> > > example, query1 is handling from coll1 shard1 replica1 and 1 sec\n>> later\n>> >> > > the same query is handling from coll2 shard1 replica1, this means,\n>> >> > > that the later query will not use the result set cached from the\n>> first\n>> >> > > query...\n>> >> >\n>> >> > That is correct.\n>> >> >\n>> >> > General notes about SolrCloud terminology: SolrCloud is organized\n>> around\n>> >> > collections.  Collections are made up of one or more shards.  Shards\n>> are\n>> >> > made up of one or more replicas.  Each replica is a Solr core.  A\n>> core\n>> >> > contains one Lucene index.  It is not correct to say that a shard\n>> has no\n>> >> > replicas.  The leader *is* a replica.  If you have a leader and one\n>> >> > follower, the shard has two replicas.\n>> >> >\n>> >> > Solr caches (including filterCache) exist at the core level, they\n>> have\n>> >> > no knowledge of other replicas, other shards, or the collection as\na\n>> >> > whole.  Susheel says that the caches are per host/JVM -- that's not\n>> >> > correct.  Every Solr core in a JVM has separate caches, if they are\n>> >> > defined in the configuration for that core.\n>> >> >\n>> >> > Your query scenario has even more separation -- it asks about\n>> querying\n>> >> > two completely different collections, which don't use the same cores.\n>> >> >\n>> >> > Thanks,\n>> >> > Shawn\n>> >> >\n>> >> >\n>> >>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 63,
+      "text": "Sorry for the typos in the previous mail, \"fg\" should be \"fq\"\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 136,
+      "text": "Am 02.06.2017 18:15 schrieb \"Daniel Angelov\" <dani.b.angelov@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 612,
+      "end": 628,
+      "text": ">\n> BR\n> Daniel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 136,
+      "end": 630,
+      "text": "\n> This means, that quering alias NNN pointing 3 collections, each 10 shards\n> and each 2 replicas, a query with very long fg value, say 200000 char\n> string. First query with fq will cache all 200000 chars 30 times (3 x 10\n> cores). The next query with the same fg, could not use the same cores as\n> the first time, i.e. could locate more mem in the unused replicas from the\n> first query. And in my case the soft commint is each 60 sec. this means a\n> lot of GC, is not it?\n>\n> BR\n> Daniel\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 630,
+      "end": 704,
+      "text": "> Am 02.06.2017 17:45 schrieb \"Erick Erickson\" <erickerickson@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2169,
+      "end": 2190,
+      "text": ">>\n>> Best,\n>> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 704,
+      "end": 2193,
+      "text": ">\n>> bq: This means, if we have a collection with 2 replicas, there is a\n>> chance,\n>> that 2 queries with identical fq values can be served from different\n>> replicas of the same shards, this means, that the second query will not\n>> use\n>> the cached set from the first query, is not it?\n>>\n>> Yes. In practice autowarming is often used to pre-warm the caches, but\n>> again that's local to each replica, i.e. the fqs used to autowarm\n>> replica1 or shard1 may be different than the ones used to autowarm\n>> replica2 of shard1. What tends to happen is that the replicas \"level\n>> out\". Any fq clause that's common enough to be useful eventually hits\n>> all the replicas. And the most common ones are run during autowarming\n>> since it's an LRU queue.\n>>\n>> To understand why there isn't a common cache, consider that the\n>> filterCache is conceptually a map. The key is the fq clause and the\n>> value is a bitset where each bit corresponds to the _internal_ Lucene\n>> document ID which is just an integer 0-maxDoc. There are two critical\n>> points here:\n>>\n>> 1> the internal ID changes when segments are merged\n>> 2> different replicas will have different _internal_ ids for the same\n>> document. By \"same\" here I mean have the same <uniqueKey>.\n>>\n>> So completely sidestepping the question of the propagation delays of\n>> trying to consult some kind of central filterCache, the nature of that\n>> cache is such that you couldn't share it between replicas anyway.\n>>\n>> Best,\n>> Erick\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2193,
+      "end": 2280,
+      "text": ">> On Fri, Jun 2, 2017 at 8:31 AM, Daniel Angelov <dani.b.angelov@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2596,
+      "end": 2625,
+      "text": ">> >\n>> > Thanks\n>> > Daniel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2280,
+      "end": 2630,
+      "text": ">> > Thanks for the answer!\n>> > This means, if we have a collection with 2 replicas, there is a chance,\n>> > that 2 queries with identical fq values can be served from different\n>> > replicas of the same shards, this means, that the second query will not\n>> use\n>> > the cached set from the first query, is not it?\n>> >\n>> > Thanks\n>> > Daniel\n>> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2630,
+      "end": 2704,
+      "text": ">> > Am 02.06.2017 15:32 schrieb \"Susheel Kumar\" <susheel2777@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2704,
+      "end": 2824,
+      "text": ">> >\n>> >> Thanks for the correction Shawn.  Yes its only the heap allocation\n>> settings\n>> >> are per host/JVM.\n>> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2824,
+      "end": 2907,
+      "text": ">> >> On Fri, Jun 2, 2017 at 9:23 AM, Shawn Heisey <apache@elyograg.org>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2907,
+      "end": 2965,
+      "text": ">> >>\n>> >> > On 6/1/2017 11:40 PM, Daniel Angelov wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 4723,
+      "end": 4761,
+      "text": ">> >> >\n>> >> > Thanks,\n>> >> > Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2965,
+      "end": 4789,
+      "text": ">> >> > > Is the filter cache separate for each host and then for each\n>> >> > > collection and then for each shard and then for each replica in\n>> >> > > SolrCloud? For example, on host1 we have, coll1 shard1 replica1\nand\n>> >> > > coll2 shard1 replica1, on host2 we have, coll1 shard2 replica2\nand\n>> >> > > coll2 shard2 replica2. Does this mean, that we have 4 filter\n>> caches,\n>> >> > > i.e. separate memory for each core? If they are separated and\nfor\n>> >> > > example, query1 is handling from coll1 shard1 replica1 and 1 sec\n>> later\n>> >> > > the same query is handling from coll2 shard1 replica1, this means,\n>> >> > > that the later query will not use the result set cached from the\n>> first\n>> >> > > query...\n>> >> >\n>> >> > That is correct.\n>> >> >\n>> >> > General notes about SolrCloud terminology: SolrCloud is organized\n>> around\n>> >> > collections.  Collections are made up of one or more shards.  Shards\n>> are\n>> >> > made up of one or more replicas.  Each replica is a Solr core.  A\n>> core\n>> >> > contains one Lucene index.  It is not correct to say that a shard\n>> has no\n>> >> > replicas.  The leader *is* a replica.  If you have a leader and one\n>> >> > follower, the shard has two replicas.\n>> >> >\n>> >> > Solr caches (including filterCache) exist at the core level, they\n>> have\n>> >> > no knowledge of other replicas, other shards, or the collection as\na\n>> >> > whole.  Susheel says that the caches are per host/JVM -- that's not\n>> >> > correct.  Every Solr core in a JVM has separate caches, if they are\n>> >> > defined in the configuration for that core.\n>> >> >\n>> >> > Your query scenario has even more separation -- it asks about\n>> querying\n>> >> > two completely different collections, which don't use the same cores.\n>> >> >\n>> >> > Thanks,\n>> >> > Shawn\n>> >> >\n>> >> >\n>> >>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3841"
+}

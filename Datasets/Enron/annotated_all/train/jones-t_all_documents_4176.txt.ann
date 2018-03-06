@@ -1,0 +1,335 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Catherine Clark/HOU/ECT on 09/29/2000 \n09:22 AM ---------------------------\n   \n\tEnron Global Finance\n\t\n\tFrom:  Catherine Clark                           09/28/2000 04:50 PM\n\t\n\nTo: Jonathan McKay/CAL/ECT@ECT, jeffrey.w.dellapina@chase.com\ncc: John Griffith/Corp/Enron@Enron, Soma Ghosh/HOU/ECT@ECT, Brian \nKerrigan/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT \nSubject: TD volumes\n\nJon: I'm attaching TD's volumes (in GJs) for swap 1 with Enron Canada.  The \nfixed price is $5.983.  Just to be clear, these are how the volumes add up:\n12/29/2000 422,002 GJ\n03/29/2001 422,002 GJ\n06/29/2001 422,002 GJ\n90/27/2001 25,058,472 GJ\n\nJeff: can you size up the fixed price for the swap between ENA and Chase to \nreflect your spread on the above volumes?\n\nJohn:  you can use the same volumes, but at the price you get from Jeff \n(which you will pass on to Enron Canada in our internal swap).\n\nI will e-mail you RBC's volumes as soon as I confirm that they have locked in \nan interest rate (their volumes will be slightly different from TD's).  \nPlease call me with any questions.  Thanks,\n-Catherine\n(713) 853-9943\n\nPS:  TD has links to other databases embedded in this spreadsheet.  Before \nopening in Excel, go to a blank sheet and set to manual calculation (go to \nTools, then Options)\n\n---------------------- Forwarded by Catherine Clark/HOU/ECT on 09/28/2000 \n04:21 PM ---------------------------\n\n\nhulla@tdsecurities.com on 09/28/2000 04:13:20 PM\nTo: Pushkar.shahi@enron.com, catherine.clark@enron.com\ncc:  \nSubject: \n\n\n\n\nFinal, final version (I hope)....\n\n(See attached file: Enron IRS.xls)\n\n - Enron IRS.xls\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 51,
+      "text": "Catherine Clark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 73,
+      "text": "09/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 75,
+      "end": 83,
+      "text": "09:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 112,
+      "text": "---------------------- Forwarded by Catherine Clark/HOU/ECT on 09/29/2000 \n09:22 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 112,
+      "end": 140,
+      "text": "   \n\tEnron Global Finance\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 148,
+      "end": 163,
+      "text": "Catherine Clark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 190,
+      "end": 200,
+      "text": "09/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 201,
+      "end": 209,
+      "text": "04:50 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 217,
+      "end": 231,
+      "text": "Jonathan McKay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 245,
+      "end": 274,
+      "text": "jeffrey.w.dellapina@chase.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 279,
+      "end": 292,
+      "text": "John Griffith",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 311,
+      "end": 321,
+      "text": "Soma Ghosh",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 335,
+      "end": 350,
+      "text": "Brian \nKerrigan",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 364,
+      "end": 379,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 402,
+      "end": 412,
+      "text": "TD volumes",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 141,
+      "end": 413,
+      "text": "From:  Catherine Clark                           09/28/2000 04:50 PM\n\t\n\nTo: Jonathan McKay/CAL/ECT@ECT, jeffrey.w.dellapina@chase.com\ncc: John Griffith/Corp/Enron@Enron, Soma Ghosh/HOU/ECT@ECT, Brian \nKerrigan/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT \nSubject: TD volumes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1113,
+      "end": 1122,
+      "text": "Catherine",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1104,
+      "end": 1122,
+      "text": "Thanks,\n-Catherine",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1123,
+      "end": 1137,
+      "text": "(713) 853-9943",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1139,
+      "end": 1311,
+      "text": "PS:  TD has links to other databases embedded in this spreadsheet.  Before \nopening in Excel, go to a blank sheet and set to manual calculation (go to \nTools, then Options)",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 413,
+      "end": 1313,
+      "text": "\nJon: I'm attaching TD's volumes (in GJs) for swap 1 with Enron Canada.  The \nfixed price is $5.983.  Just to be clear, these are how the volumes add up:\n12/29/2000 422,002 GJ\n03/29/2001 422,002 GJ\n06/29/2001 422,002 GJ\n90/27/2001 25,058,472 GJ\n\nJeff: can you size up the fixed price for the swap between ENA and Chase to \nreflect your spread on the above volumes?\n\nJohn:  you can use the same volumes, but at the price you get from Jeff \n(which you will pass on to Enron Canada in our internal swap).\n\nI will e-mail you RBC's volumes as soon as I confirm that they have locked in \nan interest rate (their volumes will be slightly different from TD's).  \nPlease call me with any questions.  Thanks,\n-Catherine\n(713) 853-9943\n\nPS:  TD has links to other databases embedded in this spreadsheet.  Before \nopening in Excel, go to a blank sheet and set to manual calculation (go to \nTools, then Options)\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1349,
+      "end": 1364,
+      "text": "Catherine Clark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1376,
+      "end": 1386,
+      "text": "09/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1388,
+      "end": 1396,
+      "text": "04:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1313,
+      "end": 1425,
+      "text": "---------------------- Forwarded by Catherine Clark/HOU/ECT on 09/28/2000 \n04:21 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1427,
+      "end": 1449,
+      "text": "hulla@tdsecurities.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1453,
+      "end": 1463,
+      "text": "09/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1464,
+      "end": 1475,
+      "text": "04:13:20 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1480,
+      "end": 1503,
+      "text": "Pushkar.shahi@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1505,
+      "end": 1530,
+      "text": "catherine.clark@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1425,
+      "end": 1547,
+      "text": "\n\nhulla@tdsecurities.com on 09/28/2000 04:13:20 PM\nTo: Pushkar.shahi@enron.com, catherine.clark@enron.com\ncc:  \nSubject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1625,
+      "end": 1638,
+      "text": "Enron IRS.xls",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1622,
+      "end": 1639,
+      "text": " - Enron IRS.xls\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1547,
+      "end": 1641,
+      "text": "\n\n\n\nFinal, final version (I hope)....\n\n(See attached file: Enron IRS.xls)\n\n - Enron IRS.xls\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 19,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 30,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 22,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21317688.1075847014608.JavaMail.evans@thyme>",
+      "Date": "Fri, 29 Sep 2000 02:23:00 -0700 (PDT)",
+      "From": "catherine.clark@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "TD volumes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Catherine Clark",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_4176.txt"
+}

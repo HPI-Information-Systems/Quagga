@@ -1,0 +1,386 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sorry Stephanie, I meant to send the previous note to Joseph.\n----- Forwarded by Jeff Dasovich/NA/Enron on 11/21/2000 04:29 PM -----\n\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t11/21/2000 04:27 PM\n\t\t\n\t\t To: Stephanie E Taylor/NA/Enron@ECT\n\t\t cc: \n\t\t Subject: Re: Follow Up\n\ncould you please follow up with stephanie and let her know that i'd like to \nreview?  thanks very much.\n\n\n\n\tStephanie E Taylor@ECT\n\t11/21/2000 03:00 PM\n\t\t\n\t\t To: Jeff Dasovich/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Follow Up\n\n\nI am following up to see if you would like to renew the subscription listed \nbelow.  Please let me know at your earliest convenience.\n\nThank You,\nStephanie Taylor\n\n\n\n\nFrom: Stephanie E Taylor on 11/17/2000 10:21 AM\nTo: Jeff Dasovich/NA/Enron@Enron\ncc:  \nSubject: Subscription Renewal\n\n\n\nDear Jeff,\nOur records indicate that your subscription to California Energy Markets is \ndue for renewal.\nPlease let me know if you would like to renew or if you have questions \nregarding the renewal.\nSincerely,\nStephanie E. Taylor\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 62,
+      "text": "Sorry Stephanie, I meant to send the previous note to Joseph.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 6,
+      "end": 15,
+      "text": "Stephanie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 16,
+      "text": "Sorry Stephanie,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 81,
+      "end": 94,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 107,
+      "end": 117,
+      "text": "11/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 118,
+      "end": 126,
+      "text": "04:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 62,
+      "end": 133,
+      "text": "----- Forwarded by Jeff Dasovich/NA/Enron on 11/21/2000 04:29 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 135,
+      "end": 148,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 159,
+      "end": 172,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 174,
+      "end": 184,
+      "text": "11/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 185,
+      "end": 193,
+      "text": "04:27 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 204,
+      "end": 222,
+      "text": "Stephanie E Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 256,
+      "end": 269,
+      "text": "Re: Follow Up",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 133,
+      "end": 270,
+      "text": "\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t11/21/2000 04:27 PM\n\t\t\n\t\t To: Stephanie E Taylor/NA/Enron@ECT\n\t\t cc: \n\t\t Subject: Re: Follow Up\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 357,
+      "end": 375,
+      "text": "thanks very much.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 270,
+      "end": 378,
+      "text": "\ncould you please follow up with stephanie and let her know that i'd like to \nreview?  thanks very much.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 379,
+      "end": 397,
+      "text": "Stephanie E Taylor",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 403,
+      "end": 413,
+      "text": "11/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 414,
+      "end": 422,
+      "text": "03:00 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 433,
+      "end": 446,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 482,
+      "end": 491,
+      "text": "Follow Up",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 379,
+      "end": 492,
+      "text": "Stephanie E Taylor@ECT\n\t11/21/2000 03:00 PM\n\t\t\n\t\t To: Jeff Dasovich/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Follow Up\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 640,
+      "end": 656,
+      "text": "Stephanie Taylor",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 629,
+      "end": 657,
+      "text": "Thank You,\nStephanie Taylor\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 492,
+      "end": 661,
+      "text": "\n\nI am following up to see if you would like to renew the subscription listed \nbelow.  Please let me know at your earliest convenience.\n\nThank You,\nStephanie Taylor\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 667,
+      "end": 685,
+      "text": "Stephanie E Taylor",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 689,
+      "end": 699,
+      "text": "11/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 700,
+      "end": 708,
+      "text": "10:21 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 713,
+      "end": 726,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 757,
+      "end": 777,
+      "text": "Subscription Renewal",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 661,
+      "end": 778,
+      "text": "From: Stephanie E Taylor on 11/17/2000 10:21 AM\nTo: Jeff Dasovich/NA/Enron@Enron\ncc:  \nSubject: Subscription Renewal\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 786,
+      "end": 790,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 781,
+      "end": 792,
+      "text": "Dear Jeff,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 992,
+      "end": 1012,
+      "text": "Stephanie E. Taylor\n",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 981,
+      "end": 1012,
+      "text": "Sincerely,\nStephanie E. Taylor\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 778,
+      "end": 1015,
+      "text": "\n\n\nDear Jeff,\nOur records indicate that your subscription to California Energy Markets is \ndue for renewal.\nPlease let me know if you would like to renew or if you have questions \nregarding the renewal.\nSincerely,\nStephanie E. Taylor\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 29,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 32,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 34,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22369249.1075843041654.JavaMail.evans@thyme>",
+      "Date": "Tue, 21 Nov 2000 08:30:00 -0800 (PST)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "stephanie.taylor@enron.com, joseph.alamo@enron.com",
+      "Subject": "Re: Follow Up",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "Stephanie E Taylor, Joseph Alamo",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_3735.txt"
+}

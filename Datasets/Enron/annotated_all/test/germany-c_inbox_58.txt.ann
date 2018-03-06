@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "test/germany-c_inbox_58.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<13862052.1075840505799.JavaMail.evans@thyme>",
+      "Date": "Tue, 4 Jun 2002 13:55:07 -0700 (PDT)",
+      "From": "mgermany@ch2m.com",
+      "To": "chris.germany@enron.com, richardson'.'james@enron.com, \n\tromano'.'janet@enron.com, corby'.'jennifer@enron.com, \n\tmorrison'.'laura@enron.com, parker'.'james@enron.com, \n\tsue/cor.williams@enron.com",
+      "Subject": "Redneck 2002",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Germany, Mary/COR <mgermany@CH2M.com>",
+      "X-To": "Germany, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CGERMAN>, 'James Richardson' <jrichardson17@houston.rr.com>, 'Janet Romano' <JRomano@highlandsranch.org>, 'Jennifer Corby' <Jennifer.Corby@computershare.com>, 'Laura Morrison' <llmorrison@earthlink.net>, 'James Parker' <jparker@englewoodgov.org>, Williams, Sue/COR <swillia1@CH2M.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Germany, Chris\\Inbox",
+      "X-Origin": "GERMANY-C",
+      "X-FileName": "chris germany 6-25-02.pst"
+    }
+  },
+  "text": "You're A Redneck When... 2002 Edition \n\nYou take your dog for a walk and you both use the same tree. \n\nYou can entertain yourself for more than an hour with a fly swatter. \n\nYour property has been mistaken for a recycling center. \n\nYour boat has not left the driveway in 15 years. \n\nYou burn your yard rather than mow it. \n\nYou think the Nutcracker is something you did off the high dive. \n\nThe Salvation Army declines your mattress. \n\nYour entire family sat around waiting for a call from the governor to \nspare a loved one. \n\nYou offer to give someone the shirt off your back and they don't want \nit. \n\nYou have the local taxidermist on speed dial. \n\nYou come back from the dump with more than you took. \n\nYou keep a can of Raid on the kitchen table. \n\nYour wife can climb a tree faster than your cat. \n\nYour grandmother has \"Ammo\" on her Christmas list. \n\nYou've been kicked out of the zoo for heckling the monkeys. \n\nYou think a subdivision is part of a math problem. \n\nYou've bathed with flea and tick soap. \n\nYou've been involved in a custody fight over a hunting dog. \n\nYour kids take a siphon hose to show and tell. \n\nYou think a hot tub is a stolen indoor plumbing fixture. \n\nYou took a fishing pole to Sea World. \n\nYou go to the stock car races and don't need a program. \n\nYou know how many bales of hay your car will hold. \n\nYou have a rag for a gas cap. \n\nYour house doesn't have curtains but your truck does. \n\nYou wonder how service stations keep their restrooms so clean. \n\nYou can spit without opening your mouth. \n\nYou consider your license plate personalized because your father made \nit. \n\nYour lifetime goal is to own a fireworks stand. \n\nYou sit on your roof at Christmas time hoping to fill your deer quota. \n\nYou have a complete set of salad bowls and they all say Cool Whip on \nthe \nside. \n\nThe biggest city you've ever been to is Walmart. \n\nYour working TV sits on top of your non-working TV. \n\nYou thought the Uni-bomber was a wrestler. \n\nYou've used your ironing board as a buffet table. \n\nYou think a quarter horse is that ride in front of K-Mart. \n\nYour neighbors think you're a detective because a cop always brings \nyou \nhome. \n\nA tornado hits your neighborhood and does a $100,000 worth of \nimprovement. \n\nYou've used a toilet brush as a back scratcher. \n\nYou've asked the preacher \"How's it hangin?\" \n\nYou missed 5th grade graduation because you had jury duty. \n\nYou think fast food is hitting a deer at 65 mph. \n\nSomebody tells you that you've got something in your teeth and you \ntake \nthem out to see what it is \n  >> \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2556,
+      "text": "You're A Redneck When... 2002 Edition \n\nYou take your dog for a walk and you both use the same tree. \n\nYou can entertain yourself for more than an hour with a fly swatter. \n\nYour property has been mistaken for a recycling center. \n\nYour boat has not left the driveway in 15 years. \n\nYou burn your yard rather than mow it. \n\nYou think the Nutcracker is something you did off the high dive. \n\nThe Salvation Army declines your mattress. \n\nYour entire family sat around waiting for a call from the governor to \nspare a loved one. \n\nYou offer to give someone the shirt off your back and they don't want \nit. \n\nYou have the local taxidermist on speed dial. \n\nYou come back from the dump with more than you took. \n\nYou keep a can of Raid on the kitchen table. \n\nYour wife can climb a tree faster than your cat. \n\nYour grandmother has \"Ammo\" on her Christmas list. \n\nYou've been kicked out of the zoo for heckling the monkeys. \n\nYou think a subdivision is part of a math problem. \n\nYou've bathed with flea and tick soap. \n\nYou've been involved in a custody fight over a hunting dog. \n\nYour kids take a siphon hose to show and tell. \n\nYou think a hot tub is a stolen indoor plumbing fixture. \n\nYou took a fishing pole to Sea World. \n\nYou go to the stock car races and don't need a program. \n\nYou know how many bales of hay your car will hold. \n\nYou have a rag for a gas cap. \n\nYour house doesn't have curtains but your truck does. \n\nYou wonder how service stations keep their restrooms so clean. \n\nYou can spit without opening your mouth. \n\nYou consider your license plate personalized because your father made \nit. \n\nYour lifetime goal is to own a fireworks stand. \n\nYou sit on your roof at Christmas time hoping to fill your deer quota. \n\nYou have a complete set of salad bowls and they all say Cool Whip on \nthe \nside. \n\nThe biggest city you've ever been to is Walmart. \n\nYour working TV sits on top of your non-working TV. \n\nYou thought the Uni-bomber was a wrestler. \n\nYou've used your ironing board as a buffet table. \n\nYou think a quarter horse is that ride in front of K-Mart. \n\nYour neighbors think you're a detective because a cop always brings \nyou \nhome. \n\nA tornado hits your neighborhood and does a $100,000 worth of \nimprovement. \n\nYou've used a toilet brush as a back scratcher. \n\nYou've asked the preacher \"How's it hangin?\" \n\nYou missed 5th grade graduation because you had jury duty. \n\nYou think fast food is hitting a deer at 65 mph. \n\nSomebody tells you that you've got something in your teeth and you \ntake \nthem out to see what it is \n  >> \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Stan:\n\nI greatly appreciated the opportunity to meet with you on Tuesday, and \nrecognize\nthat the length of our meeting disrupted your schedule.  I thank you for your\nfrankness during our discussion.\n\nI do want to reiterate that the business operations of GRI and IGT are\nsignificantly different than those of a utility.  In addition, the evaluation\nperformed over the past six months has shown that the \"mechanical\" aspects of\nthe merger are straightforward.  I believe that basing a CEO selection\ndominantly on these two criteria would subject the merged entity to an\nunnecessary risk of failure.\n\nCritical to the success of the Institute will be its ability to deliver\ndemonstrable value to its customers.  All of the critical building blocks will\nexist at the combined Institute.  To capitalize on this opportunity, the \nleader\nmust be able to foster a creative, entrepreneurial environment in which\nintegrated teams work in concert, not in strife.\n\nI encourage you to speak with members of both current and past organizations\nthat I have headed to gage the level of excitement and commitment that I have\nbeen able to instill and my ability to create an atmosphere of mutual support\nand respect from an initial environment of conflict.  My resume documents the\nbottom line profit/loss impact that results from these effective teams.\n\nDuring our discussion you asked if I could work effectively with Bill as the \nCOO\nof the \"Institute.\"  Not only is the answer clearly yes, I emphasize that even\nduring last year when conflict between GRI and IGT became visible to DOE, Bill\nand I made joint visits and presentations to DOE and others to provide a\n\n**********************************************************************\n\n\n?united\nfront? and mitigate adverse effects.  During the past six months, I have had \nthe\nopportunity to work closely with Bill and sincerely believe that he would\nprovide a complementary set of skills and capabilities.\n\nThe 300 people that will initially form the Institute deserve the maximum\nopportunity for success.  I firmly believe that I have demonstrated the\ncommitment, leadership skills and energy necessary to successfully merge the\nbest aspects of GRI and IGT. I do not believe that you will be able to \nidentify\nanother individual that has as high a likelihood of forging an integrated team\nthat will maximize the impact of the Institute on its current and future\ncustomer bases.\n\nI look forward to our continued interactions.\n\nStan Borys",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Dear Stan:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2423,
+      "end": 2481,
+      "text": "\nI look forward to our continued interactions.\n\nStan Borys",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2481,
+      "text": "Dear Stan:\n\nI greatly appreciated the opportunity to meet with you on Tuesday, and \nrecognize\nthat the length of our meeting disrupted your schedule.  I thank you for your\nfrankness during our discussion.\n\nI do want to reiterate that the business operations of GRI and IGT are\nsignificantly different than those of a utility.  In addition, the evaluation\nperformed over the past six months has shown that the \"mechanical\" aspects of\nthe merger are straightforward.  I believe that basing a CEO selection\ndominantly on these two criteria would subject the merged entity to an\nunnecessary risk of failure.\n\nCritical to the success of the Institute will be its ability to deliver\ndemonstrable value to its customers.  All of the critical building blocks will\nexist at the combined Institute.  To capitalize on this opportunity, the \nleader\nmust be able to foster a creative, entrepreneurial environment in which\nintegrated teams work in concert, not in strife.\n\nI encourage you to speak with members of both current and past organizations\nthat I have headed to gage the level of excitement and commitment that I have\nbeen able to instill and my ability to create an atmosphere of mutual support\nand respect from an initial environment of conflict.  My resume documents the\nbottom line profit/loss impact that results from these effective teams.\n\nDuring our discussion you asked if I could work effectively with Bill as the \nCOO\nof the \"Institute.\"  Not only is the answer clearly yes, I emphasize that even\nduring last year when conflict between GRI and IGT became visible to DOE, Bill\nand I made joint visits and presentations to DOE and others to provide a\n\n**********************************************************************\n\n\n?united\nfront? and mitigate adverse effects.  During the past six months, I have had \nthe\nopportunity to work closely with Bill and sincerely believe that he would\nprovide a complementary set of skills and capabilities.\n\nThe 300 people that will initially form the Institute deserve the maximum\nopportunity for success.  I firmly believe that I have demonstrated the\ncommitment, leadership skills and energy necessary to successfully merge the\nbest aspects of GRI and IGT. I do not believe that you will be able to \nidentify\nanother individual that has as high a likelihood of forging an integrated team\nthat will maximize the impact of the Institute on its current and future\ncustomer bases.\n\nI look forward to our continued interactions.\n\nStan Borys",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29333450.1075863632336.JavaMail.evans@thyme>",
+      "Date": "Fri, 31 Mar 2000 05:38:00 -0800 (PST)",
+      "From": "sborys@igt.org",
+      "To": "stanley.horton@enron.com",
+      "Subject": "Thank you",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "sborys@igt.org",
+      "X-To": "Stanley.Horton@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Stanley_Horton_1\\Notes Folders\\All documents",
+      "X-Origin": "HORTON-S",
+      "X-FileName": "shorton.nsf"
+    }
+  },
+  "id": "test/horton-s_all_documents_726.txt"
+}

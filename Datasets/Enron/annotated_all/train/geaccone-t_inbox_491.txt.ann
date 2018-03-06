@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nHUGE HOLIDAY SAVINGS \n\nDear Toysrus.com Valued Customer, \n\nHappy Holidays! \n\nCelebrate with Toysrus.com's best values of the year and get this year's hot toys before they sell out. \n\nFor a limited time, come to Toysrus.com and take advantage of special Toys \"R\" Us Big Toy Book offers? \n\n-       FREE SHIPPING! \n-       Over $1,300 worth of exciting savings \n-       FREE 2 ft tall plush Mickey or Minnie character - a $29.99 value - with any $100 purchase, while supplies last! \n\nJust visit www.toysrus.com today and get all these great deals ...and more! \n\nPlus, enjoy the web's best toy shopping experience and selection - from Learning & Discovery toys to Hot character toys including Harry Potter? and Monsters Inc., all the traditional favorites like Barbie\n, LeapFrog\n and Milton Bradley? games and those hard to find video games.\n\nWe sincerely appreciate the opportunity to serve you and wish you and your family a safe and happy holiday season.  \n\nThe Toysrus.com Family \n\n\n\nWe hope you enjoyed receiving this message. However, if you'd rather not receive future \ne-mails of this sort from Amazon.com/Toysrus.com, please use the link below or click the Your Account button in the top right corner of any page. Under the Your Account Settings heading, click the \"Update your communication preferences\" link.\n\nhttp://www.amazon.com/your-account \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 23,
+      "end": 59,
+      "text": "\nDear Toysrus.com Valued Customer, \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 840,
+      "end": 982,
+      "text": "We sincerely appreciate the opportunity to serve you and wish you and your family a safe and happy holiday season.  \n\nThe Toysrus.com Family \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1354,
+      "text": "\nHUGE HOLIDAY SAVINGS \n\nDear Toysrus.com Valued Customer, \n\nHappy Holidays! \n\nCelebrate with Toysrus.com's best values of the year and get this year's hot toys before they sell out. \n\nFor a limited time, come to Toysrus.com and take advantage of special Toys \"R\" Us Big Toy Book offers? \n\n-       FREE SHIPPING! \n-       Over $1,300 worth of exciting savings \n-       FREE 2 ft tall plush Mickey or Minnie character - a $29.99 value - with any $100 purchase, while supplies last! \n\nJust visit www.toysrus.com today and get all these great deals ...and more! \n\nPlus, enjoy the web's best toy shopping experience and selection - from Learning & Discovery toys to Hot character toys including Harry Potter? and Monsters Inc., all the traditional favorites like Barbie\n, LeapFrog\n and Milton Bradley? games and those hard to find video games.\n\nWe sincerely appreciate the opportunity to serve you and wish you and your family a safe and happy holiday season.  \n\nThe Toysrus.com Family \n\n\n\nWe hope you enjoyed receiving this message. However, if you'd rather not receive future \ne-mails of this sort from Amazon.com/Toysrus.com, please use the link below or click the Your Account button in the top right corner of any page. Under the Your Account Settings heading, click the \"Update your communication preferences\" link.\n\nhttp://www.amazon.com/your-account \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24283907.1075862426743.JavaMail.evans@thyme>",
+      "Date": "Wed, 14 Nov 2001 01:21:39 -0800 (PST)",
+      "From": "toysrus.com@toysrus.com",
+      "To": "tgeacco@enron.com",
+      "Subject": "Free Shipping & $1,300 in Savings",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Toysrus.com@toysrus.com",
+      "X-To": "tgeacco@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\TGEACCO (Non-Privileged)\\Geaccone, Tracy\\Inbox",
+      "X-Origin": "Geaccone-T",
+      "X-FileName": "TGEACCO (Non-Privileged).pst"
+    }
+  },
+  "id": "train/geaccone-t_inbox_491.txt"
+}

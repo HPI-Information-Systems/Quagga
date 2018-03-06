@@ -1,0 +1,126 @@
+{
+  "wrapper": "plaintext",
+  "text": "Due to the Easter holiday, Dynegydirectwill not be available on Friday,\nApril 13. Dynegydirect will resume normal trading hours on Monday, April\n16.\n\n\nDYNEGYdirect e- care\nCustomer Support\nDynegy, Inc.\nPh: (877) 396.3493   Fx: (877) 396.3492\nEmail: ecare@dynegydirect.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 151,
+      "end": 171,
+      "text": "DYNEGYdirect e- care",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 172,
+      "end": 188,
+      "text": "Customer Support",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 189,
+      "end": 201,
+      "text": "Dynegy, Inc.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 206,
+      "end": 220,
+      "text": "(877) 396.3493",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 227,
+      "end": 241,
+      "text": "(877) 396.3492",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 249,
+      "end": 271,
+      "text": "ecare@dynegydirect.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 151,
+      "end": 271,
+      "text": "DYNEGYdirect e- care\nCustomer Support\nDynegy, Inc.\nPh: (877) 396.3493   Fx: (877) 396.3492\nEmail: ecare@dynegydirect.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 271,
+      "text": "Due to the Easter holiday, Dynegydirectwill not be available on Friday,\nApril 13. Dynegydirect will resume normal trading hours on Monday, April\n16.\n\n\nDYNEGYdirect e- care\nCustomer Support\nDynegy, Inc.\nPh: (877) 396.3493   Fx: (877) 396.3492\nEmail: ecare@dynegydirect.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30989543.1075844802744.JavaMail.evans@thyme>",
+      "Date": "Thu, 12 Apr 2001 09:18:00 -0700 (PDT)",
+      "From": "vernesia.a.gipson@dynegy.com",
+      "Subject": "Dynegydirect Holiday April 13",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vernesia.A.Gipson@dynegy.com",
+      "X-To": "",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_notes_inbox_2517.txt"
+}

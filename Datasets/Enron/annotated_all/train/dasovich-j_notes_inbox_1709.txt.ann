@@ -1,0 +1,76 @@
+{
+  "wrapper": "plaintext",
+  "text": "Per Rick Shapiro, pllease be advised that the meeting referenced above has \nbeen changed as follows:\n\nDate: Tuesday, December 5th\nTime: 9:00am - 1:30pm Pacific\nWhere: San Francisco Office\n\nAt this time, Paul would prefer to keep this as an internal GA meeting with \nour outside lobbyists.  At this time we are not inviting the Enron Business \nunits to attend, but please feel free to invite anyone else in the GA group \nyou feel should attend.  \n\nHOWEVER, if you invite someone else, please advise me so that we can ensure \nwe have adequate space in San Francisco to accommodate everyone.  Thanks!\n\nMelissa Cortez - please forward to Scott AND Hedy.  Also, I will forward \ndirections to our offices to you under a separate e-mail.\n\n\nLysa Akin\n503/464-7927\n\n---------------------- Forwarded by Lysa Akin/PDX/ECT on 11/16/2000 08:35 AM \n---------------------------\n\n\nLysa Akin\n11/14/2000 04:52 PM\nTo: Susan J Mara/NA/Enron@Enron, Jeff Dasovich/NA/Enron@Enron, Mona L \nPetrochko/NA/Enron@Enron, Sandra McCubbin/NA/Enron@Enron, Joseph \nAlamo/NA/Enron@Enron, mday@gmssr.com, Harry Kingerski/NA/Enron, Marcie \nMilner/Corp/Enron@Enron, Karen Denne/Corp/Enron, James D Steffes/NA/Enron, \nmcortez@govadv.com, Sue Nord/HOU/EES@EES, Richard Shapiro/NA/Enron\ncc: Paul Kaufman/PDX/ECT, Marcia A Linton/NA/Enron, Ginger Dernehl/NA/Enron \nSubject: California Legislative Meeting in San Francisco\n\nPlease be advised that I have scheduled the above referenced meeting as \nfollows:\n\nDate: Tuesday, November 28th\nTime: 10:30am - 3:30pm Pacific\nWhere: San Francisco Office\n\nMost of you \"penciled in\" this appointment when I spoke to you, please make \nplans to attend!!\n\nAt this time, Paul would prefer to keep this as an internal GA meeting with \nour outside lobbyists.  At this time we are not inviting the Enron Business \nunits to attend, but please feel free to invite anyone else in the GA group \nyou feel should attend.  HOWEVER, if you invite someone else, please advise \nme so that we can ensure we have adequate space in San Francisco to \naccommodate everyone.  Thanks!\n\nMelissa Cortez - please forward to Scott AND Hedy.\n\nJim Steffes & Marcia Linton - I am aware that Jim is on vacation the week of \nthe 27th.  In the event that he can participate via teleconference, I will \nforward a dial in number by the end of the week.\n\nLysa Akin\n503/464-7927\n",
+  "denotations": [
+    {
+      "id": 2,
+      "start": 2315,
+      "end": 2338,
+      "text": "Lysa Akin\n503/464-7927\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1381,
+      "end": 2338,
+      "text": "\nPlease be advised that I have scheduled the above referenced meeting as \nfollows:\n\nDate: Tuesday, November 28th\nTime: 10:30am - 3:30pm Pacific\nWhere: San Francisco Office\n\nMost of you \"penciled in\" this appointment when I spoke to you, please make \nplans to attend!!\n\nAt this time, Paul would prefer to keep this as an internal GA meeting with \nour outside lobbyists.  At this time we are not inviting the Enron Business \nunits to attend, but please feel free to invite anyone else in the GA group \nyou feel should attend.  HOWEVER, if you invite someone else, please advise \nme so that we can ensure we have adequate space in San Francisco to \naccommodate everyone.  Thanks!\n\nMelissa Cortez - please forward to Scott AND Hedy.\n\nJim Steffes & Marcia Linton - I am aware that Jim is on vacation the week of \nthe 27th.  In the event that he can participate via teleconference, I will \nforward a dial in number by the end of the week.\n\nLysa Akin\n503/464-7927\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 733,
+      "end": 756,
+      "text": "Lysa Akin\n503/464-7927\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 757,
+      "text": "Per Rick Shapiro, pllease be advised that the meeting referenced above has \nbeen changed as follows:\n\nDate: Tuesday, December 5th\nTime: 9:00am - 1:30pm Pacific\nWhere: San Francisco Office\n\nAt this time, Paul would prefer to keep this as an internal GA meeting with \nour outside lobbyists.  At this time we are not inviting the Enron Business \nunits to attend, but please feel free to invite anyone else in the GA group \nyou feel should attend.  \n\nHOWEVER, if you invite someone else, please advise me so that we can ensure \nwe have adequate space in San Francisco to accommodate everyone.  Thanks!\n\nMelissa Cortez - please forward to Scott AND Hedy.  Also, I will forward \ndirections to our offices to you under a separate e-mail.\n\n\nLysa Akin\n503/464-7927\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 863,
+      "end": 1381,
+      "text": "\n\nLysa Akin\n11/14/2000 04:52 PM\nTo: Susan J Mara/NA/Enron@Enron, Jeff Dasovich/NA/Enron@Enron, Mona L \nPetrochko/NA/Enron@Enron, Sandra McCubbin/NA/Enron@Enron, Joseph \nAlamo/NA/Enron@Enron, mday@gmssr.com, Harry Kingerski/NA/Enron, Marcie \nMilner/Corp/Enron@Enron, Karen Denne/Corp/Enron, James D Steffes/NA/Enron, \nmcortez@govadv.com, Sue Nord/HOU/EES@EES, Richard Shapiro/NA/Enron\ncc: Paul Kaufman/PDX/ECT, Marcia A Linton/NA/Enron, Ginger Dernehl/NA/Enron \nSubject: California Legislative Meeting in San Francisco\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 757,
+      "end": 863,
+      "text": "---------------------- Forwarded by Lysa Akin/PDX/ECT on 11/16/2000 08:35 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33537746.1075843148947.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Nov 2000 00:37:00 -0800 (PST)",
+      "From": "lysa.akin@enron.com",
+      "To": "susan.mara@enron.com, jeff.dasovich@enron.com, mona.petrochko@enron.com, \n\tsandra.mccubbin@enron.com, mday@gmssr.com, harry.kingerski@enron.com, \n\tmarcie.milner@enron.com, karen.denne@enron.com, \n\tjames.steffes@enron.com, mcortez@govadv.com, sue.nord@enron.com, \n\trichard.shapiro@enron.com",
+      "Subject": "CHANGE OF DATE: California Legislative Meeting in San Francisco -\n MARK YOUR CALENDARS!!",
+      "Cc": "joseph.alamo@enron.com, marcia.linton@enron.com, ginger.dernehl@enron.com, \n\tpaul.kaufman@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "joseph.alamo@enron.com, marcia.linton@enron.com, ginger.dernehl@enron.com, \n\tpaul.kaufman@enron.com",
+      "X-From": "Lysa Akin",
+      "X-To": "Susan J Mara, Jeff Dasovich, Mona L Petrochko, Sandra McCubbin, mday@gmssr.com, Harry Kingerski, Marcie Milner, Karen Denne, James D Steffes, mcortez@govadv.com, Sue Nord, Richard Shapiro",
+      "X-cc": "Joseph Alamo, Marcia A Linton, Ginger Dernehl, Paul Kaufman",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_1709.txt"
+}

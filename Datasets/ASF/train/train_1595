@@ -1,0 +1,43 @@
+This has really nothing to do with SQL. What's happening is that the
+query doesn't think you're specifying a field and it's looking for
+_text_ which will be defined in your solrconfig file with a "df"
+parameter for the query handler.
+
+That said, the query appears malformed or it's a cut/paste error. You
+use single quotes to open and a double quote to close:
+ 'stmt=select fieldA from collection where field='123''
+you probably want something like
+"stmt=select fieldA from collection where field='123' ''
+Best,
+Erick
+
+On Sun, Mar 12, 2017 at 6:33 AM, adfel70 <adfel70@gmail.com> wrote:
+> Seems like this only happend when the value is not a number
+>
+>
+> curl --data-urlencode 'stmt=select fieldA from collection where field='123''
+> http://host:port/solr/collection/sql?aggregationMode=facet
+>
+> works.
+> while this one doesnt work:
+>
+> curl --data-urlencode 'stmt=select fieldA from collection where field='abc''
+> http://host:port/solr/collection/sql?aggregationMode=facet
+>
+> Again, the same message with "no field name specified in query and no
+> default specified via df param".
+>
+> tried this on multiple field types.
+> example of field settings: type=string, indexed=true, stored=true,
+> omitNorms=true, multiValued=false, docValues=true.
+>
+> Note that this collection was indexed as nested documents, but while trying
+> the sql, I'm not using anything related to the nested format (except that
+> the data itself was indexed this way)
+>
+>
+>
+> --
+> View this message in context: http://lucene.472066.n3.nabble.com/Simple-sql-query-with-where-clause-doesn-t-work-tp4324498p4324499.html
+> Sent from the Solr - User mailing list archive at Nabble.com.
+

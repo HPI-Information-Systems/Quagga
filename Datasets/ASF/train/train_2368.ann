@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm running two nodes of SolrCloud in Docker on Windows using Docker\nToolbox.  The problem I am having is that Docker Toolbox runs inside of a\nVM and so it has an internal network inside the VM that is not accessible\nto the Docker Toolbox VM's host OS. If I go to the VM's IP which is\n192.168.99.100, I can load the admin UI and do basic operations that are\nwritten to go against that IP and port (like querying, schema editor,\nmanually adding documents, etc.)\n\nHowever, when I try to run code that uses SolrJ to add documents, it fails\nbecause the ZK configuration has the IPs for the internal Docker network\nwhich is 172.X.Y..Z. If I log into the toolbox VM and run the Java code\nfrom there, it works just fine. From the host OS, doesn't.\n\nAnyone have any ideas on how to get around this? If I rewrite the indexing\ncode to do a manual JSON POST to the update handler on one of the nodes, it\ndoes work just fine, but that leaves me not using SolrJ.\n\nThanks,\n\nMike\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 950,
+      "end": 965,
+      "text": "\nThanks,\n\nMike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 966,
+      "text": "I'm running two nodes of SolrCloud in Docker on Windows using Docker\nToolbox.  The problem I am having is that Docker Toolbox runs inside of a\nVM and so it has an internal network inside the VM that is not accessible\nto the Docker Toolbox VM's host OS. If I go to the VM's IP which is\n192.168.99.100, I can load the admin UI and do basic operations that are\nwritten to go against that IP and port (like querying, schema editor,\nmanually adding documents, etc.)\n\nHowever, when I try to run code that uses SolrJ to add documents, it fails\nbecause the ZK configuration has the IPs for the internal Docker network\nwhich is 172.X.Y..Z. If I log into the toolbox VM and run the Java code\nfrom there, it works just fine. From the host OS, doesn't.\n\nAnyone have any ideas on how to get around this? If I rewrite the indexing\ncode to do a manual JSON POST to the update handler on one of the nodes, it\ndoes work just fine, but that leaves me not using SolrJ.\n\nThanks,\n\nMike\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2368"
+}

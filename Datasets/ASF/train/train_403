@@ -1,0 +1,24 @@
+Is this visible in the logs? I mean how do I find out that a "DELETE
+collection" API​ call was made?
+
+Is the following indicative of the fact that the API call was made?
+
+2017-01-20 20:42:39,822 INFO org.apache.solr.cloud.
+ShardLeaderElectionContextBase: Removing leader registration node on
+cancel: /collections/3044_01_17/leaders/shard4/leader 9
+
+2017-01-20 20:42:39,832 INFO org.apache.solr.cloud.ElectionContext:
+Canceling election /collections/3044_01_17/leader_elect/shard4/election/
+241183598302995297-core_node3-n_0000000008
+
+2017-01-20 20:42:39,833 INFO org.apache.solr.common.cloud.ZkStateReader:
+Removing watch for uninteresting collection [3044_01_17]
+
+  "core":"3044_01_17_shard4_replica1",
+
+  "collection":"3044_01_17",
+
+
+I am confused as the logs just talk about shard4 not all the shards of the
+collection.
+

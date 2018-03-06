@@ -1,0 +1,26 @@
+Have you found a solution to this?  I'm seeing the same behavior (running
+solr v6.5.0):
+
+- source data center replicates to target just fine
+- autocommit on Source with openSearcher=false causes tlogs to rollover at a
+reasonable size
+- a post-import explicit commit (with the default openSearcher=true) causes
+docs to be visible on Source
+- autocommit on Target with openSearcher=true (and a higher maxTime /
+maxDocs) causes tlogs to roll eventually and docs to become visible without
+any need for a final explicit commit
+- tlogs on Target clean up (get deleted) just fine, after each hard commit
+- *tlogs on Source are never deleted and I can't figure out why*
+ 
+I've tried this with the cdcr buffer both enabled and disabled, and tried it
+with DataImportHandler imports as well as SolrJ posts of updates.  I can't
+find any combination of settings that causes tlogs on the Source cluster to
+be cleaned up.  Any ideas on how to manage this other than implement a
+manual log deletion routine on the filesystem?
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Tlogs-not-being-deleted-truncated-tp4341958p4345473.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

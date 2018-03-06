@@ -1,0 +1,22 @@
+Hi,
+we are updating our SOLR infrastructure from version 4.10.2 to the latest 6.6. 
+We realize a significant degradation of the response time while running match-all queries
+with facets (query in [1]) With version 4.x these kind of queries never took longer than 2000
+ms.
+Now all of these queries need more than 9000 ms. 
+Our index [2] [3] contains around 30 Mio docs. Because we want to use doc-values for facets
+and sort functions we changed our doc-processing significantly replacing all text type with
+string fields.
+The behavior of normal term queries is acceptable although it's a little bit slower compared
+with the current productive environment. Yesterday I run a couple of performance tests
+I looked around and came across this (older) issue [4] which is partially related to our observations
+but actually I cannot find a solution for our behavior.
+Did we miss something on the way of the development from version 4 / 5 / 6 which might be
+the reason for the degradation and we should change our queries?
+Thanks a lot for any hints
+Günter
+[1] http://localhost:8080/solr/sb-biblio/select?rows=0&q=*:*&facet.field=union&facet.field=navAuthor_full&facet.field=format&facet.field=language&facet.field=navSub_green&facet.field=navSubform&facet.field=publishDate&qt=edismax&ps=2&hl=true&json.nl=arrarr&bf=recip(abs(ms(NOW/DAY,freshness)),3.16e-10,100,100)&fl=*,score&hl.fragsize=250&start=0&q.op=AND&sort=score+desc&rows=20&hl.simple.pre={{{{START_HILITE}}}}&facet.limit=100&hl.simple.post={{{{END_HILITE}}}}&spellcheck=false&qf=title_short^1000+title_alt^200+title_sub^200+title_old^200+title_new^200+author^750+author_additional^100+author_additional_dsv11_txt_mv^100+title_additional_dsv11_txt_mv^100+series^200+topic^500+addfields_txt_mv^50+publplace_txt_mv^25+publplace_dsv11_txt_mv^25+fulltext+callnumber^1000+ctrlnum^1000+publishDate+isbn+variant_isbn_isn_mv+issn+localcode+id&pf=title_short^1000&facet.mincount=1&hl.fl=fulltext&facet=true&wt=xml&facet.sort=count
+[2] www.swissbib.ch
+[3] http://search.swissbib.ch/solr/sb-biblio/select?q=*%3A*&wt=xml&indent=true
+[4] https://issues.apache.org/jira/browse/SOLR-8251
+

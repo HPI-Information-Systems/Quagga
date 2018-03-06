@@ -1,0 +1,35 @@
+So I have a field named "key" that uses KeywordTokenizer and has
+multiValued="true" set. A doc like
+<doc>
+  <field name="key">val one</field>
+  <field name="key">yet another value</field>
+  <field name="key">third</field>
+</doc>
+
+My field will have exactly three indexed tokens
+
+val one
+yet another value
+third
+
+Best,
+Erick
+
+On Wed, Apr 12, 2017 at 2:38 PM, Ahmet Arslan <iorixxx@yahoo.com.invalid> wrote:
+> I don't understand the first option, what is each value? Keyword tokenizer emits single
+token, analogous to string type.
+>
+>
+>
+> On Wednesday, April 12, 2017, 7:45:52 PM GMT+3, Walter Underwood <wunder@wunderwood.org>
+wrote:
+> Does the KeywordTokenizer make each value into a unitary string or does it take the whole
+list of values and make that a single string?
+>
+> I really hope it is the former. I can’t find this in the docs (including JavaDocs).
+>
+> wunder
+> Walter Underwood
+> wunder@wunderwood.org
+> http://observer.wunderwood.org/  (my blog)
+

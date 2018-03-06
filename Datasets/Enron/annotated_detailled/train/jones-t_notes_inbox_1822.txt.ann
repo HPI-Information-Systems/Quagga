@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please add Lisa Lees to the distribution list for the EOL Profiles and remove \nFrank Davis.  Let me know if you have any questions.\n\nThanks,\nStephanie",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 141,
+      "end": 150,
+      "text": "Stephanie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 133,
+      "end": 150,
+      "text": "Thanks,\nStephanie",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 150,
+      "text": "Please add Lisa Lees to the distribution list for the EOL Profiles and remove \nFrank Davis.  Let me know if you have any questions.\n\nThanks,\nStephanie",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8802474.1075847111696.JavaMail.evans@thyme>",
+      "Date": "Tue, 26 Sep 2000 09:01:00 -0700 (PDT)",
+      "From": "stephanie.sever@enron.com",
+      "To": "tom.moran@enron.com, bradley.diebner@enron.com, tana.jones@enron.com, \n\tkaren.lambert@enron.com",
+      "Subject": "EOL Approval Profiles",
+      "Cc": "lisa.lees@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "lisa.lees@enron.com",
+      "X-From": "Stephanie Sever",
+      "X-To": "Tom Moran, Bradley Diebner, Tana Jones, Karen Lambert",
+      "X-cc": "Lisa Lees",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_1822.txt"
+}

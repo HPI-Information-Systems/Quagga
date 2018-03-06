@@ -1,0 +1,9 @@
+Hi,
+
+Does anyone know if CloudSolrClient is preferred over LBHttpSolrClient ?
+If yes, why so and has there been any good performance benefits documented
+anywhere?
+
+Thanks
+SG
+

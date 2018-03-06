@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Shawn,\n\nYeah think we have identified root cause thanks to some of the suggestions\nhere.\n\nOriginally we stopped using deleteByQuery as we saw it caused some large\nCPU spikes (see https://issues.apache.org/jira/browse/LUCENE-7049) and\nSolr pauses\nAnd switched to using a search and then deleteById. It worked fine on our\n(small) test collections.\n\nBut with 200M documents it appears that deleteById causes the heap to\nincrease dramatically (we guess fieldCache gets populated with a large\nnumber of object ids?)\nTo confirm our suspicion we put \u00c2\u00b3docValues\u00c2\u00b2=\u00c2\u00b3true\u00c2\u00b2 on the schema and began\nto reindex and the heap memory usage dropped significantly - in fact heap\nmemory usage on the Solr VMs dropped by a half.\n\nCan someone confirm (or deny) our suspicion that deleteById results in\nsome on-heap caching of the unique key (id?)?\n\n\nCheers!\n\n-Frank\n\nP.s. Interesting when I searched the Wiki for docs on deleteById I did not\nfind any\nhttps://cwiki.apache.org/confluence/dosearchsite.action?where=solr&spaceSea\nrch=true&queryString=deleteById\n\n\nP.p.s Separately we are also turning off FilterCache but we know from\nusage and plugin stats that it is not in use but best to turn it off\nentirely for risk reduction\n\n \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n\n\n\nOn 2/9/17, 11:00 AM, \"Shawn Heisey\" <apache@elyograg.org> wrote:\n\n>On 2/9/2017 6:19 AM, Kelly, Frank wrote:\n>> Got a heap dump on an Out of Memory error.\n>> Analyzing the dump now in Visual VM\n>>\n>> Seeing a lot of byte[] arrays (77% of our 8GB Heap) in\n>>\n>>   * TreeMap$Entry\n>>   * FieldCacheImpl$SortedDocValues\n>>\n>> We\u00c2\u00b9re considering switch over to DocValues but would rather be\n>> definitive about the root cause before we experiment with DocValues\n>> and require a reindex of our 200M document index\n>> In each of our 4 data centers.\n>>\n>> Any suggestions on what I should look for in this heap dump to get a\n>> definitive root cause?\n>>\n>\n>Analyzing the cause of large memory allocations when the large\n>allocations are byte[] arrays might mean that it's a low-level class,\n>probably in Lucene.  Solr will likely have almost no influence on these\n>memory allocations, except by changing the schema to enable docValues,\n>which changes the particular Lucene code that is called.  Note that\n>wiping the index and rebuilding it from scratch is necessary when you\n>enable docValues.\n>\n>Another possible source of problems like this is the filterCache.  A 200\n>million document index (assuming it's all on the same machine) results\n>in filterCache entries that are 25 million bytes each.  In Solr\n>examples, the filterCache defaults to a size of 512.  If a cache that\n>size on a 200 million document index fills up, it will require nearly 13\n>gigabytes of heap memory.\n>\n>Thanks,\n>Shawn\n>\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 14,
+      "text": "Thanks Shawn,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 838,
+      "end": 855,
+      "text": "\nCheers!\n\n-Frank\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1218,
+      "end": 1508,
+      "text": " \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 1511,
+      "text": "Thanks Shawn,\n\nYeah think we have identified root cause thanks to some of the suggestions\nhere.\n\nOriginally we stopped using deleteByQuery as we saw it caused some large\nCPU spikes (see https://issues.apache.org/jira/browse/LUCENE-7049) and\nSolr pauses\nAnd switched to using a search and then deleteById. It worked fine on our\n(small) test collections.\n\nBut with 200M documents it appears that deleteById causes the heap to\nincrease dramatically (we guess fieldCache gets populated with a large\nnumber of object ids?)\nTo confirm our suspicion we put \u00c2\u00b3docValues\u00c2\u00b2=\u00c2\u00b3true\u00c2\u00b2 on the schema and began\nto reindex and the heap memory usage dropped significantly - in fact heap\nmemory usage on the Solr VMs dropped by a half.\n\nCan someone confirm (or deny) our suspicion that deleteById results in\nsome on-heap caching of the unique key (id?)?\n\n\nCheers!\n\n-Frank\n\nP.s. Interesting when I searched the Wiki for docs on deleteById I did not\nfind any\nhttps://cwiki.apache.org/confluence/dosearchsite.action?where=solr&spaceSea\nrch=true&queryString=deleteById\n\n\nP.p.s Separately we are also turning off FilterCache but we know from\nusage and plugin stats that it is not in use but best to turn it off\nentirely for risk reduction\n\n \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1511,
+      "end": 1576,
+      "text": "On 2/9/17, 11:00 AM, \"Shawn Heisey\" <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1576,
+      "end": 1619,
+      "text": "\n>On 2/9/2017 6:19 AM, Kelly, Frank wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2984,
+      "end": 3002,
+      "text": ">\n>Thanks,\n>Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1619,
+      "end": 3006,
+      "text": ">> Got a heap dump on an Out of Memory error.\n>> Analyzing the dump now in Visual VM\n>>\n>> Seeing a lot of byte[] arrays (77% of our 8GB Heap) in\n>>\n>>   * TreeMap$Entry\n>>   * FieldCacheImpl$SortedDocValues\n>>\n>> We\u00c2\u00b9re considering switch over to DocValues but would rather be\n>> definitive about the root cause before we experiment with DocValues\n>> and require a reindex of our 200M document index\n>> In each of our 4 data centers.\n>>\n>> Any suggestions on what I should look for in this heap dump to get a\n>> definitive root cause?\n>>\n>\n>Analyzing the cause of large memory allocations when the large\n>allocations are byte[] arrays might mean that it's a low-level class,\n>probably in Lucene.  Solr will likely have almost no influence on these\n>memory allocations, except by changing the schema to enable docValues,\n>which changes the particular Lucene code that is called.  Note that\n>wiping the index and rebuilding it from scratch is necessary when you\n>enable docValues.\n>\n>Another possible source of problems like this is the filterCache.  A 200\n>million document index (assuming it's all on the same machine) results\n>in filterCache entries that are 25 million bytes each.  In Solr\n>examples, the filterCache defaults to a size of 512.  If a cache that\n>size on a 200 million document index fills up, it will require nearly 13\n>gigabytes of heap memory.\n>\n>Thanks,\n>Shawn\n>\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_898"
+}

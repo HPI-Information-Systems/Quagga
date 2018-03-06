@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_4709",
+  "meta": {},
+  "text": "Have you found a solution to this?  I'm seeing the same behavior (running\nsolr v6.5.0):\n\n- source data center replicates to target just fine\n- autocommit on Source with openSearcher=false causes tlogs to rollover at a\nreasonable size\n- a post-import explicit commit (with the default openSearcher=true) causes\ndocs to be visible on Source\n- autocommit on Target with openSearcher=true (and a higher maxTime /\nmaxDocs) causes tlogs to roll eventually and docs to become visible without\nany need for a final explicit commit\n- tlogs on Target clean up (get deleted) just fine, after each hard commit\n- *tlogs on Source are never deleted and I can't figure out why*\n \nI've tried this with the cdcr buffer both enabled and disabled, and tried it\nwith DataImportHandler imports as well as SolrJ posts of updates.  I can't\nfind any combination of settings that causes tlogs on the Source cluster to\nbe cleaned up.  Any ideas on how to manage this other than implement a\nmanual log deletion routine on the filesystem?\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Tlogs-not-being-deleted-truncated-tp4341958p4345473.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1201,
+      "text": "Have you found a solution to this?  I'm seeing the same behavior (running\nsolr v6.5.0):\n\n- source data center replicates to target just fine\n- autocommit on Source with openSearcher=false causes tlogs to rollover at a\nreasonable size\n- a post-import explicit commit (with the default openSearcher=true) causes\ndocs to be visible on Source\n- autocommit on Target with openSearcher=true (and a higher maxTime /\nmaxDocs) causes tlogs to roll eventually and docs to become visible without\nany need for a final explicit commit\n- tlogs on Target clean up (get deleted) just fine, after each hard commit\n- *tlogs on Source are never deleted and I can't figure out why*\n \nI've tried this with the cdcr buffer both enabled and disabled, and tried it\nwith DataImportHandler imports as well as SolrJ posts of updates.  I can't\nfind any combination of settings that causes tlogs on the Source cluster to\nbe cleaned up.  Any ideas on how to manage this other than implement a\nmanual log deletion routine on the filesystem?\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Tlogs-not-being-deleted-truncated-tp4341958p4345473.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

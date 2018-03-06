@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi All,\n\nI have a job as attached.\n\nI have a 16 Core blade running RHEL 7. The taskmanager default number of\nslots is set to 1. The source is a kafka stream and each of the 2\nsources(topic) have 2 partitions each.\n\n\n*What I notice is that when I deploy a job to run with #parallelism=2 the\ntotal processing time doubles the time it took when the same job was\ndeployed with #parallelism=1. It linearly increases with the parallelism.*\nSince the numberof slots is set to 1 per TM, I would assume that the job\nwould be processed in parallel in 2 different TMs and that each consumer in\neach TM is connected to 1 partition of the topic. This therefore should\nhave kept the overall processing time the same or less !!!\n\nThe co-flatmap connects the 2 streams & uses ValueState (checkpointed in\nFS). I think this is distributed among the TMs. My understanding is that\nthe search of values state could be costly between TMs.  Do you sense\nsomething wrong here?\n\nBest Regards\nCVP\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 953,
+      "end": 971,
+      "text": "\nBest Regards\nCVP\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 972,
+      "text": "Hi All,\n\nI have a job as attached.\n\nI have a 16 Core blade running RHEL 7. The taskmanager default number of\nslots is set to 1. The source is a kafka stream and each of the 2\nsources(topic) have 2 partitions each.\n\n\n*What I notice is that when I deploy a job to run with #parallelism=2 the\ntotal processing time doubles the time it took when the same job was\ndeployed with #parallelism=1. It linearly increases with the parallelism.*\nSince the numberof slots is set to 1 per TM, I would assume that the job\nwould be processed in parallel in 2 different TMs and that each consumer in\neach TM is connected to 1 partition of the topic. This therefore should\nhave kept the overall processing time the same or less !!!\n\nThe co-flatmap connects the 2 streams & uses ValueState (checkpointed in\nFS). I think this is distributed among the TMs. My understanding is that\nthe search of values state could be costly between TMs.  Do you sense\nsomething wrong here?\n\nBest Regards\nCVP\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_113"
+}

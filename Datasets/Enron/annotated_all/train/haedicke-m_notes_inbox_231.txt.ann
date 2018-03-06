@@ -1,0 +1,164 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mike Swerzbin told me Friday that he does not want us to pursue any action on \nthis which would involve tearing up the option trades.  He did what Richard \nand I advised him to do,  he confronted Puget about it,  and is apparently \nsatisfied from that conversation that their intentions were not as foul as we \nfirst suspected and seems willing to let the matter rest.  \n\nSteve Hall's call to the Puget attorney's, referred to below,  was quite  \nhelpful in defusing the situation, although it really puzzles me why anybody \nwould take the time to make a filing at FERC, (for price caps in the NW)  \njust to show that another filing was ludicrous (price caps in California).  \nSeems like bad regulatory faith or something. ----cgy   \n---------------------- Forwarded by Christian Yoder/HOU/ECT on 11/07/2000 \n08:08 AM ---------------------------\n\n\nSteve C Hall\n11/06/2000 04:55 PM\nTo: Christian Yoder/HOU/ECT@ECT\ncc:  \nSubject: Re: Puget Sound requests NW price caps  \n\nChristian,\n\nAs I relayed to you and Tim Belden last week, Puget's counsel (Steve \nMarshall) assured me that Puget does not want price caps, and feels that the \nonly thing worse than a price cap is a price cap in one market, but not in \nthe adjacent market.  The intent of Puget's complaint was to point out to \nFERC the fallacy of adopting a price cap in California.  That's their story, \nanyway.  \n\nSteve Marshall assured me that Puget's traders were unaware of its lawyers' \nintent to file a complaint seeking price caps.  I personally have no reason \nto disbelieve Marshall, who I know through my practice before BPA, and would \ndoubt that he would risk his partnership at Perkins Coie and position as \ngeneral counsel for Puget on a risky, tenuous scheme like this.\n\nNevertheless, assuming that Puget does not withdraw its complaint, Enron \nshould note in its protest to Puget's complaint that ,if Puget's price cap is \nimplemented, Puget would  benefit under contracts signed a few days before it \nfiled its complaint.\n\nAccording to Chris Foster, the traders are not interested in unwinding these \ndeals unless the NW price caps are actually implemented.\n\nSteve \n\n \n\n\n\nChristian Yoder\n\n11/06/2000 08:03 AM\nTo: Steve C Hall/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Puget Sound requests NW price caps\n\n\n---------------------- Forwarded by Christian Yoder/HOU/ECT on 11/06/2000 \n07:52 AM ---------------------------\nFrom: Mark E Haedicke on 11/03/2000 05:26 PM CST\nTo: Christian Yoder/HOU/ECT@ECT\ncc: Richard B Sanders/HOU/ECT@ECT \nSubject: Re: Puget Sound requests NW price caps  \n\nI think this is a detrimental reliance case or fraud.  I want to be \naggressive on this.  Richard, please let me know what theory is best.  Do we \nhave counsel for Washington?\n\nMark\n\n\n\n\tChristian Yoder\n\t10/27/2000 12:15 PM\n\t\t \n\t\t To: Elizabeth Sager/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Richard B \nSanders/HOU/ECT@ECT, Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Puget Sound requests NW price caps\n\nIn the days immediately before the application for a price cap, Puget came to \nus and asked us to enter into several put options.  We did so. I am advised \nby the traders that if this price cap were to actually be in effect,  our put \noption transactions would not make sense for us economically and we would \nnever have entered into them had we known of their intention to make this \nfiling.   I am under some pressure  to explain two things:  (i) whether the \nfact that they knew they were going to file for the cap when they did the \noptions is some kind of fraud, and (ii) whether the WSPP Agreement or our \nISDA swap agreements have any clauses in them to address this kind of \nthing,ie. is this some kind of \"illegality\" issue?  I am working on the \nsecond issue and have discussed it with Mark Taylor, but on the first issue, \nI need advice from Richard and anyone else who can help.----cgy \n---------------------- Forwarded by Christian Yoder/HOU/ECT on 10/27/2000 \n09:59 AM ---------------------------\n\n\nMary Hain\n10/27/2000 09:50 AM\nTo: James D Steffes/NA/Enron@Enron, Marcie Milner, Joe Hartsoe@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Richard Sanders, Christian Yoder/HOU/ECT@ECT, \nPortland West Desk\ncc:  \nSubject: Puget Sound requests NW price caps\n\nPuget Sound has filed a complaint against all jurisdictional sellers of \nwholesale energy and/or capacity in the Pacific Northwest, including parties \nto WSPP agreement.  Puget Sound requests FERC to impose price cap on \nwholesale sales of energy and capacity in the Pacific Northwest equal to the \nlowest price cap \"established, ordered, or permitted by the Commission for \nwholesale purchases by the Cal ISO or Cal PX . . . .\"  Puget requests an \neffective date of December 25,2000.  \n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 734,
+      "text": "Mike Swerzbin told me Friday that he does not want us to pursue any action on \nthis which would involve tearing up the option trades.  He did what Richard \nand I advised him to do,  he confronted Puget about it,  and is apparently \nsatisfied from that conversation that their intentions were not as foul as we \nfirst suspected and seems willing to let the matter rest.  \n\nSteve Hall's call to the Puget attorney's, referred to below,  was quite  \nhelpful in defusing the situation, although it really puzzles me why anybody \nwould take the time to make a filing at FERC, (for price caps in the NW)  \njust to show that another filing was ludicrous (price caps in California).  \nSeems like bad regulatory faith or something. ----cgy   \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 734,
+      "end": 846,
+      "text": "---------------------- Forwarded by Christian Yoder/HOU/ECT on 11/07/2000 \n08:08 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 846,
+      "end": 969,
+      "text": "\n\nSteve C Hall\n11/06/2000 04:55 PM\nTo: Christian Yoder/HOU/ECT@ECT\ncc:  \nSubject: Re: Puget Sound requests NW price caps  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 969,
+      "end": 981,
+      "text": "\nChristian,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2130,
+      "end": 2138,
+      "text": "\nSteve \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2144,
+      "end": 2265,
+      "text": "Christian Yoder\n\n11/06/2000 08:03 AM\nTo: Steve C Hall/PDX/ECT@ECT\ncc:  \n\nSubject: Re: Puget Sound requests NW price caps\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 969,
+      "end": 2144,
+      "text": "\nChristian,\n\nAs I relayed to you and Tim Belden last week, Puget's counsel (Steve \nMarshall) assured me that Puget does not want price caps, and feels that the \nonly thing worse than a price cap is a price cap in one market, but not in \nthe adjacent market.  The intent of Puget's complaint was to point out to \nFERC the fallacy of adopting a price cap in California.  That's their story, \nanyway.  \n\nSteve Marshall assured me that Puget's traders were unaware of its lawyers' \nintent to file a complaint seeking price caps.  I personally have no reason \nto disbelieve Marshall, who I know through my practice before BPA, and would \ndoubt that he would risk his partnership at Perkins Coie and position as \ngeneral counsel for Puget on a risky, tenuous scheme like this.\n\nNevertheless, assuming that Puget does not withdraw its complaint, Enron \nshould note in its protest to Puget's complaint that ,if Puget's price cap is \nimplemented, Puget would  benefit under contracts signed a few days before it \nfiled its complaint.\n\nAccording to Chris Foster, the traders are not interested in unwinding these \ndeals unless the NW price caps are actually implemented.\n\nSteve \n\n \n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2265,
+      "end": 2267,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2267,
+      "end": 2379,
+      "text": "---------------------- Forwarded by Christian Yoder/HOU/ECT on 11/06/2000 \n07:52 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2379,
+      "end": 2545,
+      "text": "From: Mark E Haedicke on 11/03/2000 05:26 PM CST\nTo: Christian Yoder/HOU/ECT@ECT\ncc: Richard B Sanders/HOU/ECT@ECT \nSubject: Re: Puget Sound requests NW price caps  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2722,
+      "end": 2728,
+      "text": "\nMark\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2732,
+      "end": 2949,
+      "text": "Christian Yoder\n\t10/27/2000 12:15 PM\n\t\t \n\t\t To: Elizabeth Sager/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Richard B \nSanders/HOU/ECT@ECT, Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Puget Sound requests NW price caps\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2545,
+      "end": 2731,
+      "text": "\nI think this is a detrimental reliance case or fraud.  I want to be \naggressive on this.  Richard, please let me know what theory is best.  Do we \nhave counsel for Washington?\n\nMark\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2949,
+      "end": 3849,
+      "text": "\nIn the days immediately before the application for a price cap, Puget came to \nus and asked us to enter into several put options.  We did so. I am advised \nby the traders that if this price cap were to actually be in effect,  our put \noption transactions would not make sense for us economically and we would \nnever have entered into them had we known of their intention to make this \nfiling.   I am under some pressure  to explain two things:  (i) whether the \nfact that they knew they were going to file for the cap when they did the \noptions is some kind of fraud, and (ii) whether the WSPP Agreement or our \nISDA swap agreements have any clauses in them to address this kind of \nthing,ie. is this some kind of \"illegality\" issue?  I am working on the \nsecond issue and have discussed it with Mark Taylor, but on the first issue, \nI need advice from Richard and anyone else who can help.----cgy \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3849,
+      "end": 3961,
+      "text": "---------------------- Forwarded by Christian Yoder/HOU/ECT on 10/27/2000 \n09:59 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3961,
+      "end": 4212,
+      "text": "\n\nMary Hain\n10/27/2000 09:50 AM\nTo: James D Steffes/NA/Enron@Enron, Marcie Milner, Joe Hartsoe@Enron, Sarah \nNovosel/Corp/Enron@ENRON, Richard Sanders, Christian Yoder/HOU/ECT@ECT, \nPortland West Desk\ncc:  \nSubject: Puget Sound requests NW price caps\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 4212,
+      "end": 4712,
+      "text": "\nPuget Sound has filed a complaint against all jurisdictional sellers of \nwholesale energy and/or capacity in the Pacific Northwest, including parties \nto WSPP agreement.  Puget Sound requests FERC to impose price cap on \nwholesale sales of energy and capacity in the Pacific Northwest equal to the \nlowest price cap \"established, ordered, or permitted by the Commission for \nwholesale purchases by the Cal ISO or Cal PX . . . .\"  Puget requests an \neffective date of December 25,2000.  \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22402420.1075859674660.JavaMail.evans@thyme>",
+      "Date": "Tue, 7 Nov 2000 00:26:00 -0800 (PST)",
+      "From": "christian.yoder@enron.com",
+      "To": "mark.haedicke@enron.com, richard.sanders@enron.com, \n\telizabeth.sager@enron.com",
+      "Subject": "Re: Puget Sound requests NW price caps",
+      "Cc": "steve.hall@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "steve.hall@enron.com",
+      "X-From": "Christian Yoder",
+      "X-To": "Mark E Haedicke, Richard B Sanders, Elizabeth Sager",
+      "X-cc": "Steve C Hall",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Dec2000_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "Haedicke-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_notes_inbox_231.txt"
+}

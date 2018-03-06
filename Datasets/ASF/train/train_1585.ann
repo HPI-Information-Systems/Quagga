@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "I hope this is the right place to ask about custom search components.\n\nI'm writing a custom search component. My aim is iterate over the entire\nresult set and do some aggregate computation. In order to implement my\nalgorithm I require to iterate over the result set in the order declared in\nthe search query. \n\nI've taken statsComponent as a relevant example. It iterates over the\nresults using rb.getResults().docSet and searcher.getIndexReader().leaves()\nbut it seems that these methods does not respect the query sort order. \n\nI've tried creating a new TopCollector and requesting it to collect all the\ndata. It works but takes too long. \n\nIs there a way to iterate over the sorted result set in an efficient way?\nI'm working on solr 4.11, but upgrading to a newer version is acceptable if\nnecessary.\n\nThanks!\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Iterating-sorted-result-docs-in-a-custom-search-component-tp4324497.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 804,
+      "end": 813,
+      "text": "\nThanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1020,
+      "text": "I hope this is the right place to ask about custom search components.\n\nI'm writing a custom search component. My aim is iterate over the entire\nresult set and do some aggregate computation. In order to implement my\nalgorithm I require to iterate over the result set in the order declared in\nthe search query. \n\nI've taken statsComponent as a relevant example. It iterates over the\nresults using rb.getResults().docSet and searcher.getIndexReader().leaves()\nbut it seems that these methods does not respect the query sort order. \n\nI've tried creating a new TopCollector and requesting it to collect all the\ndata. It works but takes too long. \n\nIs there a way to iterate over the sorted result set in an efficient way?\nI'm working on solr 4.11, but upgrading to a newer version is acceptable if\nnecessary.\n\nThanks!\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Iterating-sorted-result-docs-in-a-custom-search-component-tp4324497.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1585"
+}

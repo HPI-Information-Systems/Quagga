@@ -1,0 +1,66 @@
+I typed the below then noticed that the field that has "I have a pen
+AND an apple" is called "body" and you're faceting and searching on a
+field called "suggest". The below is still relevant if there is still
+a problem though ;)
+
+Your problem isn't faceting, right? It's that you aren't matching any
+docs at all when you expect to. Once we solve that then we can move on
+to faceting ;)
+
+First, I'd add &debug=query and see what the parsed query looks like.
+Does it fit your expectations? See "parsedQuery_toString" in the debug
+output.
+
+Next, use the admin/analysis page to see how the input is analyzed at
+index and query time. The first thing to verify is that the "and" is
+not being removed since it's often considered a stopword. Do you get
+facets when searching for "apple" (no quotes)? If you do is "and"
+included as a facet? If not then you need to modify the stopwords
+associated with the field in your schema.
+
+You can use the admin/<select core>/schema browser to see the actual
+terms in the index that'll help you verify that the _tokens_ in the
+index include what you expect. Faceting works on indexed tokens BTW.
+
+This is different than returning the field, since when you specify
+fl=suggest you're getting back the _stored_ values, not the searchable
+indexed tokens. This fools everybody at first. Stored values are a
+verbatim copy of the input, no analysis at all. However, what you can
+search/facet/etc. on is the tokenized version, which are _not_
+returned via the "fl" field.
+
+Best,
+Erick
+
+P.S. My compliments for including enough data to offer a diagnosis the
+first time. It's refreshing not to have to go through 3 or 4 exchanges
+before having enough information to say anything even potentially
+useful.
+
+
+
+On Wed, Sep 6, 2017 at 6:13 AM, Shawn Heisey <apache@elyograg.org> wrote:
+> On 9/6/2017 3:48 AM, Noriyuki TAKEI wrote:
+>> I use facet query,but I found it dose not work when using 'AND'.
+>>
+>> I woud like to use facet query using 'AND' as not Operator but simple word.
+>
+> With the standard or edismax parser, AND in all uppercase is interpreted
+> as an operator.  There are two ways to deal with this.  One is to change
+> the word to lowercase, which might not do what you want depending on
+> your text analysis, the other is to escape part of it -- use A\ND
+> instead of AND.  I have verified that escaping one of the letters in the
+> word *does* work.
+>
+> If you're using the edismax query parser and the lowercase option, be
+> sure that the lowercaseOperators parameter is set to false.  The default
+> setting depends on luceneMatchVersion.  It's false when that's 7.0.0 or
+> later, true if it's lower.  Which means that until version 7.0 is
+> released, it will default to true.
+>
+> https://issues.apache.org/jira/browse/SOLR-4646
+>
+> Thanks,
+> Shawn
+>
+

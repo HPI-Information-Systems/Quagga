@@ -1,0 +1,60 @@
+Hi,
+
+
+We have a solr index running in 4.5.0 that we are trying to upgrade to 4.7.2 and split the
+shard.
+
+
+The uniqueKey is a TrieLongField, and it's values are always negative :
+
+
+In prod (2 shards, 1 replica for each shard)
+
+Max : -9223372035490849922
+Min : -9223372036854609508
+
+
+In lab (1 shard, 1 replica): Negatives between ( -21339 to -9223372036854687955 ) and couple
+of documents with positive values.
+
+
+To test out if it will work, I executed following steps in lab on new instances containing
+solr/zk cluster
+
+
+1. From the old cluster(C1), zip up the index while server is not running.  We are not going
+to the source to re-index into new cluster(C2) as we don't own the data(yes. that's being
+addressed).
+
+2. On the new cluster(C2), create a new collection.
+
+2. Stop tomcat server in new cluster(C2).
+
+3. Overwrite new cluster index(C2) with the original cluster's index(C1).
+
+4. Start the server and optimize(C2).
+
+5.  Num of docs match with the original cluster and everything seems to work. Total documents:
+4021887(C2 and C1).
+
+
+then
+
+
+1. Split the shard in new cluster(C2).  For 1.5 GB it takes around 6 minutes to complete.
+
+2. Two shards are created, with hash range(0-7fffffff and 80000000-ffffffff). Original range
+was 80000000-ffffffff.
+
+Num docs for hash range "0-7fffffff" is 4021886, and for " 80000000-ffffffff" is "3680519"
+
+
+Apparently, both shards contain lot of duplicate documents.  It's not properly sharded at
+all.  I tried this twice with the same output.  What might be the issue here?
+
+
+Any pointers really appreciated.
+
+
+Azazel
+

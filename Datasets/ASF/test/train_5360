@@ -1,0 +1,28 @@
+It all depends what you want to do :) - we've implemented some dynamic interpretation of Java
+code through dynamic class loading, not as powerful and requires some work on your end, but
+you can build a Java-based interpreter. 
+
+jg
+
+
+> On Sep 20, 2017, at 08:06, kant kodali <kanth909@gmail.com> wrote:
+> 
+> Got it! Thats what I thought. Java 9 is going to release tomorrow http://www.java9countdown.xyz/
+> 
+> Which has the repl called Jshell. 
+> 
+> 
+> 
+>> On Wed, Sep 20, 2017 at 5:45 AM, Weichen Xu <weichen.xu@databricks.com> wrote:
+>> I haven't hear that. It seems that java do not have an official REPL.
+>> 
+>>> On Wed, Sep 20, 2017 at 8:38 PM, kant kodali <kanth909@gmail.com> wrote:
+>>> Hi All,
+>>> 
+>>> I am wondering if there is a SparkILoop for java so I can pass Java code as a
+string to repl?
+>>> 
+>>> Thanks!
+>> 
+> 
+

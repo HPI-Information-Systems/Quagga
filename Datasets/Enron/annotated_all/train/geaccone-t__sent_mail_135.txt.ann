@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n---------------------- Forwarded by Tracy Geaccone/GPGFIN/Enron on 02/02/2001 11:34 AM ---------------------------\n\n\nJon Trevelise@EOTT\n01/31/2001 09:24 AM\nTo:\tSabine Pelan/Houston/Eott@Eott, James Saunders/FGT/Enron@Enron, Tracy Geaccone/GPGFIN/Enron@Enron, Nancy Carpenter/FGT/Enron@Enron\ncc:\t \n\nSubject:\t\n\n\n----- Forwarded by Jon Trevelise/Houston/Eott on 01/31/01 09:43 AM -----\n\n\tRobin Border 01/30/01 05:36 PM \t   To: Jon Trevelise/Houston/Eott@Eott, Joe Richards/Houston/Eott@Eott, Lance Nash/Houston/Eott@Eott, Jack Luder/Houston/Eott@Eott  cc:   Subject: \t\n\n\nQuotable Quotes from famous people\n\n\"I read somewhere that 77 percent of all the mentally ill live in poverty.\nActually, I'm more intrigued by the 23 percent who are apparently doing\nquite\nwell for themselves.\"\n-- Jerry Garcia (Grateful Dead)\n\n\"Clinton lied. A man might forget where he parks or where he lives, but he\nnever forgets oral sex, no matter how bad it is.\"\n-- Barbara Bush (Former US First Lady)\n\n\"Honesty is the key to a relationship. If you can fake that, you're in.\"\n   -- Courtney Cox (Monica on \"Friends\")\n\n\"Hockey is a sport for white men. Basketball is a sport for black men. Golf\nis a sport for white men dressed like black pimps.\"\n-- Tiger Woods\n\n(On going to war over religion)\n\"You're basically killing each other to see who's got the better imaginary\nfriend.\"\n--Yasir Arrafat (PLO leader)\n\n(On the difference between men and women:)\n\"On the one hand, we'll never experience childbirth. On the other hand, we\ncan open all our own jars.\"\n--Bruce Willis\n\n\"The Web brings people together because no matter what kind of a twisted\nsexual mutant you happen to be, you've got millions of pals out there.\nType\nin 'Find people that have sex with goats that are on fire' and the computer\nwill ask, 'Specify type of goat.'\"\n-- Jason Alexander (George Castanza on Seinfeld)\n\n\"Luge strategy? Lie flat and try not to die.\"\n-- Carmen Boyle (Olympic Luge Gold Medal winner - 1996)\n\n\"There are only two reasons to sit in the back row of an airplane: Either\nyou have diarrhea, or you're anxious to meet people who do.\"\n-- Henry Kissinger (former US Secretary of State)\n\n\"My girlfriend always laughs during sex - no matter what she's reading.\"\n-- Steve Jobs (Founder: Apple Computers)\n\n\"My cousin just died. He was only 19. He got stung by a bee - the natural\nenemy of a tightrope walker.\"\n-- Dan Rather (News anchorman)\n\n\"I saw a large woman wearing a sweatshirt with 'Guess' on it.   I said,\n'Thyroid problem?\"\n-- Arnold Schwarzenegger\n\n\n",
+  "denotations": [
+    {
+      "id": 2,
+      "start": 116,
+      "end": 309,
+      "text": "\n\nJon Trevelise@EOTT\n01/31/2001 09:24 AM\nTo:\tSabine Pelan/Houston/Eott@Eott, James Saunders/FGT/Enron@Enron, Tracy Geaccone/GPGFIN/Enron@Enron, Nancy Carpenter/FGT/Enron@Enron\ncc:\t \n\nSubject:\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 311,
+      "end": 384,
+      "text": "----- Forwarded by Jon Trevelise/Houston/Eott on 01/31/01 09:43 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 309,
+      "end": 311,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 1,
+      "text": "\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1,
+      "end": 116,
+      "text": "---------------------- Forwarded by Tracy Geaccone/GPGFIN/Enron on 02/02/2001 11:34 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 384,
+      "end": 567,
+      "text": "\n\tRobin Border 01/30/01 05:36 PM \t   To: Jon Trevelise/Houston/Eott@Eott, Joe Richards/Houston/Eott@Eott, Lance Nash/Houston/Eott@Eott, Jack Luder/Houston/Eott@Eott  cc:   Subject: \t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 567,
+      "end": 2513,
+      "text": "\n\nQuotable Quotes from famous people\n\n\"I read somewhere that 77 percent of all the mentally ill live in poverty.\nActually, I'm more intrigued by the 23 percent who are apparently doing\nquite\nwell for themselves.\"\n-- Jerry Garcia (Grateful Dead)\n\n\"Clinton lied. A man might forget where he parks or where he lives, but he\nnever forgets oral sex, no matter how bad it is.\"\n-- Barbara Bush (Former US First Lady)\n\n\"Honesty is the key to a relationship. If you can fake that, you're in.\"\n   -- Courtney Cox (Monica on \"Friends\")\n\n\"Hockey is a sport for white men. Basketball is a sport for black men. Golf\nis a sport for white men dressed like black pimps.\"\n-- Tiger Woods\n\n(On going to war over religion)\n\"You're basically killing each other to see who's got the better imaginary\nfriend.\"\n--Yasir Arrafat (PLO leader)\n\n(On the difference between men and women:)\n\"On the one hand, we'll never experience childbirth. On the other hand, we\ncan open all our own jars.\"\n--Bruce Willis\n\n\"The Web brings people together because no matter what kind of a twisted\nsexual mutant you happen to be, you've got millions of pals out there.\nType\nin 'Find people that have sex with goats that are on fire' and the computer\nwill ask, 'Specify type of goat.'\"\n-- Jason Alexander (George Castanza on Seinfeld)\n\n\"Luge strategy? Lie flat and try not to die.\"\n-- Carmen Boyle (Olympic Luge Gold Medal winner - 1996)\n\n\"There are only two reasons to sit in the back row of an airplane: Either\nyou have diarrhea, or you're anxious to meet people who do.\"\n-- Henry Kissinger (former US Secretary of State)\n\n\"My girlfriend always laughs during sex - no matter what she's reading.\"\n-- Steve Jobs (Founder: Apple Computers)\n\n\"My cousin just died. He was only 19. He got stung by a bee - the natural\nenemy of a tightrope walker.\"\n-- Dan Rather (News anchorman)\n\n\"I saw a large woman wearing a sweatshirt with 'Guess' on it.   I said,\n'Thyroid problem?\"\n-- Arnold Schwarzenegger\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25224630.1075859055617.JavaMail.evans@thyme>",
+      "Date": "Fri, 2 Feb 2001 15:31:00 -0800 (PST)",
+      "From": "tracy.geaccone@enron.com",
+      "To": "hurst@intur.net",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tracy Geaccone",
+      "X-To": "hurst <hurst@intur.net>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\TGEACCO (Non-Privileged)\\Geaccone, Tracy\\'Sent Mail",
+      "X-Origin": "Geaccone-T",
+      "X-FileName": "TGEACCO (Non-Privileged).pst"
+    }
+  },
+  "id": "train/geaccone-t__sent_mail_135.txt"
+}

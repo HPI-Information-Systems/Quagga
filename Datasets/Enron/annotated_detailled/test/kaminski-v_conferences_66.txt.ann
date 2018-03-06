@@ -1,0 +1,255 @@
+{
+  "wrapper": "plaintext",
+  "text": "Andreas,\n\nAm I entitled to bringing one delegate as a guest, free of charge?\nSome conferences offer such privileges.\n\nVince\n\n\n\n\n\n\"Andreas Simou\" <andreas.simou@garp.com> on 12/04/2000 06:31:37 AM\nTo: <Undisclosed-Recipient:@mailman.enron.com;>\ncc:  \nSubject: GARP 2001 Convention\n\n\n\nDear GARP 2001 Speaker\n?\nThis is just a quick note to keep you up-to-date  with developments at the \nGARP 2001 Convention, which will be  held in New York between 12th and 15th \nFebruary, 2001.\n?\nThus far, GARP 2001 looks set to far exceed our  expectations and GARP 2000. \nThere has been a great deal of interest in the 2001  Convention. Delegate \nbookings have been much higher than this time last year. As  a result, we are \nset to far exceed the number of delegates that attention  earlier this year. \nThe three workshops and the one-day Asset Management Forum  are also very \nwell received and will probably reach full capacity. I will of  course \nprovide you with much fuller details closer to the time of the  event.\n?\nRegarding the event itself, I would like a few  outstanding issues:\n?\n1. Presentations: can you please  e-mail your presentation to me by 15th \nDecember, so that I have  enough time to reproduce them and place them in a \ndelegate pack for the  Convention. (Given the break of the Christmas and New \nYork period, and that the  event is being held in New York, I am sure you can \nappreciate that there are  certain logistical factors that need to be taken \ninto account, hence the reason  why the presentations are required as soon as \npossible). This is purely for  reproduction, we also request you bring your \npresentation to the Convention  on the day in either a floppy disc or a \nlaptop.\n?\n2. Audio-Visual Requirements: can  you please inform me of what audio-visual \nrequirements you may have (35mm  slides; OHP; LCD projection - notably \nPowerPoint). \n?\n3. Check list: I have attached a  check list for your information. If you \nhave not returned this already, can you  please read and fax it to my \ncolleague, Claire as soon as possible.\n?\nIf you have any questions or queries, please do not  hesitate to contact me, \notherwise I eagerly await your response in due  course.\n?\nI look forward to seeing you in New York in  February.\n?\nKind regards\n?\nAndreas\n\n_____________________________\nAndreas  Simou\nGARP 2001 - Conference Producer\nTel? +44 (0) 20 7626  9301\nFax +44 (0) 20 7626 9900\n?\nDon't miss the GARP 2001 Convention, \nprogram  details via our web site\nwww.garp.com  \n - speaker checklist.doc\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Andreas",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 118,
+      "end": 123,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 129,
+      "text": "Andreas,\n\nAm I entitled to bringing one delegate as a guest, free of charge?\nSome conferences offer such privileges.\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 130,
+      "end": 143,
+      "text": "Andreas Simou",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 146,
+      "end": 168,
+      "text": "andreas.simou@garp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 173,
+      "end": 183,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 184,
+      "end": 195,
+      "text": "06:31:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 201,
+      "end": 241,
+      "text": "Undisclosed-Recipient:@mailman.enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 259,
+      "end": 279,
+      "text": "GARP 2001 Convention",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 129,
+      "end": 280,
+      "text": "\"Andreas Simou\" <andreas.simou@garp.com> on 12/04/2000 06:31:37 AM\nTo: <Undisclosed-Recipient:@mailman.enron.com;>\ncc:  \nSubject: GARP 2001 Convention\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 288,
+      "end": 305,
+      "text": "GARP 2001 Speaker",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 283,
+      "end": 306,
+      "text": "Dear GARP 2001 Speaker\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2264,
+      "end": 2271,
+      "text": "Andreas",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2249,
+      "end": 2272,
+      "text": "Kind regards\n?\nAndreas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2303,
+      "end": 2317,
+      "text": "Andreas  Simou",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2318,
+      "end": 2349,
+      "text": "GARP 2001 - Conference Producer",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2355,
+      "end": 2376,
+      "text": "+44 (0) 20 7626  9301",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2381,
+      "end": 2401,
+      "text": "+44 (0) 20 7626 9900",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2494,
+      "end": 2515,
+      "text": "speaker checklist.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2491,
+      "end": 2516,
+      "text": " - speaker checklist.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2273,
+      "end": 2491,
+      "text": "_____________________________\nAndreas  Simou\nGARP 2001 - Conference Producer\nTel? +44 (0) 20 7626  9301\nFax +44 (0) 20 7626 9900\n?\nDon't miss the GARP 2001 Convention, \nprogram  details via our web site\nwww.garp.com  \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 280,
+      "end": 2517,
+      "text": "\n\n\nDear GARP 2001 Speaker\n?\nThis is just a quick note to keep you up-to-date  with developments at the \nGARP 2001 Convention, which will be  held in New York between 12th and 15th \nFebruary, 2001.\n?\nThus far, GARP 2001 looks set to far exceed our  expectations and GARP 2000. \nThere has been a great deal of interest in the 2001  Convention. Delegate \nbookings have been much higher than this time last year. As  a result, we are \nset to far exceed the number of delegates that attention  earlier this year. \nThe three workshops and the one-day Asset Management Forum  are also very \nwell received and will probably reach full capacity. I will of  course \nprovide you with much fuller details closer to the time of the  event.\n?\nRegarding the event itself, I would like a few  outstanding issues:\n?\n1. Presentations: can you please  e-mail your presentation to me by 15th \nDecember, so that I have  enough time to reproduce them and place them in a \ndelegate pack for the  Convention. (Given the break of the Christmas and New \nYork period, and that the  event is being held in New York, I am sure you can \nappreciate that there are  certain logistical factors that need to be taken \ninto account, hence the reason  why the presentations are required as soon as \npossible). This is purely for  reproduction, we also request you bring your \npresentation to the Convention  on the day in either a floppy disc or a \nlaptop.\n?\n2. Audio-Visual Requirements: can  you please inform me of what audio-visual \nrequirements you may have (35mm  slides; OHP; LCD projection - notably \nPowerPoint). \n?\n3. Check list: I have attached a  check list for your information. If you \nhave not returned this already, can you  please read and fax it to my \ncolleague, Claire as soon as possible.\n?\nIf you have any questions or queries, please do not  hesitate to contact me, \notherwise I eagerly await your response in due  course.\n?\nI look forward to seeing you in New York in  February.\n?\nKind regards\n?\nAndreas\n\n_____________________________\nAndreas  Simou\nGARP 2001 - Conference Producer\nTel? +44 (0) 20 7626  9301\nFax +44 (0) 20 7626 9900\n?\nDon't miss the GARP 2001 Convention, \nprogram  details via our web site\nwww.garp.com  \n - speaker checklist.doc\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 16,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 17,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 18,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 13,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12431888.1075856599411.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Dec 2000 06:50:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "andreas.simou@garp.com",
+      "Subject": "Re: GARP 2001 Convention",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"Andreas Simou\" <andreas.simou@garp.com> @ ENRON",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Conferences",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_conferences_66.txt"
+}

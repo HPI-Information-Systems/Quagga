@@ -1,0 +1,22 @@
+On 19.05.2017 16:33, Ravi Kumar Taminidi wrote:
+> Hello,  Scenario: Currently we have 2 Solr Servers running in 2 different servers (linux),
+Is there any way can we make the Core to be located in NAS or Network shared Drive so both
+the solrs using the same Index.
+> 
+> Let me know if any performance issues, our size of Index is appx 1GB.
+> 
+> Thanks
+> 
+> Ravi
+> 
+
+The operating system can cache a local filesystem for a infinitely long
+time, because no one else is allowed to change the data. With network
+filesystems, the operating system can not be sure, that the data have
+not been altered by another one. So usually caches on network
+filesystems are frequently invalidated.
+
+I think you loose the caching from the OS - memory speed vs. network
+filesystem speed! Not sure if mmap helps here ....
+
+

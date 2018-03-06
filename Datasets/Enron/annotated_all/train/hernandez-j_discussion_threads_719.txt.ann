@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/hernandez-j_discussion_threads_719.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<11762606.1075855579902.JavaMail.evans@thyme>",
+      "Date": "Fri, 21 Jul 2000 12:00:00 -0700 (PDT)",
+      "From": "juan.hernandez@enron.com",
+      "To": "chad.starnes@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Juan Hernandez",
+      "X-To": "Chad Starnes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Juan_Hernandez_Jun2001\\Notes Folders\\Discussion threads",
+      "X-Origin": "Hernandez-J",
+      "X-FileName": "jhernan3.nsf"
+    }
+  },
+  "text": "http://www.ashford.com/Newwatch/Products/Jewelry/Images/The_Ashford_Collection\n/bP2461.jpg\n\n\n\n                  The Ashford Collection \n                  Brand: The Ashford Collection\n                  Series: Brooches/Pendants\n                  Model: P2461\n                  Type: Pearl\n                  Description: Cultured pearl diamond\n                  cross mounted in 14k with .05 carats\n                  in diamonds. \n                  Warranty: Ashford.com's 30 day\n                  total satisfaction guarantee.\n                  Retail: $462.00\n                  Price: $462.00\n\n                    Add to Bag\n\n                    Add to Private Reserve\n\n                    Wishlist\n                  Contact Us\n\n                   Diamonds@ashford.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 769,
+      "text": "http://www.ashford.com/Newwatch/Products/Jewelry/Images/The_Ashford_Collection\n/bP2461.jpg\n\n\n\n                  The Ashford Collection \n                  Brand: The Ashford Collection\n                  Series: Brooches/Pendants\n                  Model: P2461\n                  Type: Pearl\n                  Description: Cultured pearl diamond\n                  cross mounted in 14k with .05 carats\n                  in diamonds. \n                  Warranty: Ashford.com's 30 day\n                  total satisfaction guarantee.\n                  Retail: $462.00\n                  Price: $462.00\n\n                    Add to Bag\n\n                    Add to Private Reserve\n\n                    Wishlist\n                  Contact Us\n\n                   Diamonds@ashford.com",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

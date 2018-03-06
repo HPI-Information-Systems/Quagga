@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_2891",
+  "meta": {},
+  "text": "After lots of expermiments, I have figured out that it was a potential bug in\ncloudera with Hive on Spark.\nHive on Spark does not populate consistent output on aggregate functions.\n\nHopefully, it will be fixed in next relaese.\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Hive-on-Spark-is-not-populating-correct-records-tp28128p28650.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 585,
+      "text": "After lots of expermiments, I have figured out that it was a potential bug in\ncloudera with Hive on Spark.\nHive on Spark does not populate consistent output on aggregate functions.\n\nHopefully, it will be fixed in next relaese.\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Hive-on-Spark-is-not-populating-correct-records-tp28128p28650.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

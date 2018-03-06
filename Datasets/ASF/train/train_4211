@@ -1,0 +1,303 @@
+Maybe irrelevant, but soft commits don't truncate transaction logs,
+only hard commits do (openSearcher true|false doesn't matter).
+
+Full background here:
+https://lucidworks.com/2013/08/23/understanding-transaction-logs-softcommit-and-commit-in-sorlcloud/
+
+Not entirely sure how that interacts with CDCR mind you..
+
+Best,
+Erick
+
+2017-06-20 9:48 GMT-07:00 Webster Homer <webster.homer@sial.com>:
+> :Looking at our cdcr source collection, it too doesn't look like a commit
+> occurred, so I sent one manually.
+> From this I believe that autoCommit isn't working in Solr 6.2
+>
+> Our ETL doesn't send commits, we rely upon autoCommit, and for CDCR you
+> have to have autoCommit. We also have autoSoftCommit set. That seems to
+> work as the data is searchable.
+>
+> Does the commit write a message to the log? How can you tell when a commit
+> occurs? As stated above I believe that autoCommit is broken
+>
+> 2017-06-20 9:22 GMT-05:00 Webster Homer <webster.homer@sial.com>:
+>
+>> We have a solr cloud collection that gets a full update every morning, via
+>> cdcr replication. We see that the target tlogs do not seem to get truncated
+>> or deleted as described here
+>> https://lucidworks.com/2013/08/23/understanding-
+>> transaction-logs-softcommit-and-commit-in-sorlcloud/
+>>
+>> I checked we have the cdcr buffer disabled.
+>>
+>> The autoCommit is set to 10 minutes
+>> <autoCommit> <maxTime>${solr.autoCommit.maxTime:600000}</maxTime>
+<
+>> openSearcher>false</openSearcher> </autoCommit>
+>>
+>> According to the documentation this shouldn't be happening. How can you
+>> tell if commits are really firing? The cores always show current = false
+>> which seems to indicate that commits are not happening
+>>
+>> There is a daily reload of the data that takes about 2 hours, after which
+>> I would expect the auto commits would be cleaning up the tlogs this doesn't
+>> seem to be happening
+>>
+>> We are running Solr 6.2
+>>
+>> rw-r--r-- 1 apache apache 294M Jun 12 11:40 tlog.0000000000000000082.15699
+>> 98266936852480
+>> -rw-r--r-- 1 apache apache 347M Jun 12 11:50 tlog.0000000000000000083.15699
+>> 98387510509568
+>> -rw-r--r-- 1 apache apache 341M Jun 12 12:00 tlog.0000000000000000084.15699
+>> 98511822340097
+>> -rw-r--r-- 1 apache apache 336M Jun 12 12:10 tlog.0000000000000000085.15699
+>> 98630444597248
+>> -rw-r--r-- 1 apache apache 337M Jun 12 12:20 tlog.0000000000000000086.15699
+>> 98747965849602
+>> -rw-r--r-- 1 apache apache 336M Jun 12 12:30 tlog.0000000000000000087.15699
+>> 98869097349120
+>> -rw-r--r-- 1 apache apache 338M Jun 12 12:40 tlog.0000000000000000088.15699
+>> 98991821635584
+>> -rw-r--r-- 1 apache apache 336M Jun 12 12:50 tlog.0000000000000000089.15699
+>> 99120862543873
+>> -rw-r--r-- 1 apache apache 337M Jun 12 13:00 tlog.0000000000000000090.15699
+>> 99251864289280
+>> -rw-r--r-- 1 apache apache 341M Jun 12 13:10 tlog.0000000000000000091.15699
+>> 99388984475649
+>> -rw-r--r-- 1 apache apache 335M Jun 12 13:20 tlog.0000000000000000092.15699
+>> 99523820863490
+>> -rw-r--r-- 1 apache apache 338M Jun 12 13:30 tlog.0000000000000000093.15699
+>> 99646608064513
+>> -rw-r--r-- 1 apache apache 339M Jun 12 13:40 tlog.0000000000000000094.15699
+>> 99769813647360
+>> -rw-r--r-- 1 apache apache 321M Jun 12 13:50 tlog.0000000000000000095.15699
+>> 99894280667137
+>> -rw-r--r-- 1 apache apache 338M Jun 12 14:00 tlog.0000000000000000096.15700
+>> 00010283581441
+>> -rw-r--r-- 1 apache apache 337M Jun 12 14:10 tlog.0000000000000000097.15700
+>> 00129089339392
+>> -rw-r--r-- 1 apache apache 339M Jun 12 14:20 tlog.0000000000000000098.15700
+>> 00248878661633
+>> -rw-r--r-- 1 apache apache 339M Jun 12 14:30 tlog.0000000000000000099.15700
+>> 00369279303680
+>> -rw-r--r-- 1 apache apache 354M Jun 12 14:40 tlog.0000000000000000100.15700
+>> 00508478816256
+>> -rw-r--r-- 1 apache apache 336M Jun 12 14:50 tlog.0000000000000000101.15700
+>> 00624750166017
+>> -rw-r--r-- 1 apache apache 339M Jun 12 15:00 tlog.0000000000000000102.15700
+>> 00748410830848
+>> -rw-r--r-- 1 apache apache 355M Jun 12 15:10 tlog.0000000000000000103.15700
+>> 00871066959875
+>> -rw-r--r-- 1 apache apache 335M Jun 12 15:20 tlog.0000000000000000104.15700
+>> 00998950240256
+>> -rw-r--r-- 1 apache apache 336M Jun 12 15:30 tlog.0000000000000000105.15700
+>> 01121887387650
+>> -rw-r--r-- 1 apache apache 342M Jun 12 15:40 tlog.0000000000000000106.15700
+>> 01256208924672
+>> -rw-r--r-- 1 apache apache 335M Jun 12 15:50 tlog.0000000000000000107.15700
+>> 01389587791873
+>> -rw-r--r-- 1 apache apache 264M Jun 12 16:00 tlog.0000000000000000108.15700
+>> 01520912498688
+>> -rw-r--r-- 1 apache apache 330M Jun 13 11:41 tlog.0000000000000000109.15700
+>> 88922160037888
+>> -rw-r--r-- 1 apache apache 312M Jun 13 11:51 tlog.0000000000000000110.15700
+>> 89052763324416
+>> -rw-r--r-- 1 apache apache 335M Jun 13 12:01 tlog.0000000000000000111.15700
+>> 89163823251456
+>> -rw-r--r-- 1 apache apache 337M Jun 13 12:11 tlog.0000000000000000112.15700
+>> 89279604916232
+>> -rw-r--r-- 1 apache apache 337M Jun 13 12:21 tlog.0000000000000000113.15700
+>> 89396394262528
+>> -rw-r--r-- 1 apache apache 332M Jun 13 12:31 tlog.0000000000000000114.15700
+>> 89522649104386
+>> -rw-r--r-- 1 apache apache 336M Jun 13 12:41 tlog.0000000000000000115.15700
+>> 89646671527937
+>> -rw-r--r-- 1 apache apache 339M Jun 13 12:51 tlog.0000000000000000116.15700
+>> 89784991285251
+>> -rw-r--r-- 1 apache apache 335M Jun 13 13:01 tlog.0000000000000000117.15700
+>> 89912654364672
+>> -rw-r--r-- 1 apache apache 338M Jun 13 13:11 tlog.0000000000000000118.15700
+>> 90038066151424
+>> -rw-r--r-- 1 apache apache 333M Jun 13 13:21 tlog.0000000000000000119.15700
+>> 90169766248449
+>> -rw-r--r-- 1 apache apache 336M Jun 13 13:31 tlog.0000000000000000120.15700
+>> 90295142383616
+>> -rw-r--r-- 1 apache apache 329M Jun 13 13:41 tlog.0000000000000000121.15700
+>> 90421449654272
+>> -rw-r--r-- 1 apache apache 307M Jun 13 13:51 tlog.0000000000000000122.15700
+>> 90542827569154
+>> -rw-r--r-- 1 apache apache 339M Jun 13 14:01 tlog.0000000000000000123.15700
+>> 90650884374530
+>> -rw-r--r-- 1 apache apache 342M Jun 13 14:11 tlog.0000000000000000124.15700
+>> 90782145118209
+>> -rw-r--r-- 1 apache apache 342M Jun 13 14:21 tlog.0000000000000000125.15700
+>> 90919577780224
+>> -rw-r--r-- 1 apache apache 341M Jun 13 14:31 tlog.0000000000000000126.15700
+>> 91056993665025
+>> -rw-r--r-- 1 apache apache 354M Jun 13 14:41 tlog.0000000000000000127.15700
+>> 91185511333891
+>> -rw-r--r-- 1 apache apache 341M Jun 13 14:51 tlog.0000000000000000128.15700
+>> 91307219550211
+>> -rw-r--r-- 1 apache apache 335M Jun 13 15:01 tlog.0000000000000000129.15700
+>> 91430609682433
+>> -rw-r--r-- 1 apache apache 354M Jun 13 15:11 tlog.0000000000000000130.15700
+>> 91553711456256
+>> -rw-r--r-- 1 apache apache 340M Jun 13 15:21 tlog.0000000000000000131.15700
+>> 91679935889410
+>> -rw-r--r-- 1 apache apache 337M Jun 13 15:31 tlog.0000000000000000132.15700
+>> 91806594433024
+>> -rw-r--r-- 1 apache apache 335M Jun 13 15:41 tlog.0000000000000000133.15700
+>> 91928757731328
+>> -rw-r--r-- 1 apache apache 334M Jun 13 15:51 tlog.0000000000000000134.15700
+>> 92057357189123
+>> -rw-r--r-- 1 apache apache 343M Jun 13 16:01 tlog.0000000000000000135.15700
+>> 92201294168065
+>> -rw-r--r-- 1 apache apache 156M Jun 13 16:11 tlog.0000000000000000136.15700
+>> 92359713030145
+>> -rw-r--r-- 1 apache apache 332M Jun 14 11:43 tlog.0000000000000000137.15701
+>> 79678509989888
+>> -rw-r--r-- 1 apache apache 312M Jun 14 11:53 tlog.0000000000000000138.15701
+>> 79804288778244
+>> -rw-r--r-- 1 apache apache 334M Jun 14 12:03 tlog.0000000000000000139.15701
+>> 79914307469314
+>> -rw-r--r-- 1 apache apache 330M Jun 14 12:13 tlog.0000000000000000140.15701
+>> 80027872444417
+>> -rw-r--r-- 1 apache apache 334M Jun 14 12:23 tlog.0000000000000000141.15701
+>> 80143976022017
+>> -rw-r--r-- 1 apache apache 333M Jun 14 12:33 tlog.0000000000000000142.15701
+>> 80259345596416
+>> -rw-r--r-- 1 apache apache 340M Jun 14 12:43 tlog.0000000000000000143.15701
+>> 80380134211585
+>> -rw-r--r-- 1 apache apache 343M Jun 14 12:53 tlog.0000000000000000144.15701
+>> 80512045072385
+>> -rw-r--r-- 1 apache apache 338M Jun 14 13:03 tlog.0000000000000000145.15701
+>> 80636449177601
+>> -rw-r--r-- 1 apache apache 364M Jun 14 13:13 tlog.0000000000000000146.15701
+>> 80765257302016
+>> -rw-r--r-- 1 apache apache 339M Jun 14 13:23 tlog.0000000000000000147.15701
+>> 80894815158273
+>> -rw-r--r-- 1 apache apache 343M Jun 14 13:33 tlog.0000000000000000148.15701
+>> 81023165054978
+>> -rw-r--r-- 1 apache apache 350M Jun 15 14:43 tlog.0000000000000000187.15702
+>> 72543776964609
+>> -rw-r--r-- 1 apache apache 339M Jun 15 14:53 tlog.0000000000000000188.15702
+>> 72675052388353
+>> -rw-r--r-- 1 apache apache 347M Jun 15 15:03 tlog.0000000000000000189.15702
+>> 72803043672065
+>> -rw-r--r-- 1 apache apache 348M Jun 15 15:13 tlog.0000000000000000190.15702
+>> 72922861305857
+>> -rw-r--r-- 1 apache apache 341M Jun 15 15:23 tlog.0000000000000000191.15702
+>> 73044701642753
+>> -rw-r--r-- 1 apache apache 339M Jun 15 15:33 tlog.0000000000000000192.15702
+>> 73167724773376
+>> -rw-r--r-- 1 apache apache 342M Jun 15 15:43 tlog.0000000000000000193.15702
+>> 73287885291521
+>> -rw-r--r-- 1 apache apache 339M Jun 15 15:53 tlog.0000000000000000194.15702
+>> 73416424980480
+>> -rw-r--r-- 1 apache apache 342M Jun 15 16:03 tlog.0000000000000000195.15702
+>> 73565833428992
+>> -rw-r--r-- 1 apache apache 345M Jun 15 16:13 tlog.0000000000000000196.15702
+>> 73715471515649
+>> -rw-r--r-- 1 apache apache 340M Jun 15 16:23 tlog.0000000000000000197.15702
+>> 73842866159616
+>> -rw-r--r-- 1 apache apache 340M Jun 15 16:33 tlog.0000000000000000198.15702
+>> 73971062964225
+>> -rw-r--r-- 1 apache apache 340M Jun 15 16:43 tlog.0000000000000000199.15702
+>> 74102467362816
+>> -rw-r--r-- 1 apache apache 340M Jun 15 16:53 tlog.0000000000000000200.15702
+>> 74251744739328
+>> -rw-r--r-- 1 apache apache 339M Jun 15 17:03 tlog.0000000000000000201.15702
+>> 74384063496193
+>> -rw-r--r-- 1 apache apache 339M Jun 15 17:13 tlog.0000000000000000202.15702
+>> 74518247669765
+>> -rw-r--r-- 1 apache apache 340M Jun 15 17:23 tlog.0000000000000000203.15702
+>> 74652498952192
+>> -rw-r--r-- 1 apache apache 336M Jun 15 17:33 tlog.0000000000000000204.15702
+>> 74781412982785
+>> -rw-r--r-- 1 apache apache 300M Jun 15 17:43 tlog.0000000000000000205.15702
+>> 74907584987136
+>> -rw-r--r-- 1 apache apache 163M Jun 16 11:43 tlog.0000000000000000206.15703
+>> 60855149674496
+>> -rw-r--r-- 1 apache apache 294M Jun 19 11:42 tlog.0000000000000000207.15706
+>> 32564662599680
+>> -rw-r--r-- 1 apache apache 350M Jun 19 11:52 tlog.0000000000000000208.15706
+>> 32675203481600
+>> -rw-r--r-- 1 apache apache 341M Jun 19 12:02 tlog.0000000000000000209.15706
+>> 32782571372544
+>> -rw-r--r-- 1 apache apache 336M Jun 19 12:12 tlog.0000000000000000210.15706
+>> 32886154952706
+>> -rw-r--r-- 1 apache apache 339M Jun 19 12:22 tlog.0000000000000000211.15706
+>> 32992137674754
+>> -rw-r--r-- 1 apache apache 336M Jun 19 12:32 tlog.0000000000000000212.15706
+>> 33103262613505
+>> -rw-r--r-- 1 apache apache 341M Jun 19 12:42 tlog.0000000000000000213.15706
+>> 33212055519233
+>> -rw-r--r-- 1 apache apache 341M Jun 19 12:52 tlog.0000000000000000214.15706
+>> 33334366666752
+>> -rw-r--r-- 1 apache apache 344M Jun 19 13:02 tlog.0000000000000000215.15706
+>> 33444512235520
+>> -rw-r--r-- 1 apache apache 364M Jun 19 13:12 tlog.0000000000000000216.15706
+>> 33559541022722
+>> -rw-r--r-- 1 apache apache 334M Jun 19 13:22 tlog.0000000000000000217.15706
+>> 33678830174208
+>> -rw-r--r-- 1 apache apache 341M Jun 19 13:32 tlog.0000000000000000218.15706
+>> 33796799168513
+>> -rw-r--r-- 1 apache apache 339M Jun 19 13:42 tlog.0000000000000000219.15706
+>> 33915684618240
+>> -rw-r--r-- 1 apache apache 320M Jun 19 13:52 tlog.0000000000000000220.15706
+>> 34032865083393
+>> -rw-r--r-- 1 apache apache 351M Jun 19 14:02 tlog.0000000000000000221.15706
+>> 34135575199745
+>> -rw-r--r-- 1 apache apache 338M Jun 19 14:12 tlog.0000000000000000222.15706
+>> 34250321920001
+>> -rw-r--r-- 1 apache apache 344M Jun 19 14:22 tlog.0000000000000000223.15706
+>> 34365979852803
+>> -rw-r--r-- 1 apache apache 343M Jun 19 14:32 tlog.0000000000000000224.15706
+>> 34471661633536
+>> -rw-r--r-- 1 apache apache 351M Jun 19 14:42 tlog.0000000000000000225.15706
+>> 34597027282945
+>> -rw-r--r-- 1 apache apache 340M Jun 19 14:52 tlog.0000000000000000226.15706
+>> 34711229792256
+>> -rw-r--r-- 1 apache apache 349M Jun 19 15:02 tlog.0000000000000000227.15706
+>> 34815023087616
+>> -rw-r--r-- 1 apache apache 348M Jun 19 15:12 tlog.0000000000000000228.15706
+>> 34922535682050
+>> -rw-r--r-- 1 apache apache 330M Jun 19 15:22 tlog.0000000000000000229.15706
+>> 35022745993218
+>> -rw-r--r-- 1 apache apache 332M Jun 19 15:32 tlog.0000000000000000230.15706
+>> 35137936261120
+>> -rw-r--r-- 1 apache apache 344M Jun 19 15:42 tlog.0000000000000000231.15706
+>> 35246269890560
+>> -rw-r--r-- 1 apache apache 338M Jun 19 15:52 tlog.0000000000000000232.15706
+>> 35354965278720
+>> -rw-r--r-- 1 apache apache 341M Jun 19 16:02 tlog.0000000000000000233.15706
+>> 35478030352385
+>> -rw-r--r-- 1 apache apache 346M Jun 19 16:12 tlog.0000000000000000234.15706
+>> 35608948211713
+>> -rw-r--r-- 1 apache apache 278M Jun 19 16:22 tlog.0000000000000000235.15706
+>> 35723383504897
+>>
+>>
+>
+> --
+>
+>
+> This message and any attachment are confidential and may be privileged or
+> otherwise protected from disclosure. If you are not the intended recipient,
+> you must not copy this message or attachment or disclose the contents to
+> any other person. If you have received this transmission in error, please
+> notify the sender immediately and delete the message and any attachment
+> from your system. Merck KGaA, Darmstadt, Germany and any of its
+> subsidiaries do not accept liability for any omissions or errors in this
+> message which may arise as a result of E-Mail-transmission or for damages
+> resulting from any unauthorized changes of the content of this message and
+> any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its
+> subsidiaries do not guarantee that this message is free of viruses and does
+> not accept liability for any damages caused by any virus transmitted
+> therewith.
+>
+> Click http://www.emdgroup.com/disclaimer to access the German, French,
+> Spanish and Portuguese versions of this disclaimer.
+

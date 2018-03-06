@@ -1,0 +1,44 @@
+Just wondering if anyone has seen this before and might understand why this is happening
+
+When we deploy a new schema.xml adding some new search terms we get the dreaded “IndexWriter
+is closed” exception and the only solution we have found to date is a Solr restart :-(
+
+Environment:
+
+  *   Solr 5.3.1 in Solr Cloud (3 shards each with 3 replicas across 3 EC2 Vms)
+  *   300m+ documents (60+ GB index)
+  *   Relevant settings?
+     *   SOLR_OPTS="$SOLR_OPTS -Dsolr.autoSoftCommit.maxTime=1000”
+     *   SOLR_OPTS="$SOLR_OPTS -Dsolr.autoCommit.maxTime=300000"
+
+Is there anything “unsafe” about reload on a collection that is handling live traffic?
+Could be related to https://issues.apache.org/jira/browse/SOLR-9830
+And https://issues.apache.org/jira/browse/SOLR-9699 in particular?
+
+Cheers!
+
+-Frank
+[Description: Macintosh HD:Users:jerchow:Downloads:Asset_Package_01_160721:HERE_Logo_2016:sRGB:PDF:HERE_Logo_2016_POS_sRGB.pdf]
+
+
+
+Frank Kelly
+
+Principal Software Engineer
+
+Identity Profile Team (SCBE, Traces, CDA)
+
+
+HERE
+
+5 Wayside Rd, Burlington, MA 01803, USA
+
+42° 29' 7" N 71° 11' 32" W
+
+[Description: /Users/nussbaum/_WORK/PROJECTS/20160726_HERE_EMail_Signature/_Layout/_Images/20160726_HERE_EMail_Signature_360.gif]<http://360.here.com/>
+   [Description: /Users/nussbaum/_WORK/PROJECTS/20160726_HERE_EMail_Signature/_Layout/_Images/20160726_HERE_EMail_Signature_Twitter.gif]
+<https://www.twitter.com/here>    [Description: /Users/nussbaum/_WORK/PROJECTS/20160726_HERE_EMail_Signature/_Layout/_Images/20160726_HERE_EMail_Signature_FB.gif]
+<https://www.facebook.com/here>     [Description: /Users/nussbaum/_WORK/PROJECTS/20160726_HERE_EMail_Signature/_Layout/_Images/20160726_HERE_EMail_Signature_IN.gif]
+<https://www.linkedin.com/company/heremaps>     [Description: /Users/nussbaum/_WORK/PROJECTS/20160726_HERE_EMail_Signature/_Layout/_Images/20160726_HERE_EMail_Signature_Insta.gif]
+<https://www.instagram.com/here/>
+

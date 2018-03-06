@@ -1,0 +1,36 @@
+Thanks Erick,
+
+Yes, this seems to be what I want.
+Is there a good example of how to use it?
+
+Thanks
+SG
+
+
+On Thu, Aug 24, 2017 at 5:02 PM, Erick Erickson <erickerickson@gmail.com>
+wrote:
+
+> Solr has the EmbeddedSolrServer is that what you're looking for?
+>
+> Best,
+> Erick
+>
+> On Thu, Aug 24, 2017 at 11:15 AM, S G <sg.online.email@gmail.com> wrote:
+> > Hi,
+> >
+> > We are looking to run Solr in-memory for testing and examples.
+> >
+> > For example:
+> > 1) Cassandra has cassandra-unit:
+> > https://github.com/jsevellec/cassandra-unit/wiki/How-to-
+> use-it-in-your-code
+> >
+> > 2) Storm has local-mode:
+> > http://storm.apache.org/releases/current/Local-mode.html
+> >
+> > Is there something similar for Solr too?
+> >
+> > Thanks
+> > SG
+>
+

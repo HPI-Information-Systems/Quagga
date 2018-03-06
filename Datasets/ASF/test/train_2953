@@ -1,0 +1,25 @@
+
+> On May 8, 2017, at 11:07 AM, Dirceu Semighini Filho <dirceu.semighini@gmail.com>
+wrote:
+> 
+> Hello,
+> I've a very complex case class structure, with a lot of fields.
+> When I try to union two datasets of this class, it doesn't work with the following error
+:
+> ds.union(ds1)
+> Exception in thread "main" org.apache.spark.sql.AnalysisException: Union can only be
+performed on tables with the compatible column types
+> 
+> But when use it's rdd, the union goes right:
+> ds.rdd.union(ds1.rdd)
+> res8: org.apache.spark.rdd.RDD[
+> 
+> Is there any reason for this to happen (besides a bug ;) )
+> 
+> 
+
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

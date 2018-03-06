@@ -1,0 +1,235 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dan,\nCan we get a report which details by group:  The PV of the book with the \ncurrent system vs the PV of the book using the correct discounting \nmethodology?\nWe can provide to Scott and Jeff for them to start reviewing and discussing \nwith commercial the potential impact.\n\nThanks. Sheila\n\n\n\n\nDaniel Falcone@ENRON\n01/31/2001 12:34 PM\nTo: Sally Beck/HOU/ECT@ECT, Scott Earnest/HOU/ECT@ECT, Gary \nHickerson/HOU/ECT@ECT, Georgeanne Hodges/HOU/ECT@ECT, Sheila \nGlover/HOU/ECT@ECT, Kori Loibl/HOU/ECT@ECT, Clara Carrington/HOU/ECT@ECT, \nFrank Prejean/HOU/ECT@ECT, Michelle Bruce/HOU/ECT@ECT, Faith \nKillen/HOU/ECT@ECT\ncc: Chris Abel/HOU/ECT@ECT, Kenneth Thibodeaux/NA/Enron@ENRON, Anita \nLuong/HOU/ECT@ECT \nSubject: 1/29/2001 ERMS Discounting Reserve Memo\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Dan,",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 284,
+      "end": 290,
+      "text": "Sheila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 276,
+      "end": 290,
+      "text": "Thanks. Sheila",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 295,
+      "text": "Dan,\nCan we get a report which details by group:  The PV of the book with the \ncurrent system vs the PV of the book using the correct discounting \nmethodology?\nWe can provide to Scott and Jeff for them to start reviewing and discussing \nwith commercial the potential impact.\n\nThanks. Sheila\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 295,
+      "end": 309,
+      "text": "Daniel Falcone",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 316,
+      "end": 326,
+      "text": "01/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 327,
+      "end": 335,
+      "text": "12:34 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 340,
+      "end": 350,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 364,
+      "end": 377,
+      "text": "Scott Earnest",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 391,
+      "end": 406,
+      "text": "Gary \nHickerson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 420,
+      "end": 437,
+      "text": "Georgeanne Hodges",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 451,
+      "end": 465,
+      "text": "Sheila \nGlover",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 479,
+      "end": 489,
+      "text": "Kori Loibl",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 503,
+      "end": 519,
+      "text": "Clara Carrington",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 534,
+      "end": 547,
+      "text": "Frank Prejean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 561,
+      "end": 575,
+      "text": "Michelle Bruce",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 589,
+      "end": 602,
+      "text": "Faith \nKillen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 619,
+      "end": 629,
+      "text": "Chris Abel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 643,
+      "end": 661,
+      "text": "Kenneth Thibodeaux",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 678,
+      "end": 690,
+      "text": "Anita \nLuong",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 713,
+      "end": 752,
+      "text": "1/29/2001 ERMS Discounting Reserve Memo",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 316,
+      "end": 335,
+      "text": "01/31/2001 12:34 PM",
+      "type": "Header/Sent",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 295,
+      "end": 753,
+      "text": "Daniel Falcone@ENRON\n01/31/2001 12:34 PM\nTo: Sally Beck/HOU/ECT@ECT, Scott Earnest/HOU/ECT@ECT, Gary \nHickerson/HOU/ECT@ECT, Georgeanne Hodges/HOU/ECT@ECT, Sheila \nGlover/HOU/ECT@ECT, Kori Loibl/HOU/ECT@ECT, Clara Carrington/HOU/ECT@ECT, \nFrank Prejean/HOU/ECT@ECT, Michelle Bruce/HOU/ECT@ECT, Faith \nKillen/HOU/ECT@ECT\ncc: Chris Abel/HOU/ECT@ECT, Kenneth Thibodeaux/NA/Enron@ENRON, Anita \nLuong/HOU/ECT@ECT \nSubject: 1/29/2001 ERMS Discounting Reserve Memo\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 753,
+      "end": 756,
+      "text": "\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21398468.1075849819569.JavaMail.evans@thyme>",
+      "Date": "Wed, 31 Jan 2001 04:47:00 -0800 (PST)",
+      "From": "sheila.glover@enron.com",
+      "To": "daniel.falcone@enron.com",
+      "Subject": "Re: 1/29/2001 ERMS Discounting Reserve Memo",
+      "Cc": "scott.earnest@enron.com, kevin.sweeney@enron.com, debbie.brackett@enron.com, \n\tjeffrey.gossett@enron.com, brent.price@enron.com, \n\tsally.beck@enron.com, zhiyong.wei@enron.com, jeremy.wong@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "scott.earnest@enron.com, kevin.sweeney@enron.com, debbie.brackett@enron.com, \n\tjeffrey.gossett@enron.com, brent.price@enron.com, \n\tsally.beck@enron.com, zhiyong.wei@enron.com, jeremy.wong@enron.com",
+      "X-From": "Sheila Glover",
+      "X-To": "Daniel Falcone",
+      "X-cc": "Scott Earnest, Kevin Sweeney, Debbie R Brackett, Jeffrey C Gossett, Brent A Price, Sally Beck, Zhiyong Wei, Jeremy Wong",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Nov2001\\Notes Folders\\All documents",
+      "X-Origin": "BECK-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  }
+}

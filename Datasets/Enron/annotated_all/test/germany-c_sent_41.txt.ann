@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "That means you didn't send me the attachment. OR if you did, I don't see it.\n\n\n\n\n\nDarla Saucier@ENRON\n12/11/2000 02:19 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Re: 11/2000 New Power Company  \n\nWhat does that mean?\n\n\n\nChris Germany@ECT\n12/11/2000 02:15 PM\nTo: Darla Saucier/NA/Enron@ENRON\ncc:  \n\nSubject: Re: 11/2000 New Power Company  \n\nOPPS\n\n\n\n\n\nDarla Saucier@ENRON\n12/11/2000 02:06 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: 11/2000 New Power Company\n\nHi Chris,\n\nAttached is the invoiced amount in Unify for 11/2000 production.  Please \nreview and let me know if everything looks okay.\n\nThanks\nDarla\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 82,
+      "text": "That means you didn't send me the attachment. OR if you did, I don't see it.\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 82,
+      "end": 199,
+      "text": "Darla Saucier@ENRON\n12/11/2000 02:19 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: Re: 11/2000 New Power Company  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 199,
+      "end": 224,
+      "text": "\nWhat does that mean?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 224,
+      "end": 343,
+      "text": "Chris Germany@ECT\n12/11/2000 02:15 PM\nTo: Darla Saucier/NA/Enron@ENRON\ncc:  \n\nSubject: Re: 11/2000 New Power Company  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 343,
+      "end": 354,
+      "text": "\nOPPS\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 354,
+      "end": 465,
+      "text": "Darla Saucier@ENRON\n12/11/2000 02:06 PM\nTo: Chris Germany/HOU/ECT@ECT\ncc:  \nSubject: 11/2000 New Power Company\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 465,
+      "end": 476,
+      "text": "\nHi Chris,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 600,
+      "end": 614,
+      "text": "\nThanks\nDarla\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 465,
+      "end": 621,
+      "text": "\nHi Chris,\n\nAttached is the invoiced amount in Unify for 11/2000 production.  Please \nreview and let me know if everything looks okay.\n\nThanks\nDarla\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3522079.1075853783790.JavaMail.evans@thyme>",
+      "Date": "Mon, 11 Dec 2000 06:40:00 -0800 (PST)",
+      "From": "chris.germany@enron.com",
+      "To": "darla.saucier@enron.com",
+      "Subject": "Re: 11/2000 New Power Company",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Chris Germany",
+      "X-To": "Darla Saucier",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_sent_41.txt"
+}

@@ -1,0 +1,25 @@
+No. will take a look now.
+
+On Tue, Aug 8, 2017 at 1:47 PM, Riccardo Ferrari <ferrarir@gmail.com> wrote:
+
+> Hi,
+>
+> Have you tried to check the "Streaming" tab menu?
+>
+> Best,
+>
+> On Tue, Aug 8, 2017 at 4:15 PM, KhajaAsmath Mohammed <
+> mdkhajaasmath@gmail.com> wrote:
+>
+>> Hi,
+>>
+>> I am running spark streaming job which receives data from azure iot hub.
+>> I am not sure if the connection was successful and receving any data. does
+>> the input column show how much data it has read if the connection was
+>> successful?
+>>
+>> [image: Inline image 1]
+>>
+>
+>
+

@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "ah, thanks for the link.\n\n--\nJohn Blythe\n\nOn Wed, Oct 4, 2017 at 9:23 AM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> Check. The problem is they don't encode the exact length. I _think_\n> this patch shows you'd be OK with shorter lengths, but check:\n> https://issues.apache.org/jira/browse/LUCENE-7730.\n>\n> Note it's not the patch that counts here, just look at the table of\n> lengths.\n>\n> Best,\n> Erick\n>\n> On Wed, Oct 4, 2017 at 4:25 AM, John Blythe <johnblythe@gmail.com> wrote:\n> > interesting idea.\n> >\n> > the field in question is one that can have a good deal of stray zeros\n> based\n> > on distributor skus for a product and bad entries from those entering\n> them.\n> > part of the matching logic for some operations look for these\n> discrepancies\n> > by having a simple regex that removes zeroes. so 400010 can match with\n> > 40010 (and rightly so). issues come in the form of rare cases where 41\n> is a\n> > sku by the same distributor or manufacturer and thus can end up being an\n> > erroneous match. having a means of looking at the length would help to\n> know\n> > that going from 6 characters to 2 is too far a leap to be counted as a\n> > match.\n> >\n> > --\n> > John Blythe\n> >\n> > On Wed, Oct 4, 2017 at 6:22 AM, alessandro.benedetti <\n> a.benedetti@sease.io>\n> > wrote:\n> >\n> >> Are the norms a good approximation for you ?\n> >> If you preserve norms at indexing time ( it is a configuration that you\n> can\n> >> operate in the schema.xml) you can retrieve them with this specific\n> >> function\n> >> query :\n> >>\n> >> *norm(field)*\n> >> Returns the \"norm\" stored in the index for the specified field. This is\n> the\n> >> product of the index time boost and the length normalization factor,\n> >> according to the Similarity for the field.\n> >> norm(fieldName)\n> >>\n> >> This will not be the exact length of the field, but it can be a good\n> >> approximation though.\n> >>\n> >> Cheers\n> >>\n> >>\n> >>\n> >> -----\n> >> ---------------\n> >> Alessandro Benedetti\n> >> Search Consultant, R&D Software Engineer, Director\n> >> Sease Ltd. - www.sease.io\n> >> --\n> >> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n> >>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 26,
+      "end": 41,
+      "text": "--\nJohn Blythe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 42,
+      "text": "ah, thanks for the link.\n\n--\nJohn Blythe\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 42,
+      "end": 122,
+      "text": "On Wed, Oct 4, 2017 at 9:23 AM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 393,
+      "end": 411,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 122,
+      "end": 413,
+      "text": "\n> Check. The problem is they don't encode the exact length. I _think_\n> this patch shows you'd be OK with shorter lengths, but check:\n> https://issues.apache.org/jira/browse/LUCENE-7730.\n>\n> Note it's not the patch that counts here, just look at the table of\n> lengths.\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 413,
+      "end": 489,
+      "text": "> On Wed, Oct 4, 2017 at 4:25 AM, John Blythe <johnblythe@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1167,
+      "end": 1190,
+      "text": "> > --\n> > John Blythe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 489,
+      "end": 1194,
+      "text": "> > interesting idea.\n> >\n> > the field in question is one that can have a good deal of stray zeros\n> based\n> > on distributor skus for a product and bad entries from those entering\n> them.\n> > part of the matching logic for some operations look for these\n> discrepancies\n> > by having a simple regex that removes zeroes. so 400010 can match with\n> > 40010 (and rightly so). issues come in the form of rare cases where 41\n> is a\n> > sku by the same distributor or manufacturer and thus can end up being an\n> > erroneous match. having a means of looking at the length would help to\n> know\n> > that going from 6 characters to 2 is too far a leap to be counted as a\n> > match.\n> >\n> > --\n> > John Blythe\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1194,
+      "end": 1288,
+      "text": "> > On Wed, Oct 4, 2017 at 6:22 AM, alessandro.benedetti <\n> a.benedetti@sease.io>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1288,
+      "end": 2148,
+      "text": "> >\n> >> Are the norms a good approximation for you ?\n> >> If you preserve norms at indexing time ( it is a configuration that you\n> can\n> >> operate in the schema.xml) you can retrieve them with this specific\n> >> function\n> >> query :\n> >>\n> >> *norm(field)*\n> >> Returns the \"norm\" stored in the index for the specified field. This is\n> the\n> >> product of the index time boost and the length normalization factor,\n> >> according to the Similarity for the field.\n> >> norm(fieldName)\n> >>\n> >> This will not be the exact length of the field, but it can be a good\n> >> approximation though.\n> >>\n> >> Cheers\n> >>\n> >>\n> >>\n> >> -----\n> >> ---------------\n> >> Alessandro Benedetti\n> >> Search Consultant, R&D Software Engineer, Director\n> >> Sease Ltd. - www.sease.io\n> >> --\n> >> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n> >>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1924,
+      "end": 2058,
+      "text": "> >> ---------------\n> >> Alessandro Benedetti\n> >> Search Consultant, R&D Software Engineer, Director\n> >> Sease Ltd. - www.sease.io\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1881,
+      "end": 1898,
+      "text": "> >>\n> >> Cheers\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6488"
+}

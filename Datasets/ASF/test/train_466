@@ -1,0 +1,24 @@
+Rishabh,
+
+Have you come across any ANSI SQL queries that Spark SQL didn't support?
+I'd be interested to hear if you have.
+
+Andrew
+
+On Tue, Jan 17, 2017 at 8:14 PM, Deepak Sharma <deepakmca05@gmail.com>
+wrote:
+
+> From spark documentation page:
+> Spark SQL can now run all 99 TPC-DS queries.
+>
+> On Jan 18, 2017 9:39 AM, "Rishabh Bhardwaj" <rbnext29@gmail.com> wrote:
+>
+>> Hi All,
+>>
+>> Does Spark 2.0 Sql support full ANSI SQL query standards?
+>>
+>> Thanks,
+>> Rishabh.
+>>
+>
+

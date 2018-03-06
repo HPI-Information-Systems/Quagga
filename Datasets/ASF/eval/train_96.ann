@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Matt,\n\nI think your approach should be fine.\nAlthough the second keyBy is logically a shuffle, the data will not be sent\nof the wire to a different machine if the parallelism of the first and\nsecond window operator are identical.\nIt only cost one serialization / deserialization step.\n\nI would be careful about putting the result of the first window into\noperator state. I think it is not well defined how function objects are\nreused. This might be an internal implementation detail which might change\nin the future.\nAljoscha (in CC) should know more about how the window function objects are\nused.\n\nBest, Fabian\n\n2017-01-05 10:06 GMT+01:00 Matt <dromitlabs@gmail.com>:\n\n> I'm still looking for an answer to this question. Hope you can give me\n> some insight!\n>\n> On Thu, Dec 22, 2016 at 6:17 PM, Matt <dromitlabs@gmail.com> wrote:\n>\n>> Just to be clear, the stream is of String elements. The first part of the\n>> pipeline (up to the first .apply) receives those strings, and returns\n>> objects of another class (\"A\" let's say).\n>>\n>> On Thu, Dec 22, 2016 at 6:04 PM, Matt <dromitlabs@gmail.com> wrote:\n>>\n>>> Hello,\n>>>\n>>> I have a window processing 10 objects at a time, and creating 1 as a\n>>> result. The problem is in order to create that object I need the object\n>>> from the previous window.\n>>>\n>>> I'm doing this:\n>>>\n>>> stream\n>>>   .keyBy(...some key...)\n>>>   .countWindow(10, 1)\n>>>   .apply(...creates an element A...)\n>>>   .keyBy(...same key as above...)\n>>>   .countWindow(2, 1)\n>>>   .apply(...updates A with the value of the previous element A...)\n>>>   .addSink(...)\n>>>\n>>> Probably there is a way to retrieve the last collected object inside the\n>>> first .apply(), or to cache it somehow.\n>>>\n>>> Is there a better way to achieve the same? How inefficient is this?\n>>>\n>>> Regards,\n>>> Matt\n>>>\n>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Matt,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 602,
+      "end": 616,
+      "text": "\nBest, Fabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 617,
+      "text": "Hi Matt,\n\nI think your approach should be fine.\nAlthough the second keyBy is logically a shuffle, the data will not be sent\nof the wire to a different machine if the parallelism of the first and\nsecond window operator are identical.\nIt only cost one serialization / deserialization step.\n\nI would be careful about putting the result of the first window into\noperator state. I think it is not well defined how function objects are\nreused. This might be an internal implementation detail which might change\nin the future.\nAljoscha (in CC) should know more about how the window function objects are\nused.\n\nBest, Fabian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 617,
+      "end": 673,
+      "text": "2017-01-05 10:06 GMT+01:00 Matt <dromitlabs@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 673,
+      "end": 765,
+      "text": "\n> I'm still looking for an answer to this question. Hope you can give me\n> some insight!\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 765,
+      "end": 835,
+      "text": "> On Thu, Dec 22, 2016 at 6:17 PM, Matt <dromitlabs@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 835,
+      "end": 1035,
+      "text": ">\n>> Just to be clear, the stream is of String elements. The first part of the\n>> pipeline (up to the first .apply) receives those strings, and returns\n>> objects of another class (\"A\" let's say).\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1035,
+      "end": 1106,
+      "text": ">> On Thu, Dec 22, 2016 at 6:04 PM, Matt <dromitlabs@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1106,
+      "end": 1120,
+      "text": ">>\n>>> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1793,
+      "end": 1819,
+      "text": ">>>\n>>> Regards,\n>>> Matt\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1106,
+      "end": 1832,
+      "text": ">>\n>>> Hello,\n>>>\n>>> I have a window processing 10 objects at a time, and creating 1 as a\n>>> result. The problem is in order to create that object I need the object\n>>> from the previous window.\n>>>\n>>> I'm doing this:\n>>>\n>>> stream\n>>>   .keyBy(...some key...)\n>>>   .countWindow(10, 1)\n>>>   .apply(...creates an element A...)\n>>>   .keyBy(...same key as above...)\n>>>   .countWindow(2, 1)\n>>>   .apply(...updates A with the value of the previous element A...)\n>>>   .addSink(...)\n>>>\n>>> Probably there is a way to retrieve the last collected object inside the\n>>> first .apply(), or to cache it somehow.\n>>>\n>>> Is there a better way to achieve the same? How inefficient is this?\n>>>\n>>> Regards,\n>>> Matt\n>>>\n>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_96"
+}

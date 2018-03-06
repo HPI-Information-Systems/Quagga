@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Howdy all!\n\nWe currently have an opening in the Real Time Trading Group reporting to Bill Williams III. \n\nIf you have any questions about this position, please see Bill at the Real Time Desk. A list of responsibilities and candidate requirements can be found below.\n\nIf you would like to be considered for this position, please contact Julie Kearney (x7404) or Grace Rodriguez (x8321) by close of business on Friday, October 19th, 2001.\n\nRegards,\nGrace\nx8321\n\n===============================================\nOpen position - REAL TIME TRADING\n\nDescription of Group\nReal Time Trading is responsible for the physical and financial integrity of prescheduled energy transactions.  Specifically, this includes managing curtailed schedules and preserving Enron's financial rights with non-performing trading counter parties.  The group is required to maintain records and update databases that explain such supply/market interruptions in order to minimize customer billing dispute issues.  \n\nIn addition, Real Time Trading is responsible for the hourly trading of energy in the California ISO and bilateral markets.  Traders are expected to initiate profitable trades while maintaining an acceptable amount of risk exposure to the company.  The group is expected to know all settlements requirements and charges related to each type of trade.  Each trader is capable of interfacing with customers and responding to internal and external billing inquiries.  \n\nReal Time is required to administer terms of Service Desk contracts, which may include the selling of excess generation and purchasing energy for customer's load requirements.  Also, each trader is responsible for gathering and reporting information on unit outages, transmission line durations and other information that is useful for all West Desk trading activity.\n\nDescription of Function\nConfirm purchases and sales of power for Enron Power Marketing.\nProtect EPMI from financial risk and fulfill physical power obligations.\nTrade energy in hourly markets, including California ISO.\nGather essential market information for cash traders.\nAid in the preparation of price and deal reports and assist in the resolution of volume/price discrepancies.\n\nRequirements\nBachelors in Finance, Business, Accounting or related field. \n1 to 2 years of previous power industry experience in western region is preferred. \nExcellent problem solving and communication skills. \nAbility to make quick decisions under pressure.\nStrong PC skills. \nWork rotating shift including holidays and weekends. \nSelf-motivated. \nDetail oriented.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Howdy all!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 438,
+      "end": 453,
+      "text": "Regards,\nGrace\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2570,
+      "text": "Howdy all!\n\nWe currently have an opening in the Real Time Trading Group reporting to Bill Williams III. \n\nIf you have any questions about this position, please see Bill at the Real Time Desk. A list of responsibilities and candidate requirements can be found below.\n\nIf you would like to be considered for this position, please contact Julie Kearney (x7404) or Grace Rodriguez (x8321) by close of business on Friday, October 19th, 2001.\n\nRegards,\nGrace\nx8321\n\n===============================================\nOpen position - REAL TIME TRADING\n\nDescription of Group\nReal Time Trading is responsible for the physical and financial integrity of prescheduled energy transactions.  Specifically, this includes managing curtailed schedules and preserving Enron's financial rights with non-performing trading counter parties.  The group is required to maintain records and update databases that explain such supply/market interruptions in order to minimize customer billing dispute issues.  \n\nIn addition, Real Time Trading is responsible for the hourly trading of energy in the California ISO and bilateral markets.  Traders are expected to initiate profitable trades while maintaining an acceptable amount of risk exposure to the company.  The group is expected to know all settlements requirements and charges related to each type of trade.  Each trader is capable of interfacing with customers and responding to internal and external billing inquiries.  \n\nReal Time is required to administer terms of Service Desk contracts, which may include the selling of excess generation and purchasing energy for customer's load requirements.  Also, each trader is responsible for gathering and reporting information on unit outages, transmission line durations and other information that is useful for all West Desk trading activity.\n\nDescription of Function\nConfirm purchases and sales of power for Enron Power Marketing.\nProtect EPMI from financial risk and fulfill physical power obligations.\nTrade energy in hourly markets, including California ISO.\nGather essential market information for cash traders.\nAid in the preparation of price and deal reports and assist in the resolution of volume/price discrepancies.\n\nRequirements\nBachelors in Finance, Business, Accounting or related field. \n1 to 2 years of previous power industry experience in western region is preferred. \nExcellent problem solving and communication skills. \nAbility to make quick decisions under pressure.\nStrong PC skills. \nWork rotating shift including holidays and weekends. \nSelf-motivated. \nDetail oriented.",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 447,
+      "end": 459,
+      "text": "Grace\nx8321\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29325851.1075852143399.JavaMail.evans@thyme>",
+      "Date": "Thu, 18 Oct 2001 15:16:19 -0700 (PDT)",
+      "From": "grace.rodriguez@enron.com",
+      "To": "center.dl-portland@enron.com",
+      "Subject": "Position Opening: Real Time Trading Opportunity",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Rodriguez, Grace </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GRODRIQ>",
+      "X-To": "DL-Portland World Trade Center </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DL-PortlandWorldTradeCenter>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\CDEAN2 (Non-Privileged)\\Dean, Craig\\Inbox",
+      "X-Origin": "DEAN-C",
+      "X-FileName": "CDEAN2 (Non-Privileged).pst"
+    }
+  },
+  "id": "train/dean-c_inbox_271.txt"
+}

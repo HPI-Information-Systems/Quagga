@@ -1,0 +1,57 @@
+Well, the usual Solr solution to leading and trailing wildcards is to
+ngram the field. You can get the entire field (incuding spaces) to be
+analyzed as a whole by using KeywordTokenizer. Sometimes you wind up
+using a copyField to support this and search against one or the other
+if necessary.
+
+You can do this with KeywordTokenizer and '*a bcd ef*", but that'll be
+slow for the exact same reason the SQL query is slow: It has to
+examine every value in every document to find terms that match then
+search on those.
+
+There's some index size cost here so you'll have to test.
+
+Really go back to your use-case to see if this is _really_ necessary
+though. Often people think it is because that's the only way they've
+been able to search at all in SQL and it can turn out that there are
+other ways to solve it. IOW, this could be an XY problem.
+
+Best,
+Erick
+
+On Mon, Jan 30, 2017 at 1:52 AM, Maciej Ł. PCSS <labedzki@man.poznan.pl> wrote:
+> Hi All,
+>
+> What solution have you applied in your implementations?
+>
+> Regards
+> Maciej
+>
+>
+> W dniu 24.01.2017 o 14:10, Maciej Ł. PCSS pisze:
+>>
+>> Dear SOLR users,
+>>
+>> please point me to the right solution of my problem. I'm using SOLR to
+>> implement a Google-like search in my application and this scenario is
+>> working fine.
+>>
+>> However, in specific use-cases I need to filter documents that include a
+>> specific substring in a given field. It's about an SQL-like query similar to
+>> this:
+>>
+>> SELECT *  FROM table WHERE someField = '%c def g%'
+>>
+>> I expect to match documents having someField ='abc def ghi'. That means I
+>> expect match parts of words.
+>>
+>> As I understand SOLR, as a reversed-index, does work with tokens rather
+>> that character strings and thereby looks for whole words (not substrings).
+>>
+>> Is there any solution for such an issue?
+>>
+>> Regards
+>> Maciej Łabędzki
+>
+>
+

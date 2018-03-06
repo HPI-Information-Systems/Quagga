@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "No. will take a look now.\n\nOn Tue, Aug 8, 2017 at 1:47 PM, Riccardo Ferrari <ferrarir@gmail.com> wrote:\n\n> Hi,\n>\n> Have you tried to check the \"Streaming\" tab menu?\n>\n> Best,\n>\n> On Tue, Aug 8, 2017 at 4:15 PM, KhajaAsmath Mohammed <\n> mdkhajaasmath@gmail.com> wrote:\n>\n>> Hi,\n>>\n>> I am running spark streaming job which receives data from azure iot hub.\n>> I am not sure if the connection was successful and receving any data. does\n>> the input column show how much data it has read if the connection was\n>> successful?\n>>\n>> [image: Inline image 1]\n>>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 2,
+      "start": 268,
+      "end": 560,
+      "text": ">\n>> Hi,\n>>\n>> I am running spark streaming job which receives data from azure iot hub.\n>> I am not sure if the connection was successful and receving any data. does\n>> the input column show how much data it has read if the connection was\n>> successful?\n>>\n>> [image: Inline image 1]\n>>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 268,
+      "end": 277,
+      "text": ">\n>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 177,
+      "end": 268,
+      "text": "> On Tue, Aug 8, 2017 at 4:15 PM, KhajaAsmath Mohammed <\n> mdkhajaasmath@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 165,
+      "end": 175,
+      "text": ">\n> Best,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 104,
+      "end": 111,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 104,
+      "end": 177,
+      "text": "\n> Hi,\n>\n> Have you tried to check the \"Streaming\" tab menu?\n>\n> Best,\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 27,
+      "end": 104,
+      "text": "On Tue, Aug 8, 2017 at 1:47 PM, Riccardo Ferrari <ferrarir@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 27,
+      "text": "No. will take a look now.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4662"
+}

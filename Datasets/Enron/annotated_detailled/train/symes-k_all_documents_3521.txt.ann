@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/symes-k_all_documents_3521.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<22643817.1075841701846.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Apr 2001 08:27:00 -0700 (PDT)",
+      "From": "kerri.thompson@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "apb checkout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kerri Thompson",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\All documents",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "text": "587415\nnot apb\n\nmissing deals\n\nmark f\nbuy srp\n217.00\n25 mw\npv\non peak\n\nholden\nsell williams\n24-30\n102.00\n25 mw\npv\noff peak\n\nholden\nsell williams\n24-30\n100.00\n50 mw\npv\noff peak\n\ntom a\nbuy pacificorp\n200.00\n23rd\n25 mw\non peak\n\ntom a\nbuy aep\n283.00\n25 mw\nmay\npv\non peak",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 266,
+      "text": "587415\nnot apb\n\nmissing deals\n\nmark f\nbuy srp\n217.00\n25 mw\npv\non peak\n\nholden\nsell williams\n24-30\n102.00\n25 mw\npv\noff peak\n\nholden\nsell williams\n24-30\n100.00\n50 mw\npv\noff peak\n\ntom a\nbuy pacificorp\n200.00\n23rd\n25 mw\non peak\n\ntom a\nbuy aep\n283.00\n25 mw\nmay\npv\non peak",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

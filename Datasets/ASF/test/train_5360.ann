@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "It all depends what you want to do :) - we've implemented some dynamic interpretation of Java\ncode through dynamic class loading, not as powerful and requires some work on your end, but\nyou can build a Java-based interpreter. \n\njg\n\n\n> On Sep 20, 2017, at 08:06, kant kodali <kanth909@gmail.com> wrote:\n> \n> Got it! Thats what I thought. Java 9 is going to release tomorrow http://www.java9countdown.xyz/\n> \n> Which has the repl called Jshell. \n> \n> \n> \n>> On Wed, Sep 20, 2017 at 5:45 AM, Weichen Xu <weichen.xu@databricks.com> wrote:\n>> I haven't hear that. It seems that java do not have an official REPL.\n>> \n>>> On Wed, Sep 20, 2017 at 8:38 PM, kant kodali <kanth909@gmail.com> wrote:\n>>> Hi All,\n>>> \n>>> I am wondering if there is a SparkILoop for java so I can pass Java code as a\nstring to repl?\n>>> \n>>> Thanks!\n>> \n> \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 227,
+      "end": 231,
+      "text": "\njg\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 233,
+      "end": 302,
+      "text": "> On Sep 20, 2017, at 08:06, kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 233,
+      "text": "It all depends what you want to do :) - we've implemented some dynamic interpretation of Java\ncode through dynamic class loading, not as powerful and requires some work on your end, but\nyou can build a Java-based interpreter. \n\njg\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 302,
+      "end": 453,
+      "text": "> \n> Got it! Thats what I thought. Java 9 is going to release tomorrow http://www.java9countdown.xyz/\n> \n> Which has the repl called Jshell. \n> \n> \n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 453,
+      "end": 535,
+      "text": ">> On Wed, Sep 20, 2017 at 5:45 AM, Weichen Xu <weichen.xu@databricks.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 535,
+      "end": 612,
+      "text": ">> I haven't hear that. It seems that java do not have an official REPL.\n>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 612,
+      "end": 689,
+      "text": ">>> On Wed, Sep 20, 2017 at 8:38 PM, kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 689,
+      "end": 701,
+      "text": ">>> Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 804,
+      "end": 821,
+      "text": ">>> \n>>> Thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 689,
+      "end": 829,
+      "text": ">>> Hi All,\n>>> \n>>> I am wondering if there is a SparkILoop for java so I can pass Java code as a\nstring to repl?\n>>> \n>>> Thanks!\n>> \n> \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5360"
+}

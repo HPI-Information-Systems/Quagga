@@ -1,0 +1,505 @@
+{
+  "wrapper": "plaintext",
+  "text": "By agreeing to pay only for \"reasonable\" offers, DWR left itself a loophole \nbig enough to drive a truck through:\n\n\"DWR will assume financial responsibility for\nall purchases by the ISO in its ancillary services and imbalance energy\nmarkets based bids or other offers determined to be reasonable. Such\ndetermination of reasonableness will be made by DWR on a case by case basis\nand communicated to the ISO.\"  (Emphasis added.)\n\n\n\n\n\n\nSusan J Mara@ENRON\n04/16/2001 09:06 AM\nTo: Christian Yoder/HOU/ECT@ECT, gfergus@brobeck.com, \njalexander@gibbs-bruns.com, James D Steffes/NA/Enron@Enron, Ray \nAlvarez/NA/Enron@ENRON, Paul Kaufman/PDX/ECT@ECT, Jeff \nDasovich/NA/Enron@Enron, Alan Comnes/PDX/ECT@ECT, Richard \nShapiro/NA/Enron@Enron, Michael Tribolet/ENRON@enronXgate, Steve C \nHall/PDX/ECT@ECT, Jubran Whalan/HOU/EES@EES, Neil Bresnan/HOU/EES@EES, Tim \nBelden/HOU/ECT@ECT, Harry Kingerski/NA/Enron@Enron\ncc:  \n\nSubject: CAISO Notice: Market Notice re: Credit Issues\n\nFERC finally got resolved what CA could not. I believe this also takes care \nof our credit issue on the ISO's demand response programs.\n\nSue Mara\nEnron Corp.\nTel: (415) 782-7802\nFax:(415) 782-7854\n----- Forwarded by Susan J Mara/NA/Enron on 04/16/2001 08:47 AM -----\n\n\t\"Fuller, Don\" <DFuller@caiso.com>\n\tSent by: \"Happ, Susan\" <SHapp@caiso.com>\n\t04/13/2001 04:21 PM\n\t\t \n\t\t To: ISO Market Participants \n<IMCEAEX-_O=CAISO_OU=CORPORATE_CN=DISTRIBUTION+20LISTS_CN=ISO+20MARKET+20PARTI\nCIPANTS@caiso.com>\n\t\t cc: \n\t\t Subject: CAISO Notice: Market Notice re: Credit Issues\n\nMarket Notice re Credit Issues\n\nIn response to the FERC order of April 6, 2001 re the issue of\ncreditworthiness, the California Department of Water Resources (DWR) has\nauthorized the ISO to make the following statement. To the extent (and only\nto the extent) that a purchase is not otherwise paid by any party or payable\nby another party meeting the credit standards set forth in the ISO Tariff\n(another \"Qualified Party\"), DWR will assume financial responsibility for\nall purchases by the ISO in its ancillary services and imbalance energy\nmarkets based on bids or other offers determined to be reasonable. Such\ndetermination of reasonableness will be made by DWR on a case by case basis\nand communicated to the ISO.  All bids into the ancillary services and\nimbalance energy markets will be deemed to be contingent on the acceptance\nof financial responsibility by DWR, to the extent not paid or payable by\nanother Qualified Party.  Unless a supplier is otherwise notified, any bid\naccepted by the ISO will be deemed to have the financial support of another\nQualified Party or DWR as specified in this notice.  In addition to the\nforegoing, DWR will assume financial responsibility for all purchases\nresulting from the issuance by the ISO of emergency dispatch instructions,\nto the extent not paid or payable by another Qualified Party.  Payment for\nsuch purchases shall be made according to the rate specified in the ISO\nTariff for emergency dispatch instructions.  The ISO and/or DWR reserve the\nright to rescind or modify the foregoing arrangements at any time and for\nany reason, including a successful rehearing or appeal from the April 6\norder.\n\nAs the FERC determined in its February 14 order that DWR is a creditworthy\ncounterparty, the ISO believes that the foregoing arrangements meet the\nrequirements of FERC's April 6 Order. Accordingly, the ISO expects that\nsuppliers will honor their obligations under the ISO Tariff and related\nagreements to respond to ISO dispatch instructions.\n\nDon Fuller\nDirector, Client Relations\nCalifornia ISO\nPhone: 916-608-7055\nE-Mail: dfuller@caiso.com\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 433,
+      "text": "By agreeing to pay only for \"reasonable\" offers, DWR left itself a loophole \nbig enough to drive a truck through:\n\n\"DWR will assume financial responsibility for\nall purchases by the ISO in its ancillary services and imbalance energy\nmarkets based bids or other offers determined to be reasonable. Such\ndetermination of reasonableness will be made by DWR on a case by case basis\nand communicated to the ISO.\"  (Emphasis added.)\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 433,
+      "end": 445,
+      "text": "Susan J Mara",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 452,
+      "end": 462,
+      "text": "04/16/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 463,
+      "end": 471,
+      "text": "09:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 476,
+      "end": 491,
+      "text": "Christian Yoder",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 505,
+      "end": 524,
+      "text": "gfergus@brobeck.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 527,
+      "end": 553,
+      "text": "jalexander@gibbs-bruns.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 555,
+      "end": 570,
+      "text": "James D Steffes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 587,
+      "end": 599,
+      "text": "Ray \nAlvarez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 616,
+      "end": 628,
+      "text": "Paul Kaufman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 673,
+      "end": 684,
+      "text": "Alan Comnes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 698,
+      "end": 714,
+      "text": "Richard \nShapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 731,
+      "end": 747,
+      "text": "Michael Tribolet",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 766,
+      "end": 779,
+      "text": "Steve C \nHall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 793,
+      "end": 806,
+      "text": "Jubran Whalan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 820,
+      "end": 832,
+      "text": "Neil Bresnan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 846,
+      "end": 857,
+      "text": "Tim \nBelden",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 871,
+      "end": 886,
+      "text": "Harry Kingerski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 918,
+      "end": 963,
+      "text": "CAISO Notice: Market Notice re: Credit Issues",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 433,
+      "end": 964,
+      "text": "Susan J Mara@ENRON\n04/16/2001 09:06 AM\nTo: Christian Yoder/HOU/ECT@ECT, gfergus@brobeck.com, \njalexander@gibbs-bruns.com, James D Steffes/NA/Enron@Enron, Ray \nAlvarez/NA/Enron@ENRON, Paul Kaufman/PDX/ECT@ECT, Jeff \nDasovich/NA/Enron@Enron, Alan Comnes/PDX/ECT@ECT, Richard \nShapiro/NA/Enron@Enron, Michael Tribolet/ENRON@enronXgate, Steve C \nHall/PDX/ECT@ECT, Jubran Whalan/HOU/EES@EES, Neil Bresnan/HOU/EES@EES, Tim \nBelden/HOU/ECT@ECT, Harry Kingerski/NA/Enron@Enron\ncc:  \n\nSubject: CAISO Notice: Market Notice re: Credit Issues\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1102,
+      "end": 1110,
+      "text": "Sue Mara",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1111,
+      "end": 1122,
+      "text": "Enron Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1128,
+      "end": 1142,
+      "text": "(415) 782-7802",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1147,
+      "end": 1161,
+      "text": "(415) 782-7854",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1102,
+      "end": 1162,
+      "text": "Sue Mara\nEnron Corp.\nTel: (415) 782-7802\nFax:(415) 782-7854\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 964,
+      "end": 1162,
+      "text": "\nFERC finally got resolved what CA could not. I believe this also takes care \nof our credit issue on the ISO's demand response programs.\n\nSue Mara\nEnron Corp.\nTel: (415) 782-7802\nFax:(415) 782-7854\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1181,
+      "end": 1193,
+      "text": "Susan J Mara",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1206,
+      "end": 1216,
+      "text": "04/16/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1217,
+      "end": 1225,
+      "text": "08:47 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1235,
+      "end": 1246,
+      "text": "Fuller, Don",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1249,
+      "end": 1266,
+      "text": "DFuller@caiso.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1279,
+      "end": 1290,
+      "text": "Happ, Susan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1293,
+      "end": 1308,
+      "text": "SHapp@caiso.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1311,
+      "end": 1321,
+      "text": "04/13/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1322,
+      "end": 1330,
+      "text": "04:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1342,
+      "end": 1365,
+      "text": "ISO Market Participants",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1368,
+      "end": 1464,
+      "text": "IMCEAEX-_O=CAISO_OU=CORPORATE_CN=DISTRIBUTION+20LISTS_CN=ISO+20MARKET+20PARTI\nCIPANTS@caiso.com>",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1485,
+      "end": 1530,
+      "text": "CAISO Notice: Market Notice re: Credit Issues",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1232,
+      "end": 1531,
+      "text": "\n\t\"Fuller, Don\" <DFuller@caiso.com>\n\tSent by: \"Happ, Susan\" <SHapp@caiso.com>\n\t04/13/2001 04:21 PM\n\t\t \n\t\t To: ISO Market Participants \n<IMCEAEX-_O=CAISO_OU=CORPORATE_CN=DISTRIBUTION+20LISTS_CN=ISO+20MARKET+20PARTI\nCIPANTS@caiso.com>\n\t\t cc: \n\t\t Subject: CAISO Notice: Market Notice re: Credit Issues\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1162,
+      "end": 1232,
+      "text": "----- Forwarded by Susan J Mara/NA/Enron on 04/16/2001 08:47 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 3529,
+      "end": 3539,
+      "text": "Don Fuller",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 3540,
+      "end": 3566,
+      "text": "Director, Client Relations",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 3567,
+      "end": 3581,
+      "text": "California ISO",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 3589,
+      "end": 3601,
+      "text": "916-608-7055",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 3610,
+      "end": 3627,
+      "text": "dfuller@caiso.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 3529,
+      "end": 3628,
+      "text": "Don Fuller\nDirector, Client Relations\nCalifornia ISO\nPhone: 916-608-7055\nE-Mail: dfuller@caiso.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1531,
+      "end": 3637,
+      "text": "\nMarket Notice re Credit Issues\n\nIn response to the FERC order of April 6, 2001 re the issue of\ncreditworthiness, the California Department of Water Resources (DWR) has\nauthorized the ISO to make the following statement. To the extent (and only\nto the extent) that a purchase is not otherwise paid by any party or payable\nby another party meeting the credit standards set forth in the ISO Tariff\n(another \"Qualified Party\"), DWR will assume financial responsibility for\nall purchases by the ISO in its ancillary services and imbalance energy\nmarkets based on bids or other offers determined to be reasonable. Such\ndetermination of reasonableness will be made by DWR on a case by case basis\nand communicated to the ISO.  All bids into the ancillary services and\nimbalance energy markets will be deemed to be contingent on the acceptance\nof financial responsibility by DWR, to the extent not paid or payable by\nanother Qualified Party.  Unless a supplier is otherwise notified, any bid\naccepted by the ISO will be deemed to have the financial support of another\nQualified Party or DWR as specified in this notice.  In addition to the\nforegoing, DWR will assume financial responsibility for all purchases\nresulting from the issuance by the ISO of emergency dispatch instructions,\nto the extent not paid or payable by another Qualified Party.  Payment for\nsuch purchases shall be made according to the rate specified in the ISO\nTariff for emergency dispatch instructions.  The ISO and/or DWR reserve the\nright to rescind or modify the foregoing arrangements at any time and for\nany reason, including a successful rehearing or appeal from the April 6\norder.\n\nAs the FERC determined in its February 14 order that DWR is a creditworthy\ncounterparty, the ISO believes that the foregoing arrangements meet the\nrequirements of FERC's April 6 Order. Accordingly, the ISO expects that\nsuppliers will honor their obligations under the ISO Tariff and related\nagreements to respond to ISO dispatch instructions.\n\nDon Fuller\nDirector, Client Relations\nCalifornia ISO\nPhone: 916-608-7055\nE-Mail: dfuller@caiso.com\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 642,
+      "end": 656,
+      "text": "Jeff \nDasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 22,
+      "target": 23,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 24,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 25,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 22,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 31,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 28,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 33,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 37,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 43,
+      "target": 42,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 42,
+      "target": 44,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 45,
+      "target": 42,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 46,
+      "target": 42,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 42,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9640547.1075859585494.JavaMail.evans@thyme>",
+      "Date": "Mon, 16 Apr 2001 02:13:00 -0700 (PDT)",
+      "From": "steve.hall@enron.com",
+      "To": "susan.mara@enron.com",
+      "Subject": "Re: CAISO Notice: Market Notice re: Credit Issues",
+      "Cc": "christian.yoder@enron.com, gfergus@brobeck.com, jalexander@gibbs-bruns.com, \n\tjames.steffes@enron.com, ray.alvarez@enron.com, \n\tpaul.kaufman@enron.com, jeff.dasovich@enron.com, \n\talan.comnes@enron.com, richard.shapiro@enron.com, \n\tmichael.tribolet@enron.com, jubran.whalan@enron.com, \n\tneil.bresnan@enron.com, tim.belden@enron.com, \n\tharry.kingerski@enron.com, elizabeth.sager@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "christian.yoder@enron.com, gfergus@brobeck.com, jalexander@gibbs-bruns.com, \n\tjames.steffes@enron.com, ray.alvarez@enron.com, \n\tpaul.kaufman@enron.com, jeff.dasovich@enron.com, \n\talan.comnes@enron.com, richard.shapiro@enron.com, \n\tmichael.tribolet@enron.com, jubran.whalan@enron.com, \n\tneil.bresnan@enron.com, tim.belden@enron.com, \n\tharry.kingerski@enron.com, elizabeth.sager@enron.com",
+      "X-From": "Steve C Hall",
+      "X-To": "Susan J Mara",
+      "X-cc": "Christian Yoder, gfergus@brobeck.com@ENRON, jalexander@gibbs-bruns.com@ENRON, James D Steffes, Ray Alvarez, Paul Kaufman, Jeff Dasovich, Alan Comnes, Richard Shapiro, Michael Tribolet, Jubran Whalan, Neil Bresnan, Tim Belden, Harry Kingerski, Elizabeth Sager",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Jun2001\\Notes Folders\\All documents",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "id": "train/sager-e_all_documents_3129.txt"
+}

@@ -1,0 +1,106 @@
+My words cause misunderstanding.
+Step 1:A is submited to spark.
+Step 2:B is submitted to spark.
+
+
+Spark gets two independent jobs.The FAIR  is used to schedule A and B.
+
+
+Jeffrey' code did not cause two submit.
+
+
+
+
+
+
+ 
+---Original---
+From: "Pralabh Kumar"<pralabhkumar@gmail.com>
+Date: 2017/6/27 12:09:27
+To: "萝卜丝炒饭"<1427357147@qq.com>;
+Cc: "user"<user@spark.apache.org>;"satishl"<satish.lalam@gmail.com>;"Bryan Jeffrey"<bryan.jeffrey@gmail.com>;
+Subject: Re: Question about Parallel Stages in Spark
+
+
+Hi 
+
+I don't think so spark submit ,will receive two submits .  Its will execute one submit and
+then to next one .  If the application is multithreaded ,and two threads are calling spark
+submit and one time , then they will run parallel provided the scheduler is FAIR and task
+slots are available . 
+
+
+But in one thread ,one submit will complete and then the another one will start . If there
+are independent stages in one job, then those will run parallel.
+
+
+I agree with Bryan Jeffrey .
+
+
+
+
+Regards
+Pralabh Kumar
+
+
+On Tue, Jun 27, 2017 at 9:03 AM, 萝卜丝炒饭 <1427357147@qq.com> wrote:
+I think the spark cluster receives two submits, A and B.
+The FAIR  is used to schedule A and B.
+I am not sure about this.
+
+
+ 
+---Original---
+From: "Bryan Jeffrey"<bryan.jeffrey@gmail.com>
+Date: 2017/6/27 08:55:42
+To: "satishl"<satish.lalam@gmail.com>;
+Cc: "user"<user@spark.apache.org>;
+Subject: Re: Question about Parallel Stages in Spark
+
+
+Hello.
+
+The driver is running the individual operations in series, but each operation is parallelized
+internally.  If you want them run in parallel you need to provide the driver a mechanism to
+thread the job scheduling out:
+
+
+val rdd1 = sc.parallelize(1 to 100000)
+val rdd2 = sc.parallelize(1 to 200000)
+
+var thingsToDo: ParArray[(RDD[Int], Int)] = Array(rdd1, rdd2).zipWithIndex.par
+
+thingsToDo.foreach { case(rdd, index) =>
+  for(i <- (1 to 10000))
+    logger.info(s"Index ${index} - ${rdd.sum()}")
+}
+
+
+This will run both operations in parallel.
+
+
+
+
+On Mon, Jun 26, 2017 at 8:10 PM, satishl <satish.lalam@gmail.com> wrote:
+For the below code, since rdd1 and rdd2 dont depend on each other - i was
+ expecting that both first and second printlns would be interwoven. However -
+ the spark job runs all "first " statements first and then all "seocnd"
+ statements next in serial fashion. I have set spark.scheduler.mode = FAIR.
+ obviously my understanding of parallel stages is wrong. What am I missing?
+ 
+     val rdd1 = sc.parallelize(1 to 1000000)
+     val rdd2 = sc.parallelize(1 to 1000000)
+ 
+     for (i <- (1 to 100))
+       println("first: " + rdd1.sum())
+     for (i <- (1 to 100))
+       println("second" + rdd2.sum())
+ 
+ 
+ 
+ --
+ View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Question-about-Parallel-Stages-in-Spark-tp28793.html
+ Sent from the Apache Spark User List mailing list archive at Nabble.com.
+ 
+ ---------------------------------------------------------------------
+ To unsubscribe e-mail: user-unsubscribe@spark.apache.org

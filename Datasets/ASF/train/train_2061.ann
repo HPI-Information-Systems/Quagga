@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "all good info, appreciate it from you both\n\n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\nOn Tue, Mar 28, 2017 at 8:54 AM, Shawn Heisey <apache@elyograg.org> wrote:\n\n> On 3/27/2017 5:51 AM, John Blythe wrote:\n> > The new versions of solr come out in pretty regular fashion. We are\n> > currently on 6.0. I'm curious what drives you / your team to run the\n> > upgrades when you do. Particular features or patches you're\n> > eyeballing? Only concerned w major releases? Some other protocol that\n> > is set internally?\n>\n> The pace of development in the Lucene/Solr project is extremely swift.\n> Releases are made when one of the developers feels that enough bugfixes\n> and features have been added to justify a new release, and volunteers to\n> be the release manager.  The release manager will decide whether a\n> particular fix or feature under development will delay the release or\n> whether it should wait until the next release.\n>\n> Minor releases are very frequent on this project compared to others.\n> The project is particularly interested in making sure that bugs are\n> found and fixed quickly, but each minor release will also include new\n> features as well.  If a nasty bug is found, a buxfix release will\n> usually follow, within the same minor release.\n>\n> Major releases are less frequent, but follow a similar pattern.  The\n> next major release is developed in an entirely different branch of the\n> source repository (named master) and it takes quite a lot of work to get\n> that branch ready for release and make sure it works as desired.\n>\n> Like Alessandro mentioned, we do recommend that you try to stay current\n> in your Solr install.  If you let your install get far enough behind,\n> you'll probably find that many new versions have been released in the\n> meantime, fixing a large number of bugs and adding new functionality\n> that may benefit your installation.\n>\n> The people involved with developing Solr are also *users* of the\n> software.  They are aware of the challenges involved in qualifying a new\n> release before upgrading.  Most of them are unwilling to upgrade a\n> production install without first trying the new version out in an dev\n> environment.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 44,
+      "end": 183,
+      "text": "-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 184,
+      "text": "all good info, appreciate it from you both\n\n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 184,
+      "end": 259,
+      "text": "On Tue, Mar 28, 2017 at 8:54 AM, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 259,
+      "end": 303,
+      "text": "\n> On 3/27/2017 5:51 AM, John Blythe wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2272,
+      "end": 2292,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 303,
+      "end": 2297,
+      "text": "> > The new versions of solr come out in pretty regular fashion. We are\n> > currently on 6.0. I'm curious what drives you / your team to run the\n> > upgrades when you do. Particular features or patches you're\n> > eyeballing? Only concerned w major releases? Some other protocol that\n> > is set internally?\n>\n> The pace of development in the Lucene/Solr project is extremely swift.\n> Releases are made when one of the developers feels that enough bugfixes\n> and features have been added to justify a new release, and volunteers to\n> be the release manager.  The release manager will decide whether a\n> particular fix or feature under development will delay the release or\n> whether it should wait until the next release.\n>\n> Minor releases are very frequent on this project compared to others.\n> The project is particularly interested in making sure that bugs are\n> found and fixed quickly, but each minor release will also include new\n> features as well.  If a nasty bug is found, a buxfix release will\n> usually follow, within the same minor release.\n>\n> Major releases are less frequent, but follow a similar pattern.  The\n> next major release is developed in an entirely different branch of the\n> source repository (named master) and it takes quite a lot of work to get\n> that branch ready for release and make sure it works as desired.\n>\n> Like Alessandro mentioned, we do recommend that you try to stay current\n> in your Solr install.  If you let your install get far enough behind,\n> you'll probably find that many new versions have been released in the\n> meantime, fixing a large number of bugs and adding new functionality\n> that may benefit your installation.\n>\n> The people involved with developing Solr are also *users* of the\n> software.  They are aware of the challenges involved in qualifying a new\n> release before upgrading.  Most of them are unwilling to upgrade a\n> production install without first trying the new version out in an dev\n> environment.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2061"
+}

@@ -1,0 +1,1077 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n----- Forwarded by Elizabeth Sager/HOU/ECT on 05/31/2001 10:51 AM -----\n\n\n\tBrent Hendry@ENRON 05/30/2001 05:02 PM \t   To: Elizabeth Sager/HOU/ECT@ECT  cc: Sanjeev Khanna/Enron@EnronXGate  Subject: RE: Confidentiality Agreement\t\n\n\n\nElizabeth,\nBelow is the one comment from Pacificorp on the CA that I had marked up.  I am attaching the markup I had sent to Pacificorp.  Prior to sending execution copies I thought you might want to look at it in light of the fact that the contingent call option portion of the proposed transactions would likely be a physical deal with EPMI.  I am taking the next two days off but will be back on Monday.  \n\n \n\nBrent\n\nBrent Hendry\nEnron North America\n1400 Smith Street\nHouston, TX 77002\nPhone:  (713) 853-7124\nFax:  (713) 646-3490\n\n----- Forwarded by Brent Hendry/NA/Enron on 05/30/2001 04:56 PM -----\n\n\n\tSanjeev Khanna/ENRON@enronXgate 05/30/2001 09:33 AM \t   To: \"Jeremy D. Weinstein\" <jeremy.weinstein@pacificorp.com>@SMTP@enronXgate  cc: Brent Hendry/NA/Enron@Enron, \"Mark Klein (E-mail)\" <Mark.Klein@Pacificorp.com>@SMTP@enronXgate  Subject: RE: Confidentiality Agreement\t\n\n\nJeremy:\n\nThanks!\n\nI am forwarding this to Brent.\n\nPlease feel free to call Brent, if you need further information.\n\nThanks,\n\nSanjeev\n\n -----Original Message-----\nFrom: \t\"Jeremy D. Weinstein\" <jeremy.weinstein@pacificorp.com>@ENRON [mailto:IMCEANOTES-+22Jeremy+20D+2E+20Weinstein+22+20+3Cjeremy+2Eweinstein+40pacificorp+2Ecom+3E+40ENRON@ENRON.com] \nSent:\tTuesday, May 29, 2001 4:12 PM\nTo:\tKlein, Mark\nCc:\tKhanna, Sanjeev\nSubject:\tRe: Confidentiality Agreement\n\n\nGlad to help.\nOnly need one change; I don't have Brent's e-mail address, but  I'll trust Sanjeev to forward this:\n \nIn Section 2, where it says:\n\"at the time of disclosure or is thereafter  acquired from a source other than the Disclosing Party that was not known  to\"\nadd a comma between \"acquired\" and  \"from\".\n \n-----Original Message-----\nFrom:  Klein, Mark <Mark.Klein@PacifiCorp.com << File: mailto:Mark.Klein@PacifiCorp.com >> >\nTo:  Weinstein, Jeremy <Jeremy.Weinstein@PacifiCorp.com << File: mailto:Jeremy.Weinstein@PacifiCorp.com >> >\nCc:  'Sanjeev' <sanjeev.khanna@enron.com << File: mailto:sanjeev.khanna@enron.com >> >\nDate:  Tuesday, May 29, 2001 7:58 AM\nSubject: FW: Confidentiality  Agreement\nJeremy: \nCan you review draft CA with  Enron for work pertaining to the hydro, thermal and load hedges? Please work  with Enron lawyer, Brent Hendry (713)853-7124. As always your help is  appreciated.\nMark Klein \n-----Original Message----- \nFrom: Khanna,  Sanjeev [mailto:Sanjeev.Khanna@enron.com << File: mailto:Sanjeev.Khanna@enron.com >> ]  \nSent: Friday, May 25, 2001 12:38 PM \nTo: Mark Klein (E-mail) \nCc: Hendry, Brent  \nSubject: Confidentiality Agreement \nMark: \nPlease find enclosed the marked up copy of the  Confidentiality \nAgreement. \nI propose that we get introduce our counselors to each other so  that \nthey can finalize this agreement. Our counselor  is: \nBrent Hendry \n(713) 853-7124 \nPlease feel free to call me if you have any questions or need  further \ninformation. \n <<PacificorpConfidentialityAgreement05-24-011.doc>>  \nThanks, \nSanjeev \n        \nSanjeev K  Khanna                                 Email: \nSanjeev.Khanna@enron.com \nDirector                                                 Tel:    (713) \n853-3849 \nEnron Global  Markets                             Cell:   (713) 594-1832 \n1400 Smith Street,  Suite  3004F                   Pager:  (877) 497-1217 \nHouston TX  77002                                         Fax:    (713) \n646-3220  \n        \n  \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 20,
+      "end": 35,
+      "text": "Elizabeth Sager",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 47,
+      "end": 57,
+      "text": "05/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 58,
+      "end": 66,
+      "text": "10:51 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 73,
+      "text": "\n----- Forwarded by Elizabeth Sager/HOU/ECT on 05/31/2001 10:51 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 76,
+      "end": 88,
+      "text": "Brent Hendry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 95,
+      "end": 105,
+      "text": "05/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 106,
+      "end": 114,
+      "text": "05:02 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 123,
+      "end": 138,
+      "text": "Elizabeth Sager",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 156,
+      "end": 170,
+      "text": "Sanjeev Khanna",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 198,
+      "end": 227,
+      "text": "RE: Confidentiality Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 73,
+      "end": 229,
+      "text": "\n\n\tBrent Hendry@ENRON 05/30/2001 05:02 PM \t   To: Elizabeth Sager/HOU/ECT@ECT  cc: Sanjeev Khanna/Enron@EnronXGate  Subject: RE: Confidentiality Agreement\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 232,
+      "end": 241,
+      "text": "Elizabeth",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 645,
+      "end": 650,
+      "text": "Brent",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 652,
+      "end": 664,
+      "text": "Brent Hendry",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 665,
+      "end": 684,
+      "text": "Enron North America",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 685,
+      "end": 720,
+      "text": "1400 Smith Street\nHouston, TX 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 729,
+      "end": 743,
+      "text": "(713) 853-7124",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 750,
+      "end": 764,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 652,
+      "end": 765,
+      "text": "Brent Hendry\nEnron North America\n1400 Smith Street\nHouston, TX 77002\nPhone:  (713) 853-7124\nFax:  (713) 646-3490\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 229,
+      "end": 766,
+      "text": "\n\n\nElizabeth,\nBelow is the one comment from Pacificorp on the CA that I had marked up.  I am attaching the markup I had sent to Pacificorp.  Prior to sending execution copies I thought you might want to look at it in light of the fact that the contingent call option portion of the proposed transactions would likely be a physical deal with EPMI.  I am taking the next two days off but will be back on Monday.  \n\n \n\nBrent\n\nBrent Hendry\nEnron North America\n1400 Smith Street\nHouston, TX 77002\nPhone:  (713) 853-7124\nFax:  (713) 646-3490\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 785,
+      "end": 797,
+      "text": "Brent Hendry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 810,
+      "end": 820,
+      "text": "05/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 821,
+      "end": 829,
+      "text": "04:56 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 766,
+      "end": 836,
+      "text": "----- Forwarded by Brent Hendry/NA/Enron on 05/30/2001 04:56 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 839,
+      "end": 853,
+      "text": "Sanjeev Khanna",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 871,
+      "end": 881,
+      "text": "05/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 882,
+      "end": 890,
+      "text": "09:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 900,
+      "end": 919,
+      "text": "Jeremy D. Weinstein",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 922,
+      "end": 953,
+      "text": "jeremy.weinstein@pacificorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 976,
+      "end": 988,
+      "text": "Brent Hendry",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1006,
+      "end": 1016,
+      "text": "Mark Klein",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1028,
+      "end": 1053,
+      "text": "Mark.Klein@Pacificorp.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1081,
+      "end": 1110,
+      "text": "RE: Confidentiality Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 836,
+      "end": 1112,
+      "text": "\n\n\tSanjeev Khanna/ENRON@enronXgate 05/30/2001 09:33 AM \t   To: \"Jeremy D. Weinstein\" <jeremy.weinstein@pacificorp.com>@SMTP@enronXgate  cc: Brent Hendry/NA/Enron@Enron, \"Mark Klein (E-mail)\" <Mark.Klein@Pacificorp.com>@SMTP@enronXgate  Subject: RE: Confidentiality Agreement\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1114,
+      "end": 1120,
+      "text": "Jeremy",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1239,
+      "end": 1246,
+      "text": "Sanjeev",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1230,
+      "end": 1247,
+      "text": "Thanks,\n\nSanjeev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1112,
+      "end": 1248,
+      "text": "\n\nJeremy:\n\nThanks!\n\nI am forwarding this to Brent.\n\nPlease feel free to call Brent, if you need further information.\n\nThanks,\n\nSanjeev\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1284,
+      "end": 1303,
+      "text": "Jeremy D. Weinstein",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1306,
+      "end": 1337,
+      "text": "jeremy.weinstein@pacificorp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1353,
+      "end": 1459,
+      "text": "IMCEANOTES-+22Jeremy+20D+2E+20Weinstein+22+20+3Cjeremy+2Eweinstein+40pacificorp+2Ecom+3E+40ENRON@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1477,
+      "end": 1489,
+      "text": "May 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1490,
+      "end": 1497,
+      "text": "4:12 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1502,
+      "end": 1513,
+      "text": "Klein, Mark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1518,
+      "end": 1533,
+      "text": "Khanna, Sanjeev",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1543,
+      "end": 1572,
+      "text": "Re: Confidentiality Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1248,
+      "end": 1573,
+      "text": " -----Original Message-----\nFrom: \t\"Jeremy D. Weinstein\" <jeremy.weinstein@pacificorp.com>@ENRON [mailto:IMCEANOTES-+22Jeremy+20D+2E+20Weinstein+22+20+3Cjeremy+2Eweinstein+40pacificorp+2Ecom+3E+40ENRON@ENRON.com] \nSent:\tTuesday, May 29, 2001 4:12 PM\nTo:\tKlein, Mark\nCc:\tKhanna, Sanjeev\nSubject:\tRe: Confidentiality Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1573,
+      "end": 1890,
+      "text": "\n\nGlad to help.\nOnly need one change; I don't have Brent's e-mail address, but  I'll trust Sanjeev to forward this:\n \nIn Section 2, where it says:\n\"at the time of disclosure or is thereafter  acquired from a source other than the Disclosing Party that was not known  to\"\nadd a comma between \"acquired\" and  \"from\".\n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1924,
+      "end": 1935,
+      "text": "Klein, Mark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1937,
+      "end": 1962,
+      "text": "Mark.Klein@PacifiCorp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1979,
+      "end": 2004,
+      "text": "Mark.Klein@PacifiCorp.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 2015,
+      "end": 2032,
+      "text": "Weinstein, Jeremy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2034,
+      "end": 2065,
+      "text": "Jeremy.Weinstein@PacifiCorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2082,
+      "end": 2113,
+      "text": "Jeremy.Weinstein@PacifiCorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2176,
+      "end": 2200,
+      "text": "sanjeev.khanna@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2135,
+      "end": 2159,
+      "text": "sanjeev.khanna@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2125,
+      "end": 2132,
+      "text": "Sanjeev",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 2222,
+      "end": 2234,
+      "text": "May 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 2235,
+      "end": 2242,
+      "text": "7:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 2252,
+      "end": 2282,
+      "text": "FW: Confidentiality  Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1890,
+      "end": 2283,
+      "text": "-----Original Message-----\nFrom:  Klein, Mark <Mark.Klein@PacifiCorp.com << File: mailto:Mark.Klein@PacifiCorp.com >> >\nTo:  Weinstein, Jeremy <Jeremy.Weinstein@PacifiCorp.com << File: mailto:Jeremy.Weinstein@PacifiCorp.com >> >\nCc:  'Sanjeev' <sanjeev.khanna@enron.com << File: mailto:sanjeev.khanna@enron.com >> >\nDate:  Tuesday, May 29, 2001 7:58 AM\nSubject: FW: Confidentiality  Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 2283,
+      "end": 2289,
+      "text": "Jeremy",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 2484,
+      "end": 2494,
+      "text": "Mark Klein",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 2283,
+      "end": 2496,
+      "text": "Jeremy: \nCan you review draft CA with  Enron for work pertaining to the hydro, thermal and load hedges? Please work  with Enron lawyer, Brent Hendry (713)853-7124. As always your help is  appreciated.\nMark Klein \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 2530,
+      "end": 2546,
+      "text": "Khanna,  Sanjeev",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 2555,
+      "end": 2579,
+      "text": "Sanjeev.Khanna@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 2596,
+      "end": 2620,
+      "text": "Sanjeev.Khanna@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 2642,
+      "end": 2654,
+      "text": "May 25, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 2655,
+      "end": 2663,
+      "text": "12:38 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 2669,
+      "end": 2679,
+      "text": "Mark Klein",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 2694,
+      "end": 2707,
+      "text": "Hendry, Brent",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 2719,
+      "end": 2744,
+      "text": "Confidentiality Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 2496,
+      "end": 2746,
+      "text": "-----Original Message----- \nFrom: Khanna,  Sanjeev [mailto:Sanjeev.Khanna@enron.com << File: mailto:Sanjeev.Khanna@enron.com >> ]  \nSent: Friday, May 25, 2001 12:38 PM \nTo: Mark Klein (E-mail) \nCc: Hendry, Brent  \nSubject: Confidentiality Agreement \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 2746,
+      "end": 2750,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 3074,
+      "end": 3121,
+      "text": "PacificorpConfidentialityAgreement05-24-011.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 3071,
+      "end": 3126,
+      "text": " <<PacificorpConfidentialityAgreement05-24-011.doc>>  \n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 77,
+      "start": 3135,
+      "end": 3143,
+      "text": "Sanjeev ",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 78,
+      "start": 3126,
+      "end": 3144,
+      "text": "Thanks, \nSanjeev \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 79,
+      "start": 3153,
+      "end": 3170,
+      "text": "Sanjeev K  Khanna",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 80,
+      "start": 3211,
+      "end": 3235,
+      "text": "Sanjeev.Khanna@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 81,
+      "start": 3237,
+      "end": 3246,
+      "text": "Director ",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 82,
+      "start": 3302,
+      "end": 3317,
+      "text": "(713) \n853-3849",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 83,
+      "start": 3319,
+      "end": 3340,
+      "text": "Enron Global  Markets",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 84,
+      "start": 3377,
+      "end": 3391,
+      "text": "(713) 594-1832",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 85,
+      "start": 3393,
+      "end": 3425,
+      "text": "1400 Smith Street,  Suite  3004F",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 86,
+      "start": 3468,
+      "end": 3485,
+      "text": "Houston TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 87,
+      "start": 3452,
+      "end": 3466,
+      "text": "(877) 497-1217",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 88,
+      "start": 3534,
+      "end": 3549,
+      "text": "(713) \n646-3220",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 89,
+      "start": 3153,
+      "end": 3552,
+      "text": "Sanjeev K  Khanna                                 Email: \nSanjeev.Khanna@enron.com \nDirector                                                 Tel:    (713) \n853-3849 \nEnron Global  Markets                             Cell:   (713) 594-1832 \n1400 Smith Street,  Suite  3004F                   Pager:  (877) 497-1217 \nHouston TX  77002                                         Fax:    (713) \n646-3220  \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 90,
+      "start": 2746,
+      "end": 3565,
+      "text": "Mark: \nPlease find enclosed the marked up copy of the  Confidentiality \nAgreement. \nI propose that we get introduce our counselors to each other so  that \nthey can finalize this agreement. Our counselor  is: \nBrent Hendry \n(713) 853-7124 \nPlease feel free to call me if you have any questions or need  further \ninformation. \n <<PacificorpConfidentialityAgreement05-24-011.doc>>  \nThanks, \nSanjeev \n        \nSanjeev K  Khanna                                 Email: \nSanjeev.Khanna@enron.com \nDirector                                                 Tel:    (713) \n853-3849 \nEnron Global  Markets                             Cell:   (713) 594-1832 \n1400 Smith Street,  Suite  3004F                   Pager:  (877) 497-1217 \nHouston TX  77002                                         Fax:    (713) \n646-3220  \n        \n  \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 16,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 17,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 18,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 14,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 25,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 28,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 30,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 31,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 35,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 36,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 39,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 40,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 41,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 44,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 45,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 50,
+      "target": 49,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 51,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 49,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 52,
+      "target": 53,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 53,
+      "target": 54,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "origin": 55,
+      "target": 56,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "origin": 56,
+      "target": 57,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "origin": 52,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "origin": 57,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "origin": 62,
+      "target": 52,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "origin": 63,
+      "target": 49,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "origin": 65,
+      "target": 57,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "origin": 66,
+      "target": 65,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "origin": 67,
+      "target": 66,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "origin": 70,
+      "target": 63,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "origin": 71,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "origin": 74,
+      "target": 70,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "origin": 77,
+      "target": 65,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "origin": 79,
+      "target": 77,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "origin": 80,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "origin": 82,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "origin": 84,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "origin": 87,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "origin": 88,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "origin": 86,
+      "target": 85,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "origin": 85,
+      "target": 79,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "origin": 79,
+      "target": 83,
+      "type": "WorksFor",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3031066.1075852288736.JavaMail.evans@thyme>",
+      "Date": "Thu, 31 May 2001 13:51:00 -0700 (PDT)",
+      "From": "elizabeth.sager@enron.com",
+      "To": "harlan.murphy@enron.com",
+      "Subject": "RE: Confidentiality Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Elizabeth Sager",
+      "X-To": "harlan.murphy <harlan.murphy@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ESAGER (Non-Privileged)\\Sent Items",
+      "X-Origin": "SAGER-E",
+      "X-FileName": "ESAGER (Non-Privileged).pst"
+    }
+  },
+  "id": "train/sager-e_sent_items_339.txt"
+}

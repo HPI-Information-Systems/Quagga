@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Miller,\n\n\n\nTry using\n\n1.*coalesce(numberOfPartitions*) to reduce the number of partitions in\norder to avoid idle cores .\n\n2.Try reducing executor memory as you increase the number of executors.\n\n3. Try performing GC or changing na\u00c3\u00afve java serialization to *kryo*\nserialization.\n\n\n\n\n\nThanks,\n\nTejeshwar\n\n\n\n\n\n*From:* Jeroen Miller [mailto:bluedasyatis@gmail.com]\n*Sent:* Thursday, September 28, 2017 2:11 PM\n*To:* user@spark.apache.org\n*Subject:* More instances = slower Spark job\n\n\n\nHello,\n\n\n\nI am experiencing a disappointing performance issue with my Spark jobs\n\nas I scale up the number of instances.\n\n\n\nThe task is trivial: I am loading large (compressed) text files from S3,\n\nfiltering out lines that do not match a regex, counting the numbers\n\nof remaining lines and saving the resulting datasets as (compressed)\n\ntext files on S3. Nothing that a simple grep couldn't do, except that\n\nthe files are too large to be downloaded and processed locally.\n\n\n\nOn a single instance, I can process X GBs per hour. When scaling up\n\nto 10 instances, I noticed that processing the /same/ amount of data\n\nactually takes /longer/.\n\n\n\nThis is quite surprising as the task is really simple: I was expecting\n\na significant speed-up. My naive idea was that each executors would\n\nprocess a fraction of the input file, count the remaining lines /locally/,\n\nand save their part of the processed file /independently/, thus no data\n\nshuffling would occur.\n\n\n\nObviously, this is not what is happening.\n\n\n\nCan anyone shed some light on this or provide pointers to relevant\n\ninformation?\n\n\n\nRegards,\n\n\n\nJeroen\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Miller,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 286,
+      "end": 306,
+      "text": "\nThanks,\n\nTejeshwar\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 311,
+      "text": "Hi Miller,\n\n\n\nTry using\n\n1.*coalesce(numberOfPartitions*) to reduce the number of partitions in\norder to avoid idle cores .\n\n2.Try reducing executor memory as you increase the number of executors.\n\n3. Try performing GC or changing na\u00c3\u00afve java serialization to *kryo*\nserialization.\n\n\n\n\n\nThanks,\n\nTejeshwar\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 311,
+      "end": 483,
+      "text": "*From:* Jeroen Miller [mailto:bluedasyatis@gmail.com]\n*Sent:* Thursday, September 28, 2017 2:11 PM\n*To:* user@spark.apache.org\n*Subject:* More instances = slower Spark job\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 485,
+      "end": 493,
+      "text": "\nHello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1572,
+      "end": 1592,
+      "text": "\nRegards,\n\n\n\nJeroen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 483,
+      "end": 1593,
+      "text": "\n\n\nHello,\n\n\n\nI am experiencing a disappointing performance issue with my Spark jobs\n\nas I scale up the number of instances.\n\n\n\nThe task is trivial: I am loading large (compressed) text files from S3,\n\nfiltering out lines that do not match a regex, counting the numbers\n\nof remaining lines and saving the resulting datasets as (compressed)\n\ntext files on S3. Nothing that a simple grep couldn't do, except that\n\nthe files are too large to be downloaded and processed locally.\n\n\n\nOn a single instance, I can process X GBs per hour. When scaling up\n\nto 10 instances, I noticed that processing the /same/ amount of data\n\nactually takes /longer/.\n\n\n\nThis is quite surprising as the task is really simple: I was expecting\n\na significant speed-up. My naive idea was that each executors would\n\nprocess a fraction of the input file, count the remaining lines /locally/,\n\nand save their part of the processed file /independently/, thus no data\n\nshuffling would occur.\n\n\n\nObviously, this is not what is happening.\n\n\n\nCan anyone shed some light on this or provide pointers to relevant\n\ninformation?\n\n\n\nRegards,\n\n\n\nJeroen\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5442"
+}

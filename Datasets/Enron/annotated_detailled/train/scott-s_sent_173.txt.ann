@@ -1,0 +1,171 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thought you'd be interested in this.\n---------------------- Forwarded by Susan Scott/ET&S/Enron on 05/12/2000 \n09:34 AM ---------------------------\n\n\nJeffery Fawcett\n05/11/2000 08:57 PM\nTo: Julia White/ET&S/Enron@ENRON, Steven Harris/ET&S/Enron@ENRON, Susan \nScott/ET&S/Enron@ENRON, Kevin Hyatt/ET&S/Enron@Enron, Tammy \nJaquet/ET&S/Enron@ENRON\ncc:  \n\nSubject: Draft- Notice of EnronOnline auction\n\nAttached for your review and comment is a draft notice to TW customers of the \nEnronOnline auction.  Inasmuch as I haven't been part of the development \nprocess, please check this document carefully for errors and/or \nmisrepresentations.   To meet the timeline for this project, please provide \nyour comments back to me by noon, Tuesday, May 16.  Thanks.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 37,
+      "text": "Thought you'd be interested in this.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 73,
+      "end": 84,
+      "text": "Susan Scott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 99,
+      "end": 109,
+      "text": "05/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 111,
+      "end": 119,
+      "text": "09:34 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 37,
+      "end": 148,
+      "text": "---------------------- Forwarded by Susan Scott/ET&S/Enron on 05/12/2000 \n09:34 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 150,
+      "end": 165,
+      "text": "Jeffery Fawcett",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 166,
+      "end": 176,
+      "text": "05/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 177,
+      "end": 185,
+      "text": "08:57 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 190,
+      "end": 201,
+      "text": "Julia White",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 220,
+      "end": 233,
+      "text": "Steven Harris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 252,
+      "end": 264,
+      "text": "Susan \nScott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 283,
+      "end": 294,
+      "text": "Kevin Hyatt",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 313,
+      "end": 326,
+      "text": "Tammy \nJaquet",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 360,
+      "end": 396,
+      "text": "Draft- Notice of EnronOnline auction",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 148,
+      "end": 397,
+      "text": "\n\nJeffery Fawcett\n05/11/2000 08:57 PM\nTo: Julia White/ET&S/Enron@ENRON, Steven Harris/ET&S/Enron@ENRON, Susan \nScott/ET&S/Enron@ENRON, Kevin Hyatt/ET&S/Enron@Enron, Tammy \nJaquet/ET&S/Enron@ENRON\ncc:  \n\nSubject: Draft- Notice of EnronOnline auction\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 745,
+      "end": 752,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 397,
+      "end": 756,
+      "text": "\nAttached for your review and comment is a draft notice to TW customers of the \nEnronOnline auction.  Inasmuch as I haven't been part of the development \nprocess, please check this document carefully for errors and/or \nmisrepresentations.   To meet the timeline for this project, please provide \nyour comments back to me by noon, Tuesday, May 16.  Thanks.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25814244.1075846724905.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 May 2000 02:36:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "maria.pavlou@enron.com, tony.pryor@enron.com, frazier.king@enron.com",
+      "Subject": "Draft- Notice of EnronOnline auction",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Susan Scott",
+      "X-To": "Maria Pavlou, Tony Pryor, Frazier King",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\Sent",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s_sent_173.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

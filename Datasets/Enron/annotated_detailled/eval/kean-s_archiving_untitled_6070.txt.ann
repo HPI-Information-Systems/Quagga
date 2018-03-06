@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI - I'll be in and out of the office tomorrow but will have my cell phone \n(713-569-9563) if you need to reach me.\n\n8am - meeting with Barbara Chelette, Asst Chief Career Devlpt, 1205 Dart \n11am - meeting with Tatcho Mindiola, Red Ribbon Committee, Univ of Houston\n2pm - meeting with Dr Anderson, Red Ribbon Committee, Texas Southern Univ\n\nThe news conference went well.\n\nLisa",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 378,
+      "text": "FYI - I'll be in and out of the office tomorrow but will have my cell phone \n(713-569-9563) if you need to reach me.\n\n8am - meeting with Barbara Chelette, Asst Chief Career Devlpt, 1205 Dart \n11am - meeting with Tatcho Mindiola, Red Ribbon Committee, Univ of Houston\n2pm - meeting with Dr Anderson, Red Ribbon Committee, Texas Southern Univ\n\nThe news conference went well.\n\nLisa",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 374,
+      "end": 378,
+      "text": "Lisa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18112502.1075847788348.JavaMail.evans@thyme>",
+      "Date": "Thu, 1 Feb 2001 12:50:00 -0800 (PST)",
+      "From": "lisa.connolly@enron.com",
+      "To": "steven.kean@enron.com, maureen.mcvicker@enron.com",
+      "Subject": "2/2 Meetings",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Lisa Connolly",
+      "X-To": "Steven J Kean, Maureen McVicker",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_2\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_6070.txt"
+}

@@ -1,0 +1,17 @@
+hey all. i'm sending data out that could represent a purchased item or a
+competitive alternative. when the results are returned i'm needing to know
+which of the two were hit so i can serve up the *other*.
+
+i can make a blunt instrument in the application layer to simply look for a
+match between the queried terms and the resulting fields, but the problem
+of fuzzy matching and some of the special analysis being done to get the
+hits will be for naught.
+
+cursory googling landed me at a similar discussion that suggested using hit
+highlighting or retrieving the debuggers explain data to sort through.
+
+is there another, more efficient means or are these the two tools in the
+toolbox?
+
+thanks!
+

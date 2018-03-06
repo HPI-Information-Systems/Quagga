@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello All,\n\nSorry to bother you all again. I am having hard time understanding solr\nterminologies.\n\nIs there any step by step guide to create solr cloud in Solr 6.x ?\n\nI have two servers on my google cloud and have installed solr on both of\nthem.\n\nI would like to create one collection, shard1 on server1, shard2 on\nserver2, (replicas).\n\nI want to index few GBs of documents on Shard1/Server1 and few GBs\ndocuments on Shard2/Server1.\n\nCould you please point me to a link or video ?\n\nThanks,\nNilesh Kamani\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hello All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 482,
+      "end": 505,
+      "text": "\nThanks,\nNilesh Kamani\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 506,
+      "text": "Hello All,\n\nSorry to bother you all again. I am having hard time understanding solr\nterminologies.\n\nIs there any step by step guide to create solr cloud in Solr 6.x ?\n\nI have two servers on my google cloud and have installed solr on both of\nthem.\n\nI would like to create one collection, shard1 on server1, shard2 on\nserver2, (replicas).\n\nI want to index few GBs of documents on Shard1/Server1 and few GBs\ndocuments on Shard2/Server1.\n\nCould you please point me to a link or video ?\n\nThanks,\nNilesh Kamani\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2969"
+}

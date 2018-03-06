@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Is there a way to not have to specify a schema when using from_json() or infer the schema?\nWhen you read a JSON doc from disk, you can infer the schema. Should I write it to disk before\n(ouch)?\n\njg\n\n______________________________________________________________________\nThis electronic transmission and any documents accompanying this electronic transmission contain\nconfidential information belonging to the sender.  This information may contain confidential\nhealth information that is legally privileged.  The information is intended only for the use\nof the individual or entity named above.  The authorized recipient of this transmission is\nprohibited from disclosing this information to any other party unless required to do so by\nlaw or regulation and is required to delete or destroy the information after its stated need\nhas been fulfilled.  If you are not the intended recipient, you are hereby notified that any\ndisclosure, copying, distribution or the taking of any action in reliance on or regarding\nthe contents of this electronically transmitted information is strictly prohibited.  If you\nhave received this E-mail in error, please notify the sender and delete this message immediately.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 194,
+      "end": 198,
+      "text": "\njg\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1202,
+      "text": "Is there a way to not have to specify a schema when using from_json() or infer the schema?\nWhen you read a JSON doc from disk, you can infer the schema. Should I write it to disk before\n(ouch)?\n\njg\n\n______________________________________________________________________\nThis electronic transmission and any documents accompanying this electronic transmission contain\nconfidential information belonging to the sender.  This information may contain confidential\nhealth information that is legally privileged.  The information is intended only for the use\nof the individual or entity named above.  The authorized recipient of this transmission is\nprohibited from disclosing this information to any other party unless required to do so by\nlaw or regulation and is required to delete or destroy the information after its stated need\nhas been fulfilled.  If you are not the intended recipient, you are hereby notified that any\ndisclosure, copying, distribution or the taking of any action in reliance on or regarding\nthe contents of this electronically transmitted information is strictly prohibited.  If you\nhave received this E-mail in error, please notify the sender and delete this message immediately.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4981"
+}

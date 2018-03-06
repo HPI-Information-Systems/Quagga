@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "You can try to reindex your data to another collection with more shards\n\n--\n\n/Yago Riveiro\n\nOn 9 Jan 2017 14:15 +0000, Narsimha Reddy CHALLA <chnreddy15@gmail.com>, wrote:\n> No, it does not work by splitting. First of all lucene index files are not\n> text files. There is a segment_NN file which will refer index files in a\n> commit. So, when we split a large index file into smaller ones, the\n> corresponding segment_NN file also needs to be updated with new index files\n> OR a new segment_NN file should be created, probably.\n>\n> Can someone who is familiar with lucene index files please help us in this\n> regard?\n>\n> Thanks\n> NRC\n>\n> On Mon, Jan 9, 2017 at 7:38 PM, Manan Sheth <manan.sheth@impetus.co.in\n> wrote:\n>\n> > Is this really works for lucene index files?\n> >\n> > Thanks,\n> > Manan Sheth\n> > ________________________________________\n> > From: Moenieb Davids <Moenieb.Davids@gpaa.gov.za\n> > Sent: Monday, January 9, 2017 7:36 PM\n> > To: solr-user@lucene.apache.org\n> > Subject: RE: Help needed in breaking large index file into smaller ones\n> >\n> > Hi,\n> >\n> > Try split on linux or unix\n> >\n> > split -l 100 originalfile.csv\n> > this will split a file into 100 lines each\n> >\n> > see other options for how to split like size\n> >\n> >\n> > -----Original Message-----\n> > From: Narsimha Reddy CHALLA [mailto:chnreddy15@gmail.com]\n> > Sent: 09 January 2017 12:12 PM\n> > To: solr-user@lucene.apache.org\n> > Subject: Help needed in breaking large index file into smaller ones\n> >\n> > Hi All,\n> >\n> > My solr server has a few large index files (say ~10G). I am looking\n> > for some help on breaking them it into smaller ones (each < 4G) to satisfy\n> > my application requirements. Are there any such tools available?\n> >\n> > Appreciate your help.\n> >\n> > Thanks\n> > NRC\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > ============================================================\n> > ===============\n> > GPAA e-mail Disclaimers and confidential note\n> >\n> > This e-mail is intended for the exclusive use of the addressee only.\n> > If you are not the intended recipient, you should not use the contents\n> > or disclose them to any other person. Please notify the sender immediately\n> > and delete the e-mail. This e-mail is not intended nor\n> > shall it be taken to create any legal relations, contractual or otherwise.\n> > Legally binding obligations can only arise for the GPAA by means of\n> > a written instrument signed by an authorised signatory.\n> > ============================================================\n> > ===============\n> >\n> > ________________________________\n> >\n> >\n> >\n> >\n> >\n> >\n> > NOTE: This message may contain information that is confidential,\n> > proprietary, privileged or otherwise protected by law. The message is\n> > intended solely for the named addressee. If received in error, please\n> > destroy and notify the sender. Any use of this email is prohibited when\n> > received in error. Impetus does not represent, warrant and/or guarantee,\n> > that the integrity of this communication has been maintained nor that the\n> > communication is free of errors, virus, interception or interference.\n> >\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 92,
+      "text": "You can try to reindex your data to another collection with more shards\n\n--\n\n/Yago Riveiro\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 92,
+      "end": 172,
+      "text": "On 9 Jan 2017 14:15 +0000, Narsimha Reddy CHALLA <chnreddy15@gmail.com>, wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 617,
+      "end": 634,
+      "text": ">\n> Thanks\n> NRC\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 636,
+      "end": 718,
+      "text": "> On Mon, Jan 9, 2017 at 7:38 PM, Manan Sheth <manan.sheth@impetus.co.in\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 172,
+      "end": 636,
+      "text": "> No, it does not work by splitting. First of all lucene index files are not\n> text files. There is a segment_NN file which will refer index files in a\n> commit. So, when we split a large index file into smaller ones, the\n> corresponding segment_NN file also needs to be updated with new index files\n> OR a new segment_NN file should be created, probably.\n>\n> Can someone who is familiar with lucene index files please help us in this\n> regard?\n>\n> Thanks\n> NRC\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 769,
+      "end": 801,
+      "text": "> >\n> > Thanks,\n> > Manan Sheth\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 718,
+      "end": 801,
+      "text": ">\n> > Is this really works for lucene index files?\n> >\n> > Thanks,\n> > Manan Sheth\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 801,
+      "end": 1053,
+      "text": "> > ________________________________________\n> > From: Moenieb Davids <Moenieb.Davids@gpaa.gov.za\n> > Sent: Monday, January 9, 2017 7:36 PM\n> > To: solr-user@lucene.apache.org\n> > Subject: RE: Help needed in breaking large index file into smaller ones\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1053,
+      "end": 1065,
+      "text": "> >\n> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1053,
+      "end": 1246,
+      "text": "> >\n> > Hi,\n> >\n> > Try split on linux or unix\n> >\n> > split -l 100 originalfile.csv\n> > this will split a file into 100 lines each\n> >\n> > see other options for how to split like size\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1246,
+      "end": 1482,
+      "text": "> > -----Original Message-----\n> > From: Narsimha Reddy CHALLA [mailto:chnreddy15@gmail.com]\n> > Sent: 09 January 2017 12:12 PM\n> > To: solr-user@lucene.apache.org\n> > Subject: Help needed in breaking large index file into smaller ones\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1482,
+      "end": 1498,
+      "text": "> >\n> > Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1752,
+      "end": 1775,
+      "text": "> >\n> > Thanks\n> > NRC\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1482,
+      "end": 3128,
+      "text": "> >\n> > Hi All,\n> >\n> > My solr server has a few large index files (say ~10G). I am looking\n> > for some help on breaking them it into smaller ones (each < 4G) to satisfy\n> > my application requirements. Are there any such tools available?\n> >\n> > Appreciate your help.\n> >\n> > Thanks\n> > NRC\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > ============================================================\n> > ===============\n> > GPAA e-mail Disclaimers and confidential note\n> >\n> > This e-mail is intended for the exclusive use of the addressee only.\n> > If you are not the intended recipient, you should not use the contents\n> > or disclose them to any other person. Please notify the sender immediately\n> > and delete the e-mail. This e-mail is not intended nor\n> > shall it be taken to create any legal relations, contractual or otherwise.\n> > Legally binding obligations can only arise for the GPAA by means of\n> > a written instrument signed by an authorised signatory.\n> > ============================================================\n> > ===============\n> >\n> > ________________________________\n> >\n> >\n> >\n> >\n> >\n> >\n> > NOTE: This message may contain information that is confidential,\n> > proprietary, privileged or otherwise protected by law. The message is\n> > intended solely for the named addressee. If received in error, please\n> > destroy and notify the sender. Any use of this email is prohibited when\n> > received in error. Impetus does not represent, warrant and/or guarantee,\n> > that the integrity of this communication has been maintained nor that the\n> > communication is free of errors, virus, interception or interference.\n> >\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_160"
+}

@@ -1,0 +1,70 @@
+I've seen this error happen when there are, well, too many threads
+simultaneously active and the stack space exhausts available memory,
+here's some discussion:
+
+https://stackoverflow.com/questions/36898701/how-does-java-jvm-allocate-stack-for-each-thread
+
+With your settings, you can _create_ 65K threads, but that doesn't
+mean that stack space can be allocated for all of them.
+
+This usually means you're flooding the system with requests. From what
+you've said, you post files to Solr, I'm guessing you have some number
+of clients pushing individual documents to Solr, or possibly a
+bazillion threads trying to do this all at once. If you batch together
+documents so you're sending more than one it should help. Or throttle
+the speed that you send documents to Solr.
+
+My guess is that if you count the threads active on Solr you'll see
+them go through the roof when you're indexing and occasionally they
+pile up to the point where no new threads can be created.
+
+Best,
+Erick
+
+On Mon, Aug 7, 2017 at 7:25 AM, hawk.wan@139.com <hawk.wan@139.com> wrote:
+> Hi Shawn,
+>
+> The software config of the server is:
+>
+> OS: CentOS 7
+> Solr Version: 6.5
+>
+> The system sends delete requests to the Solr server, the requests are around 5k to 6k.The
+exception occurred from time to time, and we have to restart the node to continue the service.
+>
+> The max threads setting os the server is:
+>
+> max user processes              (-u) 65535
+>
+> Thanks
+> Hawk
+>
+>> On 7 Aug 2017, at 10:01 PM, Shawn Heisey <apache@elyograg.org> wrote:
+>>
+>> On 8/7/2017 12:35 AM, hawk.wan@139.com wrote:
+>>> Below is the OOM exception.
+>>>
+>>> 2017-08-07 12:45:48.446 WARN  (qtp33524623-4275) [c:taoke s:shard2 r:core_node4
+x:taoke_shard2_replica1] o.e.j.u.t.QueuedThreadPool
+>>> java.lang.OutOfMemoryError: unable to create new native thread
+>>
+>> The last line that I quoted above is the underlying problem here.
+>>
+>> Your OS has a limit on the number of processes/threads that each user is
+>> allowed to run.  Solr has exceeded that limit, and so the operating
+>> system is preventing Solr from starting any more threads.  The OS will
+>> need to be reconfigured to allow the user to start more threads.
+>>
+>> Just like OOME problems that actually have to do with memory allocation,
+>> program operation when a thread fails to start is *also* completely
+>> unpredictable.
+>>
+>> What version of Solr are you running, what OS is it running on, and
+>> exactly how did you start it?
+>>
+>> Thanks,
+>> Shawn
+>>
+>>
+>
+

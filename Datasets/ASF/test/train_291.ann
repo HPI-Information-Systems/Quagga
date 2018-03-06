@@ -1,0 +1,144 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ok, now I get what you mean - don\u00e2\u20ac\u2122t know of any custom/user metrics.\nAlthough, while digging through the event data, the task end events seem to send their metrics\nas internal accumulables.\nIt might be worthwhile to see if you can use that mechanism/transport to use the built-in\nframework for your user metrics.\n\nFrom: \"Chawla,Sumit\" <sumitkchawla@gmail.com>\nDate: Thursday, January 12, 2017 at 10:56 AM\nTo: Conversant <jthakrar@conversantmedia.com>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com>, Sidney Feiner <sidney.feiner@startapp.com>,\n\"user@spark.apache.org\" <user@spark.apache.org>\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n\nThanks Jayesh.  I read that documentation.  I didn't see any explicit mention of User Metrics\n( the metrics created by user as part of code. ).  What i am trying to understand is how these\nuser metrics get registered with Spark Runtime.\n\nRegards\nSumit Chawla\n\nOn Thu, Jan 12, 2017 at 8:48 AM, Thakrar, Jayesh <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nwrote:\nThere is already a built-in listener that prints out the data - org.apache.spark.streaming.scheduler.StatsReportListener\nAlso, I believe the events will be dumped to the location specified by configuration.\nIt will be a json file - with one event per line.\n\nYou can also write your own - by implementing a few methods and intercept the user metrics.\nBut I would suggest you look at the documentation before you do any custom development - http://spark.apache.org/docs/latest/monitoring.html#metrics\n(pasted below).\n\nMetrics\nSpark has a configurable metrics system based on the Dropwizard Metrics Library<http://metrics.dropwizard.io/>.\nThis allows users to report Spark metrics to a variety of sinks including HTTP, JMX, and CSV\nfiles. The metrics system is configured via a configuration file that Spark expects to be\npresent at $SPARK_HOME/conf/metrics.properties. A custom file location can be specified via\nthe spark.metrics.conf configuration property<http://spark.apache.org/docs/latest/configuration.html#spark-properties>.\nBy default, the root namespace used for driver or executor metrics is the value of spark.app.id<http://spark.app.id>.\nHowever, often times, users want to be able to track the metrics across apps for driver and\nexecutors, which is hard to do with application ID (i.e. spark.app.id<http://spark.app.id>)\nsince it changes with every invocation of the app. For such use cases, a custom namespace\ncan be specified for metrics reporting using spark.metrics.namespace configuration property.\nIf, say, users wanted to set the metrics namespace to the name of the application, they can\nset the spark.metrics.namespace property to a value like ${spark.app.name<http://spark.app.name>}.\nThis value is then expanded appropriately by Spark and is used as the root namespace of the\nmetrics system. Non driver and executor metrics are never prefixed with spark.app.id<http://spark.app.id>,\nnor does the spark.metrics.namespace property have any such affect on such metrics.\nSpark\u00e2\u20ac\u2122s metrics are decoupled into different instances corresponding to Spark components.\nWithin each instance, you can configure a set of sinks to which metrics are reported. The\nfollowing instances are currently supported:\n\u00e2\u20ac\u00a2         master: The Spark standalone master process.\n\u00e2\u20ac\u00a2         applications: A component within the master which reports on various applications.\n\u00e2\u20ac\u00a2         worker: A Spark standalone worker process.\n\u00e2\u20ac\u00a2         executor: A Spark executor.\n\u00e2\u20ac\u00a2         driver: The Spark driver process (the process in which your SparkContext is created).\n\u00e2\u20ac\u00a2         shuffleService: The Spark shuffle service.\nEach instance can report to zero or more sinks. Sinks are contained in the org.apache.spark.metrics.sink\npackage:\n\u00e2\u20ac\u00a2         ConsoleSink: Logs metrics information to the console.\n\u00e2\u20ac\u00a2         CSVSink: Exports metrics data to CSV files at regular intervals.\n\u00e2\u20ac\u00a2         JmxSink: Registers metrics for viewing in a JMX console.\n\u00e2\u20ac\u00a2         MetricsServlet: Adds a servlet within the existing Spark UI to serve metrics data\nas JSON data.\n\u00e2\u20ac\u00a2         GraphiteSink: Sends metrics to a Graphite node.\n\u00e2\u20ac\u00a2         Slf4jSink: Sends metrics to slf4j as log entries.\nSpark also supports a Ganglia sink which is not included in the default build due to licensing\nrestrictions:\n\u00e2\u20ac\u00a2         GangliaSink: Sends metrics to a Ganglia node or multicast group.\nTo install the GangliaSink you\u00e2\u20ac\u2122ll need to perform a custom build of Spark. Note that by\nembedding this library you will include LGPL<http://www.gnu.org/copyleft/lesser.html>-licensed\ncode in your Spark package. For sbt users, set the SPARK_GANGLIA_LGPL environment variable\nbefore building. For Maven users, enable the -Pspark-ganglia-lgpl profile. In addition to\nmodifying the cluster\u00e2\u20ac\u2122s Spark build user applications will need to link to the spark-ganglia-lgplartifact.\nThe syntax of the metrics configuration file is defined in an example configuration file,\n$SPARK_HOME/conf/metrics.properties.template.\n\n\n\n\nFrom: \"Chawla,Sumit\" <sumitkchawla@gmail.com<mailto:sumitkchawla@gmail.com>>\nDate: Thursday, January 12, 2017 at 10:34 AM\nTo: Conversant <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>,\nSidney Feiner <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>,\n\"user@spark.apache.org<mailto:user@spark.apache.org>\" <user@spark.apache.org<mailto:user@spark.apache.org>>\n\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n\nHi Jayesh\n\nAre you aware of any listner which can intercept the User Metrics ( CodeHale style Gauges/Counters\netc)?\n\nRegards\nSumit Chawla\n\nOn Thu, Jan 12, 2017 at 7:12 AM, Thakrar, Jayesh <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nwrote:\nSpark has a good framework for creating events as stream batches are started, completed, etc\nand they generate metrics which you can analyze after the fact (or even while running your\napp).\nHere's some info on that - http://spark.apache.org/docs/latest/monitoring.html#metrics\n\nAssuming you are using Hadoop and if you configure things correctly (see below), you can have\nthose events being published to a specific location.\nThen you can parse through that JSON data to see/analyze metrics from each task and batch\nand get some stats on the RDDs, etc.\n\nspark.eventLog.enabled true\nspark.eventLog.dir <hdfs-dir>\n\nI have never used it for Spark streaming, but am having good luck with non-streaming/batch\napplications.\n\nHere's a link to the API that is used behind the scene and the data being published - https://spark.apache.org/docs/2.0.2/api/scala/index.html#org.apache.spark.streaming.scheduler.BatchInfo\n\nYou can find some helpful documentation here - https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-SparkListener.html\n\nFrom: vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>\nDate: Thursday, January 12, 2017 at 2:27 AM\nTo: Sidney Feiner <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>\nCc: <user@spark.apache.org<mailto:user@spark.apache.org>>\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n\n\nYou can try to over advertise the CPU per executor and see if you increase parallelism with\nSpark.mesos.extra.cores\n\nLe 12 janv. 2017 9:03 AM, \"Sidney Feiner\" <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>\na \u00c3\u00a9crit :\nHey, I posted this question on Stack Overflow a week ago and didn\u00e2\u20ac\u2122t get any help so I thought\nI'd try my luck out here \u00e2\u02dc\u00ba\n--------\nI'm writing a Spark Streaming job and I'm trying to get the most of my cluster by analyzing\nthe info I have on the Spark UI.\nWhat I did for the configs is the following (tell me if it's wrong of course):\n\u00e2\u20ac\u00a2         Made sure that in every batch, #partitions = #cores (every partition gets assigned\nto a core for parallel processing)\n\u00e2\u20ac\u00a2         #receivers = #executors (every executor is assigned a receiver)\n\u00e2\u20ac\u00a2         batchInterval = 12 second, blockInterval = 3 seconds, receivers = 6 - 4 partitions\nper batch per receiver. 24 partitions total\n\u00e2\u20ac\u00a2         cores.max = 24, executor.cores = 4\n\u00e2\u20ac\u00a2         streaming.receiver.maxRate = 25\nAfter all this, I'd expect my cores to start processing as soon as they could.\nEvent Timeline:\n [rk UI - Stage Event Timeline] <https://i.stack.imgur.com/57jdg.png>\nBut it seems that not all cores are busy at the beginning - some executors are only processing\n3 tasks in parallel.\nQuestions:\n1.    And I can see that some tasks take much more time then others. Is it possible to know\nif it's because of a specific event in that task or because that task has more events to process?\n2.    Is there a way to see how many events were processed in one task?\n3.    If 6 receivers give me 1800 events, does that mean I have 1 RDD with 1800 elements?\nAnd those 1800 elements are divided across 24 partitions?\n4.    What does every row per executor represent in the attached picture? An executor's core?\n5.    How can I make sure that all cores are used simultaneously?\nI'd really appreciate any help on any of my questions, Thanks! :)\n\n\nSidney Feiner   /  SW Developer\nM: +972.528197720<tel:+972%2052-819-7720>  /  Skype: sidney.feiner.startapp\n\n[rtApp]<http://www.startapp.com/>\n\n[t Us at]<http://www.startapp.com/press/#events_press>\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 316,
+      "text": "Ok, now I get what you mean - don\u00e2\u20ac\u2122t know of any custom/user metrics.\nAlthough, while digging through the event data, the task end events seem to send their metrics\nas internal accumulables.\nIt might be worthwhile to see if you can use that mechanism/transport to use the built-in\nframework for your user metrics.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 316,
+      "end": 664,
+      "text": "From: \"Chawla,Sumit\" <sumitkchawla@gmail.com>\nDate: Thursday, January 12, 2017 at 10:56 AM\nTo: Conversant <jthakrar@conversantmedia.com>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com>, Sidney Feiner <sidney.feiner@startapp.com>,\n\"user@spark.apache.org\" <user@spark.apache.org>\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 902,
+      "end": 924,
+      "text": "\nRegards\nSumit Chawla\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 664,
+      "end": 925,
+      "text": "\nThanks Jayesh.  I read that documentation.  I didn't see any explicit mention of User Metrics\n( the metrics created by user as part of code. ).  What i am trying to understand is how these\nuser metrics get registered with Spark Runtime.\n\nRegards\nSumit Chawla\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 925,
+      "end": 1049,
+      "text": "On Thu, Jan 12, 2017 at 8:48 AM, Thakrar, Jayesh <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1049,
+      "end": 5023,
+      "text": "There is already a built-in listener that prints out the data - org.apache.spark.streaming.scheduler.StatsReportListener\nAlso, I believe the events will be dumped to the location specified by configuration.\nIt will be a json file - with one event per line.\n\nYou can also write your own - by implementing a few methods and intercept the user metrics.\nBut I would suggest you look at the documentation before you do any custom development - http://spark.apache.org/docs/latest/monitoring.html#metrics\n(pasted below).\n\nMetrics\nSpark has a configurable metrics system based on the Dropwizard Metrics Library<http://metrics.dropwizard.io/>.\nThis allows users to report Spark metrics to a variety of sinks including HTTP, JMX, and CSV\nfiles. The metrics system is configured via a configuration file that Spark expects to be\npresent at $SPARK_HOME/conf/metrics.properties. A custom file location can be specified via\nthe spark.metrics.conf configuration property<http://spark.apache.org/docs/latest/configuration.html#spark-properties>.\nBy default, the root namespace used for driver or executor metrics is the value of spark.app.id<http://spark.app.id>.\nHowever, often times, users want to be able to track the metrics across apps for driver and\nexecutors, which is hard to do with application ID (i.e. spark.app.id<http://spark.app.id>)\nsince it changes with every invocation of the app. For such use cases, a custom namespace\ncan be specified for metrics reporting using spark.metrics.namespace configuration property.\nIf, say, users wanted to set the metrics namespace to the name of the application, they can\nset the spark.metrics.namespace property to a value like ${spark.app.name<http://spark.app.name>}.\nThis value is then expanded appropriately by Spark and is used as the root namespace of the\nmetrics system. Non driver and executor metrics are never prefixed with spark.app.id<http://spark.app.id>,\nnor does the spark.metrics.namespace property have any such affect on such metrics.\nSpark\u00e2\u20ac\u2122s metrics are decoupled into different instances corresponding to Spark components.\nWithin each instance, you can configure a set of sinks to which metrics are reported. The\nfollowing instances are currently supported:\n\u00e2\u20ac\u00a2         master: The Spark standalone master process.\n\u00e2\u20ac\u00a2         applications: A component within the master which reports on various applications.\n\u00e2\u20ac\u00a2         worker: A Spark standalone worker process.\n\u00e2\u20ac\u00a2         executor: A Spark executor.\n\u00e2\u20ac\u00a2         driver: The Spark driver process (the process in which your SparkContext is created).\n\u00e2\u20ac\u00a2         shuffleService: The Spark shuffle service.\nEach instance can report to zero or more sinks. Sinks are contained in the org.apache.spark.metrics.sink\npackage:\n\u00e2\u20ac\u00a2         ConsoleSink: Logs metrics information to the console.\n\u00e2\u20ac\u00a2         CSVSink: Exports metrics data to CSV files at regular intervals.\n\u00e2\u20ac\u00a2         JmxSink: Registers metrics for viewing in a JMX console.\n\u00e2\u20ac\u00a2         MetricsServlet: Adds a servlet within the existing Spark UI to serve metrics data\nas JSON data.\n\u00e2\u20ac\u00a2         GraphiteSink: Sends metrics to a Graphite node.\n\u00e2\u20ac\u00a2         Slf4jSink: Sends metrics to slf4j as log entries.\nSpark also supports a Ganglia sink which is not included in the default build due to licensing\nrestrictions:\n\u00e2\u20ac\u00a2         GangliaSink: Sends metrics to a Ganglia node or multicast group.\nTo install the GangliaSink you\u00e2\u20ac\u2122ll need to perform a custom build of Spark. Note that by\nembedding this library you will include LGPL<http://www.gnu.org/copyleft/lesser.html>-licensed\ncode in your Spark package. For sbt users, set the SPARK_GANGLIA_LGPL environment variable\nbefore building. For Maven users, enable the -Pspark-ganglia-lgpl profile. In addition to\nmodifying the cluster\u00e2\u20ac\u2122s Spark build user applications will need to link to the spark-ganglia-lgplartifact.\nThe syntax of the metrics configuration file is defined in an example configuration file,\n$SPARK_HOME/conf/metrics.properties.template.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 5023,
+      "end": 5573,
+      "text": "From: \"Chawla,Sumit\" <sumitkchawla@gmail.com<mailto:sumitkchawla@gmail.com>>\nDate: Thursday, January 12, 2017 at 10:34 AM\nTo: Conversant <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>,\nSidney Feiner <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>,\n\"user@spark.apache.org<mailto:user@spark.apache.org>\" <user@spark.apache.org<mailto:user@spark.apache.org>>\n\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 5573,
+      "end": 5584,
+      "text": "\nHi Jayesh\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 5690,
+      "end": 5712,
+      "text": "\nRegards\nSumit Chawla\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 5573,
+      "end": 5713,
+      "text": "\nHi Jayesh\n\nAre you aware of any listner which can intercept the User Metrics ( CodeHale style Gauges/Counters\netc)?\n\nRegards\nSumit Chawla\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 5713,
+      "end": 5837,
+      "text": "On Thu, Jan 12, 2017 at 7:12 AM, Thakrar, Jayesh <jthakrar@conversantmedia.com<mailto:jthakrar@conversantmedia.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 5837,
+      "end": 6885,
+      "text": "Spark has a good framework for creating events as stream batches are started, completed, etc\nand they generate metrics which you can analyze after the fact (or even while running your\napp).\nHere's some info on that - http://spark.apache.org/docs/latest/monitoring.html#metrics\n\nAssuming you are using Hadoop and if you configure things correctly (see below), you can have\nthose events being published to a specific location.\nThen you can parse through that JSON data to see/analyze metrics from each task and batch\nand get some stats on the RDDs, etc.\n\nspark.eventLog.enabled true\nspark.eventLog.dir <hdfs-dir>\n\nI have never used it for Spark streaming, but am having good luck with non-streaming/batch\napplications.\n\nHere's a link to the API that is used behind the scene and the data being published - https://spark.apache.org/docs/2.0.2/api/scala/index.html#org.apache.spark.streaming.scheduler.BatchInfo\n\nYou can find some helpful documentation here - https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-SparkListener.html\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 6885,
+      "end": 7227,
+      "text": "From: vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>\nDate: Thursday, January 12, 2017 at 2:27 AM\nTo: Sidney Feiner <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>\nCc: <user@spark.apache.org<mailto:user@spark.apache.org>>\nSubject: Re: [Spark Streaming] - Spark Streaming Optimization\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 7227,
+      "end": 7346,
+      "text": "\n\nYou can try to over advertise the CPU per executor and see if you increase parallelism with\nSpark.mesos.extra.cores\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 7346,
+      "end": 7463,
+      "text": "Le 12 janv. 2017 9:03 AM, \"Sidney Feiner\" <sidney.feiner@startapp.com<mailto:sidney.feiner@startapp.com>>\na \u00c3\u00a9crit :\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 9167,
+      "end": 9275,
+      "text": "Sidney Feiner   /  SW Developer\nM: +972.528197720<tel:+972%2052-819-7720>  /  Skype: sidney.feiner.startapp\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 7463,
+      "end": 9368,
+      "text": "Hey, I posted this question on Stack Overflow a week ago and didn\u00e2\u20ac\u2122t get any help so I thought\nI'd try my luck out here \u00e2\u02dc\u00ba\n--------\nI'm writing a Spark Streaming job and I'm trying to get the most of my cluster by analyzing\nthe info I have on the Spark UI.\nWhat I did for the configs is the following (tell me if it's wrong of course):\n\u00e2\u20ac\u00a2         Made sure that in every batch, #partitions = #cores (every partition gets assigned\nto a core for parallel processing)\n\u00e2\u20ac\u00a2         #receivers = #executors (every executor is assigned a receiver)\n\u00e2\u20ac\u00a2         batchInterval = 12 second, blockInterval = 3 seconds, receivers = 6 - 4 partitions\nper batch per receiver. 24 partitions total\n\u00e2\u20ac\u00a2         cores.max = 24, executor.cores = 4\n\u00e2\u20ac\u00a2         streaming.receiver.maxRate = 25\nAfter all this, I'd expect my cores to start processing as soon as they could.\nEvent Timeline:\n [rk UI - Stage Event Timeline] <https://i.stack.imgur.com/57jdg.png>\nBut it seems that not all cores are busy at the beginning - some executors are only processing\n3 tasks in parallel.\nQuestions:\n1.    And I can see that some tasks take much more time then others. Is it possible to know\nif it's because of a specific event in that task or because that task has more events to process?\n2.    Is there a way to see how many events were processed in one task?\n3.    If 6 receivers give me 1800 events, does that mean I have 1 RDD with 1800 elements?\nAnd those 1800 elements are divided across 24 partitions?\n4.    What does every row per executor represent in the attached picture? An executor's core?\n5.    How can I make sure that all cores are used simultaneously?\nI'd really appreciate any help on any of my questions, Thanks! :)\n\n\nSidney Feiner   /  SW Developer\nM: +972.528197720<tel:+972%2052-819-7720>  /  Skype: sidney.feiner.startapp\n\n[rtApp]<http://www.startapp.com/>\n\n[t Us at]<http://www.startapp.com/press/#events_press>\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_291"
+}

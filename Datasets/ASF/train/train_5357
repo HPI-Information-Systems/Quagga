@@ -1,0 +1,68 @@
+Looks like part of our nightly processing was restarting the solr server
+before all indexing was done bc of using a blunt object approach of doing
+so at designated times, doh!
+
+On Tue, Aug 8, 2017 at 9:35 PM John Blythe <john@curvolabs.com> wrote:
+
+> Thanks Erick. I don't think all of those ifs are in place. Must be
+> something in our nightly process that is conflicting. Will dive in tomorrow
+> to figure out and report back.
+>
+> On Tue, Aug 8, 2017 at 1:27 PM Erick Erickson <erickerickson@gmail.com>
+> wrote:
+>
+>> First, are you absolutely sure you're committing before shutting down?
+>> Hard commit in this case, openSearcher shouldn't matter.
+>>
+>> SolrCloud? And if not SolrCloud, how are you shutting Solr down? "Kill
+>> -9" is evil.
+>>
+>> If you have transaction logs enabled then you shouldn't be losing
+>> docs, any uncommitted docs should be replayed from the transaction
+>> log.
+>>
+>> This should absolutely _not_ be happening assuming hard commits
+>> happen. One possible explanation is that you have hard commits turned
+>> off and are using soft commits _and_ the transaction log isn't
+>> enabled. And you kill Solr with evil intent. But that's a long chain
+>> of "ifs"....
+>>
+>> Best,
+>> Erick
+>>
+>> On Tue, Aug 8, 2017 at 6:02 AM, John Blythe <john@curvolabs.com> wrote:
+>> > hi all.
+>> >
+>> > i have a core that contains about 22 million documents. when the solr
+>> > server is restarted it drops to 200-400k. the dashbaord says that it's
+>> both
+>> > optimized and current.
+>> >
+>> > is there config issues i need to address in solr or the server? not
+>> really
+>> > sure where to begin in hunting this down.
+>> >
+>> > thanks-
+>>
+> --
+> --
+> *John Blythe*
+> Product Manager & Lead Developer
+>
+> 251.605.3071 | john@curvolabs.com
+> www.curvolabs.com
+>
+> 58 Adams Ave
+> Evansville, IN 47713
+>
+-- 
+-- 
+*John Blythe*
+Product Manager & Lead Developer
+
+251.605.3071 | john@curvolabs.com
+www.curvolabs.com
+
+58 Adams Ave
+Evansville, IN 47713
+

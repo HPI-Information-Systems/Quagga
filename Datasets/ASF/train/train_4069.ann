@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Michael,\n\nI have indexed the documents in such a way,I used OpenNLP to extract named\nentities and POS and has indexed these data to respective fields. I have\nread(my understanding) that for natural language search using Solr,once you\nhave the entities extracted the next step is to create a custom query parser\nwhich takes advantage of the entite fields.\nI have referred the slides and talk-\nhttps://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011\n<https://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011>\n \nto do the same.\n\nThanks and Regards,\nArun\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-NLS-custom-query-parser-tp4340511p4340679.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hi Michael,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 601,
+      "end": 627,
+      "text": "\nThanks and Regards,\nArun\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 813,
+      "text": "Hi Michael,\n\nI have indexed the documents in such a way,I used OpenNLP to extract named\nentities and POS and has indexed these data to respective fields. I have\nread(my understanding) that for natural language search using Solr,once you\nhave the entities extracted the next step is to create a custom query parser\nwhich takes advantage of the entite fields.\nI have referred the slides and talk-\nhttps://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011\n<https://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011>\n \nto do the same.\n\nThanks and Regards,\nArun\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Solr-NLS-custom-query-parser-tp4340511p4340679.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4069"
+}

@@ -1,0 +1,161 @@
+{
+  "wrapper": "plaintext",
+  "text": "I will mail the checks and money to Barb.  There was one other item that I was going to deliver to you.  One of the women who had prepared snacks for the last general meeting turnedin the recipe for her pumpkin dip.  She said that many people were asking her for it, and if we had room, maybe we could publish it in the newsletter.  I told her that we would have to see how much official material we have from the chapter and if we wind up with a needed \"filler\".  Let me know if you do need a filler, and I can send the recipe via an attachment.  Feel free to call me at work - 713-853-5926.  I have the recipe in my briefcase. \n \nGlad Nancy got back to you on the food drive - or lack there of!\n \nAt fall regional training, I attended a Communications session - they provided a list by month of desired national information (from the national website) to be included in our newsletters.  Had planned to drop that off as well.  I am still at home right now, but I can fax that to you when I get to the office a little later.  \n \nThanks again for all of your hard work!!! --Sally \n\n-----Original Message----- \nFrom: Rgladstein@aol.com@ENRON \nSent: Mon 10/22/2001 10:55 PM \nTo: Beck, Sally \nCc: \nSubject: Re: November Newsletter Deadline\n\n\n\nSally - sorry I didn't get back to you tonight; it was late when we got home from post-volleyball dinner and then the kids were on the phone - and internet until now.  It's been a long day to start the week!\n\nWe have a lot of ads this month (9)!  They will be \"scattered\" throughout the newsletter rather than all being placed on the back page, as they won't all fit in the half page.  If you'd like to mail the checks to Barb Lindsey (5523 Grosvenor Square, Houston 77069), that would be fine.  I don't keep the pink sheets once the newsletter is mailed out.\n\nNancy sent me a message that there will not be an official food drive at the Holiday Tea, and no announcement in the newsletter.  She indicates that we'll focus on the book drive for The Bridges, and Adopt-A-Family, and that, with the Sr. Presentation fees and tea fees all due in one month, it would be too much to do a food drive, too.  However, she said that if food items arrive we'll deliver them to NAM or TEAM.  If that's not still correct, please let me know.\n\nThanks!  Robin\n\nP.S.  Boomer Sooner - Go OU!",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1074,
+      "end": 1079,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1030,
+      "end": 1081,
+      "text": "Thanks again for all of your hard work!!! --Sally \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1082,
+      "text": "I will mail the checks and money to Barb.  There was one other item that I was going to deliver to you.  One of the women who had prepared snacks for the last general meeting turnedin the recipe for her pumpkin dip.  She said that many people were asking her for it, and if we had room, maybe we could publish it in the newsletter.  I told her that we would have to see how much official material we have from the chapter and if we wind up with a needed \"filler\".  Let me know if you do need a filler, and I can send the recipe via an attachment.  Feel free to call me at work - 713-853-5926.  I have the recipe in my briefcase. \n \nGlad Nancy got back to you on the food drive - or lack there of!\n \nAt fall regional training, I attended a Communications session - they provided a list by month of desired national information (from the national website) to be included in our newsletters.  Had planned to drop that off as well.  I am still at home right now, but I can fax that to you when I get to the office a little later.  \n \nThanks again for all of your hard work!!! --Sally \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1116,
+      "end": 1134,
+      "text": "Rgladstein@aol.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1152,
+      "end": 1162,
+      "text": "10/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1163,
+      "end": 1171,
+      "text": "10:55 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1177,
+      "end": 1188,
+      "text": "Beck, Sally",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1204,
+      "end": 1236,
+      "text": "Re: November Newsletter Deadline",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1082,
+      "end": 1237,
+      "text": "-----Original Message----- \nFrom: Rgladstein@aol.com@ENRON \nSent: Mon 10/22/2001 10:55 PM \nTo: Beck, Sally \nCc: \nSubject: Re: November Newsletter Deadline\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1240,
+      "end": 1245,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2279,
+      "end": 2284,
+      "text": "Robin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2270,
+      "end": 2285,
+      "text": "Thanks!  Robin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2286,
+      "end": 2314,
+      "text": "P.S.  Boomer Sooner - Go OU!",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1237,
+      "end": 2314,
+      "text": "\n\n\nSally - sorry I didn't get back to you tonight; it was late when we got home from post-volleyball dinner and then the kids were on the phone - and internet until now.  It's been a long day to start the week!\n\nWe have a lot of ads this month (9)!  They will be \"scattered\" throughout the newsletter rather than all being placed on the back page, as they won't all fit in the half page.  If you'd like to mail the checks to Barb Lindsey (5523 Grosvenor Square, Houston 77069), that would be fine.  I don't keep the pink sheets once the newsletter is mailed out.\n\nNancy sent me a message that there will not be an official food drive at the Holiday Tea, and no announcement in the newsletter.  She indicates that we'll focus on the book drive for The Bridges, and Adopt-A-Family, and that, with the Sr. Presentation fees and tea fees all due in one month, it would be too much to do a food drive, too.  However, she said that if food items arrive we'll deliver them to NAM or TEAM.  If that's not still correct, please let me know.\n\nThanks!  Robin\n\nP.S.  Boomer Sooner - Go OU!",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32207742.1075858754639.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 Oct 2001 06:01:38 -0700 (PDT)",
+      "From": "sally.beck@enron.com",
+      "To": "rgladstein@aol.com",
+      "Subject": "RE: November Newsletter Deadline",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SBECK>",
+      "X-To": "Rgladstein@aol.com@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Sent Items",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_sent_items_318.txt"
+}

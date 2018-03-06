@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Jan, Shawn, Susheel\n\nFirst steps first. First, let's do a fault-tolerant cluster, then maybe \na _geographically_ fault-tolerant cluster.\n\nAdd another server in either DC1 or DC2, in a separate rack, with \nindependent power etc. As Shawn says below, install the third ZK there. \nYou would satisfy most of your requirements that way.\n\ncheers -- Rick\n\nOn 2017-05-23 12:56 PM, Shawn Heisey wrote:\n> On 5/23/2017 10:12 AM, Susheel Kumar wrote:\n>> Hi Jan, FYI - Since last year, I have been running a Solr 6.0 cluster \n>> in one of lower env with 6 shards/replica in dc1 & 6 shard/replica in \n>> dc2 (each shard replicated cross data center) with 3 ZK in dc1 and 2 \n>> ZK in dc2. (I didn't have the availability of 3rd data center for ZK \n>> so went with only 2 data center with above configuration) and so far \n>> no issues. Its been running fine, indexing, replicating data, serving \n>> queries etc. So in my test, setting up single cluster across two \n>> zones/data center works without any issue when there is no or very \n>> minimal latency (in my case around 30ms one way\n>\n> With that setup, if dc2 goes down, you're all good, but if dc1 goes \n> down, you're not.\n>\n> There aren't enough ZK servers in dc2 to maintain quorum when dc1 is \n> unreachable, and SolrCloud is going to go read-only.  Queries would \n> most likely work, but you would not be able to change the indexes at all.\n>\n> ZooKeeper with N total servers requires int((N/2)+1) servers to be \n> operational to maintain quorum.  This means that with five total \n> servers, three must be operational and able to talk to each other, or \n> ZK cannot guarantee that there is no split-brain, so quorum is lost.\n>\n> ZK in two data centers will never be fully fault-tolerant. There is no \n> combination of servers that will work properly.  You must have three \n> data centers for a geographically fault-tolerant cluster.  Solr would \n> be optional in the third data center.  ZK must be installed in all three.\n>\n> Thanks,\n> Shawn\n>\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1966,
+      "end": 1986,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 332,
+      "end": 348,
+      "text": "\ncheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 20,
+      "text": "Jan, Shawn, Susheel\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 349,
+      "text": "Jan, Shawn, Susheel\n\nFirst steps first. First, let's do a fault-tolerant cluster, then maybe \na _geographically_ fault-tolerant cluster.\n\nAdd another server in either DC1 or DC2, in a separate rack, with \nindependent power etc. As Shawn says below, install the third ZK there. \nYou would satisfy most of your requirements that way.\n\ncheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 349,
+      "end": 393,
+      "text": "On 2017-05-23 12:56 PM, Shawn Heisey wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 393,
+      "end": 439,
+      "text": "> On 5/23/2017 10:12 AM, Susheel Kumar wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 439,
+      "end": 449,
+      "text": ">> Hi Jan,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 439,
+      "end": 1990,
+      "text": ">> Hi Jan, FYI - Since last year, I have been running a Solr 6.0 cluster \n>> in one of lower env with 6 shards/replica in dc1 & 6 shard/replica in \n>> dc2 (each shard replicated cross data center) with 3 ZK in dc1 and 2 \n>> ZK in dc2. (I didn't have the availability of 3rd data center for ZK \n>> so went with only 2 data center with above configuration) and so far \n>> no issues. Its been running fine, indexing, replicating data, serving \n>> queries etc. So in my test, setting up single cluster across two \n>> zones/data center works without any issue when there is no or very \n>> minimal latency (in my case around 30ms one way\n>\n> With that setup, if dc2 goes down, you're all good, but if dc1 goes \n> down, you're not.\n>\n> There aren't enough ZK servers in dc2 to maintain quorum when dc1 is \n> unreachable, and SolrCloud is going to go read-only.  Queries would \n> most likely work, but you would not be able to change the indexes at all.\n>\n> ZooKeeper with N total servers requires int((N/2)+1) servers to be \n> operational to maintain quorum.  This means that with five total \n> servers, three must be operational and able to talk to each other, or \n> ZK cannot guarantee that there is no split-brain, so quorum is lost.\n>\n> ZK in two data centers will never be fully fault-tolerant. There is no \n> combination of servers that will work properly.  You must have three \n> data centers for a geographically fault-tolerant cluster.  Solr would \n> be optional in the third data center.  ZK must be installed in all three.\n>\n> Thanks,\n> Shawn\n>\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3609"
+}

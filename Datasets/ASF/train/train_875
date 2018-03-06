@@ -1,0 +1,81 @@
+Would omitTermFreqAndPositions help here? Though that's probably an
+overkill as that disables phrase searches too. I am not sure if it is
+possible to do omitTermFreqAndPositions=true omitPositions=false to
+just skip frequencies.
+
+Regards,
+   Alex.
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 9 February 2017 at 11:37, Walter Underwood <wunder@wunderwood.org> wrote:
+> 1. I don’t think this is a good idea. It means that a search for “hey hey hey”
+won’t score that document higher.
+>
+> 2. Maybe you want to change how tf is calculated. Ignore multiple occurrences of a word.
+>
+> I ran into this with the movie title “New York, New York” at Netflix. It isn’t
+twice as much about New York, but it needs to be the best match for the query “new york
+new york”.
+>
+> wunder
+> Walter Underwood
+> wunder@wunderwood.org
+> http://observer.wunderwood.org/  (my blog)
+>
+>
+>> On Feb 9, 2017, at 5:18 AM, Ere Maijala <ere.maijala@helsinki.fi> wrote:
+>>
+>> Thanks Emir.
+>>
+>> I was thinking of something very simple like doing what RemoveDuplicatesTokenFilter
+does but ignoring positions. It would of course still be possible to have the same term multiple
+times, but at least the adjacent ones could be deduplicated. The reason I'm not too eager
+to do it in a query preprocessor is that I'd have to essentially duplicate functionality of
+the query analysis chain that contains ICUTokenizerFactory, WordDelimiterFilterFactory and
+whatnot.
+>>
+>> Regards,
+>> Ere
+>>
+>> 9.2.2017, 14.52, Emir Arnautovic kirjoitti:
+>>> Hi Ere,
+>>>
+>>> I don't think that there is such filter. Implementing such filter would
+>>> require looking backward which violates streaming approach of token
+>>> filters and unpredictable memory usage.
+>>>
+>>> I would do it as part of query preprocessor and not necessarily as part
+>>> of Solr.
+>>>
+>>> HTH,
+>>> Emir
+>>>
+>>>
+>>> On 09.02.2017 12:24, Ere Maijala wrote:
+>>>> Hi,
+>>>>
+>>>> I just noticed that while we use RemoveDuplicatesTokenFilter during
+>>>> query time, it will consider term positions and not really do anything
+>>>> e.g. if query is 'term term term'. As far as I can see the term
+>>>> positions make no difference in a simple non-phrase search. Is there a
+>>>> built-in way to deal with this? I know I can write a filter to do
+>>>> this, but I feel like this would be something quite basic to do for
+>>>> the query. And I don't think it's even anything too weird for normal
+>>>> users to do. Just consider e.g. searching for music by title:
+>>>>
+>>>> Hey, hey, hey ; Shivers of pleasure
+>>>>
+>>>> I also verified that at least according to debugQuery=true and
+>>>> anecdotal evicende the search really slows down if you repeat the same
+>>>> term enough.
+>>>>
+>>>> --Ere
+>>>
+>>
+>> --
+>> Ere Maijala
+>> Kansalliskirjasto / The National Library of Finland
+>
+

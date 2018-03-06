@@ -1,0 +1,146 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 05/24/2001 05:27 \nPM ---------------------------\n\n\nKay Mann\n05/16/2001 09:36 AM\nTo: John Llodra/Corp/Enron@ENRON, Don Miller/Enron@EnronXGate\ncc:  \n\nSubject: Ameresco CA\n\nOtra mas.\n\n\n\nWe'll need to change the date of the doc once we have an idea of when it will \nbe signed.\n\nKay\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "05:27 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 05/24/2001 05:27 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 118,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 119,
+      "end": 129,
+      "text": "05/16/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 130,
+      "end": 138,
+      "text": "09:36 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 143,
+      "end": 154,
+      "text": "John Llodra",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 173,
+      "end": 183,
+      "text": "Don Miller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 217,
+      "end": 228,
+      "text": "Ameresco CA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 108,
+      "end": 229,
+      "text": "\n\nKay Mann\n05/16/2001 09:36 AM\nTo: John Llodra/Corp/Enron@ENRON, Don Miller/Enron@EnronXGate\ncc:  \n\nSubject: Ameresco CA\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 229,
+      "end": 338,
+      "text": "\nOtra mas.\n\n\n\nWe'll need to change the date of the doc once we have an idea of when it will \nbe signed.\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 334,
+      "end": 337,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11742987.1075846022573.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 10:28:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "carlos.sole@enron.com",
+      "Subject": "Ameresco CA",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Carlos Sole",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_4225.txt"
+}

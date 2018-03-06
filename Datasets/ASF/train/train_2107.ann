@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Abhijit \nIn Mongo you probably have one JSON record per document. You can post that JSON record to\nSolr, and the JSON fields get indexed. The github project you mention does just that. If you\nuse the Solr managed schema then Solr will automatically define fields based on what it receives.\nOtherwise you will need to carefully design a schema.xml.\nCheers -- Rick\n\nOn March 28, 2017 6:08:40 PM EDT, Abhijit Pawar <abhijit.ibizsoft@gmail.com> wrote:\n>Hello All,\n>\n>I am working on a requirement to index field of type JSON (in mongoDB\n>collection) in SOLR 5.4.0.\n>\n>I am using mongo-jdbc-dih which I found on GitHub :\n>\n>https://github.com/hrishik/solr-mongodb-dih\n>\n>However I could not find a fieldtype on Apache SOLR wiki page which\n>would\n>support JSON datatype in mongoDB.\n>\n>Can someone please recommend a way to include datatype / fieldtype in\n>SOLR\n>schema to support or index JSON data field from mongoDB.\n>Thanks.\n>\n>R\u00e2\u20ac\u2039egards,\n>\n>Abhijit\u00e2\u20ac\u2039\n\n-- \nSent from my Android device with K-9 Mail. Please excuse my brevity.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Abhijit \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 348,
+      "end": 363,
+      "text": "Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 364,
+      "text": "Abhijit \nIn Mongo you probably have one JSON record per document. You can post that JSON record to\nSolr, and the JSON fields get indexed. The github project you mention does just that. If you\nuse the Solr managed schema then Solr will automatically define fields based on what it receives.\nOtherwise you will need to carefully design a schema.xml.\nCheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 364,
+      "end": 448,
+      "text": "On March 28, 2017 6:08:40 PM EDT, Abhijit Pawar <abhijit.ibizsoft@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 448,
+      "end": 460,
+      "text": ">Hello All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 922,
+      "end": 951,
+      "text": ">\n>R\u00e2\u20ac\u2039egards,\n>\n>Abhijit\u00e2\u20ac\u2039\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 448,
+      "end": 1025,
+      "text": ">Hello All,\n>\n>I am working on a requirement to index field of type JSON (in mongoDB\n>collection) in SOLR 5.4.0.\n>\n>I am using mongo-jdbc-dih which I found on GitHub :\n>\n>https://github.com/hrishik/solr-mongodb-dih\n>\n>However I could not find a fieldtype on Apache SOLR wiki page which\n>would\n>support JSON datatype in mongoDB.\n>\n>Can someone please recommend a way to include datatype / fieldtype in\n>SOLR\n>schema to support or index JSON data field from mongoDB.\n>Thanks.\n>\n>R\u00e2\u20ac\u2039egards,\n>\n>Abhijit\u00e2\u20ac\u2039\n\n-- \nSent from my Android device with K-9 Mail. Please excuse my brevity.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2107"
+}

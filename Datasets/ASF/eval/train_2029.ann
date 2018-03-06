@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Aljoscha,\n\nIn my case the valid-length file created contains a value which e.g. \nsays 100 MB are valid to read for exactly once but the file with the \ndata is only 95 MB large. As I understand it the valid-length file \ncontains the length of the file at the checkpoint. This does also not \nhappen for all files (3 HDFS sinks each with a parallelism of 2). For \nsome parts the file size and the value in the valid-length file match \nexactly.\n\nAfter looking now over the checkpoint code in BucketingSink I looked \ninto the hsync behavior again and found the following page: \nhttp://stackoverflow.com/questions/32231105/why-is-hsync-not-flushing-my-hdfs-file\nAfter this I downloaded the file with the hdfs dfs tool and actually the \nfile is now even larger than the valid-length file. I checked this \nagainst the things I did before (Impala and hive select count query, and \nHue download of files and wc -l) and this 3 ways result in the same \namount of lines but hdfs dfs -cat <filename> | wc -l gives a much larger \nvalue.\n\nSo my conclusion would be that the data is written and not exactly lost \nas I thought, but for my use case not visible because the files are not \nproperly closed during cancel and the namenode is not aware of the \nflushed data. So I could imagine 2 ways out of this: 1. implement the \nhsync as stated at the Stack Overflow page or 2. ensure that files are \nproperly closed during cancel.\n\nBest,\nJ\u00c3\u00bcrgen\n\nOn 28.04.2017 17:38, Aljoscha Krettek wrote:\n> Hi J\u00c3\u00bcrgen,\n> Is there missing data with respect to what should have been written at \n> the time of the cancel or when the last checkpoint (or in that case, \n> the savepoint) was performed. I\u00e2\u20ac\u2122m asking because the cancel command is \n> only sent out once the savepoint has been completed, as can be seen at \n> [1]. If the savepoint is complete this also means that the snapshot \n> method of the BucketingSink must have done it\u00e2\u20ac\u2122s work, i.e. that it \n> also flushed all files, which is done in [2]. There\u00e2\u20ac\u2122s always the \n> possibility of a bug, however, so we\u00e2\u20ac\u2122ll have to look into this together.\n>\n> Best,\n> Aljoscha\n>\n> [1] \n> https://github.com/apache/flink/blob/c22efce098c14e8f08bad1e0065dbd02df6e4dbb/flink-runtime/src/main/scala/org/apache/flink/runtime/jobmanager/JobManager.scala#L607-L607\n>\n> [2] \n> https://github.com/apache/flink/blob/b4c60a942fe07e355dd49ed2aab3c0a7ae94285d/flink-connectors/flink-connector-filesystem/src/main/java/org/apache/flink/streaming/connectors/fs/bucketing/BucketingSink.java\n>\n>> On 27. Apr 2017, at 10:27, J\u00c3\u00bcrgen Thomann \n>> <juergen.thomann@innogames.com \n>> <mailto:juergen.thomann@innogames.com>> wrote:\n>>\n>> Hi,\n>>\n>> I had some time ago problems with writing data to Hadoop with the \n>> BucketingSink and losing data in case of cancel with savepoint \n>> because flush/sync command was interrupted. I tried changing Hadoop \n>> settings as suggested but had no luck at the end and looked into the \n>> Flink code. If I understand the code correctly it behaves the \n>> following way:\n>>\n>> 1. Start a Watchdog thread if we have a cancellation timeout set\n>> 2. invoke cancel on the sink/task, but do not wait for it to finish\n>> 3. destroy buffer pool and a release resources\n>> 4. send initial interrupt to the sink/task\n>> 5. call join on the sink/task and ignore InterruptedException\n>> 6. let the watchdog send more interrupts if needed and throw fatal \n>> error if timeout is reached\n>>\n>> In my case the BucketingSink does not has enough time to flush \n>> everything before the initial interrupt is sent and some files are \n>> not closed properly which causes the missing data in Hadoop in my \n>> understanding.\n>>\n>> Is my understanding correct and if yes, do you know a way to get \n>> around this behavior to let the close function finish the sync for \n>> all files?\n>>\n>> Best,\n>> J\u00c3\u00bcrgen\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Hi Aljoscha,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1414,
+      "end": 1429,
+      "text": "\nBest,\nJ\u00c3\u00bcrgen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1430,
+      "text": "Hi Aljoscha,\n\nIn my case the valid-length file created contains a value which e.g. \nsays 100 MB are valid to read for exactly once but the file with the \ndata is only 95 MB large. As I understand it the valid-length file \ncontains the length of the file at the checkpoint. This does also not \nhappen for all files (3 HDFS sinks each with a parallelism of 2). For \nsome parts the file size and the value in the valid-length file match \nexactly.\n\nAfter looking now over the checkpoint code in BucketingSink I looked \ninto the hsync behavior again and found the following page: \nhttp://stackoverflow.com/questions/32231105/why-is-hsync-not-flushing-my-hdfs-file\nAfter this I downloaded the file with the hdfs dfs tool and actually the \nfile is now even larger than the valid-length file. I checked this \nagainst the things I did before (Impala and hive select count query, and \nHue download of files and wc -l) and this 3 ways result in the same \namount of lines but hdfs dfs -cat <filename> | wc -l gives a much larger \nvalue.\n\nSo my conclusion would be that the data is written and not exactly lost \nas I thought, but for my use case not visible because the files are not \nproperly closed during cancel and the namenode is not aware of the \nflushed data. So I could imagine 2 ways out of this: 1. implement the \nhsync as stated at the Stack Overflow page or 2. ensure that files are \nproperly closed during cancel.\n\nBest,\nJ\u00c3\u00bcrgen\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1430,
+      "end": 1475,
+      "text": "On 28.04.2017 17:38, Aljoscha Krettek wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1475,
+      "end": 1489,
+      "text": "> Hi J\u00c3\u00bcrgen,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2075,
+      "end": 2096,
+      "text": ">\n> Best,\n> Aljoscha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1475,
+      "end": 2496,
+      "text": "> Hi J\u00c3\u00bcrgen,\n> Is there missing data with respect to what should have been written at \n> the time of the cancel or when the last checkpoint (or in that case, \n> the savepoint) was performed. I\u00e2\u20ac\u2122m asking because the cancel command is \n> only sent out once the savepoint has been completed, as can be seen at \n> [1]. If the savepoint is complete this also means that the snapshot \n> method of the BucketingSink must have done it\u00e2\u20ac\u2122s work, i.e. that it \n> also flushed all files, which is done in [2]. There\u00e2\u20ac\u2122s always the \n> possibility of a bug, however, so we\u00e2\u20ac\u2122ll have to look into this together.\n>\n> Best,\n> Aljoscha\n>\n> [1] \n> https://github.com/apache/flink/blob/c22efce098c14e8f08bad1e0065dbd02df6e4dbb/flink-runtime/src/main/scala/org/apache/flink/runtime/jobmanager/JobManager.scala#L607-L607\n>\n> [2] \n> https://github.com/apache/flink/blob/b4c60a942fe07e355dd49ed2aab3c0a7ae94285d/flink-connectors/flink-connector-filesystem/src/main/java/org/apache/flink/streaming/connectors/fs/bucketing/BucketingSink.java\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2496,
+      "end": 2628,
+      "text": ">> On 27. Apr 2017, at 10:27, J\u00c3\u00bcrgen Thomann \n>> <juergen.thomann@innogames.com \n>> <mailto:juergen.thomann@innogames.com>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2628,
+      "end": 2638,
+      "text": ">>\n>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 3798,
+      "end": 3821,
+      "text": ">>\n>> Best,\n>> J\u00c3\u00bcrgen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2628,
+      "end": 3824,
+      "text": ">>\n>> Hi,\n>>\n>> I had some time ago problems with writing data to Hadoop with the \n>> BucketingSink and losing data in case of cancel with savepoint \n>> because flush/sync command was interrupted. I tried changing Hadoop \n>> settings as suggested but had no luck at the end and looked into the \n>> Flink code. If I understand the code correctly it behaves the \n>> following way:\n>>\n>> 1. Start a Watchdog thread if we have a cancellation timeout set\n>> 2. invoke cancel on the sink/task, but do not wait for it to finish\n>> 3. destroy buffer pool and a release resources\n>> 4. send initial interrupt to the sink/task\n>> 5. call join on the sink/task and ignore InterruptedException\n>> 6. let the watchdog send more interrupts if needed and throw fatal \n>> error if timeout is reached\n>>\n>> In my case the BucketingSink does not has enough time to flush \n>> everything before the initial interrupt is sent and some files are \n>> not closed properly which causes the missing data in Hadoop in my \n>> understanding.\n>>\n>> Is my understanding correct and if yes, do you know a way to get \n>> around this behavior to let the close function finish the sync for \n>> all files?\n>>\n>> Best,\n>> J\u00c3\u00bcrgen\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_2029"
+}

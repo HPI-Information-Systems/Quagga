@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Have you looked at ComplexPhraseQueryParser? It adds  some expense of\ncourse. See SOLR-1604.\n\nBest,\nErick\n\nOn Fri, Jun 23, 2017 at 1:06 PM, Michael Craven <mcraven3@jhu.edu> wrote:\n> I apologize in advance if this is too off topic or basic. I am a web developer on a Drupal\nsite tasked with trying to improve searching capabilities for our users. A product manager\nasked to me if proximity searches and wildcards worked on our search form. I did some testing\nand found that, yes, each work. However, what does not seem to work is both together. That\nis, looking for words or phrases near each other seems to work and looking for truncated words\nlike pregna* seems to work, but the two together in one search string do not. Does anyone\nhave experience in the Drupal context that could give me some advice or point me to a resource\nthat can?\n>\n> Thanks\n>\n> -Michael\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 93,
+      "end": 106,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 107,
+      "text": "Have you looked at ComplexPhraseQueryParser? It adds  some expense of\ncourse. See SOLR-1604.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 107,
+      "end": 181,
+      "text": "On Fri, Jun 23, 2017 at 1:06 PM, Michael Craven <mcraven3@jhu.edu> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 840,
+      "end": 864,
+      "text": ">\n> Thanks\n>\n> -Michael\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 181,
+      "end": 865,
+      "text": "> I apologize in advance if this is too off topic or basic. I am a web developer on a Drupal\nsite tasked with trying to improve searching capabilities for our users. A product manager\nasked to me if proximity searches and wildcards worked on our search form. I did some testing\nand found that, yes, each work. However, what does not seem to work is both together. That\nis, looking for words or phrases near each other seems to work and looking for truncated words\nlike pregna* seems to work, but the two together in one search string do not. Does anyone\nhave experience in the Drupal context that could give me some advice or point me to a resource\nthat can?\n>\n> Thanks\n>\n> -Michael\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4323"
+}

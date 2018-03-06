@@ -1,0 +1,9 @@
+I recommend multiple Jobs. You can still share most of the code by creating
+Java / Scala packages. THis makes it easier to update Jobs.
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Many-streaming-jobs-vs-one-tp11449p11450.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+

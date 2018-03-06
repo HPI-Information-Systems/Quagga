@@ -1,0 +1,33 @@
+Hi Soumitra,
+We're working on that. The Idea here is to use Kafka to get brokers'
+information of the topic and use Kafka client to find coresponding offsets
+on new cluster (
+https://jeqo.github.io/post/2017-01-31-kafka-rewind-consumers-offset/). You
+need kafka >=0.10.1.0 because it supports timestamp-based index.
+
+2017-03-28 5:24 GMT+07:00 Soumitra Johri <soumitra.siddharth@gmail.com>:
+
+> Hi, did you guys figure it out?
+>
+> Thanks
+> Soumitra
+>
+> On Sun, Mar 5, 2017 at 9:51 PM nguyen duc Tuan <newvalue92@gmail.com>
+> wrote:
+>
+>> Hi everyone,
+>> We are deploying kafka cluster for ingesting streaming data. But
+>> sometimes, some of nodes on the cluster have troubles (node dies, kafka
+>> daemon is killed...). However, Recovering data in Kafka can be very slow.
+>> It takes serveral hours to recover from disaster. I saw a slide here
+>> suggesting using multiple data centers (https://www.slideshare.net/
+>> HadoopSummit/building-largescale-stream-infrastructures-across-
+>> multiple-data-centers-with-apache-kafka). But I wonder, how can we
+>> detect the problem and switch between datacenters in Spark Streaming? Since
+>> kafka 0.10.1 support timestamp index, how can seek to right offsets?
+>> Are there any opensource library out there that supports handling the
+>> problem on the fly?
+>> Thanks.
+>>
+>
+

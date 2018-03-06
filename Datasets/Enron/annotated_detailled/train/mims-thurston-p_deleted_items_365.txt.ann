@@ -1,0 +1,33 @@
+{
+  "wrapper": "enron",
+  "id": "train/mims-thurston-p_deleted_items_365.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<11166355.1075845254417.JavaMail.evans@thyme>",
+      "Date": "Tue, 5 Jun 2001 16:47:17 -0700 (PDT)",
+      "From": "40enron@enron.com",
+      "Subject": "Reminder",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Public Relations@ENRON <IMCEANOTES-Public+20Relations+40ENRON@ENRON.com>",
+      "X-To": "All Enron Houston@ENRON <??SAll Enron Houston@ENRON>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mims, Patrice L.\\Mims, Patrice L.\\Deleted Items",
+      "X-Origin": "MIMS-P",
+      "X-FileName": "Mims, Patrice L..pst"
+    }
+  },
+  "text": "\n\nReminder\nThe Enron Oral History Project Continues...\n\n\"Using History to Help Enron Become the World's Leading Company\"\n\nHow can an understanding of strategic choices, regulatory change and corporate culture help Enron achieve its vision?\n\nSpeaker:\nJoseph Pratt, Cullen Professor of History and Business, University of Houston\nand\n Co-Director, Enron Oral History Project\n\nThursday, June 7\n11:30 a.m. to 12:30 p.m.\nEB 5C2\n\nTo Make a Reservation, Call 3-1941 and Select Option 1\n\nLunch will not be provided, but you are welcome to bring your own.\n\nPlease inform us ahead of time if you need special accommodations to participate in this meeting.  Call 3-9390.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 659,
+      "text": "\n\nReminder\nThe Enron Oral History Project Continues...\n\n\"Using History to Help Enron Become the World's Leading Company\"\n\nHow can an understanding of strategic choices, regulatory change and corporate culture help Enron achieve its vision?\n\nSpeaker:\nJoseph Pratt, Cullen Professor of History and Business, University of Houston\nand\n Co-Director, Enron Oral History Project\n\nThursday, June 7\n11:30 a.m. to 12:30 p.m.\nEB 5C2\n\nTo Make a Reservation, Call 3-1941 and Select Option 1\n\nLunch will not be provided, but you are welcome to bring your own.\n\nPlease inform us ahead of time if you need special accommodations to participate in this meeting.  Call 3-9390.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

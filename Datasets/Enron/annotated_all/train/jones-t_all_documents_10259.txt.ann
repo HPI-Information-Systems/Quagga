@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/jones-t_all_documents_10259.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<26115338.1075847328321.JavaMail.evans@thyme>",
+      "Date": "Mon, 19 Mar 2001 15:02:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.worldwide@enron.com",
+      "Subject": "=?ANSI_X3.4-1968?Q?Enron_Business_EXTREME_ENRON_?=\n =?ANSI_X3.4-1968?Q?=01)_Deadline_Extended_to_3/28!?=",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Enron Announcements",
+      "X-To": "All Enron Worldwide",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "text": "We're getting so many great stories that we've extended the deadline for yo=\nur=20\nEnron Business Extreme Enron entries to Wednesday, March 28!  Have no idea=\n=20\nwhat we're talking about?  Read on=01(\nEnron employees are famous for taking risks.  Is this an ingrained=20\ncharacteristic?  Are we natural-born adrenaline junkies?  We think so, but =\nwe=20\nwant to find out from you.\nIf your idea of a good vacation is training for the Eco-Challenge, driving=\n=20\nmonster trucks or assisting archeological digs in Siberia, tell us all abou=\nt=20\nit.  If you know of an employee who has an unusual pastime like missionary=\n=20\nwork in the Congo, chasing tornadoes or filming sharks, we want to know.\nSend your entries by email to sarah.palmer@enron.com, by fax to 713-853-679=\n0=20\nor by mail to Sarah Palmer, Enron Public Relations, EB4703D, Houston, Texas=\n=20\n77002.\nWe'll choose our favorite extreme stories and publish them in the next issu=\ne=20\nof Enron Business.  Also, don't forget to check out the current issue --=20\nnewly designed -- at http://home.enron.com/pubs/enronbiz/2001/vol1/index.ht=\nm",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1103,
+      "text": "We're getting so many great stories that we've extended the deadline for yo=\nur=20\nEnron Business Extreme Enron entries to Wednesday, March 28!  Have no idea=\n=20\nwhat we're talking about?  Read on=01(\nEnron employees are famous for taking risks.  Is this an ingrained=20\ncharacteristic?  Are we natural-born adrenaline junkies?  We think so, but =\nwe=20\nwant to find out from you.\nIf your idea of a good vacation is training for the Eco-Challenge, driving=\n=20\nmonster trucks or assisting archeological digs in Siberia, tell us all abou=\nt=20\nit.  If you know of an employee who has an unusual pastime like missionary=\n=20\nwork in the Congo, chasing tornadoes or filming sharks, we want to know.\nSend your entries by email to sarah.palmer@enron.com, by fax to 713-853-679=\n0=20\nor by mail to Sarah Palmer, Enron Public Relations, EB4703D, Houston, Texas=\n=20\n77002.\nWe'll choose our favorite extreme stories and publish them in the next issu=\ne=20\nof Enron Business.  Also, don't forget to check out the current issue --=20\nnewly designed -- at http://home.enron.com/pubs/enronbiz/2001/vol1/index.ht=\nm",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

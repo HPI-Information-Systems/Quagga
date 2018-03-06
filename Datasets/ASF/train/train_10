@@ -1,0 +1,20 @@
+Hi,
+
+I have a SolrCloud setup with 5 nodes and am creating collections with a 
+replication factor of 3. If I kill and restart nodes at the "right" time 
+during the creation process the creation seems to get stuck. Collection 
+data is left in the clusterstate.json file in ZooKeeper and no 
+collections can be created anymore until this entry gets removed. I can 
+reproduce this on Solr 6.2.1 and 6.3, while 6.3 seems to be somewhat 
+less likely to get stuck. Is Solr supposed to recover from data being 
+stuck in the clusterstate.json at some point? I had one instance where 
+it looked like data was removed again but normally the data does not 
+seem to get cleaned up automatically and just blocks any further 
+collection creations.
+
+I did not find anything like this in Jira. Just SOLR-7198 sounds a bit 
+similar even though it is about deleting collections.
+
+regards,
+Hendrik
+

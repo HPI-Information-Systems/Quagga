@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ooops, sorry.\nI meant Maria DB.\n\n\n\n2017-04-21 12:51 GMT+09:00 Takeshi Yamamuro <linguin.m.s@gmail.com>:\n\n> Why you use a mysql jdbc driver?\n>\n> // maropu\n>\n> On Fri, Apr 21, 2017 at 11:54 AM, Cinyoung Hur <cinyoung.hur@gmail.com>\n> wrote:\n>\n>> Hi,\n>>\n>> I tried to insert Dataframe into Postgres DB.\n>>\n>> But, I don't know what causes this error.\n>>\n>>\n>> properties = {\n>>     \"user\": \"user\",\n>>     \"password\": \"pass\",\n>>     \"driver\": \"com.mysql.jdbc.Driver\",\n>> }\n>> url = \"jdbc:mysql://ip address/MYDB?useServerPrepStmts=false&rewriteBatchedStatements=true\"\n>> df.write.jdbc(url=url, table=table_name, mode='overwrite', properties=properties)\n>>\n>>\n>>\n>> The schema of Dataframe is this.\n>>\n>> root\n>>  |-- fom_tp_cd: string (nullable = true)\n>>  |-- agg: integer (nullable = true)\n>>  |-- sex_tp_cd: integer (nullable = true)\n>>  |-- dgsbjt_cd: string (nullable = true)\n>>  |-- recu_cl_cd: integer (nullable = true)\n>>  |-- sick_set: string (nullable = true)\n>>  |-- gnl_nm_set: string (nullable = true)\n>>  |-- count: long (nullable = false)\n>>\n>>\n>>\n>> Py4JJavaErrorTraceback (most recent call last)<ipython-input-64-300efd2c6967>\nin <module>()----> 1 result1.filter(result1[\"gnl_nm_set\"] == \"\").count()\n>> /usr/local/linewalks/spark/spark/python/pyspark/sql/dataframe.pyc in count(self)\n   297         2    298         \"\"\"--> 299         return int(self._jdf.count())    300\n    301     @ignore_unicode_prefix\n>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/java_gateway.py\nin __call__(self, *args)    931         answer = self.gateway_client.send_command(command)\n   932         return_value = get_return_value(--> 933             answer, self.gateway_client,\nself.target_id, self.name)    934     935         for temp_arg in temp_args:\n>> /usr/local/linewalks/spark/spark/python/pyspark/sql/utils.pyc in deco(*a, **kw) \n   61     def deco(*a, **kw):     62         try:---> 63             return f(*a, **kw)\n    64         except py4j.protocol.Py4JJavaError as e:     65             s = e.java_exception.toString()\n>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/protocol.py\nin get_return_value(answer, gateway_client, target_id, name)    310                 raise\nPy4JJavaError(    311                     \"An error occurred while calling {0}{1}{2}.\\n\".-->\n312                     format(target_id, \".\", name), value)    313             else:    314\n                raise Py4JError(\n>> Py4JJavaError: An error occurred while calling o1331.count.\n>> : org.apache.spark.SparkException: Job aborted due to stage failure: Task 178 in\nstage 324.0 failed 4 times, most recent failure: Lost task 178.3 in stage 324.0 (TID 14274,\n7.linewalks.local): org.apache.spark.api.python.PythonException: Traceback (most recent call\nlast):\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 172, in main\n>>     process()\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 167, in process\n>>     serializer.dump_stream(func(split_index, iterator), outfile)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 106, in <lambda>\n>>     func = lambda _, it: map(mapper, it)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 92, in <lambda>\n>>     mapper = lambda a: udf(*a)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 70, in <lambda>\n>>     return lambda *a: f(*a)\n>>   File \"<ipython-input-22-457936c8f59f>\", line 3, in <lambda>\n>> TypeError: sequence item 0: expected string, NoneType found\n>>\n>>\n>\n>\n> --\n> ---\n> Takeshi Yamamuro\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 35,
+      "text": "Ooops, sorry.\nI meant Maria DB.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 35,
+      "end": 104,
+      "text": "2017-04-21 12:51 GMT+09:00 Takeshi Yamamuro <linguin.m.s@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 140,
+      "end": 154,
+      "text": ">\n> // maropu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 104,
+      "end": 156,
+      "text": "\n> Why you use a mysql jdbc driver?\n>\n> // maropu\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 156,
+      "end": 239,
+      "text": "> On Fri, Apr 21, 2017 at 11:54 AM, Cinyoung Hur <cinyoung.hur@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 239,
+      "end": 248,
+      "text": ">\n>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 4078,
+      "end": 4103,
+      "text": "> ---\n> Takeshi Yamamuro\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 239,
+      "end": 4106,
+      "text": ">\n>> Hi,\n>>\n>> I tried to insert Dataframe into Postgres DB.\n>>\n>> But, I don't know what causes this error.\n>>\n>>\n>> properties = {\n>>     \"user\": \"user\",\n>>     \"password\": \"pass\",\n>>     \"driver\": \"com.mysql.jdbc.Driver\",\n>> }\n>> url = \"jdbc:mysql://ip address/MYDB?useServerPrepStmts=false&rewriteBatchedStatements=true\"\n>> df.write.jdbc(url=url, table=table_name, mode='overwrite', properties=properties)\n>>\n>>\n>>\n>> The schema of Dataframe is this.\n>>\n>> root\n>>  |-- fom_tp_cd: string (nullable = true)\n>>  |-- agg: integer (nullable = true)\n>>  |-- sex_tp_cd: integer (nullable = true)\n>>  |-- dgsbjt_cd: string (nullable = true)\n>>  |-- recu_cl_cd: integer (nullable = true)\n>>  |-- sick_set: string (nullable = true)\n>>  |-- gnl_nm_set: string (nullable = true)\n>>  |-- count: long (nullable = false)\n>>\n>>\n>>\n>> Py4JJavaErrorTraceback (most recent call last)<ipython-input-64-300efd2c6967>\nin <module>()----> 1 result1.filter(result1[\"gnl_nm_set\"] == \"\").count()\n>> /usr/local/linewalks/spark/spark/python/pyspark/sql/dataframe.pyc in count(self)\n   297         2    298         \"\"\"--> 299         return int(self._jdf.count())    300\n    301     @ignore_unicode_prefix\n>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/java_gateway.py\nin __call__(self, *args)    931         answer = self.gateway_client.send_command(command)\n   932         return_value = get_return_value(--> 933             answer, self.gateway_client,\nself.target_id, self.name)    934     935         for temp_arg in temp_args:\n>> /usr/local/linewalks/spark/spark/python/pyspark/sql/utils.pyc in deco(*a, **kw) \n   61     def deco(*a, **kw):     62         try:---> 63             return f(*a, **kw)\n    64         except py4j.protocol.Py4JJavaError as e:     65             s = e.java_exception.toString()\n>> /usr/local/linewalks/spark/spark/python/lib/py4j-0.10.1-src.zip/py4j/protocol.py\nin get_return_value(answer, gateway_client, target_id, name)    310                 raise\nPy4JJavaError(    311                     \"An error occurred while calling {0}{1}{2}.\\n\".-->\n312                     format(target_id, \".\", name), value)    313             else:    314\n                raise Py4JError(\n>> Py4JJavaError: An error occurred while calling o1331.count.\n>> : org.apache.spark.SparkException: Job aborted due to stage failure: Task 178 in\nstage 324.0 failed 4 times, most recent failure: Lost task 178.3 in stage 324.0 (TID 14274,\n7.linewalks.local): org.apache.spark.api.python.PythonException: Traceback (most recent call\nlast):\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 172, in main\n>>     process()\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 167, in process\n>>     serializer.dump_stream(func(split_index, iterator), outfile)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 106, in <lambda>\n>>     func = lambda _, it: map(mapper, it)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 92, in <lambda>\n>>     mapper = lambda a: udf(*a)\n>>   File \"/home/hadoop/hdtmp/nm-local-dir/usercache/hadoop/appcache/application_1491889279272_0040/container_1491889279272_0040_01_000003/pyspark.zip/pyspark/worker.py\",\nline 70, in <lambda>\n>>     return lambda *a: f(*a)\n>>   File \"<ipython-input-22-457936c8f59f>\", line 3, in <lambda>\n>> TypeError: sequence item 0: expected string, NoneType found\n>>\n>>\n>\n>\n> --\n> ---\n> Takeshi Yamamuro\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2660"
+}

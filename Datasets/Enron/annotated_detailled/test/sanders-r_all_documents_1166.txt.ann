@@ -1,0 +1,249 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Richard B Sanders/HOU/ECT on 12/18/2000 02:23 PM -----\n\n\tBritt Davis@ENRON\n\t12/18/2000 01:43 PM\n\t\t\n\t\t To: Cheryl Marshall/HOU/ECT@ECT\n\t\t cc: Steve HPL Schneider/HOU/ECT@ECT, Ann Elizabeth White/HOU/ECT@ECT, \nRichard B Sanders/HOU/ECT@ECT, Linda R Guinn/HOU/ECT@ECT, Becky \nZikes/Corp/Enron@ENRON\n\t\t Subject: Re: HPL v. Shanghai\n\nDone.  It will go out tonight by Federal Express and to Shanghai and its \nattorneys by messenger today.  I believe that I've blind-copied everybody on \nthis.\n\nI will continue to keep you advised.\n\nBritt\n\n\n\n\tCheryl Marshall@ECT\n\t12/18/2000 12:58 PM\n\t\t\n\t\t To: Britt Davis/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: HPL v. Shanghai\n\nYou have the number right!  Please see the attached Excel spreadsheet for \nmore detailed information on payments made.  Please proceed with sending out \nthe arbitration form.  Thanks!\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 36,
+      "text": "Richard B Sanders",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 48,
+      "end": 58,
+      "text": "12/18/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 59,
+      "end": 67,
+      "text": "02:23 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 74,
+      "text": "----- Forwarded by Richard B Sanders/HOU/ECT on 12/18/2000 02:23 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 76,
+      "end": 87,
+      "text": "Britt Davis",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 95,
+      "end": 105,
+      "text": "12/18/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 106,
+      "end": 114,
+      "text": "01:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 125,
+      "end": 140,
+      "text": "Cheryl Marshall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 160,
+      "end": 179,
+      "text": "Steve HPL Schneider",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 193,
+      "end": 212,
+      "text": "Ann Elizabeth White",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 227,
+      "end": 244,
+      "text": "Richard B Sanders",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 258,
+      "end": 271,
+      "text": "Linda R Guinn",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 285,
+      "end": 297,
+      "text": "Becky \nZikes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 326,
+      "end": 346,
+      "text": " Re: HPL v. Shanghai",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 74,
+      "end": 347,
+      "text": "\n\tBritt Davis@ENRON\n\t12/18/2000 01:43 PM\n\t\t\n\t\t To: Cheryl Marshall/HOU/ECT@ECT\n\t\t cc: Steve HPL Schneider/HOU/ECT@ECT, Ann Elizabeth White/HOU/ECT@ECT, \nRichard B Sanders/HOU/ECT@ECT, Linda R Guinn/HOU/ECT@ECT, Becky \nZikes/Corp/Enron@ENRON\n\t\t Subject: Re: HPL v. Shanghai\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 545,
+      "end": 550,
+      "text": "Britt",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 347,
+      "end": 554,
+      "text": "\nDone.  It will go out tonight by Federal Express and to Shanghai and its \nattorneys by messenger today.  I believe that I've blind-copied everybody on \nthis.\n\nI will continue to keep you advised.\n\nBritt\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 555,
+      "end": 570,
+      "text": "Cheryl Marshall",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 576,
+      "end": 586,
+      "text": "12/18/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 587,
+      "end": 595,
+      "text": "12:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 606,
+      "end": 617,
+      "text": "Britt Davis",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 655,
+      "end": 674,
+      "text": "Re: HPL v. Shanghai",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 555,
+      "end": 675,
+      "text": "Cheryl Marshall@ECT\n\t12/18/2000 12:58 PM\n\t\t\n\t\t To: Britt Davis/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: HPL v. Shanghai\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 675,
+      "end": 863,
+      "text": "\nYou have the number right!  Please see the attached Excel spreadsheet for \nmore detailed information on payments made.  Please proceed with sending out \nthe arbitration form.  Thanks!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 852,
+      "end": 859,
+      "text": "Thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 16,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 21,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17123339.1075853198476.JavaMail.evans@thyme>",
+      "Date": "Mon, 18 Dec 2000 06:23:00 -0800 (PST)",
+      "From": "richard.sanders@enron.com",
+      "To": "linda.guinn@enron.com",
+      "Subject": "Re: HPL v. Shanghai",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Richard B Sanders",
+      "X-To": "Linda R Guinn",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_1166.txt"
+}

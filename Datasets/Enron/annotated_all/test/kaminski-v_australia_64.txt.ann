@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Quentin,\n\nI forwarded your resume to our Sydney office with a request\nto invite you for an introductory interview. I would also like  to \narrange a phone interview with you sometimes next week.\nMy assistant will call you regarding the timing.\n\nVince",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Quentin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 244,
+      "end": 249,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 249,
+      "text": "Quentin,\n\nI forwarded your resume to our Sydney office with a request\nto invite you for an introductory interview. I would also like  to \narrange a phone interview with you sometimes next week.\nMy assistant will call you regarding the timing.\n\nVince",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30669729.1075856566299.JavaMail.evans@thyme>",
+      "Date": "Fri, 11 Aug 2000 00:40:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "qkerr@maths.uq.edu.au",
+      "Subject": "Re: my first draft",
+      "Cc": "vince.kaminski@enron.com, shirley.crenshaw@enron.com, raymond.yeow@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com, shirley.crenshaw@enron.com, raymond.yeow@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"qkerr\" <qkerr@maths.uq.edu.au> @ ENRON",
+      "X-cc": "Vince J Kaminski, Shirley Crenshaw, Raymond Yeow",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Australia",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_australia_64.txt"
+}

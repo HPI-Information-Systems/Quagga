@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "I need the exact budget calender from here forward for every business unit in Enron Corp.\n \nThanks.\n \n\nGreg Piper \nPresident & CEO \n\nEnron Net Works LLC\n\n  _____  \n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 92,
+      "end": 100,
+      "text": "Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 103,
+      "end": 113,
+      "text": "Greg Piper",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 115,
+      "end": 130,
+      "text": "President & CEO",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 133,
+      "end": 152,
+      "text": "Enron Net Works LLC",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 103,
+      "end": 164,
+      "text": "Greg Piper \nPresident & CEO \n\nEnron Net Works LLC\n\n  _____  \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 166,
+      "text": "I need the exact budget calender from here forward for every business unit in Enron Corp.\n \nThanks.\n \n\nGreg Piper \nPresident & CEO \n\nEnron Net Works LLC\n\n  _____  \n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30778015.1075858752791.JavaMail.evans@thyme>",
+      "Date": "Mon, 15 Oct 2001 12:51:06 -0700 (PDT)",
+      "From": "greg.piper@enron.com",
+      "To": "sally.beck@enron.com, kerry.roper@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Piper, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GPIPER>",
+      "X-To": "Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbeck>, Roper, Kerry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kroper>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Inbox",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_inbox_523.txt"
+}

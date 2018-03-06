@@ -1,0 +1,22 @@
+Peter
+The common setup is to use copyfield from all your fields into a 'grab bag' containing everything,
+and then to search on it alone. Cheers -- Rick
+
+On August 2, 2017 7:31:10 AM EDT, Peter Kirk <pk@alpha-solutions.dk> wrote:
+>Hi - is it possible to create a query (or fq) which generates the field
+>to search on, based on whether or not the document has that field?
+>
+>Eg. Search for documents with prices in the range 100 - 200, using
+>either the field "price_owner_float" or "price_customer_float" (if a
+>document has a field "price_owner_float" then use that, otherwise use
+>the field "price_customer_float").
+>
+>This gives a syntax error:
+>fq=if(exists(price_owner_float),price_owner_float,price_customer_float):[100
+>TO 200]
+>
+>Thanks,
+>Peter
+
+-- 
+Sorry for being brief. Alternate email is rickleir at yahoo dot com 

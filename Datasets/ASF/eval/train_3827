@@ -1,0 +1,31 @@
+Hi all! I added a S3 bucketing sink operator to my flink job and tried to
+start it from a savepoint using --allowNonRestoreState option, and it's
+showing me this error:
+<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_exception.png>
+
+
+I found on Flink official document saying:
+<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_state.png>
+
+So I suppose the restoration should succeed even if the operator number
+doesn't match. Can someone explain to me why this happens, and what's the
+possible solution?
+
+FYI, some specs:
+Flink version: 1.2.1
+Job parallelism: 10
+S3 sink parallelism: 1
+Job execution graph: 
+<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/s3_sink_graph.png>
+
+
+
+Thanks
+
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Cannot-restore-from-savepoint-after-adding-a-sink-operator-tp14674.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+

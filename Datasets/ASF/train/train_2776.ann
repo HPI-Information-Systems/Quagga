@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nAs you know that json facet api returns inconsistent counts in cloud set up\n(SOLR-7452). I would like to learn that is the situation same for Solr SQL\nqueries too?\n\nKind Regards,\nFurkan KAMACI\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 169,
+      "end": 198,
+      "text": "\nKind Regards,\nFurkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 199,
+      "text": "Hi,\n\nAs you know that json facet api returns inconsistent counts in cloud set up\n(SOLR-7452). I would like to learn that is the situation same for Solr SQL\nqueries too?\n\nKind Regards,\nFurkan KAMACI\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2776"
+}

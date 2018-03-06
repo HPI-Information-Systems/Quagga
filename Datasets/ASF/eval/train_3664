@@ -1,0 +1,50 @@
+Hi Biplob,
+
+given these requirements, I would rather not use a window but implement the
+functionality with a stateful ProcessFunction.
+A ProcessFunction can register timers, e.g., to remove inactive state. The
+state of a ProcessFunction can be made queryable.
+
+Best, Fabian
+
+2017-07-31 9:52 GMT+02:00 Biplob Biswas <revolutionisme@gmail.com>:
+
+> Thanks Fabian for the reply, I was reconsidering my design and the
+> requirement and what I mentioned already is partially confusing.
+>
+> I realized that using a sessionwindow is better in this scenario where I
+> want a value to be updated per key and the session resets to wait for the
+> gap period with every update after which it should be removed.
+>
+> From whatever I read currently about session windows (and windows in
+> general), is that I can perform aggregates over it. What I was thinking was
+> that rather than performing an aggregate or reduce, I can simply replace
+> the
+> old value.
+>
+> now my problem is, would such a state be queryable?
+>
+> As you mentioned that siding windows are defined on streams, is it the same
+> for session windows?
+>
+> "I basically want a state which updates by key, and where records can
+> self-destruct after a fixed amount of time(basically records being part of
+> a
+> session) if not updated (such that the state doesn't grow indefinitely)?"
+>
+> Are there any abstractions to do the same and if not, is it possible to
+> discuss if this can be done otherwise?
+>
+> Thanks a lot,
+> Biplob
+>
+>
+>
+> --
+> View this message in context: http://apache-flink-user-
+> mailing-list-archive.2336050.n4.nabble.com/Flink-
+> QueryableState-with-Sliding-Window-on-RocksDB-tp14514p14549.html
+> Sent from the Apache Flink User Mailing List archive. mailing list archive
+> at Nabble.com.
+>
+

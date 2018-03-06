@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Stefan is correct in pointing out the lines to remove.\n\nFYI: We are trying to add this patch to the upcoming 1.3.2 release which\nshould also help: https://github.com/apache/flink/pull/4397\n\nOn Wed, Jul 26, 2017 at 9:48 AM, Stefan Richter <s.richter@data-artisans.com\n> wrote:\n\n> Hi,\n>\n> I think Stephan was talking about removing this part:\n>\n>         try {\n>                 FileUtils.deletePathIfEmpty(fs, filePath.getParent());\n>         } catch (Exception ignored) {}\n>\n>\n> This part should *NOT* be removed:\n>\n>         fs.delete(filePath, false);\n>\n> The reason is that the first is only an additional cleanup that, for each\n> deleted file, checks if the containing directory is now empty and then\n> removes the directory. Checking for empty directories includes listing all\n> files in the directory, which is expensive in S3 and the only downside of\n> removing the line are orphaned empty checkpoint directories, which could be\n> cleaned by a script.\n>\n> Delete of the file itself must remain because that is how we release files\n> from old checkpoints.\n>\n> Best,\n> Stefan\n>\n> > Am 26.07.2017 um 04:31 schrieb prashantnayak <\n> prashant@intellifylearning.com>:\n> >\n> > Hi Stephan\n> >\n> > Unclear on what you mean by the \"trash\" option... thought that was only\n> > available for command line hadoop and not applicable for API, which is\n> what\n> > Flink uses?  If there is a configuration for the Flink/Hadoop connector,\n> > please let me know.\n> >\n> > Also, one additional thing about S3.... S3 supports this option of\n> > \"versioned\" buckets... Since versioning basically results in a delete on\n> a\n> > object not actually deleting it (unless there is a bucket lifecycle\n> > policy)... I think you should recommend that Flink users that rely on S3\n> > turn off bucket versioning since it seems to not really be a factor for\n> > Flink...\n> >\n> > Thanks\n> > Prashant\n> >\n> >\n> >\n> > --\n> > View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/S3-recovery-and-\n> checkpoint-directories-exhibit-explosive-growth-tp14270p14453.html\n> > Sent from the Apache Flink User Mailing List archive. mailing list\n> archive at Nabble.com.\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 190,
+      "text": "Stefan is correct in pointing out the lines to remove.\n\nFYI: We are trying to add this patch to the upcoming 1.3.2 release which\nshould also help: https://github.com/apache/flink/pull/4397\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 190,
+      "end": 276,
+      "text": "On Wed, Jul 26, 2017 at 9:48 AM, Stefan Richter <s.richter@data-artisans.com\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 276,
+      "end": 283,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1062,
+      "end": 1081,
+      "text": ">\n> Best,\n> Stefan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 276,
+      "end": 1083,
+      "text": "\n> Hi,\n>\n> I think Stephan was talking about removing this part:\n>\n>         try {\n>                 FileUtils.deletePathIfEmpty(fs, filePath.getParent());\n>         } catch (Exception ignored) {}\n>\n>\n> This part should *NOT* be removed:\n>\n>         fs.delete(filePath, false);\n>\n> The reason is that the first is only an additional cleanup that, for each\n> deleted file, checks if the containing directory is now empty and then\n> removes the directory. Checking for empty directories includes listing all\n> files in the directory, which is expensive in S3 and the only downside of\n> removing the line are orphaned empty checkpoint directories, which could be\n> cleaned by a script.\n>\n> Delete of the file itself must remain because that is how we release files\n> from old checkpoints.\n>\n> Best,\n> Stefan\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1083,
+      "end": 1169,
+      "text": "> > Am 26.07.2017 um 04:31 schrieb prashantnayak <\n> prashant@intellifylearning.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1169,
+      "end": 1188,
+      "text": "> >\n> > Hi Stephan\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1845,
+      "end": 1873,
+      "text": "> >\n> > Thanks\n> > Prashant\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1169,
+      "end": 2184,
+      "text": "> >\n> > Hi Stephan\n> >\n> > Unclear on what you mean by the \"trash\" option... thought that was only\n> > available for command line hadoop and not applicable for API, which is\n> what\n> > Flink uses?  If there is a configuration for the Flink/Hadoop connector,\n> > please let me know.\n> >\n> > Also, one additional thing about S3.... S3 supports this option of\n> > \"versioned\" buckets... Since versioning basically results in a delete on\n> a\n> > object not actually deleting it (unless there is a bucket lifecycle\n> > policy)... I think you should recommend that Flink users that rely on S3\n> > turn off bucket versioning since it seems to not really be a factor for\n> > Flink...\n> >\n> > Thanks\n> > Prashant\n> >\n> >\n> >\n> > --\n> > View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/S3-recovery-and-\n> checkpoint-directories-exhibit-explosive-growth-tp14270p14453.html\n> > Sent from the Apache Flink User Mailing List archive. mailing list\n> archive at Nabble.com.\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3457"
+}

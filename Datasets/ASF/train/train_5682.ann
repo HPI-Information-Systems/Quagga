@@ -1,0 +1,144 @@
+{
+  "wrapper": "plaintext",
+  "text": "What are the results of adding &debug=query to the URL? The parsed\nquery will be especially illuminating.\n\nBest,\nErick\n\nOn Mon, Aug 28, 2017 at 4:37 AM, Emir Arnautovic\n<emir.arnautovic@sematext.com> wrote:\n> Hi Darko,\n>\n> The issue is the wrong expectations: title-1-end is parsed to 3 tokens\n> (guessing) and mm=99% of 3 tokens is 2.99 and it is rounded down to 2. Since\n> all your documents have 'title' and 'end' tokens, all match. If you want to\n> round up, you can use mm=-1% - that will result in zero (or one match if you\n> do not filter out original document).\n>\n> You have to play with your tokenizers and define what is similarity match\n> percentage (if you want to stick with mm).\n>\n> Regards,\n> Emir\n>\n>\n>\n> On 28.08.2017 09:17, Darko Todoric wrote:\n>>\n>> Hm... I cannot make that this DisMax work on my Solr...\n>>\n>> In solr I have document with title:\n>>  - \"title-1-end\"\n>>  - \"title-2-end\"\n>>  - \"title-3-end\"\n>>  - ...\n>>  - ...\n>>  - \"title-312-end\"\n>>\n>> and when I make query\n>> \"*http://localhost:8983/solr/SciLit/select?defType=dismax&indent=on&mm=99%&q=title:\"title-123123123-end\"&wt=json*'\n>> I get all documents from solr :\\\n>> What I doing wrong?\n>>\n>> Also, I don't know if affecting results, but on \"title\" field I use\n>> \"WhitespaceTokenizerFactory\".\n>>\n>> Kind regards,\n>> Darko\n>>\n>>\n>> On 08/25/2017 06:38 PM, Junte Zhang wrote:\n>>>\n>>> If you already have the title of the document, then you could run that\n>>> title as a new query against the whole index and exclude the source document\n>>> from the results as a filter.\n>>>\n>>> You could use the DisMax query parser:\n>>> https://cwiki.apache.org/confluence/display/solr/The+DisMax+Query+Parser\n>>>\n>>> And then set the minimum match ratio of the OR clauses to 90%.\n>>>\n>>> /JZ\n>>>\n>>> -----Original Message-----\n>>> From: Darko Todoric [mailto:todoric@mdpi.com]\n>>> Sent: Friday, August 25, 2017 5:49 PM\n>>> To: solr-user@lucene.apache.org\n>>> Subject: Search by similarity?\n>>>\n>>> Hi,\n>>>\n>>>\n>>> I have 90.000.000 documents in Solr and I need to compare \"title\" of this\n>>> document and get all documents with more than 80% similarity. PHP have\n>>> \"similar_text\" but it's not so smart inserting 90m documents in the array...\n>>> Can I do some query in Solr which will give me the more the 80%\n>>> similarity?\n>>>\n>>>\n>>> Kind regards,\n>>> Darko Todoric\n>>>\n>>> --\n>>> Darko Todoric\n>>> Web Engineer, MDPI DOO\n>>> Veljka Dugosevica 54, 11060 Belgrade, Serbia\n>>> +381 65 43 90 620\n>>> www.mdpi.com\n>>>\n>>> Disclaimer: The information and files contained in this message are\n>>> confidential and intended solely for the use of the individual or entity to\n>>> whom they are addressed.\n>>> f you have received this message in error, please notify me and delete\n>>> this message from your system.\n>>> You may not copy this message in its entirety or in part, or disclose its\n>>> contents to anyone.\n>>>\n>>\n>\n> --\n> Monitoring * Alerting * Anomaly Detection * Centralized Log Management\n> Solr & Elasticsearch Support * http://sematext.com/\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 106,
+      "end": 119,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 120,
+      "text": "What are the results of adding &debug=query to the URL? The parsed\nquery will be especially illuminating.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 120,
+      "end": 207,
+      "text": "On Mon, Aug 28, 2017 at 4:37 AM, Emir Arnautovic\n<emir.arnautovic@sematext.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 207,
+      "end": 219,
+      "text": "> Hi Darko,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 693,
+      "end": 713,
+      "text": ">\n> Regards,\n> Emir\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 207,
+      "end": 719,
+      "text": "> Hi Darko,\n>\n> The issue is the wrong expectations: title-1-end is parsed to 3 tokens\n> (guessing) and mm=99% of 3 tokens is 2.99 and it is rounded down to 2. Since\n> all your documents have 'title' and 'end' tokens, all match. If you want to\n> round up, you can use mm=-1% - that will result in zero (or one match if you\n> do not filter out original document).\n>\n> You have to play with your tokenizers and define what is similarity match\n> percentage (if you want to stick with mm).\n>\n> Regards,\n> Emir\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 719,
+      "end": 763,
+      "text": "> On 28.08.2017 09:17, Darko Todoric wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1281,
+      "end": 1310,
+      "text": ">>\n>> Kind regards,\n>> Darko\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 763,
+      "end": 1316,
+      "text": ">>\n>> Hm... I cannot make that this DisMax work on my Solr...\n>>\n>> In solr I have document with title:\n>>  - \"title-1-end\"\n>>  - \"title-2-end\"\n>>  - \"title-3-end\"\n>>  - ...\n>>  - ...\n>>  - \"title-312-end\"\n>>\n>> and when I make query\n>> \"*http://localhost:8983/solr/SciLit/select?defType=dismax&indent=on&mm=99%&q=title:\"title-123123123-end\"&wt=json*'\n>> I get all documents from solr :\\\n>> What I doing wrong?\n>>\n>> Also, I don't know if affecting results, but on \"title\" field I use\n>> \"WhitespaceTokenizerFactory\".\n>>\n>> Kind regards,\n>> Darko\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1316,
+      "end": 1362,
+      "text": ">> On 08/25/2017 06:38 PM, Junte Zhang wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1751,
+      "end": 1763,
+      "text": ">>>\n>>> /JZ\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1362,
+      "end": 1767,
+      "text": ">>>\n>>> If you already have the title of the document, then you could run that\n>>> title as a new query against the whole index and exclude the source document\n>>> from the results as a filter.\n>>>\n>>> You could use the DisMax query parser:\n>>> https://cwiki.apache.org/confluence/display/solr/The+DisMax+Query+Parser\n>>>\n>>> And then set the minimum match ratio of the OR clauses to 90%.\n>>>\n>>> /JZ\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1767,
+      "end": 1961,
+      "text": ">>> -----Original Message-----\n>>> From: Darko Todoric [mailto:todoric@mdpi.com]\n>>> Sent: Friday, August 25, 2017 5:49 PM\n>>> To: solr-user@lucene.apache.org\n>>> Subject: Search by similarity?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1961,
+      "end": 1973,
+      "text": ">>>\n>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2303,
+      "end": 2343,
+      "text": ">>>\n>>> Kind regards,\n>>> Darko Todoric\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2347,
+      "end": 2487,
+      "text": ">>> --\n>>> Darko Todoric\n>>> Web Engineer, MDPI DOO\n>>> Veljka Dugosevica 54, 11060 Belgrade, Serbia\n>>> +381 65 43 90 620\n>>> www.mdpi.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1961,
+      "end": 3028,
+      "text": ">>>\n>>> Hi,\n>>>\n>>>\n>>> I have 90.000.000 documents in Solr and I need to compare \"title\" of this\n>>> document and get all documents with more than 80% similarity. PHP have\n>>> \"similar_text\" but it's not so smart inserting 90m documents in the array...\n>>> Can I do some query in Solr which will give me the more the 80%\n>>> similarity?\n>>>\n>>>\n>>> Kind regards,\n>>> Darko Todoric\n>>>\n>>> --\n>>> Darko Todoric\n>>> Web Engineer, MDPI DOO\n>>> Veljka Dugosevica 54, 11060 Belgrade, Serbia\n>>> +381 65 43 90 620\n>>> www.mdpi.com\n>>>\n>>> Disclaimer: The information and files contained in this message are\n>>> confidential and intended solely for the use of the individual or entity to\n>>> whom they are addressed.\n>>> f you have received this message in error, please notify me and delete\n>>> this message from your system.\n>>> You may not copy this message in its entirety or in part, or disclose its\n>>> contents to anyone.\n>>>\n>>\n>\n> --\n> Monitoring * Alerting * Anomaly Detection * Centralized Log Management\n> Solr & Elasticsearch Support * http://sematext.com/\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5682"
+}

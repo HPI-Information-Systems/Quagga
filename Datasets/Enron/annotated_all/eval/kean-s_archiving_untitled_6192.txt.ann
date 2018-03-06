@@ -1,0 +1,139 @@
+{
+  "wrapper": "plaintext",
+  "text": "the format looks good to me.  I'd suggest that you prepare the talking points \nfor Jeff and schedule some time to brief him in advance.  I got a response \nfrom ted on Fri to the voicemail i left for him.  It sounded like he fully \nunderstood your role and would take the appropriate steps with respect to the \nrecruiters.  Is it straightened out now?\n\n\n\n\tLisa Connolly\n\t01/23/2001 05:04 PM\n\t\t \n\t\t To: Jeff Skilling/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron\n\t\t cc: Sherri Sera/Corp/Enron@ENRON, Katherine Brown/Corp/Enron@ENRON, \nKatherine Brown/Corp/Enron@ENRON\n\t\t Subject: News Conference Layout\n\nScheduled for Febr. 1 at 2pm.\n\nLocation - at a fire station in a Hispanic Community - exact location will be \nforwarded shortly but estimated distance from ENE office = less than 15 min.\n\nExpect News Conference to last a total of 30 minutes, including Q&A. Jeff \nSkilling will be spokesperson for Selection Committee. However, we will try \nto have as many committee members present as possible. \n\nMayor will likely discuss (estimated time = 10 min.):\n - changes that are required at HFD - potential need to bring in an outsider, \netc...\n - reasoning behind involvement of Enron/Jeff Skilling & formation of \nselection committee - de-politicize the process, etc...\n\nJS should speak about the following (estimated time = 10-15 min.):\n - how he became involved in the process\n - how the committee members were selected\n - who the members are with a brief background on each (We plan to provide a \nbio on each of the committee members as part of the press release)\n - time line for Fire Chief selection \n\nQ&A (estimated time = 5-10 min.)\n - expect questions along the lines of: Are the meetings going to be open or \nclosed?, Outsider vs. Insider related questions...\n\nPlease let me know if you have any questions/comments/issues with the above. \nI'll coordinate collection of Bios from Committee members. Anything else I \ncan do to help out here?\n\nLisa\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 354,
+      "text": "the format looks good to me.  I'd suggest that you prepare the talking points \nfor Jeff and schedule some time to brief him in advance.  I got a response \nfrom ted on Fri to the voicemail i left for him.  It sounded like he fully \nunderstood your role and would take the appropriate steps with respect to the \nrecruiters.  Is it straightened out now?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 355,
+      "end": 368,
+      "text": "Lisa Connolly",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 370,
+      "end": 380,
+      "text": "01/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 381,
+      "end": 389,
+      "text": "05:04 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 401,
+      "end": 414,
+      "text": "Jeff Skilling",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 433,
+      "end": 446,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 469,
+      "end": 480,
+      "text": "Sherri Sera",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 499,
+      "end": 514,
+      "text": "Katherine Brown",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 534,
+      "end": 549,
+      "text": "Katherine Brown",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 579,
+      "end": 601,
+      "text": "News Conference Layout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 355,
+      "end": 602,
+      "text": "Lisa Connolly\n\t01/23/2001 05:04 PM\n\t\t \n\t\t To: Jeff Skilling/Corp/Enron@ENRON, Steven J Kean/NA/Enron@Enron\n\t\t cc: Sherri Sera/Corp/Enron@ENRON, Katherine Brown/Corp/Enron@ENRON, \nKatherine Brown/Corp/Enron@ENRON\n\t\t Subject: News Conference Layout\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1947,
+      "end": 1951,
+      "text": "Lisa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 602,
+      "end": 1952,
+      "text": "\nScheduled for Febr. 1 at 2pm.\n\nLocation - at a fire station in a Hispanic Community - exact location will be \nforwarded shortly but estimated distance from ENE office = less than 15 min.\n\nExpect News Conference to last a total of 30 minutes, including Q&A. Jeff \nSkilling will be spokesperson for Selection Committee. However, we will try \nto have as many committee members present as possible. \n\nMayor will likely discuss (estimated time = 10 min.):\n - changes that are required at HFD - potential need to bring in an outsider, \netc...\n - reasoning behind involvement of Enron/Jeff Skilling & formation of \nselection committee - de-politicize the process, etc...\n\nJS should speak about the following (estimated time = 10-15 min.):\n - how he became involved in the process\n - how the committee members were selected\n - who the members are with a brief background on each (We plan to provide a \nbio on each of the committee members as part of the press release)\n - time line for Fire Chief selection \n\nQ&A (estimated time = 5-10 min.)\n - expect questions along the lines of: Are the meetings going to be open or \nclosed?, Outsider vs. Insider related questions...\n\nPlease let me know if you have any questions/comments/issues with the above. \nI'll coordinate collection of Bios from Committee members. Anything else I \ncan do to help out here?\n\nLisa\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20050346.1075847792514.JavaMail.evans@thyme>",
+      "Date": "Wed, 24 Jan 2001 00:06:00 -0800 (PST)",
+      "From": "steven.kean@enron.com",
+      "To": "lisa.connolly@enron.com",
+      "Subject": "Re: News Conference Layout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Lisa Connolly",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_2\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_6192.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "wrapper": "plaintext",
+  "text": "November 20.  Sorry for the confusion.\n\nTS\n\n -----Original Message-----\nFrom: \tSpiller, Tina  \nSent:\tFriday, November 16, 2001 4:54 PM\nTo:\tPiper, Greg; Beck, Sally; Pickering, Mark; Apollo, Beth; Barnard, Marla; Dayao, Anthony; Gros, Thomas D.; Hall, Bob M; Hotte, Steve; Pearce, Barry; Perlman, Beth; Richter, Brad; Rub, Jenny; Webb, Jay\nCc:\tValdez, Christina; Costello, Lisa; Chisley, Katherine; Carrizales, Blanca; Stone, Sandy; Lapsley, Carol; Flores-Cuellar, Brenda; Choate, Heather; Villarreal, Lillian; Houser, Rita; Perkins, Kim; Westbrook, Cherylene R.; Cannon, Lydia; Estrada, Mercedes E.; Weatherstone, Mary\nSubject:\tTalent Review Meeting\n\nPlease attend a Talent Review Meeting on Tuesday, November 19.  Details...\n\nTuesday, November 19\n8:00 - 11:00 a.m.\nECS 04075\n\nThanks,\n\nTina Spiller\nAssistant to Greg Piper\nPresident & CEO\nEnron Net Works LLC\nPhone 713.853.5746\nFax 713.646.8070\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 40,
+      "end": 42,
+      "text": "TS",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 44,
+      "text": "November 20.  Sorry for the confusion.\n\nTS\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 79,
+      "end": 92,
+      "text": "Spiller, Tina",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 109,
+      "end": 126,
+      "text": "November 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 127,
+      "end": 134,
+      "text": "4:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 139,
+      "end": 150,
+      "text": "Piper, Greg",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 152,
+      "end": 163,
+      "text": "Beck, Sally",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 165,
+      "end": 180,
+      "text": "Pickering, Mark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 182,
+      "end": 194,
+      "text": "Apollo, Beth",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 196,
+      "end": 210,
+      "text": "Barnard, Marla",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 212,
+      "end": 226,
+      "text": "Dayao, Anthony",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 228,
+      "end": 243,
+      "text": "Gros, Thomas D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 245,
+      "end": 256,
+      "text": "Hall, Bob M",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 258,
+      "end": 270,
+      "text": "Hotte, Steve",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 272,
+      "end": 285,
+      "text": "Pearce, Barry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 287,
+      "end": 300,
+      "text": "Perlman, Beth",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 302,
+      "end": 315,
+      "text": "Richter, Brad",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 317,
+      "end": 327,
+      "text": "Rub, Jenny",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 329,
+      "end": 338,
+      "text": "Webb, Jay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 343,
+      "end": 360,
+      "text": "Valdez, Christina",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 362,
+      "end": 376,
+      "text": "Costello, Lisa",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 378,
+      "end": 396,
+      "text": "Chisley, Katherine",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 398,
+      "end": 416,
+      "text": "Carrizales, Blanca",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 418,
+      "end": 430,
+      "text": "Stone, Sandy",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 432,
+      "end": 446,
+      "text": "Lapsley, Carol",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 448,
+      "end": 470,
+      "text": "Flores-Cuellar, Brenda",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 472,
+      "end": 487,
+      "text": "Choate, Heather",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 489,
+      "end": 508,
+      "text": "Villarreal, Lillian",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 510,
+      "end": 522,
+      "text": "Houser, Rita",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 524,
+      "end": 536,
+      "text": "Perkins, Kim",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 538,
+      "end": 561,
+      "text": "Westbrook, Cherylene R.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 563,
+      "end": 576,
+      "text": "Cannon, Lydia",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 578,
+      "end": 598,
+      "text": "Estrada, Mercedes E.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 600,
+      "end": 618,
+      "text": "Weatherstone, Mary",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 628,
+      "end": 649,
+      "text": "Talent Review Meeting",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 44,
+      "end": 650,
+      "text": " -----Original Message-----\nFrom: \tSpiller, Tina  \nSent:\tFriday, November 16, 2001 4:54 PM\nTo:\tPiper, Greg; Beck, Sally; Pickering, Mark; Apollo, Beth; Barnard, Marla; Dayao, Anthony; Gros, Thomas D.; Hall, Bob M; Hotte, Steve; Pearce, Barry; Perlman, Beth; Richter, Brad; Rub, Jenny; Webb, Jay\nCc:\tValdez, Christina; Costello, Lisa; Chisley, Katherine; Carrizales, Blanca; Stone, Sandy; Lapsley, Carol; Flores-Cuellar, Brenda; Choate, Heather; Villarreal, Lillian; Houser, Rita; Perkins, Kim; Westbrook, Cherylene R.; Cannon, Lydia; Estrada, Mercedes E.; Weatherstone, Mary\nSubject:\tTalent Review Meeting\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 786,
+      "end": 798,
+      "text": "Tina Spiller",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 799,
+      "end": 822,
+      "text": "Assistant to Greg Piper",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 823,
+      "end": 838,
+      "text": "President & CEO",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 839,
+      "end": 858,
+      "text": "Enron Net Works LLC",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 865,
+      "end": 877,
+      "text": "713.853.5746",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 882,
+      "end": 894,
+      "text": "713.646.8070",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 786,
+      "end": 895,
+      "text": "Tina Spiller\nAssistant to Greg Piper\nPresident & CEO\nEnron Net Works LLC\nPhone 713.853.5746\nFax 713.646.8070\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 777,
+      "end": 785,
+      "text": "Thanks,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 650,
+      "end": 895,
+      "text": "\nPlease attend a Talent Review Meeting on Tuesday, November 19.  Details...\n\nTuesday, November 19\n8:00 - 11:00 a.m.\nECS 04075\n\nThanks,\n\nTina Spiller\nAssistant to Greg Piper\nPresident & CEO\nEnron Net Works LLC\nPhone 713.853.5746\nFax 713.646.8070\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 38,
+      "target": 37,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 39,
+      "target": 38,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 37,
+      "target": 40,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 41,
+      "target": 37,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 42,
+      "target": 37,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 37,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 1,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19046207.1075862309931.JavaMail.evans@thyme>",
+      "Date": "Fri, 16 Nov 2001 14:59:15 -0800 (PST)",
+      "From": "tina.spiller@enron.com",
+      "To": "greg.piper@enron.com, sally.beck@enron.com, mark.pickering@enron.com, \n\tbeth.apollo@enron.com, marla.barnard@enron.com, \n\tanthony.dayao@enron.com, d..gros@enron.com, m.hall@enron.com, \n\tsteve.hotte@enron.com, barry.pearce@enron.com, \n\tbeth.perlman@enron.com, brad.richter@enron.com, jenny.rub@enron.com, \n\tjay.webb@enron.com",
+      "Subject": "RE: Talent Review Meeting",
+      "Cc": "christina.valdez@enron.com, lisa.costello@enron.com, \n\tkatherine.chisley@enron.com, blanca.carrizales@enron.com, \n\tsandy.stone@enron.com, carol.lapsley@enron.com, \n\tbrenda.flores-cuellar@enron.com, heather.choate@enron.com, \n\tlillian.villarreal@enron.com, rita.houser@enron.com, \n\tkim.perkins@enron.com, r..westbrook@enron.com, \n\tlydia.cannon@enron.com, e..estrada@enron.com, \n\tmary.weatherstone@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "christina.valdez@enron.com, lisa.costello@enron.com, \n\tkatherine.chisley@enron.com, blanca.carrizales@enron.com, \n\tsandy.stone@enron.com, carol.lapsley@enron.com, \n\tbrenda.flores-cuellar@enron.com, heather.choate@enron.com, \n\tlillian.villarreal@enron.com, rita.houser@enron.com, \n\tkim.perkins@enron.com, r..westbrook@enron.com, \n\tlydia.cannon@enron.com, e..estrada@enron.com, \n\tmary.weatherstone@enron.com",
+      "X-From": "Spiller, Tina </O=ENRON/OU=NA/CN=RECIPIENTS/CN=TSPILLE>",
+      "X-To": "Piper, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gpiper>, Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbeck>, Pickering, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MPICKER>, Apollo, Beth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bapollo>, Barnard, Marla </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mbarnar>, Dayao, Anthony </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Adayao>, Gros, Thomas D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tgros>, Hall, Bob M </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rhall3>, Hotte, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Shotte>, Pearce, Barry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BPearce>, Perlman, Beth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bperlman>, Richter, Brad </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Brichte>, Rub, Jenny </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jrub>, Webb, Jay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jwebb>",
+      "X-cc": "Valdez, Christina </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cvaldez>, Costello, Lisa </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lcostel>, Chisley, Katherine </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kchisley>, Carrizales, Blanca </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bcarriz>, Stone, Sandy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sstone2>, Lapsley, Carol </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clapsley>, Flores-Cuellar, Brenda </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bflores>, Choate, Heather </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hchoate>, Villarreal, Lillian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lvillar>, Houser, Rita </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rhouser>, Perkins, Kim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kperkin>, Westbrook, Cherylene R. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cwestbr>, Cannon, Lydia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lcanno2>, Estrada, Mercedes E. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mestrad>, Weatherstone, Mary </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mweathe>",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Beck, Sally\\Inbox",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_inbox_693.txt"
+}

@@ -1,0 +1,152 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks.  This will definitely help me.  --Sally \n\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Hector McLoughlin @ ENRON                           01/18/2001 11:45 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: Extension of Merit Allocation Deadline\n\nSally, \nI just learned that the deadline for merit allocations has been extended by \none more day to Tuesday the 23rd by 3 PM. \nhgm\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 42,
+      "end": 47,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 57,
+      "end": 82,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 85,
+      "text": "Thanks.  This will definitely help me.  --Sally \n\n\n\n   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 93,
+      "end": 110,
+      "text": "Hector McLoughlin",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 145,
+      "end": 155,
+      "text": "01/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 156,
+      "end": 164,
+      "text": "11:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 172,
+      "end": 182,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 210,
+      "end": 248,
+      "text": "Extension of Merit Allocation Deadline",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 86,
+      "end": 249,
+      "text": "From:  Hector McLoughlin @ ENRON                           01/18/2001 11:45 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: Extension of Merit Allocation Deadline\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 250,
+      "end": 255,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 378,
+      "end": 381,
+      "text": "hgm",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 249,
+      "end": 383,
+      "text": "\nSally, \nI just learned that the deadline for merit allocations has been extended by \none more day to Tuesday the 23rd by 3 PM. \nhgm\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31284873.1075856078122.JavaMail.evans@thyme>",
+      "Date": "Thu, 18 Jan 2001 03:57:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "hector.mcloughlin@enron.com",
+      "Subject": "Re: Extension of Merit Allocation Deadline",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Hector McLoughlin",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_sent_942.txt"
+}

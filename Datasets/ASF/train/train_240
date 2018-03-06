@@ -1,0 +1,58 @@
+Hmmm, have you changed any of the settings for autoAddReplcia? There
+are several parameters that govern how long before a replica would be
+added.
+
+But I suggest you use the Cloudera resources for this question, not
+only did they write this functionality, but Cloudera support is deeply
+embedded in HDFS and I suspect has _by far_ the most experience with
+it.
+
+And that said, anything you find out that would suggest good ways to
+clarify the docs would be most welcome!
+
+Best,
+Erick
+
+On Thu, Jan 12, 2017 at 8:42 AM, Shawn Heisey <apache@elyograg.org> wrote:
+> On 1/11/2017 7:14 PM, Chetas Joshi wrote:
+>> This is what I understand about how Solr works on HDFS. Please correct me
+>> if I am wrong.
+>>
+>> Although solr shard replication Factor = 1, HDFS default replication = 3.
+>> When the node goes down, the solr server running on that node goes down and
+>> hence the instance (core) representing the replica goes down. The data in
+>> on HDFS (distributed across all the datanodes of the hadoop cluster with 3X
+>> replication).  This is the reason why I have kept replicationFactor=1.
+>>
+>> As per the link:
+>> https://cwiki.apache.org/confluence/display/solr/Running+Solr+on+HDFS
+>> One benefit to running Solr in HDFS is the ability to automatically add new
+>> replicas when the Overseer notices that a shard has gone down. Because the
+>> "gone" index shards are stored in HDFS, a new core will be created and the
+>> new core will point to the existing indexes in HDFS.
+>>
+>> This is the expected behavior of Solr overseer which I am not able to see.
+>> After a couple of hours a node was assigned to host the shard but the
+>> status of the shard is still "down" and the instance dir is missing on that
+>> node for that particular shard_replica.
+>
+> As I said before, I know very little about HDFS, so the following could
+> be wrong, but it makes sense so I'll say it:
+>
+> I would imagine that Solr doesn't know or care what your HDFS
+> replication is ... the only replicas it knows about are the ones that it
+> is managing itself.  The autoAddReplicas feature manages *SolrCloud*
+> replicas, not HDFS replicas.
+>
+> I have seen people say that multiple SolrCloud replicas will take up
+> additional space in HDFS -- they do not point at the same index files.
+> This is because proper Lucene operation requires that it lock an index
+> and prevent any other thread/process from writing to the index at the
+> same time.  When you index, SolrCloud updates all replicas independently
+> -- the only time indexes are replicated is when you add a new replica or
+> a serious problem has occurred and an index needs to be recovered.
+>
+> Thanks,
+> Shawn
+>
+

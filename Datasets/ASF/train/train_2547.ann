@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_2547",
+  "meta": {},
+  "text": "Thanks Alex. Yes, I am using TIKA. So, to some extent it preserves the text\nflow.\n\nThere is something interesting in your reply, \"Or you could try using\nhighlighter to return only \nthe sentence. \".\n\nI didnt understand that bit. How do we use Highlighter to return the\nsentence?\n\nTo make sure, I want to return all sentences where the word \"Growth\"\nappears. \n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/keyword-in-context-for-PDF-document-tp4329754p4329794.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 551,
+      "text": "Thanks Alex. Yes, I am using TIKA. So, to some extent it preserves the text\nflow.\n\nThere is something interesting in your reply, \"Or you could try using\nhighlighter to return only \nthe sentence. \".\n\nI didnt understand that bit. How do we use Highlighter to return the\nsentence?\n\nTo make sure, I want to return all sentences where the word \"Growth\"\nappears. \n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/keyword-in-context-for-PDF-document-tp4329754p4329794.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "wrapper": "plaintext",
+  "text": "I did not bring my stuff. Maybe tomarrow. yes, i don't like the cold. \nBesides I want to go when its warm so the view will be more interesting on \nthe female joggers.\n\n\n>From: \"Parks, Joe\" <Joe.Parks@ENRON.com>\n>To: \"Erik Wollam\" <erwollam@hotmail.com>\n>Subject: RE: running\n>Date: Tue, 26 Feb 2002 09:03:42 -0600\n>\n>pussy\n>\n>-----Original Message-----\n>From: Erik Wollam [mailto:erwollam@hotmail.com]\n>Sent: Tuesday, February 26, 2002 9:03 AM\n>To: Parks, Joe\n>Subject: running\n>\n>\n>WWWWWWWWaaaaaaaaaaaaaaaayyyyyyyyyyyy to cold to run today. e\n>\n>\n>\n>\n>_________________________________________________________________\n>Join the world's largest e-mail service with MSN Hotmail.\n>http://www.hotmail.com\n>\n>\n>\n>**********************************************************************\n>This e-mail is the property of Enron Corp. and/or its relevant affiliate \n>and may contain confidential and privileged material for the sole use of \n>the intended recipient (s). Any review, use, distribution or disclosure by \n>others is strictly prohibited. If you are not the intended recipient (or \n>authorized to receive for the recipient), please contact the sender or \n>reply to Enron Corp. at enron.messaging.administration@enron.com and delete \n>all copies of the message. This e-mail (and any attachments hereto) are not \n>intended to be an offer (or an acceptance) and do not create or evidence a \n>binding and enforceable contract between Enron Corp. (or any of its \n>affiliates) and the intended recipient or any other party, and may not be \n>relied on by anyone as the basis of a contract by estoppel or otherwise. \n>Thank you.\n>**********************************************************************\n>\n\n\n\n\n_________________________________________________________________\nJoin the world's largest e-mail service with MSN Hotmail. \nhttp://www.hotmail.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 169,
+      "text": "I did not bring my stuff. Maybe tomarrow. yes, i don't like the cold. \nBesides I want to go when its warm so the view will be more interesting on \nthe female joggers.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 177,
+      "end": 187,
+      "text": "Parks, Joe",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 190,
+      "end": 209,
+      "text": "Joe.Parks@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 231,
+      "end": 251,
+      "text": "erwollam@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 217,
+      "end": 228,
+      "text": "Erik Wollam",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 263,
+      "end": 274,
+      "text": "RE: running",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 287,
+      "end": 298,
+      "text": "26 Feb 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 299,
+      "end": 313,
+      "text": "09:03:42 -0600",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 169,
+      "end": 314,
+      "text": ">From: \"Parks, Joe\" <Joe.Parks@ENRON.com>\n>To: \"Erik Wollam\" <erwollam@hotmail.com>\n>Subject: RE: running\n>Date: Tue, 26 Feb 2002 09:03:42 -0600\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 314,
+      "end": 325,
+      "text": ">\n>pussy\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 360,
+      "end": 371,
+      "text": "Erik Wollam",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 380,
+      "end": 400,
+      "text": "erwollam@hotmail.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 418,
+      "end": 435,
+      "text": "February 26, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 436,
+      "end": 443,
+      "text": "9:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 449,
+      "end": 459,
+      "text": "Parks, Joe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 470,
+      "end": 477,
+      "text": "running",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 325,
+      "end": 478,
+      "text": ">-----Original Message-----\n>From: Erik Wollam [mailto:erwollam@hotmail.com]\n>Sent: Tuesday, February 26, 2002 9:03 AM\n>To: Parks, Joe\n>Subject: running\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 708,
+      "end": 1693,
+      "text": ">**********************************************************************\n>This e-mail is the property of Enron Corp. and/or its relevant affiliate \n>and may contain confidential and privileged material for the sole use of \n>the intended recipient (s). Any review, use, distribution or disclosure by \n>others is strictly prohibited. If you are not the intended recipient (or \n>authorized to receive for the recipient), please contact the sender or \n>reply to Enron Corp. at enron.messaging.administration@enron.com and delete \n>all copies of the message. This e-mail (and any attachments hereto) are not \n>intended to be an offer (or an acceptance) and do not create or evidence a \n>binding and enforceable contract between Enron Corp. (or any of its \n>affiliates) and the intended recipient or any other party, and may not be \n>relied on by anyone as the basis of a contract by estoppel or otherwise. \n>Thank you.\n>**********************************************************************\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 552,
+      "end": 1846,
+      "text": ">_________________________________________________________________\n>Join the world's largest e-mail service with MSN Hotmail.\n>http://www.hotmail.com\n>\n>\n>\n>**********************************************************************\n>This e-mail is the property of Enron Corp. and/or its relevant affiliate \n>and may contain confidential and privileged material for the sole use of \n>the intended recipient (s). Any review, use, distribution or disclosure by \n>others is strictly prohibited. If you are not the intended recipient (or \n>authorized to receive for the recipient), please contact the sender or \n>reply to Enron Corp. at enron.messaging.administration@enron.com and delete \n>all copies of the message. This e-mail (and any attachments hereto) are not \n>intended to be an offer (or an acceptance) and do not create or evidence a \n>binding and enforceable contract between Enron Corp. (or any of its \n>affiliates) and the intended recipient or any other party, and may not be \n>relied on by anyone as the basis of a contract by estoppel or otherwise. \n>Thank you.\n>**********************************************************************\n>\n\n\n\n\n_________________________________________________________________\nJoin the world's largest e-mail service with MSN Hotmail. \nhttp://www.hotmail.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 478,
+      "end": 1846,
+      "text": ">\n>\n>WWWWWWWWaaaaaaaaaaaaaaaayyyyyyyyyyyy to cold to run today. e\n>\n>\n>\n>\n>_________________________________________________________________\n>Join the world's largest e-mail service with MSN Hotmail.\n>http://www.hotmail.com\n>\n>\n>\n>**********************************************************************\n>This e-mail is the property of Enron Corp. and/or its relevant affiliate \n>and may contain confidential and privileged material for the sole use of \n>the intended recipient (s). Any review, use, distribution or disclosure by \n>others is strictly prohibited. If you are not the intended recipient (or \n>authorized to receive for the recipient), please contact the sender or \n>reply to Enron Corp. at enron.messaging.administration@enron.com and delete \n>all copies of the message. This e-mail (and any attachments hereto) are not \n>intended to be an offer (or an acceptance) and do not create or evidence a \n>binding and enforceable contract between Enron Corp. (or any of its \n>affiliates) and the intended recipient or any other party, and may not be \n>relied on by anyone as the basis of a contract by estoppel or otherwise. \n>Thank you.\n>**********************************************************************\n>\n\n\n\n\n_________________________________________________________________\nJoin the world's largest e-mail service with MSN Hotmail. \nhttp://www.hotmail.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 15,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28016295.1075841371793.JavaMail.evans@thyme>",
+      "Date": "Tue, 26 Feb 2002 07:05:11 -0800 (PST)",
+      "From": "erwollam@hotmail.com",
+      "To": "joe.parks@enron.com",
+      "Subject": "RE: running",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Erik Wollam <erwollam@hotmail.com>",
+      "X-To": "Parks, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JPARKS>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Parks, Joe\\Deleted Items",
+      "X-Origin": "PARKS-J",
+      "X-FileName": "joe parks 6-26-02.pst"
+    }
+  },
+  "id": "train/parks-j_deleted_items_624.txt"
+}

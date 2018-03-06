@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "I am working on changing the log rotation, but looking at the message:\n\n2016-12-21 23:24:41.653 INFO  (qtp110456297-18) [c:sial-catalog-material\ns:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\no.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\npath=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&version=2}\nstatus=0 QTime=0\n\nI can't tell which class is generating it\n\nOn Thu, Dec 29, 2016 at 3:15 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> Seems like a bandaid would be to insure your Solr logs rotate\n> appropriately quickly.\n>\n> That doesn't address the CDCR loging verbosity, but it might get you by.\n>\n> You can also change the logging at the class level by appropriately\n> editing the\n> log4j properties file. Again perhaps not the best solution but one\n> that's immediately\n> available.\n>\n> Best,\n> Erick\n>\n> On Thu, Dec 29, 2016 at 10:37 AM, Webster Homer <webster.homer@sial.com>\n> wrote:\n> > The logs filled up the file system and caused CDCR to fail due to a\n> > corrupted Tlog file.\n> >\n> > On Thu, Dec 22, 2016 at 9:10 AM, Webster Homer <webster.homer@sial.com>\n> > wrote:\n> >\n> >> While testing CDCR I found that it is writing tons of log messages per\n> >> second. Example:\n> >> 2016-12-21 23:24:41.652 INFO  (qtp110456297-13) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.653 INFO  (qtp110456297-18) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.655 INFO  (qtp110456297-14) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.657 INFO  (qtp110456297-17) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >>\n> >>\n> >> These should be DEBUG messages and NOT INFO messages. Is there a way to\n> >> selectively turn them off?  The above is from a Target collection, it is\n> >> even worse on the Source side.\n> >>\n> >> I'd rather not change my logging level as most INFO messages are useful.\n> >>\n> >> This is a very poor default logging level for these messages.\n> >>\n> >\n> > --\n> >\n> >\n> > This message and any attachment are confidential and may be privileged or\n> > otherwise protected from disclosure. If you are not the intended\n> recipient,\n> > you must not copy this message or attachment or disclose the contents to\n> > any other person. If you have received this transmission in error, please\n> > notify the sender immediately and delete the message and any attachment\n> > from your system. Merck KGaA, Darmstadt, Germany and any of its\n> > subsidiaries do not accept liability for any omissions or errors in this\n> > message which may arise as a result of E-Mail-transmission or for damages\n> > resulting from any unauthorized changes of the content of this message\n> and\n> > any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n> > subsidiaries do not guarantee that this message is free of viruses and\n> does\n> > not accept liability for any damages caused by any virus transmitted\n> > therewith.\n> >\n> > Click http://www.merckgroup.com/disclaimer to access the German, French,\n> > Spanish and Portuguese versions of this disclaimer.\n>\n\n-- \n\n\nThis message and any attachment are confidential and may be privileged or \notherwise protected from disclosure. If you are not the intended recipient, \nyou must not copy this message or attachment or disclose the contents to \nany other person. If you have received this transmission in error, please \nnotify the sender immediately and delete the message and any attachment \nfrom your system. Merck KGaA, Darmstadt, Germany and any of its \nsubsidiaries do not accept liability for any omissions or errors in this \nmessage which may arise as a result of E-Mail-transmission or for damages \nresulting from any unauthorized changes of the content of this message and \nany attachment thereto. Merck KGaA, Darmstadt, Germany and any of its \nsubsidiaries do not guarantee that this message is free of viruses and does \nnot accept liability for any damages caused by any virus transmitted \ntherewith.\n\nClick http://www.emdgroup.com/disclaimer to access the German, French, \nSpanish and Portuguese versions of this disclaimer.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 415,
+      "text": "I am working on changing the log rotation, but looking at the message:\n\n2016-12-21 23:24:41.653 INFO  (qtp110456297-18) [c:sial-catalog-material\ns:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\no.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\npath=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&version=2}\nstatus=0 QTime=0\n\nI can't tell which class is generating it\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 415,
+      "end": 496,
+      "text": "On Thu, Dec 29, 2016 at 3:15 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 852,
+      "end": 870,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 496,
+      "end": 872,
+      "text": "\n> Seems like a bandaid would be to insure your Solr logs rotate\n> appropriately quickly.\n>\n> That doesn't address the CDCR loging verbosity, but it might get you by.\n>\n> You can also change the logging at the class level by appropriately\n> editing the\n> log4j properties file. Again perhaps not the best solution but one\n> that's immediately\n> available.\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 872,
+      "end": 956,
+      "text": "> On Thu, Dec 29, 2016 at 10:37 AM, Webster Homer <webster.homer@sial.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 956,
+      "end": 1057,
+      "text": "> > The logs filled up the file system and caused CDCR to fail due to a\n> > corrupted Tlog file.\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1057,
+      "end": 1144,
+      "text": "> > On Thu, Dec 22, 2016 at 9:10 AM, Webster Homer <webster.homer@sial.com>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1144,
+      "end": 5038,
+      "text": "> >\n> >> While testing CDCR I found that it is writing tons of log messages per\n> >> second. Example:\n> >> 2016-12-21 23:24:41.652 INFO  (qtp110456297-13) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.653 INFO  (qtp110456297-18) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.655 INFO  (qtp110456297-14) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >> 2016-12-21 23:24:41.657 INFO  (qtp110456297-17) [c:sial-catalog-material\n> >> s:shard1 r:core_node1 x:sial-catalog-material_shard1_replica1]\n> >> o.a.s.c.S.Request [sial-catalog-material_shard1_replica1]  webapp=/solr\n> >> path=/cdcr params={qt=/cdcr&action=BOOTSTRAP_STATUS&wt=javabin&\n> version=2}\n> >> status=0 QTime=0\n> >>\n> >>\n> >> These should be DEBUG messages and NOT INFO messages. Is there a way to\n> >> selectively turn them off?  The above is from a Target collection, it is\n> >> even worse on the Source side.\n> >>\n> >> I'd rather not change my logging level as most INFO messages are useful.\n> >>\n> >> This is a very poor default logging level for these messages.\n> >>\n> >\n> > --\n> >\n> >\n> > This message and any attachment are confidential and may be privileged or\n> > otherwise protected from disclosure. If you are not the intended\n> recipient,\n> > you must not copy this message or attachment or disclose the contents to\n> > any other person. If you have received this transmission in error, please\n> > notify the sender immediately and delete the message and any attachment\n> > from your system. Merck KGaA, Darmstadt, Germany and any of its\n> > subsidiaries do not accept liability for any omissions or errors in this\n> > message which may arise as a result of E-Mail-transmission or for damages\n> > resulting from any unauthorized changes of the content of this message\n> and\n> > any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n> > subsidiaries do not guarantee that this message is free of viruses and\n> does\n> > not accept liability for any damages caused by any virus transmitted\n> > therewith.\n> >\n> > Click http://www.merckgroup.com/disclaimer to access the German, French,\n> > Spanish and Portuguese versions of this disclaimer.\n>\n\n-- \n\n\nThis message and any attachment are confidential and may be privileged or \notherwise protected from disclosure. If you are not the intended recipient, \nyou must not copy this message or attachment or disclose the contents to \nany other person. If you have received this transmission in error, please \nnotify the sender immediately and delete the message and any attachment \nfrom your system. Merck KGaA, Darmstadt, Germany and any of its \nsubsidiaries do not accept liability for any omissions or errors in this \nmessage which may arise as a result of E-Mail-transmission or for damages \nresulting from any unauthorized changes of the content of this message and \nany attachment thereto. Merck KGaA, Darmstadt, Germany and any of its \nsubsidiaries do not guarantee that this message is free of viruses and does \nnot accept liability for any damages caused by any virus transmitted \ntherewith.\n\nClick http://www.emdgroup.com/disclaimer to access the German, French, \nSpanish and Portuguese versions of this disclaimer.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_27"
+}

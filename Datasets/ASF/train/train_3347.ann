@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n> Shawn Heisey <apache@elyograg.org> hat am 17. Mai 2017 um 15:10 geschrieben:\n> \n> \n> On 5/17/2017 6:18 AM, Thomas Porschberg wrote:\n> > Thank you. I am now a step further.\n> > I could import data into the new collection with the DIH. However I observed the\nfollowing exception \n> > in solr.log:\n> >\n> > request: http://127.0.1.1:8983/solr/hugo_shard1_replica1/update?update.distrib=TOLEADER&distrib.from=http%3A%2F%2F127.0.1.1%3A8983%2Fsolr%2Fhugo_shard2_replica1%2F&wt=javabin&version=2\n> > Remote error message: This IndexSchema is not mutable.\n> \n> This probably means that the configuration has an update processor that\n> adds unknown fields, but is using the classic schema instead of the\n> managed schema.  If you want unknown fields to automatically be guessed\n> and added, then you need the managed schema.  If not, then remove the\n> custom update processor chain.  If this doesn't sound like what's wrong,\n> then we will need the entire error message including the full Java\n> stacktrace.  That may be in the other instance's solr.log file.\n\nOk, commenting out the \"update processor chain\" was a solution. I use classic schema.\n\n> \n> > I imagine to split my data per day of the year. My idea was to create 365 shards\nof type compositeKey.\n> \n> You cannot control shard routing explicitly with the compositeId\n> router.  That router uses a hash of the uniqueKey field to decide which\n> shard gets the document.  As its name implies, the hash can be composite\n> -- parts of the hash can be decided by multiple parts of the value in\n> the field, but it's still hashed.\n> \n> You must use the implicit router (which means all routing is manual) if\n> you want to explicitly name the shard that receives the data.\n\nI was now able to create 365 shards with the 'implicit' router.\nIn the collection-API call I also specified \nrouter.field=part_crit \nwhich is the day of the year 1..365\nI added this field in my SQL-statement and in schema.xml.\n\nNext step I thought would be to trigger the dataimport.\n\nHowever I get:\n\n2017-05-18 05:41:37.417 ERROR (Thread-14) [c:hansi s:308 r:core_node76 x:hansi_308_replica1]\no.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: org.apache.solr.common.SolrException:\nNo registered leader was found after waiting for 4000ms , collection: hansi slice: 230\n\tat org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:270)\n\tat org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:416)\n\tat org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:475)\n\tat org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:458)\n\tat java.lang.Thread.run(Thread.java:745)\n\nwhen I start the import.\n\nWhat could be the reason?\n\nThank you\nThomas\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 80,
+      "text": "\n> Shawn Heisey <apache@elyograg.org> hat am 17. Mai 2017 um 15:10 geschrieben:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 80,
+      "end": 135,
+      "text": "> \n> \n> On 5/17/2017 6:18 AM, Thomas Porschberg wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2746,
+      "end": 2764,
+      "text": "\nThank you\nThomas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 135,
+      "end": 2765,
+      "text": "> > Thank you. I am now a step further.\n> > I could import data into the new collection with the DIH. However I observed the\nfollowing exception \n> > in solr.log:\n> >\n> > request: http://127.0.1.1:8983/solr/hugo_shard1_replica1/update?update.distrib=TOLEADER&distrib.from=http%3A%2F%2F127.0.1.1%3A8983%2Fsolr%2Fhugo_shard2_replica1%2F&wt=javabin&version=2\n> > Remote error message: This IndexSchema is not mutable.\n> \n> This probably means that the configuration has an update processor that\n> adds unknown fields, but is using the classic schema instead of the\n> managed schema.  If you want unknown fields to automatically be guessed\n> and added, then you need the managed schema.  If not, then remove the\n> custom update processor chain.  If this doesn't sound like what's wrong,\n> then we will need the entire error message including the full Java\n> stacktrace.  That may be in the other instance's solr.log file.\n\nOk, commenting out the \"update processor chain\" was a solution. I use classic schema.\n\n> \n> > I imagine to split my data per day of the year. My idea was to create 365 shards\nof type compositeKey.\n> \n> You cannot control shard routing explicitly with the compositeId\n> router.  That router uses a hash of the uniqueKey field to decide which\n> shard gets the document.  As its name implies, the hash can be composite\n> -- parts of the hash can be decided by multiple parts of the value in\n> the field, but it's still hashed.\n> \n> You must use the implicit router (which means all routing is manual) if\n> you want to explicitly name the shard that receives the data.\n\nI was now able to create 365 shards with the 'implicit' router.\nIn the collection-API call I also specified \nrouter.field=part_crit \nwhich is the day of the year 1..365\nI added this field in my SQL-statement and in schema.xml.\n\nNext step I thought would be to trigger the dataimport.\n\nHowever I get:\n\n2017-05-18 05:41:37.417 ERROR (Thread-14) [c:hansi s:308 r:core_node76 x:hansi_308_replica1]\no.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: org.apache.solr.common.SolrException:\nNo registered leader was found after waiting for 4000ms , collection: hansi slice: 230\n\tat org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:270)\n\tat org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:416)\n\tat org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:475)\n\tat org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:458)\n\tat java.lang.Thread.run(Thread.java:745)\n\nwhen I start the import.\n\nWhat could be the reason?\n\nThank you\nThomas\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3347"
+}

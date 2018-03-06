@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "Shonnie/Gerald\n\nAnticipated charges from Hanover not yet received:\n\n-  overtime required to monitor the Box Draw gathering system 24 hours per \nday because the remote alarm/SCADA system was not fully operational when the \nstation was\n\n- cost associated with the original charge of glycol at each recip station\n\n- turbine meter repairs associated wiith start up issues (ie: weld slag in \nfuel gas piping)\n\n- the cost associated with air dispersion modeling for the DEQ permits\n\n- some HMS costs for their time to install telemetry instruments and debug \nthe SCADA system \n\nPlease call if you need more detail.\n\nKen",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Shonnie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 8,
+      "end": 14,
+      "text": "Gerald",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 15,
+      "text": "Shonnie/Gerald\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 610,
+      "end": 613,
+      "text": "Ken",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 572,
+      "end": 613,
+      "text": "Please call if you need more detail.\n\nKen",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 613,
+      "text": "Shonnie/Gerald\n\nAnticipated charges from Hanover not yet received:\n\n-  overtime required to monitor the Box Draw gathering system 24 hours per \nday because the remote alarm/SCADA system was not fully operational when the \nstation was\n\n- cost associated with the original charge of glycol at each recip station\n\n- turbine meter repairs associated wiith start up issues (ie: weld slag in \nfuel gas piping)\n\n- the cost associated with air dispersion modeling for the DEQ permits\n\n- some HMS costs for their time to install telemetry instruments and debug \nthe SCADA system \n\nPlease call if you need more detail.\n\nKen",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9817647.1075842650430.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Sep 2000 07:11:00 -0700 (PDT)",
+      "From": "ken.choyce@enron.com",
+      "To": "shonnie.daniel@enron.com, gerald.nemec@enron.com",
+      "Subject": "Hanover Costs",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Ken Choyce",
+      "X-To": "Shonnie Daniel, Gerald Nemec",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_641.txt"
+}

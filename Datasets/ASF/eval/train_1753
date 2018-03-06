@@ -1,0 +1,45 @@
+Hi Nico,
+
+so I need an absolute file path? Because I moved the file into my project and IntelliJ did
+an autocomplete for the file path
+
+How can I use a relative file path? Because I work on two different systems
+
+
+Marc
+
+> Am 11.04.2017 um 10:19 schrieb Nico Kruber <nico@data-artisans.com>:
+> 
+> Hi Marc,
+> the file path doesn't look quite right, unless you really have such an 
+> (absolute!) file path.
+> 
+> Nico
+> 
+> On Saturday, 8 April 2017 17:41:28 CEST Kaepke, Marc wrote:
+>> Hi,
+>> 
+>> if I run my small Gelly application on IntelliJ (macOS and Ubuntu as well) I
+>> have this error:
+>> 
+>> Caused by: java.io.FileNotFoundException: File
+>> /org/apache/flink/gelly/gellyTutorials/out.munmun_twitter_social does not
+>> exist or the user running Flink ('marc') has insufficient permissions to
+>> access it. at
+>> org.apache.flink.core.fs.local.LocalFileSystem.getFileStatus(LocalFileSyste
+>> m.java:102) at
+>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF
+>> ormat.java:473) at
+>> org.apache.flink.api.common.io.FileInputFormat.createInputSplits(FileInputF
+>> ormat.java:62) at
+>> org.apache.flink.runtime.executiongraph.ExecutionJobVertex.<init>(Execution
+>> JobVertex.java:194) ... 26 more
+>> 
+>> 
+>> How can I fix it?
+>> 
+>> Bests,
+>> Marc
+> 
+
+

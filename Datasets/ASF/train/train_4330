@@ -1,0 +1,142 @@
+bq: So, ultimate goal is when the exact query matches in field
+one_query, apply boost of one_score
+
+It would have been helpful to have made that statement in the first
+place, would have saved some false paths.
+
+What is your analysis chain here? If it's anything like "text_general"
+or the like then you're going to have some trouble. I'd think about an
+analysis chain like KeywordTokenizerFactory and
+LowercaseFilterFactory. That'll index the entire field as a single
+token. The admin/analysis page is your friend.
+
+To search against it, you need to _escape_ the space (not "url
+escape"). As in google\ cloud so that makes it through the query
+parser as a single token.
+
+As of Solr 6.5 you can also specify sow=false (Split On Whitespace),
+which may be a better option, see:
+https://issues.apache.org/jira/browse/SOLR-9185
+
+Best,
+Erick
+
+On Mon, Jun 26, 2017 at 7:32 PM, govind nitk <govind.nitk@gmail.com> wrote:
+> Hi Developers, Erick
+>
+> I am able to add boost through function as below:
+> bf=if(termfreq(one_query,"google"),one_score,0)
+>
+> Problem is when I say "google cloud" as query, it gives error:
+> undefined field: \"cloud\""
+>
+> I tried encoding the query(%20, + for space), but not able to get it
+> working.
+>
+> So, ultimate goal is when the exact query matches in field one_query, apply
+> boost of one_score.
+>
+> Is there any way to do this? Or a PR is needed.
+>
+>
+> Regards,
+> Govind
+>
+>
+> On Mon, Jun 26, 2017 at 11:14 AM, govind nitk <govind.nitk@gmail.com> wrote:
+>
+>>
+>> Hi Erick,
+>>
+>> Exactly this is what I was looking for.
+>> Thanks a lot.
+>>
+>>
+>> Regards,
+>> Govind
+>>
+>> On Mon, Jun 26, 2017 at 12:03 AM, Erick Erickson <erickerickson@gmail.com>
+>> wrote:
+>>
+>>> Take a look at function queries. You're probably looking for "field",
+>>> "termfreq" and "if" functions or some other combination like that.
+>>>
+>>> On Sun, Jun 25, 2017 at 9:01 AM, govind nitk <govind.nitk@gmail.com>
+>>> wrote:
+>>> > Hi Erik, Thanks for the reply.
+>>> >
+>>> > My intention of using the domain_ct in the qf was, giving the weight
+>>> > present in the that document.
+>>> >
+>>> > e.g
+>>> > qf=category^domain_ct
+>>> >
+>>> > if the current query matched in the category, the boost given will be
+>>> > domain_ct, which is present in the current matched document.
+>>> >
+>>> >
+>>> > So if I have category_1ct, category_2ct, category_3ct, category_4ct as 4
+>>> > indexed categories(text_general fields) and the same document has
+>>> > domain_1ct, domain_2ct, domain_3ct, domain_4ct as 4 different count
+>>> > fields(int), is there any way to achieve:
+>>> >
+>>> > qf=category_1ct^domain_1ct&qf=category_2ct^domain_2ct&qf=cat
+>>> egory_3ct^domain_3ct&qf=category_4ct^domain_4ct
+>>> >   ?
+>>> >
+>>> >
+>>> >
+>>> >
+>>> > Regards
+>>> >
+>>> >
+>>> >
+>>> >
+>>> > On Sat, Jun 24, 2017 at 3:42 PM, Erik Hatcher <erik.hatcher@gmail.com>
+>>> > wrote:
+>>> >
+>>> >> With dismax use bf=domain_ct. you can also use boost=domain_ct with
+>>> >> edismax.
+>>> >>
+>>> >> > On Jun 23, 2017, at 23:01, govind nitk <govind.nitk@gmail.com>
+>>> wrote:
+>>> >> >
+>>> >> > Hi Solr,
+>>> >> >
+>>> >> > My Index Data:
+>>> >> >
+>>> >> > id name category domain domain_ct
+>>> >> > 1 Banana Fruits Home > Fruits > Banana 2
+>>> >> > 2 Orange Fruits Home > Fruits > Orange 4
+>>> >> > 3 Samsung Mobile Electronics > Mobile > Samsung 3
+>>> >> >
+>>> >> >
+>>> >> > I am able to retrieve the documents with dismax parser with the
+>>> weights
+>>> >> > mentioned as below.
+>>> >> >
+>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&
+>>> >> indent=on&q=fruits&qf=category
+>>> >> > ^0.9&qf=name^0.7&wt=json
+>>> >> >
+>>> >> >
+>>> >> > Is it possible to retrieve the documents with weight taken from
+the
+>>> >> indexed
+>>> >> > field like:
+>>> >> >
+>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&
+>>> >> indent=on&q=fruits&qf=category
+>>> >> > ^domain_ct&qf=name^domain_ct&wt=json
+>>> >> >
+>>> >> > Is this possible to give weight from an indexed field ? Am I doing
+>>> >> > something wrong?
+>>> >> > Is there any other way of doing this?
+>>> >> >
+>>> >> >
+>>> >> > Regards
+>>> >>
+>>>
+>>
+>>
+

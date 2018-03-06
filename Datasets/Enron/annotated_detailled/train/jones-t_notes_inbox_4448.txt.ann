@@ -1,0 +1,409 @@
+{
+  "wrapper": "plaintext",
+  "text": "Any GCP adjustments will be highlighted in blue.\n\n \n\nBest Rgds.\n\nSamuel x3-9890 (GCP Team)\nEnron Net Works _ Global Data Management\n\n\n\n\nFrom: Walter Guidroz/ENRON@enronXgate on 05/01/2001 04:51 PM\nTo: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/ENRON@enronXgate, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal CounterParty/LON/ECT@ECT, Stephanie Sever/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Claudia Clark/ENRON@enronXgate, William S \nBradford/ENRON@enronXgate, Lisa Lees/ENRON@enronXgate, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/ENRON@enronXgate, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ECT, Bill D Hare/HOU/ECT@ect, Amy \nHeffernan/Enron Communications@Enron Communications, Molly LaFuze/Enron \nCommunications@Enron Communications, Danny Clark/Enron Communications@Enron \nCommunications, Stephanie Panus/NA/Enron@Enron, Teresa \nMandola/ENRON@enronXgate, Bill Kyle/ENRON@enronXgate, Amber Ebow/HOU/ECT@ECT\ncc:  \nSubject: EOL approvals, 05-01-01\n\nPlease see attached.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 53,
+      "end": 63,
+      "text": "Best Rgds.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 65,
+      "end": 71,
+      "text": "Samuel",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 81,
+      "end": 89,
+      "text": "GCP Team",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 91,
+      "end": 131,
+      "text": "Enron Net Works _ Global Data Management",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 136,
+      "text": "Any GCP adjustments will be highlighted in blue.\n\n \n\nBest Rgds.\n\nSamuel x3-9890 (GCP Team)\nEnron Net Works _ Global Data Management\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1355,
+      "end": 1380,
+      "text": "\nPlease see attached.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1331,
+      "end": 1354,
+      "text": "EOL approvals, 05-01-01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 142,
+      "end": 156,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 252,
+      "end": 266,
+      "text": "Samuel \nSchott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 201,
+      "end": 214,
+      "text": "Karen Lambert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 228,
+      "end": 238,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 280,
+      "end": 291,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 305,
+      "end": 316,
+      "text": "Brant Reves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 336,
+      "end": 353,
+      "text": "Debbie R Brackett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 372,
+      "end": 383,
+      "text": "David Hardy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 397,
+      "end": 412,
+      "text": "Lesli \nCampbell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 431,
+      "end": 444,
+      "text": "Cynthia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 463,
+      "end": 496,
+      "text": "Enron Europe \nGlobal CounterParty",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 510,
+      "end": 525,
+      "text": "Stephanie Sever",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 544,
+      "end": 554,
+      "text": "Tom \nMoran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 573,
+      "end": 586,
+      "text": "Claudia Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 605,
+      "end": 624,
+      "text": "William S \nBradford",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 643,
+      "end": 652,
+      "text": "Lisa Lees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 671,
+      "end": 684,
+      "text": "Juana \nFayett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 703,
+      "end": 713,
+      "text": "Jana Morse",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 732,
+      "end": 740,
+      "text": "Trang Le",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 755,
+      "end": 765,
+      "text": "Paul Maley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 779,
+      "end": 791,
+      "text": "Sonya Clarke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 805,
+      "end": 815,
+      "text": "Tim Davies",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 830,
+      "end": 841,
+      "text": "Karen O'Day",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 860,
+      "end": 873,
+      "text": "Tanya Rohauer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 892,
+      "end": 907,
+      "text": "Kelly \nLombardi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 924,
+      "end": 937,
+      "text": "Brian Lindsay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 982,
+      "end": 997,
+      "text": "EOL Call Center",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1003,
+      "end": 1014,
+      "text": "Bill D Hare",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1028,
+      "end": 1042,
+      "text": "Amy \nHeffernan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1086,
+      "end": 1098,
+      "text": "Molly LaFuze",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1143,
+      "end": 1154,
+      "text": "Danny Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1199,
+      "end": 1214,
+      "text": "Stephanie Panus",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1231,
+      "end": 1246,
+      "text": "Teresa \nMandola",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1265,
+      "end": 1274,
+      "text": "Bill Kyle",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1293,
+      "end": 1303,
+      "text": "Amber Ebow",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 136,
+      "end": 1355,
+      "text": "From: Walter Guidroz/ENRON@enronXgate on 05/01/2001 04:51 PM\nTo: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel \nSchott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, \nDebbie R Brackett/ENRON@enronXgate, David Hardy/LON/ECT@ECT, Lesli \nCampbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe \nGlobal CounterParty/LON/ECT@ECT, Stephanie Sever/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Claudia Clark/ENRON@enronXgate, William S \nBradford/ENRON@enronXgate, Lisa Lees/ENRON@enronXgate, Juana \nFayett/Corp/Enron@Enron, Jana Morse/Corp/Enron@Enron, Trang Le/HOU/ECT@ECT, \nPaul Maley/LON/ECT@ECT, Sonya Clarke/LON/ECT@ECT, Tim Davies/LON/ECT@ECT, \nKaren O'Day/ENRON@enronXgate, Tanya Rohauer/ENRON@enronXgate, Kelly \nLombardi/NA/Enron@Enron, Brian Lindsay/Enron Communications@Enron \nCommunications, EOL Call Center@ECT, Bill D Hare/HOU/ECT@ect, Amy \nHeffernan/Enron Communications@Enron Communications, Molly LaFuze/Enron \nCommunications@Enron Communications, Danny Clark/Enron Communications@Enron \nCommunications, Stephanie Panus/NA/Enron@Enron, Teresa \nMandola/ENRON@enronXgate, Bill Kyle/ENRON@enronXgate, Amber Ebow/HOU/ECT@ECT\ncc:  \nSubject: EOL approvals, 05-01-01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 177,
+      "end": 187,
+      "text": "05/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 188,
+      "end": 196,
+      "text": "04:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18356840.1075847440450.JavaMail.evans@thyme>",
+      "Date": "Tue, 1 May 2001 10:01:00 -0700 (PDT)",
+      "From": "samuel.schott@enron.com",
+      "To": "walter.guidroz@enron.com, karen.lambert@enron.com, tana.jones@enron.com, \n\tmark.taylor@enron.com, brant.reves@enron.com, \n\tdebbie.brackett@enron.com, david.hardy@enron.com, \n\tlesli.campbell@enron.com, cynthia.clark@enron.com, \n\tenron.counterparty@enron.com, stephanie.sever@enron.com, \n\ttom.moran@enron.com, claudia.clark@enron.com, \n\twilliam.bradford@enron.com, lisa.lees@enron.com, \n\tjuana.fayett@enron.com, jana.morse@enron.com, trang.le@enron.com, \n\tpaul.maley@enron.com, sonya.clarke@enron.com, tim.davies@enron.com, \n\tkaren.o'day@enron.com, tanya.rohauer@enron.com, \n\tkelly.lombardi@enron.com, brian.lindsay@enron.com, \n\teol.center@enron.com, bill.hare@enron.com, amy.heffernan@enron.com, \n\tmolly.lafuze@enron.com, danny.clark@enron.com, \n\tstephanie.panus@enron.com, teresa.mandola@enron.com, \n\tbill.kyle@enron.com, amber.ebow@enron.com",
+      "Subject": "Re: EOL approvals, 05-01-01 _ GCP Response",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Samuel Schott",
+      "X-To": "Walter Guidroz, Karen Lambert, Tana Jones, Mark Taylor, Brant Reves, Debbie R Brackett, David Hardy, Lesli Campbell, Cynthia Clark, Enron Europe Global CounterParty, Stephanie Sever, Tom Moran, Claudia Clark, William S Bradford, Lisa Lees, Juana Fayett, Jana Morse, Trang Le, Paul Maley, Sonya Clarke, Tim Davies, Karen O'Day, Tanya Rohauer, Kelly Lombardi, Brian Lindsay, EOL Call Center, Bill D Hare, Amy Heffernan, Molly LaFuze, Danny Clark, Stephanie Panus, Teresa Mandola, Bill Kyle, Amber Ebow",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_4448.txt"
+}

@@ -1,0 +1,32 @@
+Abhijit 
+In Mongo you probably have one JSON record per document. You can post that JSON record to
+Solr, and the JSON fields get indexed. The github project you mention does just that. If you
+use the Solr managed schema then Solr will automatically define fields based on what it receives.
+Otherwise you will need to carefully design a schema.xml.
+Cheers -- Rick
+
+On March 28, 2017 6:08:40 PM EDT, Abhijit Pawar <abhijit.ibizsoft@gmail.com> wrote:
+>Hello All,
+>
+>I am working on a requirement to index field of type JSON (in mongoDB
+>collection) in SOLR 5.4.0.
+>
+>I am using mongo-jdbc-dih which I found on GitHub :
+>
+>https://github.com/hrishik/solr-mongodb-dih
+>
+>However I could not find a fieldtype on Apache SOLR wiki page which
+>would
+>support JSON datatype in mongoDB.
+>
+>Can someone please recommend a way to include datatype / fieldtype in
+>SOLR
+>schema to support or index JSON data field from mongoDB.
+>Thanks.
+>
+>R​egards,
+>
+>Abhijit​
+
+-- 
+Sent from my Android device with K-9 Mail. Please excuse my brevity.

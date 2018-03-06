@@ -1,0 +1,91 @@
+Hi Miller,
+
+
+
+Try using
+
+1.*coalesce(numberOfPartitions*) to reduce the number of partitions in
+order to avoid idle cores .
+
+2.Try reducing executor memory as you increase the number of executors.
+
+3. Try performing GC or changing naïve java serialization to *kryo*
+serialization.
+
+
+
+
+
+Thanks,
+
+Tejeshwar
+
+
+
+
+
+*From:* Jeroen Miller [mailto:bluedasyatis@gmail.com]
+*Sent:* Thursday, September 28, 2017 2:11 PM
+*To:* user@spark.apache.org
+*Subject:* More instances = slower Spark job
+
+
+
+Hello,
+
+
+
+I am experiencing a disappointing performance issue with my Spark jobs
+
+as I scale up the number of instances.
+
+
+
+The task is trivial: I am loading large (compressed) text files from S3,
+
+filtering out lines that do not match a regex, counting the numbers
+
+of remaining lines and saving the resulting datasets as (compressed)
+
+text files on S3. Nothing that a simple grep couldn't do, except that
+
+the files are too large to be downloaded and processed locally.
+
+
+
+On a single instance, I can process X GBs per hour. When scaling up
+
+to 10 instances, I noticed that processing the /same/ amount of data
+
+actually takes /longer/.
+
+
+
+This is quite surprising as the task is really simple: I was expecting
+
+a significant speed-up. My naive idea was that each executors would
+
+process a fraction of the input file, count the remaining lines /locally/,
+
+and save their part of the processed file /independently/, thus no data
+
+shuffling would occur.
+
+
+
+Obviously, this is not what is happening.
+
+
+
+Can anyone shed some light on this or provide pointers to relevant
+
+information?
+
+
+
+Regards,
+
+
+
+Jeroen
+

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "hi,\nmy problem is that my index freeze several time and i don't know why. So i\nlost all the data of my index.\nI have 14 million of documents from postgresql database. I have an only node\nwith 31 GO for my JVM and my server has 64GO. My index make 6 GO on the HDD.\nIs it a good configuration?\n\nSomeone can help me.\n\nthank for advance \n\n\n\n\n\n--\nSent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 314,
+      "end": 334,
+      "text": "\nthank for advance \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 412,
+      "text": "hi,\nmy problem is that my index freeze several time and i don't know why. So i\nlost all the data of my index.\nI have 14 million of documents from postgresql database. I have an only node\nwith 31 GO for my JVM and my server has 64GO. My index make 6 GO on the HDD.\nIs it a good configuration?\n\nSomeone can help me.\n\nthank for advance \n\n\n\n\n\n--\nSent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6044"
+}

@@ -1,0 +1,156 @@
+{
+  "wrapper": "plaintext",
+  "text": "Below, is an attachement of a Daily Risk Reporting Checklist for Book \nAdministration.  The checklist was developed as an aid in helping ensure \nbooks are officialized.  If you have any suggestions on making this checklist \nmore comprehensive please advise.  \n\nThank You\n\nJoel\n---------------------- Forwarded by Joel Henenberg/NA/Enron on 11/15/2000 \n12:03 PM ---------------------------\n\n\nConnie Sutton@ECT\n11/06/2000 03:13 PM\nTo: Joel Henenberg/NA/Enron@Enron\ncc:  \n\nSubject: BA Daily Checklist\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 272,
+      "end": 276,
+      "text": "Joel",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 261,
+      "end": 277,
+      "text": "Thank You\n\nJoel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 277,
+      "text": "Below, is an attachement of a Daily Risk Reporting Checklist for Book \nAdministration.  The checklist was developed as an aid in helping ensure \nbooks are officialized.  If you have any suggestions on making this checklist \nmore comprehensive please advise.  \n\nThank You\n\nJoel\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 313,
+      "end": 327,
+      "text": "Joel Henenberg",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 340,
+      "end": 350,
+      "text": "11/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 352,
+      "end": 360,
+      "text": "12:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 277,
+      "end": 389,
+      "text": "---------------------- Forwarded by Joel Henenberg/NA/Enron on 11/15/2000 \n12:03 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 391,
+      "end": 404,
+      "text": "Connie Sutton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 409,
+      "end": 419,
+      "text": "11/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 420,
+      "end": 428,
+      "text": "03:13 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 433,
+      "end": 447,
+      "text": "Joel Henenberg",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 479,
+      "end": 497,
+      "text": "BA Daily Checklist",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 389,
+      "end": 498,
+      "text": "\n\nConnie Sutton@ECT\n11/06/2000 03:13 PM\nTo: Joel Henenberg/NA/Enron@Enron\ncc:  \n\nSubject: BA Daily Checklist\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 498,
+      "end": 500,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27439586.1075855859244.JavaMail.evans@thyme>",
+      "Date": "Wed, 15 Nov 2000 04:12:00 -0800 (PST)",
+      "From": "joel.henenberg@enron.com",
+      "To": "sally.beck@enron.com, brent.price@enron.com, leslie.reeves@enron.com, \n\tjames.scribner@enron.com, shona.wilson@enron.com, \n\tscott.mills@enron.com, brenda.herod@enron.com, \n\tstacey.white@enron.com, d.hall@enron.com, scott.earnest@enron.com, \n\tmary.solmonson@enron.com",
+      "Subject": "BA Daily Checklist",
+      "Cc": "connie.sutton@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "connie.sutton@enron.com",
+      "X-From": "Joel Henenberg",
+      "X-To": "Sally Beck, Brent A Price, Leslie Reeves, James Scribner, Shona Wilson, Scott Mills, Brenda F Herod, Stacey W White, D Todd Hall, Scott Earnest, Mary Solmonson",
+      "X-cc": "Connie Sutton",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_discussion_threads_2088.txt"
+}

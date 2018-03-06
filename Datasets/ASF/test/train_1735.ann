@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Soumitra,\nWe're working on that. The Idea here is to use Kafka to get brokers'\ninformation of the topic and use Kafka client to find coresponding offsets\non new cluster (\nhttps://jeqo.github.io/post/2017-01-31-kafka-rewind-consumers-offset/). You\nneed kafka >=0.10.1.0 because it supports timestamp-based index.\n\n2017-03-28 5:24 GMT+07:00 Soumitra Johri <soumitra.siddharth@gmail.com>:\n\n> Hi, did you guys figure it out?\n>\n> Thanks\n> Soumitra\n>\n> On Sun, Mar 5, 2017 at 9:51 PM nguyen duc Tuan <newvalue92@gmail.com>\n> wrote:\n>\n>> Hi everyone,\n>> We are deploying kafka cluster for ingesting streaming data. But\n>> sometimes, some of nodes on the cluster have troubles (node dies, kafka\n>> daemon is killed...). However, Recovering data in Kafka can be very slow.\n>> It takes serveral hours to recover from disaster. I saw a slide here\n>> suggesting using multiple data centers (https://www.slideshare.net/\n>> HadoopSummit/building-largescale-stream-infrastructures-across-\n>> multiple-data-centers-with-apache-kafka). But I wonder, how can we\n>> detect the problem and switch between datacenters in Spark Streaming? Since\n>> kafka 0.10.1 support timestamp index, how can seek to right offsets?\n>> Are there any opensource library out there that supports handling the\n>> problem on the fly?\n>> Thanks.\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Hi Soumitra,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 316,
+      "text": "Hi Soumitra,\nWe're working on that. The Idea here is to use Kafka to get brokers'\ninformation of the topic and use Kafka client to find coresponding offsets\non new cluster (\nhttps://jeqo.github.io/post/2017-01-31-kafka-rewind-consumers-offset/). You\nneed kafka >=0.10.1.0 because it supports timestamp-based index.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 316,
+      "end": 389,
+      "text": "2017-03-28 5:24 GMT+07:00 Soumitra Johri <soumitra.siddharth@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 389,
+      "end": 424,
+      "text": "\n> Hi, did you guys figure it out?\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 424,
+      "end": 446,
+      "text": ">\n> Thanks\n> Soumitra\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 389,
+      "end": 448,
+      "text": "\n> Hi, did you guys figure it out?\n>\n> Thanks\n> Soumitra\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 448,
+      "end": 529,
+      "text": "> On Sun, Mar 5, 2017 at 9:51 PM nguyen duc Tuan <newvalue92@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 529,
+      "end": 547,
+      "text": ">\n>> Hi everyone,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1294,
+      "end": 1305,
+      "text": ">> Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 529,
+      "end": 1311,
+      "text": ">\n>> Hi everyone,\n>> We are deploying kafka cluster for ingesting streaming data. But\n>> sometimes, some of nodes on the cluster have troubles (node dies, kafka\n>> daemon is killed...). However, Recovering data in Kafka can be very slow.\n>> It takes serveral hours to recover from disaster. I saw a slide here\n>> suggesting using multiple data centers (https://www.slideshare.net/\n>> HadoopSummit/building-largescale-stream-infrastructures-across-\n>> multiple-data-centers-with-apache-kafka). But I wonder, how can we\n>> detect the problem and switch between datacenters in Spark Streaming? Since\n>> kafka 0.10.1 support timestamp index, how can seek to right offsets?\n>> Are there any opensource library out there that supports handling the\n>> problem on the fly?\n>> Thanks.\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1735"
+}

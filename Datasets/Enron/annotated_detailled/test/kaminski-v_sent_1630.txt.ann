@@ -1,0 +1,275 @@
+{
+  "wrapper": "plaintext",
+  "text": "Aziz,\n\nPlease, contact me before or after the presentation and we can find \na time slot to chat later on Friday.\n\nVince\n\n\n\n\n\n\nal3v <al3v@andrew.cmu.edu> on 10/31/2000 01:59:11 PM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: meet during CMU visit?\n\n\n\nDr. Kaminski:\n\nI am a Ph.D. student here at Carnegie Mellon who has a long-standing\ninterest in the energy industry.\n\nI have recently developed the framework of a simple model for electricity\nprices that I would like your opinion on. Could you please chalk out some\ntime for me during your CMU visit this Friday?\n\nUnlike traditional electricty pricing models, which assume that the\nlog-price is a sum of a couple of stochastic factors, I assume that some\nfundamentals of the electricity market are driven by stochastic factors.\nNext, given the current values of these factors, price is determined by\neconomic forces of profit maximization by price setting electricity\ngenerators. Unlike typical factor models, the factors in my model are\npotentially observable.\n\n\nThank You,\n\n\n\n Aziz A. Lookman\nGraduate School of Industrial Administration\n5000 Forbes Avenue\nCarnegie Mellon University\nPittsburgh, PA 15213\nTel: 412-268-3681\nFax: 412-268-6837\n(pls. mark the fax c/o Jackie Cavendish)\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1181,
+      "end": 1193,
+      "text": "412-268-6837",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1163,
+      "end": 1175,
+      "text": "412-268-3681",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1137,
+      "end": 1157,
+      "text": "Pittsburgh, PA 15213",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1091,
+      "end": 1109,
+      "text": "5000 Forbes Avenue",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1110,
+      "end": 1136,
+      "text": "Carnegie Mellon University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1046,
+      "end": 1090,
+      "text": "Graduate School of Industrial Administration",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1030,
+      "end": 1045,
+      "text": "Aziz A. Lookman",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1029,
+      "end": 1235,
+      "text": " Aziz A. Lookman\nGraduate School of Industrial Administration\n5000 Forbes Avenue\nCarnegie Mellon University\nPittsburgh, PA 15213\nTel: 412-268-3681\nFax: 412-268-6837\n(pls. mark the fax c/o Jackie Cavendish)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1015,
+      "end": 1025,
+      "text": "Thank You,",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 248,
+      "end": 1238,
+      "text": "\n\n\nDr. Kaminski:\n\nI am a Ph.D. student here at Carnegie Mellon who has a long-standing\ninterest in the energy industry.\n\nI have recently developed the framework of a simple model for electricity\nprices that I would like your opinion on. Could you please chalk out some\ntime for me during your CMU visit this Friday?\n\nUnlike traditional electricty pricing models, which assume that the\nlog-price is a sum of a couple of stochastic factors, I assume that some\nfundamentals of the electricity market are driven by stochastic factors.\nNext, given the current values of these factors, price is determined by\neconomic forces of profit maximization by price setting electricity\ngenerators. Unlike typical factor models, the factors in my model are\npotentially observable.\n\n\nThank You,\n\n\n\n Aziz A. Lookman\nGraduate School of Industrial Administration\n5000 Forbes Avenue\nCarnegie Mellon University\nPittsburgh, PA 15213\nTel: 412-268-3681\nFax: 412-268-6837\n(pls. mark the fax c/o Jackie Cavendish)\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 251,
+      "end": 264,
+      "text": "Dr. Kaminski:",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 225,
+      "end": 247,
+      "text": "meet during CMU visit?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 183,
+      "end": 209,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 126,
+      "end": 130,
+      "text": "al3v",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 132,
+      "end": 151,
+      "text": "al3v@andrew.cmu.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 156,
+      "end": 166,
+      "text": "10/31/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 167,
+      "end": 178,
+      "text": "01:59:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 126,
+      "end": 248,
+      "text": "al3v <al3v@andrew.cmu.edu> on 10/31/2000 01:59:11 PM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: meet during CMU visit?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 0,
+      "end": 4,
+      "text": "Aziz",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 114,
+      "end": 119,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 0,
+      "end": 126,
+      "text": "Aziz,\n\nPlease, contact me before or after the presentation and we can find \na time slot to chat later on Friday.\n\nVince\n\n\n\n\n\n\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 20,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 5,
+      "target": 6,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 3,
+      "target": 4,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 7,
+      "target": 6,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 4,
+      "target": 6,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 2,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 1,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23086931.1075856475218.JavaMail.evans@thyme>",
+      "Date": "Wed, 1 Nov 2000 09:57:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "al3v@andrew.cmu.edu",
+      "Subject": "Re: meet during CMU visit?",
+      "Cc": "vince.kaminski@enron.com, vkaminski@aol.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com, vkaminski@aol.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "al3v <al3v@andrew.cmu.edu> @ ENRON",
+      "X-cc": "Vince J Kaminski, vkaminski@aol.com",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1630.txt"
+}

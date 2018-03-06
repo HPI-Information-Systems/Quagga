@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hey,\n\nI was wondering if there is some way to add fields \"on the fly\" based on\narithmetic operations on other fields. For example add a new field\n\"custom_field\" = log(field1) + field2 -5.\n\nThanks.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Hey,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 188,
+      "end": 197,
+      "text": "\nThanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 198,
+      "text": "Hey,\n\nI was wondering if there is some way to add fields \"on the fly\" based on\narithmetic operations on other fields. For example add a new field\n\"custom_field\" = log(field1) + field2 -5.\n\nThanks.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4520"
+}

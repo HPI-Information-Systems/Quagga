@@ -1,0 +1,293 @@
+{
+  "wrapper": "plaintext",
+  "text": "please try to verify.  Thanks.  Sara\n---------------------- Forwarded by Sara Shackleton/HOU/ECT on 09/16/99 11:47 \nAM ---------------------------\n\n\nSara Shackleton\n09/16/99 10:16 AM\nTo: \"MAIL - Caixa Postal Central\" <MAIL@tfts.tozzini.com.br>\ncc:  \nSubject: Re: E-mail  \n\nHow about Friday, Sept. 17, at 9 am (Houston time) which is 11 am (Sao Paulo) \ntime?  Please advise.  Sara\n\n\n\n\"MAIL - Caixa Postal Central\" <MAIL@tfts.tozzini.com.br> on 09/16/99 09:24:58 \nAM\nTo: Sara Shackleton/HOU/ECT@ECT\ncc:  \nSubject: E-mail\n\n\n\n\n___________________________________________\nWarning\nNOTICE: This message is confidential. If you have received it by mistake \nplease let us know by reply and then delete it from your system; you should \nnot copy this message or disclose its contents to anyone. Thank you.\n\n\n - Em-enro2.doc\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 32,
+      "end": 36,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 23,
+      "end": 37,
+      "text": "Thanks.  Sara\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 37,
+      "text": "please try to verify.  Thanks.  Sara\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 73,
+      "end": 88,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 100,
+      "end": 108,
+      "text": "09/16/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 109,
+      "end": 118,
+      "text": "11:47 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 37,
+      "end": 147,
+      "text": "---------------------- Forwarded by Sara Shackleton/HOU/ECT on 09/16/99 11:47 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 149,
+      "end": 164,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 165,
+      "end": 173,
+      "text": "09/16/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 174,
+      "end": 182,
+      "text": "10:16 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 195,
+      "end": 215,
+      "text": "Caixa Postal Central",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 218,
+      "end": 242,
+      "text": "MAIL@tfts.tozzini.com.br",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 259,
+      "end": 269,
+      "text": "Re: E-mail",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 147,
+      "end": 272,
+      "text": "\n\nSara Shackleton\n09/16/99 10:16 AM\nTo: \"MAIL - Caixa Postal Central\" <MAIL@tfts.tozzini.com.br>\ncc:  \nSubject: Re: E-mail  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 375,
+      "end": 379,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 272,
+      "end": 383,
+      "text": "\nHow about Friday, Sept. 17, at 9 am (Houston time) which is 11 am (Sao Paulo) \ntime?  Please advise.  Sara\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 391,
+      "end": 411,
+      "text": "Caixa Postal Central",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 414,
+      "end": 438,
+      "text": "MAIL@tfts.tozzini.com.br",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 469,
+      "end": 484,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 443,
+      "end": 451,
+      "text": "09/16/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 452,
+      "end": 464,
+      "text": "09:24:58 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 512,
+      "end": 518,
+      "text": "E-mail",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 383,
+      "end": 519,
+      "text": "\"MAIL - Caixa Postal Central\" <MAIL@tfts.tozzini.com.br> on 09/16/99 09:24:58 \nAM\nTo: Sara Shackleton/HOU/ECT@ECT\ncc:  \nSubject: E-mail\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 523,
+      "end": 795,
+      "text": "___________________________________________\nWarning\nNOTICE: This message is confidential. If you have received it by mistake \nplease let us know by reply and then delete it from your system; you should \nnot copy this message or disclose its contents to anyone. Thank you.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 800,
+      "end": 812,
+      "text": "Em-enro2.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 797,
+      "end": 813,
+      "text": " - Em-enro2.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 519,
+      "end": 816,
+      "text": "\n\n\n\n___________________________________________\nWarning\nNOTICE: This message is confidential. If you have received it by mistake \nplease let us know by reply and then delete it from your system; you should \nnot copy this message or disclose its contents to anyone. Thank you.\n\n\n - Em-enro2.doc\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 8,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 19,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10073265.1075844322788.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Sep 1999 04:48:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "kaye.ellis@enron.com",
+      "Subject": "Re: E-mail",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Kaye Ellis",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_553.txt"
+}

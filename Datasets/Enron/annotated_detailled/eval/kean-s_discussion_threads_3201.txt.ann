@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "eval/kean-s_discussion_threads_3201.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<18955206.1075848182464.JavaMail.evans@thyme>",
+      "Date": "Thu, 10 May 2001 02:41:00 -0700 (PDT)",
+      "From": "steven.kean@enron.com",
+      "To": "nicholas.o'day@enron.com",
+      "Subject": "Re: Tokyo Presentation 15 May",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Nicholas O'Day",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "text": "The presentation looks fine but consider adding this idea in a few slides:  \nthe continuation of a regulated structure poses considerable risk for \nutilities.  California's utilities were pushed to the brink of, or into, \nbankruptcy because of a regualtory regime which allocated price risk to \nthem.  All parties are better off in a system where the regulated enterprise \nis limited to natural monopoly functions and all other acitivities are \nconducted in a marketplace.\n\nAlso, did we cover the shortcomings of the Japanese market sufficiently?",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 546,
+      "text": "The presentation looks fine but consider adding this idea in a few slides:  \nthe continuation of a regulated structure poses considerable risk for \nutilities.  California's utilities were pushed to the brink of, or into, \nbankruptcy because of a regualtory regime which allocated price risk to \nthem.  All parties are better off in a system where the regulated enterprise \nis limited to natural monopoly functions and all other acitivities are \nconducted in a marketplace.\n\nAlso, did we cover the shortcomings of the Japanese market sufficiently?",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\nYou need to add mode overwrite option to avoid this error.\n//P.Gupta\n\nSent from Yahoo Mail on Android \n \n  On Fri, 20 Jan, 2017 at 2:15 am, VND Tremblay, Paul<Tremblay.Paul@bcg.com> wrote:\n  \nI have come across a problem when writing CSV files to S3 in Spark 2.02. The problem does\nnot exist in Spark 1.6.\n \n \u00c2\u00a0\n 19:09:20 Caused by: java.io.IOException: File already exists:s3://stx-apollo-pr-datascience-internal/revenue_model/part-r-00025-c48a0d52-9600-4495-913c-64ae6bf888bd.csv\n\n \u00c2\u00a0\n \n \u00c2\u00a0\n \nMy code is this:\n \n \u00c2\u00a0\n \nnew_rdd\\\n \n135\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(add_date_diff)\\\n \n136\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(sid_offer_days)\\\n \n137\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .groupByKey()\\\n \n138\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(custom_sort)\\\n \n139\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(before_rev_date)\\\n \n140\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(lambda x, num_weeks = args.num_weeks: create_columns(x, num_weeks))\\\n \n141\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .toDF()\\\n \n142\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .write.csv(\n \n143\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 sep = \"|\",\n \n144\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 header = True,\n \n145\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 nullValue = '',\n \n146\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 quote = None,\n \n147\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 path = path\n \n148\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 )\n \n \u00c2\u00a0\n \nIn order to get the path (the last argument), I call this function:\n \n \u00c2\u00a0\n \n150 def _get_s3_write(test):\n \n151\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 if s3_utility.s3_data_already_exists(_get_write_bucket_name(), _get_s3_write_dir(test)):\n \n152\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 s3_utility.remove_s3_dir(_get_write_bucket_name(), _get_s3_write_dir(test))\n \n153\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 return make_s3_path(_get_write_bucket_name(), _get_s3_write_dir(test))\n \n \u00c2\u00a0\n \nIn other words, I am removing the directory if it exists before I write.\n \n \u00c2\u00a0\n \nNotes:\n \n \u00c2\u00a0\n \n* If I use a small set of data, then I don't get the error\n \n \u00c2\u00a0\n \n* If I use Spark 1.6, I don't get the error\n \n \u00c2\u00a0\n \n* If I read in a simple dataframe and then write to S3, I still get the error (without doing\nany transformations)\n \n \u00c2\u00a0\n \n* If I do the previous step with a smaller set of data, I don't get the error.\n \n \u00c2\u00a0\n \n* I am using pyspark, with python 2.7\n \n \u00c2\u00a0\n \n* The thread at this link: https://forums.aws.amazon.com/thread.jspa?threadID=152470 \u00c2\u00a0Indicates\nthe problem is caused by a problem sync problem. With large datasets, spark tries to write\nmultiple times and causes the error. The suggestion is to turn off speculation, but I believe\nspeculation is turned off by default in pyspark.\n \n \u00c2\u00a0\n \nThanks!\n \n \u00c2\u00a0\n \nPaul\n \n \u00c2\u00a0\n \n \u00c2\u00a0\n \n_____________________________________________________________________________________________________\n\nPaul Tremblay\nAnalytics Specialist \n\nTHE BOSTON CONSULTING GROUP\nSTL \u00e2\u2013\u00aa \n\nTel. + \u00e2\u2013\u00aa Mobile +\ntremblay.paul@bcg.com\n_____________________________________________________________________________________________________\n\nRead BCG's latest insights, analysis, and viewpoints atbcgperspectives.com\n \n\nThe Boston Consulting Group, Inc.\n\nThis e-mail message may contain confidential and/or privileged information.If you are not\nan addressee or otherwise authorized to receive this message,you should not use, copy, disclose\nor take any action based on this e-mail orany information contained in the message. If you\nhave received this materialin error, please advise the sender immediately by reply e-mail\nand delete thismessage. Thank you.\n  \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 73,
+      "text": "//P.Gupta\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 109,
+      "text": "Hi,\nYou need to add mode overwrite option to avoid this error.\n//P.Gupta\n\nSent from Yahoo Mail on Android \n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 109,
+      "end": 193,
+      "text": "  On Fri, 20 Jan, 2017 at 2:15 am, VND Tremblay, Paul<Tremblay.Paul@bcg.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2416,
+      "end": 2439,
+      "text": " \nThanks!\n \n \u00c2\u00a0\n \nPaul\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2453,
+      "end": 2775,
+      "text": "_____________________________________________________________________________________________________\n\nPaul Tremblay\nAnalytics Specialist \n\nTHE BOSTON CONSULTING GROUP\nSTL \u00e2\u2013\u00aa \n\nTel. + \u00e2\u2013\u00aa Mobile +\ntremblay.paul@bcg.com\n_____________________________________________________________________________________________________\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 193,
+      "end": 3295,
+      "text": "  \nI have come across a problem when writing CSV files to S3 in Spark 2.02. The problem does\nnot exist in Spark 1.6.\n \n \u00c2\u00a0\n 19:09:20 Caused by: java.io.IOException: File already exists:s3://stx-apollo-pr-datascience-internal/revenue_model/part-r-00025-c48a0d52-9600-4495-913c-64ae6bf888bd.csv\n\n \u00c2\u00a0\n \n \u00c2\u00a0\n \nMy code is this:\n \n \u00c2\u00a0\n \nnew_rdd\\\n \n135\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(add_date_diff)\\\n \n136\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(sid_offer_days)\\\n \n137\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .groupByKey()\\\n \n138\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(custom_sort)\\\n \n139\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(before_rev_date)\\\n \n140\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .map(lambda x, num_weeks = args.num_weeks: create_columns(x, num_weeks))\\\n \n141\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .toDF()\\\n \n142\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 .write.csv(\n \n143\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 sep = \"|\",\n \n144\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 header = True,\n \n145\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 nullValue = '',\n \n146\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 quote = None,\n \n147\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 path = path\n \n148\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 )\n \n \u00c2\u00a0\n \nIn order to get the path (the last argument), I call this function:\n \n \u00c2\u00a0\n \n150 def _get_s3_write(test):\n \n151\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 if s3_utility.s3_data_already_exists(_get_write_bucket_name(), _get_s3_write_dir(test)):\n \n152\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 s3_utility.remove_s3_dir(_get_write_bucket_name(), _get_s3_write_dir(test))\n \n153\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0 return make_s3_path(_get_write_bucket_name(), _get_s3_write_dir(test))\n \n \u00c2\u00a0\n \nIn other words, I am removing the directory if it exists before I write.\n \n \u00c2\u00a0\n \nNotes:\n \n \u00c2\u00a0\n \n* If I use a small set of data, then I don't get the error\n \n \u00c2\u00a0\n \n* If I use Spark 1.6, I don't get the error\n \n \u00c2\u00a0\n \n* If I read in a simple dataframe and then write to S3, I still get the error (without doing\nany transformations)\n \n \u00c2\u00a0\n \n* If I do the previous step with a smaller set of data, I don't get the error.\n \n \u00c2\u00a0\n \n* I am using pyspark, with python 2.7\n \n \u00c2\u00a0\n \n* The thread at this link: https://forums.aws.amazon.com/thread.jspa?threadID=152470 \u00c2\u00a0Indicates\nthe problem is caused by a problem sync problem. With large datasets, spark tries to write\nmultiple times and causes the error. The suggestion is to turn off speculation, but I believe\nspeculation is turned off by default in pyspark.\n \n \u00c2\u00a0\n \nThanks!\n \n \u00c2\u00a0\n \nPaul\n \n \u00c2\u00a0\n \n \u00c2\u00a0\n \n_____________________________________________________________________________________________________\n\nPaul Tremblay\nAnalytics Specialist \n\nTHE BOSTON CONSULTING GROUP\nSTL \u00e2\u2013\u00aa \n\nTel. + \u00e2\u2013\u00aa Mobile +\ntremblay.paul@bcg.com\n_____________________________________________________________________________________________________\n\nRead BCG's latest insights, analysis, and viewpoints atbcgperspectives.com\n \n\nThe Boston Consulting Group, Inc.\n\nThis e-mail message may contain confidential and/or privileged information.If you are not\nan addressee or otherwise authorized to receive this message,you should not use, copy, disclose\nor take any action based on this e-mail orany information contained in the message. If you\nhave received this materialin error, please advise the sender immediately by reply e-mail\nand delete thismessage. Thank you.\n  \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_535"
+}

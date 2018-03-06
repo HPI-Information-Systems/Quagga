@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_1722",
+  "meta": {},
+  "text": "\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1,
+      "text": "\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

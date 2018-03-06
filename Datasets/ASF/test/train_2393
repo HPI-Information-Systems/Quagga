@@ -1,0 +1,21 @@
+I paste this right from Spark shell (Spark 2.1.0):
+
+
+/scala> spark.sql("SELECT count(distinct col) FROM Table").show()//
+//+-------------------------+ //
+//|count(DISTINCT col)|//
+//+-------------------------+//
+//|            4697            |//
+//+-------------------------+//
+
+//scala> spark.sql("SELECT distinct col FROM Table").count()//
+//res8: Long = 4698 /
+
+That is, `dataframe.count()` is returning one more count that the 
+in-query `COUNT()` function.
+
+Any explanations?
+
+Cheers,
+Mohamed
+

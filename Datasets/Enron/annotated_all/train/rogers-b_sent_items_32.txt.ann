@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "sounds good.  see you there.\n\n -----Original Message-----\nFrom: \tArora, Harry  \nSent:\tTuesday, December 04, 2001 1:14 PM\nTo:\tRogers, Benjamin\nSubject:\tHi\n\n3:30 at Starbucks on West gray",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 30,
+      "text": "sounds good.  see you there.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 65,
+      "end": 77,
+      "text": "Arora, Harry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 95,
+      "end": 112,
+      "text": "December 04, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 113,
+      "end": 120,
+      "text": "1:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 125,
+      "end": 141,
+      "text": "Rogers, Benjamin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 151,
+      "end": 153,
+      "text": "Hi",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 30,
+      "end": 154,
+      "text": " -----Original Message-----\nFrom: \tArora, Harry  \nSent:\tTuesday, December 04, 2001 1:14 PM\nTo:\tRogers, Benjamin\nSubject:\tHi\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 154,
+      "end": 185,
+      "text": "\n3:30 at Starbucks on West gray",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14956116.1075855105534.JavaMail.evans@thyme>",
+      "Date": "Tue, 4 Dec 2001 11:14:40 -0800 (PST)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "harry.arora@enron.com",
+      "Subject": "RE: Hi",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Rogers, Benjamin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BROGERS>",
+      "X-To": "Arora, Harry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Harora>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Jan2002\\Rogers, Benjamin\\Sent Items",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers (Non-Privileged).pst"
+    }
+  },
+  "id": "train/rogers-b_sent_items_32.txt"
+}

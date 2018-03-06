@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Theresa,\n\nI just got through redrafting for October to pull in the new storage volumes and prices. It looks like there are three new demand charges. I don't really understand since the last email you sent said you had to reduce the demand charge. If these demand charges are valid then we would need to send out a revised manual invoice. Let me know either way.\n\nThanks!\n\nValerie Vela\nSpecialist, Gas Settlements\nEnron Net Works LLC\nt: 713.345.8749\nf: 713.646.8420\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 10,
+      "text": "Theresa",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 12,
+      "text": "Hi Theresa,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 366,
+      "end": 374,
+      "text": "Thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 375,
+      "end": 387,
+      "text": "Valerie Vela",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 388,
+      "end": 415,
+      "text": "Specialist, Gas Settlements",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 416,
+      "end": 435,
+      "text": "Enron Net Works LLC",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 439,
+      "end": 451,
+      "text": "713.345.8749",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 455,
+      "end": 467,
+      "text": "713.646.8420",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 375,
+      "end": 468,
+      "text": "Valerie Vela\nSpecialist, Gas Settlements\nEnron Net Works LLC\nt: 713.345.8749\nf: 713.646.8420\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 468,
+      "text": "Hi Theresa,\n\nI just got through redrafting for October to pull in the new storage volumes and prices. It looks like there are three new demand charges. I don't really understand since the last email you sent said you had to reduce the demand charge. If these demand charges are valid then we would need to send out a revised manual invoice. Let me know either way.\n\nThanks!\n\nValerie Vela\nSpecialist, Gas Settlements\nEnron Net Works LLC\nt: 713.345.8749\nf: 713.646.8420\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 6,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18099424.1075855443692.JavaMail.evans@thyme>",
+      "Date": "Thu, 29 Nov 2001 06:32:03 -0800 (PST)",
+      "From": "valerie.vela@enron.com",
+      "To": "theresa.staab@enron.com",
+      "Subject": "Greeley Gas Oct 01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vela, Valerie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VVELA>",
+      "X-To": "Staab, Theresa </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tstaab>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Theresa_Staab_Jan2002_1\\Staab, Theresa\\Inbox",
+      "X-Origin": "Staab-T",
+      "X-FileName": "tstaab (Non-Privileged).pst"
+    }
+  },
+  "id": "test/staab-t_inbox_1.txt"
+}

@@ -1,0 +1,218 @@
+{
+  "wrapper": "plaintext",
+  "text": "The performance testing guidelines we used on the TECO and Linden #6\ncontracts include wording for liquid fuel machines.  We could substitute\nexhibit F in it's entirety or replace the missing sections that address\nliquid fuel.\n\n-----Original Message-----\nFrom: Brian.D.Barto@enron.com [mailto:Brian.D.Barto@enron.com]\nSent: Wednesday, March 14, 2001 4:37 PM\nTo: Kay.Mann@enron.com; Anthony.Butler@enron.com; Darst, Jeffrey A (PS,\nPPSD); Chris.Booth@enron.com; Scott.Dieball@enron.com;\nRoseann.Engeldorf@enron.com\nSubject: Change Order #3 to Add Dual Fuel to Unit #2 in BlueDog Contract\nwith GE\n\n\nChris, Tony, Jeff:\n\nHere is the first, cut.  You can see that the Attachments need information.\nI will insert the GEI liquid fuel specification since it is a PDF file.\nChris, Jeff gave you till Friday to provide the liquid fuel composition\nwithout impact to production.  Please provide soonest.\n\nTony: I already sent you the contract so you can see what Basis Conditions\nneed to be added and what testing guidelines too.\n\nJeff:  What do you see is missing?\n\n(See attached file: CO#3-R0a.doc)",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 228,
+      "text": "The performance testing guidelines we used on the TECO and Linden #6\ncontracts include wording for liquid fuel machines.  We could substitute\nexhibit F in it's entirety or replace the missing sections that address\nliquid fuel.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 261,
+      "end": 284,
+      "text": "Brian.D.Barto@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 293,
+      "end": 316,
+      "text": "Brian.D.Barto@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 334,
+      "end": 349,
+      "text": " March 14, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 350,
+      "end": 357,
+      "text": "4:37 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 362,
+      "end": 380,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 381,
+      "end": 406,
+      "text": " Anthony.Butler@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 408,
+      "end": 424,
+      "text": "Darst, Jeffrey A",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 437,
+      "end": 458,
+      "text": "Chris.Booth@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 459,
+      "end": 483,
+      "text": " Scott.Dieball@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 485,
+      "end": 512,
+      "text": "Roseann.Engeldorf@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 522,
+      "end": 593,
+      "text": "Change Order #3 to Add Dual Fuel to Unit #2 in BlueDog Contract\nwith GE",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 228,
+      "end": 594,
+      "text": "-----Original Message-----\nFrom: Brian.D.Barto@enron.com [mailto:Brian.D.Barto@enron.com]\nSent: Wednesday, March 14, 2001 4:37 PM\nTo: Kay.Mann@enron.com; Anthony.Butler@enron.com; Darst, Jeffrey A (PS,\nPPSD); Chris.Booth@enron.com; Scott.Dieball@enron.com;\nRoseann.Engeldorf@enron.com\nSubject: Change Order #3 to Add Dual Fuel to Unit #2 in BlueDog Contract\nwith GE\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 596,
+      "end": 601,
+      "text": "Chris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 603,
+      "end": 607,
+      "text": "Tony",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 609,
+      "end": 613,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 596,
+      "end": 615,
+      "text": "Chris, Tony, Jeff:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1074,
+      "end": 1086,
+      "text": "CO#3-R0a.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1054,
+      "end": 1087,
+      "text": "(See attached file: CO#3-R0a.doc)",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 594,
+      "end": 1087,
+      "text": "\n\nChris, Tony, Jeff:\n\nHere is the first, cut.  You can see that the Attachments need information.\nI will insert the GEI liquid fuel specification since it is a PDF file.\nChris, Jeff gave you till Friday to provide the liquid fuel composition\nwithout impact to production.  Please provide soonest.\n\nTony: I already sent you the contract so you can see what Basis Conditions\nneed to be added and what testing guidelines too.\n\nJeff:  What do you see is missing?\n\n(See attached file: CO#3-R0a.doc)",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30090339.1075845822929.JavaMail.evans@thyme>",
+      "Date": "Wed, 14 Mar 2001 09:03:00 -0800 (PST)",
+      "From": "jeffrey.darst@ps.ge.com",
+      "To": "brian.d.barto@enron.com, kay.mann@enron.com, anthony.butler@enron.com, \n\tchris.booth@enron.com, scott.dieball@enron.com, \n\troseann.engeldorf@enron.com",
+      "Subject": "RE: Change Order #3 to Add Dual Fuel to Unit #2 in BlueDog Contra\n\tct with GE",
+      "Cc": "chasecl@pssch.ps.ge.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "chasecl@pssch.ps.ge.com",
+      "X-From": "jeffrey.darst@ps.ge.com",
+      "X-To": "Brian.D.Barto@enron.com, Kay.Mann@enron.com, Anthony.Butler@enron.com, Chris.Booth@enron.com, Scott.Dieball@enron.com, Roseann.Engeldorf@enron.com",
+      "X-cc": "chasecl@pssch.ps.ge.com",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_2860.txt"
+}

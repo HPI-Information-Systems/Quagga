@@ -1,0 +1,75 @@
+{
+  "wrapper": "plaintext",
+  "text": "David,\nCan you resend 1/26/00 MPR?  I mistakingly deleted file before all worksheets \nwere printed.\n\nThanks,\nPatti (Sally's assistant)",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "David",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 109,
+      "end": 114,
+      "text": "Patti",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 116,
+      "end": 133,
+      "text": "Sally's assistant",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 101,
+      "end": 134,
+      "text": "Thanks,\nPatti (Sally's assistant)",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 134,
+      "text": "David,\nCan you resend 1/26/00 MPR?  I mistakingly deleted file before all worksheets \nwere printed.\n\nThanks,\nPatti (Sally's assistant)",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9297200.1075855822490.JavaMail.evans@thyme>",
+      "Date": "Thu, 27 Jan 2000 07:46:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "david.maxwell@enron.com",
+      "Subject": "MPR 01/26/00",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "David Maxwell",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_discussion_threads_640.txt"
+}

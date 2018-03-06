@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have version 5.2.1. Short of an upgrade, are there any remedies?\n\n\nErick Erickson wrote\n> What version of Solr? since 5.4 there's been a FORCELEADER colelctions\n> API call that might help.\n> \n> I'd run it with the newly added replicas offline. you only want it to\n> have good replicas to choose from.\n> \n> Best,\n> Erick\n> \n> On Wed, Feb 1, 2017 at 6:48 AM, tedsolr &lt;\n\n> tsmith@\n\n> &gt; wrote:\n>> Update! I did find an error:\n>>\n>> 2017-02-01 09:23:22.673 ERROR org.apache.solr.common.SolrException\n>> :org.apache.solr.common.SolrException: Error getting leader from zk for\n>> shard shard1\n>> ....\n>> Caused by: org.apache.solr.common.SolrException: Could not get leader\n>> props\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1040)\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1004)\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeader(ZkController.java:960)\n>>         ... 14 more\n>> Caused by: org.apache.zookeeper.KeeperException$NoNodeException:\n>> KeeperErrorCode = NoNode for /collections/colname/leaders/shard1\n>>         at\n>> org.apache.zookeeper.KeeperException.create(KeeperException.java:111)\n>>\n>> When I view the cluster status I see that this shard does not have a\n>> leader.\n>> So it appears I need to force the leader designation to the \"active\"\n>> replica. How do I do that?\n>>\n>>\n>>\n>> --\n>> View this message in context:\n>> http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318265.html\n>> Sent from the Solr - User mailing list archive at Nabble.com.\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318283.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 69,
+      "text": "I have version 5.2.1. Short of an upgrade, are there any remedies?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 69,
+      "end": 90,
+      "text": "Erick Erickson wrote\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 303,
+      "end": 322,
+      "text": "> \n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 90,
+      "end": 325,
+      "text": "> What version of Solr? since 5.4 there's been a FORCELEADER colelctions\n> API call that might help.\n> \n> I'd run it with the newly added replicas offline. you only want it to\n> have good replicas to choose from.\n> \n> Best,\n> Erick\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 325,
+      "end": 398,
+      "text": "> On Wed, Feb 1, 2017 at 6:48 AM, tedsolr &lt;\n\n> tsmith@\n\n> &gt; wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 398,
+      "end": 1778,
+      "text": ">> Update! I did find an error:\n>>\n>> 2017-02-01 09:23:22.673 ERROR org.apache.solr.common.SolrException\n>> :org.apache.solr.common.SolrException: Error getting leader from zk for\n>> shard shard1\n>> ....\n>> Caused by: org.apache.solr.common.SolrException: Could not get leader\n>> props\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1040)\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1004)\n>>         at\n>> org.apache.solr.cloud.ZkController.getLeader(ZkController.java:960)\n>>         ... 14 more\n>> Caused by: org.apache.zookeeper.KeeperException$NoNodeException:\n>> KeeperErrorCode = NoNode for /collections/colname/leaders/shard1\n>>         at\n>> org.apache.zookeeper.KeeperException.create(KeeperException.java:111)\n>>\n>> When I view the cluster status I see that this shard does not have a\n>> leader.\n>> So it appears I need to force the leader designation to the \"active\"\n>> replica. How do I do that?\n>>\n>>\n>>\n>> --\n>> View this message in context:\n>> http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318265.html\n>> Sent from the Solr - User mailing list archive at Nabble.com.\n\n\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318283.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_636"
+}

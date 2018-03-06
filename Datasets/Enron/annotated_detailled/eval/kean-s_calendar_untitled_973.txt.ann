@@ -1,0 +1,100 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mark:  Just wanted you to be aware per our request, Bill Paxon sent the \nattached Letter to the Editor of the Wall Street Journal on behalf of AAE.  \nWe hope his political standing will enhance the chances for the paper to \nprint it.\n\n\nAugust 9, 2000\n\nWall Street Journal\n200 Liberty Street\nNew York, NY 10281\n\nDear Editor:\n\nJohn Fialka and Rebecca Smith are to be congratulated for the first piece of\njournalism I am aware of that has attempted to explain what is really behind\nthe energy problems in the overheated West (Deregulation Leaves Electricity\nMarket Ripe for Manipulation by Power Firms, August 4). As this piece makes\nclear, these crises of capacity and delivery of electricity around the\nnation are doomed to continue for a simple reason:  electricity is a new\ngame, still being played under old rules. It is becoming a competitive\nmarket, but the old rules written for a government-sanctioned monopoly market \nhaven't been\nupdated.\n\nAs a result, some old-line utilities are exploiting and even contributing to\nthe crises with behavior that is not controlled by the old rules. As the\nstory details, utilities can drive prices up, exacerbate the energy shortage\nby withholding electricity from the grid, or impede the free flow of\nelectricity across lines they control.  It's gamesmanship, very profitable\nand not illegal, but definitely not in the public interest.\n\nThere is a very simple fix to the problem.  Write new rules.  Some old\nlaws need to be repealed. Some new oversight over this interstate commodity\nhas to be given the Federal government so that the general welfare gains\nsome control over local profiteering.  There are bills in Congress that make\nthese fixes. But a few powerful utilities block their passage. As long as\nthis blockade remains in effect, the industry cannot move forward to\nmodernize itself, build new generating capacity, and streamline the way\nelectricity moves from region to region.  Some day, Congress will pass the\nneeded legislation. Why not now?\n\n\nSincerely,\n\n\n\n\nBill Paxon\nNational Chairman\nAmericans for Affordable Electricity\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2083,
+      "text": "Mark:  Just wanted you to be aware per our request, Bill Paxon sent the \nattached Letter to the Editor of the Wall Street Journal on behalf of AAE.  \nWe hope his political standing will enhance the chances for the paper to \nprint it.\n\n\nAugust 9, 2000\n\nWall Street Journal\n200 Liberty Street\nNew York, NY 10281\n\nDear Editor:\n\nJohn Fialka and Rebecca Smith are to be congratulated for the first piece of\njournalism I am aware of that has attempted to explain what is really behind\nthe energy problems in the overheated West (Deregulation Leaves Electricity\nMarket Ripe for Manipulation by Power Firms, August 4). As this piece makes\nclear, these crises of capacity and delivery of electricity around the\nnation are doomed to continue for a simple reason:  electricity is a new\ngame, still being played under old rules. It is becoming a competitive\nmarket, but the old rules written for a government-sanctioned monopoly market \nhaven't been\nupdated.\n\nAs a result, some old-line utilities are exploiting and even contributing to\nthe crises with behavior that is not controlled by the old rules. As the\nstory details, utilities can drive prices up, exacerbate the energy shortage\nby withholding electricity from the grid, or impede the free flow of\nelectricity across lines they control.  It's gamesmanship, very profitable\nand not illegal, but definitely not in the public interest.\n\nThere is a very simple fix to the problem.  Write new rules.  Some old\nlaws need to be repealed. Some new oversight over this interstate commodity\nhas to be given the Federal government so that the general welfare gains\nsome control over local profiteering.  There are bills in Congress that make\nthese fixes. But a few powerful utilities block their passage. As long as\nthis blockade remains in effect, the industry cannot move forward to\nmodernize itself, build new generating capacity, and streamline the way\nelectricity moves from region to region.  Some day, Congress will pass the\nneeded legislation. Why not now?\n\n\nSincerely,\n\n\n\n\nBill Paxon\nNational Chairman\nAmericans for Affordable Electricity\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2002,
+      "end": 2027,
+      "text": "Sincerely,\n\n\n\n\nBill Paxon",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2017,
+      "end": 2027,
+      "text": "Bill Paxon",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2028,
+      "end": 2045,
+      "text": "National Chairman",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2046,
+      "end": 2082,
+      "text": "Americans for Affordable Electricity",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2028,
+      "end": 2083,
+      "text": "National Chairman\nAmericans for Affordable Electricity\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 6,
+      "type": "WorksFor",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4742451.1075846296254.JavaMail.evans@thyme>",
+      "Date": "Wed, 9 Aug 2000 04:06:00 -0700 (PDT)",
+      "From": "cynthia.sandherr@enron.com",
+      "To": "mark.palmer@enron.com",
+      "Subject": "RE: letter to editor of Wall Street Journal",
+      "Cc": "steven.kean@enron.com, richard.shapiro@enron.com, joe.hillings@enron.com, \n\ttom.briggs@enron.com, chris.long@enron.com, stephen.burns@enron.com, \n\tallison.navin@enron.com, ed@buckham.com, dwatkiss@bracepatt.com, \n\tcingebretson@bracepatt.com, joe.hartsoe@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "steven.kean@enron.com, richard.shapiro@enron.com, joe.hillings@enron.com, \n\ttom.briggs@enron.com, chris.long@enron.com, stephen.burns@enron.com, \n\tallison.navin@enron.com, ed@buckham.com, dwatkiss@bracepatt.com, \n\tcingebretson@bracepatt.com, joe.hartsoe@enron.com",
+      "X-From": "Cynthia Sandherr",
+      "X-To": "Mark Palmer",
+      "X-cc": "Steven J Kean, Richard Shapiro, Joe Hillings, Tom Briggs, Chris Long, Stephen D Burns, Allison Navin, ed@buckham.com, dwatkiss@bracepatt.com, cingebretson@bracepatt.com, Joe Hartsoe",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Calendar\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_calendar_untitled_973.txt"
+}

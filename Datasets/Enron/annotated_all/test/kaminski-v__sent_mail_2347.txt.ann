@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dale,\n\nThanks for your message.\n\nI was traveling last week and things were put on the back burner. You should\nsee a letter to John Sherriff Wed morning (my time).\n\nVince\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Dale",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 164,
+      "end": 169,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 170,
+      "text": "Dale,\n\nThanks for your message.\n\nI was traveling last week and things were put on the back burner. You should\nsee a letter to John Sherriff Wed morning (my time).\n\nVince\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10813440.1075856559024.JavaMail.evans@thyme>",
+      "Date": "Tue, 25 Jul 2000 08:48:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "dale.surbey@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Dale Surbey",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_2347.txt"
+}

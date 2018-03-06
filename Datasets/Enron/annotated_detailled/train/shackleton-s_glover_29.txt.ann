@@ -1,0 +1,494 @@
+{
+  "wrapper": "plaintext",
+  "text": "We are going to use 76-0486649 for the tax id for Enron Distribution \nVentures.  This is the number of Atlantic Commercial Finance, Inc., the \nparent of Enron Distribution Ventures.  See tax department e-mail traffic \nbelow.  If the brokerage firm has a problem with this, I guess we will need \nto put our tax people in touch with their legal department.  We can't undo \nour tax treatment just to satisfy the brokerage firm.\n---------------------- Forwarded by Lauren Hagerty/ENRON_DEVELOPMENT on \n06/13/2000 01:34 PM ---------------------------\n   \n\tenron india\n\t\n\tFrom:  Michael Norris                           06/13/2000 07:08 AM\n\t\n\nTo: Lauren Hagerty/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc:  \n\nSubject: Re: Have You Needed EIN for 'Disregarded' Entity?\n\nLauren,\nThe answer was pretty straight forward, a disregarded entity uses the \nEmployer ID# of is single-member owner, in this case ACFI (Federal ID #:  \n76-0486649).  Fortunately, Cullen is a walking/talking tax code ... he amazes \nme!\n\nMike N\n---------------------- Forwarded by Michael Norris/ENRON_DEVELOPMENT on \n06/13/2000 07:08 AM ---------------------------\n\nCullen Duke\n\n06/13/2000 06:42 AM\nTo: Michael Norris/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Pamela Landry/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Keith \nGercken/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rick \nHopkinson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Susan \nMusch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jack Harmuth/Corp/Enron@Enron, \nGlen Walloch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Annette \nGlod/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT \n\nSubject: Re: Have You Needed EIN for 'Disregarded' Entity?  \n\nReg. o 301-6109-1(h)(2)(i) seems pretty clear to me that a disregarded entity \nuses its single member's EIN.\n\n\n   \n\tenron india\n\t\n\tFrom:  Michael Norris                           06/12/2000 06:19 PM\n\t\n\nTo: Cullen Duke/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Pamela \nLandry/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Keith \nGercken/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rick \nHopkinson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Susan \nMusch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jack Harmuth/Corp/Enron@Enron, \nGlen Walloch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Annette Glod/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT \nSubject: Have You Needed EIN for 'Disregarded' Entity?\n\nEnron India LLC (EILLC) is a 'disregarded' sub of Atlantic Commercial \nFinance, Inc. (ACFI).  Both are US entities.\nEILLC has today opened a US brokerage account and was asked to furnish its \nEIN on form W-9, Request for Txpr ID#.  \n\nQuery:  Do any of you have prior experience with determining whether EILLC \ncan simply supply the EIN of ACFI or whether EILLC must apply for its own \nEIN?  If yes, how was your issue resolved?\n\nAnnette Glod will check with the Service tomorrow and will be glad to report \nback to this group with the answer.\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 425,
+      "text": "We are going to use 76-0486649 for the tax id for Enron Distribution \nVentures.  This is the number of Atlantic Commercial Finance, Inc., the \nparent of Enron Distribution Ventures.  See tax department e-mail traffic \nbelow.  If the brokerage firm has a problem with this, I guess we will need \nto put our tax people in touch with their legal department.  We can't undo \nour tax treatment just to satisfy the brokerage firm.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 461,
+      "end": 475,
+      "text": "Lauren Hagerty",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 498,
+      "end": 508,
+      "text": "06/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 509,
+      "end": 517,
+      "text": "01:34 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 425,
+      "end": 546,
+      "text": "---------------------- Forwarded by Lauren Hagerty/ENRON_DEVELOPMENT on \n06/13/2000 01:34 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 546,
+      "end": 565,
+      "text": "   \n\tenron india\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 573,
+      "end": 587,
+      "text": "Michael Norris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 614,
+      "end": 624,
+      "text": "06/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 625,
+      "end": 633,
+      "text": "07:08 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 641,
+      "end": 655,
+      "text": "Lauren Hagerty",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 708,
+      "end": 757,
+      "text": "Re: Have You Needed EIN for 'Disregarded' Entity?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 566,
+      "end": 758,
+      "text": "From:  Michael Norris                           06/13/2000 07:08 AM\n\t\n\nTo: Lauren Hagerty/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc:  \n\nSubject: Re: Have You Needed EIN for 'Disregarded' Entity?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 759,
+      "end": 765,
+      "text": "Lauren",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 997,
+      "end": 1003,
+      "text": "Mike N",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 758,
+      "end": 1004,
+      "text": "\nLauren,\nThe answer was pretty straight forward, a disregarded entity uses the \nEmployer ID# of is single-member owner, in this case ACFI (Federal ID #:  \n76-0486649).  Fortunately, Cullen is a walking/talking tax code ... he amazes \nme!\n\nMike N\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1040,
+      "end": 1054,
+      "text": "Michael Norris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1077,
+      "end": 1087,
+      "text": "06/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1088,
+      "end": 1096,
+      "text": "07:08 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1004,
+      "end": 1125,
+      "text": "---------------------- Forwarded by Michael Norris/ENRON_DEVELOPMENT on \n06/13/2000 07:08 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1126,
+      "end": 1137,
+      "text": "Cullen Duke",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1139,
+      "end": 1149,
+      "text": "06/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1150,
+      "end": 1158,
+      "text": "06:42 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1163,
+      "end": 1177,
+      "text": "Michael Norris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1218,
+      "end": 1231,
+      "text": "Pamela Landry",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1269,
+      "end": 1283,
+      "text": "Keith \nGercken",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1321,
+      "end": 1336,
+      "text": "Rick \nHopkinson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1374,
+      "end": 1386,
+      "text": "Susan \nMusch",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1424,
+      "end": 1436,
+      "text": "Jack Harmuth",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1456,
+      "end": 1468,
+      "text": "Glen Walloch",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1506,
+      "end": 1519,
+      "text": "Annette \nGlod",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1567,
+      "end": 1616,
+      "text": "Re: Have You Needed EIN for 'Disregarded' Entity?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1125,
+      "end": 1619,
+      "text": "\nCullen Duke\n\n06/13/2000 06:42 AM\nTo: Michael Norris/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Pamela Landry/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Keith \nGercken/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rick \nHopkinson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Susan \nMusch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jack Harmuth/Corp/Enron@Enron, \nGlen Walloch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Annette \nGlod/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT \n\nSubject: Re: Have You Needed EIN for 'Disregarded' Entity?  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1619,
+      "end": 1750,
+      "text": "\nReg. o 301-6109-1(h)(2)(i) seems pretty clear to me that a disregarded entity \nuses its single member's EIN.\n\n\n   \n\tenron india\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1758,
+      "end": 1772,
+      "text": "Michael Norris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1799,
+      "end": 1809,
+      "text": "06/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1810,
+      "end": 1818,
+      "text": "06:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1826,
+      "end": 1837,
+      "text": "Cullen Duke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1875,
+      "end": 1889,
+      "text": "Pamela \nLandry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1927,
+      "end": 1941,
+      "text": "Keith \nGercken",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1979,
+      "end": 1994,
+      "text": "Rick \nHopkinson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2032,
+      "end": 2044,
+      "text": "Susan \nMusch",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2082,
+      "end": 2094,
+      "text": "Jack Harmuth",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2114,
+      "end": 2126,
+      "text": "Glen Walloch",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2166,
+      "end": 2179,
+      "text": " Annette Glod",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2226,
+      "end": 2271,
+      "text": "Have You Needed EIN for 'Disregarded' Entity?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1751,
+      "end": 2272,
+      "text": "From:  Michael Norris                           06/12/2000 06:19 PM\n\t\n\nTo: Cullen Duke/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Pamela \nLandry/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Keith \nGercken/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rick \nHopkinson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Susan \nMusch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Jack Harmuth/Corp/Enron@Enron, \nGlen Walloch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Annette Glod/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT \nSubject: Have You Needed EIN for 'Disregarded' Entity?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 2272,
+      "end": 2821,
+      "text": "\nEnron India LLC (EILLC) is a 'disregarded' sub of Atlantic Commercial \nFinance, Inc. (ACFI).  Both are US entities.\nEILLC has today opened a US brokerage account and was asked to furnish its \nEIN on form W-9, Request for Txpr ID#.  \n\nQuery:  Do any of you have prior experience with determining whether EILLC \ncan simply supply the EIN of ACFI or whether EILLC must apply for its own \nEIN?  If yes, how was your issue resolved?\n\nAnnette Glod will check with the Service tomorrow and will be glad to report \nback to this group with the answer.\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 23,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 34,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 24,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 39,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 26,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 41,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 28,
+      "target": 42,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 43,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 30,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12769600.1075844459262.JavaMail.evans@thyme>",
+      "Date": "Tue, 13 Jun 2000 06:41:00 -0700 (PDT)",
+      "From": "lauren.hagerty@enron.com",
+      "Subject": "Re: Have You Needed EIN for 'Disregarded' Entity?",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Lauren Hagerty",
+      "X-To": "Sara Shackleton@ECT, Samantha Boyd@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Glover",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_glover_29.txt"
+}

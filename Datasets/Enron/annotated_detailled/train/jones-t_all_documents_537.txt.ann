@@ -1,0 +1,370 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Tana Jones/HOU/ECT on 12/06/99 04:05 PM \n---------------------------\n\n\nRahil Jafry\n12/03/99 11:18 AM\nTo: Tom Moran/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Stephen H \nDouglas/HOU/ECT@ECT, Mary Solmonson/HOU/ECT@ECT\ncc: Debbie R Brackett/HOU/ECT@ECT, Molly Harris/HOU/ECT@ECT, David \nKing/HOU/ECT@ECT, Jeff Blumenthal/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, \nPeggy Hedstrom/CAL/ECT@ECT, Stacy E Dickson/HOU/ECT@ECT, Tana \nJones/HOU/ECT@ECT, Leslie Hansen/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, \nAlan Aronowitz/HOU/ECT@ECT, Connie Sutton/HOU/ECT@ECT, Edmund \nCooper/LON/ECT@ECT, Justin Boyd/LON/ECT@ECT, David Weekes/LON/ECT@ECT, Janine \nJuggins/LON/ECT@ECT, Bob Shults/HOU/ECT@ECT, David Forster/LON/ECT@ECT, Frank \nL Davis/HOU/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT, \nLinda K Loukanis/HOU/ECT@ECT, Philippe Travis/LON/ECT@ECT, Cindy \nHorn/HOU/ECT@ECT, Dianne Seib/CAL/ECT@ECT \nSubject: Counterparties for Review from 12/02/99\n\nFor your review.\n\nThanks,\nRahil\nx. 3-3206\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 46,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 58,
+      "end": 66,
+      "text": "12/06/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 67,
+      "end": 75,
+      "text": "04:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 105,
+      "text": "---------------------- Forwarded by Tana Jones/HOU/ECT on 12/06/99 04:05 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 107,
+      "end": 118,
+      "text": "Rahil Jafry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 119,
+      "end": 127,
+      "text": "12/03/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 128,
+      "end": 136,
+      "text": "11:18 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 141,
+      "end": 150,
+      "text": "Tom Moran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 164,
+      "end": 175,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 189,
+      "end": 207,
+      "text": "Stephen H \nDouglas",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 221,
+      "end": 235,
+      "text": "Mary Solmonson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 252,
+      "end": 269,
+      "text": "Debbie R Brackett",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 283,
+      "end": 295,
+      "text": "Molly Harris",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 309,
+      "end": 320,
+      "text": "David \nKing",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 334,
+      "end": 349,
+      "text": "Jeff Blumenthal",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 363,
+      "end": 376,
+      "text": "Karen Lambert",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 391,
+      "end": 405,
+      "text": "Peggy Hedstrom",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 419,
+      "end": 434,
+      "text": "Stacy E Dickson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 448,
+      "end": 459,
+      "text": "Tana \nJones",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 473,
+      "end": 486,
+      "text": "Leslie Hansen",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 500,
+      "end": 515,
+      "text": "Jeffrey T Hodge",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 530,
+      "end": 544,
+      "text": "Alan Aronowitz",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 558,
+      "end": 571,
+      "text": "Connie Sutton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 585,
+      "end": 599,
+      "text": "Edmund \nCooper",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 613,
+      "end": 624,
+      "text": "Justin Boyd",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 638,
+      "end": 650,
+      "text": "David Weekes",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 664,
+      "end": 679,
+      "text": "Janine \nJuggins",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 693,
+      "end": 703,
+      "text": "Bob Shults",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 717,
+      "end": 730,
+      "text": "David Forster",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 744,
+      "end": 758,
+      "text": "Frank \nL Davis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 772,
+      "end": 785,
+      "text": "Kim S Theriot",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 799,
+      "end": 814,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 829,
+      "end": 845,
+      "text": "Linda K Loukanis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 859,
+      "end": 874,
+      "text": "Philippe Travis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 888,
+      "end": 899,
+      "text": "Cindy \nHorn",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 913,
+      "end": 924,
+      "text": "Dianne Seib",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 947,
+      "end": 986,
+      "text": "Counterparties for Review from 12/02/99",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 105,
+      "end": 987,
+      "text": "\n\nRahil Jafry\n12/03/99 11:18 AM\nTo: Tom Moran/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Stephen H \nDouglas/HOU/ECT@ECT, Mary Solmonson/HOU/ECT@ECT\ncc: Debbie R Brackett/HOU/ECT@ECT, Molly Harris/HOU/ECT@ECT, David \nKing/HOU/ECT@ECT, Jeff Blumenthal/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, \nPeggy Hedstrom/CAL/ECT@ECT, Stacy E Dickson/HOU/ECT@ECT, Tana \nJones/HOU/ECT@ECT, Leslie Hansen/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, \nAlan Aronowitz/HOU/ECT@ECT, Connie Sutton/HOU/ECT@ECT, Edmund \nCooper/LON/ECT@ECT, Justin Boyd/LON/ECT@ECT, David Weekes/LON/ECT@ECT, Janine \nJuggins/LON/ECT@ECT, Bob Shults/HOU/ECT@ECT, David Forster/LON/ECT@ECT, Frank \nL Davis/HOU/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT, \nLinda K Loukanis/HOU/ECT@ECT, Philippe Travis/LON/ECT@ECT, Cindy \nHorn/HOU/ECT@ECT, Dianne Seib/CAL/ECT@ECT \nSubject: Counterparties for Review from 12/02/99\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1014,
+      "end": 1019,
+      "text": "Rahil",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1006,
+      "end": 1019,
+      "text": "Thanks,\nRahil",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 987,
+      "end": 1035,
+      "text": "\nFor your review.\n\nThanks,\nRahil\nx. 3-3206\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 39,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22487006.1075846923052.JavaMail.evans@thyme>",
+      "Date": "Mon, 6 Dec 1999 08:05:00 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "tom.moran@enron.com",
+      "Subject": "Counterparties for Review from 12/02/99",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Tom Moran",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_537.txt"
+}

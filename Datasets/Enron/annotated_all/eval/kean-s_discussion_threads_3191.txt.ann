@@ -1,0 +1,165 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Cindy Derecskey/Corp/Enron on 05/08/2001 08:14 AM -----\n\n\tCindy Derecskey\n\t05/07/2001 06:08 PM\n\t\t \n\t\t To: Richard Shapiro/NA/Enron@Enron, Steven J Kean/NA/Enron@Enron, Linda \nRobertson/NA/Enron@ENRON\n\t\t cc: Ginger Dernehl/NA/Enron@Enron, Maureen McVicker/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON\n\t\t Subject: Documents in WSJ Info Binder for Ken Lay\n\n\n\t\n\n\n\n\nARTICLES INCLUDED IN THE BINDER\n\n\n       \n\n\n\n\n\n\n\nFYI ARTICLES - NOT INCLUDED IN BINDER    ARTICLES EMAILED TO REBECCA SMITH - \nWSJ\n\n\n          \n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 34,
+      "text": "Cindy Derecskey",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 49,
+      "end": 59,
+      "text": "05/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 60,
+      "end": 68,
+      "text": "08:14 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 75,
+      "text": "----- Forwarded by Cindy Derecskey/Corp/Enron on 05/08/2001 08:14 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 77,
+      "end": 92,
+      "text": "Cindy Derecskey",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 94,
+      "end": 104,
+      "text": "05/07/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 105,
+      "end": 113,
+      "text": "06:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 125,
+      "end": 140,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 157,
+      "end": 170,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 187,
+      "end": 203,
+      "text": "Linda \nRobertson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 226,
+      "end": 240,
+      "text": "Ginger Dernehl",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 257,
+      "end": 273,
+      "text": "Maureen McVicker",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 290,
+      "end": 302,
+      "text": "Mark \nPalmer",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 332,
+      "end": 372,
+      "text": "Documents in WSJ Info Binder for Ken Lay",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 75,
+      "end": 373,
+      "text": "\n\tCindy Derecskey\n\t05/07/2001 06:08 PM\n\t\t \n\t\t To: Richard Shapiro/NA/Enron@Enron, Steven J Kean/NA/Enron@Enron, Linda \nRobertson/NA/Enron@ENRON\n\t\t cc: Ginger Dernehl/NA/Enron@Enron, Maureen McVicker/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON\n\t\t Subject: Documents in WSJ Info Binder for Ken Lay\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 373,
+      "end": 529,
+      "text": "\n\n\t\n\n\n\n\nARTICLES INCLUDED IN THE BINDER\n\n\n       \n\n\n\n\n\n\n\nFYI ARTICLES - NOT INCLUDED IN BINDER    ARTICLES EMAILED TO REBECCA SMITH - \nWSJ\n\n\n          \n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28071821.1075848182081.JavaMail.evans@thyme>",
+      "Date": "Tue, 8 May 2001 01:16:00 -0700 (PDT)",
+      "From": "cindy.derecskey@enron.com",
+      "To": "richard.shapiro@enron.com, steven.kean@enron.com, linda.robertson@enron.com",
+      "Subject": "ADDITIONAL DOCUMENT - WSJ Documents for Ken Lay",
+      "Cc": "maureen.mcvicker@enron.com, ginger.dernehl@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "maureen.mcvicker@enron.com, ginger.dernehl@enron.com",
+      "X-From": "Cindy Derecskey",
+      "X-To": "Richard Shapiro, Steven J Kean, Linda Robertson",
+      "X-cc": "Maureen McVicker, Ginger Dernehl",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_discussion_threads_3191.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

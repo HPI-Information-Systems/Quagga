@@ -1,0 +1,27 @@
+The Spark on Kubernetes development community is pleased to announce
+release 0.4.0 of Apache Spark with native Kubernetes scheduler back-end!
+
+The dev community is planning to use this release as the reference for
+upstreaming native kubernetes capability over the Spark 2.3 release cycle.
+
+This release includes a variety of bug fixes and code improvements, as well
+as the following new features:
+
+   - HDFS rack locality support
+   - Mount small files using secrets, without running the resource staging
+   server
+   - Java options exposed to executor pods
+   - User specified secrets injection for driver and executor pods
+   - Unit testing for the Kubernetes scheduler backend
+   - Standardized docker image build scripting
+   - Reference YAML for RBAC configurations
+
+The full release notes are available here:
+https://github.com/apache-spark-on-k8s/spark/releases/tag/v2.2.0-kubernetes-0.4.0
+
+Community resources for Spark on Kubernetes are available at:
+
+   - Slack: https://kubernetes.slack.com
+   - User Docs: https://apache-spark-on-k8s.github.io/userdocs/
+   - GitHub: https://github.com/apache-spark-on-k8s/spark
+

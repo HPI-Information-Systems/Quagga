@@ -1,0 +1,98 @@
+You can try to reindex your data to another collection with more shards
+
+--
+
+/Yago Riveiro
+
+On 9 Jan 2017 14:15 +0000, Narsimha Reddy CHALLA <chnreddy15@gmail.com>, wrote:
+> No, it does not work by splitting. First of all lucene index files are not
+> text files. There is a segment_NN file which will refer index files in a
+> commit. So, when we split a large index file into smaller ones, the
+> corresponding segment_NN file also needs to be updated with new index files
+> OR a new segment_NN file should be created, probably.
+>
+> Can someone who is familiar with lucene index files please help us in this
+> regard?
+>
+> Thanks
+> NRC
+>
+> On Mon, Jan 9, 2017 at 7:38 PM, Manan Sheth <manan.sheth@impetus.co.in
+> wrote:
+>
+> > Is this really works for lucene index files?
+> >
+> > Thanks,
+> > Manan Sheth
+> > ________________________________________
+> > From: Moenieb Davids <Moenieb.Davids@gpaa.gov.za
+> > Sent: Monday, January 9, 2017 7:36 PM
+> > To: solr-user@lucene.apache.org
+> > Subject: RE: Help needed in breaking large index file into smaller ones
+> >
+> > Hi,
+> >
+> > Try split on linux or unix
+> >
+> > split -l 100 originalfile.csv
+> > this will split a file into 100 lines each
+> >
+> > see other options for how to split like size
+> >
+> >
+> > -----Original Message-----
+> > From: Narsimha Reddy CHALLA [mailto:chnreddy15@gmail.com]
+> > Sent: 09 January 2017 12:12 PM
+> > To: solr-user@lucene.apache.org
+> > Subject: Help needed in breaking large index file into smaller ones
+> >
+> > Hi All,
+> >
+> > My solr server has a few large index files (say ~10G). I am looking
+> > for some help on breaking them it into smaller ones (each < 4G) to satisfy
+> > my application requirements. Are there any such tools available?
+> >
+> > Appreciate your help.
+> >
+> > Thanks
+> > NRC
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> > ============================================================
+> > ===============
+> > GPAA e-mail Disclaimers and confidential note
+> >
+> > This e-mail is intended for the exclusive use of the addressee only.
+> > If you are not the intended recipient, you should not use the contents
+> > or disclose them to any other person. Please notify the sender immediately
+> > and delete the e-mail. This e-mail is not intended nor
+> > shall it be taken to create any legal relations, contractual or otherwise.
+> > Legally binding obligations can only arise for the GPAA by means of
+> > a written instrument signed by an authorised signatory.
+> > ============================================================
+> > ===============
+> >
+> > ________________________________
+> >
+> >
+> >
+> >
+> >
+> >
+> > NOTE: This message may contain information that is confidential,
+> > proprietary, privileged or otherwise protected by law. The message is
+> > intended solely for the named addressee. If received in error, please
+> > destroy and notify the sender. Any use of this email is prohibited when
+> > received in error. Impetus does not represent, warrant and/or guarantee,
+> > that the integrity of this communication has been maintained nor that the
+> > communication is free of errors, virus, interception or interference.
+> >
+

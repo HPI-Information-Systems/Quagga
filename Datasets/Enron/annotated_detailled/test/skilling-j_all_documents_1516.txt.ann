@@ -1,0 +1,252 @@
+{
+  "wrapper": "plaintext",
+  "text": "Erica, Jeff is currently scheduled to be on vacation July 19.  Would it be \npossible to schedule during the next quarter?\n\nThanks,\nJoannie\n\n\n\n\n\nErica Harris <EHarris@insightpartners.com> on 05/14/2001 12:09:54 PM\nTo: \"'jeff.skilling@enron.com'\" <jeff.skilling@enron.com>\ncc:  \n\nSubject: Telephone Call with Jerry Murdock\n\n\nDear Mr. Skilling:\n\nI write on behalf of Jerry Murdock, who is currently in Europe.  Mr. Murdock\nasked me to pass on the following information regarding your telephone call\nscheduled for 10:00am (CST) on Tuesday, May 15.\n\nInsight Capital hosts a quarterly dinner with Robert Rubin and Steve\nFriedman and other selected guests.  Our next dinner is scheduled for July\n19 and will be held in Aspen, Colorado.  The Current State of the Global\nMarket will be one of the topics under discussion and Jack Welch of GE is\none of your fellow invitees.\n\nThe purpose of your conversation with Mr. Murdock is to discuss the above in\nmore detail and to more fully brief you on the purpose of these dinners.\n\nPlease do not hesitate to contact me should you require any further\ninformation.\n\nErica Harris\nInsight Capital Partners\n680 Fifth Avenue\n8th Floor\nNew York, NY  10019\n(212) 230-9276\n\n_______________________________________________________\nThis message may contain confidential and/or legally privileged information.\nIf it has been sent to you in error, please reply immediately to advise the\nsender of the error and then destroy this message, any copies of this\nmessage and any printout of this message.  If you are not the intended\nrecipient of the message, any unauthorized dissemination, distribution or\ncopying of the material in this message, and any attachments to the message,\nis strictly forbidden.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 131,
+      "end": 138,
+      "text": "Joannie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 123,
+      "end": 139,
+      "text": "Thanks,\nJoannie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 144,
+      "text": "Erica, Jeff is currently scheduled to be on vacation July 19.  Would it be \npossible to schedule during the next quarter?\n\nThanks,\nJoannie\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 5,
+      "text": "Erica",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 144,
+      "end": 156,
+      "text": "Erica Harris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 158,
+      "end": 185,
+      "text": "EHarris@insightpartners.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 190,
+      "end": 200,
+      "text": "05/14/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 201,
+      "end": 212,
+      "text": "12:09:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 219,
+      "end": 242,
+      "text": "jeff.skilling@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 246,
+      "end": 269,
+      "text": "jeff.skilling@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 287,
+      "end": 320,
+      "text": "Telephone Call with Jerry Murdock",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 144,
+      "end": 321,
+      "text": "Erica Harris <EHarris@insightpartners.com> on 05/14/2001 12:09:54 PM\nTo: \"'jeff.skilling@enron.com'\" <jeff.skilling@enron.com>\ncc:  \n\nSubject: Telephone Call with Jerry Murdock\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 328,
+      "end": 340,
+      "text": "Mr. Skilling",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 323,
+      "end": 342,
+      "text": "Dear Mr. Skilling:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1200,
+      "end": 1724,
+      "text": "_______________________________________________________\nThis message may contain confidential and/or legally privileged information.\nIf it has been sent to you in error, please reply immediately to advise the\nsender of the error and then destroy this message, any copies of this\nmessage and any printout of this message.  If you are not the intended\nrecipient of the message, any unauthorized dissemination, distribution or\ncopying of the material in this message, and any attachments to the message,\nis strictly forbidden.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1099,
+      "end": 1111,
+      "text": "Erica Harris",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1112,
+      "end": 1136,
+      "text": "Insight Capital Partners",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1137,
+      "end": 1183,
+      "text": "680 Fifth Avenue\n8th Floor\nNew York, NY  10019",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1184,
+      "end": 1198,
+      "text": "(212) 230-9276",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1099,
+      "end": 1199,
+      "text": "Erica Harris\nInsight Capital Partners\n680 Fifth Avenue\n8th Floor\nNew York, NY  10019\n(212) 230-9276\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 321,
+      "end": 1725,
+      "text": "\n\nDear Mr. Skilling:\n\nI write on behalf of Jerry Murdock, who is currently in Europe.  Mr. Murdock\nasked me to pass on the following information regarding your telephone call\nscheduled for 10:00am (CST) on Tuesday, May 15.\n\nInsight Capital hosts a quarterly dinner with Robert Rubin and Steve\nFriedman and other selected guests.  Our next dinner is scheduled for July\n19 and will be held in Aspen, Colorado.  The Current State of the Global\nMarket will be one of the topics under discussion and Jack Welch of GE is\none of your fellow invitees.\n\nThe purpose of your conversation with Mr. Murdock is to discuss the above in\nmore detail and to more fully brief you on the purpose of these dinners.\n\nPlease do not hesitate to contact me should you require any further\ninformation.\n\nErica Harris\nInsight Capital Partners\n680 Fifth Avenue\n8th Floor\nNew York, NY  10019\n(212) 230-9276\n\n_______________________________________________________\nThis message may contain confidential and/or legally privileged information.\nIf it has been sent to you in error, please reply immediately to advise the\nsender of the error and then destroy this message, any copies of this\nmessage and any printout of this message.  If you are not the intended\nrecipient of the message, any unauthorized dissemination, distribution or\ncopying of the material in this message, and any attachments to the message,\nis strictly forbidden.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 16,
+      "target": 17,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 18,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 19,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 13,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<421097.1075845491989.JavaMail.evans@thyme>",
+      "Date": "Mon, 14 May 2001 05:09:00 -0700 (PDT)",
+      "From": "joannie.williamson@enron.com",
+      "To": "eharris@insightpartners.com",
+      "Subject": "Re: Telephone Call with Jerry Murdock",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Joannie Williamson",
+      "X-To": "Erica Harris <EHarris@insightpartners.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Skilling_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.nsf"
+    }
+  },
+  "id": "test/skilling-j_all_documents_1516.txt"
+}

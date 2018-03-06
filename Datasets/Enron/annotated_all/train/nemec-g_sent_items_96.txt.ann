@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "Keith, My changes are redlined.  Please provide any comments.\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Keith",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 64,
+      "text": "Keith, My changes are redlined.  Please provide any comments.\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5132421.1075852333522.JavaMail.evans@thyme>",
+      "Date": "Tue, 25 Sep 2001 08:43:58 -0700 (PDT)",
+      "From": "gerald.nemec@enron.com",
+      "To": "pkdaigle@neosoft.com",
+      "Subject": "Filing Form",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-To": "'pkdaigle@neosoft.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\GNEMEC (Non-Privileged)\\Sent Items",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "GNEMEC (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_sent_items_96.txt"
+}

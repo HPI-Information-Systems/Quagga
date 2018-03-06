@@ -1,0 +1,33 @@
+I know I am missing something very simple here but I cant stop/start my Solr instance with
+/opt/solr/bin/solr stop
+
+I get “No Solr nodes found to stop”, however the server is running. I can access the server
+via the default port and my app is able to use its services without issue. 
+
+
+Thanks for any assistance!
+
+
+
+
+
+Thanks 
+
+Keith Savoie
+Vice President of Technology
+
+IRiDiAN GROUP
+                                                    
+Helping organizations brand
+& market themselves through
+web, print, & social media.  
+                                                    
+
+14450 Eagle Run Dr. Ste. 120
+Omaha, Nebraska 68116 
+
+P  • 402.422.0150
+W • iridiangroup.com <https://www.iridiangroup.com/> 
+
+Join us on facebook <https://www.facebook.com/iridiangroup> or twitter <https://twitter.com/iridiangroup>
+

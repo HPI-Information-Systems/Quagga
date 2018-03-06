@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Erick,\n\nYes, this seems to be what I want.\nIs there a good example of how to use it?\n\nThanks\nSG\n\n\nOn Thu, Aug 24, 2017 at 5:02 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> Solr has the EmbeddedSolrServer is that what you're looking for?\n>\n> Best,\n> Erick\n>\n> On Thu, Aug 24, 2017 at 11:15 AM, S G <sg.online.email@gmail.com> wrote:\n> > Hi,\n> >\n> > We are looking to run Solr in-memory for testing and examples.\n> >\n> > For example:\n> > 1) Cassandra has cassandra-unit:\n> > https://github.com/jsevellec/cassandra-unit/wiki/How-to-\n> use-it-in-your-code\n> >\n> > 2) Storm has local-mode:\n> > http://storm.apache.org/releases/current/Local-mode.html\n> >\n> > Is there something similar for Solr too?\n> >\n> > Thanks\n> > SG\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 92,
+      "end": 103,
+      "text": "\nThanks\nSG\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 14,
+      "text": "Thanks Erick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 105,
+      "text": "Thanks Erick,\n\nYes, this seems to be what I want.\nIs there a good example of how to use it?\n\nThanks\nSG\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 105,
+      "end": 186,
+      "text": "On Thu, Aug 24, 2017 at 5:02 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 254,
+      "end": 272,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 186,
+      "end": 274,
+      "text": "\n> Solr has the EmbeddedSolrServer is that what you're looking for?\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 274,
+      "end": 349,
+      "text": "> On Thu, Aug 24, 2017 at 11:15 AM, S G <sg.online.email@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 349,
+      "end": 357,
+      "text": "> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 712,
+      "end": 734,
+      "text": "> >\n> > Thanks\n> > SG\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 349,
+      "end": 737,
+      "text": "> > Hi,\n> >\n> > We are looking to run Solr in-memory for testing and examples.\n> >\n> > For example:\n> > 1) Cassandra has cassandra-unit:\n> > https://github.com/jsevellec/cassandra-unit/wiki/How-to-\n> use-it-in-your-code\n> >\n> > 2) Storm has local-mode:\n> > http://storm.apache.org/releases/current/Local-mode.html\n> >\n> > Is there something similar for Solr too?\n> >\n> > Thanks\n> > SG\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5657"
+}

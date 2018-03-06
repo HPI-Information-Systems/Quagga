@@ -1,0 +1,784 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vince,\n\nThanks for the update.  I'm looking forward to meeting you too.\n\nShijie\n\nShi-Jie Deng\nAssistant Professor\nSchool of ISyE\nGeorgia Institute of Technology\n\nOffice Phone: (404) 894-6519\nE-mail:       deng@isye.gatech.edu\nHome page:    http://www.isye.gatech.edu/~deng\n\nOn Thu, 27 Jul 2000 Vince.J.Kaminski@enron.com wrote:\n\n>\n> Shijie,\n>\n> We would like you to meet tomorrow morning, starting at 9:00,  with a few\n> members of the\n> group. Around 11:15 we shall go to lunch (myself, Stinson Gibner and Zimin\n> Lu).\n> At 1:00 we would like you to make a presentation to the Research Group on\n> the topic\n> of your choice. After 2:30 we shall continue with individual meetings.\n>\n> We shall give you an agenda with the names and times when you arrive.\n>\n> You can come to the lobby of the Enron building (1400 Smith)\n> between 8:30 and 9:00 and call me (3-3848) or my assistant,\n> Shirley Crenshaw (3-5290), to be admitted to the building.\n> We are on the 19th floor.\n>\n> Look forward to meeting you.\n>\n> Vince Kaminski\n>\n>\n>\n>\n>\n>\n> Shijie Deng <deng@isye.gatech.edu> on 07/27/2000 10:10:03 AM\n>\n> To:   Shirley.Crenshaw@enron.com\n> cc:   Vince Kaminski <Vince.J.Kaminski@enron.com>\n> Subject:  Re: Visit to Houston and Vince Kaminski's Research Group\n>\n>\n>\n> Hi Shirley,\n>\n> An overhead would be good.  Thanks.\n> BTW, is there happen to be an agenda for my visit?  Thank you.\n>\n> Shijie\n>\n> Shi-Jie Deng\n> Assistant Professor\n> School of ISyE\n> Georgia Institute of Technology\n>\n> Office Phone: (404) 894-6519\n> E-mail:       deng@isye.gatech.edu\n> Home page:    http://www.isye.gatech.edu/~deng\n>\n> On Fri, 7 Jul 2000 Shirley.Crenshaw@enron.com wrote:\n>\n> >\n> > Shijie:\n> >\n> > Thanks for the information.\n> >\n> > Please let me know if you need av equipment, i.e., LCD projector,\n> overhead\n> > projector, etc.\n> >\n> > Thanks!\n> >\n> > Shirley\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > Shijie Deng <deng@isye.gatech.edu> on 07/03/2000 11:40:05 AM\n> >\n> > To:   Shirley.Crenshaw@enron.com\n> > cc:   Vince Kaminski <Vince.J.Kaminski@enron.com>\n> > Subject:  Re: Visit to Houston and Vince Kaminski's Research Group\n> >\n> >\n> >\n> > Shirley,\n> >\n> > I just booked my flights and the hotel.  I'll be arriving Houston on\n> > the evening of 7/27 and leaving on 7/29.  I'll stay at the Doubletree\n> > Houston Allen Center for two nights.  Looking forward to meeting you at\n> > Enron.\n> >\n> > Regards,\n> >\n> > Shijie\n> >\n> > Shi-Jie Deng\n> > Assistant Professor\n> > School of ISyE\n> > Georgia Institute of Technology\n> >\n> > Office Phone: (404) 894-6519\n> > E-mail:       deng@isye.gatech.edu\n> > Home page:    http://www.isye.gatech.edu/~deng\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n>\n>\n>\n>\n>\n>",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 73,
+      "end": 79,
+      "text": "Shijie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 81,
+      "end": 93,
+      "text": "Shi-Jie Deng",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 94,
+      "end": 113,
+      "text": "Assistant Professor",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 114,
+      "end": 160,
+      "text": "School of ISyE\nGeorgia Institute of Technology",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 176,
+      "end": 190,
+      "text": "(404) 894-6519",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 205,
+      "end": 225,
+      "text": "deng@isye.gatech.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 81,
+      "end": 273,
+      "text": "Shi-Jie Deng\nAssistant Professor\nSchool of ISyE\nGeorgia Institute of Technology\n\nOffice Phone: (404) 894-6519\nE-mail:       deng@isye.gatech.edu\nHome page:    http://www.isye.gatech.edu/~deng\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 274,
+      "text": "Vince,\n\nThanks for the update.  I'm looking forward to meeting you too.\n\nShijie\n\nShi-Jie Deng\nAssistant Professor\nSchool of ISyE\nGeorgia Institute of Technology\n\nOffice Phone: (404) 894-6519\nE-mail:       deng@isye.gatech.edu\nHome page:    http://www.isye.gatech.edu/~deng\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 282,
+      "end": 293,
+      "text": "27 Jul 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 294,
+      "end": 320,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 274,
+      "end": 328,
+      "text": "On Thu, 27 Jul 2000 Vince.J.Kaminski@enron.com wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 333,
+      "end": 339,
+      "text": "Shijie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1008,
+      "end": 1022,
+      "text": "Vince Kaminski",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 973,
+      "end": 1023,
+      "text": "> Look forward to meeting you.\n>\n> Vince Kaminski\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 328,
+      "end": 1035,
+      "text": "\n>\n> Shijie,\n>\n> We would like you to meet tomorrow morning, starting at 9:00,  with a few\n> members of the\n> group. Around 11:15 we shall go to lunch (myself, Stinson Gibner and Zimin\n> Lu).\n> At 1:00 we would like you to make a presentation to the Research Group on\n> the topic\n> of your choice. After 2:30 we shall continue with individual meetings.\n>\n> We shall give you an agenda with the names and times when you arrive.\n>\n> You can come to the lobby of the Enron building (1400 Smith)\n> between 8:30 and 9:00 and call me (3-3848) or my assistant,\n> Shirley Crenshaw (3-5290), to be admitted to the building.\n> We are on the 19th floor.\n>\n> Look forward to meeting you.\n>\n> Vince Kaminski\n>\n>\n>\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1037,
+      "end": 1048,
+      "text": "Shijie Deng",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1050,
+      "end": 1070,
+      "text": "deng@isye.gatech.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1075,
+      "end": 1085,
+      "text": "07/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1086,
+      "end": 1097,
+      "text": "10:10:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1108,
+      "end": 1134,
+      "text": "Shirley.Crenshaw@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1143,
+      "end": 1157,
+      "text": "Vince Kaminski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1159,
+      "end": 1185,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1199,
+      "end": 1255,
+      "text": "Re: Visit to Houston and Vince Kaminski's Research Group",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1035,
+      "end": 1256,
+      "text": "> Shijie Deng <deng@isye.gatech.edu> on 07/27/2000 10:10:03 AM\n>\n> To:   Shirley.Crenshaw@enron.com\n> cc:   Vince Kaminski <Vince.J.Kaminski@enron.com>\n> Subject:  Re: Visit to Houston and Vince Kaminski's Research Group\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1267,
+      "end": 1274,
+      "text": "Shirley",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1262,
+      "end": 1276,
+      "text": "> Hi Shirley,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1385,
+      "end": 1391,
+      "text": "Shijie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1396,
+      "end": 1408,
+      "text": "Shi-Jie Deng",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1411,
+      "end": 1430,
+      "text": "Assistant Professor",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1433,
+      "end": 1447,
+      "text": "School of ISyE",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1450,
+      "end": 1481,
+      "text": "Georgia Institute of Technology",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1500,
+      "end": 1514,
+      "text": "(404) 894-6519",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1531,
+      "end": 1551,
+      "text": "deng@isye.gatech.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1394,
+      "end": 1603,
+      "text": "> Shi-Jie Deng\n> Assistant Professor\n> School of ISyE\n> Georgia Institute of Technology\n>\n> Office Phone: (404) 894-6519\n> E-mail:       deng@isye.gatech.edu\n> Home page:    http://www.isye.gatech.edu/~deng\n>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1256,
+      "end": 1603,
+      "text": ">\n>\n>\n> Hi Shirley,\n>\n> An overhead would be good.  Thanks.\n> BTW, is there happen to be an agenda for my visit?  Thank you.\n>\n> Shijie\n>\n> Shi-Jie Deng\n> Assistant Professor\n> School of ISyE\n> Georgia Institute of Technology\n>\n> Office Phone: (404) 894-6519\n> E-mail:       deng@isye.gatech.edu\n> Home page:    http://www.isye.gatech.edu/~deng\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1613,
+      "end": 1623,
+      "text": "7 Jul 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1624,
+      "end": 1650,
+      "text": "Shirley.Crenshaw@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1603,
+      "end": 1658,
+      "text": "> On Fri, 7 Jul 2000 Shirley.Crenshaw@enron.com wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1668,
+      "end": 1674,
+      "text": "Shijie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1841,
+      "end": 1848,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1821,
+      "end": 1849,
+      "text": "> > Thanks!\n> >\n> > Shirley\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1658,
+      "end": 1885,
+      "text": ">\n> >\n> > Shijie:\n> >\n> > Thanks for the information.\n> >\n> > Please let me know if you need av equipment, i.e., LCD projector,\n> overhead\n> > projector, etc.\n> >\n> > Thanks!\n> >\n> > Shirley\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1889,
+      "end": 1900,
+      "text": "Shijie Deng",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1902,
+      "end": 1922,
+      "text": "deng@isye.gatech.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1927,
+      "end": 1937,
+      "text": "07/03/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1938,
+      "end": 1949,
+      "text": "11:40:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1964,
+      "end": 1990,
+      "text": "Shirley.Crenshaw@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2001,
+      "end": 2015,
+      "text": "Vince Kaminski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2017,
+      "end": 2043,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2059,
+      "end": 2115,
+      "text": "Re: Visit to Houston and Vince Kaminski's Research Group",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1885,
+      "end": 2116,
+      "text": "> > Shijie Deng <deng@isye.gatech.edu> on 07/03/2000 11:40:05 AM\n> >\n> > To:   Shirley.Crenshaw@enron.com\n> > cc:   Vince Kaminski <Vince.J.Kaminski@enron.com>\n> > Subject:  Re: Visit to Houston and Vince Kaminski's Research Group\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2132,
+      "end": 2139,
+      "text": "Shirley",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2404,
+      "end": 2410,
+      "text": "Shijie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2383,
+      "end": 2411,
+      "text": "> > Regards,\n> >\n> > Shijie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2419,
+      "end": 2431,
+      "text": "Shi-Jie Deng",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2436,
+      "end": 2455,
+      "text": "Assistant Professor",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 2460,
+      "end": 2474,
+      "text": "School of ISyE",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 2479,
+      "end": 2510,
+      "text": "Georgia Institute of Technology",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 2533,
+      "end": 2547,
+      "text": "(404) 894-6519",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 2566,
+      "end": 2586,
+      "text": "deng@isye.gatech.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 2415,
+      "end": 2638,
+      "text": "> > Shi-Jie Deng\n> > Assistant Professor\n> > School of ISyE\n> > Georgia Institute of Technology\n> >\n> > Office Phone: (404) 894-6519\n> > E-mail:       deng@isye.gatech.edu\n> > Home page:    http://www.isye.gatech.edu/~deng\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 2116,
+      "end": 2677,
+      "text": "> >\n> >\n> >\n> > Shirley,\n> >\n> > I just booked my flights and the hotel.  I'll be arriving Houston on\n> > the evening of 7/27 and leaving on 7/29.  I'll stay at the Doubletree\n> > Houston Allen Center for two nights.  Looking forward to meeting you at\n> > Enron.\n> >\n> > Regards,\n> >\n> > Shijie\n> >\n> > Shi-Jie Deng\n> > Assistant Professor\n> > School of ISyE\n> > Georgia Institute of Technology\n> >\n> > Office Phone: (404) 894-6519\n> > E-mail:       deng@isye.gatech.edu\n> > Home page:    http://www.isye.gatech.edu/~deng\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n>\n>\n>\n>\n>\n>",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 29,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 30,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 32,
+      "target": 31,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 29,
+      "target": 31,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 33,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 34,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 59,
+      "target": 58,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 53,
+      "target": 48,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 54,
+      "target": 56,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 57,
+      "target": 56,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 56,
+      "target": 58,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 59,
+      "target": 58,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 60,
+      "target": 56,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 61,
+      "target": 56,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 11,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 2,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 11,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 17,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 14,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "origin": 22,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "origin": 26,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "origin": 28,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "origin": 38,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "origin": 40,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "origin": 41,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "origin": 44,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "origin": 44,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "origin": 48,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "origin": 49,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "origin": 54,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31534733.1075856639756.JavaMail.evans@thyme>",
+      "Date": "Thu, 27 Jul 2000 06:32:00 -0700 (PDT)",
+      "From": "deng@isye.gatech.edu",
+      "To": "vince.j.kaminski@enron.com",
+      "Subject": "Re: Visit to Houston and Vince Kaminski's Research Group",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shijie Deng <deng@isye.gatech.edu>",
+      "X-To": "Vince.J.Kaminski@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Universities",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_universities_357.txt"
+}

@@ -1,0 +1,161 @@
+{
+  "wrapper": "plaintext",
+  "text": "Shirley,\n\nNo,that's it.\n\nVince\n\n\n\n\nShirley Crenshaw\n11/20/2000 10:06 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, Mike A Roberts/HOU/ECT@ECT\ncc: Kevin G Moore/HOU/ECT@ECT \nSubject: \"Skunkworks\" Meeting with Scott Tholan\n\nThe \"skunkworks\" meeting with Scott Tholan scheduled for this Wednesday,\nthe 22nd has been cancelled, per Scott Tholan.\n\nMike/Vince:  Is there anyone else, that needs to be notified?\n\nThanks!\n\nShirley\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Shirley",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 25,
+      "end": 30,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 35,
+      "text": "Shirley,\n\nNo,that's it.\n\nVince\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 35,
+      "end": 51,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 52,
+      "end": 62,
+      "text": "11/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 63,
+      "end": 71,
+      "text": "10:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 76,
+      "end": 92,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 106,
+      "end": 120,
+      "text": "Mike A Roberts",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 137,
+      "end": 150,
+      "text": "Kevin G Moore",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 174,
+      "end": 211,
+      "text": "Skunkworks\" Meeting with Scott Tholan",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 35,
+      "end": 212,
+      "text": "Shirley Crenshaw\n11/20/2000 10:06 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, Mike A Roberts/HOU/ECT@ECT\ncc: Kevin G Moore/HOU/ECT@ECT \nSubject: \"Skunkworks\" Meeting with Scott Tholan\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 406,
+      "end": 413,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 397,
+      "end": 413,
+      "text": "Thanks!\n\nShirley",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 212,
+      "end": 417,
+      "text": "\nThe \"skunkworks\" meeting with Scott Tholan scheduled for this Wednesday,\nthe 22nd has been cancelled, per Scott Tholan.\n\nMike/Vince:  Is there anyone else, that needs to be notified?\n\nThanks!\n\nShirley\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33063800.1075856537585.JavaMail.evans@thyme>",
+      "Date": "Mon, 20 Nov 2000 02:55:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "shirley.crenshaw@enron.com",
+      "Subject": "Re: \"Skunkworks\" Meeting with Scott Tholan",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Shirley Crenshaw",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_1464.txt"
+}

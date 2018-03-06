@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Erick for the fast answer:)\n\nI knew about sharding, just as far as I know it will work on different\nservers.\nI wonder if it is possible to do sth like sharding as you mentioned but on\na single standalone Solr?\nCan I use the implicit routing on standalone then?\n\nand I would appreciate if someone has experience with HAYSTACK conducting\nSolr to share the experience here.\n\nBest,\nSerwah\n\nOn Tue, Mar 14, 2017 at 4:15 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> I don't know much about HAYSTACK, but for the Solr URL you probably\n> want the \"shards\" parameter for searching, see:\n> https://cwiki.apache.org/confluence/display/solr/\n> Distributed+Search+with+Index+Sharding\n>\n> And just use the specific core you care about for update requests.\n>\n> But I would suggest that you can have Solr do much of this work,\n> specifically SolrCloud with \"implicit\" routing. Combine that with\n> \"collection aliasing\" and I think you have what you need with a single\n> Solr URL. \"implicit\" routing allows you to send docs to a particular\n> shard based on the value of a particular field. You can add/remove\n> shards at will (only with the \"implicit\" router, not with the default\n> compositeID router\". Etc.\n>\n> I've skimmed over lots of details here, I just didn't wan you to be\n> unaware that a solution exists (see \"time series data\" in the\n> literature).\n>\n> Best,\n> Erick\n>\n> On Tue, Mar 14, 2017 at 8:06 AM, serwah sabetghadam\n> <sabetghadam@ifs.tuwien.ac.at> wrote:\n> > Hi all,\n> >\n> > I am totally new to this group and of course so happy to join:)\n> > So my question may be repetitive but I did not find how to search all\n> > previous questions.\n> >\n> >\n> > problem in one sentence:\n> > to read from multiple cores (archive and active ones), write only to the\n> > latest active core\n> > using Solr and Haystack\n> >\n> >\n> > I am designing a periodic indexing system, one core per months, of which\n> > always the last two indexes are used to search on, and always the last\n> one\n> > is the active one for current indexing.\n> >\n> >\n> > We are using Haystack to manage the communications with Solr.\n> > We can use multiple cores in the settings.py in Haystack, that is totally\n> > fine.\n> > The problem is that in this case, as I have tested, both cores are\n> getting\n> > updated for new indexing.\n> >\n> > Then I decided to use the \"--using\" parameter of Haystack to select which\n> > backend to use for updating the index, sth like:\n> >\n> > ./manage.py update_index events.Event --age=24 --workers=4\n> --using=default\n> >\n> > that in default part in the settigns.py file I have defined the active\n> > core.\n> > HAYSTACK_CONNECTIONS = {\n> >     'default': {\n> >         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >          'URL': 'http://127.0.0.1:8983/solr/core_Feb',\n> >           },\n> >      'slave':{\n> >           'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >           'URL': 'http://127.0.0.1:8983/solr/core_Jan',\n> >      },\n> >  }\n> >\n> > here core_Feb is the active core, or is going to be the active core.\n> >\n> > then now I am not sure this way it will read from both. Now I can manage\n> > the write part, but again problem with reading from multiple cores. What\n> I\n> > tested before for reading from multiple cores was like :\n> >\n> > HAYSTACK_CONNECTIONS = {\n> >     'default': {\n> >         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >          'URL': 'http://127.0.0.1:8983/solr/core_Feb',\n> >           'URL': 'http://127.0.0.1:8983/solr/core_Jan',\n> >      },\n> >  }\n> >\n> >\n> > but in this case it will write in both! that I want to write only in the\n> > core_Feb one.\n> >\n> > Any help is highly appreciated,\n> > Best,\n> > Serwah\n>\n\n\n\n-- \nSerwah Sabetghadam\nVienna University of Technology\nOffice phone: +43 1 58801 188633 <%2B43%201%2058801%20188314>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 378,
+      "end": 392,
+      "text": "\nBest,\nSerwah\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 393,
+      "text": "Thanks Erick for the fast answer:)\n\nI knew about sharding, just as far as I know it will work on different\nservers.\nI wonder if it is possible to do sth like sharding as you mentioned but on\na single standalone Solr?\nCan I use the implicit routing on standalone then?\n\nand I would appreciate if someone has experience with HAYSTACK conducting\nSolr to share the experience here.\n\nBest,\nSerwah\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 393,
+      "end": 474,
+      "text": "On Tue, Mar 14, 2017 at 4:15 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1360,
+      "end": 1378,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 474,
+      "end": 1380,
+      "text": "\n> I don't know much about HAYSTACK, but for the Solr URL you probably\n> want the \"shards\" parameter for searching, see:\n> https://cwiki.apache.org/confluence/display/solr/\n> Distributed+Search+with+Index+Sharding\n>\n> And just use the specific core you care about for update requests.\n>\n> But I would suggest that you can have Solr do much of this work,\n> specifically SolrCloud with \"implicit\" routing. Combine that with\n> \"collection aliasing\" and I think you have what you need with a single\n> Solr URL. \"implicit\" routing allows you to send docs to a particular\n> shard based on the value of a particular field. You can add/remove\n> shards at will (only with the \"implicit\" router, not with the default\n> compositeID router\". Etc.\n>\n> I've skimmed over lots of details here, I just didn't wan you to be\n> unaware that a solution exists (see \"time series data\" in the\n> literature).\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1380,
+      "end": 1474,
+      "text": "> On Tue, Mar 14, 2017 at 8:06 AM, serwah sabetghadam\n> <sabetghadam@ifs.tuwien.ac.at> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1474,
+      "end": 1486,
+      "text": "> > Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 3675,
+      "end": 3696,
+      "text": "> > Best,\n> > Serwah\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3701,
+      "end": 3819,
+      "text": "-- \nSerwah Sabetghadam\nVienna University of Technology\nOffice phone: +43 1 58801 188633 <%2B43%201%2058801%20188314>\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1474,
+      "end": 3819,
+      "text": "> > Hi all,\n> >\n> > I am totally new to this group and of course so happy to join:)\n> > So my question may be repetitive but I did not find how to search all\n> > previous questions.\n> >\n> >\n> > problem in one sentence:\n> > to read from multiple cores (archive and active ones), write only to the\n> > latest active core\n> > using Solr and Haystack\n> >\n> >\n> > I am designing a periodic indexing system, one core per months, of which\n> > always the last two indexes are used to search on, and always the last\n> one\n> > is the active one for current indexing.\n> >\n> >\n> > We are using Haystack to manage the communications with Solr.\n> > We can use multiple cores in the settings.py in Haystack, that is totally\n> > fine.\n> > The problem is that in this case, as I have tested, both cores are\n> getting\n> > updated for new indexing.\n> >\n> > Then I decided to use the \"--using\" parameter of Haystack to select which\n> > backend to use for updating the index, sth like:\n> >\n> > ./manage.py update_index events.Event --age=24 --workers=4\n> --using=default\n> >\n> > that in default part in the settigns.py file I have defined the active\n> > core.\n> > HAYSTACK_CONNECTIONS = {\n> >     'default': {\n> >         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >          'URL': 'http://127.0.0.1:8983/solr/core_Feb',\n> >           },\n> >      'slave':{\n> >           'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >           'URL': 'http://127.0.0.1:8983/solr/core_Jan',\n> >      },\n> >  }\n> >\n> > here core_Feb is the active core, or is going to be the active core.\n> >\n> > then now I am not sure this way it will read from both. Now I can manage\n> > the write part, but again problem with reading from multiple cores. What\n> I\n> > tested before for reading from multiple cores was like :\n> >\n> > HAYSTACK_CONNECTIONS = {\n> >     'default': {\n> >         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',\n> >          'URL': 'http://127.0.0.1:8983/solr/core_Feb',\n> >           'URL': 'http://127.0.0.1:8983/solr/core_Jan',\n> >      },\n> >  }\n> >\n> >\n> > but in this case it will write in both! that I want to write only in the\n> > core_Feb one.\n> >\n> > Any help is highly appreciated,\n> > Best,\n> > Serwah\n>\n\n\n\n-- \nSerwah Sabetghadam\nVienna University of Technology\nOffice phone: +43 1 58801 188633 <%2B43%201%2058801%20188314>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1693"
+}

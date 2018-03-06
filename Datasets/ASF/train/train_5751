@@ -1,0 +1,28 @@
+Hi John,
+
+The map-reduce contrib module is removed as part of SOLR-9221
+<https://issues.apache.org/jira/browse/SOLR-9221>. Are you using this
+contrib module?
+
+Thanks
+Hrishikesh
+
+
+On Tue, Aug 29, 2017 at 2:39 PM, John Bickerstaff <john@johnbickerstaff.com>
+wrote:
+
+> All,
+>
+> I'm looking at upgrading some java projects to solr and lucene 6.6.0.
+>
+> I get an error when trying to "mvn package" one of them - it complained
+> about the solr-map-reduce:jar:6.6.0 not being available.
+>
+> I went here:
+> https://mvnrepository.com/artifact/org.apache.solr/solr-map-reduce
+>
+> And it looks like this hasn't been updated to 6.6...
+>
+> Is it going to be updated soon?  Am I misunderstanding something?
+>
+

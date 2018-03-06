@@ -1,0 +1,48 @@
+you could use filter clause to create a custom cursor  since the results
+are sorted. I had used the approach with raw cloudsolr stream, not with
+parallelSQL though.
+This would be useful-
+https://lucidworks.com/2013/12/12/coming-soon-to-solr-efficient-cursor-based-iteration-of-large-result-sets/
+
+Thanks,
+Susmit
+
+On Wed, Sep 6, 2017 at 10:45 PM, Imran Rajjad <imran@elogic.pk> wrote:
+
+> My only concern is the performance as the cursor moves forward in
+> resultset with approximately 2 billion records
+>
+> Regards,
+> Imran
+>
+> Sent from Mail for Windows 10
+>
+> From: Joel Bernstein
+> Sent: Wednesday, September 6, 2017 7:04 PM
+> To: solr-user@lucene.apache.org
+> Subject: Re: deep paging in parallel sql
+>
+> Parallel SQL supports unlimited SELECT statements which return the entire
+> result set. The documentation discusses the differences between the limited
+> and unlimited SELECT statements. Other then the LIMIT clause there is not
+> yet support for paging.
+>
+> Joel Bernstein
+> http://joelsolr.blogspot.com/
+>
+> On Wed, Sep 6, 2017 at 9:11 AM, Imran Rajjad <imran@elogic.pk> wrote:
+>
+> > Dear list,
+> >
+> > Is it possible to enable deep paging when querying data through Parallel
+> > SQL?
+> >
+> > Regards,
+> > Imran
+> >
+> > Sent from Mail for Windows 10
+> >
+> >
+>
+>
+

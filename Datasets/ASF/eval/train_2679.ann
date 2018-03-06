@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nUsing collect() (or print()) on a DataSet is almost never a good idea in Flink because this\nrequires collecting all the data in one central place and sending it to the client. What you\nnormally would do is write the data out to some file system (for example HDFS) and use env.execute()\nfor actually running the program. Simply specifying a program like this:\n\nExecutionEnv env = \u00e2\u20ac\u00a6\nDataSet<> input = env.read(\u00e2\u20ac\u00a6)\nDataSet<> transformed = input.map(new MyMapFunction())\ntransformed.write(FileOutputFormat)\n\nDoes not actually execute anything, this just builds up an execution graph. Calling env.execute()\nis what actually ships the graph to a cluster and executes it in parallel.\n\nBest,\nAljoscha\n> On 5. Jun 2017, at 20:24, Borja <borja.r.madrid@gmail.com> wrote:\n> \n> Hello,\n> I just reading about this, because I am developing my degree final project\n> about how performance spark and flink.\n> \n> I've developed a machine learning algorithm, and I want to trigger the\n> execution in Flink.\n> When I do it with my code it takes around 5 minutes (all this time just in\n> the collect() method) and Spark 35 seconds,\n> so I think I'm doing something wrong triggering the execution.\n> \n> My code is:\n> // Create multiple linear regression learner\n> val mlr = MultipleLinearRegression()\n> .setIterations(10)\n> .setStepsize(0.3)\n> .setConvergenceThreshold(0.8)\n> \n> // Fit the linear model to the provided data\n> val model = mlr.fit(data)\n> \n> //Tigger the execution\n> \n> val weights = mlr.weightsOption match {\n>  case Some(weights) => weights.collect()\n>  case None => throw new Exception(\"Could not calculate the weights.\")\n> }\n> \n> Is there a better way to trigger the execution?\n> \n> Thank! :)\n> \n> \n> \n> --\n> View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Methods-that-trigger-execution-tp12972p13491.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 685,
+      "end": 701,
+      "text": "\nBest,\nAljoscha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 701,
+      "text": "Hi,\n\nUsing collect() (or print()) on a DataSet is almost never a good idea in Flink because this\nrequires collecting all the data in one central place and sending it to the client. What you\nnormally would do is write the data out to some file system (for example HDFS) and use env.execute()\nfor actually running the program. Simply specifying a program like this:\n\nExecutionEnv env = \u00e2\u20ac\u00a6\nDataSet<> input = env.read(\u00e2\u20ac\u00a6)\nDataSet<> transformed = input.map(new MyMapFunction())\ntransformed.write(FileOutputFormat)\n\nDoes not actually execute anything, this just builds up an execution graph. Calling env.execute()\nis what actually ships the graph to a cluster and executes it in parallel.\n\nBest,\nAljoscha\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 701,
+      "end": 769,
+      "text": "> On 5. Jun 2017, at 20:24, Borja <borja.r.madrid@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 769,
+      "end": 781,
+      "text": "> \n> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1684,
+      "end": 1699,
+      "text": "> \n> Thank! :)\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 769,
+      "end": 1957,
+      "text": "> \n> Hello,\n> I just reading about this, because I am developing my degree final project\n> about how performance spark and flink.\n> \n> I've developed a machine learning algorithm, and I want to trigger the\n> execution in Flink.\n> When I do it with my code it takes around 5 minutes (all this time just in\n> the collect() method) and Spark 35 seconds,\n> so I think I'm doing something wrong triggering the execution.\n> \n> My code is:\n> // Create multiple linear regression learner\n> val mlr = MultipleLinearRegression()\n> .setIterations(10)\n> .setStepsize(0.3)\n> .setConvergenceThreshold(0.8)\n> \n> // Fit the linear model to the provided data\n> val model = mlr.fit(data)\n> \n> //Tigger the execution\n> \n> val weights = mlr.weightsOption match {\n>  case Some(weights) => weights.collect()\n>  case None => throw new Exception(\"Could not calculate the weights.\")\n> }\n> \n> Is there a better way to trigger the execution?\n> \n> Thank! :)\n> \n> \n> \n> --\n> View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Methods-that-trigger-execution-tp12972p13491.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_2679"
+}

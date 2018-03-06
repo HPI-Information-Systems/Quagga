@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "I had the same thought after we submitted our list.  Will include her next year. thx. kd\n\n -----Original Message-----\nFrom: \tKitchen, Louise  \nSent:\tWednesday, September 12, 2001 11:11 AM\nTo:\tPalmer, Mark A. (PR); Denne, Karen\nSubject:\tJust a thought\n\nOn the whole promoting our senior woman (things like Fortune) we really need to include Paula - she is one of the most senior women we have.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 90,
+      "text": "I had the same thought after we submitted our list.  Will include her next year. thx. kd\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 125,
+      "end": 140,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 160,
+      "end": 178,
+      "text": "September 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 179,
+      "end": 187,
+      "text": "11:11 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 192,
+      "end": 207,
+      "text": "Palmer, Mark A.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 214,
+      "end": 226,
+      "text": "Denne, Karen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 236,
+      "end": 250,
+      "text": "Just a thought",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 90,
+      "end": 251,
+      "text": " -----Original Message-----\nFrom: \tKitchen, Louise  \nSent:\tWednesday, September 12, 2001 11:11 AM\nTo:\tPalmer, Mark A. (PR); Denne, Karen\nSubject:\tJust a thought\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 251,
+      "end": 392,
+      "text": "\nOn the whole promoting our senior woman (things like Fortune) we really need to include Paula - she is one of the most senior women we have.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26666124.1075840872614.JavaMail.evans@thyme>",
+      "Date": "Wed, 12 Sep 2001 09:11:21 -0700 (PDT)",
+      "From": "karen.denne@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "RE: Just a thought",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Denne, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KDENNE>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Mrha\\OOC",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_mrha_ooc_125.txt"
+}

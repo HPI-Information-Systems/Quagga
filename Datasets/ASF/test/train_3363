@@ -1,0 +1,16 @@
+Dear all,
+
+I would appreciate if anyone could explain when does mapWithState terminate, i.e. apply subsequent
+transformations such as writing the state to an external sink? 
+
+Given a KafkaConsumer instance pulling messages from a Kafka topic, and a mapWithState transformation
+updating the state given a certain key, the subsequent foreachRDD transformation is not being
+applied at all. However, when running the application in debug mode using a sufficiently small
+input data size, of for example a few thousand messages, the foreachRDD transformation is
+applied upon consumption of all messages. Is this the desired behaviour? Does the timeout
+interval of the mapWithState control this behaviour, and if yes, what is the default value?
+In addition, is there an alternative in updating state for a given key, and writing the output
+to within the foreachRDD/foreachPartition transformation every n seconds?
+
+Thanks in advance,
+Dominik 

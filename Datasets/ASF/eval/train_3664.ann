@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Biplob,\n\ngiven these requirements, I would rather not use a window but implement the\nfunctionality with a stateful ProcessFunction.\nA ProcessFunction can register timers, e.g., to remove inactive state. The\nstate of a ProcessFunction can be made queryable.\n\nBest, Fabian\n\n2017-07-31 9:52 GMT+02:00 Biplob Biswas <revolutionisme@gmail.com>:\n\n> Thanks Fabian for the reply, I was reconsidering my design and the\n> requirement and what I mentioned already is partially confusing.\n>\n> I realized that using a sessionwindow is better in this scenario where I\n> want a value to be updated per key and the session resets to wait for the\n> gap period with every update after which it should be removed.\n>\n> From whatever I read currently about session windows (and windows in\n> general), is that I can perform aggregates over it. What I was thinking was\n> that rather than performing an aggregate or reduce, I can simply replace\n> the\n> old value.\n>\n> now my problem is, would such a state be queryable?\n>\n> As you mentioned that siding windows are defined on streams, is it the same\n> for session windows?\n>\n> \"I basically want a state which updates by key, and where records can\n> self-destruct after a fixed amount of time(basically records being part of\n> a\n> session) if not updated (such that the state doesn't grow indefinitely)?\"\n>\n> Are there any abstractions to do the same and if not, is it possible to\n> discuss if this can be done otherwise?\n>\n> Thanks a lot,\n> Biplob\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/Flink-\n> QueryableState-with-Sliding-Window-on-RocksDB-tp14514p14549.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Biplob,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 260,
+      "end": 274,
+      "text": "\nBest, Fabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 275,
+      "text": "Hi Biplob,\n\ngiven these requirements, I would rather not use a window but implement the\nfunctionality with a stateful ProcessFunction.\nA ProcessFunction can register timers, e.g., to remove inactive state. The\nstate of a ProcessFunction can be made queryable.\n\nBest, Fabian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 275,
+      "end": 343,
+      "text": "2017-07-31 9:52 GMT+02:00 Biplob Biswas <revolutionisme@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1450,
+      "end": 1477,
+      "text": ">\n> Thanks a lot,\n> Biplob\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 343,
+      "end": 1762,
+      "text": "\n> Thanks Fabian for the reply, I was reconsidering my design and the\n> requirement and what I mentioned already is partially confusing.\n>\n> I realized that using a sessionwindow is better in this scenario where I\n> want a value to be updated per key and the session resets to wait for the\n> gap period with every update after which it should be removed.\n>\n> From whatever I read currently about session windows (and windows in\n> general), is that I can perform aggregates over it. What I was thinking was\n> that rather than performing an aggregate or reduce, I can simply replace\n> the\n> old value.\n>\n> now my problem is, would such a state be queryable?\n>\n> As you mentioned that siding windows are defined on streams, is it the same\n> for session windows?\n>\n> \"I basically want a state which updates by key, and where records can\n> self-destruct after a fixed amount of time(basically records being part of\n> a\n> session) if not updated (such that the state doesn't grow indefinitely)?\"\n>\n> Are there any abstractions to do the same and if not, is it possible to\n> discuss if this can be done otherwise?\n>\n> Thanks a lot,\n> Biplob\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/Flink-\n> QueryableState-with-Sliding-Window-on-RocksDB-tp14514p14549.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3664"
+}

@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\nI'm getting sensor data from a kafka source and I absolutely need they are\nordered on time data generation basis. I've implemented a custom\ndeserialiser and employed an AscendingTimestampExtractor to handle event\ntime.\nObviously I set EventTime as streamTimeCharacteristics.\nUnfortunately when I print the stream I see there are many records\nunordered. Am I doing something wrong?\nI've attached a prove of that:\n\n*env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);\n\t\tenv.enableCheckpointing(CHECKPOINT_TIME); \n\t\tenv.setParallelism(1);\n        env.setRestartStrategy(RestartStrategies.fixedDelayRestart(1, 0));\n\n\t\tProperties properties = new Properties();\n\t\tproperties.setProperty(\"bootstrap.servers\", KAFKA_ADDRESS);\n\t\tproperties.setProperty(\"group.id\", GROUP_ID);\n\n\t\tDataStream<Tuple6&lt;String, String, Date, String, String, Double>> stream\n= env\n\t\t\t\t.addSource(new FlinkKafkaConsumer010<>(TOPIC, new CustomDeserializer(),\nproperties))\n\t\t\t\t.assignTimestampsAndWatermarks(new\nAscendingTimestampExtractor<Tuple6&lt;String, String, Date, String, String,\nDouble>>() {\n\n\t\t\t        @Override\n\t\t\t        public long extractAscendingTimestamp(Tuple6<String, String,\nDate, String, String, Double> element) {\n\t\t\t            return element.f2.getTime();\n\t\t\t        }\n\t\t\t\t})\n\t\t\t\t.keyBy(0);\n\t\t\nstream.print()*\n\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/t985/Screen_Shot_2017-09-07_at_21.png>\n\n\n\n\n--\nSent from: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1517,
+      "text": "Hi,\nI'm getting sensor data from a kafka source and I absolutely need they are\nordered on time data generation basis. I've implemented a custom\ndeserialiser and employed an AscendingTimestampExtractor to handle event\ntime.\nObviously I set EventTime as streamTimeCharacteristics.\nUnfortunately when I print the stream I see there are many records\nunordered. Am I doing something wrong?\nI've attached a prove of that:\n\n*env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);\n\t\tenv.enableCheckpointing(CHECKPOINT_TIME); \n\t\tenv.setParallelism(1);\n        env.setRestartStrategy(RestartStrategies.fixedDelayRestart(1, 0));\n\n\t\tProperties properties = new Properties();\n\t\tproperties.setProperty(\"bootstrap.servers\", KAFKA_ADDRESS);\n\t\tproperties.setProperty(\"group.id\", GROUP_ID);\n\n\t\tDataStream<Tuple6&lt;String, String, Date, String, String, Double>> stream\n= env\n\t\t\t\t.addSource(new FlinkKafkaConsumer010<>(TOPIC, new CustomDeserializer(),\nproperties))\n\t\t\t\t.assignTimestampsAndWatermarks(new\nAscendingTimestampExtractor<Tuple6&lt;String, String, Date, String, String,\nDouble>>() {\n\n\t\t\t        @Override\n\t\t\t        public long extractAscendingTimestamp(Tuple6<String, String,\nDate, String, String, Double> element) {\n\t\t\t            return element.f2.getTime();\n\t\t\t        }\n\t\t\t\t})\n\t\t\t\t.keyBy(0);\n\t\t\nstream.print()*\n\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/t985/Screen_Shot_2017-09-07_at_21.png>\n\n\n\n\n--\nSent from: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_4609"
+}

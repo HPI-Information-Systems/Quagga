@@ -1,0 +1,48 @@
+No, that is way off, because:
+1. you have no "tag" defined.
+   shard and replica can be omitted and they will default to wildcard,
+   but a "tag" must be defined.
+2. replica must be an integer or a wildcard.
+
+Regards
+Bernd
+
+Am 23.05.2017 um 01:17 schrieb Damien Kamerman:
+> If you want all the replicas for shard1 on the same port then I think the
+> rule is: 'shard:shard1,replica:port:8983'
+> 
+> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.de>
+> wrote:
+> 
+>> I tried many settings with "Rule-based Replica Placement" on Solr 6.5.1
+>> and came to the conclusion that it is not working at all.
+>>
+>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each server).
+>>
+>> The call to create a new collection is
+>> "http://localhost:8983/solr/admin/collections?action=CREATE&name=boss&
+>> collection.configName=boss_configs&numShards=3&replicationFactor=2&
+>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983"
+>>
+>> With "rule=shard:shard1,replica:<2,port:8983" I expect that shard1 has
+>> only nodes with port 8983 _OR_ it shoud fail due to "strict mode" because
+>> the fuzzy operator "~" it not set.
+>>
+>> The result of the call is:
+>> shard1 --> server2:7574 / server1:8983
+>> shard2 --> server1:7574 / server3:8983
+>> shard3 --> server2:8983 / server3:7574
+>>
+>> The expected result should be (at least!!!) shard1 --> server_x:8983 /
+>> server_y:8983
+>> where "_x" and "_y" can be anything between 1 and 3 but must be different.
+>>
+>> I think the problem is somewhere in "class ReplicaAssigner" with
+>> "tryAllPermutations"
+>> and "tryAPermutationOfRules".
+>>
+>> Regards
+>> Bernd
+>>
+> 
+

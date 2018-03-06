@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Team,\n\nI am new to solr and need your help. My problem statement is as below....\n\nI have uploaded document in solr as below. #sb# represents sentence begining and #se# represents\nsenetence ending. Now I want to search terms which occur in same sentence .  If I search for\nq=text:\"Federer Wimbledon\" ,  below document should come in search result as both the terms\noccur in same senetence. If I search for q=text:\"Federer Rafa\" ,below document should not\ncome in search result as the terms occur in different sentences.\n\n#sb#Federer, who looked ahead at Sunday's final, calling it an 'epic battle', said, \"Maybe\nI lost the Wimbledon final in 2008 because of too many clay court matches #se##sb# He crushed\nme at the French Open final #se##sb# I think it affected my first two sets at Wimbledon #se##sb#\nMaybe that's why I ended up losing#se##sb# The Swiss continued, \"I know Rafa played great\nin that final #se##sb# I actually ended up playing great too, but I wasn't fighting the right\nway #se##sb# I think that was the effect of that French Open loss. It was more mental #se#\nCould you please tell me how to fire query to achieve this.\n\nThanks\nNeeraj\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Team,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1140,
+      "end": 1155,
+      "text": "\nThanks\nNeeraj\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1156,
+      "text": "Hi Team,\n\nI am new to solr and need your help. My problem statement is as below....\n\nI have uploaded document in solr as below. #sb# represents sentence begining and #se# represents\nsenetence ending. Now I want to search terms which occur in same sentence .  If I search for\nq=text:\"Federer Wimbledon\" ,  below document should come in search result as both the terms\noccur in same senetence. If I search for q=text:\"Federer Rafa\" ,below document should not\ncome in search result as the terms occur in different sentences.\n\n#sb#Federer, who looked ahead at Sunday's final, calling it an 'epic battle', said, \"Maybe\nI lost the Wimbledon final in 2008 because of too many clay court matches #se##sb# He crushed\nme at the French Open final #se##sb# I think it affected my first two sets at Wimbledon #se##sb#\nMaybe that's why I ended up losing#se##sb# The Swiss continued, \"I know Rafa played great\nin that final #se##sb# I actually ended up playing great too, but I wasn't fighting the right\nway #se##sb# I think that was the effect of that French Open loss. It was more mental #se#\nCould you please tell me how to fire query to achieve this.\n\nThanks\nNeeraj\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1011"
+}

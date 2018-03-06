@@ -1,0 +1,34 @@
+The following JIRA mentions that a fix made to read parquet 1.6.2 into
+2.X  STILL leaves an "avalanche" of warnings:
+
+
+https://issues.apache.org/jira/browse/SPARK-17993
+
+Here is the text inside one of the last comments before it was merged:
+
+  I have built the code from the PR and it indeed succeeds reading the data.
+  I have tried doing df.count() and now I'm swarmed with warnings like
+this (they are just keep getting printed endlessly in the terminal):
+  16/08/11 12:18:51 WARN CorruptStatistics: Ignoring statistics
+because created_by could not be parsed (see PARQUET-251): parquet-mr
+version 1.6.0
+  org.apache.parquet.VersionParser$VersionParseException: Could not
+parse created_by: parquet-mr version 1.6.0 using format: (.+) version
+((.*) )?\(build ?(.*)\)
+    at org.apache.parquet.VersionParser.parse(VersionParser.java:112)
+    at org.apache.parquet.CorruptStatistics.shouldIgnoreStatistics(CorruptStatistics.java:60)
+    at org.apache.parquet.format.converter.ParquetMetadataConverter.fromParquetStatistics(ParquetMetadataConverter.java:263)
+    at org.apache.parquet.format.converter.ParquetMetadataConverter.fromParquetMetadata(ParquetMetadataConverter.java:567)
+    at org.apache.parquet.format.converter.ParquetMetadataConverter.readParquetMetadata(ParquetMetadataConverter.java:544)
+    at org.apache.parquet.hadoop.ParquetFileReader.readFooter(ParquetFileReader.java:431)
+    at org.apache.parquet.hadoop.ParquetFileReader.readFooter(ParquetFileReader.java:386)
+    at org.apache.spark.sql.execution.datasources.parquet.SpecificParquetRecordReaderBase.initialize(SpecificParquetRecordReaderBase.java:107)
+    at org.apache.spark.sql.execution.datasources.parquet.VectorizedParquetRecordReader.initialize(VectorizedParquetRecordReader.java:109)
+    at org.apache.spark.sql.execution.datasources.parquet.ParquetFileFormat$$anonfun$buildReader$1.apply(ParquetFileFormat.scala:369)
+    at org.apache.spark.sql.execution.datasources.parquet.ParquetFileFormat$$anonfun$buildReader$1.apply(ParquetFileFormat.scala:343)
+    at
+
+I am running 2.1.0 release and there are multitudes of these warnings.
+Is there any way - short of changing logging level to ERROR - to
+suppress these?
+

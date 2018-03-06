@@ -1,0 +1,9 @@
+
+>The first advise is NOT to expose your Solr directly to the public.
+>Anyone that can hit /search, can also hit /update and wipe out your index.
+
+I would second that too. We have never exposed Solr and I also sanitise queries in the proxy.
+Notice: This email and any attachments are confidential and may not be used, published or
+redistributed without the prior written consent of the Institute of Geological and Nuclear
+Sciences Limited (GNS Science). If received in error please destroy and immediately notify
+GNS Science. Do not copy or disclose the contents.

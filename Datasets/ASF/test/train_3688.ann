@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi everyone\n\nCurrently GBT doesn't expose featureSubsetStrategy as exposed by Random\nForest.\n\n.\nGradientBoostedTrees in Spark have hardcoded feature subset strategy to\n\"all\" while calling random forest in  DecisionTreeRegressor.scala\n\nval trees = RandomForest.run(data, oldStrategy, numTrees = 1,\nfeatureSubsetStrategy = \"all\",\n\n\nIt should provide functionality to the user to set featureSubsetStrategy\n(\"auto\", \"all\" ,\"sqrt\" , \"log2\" , \"onethird\") ,\nthe way random forest does.\n\nThis will help GBT to have randomness at feature level.\n\nJira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>\n\nPlease let me know , if my understanding is correct.\n\nRegards\nPralabh Kumar\n\nOn Fri, Jun 16, 2017 at 7:53 AM, Pralabh Kumar <pralabhkumar@gmail.com>\nwrote:\n\n> Hi everyone\n>\n> Currently GBT doesn't expose featureSubsetStrategy as exposed by Random\n> Forest.\n>\n> .\n> GradientBoostedTrees in Spark have hardcoded feature subset strategy to\n> \"all\" while calling random forest in  DecisionTreeRegressor.scala\n>\n> val trees = RandomForest.run(data, oldStrategy, numTrees = 1,\n> featureSubsetStrategy = \"all\",\n>\n>\n> It should provide functionality to the user to set featureSubsetStrategy\n> (\"auto\", \"all\" ,\"sqrt\" , \"log2\" , \"onethird\") ,\n> the way random forest does.\n>\n> This will help GBT to have randomness at feature level.\n>\n> Jira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>\n>\n> Please let me know , if my understanding is correct.\n>\n> Regards\n> Pralabh Kumar\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hi everyone\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 660,
+      "end": 683,
+      "text": "\nRegards\nPralabh Kumar\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 684,
+      "text": "Hi everyone\n\nCurrently GBT doesn't expose featureSubsetStrategy as exposed by Random\nForest.\n\n.\nGradientBoostedTrees in Spark have hardcoded feature subset strategy to\n\"all\" while calling random forest in  DecisionTreeRegressor.scala\n\nval trees = RandomForest.run(data, oldStrategy, numTrees = 1,\nfeatureSubsetStrategy = \"all\",\n\n\nIt should provide functionality to the user to set featureSubsetStrategy\n(\"auto\", \"all\" ,\"sqrt\" , \"log2\" , \"onethird\") ,\nthe way random forest does.\n\nThis will help GBT to have randomness at feature level.\n\nJira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>\n\nPlease let me know , if my understanding is correct.\n\nRegards\nPralabh Kumar\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 684,
+      "end": 763,
+      "text": "On Fri, Jun 16, 2017 at 7:53 AM, Pralabh Kumar <pralabhkumar@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 763,
+      "end": 778,
+      "text": "\n> Hi everyone\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1460,
+      "end": 1488,
+      "text": ">\n> Regards\n> Pralabh Kumar\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 763,
+      "end": 1491,
+      "text": "\n> Hi everyone\n>\n> Currently GBT doesn't expose featureSubsetStrategy as exposed by Random\n> Forest.\n>\n> .\n> GradientBoostedTrees in Spark have hardcoded feature subset strategy to\n> \"all\" while calling random forest in  DecisionTreeRegressor.scala\n>\n> val trees = RandomForest.run(data, oldStrategy, numTrees = 1,\n> featureSubsetStrategy = \"all\",\n>\n>\n> It should provide functionality to the user to set featureSubsetStrategy\n> (\"auto\", \"all\" ,\"sqrt\" , \"log2\" , \"onethird\") ,\n> the way random forest does.\n>\n> This will help GBT to have randomness at feature level.\n>\n> Jira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>\n>\n> Please let me know , if my understanding is correct.\n>\n> Regards\n> Pralabh Kumar\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3688"
+}

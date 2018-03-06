@@ -1,0 +1,245 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sending again.  Prentice said that she didn't get it, so just wanted to make \nsure that it wasn't lost in cyberspace somewhere.\n\nJeff\n----- Forwarded by Jeff Dasovich/NA/Enron on 02/26/2001 04:19 PM -----\n\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t02/26/2001 12:42 PM\n\t\t \n\t\t To: Cameron Sellers <cameron@perfect.com> @ ENRON, \"Scott Laughlin\" \n<scottwl@hotmail.com> @ ENRON, psellers@Haas.Berkeley.EDU\n\t\t cc: \n\t\t Subject: This Friday, etc.\n\nCameron:  Thanks for a dee-licious dinner.  (I did steal a couple pieces of \nduck---curiosity killed the cat---and it was dee-lectible.)  \n\nCouple things:  Very, very nice to go through all that to get reservations at \nLa Folie and I of course love the place, but I was thinking that maybe we \nought to go somewhere that's a tad less expensive.  I'm thinking that Sean \nain't even a big food person, that he's not working, that Molly to bring down \na king's ransom in her biz, and Tom and Karen are, after all, vegetarians.  \nAnywho,  it's really kind of you guys to want to go there, but I'm just \nthrowing out the notion that maybe we should go to another place that's just \na wee bit less dear.  Maybe that other French place that's just one room that \nwe went to out in the Avenues.  Just a thought.  Whatever you guys want to do \nis fine with me.\n\nAlso, I'm happy to do a \"whole family\" thing----well, maybe \"happy's to \nstrong\" (we kid!).  I was actually trying to pull it together last Xmas, but \nfound out that my sister and her hubbie only do their big xmas party once a \nyear, so had to scratch it.  I ain't necessarily all that keen, though, on \nhaving all get together--particularly for the first time--with the focus \nbeing my birthday.  So maybe we can have another event sometime soon where we \ncan bring the thundering hoards together at one place----Lord help us.\n\nFinally, what's the plan for your dad?  I just found out that I'm supposed to \nbe in Houston for an \"all hands\" meeting on--you guessed it--March 9th, but \nif there's something planned for that evening, I intend to tell my buddies at \nEnron that I can't make the meeting.  Please let me know so that I can cancel \nHouston in advance.\n\nFinally, and MOST important.  Today is the Man in Black's birthday.  God \nbless the real king, Johnny Cash.\n\nBest,\nJeff",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 129,
+      "end": 133,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 134,
+      "text": "Sending again.  Prentice said that she didn't get it, so just wanted to make \nsure that it wasn't lost in cyberspace somewhere.\n\nJeff\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 153,
+      "end": 166,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 179,
+      "end": 189,
+      "text": "02/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 190,
+      "end": 198,
+      "text": "04:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 134,
+      "end": 205,
+      "text": "----- Forwarded by Jeff Dasovich/NA/Enron on 02/26/2001 04:19 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 207,
+      "end": 220,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 231,
+      "end": 244,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 246,
+      "end": 256,
+      "text": "02/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 257,
+      "end": 265,
+      "text": "12:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 277,
+      "end": 292,
+      "text": "Cameron Sellers",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 294,
+      "end": 313,
+      "text": "cameron@perfect.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 325,
+      "end": 339,
+      "text": "Scott Laughlin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 343,
+      "end": 362,
+      "text": "scottwl@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 373,
+      "end": 399,
+      "text": "psellers@Haas.Berkeley.EDU",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 420,
+      "end": 437,
+      "text": "This Friday, etc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 205,
+      "end": 438,
+      "text": "\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t02/26/2001 12:42 PM\n\t\t \n\t\t To: Cameron Sellers <cameron@perfect.com> @ ENRON, \"Scott Laughlin\" \n<scottwl@hotmail.com> @ ENRON, psellers@Haas.Berkeley.EDU\n\t\t cc: \n\t\t Subject: This Friday, etc.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 439,
+      "end": 446,
+      "text": "Cameron",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2271,
+      "end": 2275,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2265,
+      "end": 2275,
+      "text": "Best,\nJeff",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 438,
+      "end": 2275,
+      "text": "\nCameron:  Thanks for a dee-licious dinner.  (I did steal a couple pieces of \nduck---curiosity killed the cat---and it was dee-lectible.)  \n\nCouple things:  Very, very nice to go through all that to get reservations at \nLa Folie and I of course love the place, but I was thinking that maybe we \nought to go somewhere that's a tad less expensive.  I'm thinking that Sean \nain't even a big food person, that he's not working, that Molly to bring down \na king's ransom in her biz, and Tom and Karen are, after all, vegetarians.  \nAnywho,  it's really kind of you guys to want to go there, but I'm just \nthrowing out the notion that maybe we should go to another place that's just \na wee bit less dear.  Maybe that other French place that's just one room that \nwe went to out in the Avenues.  Just a thought.  Whatever you guys want to do \nis fine with me.\n\nAlso, I'm happy to do a \"whole family\" thing----well, maybe \"happy's to \nstrong\" (we kid!).  I was actually trying to pull it together last Xmas, but \nfound out that my sister and her hubbie only do their big xmas party once a \nyear, so had to scratch it.  I ain't necessarily all that keen, though, on \nhaving all get together--particularly for the first time--with the focus \nbeing my birthday.  So maybe we can have another event sometime soon where we \ncan bring the thundering hoards together at one place----Lord help us.\n\nFinally, what's the plan for your dad?  I just found out that I'm supposed to \nbe in Houston for an \"all hands\" meeting on--you guessed it--March 9th, but \nif there's something planned for that evening, I intend to tell my buddies at \nEnron that I can't make the meeting.  Please let me know so that I can cancel \nHouston in advance.\n\nFinally, and MOST important.  Today is the Man in Black's birthday.  God \nbless the real king, Johnny Cash.\n\nBest,\nJeff",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 19,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 18,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 3,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 7,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23269538.1075843372959.JavaMail.evans@thyme>",
+      "Date": "Mon, 26 Feb 2001 08:15:00 -0800 (PST)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "cameron@perfect.com, scottwl@hotmail.com, psellers@haas.berkeley.edu",
+      "Subject": "This Friday, etc.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "Cameron Sellers <cameron@perfect.com> @ ENRON, \"Scott Laughlin\" <scottwl@hotmail.com> @ ENRON, psellers@Haas.Berkeley.EDU",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_9430.txt"
+}

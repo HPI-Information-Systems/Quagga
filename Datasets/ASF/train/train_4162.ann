@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here is the image:\n\nhttps://www.dropbox.com/s/hd97j4d3h3q0oyh/solr%20nodes.png?dl=0\n\nThere is a node on 002: 15101 port missing from the cloud.\n\nOn Fri, Jun 16, 2017 at 7:46 PM Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> Images don't come through the mailer, they're stripped. You'll have to put\n> it somewhere else and provide a link.\n>\n> Best,\n> Erick\n>\n>\n> On Fri, Jun 16, 2017 at 3:29 PM, Satya Marivada <satya.chaitanya@gmail.com\n> >\n> wrote:\n>\n> > Hi,\n> >\n> > I am running solr-6.3.0. There are4 nodes, when I start solr, only 3\n> nodes\n> > are joining the cloud, the fourth one is coming up separately and not\n> > joining the other 3 nodes.\n> > Please see below in the picture on admin screen how fourth node is not\n> > joining. Any suggestions.\n> >\n> > Thanks,\n> > satya\n> >\n> >\n> > [image: image.png]\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 145,
+      "text": "Here is the image:\n\nhttps://www.dropbox.com/s/hd97j4d3h3q0oyh/solr%20nodes.png?dl=0\n\nThere is a node on 002: 15101 port missing from the cloud.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 145,
+      "end": 225,
+      "text": "On Fri, Jun 16, 2017 at 7:46 PM Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 343,
+      "end": 361,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 225,
+      "end": 365,
+      "text": "\n> Images don't come through the mailer, they're stripped. You'll have to put\n> it somewhere else and provide a link.\n>\n> Best,\n> Erick\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 365,
+      "end": 455,
+      "text": "> On Fri, Jun 16, 2017 at 3:29 PM, Satya Marivada <satya.chaitanya@gmail.com\n> >\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 455,
+      "end": 465,
+      "text": ">\n> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 760,
+      "end": 786,
+      "text": "> >\n> > Thanks,\n> > satya\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 455,
+      "end": 824,
+      "text": ">\n> > Hi,\n> >\n> > I am running solr-6.3.0. There are4 nodes, when I start solr, only 3\n> nodes\n> > are joining the cloud, the fourth one is coming up separately and not\n> > joining the other 3 nodes.\n> > Please see below in the picture on admin screen how fourth node is not\n> > joining. Any suggestions.\n> >\n> > Thanks,\n> > satya\n> >\n> >\n> > [image: image.png]\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4162"
+}

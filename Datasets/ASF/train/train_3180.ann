@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_3180",
+  "meta": {},
+  "text": "So i figured out the issue i was facing\nhttps://issues.apache.org/jira/browse/SOLR-9803\n\n<updateHandler class=\"solr.DirectUpdateHandler2\">\n    <updateLog>\n      <str name=\"dir\">${solr.ulog.dir:}</str>\n      <int\nname=\"numVersionBuckets\">${solr.ulog.numVersionBuckets:8388608}</int>\n    </updateLog>\n\n\ni had a huge value set fir numVersioinBuckets which was causing memory leak\nas stated in issue 9803\n\nChanging to default value solved my problem\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Overseer-session-expires-on-multiple-collection-creation-tp4331265p4333692.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 660,
+      "text": "So i figured out the issue i was facing\nhttps://issues.apache.org/jira/browse/SOLR-9803\n\n<updateHandler class=\"solr.DirectUpdateHandler2\">\n    <updateLog>\n      <str name=\"dir\">${solr.ulog.dir:}</str>\n      <int\nname=\"numVersionBuckets\">${solr.ulog.numVersionBuckets:8388608}</int>\n    </updateLog>\n\n\ni had a huge value set fir numVersioinBuckets which was causing memory leak\nas stated in issue 9803\n\nChanging to default value solved my problem\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Overseer-session-expires-on-multiple-collection-creation-tp4331265p4333692.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

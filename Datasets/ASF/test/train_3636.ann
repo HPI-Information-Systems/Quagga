@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_3636",
+  "meta": {},
+  "text": "Is it possible to concisely create a dataset from a dataframe with missing columns? Specifically,\nsuppose I create a dataframe with:\nval df: DataFrame  = Seq((\"v1\"),(\"v2\")).toDF(\"f1\")\n\nThen, I have a case class for a dataset defined as:\ncase class CC(f1: String, f2: Option[String] = None)\n\nI\u00e2\u20ac\u2122d like to use df.as[CC] to get an instance of the case class, but this gives me the following\nerror:\norg.apache.spark.sql.AnalysisException: cannot resolve '`f2`' given input columns: [f1];\n\nIs there a concise way to use the default values as defined by the case class?\n\n________________________________________________________\n\nThe information contained in this e-mail is confidential and/or proprietary to Capital One\nand/or its affiliates and may only be used solely in performance of work or services for Capital\nOne. The information transmitted herewith is intended only for use by the individual or entity\nto which it is addressed. If the reader of this message is not the intended recipient, you\nare hereby notified that any review, retransmission, dissemination, distribution, copying\nor other use of, or taking of any action in reliance upon this information is strictly prohibited.\nIf you have received this communication in error, please contact the sender and delete the\nmaterial from your computer.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1307,
+      "text": "Is it possible to concisely create a dataset from a dataframe with missing columns? Specifically,\nsuppose I create a dataframe with:\nval df: DataFrame  = Seq((\"v1\"),(\"v2\")).toDF(\"f1\")\n\nThen, I have a case class for a dataset defined as:\ncase class CC(f1: String, f2: Option[String] = None)\n\nI\u00e2\u20ac\u2122d like to use df.as[CC] to get an instance of the case class, but this gives me the following\nerror:\norg.apache.spark.sql.AnalysisException: cannot resolve '`f2`' given input columns: [f1];\n\nIs there a concise way to use the default values as defined by the case class?\n\n________________________________________________________\n\nThe information contained in this e-mail is confidential and/or proprietary to Capital One\nand/or its affiliates and may only be used solely in performance of work or services for Capital\nOne. The information transmitted herewith is intended only for use by the individual or entity\nto which it is addressed. If the reader of this message is not the intended recipient, you\nare hereby notified that any review, retransmission, dissemination, distribution, copying\nor other use of, or taking of any action in reliance upon this information is strictly prohibited.\nIf you have received this communication in error, please contact the sender and delete the\nmaterial from your computer.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

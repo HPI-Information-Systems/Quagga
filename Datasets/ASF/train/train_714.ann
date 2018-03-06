@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all,\nI developed a custom DocTransformer that is loaded from a .jar in the core\n\"lib\" directory. It works but I have now a problem with versioning:\n1. if lib directory contains different versions of the same .jar which one\nis loaded? I tried putting both myplugins-1.0.0.jar and myplugins-1.0.1.jar\nand I noticed that the oldest one is loaded. Is there a way to force\nspecific jar version to be loaded in solrconfig?\n2. More in general: is it possible to expose in solr the version number for\ncustom plugins?\nThank you in advance\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 512,
+      "end": 533,
+      "text": "Thank you in advance\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 534,
+      "text": "Hi all,\nI developed a custom DocTransformer that is loaded from a .jar in the core\n\"lib\" directory. It works but I have now a problem with versioning:\n1. if lib directory contains different versions of the same .jar which one\nis loaded? I tried putting both myplugins-1.0.0.jar and myplugins-1.0.1.jar\nand I noticed that the oldest one is loaded. Is there a way to force\nspecific jar version to be loaded in solrconfig?\n2. More in general: is it possible to expose in solr the version number for\ncustom plugins?\nThank you in advance\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_714"
+}

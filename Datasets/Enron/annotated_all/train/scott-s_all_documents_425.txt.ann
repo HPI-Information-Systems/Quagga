@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/scott-s_all_documents_425.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<12123096.1075846667940.JavaMail.evans@thyme>",
+      "Date": "Mon, 10 Jul 2000 08:29:00 -0700 (PDT)",
+      "From": "shelley.corman@enron.com",
+      "To": "bambi.heckerman@enron.com",
+      "Subject": "Order No. 637 - New Marketing Affiliate Posting Requirements",
+      "Cc": "frazier.king@enron.com, susan.scott@enron.com, maria.pavlou@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "frazier.king@enron.com, susan.scott@enron.com, maria.pavlou@enron.com",
+      "X-From": "Shelley Corman",
+      "X-To": "Bambi Heckerman",
+      "X-cc": "Frazier King, Susan Scott, Maria Pavlou",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "text": "Per your request, here is my summary of the conversations that we have had to \ndate about complying with the new marketing affiliate requirements in \nStandard L.  Frazier, Maria or Susan -- jump in if I missed something.  \n\nNew Standard L Requirements\n\nShared Employees.  Reporting on shared employees & facilities (161.3 \n(l)(2)(i) and 161.3(l)(2)(ii)(c) is the easy part -- as we have no shared \nemployees and I think we have only minor shared facilities which are \ndisclosed in our standards of conduct.  Thus, we may want to tackle the \nshared facilities by posting our Standards of Conduct.\n\nRelative Position of Entities in the Organization.  With respect to 161.3(l) \n(ii)(A).  Frazier has put together a idea about showing the relative position \nof the pipeline and the marketing affiliates in the corporate structure.  \nHere's a sample of how the Northern reporting chain would look: \n\nEnron Corp.\n Enron Pipeline Holding Company\n  Enron Operations Corp.\n   Enron Pipeline Company\n    Northern Natural Gas\n\n\nPipeline Org. Charts, Titles, Job Descriptions (and names of supervisory \nemployees).  Section 161.3(l)(ii)(B) is probably the hardest part of the new \nrequirements.  Frazier took the task of getting with HR to pull together \ninitial org charts, titles and descriptions.  Since then I saw the new SAP \nemployee system which lists job titles & descriptions.  Perhaps HR can get \nthe information from there.  My \"to do\" is to get a couple samples of how the \nsimilar employee org. chart data is presented on the electric side in OASIS.\n\n\nBambi -- I'll make sure to include you in our next discussion.  Frazier - \nhave you had a chance to talk with HR -- let us know when you are ready to \nget back together to discuss.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1733,
+      "text": "Per your request, here is my summary of the conversations that we have had to \ndate about complying with the new marketing affiliate requirements in \nStandard L.  Frazier, Maria or Susan -- jump in if I missed something.  \n\nNew Standard L Requirements\n\nShared Employees.  Reporting on shared employees & facilities (161.3 \n(l)(2)(i) and 161.3(l)(2)(ii)(c) is the easy part -- as we have no shared \nemployees and I think we have only minor shared facilities which are \ndisclosed in our standards of conduct.  Thus, we may want to tackle the \nshared facilities by posting our Standards of Conduct.\n\nRelative Position of Entities in the Organization.  With respect to 161.3(l) \n(ii)(A).  Frazier has put together a idea about showing the relative position \nof the pipeline and the marketing affiliates in the corporate structure.  \nHere's a sample of how the Northern reporting chain would look: \n\nEnron Corp.\n Enron Pipeline Holding Company\n  Enron Operations Corp.\n   Enron Pipeline Company\n    Northern Natural Gas\n\n\nPipeline Org. Charts, Titles, Job Descriptions (and names of supervisory \nemployees).  Section 161.3(l)(ii)(B) is probably the hardest part of the new \nrequirements.  Frazier took the task of getting with HR to pull together \ninitial org charts, titles and descriptions.  Since then I saw the new SAP \nemployee system which lists job titles & descriptions.  Perhaps HR can get \nthe information from there.  My \"to do\" is to get a couple samples of how the \nsimilar employee org. chart data is presented on the electric side in OASIS.\n\n\nBambi -- I'll make sure to include you in our next discussion.  Frazier - \nhave you had a chance to talk with HR -- let us know when you are ready to \nget back together to discuss.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

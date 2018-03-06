@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "HI Team,\nAs per my requirement I need to pass password dynamically to data source .\nI did it successfully through Http URL by auto indexing time. Like below.\n\nIn Application data import property file declare URL and password like this \n\nparams=/dataimport?command=delta-import&clean=false&commit=true&pwd=Beta*****\n\nIn SOLR Core(web logic) db-data-config.xml file fetching password on auto\nindexing like bellow.\n\n<dataSource driver=\"oracle.jdbc.driver.OracleDriver\"\nurl=\"jdbc:oracle:thin:@URL:Port/Schema\" user=\"myUser***\"\npassword=\"${dataimporter.request.pwd}\"/>\n\n\nBut In this case if password changed need to deploy application Again with\nnew password,\n\n\nSo, I declare password variable in solrconfig.xml , dataimport.properties\nand core.properties files and try to fetch in to db-data-config.xml file,\nBut its not working. Can you please help me out to use password in\nconfiguration file like able to update with put deployment.\n\nThank you\nJaveed Ali Khan\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/dynamic-datasource-password-in-db-data-config-file-tp4345804.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "HI Team,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 932,
+      "end": 959,
+      "text": "\nThank you\nJaveed Ali Khan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1159,
+      "text": "HI Team,\nAs per my requirement I need to pass password dynamically to data source .\nI did it successfully through Http URL by auto indexing time. Like below.\n\nIn Application data import property file declare URL and password like this \n\nparams=/dataimport?command=delta-import&clean=false&commit=true&pwd=Beta*****\n\nIn SOLR Core(web logic) db-data-config.xml file fetching password on auto\nindexing like bellow.\n\n<dataSource driver=\"oracle.jdbc.driver.OracleDriver\"\nurl=\"jdbc:oracle:thin:@URL:Port/Schema\" user=\"myUser***\"\npassword=\"${dataimporter.request.pwd}\"/>\n\n\nBut In this case if password changed need to deploy application Again with\nnew password,\n\n\nSo, I declare password variable in solrconfig.xml , dataimport.properties\nand core.properties files and try to fetch in to db-data-config.xml file,\nBut its not working. Can you please help me out to use password in\nconfiguration file like able to update with put deployment.\n\nThank you\nJaveed Ali Khan\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/dynamic-datasource-password-in-db-data-config-file-tp4345804.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4755"
+}

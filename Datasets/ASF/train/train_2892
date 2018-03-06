@@ -1,0 +1,22 @@
+Hi guys,
+
+I was wondering does the introduction of shards actually increase CPU usage?
+
+I have a 30GB index split into two shards (15GB each), and by analyzing 
+the logs, I figured out that ~80% of the queries have the 
+"&shard.url=http://10.3.4.12:8080/solr/mycore/|http://10.3.4.14:8080/solr/mycore/".
+
+I basically don't need sharding, and am now starting to wonder if shards 
+are actually increasing the CPU usage of my nodes or not, cause of the 
+huge percentage of queries with "shard.url=" flag?
+
+I'm fighting with high cpu usage, and if turning sharding of and just 
+keeping the replicas in my collection would lower the CPU usage for more 
+then 10% I would choose that path..
+
+
+Any insights?
+
+Thanks.
+
+

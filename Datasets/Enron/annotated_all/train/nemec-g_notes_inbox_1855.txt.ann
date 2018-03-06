@@ -1,0 +1,378 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Stephanie Miller/Corp/Enron on 03/20/2001 \n01:58 PM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 03/20/2001 11:25 AM\nTo: Clement Abrams/ENRON@enronXgate\ncc: Stephanie Miller/Corp/Enron@ENRON, Julie A Gomez/HOU/ECT@ECT \n\nSubject: FW: Kern P/G\n\nClement,\n\nPer my voicemail, attached below is the Gty format for Kern River.  The info \nis as follows:\n\nEntities: ENA and Kern River Gas Transmission Company\nAmount: $1.2MM\nExpiration: 6/30/2003\nAddress: Kern River Gas Transmission Company\nAttention: Paula Lauritzen\n2800 Post Oak Blvd.\nHouston, TX  77056\n\nAgain, it is extremely important that this gty is issued prior to March 26th \n(next Monday), as that is the absolute deadline that Kern River is giving \nENA.  Give me a call if you need any other info.\n\nThanks again,\nVeronica\n\n -----Original Message-----\nFrom:  \"Fernandez, Richard W\" <Richard.W.Fernandez@Williams.com>@ENRON \n[mailto:IMCEANOTES-+22Fernandez+2C+20Richard+20W+22+20+3CRichard+2EW+2EFernand\nez+40Williams+2Ecom+3E+40ENRON@ENRON.com] \nSent: Tuesday, March 20, 2001 11:13 AM\nTo: Espinoza, Veronica\nCc: Lauritzen, Paula M\nSubject: Kern P/G\n\n\nAs discussed.. \n <<KERNGTY.DOC>> \nRichard Fernandez \nTreasury Dept. \nWilliams Gas Pipeline Company   \nPh: 713-215-3645 \nFax: 713-215-3648 \n\n - KERNGTY.DOC\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 67,
+      "end": 77,
+      "text": "03/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 79,
+      "end": 87,
+      "text": "01:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 116,
+      "text": "---------------------- Forwarded by Stephanie Miller/Corp/Enron on 03/20/2001 \n01:58 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 122,
+      "end": 139,
+      "text": "Veronica Espinoza",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 160,
+      "end": 170,
+      "text": "03/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 171,
+      "end": 179,
+      "text": "11:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 184,
+      "end": 198,
+      "text": "Clement Abrams",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 220,
+      "end": 236,
+      "text": "Stephanie Miller",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 255,
+      "end": 268,
+      "text": "Julie A Gomez",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 292,
+      "end": 304,
+      "text": "FW: Kern P/G",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 116,
+      "end": 305,
+      "text": "From: Veronica Espinoza/ENRON@enronXgate on 03/20/2001 11:25 AM\nTo: Clement Abrams/ENRON@enronXgate\ncc: Stephanie Miller/Corp/Enron@ENRON, Julie A Gomez/HOU/ECT@ECT \n\nSubject: FW: Kern P/G\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 306,
+      "end": 313,
+      "text": "Clement",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 830,
+      "end": 838,
+      "text": "Veronica",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 816,
+      "end": 839,
+      "text": "Thanks again,\nVeronica\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 305,
+      "end": 840,
+      "text": "\nClement,\n\nPer my voicemail, attached below is the Gty format for Kern River.  The info \nis as follows:\n\nEntities: ENA and Kern River Gas Transmission Company\nAmount: $1.2MM\nExpiration: 6/30/2003\nAddress: Kern River Gas Transmission Company\nAttention: Paula Lauritzen\n2800 Post Oak Blvd.\nHouston, TX  77056\n\nAgain, it is extremely important that this gty is issued prior to March 26th \n(next Monday), as that is the absolute deadline that Kern River is giving \nENA.  Give me a call if you need any other info.\n\nThanks again,\nVeronica\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 876,
+      "end": 896,
+      "text": "Fernandez, Richard W",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 899,
+      "end": 931,
+      "text": "Richard.W.Fernandez@Williams.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 948,
+      "end": 1059,
+      "text": "IMCEANOTES-+22Fernandez+2C+20Richard+20W+22+20+3CRichard+2EW+2EFernand\nez+40Williams+2Ecom+3E+40ENRON@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1077,
+      "end": 1091,
+      "text": "March 20, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1092,
+      "end": 1100,
+      "text": "11:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1105,
+      "end": 1123,
+      "text": "Espinoza, Veronica",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1128,
+      "end": 1146,
+      "text": "Lauritzen, Paula M",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1156,
+      "end": 1164,
+      "text": "Kern P/G",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 840,
+      "end": 1165,
+      "text": " -----Original Message-----\nFrom:  \"Fernandez, Richard W\" <Richard.W.Fernandez@Williams.com>@ENRON \n[mailto:IMCEANOTES-+22Fernandez+2C+20Richard+20W+22+20+3CRichard+2EW+2EFernand\nez+40Williams+2Ecom+3E+40ENRON@ENRON.com] \nSent: Tuesday, March 20, 2001 11:13 AM\nTo: Espinoza, Veronica\nCc: Lauritzen, Paula M\nSubject: Kern P/G\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1186,
+      "end": 1197,
+      "text": "KERNGTY.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1201,
+      "end": 1218,
+      "text": "Richard Fernandez",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1220,
+      "end": 1265,
+      "text": "Treasury Dept. \nWilliams Gas Pipeline Company",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1273,
+      "end": 1285,
+      "text": "713-215-3645",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1292,
+      "end": 1304,
+      "text": "713-215-3648",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1201,
+      "end": 1306,
+      "text": "Richard Fernandez \nTreasury Dept. \nWilliams Gas Pipeline Company   \nPh: 713-215-3645 \nFax: 713-215-3648 \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1311,
+      "end": 1321,
+      "text": "ERNGTY.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1307,
+      "end": 1322,
+      "text": " - KERNGTY.DOC\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1183,
+      "end": 1201,
+      "text": " <<KERNGTY.DOC>> \n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1165,
+      "end": 1322,
+      "text": "\n\nAs discussed.. \n <<KERNGTY.DOC>> \nRichard Fernandez \nTreasury Dept. \nWilliams Gas Pipeline Company   \nPh: 713-215-3645 \nFax: 713-215-3648 \n\n - KERNGTY.DOC\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 27,
+      "target": 28,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 29,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 30,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 27,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17407310.1075842822790.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Mar 2001 05:58:00 -0800 (PST)",
+      "From": "stephanie.miller@enron.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "FW: Kern P/G",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stephanie Miller",
+      "X-To": "Gerald Nemec",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_1855.txt"
+}

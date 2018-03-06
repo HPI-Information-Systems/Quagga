@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/rogers-b_discussion_threads_961.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<18281079.1075857201553.JavaMail.evans@thyme>",
+      "Date": "Mon, 28 Aug 2000 06:56:00 -0700 (PDT)",
+      "From": "jonathan.hoff@enron.com",
+      "To": "don.miller@enron.com, jinsung.myung@enron.com, benjamin.rogers@enron.com",
+      "Subject": "Due Diligence Indices",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jonathan Hoff",
+      "X-To": "Don Miller, Jinsung Myung, Benjamin Rogers",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "text": "I have stripped down the document indices to include just those documents \nwe'll be moving into the due diligence files.  Here they are in case anyone \nis interested:\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 167,
+      "text": "I have stripped down the document indices to include just those documents \nwe'll be moving into the due diligence files.  Here they are in case anyone \nis interested:\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

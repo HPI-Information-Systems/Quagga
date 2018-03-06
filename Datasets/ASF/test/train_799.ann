@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Can multiple DStreams manipulate a state? I have a stream that gives me\ntotal minutes the user spent on a course material. I have another stream\nthat gives me chapters completed and lessons completed by the user. I want\nto keep track for each user total_minutes, chapters_completed and\nlessons_completed. I am not sure if I should have 1 state or 2 states. Can\nI lookup the state for a given key just like a map outside the mapfunction?\n\nAppreciate your input. Thanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 437,
+      "end": 468,
+      "text": "\nAppreciate your input. Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 469,
+      "text": "Can multiple DStreams manipulate a state? I have a stream that gives me\ntotal minutes the user spent on a course material. I have another stream\nthat gives me chapters completed and lessons completed by the user. I want\nto keep track for each user total_minutes, chapters_completed and\nlessons_completed. I am not sure if I should have 1 state or 2 states. Can\nI lookup the state for a given key just like a map outside the mapfunction?\n\nAppreciate your input. Thanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_799"
+}

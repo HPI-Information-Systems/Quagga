@@ -1,0 +1,205 @@
+After disabling the buffer are you still seeing documents being replicated
+to the target cluster(s) ?
+
+On Mon, Jul 10, 2017 at 1:07 PM, Xie, Sean <Sean.Xie@finra.org> wrote:
+
+> After several experiments and observation, finally make it work.
+> The key point is you have to also disablebuffer on source cluster. I don’t
+> know why in the wiki, it didn’t mention it, but I figured this out through
+> the source code.
+> Once disablebuffer on source cluster, the lastProcessedVersion will become
+> a position number, and when there is hard commit, the old unused tlog files
+> get deleted.
+>
+> Hope my finding can help other users who experience the same issue.
+>
+>
+> On 7/10/17, 9:08 AM, "Michael McCarthy" <michael.mccarthy@gm.com> wrote:
+>
+>     We have been experiencing this same issue for months now, with version
+> 6.2.  No solution to date.
+>
+>     -----Original Message-----
+>     From: Xie, Sean [mailto:Sean.Xie@finra.org]
+>     Sent: Sunday, July 09, 2017 9:41 PM
+>     To: solr-user@lucene.apache.org
+>     Subject: [EXTERNAL] Re: CDCR - how to deal with the transaction log
+> files
+>
+>     Did another round of testing, the tlog on target cluster is cleaned up
+> once the hard commit is triggered. However, on source cluster, the tlog
+> files stay there and never gets cleaned up.
+>
+>     Not sure if there is any command to run manually to trigger the
+> updateLogSynchronizer. The updateLogSynchronizer already set at run at
+> every 10 seconds, but seems it didn’t help.
+>
+>     Any help?
+>
+>     Thanks
+>     Sean
+>
+>     On 7/8/17, 1:14 PM, "Xie, Sean" <Sean.Xie@finra.org> wrote:
+>
+>         I have monitored the CDCR process for a while, the updates are
+> actively sent to the target without a problem. However the tlog size and
+> files count are growing everyday, even when there is 0 updates to sent, the
+> tlog stays there:
+>
+>         Following is from the action=queues command, and you can see after
+> about a month or so running days, the total transaction are reaching to
+> 140K total files, and size is about 103G.
+>
+>         <response>
+>         <lst name="responseHeader">
+>         <int name="status">0</int>
+>         <int name="QTime">465</int>
+>         </lst>
+>         <lst name="queues">
+>         <lst name="some_zk_url_list">
+>         <lst name="MY_COLLECTION">
+>         <long name="queueSize">0</long>
+>         <str name="lastTimestamp">2017-07-07T23:19:09.655Z</str>
+>         </lst>
+>         </lst>
+>         </lst>
+>         <long name="tlogTotalSize">102740042616</long>
+>         <long name="tlogTotalCount">140809</long>
+>         <str name="updateLogSynchronizer">stopped</str>
+>         </response>
+>
+>         Any help on it? Or do I need to configure something else? The CDCR
+> configuration is pretty much following the wiki:
+>
+>         On target:
+>
+>           <requestHandler name="/cdcr" class="solr.CdcrRequestHandler">
+>             <lst name="buffer">
+>               <str name="defaultState">disabled</str>
+>             </lst>
+>           </requestHandler>
+>
+>           <updateRequestProcessorChain name="cdcr-processor-chain">
+>             <processor class="solr.CdcrUpdateProcessorFactory"/>
+>             <processor class="solr.RunUpdateProcessorFactory"/>
+>           </updateRequestProcessorChain>
+>
+>           <requestHandler name="/update" class="solr.
+> UpdateRequestHandler">
+>             <lst name="defaults">
+>               <str name="update.chain">cdcr-processor-chain</str>
+>             </lst>
+>           </requestHandler>
+>
+>           <updateHandler class="solr.DirectUpdateHandler2">
+>             <updateLog class="solr.CdcrUpdateLog">
+>               <str name="dir">${solr.ulog.dir:}</str>
+>             </updateLog>
+>             <autoCommit>
+>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>
+>               <openSearcher>false</openSearcher>
+>             </autoCommit>
+>
+>             <autoSoftCommit>
+>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>
+>             </autoSoftCommit>
+>           </updateHandler>
+>
+>         On source:
+>           <requestHandler name="/cdcr" class="solr.CdcrRequestHandler">
+>             <lst name="replica">
+>               <str name="zkHost">${TargetZk}</str>
+>               <str name="source">MY_COLLECTION</str>
+>               <str name="target">MY_COLLECTION</str>
+>             </lst>
+>
+>             <lst name="replicator">
+>               <str name="threadPoolSize">1</str>
+>               <str name="schedule">1000</str>
+>               <str name="batchSize">128</str>
+>             </lst>
+>
+>             <lst name="updateLogSynchronizer">
+>               <str name="schedule">60000</str>
+>             </lst>
+>           </requestHandler>
+>
+>           <updateHandler class="solr.DirectUpdateHandler2">
+>             <updateLog class="solr.CdcrUpdateLog">
+>               <str name="dir">${solr.ulog.dir:}</str>
+>             </updateLog>
+>             <autoCommit>
+>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>
+>               <openSearcher>false</openSearcher>
+>             </autoCommit>
+>
+>             <autoSoftCommit>
+>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>
+>             </autoSoftCommit>
+>           </updateHandler>
+>
+>         Thanks.
+>         Sean
+>
+>         On 7/8/17, 12:10 PM, "Erick Erickson" <erickerickson@gmail.com>
+> wrote:
+>
+>             This should not be the case if you are actively sending
+> updates to the
+>             target cluster. The tlog is used to store unsent updates, so
+> if the
+>             connection is broken for some time, the target cluster will
+> have a
+>             chance to catch up.
+>
+>             If you don't have the remote DC online and do not intend to
+> bring it
+>             online soon, you should turn CDCR off.
+>
+>             Best,
+>             Erick
+>
+>             On Fri, Jul 7, 2017 at 9:35 PM, Xie, Sean <Sean.Xie@finra.org>
+> wrote:
+>             > Once enabled CDCR, update log stores an unlimited number of
+> entries. This is causing the tlog folder getting bigger and bigger, as well
+> as the open files are growing. How can one reduce the number of open files
+> and also to reduce the tlog files? If it’s not taken care properly, sooner
+> or later the log files size and open file count will exceed the limits.
+>             >
+>             > Thanks
+>             > Sean
+>             >
+>             >
+>             > Confidentiality Notice::  This email, including attachments,
+> may include non-public, proprietary, confidential or legally privileged
+> information.  If you are not an intended recipient or an authorized agent
+> of an intended recipient, you are hereby notified that any dissemination,
+> distribution or copying of the information contained in or transmitted with
+> this e-mail is unauthorized and strictly prohibited.  If you have received
+> this email in error, please notify the sender by replying to this message
+> and permanently delete this e-mail, its attachments, and any copies of it
+> immediately.  You should not retain, copy or use this e-mail or any
+> attachment for any purpose, nor disclose all or any part of the contents to
+> any other person. Thank you.
+>
+>
+>
+>
+>
+>
+>     Nothing in this message is intended to constitute an electronic
+> signature unless a specific statement to the contrary is included in this
+> message.
+>
+>     Confidentiality Note: This message is intended only for the person or
+> entity to which it is addressed. It may contain confidential and/or
+> privileged material. Any review, transmission, dissemination or other use,
+> or taking of any action in reliance upon this message by persons or
+> entities other than the intended recipient is prohibited and may be
+> unlawful. If you received this message in error, please contact the sender
+> and delete it from your computer.
+>
+>
+>
+

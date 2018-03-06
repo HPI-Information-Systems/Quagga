@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Joel. For my use case I can switch to rollup for now which can work\nwith \"/export\" query type.\n\nOn Thu, Jun 29, 2017 at 10:11 AM, Joel Bernstein <joelsolr@gmail.com> wrote:\n\n> Yes, I see this is hardcoded into the parameter checks. We can create a\n> ticket to allow unlimited.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n> On Thu, Jun 29, 2017 at 10:06 AM, Pratik Patel <pratik@semandex.net>\n> wrote:\n>\n> > Hey Everyone,\n> >\n> > This is about the facet function of Streaming Expression. Is there any\n> way\n> > to set limit for number of facets to infinite?  The *bucketSizeLimit\n> > parameter *seems to accept only those numbers which are greater than 0.\n> >\n> > Thanks,\n> > Pratik\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 103,
+      "text": "Thanks Joel. For my use case I can switch to rollup for now which can work\nwith \"/export\" query type.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 103,
+      "end": 180,
+      "text": "On Thu, Jun 29, 2017 at 10:11 AM, Joel Bernstein <joelsolr@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 284,
+      "end": 335,
+      "text": ">\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 180,
+      "end": 337,
+      "text": "\n> Yes, I see this is hardcoded into the parameter checks. We can create a\n> ticket to allow unlimited.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 337,
+      "end": 417,
+      "text": "> On Thu, Jun 29, 2017 at 10:06 AM, Pratik Patel <pratik@semandex.net>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 417,
+      "end": 437,
+      "text": ">\n> > Hey Everyone,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 671,
+      "end": 698,
+      "text": "> >\n> > Thanks,\n> > Pratik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 417,
+      "end": 705,
+      "text": ">\n> > Hey Everyone,\n> >\n> > This is about the facet function of Streaming Expression. Is there any\n> way\n> > to set limit for number of facets to infinite?  The *bucketSizeLimit\n> > parameter *seems to accept only those numbers which are greater than 0.\n> >\n> > Thanks,\n> > Pratik\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4449"
+}

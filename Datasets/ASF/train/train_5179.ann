@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Peter\nThe common setup is to use copyfield from all your fields into a 'grab bag' containing everything,\nand then to search on it alone. Cheers -- Rick\n\nOn August 2, 2017 7:31:10 AM EDT, Peter Kirk <pk@alpha-solutions.dk> wrote:\n>Hi - is it possible to create a query (or fq) which generates the field\n>to search on, based on whether or not the document has that field?\n>\n>Eg. Search for documents with prices in the range 100 - 200, using\n>either the field \"price_owner_float\" or \"price_customer_float\" (if a\n>document has a field \"price_owner_float\" then use that, otherwise use\n>the field \"price_customer_float\").\n>\n>This gives a syntax error:\n>fq=if(exists(price_owner_float),price_owner_float,price_customer_float):[100\n>TO 200]\n>\n>Thanks,\n>Peter\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Peter\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 153,
+      "text": "Peter\nThe common setup is to use copyfield from all your fields into a 'grab bag' containing everything,\nand then to search on it alone. Cheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 153,
+      "end": 229,
+      "text": "On August 2, 2017 7:31:10 AM EDT, Peter Kirk <pk@alpha-solutions.dk> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 229,
+      "end": 233,
+      "text": ">Hi ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 734,
+      "end": 752,
+      "text": ">\n>Thanks,\n>Peter\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 229,
+      "end": 826,
+      "text": ">Hi - is it possible to create a query (or fq) which generates the field\n>to search on, based on whether or not the document has that field?\n>\n>Eg. Search for documents with prices in the range 100 - 200, using\n>either the field \"price_owner_float\" or \"price_customer_float\" (if a\n>document has a field \"price_owner_float\" then use that, otherwise use\n>the field \"price_customer_float\").\n>\n>This gives a syntax error:\n>fq=if(exists(price_owner_float),price_owner_float,price_customer_float):[100\n>TO 200]\n>\n>Thanks,\n>Peter\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5179"
+}

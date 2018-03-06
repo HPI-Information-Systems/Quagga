@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "I hope that helps\n\nhttps://stackoverflow.com/questions/40623957/slave-lost-and-very-slow-join-in-spark\n\n\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n\n2017-07-26 3:13 GMT+02:00 Debabrata Ghosh <mailfordebu@gmail.com>:\n\n> Hi,\n>                       While executing a SparkSQL query, I am hitting the\n> following error. Wonder, if you can please help me with a possible cause\n> and resolution. Here is the stacktrace for the same:\n>\n> 07/25/2017 02:41:58 PM - DataPrep.py 323 - __main__ - ERROR - An error\n> occurred while calling o49.sql.\n>\n> : org.apache.spark.SparkException: Job aborted due to stage failure: Task\n> 0 in stage 12.2 failed 4 times, most recent failure: Lost task 0.3 in stage\n> 12.2 (TID 2242, bicservices.hdp.com): ExecutorLostFailure (executor 25\n> exited caused by one of the running tasks) Reason: Slave lost\n>\n> Driver stacktrace:\n>\n> at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$\n> scheduler$DAGScheduler$$failJobAndIndependentStages(\n> DAGScheduler.scala:1433)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(\n> DAGScheduler.scala:1421)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(\n> DAGScheduler.scala:1420)\n>\n> at scala.collection.mutable.ResizableArray$class.foreach(\n> ResizableArray.scala:59)\n>\n> at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47)\n>\n> at org.apache.spark.scheduler.DAGScheduler.abortStage(\n> DAGScheduler.scala:1420)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$\n> handleTaskSetFailed$1.apply(DAGScheduler.scala:801)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$\n> handleTaskSetFailed$1.apply(DAGScheduler.scala:801)\n>\n> at scala.Option.foreach(Option.scala:236)\n>\n> at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(\n> DAGScheduler.scala:801)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> doOnReceive(DAGScheduler.scala:1642)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> onReceive(DAGScheduler.scala:1601)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> onReceive(DAGScheduler.scala:1590)\n>\n> at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)\n>\n> at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:622)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1856)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1869)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1946)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.saveAsHiveFile(\n> InsertIntoHiveTable.scala:84)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> sideEffectResult$lzycompute(InsertIntoHiveTable.scala:201)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> sideEffectResult(InsertIntoHiveTable.scala:127)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> doExecute(InsertIntoHiveTable.scala:276)\n>\n> at org.apache.spark.sql.execution.SparkPlan$$anonfun$\n> execute$5.apply(SparkPlan.scala:132)\n>\n> at org.apache.spark.sql.execution.SparkPlan$$anonfun$\n> execute$5.apply(SparkPlan.scala:130)\n>\n> at org.apache.spark.rdd.RDDOperationScope$.withScope(\n> RDDOperationScope.scala:150)\n>\n> at org.apache.spark.sql.execution.SparkPlan.execute(SparkPlan.scala:130)\n>\n> at org.apache.spark.sql.execution.QueryExecution.toRdd$lzycompute(\n> QueryExecution.scala:55)\n>\n> at org.apache.spark.sql.execution.QueryExecution.\n> toRdd(QueryExecution.scala:55)\n>\n> at org.apache.spark.sql.DataFrame.<init>(DataFrame.scala:145)\n>\n> at org.apache.spark.sql.DataFrame.<init>(DataFrame.scala:130)\n>\n> at org.apache.spark.sql.DataFrame$.apply(DataFrame.scala:52)\n>\n> at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:817)\n>\n> at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n>\n> at sun.reflect.NativeMethodAccessorImpl.invoke(\n> NativeMethodAccessorImpl.java:62)\n>\n> at sun.reflect.DelegatingMethodAccessorImpl.invoke(\n> DelegatingMethodAccessorImpl.java:43)\n>\n> at java.lang.reflect.Method.invoke(Method.java:498)\n>\n> at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:231)\n>\n> at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:381)\n>\n> at py4j.Gateway.invoke(Gateway.java:259)\n>\n> at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:133)\n>\n> at py4j.commands.CallCommand.execute(CallCommand.java:79)\n>\n> at py4j.GatewayConnection.run(GatewayConnection.java:209)\n> at java.lang.Thread.run(Thread.java:745)\n>\n> Cheers,\n>\n> Debu\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 104,
+      "end": 299,
+      "text": "\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 300,
+      "text": "I hope that helps\n\nhttps://stackoverflow.com/questions/40623957/slave-lost-and-very-slow-join-in-spark\n\n\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 300,
+      "end": 367,
+      "text": "2017-07-26 3:13 GMT+02:00 Debabrata Ghosh <mailfordebu@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 367,
+      "end": 374,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 4630,
+      "end": 4651,
+      "text": ">\n> Cheers,\n>\n> Debu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 367,
+      "end": 4654,
+      "text": "\n> Hi,\n>                       While executing a SparkSQL query, I am hitting the\n> following error. Wonder, if you can please help me with a possible cause\n> and resolution. Here is the stacktrace for the same:\n>\n> 07/25/2017 02:41:58 PM - DataPrep.py 323 - __main__ - ERROR - An error\n> occurred while calling o49.sql.\n>\n> : org.apache.spark.SparkException: Job aborted due to stage failure: Task\n> 0 in stage 12.2 failed 4 times, most recent failure: Lost task 0.3 in stage\n> 12.2 (TID 2242, bicservices.hdp.com): ExecutorLostFailure (executor 25\n> exited caused by one of the running tasks) Reason: Slave lost\n>\n> Driver stacktrace:\n>\n> at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$\n> scheduler$DAGScheduler$$failJobAndIndependentStages(\n> DAGScheduler.scala:1433)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(\n> DAGScheduler.scala:1421)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(\n> DAGScheduler.scala:1420)\n>\n> at scala.collection.mutable.ResizableArray$class.foreach(\n> ResizableArray.scala:59)\n>\n> at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47)\n>\n> at org.apache.spark.scheduler.DAGScheduler.abortStage(\n> DAGScheduler.scala:1420)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$\n> handleTaskSetFailed$1.apply(DAGScheduler.scala:801)\n>\n> at org.apache.spark.scheduler.DAGScheduler$$anonfun$\n> handleTaskSetFailed$1.apply(DAGScheduler.scala:801)\n>\n> at scala.Option.foreach(Option.scala:236)\n>\n> at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(\n> DAGScheduler.scala:801)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> doOnReceive(DAGScheduler.scala:1642)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> onReceive(DAGScheduler.scala:1601)\n>\n> at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.\n> onReceive(DAGScheduler.scala:1590)\n>\n> at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)\n>\n> at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:622)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1856)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1869)\n>\n> at org.apache.spark.SparkContext.runJob(SparkContext.scala:1946)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.saveAsHiveFile(\n> InsertIntoHiveTable.scala:84)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> sideEffectResult$lzycompute(InsertIntoHiveTable.scala:201)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> sideEffectResult(InsertIntoHiveTable.scala:127)\n>\n> at org.apache.spark.sql.hive.execution.InsertIntoHiveTable.\n> doExecute(InsertIntoHiveTable.scala:276)\n>\n> at org.apache.spark.sql.execution.SparkPlan$$anonfun$\n> execute$5.apply(SparkPlan.scala:132)\n>\n> at org.apache.spark.sql.execution.SparkPlan$$anonfun$\n> execute$5.apply(SparkPlan.scala:130)\n>\n> at org.apache.spark.rdd.RDDOperationScope$.withScope(\n> RDDOperationScope.scala:150)\n>\n> at org.apache.spark.sql.execution.SparkPlan.execute(SparkPlan.scala:130)\n>\n> at org.apache.spark.sql.execution.QueryExecution.toRdd$lzycompute(\n> QueryExecution.scala:55)\n>\n> at org.apache.spark.sql.execution.QueryExecution.\n> toRdd(QueryExecution.scala:55)\n>\n> at org.apache.spark.sql.DataFrame.<init>(DataFrame.scala:145)\n>\n> at org.apache.spark.sql.DataFrame.<init>(DataFrame.scala:130)\n>\n> at org.apache.spark.sql.DataFrame$.apply(DataFrame.scala:52)\n>\n> at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:817)\n>\n> at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n>\n> at sun.reflect.NativeMethodAccessorImpl.invoke(\n> NativeMethodAccessorImpl.java:62)\n>\n> at sun.reflect.DelegatingMethodAccessorImpl.invoke(\n> DelegatingMethodAccessorImpl.java:43)\n>\n> at java.lang.reflect.Method.invoke(Method.java:498)\n>\n> at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:231)\n>\n> at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:381)\n>\n> at py4j.Gateway.invoke(Gateway.java:259)\n>\n> at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:133)\n>\n> at py4j.commands.CallCommand.execute(CallCommand.java:79)\n>\n> at py4j.GatewayConnection.run(GatewayConnection.java:209)\n> at java.lang.Thread.run(Thread.java:745)\n>\n> Cheers,\n>\n> Debu\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4455"
+}

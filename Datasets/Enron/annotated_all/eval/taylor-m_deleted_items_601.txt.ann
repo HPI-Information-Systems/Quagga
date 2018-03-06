@@ -1,0 +1,183 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n\n>From: \"Jack Oliver, Deputy Chairman, RNC\" <gopteamleader@gopteamleader.com>\n>To: \"mtaylo9@lsu.edu\" <mtaylo9@lsu.edu>\n>Subject: Call Your Senators: Pass The President's Growth Plan\n>Date: Tue, 20 Nov 2001 04:36:17 -0500\n>\n>\n>\n>\"Congress and the President must act again to help our economy and to \n>prevent the situation from worsening. We must get our workers back to work \n>and strengthen our businesses so that they can continue to be productive \n>and hire more employees.\" House Speaker Dennis Hastert to Congressional \n>Republicans, November 19\n>\n>In the aftermath of September 11, our economy needs a boost.  President \n>Bush and Members of Congress agree on the necessity of an economic stimulus \n>package, yet there has been no package passed by the Senate.\n>\n>President Bush has proposed an economic stimulus package that provides \n>needed assistance NOW without significant increases in unemployment, state \n>mandates and business taxes.  The President wants the Senate to pass a bill \n>that focuses on job creation instead of creating new taxes on employers or \n>new costs on states.\n>\n>CALL YOUR SENATOR(S) TODAY, and tell them to support the President?s \n>economic growth plan.\n>\n>Senator John Breaux (D-LA)  Phone  (202) 224-4623\n>\n>Senator Mary Landrieu (D-LA)  Phone  (202) 224-5824\n>\n>Please also take the time to FORWARD THIS MESSAGE to everyone you know who \n>will help the President get the economy moving again.\n>\n>To contact your Senators, go here \n>http://www.gopteamleader.com/findsenators.asp\n>\n>The debate over economic stimulus packages is plainly explained in a \n>November 16th op-ed appearing in the Washington Post: \"The President wants \n>to create more jobs, while the Senate democrats propose entitlements.  If \n>you were unemployed, which would you prefer?\"  (\"Tax Cuts Are the Best \n>Stimulus\" by R. Glenn Hubbard).  The full article appears below and is \n>reprinted at\n>http://www.gopteamleader.com/hubbard.asp\n>\n>Tell your Senators TODAY that you'd prefer job creation.\n>\n>Sincerely,\n>\n>Jack Oliver\n>Deputy Chairman, Republican National Committee\n>\n>\n>************************************************\n>\n>Tax Cuts Are the Best Stimulus\n>\n>\n>By R. Glenn Hubbard\n>\n>Washington Post\n>Friday, November 16, 2001; Page A47\n>\n>\n>With most indicators of economic production, such as employment and \n>purchasing, showing further decline in October, some have argued that \n>President Bush's growth plan would have little stimulative effect. They \n>prefer the Senate Democrats' plan, on the grounds that spending is a better \n>way to revive the economy.\n>\n>Permit me to differ. The president's plan, included in the stimulus plan \n>passed by the House, addresses the nation's underlying economic problems. \n>If enacted, the tax cuts will quickly deliver a boost to move the economy \n>back toward its long-run growth path. The plan, it is estimated, would \n>result in 300,000 more jobs and add half a percentage point to the 2002 \n>growth rate.\n>\n>Here's how tax cuts help stimulate the economy. Tax cuts for individuals \n>give them more money to spend and invest. Tax cuts for business for three \n>years -- long enough to have a serious effect -- would make investment less \n>expensive, so businesses would be encouraged to buy equipment, increase \n>production and expand employment.\n>\n>It is a major fallacy to praise new spending plans as \"stimulus.\" This \n>ignores the fact that a dollar spent by the government is one fewer that \n>can be spent by private businesses. Furthermore, new spending programs \n>almost never go away, and they lead to more inflexible regulation of the \n>economy. New spending programs are not only unlikely to make the economy \n>grow, they also are an undesirable response to terrorism risks.\n>\n>Instead, it is important to take advantage of the flexibility and \n>innovation of the private sector. This will reduce the negative effects on \n>job growth as part of our necessary response to terrorism.\n>\n>The real underlying economic problem is that the terrorist attacks took a \n>direct toll on the economy and, more important, on the confidence of \n>American households and firms. The combined effect tipped a fragile rate of \n>economic growth into negative territory. But the attacks did not undermine \n>long-term productivity growth, so economic fundamentals remain strong.\n>\n>The challenge is simply to restore the health of the economy quickly. And \n>Congress needs to do so in the way that will be most beneficial. Assistance \n>for dislocated workers is important, and the president has already proposed \n>an aggressive package to provide it. But spending should not be confused \n>with economic stimulus.\n>\n>The basic source of uncertainty and loss of consumer confidence is fear \n>over job loss, and the fact is that additional spending, even on \n>unemployment insurance won't give people jobs. Indeed, the excessive \n>expansion of unemployment insurance proposed by the Senate would actually \n>increase unemployment, because it would discourage job applicants from \n>accepting new positions. Moreover, the Senate bill would err by raising \n>taxes on employers -- exactly the wrong thing to do at this moment.\n>\n>Until one addresses the underlying source of the uncertainty, there will be \n>no guarantee that hemorrhaging federal dollars will do any good. Lower tax \n>rates are the best way to create jobs and make large and small businesses \n>grow. Acceleration of future tax cuts, which Congress has already chosen, \n>will help the economy.\n>\n>Despite the repeated claim that only poor households will spend additional \n>income, evidence indicates almost all households spend about the same \n>percentage of their tax cuts. Business tax relief is essential because it \n>encourages firms to expand investment and employment. With tax cuts, firms \n>would be able to replace existing machines with more productive ones, \n>precisely the kind of change that frees up funds to hire more workers.\n>\n>The economy needs help now. The president wants to create more jobs, while \n>the Senate proposes new entitlements. If you were unemployed, which would \n>you prefer?\n>\n>The writer is chairman of the President's Council of Economic Advisers.\n>\n>(Reprinted by permission of the author)\n>\n>************************************************\n>\n>Paid for by the Republican National Committee.\n>\n>If you wish to unsubscribe from this newsletter, simply click here:\n>http://mail.echampions2000.com/GoNow/a14064a31344a56465125a0\n>\n>To subscribe to this newsletter, please click here:\n>http://www.gopteamleader.com/signup.asp\n>\n\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 11,
+      "end": 22,
+      "text": "Jack Oliver",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 47,
+      "end": 78,
+      "text": "gopteamleader@gopteamleader.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 86,
+      "end": 101,
+      "text": "mtaylo9@lsu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 104,
+      "end": 119,
+      "text": "mtaylo9@lsu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 131,
+      "end": 183,
+      "text": "Call Your Senators: Pass The President's Growth Plan",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 196,
+      "end": 207,
+      "text": "20 Nov 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 208,
+      "end": 222,
+      "text": "04:36:17 -0500",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3,
+      "end": 223,
+      "text": ">From: \"Jack Oliver, Deputy Chairman, RNC\" <gopteamleader@gopteamleader.com>\n>To: \"mtaylo9@lsu.edu\" <mtaylo9@lsu.edu>\n>Subject: Call Your Senators: Pass The President's Growth Plan\n>Date: Tue, 20 Nov 2001 04:36:17 -0500\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 223,
+      "end": 6714,
+      "text": ">\n>\n>\n>\"Congress and the President must act again to help our economy and to \n>prevent the situation from worsening. We must get our workers back to work \n>and strengthen our businesses so that they can continue to be productive \n>and hire more employees.\" House Speaker Dennis Hastert to Congressional \n>Republicans, November 19\n>\n>In the aftermath of September 11, our economy needs a boost.  President \n>Bush and Members of Congress agree on the necessity of an economic stimulus \n>package, yet there has been no package passed by the Senate.\n>\n>President Bush has proposed an economic stimulus package that provides \n>needed assistance NOW without significant increases in unemployment, state \n>mandates and business taxes.  The President wants the Senate to pass a bill \n>that focuses on job creation instead of creating new taxes on employers or \n>new costs on states.\n>\n>CALL YOUR SENATOR(S) TODAY, and tell them to support the President?s \n>economic growth plan.\n>\n>Senator John Breaux (D-LA)  Phone  (202) 224-4623\n>\n>Senator Mary Landrieu (D-LA)  Phone  (202) 224-5824\n>\n>Please also take the time to FORWARD THIS MESSAGE to everyone you know who \n>will help the President get the economy moving again.\n>\n>To contact your Senators, go here \n>http://www.gopteamleader.com/findsenators.asp\n>\n>The debate over economic stimulus packages is plainly explained in a \n>November 16th op-ed appearing in the Washington Post: \"The President wants \n>to create more jobs, while the Senate democrats propose entitlements.  If \n>you were unemployed, which would you prefer?\"  (\"Tax Cuts Are the Best \n>Stimulus\" by R. Glenn Hubbard).  The full article appears below and is \n>reprinted at\n>http://www.gopteamleader.com/hubbard.asp\n>\n>Tell your Senators TODAY that you'd prefer job creation.\n>\n>Sincerely,\n>\n>Jack Oliver\n>Deputy Chairman, Republican National Committee\n>\n>\n>************************************************\n>\n>Tax Cuts Are the Best Stimulus\n>\n>\n>By R. Glenn Hubbard\n>\n>Washington Post\n>Friday, November 16, 2001; Page A47\n>\n>\n>With most indicators of economic production, such as employment and \n>purchasing, showing further decline in October, some have argued that \n>President Bush's growth plan would have little stimulative effect. They \n>prefer the Senate Democrats' plan, on the grounds that spending is a better \n>way to revive the economy.\n>\n>Permit me to differ. The president's plan, included in the stimulus plan \n>passed by the House, addresses the nation's underlying economic problems. \n>If enacted, the tax cuts will quickly deliver a boost to move the economy \n>back toward its long-run growth path. The plan, it is estimated, would \n>result in 300,000 more jobs and add half a percentage point to the 2002 \n>growth rate.\n>\n>Here's how tax cuts help stimulate the economy. Tax cuts for individuals \n>give them more money to spend and invest. Tax cuts for business for three \n>years -- long enough to have a serious effect -- would make investment less \n>expensive, so businesses would be encouraged to buy equipment, increase \n>production and expand employment.\n>\n>It is a major fallacy to praise new spending plans as \"stimulus.\" This \n>ignores the fact that a dollar spent by the government is one fewer that \n>can be spent by private businesses. Furthermore, new spending programs \n>almost never go away, and they lead to more inflexible regulation of the \n>economy. New spending programs are not only unlikely to make the economy \n>grow, they also are an undesirable response to terrorism risks.\n>\n>Instead, it is important to take advantage of the flexibility and \n>innovation of the private sector. This will reduce the negative effects on \n>job growth as part of our necessary response to terrorism.\n>\n>The real underlying economic problem is that the terrorist attacks took a \n>direct toll on the economy and, more important, on the confidence of \n>American households and firms. The combined effect tipped a fragile rate of \n>economic growth into negative territory. But the attacks did not undermine \n>long-term productivity growth, so economic fundamentals remain strong.\n>\n>The challenge is simply to restore the health of the economy quickly. And \n>Congress needs to do so in the way that will be most beneficial. Assistance \n>for dislocated workers is important, and the president has already proposed \n>an aggressive package to provide it. But spending should not be confused \n>with economic stimulus.\n>\n>The basic source of uncertainty and loss of consumer confidence is fear \n>over job loss, and the fact is that additional spending, even on \n>unemployment insurance won't give people jobs. Indeed, the excessive \n>expansion of unemployment insurance proposed by the Senate would actually \n>increase unemployment, because it would discourage job applicants from \n>accepting new positions. Moreover, the Senate bill would err by raising \n>taxes on employers -- exactly the wrong thing to do at this moment.\n>\n>Until one addresses the underlying source of the uncertainty, there will be \n>no guarantee that hemorrhaging federal dollars will do any good. Lower tax \n>rates are the best way to create jobs and make large and small businesses \n>grow. Acceleration of future tax cuts, which Congress has already chosen, \n>will help the economy.\n>\n>Despite the repeated claim that only poor households will spend additional \n>income, evidence indicates almost all households spend about the same \n>percentage of their tax cuts. Business tax relief is essential because it \n>encourages firms to expand investment and employment. With tax cuts, firms \n>would be able to replace existing machines with more productive ones, \n>precisely the kind of change that frees up funds to hire more workers.\n>\n>The economy needs help now. The president wants to create more jobs, while \n>the Senate proposes new entitlements. If you were unemployed, which would \n>you prefer?\n>\n>The writer is chairman of the President's Council of Economic Advisers.\n>\n>(Reprinted by permission of the author)\n>\n>************************************************\n>\n>Paid for by the Republican National Committee.\n>\n>If you wish to unsubscribe from this newsletter, simply click here:\n>http://mail.echampions2000.com/GoNow/a14064a31344a56465125a0\n>\n>To subscribe to this newsletter, please click here:\n>http://www.gopteamleader.com/signup.asp\n>\n\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2026,
+      "end": 2037,
+      "text": "Jack Oliver",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2011,
+      "end": 2038,
+      "text": ">Sincerely,\n>\n>Jack Oliver\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2039,
+      "end": 2054,
+      "text": "Deputy Chairman",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2056,
+      "end": 2085,
+      "text": "Republican National Committee",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2038,
+      "end": 2086,
+      "text": ">Deputy Chairman, Republican National Committee\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 14,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23133442.1075862090308.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Nov 2001 08:10:50 -0800 (PST)",
+      "From": "lsutaylor@hotmail.com",
+      "To": "e.taylor@enron.com",
+      "Subject": "Fwd: Call Your Senators: Pass The President's Growth Plan",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "mike taylor <lsutaylor@hotmail.com>",
+      "X-To": "Taylor, Michael E </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MTAYLOR5>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\MTAYLOR5 (Non-Privileged)\\Taylor, Michael E\\Deleted Items",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "MTAYLOR5 (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/taylor-m_deleted_items_601.txt"
+}

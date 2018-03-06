@@ -1,0 +1,139 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tRaislerk@sullcrom.com@ENRON [mailto:IMCEANOTES-Raislerk+40sullcrom+2Ecom+40ENRON@ENRON.com] \nSent:\tWednesday, August 29, 2001 9:03 AM\nTo:\tTaylor, Mark E (Legal)\nSubject:\tEOL Explansion\n\nPlease call when you have reviewed.\n\n\n <<Memo to Taylor re EOL Expansion.doc>>\n\n----------------------------------\n\nThis e-mail is sent by a law firm and contains information\nthat may be privileged and confidential. If you are not the\nintended recipient, please delete the e-mail and notify us\nimmediately.\n\n - Memo to Taylor re EOL Expansion.doc ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 58,
+      "text": "Raislerk@sullcrom.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 73,
+      "end": 127,
+      "text": "IMCEANOTES-Raislerk+40sullcrom+2Ecom+40ENRON@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 147,
+      "end": 162,
+      "text": "August 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 163,
+      "end": 170,
+      "text": "9:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 175,
+      "end": 189,
+      "text": "Taylor, Mark E",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 207,
+      "end": 221,
+      "text": "EOL Explansion",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 222,
+      "text": "\n\n -----Original Message-----\nFrom: \tRaislerk@sullcrom.com@ENRON [mailto:IMCEANOTES-Raislerk+40sullcrom+2Ecom+40ENRON@ENRON.com] \nSent:\tWednesday, August 29, 2001 9:03 AM\nTo:\tTaylor, Mark E (Legal)\nSubject:\tEOL Explansion\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 264,
+      "end": 299,
+      "text": "Memo to Taylor re EOL Expansion.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 261,
+      "end": 302,
+      "text": " <<Memo to Taylor re EOL Expansion.doc>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 303,
+      "end": 530,
+      "text": "----------------------------------\n\nThis e-mail is sent by a law firm and contains information\nthat may be privileged and confidential. If you are not the\nintended recipient, please delete the e-mail and notify us\nimmediately.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 534,
+      "end": 569,
+      "text": "Memo to Taylor re EOL Expansion.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 531,
+      "end": 570,
+      "text": " - Memo to Taylor re EOL Expansion.doc ",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 222,
+      "end": 570,
+      "text": "\nPlease call when you have reviewed.\n\n\n <<Memo to Taylor re EOL Expansion.doc>>\n\n----------------------------------\n\nThis e-mail is sent by a law firm and contains information\nthat may be privileged and confidential. If you are not the\nintended recipient, please delete the e-mail and notify us\nimmediately.\n\n - Memo to Taylor re EOL Expansion.doc ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11453758.1075858601211.JavaMail.evans@thyme>",
+      "Date": "Wed, 29 Aug 2001 14:54:07 -0700 (PDT)",
+      "From": "legal <.taylor@enron.com>",
+      "To": "greg.piper@enron.com",
+      "Subject": "FW: EOL Expansion",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Taylor, Mark E (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MTAYLO1>",
+      "X-To": "Piper, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gpiper>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\MTAYLO1 (Non-Privileged)\\Taylor, Mark E (Legal)\\Sent Items",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "MTAYLO1 (Non-Privileged).pst"
+    }
+  },
+  "id": "eval/taylor-m_sent_items_10.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

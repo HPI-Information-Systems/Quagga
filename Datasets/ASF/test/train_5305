@@ -1,0 +1,21 @@
+It depends on the permissions the user has on the local file system or HDFS, so there is no
+need to have grant/revoke.
+
+> On 15. Sep 2017, at 17:13, Arun Khetarpal <arunkhetarpal87@gmail.com> wrote:
+> 
+> Hi - 
+> 
+> Wanted to understand if spark sql has GRANT and REVOKE statements available? 
+> Is anyone working on making that available? 
+> 
+> Regards,
+> Arun
+> 
+> ---------------------------------------------------------------------
+> To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+> 
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

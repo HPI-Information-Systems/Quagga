@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\n\nI indexed documents in Solr using dataImportHandler.\n\nNow when I want to query using the below URL, it gives me the results i want.\n\n\nhttp://localhost:8983/solr/mycore/select?indent=on&q=id:7fd326e23ffa8d1cb9c0a7b4fc5c4269&wt=json\n\n\nCan Solr handle bulk queries if I send over more than 10,000 ids in the query and get their\nresult instead of sending 1 id each time to solr-server ?\n\n\nI am using Solr-5.2.1\n\nAny pointers would help.\n\n\n\nThanks!\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 441,
+      "end": 450,
+      "text": "\nThanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 453,
+      "text": "Hi,\n\n\nI indexed documents in Solr using dataImportHandler.\n\nNow when I want to query using the below URL, it gives me the results i want.\n\n\nhttp://localhost:8983/solr/mycore/select?indent=on&q=id:7fd326e23ffa8d1cb9c0a7b4fc5c4269&wt=json\n\n\nCan Solr handle bulk queries if I send over more than 10,000 ids in the query and get their\nresult instead of sending 1 id each time to solr-server ?\n\n\nI am using Solr-5.2.1\n\nAny pointers would help.\n\n\n\nThanks!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5921"
+}

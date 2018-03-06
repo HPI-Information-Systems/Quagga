@@ -1,0 +1,72 @@
+i dont know why this is happening but i have given up on
+userClassPath=first. i have seen many weird errors with it and consider it
+broken.
+
+On Jan 30, 2017 05:24, "Roberto Coluccio" <roberto.coluccio@gmail.com>
+wrote:
+
+Hello folks,
+
+I'm trying to work around an issue with some dependencies by trying to
+specify at spark-submit time that I want my (user) classpath to be resolved
+and taken into account first (against the jars received through the System
+Classpath, which is /data/cloudera/parcels/CDH/jars/).
+
+In order to accomplish this, I specify
+
+--conf spark.driver.userClassPathFirst=true
+--conf spark.executor.userClassPathFirst=true
+
+and I pass my jars with
+
+--jars <comma-separated list>
+
+in my spark-submit command, deploying in yarn cluster mode in a CDH 5.8
+environment (Spark 1.6).
+
+In the list passed with --jars I have severals deps, NOT including
+hadoop/spark related ones. My app jar is not a fat (uber) one, thus it
+includes only business classes. None of these ones has for any reasons a
+"SparkConf.set("master", "local")", or anything like that.
+
+Without specifying the userClassPathFirst configuration, my App is launched
+and completed with no issues at all.
+
+I tried to print logs down to the TRACE level with no luck. I get no
+explicit errors and I verified adding the "-verbose:class" JVM arg that
+Spark-related classes seem to be loaded with no issues. From a rapid
+overview of loaded classes, it seems to me that a small fraction of classes
+is loaded using userClassPathFirst=true w/r/t the default case. Eventually,
+my driver's stderr gets stuck in logging out:
+
+2017-01-30 10:10:22,308 INFO  ApplicationMaster:58 - Waiting for spark
+context initialization ...
+2017-01-30 10:10:32,310 INFO  ApplicationMaster:58 - Waiting for spark
+context initialization ...
+2017-01-30 10:10:42,311 INFO  ApplicationMaster:58 - Waiting for spark
+context initialization ...
+
+Dramatically, the application is then killed by YARN after a timeout.
+
+In my understanding, quoting the doc (http://spark.apache.org/docs/
+1.6.2/configuration.html):
+
+[image: Inline image 1]
+
+So I would expect the libs given through --jars options to be used first,
+but I also expect no issues in loading the system classpath afterwards.
+This is confirmed by the logs printed with the "-verbose:class" JVM option,
+where I can see logs like:
+
+[Loaded org.apache.spark.SparkContext from
+file:/data/cloudera/parcels/CDH-5.8.0-1.cdh5.8.0.p0.42/jars/spark-assembly-1.6.0-cdh5.8.0-hadoop2.6.0-cdh5.8.0.jar]
+
+
+What am I missing here guys?
+
+Thanks for your help.
+
+Best regards,
+
+Roberto
+

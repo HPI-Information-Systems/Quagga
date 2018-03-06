@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "chris says both of these prices are correct - is broker still disputing them?\n\n\n\n\nKerri Thompson@ENRON\n03/20/2001 02:28 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb checkout\n\n554905\nbroker has 350.00\n\n554912\nbroker has 325.00\n\nthanks!\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 82,
+      "text": "chris says both of these prices are correct - is broker still disputing them?\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 82,
+      "end": 96,
+      "text": "Kerri Thompson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 103,
+      "end": 113,
+      "text": "03/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 114,
+      "end": 122,
+      "text": "02:28 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 127,
+      "end": 137,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 166,
+      "end": 178,
+      "text": "apb checkout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 82,
+      "end": 179,
+      "text": "Kerri Thompson@ENRON\n03/20/2001 02:28 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb checkout\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 232,
+      "end": 239,
+      "text": "thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 179,
+      "end": 241,
+      "text": "\n554905\nbroker has 350.00\n\n554912\nbroker has 325.00\n\nthanks!\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29212539.1075841900239.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Mar 2001 07:10:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "kerri.thompson@enron.com",
+      "Subject": "Re: apb checkout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Kerri Thompson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Sent",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_sent_923.txt"
+}

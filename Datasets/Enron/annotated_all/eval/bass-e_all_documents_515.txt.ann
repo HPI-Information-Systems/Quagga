@@ -1,0 +1,285 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n\nBrian T. Hoskins\nEnron Broadband Services\n713-853-0380 (office)\n713-412-3667 (mobile)\n713-646-5745 (fax)\nBrian_Hoskins@enron.net\n\n\n----- Forwarded by Brian Hoskins/Enron Communications on 11/15/00 09:40 AM \n-----\n\n\tKori Loibl@ECT\n\t11/14/00 04:03 PM\n\t\t \n\t\t To: Alicia Perkins/HOU/EES@EES, Purvi Patel/HOU/ECT@ECT, Beau \nRatliff/HOU/EES@EES, Lucy Ortiz/HOU/ECT@ECT, Scott Pleus/Enron \nCommunications@Enron Communications, Don Baughman/HOU/ECT@ECT, Brian \nHoskins/Enron Communications@Enron Communications, Tobin Carlson/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Another slam on Gore!\n\nThis is great!\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 19,
+      "text": "Brian T. Hoskins",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 20,
+      "end": 44,
+      "text": "Enron Broadband Services",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 45,
+      "end": 57,
+      "text": "713-853-0380",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 67,
+      "end": 79,
+      "text": "713-412-3667",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 89,
+      "end": 101,
+      "text": "713-646-5745",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 108,
+      "end": 131,
+      "text": "Brian_Hoskins@enron.net",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 3,
+      "end": 132,
+      "text": "Brian T. Hoskins\nEnron Broadband Services\n713-853-0380 (office)\n713-412-3667 (mobile)\n713-646-5745 (fax)\nBrian_Hoskins@enron.net\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 134,
+      "text": "\n\n\nBrian T. Hoskins\nEnron Broadband Services\n713-853-0380 (office)\n713-412-3667 (mobile)\n713-646-5745 (fax)\nBrian_Hoskins@enron.net\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 153,
+      "end": 166,
+      "text": "Brian Hoskins",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 191,
+      "end": 199,
+      "text": "11/15/00",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 200,
+      "end": 208,
+      "text": "09:40 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 134,
+      "end": 216,
+      "text": "----- Forwarded by Brian Hoskins/Enron Communications on 11/15/00 09:40 AM \n-----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 218,
+      "end": 228,
+      "text": "Kori Loibl",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 234,
+      "end": 242,
+      "text": "11/14/00",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 243,
+      "end": 251,
+      "text": "04:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 263,
+      "end": 277,
+      "text": "Alicia Perkins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 291,
+      "end": 302,
+      "text": "Purvi Patel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 316,
+      "end": 329,
+      "text": "Beau \nRatliff",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 343,
+      "end": 353,
+      "text": "Lucy Ortiz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 367,
+      "end": 378,
+      "text": "Scott Pleus",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 423,
+      "end": 435,
+      "text": "Don Baughman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 449,
+      "end": 463,
+      "text": "Brian \nHoskins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 507,
+      "end": 520,
+      "text": "Tobin Carlson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 553,
+      "end": 574,
+      "text": "Another slam on Gore!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 216,
+      "end": 575,
+      "text": "\n\tKori Loibl@ECT\n\t11/14/00 04:03 PM\n\t\t \n\t\t To: Alicia Perkins/HOU/EES@EES, Purvi Patel/HOU/ECT@ECT, Beau \nRatliff/HOU/EES@EES, Lucy Ortiz/HOU/ECT@ECT, Scott Pleus/Enron \nCommunications@Enron Communications, Don Baughman/HOU/ECT@ECT, Brian \nHoskins/Enron Communications@Enron Communications, Tobin Carlson/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Another slam on Gore!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 575,
+      "end": 594,
+      "text": "\nThis is great!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 22,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2875299.1075854589524.JavaMail.evans@thyme>",
+      "Date": "Wed, 15 Nov 2000 01:32:00 -0800 (PST)",
+      "From": "brian.hoskins@enron.com",
+      "To": "eric.bass@enron.com, hector.campos@enron.com",
+      "Subject": "Another slam on Gore!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brian Hoskins",
+      "X-To": "Eric Bass, Hector Campos",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Eric_Bass_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Bass-E",
+      "X-FileName": "ebass.nsf"
+    }
+  },
+  "id": "eval/bass-e_all_documents_515.txt"
+}

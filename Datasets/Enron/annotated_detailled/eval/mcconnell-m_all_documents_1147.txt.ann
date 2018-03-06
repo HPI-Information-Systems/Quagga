@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "eval/mcconnell-m_all_documents_1147.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<32886488.1075843928827.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Jun 2000 11:55:00 -0700 (PDT)",
+      "From": "suzanne.brown@enron.com",
+      "To": "cindy.olson@enron.com, drew.lynch@enron.com, stephen.barth@enron.com, \n\tmike.mcconnell@enron.com, cathy.phillips@enron.com, \n\tcynthia.barrow@enron.com, sharon.butcher@enron.com, \n\tkeith.dziadek@enron.com, allen.hill@enron.com, \n\ttony.jarrett@enron.com, sherry.lessner@enron.com, \n\tsusan.lopez@enron.com, todd.neugebauer@enron.com, \n\trandy.rice@enron.com, john.tollefsen@enron.com",
+      "Subject": "EnHome - OTC presentation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Suzanne Brown",
+      "X-To": "Cindy Olson, Drew C Lynch, Stephen Barth, Mike McConnell, Cathy Phillips, Chris Holmes@Enron, Cynthia Barrow, Sharon Butcher, Keith Dziadek, Allen Hill, Tony Jarrett, Sherry Lessner, Susan Lopez, Todd Neugebauer, Randy Rice, John P Tollefsen",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_McConnell_June2001\\Notes Folders\\All documents",
+      "X-Origin": "MCCONNELL-M",
+      "X-FileName": "mmcconn.nsf"
+    }
+  },
+  "text": "Please find attached the latest version of the Office of the Chairman EnHome \npresentation.  Please review and provide any changes.  \n\nWe are scheduled to meet at 3:00 p.m. in 50M03.  Joe Sutton is expected to \njoin at 3:30 p.m.    Thank you for all of your contributions to this project.\n\n  ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 292,
+      "text": "Please find attached the latest version of the Office of the Chairman EnHome \npresentation.  Please review and provide any changes.  \n\nWe are scheduled to meet at 3:00 p.m. in 50M03.  Joe Sutton is expected to \njoin at 3:30 p.m.    Thank you for all of your contributions to this project.\n\n  ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

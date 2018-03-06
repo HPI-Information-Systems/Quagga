@@ -1,0 +1,14 @@
+We've bumped into this issue too, but it was through the MoreLikeThis query
+parser.  Internally it uses the get handler to obtain the seed document. 
+One of our SOLR collections uses a shard router that is not the document id. 
+The get handler will fail if the value of the document id is not the same as
+the routing key.  And then this causes the CloudMLTQParser to issue the
+message "Error completing MLT request. Could not fetch document with id
+[/x/]"
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Get-handler-not-working-tp4325130p4330485.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

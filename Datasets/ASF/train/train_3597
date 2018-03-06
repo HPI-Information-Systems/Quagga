@@ -1,0 +1,35 @@
+I would probably start by renting a VM at a third location to run Zookeeper.
+
+Markus
+ 
+-----Original message-----
+> From:Jan Høydahl <jan.asf@cominvent.com>
+> Sent: Tuesday 23rd May 2017 11:09
+> To: solr-user <solr-user@lucene.apache.org>
+> Subject: Spread SolrCloud across two locations
+> 
+> Hi,
+> 
+> A customer has two locations (a few km apart) with super-fast networking in-between,
+so for day-to-day operation they view all VMs in both locations as a pool of servers. They
+typically spin up redundant servers for various services in each zone and if a zone should
+fail (they are a few km apart), the other will just continue working.
+> 
+> How can we best support such a setup with Cloud and Zookeeper? 
+> They do not need (or want) CDCR since latency and bandwidth is no problem, and CDCR is
+active-passive only so it anyway requires manual intervention to catch up if indexing is switched
+to the passive DC temporarily.
+> If it was not for ZK I would setup one Cloud cluster and make sure each shard was replicated
+cross zones and all would be fine.
+> But ZK really requires a third location in order to tolerate loss of an entire location/zone.
+> All solutions I can think of involves manual intervention, re-configuring of ZK followed
+by a restart of the surviving Solr nodes in order to point to the “new” ZK.
+> 
+> How have you guys solved such setups?
+> 
+> --
+> Jan Høydahl, search solution architect
+> Cominvent AS - www.cominvent.com
+> 
+> 
+

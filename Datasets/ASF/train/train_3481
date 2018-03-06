@@ -1,0 +1,56 @@
+You're committing too frequently, so you have new searchers getting queued
+up before the previous ones have been processed.
+
+You have several options on how to deal with this. Can increase commit
+interval, add hardware, or reduce query warming.
+
+I don't know if uncommenting that section will help because I don't know
+what your current settings are. Or if you are using manual commits.
+
+Mike
+
+On Wed, May 17, 2017, 4:58 AM Srinivas Kashyap <srinivas@bamboorose.com>
+wrote:
+
+> Hi All,
+>
+> We are using Solr 5.2.1 version and are currently experiencing below
+> Warning in Solr Logging Console:
+>
+> Performance warning: Overlapping onDeskSearchers=2
+>
+> Also we encounter,
+>
+> org.apache.solr.common.SolrException: Error opening new searcher. exceeded
+> limit of maxWarmingSearchers=2,​ try again later.
+>
+>
+> The reason being, we are doing mass update on our application and solr
+> experiencing the higher loads at times. Data is being indexed using DIH(sql
+> queries).
+>
+> In solrconfig.xml below is the code.
+>
+> <!--
+>        <autoCommit>
+>          <maxDocs>10000</maxDocs>
+>          <maxTime>1000</maxTime>
+>        </autoCommit>
+> -->
+>
+> Should we be uncommenting the above lines and try to avoid this error?
+> Please help me.
+>
+> Thanks and Regards,
+> Srinivas Kashyap
+>
+> ________________________________
+>
+> DISCLAIMER: E-mails and attachments from Bamboo Rose, LLC are
+> confidential. If you are not the intended recipient, please notify the
+> sender immediately by replying to the e-mail, and then delete it without
+> making copies or using it in any way. No representation is made that this
+> email or any attachments are free of viruses. Virus scanning is recommended
+> and is the responsibility of the recipient.
+>
+

@@ -1,0 +1,107 @@
+{
+  "wrapper": "plaintext",
+  "text": "fine\n\n -----Original Message-----\nFrom: \tRieker, Paula  \nSent:\tWednesday, October 24, 2001 6:25 PM\nTo:\tKitchen, Louise\nSubject:\tBoD Update\n\n\n\nLouise - This is what I captured from our conversation and plan to send to the BoD unless I hear differently from you by tomorrow mid-morning.  THX a lot.  Paula\n\nNorth American gas prices have increased recently, and power prices have followed.  The American Gas Association released storage numbers recently that appear low to our team.  Although these developments may create a difficult near-term environment, Enron Americas does not view the current strength in commodity prices to be sustainable.  \n?\tEnron Americas closed on the sale of 80%  [Kitchen, Louise]  of our  interest in a 240 MW power plant in Monterrey, Mexico, to Tractabel for approximately $40 million in cash and the assumption of all the related forward obligations by the buyer.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "fine\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 54,
+      "text": "Rieker, Paula",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 74,
+      "end": 90,
+      "text": "October 24, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 91,
+      "end": 98,
+      "text": "6:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 103,
+      "end": 118,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 128,
+      "end": 138,
+      "text": "BoD Update",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 6,
+      "end": 139,
+      "text": " -----Original Message-----\nFrom: \tRieker, Paula  \nSent:\tWednesday, October 24, 2001 6:25 PM\nTo:\tKitchen, Louise\nSubject:\tBoD Update\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 142,
+      "end": 148,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 139,
+      "end": 895,
+      "text": "\n\n\nLouise - This is what I captured from our conversation and plan to send to the BoD unless I hear differently from you by tomorrow mid-morning.  THX a lot.  Paula\n\nNorth American gas prices have increased recently, and power prices have followed.  The American Gas Association released storage numbers recently that appear low to our team.  Although these developments may create a difficult near-term environment, Enron Americas does not view the current strength in commodity prices to be sustainable.  \n?\tEnron Americas closed on the sale of 80%  [Kitchen, Louise]  of our  interest in a 240 MW power plant in Monterrey, Mexico, to Tractabel for approximately $40 million in cash and the assumption of all the related forward obligations by the buyer.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5154492.1075853013381.JavaMail.evans@thyme>",
+      "Date": "Wed, 24 Oct 2001 16:28:39 -0700 (PDT)",
+      "From": "louise.kitchen@enron.com",
+      "To": "paula.rieker@enron.com",
+      "Subject": "RE: BoD Update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-To": "Rieker, Paula </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Prieker>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\Sent Items",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l_sent_items_631.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+My concern and my requirements are that the cache must be shared with other
+jobs or any other application.
+If a user or job changes the value in ignite, it must be updated in every
+flink job it uses that cache.
+
+Thanks
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/In-Memory-data-grid-tp12494p12514.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+

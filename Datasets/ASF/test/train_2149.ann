@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello!\n\nI am running Spark on Java and bumped into a problem I can't solve or find\nanything helpful among answered questions, so I would really appreciate\nyour help.\n\nI am running some calculations, creating rows for each result:\n\nList<Row> results = new LinkedList<Row>();\n\nfor(something){\nresults.add(RowFactory.create( someStringVariable, someIntegerVariable ));\n         }\n\nNow I ended up with a list of rows I need to turn into dataframe to perform\nsome spark sql operations on them, like groupings and sorting. Would like\nto keep the dataTypes.\n\nI tried:\n\nDataset<Row> toShow = spark.createDataFrame(results, Row.class);\n\nbut it throws nullpointer. (spark being SparkSession) Is my logic wrong\nthere somewhere, should this operation be possible, resulting in what I\nwant?\nOr do I have to create a custom class which extends serializable and create\na list of those objects rather than Rows? Will I be able to perform SQL\nqueries on dataset consisting of custom class objects rather than rows?\n\nI'm sorry if this is a duplicate question.\nThank you for your help!\n\nKarin\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1042,
+      "end": 1074,
+      "text": "Thank you for your help!\n\nKarin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1075,
+      "text": "Hello!\n\nI am running Spark on Java and bumped into a problem I can't solve or find\nanything helpful among answered questions, so I would really appreciate\nyour help.\n\nI am running some calculations, creating rows for each result:\n\nList<Row> results = new LinkedList<Row>();\n\nfor(something){\nresults.add(RowFactory.create( someStringVariable, someIntegerVariable ));\n         }\n\nNow I ended up with a list of rows I need to turn into dataframe to perform\nsome spark sql operations on them, like groupings and sorting. Would like\nto keep the dataTypes.\n\nI tried:\n\nDataset<Row> toShow = spark.createDataFrame(results, Row.class);\n\nbut it throws nullpointer. (spark being SparkSession) Is my logic wrong\nthere somewhere, should this operation be possible, resulting in what I\nwant?\nOr do I have to create a custom class which extends serializable and create\na list of those objects rather than Rows? Will I be able to perform SQL\nqueries on dataset consisting of custom class objects rather than rows?\n\nI'm sorry if this is a duplicate question.\nThank you for your help!\n\nKarin\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2149"
+}

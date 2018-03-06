@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nI need to SPLITSHARD such that one split remains on the same machine as\noriginal and another uses new machines for leader and replicas. Is this\npossible ? Please let me know what properties do I need to specify in\nCollection API to achieve this.\n\nThank you,\nVrinda Davda\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/SPLITSHARD-Working-tp4333876.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 251,
+      "end": 276,
+      "text": "\nThank you,\nVrinda Davda\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 444,
+      "text": "Hi,\n\nI need to SPLITSHARD such that one split remains on the same machine as\noriginal and another uses new machines for leader and replicas. Is this\npossible ? Please let me know what properties do I need to specify in\nCollection API to achieve this.\n\nThank you,\nVrinda Davda\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/SPLITSHARD-Working-tp4333876.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3193"
+}

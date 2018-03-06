@@ -1,0 +1,276 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mary, Enron Canada has 2 offices, one in Calgary and one in Toronto.  The \nToronto office was established to participate in all aspects of Enron \nCanada's business, but principally, power trading, marketing and origination \nafter the de-regulation (or \"market opening\") of the Ontario power markets, \nanticipated for the 2nd or 3rd quarter of 2001.\n\nIn response to your specific questions:\n\n1. The Toronto office will be engaged in all aspects of trading, including \nfinancial trading.  As with the Calgary office, it is my understanding that \nall financial trading documentation will be handled as follows:\n\n (a) financial master agreements (ISDA) and related collateral \nannexes/guarantees/certificates/etc. will be negotiated and documented by \nHouston Legal out of the Houston office under the supervision of Mark Taylor \nand yourself;\n\n (b) financial transaction documentation (i.e., confirmation \nletters/GTCs/etc.) will be documented out of the Calgary office by Enron \nCanada Operations/Documentation, under the supervision of Enron Canada Legal \nwhere applicable;\n\n (c) physical masters and related documentation will be negotiated and \ndocumented out of the Calgary or Toronto office by Calgary/Toronto Legal, as \napplicable, under my supervision; and \n\n (d) all transaction documentation will be documented out of the Enron Canada \nDocumentation/Operations Group, under the supervision of Enron Canada Legal, \nas appropriate.\n\n2. All Canadian lawyers, including Chris Gaffney, report to me.  However, \nChris Gaffney has responsibility for legal matters regularly affecting the \nToronto office.  Therefore, you can co-ordinate directly with Chris, but \nplease keep me advised.  Chris regularly updates me with respect to Toronto \noffice matters.\n\nRegards,\nPeter\n\n\n\n\n\n\nMARY COOK\n01/08/2001 08:05 AM\nTo: Peter Keohane/CAL/ECT@ECT\ncc:  \nSubject: Toronto Office\n\nPeter, the credit group in Houston has advised that the Toronto office may \nbegin entering into the financial trading arena.  Can you advise me on the \nfollowing:\n\n1.  What are the current commercial plans for the Toronto office regarding \nfinancial trading?\n\n2.  I understand Chris Gaffney is the attorney in the Toronto office.  Does \nhe report into you? If the answer to 1 is yes, should I coordinate matters \nwith Chris directly or through you?\n\nThanks.  Give me a call when you get a chance.  Mary\n\n\nCordially,\nMary Cook\nEnron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Mary",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1778,
+      "text": "Mary, Enron Canada has 2 offices, one in Calgary and one in Toronto.  The \nToronto office was established to participate in all aspects of Enron \nCanada's business, but principally, power trading, marketing and origination \nafter the de-regulation (or \"market opening\") of the Ontario power markets, \nanticipated for the 2nd or 3rd quarter of 2001.\n\nIn response to your specific questions:\n\n1. The Toronto office will be engaged in all aspects of trading, including \nfinancial trading.  As with the Calgary office, it is my understanding that \nall financial trading documentation will be handled as follows:\n\n (a) financial master agreements (ISDA) and related collateral \nannexes/guarantees/certificates/etc. will be negotiated and documented by \nHouston Legal out of the Houston office under the supervision of Mark Taylor \nand yourself;\n\n (b) financial transaction documentation (i.e., confirmation \nletters/GTCs/etc.) will be documented out of the Calgary office by Enron \nCanada Operations/Documentation, under the supervision of Enron Canada Legal \nwhere applicable;\n\n (c) physical masters and related documentation will be negotiated and \ndocumented out of the Calgary or Toronto office by Calgary/Toronto Legal, as \napplicable, under my supervision; and \n\n (d) all transaction documentation will be documented out of the Enron Canada \nDocumentation/Operations Group, under the supervision of Enron Canada Legal, \nas appropriate.\n\n2. All Canadian lawyers, including Chris Gaffney, report to me.  However, \nChris Gaffney has responsibility for legal matters regularly affecting the \nToronto office.  Therefore, you can co-ordinate directly with Chris, but \nplease keep me advised.  Chris regularly updates me with respect to Toronto \noffice matters.\n\nRegards,\nPeter\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1766,
+      "end": 1771,
+      "text": "Peter",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1757,
+      "end": 1772,
+      "text": "Regards,\nPeter\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1778,
+      "end": 1787,
+      "text": "MARY COOK",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1788,
+      "end": 1798,
+      "text": "01/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1799,
+      "end": 1807,
+      "text": "08:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1812,
+      "end": 1825,
+      "text": "Peter Keohane",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1853,
+      "end": 1867,
+      "text": "Toronto Office",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1778,
+      "end": 1868,
+      "text": "MARY COOK\n01/08/2001 08:05 AM\nTo: Peter Keohane/CAL/ECT@ECT\ncc:  \nSubject: Toronto Office\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1869,
+      "end": 1874,
+      "text": "Peter",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1868,
+      "end": 2544,
+      "text": "\nPeter, the credit group in Houston has advised that the Toronto office may \nbegin entering into the financial trading arena.  Can you advise me on the \nfollowing:\n\n1.  What are the current commercial plans for the Toronto office regarding \nfinancial trading?\n\n2.  I understand Chris Gaffney is the attorney in the Toronto office.  Does \nhe report into you? If the answer to 1 is yes, should I coordinate matters \nwith Chris directly or through you?\n\nThanks.  Give me a call when you get a chance.  Mary\n\n\nCordially,\nMary Cook\nEnron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2367,
+      "end": 2371,
+      "text": "Mary",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2319,
+      "end": 2372,
+      "text": "Thanks.  Give me a call when you get a chance.  Mary\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2385,
+      "end": 2394,
+      "text": "Mary Cook",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2374,
+      "end": 2395,
+      "text": "Cordially,\nMary Cook\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2395,
+      "end": 2420,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2421,
+      "end": 2478,
+      "text": "1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2502,
+      "end": 2516,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2479,
+      "end": 2493,
+      "text": "(713) 345-7732",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 2523,
+      "end": 2542,
+      "text": "mary.cook@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2395,
+      "end": 2543,
+      "text": "Enron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 17,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 18,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 21,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 20,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 15,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 11,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 8,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<557889.1075860257485.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 Jan 2001 08:11:00 -0800 (PST)",
+      "From": "sharon.crawford@enron.com",
+      "To": "mary.cook@enron.com",
+      "Subject": "Re: Toronto Office",
+      "Cc": "chris.gaffney@enron.com, greg.johnston@enron.com, mark.powell@enron.com, \n\trob.milnthorp@enron.com, derek.davies@enron.com, \n\tjohn.zufferli@enron.com, paul.devries@enron.com, \n\tjonathan.mckay@enron.com, eric.ledain@enron.com, \n\tgarrett.tripp@enron.com, peggy.hedstrom@enron.com, \n\tdianne.seib@enron.com, melinda.whalen@enron.com, \n\tmark.taylor@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "chris.gaffney@enron.com, greg.johnston@enron.com, mark.powell@enron.com, \n\trob.milnthorp@enron.com, derek.davies@enron.com, \n\tjohn.zufferli@enron.com, paul.devries@enron.com, \n\tjonathan.mckay@enron.com, eric.ledain@enron.com, \n\tgarrett.tripp@enron.com, peggy.hedstrom@enron.com, \n\tdianne.seib@enron.com, melinda.whalen@enron.com, \n\tmark.taylor@enron.com",
+      "X-From": "Sharon Crawford",
+      "X-To": "Mary Cook",
+      "X-cc": "Chris Gaffney, Greg Johnston, Mark Powell, Rob Milnthorp, Derek Davies, John Zufferli, Paul Devries, Jonathan McKay, Eric LeDain, Garrett Tripp, Peggy Hedstrom, Dianne Seib, Melinda Whalen, Mark Taylor",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_notes_inbox_2653.txt"
+}

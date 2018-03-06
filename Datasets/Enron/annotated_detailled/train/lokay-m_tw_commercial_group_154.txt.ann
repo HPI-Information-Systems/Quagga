@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "On Monday, September 11, Jean McFarland will meet with our team to briefly \ngive an overview of the upcoming installation of Windows 2000.    We will try \nto devote the last 15 minutes of staff meeting time to Jean.   Unlike the \nconference room on the 42nd floor, we will have to be out of EB-4102 by \n10:45am for Julia's Staff Meeting.    This will mean giving abbreviated \nreports. \n\nPlease place this date and time on your calendars.\n\nThanks in advance,\n\nadr",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 459,
+      "end": 462,
+      "text": "adr",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 439,
+      "end": 462,
+      "text": "Thanks in advance,\n\nadr",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 462,
+      "text": "On Monday, September 11, Jean McFarland will meet with our team to briefly \ngive an overview of the upcoming installation of Windows 2000.    We will try \nto devote the last 15 minutes of staff meeting time to Jean.   Unlike the \nconference room on the 42nd floor, we will have to be out of EB-4102 by \n10:45am for Julia's Staff Meeting.    This will mean giving abbreviated \nreports. \n\nPlease place this date and time on your calendars.\n\nThanks in advance,\n\nadr",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9033340.1075844101050.JavaMail.evans@thyme>",
+      "Date": "Thu, 31 Aug 2000 07:28:00 -0700 (PDT)",
+      "From": "audrey.robertson@enron.com",
+      "To": "lindy.donoho@enron.com, jeffery.fawcett@enron.com, steven.harris@enron.com, \n\tkevin.hyatt@enron.com, lorraine.lindberg@enron.com, \n\ttk.lohman@enron.com, audrey.robertson@enron.com, \n\tsusan.scott@enron.com, christine.stokes@enron.com, \n\tmichelle.lokay@enron.com",
+      "Subject": "Windows 2000 Kick Off Mtg",
+      "Cc": "jmcfarl@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jmcfarl@enron.com",
+      "X-From": "Audrey Robertson",
+      "X-To": "Lindy Donoho, Jeffery Fawcett, Steven Harris, Kevin Hyatt, Lorraine Lindberg, TK Lohman, Audrey Robertson, Susan Scott, Christine Stokes, Michelle Lokay",
+      "X-cc": "jmcfarl@enron.com",
+      "X-bcc": "",
+      "X-Folder": "\\Michelle_Lokay_Dec2000_June2001_1\\Notes Folders\\Tw-commercial group",
+      "X-Origin": "LOKAY-M",
+      "X-FileName": "mlokay.nsf"
+    }
+  },
+  "id": "train/lokay-m_tw_commercial_group_154.txt"
+}

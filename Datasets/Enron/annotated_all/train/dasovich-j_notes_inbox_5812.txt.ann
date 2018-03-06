@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is a new version of the power cost model incorporating Roger's \nupdated info (retained generation costs and QF capacity payments).  It \nimproves the outlook for PG&E by > $2.00/MWH, mainly as a result of lower \ncost estimates for their hydro.  SCE's numbers remains about the same.  FYI, \nthe prices in the model are at mid.  The switch to change to offer is now on \nthe Summary page.\n\n\n\n\n\n\n\n\n\nRoger Yang@EES\n01/12/2001 04:01 PM\nTo: James D Steffes/NA/Enron@ENRON\ncc: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON, Michael Tribolet/Corp/Enron@Enron, Harry \nKingerski/NA/Enron@Enron, Jeff Dasovich/NA/Enron@Enron, Susan J \nMara/NA/Enron@ENRON, Joe Hartsoe/Corp/Enron@ENRON, Sarah \nNovosel/Corp/Enron@ENRON, Linda Robertson/NA/Enron@ENRON, Alan \nComnes/PDX/ECT@ECT@ENRON, Mary Hain/HOU/ECT@ECT@ENRON, Paul \nKaufman/PDX/ECT@ECT@ENRON, Sandra McCubbin/NA/Enron@Enron, Scott \nStoness/HOU/EES@EES, Robert Badeer/HOU/ECT@ECT@ENRON, Tim \nBelden/HOU/ECT@ECT@ENRON, Stephen Swain/PDX/ECT@ECT@ENRON, Travis \nMcCullough/HOU/ECT@ECT@ENRON, Andre \nCangucu/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT@ENRON, Shelia \nBenke/Corp/Enron@Enron, Vicki Sharp/HOU/EES@EES, Wanda Curry/HOU/EES@EES, Don \nBlack/HOU/EES@EES, Gordon Savage/HOU/EES@EES, Donna Fulton/Corp/Enron@ENRON, \nWilliam S Bradford/HOU/ECT@ECT@ENRON \n\nSubject: Re: Financial Analysis of PG&E and Proposed Terms for Settlement  \n\nAttached is an update of utility delivery rates, native generation \nweighted-average costs, and QF capacity payments and generation.\n\nRoger\n\n",
+  "denotations": [
+    {
+      "id": 4,
+      "start": 1554,
+      "end": 1561,
+      "text": "\nRoger\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1420,
+      "end": 1562,
+      "text": "\nAttached is an update of utility delivery rates, native generation \nweighted-average costs, and QF capacity payments and generation.\n\nRoger\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 403,
+      "end": 1420,
+      "text": "Roger Yang@EES\n01/12/2001 04:01 PM\nTo: James D Steffes/NA/Enron@ENRON\ncc: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON, Michael Tribolet/Corp/Enron@Enron, Harry \nKingerski/NA/Enron@Enron, Jeff Dasovich/NA/Enron@Enron, Susan J \nMara/NA/Enron@ENRON, Joe Hartsoe/Corp/Enron@ENRON, Sarah \nNovosel/Corp/Enron@ENRON, Linda Robertson/NA/Enron@ENRON, Alan \nComnes/PDX/ECT@ECT@ENRON, Mary Hain/HOU/ECT@ECT@ENRON, Paul \nKaufman/PDX/ECT@ECT@ENRON, Sandra McCubbin/NA/Enron@Enron, Scott \nStoness/HOU/EES@EES, Robert Badeer/HOU/ECT@ECT@ENRON, Tim \nBelden/HOU/ECT@ECT@ENRON, Stephen Swain/PDX/ECT@ECT@ENRON, Travis \nMcCullough/HOU/ECT@ECT@ENRON, Andre \nCangucu/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT@ENRON, Shelia \nBenke/Corp/Enron@Enron, Vicki Sharp/HOU/EES@EES, Wanda Curry/HOU/EES@EES, Don \nBlack/HOU/EES@EES, Gordon Savage/HOU/EES@EES, Donna Fulton/Corp/Enron@ENRON, \nWilliam S Bradford/HOU/ECT@ECT@ENRON \n\nSubject: Re: Financial Analysis of PG&E and Proposed Terms for Settlement  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 403,
+      "text": "Attached is a new version of the power cost model incorporating Roger's \nupdated info (retained generation costs and QF capacity payments).  It \nimproves the outlook for PG&E by > $2.00/MWH, mainly as a result of lower \ncost estimates for their hydro.  SCE's numbers remains about the same.  FYI, \nthe prices in the model are at mid.  The switch to change to offer is now on \nthe Summary page.\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32515766.1075843760623.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 Jan 2001 08:48:00 -0800 (PST)",
+      "From": "stephen.swain@enron.com",
+      "To": "roger.yang@enron.com",
+      "Subject": "Re: Financial Analysis of PG&E and Proposed Terms for Settlement",
+      "Cc": "james.steffes@enron.com, steven.kean@enron.com, richard.shapiro@enron.com, \n\tmark.palmer@enron.com, michael.tribolet@enron.com, \n\tharry.kingerski@enron.com, jeff.dasovich@enron.com, \n\tsusan.mara@enron.com, joe.hartsoe@enron.com, sarah.novosel@enron.com, \n\tlinda.robertson@enron.com, alan.comnes@enron.com, \n\tmary.hain@enron.com, paul.kaufman@enron.com, \n\tsandra.mccubbin@enron.com, scott.stoness@enron.com, \n\trobert.badeer@enron.com, tim.belden@enron.com, \n\ttravis.mccullough@enron.com, andre.cangucu@enron.com, \n\tshelia.benke@enron.com, vicki.sharp@enron.com, wanda.curry@enron.com, \n\tdon.black@enron.com, gordon.savage@enron.com, donna.fulton@enron.com, \n\twilliam.bradford@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "james.steffes@enron.com, steven.kean@enron.com, richard.shapiro@enron.com, \n\tmark.palmer@enron.com, michael.tribolet@enron.com, \n\tharry.kingerski@enron.com, jeff.dasovich@enron.com, \n\tsusan.mara@enron.com, joe.hartsoe@enron.com, sarah.novosel@enron.com, \n\tlinda.robertson@enron.com, alan.comnes@enron.com, \n\tmary.hain@enron.com, paul.kaufman@enron.com, \n\tsandra.mccubbin@enron.com, scott.stoness@enron.com, \n\trobert.badeer@enron.com, tim.belden@enron.com, \n\ttravis.mccullough@enron.com, andre.cangucu@enron.com, \n\tshelia.benke@enron.com, vicki.sharp@enron.com, wanda.curry@enron.com, \n\tdon.black@enron.com, gordon.savage@enron.com, donna.fulton@enron.com, \n\twilliam.bradford@enron.com",
+      "X-From": "Stephen Swain",
+      "X-To": "Roger Yang",
+      "X-cc": "James D Steffes, Steven J Kean, Richard Shapiro, Mark Palmer, Michael Tribolet, Harry Kingerski, Jeff Dasovich, Susan J Mara, Joe Hartsoe, Sarah Novosel, Linda Robertson, Alan Comnes, Mary Hain, Paul Kaufman, Sandra McCubbin, Scott Stoness, Robert Badeer, Tim Belden, Travis McCullough, Andre Cangucu, Shelia Benke, Vicki Sharp, Wanda Curry, Don Black, Gordon Savage, Donna Fulton, William S Bradford",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_5812.txt"
+}

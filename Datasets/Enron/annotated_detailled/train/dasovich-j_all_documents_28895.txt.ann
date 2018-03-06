@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/dasovich-j_all_documents_28895.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<13421827.1075849328813.JavaMail.evans@thyme>",
+      "Date": "Wed, 18 Jul 2001 10:59:00 -0700 (PDT)",
+      "From": "ray.alvarez@enron.com",
+      "To": "steve.walton@enron.com, susan.mara@enron.com, alan.comnes@enron.com, \n\tleslie.lawner@enron.com, rebecca.cantrell@enron.com, \n\tdonna.fulton@enron.com, jeff.dasovich@enron.com, \n\tchristi.nicolay@enron.com, james.steffes@enron.com, \n\tjalexander@gibbs-bruns.com, phillip.allen@enron.com, \n\tlinda.noske@enron.com, dave.perrino@enron.com, don.black@enron.com, \n\trobert.frank@enron.com, stephanie.miller@enron.com, \n\tbarry.tycholiz@enron.com, sarah.novosel@enron.com, \n\tjennifer.thome@enron.com",
+      "Subject": "Re: Western Wholesale Activities - Gas & Power Conf. Call",
+      "Cc": "bernadette.hawkins@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "bernadette.hawkins@enron.com",
+      "X-From": "Ray Alvarez",
+      "X-To": "Steve Walton, Susan J Mara, Alan Comnes, Leslie Lawner, Rebecca W Cantrell, Donna Fulton, Jeff Dasovich, Christi L Nicolay, James D Steffes, jalexander@gibbs-bruns.com, Phillip K Allen, Linda J Noske, Dave Perrino, Don Black, Robert Frank, Stephanie Miller, Barry Tycholiz, Sarah Novosel, Jennifer Thome",
+      "X-cc": "Bernadette Hawkins",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "text": "PLEASE MARK YOUR CALENDAR\nDate:   Every Thursday\nTime:    7:30 am Pacific, 9:30 am Central, and 10:30 am Eastern time\n Number:   1-888-271-0949 \n Host Code:  661877 (for Ray only)\n Participant Code: 936022 (for everyone else)\n\nThe table of the on-going FERC issues and proceedings is available to all \nteam members on the O drive. Please feel free to revise/add to/ update this \ntable as appropriate.\n\nProposed agenda for tomorrow:\n\nUpdate- request for rehearing of 6/19 Order\nClaim for refunds made by PNW utilities\nCAISO Order of Chief Judge Scheduling Settlement Conference,Docket \nER01-2019-000\nMotion for Refunds of CA Parties and Pacific Gas and Electric\nConsumers Union\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 678,
+      "text": "PLEASE MARK YOUR CALENDAR\nDate:   Every Thursday\nTime:    7:30 am Pacific, 9:30 am Central, and 10:30 am Eastern time\n Number:   1-888-271-0949 \n Host Code:  661877 (for Ray only)\n Participant Code: 936022 (for everyone else)\n\nThe table of the on-going FERC issues and proceedings is available to all \nteam members on the O drive. Please feel free to revise/add to/ update this \ntable as appropriate.\n\nProposed agenda for tomorrow:\n\nUpdate- request for rehearing of 6/19 Order\nClaim for refunds made by PNW utilities\nCAISO Order of Chief Judge Scheduling Settlement Conference,Docket \nER01-2019-000\nMotion for Refunds of CA Parties and Pacific Gas and Electric\nConsumers Union\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

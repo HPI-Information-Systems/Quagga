@@ -1,0 +1,177 @@
+{
+  "wrapper": "plaintext",
+  "text": "(I haven't reviewed this yet but will have a chance to this afternoon.)\n---------------------- Forwarded by Susan Scott/ET&S/Enron on 07/10/2000 \n11:00 AM ---------------------------\n\n\n\"Gallagher, Boland & Meiburger\" <lwinpisinger@gbmdc.com> on 07/10/2000 \n11:01:27 AM\nTo: \"Susan Scott\" <Susan_Scott@enron.com>\ncc:  \n\nSubject: Reply Comments RP00-249\n\n\n\n?\n - RP00-249 Reply Comments.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 72,
+      "text": "(I haven't reviewed this yet but will have a chance to this afternoon.)\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 108,
+      "end": 119,
+      "text": "Susan Scott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 134,
+      "end": 144,
+      "text": "07/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 146,
+      "end": 154,
+      "text": "11:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 72,
+      "end": 183,
+      "text": "---------------------- Forwarded by Susan Scott/ET&S/Enron on 07/10/2000 \n11:00 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 186,
+      "end": 215,
+      "text": "Gallagher, Boland & Meiburger",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 218,
+      "end": 240,
+      "text": "lwinpisinger@gbmdc.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 245,
+      "end": 255,
+      "text": "07/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 257,
+      "end": 268,
+      "text": "11:01:27 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 274,
+      "end": 285,
+      "text": "Susan Scott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 288,
+      "end": 309,
+      "text": "Susan_Scott@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 327,
+      "end": 350,
+      "text": "Reply Comments RP00-249",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 183,
+      "end": 351,
+      "text": "\n\n\"Gallagher, Boland & Meiburger\" <lwinpisinger@gbmdc.com> on 07/10/2000 \n11:01:27 AM\nTo: \"Susan Scott\" <Susan_Scott@enron.com>\ncc:  \n\nSubject: Reply Comments RP00-249\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 359,
+      "end": 386,
+      "text": "RP00-249 Reply Comments.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 356,
+      "end": 387,
+      "text": " - RP00-249 Reply Comments.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 351,
+      "end": 387,
+      "text": "\n\n\n?\n - RP00-249 Reply Comments.doc\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9108676.1075846726673.JavaMail.evans@thyme>",
+      "Date": "Mon, 10 Jul 2000 04:00:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "glen.hass@enron.com, mary.miller@enron.com",
+      "Subject": "Reply Comments RP00-249",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Susan Scott",
+      "X-To": "Glen Hass, Mary Kay Miller",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\Sent",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s_sent_246.txt"
+}

@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Markus,\n\nI don't know what Client you use, but if you are using SolrJ enabling the \nlogging could be an option to \"dig deeper\" into the problem. This can be \nthe ouput for example via log4j on log level info:\n\n...\n2017-08-31 10:01:56 INFO  ZooKeeper:438 - Initiating client connection, \nconnectString=ZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 \nsessionTimeout=600000 \nwatcher=org.apache.solr.common.cloud.SolrZkClient$3@14379273\n2017-08-31 10:01:56 INFO  ClientCnxn:876 - Socket connection established \nto SOLRHOST/ZKHOST3:9983, initiating session\n2017-08-31 10:01:56 INFO  ClientCnxn:1299 - Session establishment complete \non server SOLRHOST/ZKHOST3:9983, sessionid = 0x45e35eaa9fd3584, negotiated \ntimeout = 40000\n2017-08-31 10:01:56 INFO  ZkStateReader:688 - Updated live nodes from \nZooKeeper... (0) -> (4)\n2017-08-31 10:01:56 INFO  ZkClientClusterStateProvider:134 - Cluster at \nZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 ready\n\n\n\n\n\nVon:    Markus Jelsma <markus.jelsma@openindex.io>\nAn:     solr-user@lucene.apache.org <solr-user@lucene.apache.org>\nDatum:  31.08.2017 10:00\nBetreff:        RE: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are \ndisabled.\n\n\n\nHello Stephan,\n\nI know that restarting stuff can sometimes cure what's wrong, but we are \nnog going to, we want to get rid of the problem, not restart microsoft \nwindows whenever things run slow. Also, there is no indexing going on \nright now.\n\nWe also see these sometimes, this explains at least why it cannot talk to \nZookeeper, but why..\n o.a.s.c.RecoveryStrategy Socket timeout on send prep recovery cmd, \nretrying.. \n\nThis has been going on with just one of our nodes for over two hours, \nother nodes are fine. And why is this bad node green in cluster overview?\n\nThanks,\nMarkus\n\n-----Original message-----\n> From:Stephan Schubert <Stephan.Schubert@sick.de>\n> Sent: Thursday 31st August 2017 9:52\n> To: solr-user@lucene.apache.org\n> Subject: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are disabled.\n> \n> Hi markus,\n> \n> try to stop your indexing/update processes and restart your ZooKeeper \n> instances (not all at the same time of course). This is what I do in \nthese \n> cases and helped me so far.\n> \n> \n> \n> \n> Von:    Markus Jelsma <markus.jelsma@openindex.io>\n> An:     Solr-user <solr-user@lucene.apache.org>\n> Datum:  31.08.2017 09:49\n> Betreff:        6.6 Cannot talk to ZooKeeper - Updates are disabled.\n> \n> \n> \n> Hello,\n> \n> One node is behaving badly, at least according to the logs, but the node \n\n> is green in the cluster overview although the logs claim recovery fails \n> all the time. It is not the first time this message pops up in the logs \nof \n> one of the nodes, why can it not talk to Zookeeper? I miss a reason.\n> \n> The cluster is not extremely busy at the moment, we allow plenty of file \n\n> descriptors, there are no firewall restrictions, i cannot think of any \n> problem in our infrastructure.\n> \n> What's going on? What can i do? Can the error be explained a bit \nfurther?\n> \n> Thanks,\n> Markus\n> \n> 8/31/2017, 9:34:34 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:34 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:36 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:38 AM\n> ERROR false\n> RecoveryStrategy\n> Could not publish as ACTIVE after succesful recovery\n> 8/31/2017, 9:34:38 AM\n> ERROR true\n> RecoveryStrategy\n> Recovery failed - trying again... (0)\n> 8/31/2017, 9:34:49 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:49 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:50 AM\n> ERROR false\n> RecoveryStrategy\n> Could not publish as ACTIVE after succesful recovery\n> 8/31/2017, 9:34:50 AM\n> ERROR false\n> RecoveryStrategy\n> Recovery failed - trying again... (1)\n> 8/31/2017, 9:35:36 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> \n> \n> \n> \n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Markus,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 985,
+      "text": "Hi Markus,\n\nI don't know what Client you use, but if you are using SolrJ enabling the \nlogging could be an option to \"dig deeper\" into the problem. This can be \nthe ouput for example via log4j on log level info:\n\n...\n2017-08-31 10:01:56 INFO  ZooKeeper:438 - Initiating client connection, \nconnectString=ZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 \nsessionTimeout=600000 \nwatcher=org.apache.solr.common.cloud.SolrZkClient$3@14379273\n2017-08-31 10:01:56 INFO  ClientCnxn:876 - Socket connection established \nto SOLRHOST/ZKHOST3:9983, initiating session\n2017-08-31 10:01:56 INFO  ClientCnxn:1299 - Session establishment complete \non server SOLRHOST/ZKHOST3:9983, sessionid = 0x45e35eaa9fd3584, negotiated \ntimeout = 40000\n2017-08-31 10:01:56 INFO  ZkStateReader:688 - Updated live nodes from \nZooKeeper... (0) -> (4)\n2017-08-31 10:01:56 INFO  ZkClientClusterStateProvider:134 - Cluster at \nZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 ready\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 985,
+      "end": 1210,
+      "text": "Von:    Markus Jelsma <markus.jelsma@openindex.io>\nAn:     solr-user@lucene.apache.org <solr-user@lucene.apache.org>\nDatum:  31.08.2017 10:00\nBetreff:        RE: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are \ndisabled.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1212,
+      "end": 1228,
+      "text": "\nHello Stephan,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1781,
+      "end": 1797,
+      "text": "\nThanks,\nMarkus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1210,
+      "end": 1798,
+      "text": "\n\n\nHello Stephan,\n\nI know that restarting stuff can sometimes cure what's wrong, but we are \nnog going to, we want to get rid of the problem, not restart microsoft \nwindows whenever things run slow. Also, there is no indexing going on \nright now.\n\nWe also see these sometimes, this explains at least why it cannot talk to \nZookeeper, but why..\n o.a.s.c.RecoveryStrategy Socket timeout on send prep recovery cmd, \nretrying.. \n\nThis has been going on with just one of our nodes for over two hours, \nother nodes are fine. And why is this bad node green in cluster overview?\n\nThanks,\nMarkus\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1798,
+      "end": 2022,
+      "text": "-----Original message-----\n> From:Stephan Schubert <Stephan.Schubert@sick.de>\n> Sent: Thursday 31st August 2017 9:52\n> To: solr-user@lucene.apache.org\n> Subject: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are disabled.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2022,
+      "end": 2038,
+      "text": "> \n> Hi markus,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2022,
+      "end": 2235,
+      "text": "> \n> Hi markus,\n> \n> try to stop your indexing/update processes and restart your ZooKeeper \n> instances (not all at the same time of course). This is what I do in \nthese \n> cases and helped me so far.\n> \n> \n> \n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2235,
+      "end": 2436,
+      "text": "> Von:    Markus Jelsma <markus.jelsma@openindex.io>\n> An:     Solr-user <solr-user@lucene.apache.org>\n> Datum:  31.08.2017 09:49\n> Betreff:        6.6 Cannot talk to ZooKeeper - Updates are disabled.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2442,
+      "end": 2454,
+      "text": "> \n> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 3026,
+      "end": 3048,
+      "text": "> \n> Thanks,\n> Markus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2436,
+      "end": 4396,
+      "text": "> \n> \n> \n> Hello,\n> \n> One node is behaving badly, at least according to the logs, but the node \n\n> is green in the cluster overview although the logs claim recovery fails \n> all the time. It is not the first time this message pops up in the logs \nof \n> one of the nodes, why can it not talk to Zookeeper? I miss a reason.\n> \n> The cluster is not extremely busy at the moment, we allow plenty of file \n\n> descriptors, there are no firewall restrictions, i cannot think of any \n> problem in our infrastructure.\n> \n> What's going on? What can i do? Can the error be explained a bit \nfurther?\n> \n> Thanks,\n> Markus\n> \n> 8/31/2017, 9:34:34 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:34 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:36 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:38 AM\n> ERROR false\n> RecoveryStrategy\n> Could not publish as ACTIVE after succesful recovery\n> 8/31/2017, 9:34:38 AM\n> ERROR true\n> RecoveryStrategy\n> Recovery failed - trying again... (0)\n> 8/31/2017, 9:34:49 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:49 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> 8/31/2017, 9:34:50 AM\n> ERROR false\n> RecoveryStrategy\n> Could not publish as ACTIVE after succesful recovery\n> 8/31/2017, 9:34:50 AM\n> ERROR false\n> RecoveryStrategy\n> Recovery failed - trying again... (1)\n> 8/31/2017, 9:35:36 AM\n> ERROR false\n> RequestHandlerBase\n> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates \n\n> are disabled.\n> \n> \n> \n> \n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5796"
+}

@@ -1,0 +1,90 @@
+Hi,
+
+   I recently upgraded to Solr 6.6 from 5.5. After running for a couple of
+days, the entire Solr cluster suddenly came down with OOM exception. Once
+the servers are being restarted, the memory footprint stays stable for a
+while before the sudden spike in memory occurs. The heap surges up quickly
+and hits the max causing the JVM to shut down due to OOM. It starts with
+one server but eventually trickles downs to the rest of the nodes, bringing
+the entire cluster down within a span of 10-15 mins.
+
+The cluster consists of 6 nodes with two shards having 2 replicas each.
+There are two collections with total index size close to 24 gb. Each server
+has 8 CPUs with 30gb memory. Solr is running on an embedded jetty on jdk
+1.8. The JVM parameters are identical to 5.5:
+
+SOLR_JAVA_MEM="-Xms1000m -Xmx290000m"
+
+GC_LOG_OPTS="-verbose:gc -XX:+PrintHeapAtGC -XX:+PrintGCDetails \
+  -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps
+-XX:+PrintTenuringDistribution -XX:+PrintGCApplicationStoppedTime"
+
+GC_TUNE="-XX:NewRatio=3 \
+-XX:SurvivorRatio=4 \
+-XX:TargetSurvivorRatio=90 \
+-XX:MaxTenuringThreshold=8 \
+-XX:+UseConcMarkSweepGC \
+-XX:+UseParNewGC \
+-XX:ConcGCThreads=4 -XX:ParallelGCThreads=4 \
+-XX:+CMSScavengeBeforeRemark \
+-XX:PretenureSizeThreshold=64m \
+-XX:+UseCMSInitiatingOccupancyOnly \
+-XX:CMSInitiatingOccupancyFraction=50 \
+-XX:CMSMaxAbortablePrecleanTime=6000 \
+-XX:+CMSParallelRemarkEnabled \
+-XX:+ParallelRefProcEnabled"
+
+I've tried G1GC based on Shawn's WIKI, but didn't make any difference.
+Though G1GC seemed to do well with GC initially, it showed similar
+behaviour during the spike. It prompted me to revert back to CMS.
+
+I'm doing a hard commit every 5 mins.
+
+SOLR_OPTS="$SOLR_OPTS -Xss256k"
+SOLR_OPTS="$SOLR_OPTS -Dsolr.autoCommit.maxTime=300000"
+SOLR_OPTS="$SOLR_OPTS -Dsolr.clustering.enabled=true"
+SOLR_OPTS="$SOLR_OPTS -Dpkiauth.ttl=120000"
+
+Othe Solr configurations:
+
+<autoSoftCommit>
+<maxTime>${solr.autoSoftCommit.maxTime:-1}</maxTime>
+</autoSoftCommit>
+
+Cache settings:
+
+<maxBooleanClauses>4096</maxBooleanClauses>
+<slowQueryThresholdMillis>1000</slowQueryThresholdMillis>
+<filterCache class="solr.FastLRUCache" size="20000" initialSize="4096"
+autowarmCount="512"/>
+<queryResultCache class="solr.LRUCache" size="2000" initialSize="500"
+autowarmCount="100"/>
+<documentCache class="solr.LRUCache" size="60000" initialSize="5000"
+autowarmCount="0"/>
+<cache name="perSegFilter" class="solr.search.LRUCache" size="10"
+initialSize="0" autowarmCount="10" regenerator="solr.NoOpRegenerator" />
+<fieldValueCache class="solr.FastLRUCache" size="20000"
+autowarmCount="4096" showItems="1024" />
+<cache enable="${solr.ltr.enabled:false}" name="QUERY_DOC_FV"
+class="solr.search.LRUCache" size="4096" initialSize="2048"
+autowarmCount="4096" regenerator="solr.search.NoOpRegenerator" />
+<enableLazyFieldLoading>true</enableLazyFieldLoading>
+<queryResultWindowSize>200</queryResultWindowSize>
+<queryResultMaxDocsCached>400</queryResultMaxDocsCached>
+
+I'm not sure what has changed so drastically in 6.6 compared to 5.5. I
+never had a single OOM in 5.5 which has been running for a couple of years.
+Moreover, the memory footprint was much less with 15gb set as Xmx. All my
+facet parameters have docvalues enabled, it should handle the memory part
+efficiently.
+
+I'm struggling to figure out the root cause. Does 6.6 command more memory
+than what is currently available on our servers (30gb)? What might be the
+probable cause for this sort of scenario? What are the best practices to
+troubleshoot such issues?
+
+Any pointers will be appreciated.
+
+Thanks,
+Shamik
+

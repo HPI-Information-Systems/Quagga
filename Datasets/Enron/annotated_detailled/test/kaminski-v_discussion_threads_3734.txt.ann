@@ -1,0 +1,522 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/09/2001 \n05:14 PM ---------------------------\n\n\n\"John D. Martin\" <J_Martin@baylor.edu> on 04/09/2001 03:18:22 PM\nTo: aagrawal@cba.ua.edu, aalmazan@mail.utexas.edu, a-krishnamurthy@nwu.edu, \nandres.almazan@bus.utexas.edu, asayrak@katz.pitt.edu, besty@hbs.edu, \nbutler@lsu.edu, chapman@mundo.eco.utexas.edu, cornelli@mail.duke.edu, \ndaveike@rice.edu, david.robinson@gsb.uchicago.edu, dufresne@andrew.cmu.edu, \nfzou@ccwf.cc.utexas.edu, hadlock@pilot.msu.edu, hghong@stanford.edu, \nhong.yan@bus.utexas.edu, jhartzel@stern.nyu.edu, \njohn.heaton@gsb.uchicago.edu, kentd@nwu.edu, LBENVENISTE@csom.umn.edu, \nlederington@ou.edu, michael@brandt.wharton.upenn.edu, ms122@columbia.edu, \nparrino@mail.utexas.edu, ron.giammarino@commerce.ubc.ca, \nstathis.tompaidis@bus.utexas.edu, steg@arches.uga.edu, \nTitman@mail.utexas.edu, tobias.moskowitz@gsb.uchicago.edu, \ntyrone.callahan@bus.utexas.edu, vkamins@enron.com, vshanbh@enron.com, \nwangfa@rice.edu\ncc:  \nSubject: Program Posted\n\n\nHello all,\n\nThe program for next week's conference is posted at the following address:\n\nhttp://hsb.baylor.edu/html/martinj/Tff2001/ProgramIII.htm\n\nWe have lots of fun stuff planned to go with the serious so come prepared\nfor a great weekend.\n\nJohn\n\nJohn D. Martin\nCarr P. Collins Chair in Finance\nFinance Department\nBaylor University\nPO Box 98004\nWaco, TX 76798\n254-710-4473 (Office)\n254-710-1092 (Fax)\nJ_Martin@Baylor.edu\nweb:    http://hsb.baylor.edu/html/martinj/home.html  \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "04/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "05:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/09/2001 \n05:14 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 116,
+      "end": 130,
+      "text": "John D. Martin",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 133,
+      "end": 152,
+      "text": "J_Martin@baylor.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 157,
+      "end": 167,
+      "text": "04/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 168,
+      "end": 179,
+      "text": "03:18:22 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 184,
+      "end": 203,
+      "text": "aagrawal@cba.ua.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 205,
+      "end": 229,
+      "text": "aalmazan@mail.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 231,
+      "end": 254,
+      "text": "a-krishnamurthy@nwu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 311,
+      "end": 324,
+      "text": "besty@hbs.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 288,
+      "end": 309,
+      "text": "asayrak@katz.pitt.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 257,
+      "end": 286,
+      "text": "andres.almazan@bus.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 327,
+      "end": 341,
+      "text": "butler@lsu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 343,
+      "end": 371,
+      "text": "chapman@mundo.eco.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 373,
+      "end": 395,
+      "text": "cornelli@mail.duke.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 449,
+      "end": 472,
+      "text": "dufresne@andrew.cmu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 416,
+      "end": 447,
+      "text": "david.robinson@gsb.uchicago.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 398,
+      "end": 414,
+      "text": "daveike@rice.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 475,
+      "end": 498,
+      "text": "fzou@ccwf.cc.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 500,
+      "end": 521,
+      "text": "hadlock@pilot.msu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 523,
+      "end": 542,
+      "text": "hghong@stanford.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 570,
+      "end": 592,
+      "text": "jhartzel@stern.nyu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 545,
+      "end": 568,
+      "text": "hong.yan@bus.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 595,
+      "end": 623,
+      "text": "john.heaton@gsb.uchicago.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 625,
+      "end": 638,
+      "text": "kentd@nwu.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 640,
+      "end": 664,
+      "text": "LBENVENISTE@csom.umn.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 721,
+      "end": 739,
+      "text": "ms122@columbia.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 687,
+      "end": 719,
+      "text": "michael@brandt.wharton.upenn.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 667,
+      "end": 685,
+      "text": "lederington@ou.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 742,
+      "end": 765,
+      "text": "parrino@mail.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 767,
+      "end": 797,
+      "text": "ron.giammarino@commerce.ubc.ca",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 834,
+      "end": 853,
+      "text": "steg@arches.uga.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 800,
+      "end": 832,
+      "text": "stathis.tompaidis@bus.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 880,
+      "end": 913,
+      "text": "tobias.moskowitz@gsb.uchicago.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 856,
+      "end": 878,
+      "text": "Titman@mail.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 916,
+      "end": 946,
+      "text": "tyrone.callahan@bus.utexas.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 948,
+      "end": 965,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 967,
+      "end": 984,
+      "text": "vshanbh@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 987,
+      "end": 1002,
+      "text": "wangfa@rice.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1018,
+      "end": 1032,
+      "text": "Program Posted",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 113,
+      "end": 1033,
+      "text": "\n\n\"John D. Martin\" <J_Martin@baylor.edu> on 04/09/2001 03:18:22 PM\nTo: aagrawal@cba.ua.edu, aalmazan@mail.utexas.edu, a-krishnamurthy@nwu.edu, \nandres.almazan@bus.utexas.edu, asayrak@katz.pitt.edu, besty@hbs.edu, \nbutler@lsu.edu, chapman@mundo.eco.utexas.edu, cornelli@mail.duke.edu, \ndaveike@rice.edu, david.robinson@gsb.uchicago.edu, dufresne@andrew.cmu.edu, \nfzou@ccwf.cc.utexas.edu, hadlock@pilot.msu.edu, hghong@stanford.edu, \nhong.yan@bus.utexas.edu, jhartzel@stern.nyu.edu, \njohn.heaton@gsb.uchicago.edu, kentd@nwu.edu, LBENVENISTE@csom.umn.edu, \nlederington@ou.edu, michael@brandt.wharton.upenn.edu, ms122@columbia.edu, \nparrino@mail.utexas.edu, ron.giammarino@commerce.ubc.ca, \nstathis.tompaidis@bus.utexas.edu, steg@arches.uga.edu, \nTitman@mail.utexas.edu, tobias.moskowitz@gsb.uchicago.edu, \ntyrone.callahan@bus.utexas.edu, vkamins@enron.com, vshanbh@enron.com, \nwangfa@rice.edu\ncc:  \nSubject: Program Posted\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1284,
+      "end": 1298,
+      "text": "John D. Martin",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1299,
+      "end": 1331,
+      "text": "Carr P. Collins Chair in Finance",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1332,
+      "end": 1368,
+      "text": "Finance Department\nBaylor University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1369,
+      "end": 1396,
+      "text": "PO Box 98004\nWaco, TX 76798",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1397,
+      "end": 1409,
+      "text": "254-710-4473",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1419,
+      "end": 1431,
+      "text": "254-710-1092",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1438,
+      "end": 1457,
+      "text": "J_Martin@Baylor.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1284,
+      "end": 1513,
+      "text": "John D. Martin\nCarr P. Collins Chair in Finance\nFinance Department\nBaylor University\nPO Box 98004\nWaco, TX 76798\n254-710-4473 (Office)\n254-710-1092 (Fax)\nJ_Martin@Baylor.edu\nweb:    http://hsb.baylor.edu/html/martinj/home.html  \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1278,
+      "end": 1282,
+      "text": "John",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1033,
+      "end": 1513,
+      "text": "\n\nHello all,\n\nThe program for next week's conference is posted at the following address:\n\nhttp://hsb.baylor.edu/html/martinj/Tff2001/ProgramIII.htm\n\nWe have lots of fun stuff planned to go with the serious so come prepared\nfor a great weekend.\n\nJohn\n\nJohn D. Martin\nCarr P. Collins Chair in Finance\nFinance Department\nBaylor University\nPO Box 98004\nWaco, TX 76798\n254-710-4473 (Office)\n254-710-1092 (Fax)\nJ_Martin@Baylor.edu\nweb:    http://hsb.baylor.edu/html/martinj/home.html  \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 39,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 44,
+      "target": 46,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 45,
+      "target": 44,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 47,
+      "target": 46,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 48,
+      "target": 44,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 49,
+      "target": 44,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 50,
+      "target": 44,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 52,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 52,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8863869.1075856419197.JavaMail.evans@thyme>",
+      "Date": "Mon, 9 Apr 2001 10:12:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Program Posted",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_3734.txt"
+}

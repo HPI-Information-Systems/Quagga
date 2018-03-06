@@ -1,0 +1,50 @@
+Thanks Erick,
+
+Dat:
+
+Do you have more info about the subject?
+
+2017-05-22 17:08 GMT+02:00 Erick Erickson <erickerickson@gmail.com>:
+
+> Eirik:
+>
+> That code is 4 years old and for Lucene 4. I doubt it applies cleanly
+> to the current code base, but feel free to give it a try but it's not
+> guaranteed.
+>
+> I know of no other Vietnamese analyzers available.
+>
+> Dat is active in the community, don't know whether he has plans to
+> update/commit that bit of code.
+>
+> Best,
+> Erick
+>
+> On Mon, May 22, 2017 at 12:25 AM, Eirik Hungnes
+> <hungnes@rubrikkgroup.com> wrote:
+> > Hi,
+> >
+> > There doesn't seem to be any Tokenizer / Analyzer for Vietnamese built in
+> > to Lucene at the moment. Does anyone know if something like this exists
+> > today or is planned for? We found this
+> > https://github.com/CaoManhDat/VNAnalyzer made by Cao Mahn Dat, but not
+> sure
+> > if it's up to date. Any info highly appreciated!
+> >
+> > Thanks,
+> >
+> > Eirik
+>
+
+
+
+-- 
+Best regards,
+
+Eirik Hungnes
+CTO
+Rubrikk Group AS
+
+Cell: +4797027732
+skypeid: blindkorn44
+

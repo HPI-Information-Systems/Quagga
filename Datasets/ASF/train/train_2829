@@ -1,0 +1,16 @@
+Hello All,
+
+I created solr cloud instance and collection on Google cloud (Windows
+Instance).
+I used below command.
+
+*solr create_collection -c booleansearch -shards 1 -replicationFactor 1*
+
+
+I would like to add one more server to this cloud to have extra documents
+indexed and better performance.
+Could you please suggest me the steps I need to perform ?
+
+Thanks,
+Nilesh Kamani
+

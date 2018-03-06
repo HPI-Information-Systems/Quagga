@@ -1,0 +1,24 @@
+Yes, one to many fetches will be implemented.
+
+At the moment there isn't a workaround that I can think of.
+
+If you decide to work on a patch for fetch I'll review the patch.
+
+Joel Bernstein
+http://joelsolr.blogspot.com/
+
+On Mon, Mar 27, 2017 at 2:33 PM, adfel70 <adfel70@gmail.com> wrote:
+
+> Any ideas how to workaround this with the current streaming capabilities?
+>
+>
+>
+>
+>
+> --
+> View this message in context: http://lucene.472066.n3.
+> nabble.com/Streaming-expressions-Any-plans-to-add-
+> one-to-many-fetches-to-the-fetch-decorator-tp4326989.html
+> Sent from the Solr - User mailing list archive at Nabble.com.
+>
+

@@ -1,0 +1,148 @@
+{
+  "wrapper": "plaintext",
+  "text": "Up to you and Anthony.  We have already done a meeting in 3AC - today at 11:15.  We had not been provided info that Anthony had anyone in 3AC.  We had a meeting this morning during which we reviewed floor meeting plans - I don't think that Anthony was able to attend.  \n \nYour options are to bring them over to ECN 14 at 1:30, or to have them attend a meeting at 1:00 in 2 Allen Center, 12 th floor in the Forum (a meeting room on that floor). I will be conducting that floor meeting at 1:00 for ENW employees in 2 Allen Center - it is Allan Sommers' ISC group.  --Sally \n-----Original Message-----\nFrom: Lapsley, Carol \nSent: Monday, November 12, 2001 11:45 AM\nTo: Beck, Sally\nCc: Valdez, Christina\nSubject: Greg Piper Floor Meeting - Dayao's 3AC Employees Included?\n\n\nSally, hello, I am Carol Lapsley, Anthony Dayao's assistant.  I understand Mr. Piper is having a floor meeting at 1:30p today and Anthony's 11th floor employees are invited to attend.  What shall we tell his team (approximately 80 people) who reside in Three Allen Center?  Should they join the rest of us at 1:30p on the 14th floor, or will a separate session be planned for 3AC?\n \nMany thanks.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 565,
+      "end": 570,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 572,
+      "text": "Up to you and Anthony.  We have already done a meeting in 3AC - today at 11:15.  We had not been provided info that Anthony had anyone in 3AC.  We had a meeting this morning during which we reviewed floor meeting plans - I don't think that Anthony was able to attend.  \n \nYour options are to bring them over to ECN 14 at 1:30, or to have them attend a meeting at 1:00 in 2 Allen Center, 12 th floor in the Forum (a meeting room on that floor). I will be conducting that floor meeting at 1:00 for ENW employees in 2 Allen Center - it is Allan Sommers' ISC group.  --Sally \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 605,
+      "end": 619,
+      "text": "Lapsley, Carol",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 635,
+      "end": 652,
+      "text": "November 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 653,
+      "end": 661,
+      "text": "11:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 666,
+      "end": 677,
+      "text": "Beck, Sally",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 682,
+      "end": 699,
+      "text": "Valdez, Christina",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 709,
+      "end": 767,
+      "text": "Greg Piper Floor Meeting - Dayao's 3AC Employees Included?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 572,
+      "end": 768,
+      "text": "-----Original Message-----\nFrom: Lapsley, Carol \nSent: Monday, November 12, 2001 11:45 AM\nTo: Beck, Sally\nCc: Valdez, Christina\nSubject: Greg Piper Floor Meeting - Dayao's 3AC Employees Included?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 770,
+      "end": 775,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 770,
+      "end": 783,
+      "text": "Sally, hello,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1153,
+      "end": 1165,
+      "text": "Many thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 768,
+      "end": 1165,
+      "text": "\n\nSally, hello, I am Carol Lapsley, Anthony Dayao's assistant.  I understand Mr. Piper is having a floor meeting at 1:30p today and Anthony's 11th floor employees are invited to attend.  What shall we tell his team (approximately 80 people) who reside in Three Allen Center?  Should they join the rest of us at 1:30p on the 14th floor, or will a separate session be planned for 3AC?\n \nMany thanks.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13033697.1075862305591.JavaMail.evans@thyme>",
+      "Date": "Mon, 12 Nov 2001 10:10:39 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "carol.lapsley@enron.com",
+      "Subject": "RE: Greg Piper Floor Meeting - Dayao's 3AC Employees Included?",
+      "Cc": "anthony.dayao@enron.com, christina.valdez@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "anthony.dayao@enron.com, christina.valdez@enron.com",
+      "X-From": "Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SBECK>",
+      "X-To": "Lapsley, Carol </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clapsley>",
+      "X-cc": "Dayao, Anthony </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Adayao>, Valdez, Christina </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cvaldez>",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Beck, Sally\\Sent Items",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_sent_items_498.txt"
+}

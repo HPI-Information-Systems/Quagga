@@ -1,0 +1,208 @@
+{
+  "wrapper": "plaintext",
+  "text": "Per our discussion, attached is my original request to place Gregg Penman a=\nnd Richard Tomaksi under contract.  At mid-year PRC they each ranked at 2.\n=20\nPlease let me know what I can do to bring closure to this process.\n=20\nLaura\n-----Original Message-----\nFrom: Lavorato, John=20\nSent: Sunday, June 24, 2001 8:31 PM\nTo: Luce, Laura\nSubject: RE: Personnel Request\n\n\nLaura\n=20\nDo you think we can discuss after PRC.\n\n-----Original Message-----=20\nFrom: Luce, Laura=20\nSent: Thu 6/21/2001 10:55 AM=20\nTo: Lavorato, John=20\nCc: Slone, Jeanie; Shively, Hunter S.=20\nSubject: Personnel Request\n\n\n\n        Upon review of the Chicago business, balancing the need for continu=\nity on behalf of Peoples Energy and ensuring the ability for Hunter and I t=\no manage the Chicago joint venture (enovate) and the ENA/Peoples utility tr=\nansaction from Houston, it is our recommendation to place Richard Tomaski a=\nnd Gregg Penman under contract with Enron.\n\nGregg holds responsibility for all office management, customer origination =\nand reporting to Enron/Peoples.  In my absence he serves as my eyes and ear=\ns to the overall business.  While I have been in Houston we speak daily reg=\narding all management of the business including, but not limited to contrac=\nting with over 40 counterparties, long term origination including Allegheny=\n and Constellation, control of enovate credit policy, control of enovate ri=\nsk management policy (with Frank Hayden) and overall office management.  Gr=\negg receives high marks from Enron legal, credit, risk management, and fina=\nnce as a tremendous resource and from Peoples Sr. Management.  I believe En=\nron many times overlooks the importance of account management and Gregg is =\na classic example of an employee who balances the needs of the customer wit=\nh keeping Enron's interests foremost.  I am confident Gregg is key to ensur=\ning the transaction with Peoples is renewed in 3 years.\n\nRichard holds responsibility for the daily business of enovate.  He is prov=\nen in his ability to hold the trust of Peoples Gas/North Shore providing an=\n array of \"no-risk\" value for Enron and enovate.  Richard serves as the inf=\normation conduit to the Central desk and Enron Houston.  Richard is excelle=\nnt at balancing his role to Enron and the complete trust that Peoples has p=\nlaced in him.  Richard is a rare find and perfect fit in a joint venture be=\ncause of his tenure at Enron involving stints in economics, risk management=\n, structuring and trading.  Richard is the key reason we have kept a balanc=\ne of trust with the utilities of Peoples.  Richard has been engaged with th=\nis customer for 3 years and the trust/knowledge Peoples bestows to Richard =\nis directly related to this history, Richard's hard work and inherent custo=\nmer skills.    A departure by Richard would provide a very difficult issue =\nfor Hunter and I due to the balanced approach Richard exemplifies.  Richard=\n is Hunter's on sight control of the enovate business.\n\nIf you would like to discuss this further, please contact me at 713/853-385=\n5.  I recommend we proceed immediately and prior to my full-time departure =\nfrom Chicago scheduled for August.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 233,
+      "text": "Per our discussion, attached is my original request to place Gregg Penman a=\nnd Richard Tomaksi under contract.  At mid-year PRC they each ranked at 2.\n=20\nPlease let me know what I can do to bring closure to this process.\n=20\nLaura\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 227,
+      "end": 232,
+      "text": "Laura",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 266,
+      "end": 280,
+      "text": "Lavorato, John",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 298,
+      "end": 311,
+      "text": "June 24, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 312,
+      "end": 319,
+      "text": "8:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 324,
+      "end": 335,
+      "text": "Luce, Laura",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 345,
+      "end": 366,
+      "text": "RE: Personnel Request",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 233,
+      "end": 367,
+      "text": "-----Original Message-----\nFrom: Lavorato, John=20\nSent: Sunday, June 24, 2001 8:31 PM\nTo: Luce, Laura\nSubject: RE: Personnel Request\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 369,
+      "end": 374,
+      "text": "Laura",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 367,
+      "end": 419,
+      "text": "\n\nLaura\n=20\nDo you think we can discuss after PRC.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 455,
+      "end": 466,
+      "text": "Luce, Laura",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 480,
+      "end": 489,
+      "text": "6/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 490,
+      "end": 498,
+      "text": "10:55 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 506,
+      "end": 520,
+      "text": "Lavorato, John",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 528,
+      "end": 541,
+      "text": "Slone, Jeanie",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 543,
+      "end": 561,
+      "text": "Shively, Hunter S.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 574,
+      "end": 591,
+      "text": "Personnel Request",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 419,
+      "end": 592,
+      "text": "-----Original Message-----=20\nFrom: Luce, Laura=20\nSent: Thu 6/21/2001 10:55 AM=20\nTo: Lavorato, John=20\nCc: Slone, Jeanie; Shively, Hunter S.=20\nSubject: Personnel Request\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 592,
+      "end": 3173,
+      "text": "\n\n\n        Upon review of the Chicago business, balancing the need for continu=\nity on behalf of Peoples Energy and ensuring the ability for Hunter and I t=\no manage the Chicago joint venture (enovate) and the ENA/Peoples utility tr=\nansaction from Houston, it is our recommendation to place Richard Tomaski a=\nnd Gregg Penman under contract with Enron.\n\nGregg holds responsibility for all office management, customer origination =\nand reporting to Enron/Peoples.  In my absence he serves as my eyes and ear=\ns to the overall business.  While I have been in Houston we speak daily reg=\narding all management of the business including, but not limited to contrac=\nting with over 40 counterparties, long term origination including Allegheny=\n and Constellation, control of enovate credit policy, control of enovate ri=\nsk management policy (with Frank Hayden) and overall office management.  Gr=\negg receives high marks from Enron legal, credit, risk management, and fina=\nnce as a tremendous resource and from Peoples Sr. Management.  I believe En=\nron many times overlooks the importance of account management and Gregg is =\na classic example of an employee who balances the needs of the customer wit=\nh keeping Enron's interests foremost.  I am confident Gregg is key to ensur=\ning the transaction with Peoples is renewed in 3 years.\n\nRichard holds responsibility for the daily business of enovate.  He is prov=\nen in his ability to hold the trust of Peoples Gas/North Shore providing an=\n array of \"no-risk\" value for Enron and enovate.  Richard serves as the inf=\normation conduit to the Central desk and Enron Houston.  Richard is excelle=\nnt at balancing his role to Enron and the complete trust that Peoples has p=\nlaced in him.  Richard is a rare find and perfect fit in a joint venture be=\ncause of his tenure at Enron involving stints in economics, risk management=\n, structuring and trading.  Richard is the key reason we have kept a balanc=\ne of trust with the utilities of Peoples.  Richard has been engaged with th=\nis customer for 3 years and the trust/knowledge Peoples bestows to Richard =\nis directly related to this history, Richard's hard work and inherent custo=\nmer skills.    A departure by Richard would provide a very difficult issue =\nfor Hunter and I due to the balanced approach Richard exemplifies.  Richard=\n is Hunter's on sight control of the enovate business.\n\nIf you would like to discuss this further, please contact me at 713/853-385=\n5.  I recommend we proceed immediately and prior to my full-time departure =\nfrom Chicago scheduled for August.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20005742.1075840853887.JavaMail.evans@thyme>",
+      "Date": "Mon, 27 Aug 2001 10:57:40 -0700 (PDT)",
+      "From": "laura.luce@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "FW: Personnel Request",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Luce, Laura </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LLUCE>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\HR",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_hr_98.txt"
+}

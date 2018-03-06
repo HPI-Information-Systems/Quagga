@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/hernandez-j_notes_inbox_135.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<29962589.1075855552611.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Nov 2000 17:48:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.worldwide@enron.com",
+      "Subject": "Why was Jeff Skilling on CNBC yesterday?",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron Announcements",
+      "X-To": "All Enron Worldwide",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Juan_Hernandez_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "Hernandez-J",
+      "X-FileName": "jhernan.nsf"
+    }
+  },
+  "text": "Jeff appeared live on CNBC \"Street Signs\" to talk about Enron's stock.  Go to \neBiz and read what he had to say.\n\nAlso in this issue:\nEnron snags more awards\n1,001 (not really) things to do with Pulse lights\nWho in the world is Henry Hub?\n\nIt's all in the latest eBiz.  Go to home.enron.com, click Publications, then \nclick eBiz, and \"eBiz December 1, 2000.\"",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 358,
+      "text": "Jeff appeared live on CNBC \"Street Signs\" to talk about Enron's stock.  Go to \neBiz and read what he had to say.\n\nAlso in this issue:\nEnron snags more awards\n1,001 (not really) things to do with Pulse lights\nWho in the world is Henry Hub?\n\nIt's all in the latest eBiz.  Go to home.enron.com, click Publications, then \nclick eBiz, and \"eBiz December 1, 2000.\"",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

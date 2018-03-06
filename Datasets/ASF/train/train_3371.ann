@@ -1,0 +1,384 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Joel,Susmit\n\nI created https://issues.apache.org/jira/browse/SOLR-10698 to track the\nissue\n\n@Susmit looking at the stack trace I see the expression is using\nJSONTupleStream\n. I wonder if you tried using JavabinTupleStreamParser could it help\nimprove performance ?\n\nOn Tue, May 16, 2017 at 9:39 AM, Susmit Shukla <shukla.susmit@gmail.com>\nwrote:\n\n> Hi Joel,\n>\n> queries can be arbitrarily nested with AND/OR/NOT joins e.g.\n>\n> (intersect(intersect(search, search), union(search, search))). If I cut off\n> the innermost stream with a limit, the complete intersection would not\n> happen at upper levels. Also would the limit stream have same effect as\n> using /select handler with rows parameter?\n> I am trying to force input stream close through reflection, just to see if\n> it gives performance gains.\n>\n> 2) would experiment with null streams. Is workers = number of replicas in\n> data collection a good thumb rule? is parallelstream performance upper\n> bounded by number of replicas?\n>\n> Thanks,\n> Susmit\n>\n> On Tue, May 16, 2017 at 5:59 AM, Joel Bernstein <joelsolr@gmail.com>\n> wrote:\n>\n> > Your approach looks OK. The single sharded worker collection is only\n> needed\n> > if you were using CloudSolrStream to send the initial Streaming\n> Expression\n> > to the /stream handler. You are not doing this, so you're approach is\n> fine.\n> >\n> > Here are some thoughts on what you described:\n> >\n> > 1) If you are closing the parallel stream after the top 1000 results,\n> then\n> > try wrapping the intersect in a LimitStream. This stream doesn't exist\n> yet\n> > so it will be a custom stream. The LimitStream can return the EOF tuple\n> > after it reads N tuples. This will cause the worker nodes to close the\n> > underlying stream and cause the Broken Pipe exception to occur at the\n> > /export handler, which will stop the /export.\n> >\n> > Here is the basic approach:\n> >\n> > parallel(limit(intersect(search, search)))\n> >\n> >\n> > 2) It can be tricky to understand where the bottleneck lies when using\n> the\n> > ParallelStream for parallel relational algebra. You can use the\n> NullStream\n> > to get an understanding of why performance is not increasing when you\n> > increase the workers. Here is the basic approach:\n> >\n> > parallel(null(intersect(search, search)))\n> >\n> > The NullStream will eat all the tuples on the workers and return a single\n> > tuple with the tuple count and the time taken to run the expression. So\n> > you'll get one tuple from each worker. This will eliminate any bottleneck\n> > on tuples returning through the ParallelStream and you can focus on the\n> > performance of the intersect and the /export handler.\n> >\n> > Then experiment with:\n> >\n> > 1) Increasing the number of parallel workers.\n> > 2) Increasing the number of replicas in the data collections.\n> >\n> > And watch the timing information coming back from the NullStream tuples.\n> If\n> > increasing the workers is not improving performance then the bottleneck\n> may\n> > be in the /export handler. So try increasing replicas and see if that\n> > improves performance. Different partitions of the streams will be served\n> by\n> > different replicas.\n> >\n> > If performance doesn't improve with the NullStream after increasing both\n> > workers and replicas then we know the bottleneck is the network.\n> >\n> > Joel Bernstein\n> > http://joelsolr.blogspot.com/\n> >\n> > On Mon, May 15, 2017 at 10:37 PM, Susmit Shukla <shukla.susmit@gmail.com\n> >\n> > wrote:\n> >\n> > > Hi Joel,\n> > >\n> > > Regarding the implementation, I am wrapping the topmost TupleStream in\n> a\n> > > ParallelStream and execute it on the worker cluster (one of the joined\n> > > cluster doubles up as worker cluster). ParallelStream does submit the\n> > query\n> > > to /stream handler.\n> > > for #2, for e.g. I am creating 2 CloudSolrStreams , wrapping them in\n> > > IntersectStream and wrapping that in ParallelStream and reading out the\n> > > tuples from parallel stream. close() is called on parallelStream. I do\n> > have\n> > > custom streams but that is similar to intersectStream.\n> > > I am on solr 6.3.1\n> > > The 2 solr clusters serving the join queries are having many shards.\n> > Worker\n> > > collection is also multi sharded and is one from the main clusters, so\n> do\n> > > you imply I should be using a single sharded \"worker\" collection? Would\n> > the\n> > > joins execute faster?\n> > > On a side note, increasing the workers beyond 1 was not improving the\n> > > execution times but was degrading if number was 3 and above. That is\n> > > counter intuitive since the joins are huge and putting more workers\n> > should\n> > > have improved the performance.\n> > >\n> > > Thanks,\n> > > Susmit\n> > >\n> > >\n> > > On Mon, May 15, 2017 at 6:47 AM, Joel Bernstein <joelsolr@gmail.com>\n> > > wrote:\n> > >\n> > > > Ok please do report any issues you run into. This is quite a good bug\n> > > > report.\n> > > >\n> > > > I reviewed the code and I believe I see the problem. The problem\n> seems\n> > to\n> > > > be that output code from the /stream handler is not properly\n> accounting\n> > > for\n> > > > client disconnects and closing the underlying stream. What I see in\n> the\n> > > > code is that exceptions coming from read() in the stream do\n> > automatically\n> > > > close the underlying stream. But exceptions from the writing of the\n> > > stream\n> > > > do not close the stream. This needs to be fixed.\n> > > >\n> > > > A few questions about your streaming implementation:\n> > > >\n> > > > 1) Are you sending requests to the /stream handler? Or are you\n> > embedding\n> > > > CloudSolrStream in your application and bypassing the /stream\n> handler?\n> > > >\n> > > > 2) If you're sending Streaming Expressions to the stream handler are\n> > you\n> > > > using SolrStream or CloudSolrStream to send the expression?\n> > > >\n> > > > 3) What version of Solr are you using.\n> > > >\n> > > > 4) Have you implemented any custom streams?\n> > > >\n> > > >\n> > > > #2 is an important question. If you're sending expressions to the\n> > /stream\n> > > > handler using CloudSolrStream the collection running the expression\n> > would\n> > > > have to be setup a specific way. The collection running the\n> expression\n> > > will\n> > > > have to be a* single shard collection*. You can have as many replicas\n> > as\n> > > > you want but only one shard. That's because CloudSolrStream picks one\n> > > > replica in each shard to forward the request to then merges the\n> results\n> > > > from the shards. So if you send in an expression using\n> CloudSolrStream\n> > > that\n> > > > expression will be sent to each shard to be run and each shard will\n> be\n> > > > duplicating the work and return duplicate results.\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > > Joel Bernstein\n> > > > http://joelsolr.blogspot.com/\n> > > >\n> > > > On Sat, May 13, 2017 at 7:03 PM, Susmit Shukla <\n> > shukla.susmit@gmail.com>\n> > > > wrote:\n> > > >\n> > > > > Thanks Joel\n> > > > > Streaming is awesome, just had a huge implementation in my\n> project. I\n> > > > found\n> > > > > out a couple more issues with streaming and did local hacks for\n> them,\n> > > > would\n> > > > > raise them too.\n> > > > >\n> > > > > On Sat, May 13, 2017 at 2:09 PM, Joel Bernstein <\n> joelsolr@gmail.com>\n> > > > > wrote:\n> > > > >\n> > > > > > Ah, then this is unexpected behavior. Can you open a ticket\nfor\n> > this?\n> > > > > >\n> > > > > > Joel Bernstein\n> > > > > > http://joelsolr.blogspot.com/\n> > > > > >\n> > > > > > On Sat, May 13, 2017 at 2:51 PM, Susmit Shukla <\n> > > > shukla.susmit@gmail.com>\n> > > > > > wrote:\n> > > > > >\n> > > > > > > Hi Joel,\n> > > > > > >\n> > > > > > > I was using CloudSolrStream for the above test. Below is\nthe\n> call\n> > > > > stack.\n> > > > > > >\n> > > > > > > at\n> > > > > > > org.apache.http.impl.io.ChunkedInputStream.read(\n> > > > > > > ChunkedInputStream.java:215)\n> > > > > > > at\n> > > > > > > org.apache.http.impl.io.ChunkedInputStream.close(\n> > > > > > > ChunkedInputStream.java:316)\n> > > > > > > at\n> > > > > > > org.apache.http.impl.execchain.ResponseEntityProxy.\n> streamClosed(\n> > > > > > > ResponseEntityProxy.java:128)\n> > > > > > > at\n> > > > > > > org.apache.http.conn.EofSensorInputStream.checkClose(\n> > > > > > > EofSensorInputStream.java:228)\n> > > > > > > at\n> > > > > > > org.apache.http.conn.EofSensorInputStream.close(\n> > > > > > > EofSensorInputStream.java:174)\n> > > > > > > at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:378)\n> > > > > > > at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:193)\n> > > > > > > at java.io.InputStreamReader.close(InputStreamReader.java:199)\n> > > > > > > at\n> > > > > > > org.apache.solr.client.solrj.io.stream.JSONTupleStream.\n> > > > > > > close(JSONTupleStream.java:91)\n> > > > > > > at\n> > > > > > > org.apache.solr.client.solrj.io.stream.SolrStream.close(\n> > > > > > > SolrStream.java:186)\n> > > > > > >\n> > > > > > > Thanks,\n> > > > > > > Susmit\n> > > > > > >\n> > > > > > > On Sat, May 13, 2017 at 10:48 AM, Joel Bernstein <\n> > > joelsolr@gmail.com\n> > > > >\n> > > > > > > wrote:\n> > > > > > >\n> > > > > > > > I was just reading the Java docs on the ChunkedInputStream.\n> > > > > > > >\n> > > > > > > > \"Note that this class NEVER closes the underlying\nstream\"\n> > > > > > > >\n> > > > > > > > In that scenario the /export would indeed continue\nto send\n> > data.\n> > > I\n> > > > > > think\n> > > > > > > we\n> > > > > > > > can consider this an anti-pattern for the /export\nhandler\n> > > > currently.\n> > > > > > > >\n> > > > > > > > I would suggest using one of the Streaming Clients\nto connect\n> > to\n> > > > the\n> > > > > > > export\n> > > > > > > > handler. Either CloudSolrStream or SolrStream will\nboth\n> > interact\n> > > > with\n> > > > > > the\n> > > > > > > > /export handler in a the way that it expects.\n> > > > > > > >\n> > > > > > > >\n> > > > > > > > Joel Bernstein\n> > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > >\n> > > > > > > > On Sat, May 13, 2017 at 12:28 PM, Susmit Shukla <\n> > > > > > shukla.susmit@gmail.com\n> > > > > > > >\n> > > > > > > > wrote:\n> > > > > > > >\n> > > > > > > > > Hi Joel,\n> > > > > > > > >\n> > > > > > > > > I did not observe that. On calling close() on\nstream, it\n> > cycled\n> > > > > > through\n> > > > > > > > all\n> > > > > > > > > the hits that /export handler calculated.\n> > > > > > > > > e.g. with a *:* query and export handler on a\n100k document\n> > > > index,\n> > > > > I\n> > > > > > > > could\n> > > > > > > > > see the 100kth record printed on the http wire\ndebug log\n> > > although\n> > > > > > close\n> > > > > > > > was\n> > > > > > > > > called after reading 1st tuple. The time taken\nfor the\n> > > operation\n> > > > > with\n> > > > > > > > > close() call was same as that if I had read all\nthe 100k\n> > > tuples.\n> > > > > > > > > As I have pointed out, close() on underlying\n> > ChunkedInputStream\n> > > > > calls\n> > > > > > > > > read() and solr server has probably no way to\ndistinguish\n> it\n> > > from\n> > > > > > > read()\n> > > > > > > > > happening from regular tuple reads..\n> > > > > > > > > I think there should be an abort() API for solr\nstreams\n> that\n> > > > hooks\n> > > > > > into\n> > > > > > > > > httpmethod.abort() . That would enable client\nto disconnect\n> > > early\n> > > > > and\n> > > > > > > > > probably that would disconnect the underlying\nsocket so\n> there\n> > > > would\n> > > > > > be\n> > > > > > > no\n> > > > > > > > > leaks.\n> > > > > > > > >\n> > > > > > > > > Thanks,\n> > > > > > > > > Susmit\n> > > > > > > > >\n> > > > > > > > >\n> > > > > > > > > On Sat, May 13, 2017 at 7:42 AM, Joel Bernstein\n<\n> > > > > joelsolr@gmail.com>\n> > > > > > > > > wrote:\n> > > > > > > > >\n> > > > > > > > > > If the client closes the connection to the\nexport handler\n> > > then\n> > > > > this\n> > > > > > > > > > exception will occur automatically on the\nserver.\n> > > > > > > > > >\n> > > > > > > > > > Joel Bernstein\n> > > > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > > > >\n> > > > > > > > > > On Sat, May 13, 2017 at 1:46 AM, Susmit\nShukla <\n> > > > > > > > shukla.susmit@gmail.com>\n> > > > > > > > > > wrote:\n> > > > > > > > > >\n> > > > > > > > > > > Hi Joel,\n> > > > > > > > > > >\n> > > > > > > > > > > Thanks for the insight. How can this\nexception be\n> > > > thrown/forced\n> > > > > > > from\n> > > > > > > > > > client\n> > > > > > > > > > > side. Client can't do a System.exit()\nas it is running\n> > as a\n> > > > > > webapp.\n> > > > > > > > > > >\n> > > > > > > > > > > Thanks,\n> > > > > > > > > > > Susmit\n> > > > > > > > > > >\n> > > > > > > > > > > On Fri, May 12, 2017 at 4:44 PM, Joel\nBernstein <\n> > > > > > > joelsolr@gmail.com>\n> > > > > > > > > > > wrote:\n> > > > > > > > > > >\n> > > > > > > > > > > > In this scenario the /export handler\ncontinues to\n> > export\n> > > > > > results\n> > > > > > > > > until\n> > > > > > > > > > it\n> > > > > > > > > > > > encounters a \"Broken Pipe\" exception.\nThis exception\n> is\n> > > > > trapped\n> > > > > > > and\n> > > > > > > > > > > ignored\n> > > > > > > > > > > > rather then logged as it's not\nconsidered an\n> exception\n> > if\n> > > > the\n> > > > > > > > client\n> > > > > > > > > > > > disconnects early.\n> > > > > > > > > > > >\n> > > > > > > > > > > > Joel Bernstein\n> > > > > > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > > > > > >\n> > > > > > > > > > > > On Fri, May 12, 2017 at 2:10 PM,\nSusmit Shukla <\n> > > > > > > > > > shukla.susmit@gmail.com>\n> > > > > > > > > > > > wrote:\n> > > > > > > > > > > >\n> > > > > > > > > > > > > Hi,\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > I have a question regarding\nsolr /export handler.\n> > Here\n> > > is\n> > > > > the\n> > > > > > > > > > scenario\n> > > > > > > > > > > -\n> > > > > > > > > > > > > I want to use the /export\nhandler - I only need\n> > sorted\n> > > > data\n> > > > > > and\n> > > > > > > > > this\n> > > > > > > > > > is\n> > > > > > > > > > > > the\n> > > > > > > > > > > > > fastest way to get it. I\nam doing multiple level\n> > joins\n> > > > > using\n> > > > > > > > > streams\n> > > > > > > > > > > > using\n> > > > > > > > > > > > > /export handler. I know the\nnumber of top level\n> > records\n> > > > to\n> > > > > be\n> > > > > > > > > > retrieved\n> > > > > > > > > > > > but\n> > > > > > > > > > > > > not for each individual stream\nrolling up to the\n> > final\n> > > > > > result.\n> > > > > > > > > > > > > I observed that calling close()\non a /export stream\n> > is\n> > > > too\n> > > > > > > > > expensive.\n> > > > > > > > > > > It\n> > > > > > > > > > > > > reads the stream to the very\nend of hits. Assuming\n> > > there\n> > > > > are\n> > > > > > > 100\n> > > > > > > > > > > million\n> > > > > > > > > > > > > hits for each stream ,first\n1k records were found\n> > after\n> > > > > joins\n> > > > > > > and\n> > > > > > > > > we\n> > > > > > > > > > > call\n> > > > > > > > > > > > > close() after that, it would\ntake many\n> minutes/hours\n> > to\n> > > > > > finish\n> > > > > > > > it.\n> > > > > > > > > > > > > Currently I have put close()\ncall in a different\n> > > thread -\n> > > > > > > > basically\n> > > > > > > > > > > fire\n> > > > > > > > > > > > > and forget. But the cluster\nis very strained\n> because\n> > of\n> > > > the\n> > > > > > > > > > > unneccessary\n> > > > > > > > > > > > > reads.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Internally streaming uses\nChunkedInputStream of\n> > > > HttpClient\n> > > > > > and\n> > > > > > > it\n> > > > > > > > > has\n> > > > > > > > > > > to\n> > > > > > > > > > > > be\n> > > > > > > > > > > > > drained in the close() call.\nBut from server point\n> of\n> > > > view,\n> > > > > > it\n> > > > > > > > > should\n> > > > > > > > > > > > stop\n> > > > > > > > > > > > > sending more data once close()\nhas been issued.\n> > > > > > > > > > > > > There is a read() call in\nclose() method of\n> > > > > > ChunkedInputStream\n> > > > > > > > that\n> > > > > > > > > > is\n> > > > > > > > > > > > > indistinguishable from real\nread(). If /export\n> > handler\n> > > > > stops\n> > > > > > > > > sending\n> > > > > > > > > > > more\n> > > > > > > > > > > > > data after close it would\nbe very useful.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Another option would be to\nuse /select handler and\n> > get\n> > > > into\n> > > > > > > > > business\n> > > > > > > > > > of\n> > > > > > > > > > > > > managing a custom cursor\nmark that is based on the\n> > > stream\n> > > > > > sort\n> > > > > > > > and\n> > > > > > > > > is\n> > > > > > > > > > > > reset\n> > > > > > > > > > > > > until it fetches the required\nrecords at topmost\n> > level.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Any thoughts.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Thanks,\n> > > > > > > > > > > > > Susmit\n> > > > > > > > > > > > >\n> > > > > > > > > > > >\n> > > > > > > > > > >\n> > > > > > > > > >\n> > > > > > > > >\n> > > > > > > >\n> > > > > > >\n> > > > > >\n> > > > >\n> > > >\n> > >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 15,
+      "text": "Hi Joel,Susmit\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 268,
+      "text": "Hi Joel,Susmit\n\nI created https://issues.apache.org/jira/browse/SOLR-10698 to track the\nissue\n\n@Susmit looking at the stack trace I see the expression is using\nJSONTupleStream\n. I wonder if you tried using JavabinTupleStreamParser could it help\nimprove performance ?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 268,
+      "end": 348,
+      "text": "On Tue, May 16, 2017 at 9:39 AM, Susmit Shukla <shukla.susmit@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 348,
+      "end": 360,
+      "text": "\n> Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 988,
+      "end": 1009,
+      "text": ">\n> Thanks,\n> Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 348,
+      "end": 1011,
+      "text": "\n> Hi Joel,\n>\n> queries can be arbitrarily nested with AND/OR/NOT joins e.g.\n>\n> (intersect(intersect(search, search), union(search, search))). If I cut off\n> the innermost stream with a limit, the complete intersection would not\n> happen at upper levels. Also would the limit stream have same effect as\n> using /select handler with rows parameter?\n> I am trying to force input stream close through reflection, just to see if\n> it gives performance gains.\n>\n> 2) would experiment with null streams. Is workers = number of replicas in\n> data collection a good thumb rule? is parallelstream performance upper\n> bounded by number of replicas?\n>\n> Thanks,\n> Susmit\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1011,
+      "end": 1091,
+      "text": "> On Tue, May 16, 2017 at 5:59 AM, Joel Bernstein <joelsolr@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 3286,
+      "end": 3343,
+      "text": "> >\n> > Joel Bernstein\n> > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1091,
+      "end": 3347,
+      "text": ">\n> > Your approach looks OK. The single sharded worker collection is only\n> needed\n> > if you were using CloudSolrStream to send the initial Streaming\n> Expression\n> > to the /stream handler. You are not doing this, so you're approach is\n> fine.\n> >\n> > Here are some thoughts on what you described:\n> >\n> > 1) If you are closing the parallel stream after the top 1000 results,\n> then\n> > try wrapping the intersect in a LimitStream. This stream doesn't exist\n> yet\n> > so it will be a custom stream. The LimitStream can return the EOF tuple\n> > after it reads N tuples. This will cause the worker nodes to close the\n> > underlying stream and cause the Broken Pipe exception to occur at the\n> > /export handler, which will stop the /export.\n> >\n> > Here is the basic approach:\n> >\n> > parallel(limit(intersect(search, search)))\n> >\n> >\n> > 2) It can be tricky to understand where the bottleneck lies when using\n> the\n> > ParallelStream for parallel relational algebra. You can use the\n> NullStream\n> > to get an understanding of why performance is not increasing when you\n> > increase the workers. Here is the basic approach:\n> >\n> > parallel(null(intersect(search, search)))\n> >\n> > The NullStream will eat all the tuples on the workers and return a single\n> > tuple with the tuple count and the time taken to run the expression. So\n> > you'll get one tuple from each worker. This will eliminate any bottleneck\n> > on tuples returning through the ParallelStream and you can focus on the\n> > performance of the intersect and the /export handler.\n> >\n> > Then experiment with:\n> >\n> > 1) Increasing the number of parallel workers.\n> > 2) Increasing the number of replicas in the data collections.\n> >\n> > And watch the timing information coming back from the NullStream tuples.\n> If\n> > increasing the workers is not improving performance then the bottleneck\n> may\n> > be in the /export handler. So try increasing replicas and see if that\n> > improves performance. Different partitions of the streams will be served\n> by\n> > different replicas.\n> >\n> > If performance doesn't improve with the NullStream after increasing both\n> > workers and replicas then we know the bottleneck is the network.\n> >\n> > Joel Bernstein\n> > http://joelsolr.blogspot.com/\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 3347,
+      "end": 3439,
+      "text": "> > On Mon, May 15, 2017 at 10:37 PM, Susmit Shukla <shukla.susmit@gmail.com\n> >\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3439,
+      "end": 3458,
+      "text": "> >\n> > > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 4614,
+      "end": 4647,
+      "text": "> > >\n> > > Thanks,\n> > > Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3439,
+      "end": 4659,
+      "text": "> >\n> > > Hi Joel,\n> > >\n> > > Regarding the implementation, I am wrapping the topmost TupleStream in\n> a\n> > > ParallelStream and execute it on the worker cluster (one of the joined\n> > > cluster doubles up as worker cluster). ParallelStream does submit the\n> > query\n> > > to /stream handler.\n> > > for #2, for e.g. I am creating 2 CloudSolrStreams , wrapping them in\n> > > IntersectStream and wrapping that in ParallelStream and reading out the\n> > > tuples from parallel stream. close() is called on parallelStream. I do\n> > have\n> > > custom streams but that is similar to intersectStream.\n> > > I am on solr 6.3.1\n> > > The 2 solr clusters serving the join queries are having many shards.\n> > Worker\n> > > collection is also multi sharded and is one from the main clusters, so\n> do\n> > > you imply I should be using a single sharded \"worker\" collection? Would\n> > the\n> > > joins execute faster?\n> > > On a side note, increasing the workers beyond 1 was not improving the\n> > > execution times but was degrading if number was 3 and above. That is\n> > > counter intuitive since the joins are huge and putting more workers\n> > should\n> > > have improved the performance.\n> > >\n> > > Thanks,\n> > > Susmit\n> > >\n> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 4659,
+      "end": 4747,
+      "text": "> > > On Mon, May 15, 2017 at 6:47 AM, Joel Bernstein <joelsolr@gmail.com>\n> > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 6777,
+      "end": 6846,
+      "text": "> > > >\n> > > > Joel Bernstein\n> > > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 4747,
+      "end": 6854,
+      "text": "> > >\n> > > > Ok please do report any issues you run into. This is quite a good bug\n> > > > report.\n> > > >\n> > > > I reviewed the code and I believe I see the problem. The problem\n> seems\n> > to\n> > > > be that output code from the /stream handler is not properly\n> accounting\n> > > for\n> > > > client disconnects and closing the underlying stream. What I see in\n> the\n> > > > code is that exceptions coming from read() in the stream do\n> > automatically\n> > > > close the underlying stream. But exceptions from the writing of the\n> > > stream\n> > > > do not close the stream. This needs to be fixed.\n> > > >\n> > > > A few questions about your streaming implementation:\n> > > >\n> > > > 1) Are you sending requests to the /stream handler? Or are you\n> > embedding\n> > > > CloudSolrStream in your application and bypassing the /stream\n> handler?\n> > > >\n> > > > 2) If you're sending Streaming Expressions to the stream handler are\n> > you\n> > > > using SolrStream or CloudSolrStream to send the expression?\n> > > >\n> > > > 3) What version of Solr are you using.\n> > > >\n> > > > 4) Have you implemented any custom streams?\n> > > >\n> > > >\n> > > > #2 is an important question. If you're sending expressions to the\n> > /stream\n> > > > handler using CloudSolrStream the collection running the expression\n> > would\n> > > > have to be setup a specific way. The collection running the\n> expression\n> > > will\n> > > > have to be a* single shard collection*. You can have as many replicas\n> > as\n> > > > you want but only one shard. That's because CloudSolrStream picks one\n> > > > replica in each shard to forward the request to then merges the\n> results\n> > > > from the shards. So if you send in an expression using\n> CloudSolrStream\n> > > that\n> > > > expression will be sent to each shard to be run and each shard will\n> be\n> > > > duplicating the work and return duplicate results.\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > > Joel Bernstein\n> > > > http://joelsolr.blogspot.com/\n> > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 6854,
+      "end": 6955,
+      "text": "> > > > On Sat, May 13, 2017 at 7:03 PM, Susmit Shukla <\n> > shukla.susmit@gmail.com>\n> > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 6955,
+      "end": 6985,
+      "text": "> > > >\n> > > > > Thanks Joel\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 6955,
+      "end": 7213,
+      "text": "> > > >\n> > > > > Thanks Joel\n> > > > > Streaming is awesome, just had a huge implementation in my\n> project. I\n> > > > found\n> > > > > out a couple more issues with streaming and did local hacks for\n> them,\n> > > > would\n> > > > > raise them too.\n> > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 7213,
+      "end": 7312,
+      "text": "> > > > > On Sat, May 13, 2017 at 2:09 PM, Joel Bernstein <\n> joelsolr@gmail.com>\n> > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 7408,
+      "end": 7489,
+      "text": "> > > > > >\n> > > > > > Joel Bernstein\n> > > > > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 7312,
+      "end": 7501,
+      "text": "> > > > >\n> > > > > > Ah, then this is unexpected behavior. Can you open a ticket\nfor\n> > this?\n> > > > > >\n> > > > > > Joel Bernstein\n> > > > > > http://joelsolr.blogspot.com/\n> > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 7501,
+      "end": 7614,
+      "text": "> > > > > > On Sat, May 13, 2017 at 2:51 PM, Susmit Shukla <\n> > > > shukla.susmit@gmail.com>\n> > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 7614,
+      "end": 7649,
+      "text": "> > > > > >\n> > > > > > > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 9836,
+      "end": 9929,
+      "text": "> > > > > > > >\n> > > > > > > > Joel Bernstein\n> > > > > > > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 9093,
+      "end": 9945,
+      "text": "> > > > > > >\n> > > > > > > > I was just reading the Java docs on the ChunkedInputStream.\n> > > > > > > >\n> > > > > > > > \"Note that this class NEVER closes the underlying\nstream\"\n> > > > > > > >\n> > > > > > > > In that scenario the /export would indeed continue\nto send\n> > data.\n> > > I\n> > > > > > think\n> > > > > > > we\n> > > > > > > > can consider this an anti-pattern for the /export\nhandler\n> > > > currently.\n> > > > > > > >\n> > > > > > > > I would suggest using one of the Streaming Clients\nto connect\n> > to\n> > > > the\n> > > > > > > export\n> > > > > > > > handler. Either CloudSolrStream or SolrStream will\nboth\n> > interact\n> > > > with\n> > > > > > the\n> > > > > > > > /export handler in a the way that it expects.\n> > > > > > > >\n> > > > > > > >\n> > > > > > > > Joel Bernstein\n> > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 8972,
+      "end": 9093,
+      "text": "> > > > > > > On Sat, May 13, 2017 at 10:48 AM, Joel Bernstein <\n> > > joelsolr@gmail.com\n> > > > >\n> > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 8901,
+      "end": 8958,
+      "text": "> > > > > > >\n> > > > > > > Thanks,\n> > > > > > > Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 7614,
+      "end": 8972,
+      "text": "> > > > > >\n> > > > > > > Hi Joel,\n> > > > > > >\n> > > > > > > I was using CloudSolrStream for the above test. Below is\nthe\n> call\n> > > > > stack.\n> > > > > > >\n> > > > > > > at\n> > > > > > > org.apache.http.impl.io.ChunkedInputStream.read(\n> > > > > > > ChunkedInputStream.java:215)\n> > > > > > > at\n> > > > > > > org.apache.http.impl.io.ChunkedInputStream.close(\n> > > > > > > ChunkedInputStream.java:316)\n> > > > > > > at\n> > > > > > > org.apache.http.impl.execchain.ResponseEntityProxy.\n> streamClosed(\n> > > > > > > ResponseEntityProxy.java:128)\n> > > > > > > at\n> > > > > > > org.apache.http.conn.EofSensorInputStream.checkClose(\n> > > > > > > EofSensorInputStream.java:228)\n> > > > > > > at\n> > > > > > > org.apache.http.conn.EofSensorInputStream.close(\n> > > > > > > EofSensorInputStream.java:174)\n> > > > > > > at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:378)\n> > > > > > > at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:193)\n> > > > > > > at java.io.InputStreamReader.close(InputStreamReader.java:199)\n> > > > > > > at\n> > > > > > > org.apache.solr.client.solrj.io.stream.JSONTupleStream.\n> > > > > > > close(JSONTupleStream.java:91)\n> > > > > > > at\n> > > > > > > org.apache.solr.client.solrj.io.stream.SolrStream.close(\n> > > > > > > SolrStream.java:186)\n> > > > > > >\n> > > > > > > Thanks,\n> > > > > > > Susmit\n> > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 9945,
+      "end": 10086,
+      "text": "> > > > > > > > On Sat, May 13, 2017 at 12:28 PM, Susmit Shukla <\n> > > > > > shukla.susmit@gmail.com\n> > > > > > > >\n> > > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 10086,
+      "end": 10129,
+      "text": "> > > > > > > >\n> > > > > > > > > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 11420,
+      "end": 11489,
+      "text": "> > > > > > > > >\n> > > > > > > > > Thanks,\n> > > > > > > > > Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 10086,
+      "end": 11525,
+      "text": "> > > > > > > >\n> > > > > > > > > Hi Joel,\n> > > > > > > > >\n> > > > > > > > > I did not observe that. On calling close() on\nstream, it\n> > cycled\n> > > > > > through\n> > > > > > > > all\n> > > > > > > > > the hits that /export handler calculated.\n> > > > > > > > > e.g. with a *:* query and export handler on a\n100k document\n> > > > index,\n> > > > > I\n> > > > > > > > could\n> > > > > > > > > see the 100kth record printed on the http wire\ndebug log\n> > > although\n> > > > > > close\n> > > > > > > > was\n> > > > > > > > > called after reading 1st tuple. The time taken\nfor the\n> > > operation\n> > > > > with\n> > > > > > > > > close() call was same as that if I had read all\nthe 100k\n> > > tuples.\n> > > > > > > > > As I have pointed out, close() on underlying\n> > ChunkedInputStream\n> > > > > calls\n> > > > > > > > > read() and solr server has probably no way to\ndistinguish\n> it\n> > > from\n> > > > > > > read()\n> > > > > > > > > happening from regular tuple reads..\n> > > > > > > > > I think there should be an abort() API for solr\nstreams\n> that\n> > > > hooks\n> > > > > > into\n> > > > > > > > > httpmethod.abort() . That would enable client\nto disconnect\n> > > early\n> > > > > and\n> > > > > > > > > probably that would disconnect the underlying\nsocket so\n> there\n> > > > would\n> > > > > > be\n> > > > > > > no\n> > > > > > > > > leaks.\n> > > > > > > > >\n> > > > > > > > > Thanks,\n> > > > > > > > > Susmit\n> > > > > > > > >\n> > > > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 11525,
+      "end": 11648,
+      "text": "> > > > > > > > > On Sat, May 13, 2017 at 7:42 AM, Joel Bernstein\n<\n> > > > > joelsolr@gmail.com>\n> > > > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 11840,
+      "end": 11945,
+      "text": "> > > > > > > > > >\n> > > > > > > > > > Joel Bernstein\n> > > > > > > > > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 11648,
+      "end": 11965,
+      "text": "> > > > > > > > >\n> > > > > > > > > > If the client closes the connection to the\nexport handler\n> > > then\n> > > > > this\n> > > > > > > > > > exception will occur automatically on the\nserver.\n> > > > > > > > > >\n> > > > > > > > > > Joel Bernstein\n> > > > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 11965,
+      "end": 12102,
+      "text": "> > > > > > > > > > On Sat, May 13, 2017 at 1:46 AM, Susmit\nShukla <\n> > > > > > > > shukla.susmit@gmail.com>\n> > > > > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 12102,
+      "end": 12153,
+      "text": "> > > > > > > > > >\n> > > > > > > > > > > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 12421,
+      "end": 12502,
+      "text": "> > > > > > > > > > >\n> > > > > > > > > > > Thanks,\n> > > > > > > > > > > Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 12102,
+      "end": 12524,
+      "text": "> > > > > > > > > >\n> > > > > > > > > > > Hi Joel,\n> > > > > > > > > > >\n> > > > > > > > > > > Thanks for the insight. How can this\nexception be\n> > > > thrown/forced\n> > > > > > > from\n> > > > > > > > > > client\n> > > > > > > > > > > side. Client can't do a System.exit()\nas it is running\n> > as a\n> > > > > > webapp.\n> > > > > > > > > > >\n> > > > > > > > > > > Thanks,\n> > > > > > > > > > > Susmit\n> > > > > > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 12524,
+      "end": 12659,
+      "text": "> > > > > > > > > > > On Fri, May 12, 2017 at 4:44 PM, Joel\nBernstein <\n> > > > > > > joelsolr@gmail.com>\n> > > > > > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 13147,
+      "end": 13264,
+      "text": "> > > > > > > > > > > >\n> > > > > > > > > > > > Joel Bernstein\n> > > > > > > > > > > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 12659,
+      "end": 13288,
+      "text": "> > > > > > > > > > >\n> > > > > > > > > > > > In this scenario the /export handler\ncontinues to\n> > export\n> > > > > > results\n> > > > > > > > > until\n> > > > > > > > > > it\n> > > > > > > > > > > > encounters a \"Broken Pipe\" exception.\nThis exception\n> is\n> > > > > trapped\n> > > > > > > and\n> > > > > > > > > > > ignored\n> > > > > > > > > > > > rather then logged as it's not\nconsidered an\n> exception\n> > if\n> > > > the\n> > > > > > > > client\n> > > > > > > > > > > > disconnects early.\n> > > > > > > > > > > >\n> > > > > > > > > > > > Joel Bernstein\n> > > > > > > > > > > > http://joelsolr.blogspot.com/\n> > > > > > > > > > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 13288,
+      "end": 13437,
+      "text": "> > > > > > > > > > > > On Fri, May 12, 2017 at 2:10 PM,\nSusmit Shukla <\n> > > > > > > > > > shukla.susmit@gmail.com>\n> > > > > > > > > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 13437,
+      "end": 13491,
+      "text": "> > > > > > > > > > > >\n> > > > > > > > > > > > > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 16540,
+      "end": 16633,
+      "text": "> > > > > > > > > > > > >\n> > > > > > > > > > > > > Thanks,\n> > > > > > > > > > > > > Susmit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 13437,
+      "end": 16816,
+      "text": "> > > > > > > > > > > >\n> > > > > > > > > > > > > Hi,\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > I have a question regarding\nsolr /export handler.\n> > Here\n> > > is\n> > > > > the\n> > > > > > > > > > scenario\n> > > > > > > > > > > -\n> > > > > > > > > > > > > I want to use the /export\nhandler - I only need\n> > sorted\n> > > > data\n> > > > > > and\n> > > > > > > > > this\n> > > > > > > > > > is\n> > > > > > > > > > > > the\n> > > > > > > > > > > > > fastest way to get it. I\nam doing multiple level\n> > joins\n> > > > > using\n> > > > > > > > > streams\n> > > > > > > > > > > > using\n> > > > > > > > > > > > > /export handler. I know the\nnumber of top level\n> > records\n> > > > to\n> > > > > be\n> > > > > > > > > > retrieved\n> > > > > > > > > > > > but\n> > > > > > > > > > > > > not for each individual stream\nrolling up to the\n> > final\n> > > > > > result.\n> > > > > > > > > > > > > I observed that calling close()\non a /export stream\n> > is\n> > > > too\n> > > > > > > > > expensive.\n> > > > > > > > > > > It\n> > > > > > > > > > > > > reads the stream to the very\nend of hits. Assuming\n> > > there\n> > > > > are\n> > > > > > > 100\n> > > > > > > > > > > million\n> > > > > > > > > > > > > hits for each stream ,first\n1k records were found\n> > after\n> > > > > joins\n> > > > > > > and\n> > > > > > > > > we\n> > > > > > > > > > > call\n> > > > > > > > > > > > > close() after that, it would\ntake many\n> minutes/hours\n> > to\n> > > > > > finish\n> > > > > > > > it.\n> > > > > > > > > > > > > Currently I have put close()\ncall in a different\n> > > thread -\n> > > > > > > > basically\n> > > > > > > > > > > fire\n> > > > > > > > > > > > > and forget. But the cluster\nis very strained\n> because\n> > of\n> > > > the\n> > > > > > > > > > > unneccessary\n> > > > > > > > > > > > > reads.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Internally streaming uses\nChunkedInputStream of\n> > > > HttpClient\n> > > > > > and\n> > > > > > > it\n> > > > > > > > > has\n> > > > > > > > > > > to\n> > > > > > > > > > > > be\n> > > > > > > > > > > > > drained in the close() call.\nBut from server point\n> of\n> > > > view,\n> > > > > > it\n> > > > > > > > > should\n> > > > > > > > > > > > stop\n> > > > > > > > > > > > > sending more data once close()\nhas been issued.\n> > > > > > > > > > > > > There is a read() call in\nclose() method of\n> > > > > > ChunkedInputStream\n> > > > > > > > that\n> > > > > > > > > > is\n> > > > > > > > > > > > > indistinguishable from real\nread(). If /export\n> > handler\n> > > > > stops\n> > > > > > > > > sending\n> > > > > > > > > > > more\n> > > > > > > > > > > > > data after close it would\nbe very useful.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Another option would be to\nuse /select handler and\n> > get\n> > > > into\n> > > > > > > > > business\n> > > > > > > > > > of\n> > > > > > > > > > > > > managing a custom cursor\nmark that is based on the\n> > > stream\n> > > > > > sort\n> > > > > > > > and\n> > > > > > > > > is\n> > > > > > > > > > > > reset\n> > > > > > > > > > > > > until it fetches the required\nrecords at topmost\n> > level.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Any thoughts.\n> > > > > > > > > > > > >\n> > > > > > > > > > > > > Thanks,\n> > > > > > > > > > > > > Susmit\n> > > > > > > > > > > > >\n> > > > > > > > > > > >\n> > > > > > > > > > >\n> > > > > > > > > >\n> > > > > > > > >\n> > > > > > > >\n> > > > > > >\n> > > > > >\n> > > > >\n> > > >\n> > >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3371"
+}

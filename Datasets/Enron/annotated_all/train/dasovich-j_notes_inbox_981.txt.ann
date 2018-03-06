@@ -1,0 +1,97 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi, Jeff --\n\nI hope you had a great weekend.  I'm wondering if you've heard anything\nabout the coalition's decision making process for a PR agency.  I did call\nRick Counihan on Friday but his voicemail said he was out of town on\nThursday and Friday.  Chances are I'll hear from him this morning -- I'll\nlet you know if I do.  In the meantime, if you have any scoop, I'm all ears!\n\nThanks,\n\nDana\n\n\nDana Perino\ndana@gablegroup.com\n619-234-1300 ext. 238",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 4,
+      "end": 8,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 8,
+      "text": "Hi, Jeff",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 390,
+      "end": 394,
+      "text": "Dana",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 381,
+      "end": 394,
+      "text": "Thanks,\n\nDana",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 397,
+      "end": 408,
+      "text": "Dana Perino",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 409,
+      "end": 428,
+      "text": "dana@gablegroup.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 429,
+      "end": 441,
+      "text": "619-234-1300",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 397,
+      "end": 450,
+      "text": "Dana Perino\ndana@gablegroup.com\n619-234-1300 ext. 238",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 450,
+      "text": "Hi, Jeff --\n\nI hope you had a great weekend.  I'm wondering if you've heard anything\nabout the coalition's decision making process for a PR agency.  I did call\nRick Counihan on Friday but his voicemail said he was out of town on\nThursday and Friday.  Chances are I'll hear from him this morning -- I'll\nlet you know if I do.  In the meantime, if you have any scoop, I'm all ears!\n\nThanks,\n\nDana\n\n\nDana Perino\ndana@gablegroup.com\n619-234-1300 ext. 238",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23264363.1075843124359.JavaMail.evans@thyme>",
+      "Date": "Mon, 16 Oct 2000 01:33:00 -0700 (PDT)",
+      "From": "dana@gablegroup.com",
+      "To": "jdasovic@enron.com",
+      "Subject": "Hi -- Any Word This Morning?",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Dana Perino <dana@gablegroup.com>",
+      "X-To": "jdasovic@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  }
+}

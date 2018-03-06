@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear all,\n\nI would appreciate if anyone could explain when does mapWithState terminate, i.e. apply subsequent\ntransformations such as writing the state to an external sink? \n\nGiven a KafkaConsumer instance pulling messages from a Kafka topic, and a mapWithState transformation\nupdating the state given a certain key, the subsequent foreachRDD transformation is not being\napplied at all. However, when running the application in debug mode using a sufficiently small\ninput data size, of for example a few thousand messages, the foreachRDD transformation is\napplied upon consumption of all messages. Is this the desired behaviour? Does the timeout\ninterval of the mapWithState control this behaviour, and if yes, what is the default value?\nIn addition, is there an alternative in updating state for a given key, and writing the output\nto within the foreachRDD/foreachPartition transformation every n seconds?\n\nThanks in advance,\nDominik \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Dear all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 907,
+      "end": 936,
+      "text": "\nThanks in advance,\nDominik \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 936,
+      "text": "Dear all,\n\nI would appreciate if anyone could explain when does mapWithState terminate, i.e. apply subsequent\ntransformations such as writing the state to an external sink? \n\nGiven a KafkaConsumer instance pulling messages from a Kafka topic, and a mapWithState transformation\nupdating the state given a certain key, the subsequent foreachRDD transformation is not being\napplied at all. However, when running the application in debug mode using a sufficiently small\ninput data size, of for example a few thousand messages, the foreachRDD transformation is\napplied upon consumption of all messages. Is this the desired behaviour? Does the timeout\ninterval of the mapWithState control this behaviour, and if yes, what is the default value?\nIn addition, is there an alternative in updating state for a given key, and writing the output\nto within the foreachRDD/foreachPartition transformation every n seconds?\n\nThanks in advance,\nDominik \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3363"
+}

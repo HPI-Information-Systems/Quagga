@@ -1,0 +1,141 @@
+{
+  "wrapper": "plaintext",
+  "text": "In case anyone was wondering.....\n\nRE: Tax Refunds\n\n The amount of your payment is based on the taxable income shown on your\n 2000 return. The amount is 5% of your taxable income up to a maximum of\n $300 for a single taxpayer, $500 for head of household and $600 for a\n married couple filing jointly. If your tax liability after nonrefundable\n credits is less than these maximum amounts, your limit is the smaller of\n this amount or 5% of your taxable income. If you did not have a tax\n liability for 2000 but do have one for 2001, you may be able to claim the\n tax credit on your 2001 return.\n\n This means for those of you who made at least $6000 in taxable income\n last year (2000), you will receive $300 back on the date scheduled below:\n\n\n\n\n\n Receive your check by:\n\n         Last two digits of your SSN:\n\n July 23\n           00-09\n July 30\n           10-19\n August 6\n           20-29\n August 13\n           30-39\n August 20\n           40-49\n August 27\n           50-59\n Sept 3\n           60-69\n Sept 10\n           70-79\n Sept 17\n           80-89\n Sept 24\n           90-99\n\n\n\n         See you at the liquor store!\n\n\n\n\n\n\nRyan F. Ruppert\nGeologist\nSaudi Arabia Gas Resources\nExxonMobil Exploration\nGPP3-389\nP.O. Box 4778\nHouston, Texas 77210\n281.423.5360 Telephone\n281.885.1584 Facsimile\nryan.ruppert@exxonmobil.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1123,
+      "end": 1138,
+      "text": "Ryan F. Ruppert",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1139,
+      "end": 1148,
+      "text": "Geologist",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1149,
+      "end": 1198,
+      "text": "Saudi Arabia Gas Resources\nExxonMobil Exploration",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1199,
+      "end": 1242,
+      "text": "GPP3-389\nP.O. Box 4778\nHouston, Texas 77210",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1243,
+      "end": 1255,
+      "text": "281.423.5360",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1266,
+      "end": 1278,
+      "text": "281.885.1584",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1289,
+      "end": 1316,
+      "text": "ryan.ruppert@exxonmobil.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1123,
+      "end": 1316,
+      "text": "Ryan F. Ruppert\nGeologist\nSaudi Arabia Gas Resources\nExxonMobil Exploration\nGPP3-389\nP.O. Box 4778\nHouston, Texas 77210\n281.423.5360 Telephone\n281.885.1584 Facsimile\nryan.ruppert@exxonmobil.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 1316,
+      "text": "In case anyone was wondering.....\n\nRE: Tax Refunds\n\n The amount of your payment is based on the taxable income shown on your\n 2000 return. The amount is 5% of your taxable income up to a maximum of\n $300 for a single taxpayer, $500 for head of household and $600 for a\n married couple filing jointly. If your tax liability after nonrefundable\n credits is less than these maximum amounts, your limit is the smaller of\n this amount or 5% of your taxable income. If you did not have a tax\n liability for 2000 but do have one for 2001, you may be able to claim the\n tax credit on your 2001 return.\n\n This means for those of you who made at least $6000 in taxable income\n last year (2000), you will receive $300 back on the date scheduled below:\n\n\n\n\n\n Receive your check by:\n\n         Last two digits of your SSN:\n\n July 23\n           00-09\n July 30\n           10-19\n August 6\n           20-29\n August 13\n           30-39\n August 20\n           40-49\n August 27\n           50-59\n Sept 3\n           60-69\n Sept 10\n           70-79\n Sept 17\n           80-89\n Sept 24\n           90-99\n\n\n\n         See you at the liquor store!\n\n\n\n\n\n\nRyan F. Ruppert\nGeologist\nSaudi Arabia Gas Resources\nExxonMobil Exploration\nGPP3-389\nP.O. Box 4778\nHouston, Texas 77210\n281.423.5360 Telephone\n281.885.1584 Facsimile\nryan.ruppert@exxonmobil.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 7,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24882115.1075858574007.JavaMail.evans@thyme>",
+      "Date": "Thu, 21 Jun 2001 12:00:10 -0700 (PDT)",
+      "From": "ryan.ruppert@exxonmobil.com",
+      "Subject": "Thanks Uncle Sam...Bock.....Bock....",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "ryan.ruppert@exxonmobil.com@ENRON <IMCEANOTES-ryan+2Eruppert+40exxonmobil+2Ecom+40ENRON@ENRON.com>",
+      "X-To": "KDARBY@BREITBURN.COM, davitt@prodigy.net, lauragammell@hotmail.com, Egillaspie@coral-energy.com, Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>, aaron@inetz.com, mawalla@earthlink.com, chris.willan@exxonmobil.com, carrie.e.nolan@exxonmobil.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Nemec, Gerald (Non-Privileged)\\Nemec, Gerald\\Inbox",
+      "X-Origin": "Nemec-G",
+      "X-FileName": "Nemec, Gerald (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_inbox_849.txt"
+}

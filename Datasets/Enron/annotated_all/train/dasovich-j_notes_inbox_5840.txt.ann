@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please see the v:mail message below from Rick Shapiro that was transcribed =\nby=20\nLora Sullivan.\n\n----- Forwarded by Linda Robertson/NA/Enron on 01/10/2001 09:22 AM -----\n\n=09Lora Sullivan\n=0901/10/2001 09:01 AM\n=09=09=20\n=09=09 To: Linda Robertson/NA/Enron@ENRON\n=09=09 cc:=20\n=09=09 Subject: Voicemail message from Rick Shapiro 1:10 AM 1/10/00\n\nRick Shapiro   Voicemail 1:30 AM 1/10/01\n   =20\nPlease pass this message on to Hartsoe and others as well.  Meeting went=20\nuntil 12:15 PM.  He=01,s not going into details now.   During the course of=\n the=20\nday there were several meetings and a proposal.  There was sort of an=20\nagreement =01) I wouldn=01,t say it was a conceptual agreement that was rea=\nched=20\namong the parties that is going to be released by Treasury today.  I=01,m n=\not=20\nsure much will come of it.  It=01,s going to create some motion.  I talked =\nto=20\nSue Mara.  Sue will be coming over to the office and you=01,ll need someone=\n else=20\nto go with her because of the fact there are two working groups instead of=\n=20\none.  I=01,m going to read to you the statement:\n\nThe Governor of CA and a bipartisan leadership of the state legislature met=\n=20\nwith major generators including qualifying facilities, marketers, utility=\n=20\nregulators and federal officials to discuss the electricity situation in CA=\n. =20\nRecognizing the importance of the issue as laid out in the Governor=01,s St=\nate=20\nof the State speech last evening, the partipants agreed for the need for=20\ncooperation to maintain stability and avoid bankruptcy for the utilities an=\nd=20\nassure the long term regulation of market conditions.  Crucial elements of=\n=20\nthe solution include: =20\n\n? The development of approaches to promote long-term purchases of electrici=\nty=20\npossibily by States and generators at an attractive fixed rate - an=20\noption-type of an idea perhaps using some type of existing state agency lik=\ne=20\nDWR - Dept. of Water and Resources to basically create the credit and=20\ninsulation for suppliers from the utilities.\n\n? The willingness for generators, qualifying facilities and markets to=20\nprovide on the short-term basis for current amounts owed by PGE and Edison =\nin=20\nthe context of the framework of a long-term solution\n\n? The need to find satisfactory approaches with respect to the obligation=\n=20\naccumulation of the utilitles for the purchase of power consistent with=20\ncontractual obligations and which are in the public interest.\n\n? Cooperation to better match supply and demand in the short and long-term.\n\n? Review of the existing qualifying facilities payments to directors.\n\nThe parties ackknoweldge the problem must be addresed while taking into=20\naccount the regional market.  Further working groups will be convened on=20\nWednesday, and there will be two working groups to address to address=20\ntechnical details.  Principals will reconvene this weekend.  One working=20\ngroup will deal with long-term auction and QF issues.  The first and the la=\nst=20\nbullets and the second and the third bullets which have to do more with the=\n=20\narrearages, the debt and the obligations that have been accumulated for the=\n=20\npurchase of the power is the second  working group. =20\n\nI think I=01,ve read it all.  The working groups (see first and last bullet=\ns)=20\nSue is best equipped to handle.  If we need to send another person over wit=\nh=20\nSue to sit on the second working group that deals with the unrecovered and=\n=20\nunpaid obligations of the utilites.  Sarah Novosel should do that. =20\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 99,
+      "text": "Please see the v:mail message below from Rick Shapiro that was transcribed =\nby=20\nLora Sullivan.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 83,
+      "end": 98,
+      "text": "Lora Sullivan.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 99,
+      "end": 172,
+      "text": "----- Forwarded by Linda Robertson/NA/Enron on 01/10/2001 09:22 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 172,
+      "end": 347,
+      "text": "\n=09Lora Sullivan\n=0901/10/2001 09:01 AM\n=09=09=20\n=09=09 To: Linda Robertson/NA/Enron@ENRON\n=09=09 cc:=20\n=09=09 Subject: Voicemail message from Rick Shapiro 1:10 AM 1/10/00\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 347,
+      "end": 3539,
+      "text": "\nRick Shapiro   Voicemail 1:30 AM 1/10/01\n   =20\nPlease pass this message on to Hartsoe and others as well.  Meeting went=20\nuntil 12:15 PM.  He=01,s not going into details now.   During the course of=\n the=20\nday there were several meetings and a proposal.  There was sort of an=20\nagreement =01) I wouldn=01,t say it was a conceptual agreement that was rea=\nched=20\namong the parties that is going to be released by Treasury today.  I=01,m n=\not=20\nsure much will come of it.  It=01,s going to create some motion.  I talked =\nto=20\nSue Mara.  Sue will be coming over to the office and you=01,ll need someone=\n else=20\nto go with her because of the fact there are two working groups instead of=\n=20\none.  I=01,m going to read to you the statement:\n\nThe Governor of CA and a bipartisan leadership of the state legislature met=\n=20\nwith major generators including qualifying facilities, marketers, utility=\n=20\nregulators and federal officials to discuss the electricity situation in CA=\n. =20\nRecognizing the importance of the issue as laid out in the Governor=01,s St=\nate=20\nof the State speech last evening, the partipants agreed for the need for=20\ncooperation to maintain stability and avoid bankruptcy for the utilities an=\nd=20\nassure the long term regulation of market conditions.  Crucial elements of=\n=20\nthe solution include: =20\n\n? The development of approaches to promote long-term purchases of electrici=\nty=20\npossibily by States and generators at an attractive fixed rate - an=20\noption-type of an idea perhaps using some type of existing state agency lik=\ne=20\nDWR - Dept. of Water and Resources to basically create the credit and=20\ninsulation for suppliers from the utilities.\n\n? The willingness for generators, qualifying facilities and markets to=20\nprovide on the short-term basis for current amounts owed by PGE and Edison =\nin=20\nthe context of the framework of a long-term solution\n\n? The need to find satisfactory approaches with respect to the obligation=\n=20\naccumulation of the utilitles for the purchase of power consistent with=20\ncontractual obligations and which are in the public interest.\n\n? Cooperation to better match supply and demand in the short and long-term.\n\n? Review of the existing qualifying facilities payments to directors.\n\nThe parties ackknoweldge the problem must be addresed while taking into=20\naccount the regional market.  Further working groups will be convened on=20\nWednesday, and there will be two working groups to address to address=20\ntechnical details.  Principals will reconvene this weekend.  One working=20\ngroup will deal with long-term auction and QF issues.  The first and the la=\nst=20\nbullets and the second and the third bullets which have to do more with the=\n=20\narrearages, the debt and the obligations that have been accumulated for the=\n=20\npurchase of the power is the second  working group. =20\n\nI think I=01,ve read it all.  The working groups (see first and last bullet=\ns)=20\nSue is best equipped to handle.  If we need to send another person over wit=\nh=20\nSue to sit on the second working group that deals with the unrecovered and=\n=20\nunpaid obligations of the utilites.  Sarah Novosel should do that. =20\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1604641.1075843762180.JavaMail.evans@thyme>",
+      "Date": "Wed, 10 Jan 2001 01:02:00 -0800 (PST)",
+      "From": "ginger.dernehl@enron.com",
+      "To": "sandra.mccubbin@enron.com, paul.kaufman@enron.com, jeff.dasovich@enron.com, \n\tsusan.mara@enron.com",
+      "Subject": "Voicemail message from Rick Shapiro 1:10 AM 1/10/00",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Ginger Dernehl",
+      "X-To": "Sandra McCubbin, Paul Kaufman, Jeff Dasovich, Susan J Mara",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_5840.txt"
+}

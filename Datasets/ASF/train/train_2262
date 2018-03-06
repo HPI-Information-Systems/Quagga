@@ -1,0 +1,39 @@
+Hi Everyone,
+
+I have a document that contains data like this "Bachelor's degree is easier
+to get" in the 'body' field and I am making a query on this field searching
+for word 'Bachelor's degree' like this - query?fq=body:"bachelor%27s%
+20degree"&fl=body_frequency:termfreq(body,"bachelor%27s%20degree"),body and
+I am getting zero results in response even when I have documents that
+contains words like 'Bachelor's degree'.
+
+I checked in the admin panel tab , there i can see the
+WordDelimiterFilterFactory applied on the word 'Bachelor's Degree' and
+converting it to 'Bachelor degree'. So both in the Field Value (Query) and
+Field Value (Index) the WordDelimiterFilterFactory is converting the word
+'Bachelor's Degree' to 'Bachelor's Degree' , SO why I am getting zero
+results when quering. I have attached the screenshots of my analysis page.
+
+
+I have attached a code file 'code.txt' where you can see the code for the
+field 'body'.
+
+
+Please tell me what Am I doing wrong.
+
+Thanks
+
+-- 
+*CONFIDENTIALITY NOTICE: This e-mail transmission, and any documents, files 
+or previous e-mail messages attached to it, are confidential and may be 
+privileged.  If you are not the intended recipient, or a person responsible 
+for delivering it to the intended recipient, you are hereby notified that 
+any review, disclosure, copying, distribution, retransmission, 
+dissemination or other use of any of the information contained in, or 
+attached to, this transmission is STRICTLY PROHIBITED.  If you have 
+received this transmission in error, please immediately notify the sender. 
+ Please destroy the original transmission and its attachments without 
+reading or saving in any manner. Thank you.*
+
+*algoscale technologies private limited*
+

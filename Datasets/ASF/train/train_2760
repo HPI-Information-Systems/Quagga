@@ -1,0 +1,17 @@
+Well, I know they can change.
+
+I think, the main problem here it that (in this point) documents completely
+unrelated to a topic are being ranked as high as documents related. So, in
+order to penalize them we are trying to use the ratio or term frequency/word
+length.
+
+Nevertheless we aren't able to find a practical way to make it.
+
+Greetings.
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Modify-solr-score-tp4331300p4331342.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

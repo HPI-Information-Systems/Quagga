@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nHow to tune the Spark Jobs that use groupBy operations? Earlier I used to\nuse  --conf spark.shuffle.memoryFraction=0.8 --conf \nspark.storage.memoryFraction=0.1  to tune my jobs that use groupBy. But,\nwith Spark 2.x this configs seem to have been deprecated. \n\nWhat would be the appropriate config options to tune the Spark Jobs that use\ngroupBy operations?\n\nThanks,\nSwetha\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/How-to-tune-groupBy-operations-in-Spark-2-x-tp28451.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 362,
+      "end": 378,
+      "text": "\nThanks,\nSwetha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 726,
+      "text": "Hi,\n\nHow to tune the Spark Jobs that use groupBy operations? Earlier I used to\nuse  --conf spark.shuffle.memoryFraction=0.8 --conf \nspark.storage.memoryFraction=0.1  to tune my jobs that use groupBy. But,\nwith Spark 2.x this configs seem to have been deprecated. \n\nWhat would be the appropriate config options to tune the Spark Jobs that use\ngroupBy operations?\n\nThanks,\nSwetha\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/How-to-tune-groupBy-operations-in-Spark-2-x-tp28451.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1693"
+}

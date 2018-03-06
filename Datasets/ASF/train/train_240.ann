@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hmmm, have you changed any of the settings for autoAddReplcia? There\nare several parameters that govern how long before a replica would be\nadded.\n\nBut I suggest you use the Cloudera resources for this question, not\nonly did they write this functionality, but Cloudera support is deeply\nembedded in HDFS and I suspect has _by far_ the most experience with\nit.\n\nAnd that said, anything you find out that would suggest good ways to\nclarify the docs would be most welcome!\n\nBest,\nErick\n\nOn Thu, Jan 12, 2017 at 8:42 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> On 1/11/2017 7:14 PM, Chetas Joshi wrote:\n>> This is what I understand about how Solr works on HDFS. Please correct me\n>> if I am wrong.\n>>\n>> Although solr shard replication Factor = 1, HDFS default replication = 3.\n>> When the node goes down, the solr server running on that node goes down and\n>> hence the instance (core) representing the replica goes down. The data in\n>> on HDFS (distributed across all the datanodes of the hadoop cluster with 3X\n>> replication).  This is the reason why I have kept replicationFactor=1.\n>>\n>> As per the link:\n>> https://cwiki.apache.org/confluence/display/solr/Running+Solr+on+HDFS\n>> One benefit to running Solr in HDFS is the ability to automatically add new\n>> replicas when the Overseer notices that a shard has gone down. Because the\n>> \"gone\" index shards are stored in HDFS, a new core will be created and the\n>> new core will point to the existing indexes in HDFS.\n>>\n>> This is the expected behavior of Solr overseer which I am not able to see.\n>> After a couple of hours a node was assigned to host the shard but the\n>> status of the shard is still \"down\" and the instance dir is missing on that\n>> node for that particular shard_replica.\n>\n> As I said before, I know very little about HDFS, so the following could\n> be wrong, but it makes sense so I'll say it:\n>\n> I would imagine that Solr doesn't know or care what your HDFS\n> replication is ... the only replicas it knows about are the ones that it\n> is managing itself.  The autoAddReplicas feature manages *SolrCloud*\n> replicas, not HDFS replicas.\n>\n> I have seen people say that multiple SolrCloud replicas will take up\n> additional space in HDFS -- they do not point at the same index files.\n> This is because proper Lucene operation requires that it lock an index\n> and prevent any other thread/process from writing to the index at the\n> same time.  When you index, SolrCloud updates all replicas independently\n> -- the only time indexes are replicated is when you add a new replica or\n> a serious problem has occurred and an index needs to be recovered.\n>\n> Thanks,\n> Shawn\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 469,
+      "end": 482,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 483,
+      "text": "Hmmm, have you changed any of the settings for autoAddReplcia? There\nare several parameters that govern how long before a replica would be\nadded.\n\nBut I suggest you use the Cloudera resources for this question, not\nonly did they write this functionality, but Cloudera support is deeply\nembedded in HDFS and I suspect has _by far_ the most experience with\nit.\n\nAnd that said, anything you find out that would suggest good ways to\nclarify the docs would be most welcome!\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 483,
+      "end": 558,
+      "text": "On Thu, Jan 12, 2017 at 8:42 AM, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 558,
+      "end": 602,
+      "text": "> On 1/11/2017 7:14 PM, Chetas Joshi wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2625,
+      "end": 2645,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 602,
+      "end": 2648,
+      "text": ">> This is what I understand about how Solr works on HDFS. Please correct me\n>> if I am wrong.\n>>\n>> Although solr shard replication Factor = 1, HDFS default replication = 3.\n>> When the node goes down, the solr server running on that node goes down and\n>> hence the instance (core) representing the replica goes down. The data in\n>> on HDFS (distributed across all the datanodes of the hadoop cluster with 3X\n>> replication).  This is the reason why I have kept replicationFactor=1.\n>>\n>> As per the link:\n>> https://cwiki.apache.org/confluence/display/solr/Running+Solr+on+HDFS\n>> One benefit to running Solr in HDFS is the ability to automatically add new\n>> replicas when the Overseer notices that a shard has gone down. Because the\n>> \"gone\" index shards are stored in HDFS, a new core will be created and the\n>> new core will point to the existing indexes in HDFS.\n>>\n>> This is the expected behavior of Solr overseer which I am not able to see.\n>> After a couple of hours a node was assigned to host the shard but the\n>> status of the shard is still \"down\" and the instance dir is missing on that\n>> node for that particular shard_replica.\n>\n> As I said before, I know very little about HDFS, so the following could\n> be wrong, but it makes sense so I'll say it:\n>\n> I would imagine that Solr doesn't know or care what your HDFS\n> replication is ... the only replicas it knows about are the ones that it\n> is managing itself.  The autoAddReplicas feature manages *SolrCloud*\n> replicas, not HDFS replicas.\n>\n> I have seen people say that multiple SolrCloud replicas will take up\n> additional space in HDFS -- they do not point at the same index files.\n> This is because proper Lucene operation requires that it lock an index\n> and prevent any other thread/process from writing to the index at the\n> same time.  When you index, SolrCloud updates all replicas independently\n> -- the only time indexes are replicated is when you add a new replica or\n> a serious problem has occurred and an index needs to be recovered.\n>\n> Thanks,\n> Shawn\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_240"
+}

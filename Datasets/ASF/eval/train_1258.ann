@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vinshnu,\nYou can find the latest design discussion for incremental checkpoint in\nhttp://apache-flink-mailing-list-archive.1008284.n3.nabble.com/DISCUSS-Support-Incremental-Checkpointing-in-Flink-td15931.html\n @Stefan Richter\n<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=srichter>\nand @Xiaogang\nShi\n<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=xiaogang.shi>\nmight\nbe the right person to provide you its on-going status.\n\ncheers,\nShaoxuan\n\nOn Sat, Mar 4, 2017 at 5:14 AM, Vishnu Viswanath <\nvishnu.viswanath25@gmail.com> wrote:\n\n> Hi,\n>\n> Can someone point me to the branch where the ongoing work for incremental\n> checkpoint is going on, I would like to try it out even if the work is not\n> complete.\n>\n> I have a use case where the state size increase about ~1gb every 5 minutes.\n>\n> Thanks,\n> Vishnu\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Vinshnu,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 451,
+      "end": 469,
+      "text": "\ncheers,\nShaoxuan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 470,
+      "end": 558,
+      "text": "On Sat, Mar 4, 2017 at 5:14 AM, Vishnu Viswanath <\nvishnu.viswanath25@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 470,
+      "text": "Vinshnu,\nYou can find the latest design discussion for incremental checkpoint in\nhttp://apache-flink-mailing-list-archive.1008284.n3.nabble.com/DISCUSS-Support-Incremental-Checkpointing-in-Flink-td15931.html\n @Stefan Richter\n<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=srichter>\nand @Xiaogang\nShi\n<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=xiaogang.shi>\nmight\nbe the right person to provide you its on-going status.\n\ncheers,\nShaoxuan\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 558,
+      "end": 565,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 812,
+      "end": 833,
+      "text": ">\n> Thanks,\n> Vishnu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 558,
+      "end": 836,
+      "text": "\n> Hi,\n>\n> Can someone point me to the branch where the ongoing work for incremental\n> checkpoint is going on, I would like to try it out even if the work is not\n> complete.\n>\n> I have a use case where the state size increase about ~1gb every 5 minutes.\n>\n> Thanks,\n> Vishnu\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1258"
+}

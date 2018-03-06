@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "I spoke with Karen Lindley about volume not being allocated.  She said that \nshe passed it on to Fred Boas.\n\n\n\n\n\n\nDaren J Farmer\n02/21/2001 04:46 PM\nTo: Charlene Richmond/HOU/ECT@ECT\ncc: Fred Boas/HOU/EES@EES, Melissa Graves/HOU/ECT@ECT, Karen \nLindley/Corp/Enron@ENRON \nSubject: Re: Meter 5892  \n\nI have done deals with John at this point.  Why are we not being allocated \nany volume?\n\nD\n\n\n\nCharlene Richmond\n02/21/2001 02:59 PM\nTo: Fred Boas/HOU/EES@EES, Daren J Farmer/HOU/ECT@ECT, Melissa \nGraves/HOU/ECT@ECT\ncc: Karen Lindley/Corp/Enron@ENRON \nSubject: Meter 5892\n\nI am getting several phone calls from Alpine Resources demanding to be paid \nfor meter 5892 and there is nothing there to be paid.  \n\nThe person name doing the requesting is John Childers and he said that he \nspoke to Daren Farmer.  He is looking for 859 mmbtu's for December, 2000 and \n3,251 mmbtu's for January 2001 .  This is on the Katy Gas Unit.  If anyone \nwould like to talk to John his phone number is 281-646-0232\n\n\nCharlene\nX31539\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 114,
+      "text": "I spoke with Karen Lindley about volume not being allocated.  She said that \nshe passed it on to Fred Boas.\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 114,
+      "end": 297,
+      "text": "Daren J Farmer\n02/21/2001 04:46 PM\nTo: Charlene Richmond/HOU/ECT@ECT\ncc: Fred Boas/HOU/EES@EES, Melissa Graves/HOU/ECT@ECT, Karen \nLindley/Corp/Enron@ENRON \nSubject: Re: Meter 5892  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 297,
+      "end": 392,
+      "text": "\nI have done deals with John at this point.  Why are we not being allocated \nany volume?\n\nD\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 386,
+      "end": 389,
+      "text": "\nD\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 392,
+      "end": 569,
+      "text": "Charlene Richmond\n02/21/2001 02:59 PM\nTo: Fred Boas/HOU/EES@EES, Daren J Farmer/HOU/ECT@ECT, Melissa \nGraves/HOU/ECT@ECT\ncc: Karen Lindley/Corp/Enron@ENRON \nSubject: Meter 5892\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 569,
+      "end": 1015,
+      "text": "\nI am getting several phone calls from Alpine Resources demanding to be paid \nfor meter 5892 and there is nothing there to be paid.  \n\nThe person name doing the requesting is John Childers and he said that he \nspoke to Daren Farmer.  He is looking for 859 mmbtu's for December, 2000 and \n3,251 mmbtu's for January 2001 .  This is on the Katy Gas Unit.  If anyone \nwould like to talk to John his phone number is 281-646-0232\n\n\nCharlene\nX31539\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 995,
+      "end": 1011,
+      "text": "Charlene\nX31539\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8613799.1075854291441.JavaMail.evans@thyme>",
+      "Date": "Wed, 21 Feb 2001 09:38:00 -0800 (PST)",
+      "From": "charlene.richmond@enron.com",
+      "To": "daren.farmer@enron.com",
+      "Subject": "Re: Meter 5892",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Charlene Richmond",
+      "X-To": "Daren J Farmer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darren_Farmer_Jun2001\\Notes Folders\\Discussion threads",
+      "X-Origin": "Farmer-D",
+      "X-FileName": "dfarmer.nsf"
+    }
+  },
+  "id": "eval/farmer-d_discussion_threads_4655.txt"
+}

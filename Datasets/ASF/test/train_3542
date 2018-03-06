@@ -1,0 +1,73 @@
+The  result is count = 0.
+
+2017-06-08 19:42 GMT+03:00 ayan guha <guha.ayan@gmail.com>:
+
+> What is the result of test.count()?
+>
+> On Fri, 9 Jun 2017 at 1:41 am, Даша Ковальчук <dashakovalchuk13@gmail.com>
+> wrote:
+>
+>> Thanks for your reply!
+>> Yes, I tried this solution and had the same result. Maybe you have
+>> another solution or maybe I can execute query in another way on remote
+>> cluster?
+>>
+>> 2017-06-08 18:30 GMT+03:00 Даша Ковальчук <dashakovalchuk13@gmail.com>:
+>>
+>>> Thanks for your reply!
+>>> Yes, I tried this solution and had the same result. Maybe you have
+>>> another solution or maybe I can execute query in another way on remote
+>>> cluster?
+>>>
+>>
+>>> 2017-06-08 18:10 GMT+03:00 Vadim Semenov <vadim.semenov@datadoghq.com>:
+>>>
+>>>> Have you tried running a query? something like:
+>>>>
+>>>> ```
+>>>> test.select("*").limit(10).show()
+>>>> ```
+>>>>
+>>>> On Thu, Jun 8, 2017 at 4:16 AM, Даша Ковальчук <
+>>>> dashakovalchuk13@gmail.com> wrote:
+>>>>
+>>>>> Hi guys,
+>>>>>
+>>>>> I need to execute hive queries on remote hive server from spark, but
+>>>>> for some reasons i receive only column names(without data).
+>>>>> Data available in table, I checked it via HUE and java jdbc
+>>>>>  connection.
+>>>>>
+>>>>> Here is my code example:
+>>>>> val test = spark.read
+>>>>>         .option("url", "jdbc:hive2://remote.hive.server:
+>>>>> 10000/work_base")
+>>>>>         .option("user", "user")
+>>>>>         .option("password", "password")
+>>>>>         .option("dbtable", "some_table_with_data")
+>>>>>         .option("driver", "org.apache.hive.jdbc.HiveDriver")
+>>>>>         .format("jdbc")
+>>>>>         .load()
+>>>>> test.show()
+>>>>>
+>>>>>
+>>>>> Scala version: 2.11
+>>>>> Spark version: 2.1.0, i also tried 2.1.1
+>>>>> Hive version: CDH 5.7 Hive 1.1.1
+>>>>> Hive JDBC version: 1.1.1
+>>>>>
+>>>>> But this problem available on Hive with later versions, too.
+>>>>> I didn't find anything in mail group answers and StackOverflow.
+>>>>> Could you, please, help me with this issue or could you help me find
+correct
+>>>>> solution how to query remote hive from spark?
+>>>>>
+>>>>> Thanks in advance!
+>>>>>
+>>>>
+>>>>
+>>> --
+> Best Regards,
+> Ayan Guha
+>
+

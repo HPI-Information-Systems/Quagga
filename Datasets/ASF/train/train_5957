@@ -1,0 +1,27 @@
+Is this a sharded collection? group.ngroups isn't supported (see the
+docs, "group.ngroups and group.facet require that all documents in
+each group must be co-located on the same shard") in sharded
+situations so it's not surprising that the results differ.
+
+Best,
+Erick
+
+On Thu, Sep 7, 2017 at 10:35 AM, Ray Niu <newry1979@gmail.com> wrote:
+> Hello:
+>    I tried to use Collapsing Query Parser per following link:
+>
+> https://cwiki.apache.org/confluence/display/solr/Collapse+and+Expand+Results
+> here is the query I am using
+> http://<host_name>/solr/collection/select?q=groupId:*&
+> fl=id,groupId,date&fq=%7B!collapse%20field=groupId%20sort=%27id%20asc%27%7D&
+> expand=true&expand.rows=3&sort=date%20asc&expand.sort=id%20asc&rows=3
+>
+> but I found the result is different from group query:
+> http://<host_name>/solr/collection/select?q=groupId:*&
+> fl=id,date,groupId&group=true&group.field=groupId&group.
+> limit=4&group.ngroups=true&sort=date%20asc&group.sort=id%20asc&rows=3
+>
+> it seems sort across collapsed document is not working.
+>
+> Can anyone help on this?
+

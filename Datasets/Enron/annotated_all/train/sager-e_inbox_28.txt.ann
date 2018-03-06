@@ -1,0 +1,167 @@
+{
+  "wrapper": "plaintext",
+  "text": "We just have been asked to review on an expedited basis all material contracts of ENE and ENA for change-of-control type provisions.  Please let us know what contracts or guidance you may have or know of; we need to begin reviewing/collecting information ASAP, i.e., this weekend.  If you know of someone who should receive this e-mail but who has not, please forward.  You may contact me at any of the below numbers.  \n\nThanks for your help.\n\nRegards, NJD\n\nNora J. Dobin\nSenior Counsel\nEnron Corp. - Global Finance\n1400 Smith Street, Suite 2083\nHouston, Texas 77002\n\nPhone:  713/345-7723\nFax:      713/853-9252\n\nHome:\t713/864-1175",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 453,
+      "end": 456,
+      "text": "NJD",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 421,
+      "end": 457,
+      "text": "Thanks for your help.\n\nRegards, NJD\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 458,
+      "end": 471,
+      "text": "Nora J. Dobin",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 472,
+      "end": 486,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 487,
+      "end": 515,
+      "text": "Enron Corp. - Global Finance",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 516,
+      "end": 566,
+      "text": "1400 Smith Street, Suite 2083\nHouston, Texas 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 576,
+      "end": 588,
+      "text": "713/345-7723",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 599,
+      "end": 611,
+      "text": "713/853-9252",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 619,
+      "end": 631,
+      "text": "713/864-1175",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 458,
+      "end": 631,
+      "text": "Nora J. Dobin\nSenior Counsel\nEnron Corp. - Global Finance\n1400 Smith Street, Suite 2083\nHouston, Texas 77002\n\nPhone:  713/345-7723\nFax:      713/853-9252\n\nHome:\t713/864-1175",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 631,
+      "text": "We just have been asked to review on an expedited basis all material contracts of ENE and ENA for change-of-control type provisions.  Please let us know what contracts or guidance you may have or know of; we need to begin reviewing/collecting information ASAP, i.e., this weekend.  If you know of someone who should receive this e-mail but who has not, please forward.  You may contact me at any of the below numbers.  \n\nThanks for your help.\n\nRegards, NJD\n\nNora J. Dobin\nSenior Counsel\nEnron Corp. - Global Finance\n1400 Smith Street, Suite 2083\nHouston, Texas 77002\n\nPhone:  713/345-7723\nFax:      713/853-9252\n\nHome:\t713/864-1175",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 8,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 9,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29677948.1075852273018.JavaMail.evans@thyme>",
+      "Date": "Fri, 26 Oct 2001 16:04:51 -0700 (PDT)",
+      "From": "nora.dobin@enron.com",
+      "To": "rex.rogers@enron.com, robert.eickenroht@enron.com, jim.armogida@enron.com, \n\tclement.abrams@enron.com, legal <.taylor@enron.com>, \n\tsheila.tweed@enron.com, h..george@enron.com, \n\telizabeth.sager@enron.com, n..gray@enron.com, g..bushman@enron.com, \n\talan.aronowitz@enron.com, peter.keohane@enron.com, \n\tjulia.murray@enron.com, j..heinitz@enron.com, deb.korkmas@enron.com, \n\tdan.lyons@enron.com, t..hodge@enron.com",
+      "Subject": "Material Contract Review -- ASAP",
+      "Cc": "e..haedicke@enron.com, legal <.schuler@enron.com>, jordan.mintz@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "e..haedicke@enron.com, legal <.schuler@enron.com>, jordan.mintz@enron.com",
+      "X-From": "Dobin, Nora </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NDOBIN>",
+      "X-To": "Rogers, Rex </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rroger2>, Eickenroht, Robert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Reicken>, Armogida, Jim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jarmogi>, Abrams, Clement </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cabrams>, Taylor, Mark E (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mtaylo1>, Tweed, Sheila </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Stweed>, George, Robert H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rgeorge>, Sager, Elizabeth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esager>, Gray, Barbara N. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bgray>, Bushman, Teresa G. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbushma>, Aronowitz, Alan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Aaronow>, Keohane, Peter </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pkeohan>, Murray, Julia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmurray>, Heinitz, Mary J. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mheinit>, Korkmas, Deb </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dkorkma>, Lyons, Dan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dlyons>, Hodge, Jeffrey T. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jhodge>",
+      "X-cc": "Haedicke, Mark E. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mhaedic>, Schuler, Lance (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lschule>, Mintz, Jordan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmintz>",
+      "X-bcc": "",
+      "X-Folder": "\\ESAGER (Non-Privileged)\\Inbox",
+      "X-Origin": "SAGER-E",
+      "X-FileName": "ESAGER (Non-Privileged).pst"
+    }
+  },
+  "id": "train/sager-e_inbox_28.txt"
+}

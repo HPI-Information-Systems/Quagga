@@ -1,0 +1,138 @@
+Hi,
+You need to add mode overwrite option to avoid this error.
+//P.Gupta
+
+Sent from Yahoo Mail on Android 
+ 
+  On Fri, 20 Jan, 2017 at 2:15 am, VND Tremblay, Paul<Tremblay.Paul@bcg.com> wrote:
+  
+I have come across a problem when writing CSV files to S3 in Spark 2.02. The problem does
+not exist in Spark 1.6.
+ 
+  
+ 19:09:20 Caused by: java.io.IOException: File already exists:s3://stx-apollo-pr-datascience-internal/revenue_model/part-r-00025-c48a0d52-9600-4495-913c-64ae6bf888bd.csv
+
+  
+ 
+  
+ 
+My code is this:
+ 
+  
+ 
+new_rdd\
+ 
+135         .map(add_date_diff)\
+ 
+136         .map(sid_offer_days)\
+ 
+137         .groupByKey()\
+ 
+138         .map(custom_sort)\
+ 
+139         .map(before_rev_date)\
+ 
+140         .map(lambda x, num_weeks = args.num_weeks: create_columns(x, num_weeks))\
+ 
+141         .toDF()\
+ 
+142         .write.csv(
+ 
+143                 sep = "|",
+ 
+144                 header = True,
+ 
+145                 nullValue = '',
+ 
+146                 quote = None,
+ 
+147                 path = path
+ 
+148                 )
+ 
+  
+ 
+In order to get the path (the last argument), I call this function:
+ 
+  
+ 
+150 def _get_s3_write(test):
+ 
+151     if s3_utility.s3_data_already_exists(_get_write_bucket_name(), _get_s3_write_dir(test)):
+ 
+152         s3_utility.remove_s3_dir(_get_write_bucket_name(), _get_s3_write_dir(test))
+ 
+153     return make_s3_path(_get_write_bucket_name(), _get_s3_write_dir(test))
+ 
+  
+ 
+In other words, I am removing the directory if it exists before I write.
+ 
+  
+ 
+Notes:
+ 
+  
+ 
+* If I use a small set of data, then I don't get the error
+ 
+  
+ 
+* If I use Spark 1.6, I don't get the error
+ 
+  
+ 
+* If I read in a simple dataframe and then write to S3, I still get the error (without doing
+any transformations)
+ 
+  
+ 
+* If I do the previous step with a smaller set of data, I don't get the error.
+ 
+  
+ 
+* I am using pyspark, with python 2.7
+ 
+  
+ 
+* The thread at this link: https://forums.aws.amazon.com/thread.jspa?threadID=152470  Indicates
+the problem is caused by a problem sync problem. With large datasets, spark tries to write
+multiple times and causes the error. The suggestion is to turn off speculation, but I believe
+speculation is turned off by default in pyspark.
+ 
+  
+ 
+Thanks!
+ 
+  
+ 
+Paul
+ 
+  
+ 
+  
+ 
+_____________________________________________________________________________________________________
+
+Paul Tremblay
+Analytics Specialist 
+
+THE BOSTON CONSULTING GROUP
+STL ▪ 
+
+Tel. + ▪ Mobile +
+tremblay.paul@bcg.com
+_____________________________________________________________________________________________________
+
+Read BCG's latest insights, analysis, and viewpoints atbcgperspectives.com
+ 
+
+The Boston Consulting Group, Inc.
+
+This e-mail message may contain confidential and/or privileged information.If you are not
+an addressee or otherwise authorized to receive this message,you should not use, copy, disclose
+or take any action based on this e-mail orany information contained in the message. If you
+have received this materialin error, please advise the sender immediately by reply e-mail
+and delete thismessage. Thank you.
+  
+

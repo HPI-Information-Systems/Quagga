@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "All,\n\nIs there possiblity in near future in coming new releases, adding shards\ndynamically though compositeId ( default ) based routing is used.\nCurrently only option is we need to split the shard, instead we should able\nto add shards dynamically and then on all new documents should go on new\nshards.\nIs there a plan to include this in coming release(s) ?\n\nRegards,\nGanesh\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Adding-shards-dynamically-when-the-automatic-routing-is-used-tp4333883.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 357,
+      "end": 374,
+      "text": "\nRegards,\nGanesh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 584,
+      "text": "All,\n\nIs there possiblity in near future in coming new releases, adding shards\ndynamically though compositeId ( default ) based routing is used.\nCurrently only option is we need to split the shard, instead we should able\nto add shards dynamically and then on all new documents should go on new\nshards.\nIs there a plan to include this in coming release(s) ?\n\nRegards,\nGanesh\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Adding-shards-dynamically-when-the-automatic-routing-is-used-tp4333883.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3197"
+}

@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "eval/train_603",
+  "meta": {},
+  "text": "In  case anyone is having similar issues with Flink on Yarn on MapR, I\nmanaged to  solve\n<https://community.mapr.com/message/55664-re-netty-issues-while-deploying-flink-with-yarn-on-mapr>\n \nthis issue with help from the MapR community.\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Netty-issues-while-deploying-Flink-with-Yarn-on-MapR-tp11411p11486.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 503,
+      "text": "In  case anyone is having similar issues with Flink on Yarn on MapR, I\nmanaged to  solve\n<https://community.mapr.com/message/55664-re-netty-issues-while-deploying-flink-with-yarn-on-mapr>\n \nthis issue with help from the MapR community.\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Netty-issues-while-deploying-Flink-with-Yarn-on-MapR-tp11411p11486.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

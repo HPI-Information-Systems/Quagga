@@ -1,0 +1,131 @@
+{
+  "wrapper": "plaintext",
+  "text": "Transwestern had 11 releases during the period 11/15-12/15/00.  None were \nabove max. rate.  All were at max. rate.\n\nEl Paso had several dozen releases during this period in the CA zone.  All \nbut 5 are listed as straight max rate deals.  Five have a fixed rate which \nare also within +/- 1 cent of the max rate (assumably for surcharge related \nreasons).\n\n---------------------- Forwarded by Shelley Corman/ET&S/Enron on 12/13/2000 \n12:34 PM ---------------------------\n\n\nShelley Corman\n12/13/2000 11:23 AM\nTo: S\n\nSubject: Additional Arguments for Enron's Gas Cap Response\n\n\n\nPremise: FERC should investigate the utility decisionmaking that led the \nCalifonia market to the point of excess gas demand, rather than rush to \nimpose gas price caps.\n\nUtilities had ample opportunity to fill up storage last summer, but most \nlikely choose not to for price reasons.\n\nTranswestern had at least a 100 M/D of available capacity to Califonia and to \nthe SoCal Needles delivery point through July 2000.  \n \n Avg. Scheduled (compared to 1.1 Bcf/D capacity): April  780 \n        May  820\n        Jun-Jul  980\n        Aug  1050\n        Oct-Dec 1080 (essentially full)\n\nDuring the period April-Jul, TW was able to deliver up to the full 750 M/D at \nNeedles, but on many days SoCal gas instituted \"windowing,\" lowering the \nability to take at Needles to 680-720 M/D.  SoCal's argument was that they \ndidn't believe that there was sufficient demand to run at the 750 M/D level \n(even when TW had nominations of 750 M/D).\n\nEl Paso was also not full to Califonia until the last month.   At all times \nEl Paso  had available capacity at PG&E delivery points.  During the pipeline \noutage El Paso was limited in their ability to fully deliver to the North \nSoCal delivery point.  However, they were not full for deliveries to SoCal at \nthe south system delivery point.\n\n\n2.    Utilities have opposed pipeline expansions to California\n\nSempra protested Transwestern's 140 M/D Gallup expansion, arguing that there \nis no need for new capacity (CP99-522).\n\nSempra has also protested Questar's application to convert an oil line to new \ngas pipeline service to California (S. Trails Expansion). \n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 357,
+      "text": "Transwestern had 11 releases during the period 11/15-12/15/00.  None were \nabove max. rate.  All were at max. rate.\n\nEl Paso had several dozen releases during this period in the CA zone.  All \nbut 5 are listed as straight max rate deals.  Five have a fixed rate which \nare also within +/- 1 cent of the max rate (assumably for surcharge related \nreasons).\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 393,
+      "end": 407,
+      "text": "Shelley Corman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 422,
+      "end": 432,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 434,
+      "end": 442,
+      "text": "12:34 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 357,
+      "end": 471,
+      "text": "---------------------- Forwarded by Shelley Corman/ET&S/Enron on 12/13/2000 \n12:34 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 473,
+      "end": 487,
+      "text": "Shelley Corman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 488,
+      "end": 498,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 499,
+      "end": 507,
+      "text": "11:23 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 512,
+      "end": 513,
+      "text": "S",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 524,
+      "end": 573,
+      "text": "Additional Arguments for Enron's Gas Cap Response",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 471,
+      "end": 574,
+      "text": "\n\nShelley Corman\n12/13/2000 11:23 AM\nTo: S\n\nSubject: Additional Arguments for Enron's Gas Cap Response\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 574,
+      "end": 2175,
+      "text": "\n\n\nPremise: FERC should investigate the utility decisionmaking that led the \nCalifonia market to the point of excess gas demand, rather than rush to \nimpose gas price caps.\n\nUtilities had ample opportunity to fill up storage last summer, but most \nlikely choose not to for price reasons.\n\nTranswestern had at least a 100 M/D of available capacity to Califonia and to \nthe SoCal Needles delivery point through July 2000.  \n \n Avg. Scheduled (compared to 1.1 Bcf/D capacity): April  780 \n        May  820\n        Jun-Jul  980\n        Aug  1050\n        Oct-Dec 1080 (essentially full)\n\nDuring the period April-Jul, TW was able to deliver up to the full 750 M/D at \nNeedles, but on many days SoCal gas instituted \"windowing,\" lowering the \nability to take at Needles to 680-720 M/D.  SoCal's argument was that they \ndidn't believe that there was sufficient demand to run at the 750 M/D level \n(even when TW had nominations of 750 M/D).\n\nEl Paso was also not full to Califonia until the last month.   At all times \nEl Paso  had available capacity at PG&E delivery points.  During the pipeline \noutage El Paso was limited in their ability to fully deliver to the North \nSoCal delivery point.  However, they were not full for deliveries to SoCal at \nthe south system delivery point.\n\n\n2.    Utilities have opposed pipeline expansions to California\n\nSempra protested Transwestern's 140 M/D Gallup expansion, arguing that there \nis no need for new capacity (CP99-522).\n\nSempra has also protested Questar's application to convert an oil line to new \ngas pipeline service to California (S. Trails Expansion). \n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1512298.1075846334208.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 04:40:00 -0800 (PST)",
+      "From": "shelley.corman@enron.com",
+      "To": "stanley.horton@enron.com, sarah.novosel@enron.com, steven.harris@enron.com, \n\tlindy.donoho@enron.com, christine.stokes@enron.com, \n\tleslie.lawner@enron.com, steven.kean@enron.com",
+      "Subject": "Capacity Release Info for Enron's Gas Cap Response",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shelley Corman",
+      "X-To": "Stanley Horton, Sarah Novosel, Steven Harris, Lindy Donoho, Christine Stokes, Leslie Lawner, Steven J Kean",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Calendar\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_calendar_untitled_2279.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

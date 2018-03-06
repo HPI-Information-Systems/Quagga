@@ -1,0 +1,139 @@
+{
+  "wrapper": "plaintext",
+  "text": "could have a large impact, will keep you posted\n---------------------- Forwarded by Jefferson D Sorenson/HOU/ECT on \n07/13/2000 04:11 PM ---------------------------\n\n\nBob Bowen\n07/13/2000 03:11 PM\nTo: Jefferson D Sorenson/HOU/ECT@ECT\ncc: Kim S Theriot/HOU/ECT@ECT \nSubject: Update - ENA Confirmation Delivery System\n\nWe may finally have some good news for a change.  Mark Taylor with ENA Legal \nsaid yesterday \nthat the law signed by President Clinton in June regarding electronic \nsignatures should allow us to\neliminate confirmations for Enron OnLine transactions.  The law, in short, \ngives electronic signatures\nthe legal weight of paper signatures and goes into effect October 1, 2000.\n\nUntil we receive final approval, we will have to simply hope and pray that \nthis becomes reality.  However, \neven if this becomes reality, we will continue to have Counterparties that \nwill require confirmations such \nas the public utilities.\n\nI will keep you updated.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 48,
+      "text": "could have a large impact, will keep you posted\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 84,
+      "end": 104,
+      "text": "Jefferson D Sorenson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 117,
+      "end": 127,
+      "text": "07/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 128,
+      "end": 136,
+      "text": "04:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 48,
+      "end": 165,
+      "text": "---------------------- Forwarded by Jefferson D Sorenson/HOU/ECT on \n07/13/2000 04:11 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 167,
+      "end": 176,
+      "text": "Bob Bowen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 177,
+      "end": 187,
+      "text": "07/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 188,
+      "end": 196,
+      "text": "03:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 201,
+      "end": 221,
+      "text": "Jefferson D Sorenson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 238,
+      "end": 251,
+      "text": "Kim S Theriot",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 274,
+      "end": 315,
+      "text": "Update - ENA Confirmation Delivery System",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 165,
+      "end": 316,
+      "text": "\n\nBob Bowen\n07/13/2000 03:11 PM\nTo: Jefferson D Sorenson/HOU/ECT@ECT\ncc: Kim S Theriot/HOU/ECT@ECT \nSubject: Update - ENA Confirmation Delivery System\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 316,
+      "end": 961,
+      "text": "\nWe may finally have some good news for a change.  Mark Taylor with ENA Legal \nsaid yesterday \nthat the law signed by President Clinton in June regarding electronic \nsignatures should allow us to\neliminate confirmations for Enron OnLine transactions.  The law, in short, \ngives electronic signatures\nthe legal weight of paper signatures and goes into effect October 1, 2000.\n\nUntil we receive final approval, we will have to simply hope and pray that \nthis becomes reality.  However, \neven if this becomes reality, we will continue to have Counterparties that \nwill require confirmations such \nas the public utilities.\n\nI will keep you updated.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9069779.1075855929592.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Jul 2000 09:12:00 -0700 (PDT)",
+      "From": "jefferson.sorenson@enron.com",
+      "To": "brent.price@enron.com, sally.beck@enron.com",
+      "Subject": "Update - ENA Confirmation Delivery System",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jefferson D Sorenson",
+      "X-To": "Brent A Price, Sally Beck",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Unify",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_unify_5.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

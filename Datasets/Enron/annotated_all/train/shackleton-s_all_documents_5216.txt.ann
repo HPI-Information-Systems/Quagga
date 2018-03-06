@@ -1,0 +1,559 @@
+{
+  "wrapper": "plaintext",
+  "text": "Your summary is correct based on information to date (in this regard the \nagreement between ENA and EEFT still requires amendment in respect of RMT and \nI undertake to get this done). \n\nHowever, please note that there have been some last minute changes in the \nJapanese tax advice, received I understand only as of last night. Susan Musch \nwill be following up on these changes at a meeting today with Sheila Glover \nand Darren Delage, and has undertaken to keep you appraised of the position. \nThe effect of the change would be to permit RMT to be the principal for the \nJapanese FX desk, with a Japanese entity acting as agent to arrange the \ntransactions. \n\nBest regards\nJanine\n\n\n\n\nFrom: Sara Shackleton on 13/12/2000 13:52 CST\nTo: Janine Juggins/LON/ECT@ECT\ncc: Jeff Blumenthal/HOU/ECT@ECT, Rhett Jackson/HOU/ECT@ECT, Melba \nLozano/HOU/ECT@ECT \n\nSubject: FX Product\n\nJanine:\n\nWith respect to the attached (internal) FX product for EOL, I just wanted to \nverify with you that internal counterparties should transact on EOL with:\n\n(1)  RMT  (as principal for Houston FX desk)\n\n(2)  EEFT as agent for RMT (as principal for London FX desk).  In this \nregard, was the services agreement between ENA and EEFT ever extended to \ninclude RMT for internal trades? \n\n(3)  Enron Japan Corp. (as principal for Tokyo FX desk)\n\nThere appears to be some confusion since our meeting of November 3.  Thanks.  \nSara\n----- Forwarded by Sara Shackleton/HOU/ECT on 12/13/2000 11:22 AM -----\n\n\tMelba Lozano\n\t12/11/2000 05:59 PM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT\n\t\t cc: Robert B Cass/HOU/ECT@ECT, Steve Jacobellis/NA/Enron@Enron, Kevin \nMeredith/Corp/Enron@ENRON, Steve Jacobellis/NA/Enron@Enron\n\t\t Subject: FX Product\n\nSara / Mark,\n\nI need an approval as soon as possible from you for the FX Description \nattached.  Steve Jacobellis is requesting that this gets out on the web as \nsoon as possible.  \n\nThank you,\n\nMelba \n58986\n---------------------- Forwarded by Melba Lozano/HOU/ECT on 12/11/2000 05:53 \nPM ---------------------------\n   \n\n\nFrom:  Melba Lozano                                                           \n  11/30/2000 06:41 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: Sara Shackleton/HOU/ECT@ECT, William Stuart/HOU/ECT@ECT\ncc: Robert B Cass/HOU/ECT@ECT \nSubject: FX Product\n\n\nSara:  Please approve on the attached language for the FX Product.\n\n\n\nWilliam:  There is a gap between hour ending 3:00 and 4:00 .  Do you want to \ngo ahead and set up Central time to trade until Hour Ending 4:00?  Please let \nme know.  \n\n\n\nThank you,\n\nMelba\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 674,
+      "end": 680,
+      "text": "Janine",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 661,
+      "end": 681,
+      "text": "Best regards\nJanine\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 685,
+      "text": "Your summary is correct based on information to date (in this regard the \nagreement between ENA and EEFT still requires amendment in respect of RMT and \nI undertake to get this done). \n\nHowever, please note that there have been some last minute changes in the \nJapanese tax advice, received I understand only as of last night. Susan Musch \nwill be following up on these changes at a meeting today with Sheila Glover \nand Darren Delage, and has undertaken to keep you appraised of the position. \nThe effect of the change would be to permit RMT to be the principal for the \nJapanese FX desk, with a Japanese entity acting as agent to arrange the \ntransactions. \n\nBest regards\nJanine\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 691,
+      "end": 706,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 710,
+      "end": 720,
+      "text": "13/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 721,
+      "end": 730,
+      "text": "13:52 CST",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 735,
+      "end": 749,
+      "text": "Janine Juggins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 766,
+      "end": 781,
+      "text": "Jeff Blumenthal",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 795,
+      "end": 808,
+      "text": "Rhett Jackson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 822,
+      "end": 835,
+      "text": "Melba \nLozano",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 859,
+      "end": 869,
+      "text": "FX Product",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 685,
+      "end": 870,
+      "text": "From: Sara Shackleton on 13/12/2000 13:52 CST\nTo: Janine Juggins/LON/ECT@ECT\ncc: Jeff Blumenthal/HOU/ECT@ECT, Rhett Jackson/HOU/ECT@ECT, Melba \nLozano/HOU/ECT@ECT \n\nSubject: FX Product\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 871,
+      "end": 877,
+      "text": "Janine",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1396,
+      "end": 1400,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1386,
+      "end": 1401,
+      "text": "Thanks.  \nSara\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 870,
+      "end": 1401,
+      "text": "\nJanine:\n\nWith respect to the attached (internal) FX product for EOL, I just wanted to \nverify with you that internal counterparties should transact on EOL with:\n\n(1)  RMT  (as principal for Houston FX desk)\n\n(2)  EEFT as agent for RMT (as principal for London FX desk).  In this \nregard, was the services agreement between ENA and EEFT ever extended to \ninclude RMT for internal trades? \n\n(3)  Enron Japan Corp. (as principal for Tokyo FX desk)\n\nThere appears to be some confusion since our meeting of November 3.  Thanks.  \nSara\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1420,
+      "end": 1435,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1447,
+      "end": 1457,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1458,
+      "end": 1466,
+      "text": "11:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1401,
+      "end": 1473,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 12/13/2000 11:22 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1475,
+      "end": 1487,
+      "text": "Melba Lozano",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1489,
+      "end": 1499,
+      "text": "12/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1500,
+      "end": 1508,
+      "text": "05:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1520,
+      "end": 1535,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1549,
+      "end": 1560,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1580,
+      "end": 1593,
+      "text": "Robert B Cass",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1607,
+      "end": 1623,
+      "text": "Steve Jacobellis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1640,
+      "end": 1655,
+      "text": "Kevin \nMeredith",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1674,
+      "end": 1690,
+      "text": "Steve Jacobellis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1718,
+      "end": 1728,
+      "text": "FX Product",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1473,
+      "end": 1729,
+      "text": "\n\tMelba Lozano\n\t12/11/2000 05:59 PM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT\n\t\t cc: Robert B Cass/HOU/ECT@ECT, Steve Jacobellis/NA/Enron@Enron, Kevin \nMeredith/Corp/Enron@ENRON, Steve Jacobellis/NA/Enron@Enron\n\t\t Subject: FX Product\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1730,
+      "end": 1734,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1737,
+      "end": 1741,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1730,
+      "end": 1743,
+      "text": "Sara / Mark,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1925,
+      "end": 1930,
+      "text": "Melba",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1913,
+      "end": 1938,
+      "text": "Thank you,\n\nMelba \n58986\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1729,
+      "end": 1938,
+      "text": "\nSara / Mark,\n\nI need an approval as soon as possible from you for the FX Description \nattached.  Steve Jacobellis is requesting that this gets out on the web as \nsoon as possible.  \n\nThank you,\n\nMelba \n58986\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1974,
+      "end": 1986,
+      "text": "Melba Lozano",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1998,
+      "end": 2008,
+      "text": "12/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2009,
+      "end": 2018,
+      "text": "05:53 \nPM",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1938,
+      "end": 2047,
+      "text": "---------------------- Forwarded by Melba Lozano/HOU/ECT on 12/11/2000 05:53 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2060,
+      "end": 2072,
+      "text": "Melba Lozano",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2134,
+      "end": 2144,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2145,
+      "end": 2153,
+      "text": "06:41 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2195,
+      "end": 2210,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 2224,
+      "end": 2238,
+      "text": "William Stuart",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 2255,
+      "end": 2268,
+      "text": "Robert B Cass",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 2291,
+      "end": 2301,
+      "text": "FX Product",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2047,
+      "end": 2302,
+      "text": "   \n\n\nFrom:  Melba Lozano                                                           \n  11/30/2000 06:41 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: Sara Shackleton/HOU/ECT@ECT, William Stuart/HOU/ECT@ECT\ncc: Robert B Cass/HOU/ECT@ECT \nSubject: FX Product\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2304,
+      "end": 2308,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2557,
+      "end": 2562,
+      "text": "Melba",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 2545,
+      "end": 2563,
+      "text": "Thank you,\n\nMelba\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2302,
+      "end": 2567,
+      "text": "\n\nSara:  Please approve on the attached language for the FX Product.\n\n\n\nWilliam:  There is a gap between hour ending 3:00 and 4:00 .  Do you want to \ngo ahead and set up Central time to trade until Hour Ending 4:00?  Please let \nme know.  \n\n\n\nThank you,\n\nMelba\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 21,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 33,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 32,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 35,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 38,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 42,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 45,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 47,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 50,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 51,
+      "target": 42,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5012461.1075844446871.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 14:04:00 -0800 (PST)",
+      "From": "janine.juggins@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: FX Product",
+      "Cc": "jeff.blumenthal@enron.com, rhett.jackson@enron.com, melba.lozano@enron.com, \n\tsusan.musch@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jeff.blumenthal@enron.com, rhett.jackson@enron.com, melba.lozano@enron.com, \n\tsusan.musch@enron.com",
+      "X-From": "Janine Juggins",
+      "X-To": "Sara Shackleton",
+      "X-cc": "Jeff Blumenthal, Rhett Jackson, Melba Lozano, Susan Musch",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_5216.txt"
+}

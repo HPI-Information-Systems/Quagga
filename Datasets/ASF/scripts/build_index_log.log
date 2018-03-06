@@ -1,0 +1,189 @@
+========================= TRAIN =========================
+------- month:01
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201701.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201701.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201701.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201701.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201701.mbox/ajax/thread?4
+------- month:02
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201702.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201702.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201702.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201702.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201702.mbox/ajax/thread?4
+------- month:03
+> page 1/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201703.mbox/ajax/thread?5
+------- month:04
+> page 1/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201704.mbox/ajax/thread?5
+------- month:05
+> page 1/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201705.mbox/ajax/thread?5
+------- month:06
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201706.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201706.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201706.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201706.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201706.mbox/ajax/thread?4
+------- month:07
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201707.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201707.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201707.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201707.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201707.mbox/ajax/thread?4
+------- month:08
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201708.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201708.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201708.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201708.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201708.mbox/ajax/thread?4
+------- month:09
+> page 1/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201709.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201709.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201709.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201709.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201709.mbox/ajax/thread?4
+------- month:10
+> page 1/2  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201710.mbox/ajax/thread?0
+> page 2/2  http://mail-archives.apache.org/mod_mbox/lucene-solr-user/201710.mbox/ajax/thread?1
+------- month:11
+FAILED
+------- month:12
+FAILED
+========================= TEST =========================
+------- month:01
+> page 1/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?0
+> page 2/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?1
+> page 3/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?2
+> page 4/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?3
+> page 5/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?4
+> page 6/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?5
+> page 7/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?6
+> page 8/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?7
+> page 9/9  http://mail-archives.apache.org/mod_mbox/spark-user/201701.mbox/ajax/thread?8
+------- month:02
+> page 1/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?0
+> page 2/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?1
+> page 3/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?2
+> page 4/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?3
+> page 5/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?4
+> page 6/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?5
+> page 7/7  http://mail-archives.apache.org/mod_mbox/spark-user/201702.mbox/ajax/thread?6
+------- month:03
+> page 1/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/spark-user/201703.mbox/ajax/thread?5
+------- month:04
+> page 1/5  http://mail-archives.apache.org/mod_mbox/spark-user/201704.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/spark-user/201704.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/spark-user/201704.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/spark-user/201704.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/spark-user/201704.mbox/ajax/thread?4
+------- month:05
+> page 1/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/spark-user/201705.mbox/ajax/thread?5
+------- month:06
+> page 1/5  http://mail-archives.apache.org/mod_mbox/spark-user/201706.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/spark-user/201706.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/spark-user/201706.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/spark-user/201706.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/spark-user/201706.mbox/ajax/thread?4
+------- month:07
+> page 1/5  http://mail-archives.apache.org/mod_mbox/spark-user/201707.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/spark-user/201707.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/spark-user/201707.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/spark-user/201707.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/spark-user/201707.mbox/ajax/thread?4
+------- month:08
+> page 1/5  http://mail-archives.apache.org/mod_mbox/spark-user/201708.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/spark-user/201708.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/spark-user/201708.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/spark-user/201708.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/spark-user/201708.mbox/ajax/thread?4
+------- month:09
+> page 1/5  http://mail-archives.apache.org/mod_mbox/spark-user/201709.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/spark-user/201709.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/spark-user/201709.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/spark-user/201709.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/spark-user/201709.mbox/ajax/thread?4
+------- month:10
+> page 1/2  http://mail-archives.apache.org/mod_mbox/spark-user/201710.mbox/ajax/thread?0
+> page 2/2  http://mail-archives.apache.org/mod_mbox/spark-user/201710.mbox/ajax/thread?1
+------- month:11
+FAILED
+------- month:12
+FAILED
+========================= EVAL =========================
+------- month:01
+> page 1/4  http://mail-archives.apache.org/mod_mbox/flink-user/201701.mbox/ajax/thread?0
+> page 2/4  http://mail-archives.apache.org/mod_mbox/flink-user/201701.mbox/ajax/thread?1
+> page 3/4  http://mail-archives.apache.org/mod_mbox/flink-user/201701.mbox/ajax/thread?2
+> page 4/4  http://mail-archives.apache.org/mod_mbox/flink-user/201701.mbox/ajax/thread?3
+------- month:02
+> page 1/4  http://mail-archives.apache.org/mod_mbox/flink-user/201702.mbox/ajax/thread?0
+> page 2/4  http://mail-archives.apache.org/mod_mbox/flink-user/201702.mbox/ajax/thread?1
+> page 3/4  http://mail-archives.apache.org/mod_mbox/flink-user/201702.mbox/ajax/thread?2
+> page 4/4  http://mail-archives.apache.org/mod_mbox/flink-user/201702.mbox/ajax/thread?3
+------- month:03
+> page 1/4  http://mail-archives.apache.org/mod_mbox/flink-user/201703.mbox/ajax/thread?0
+> page 2/4  http://mail-archives.apache.org/mod_mbox/flink-user/201703.mbox/ajax/thread?1
+> page 3/4  http://mail-archives.apache.org/mod_mbox/flink-user/201703.mbox/ajax/thread?2
+> page 4/4  http://mail-archives.apache.org/mod_mbox/flink-user/201703.mbox/ajax/thread?3
+------- month:04
+> page 1/3  http://mail-archives.apache.org/mod_mbox/flink-user/201704.mbox/ajax/thread?0
+> page 2/3  http://mail-archives.apache.org/mod_mbox/flink-user/201704.mbox/ajax/thread?1
+> page 3/3  http://mail-archives.apache.org/mod_mbox/flink-user/201704.mbox/ajax/thread?2
+------- month:05
+> page 1/4  http://mail-archives.apache.org/mod_mbox/flink-user/201705.mbox/ajax/thread?0
+> page 2/4  http://mail-archives.apache.org/mod_mbox/flink-user/201705.mbox/ajax/thread?1
+> page 3/4  http://mail-archives.apache.org/mod_mbox/flink-user/201705.mbox/ajax/thread?2
+> page 4/4  http://mail-archives.apache.org/mod_mbox/flink-user/201705.mbox/ajax/thread?3
+------- month:06
+> page 1/4  http://mail-archives.apache.org/mod_mbox/flink-user/201706.mbox/ajax/thread?0
+> page 2/4  http://mail-archives.apache.org/mod_mbox/flink-user/201706.mbox/ajax/thread?1
+> page 3/4  http://mail-archives.apache.org/mod_mbox/flink-user/201706.mbox/ajax/thread?2
+> page 4/4  http://mail-archives.apache.org/mod_mbox/flink-user/201706.mbox/ajax/thread?3
+------- month:07
+> page 1/3  http://mail-archives.apache.org/mod_mbox/flink-user/201707.mbox/ajax/thread?0
+> page 2/3  http://mail-archives.apache.org/mod_mbox/flink-user/201707.mbox/ajax/thread?1
+> page 3/3  http://mail-archives.apache.org/mod_mbox/flink-user/201707.mbox/ajax/thread?2
+------- month:08
+> page 1/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?0
+> page 2/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?1
+> page 3/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?2
+> page 4/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?3
+> page 5/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?4
+> page 6/6  http://mail-archives.apache.org/mod_mbox/flink-user/201708.mbox/ajax/thread?5
+------- month:09
+> page 1/5  http://mail-archives.apache.org/mod_mbox/flink-user/201709.mbox/ajax/thread?0
+> page 2/5  http://mail-archives.apache.org/mod_mbox/flink-user/201709.mbox/ajax/thread?1
+> page 3/5  http://mail-archives.apache.org/mod_mbox/flink-user/201709.mbox/ajax/thread?2
+> page 4/5  http://mail-archives.apache.org/mod_mbox/flink-user/201709.mbox/ajax/thread?3
+> page 5/5  http://mail-archives.apache.org/mod_mbox/flink-user/201709.mbox/ajax/thread?4
+------- month:10
+> page 1/2  http://mail-archives.apache.org/mod_mbox/flink-user/201710.mbox/ajax/thread?0
+> page 2/2  http://mail-archives.apache.org/mod_mbox/flink-user/201710.mbox/ajax/thread?1
+------- month:11
+FAILED
+------- month:12
+FAILED

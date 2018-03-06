@@ -1,0 +1,16 @@
+Hi,
+
+I need to SPLITSHARD such that one split remains on the same machine as
+original and another uses new machines for leader and replicas. Is this
+possible ? Please let me know what properties do I need to specify in
+Collection API to achieve this.
+
+Thank you,
+Vrinda Davda
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/SPLITSHARD-Working-tp4333876.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

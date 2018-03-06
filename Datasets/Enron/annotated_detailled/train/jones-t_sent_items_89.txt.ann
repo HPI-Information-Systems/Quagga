@@ -1,0 +1,406 @@
+{
+  "wrapper": "plaintext",
+  "text": "Janet,\n\nWould you like me to fax it to you?  If so, what is your fax no?\n\n-----Original Message-----\nFrom: Wood, Janet \nSent: Friday, September 28, 2001 7:10 AM\nTo: Marttila Lauri (2761); Jones, Tana\nCc: Lehtinen Karri (2673); Egmar, Niclas\nSubject: RE: ISDA\n\n\nMany thanks.  \nAs soon as I receive the document from Houston I will prepare a draft.\n\nTo answer your question, the ISDA will govern the transactions created by the parties.  There are various other terms and conditions on the website that govern issues such as privacy, the use of the website and the creation of transactions electronically.  If there are any particular provisions that cause you concern please let me know.\n\nTana I should be grateful if you could send the ISDA to me.\nregards\nJanet Wood\n\n-----Original Message-----\nFrom: Marttila Lauri (2761) [mailto:Lauri.Marttila@nordea.com]\nSent: 28 September 2001 11:53\nTo: Jones, Tana; Wood, Janet\nCc: Lehtinen Karri (2673)\nSubject: ISDA\n\n\n\nDear Janet Wood,\n\nThank you for your email dated 27th September, 2001 concerning ISDA\nAgreement between Nordea (Merita Bank Plc) and Enron North America Corp.  \n\nWith reference to your email we confirm that a copy of the ISDA Agreement\nbetween Merita Bank Plc and Enron North America Corp. can be released to you\nfor the purposes of preparing an ISDA Agreement between Nordea (Merita Bank\nPlc) and Enron Capital & Trade Recources Ltd.. \n\nShould you have any questions please do not hesitate to contact me.\n\nP.S. We would appreciate if you could confirm that ISDA Agreement is\nsuperiority to electronic trading agreement behind Enrononline trading\nsystem.\n  \n\n\nRegards,\n\nLauri Marttila\nMerita Bank Plc\nDebt Capital Markets\nTel. + 358 9 165 59258\nFax. + 358 9 627 956\n\nAddress: Fleminginkatu 27 A,\nFIN-00020 Merita\n   ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Janet",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 74,
+      "text": "Janet,\n\nWould you like me to fax it to you?  If so, what is your fax no?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 107,
+      "end": 118,
+      "text": "Wood, Janet",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 134,
+      "end": 152,
+      "text": "September 28, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 153,
+      "end": 160,
+      "text": "7:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 188,
+      "end": 199,
+      "text": "Jones, Tana",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 165,
+      "end": 179,
+      "text": "Marttila Lauri",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 204,
+      "end": 218,
+      "text": "Lehtinen Karri",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 227,
+      "end": 240,
+      "text": "Egmar, Niclas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 250,
+      "end": 258,
+      "text": "RE: ISDA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 74,
+      "end": 259,
+      "text": "-----Original Message-----\nFrom: Wood, Janet \nSent: Friday, September 28, 2001 7:10 AM\nTo: Marttila Lauri (2761); Jones, Tana\nCc: Lehtinen Karri (2673); Egmar, Niclas\nSubject: RE: ISDA\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 756,
+      "end": 766,
+      "text": "Janet Wood",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 748,
+      "end": 766,
+      "text": "regards\nJanet Wood",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 259,
+      "end": 768,
+      "text": "\n\nMany thanks.  \nAs soon as I receive the document from Houston I will prepare a draft.\n\nTo answer your question, the ISDA will govern the transactions created by the parties.  There are various other terms and conditions on the website that govern issues such as privacy, the use of the website and the creation of transactions electronically.  If there are any particular provisions that cause you concern please let me know.\n\nTana I should be grateful if you could send the ISDA to me.\nregards\nJanet Wood\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 801,
+      "end": 815,
+      "text": "Marttila Lauri",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 831,
+      "end": 856,
+      "text": "Lauri.Marttila@nordea.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 864,
+      "end": 881,
+      "text": "28 September 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 882,
+      "end": 887,
+      "text": "11:53",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 892,
+      "end": 903,
+      "text": "Jones, Tana",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 905,
+      "end": 916,
+      "text": "Wood, Janet",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 921,
+      "end": 935,
+      "text": "Lehtinen Karri",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 952,
+      "end": 956,
+      "text": "ISDA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 768,
+      "end": 957,
+      "text": "-----Original Message-----\nFrom: Marttila Lauri (2761) [mailto:Lauri.Marttila@nordea.com]\nSent: 28 September 2001 11:53\nTo: Jones, Tana; Wood, Janet\nCc: Lehtinen Karri (2673)\nSubject: ISDA\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 965,
+      "end": 975,
+      "text": "Janet Wood",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 960,
+      "end": 976,
+      "text": "Dear Janet Wood,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1467,
+      "end": 1615,
+      "text": "P.S. We would appreciate if you could confirm that ISDA Agreement is\nsuperiority to electronic trading agreement behind Enrononline trading\nsystem.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1620,
+      "end": 1644,
+      "text": "Regards,\n\nLauri Marttila",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1630,
+      "end": 1644,
+      "text": "Lauri Marttila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1645,
+      "end": 1660,
+      "text": "Merita Bank Plc",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1661,
+      "end": 1681,
+      "text": "Debt Capital Markets",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1687,
+      "end": 1704,
+      "text": "+ 358 9 165 59258",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1710,
+      "end": 1725,
+      "text": "+ 358 9 627 956",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1736,
+      "end": 1772,
+      "text": "Fleminginkatu 27 A,\nFIN-00020 Merita",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1645,
+      "end": 1776,
+      "text": "Merita Bank Plc\nDebt Capital Markets\nTel. + 358 9 165 59258\nFax. + 358 9 627 956\n\nAddress: Fleminginkatu 27 A,\nFIN-00020 Merita\n   ",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 957,
+      "end": 1776,
+      "text": "\n\n\nDear Janet Wood,\n\nThank you for your email dated 27th September, 2001 concerning ISDA\nAgreement between Nordea (Merita Bank Plc) and Enron North America Corp.  \n\nWith reference to your email we confirm that a copy of the ISDA Agreement\nbetween Merita Bank Plc and Enron North America Corp. can be released to you\nfor the purposes of preparing an ISDA Agreement between Nordea (Merita Bank\nPlc) and Enron Capital & Trade Recources Ltd.. \n\nShould you have any questions please do not hesitate to contact me.\n\nP.S. We would appreciate if you could confirm that ISDA Agreement is\nsuperiority to electronic trading agreement behind Enrononline trading\nsystem.\n  \n\n\nRegards,\n\nLauri Marttila\nMerita Bank Plc\nDebt Capital Markets\nTel. + 358 9 165 59258\nFax. + 358 9 627 956\n\nAddress: Fleminginkatu 27 A,\nFIN-00020 Merita\n   ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 20,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 21,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 15,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 24,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 29,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 28,
+      "target": 29,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 30,
+      "target": 28,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 31,
+      "target": 28,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 32,
+      "target": 28,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 28,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21046924.1075858945625.JavaMail.evans@thyme>",
+      "Date": "Fri, 28 Sep 2001 07:43:01 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "janet.wood@enron.com",
+      "Subject": "RE: ISDA",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jones, Tana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=TJONES>",
+      "X-To": "Wood, Janet </O=ENRON/OU=NA/CN=RECIPIENTS/CN=EU/cn=Recipients/cn=JWood6>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\TJONES (Non-Privileged)\\Jones, Tana\\Sent Items",
+      "X-Origin": "Jones-T",
+      "X-FileName": "TJONES (Non-Privileged).pst"
+    }
+  },
+  "id": "train/jones-t_sent_items_89.txt"
+}

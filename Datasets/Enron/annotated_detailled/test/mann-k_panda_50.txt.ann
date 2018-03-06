@@ -1,0 +1,155 @@
+{
+  "wrapper": "plaintext",
+  "text": " <<2XNK01!.DOC>>\n\nKay:\n\nPer your request, enclosed is a current draft of the closing checklist for\nthe Salmon transaction.  Please advise of any comments.  Thanks.\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\n\nEnclosure:  136928v1\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended \nexclusively for the individual or entity to which it is addressed.  This \ncommunication may contain information that is proprietary, privileged or \nconfidential or otherwise legally exempt from disclosure.  If you are not the \nnamed addressee, you are not authorized to read, print, retain, copy or \ndisseminate this message or any part of it.  If you have received this \nmessage in error, please notify the sender immediately by e-mail and delete \nall copies of the message.\n\n\n - 2XNK01!.DOC",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 14,
+      "text": "2XNK01!.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 17,
+      "text": " <<2XNK01!.DOC>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 18,
+      "end": 21,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 165,
+      "end": 184,
+      "text": "Carolyn M. Campbell",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 185,
+      "end": 200,
+      "text": "King & Spalding",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 201,
+      "end": 213,
+      "text": "713-276-7307",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 222,
+      "end": 234,
+      "text": "713-751-3280",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 165,
+      "end": 263,
+      "text": "Carolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\n\nEnclosure:  136928v1\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 267,
+      "end": 859,
+      "text": "                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended \nexclusively for the individual or entity to which it is addressed.  This \ncommunication may contain information that is proprietary, privileged or \nconfidential or otherwise legally exempt from disclosure.  If you are not the \nnamed addressee, you are not authorized to read, print, retain, copy or \ndisseminate this message or any part of it.  If you have received this \nmessage in error, please notify the sender immediately by e-mail and delete \nall copies of the message.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 864,
+      "end": 875,
+      "text": "2XNK01!.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 861,
+      "end": 875,
+      "text": " - 2XNK01!.DOC",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 0,
+      "end": 875,
+      "text": " <<2XNK01!.DOC>>\n\nKay:\n\nPer your request, enclosed is a current draft of the closing checklist for\nthe Salmon transaction.  Please advise of any comments.  Thanks.\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\n\nEnclosure:  136928v1\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended \nexclusively for the individual or entity to which it is addressed.  This \ncommunication may contain information that is proprietary, privileged or \nconfidential or otherwise legally exempt from disclosure.  If you are not the \nnamed addressee, you are not authorized to read, print, retain, copy or \ndisseminate this message or any part of it.  If you have received this \nmessage in error, please notify the sender immediately by e-mail and delete \nall copies of the message.\n\n\n - 2XNK01!.DOC",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 156,
+      "end": 163,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3290324.1075845917065.JavaMail.evans@thyme>",
+      "Date": "Wed, 18 Apr 2001 02:41:00 -0700 (PDT)",
+      "From": "ccampbell@kslaw.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "Salmon Closing Checklist",
+      "Cc": "jkeffer@kslaw.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jkeffer@kslaw.com",
+      "X-From": "\"Campbell, Carolyn\" <CCampbell@KSLAW.com>",
+      "X-To": "\"'kay.mann@enron.com'\" <kay.mann@enron.com>",
+      "X-cc": "\"Keffer, John\" <JKeffer@KSLAW.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Panda",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_panda_50.txt"
+}

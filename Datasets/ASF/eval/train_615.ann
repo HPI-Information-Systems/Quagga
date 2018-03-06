@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks, Till, for taking time to share your understanding.\n\n-- N\n\nOn Sun, Feb 5, 2017 at 12:49 AM, Till Rohrmann [via Apache Flink User\nMailing List archive.] <ml-node+s2336050n11441h12@n4.nabble.com> wrote:\n\n> I think the problem is that there are actually two constructors with the\n> same signature. The one is defined with default arguments and the other has\n> the same signature as the one with default arguments when you leave all\n> default arguments out. I assume that this confuses the Scala compiler and\n> only works if you've specified the right types or at least one of the\n> parameters with a default argument.\n>\n> Cheers,\n> Till\n>\n> On Fri, Feb 3, 2017 at 12:49 PM, nsengupta <[hidden email]\n> <http:///user/SendEmail.jtp?type=node&node=11441&i=0>> wrote:\n>\n>> Till,\n>>\n>> Many thanks. Just to confirm that it is working fine at my end, here's a\n>> screenshot.\n>>\n>> <http://apache-flink-user-mailing-list-archive.2336050.n4.\n>> nabble.com/file/n11427/Selection_258.png>\n>>\n>> This is Flink 1.1.4 but Flink-1.2/Flink-1.3 shouldn't be any problem.\n>>\n>> It never struck me that lack of covariance in Scala Arrays was the source\n>> of\n>> the problem. Bravo!\n>>\n>> BTW, I am just curious to know how the Testcases worked: just to add to my\n>> knowledge of Scala. We didn't pass any /typehint/ to the compiler there!\n>>\n>> Could you please put a hint of a line or two? TIA.\n>>\n>>\n>>\n>>\n>>\n>> --\n>> View this message in context: http://apache-flink-user-maili\n>> ng-list-archive.2336050.n4.nabble.com/Compiler-error-whil\n>> e-using-CsvTableSource-tp11412p11427.html\n>> Sent from the Apache Flink User Mailing List archive. mailing list\n>> archive at Nabble.com.\n>>\n>\n>\n>\n> ------------------------------\n> If you reply to this email, your message will be added to the discussion\n> below:\n> http://apache-flink-user-mailing-list-archive.2336050.\n> n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11441.html\n> To unsubscribe from Compiler error while using 'CsvTableSource', click\n> here\n> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=unsubscribe_by_code&node=11412&code=c2VuZ3VwdGEubmlybWFseWFAZ21haWwuY29tfDExNDEyfC01NzQyMjQyNDk=>\n> .\n> NAML\n> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=macro_viewer&id=instant_html%21nabble%3Aemail.naml&base=nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.view.web.template.NodeNamespace&breadcrumbs=notify_subscribers%21nabble%3Aemail.naml-instant_emails%21nabble%3Aemail.naml-send_instant_email%21nabble%3Aemail.naml>\n>\n\n\n\n-- \nSoftware Technologist\nhttp://www.linkedin.com/in/nirmalyasengupta\n\"If you have built castles in the air, your work need not be lost. That is\nwhere they should be.\nNow put the foundation under them.\"\n\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11443.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 59,
+      "end": 65,
+      "text": "\n-- N\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 66,
+      "text": "Thanks, Till, for taking time to share your understanding.\n\n-- N\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 66,
+      "end": 208,
+      "text": "On Sun, Feb 5, 2017 at 12:49 AM, Till Rohrmann [via Apache Flink User\nMailing List archive.] <ml-node+s2336050n11441h12@n4.nabble.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 622,
+      "end": 641,
+      "text": ">\n> Cheers,\n> Till\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 208,
+      "end": 643,
+      "text": "\n> I think the problem is that there are actually two constructors with the\n> same signature. The one is defined with default arguments and the other has\n> the same signature as the one with default arguments when you leave all\n> default arguments out. I assume that this confuses the Scala compiler and\n> only works if you've specified the right types or at least one of the\n> parameters with a default argument.\n>\n> Cheers,\n> Till\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 643,
+      "end": 768,
+      "text": "> On Fri, Feb 3, 2017 at 12:49 PM, nsengupta <[hidden email]\n> <http:///user/SendEmail.jtp?type=node&node=11441&i=0>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 768,
+      "end": 779,
+      "text": ">\n>> Till,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 768,
+      "end": 3329,
+      "text": ">\n>> Till,\n>>\n>> Many thanks. Just to confirm that it is working fine at my end, here's a\n>> screenshot.\n>>\n>> <http://apache-flink-user-mailing-list-archive.2336050.n4.\n>> nabble.com/file/n11427/Selection_258.png>\n>>\n>> This is Flink 1.1.4 but Flink-1.2/Flink-1.3 shouldn't be any problem.\n>>\n>> It never struck me that lack of covariance in Scala Arrays was the source\n>> of\n>> the problem. Bravo!\n>>\n>> BTW, I am just curious to know how the Testcases worked: just to add to my\n>> knowledge of Scala. We didn't pass any /typehint/ to the compiler there!\n>>\n>> Could you please put a hint of a line or two? TIA.\n>>\n>>\n>>\n>>\n>>\n>> --\n>> View this message in context: http://apache-flink-user-maili\n>> ng-list-archive.2336050.n4.nabble.com/Compiler-error-whil\n>> e-using-CsvTableSource-tp11412p11427.html\n>> Sent from the Apache Flink User Mailing List archive. mailing list\n>> archive at Nabble.com.\n>>\n>\n>\n>\n> ------------------------------\n> If you reply to this email, your message will be added to the discussion\n> below:\n> http://apache-flink-user-mailing-list-archive.2336050.\n> n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11441.html\n> To unsubscribe from Compiler error while using 'CsvTableSource', click\n> here\n> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=unsubscribe_by_code&node=11412&code=c2VuZ3VwdGEubmlybWFseWFAZ21haWwuY29tfDExNDEyfC01NzQyMjQyNDk=>\n> .\n> NAML\n> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=macro_viewer&id=instant_html%21nabble%3Aemail.naml&base=nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.view.web.template.NodeNamespace&breadcrumbs=notify_subscribers%21nabble%3Aemail.naml-instant_emails%21nabble%3Aemail.naml-send_instant_email%21nabble%3Aemail.naml>\n>\n\n\n\n-- \nSoftware Technologist\nhttp://www.linkedin.com/in/nirmalyasengupta\n\"If you have built castles in the air, your work need not be lost. That is\nwhere they should be.\nNow put the foundation under them.\"\n\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11443.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_615"
+}

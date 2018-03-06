@@ -1,0 +1,117 @@
+{
+  "wrapper": "plaintext",
+  "text": "Jim,\n\nThanks for coming. \nI shall arrange o follow up meting, once the PRCs are over.\n\nVince\n\n\n\n\nJames L Bouillion\n12/08/2000 06:49 AM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Wharton\n\nThank you for inviting me to the meeting with Wharton.  It was very \ninteresting.  Let me know when you want to have the follow-up meeting.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Jim",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 87,
+      "end": 92,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 97,
+      "text": "Jim,\n\nThanks for coming. \nI shall arrange o follow up meting, once the PRCs are over.\n\nVince\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 97,
+      "end": 114,
+      "text": "James L Bouillion",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 125,
+      "text": "12/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 126,
+      "end": 134,
+      "text": "06:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 139,
+      "end": 155,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 183,
+      "end": 190,
+      "text": "Wharton",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 97,
+      "end": 191,
+      "text": "James L Bouillion\n12/08/2000 06:49 AM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Wharton\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 191,
+      "end": 333,
+      "text": "\nThank you for inviting me to the meeting with Wharton.  It was very \ninteresting.  Let me know when you want to have the follow-up meeting.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18831737.1075856250378.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Dec 2000 11:18:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "james.bouillion@enron.com",
+      "Subject": "Re: Wharton",
+      "Cc": "vasant.shanbhogue@enron.com, george.carrick@enron.com, \n\tvince.kaminski@enron.com, shirley.crenshaw@enron.com, \n\tdavid.hoog@enron.com, christie.patrick@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vasant.shanbhogue@enron.com, george.carrick@enron.com, \n\tvince.kaminski@enron.com, shirley.crenshaw@enron.com, \n\tdavid.hoog@enron.com, christie.patrick@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "James L Bouillion",
+      "X-cc": "Vasant Shanbhogue, George Carrick, Vince J Kaminski, Shirley Crenshaw, David Hoog, Christie Patrick",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_2767.txt"
+}

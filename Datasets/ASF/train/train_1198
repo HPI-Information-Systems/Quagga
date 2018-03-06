@@ -1,0 +1,23 @@
+Hi all,
+
+Very pleased to announce the first release of Marple, an open source 
+tool for inspecting Lucene indexes. We've blogged about it here:
+http://www.flax.co.uk/blog/2017/02/24/release-1-0-marple-lucene-index-detective/
+which contains links to the code and released JAR.
+
+This is very much a work in progress (we started it at the Lucene 
+hackday we ran in London last autumn) so contributions, bug reports & 
+feature requests very welcome! We'll also be talking about it at the 
+next London Lucene/Solr Meetup on March 23rd.
+
+Best
+
+Charlie
+-- 
+Charlie Hull
+Flax - Open Source Enterprise Search
+
+tel/fax: +44 (0)8700 118334
+mobile:  +44 (0)7767 825828
+web: www.flax.co.uk
+

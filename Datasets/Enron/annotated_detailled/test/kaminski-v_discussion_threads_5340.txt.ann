@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Enron Broadband Services is the latest addition to the Enron SAP rollout.  \nThe Apollo and Beyond project team and Enron's business units are currently \npreparing for the project's final implementation.  Apollo and Beyond is an \nEnron initiative tasked with laying a common financial, human resources, \nproject management, and procurement foundation throughout the majority of \nEnron's businesses.\n\nEBS \"Go-Live\"\n\nOn April 1st, Enron Broadband Services supplemented their current SAP \nfunctionality with HR Online and SAP HR, including payroll and organizational \nstructure management.  HR Online enables the EBS population to enter their \nown time, view and update their personal information, and view their vacation \ntime and individual payroll information via Enron's intranet.\n\nAdditionally, this implementation enhanced the SAP Financial, Project and \nProcurement processes that EBS has had in operation since April 1, 1999.  \nThese enhancements included an EBS pilot of B2B, a web-based requisitioning \ntool. Among the benefits of these enhancements will be improved information \nflow across business units currently on SAP.\n\nJuly 1 \"Go-Live\"\n\nThis final Apollo and Beyond implementation will directly impact more than \n15,000 Enron employees and contractors -- odds are that you are one of them!  \nPeople impacted on July 1st include:\n\nall Enron employees paid out of Corporate Payroll in Houston, excluding \nAzurix employees\nthe financial communities of Enron Energy Services, Enron Investment \nPartners, Enron North America, Enron Renewable Energy Corporation, Gas \nPipeline Group, Global Finance, and Global Products.\nthe project management communities of Enron North America, Gas Pipeline \nGroup, Global Asset Operations, Global Finance, and Global Products.\nthe human resources communities of Corporate, Global E&P, Enron Energy \nServices, Enron Engineering and Construction Company, Enron Investment \nPartners, Enron North America, Enron Renewable Energy Corporation (Houston \nonly), the international regions, Gas Pipeline Group, Global Finance, and \nGlobal Products.\n\nGeneral SAP training will be available in late April via the Enron intranet.  \nAdditional, specific, SAP classes and workshops are scheduled to begin in May \nand continue through August.  Information on the project can be obtained \nthrough the Enron intranet at http://sap.enron.com and by contacting Business \nUnit representatives currently working with the project.  A list of Business \nUnit representatives is located on the intranet site.\n\nAdditional information related to the July 1st implementation will be \ncommunicated to you over the next few months.\n\nThank you.\n\nMelissa Becker\nProject Leader, Apollo and Beyond",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2705,
+      "text": "Enron Broadband Services is the latest addition to the Enron SAP rollout.  \nThe Apollo and Beyond project team and Enron's business units are currently \npreparing for the project's final implementation.  Apollo and Beyond is an \nEnron initiative tasked with laying a common financial, human resources, \nproject management, and procurement foundation throughout the majority of \nEnron's businesses.\n\nEBS \"Go-Live\"\n\nOn April 1st, Enron Broadband Services supplemented their current SAP \nfunctionality with HR Online and SAP HR, including payroll and organizational \nstructure management.  HR Online enables the EBS population to enter their \nown time, view and update their personal information, and view their vacation \ntime and individual payroll information via Enron's intranet.\n\nAdditionally, this implementation enhanced the SAP Financial, Project and \nProcurement processes that EBS has had in operation since April 1, 1999.  \nThese enhancements included an EBS pilot of B2B, a web-based requisitioning \ntool. Among the benefits of these enhancements will be improved information \nflow across business units currently on SAP.\n\nJuly 1 \"Go-Live\"\n\nThis final Apollo and Beyond implementation will directly impact more than \n15,000 Enron employees and contractors -- odds are that you are one of them!  \nPeople impacted on July 1st include:\n\nall Enron employees paid out of Corporate Payroll in Houston, excluding \nAzurix employees\nthe financial communities of Enron Energy Services, Enron Investment \nPartners, Enron North America, Enron Renewable Energy Corporation, Gas \nPipeline Group, Global Finance, and Global Products.\nthe project management communities of Enron North America, Gas Pipeline \nGroup, Global Asset Operations, Global Finance, and Global Products.\nthe human resources communities of Corporate, Global E&P, Enron Energy \nServices, Enron Engineering and Construction Company, Enron Investment \nPartners, Enron North America, Enron Renewable Energy Corporation (Houston \nonly), the international regions, Gas Pipeline Group, Global Finance, and \nGlobal Products.\n\nGeneral SAP training will be available in late April via the Enron intranet.  \nAdditional, specific, SAP classes and workshops are scheduled to begin in May \nand continue through August.  Information on the project can be obtained \nthrough the Enron intranet at http://sap.enron.com and by contacting Business \nUnit representatives currently working with the project.  A list of Business \nUnit representatives is located on the intranet site.\n\nAdditional information related to the July 1st implementation will be \ncommunicated to you over the next few months.\n\nThank you.\n\nMelissa Becker\nProject Leader, Apollo and Beyond",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2645,
+      "end": 2671,
+      "text": "Thank you.\n\nMelissa Becker",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2657,
+      "end": 2671,
+      "text": "Melissa Becker",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2672,
+      "end": 2687,
+      "text": "Project Leader,",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2688,
+      "end": 2705,
+      "text": "Apollo and Beyond",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24520769.1075856818867.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Apr 2000 11:19:00 -0700 (PDT)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.worldwide@enron.com",
+      "Subject": "EBS goes live! . . . 15,000 will be impacted on 7/1/00",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron Announcements",
+      "X-To": "All Enron Worldwide",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_7\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_5340.txt"
+}

@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "Jimmy,\n\nI've plugged in a lot of the qualitative answers to the questions (attached)\nalthough I still have some more to do.  If you are working on the\nquantitative\nelements, I'll hold off for now so we are not redundant.\n\n\n\n**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n\n\n____________________Reply Separator____________________\nSubject:    Re: BF Good Case\nAuthor: \"JcjCal02@aol.com\" <SMTP:JcjCal02@aol.com>\nDate:       04/13/2001 12:02 AM\n\nJust an FYI guys, I have started working the calculations for the Netscape\ncase.  I will send you the results and my comments by Friday night.  Please\ngive me some feedback by a resonable time Saturday so I can wrap this thing\nup Saturday night.  I'd rather not spend Easter Sunday working on this case.\nJimmy\n\n\n - Netscape.doc",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Jimmy,\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 224,
+      "end": 434,
+      "text": "**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 909,
+      "end": 915,
+      "text": "Jimmy\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 604,
+      "end": 932,
+      "text": "\nJust an FYI guys, I have started working the calculations for the Netscape\ncase.  I will send you the results and my comments by Friday night.  Please\ngive me some feedback by a resonable time Saturday so I can wrap this thing\nup Saturday night.  I'd rather not spend Easter Sunday working on this case.\nJimmy\n\n\n - Netscape.doc",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 436,
+      "end": 604,
+      "text": "____________________Reply Separator____________________\nSubject:    Re: BF Good Case\nAuthor: \"JcjCal02@aol.com\" <SMTP:JcjCal02@aol.com>\nDate:       04/13/2001 12:02 AM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 436,
+      "text": "Jimmy,\n\nI've plugged in a lot of the qualitative answers to the questions (attached)\nalthough I still have some more to do.  If you are working on the\nquantitative\nelements, I'll hold off for now so we are not redundant.\n\n\n\n**********************************************\nMark D. Guinney, CFA\nConsultant\nWatson Wyatt Investment Consulting\n345 California Street, Ste. 1400\nSan Francisco, CA  94104\n(415) 733-4487 ph.\n(415) 733-4190 fax\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17484620.1075843700215.JavaMail.evans@thyme>",
+      "Date": "Fri, 13 Apr 2001 01:47:00 -0700 (PDT)",
+      "From": "mark_guinney@watsonwyatt.com",
+      "To": "jcjcal02@aol.com, dwindham@uclink4.berkeley.edu, jcja@chevron.com, \n\tjeff.dasovich@enron.com, jjackson@haas.berkeley.edu, \n\tguinney@haas.berkeley.edu",
+      "Subject": "Netscape",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Guinney, Mark\" <Mark_Guinney@watsonwyatt.com>",
+      "X-To": "\"\\\"JcjCal02@aol.com\\\" \" <JcjCal02@aol.com>, \"\\\"dwindham@uclink4.berkeley.edu\\\" \" <dwindham@uclink4.berkeley.edu>, \"\\\"JCJA@chevron.com\\\" \" <JCJA@chevron.com>, \"\\\"Jeff.Dasovich@enron.com\\\" \" <Jeff.Dasovich@enron.com>, \"\\\"jjackson@haas.berkeley.edu\\\" \" <jjackson@haas.berkeley.edu>, \"\\\"guinney@haas.berkeley.edu\\\" \" <guinney@haas.berkeley.edu>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_4307.txt"
+}

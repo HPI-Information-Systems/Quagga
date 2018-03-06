@@ -1,0 +1,91 @@
+
+: I have some custom code in solr (which is not of good quality for
+: contributing back) so I need to setup my own continuous build solution. I
+: tried jenkins and was hoping that ant build (ant clean compile) in Execute
+: Shell textbox will work, but I am stuck at this ivy-fail error:
+: 
+: To work around it, I also added another step in the 'Execute Shell' (ant
+: ivy-bootstrap), which succeeds but 'ant clean compile' still fails with the
+: following error. I guess that I am not alone in doing this so there should
+: be some standard work around for this.
+
+The ivy bootstraping is really designed to to be for developers to setup 
+their ~/.ant/lib directory -- IIRC most of the jenkins build servers out 
+there don't use it as part of their job, they instead of install ivy once 
+when setting up the jenkins server (in the home dir of the jenkins user)
+
+I suspect the error you are running into may have to do with directory 
+permissions of your jenkins server not letting the job write to the 
+jenkins home dir?  or some other path/permissions incompatibility.
+
+You could consider following the instruction in the ivy-fail warning to 
+have ivy-bootstrap put the ivy jar files in a custom path inside hte 
+workspace of your job, and then use "-lib" to point at that directory when 
+running solr tests.
+
+Alternatively, my preference for setting up jenkins jobs these days is to 
+use docker, and let all the per-job activity (inlcuding the git co of 
+lucene and the ivy bootstraping) happen inside the docker container.
+
+For example: this is a set of scripts/configs i use for an "ondemand" 
+jenkins job i have, that let's me checkout arbitrary branches/commits of 
+lucene-solr, apply arbitrary patches, and the nrun arbitrary build 
+commands (ie: ant test) using arbitrary JDK versions -- all configured at 
+build time with build params...
+
+https://github.com/hossman/solr-jenkins-docker-tester
+
+
+: 
+: ivy-fail:
+:      [echo]
+:      [echo]      This build requires Ivy and Ivy could not be found in
+: your ant classpath.
+:      [echo]
+:      [echo]      (Due to classpath issues and the recursive nature of
+: the Lucene/Solr
+:      [echo]      build system, a local copy of Ivy can not be used an
+: loaded dynamically
+:      [echo]      by the build.xml)
+:      [echo]
+:      [echo]      You can either manually install a copy of Ivy 2.3.0
+: in your ant classpath:
+:      [echo]        http://ant.apache.org/manual/install.html#optionalTasks
+:      [echo]
+:      [echo]      Or this build file can do it for you by running the
+: Ivy Bootstrap target:
+:      [echo]        ant ivy-bootstrap
+:      [echo]
+:      [echo]      Either way you will only have to install Ivy one time.
+:      [echo]
+:      [echo]      'ant ivy-bootstrap' will install a copy of Ivy into
+: your Ant User Library:
+:      [echo]        /home/jenkins/.ant/lib
+:      [echo]
+:      [echo]      If you would prefer, you can have it installed into
+: an alternative
+:      [echo]      directory using the
+: "-Divy_install_path=/some/path/you/choose" option,
+:      [echo]      but you will have to specify this path every time you
+: build Lucene/Solr
+:      [echo]      in the future...
+:      [echo]        ant ivy-bootstrap -Divy_install_path=/some/path/you/choose
+:      [echo]        ...
+:      [echo]        ant -lib /some/path/you/choose clean compile
+:      [echo]        ...
+:      [echo]        ant -lib /some/path/you/choose clean compile
+:      [echo]
+:      [echo]      If you have already run ivy-bootstrap, and still get
+: this message, please
+:      [echo]      try using the "--noconfig" option when running ant,
+: or editing your global
+:      [echo]      ant config to allow the user lib to be loaded.  See
+: the wiki for more details:
+:      [echo]
+: http://wiki.apache.org/lucene-java/DeveloperTips#Problems_with_Ivy.3F
+:      [echo]
+: 
+
+-Hoss
+http://www.lucidworks.com/
+

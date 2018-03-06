@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "bq: Which might be the same as saying nothing matched\n\nRight, a score of zero for a doc means it didn't match the query.\n\nIt can be useful to specify &debug.explainOther can show the scoring\nfor an arbitrary doc, even one with a zero score.\n\nhttps://cwiki.apache.org/confluence/display/solr/Common+Query+Parameters\n\nBest,\nErick\n\nOn Wed, Jan 18, 2017 at 12:53 AM, Tom Chiverton <tc@extravision.com> wrote:\n\n> I 'solved' this by removing some of the 'AND' from my full query. AND\n> should be optional but have no effect if there, right ? But for me it was\n> forcing the score to 0.\n>\n>\n> Which might be the same as saying nothing matched ?\n>\n>\n> Tom\n>\n> On 13/01/17 15:10, Tom Chiverton wrote:\n>\n> I have a few hundred documents with title and content fields.\n>\n> I want a match in title to trump matches in content. If I search for\n> \"connected vehicle\" then a news article that has that in the content\n> shouldn't be ranked higher than the page with that in the title is\n> essentially what I want.\n>\n> I have tried dismax with qf=title^2 as well as several other variants with\n> the standard query parser (like q=\"title:\"foo\"^2 OR content:\"foo\") but\n> documents without the search term in the title still come out before those\n> with the term in the title when ordered by score.\n>\n> Is there something I am missing ?\n>\n> From the docs, something like q=title:\"connected vehicle\"^2 OR\n> content:\"connected vehicle\" should have worked ? Even using ^100 didn't\n> help.\n>\n> I tried with the dismax parser using\n>\n>       \"q\": \"Connected Vehicle\",\n>       \"defType\": \"dismax\",\n>       \"indent\": \"true\",\n>       \"qf\": \"title^2000 content\",\n>       \"pf\": \"pf=title^4000 content^2\",\n>       \"sort\": \"score desc\",\n>       \"wt\": \"json\",\n> but that was not better. if I remove content from pf/qf then documents seem to rank correctly.\n>\n> Example query and results (content omitted) :\n> <http://pastebin.com/5EhrRJP8>http://pastebin.com/5EhrRJP8 with\n> managed-schema http://pastebin.com/mdraWQWE\n>\n> --\n> *Tom Chiverton*\n> Lead Developer\n> e:  tc@extravision.com\n> p:  0161 817 2922\n> t:  @extravision <http://www.twitter.com/extravision>\n> w:  <http://www.extravision.com>www.extravision.com\n> [image: Extravision - email worth seeing] <http://www.extravision.com/>\n> Registered in the UK at: 107 Timber Wharf, 33 Worsley Street, Manchester,\n> M15 4LD.\n> Company Reg No: 0\u00e2\u20ac\u0152\u00e2\u20ac\u01525017214 VAT: GB 8\u00e2\u20ac\u0152\u00e2\u20ac\u015224 5386 19\n>\n> This e-mail is intended solely for the person to whom it is addressed and\n> may contain confidential or privileged information.\n> Any views or opinions presented in this e-mail are solely of the author\n> and do not necessarily represent those of Extravision Ltd.\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 315,
+      "end": 328,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 329,
+      "text": "bq: Which might be the same as saying nothing matched\n\nRight, a score of zero for a doc means it didn't match the query.\n\nIt can be useful to specify &debug.explainOther can show the scoring\nfor an arbitrary doc, even one with a zero score.\n\nhttps://cwiki.apache.org/confluence/display/solr/Common+Query+Parameters\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 329,
+      "end": 405,
+      "text": "On Wed, Jan 18, 2017 at 12:53 AM, Tom Chiverton <tc@extravision.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 640,
+      "end": 648,
+      "text": ">\n> Tom\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 405,
+      "end": 650,
+      "text": "\n> I 'solved' this by removing some of the 'AND' from my full query. AND\n> should be optional but have no effect if there, right ? But for me it was\n> forcing the score to 0.\n>\n>\n> Which might be the same as saying nothing matched ?\n>\n>\n> Tom\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 650,
+      "end": 692,
+      "text": "> On 13/01/17 15:10, Tom Chiverton wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1988,
+      "end": 2403,
+      "text": "> --\n> *Tom Chiverton*\n> Lead Developer\n> e:  tc@extravision.com\n> p:  0161 817 2922\n> t:  @extravision <http://www.twitter.com/extravision>\n> w:  <http://www.extravision.com>www.extravision.com\n> [image: Extravision - email worth seeing] <http://www.extravision.com/>\n> Registered in the UK at: 107 Timber Wharf, 33 Worsley Street, Manchester,\n> M15 4LD.\n> Company Reg No: 0\u00e2\u20ac\u0152\u00e2\u20ac\u01525017214 VAT: GB 8\u00e2\u20ac\u0152\u00e2\u20ac\u015224 5386 19\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 692,
+      "end": 2677,
+      "text": ">\n> I have a few hundred documents with title and content fields.\n>\n> I want a match in title to trump matches in content. If I search for\n> \"connected vehicle\" then a news article that has that in the content\n> shouldn't be ranked higher than the page with that in the title is\n> essentially what I want.\n>\n> I have tried dismax with qf=title^2 as well as several other variants with\n> the standard query parser (like q=\"title:\"foo\"^2 OR content:\"foo\") but\n> documents without the search term in the title still come out before those\n> with the term in the title when ordered by score.\n>\n> Is there something I am missing ?\n>\n> From the docs, something like q=title:\"connected vehicle\"^2 OR\n> content:\"connected vehicle\" should have worked ? Even using ^100 didn't\n> help.\n>\n> I tried with the dismax parser using\n>\n>       \"q\": \"Connected Vehicle\",\n>       \"defType\": \"dismax\",\n>       \"indent\": \"true\",\n>       \"qf\": \"title^2000 content\",\n>       \"pf\": \"pf=title^4000 content^2\",\n>       \"sort\": \"score desc\",\n>       \"wt\": \"json\",\n> but that was not better. if I remove content from pf/qf then documents seem to rank correctly.\n>\n> Example query and results (content omitted) :\n> <http://pastebin.com/5EhrRJP8>http://pastebin.com/5EhrRJP8 with\n> managed-schema http://pastebin.com/mdraWQWE\n>\n> --\n> *Tom Chiverton*\n> Lead Developer\n> e:  tc@extravision.com\n> p:  0161 817 2922\n> t:  @extravision <http://www.twitter.com/extravision>\n> w:  <http://www.extravision.com>www.extravision.com\n> [image: Extravision - email worth seeing] <http://www.extravision.com/>\n> Registered in the UK at: 107 Timber Wharf, 33 Worsley Street, Manchester,\n> M15 4LD.\n> Company Reg No: 0\u00e2\u20ac\u0152\u00e2\u20ac\u01525017214 VAT: GB 8\u00e2\u20ac\u0152\u00e2\u20ac\u015224 5386 19\n>\n> This e-mail is intended solely for the person to whom it is addressed and\n> may contain confidential or privileged information.\n> Any views or opinions presented in this e-mail are solely of the author\n> and do not necessarily represent those of Extravision Ltd.\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_279"
+}

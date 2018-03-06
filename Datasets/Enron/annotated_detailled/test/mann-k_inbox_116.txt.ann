@@ -1,0 +1,178 @@
+{
+  "wrapper": "plaintext",
+  "text": "AND I'M OUT ALL DAY TOMORROW.  ON SECOND THOUGHT, FEEL FREE TO SUB. PAGES AND GO WTIH IT.  THANKS.\n\n -----Original Message-----\nFrom: \tMann, Kay  \nSent:\tThursday, December 13, 2001 12:48 PM\nTo:\tLabanowski, Elizabeth\nSubject:\tRE: OPINION\n\nHow late will you be here today?\n\n -----Original Message-----\nFrom: \tLabanowski, Elizabeth  \nSent:\tThursday, December 13, 2001 12:47 PM\nTo:\tMann, Kay\nSubject:\tOPINION\n\nI WOULD PREFER TO REEXECUTE IF THERE IS TIME.  OTHERWISE, YOU CAN SUBSTITUTE PAGES AND GIVE ME A FULL COPY.  THANKS.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 100,
+      "text": "AND I'M OUT ALL DAY TOMORROW.  ON SECOND THOUGHT, FEEL FREE TO SUB. PAGES AND GO WTIH IT.  THANKS.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 91,
+      "end": 98,
+      "text": "THANKS.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 135,
+      "end": 144,
+      "text": "Mann, Kay",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 163,
+      "end": 180,
+      "text": "December 13, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 181,
+      "end": 189,
+      "text": "12:48 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 194,
+      "end": 215,
+      "text": "Labanowski, Elizabeth",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 225,
+      "end": 236,
+      "text": "RE: OPINION",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 100,
+      "end": 237,
+      "text": " -----Original Message-----\nFrom: \tMann, Kay  \nSent:\tThursday, December 13, 2001 12:48 PM\nTo:\tLabanowski, Elizabeth\nSubject:\tRE: OPINION\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 237,
+      "end": 272,
+      "text": "\nHow late will you be here today?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 307,
+      "end": 328,
+      "text": "Labanowski, Elizabeth",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 347,
+      "end": 364,
+      "text": "December 13, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 365,
+      "end": 373,
+      "text": "12:47 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 378,
+      "end": 387,
+      "text": "Mann, Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 397,
+      "end": 404,
+      "text": "OPINION",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 272,
+      "end": 405,
+      "text": " -----Original Message-----\nFrom: \tLabanowski, Elizabeth  \nSent:\tThursday, December 13, 2001 12:47 PM\nTo:\tMann, Kay\nSubject:\tOPINION\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 405,
+      "end": 522,
+      "text": "\nI WOULD PREFER TO REEXECUTE IF THERE IS TIME.  OTHERWISE, YOU CAN SUBSTITUTE PAGES AND GIVE ME A FULL COPY.  THANKS.",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 515,
+      "end": 522,
+      "text": "THANKS.",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21768311.1075855244389.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Dec 2001 10:48:51 -0800 (PST)",
+      "From": "elizabeth.labanowski@enron.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "RE: OPINION",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Labanowski, Elizabeth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ELABANO>",
+      "X-To": "Mann, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kmann>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_Jan2002\\Mann, Kay\\Inbox",
+      "X-Origin": "Mann-K",
+      "X-FileName": "kmann (Non-Privileged).pst"
+    }
+  },
+  "id": "test/mann-k_inbox_116.txt"
+}

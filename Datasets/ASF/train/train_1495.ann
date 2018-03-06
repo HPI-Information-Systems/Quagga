@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Yes, it has been asked many times and has been answered both on the\nlist and in the - awesome - Reference Guide. I'd recommend reading\nthat and then coming back again with more specific question:\nhttps://cwiki.apache.org/confluence/display/solr/Overview+of+Documents%2C+Fields%2C+and+Schema+Design\n\nOne confusion to clarify though. API is HTTP API, Admin UI just uses\nit and does not - yet - expose everything possible. You can always\njust hit Solr directly for the missing bits. Again, RTARG (.. Awesome\nReference Guide) and then come back with specifics:\nhttps://cwiki.apache.org/confluence/display/solr/Schema+API\n\nRegards,\n   Alex.\n\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 7 March 2017 at 11:41, OTH <omer.t.h.7@gmail.com> wrote:\n> Hello\n>\n> I'm sure this has been asked many times but I'm having some confusion here.\n>\n> I understand that managed-schema is not supposed to be edited by hand but\n> only via the \"API\".  All I understand about this \"API\" however, is that it\n> may be referring to the \"Schema\" page in the Solr browser-based Admin.\n>\n> However, in this \"Schema\" page, it provides options for \"Add Field\", \"Add\n> Dynamic Field\", \"Add Copy Field\"; but when I was trying to add a\n> \"fieldType\", I couldn't find any way to do this from this web page.\n>\n> So I instead edited the managed-schema page by hand, which I understand can\n> be problematic if the schema is ever edited it via the API later on?\n>\n> I am using v. 6.4.1; when I create a new core, it creates the\n> managed-schema file in the 'conf' folder.  Is there any way to use the\n> older 'schema.xml' format instead?  Because there seems to be more\n> documentation available for that, and like I describe, the browser API\n> seems to perhaps be lacking.\n>\n> If so - what do users usually prefer; schema.xml or managed-schema?  (I'm\n> aware this depends on individual preference, but would be nice to get\n> others' feedback.)\n>\n> Thanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 617,
+      "end": 636,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 719,
+      "text": "Yes, it has been asked many times and has been answered both on the\nlist and in the - awesome - Reference Guide. I'd recommend reading\nthat and then coming back again with more specific question:\nhttps://cwiki.apache.org/confluence/display/solr/Overview+of+Documents%2C+Fields%2C+and+Schema+Design\n\nOne confusion to clarify though. API is HTTP API, Admin UI just uses\nit and does not - yet - expose everything possible. You can always\njust hit Solr directly for the missing bits. Again, RTARG (.. Awesome\nReference Guide) and then come back with specifics:\nhttps://cwiki.apache.org/confluence/display/solr/Schema+API\n\nRegards,\n   Alex.\n\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 719,
+      "end": 779,
+      "text": "On 7 March 2017 at 11:41, OTH <omer.t.h.7@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 779,
+      "end": 787,
+      "text": "> Hello\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1944,
+      "end": 1955,
+      "text": ">\n> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 779,
+      "end": 1956,
+      "text": "> Hello\n>\n> I'm sure this has been asked many times but I'm having some confusion here.\n>\n> I understand that managed-schema is not supposed to be edited by hand but\n> only via the \"API\".  All I understand about this \"API\" however, is that it\n> may be referring to the \"Schema\" page in the Solr browser-based Admin.\n>\n> However, in this \"Schema\" page, it provides options for \"Add Field\", \"Add\n> Dynamic Field\", \"Add Copy Field\"; but when I was trying to add a\n> \"fieldType\", I couldn't find any way to do this from this web page.\n>\n> So I instead edited the managed-schema page by hand, which I understand can\n> be problematic if the schema is ever edited it via the API later on?\n>\n> I am using v. 6.4.1; when I create a new core, it creates the\n> managed-schema file in the 'conf' folder.  Is there any way to use the\n> older 'schema.xml' format instead?  Because there seems to be more\n> documentation available for that, and like I describe, the browser API\n> seems to perhaps be lacking.\n>\n> If so - what do users usually prefer; schema.xml or managed-schema?  (I'm\n> aware this depends on individual preference, but would be nice to get\n> others' feedback.)\n>\n> Thanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1495"
+}

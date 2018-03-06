@@ -1,0 +1,63 @@
+Sorry, I take back my ignore email. Can someone please respond to the initial question:
+
+I unload a core from Solr using the CoreAdmin page on UI or send unload request via the api,
+it works perfectly fine. In my code, I’m trying to unload a core using the call:
+
+CoreAdminRequest.unloadCore(<coreName>, <solrClient>);
+
+
+I get following response:
+
+{responseHeader={status=0,QTime=0}}
+
+
+At this step, I had put a debug point and Solr UI still shows the core that I have unloaded.
+Also, I killed the solr process using kill –9 command and restarted Solr. The core is still
+present in Solr. When does it get unloaded then? Please note that, I’m making these requests
+from a CoreAdminHandler.
+
+
+Thanks,
+Shashank Pedamallu
+
+
+
+
+
+
+On 5/3/17, 1:09 PM, "Shashank Pedamallu" <spedamallu@vmware.com> wrote:
+
+>Please ignore this question. I’m not able to reproduce this, it should have been a mistake
+by me.
+>
+>Thanks,
+>Shashank Pedamallu
+>
+>
+>
+>
+>
+>
+>On 5/3/17, 12:52 PM, "Shashank Pedamallu" <spedamallu@vmware.com> wrote:
+>
+>>Hi all,
+>>
+>>I unload a core from Solr using the CoreAdmin page on UI or send unload request via
+the api, it works perfectly fine. In my code, I’m trying to unload a core using the call:
+>>
+>>CoreAdminRequest.unloadCore(<coreName>, <solrClient>);
+>>
+>>
+>>I get following response:
+>>
+>> {responseHeader={status=0,QTime=0}}
+>>
+>>
+>>At this step, I had put a debug point and Solr UI still shows the core that I have
+unloaded. Also, I killed the solr process using kill –9 command and restarted Solr. The
+core is still present in Solr. When does it get unloaded then?
+>>
+>>Thanks in advance!
+>>
+>>Thanks,
+>>Shashank Pedamallu

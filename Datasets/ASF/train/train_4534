@@ -1,0 +1,28 @@
+Hi Walid
+Is there any error occurring? If not, then do not change anything. Yes, that version of Solr
+is old, if you get the chance you would want to upgrade. Cheers -- Rick
+
+On July 4, 2017 6:11:57 AM EDT, walid <walid.kharrat@gmail.com> wrote:
+>Hi,
+>i have a multiple solr slaves reversed by nginx, clients browser send
+>to
+>nginx who reverse with round robin to solr slaves, clients use post,
+>and
+>directly deal with solrs i use "ajax-solr". with this configuration and
+>if i
+>have a lot of ecommerce users, Is there a risk to have many tomcat
+>sessions
+>in solr servers? if i found solution with nginx to use same session in
+>the
+>solr requests, this will not cause solr response errors?
+>my solr version is 1.4.1, i know this is too old 
+>
+>
+>
+>--
+>View this message in context:
+>http://lucene.472066.n3.nabble.com/behind-nginx-tp4344124.html
+>Sent from the Solr - User mailing list archive at Nabble.com.
+
+-- 
+Sorry for being brief. Alternate email is rickleir at yahoo dot com 

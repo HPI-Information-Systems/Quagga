@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,Alonso.\n  Thanks! I've read about this but did not quite understand it. To pick out\nthe topic name of a kafka message seems a simple task but the example code\nlooks so complicated with redundent info. Why do we need offsetRanges here\nand do we have a easy way to achieve this?\n\nCheers,\nDan\n\n\n2017-09-06 21:17 GMT+08:00 Alonso Isidoro Roman <alonsoir@gmail.com>:\n\n> Hi, reading the official doc\n> <http://spark.apache.org/docs/latest/streaming-kafka-0-8-integration.html>,\n> i think you can do it this way:\n>\n> import org.apache.spark.streaming.kafka._\n>\n>    val directKafkaStream = KafkaUtils.createDirectStream[String, String, StringDecoder,\nStringDecoder](\n>\n>       ssc, kafkaParams, topicsSet)\n>\n>\n>  // Hold a reference to the current offset ranges, so it can be used downstream\n>  var offsetRanges = Array.empty[OffsetRange]\n>\n>  directKafkaStream.transform { rdd =>\n>    offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges\n>    rdd\n>  }.map {\n>            ...\n>  }.foreachRDD { rdd =>\n>    for (o <- offsetRanges) {\n>      println(*s\"${o.topic}* ${o.partition} ${o.fromOffset} ${o.untilOffset}\")\n>    }\n>\n>  }\n>\n>\n> 2017-09-06 14:38 GMT+02:00 Dan Dong <dongdan39@gmail.com>:\n>\n>> Hi, All,\n>>   I have one issue here about how to process multiple Kafka topics in a\n>> Spark 2.* program. My question is: How to get the topic name from a message\n>> received from Kafka? E.g:\n>>\n>> ......\n>>     val messages = KafkaUtils.createDirectStream[String, String,\n>> StringDecoder, StringDecoder](\n>>       ssc, kafkaParams, topicsSet)\n>>\n>>     // Get the lines, split them into words, count the words and print\n>>     val lines = messages.map(_._2)\n>>     val words = lines.flatMap(_.split(\" \"))\n>>     val wordCounts = words.map(x => (x, 1L)).reduceByKey(_ + _)\n>>     wordCounts.print()\n>> ......\n>>\n>> Kafka send the messages in multiple topics through console producer for\n>> example. But when Spark receive the message, how it will know which topic\n>> is this piece of message coming from? Thanks a lot for any of your helps!\n>>\n>> Cheers,\n>> Dan\n>>\n>\n>\n>\n> --\n> Alonso Isidoro Roman\n> [image: https://]about.me/alonso.isidoro.roman\n>\n> <https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi,Alonso.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 280,
+      "end": 293,
+      "text": "\nCheers,\nDan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 295,
+      "text": "Hi,Alonso.\n  Thanks! I've read about this but did not quite understand it. To pick out\nthe topic name of a kafka message seems a simple task but the example code\nlooks so complicated with redundent info. Why do we need offsetRanges here\nand do we have a easy way to achieve this?\n\nCheers,\nDan\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 295,
+      "end": 365,
+      "text": "2017-09-06 21:17 GMT+08:00 Alonso Isidoro Roman <alonsoir@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 365,
+      "end": 371,
+      "text": "\n> Hi,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 365,
+      "end": 1135,
+      "text": "\n> Hi, reading the official doc\n> <http://spark.apache.org/docs/latest/streaming-kafka-0-8-integration.html>,\n> i think you can do it this way:\n>\n> import org.apache.spark.streaming.kafka._\n>\n>    val directKafkaStream = KafkaUtils.createDirectStream[String, String, StringDecoder,\nStringDecoder](\n>\n>       ssc, kafkaParams, topicsSet)\n>\n>\n>  // Hold a reference to the current offset ranges, so it can be used downstream\n>  var offsetRanges = Array.empty[OffsetRange]\n>\n>  directKafkaStream.transform { rdd =>\n>    offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges\n>    rdd\n>  }.map {\n>            ...\n>  }.foreachRDD { rdd =>\n>    for (o <- offsetRanges) {\n>      println(*s\"${o.topic}* ${o.partition} ${o.fromOffset} ${o.untilOffset}\")\n>    }\n>\n>  }\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1135,
+      "end": 1196,
+      "text": "> 2017-09-06 14:38 GMT+02:00 Dan Dong <dongdan39@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1196,
+      "end": 1210,
+      "text": ">\n>> Hi, All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2043,
+      "end": 2064,
+      "text": ">>\n>> Cheers,\n>> Dan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2073,
+      "end": 2101,
+      "text": "> --\n> Alonso Isidoro Roman\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1196,
+      "end": 2283,
+      "text": ">\n>> Hi, All,\n>>   I have one issue here about how to process multiple Kafka topics in a\n>> Spark 2.* program. My question is: How to get the topic name from a message\n>> received from Kafka? E.g:\n>>\n>> ......\n>>     val messages = KafkaUtils.createDirectStream[String, String,\n>> StringDecoder, StringDecoder](\n>>       ssc, kafkaParams, topicsSet)\n>>\n>>     // Get the lines, split them into words, count the words and print\n>>     val lines = messages.map(_._2)\n>>     val words = lines.flatMap(_.split(\" \"))\n>>     val wordCounts = words.map(x => (x, 1L)).reduceByKey(_ + _)\n>>     wordCounts.print()\n>> ......\n>>\n>> Kafka send the messages in multiple topics through console producer for\n>> example. But when Spark receive the message, how it will know which topic\n>> is this piece of message coming from? Thanks a lot for any of your helps!\n>>\n>> Cheers,\n>> Dan\n>>\n>\n>\n>\n> --\n> Alonso Isidoro Roman\n> [image: https://]about.me/alonso.isidoro.roman\n>\n> <https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5117"
+}

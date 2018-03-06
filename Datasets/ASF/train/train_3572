@@ -1,0 +1,123 @@
+I'm not sure I fully understand what you're trying to do but this is what I
+do to ensure replicas are not on the same rack:
+
+rule=shard:*,replica:<2,sysprop.rack:*
+
+On 23 May 2017 at 22:37, Bernd Fehling <bernd.fehling@uni-bielefeld.de>
+wrote:
+
+> Yes, I tried that already.
+> Sure, it assigns 2 nodes with port 8983 to shard1 (e.g.
+> server1:8983,server2:8983).
+> But due to no replica rule (which defaults to wildcard) I also get
+> shard3 --> server2:8983,server2:7574
+> shard2 --> server1:7574,server3:8983
+>
+> The result is 3 replicas on server2 and also 2 replicas on one node of
+> server2
+> but _no_ replica on node server3:7574.
+>
+> I also tried to really nail it down with the rule:
+> rule=shard:shard1,replica:<2,sysprop.rack:1&
+> rule=shard:shard2,replica:<2,sysprop.rack:2&
+> rule=shard:shard3,replica:<2,sysprop.rack:3
+>
+> The nodes were started with the correct -Drack=x property, but no luck.
+>
+> From debugging I can see that the code is "over complicated" written.
+> Probably to catch all possibilities (core, node, port, ip_x,...) but with
+> the lack
+> not really trying all permutations and obeying the rules.
+>
+> I will open a ticket for this.
+>
+> Regards
+> Bernd
+>
+> Am 23.05.2017 um 14:09 schrieb Noble Paul:
+> > did you try the rule
+> > shard:shard1,port:8983
+> >
+> > this ensures that all replicas of shard1 is allocated in the node w/
+> port 8983.
+> >
+> > if it doesn't , it's a bug. Please open  aticket
+> >
+> > On Tue, May 23, 2017 at 7:10 PM, Bernd Fehling
+> > <bernd.fehling@uni-bielefeld.de> wrote:
+> >> After some analysis it turns out that they compare apples with oranges
+> :-(
+> >>
+> >> Inside "tryAPermutationOfRules" the rule is called with rules.get() and
+> >> the next step is calling rule.compare(), but they don't compare the
+> nodes
+> >> against the rule (or rules). They compare the nodes against each other.
+> >>
+> >> E.g. server1:8983, server2:7574, server1:7574,...
+> >> What do you think will happen if comparing server1:8983 against
+> server2:7574 (and so on)???
+> >> It will _NEVER_ match!!!
+> >>
+> >> Regards
+> >> Bernd
+> >>
+> >>
+> >> Am 23.05.2017 um 08:54 schrieb Bernd Fehling:
+> >>> No, that is way off, because:
+> >>> 1. you have no "tag" defined.
+> >>>    shard and replica can be omitted and they will default to wildcard,
+> >>>    but a "tag" must be defined.
+> >>> 2. replica must be an integer or a wildcard.
+> >>>
+> >>> Regards
+> >>> Bernd
+> >>>
+> >>> Am 23.05.2017 um 01:17 schrieb Damien Kamerman:
+> >>>> If you want all the replicas for shard1 on the same port then I think
+> the
+> >>>> rule is: 'shard:shard1,replica:port:8983'
+> >>>>
+> >>>> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.
+> de>
+> >>>> wrote:
+> >>>>
+> >>>>> I tried many settings with "Rule-based Replica Placement" on Solr
+> 6.5.1
+> >>>>> and came to the conclusion that it is not working at all.
+> >>>>>
+> >>>>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each
+> server).
+> >>>>>
+> >>>>> The call to create a new collection is
+> >>>>> "http://localhost:8983/solr/admin/collections?action=
+> CREATE&name=boss&
+> >>>>> collection.configName=boss_configs&numShards=3&replicationFactor=2&
+> >>>>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983"
+> >>>>>
+> >>>>> With "rule=shard:shard1,replica:<2,port:8983" I expect that shard1
+> has
+> >>>>> only nodes with port 8983 _OR_ it shoud fail due to "strict mode"
+> because
+> >>>>> the fuzzy operator "~" it not set.
+> >>>>>
+> >>>>> The result of the call is:
+> >>>>> shard1 --> server2:7574 / server1:8983
+> >>>>> shard2 --> server1:7574 / server3:8983
+> >>>>> shard3 --> server2:8983 / server3:7574
+> >>>>>
+> >>>>> The expected result should be (at least!!!) shard1 --> server_x:8983
+> /
+> >>>>> server_y:8983
+> >>>>> where "_x" and "_y" can be anything between 1 and 3 but must be
+> different.
+> >>>>>
+> >>>>> I think the problem is somewhere in "class ReplicaAssigner" with
+> >>>>> "tryAllPermutations"
+> >>>>> and "tryAPermutationOfRules".
+> >>>>>
+> >>>>> Regards
+> >>>>> Bernd
+> >>>>>
+> >>>>
+>
+

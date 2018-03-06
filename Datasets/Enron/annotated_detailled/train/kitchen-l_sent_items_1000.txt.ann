@@ -1,0 +1,114 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tMiller, Don (Asset Mktg)  \nSent:\tWednesday, September 26, 2001 11:43 AM\nTo:\tKitchen, Louise\nSubject:\tVitro\n\nLouise,\n\nThere is no way that Vitro will close this quarter.  Give me a call and I will fill in all the facts.\n\nDon",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 48,
+      "text": "Miller, Don",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 81,
+      "end": 99,
+      "text": "September 26, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 100,
+      "end": 108,
+      "text": "11:43 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 113,
+      "end": 128,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 138,
+      "end": 143,
+      "text": "Vitro",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 144,
+      "text": "\n\n -----Original Message-----\nFrom: \tMiller, Don (Asset Mktg)  \nSent:\tWednesday, September 26, 2001 11:43 AM\nTo:\tKitchen, Louise\nSubject:\tVitro\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 145,
+      "end": 151,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 257,
+      "end": 260,
+      "text": "Don",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 144,
+      "end": 260,
+      "text": "\nLouise,\n\nThere is no way that Vitro will close this quarter.  Give me a call and I will fill in all the facts.\n\nDon",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16859780.1075853022075.JavaMail.evans@thyme>",
+      "Date": "Wed, 26 Sep 2001 10:29:47 -0700 (PDT)",
+      "From": "louise.kitchen@enron.com",
+      "To": "john.lavorato@enron.com",
+      "Subject": "FW: Vitro",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-To": "Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlavora>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\Sent Items",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l_sent_items_1000.txt"
+}

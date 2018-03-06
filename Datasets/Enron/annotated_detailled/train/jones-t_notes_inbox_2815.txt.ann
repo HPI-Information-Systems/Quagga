@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Folks:\nDo we have a draft master firm that we can send to JD Irving with credit erms?\nWhat about the amendment to the Master Swap -- Have we sent it yet? \nJDI said they have received nothing\nDId I gve you guys everything you need for these contracts?\nThanks\nJEn",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 258,
+      "end": 261,
+      "text": "JEn",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 251,
+      "end": 261,
+      "text": "Thanks\nJEn",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 6,
+      "text": "Folks:",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 261,
+      "text": "Folks:\nDo we have a draft master firm that we can send to JD Irving with credit erms?\nWhat about the amendment to the Master Swap -- Have we sent it yet? \nJDI said they have received nothing\nDId I gve you guys everything you need for these contracts?\nThanks\nJEn",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6212792.1075847138934.JavaMail.evans@thyme>",
+      "Date": "Mon, 4 Dec 2000 04:44:00 -0800 (PST)",
+      "From": "jennifer.fraser@enron.com",
+      "To": "jeffrey.hodge@enron.com, brant.reves@enron.com, tana.jones@enron.com",
+      "Subject": "Master Firm and Amendmendment to Master Swap",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jennifer Fraser",
+      "X-To": "Jeffrey T Hodge, Brant Reves, Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_2815.txt"
+}

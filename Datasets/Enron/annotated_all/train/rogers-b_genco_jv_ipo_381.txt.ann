@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Gentlemen,\n\nAndy Kelemen request that I forward you a copy of the information memorandum \nfor LV Cogen & Priscilla.  \n\nIf you have any questions or problems I'll be in the office after 1 o'clock \nPacific Daylight Savings Time, and I can be reached at (503) 464-7731.\n\nJonAlan Page\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Gentlemen,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 268,
+      "end": 281,
+      "text": "JonAlan Page\n",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 281,
+      "text": "Gentlemen,\n\nAndy Kelemen request that I forward you a copy of the information memorandum \nfor LV Cogen & Priscilla.  \n\nIf you have any questions or problems I'll be in the office after 1 o'clock \nPacific Daylight Savings Time, and I can be reached at (503) 464-7731.\n\nJonAlan Page\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26137498.1075857278079.JavaMail.evans@thyme>",
+      "Date": "Sat, 26 Aug 2000 03:49:00 -0700 (PDT)",
+      "From": "jonalan.page@enron.com",
+      "To": "don.miller@enron.com, benjamin.rogers@enron.com, jonathan.hoff@enron.com, \n\tjinsung.myung@enron.com",
+      "Subject": "LVC & LVC II",
+      "Cc": "aykelemen@dellnet.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "aykelemen@dellnet.com",
+      "X-From": "Jonalan Page",
+      "X-To": "Don Miller, Benjamin Rogers, Jonathan Hoff, Jinsung Myung",
+      "X-cc": "aykelemen@dellnet.com",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_4\\Notes Folders\\Genco-jv_ipo",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_genco_jv_ipo_381.txt"
+}

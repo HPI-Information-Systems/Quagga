@@ -1,0 +1,130 @@
+{
+  "wrapper": "plaintext",
+  "text": "Holy moly and hee haw, how the heck are ya, and what are you up to?\n\n\n\n\n\"Joan Wagner\" <IFSG230@mail.bus.utexas.edu> on 09/18/2000 12:21:11 PM\nTo: <Jeff_Dasovich@enron.com>\ncc:  \nSubject: John Waters\n\n\nYour boy had the quote of the day in the NY Times.\n\n\"Show me a kid who's not sneaking into R-rated movies and I'll show you\na failure.  All the future CEO's of this country are sneaking into\nR-rated movies.\"\n\nHappy Monday,\n - jdw\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 72,
+      "text": "Holy moly and hee haw, how the heck are ya, and what are you up to?\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 73,
+      "end": 84,
+      "text": "Joan Wagner",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 87,
+      "end": 114,
+      "text": "IFSG230@mail.bus.utexas.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 119,
+      "end": 129,
+      "text": "09/18/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 130,
+      "end": 141,
+      "text": "12:21:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 147,
+      "end": 170,
+      "text": "Jeff_Dasovich@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 187,
+      "end": 198,
+      "text": "John Waters",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 72,
+      "end": 199,
+      "text": "\"Joan Wagner\" <IFSG230@mail.bus.utexas.edu> on 09/18/2000 12:21:11 PM\nTo: <Jeff_Dasovich@enron.com>\ncc:  \nSubject: John Waters\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 427,
+      "end": 430,
+      "text": "jdw",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 410,
+      "end": 431,
+      "text": "Happy Monday,\n - jdw\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 199,
+      "end": 432,
+      "text": "\n\nYour boy had the quote of the day in the NY Times.\n\n\"Show me a kid who's not sneaking into R-rated movies and I'll show you\na failure.  All the future CEO's of this country are sneaking into\nR-rated movies.\"\n\nHappy Monday,\n - jdw\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5989943.1075842974320.JavaMail.evans@thyme>",
+      "Date": "Mon, 18 Sep 2000 05:28:00 -0700 (PDT)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "ifsg230@mail.bus.utexas.edu",
+      "Subject": "Re: John Waters",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "\"Joan Wagner\" <IFSG230@mail.bus.utexas.edu> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_1537.txt"
+}

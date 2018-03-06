@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Forgot to mention I am getting a stream of Avro records and I want to do\nStructured streaming on these Avro records but first I wan to be able to\nparse them and put them in a DataSet<Row> or something like that.\n\nOn Thu, Jun 29, 2017 at 12:56 AM, kant kodali <kanth909@gmail.com> wrote:\n\n> Hi All,\n>\n> What's the simplest way to Read Avro records from Kafka and put it into\n> Spark DataSet/DataFrame without using Confluent Schema registry or Twitter\n> Bijection API?\n>\n> Thanks!\n>\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 213,
+      "text": "Forgot to mention I am getting a stream of Avro records and I want to do\nStructured streaming on these Avro records but first I wan to be able to\nparse them and put them in a DataSet<Row> or something like that.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 213,
+      "end": 287,
+      "text": "On Thu, Jun 29, 2017 at 12:56 AM, kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 287,
+      "end": 298,
+      "text": "\n> Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 468,
+      "end": 480,
+      "text": ">\n> Thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 287,
+      "end": 489,
+      "text": "\n> Hi All,\n>\n> What's the simplest way to Read Avro records from Kafka and put it into\n> Spark DataSet/DataFrame without using Confluent Schema registry or Twitter\n> Bijection API?\n>\n> Thanks!\n>\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3975"
+}

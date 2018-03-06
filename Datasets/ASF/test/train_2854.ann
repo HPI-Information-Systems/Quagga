@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nI would like to get started on Spark Streaming with a simple window.\n\nI've got some existing Spark code that takes a dataframe, and outputs a dataframe. This includes\nvarious joins and operations that are not supported by structured streaming yet. I am looking\nto essentially map/apply this on the data for each window.\n\nIs there any way to apply a function to a dataframe that would correspond to each window?\nThis would mean accumulate data until watermark is reached, and then mapping the full corresponding\ndataframe.\n\nI am using pyspark. I've seen the foreach writer, but it seems to operate at partition level\ninstead of a full \"window dataframe\" and is not available for Python anyway.\n\nThanks!",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 701,
+      "end": 709,
+      "text": "\nThanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 709,
+      "text": "Hello,\n\nI would like to get started on Spark Streaming with a simple window.\n\nI've got some existing Spark code that takes a dataframe, and outputs a dataframe. This includes\nvarious joins and operations that are not supported by structured streaming yet. I am looking\nto essentially map/apply this on the data for each window.\n\nIs there any way to apply a function to a dataframe that would correspond to each window?\nThis would mean accumulate data until watermark is reached, and then mapping the full corresponding\ndataframe.\n\nI am using pyspark. I've seen the foreach writer, but it seems to operate at partition level\ninstead of a full \"window dataframe\" and is not available for Python anyway.\n\nThanks!",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2854"
+}

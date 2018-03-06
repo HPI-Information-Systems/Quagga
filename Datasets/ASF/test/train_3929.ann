@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nI am using Apache spark 2.0.2 randomforest ml (standalone mode) for text\nclassification. TF-IDF feature extractor is also used. The training part\nruns without any issues and returns 100% accuracy. But when I am trying to\ndo prediction using trained model and compute test error, it fails with\njava.util.NosuchElementException: key not found exception.\nAny help will be much appreciated.\n\nThanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 392,
+      "end": 400,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 401,
+      "text": "Hi,\n\nI am using Apache spark 2.0.2 randomforest ml (standalone mode) for text\nclassification. TF-IDF feature extractor is also used. The training part\nruns without any issues and returns 100% accuracy. But when I am trying to\ndo prediction using trained model and compute test error, it fails with\njava.util.NosuchElementException: key not found exception.\nAny help will be much appreciated.\n\nThanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3929"
+}

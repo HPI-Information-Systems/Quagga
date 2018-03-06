@@ -1,0 +1,61 @@
+{
+  "wrapper": "plaintext",
+  "text": "Today, we received a letter from FERC notifying us that they are initiating \nan inquiry to increase \"their understanding of the scope and development of \nelectronic trading in electric power and natural gas markets.\"   FERC is \nrequesting that EnronOnline \"cooperate\" with the inquiry.  The letter states \nthat they will be sending us a request for information, and visiting our \noffices in Houston.  \n\nWe're not certain what FERC is after with this inquiry, but wanted to make \nsure you were aware of this development.   We are looking into this, and will \nget back to you asap with further information. \n\nLisa Yoho\nGovernment Affairs",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 607,
+      "end": 616,
+      "text": "Lisa Yoho",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 617,
+      "end": 635,
+      "text": "Government Affairs",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 635,
+      "text": "Today, we received a letter from FERC notifying us that they are initiating \nan inquiry to increase \"their understanding of the scope and development of \nelectronic trading in electric power and natural gas markets.\"   FERC is \nrequesting that EnronOnline \"cooperate\" with the inquiry.  The letter states \nthat they will be sending us a request for information, and visiting our \noffices in Houston.  \n\nWe're not certain what FERC is after with this inquiry, but wanted to make \nsure you were aware of this development.   We are looking into this, and will \nget back to you asap with further information. \n\nLisa Yoho\nGovernment Affairs",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12974759.1075858058945.JavaMail.evans@thyme>",
+      "Date": "Wed, 23 May 2001 04:19:00 -0700 (PDT)",
+      "From": "lisa.yoho@enron.com",
+      "To": "john.lavorato@enron.com, louise.kitchen@enron.com, philippe.bibi@enron.com, \n\tgreg.whalley@enron.com, mark.haedicke@enron.com, \n\tandy.zipper@enron.com, greg.piper@enron.com, mark.taylor@enron.com",
+      "Subject": "FERC Inquiry into Electronic Trading (&EOL)",
+      "Cc": "richard.shapiro@enron.com, james.steffes@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "richard.shapiro@enron.com, james.steffes@enron.com",
+      "X-From": "Lisa Yoho",
+      "X-To": "John J Lavorato, Louise Kitchen, Philippe A Bibi, Greg Whalley, Mark E Haedicke, Andy Zipper, Greg Piper, Mark Taylor",
+      "X-cc": "Richard Shapiro, James D Steffes",
+      "X-bcc": "",
+      "X-Folder": "\\Lawrence_Whalley_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Whalley-L",
+      "X-FileName": "gwhalley.nsf"
+    }
+  },
+  "id": "train/whalley-l_notes_inbox_557.txt"
+}

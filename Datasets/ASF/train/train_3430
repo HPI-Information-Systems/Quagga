@@ -1,0 +1,34 @@
+Hi Shawn,
+
+I forgot that legacy-int-fields were deprecated. Point fields it is then.
+
+Thanks,
+Dorian
+
+On Tue, May 16, 2017 at 3:01 PM, Shawn Heisey <apache@elyograg.org> wrote:
+
+> On 5/16/2017 3:33 AM, Dorian Hoxha wrote:
+> > Has anyone measured which is more efficient/performant between the 2
+> > intfields if we don't need to do range-checking ? (precisionStep=0)
+>
+> Point field support in Solr is *BRAND NEW*.  Very little information is
+> available yet on the Solr implementation.  Benchmarks were done at the
+> Lucene level, but I do not know what the numbers were.  If any Solr
+> benchmarks were done, which I can't be sure about, I do not know where
+> the results might be.
+>
+> Lucene had Points support long before Solr did.  The Lucene developers
+> felt so strongly about the superiority of the Point implementations that
+> they completely deprecated the legacy numeric field classes (which is
+> what Trie classes use) early in the 6.x development cycle, slating them
+> for removal in 7.0.
+>
+> If you wonder about backward compatibility in Solr 7.0 because the
+> Lucene legacy numerics are disappearing, then you've discovered a
+> dilemma that we're facing before the 7.0 release.
+>
+> Thanks,
+> Shawn
+>
+>
+

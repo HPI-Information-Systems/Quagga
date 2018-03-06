@@ -1,0 +1,153 @@
+{
+  "wrapper": "plaintext",
+  "text": "The November newsletter looked great!  \n\nThis message was sent by Beverly Gibson for the December newsletter.  At Monday's board meeting, Lori Ewalt gave me an article about Senior Presentation for the December newsletter.  She doesn't have an electronic copy.  I will try this weekend to retype it as a word document and e-mail it to you.  Lori also said that she had given Janet Petrak a hard copy of a permission slip to be printed in the December newsletter.  (This is for parents to sign for under 17's to be out after midnight as they return from Senior Presentation).  Do you have that?  If not, you might contact Janet and ask her for that.  --Sally   \n\n -----Original Message-----\nFrom: \t\"Beverly Gibson\" <bgibson50606@houston.rr.com>@ENRON  \nSent:\tTuesday, November  6, 2001 10:55 PM\nTo:\tJanet Petrak; Beck, Sally\nSubject:\tNCL newsletter information\n\n\nFor next newsletter if space is  available:\n \nWhen you need to send an  e-mail sub request, please follow this procedure:\nE-mail me at bgibson50606@houston.rr.com  with  the pertinent information (date, time, place).  I check my e-mail at  least daily and should be able to forward your message quickly.\nIf the time frame is short, please  call me at (281) 893-3718 to let me know you have e-mailed the  information.\nI do not call you to confirm I have  sent the message.  Your confirmation is the e-mail message you receive  within the larger NCL mailing.\nPlease remember that you still need  to notify the philanthropy chair of any changes in your signup and that you  are still ultimately responsible for finding your own sub.\n\nPlease e-mail me with any e-mail  address changes.  If I get several returned messages regarding your  address, I delete you from my database and you will be missing out on some  helpful information.\n \nThanks,\nBeverly Gibson\n \n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 652,
+      "end": 657,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 662,
+      "text": "The November newsletter looked great!  \n\nThis message was sent by Beverly Gibson for the December newsletter.  At Monday's board meeting, Lori Ewalt gave me an article about Senior Presentation for the December newsletter.  She doesn't have an electronic copy.  I will try this weekend to retype it as a word document and e-mail it to you.  Lori also said that she had given Janet Petrak a hard copy of a permission slip to be printed in the December newsletter.  (This is for parents to sign for under 17's to be out after midnight as they return from Senior Presentation).  Do you have that?  If not, you might contact Janet and ask her for that.  --Sally   \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 698,
+      "end": 712,
+      "text": "Beverly Gibson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 715,
+      "end": 742,
+      "text": "bgibson50606@houston.rr.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 767,
+      "end": 784,
+      "text": "November  6, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 785,
+      "end": 793,
+      "text": "10:55 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 798,
+      "end": 810,
+      "text": "Janet Petrak",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 812,
+      "end": 823,
+      "text": "Beck, Sally",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 833,
+      "end": 859,
+      "text": "NCL newsletter information",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 662,
+      "end": 860,
+      "text": " -----Original Message-----\nFrom: \t\"Beverly Gibson\" <bgibson50606@houston.rr.com>@ENRON  \nSent:\tTuesday, November  6, 2001 10:55 PM\nTo:\tJanet Petrak; Beck, Sally\nSubject:\tNCL newsletter information\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1803,
+      "end": 1817,
+      "text": "Beverly Gibson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1795,
+      "end": 1818,
+      "text": "Thanks,\nBeverly Gibson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 860,
+      "end": 1821,
+      "text": "\n\nFor next newsletter if space is  available:\n \nWhen you need to send an  e-mail sub request, please follow this procedure:\nE-mail me at bgibson50606@houston.rr.com  with  the pertinent information (date, time, place).  I check my e-mail at  least daily and should be able to forward your message quickly.\nIf the time frame is short, please  call me at (281) 893-3718 to let me know you have e-mailed the  information.\nI do not call you to confirm I have  sent the message.  Your confirmation is the e-mail message you receive  within the larger NCL mailing.\nPlease remember that you still need  to notify the philanthropy chair of any changes in your signup and that you  are still ultimately responsible for finding your own sub.\n\nPlease e-mail me with any e-mail  address changes.  If I get several returned messages regarding your  address, I delete you from my database and you will be missing out on some  helpful information.\n \nThanks,\nBeverly Gibson\n \n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2085778.1075862305141.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Nov 2001 08:54:17 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "rgladstein@aol.com",
+      "Subject": "FW: NCL newsletter information",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SBECK>",
+      "X-To": "'rgladstein@aol.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Beck, Sally\\Sent Items",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_sent_items_478.txt"
+}

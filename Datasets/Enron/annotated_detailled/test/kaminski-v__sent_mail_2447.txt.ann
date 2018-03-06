@@ -1,0 +1,164 @@
+{
+  "wrapper": "plaintext",
+  "text": "Michael,\n\nPlease, contact Zimin Lu.\n\nVince Kaminski\n\n\n\n\n\nMichael Danielson\n06/30/2000 01:10 PM\nTo: Vince J Kaminski/HOU/ECT@ECT, Mike A Roberts/HOU/ECT@ECT\ncc: Angela Connelly/LON/ECT@ECT, Savita Puthigai/NA/Enron@Enron \nSubject: EOL Phase 2  \n\nThanks for your help on content for EOL phase 2.\n\nAn additional piece of content that we are trying to include in our scope is \nan options calculator.  This would be an interactive tool to teach less \nsophisticated counterparties about options.  We would like to collaborate \nwith someone in research to refine our approach (and make sure we're using \nthe right formulas).  Who should we contact in research for this?\n\nAttached is a mock-up of what we have in mind...\n\n - Calculator Prototype.ppt\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Michael",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 37,
+      "end": 51,
+      "text": "Vince Kaminski",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 57,
+      "text": "Michael,\n\nPlease, contact Zimin Lu.\n\nVince Kaminski\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 57,
+      "end": 74,
+      "text": "Michael Danielson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 75,
+      "end": 85,
+      "text": "06/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 86,
+      "end": 94,
+      "text": "01:10 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 99,
+      "end": 115,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 129,
+      "end": 143,
+      "text": "Mike A Roberts",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 160,
+      "end": 175,
+      "text": "Angela Connelly",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 189,
+      "end": 204,
+      "text": "Savita Puthigai",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 230,
+      "end": 241,
+      "text": "EOL Phase 2",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 57,
+      "end": 244,
+      "text": "Michael Danielson\n06/30/2000 01:10 PM\nTo: Vince J Kaminski/HOU/ECT@ECT, Mike A Roberts/HOU/ECT@ECT\ncc: Angela Connelly/LON/ECT@ECT, Savita Puthigai/NA/Enron@Enron \nSubject: EOL Phase 2  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 717,
+      "end": 741,
+      "text": "Calculator Prototype.ppt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 714,
+      "end": 742,
+      "text": " - Calculator Prototype.ppt\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 244,
+      "end": 743,
+      "text": "\nThanks for your help on content for EOL phase 2.\n\nAn additional piece of content that we are trying to include in our scope is \nan options calculator.  This would be an interactive tool to teach less \nsophisticated counterparties about options.  We would like to collaborate \nwith someone in research to refine our approach (and make sure we're using \nthe right formulas).  Who should we contact in research for this?\n\nAttached is a mock-up of what we have in mind...\n\n - Calculator Prototype.ppt\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21022681.1075856561447.JavaMail.evans@thyme>",
+      "Date": "Fri, 30 Jun 2000 07:31:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "michael.danielson@enron.com",
+      "Subject": "Re: EOL Phase 2",
+      "Cc": "stinson.gibner@enron.com, zimin.lu@enron.com, vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "stinson.gibner@enron.com, zimin.lu@enron.com, vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Michael Danielson",
+      "X-cc": "Stinson Gibner, Zimin Lu, Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_2447.txt"
+}

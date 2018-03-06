@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "We have today published our estimates of the global derivatives market size \nat June 30, 2000.\n\nThrough our web site, SwapsMonitor.com, you can obtain additional information \nabout OTC derivatives dealers, including rankings and a database of \noutstandings going back to 1994.\n\nAs an e-mail subscriber to our research, you will automatically receive all \nfree research at the same time it is placed on our web site. If you wish to \nremove your name from the e-mailing list, please use the Reply feature of \nyour e-mail application and type the word \"Remove\" in the subject line.\n\nRegards,\n\n\n - global_mrkt.pdf\nAndrei Osonenko\nResearch Department",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 594,
+      "end": 609,
+      "text": "global_mrkt.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 591,
+      "end": 610,
+      "text": " - global_mrkt.pdf\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 610,
+      "end": 625,
+      "text": "Andrei Osonenko",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 626,
+      "end": 645,
+      "text": "Research Department",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 610,
+      "end": 645,
+      "text": "Andrei Osonenko\nResearch Department",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 580,
+      "end": 588,
+      "text": "Regards,",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 645,
+      "text": "We have today published our estimates of the global derivatives market size \nat June 30, 2000.\n\nThrough our web site, SwapsMonitor.com, you can obtain additional information \nabout OTC derivatives dealers, including rankings and a database of \noutstandings going back to 1994.\n\nAs an e-mail subscriber to our research, you will automatically receive all \nfree research at the same time it is placed on our web site. If you wish to \nremove your name from the e-mailing list, please use the Reply feature of \nyour e-mail application and type the word \"Remove\" in the subject line.\n\nRegards,\n\n\n - global_mrkt.pdf\nAndrei Osonenko\nResearch Department",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20309642.1075857054975.JavaMail.evans@thyme>",
+      "Date": "Tue, 28 Nov 2000 08:41:00 -0800 (PST)",
+      "From": "andrei@swapsmonitor.com",
+      "Subject": "Swaps Monitor Research.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Andrei Osonenko <andrei@swapsmonitor.com>",
+      "X-To": "(Recipient list suppressed)",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_9\\Notes Folders\\Notes inbox",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_notes_inbox_166.txt"
+}

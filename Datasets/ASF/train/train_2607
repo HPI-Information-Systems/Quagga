@@ -1,0 +1,42 @@
++name:test +(type:research (*:* -type:[* TO *]))
+
+On Sun, Apr 16, 2017 at 11:47 PM, Furkan KAMACI <furkankamaci@gmail.com>
+wrote:
+
+> Hi,
+>
+> I have a schema like:
+>
+> name,
+> department,
+> type
+>
+> type is an optional field. Some documents don't have that field. Let's
+> assume I have these:
+>
+> Doc 1:
+> name: test
+> type: research
+>
+> Doc 2:
+> name: test
+> type: developer
+>
+> Doc 3:
+> name: test
+>
+> I want to search name: test and type:research if type field exists (result
+> will be Doc 1 and Doc 3).
+>
+> How can I do that?
+>
+> Kind Regards,
+> Furkan KAMACI
+>
+
+
+
+-- 
+Sincerely yours
+Mikhail Khludnev
+

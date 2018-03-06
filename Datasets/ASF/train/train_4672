@@ -1,0 +1,71 @@
+I did use this class using batch file (from Windows server), but it still does not remove anything.
+I sent number of snapshots to keep as 3, but I have more in my folder.
+
+-----Original Message-----
+From: Xie, Sean [mailto:Sean.Xie@finra.org]
+Sent: Sunday, July 9, 2017 7:33 PM
+To: solr-user@lucene.apache.org
+Subject: Re: ZooKeeper transaction logs
+
+You can try run purge manually see if it is working: org.apache.zookeeper.server.PurgeTxnLog.
+
+And use a cron job to do clean up.
+
+
+On 7/9/17, 11:07 AM, "Avi Steiner" <asteiner@varonis.com> wrote:
+
+    Hello
+
+    I'm using Zookeeper 3.4.6
+
+    The ZK log data folder keeps growing with transaction logs files (log.*).
+
+    I set the following in zoo.cfg:
+    autopurge.purgeInterval=1
+    autopurge.snapRetainCount=3
+    dataDir=..\\data
+
+    Per ZK log, it reads those parameters:
+
+    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount
+set to 3
+    2017-07-09 17:44:59,792 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval
+set to 1
+
+    It also says that cleanup process is running:
+
+    2017-07-09 17:44:59,792 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@138]
+- Purge task started.
+    2017-07-09 17:44:59,823 [myid:] - INFO  [PurgeTask:DatadirCleanupManager$PurgeTask@144]
+- Purge task completed.
+
+    But actually nothing is deleted.
+    Every service restart, new file is created.
+
+    The only parameter I managed to change is preAllocSize, which means the minimum size per
+file. The default is 64MB. I changed it to 10KB only for watching the effect.
+
+
+    ________________________________
+    This email and any attachments thereto may contain private, confidential, and privileged
+material for the sole use of the intended recipient. Any review, copying, or distribution
+of this email (or any attachments thereto) by others is strictly prohibited. If you are not
+the intended recipient, please contact the sender immediately and permanently delete the original
+and any copies of this email and any attachments thereto.
+
+
+
+Confidentiality Notice::  This email, including attachments, may include non-public, proprietary,
+confidential or legally privileged information.  If you are not an intended recipient or an
+authorized agent of an intended recipient, you are hereby notified that any dissemination,
+distribution or copying of the information contained in or transmitted with this e-mail is
+unauthorized and strictly prohibited.  If you have received this email in error, please notify
+the sender by replying to this message and permanently delete this e-mail, its attachments,
+and any copies of it immediately.  You should not retain, copy or use this e-mail or any attachment
+for any purpose, nor disclose all or any part of the contents to any other person. Thank you.
+________________________________
+This email and any attachments thereto may contain private, confidential, and privileged material
+for the sole use of the intended recipient. Any review, copying, or distribution of this email
+(or any attachments thereto) by others is strictly prohibited. If you are not the intended
+recipient, please contact the sender immediately and permanently delete the original and any
+copies of this email and any attachments thereto.

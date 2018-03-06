@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Unbelievable!\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/28/2000 \n04:49 PM ---------------------------\n\n\nScott Crowell <scott.crowell@oracle.com> on 09/28/2000 02:24:24 PM\nTo: \"Beckman, Drew\" <dbeckman@bindview.com>, \"Bose, Timothy\" \n<bosetb@earthlink.net>, \"Fultz, Mike\" <mike.fultz@halliburton.com>, \"Giron, \nDarron\" <dgiron@enron.com>, \"Hatfield (AA), Bret\" \n<bret.j.hatfield@us.arthurandersen.com>, \"Jenny, Brook &\" \n<Cheetothecat@aol.com>, \"Judge, Mike\" <mjudge@us.oracle.com>, \"Liberman, Jay\" \n<j_liberman@hotmail.com>, \"Love, Phillip\" <Phillip.M.Love@enron.com>, \n\"Mehringer, Eric\" <emehringer@nextera.com>, \"Nagy, Joe\" \n<jnagy@intraspect.com>, \"Roberson, Calvin\" <CRoberson@ASAPSC.COM>, \"Rossen, \nMike\" <MRossen@INTERGEN.com>, \"Siddons, Chad\" <csiddons@phoenixdsl.com>, \n\"Thomas, Mike\" <mikepthomas@yahoo.com>, \"Young (home), Dennis\" \n<slsdfy@earthlink.net>\ncc:  \nSubject: [Fwd: FW: Vince Carter's dunk over a 7'2'' French player in the \nOlympics]\n\n\n\n\nReturn-Path: <MikeMullen@mail.house.gov>\nReceived: from usmail01.us.oracle.com (usmail01.us.oracle.com [130.35.60.80]) \nby gmgw02.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id IAA29028 for \n<scott.crowell@oracle.com>; Thu, 28 Sep 2000 08:10:27 -0700 (PDT)\nReceived: from inet-smtp1.oracle.com (inet-smtp1.us.oracle.com \n[209.246.15.57]) by usmail01.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id \nIAA20602 for <scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:10:25 -0700 (PDT)\nReceived: from orion.house.gov (orion.house.gov [143.231.86.7]) by \ninet-smtp1.oracle.com (8.9.3/8.9.3) with ESMTP id IAA14327 for \n<scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:15:35 -0700 (PDT)\nReceived: (from smap@localhost) by orion.house.gov (8.9.1b+Sun/8.9.1) id \nKAA17134; Thu, 28 Sep 2000 10:58:07 -0400 (EDT)\nX-Authentication-Warning: orion.house.gov: smap set sender to \n<MikeMullen@mail.house.gov> SIZE=3495340 using -f\nReceived: from ims02.house.gov(143.231.32.178) by orion via smap id \nxma016952; Thu, 28 Sep 00 10:57:54 -0400\nReceived: by ims02.house.gov with Internet Mail Service (5.5.2650.21) id \n<S5A2BGQ5>; Thu, 28 Sep 2000 11:04:36 -0400\nMessage-ID: <AD3CC6482AA0D211A7FB0008C7A4BBC306AE9252@hrm04.house.gov>\nFrom: \"Mullen, Mike\" <MikeMullen@mail.house.gov>\nSubject: FW: Vince Carter's dunk over a 7'2'' French player in the Olympic  s\nDate: Thu, 28 Sep 2000 11:02:25 -0400\nX-Mailer: Internet Mail Service (5.5.2650.21)\n\nCheck out this Vince Carter dunk.  Unbelievable.\n\n>  <<Vince_Carter-7'2_Dunk_(Olympics_2000).mpg>>\n>\n> Ok, you're heard the news reports...you've seen the photo on\n> espn.com...but had you seen the video?  If not, you're in for a treat.\n>\n>\n\n - Vince_Carter-7'2_Dunk_(Olympics_2000).mpg\n - scott.crowell.vcf\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 14,
+      "end": 125,
+      "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/28/2000 \n04:49 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 14,
+      "text": "Unbelievable!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 125,
+      "end": 978,
+      "text": "\n\nScott Crowell <scott.crowell@oracle.com> on 09/28/2000 02:24:24 PM\nTo: \"Beckman, Drew\" <dbeckman@bindview.com>, \"Bose, Timothy\" \n<bosetb@earthlink.net>, \"Fultz, Mike\" <mike.fultz@halliburton.com>, \"Giron, \nDarron\" <dgiron@enron.com>, \"Hatfield (AA), Bret\" \n<bret.j.hatfield@us.arthurandersen.com>, \"Jenny, Brook &\" \n<Cheetothecat@aol.com>, \"Judge, Mike\" <mjudge@us.oracle.com>, \"Liberman, Jay\" \n<j_liberman@hotmail.com>, \"Love, Phillip\" <Phillip.M.Love@enron.com>, \n\"Mehringer, Eric\" <emehringer@nextera.com>, \"Nagy, Joe\" \n<jnagy@intraspect.com>, \"Roberson, Calvin\" <CRoberson@ASAPSC.COM>, \"Rossen, \nMike\" <MRossen@INTERGEN.com>, \"Siddons, Chad\" <csiddons@phoenixdsl.com>, \n\"Thomas, Mike\" <mikepthomas@yahoo.com>, \"Young (home), Dennis\" \n<slsdfy@earthlink.net>\ncc:  \nSubject: [Fwd: FW: Vince Carter's dunk over a 7'2'' French player in the \nOlympics]\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 978,
+      "end": 2705,
+      "text": "\n\n\n\nReturn-Path: <MikeMullen@mail.house.gov>\nReceived: from usmail01.us.oracle.com (usmail01.us.oracle.com [130.35.60.80]) \nby gmgw02.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id IAA29028 for \n<scott.crowell@oracle.com>; Thu, 28 Sep 2000 08:10:27 -0700 (PDT)\nReceived: from inet-smtp1.oracle.com (inet-smtp1.us.oracle.com \n[209.246.15.57]) by usmail01.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id \nIAA20602 for <scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:10:25 -0700 (PDT)\nReceived: from orion.house.gov (orion.house.gov [143.231.86.7]) by \ninet-smtp1.oracle.com (8.9.3/8.9.3) with ESMTP id IAA14327 for \n<scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:15:35 -0700 (PDT)\nReceived: (from smap@localhost) by orion.house.gov (8.9.1b+Sun/8.9.1) id \nKAA17134; Thu, 28 Sep 2000 10:58:07 -0400 (EDT)\nX-Authentication-Warning: orion.house.gov: smap set sender to \n<MikeMullen@mail.house.gov> SIZE=3495340 using -f\nReceived: from ims02.house.gov(143.231.32.178) by orion via smap id \nxma016952; Thu, 28 Sep 00 10:57:54 -0400\nReceived: by ims02.house.gov with Internet Mail Service (5.5.2650.21) id \n<S5A2BGQ5>; Thu, 28 Sep 2000 11:04:36 -0400\nMessage-ID: <AD3CC6482AA0D211A7FB0008C7A4BBC306AE9252@hrm04.house.gov>\nFrom: \"Mullen, Mike\" <MikeMullen@mail.house.gov>\nSubject: FW: Vince Carter's dunk over a 7'2'' French player in the Olympic  s\nDate: Thu, 28 Sep 2000 11:02:25 -0400\nX-Mailer: Internet Mail Service (5.5.2650.21)\n\nCheck out this Vince Carter dunk.  Unbelievable.\n\n>  <<Vince_Carter-7'2_Dunk_(Olympics_2000).mpg>>\n>\n> Ok, you're heard the news reports...you've seen the photo on\n> espn.com...but had you seen the video?  If not, you're in for a treat.\n>\n>\n\n - Vince_Carter-7'2_Dunk_(Olympics_2000).mpg\n - scott.crowell.vcf\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25131591.1075854406561.JavaMail.evans@thyme>",
+      "Date": "Thu, 28 Sep 2000 10:05:00 -0700 (PDT)",
+      "From": "darron.giron@enron.com",
+      "To": "cgiron@mindspring.com, victor.guggenheim@enron.com, jackson.logan@enron.com, \n\tphillip.love@enron.com, jeffrey.gossett@enron.com, dgiron1@pdq.net, \n\tkristi.giron@cfisd.net, hollyw@email.msn.com, smmayers@earthlink.net, \n\tmark.ebert@broadwing.com, kwpope@pdq.net, greg_carrow@valic.com, \n\tjay_liberman@ml.com",
+      "Subject": "[Fwd: FW: Vince Carter's dunk over a 7'2'' French player in the\n Olympics]",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "cgiron@mindspring.com, Victor Guggenheim, Jackson Logan, Phillip M Love, Jeffrey C Gossett, dgiron1@pdq.net, kristi.giron@cfisd.net, hollyw@email.msn.com, smmayers@earthlink.net, mark.ebert@broadwing.com, kwpope@pdq.net, greg_carrow@valic.com, jay_liberman@ml.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "id": "train/giron-d_sent_628.txt"
+}

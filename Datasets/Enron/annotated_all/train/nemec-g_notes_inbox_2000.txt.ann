@@ -1,0 +1,299 @@
+{
+  "wrapper": "plaintext",
+  "text": "I can't try this out here at work but maybe you guys are interested....\n\nRyan F. Ruppert\nSenior Geologist\nWest Texas Geoscience\nExxonMobil Production Co.\n\n396 West Greens Road #603\nP.O. Box 4697\nHouston, Texas 77067\n713.431.1839 Telephone\n713.431.1510 Facsimile\n----- Forwarded by Ryan Ruppert/U-Houston/ExxonMobil on 03/08/01 08:12 AM\n-----\n\n                    JUDMANCONY@aol.\n                    com                  To:     Shdeadrick@aol.com, \nSFlyt@aol.com, e120av8r@yahoo.com,\n                                           AirDMP@aol.com, \nryan.ruppert@exxonmobil.com, ATPFlyer@aol.com\n                                         cc:\n                    03/05/01 09:43       Subject:     Tax Cut\n                    PM\n\n\n\n\n\n************  What will the Bush tax cut mean to your family? ***********\n\nThe Heritage Foundation has analyzed the President's tax relief package and\nhas created a simple mechanism for you to determine quickly how much it\nwould save you in taxes each year.\n\nTry it out for yourself at: http://www.heritage.org/taxcalculator\nThis Heritage Tax Calculator will allow you to simulate some key elements\nof\nPresident George W. Bush's tax plan and how those tax law changes will\naffect you. The Calculator shows the savings to taxpayers of the fully\nphased in proposals by President Bush for marginal rates, the dual earner\ndeduction for married couples, the doubling of the child tax credit to\n$1,000, and the deductibility of charitable contributions by taxpayers who\nuse the standard deduction. By entering in your income and a few other bits\nof information, you can quickly get an idea of how much money the\nPresident's tax cut plan will save you.\n\n\n*************************************************************\nPLEASE HELP US FIGHT THE TAX RELIEF BATTLE\n*************************************************************\n\nThe Heritage Foundation is providing the ammunition that conservatives need\nto fight this battle.  But we can't do it without your help.  Please\nsupport\nus at this critical moment with your contribution.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 73,
+      "end": 88,
+      "text": "Ryan F. Ruppert",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 89,
+      "end": 105,
+      "text": "Senior Geologist",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 106,
+      "end": 153,
+      "text": "West Texas Geoscience\nExxonMobil Production Co.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 155,
+      "end": 215,
+      "text": "396 West Greens Road #603\nP.O. Box 4697\nHouston, Texas 77067",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 216,
+      "end": 228,
+      "text": "713.431.1839",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 239,
+      "end": 251,
+      "text": "713.431.1510",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 73,
+      "end": 262,
+      "text": "Ryan F. Ruppert\nSenior Geologist\nWest Texas Geoscience\nExxonMobil Production Co.\n\n396 West Greens Road #603\nP.O. Box 4697\nHouston, Texas 77067\n713.431.1839 Telephone\n713.431.1510 Facsimile\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 262,
+      "text": "I can't try this out here at work but maybe you guys are interested....\n\nRyan F. Ruppert\nSenior Geologist\nWest Texas Geoscience\nExxonMobil Production Co.\n\n396 West Greens Road #603\nP.O. Box 4697\nHouston, Texas 77067\n713.431.1839 Telephone\n713.431.1510 Facsimile\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 281,
+      "end": 293,
+      "text": "Ryan Ruppert",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 318,
+      "end": 326,
+      "text": "03/08/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 327,
+      "end": 335,
+      "text": "08:12 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 262,
+      "end": 342,
+      "text": "----- Forwarded by Ryan Ruppert/U-Houston/ExxonMobil on 03/08/01 08:12 AM\n-----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 363,
+      "end": 378,
+      "text": "JUDMANCONY@aol.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 399,
+      "end": 402,
+      "text": "com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 428,
+      "end": 446,
+      "text": "Shdeadrick@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 464,
+      "end": 482,
+      "text": "e120av8r@yahoo.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 449,
+      "end": 462,
+      "text": "SFlyt@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 527,
+      "end": 541,
+      "text": "AirDMP@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 544,
+      "end": 571,
+      "text": "ryan.ruppert@exxonmobil.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 573,
+      "end": 589,
+      "text": "ATPFlyer@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 655,
+      "end": 663,
+      "text": "03/05/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 664,
+      "end": 669,
+      "text": "09:43",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 717,
+      "end": 719,
+      "text": "PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 689,
+      "end": 696,
+      "text": "Tax Cut",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 342,
+      "end": 720,
+      "text": "\n                    JUDMANCONY@aol.\n                    com                  To:     Shdeadrick@aol.com, \nSFlyt@aol.com, e120av8r@yahoo.com,\n                                           AirDMP@aol.com, \nryan.ruppert@exxonmobil.com, ATPFlyer@aol.com\n                                         cc:\n                    03/05/01 09:43       Subject:     Tax Cut\n                    PM\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 720,
+      "end": 2046,
+      "text": "\n\n\n\n\n************  What will the Bush tax cut mean to your family? ***********\n\nThe Heritage Foundation has analyzed the President's tax relief package and\nhas created a simple mechanism for you to determine quickly how much it\nwould save you in taxes each year.\n\nTry it out for yourself at: http://www.heritage.org/taxcalculator\nThis Heritage Tax Calculator will allow you to simulate some key elements\nof\nPresident George W. Bush's tax plan and how those tax law changes will\naffect you. The Calculator shows the savings to taxpayers of the fully\nphased in proposals by President Bush for marginal rates, the dual earner\ndeduction for married couples, the doubling of the child tax credit to\n$1,000, and the deductibility of charitable contributions by taxpayers who\nuse the standard deduction. By entering in your income and a few other bits\nof information, you can quickly get an idea of how much money the\nPresident's tax cut plan will save you.\n\n\n*************************************************************\nPLEASE HELP US FIGHT THE TAX RELIEF BATTLE\n*************************************************************\n\nThe Heritage Foundation is providing the ammunition that conservatives need\nto fight this battle.  But we can't do it without your help.  Please\nsupport\nus at this critical moment with your contribution.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 14,
+      "target": 13,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 23,
+      "target": 22,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 9,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19614277.1075842826805.JavaMail.evans@thyme>",
+      "Date": "Thu, 8 Mar 2001 00:13:00 -0800 (PST)",
+      "From": "ryan.ruppert@exxonmobil.com",
+      "To": "lauragammell@hotmail.com, gerald.nemec@enron.com, eric.gillaspie@enron.com",
+      "Subject": "Tax Cut",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "ryan.ruppert@exxonmobil.com",
+      "X-To": "lauragammell@hotmail.com, gerald.nemec@enron.com, eric.gillaspie@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_2000.txt"
+}

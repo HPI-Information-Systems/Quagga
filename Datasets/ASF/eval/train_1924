@@ -1,0 +1,27 @@
+On Wed, Apr 26, 2017 at 5:11 AM, Aljoscha Krettek <aljoscha@apache.org>
+wrote:
+
+> I did spend some time thinking about this and we had the idea for a while
+> now to add an operation like “keyByWithoutPartitioning()” (name not final
+> ;-) that would allow the user to tell the system that we don’t have to do a
+> reshuffle. This would work if the key-type (and keys) would stay exactly
+> the same.
+>
+> I think it wouldn’t work for your case because the key type changes and
+> elements for key (A, B) would normally be reshuffled to different instances
+> than with key (A), i.e. (1, 1) does not belong to the same key-group as
+> (1). Would you agree that this happens in your case?
+>
+
+It happens if I use keyBy().  But there is no need for it to happen, which
+is why I was asking about rekeying without repartitioning.  The stream is
+already partitioned by A, so all elements of a new stream keyed by (A,B)
+are already being processed by the local task.  Reshuffling as a result of
+rekeying would have no benefit and would double the network traffic.  It is
+why I suggested subKey(B) may be a good to clearly indicate that the new
+key just sub-partitions the existing key partition without requiring
+reshuffling.
+
+Why would you not be able to use a different key type with
+keyByWithoutRepartitioning()?
+

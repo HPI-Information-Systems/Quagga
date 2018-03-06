@@ -1,0 +1,114 @@
+{
+  "wrapper": "plaintext",
+  "text": "It was making me sleepy just looking at it!\n\n\n\n\tGenia FitzGerald\n\t12/05/2000 10:41 AM\n\t\t \n\t\t To: Marie Heard/Enron Communications@Enron Communications, Tana \nJones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Sleepy\n\n\nThis is so precious!!!\n\nFor the cat lovers!\n\n\n\n\n\n\n\n - w&N)TS.mpe\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 47,
+      "text": "It was making me sleepy just looking at it!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 48,
+      "end": 64,
+      "text": "Genia FitzGerald",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 66,
+      "end": 76,
+      "text": "12/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 77,
+      "end": 85,
+      "text": "10:41 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 97,
+      "end": 108,
+      "text": "Marie Heard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 152,
+      "end": 163,
+      "text": "Tana \nJones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 196,
+      "end": 202,
+      "text": "Sleepy",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 48,
+      "end": 203,
+      "text": "Genia FitzGerald\n\t12/05/2000 10:41 AM\n\t\t \n\t\t To: Marie Heard/Enron Communications@Enron Communications, Tana \nJones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Sleepy\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 263,
+      "end": 269,
+      "text": "TS.mpe",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 256,
+      "end": 270,
+      "text": " - w&N)TS.mpe\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 203,
+      "end": 271,
+      "text": "\n\nThis is so precious!!!\n\nFor the cat lovers!\n\n\n\n\n\n\n\n - w&N)TS.mpe\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19363800.1075847056725.JavaMail.evans@thyme>",
+      "Date": "Tue, 5 Dec 2000 02:47:00 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "genia.fitzgerald@enron.com",
+      "Subject": "Re: Sleepy",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Genia FitzGerald",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_5728.txt"
+}

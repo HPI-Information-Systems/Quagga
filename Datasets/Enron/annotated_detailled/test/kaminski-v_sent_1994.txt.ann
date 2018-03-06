@@ -1,0 +1,270 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 09/15/2000 \n04:08 PM ---------------------------\n\n\nShirley Crenshaw\n09/15/2000 02:31 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Polan Trip - September 20th\n\nVince:\n\nHere is the itinerary from the travel agency and I am also attaching the one\nI create.\n\nShirley\n\n\n\n\n\n---------------------- Forwarded by Shirley Crenshaw/HOU/ECT on 09/15/2000 \n02:27 PM ---------------------------\n\n\nCatherine Elder <catherine.elder@travelpark.com> on 09/15/2000 11:01:07 AM\nTo: Shirley Crenshaw/HOU/ECT@ECT\ncc:  \nSubject: W. Kaminski 20-26sep\n\n\n\n                                                   SALES AGT: CE/YGOBD8\n\n                                          KAMINSKI/WINCENTY\n                                          EB 1962\n\n  ENRON CORP\n\n\n\n\n\n  DATE:  SEP 15 2000\n\nDATE  SERVICE               FROM               TO\n\nAIR FRANCE            20SEP HOUSTON TX     PARIS          415P    845A\nAF 33      Y          WED   G.BUSH INTERCO CHARLES DE GAU         21SEP\n           NON SMOKING      TERMINAL D     TERMINAL 2C\n                            MEAL/BREAKFAST                NON STOP\n                            RESERVATION CONFIRMED         9:30 DURATION\n                  AIRCRAFT: AIRBUS INDUSTRIE A340-300\n                            SEAT 24A NO SMOKING CONFIRMED KAMINSKI/WINCEN\n\nAIR FRANCE            21SEP PARIS          WARSAW         935A    1150A\nAF 2046    Y          THU   CHARLES DE GAU OKECIE\n           NON SMOKING      TERMINAL 2B    TERMINAL 1\n                            BREAKFAST                     NON STOP\n                            RESERVATION CONFIRMED         2:15 DURATION\n                  AIRCRAFT: AIRBUS INDUSTRIE A319.\n\nHOTEL                 25SEP VICTORIA INTERCONTINENTAL\n                      26SEP KROLEWSKA 11\n                            WARSAW, 00 065\n                            POLAND\n                            TELEPHONE: 48-22 6578011\n                            FAX: 48-22-6578057\n                            CONFIRMATION: 1504592\n                            SINGLE ROOM\n                            RATE: ENR DEM 310.00 PER NIGHT\n                            GUARANTEE GIVEN\n                            HOLD POLICY: 6PM\n                            ENRON CORP NON SMOKING KING\n\nAIR FRANCE            26SEP WARSAW         PARIS          810A    1035A\nAF 1447    Y          TUE   OKECIE         CHARLES DE GAU\n           NON SMOKING      TERMINAL 1     TERMINAL 2B\n                            BREAKFAST                     NON STOP\n                            RESERVATION CONFIRMED         2:25 DURATION\n LO 0331                    FLIGHT OPERATED BY LO LOT POLISH AIRLINES\n            AIRCRAFT OWNER: LO  LOT POLISH AIRLINES\n                  AIRCRAFT: BOEING 737 ALL 100-800 SERIES PSGR\n\nAIR FRANCE            26SEP PARIS          HOUSTON TX     1255P   425P\nAF 34      Y          TUE   CHARLES DE GAU G.BUSH INTERCO\n           NON SMOKING      TERMINAL 2C    TERMINAL D\n                            MEAL/SNACK                    NON STOP\n                            RESERVATION CONFIRMED         10:30 DURATION\n CO 0011                    FLIGHT OPERATED BY CO CONTINENTAL AIRLINES\n            AIRCRAFT OWNER: CO  CONTINENTAL AIRLINES\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 37A NO SMOKING CONFIRMED KAMINSKI/WINCEN\n\nMISCELLANEOUS         25NOV HOUSTON TX\n                      SAT   ** THANK YOU FOR USING THE TAP **\n\nRESERVATION NUMBER(S)  AF/2BGHRB\n\nKAMINSKI/WINCENTY  S0C0011R1000\n\nSHIRLEY CRENSHAW: 853-5290\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRONASSISTANCE INFO\nCALL SOS: IN U.S 800 523-6586/INTL 215 245-4707 (COLLECT)\n*******************************************\nAIR FARE $1714.18\nPLEASE NOTE ENRON CHARGES A $50.00 SERVICE FEE FOR PERSONAL\nINTERNATIONAL TRAVEL \n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "09/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "04:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 09/15/2000 \n04:08 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 131,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 142,
+      "text": "09/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 143,
+      "end": 151,
+      "text": "02:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 172,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 200,
+      "end": 227,
+      "text": "Polan Trip - September 20th",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 113,
+      "end": 228,
+      "text": "\n\nShirley Crenshaw\n09/15/2000 02:31 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Polan Trip - September 20th\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 229,
+      "end": 234,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 325,
+      "end": 332,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 228,
+      "end": 338,
+      "text": "\nVince:\n\nHere is the itinerary from the travel agency and I am also attaching the one\nI create.\n\nShirley\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 374,
+      "end": 390,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 402,
+      "end": 412,
+      "text": "09/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 414,
+      "end": 422,
+      "text": "02:27 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 338,
+      "end": 451,
+      "text": "---------------------- Forwarded by Shirley Crenshaw/HOU/ECT on 09/15/2000 \n02:27 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 453,
+      "end": 468,
+      "text": "Catherine Elder",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 470,
+      "end": 500,
+      "text": "catherine.elder@travelpark.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 505,
+      "end": 515,
+      "text": "09/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 516,
+      "end": 527,
+      "text": "11:01:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 532,
+      "end": 548,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 576,
+      "end": 596,
+      "text": "W. Kaminski 20-26sep",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 451,
+      "end": 597,
+      "text": "\n\nCatherine Elder <catherine.elder@travelpark.com> on 09/15/2000 11:01:07 AM\nTo: Shirley Crenshaw/HOU/ECT@ECT\ncc:  \nSubject: W. Kaminski 20-26sep\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 597,
+      "end": 3812,
+      "text": "\n\n\n                                                   SALES AGT: CE/YGOBD8\n\n                                          KAMINSKI/WINCENTY\n                                          EB 1962\n\n  ENRON CORP\n\n\n\n\n\n  DATE:  SEP 15 2000\n\nDATE  SERVICE               FROM               TO\n\nAIR FRANCE            20SEP HOUSTON TX     PARIS          415P    845A\nAF 33      Y          WED   G.BUSH INTERCO CHARLES DE GAU         21SEP\n           NON SMOKING      TERMINAL D     TERMINAL 2C\n                            MEAL/BREAKFAST                NON STOP\n                            RESERVATION CONFIRMED         9:30 DURATION\n                  AIRCRAFT: AIRBUS INDUSTRIE A340-300\n                            SEAT 24A NO SMOKING CONFIRMED KAMINSKI/WINCEN\n\nAIR FRANCE            21SEP PARIS          WARSAW         935A    1150A\nAF 2046    Y          THU   CHARLES DE GAU OKECIE\n           NON SMOKING      TERMINAL 2B    TERMINAL 1\n                            BREAKFAST                     NON STOP\n                            RESERVATION CONFIRMED         2:15 DURATION\n                  AIRCRAFT: AIRBUS INDUSTRIE A319.\n\nHOTEL                 25SEP VICTORIA INTERCONTINENTAL\n                      26SEP KROLEWSKA 11\n                            WARSAW, 00 065\n                            POLAND\n                            TELEPHONE: 48-22 6578011\n                            FAX: 48-22-6578057\n                            CONFIRMATION: 1504592\n                            SINGLE ROOM\n                            RATE: ENR DEM 310.00 PER NIGHT\n                            GUARANTEE GIVEN\n                            HOLD POLICY: 6PM\n                            ENRON CORP NON SMOKING KING\n\nAIR FRANCE            26SEP WARSAW         PARIS          810A    1035A\nAF 1447    Y          TUE   OKECIE         CHARLES DE GAU\n           NON SMOKING      TERMINAL 1     TERMINAL 2B\n                            BREAKFAST                     NON STOP\n                            RESERVATION CONFIRMED         2:25 DURATION\n LO 0331                    FLIGHT OPERATED BY LO LOT POLISH AIRLINES\n            AIRCRAFT OWNER: LO  LOT POLISH AIRLINES\n                  AIRCRAFT: BOEING 737 ALL 100-800 SERIES PSGR\n\nAIR FRANCE            26SEP PARIS          HOUSTON TX     1255P   425P\nAF 34      Y          TUE   CHARLES DE GAU G.BUSH INTERCO\n           NON SMOKING      TERMINAL 2C    TERMINAL D\n                            MEAL/SNACK                    NON STOP\n                            RESERVATION CONFIRMED         10:30 DURATION\n CO 0011                    FLIGHT OPERATED BY CO CONTINENTAL AIRLINES\n            AIRCRAFT OWNER: CO  CONTINENTAL AIRLINES\n                  AIRCRAFT: BOEING 777-200/300\n                            SEAT 37A NO SMOKING CONFIRMED KAMINSKI/WINCEN\n\nMISCELLANEOUS         25NOV HOUSTON TX\n                      SAT   ** THANK YOU FOR USING THE TAP **\n\nRESERVATION NUMBER(S)  AF/2BGHRB\n\nKAMINSKI/WINCENTY  S0C0011R1000\n\nSHIRLEY CRENSHAW: 853-5290\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRONASSISTANCE INFO\nCALL SOS: IN U.S 800 523-6586/INTL 215 245-4707 (COLLECT)\n*******************************************\nAIR FARE $1714.18\nPLEASE NOTE ENRON CHARGES A $50.00 SERVICE FEE FOR PERSONAL\nINTERNATIONAL TRAVEL \n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 18,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21219959.1075856483866.JavaMail.evans@thyme>",
+      "Date": "Fri, 15 Sep 2000 09:01:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Polan Trip - September 20th",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1994.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "The attached schedule cover both Sunday and Monday, March 17-18.  Associated text files have been posted to Sparky. \n\n\n            \n\n\n\n\n\n\nMichael R. Frazier\nManager, Load Forecasting\nEnron Energy Services\nOffice: 713-345-3200\nPager: 877-926-0615\nP-mail: 8779260615@skytel.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 277,
+      "text": "The attached schedule cover both Sunday and Monday, March 17-18.  Associated text files have been posted to Sparky. \n\n\n            \n\n\n\n\n\n\nMichael R. Frazier\nManager, Load Forecasting\nEnron Energy Services\nOffice: 713-345-3200\nPager: 877-926-0615\nP-mail: 8779260615@skytel.com\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 138,
+      "end": 276,
+      "text": "Michael R. Frazier\nManager, Load Forecasting\nEnron Energy Services\nOffice: 713-345-3200\nPager: 877-926-0615\nP-mail: 8779260615@skytel.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25913228.1075840483440.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Mar 2002 14:50:51 -0800 (PST)",
+      "From": "michael.frazier@enron.com",
+      "To": "serena.bishop@enron.com, settlements.ees@enron.com, \n\tjeffrey.jackson@enron.com, lisa.gang@enron.com, \n\tjulie.sarnowski@enron.com",
+      "Subject": "EES CA SCHEDULE for 3/17 and 3/18/02",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Frazier, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MFRAZIER>",
+      "X-To": "Bishop, Serena </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbishop3>, EES Power Settlements, </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=fb76f45-2687f0a4-86256919-4d2271>, Jackson, Jeffrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jjackso7>, Gang, Lisa </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lgang>, Sarnowski, Julie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jsarnow>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Gang, Lisa\\Deleted Items",
+      "X-Origin": "GANG-L",
+      "X-FileName": "lisa gang 6-25-02.pst"
+    }
+  },
+  "id": "test/gang-l_deleted_items_540.txt"
+}

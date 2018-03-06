@@ -1,0 +1,106 @@
+{
+  "wrapper": "plaintext",
+  "text": "We should inform FERC Enforcement.  No formal filings.\n\nJim\n\n -----Original Message-----\nFrom: \tMara, Susan  \nSent:\tMonday, November 05, 2001 5:07 PM\nTo:\tSteffes, James D.; Shapiro, Richard; Dasovich, Jeff\nSubject:\tFW: CAISO NOTICE:  Delay In Publishing Real Time Energy Notices\nImportance:\tHigh\n\nThis is so-o-o blatant.\n\n -----Original Message-----\nFrom: \tPerrino, Dave  \nSent:\tMonday, November 05, 2001 2:47 PM\nTo:\tComnes, Alan; Mara, Susan\nCc:\tAlvarez, Ray\nSubject:\tFW: CAISO NOTICE:  Delay In Publishing Real Time Energy Notices\nImportance:\tHigh\n\nNormally I'd say this is unbelievable...but considering who sent it, I can't say I'm surprised...\n\nRay,\n\nShould we take this up with Bob Pease, or since it was inadequate to begin with, just forget it?\n\nDave\n\n -----Original Message-----\nFrom: \t\"Payton, Julia\" <JPayton@caiso.com>@ENRON  \nSent:\tMonday, November 05, 2001 2:43 PM\nTo:\tISO Market Participants\nSubject:\tCAISO NOTICE:  Delay In Publishing Real Time Energy Notices\n\nISO Market Participants:\nMARKET NOTICE\nNovember 5, 2001\nPublication of Real Time Energy Information\nISO Market Participants\nSC Settlement Contacts\nLast Friday, the ISO informed you that effective today it would begin\npublishing on OASIS additional information about real time energy purchases.\nBased on concerns and issues raised by CERS and the State of California, the\nISO is delaying this publication.  We will provide you with additional\ninformation later this week.\nIf you have questions or would like additional information, please contact\nByron Woertz at bwoertz@caiso.com <mailto:bwoertz@caiso.com> or (916)\n608-7066.\nClient Relations Communications\nCRCommunications@caiso.com <mailto:CRCommunications@caiso.com>",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 61,
+      "text": "We should inform FERC Enforcement.  No formal filings.\n\nJim\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 55,
+      "end": 60,
+      "text": "\nJim\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 61,
+      "end": 296,
+      "text": " -----Original Message-----\nFrom: \tMara, Susan  \nSent:\tMonday, November 05, 2001 5:07 PM\nTo:\tSteffes, James D.; Shapiro, Richard; Dasovich, Jeff\nSubject:\tFW: CAISO NOTICE:  Delay In Publishing Real Time Energy Notices\nImportance:\tHigh\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 296,
+      "end": 322,
+      "text": "\nThis is so-o-o blatant.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 322,
+      "end": 550,
+      "text": " -----Original Message-----\nFrom: \tPerrino, Dave  \nSent:\tMonday, November 05, 2001 2:47 PM\nTo:\tComnes, Alan; Mara, Susan\nCc:\tAlvarez, Ray\nSubject:\tFW: CAISO NOTICE:  Delay In Publishing Real Time Energy Notices\nImportance:\tHigh\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 649,
+      "end": 655,
+      "text": "\nRay,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 753,
+      "end": 759,
+      "text": "\nDave\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 550,
+      "end": 760,
+      "text": "\nNormally I'd say this is unbelievable...but considering who sent it, I can't say I'm surprised...\n\nRay,\n\nShould we take this up with Bob Pease, or since it was inadequate to begin with, just forget it?\n\nDave\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 760,
+      "end": 976,
+      "text": " -----Original Message-----\nFrom: \t\"Payton, Julia\" <JPayton@caiso.com>@ENRON  \nSent:\tMonday, November 05, 2001 2:43 PM\nTo:\tISO Market Participants\nSubject:\tCAISO NOTICE:  Delay In Publishing Real Time Energy Notices\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 976,
+      "end": 1697,
+      "text": "\nISO Market Participants:\nMARKET NOTICE\nNovember 5, 2001\nPublication of Real Time Energy Information\nISO Market Participants\nSC Settlement Contacts\nLast Friday, the ISO informed you that effective today it would begin\npublishing on OASIS additional information about real time energy purchases.\nBased on concerns and issues raised by CERS and the State of California, the\nISO is delaying this publication.  We will provide you with additional\ninformation later this week.\nIf you have questions or would like additional information, please contact\nByron Woertz at bwoertz@caiso.com <mailto:bwoertz@caiso.com> or (916)\n608-7066.\nClient Relations Communications\nCRCommunications@caiso.com <mailto:CRCommunications@caiso.com>",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23110604.1075861504229.JavaMail.evans@thyme>",
+      "Date": "Mon, 5 Nov 2001 15:11:35 -0800 (PST)",
+      "From": "d..steffes@enron.com",
+      "To": "susan.mara@enron.com, richard.shapiro@enron.com, jeff.dasovich@enron.com, \n\tray.alvarez@enron.com, dave.perrino@enron.com",
+      "Subject": "RE: CAISO NOTICE:  Delay In Publishing Real Time Energy Notices",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steffes, James D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JSTEFFE>",
+      "X-To": "Mara, Susan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Smara>, Shapiro, Richard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rshapiro>, Dasovich, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jdasovic>, Alvarez, Ray </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ralvare2>, Perrino, Dave </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dperrino>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\JDASOVIC (Non-Privileged)\\Dasovich, Jeff\\Inbox",
+      "X-Origin": "Dasovich-J",
+      "X-FileName": "JDASOVIC (Non-Privileged).pst"
+    }
+  },
+  "id": "train/dasovich-j_inbox_1535.txt"
+}

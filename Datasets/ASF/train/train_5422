@@ -1,0 +1,140 @@
+Hi,
+
+Regarding 'analysis chain':
+
+I'm using Solr 6.4.1, and in the managed-schema file, I find the following:
+<fieldType name="text_general" class="solr.TextField"
+positionIncrementGap="100" multiValued="true">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.StopFilterFactory" words="stopwords.txt"
+ignoreCase="true"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.StopFilterFactory" words="stopwords.txt"
+ignoreCase="true"/>
+      <filter class="solr.SynonymFilterFactory" expand="true"
+ignoreCase="true" synonyms="synonyms.txt"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+
+Regarding the Admin UI >> Analysis page:  I just tried that, and to be
+honest, I can't seem to get much useful info out of it, especially in terms
+of lemmatization.
+
+For example, for any text I enter in it to "analyse", all it does is seem
+to tell me which analysers (if that's the right term?) are being used for
+the selected field / fieldtype, and for each of these analyzers, it would
+give some very basic info, like text, raw_bytes, etc.  Eg, for the input
+"united" in the "field value (index)" box, having "text_general" selected
+for fieldtype, all I get is this:
+
+ST
+text
+raw_bytes
+start
+end
+positionLength
+type
+position
+united
+[75 6e 69 74 65 64]
+0
+6
+1
+<ALPHANUM>
+1
+SF
+text
+raw_bytes
+start
+end
+positionLength
+type
+position
+united
+[75 6e 69 74 65 64]
+0
+6
+1
+<ALPHANUM>
+1
+LCF
+text
+raw_bytes
+start
+end
+positionLength
+type
+position
+united
+[75 6e 69 74 65 64]
+0
+6
+1
+<ALPHANUM>
+1
+Placing the mouse cursor on "ST", "SF", or "LCF" shows a tooltip saying
+"org.apache.lucene.analysis.standard.StandardTokenizer",
+"org...core.StopFilter", and "org...core.LowerCaseFilter", respectively.
+
+
+So - should 'states' not be lemmatized to 'state' using these settings?
+ (If not, then I would need to figure out how to use a different lemmatizer)
+
+Thanks
+
+On Thu, Aug 10, 2017 at 10:28 PM, Erick Erickson <erickerickson@gmail.com>
+wrote:
+
+> saying the field is "text_general" is not sufficient, please post the
+> analysis chain defined in your schema.
+>
+> Also the admin UI>>analysis page will help you figure out exactly what
+> part of the analysis chain does what.
+>
+> Best,
+> Erick
+>
+> On Thu, Aug 10, 2017 at 8:37 AM, OTH <omer.t.h.7@gmail.com> wrote:
+> > Hello,
+> >
+> > It seems for me that the token "states" is not getting lemmatized to
+> > "state" by Solr.
+> >
+> > Eg, I have a document with the value "united states of america".
+> > This document is not returned when the following query is issued:
+> > q=name:state^1+name:america^1+name:united^1
+> > However, all documents which contain the token "state" are indeed
+> returned,
+> > with the above query.
+> > The "united states of america" document is returned if I change "state"
+> in
+> > the query to "states"; so:
+> > q=name:states^1+name:america^1+name:united^1
+> >
+> > At first I thought maybe the lemmatization isn't working for some reason.
+> > However, when I changed "united" in the query to "unite", then it did
+> still
+> > return the "united states of america" document:
+> > q=name:states^1+name:america^1+name:unite^1
+> > Which means that the lemmatization is working for the token "united", but
+> > not for the token "states".
+> >
+> > The "name" field above is defined as "text_general".
+> >
+> > So it seems to me, that perhaps the default Solr lemmatizer does not
+> > lemmatize "states" to "state"?
+> > Can anyone confirm if this is indeed the expected behaviour?
+> > And what can I do to change it?
+> > If I need to put in a customer lemmatizer, then what would be the (best)
+> > way to do that?
+> >
+> > Much thanks
+> > Omer
+>
+

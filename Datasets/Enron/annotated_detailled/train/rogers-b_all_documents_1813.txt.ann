@@ -1,0 +1,217 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ben and Jinsung,\n\nWe have not had time to pass this information by the traders.  If we resolve \nthe issues regarding location, unit contingency, etc., we can get a better \nnumber from the traders.  For now, these are indicative prices only.  Once we \nunderstand the deal better, we can talk to the traders and get a firmer \nprice.  Also, Jim Fallon has requested that his traders receive a term sheet \nprior to agreeing to a price.\n\nHere is the information you requested, based on the assumptions sent in the \ne-mail below:\n\nFurther assumptions:\n180 MW\nPriced at PJM East hub, no cost is added for any transmission\nMust be called in 16 hour blocks\nTotal start costs: $1200 per start ($300 per turbine)\nNo escalation in VOM\n95% availability\n\n3 year capacity:  $3.80 kw/mo\n5 year capacity:  $3.74 kw/mo\n\n\n\n\n---------------------- Forwarded by Claire Broido/HOU/ECT on 02/23/2000 12:10 \nPM ---------------------------\n\n\nBenjamin Rogers\n02/23/2000 09:13 AM\nTo: Claire Broido/HOU/ECT@ECT, Jinsung Myung/Corp/Enron@Enron\ncc: Thomas M Suffield/Corp/Enron@Enron \nSubject: \n\nClaire:\nHere is the information for the Calpine project that we talked about \nyesterday and that Jim Simpson sent you the e-mail about.  \n\nHypothetical 4 LM 6000 Peaking Project in Eastern PJM\nVOM:  $2.23\nH.R. 10,5000\nGas Curve: Transco Zone 6\nPower Curve: East Hub Curve in PJM\nCommercial Operations Date: 6/1/01\n\nWe are looking for a 3 and 5 year capacity number ($/kw-mo.) one number for \neach time period.  Please let me know if you need any more information \nregarding the project.  Thanks for your help.\nBen\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Ben",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 8,
+      "end": 15,
+      "text": "Jinsung",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 17,
+      "text": "Ben and Jinsung,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 805,
+      "text": "Ben and Jinsung,\n\nWe have not had time to pass this information by the traders.  If we resolve \nthe issues regarding location, unit contingency, etc., we can get a better \nnumber from the traders.  For now, these are indicative prices only.  Once we \nunderstand the deal better, we can talk to the traders and get a firmer \nprice.  Also, Jim Fallon has requested that his traders receive a term sheet \nprior to agreeing to a price.\n\nHere is the information you requested, based on the assumptions sent in the \ne-mail below:\n\nFurther assumptions:\n180 MW\nPriced at PJM East hub, no cost is added for any transmission\nMust be called in 16 hour blocks\nTotal start costs: $1200 per start ($300 per turbine)\nNo escalation in VOM\n95% availability\n\n3 year capacity:  $3.80 kw/mo\n5 year capacity:  $3.74 kw/mo\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 841,
+      "end": 854,
+      "text": "Claire Broido",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 866,
+      "end": 876,
+      "text": "02/23/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 877,
+      "end": 886,
+      "text": "12:10 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 805,
+      "end": 915,
+      "text": "---------------------- Forwarded by Claire Broido/HOU/ECT on 02/23/2000 12:10 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 917,
+      "end": 932,
+      "text": "Benjamin Rogers",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 933,
+      "end": 943,
+      "text": "02/23/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 944,
+      "end": 952,
+      "text": "09:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 957,
+      "end": 970,
+      "text": "Claire Broido",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 984,
+      "end": 997,
+      "text": "Jinsung Myung",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1019,
+      "end": 1036,
+      "text": "Thomas M Suffield",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 915,
+      "end": 1065,
+      "text": "\n\nBenjamin Rogers\n02/23/2000 09:13 AM\nTo: Claire Broido/HOU/ECT@ECT, Jinsung Myung/Corp/Enron@Enron\ncc: Thomas M Suffield/Corp/Enron@Enron \nSubject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1066,
+      "end": 1072,
+      "text": "Claire",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1576,
+      "end": 1579,
+      "text": "Ben",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1554,
+      "end": 1580,
+      "text": "Thanks for your help.\nBen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1065,
+      "end": 1582,
+      "text": "\nClaire:\nHere is the information for the Calpine project that we talked about \nyesterday and that Jim Simpson sent you the e-mail about.  \n\nHypothetical 4 LM 6000 Peaking Project in Eastern PJM\nVOM:  $2.23\nH.R. 10,5000\nGas Curve: Transco Zone 6\nPower Curve: East Hub Curve in PJM\nCommercial Operations Date: 6/1/01\n\nWe are looking for a 3 and 5 year capacity number ($/kw-mo.) one number for \neach time period.  Please let me know if you need any more information \nregarding the project.  Thanks for your help.\nBen\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3794535.1075857166872.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 Feb 2000 09:48:00 -0800 (PST)",
+      "From": "edith.cross@enron.com",
+      "To": "benjamin.rogers@enron.com, jinsung.myung@enron.com",
+      "Subject": "Calpine",
+      "Cc": "humberto.cubillos-uejbe@enron.com, berney.aucoin@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "humberto.cubillos-uejbe@enron.com, berney.aucoin@enron.com",
+      "X-From": "Edith Cross",
+      "X-To": "Benjamin Rogers, Jinsung Myung",
+      "X-cc": "Humberto Cubillos-Uejbe, Berney C Aucoin",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_1\\Notes Folders\\All documents",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_all_documents_1813.txt"
+}

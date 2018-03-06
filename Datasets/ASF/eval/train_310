@@ -1,0 +1,96 @@
+Thanks very much. I noticed the times recorded in the web interface. I was
+a little hesitant to use that as I might make mistake when recording the
+times. Could you please point me to the code in flink these runtimes are
+computed?
+
+Thanks,
+Charith
+
+On Mon, Jan 16, 2017 at 3:15 AM, Ufuk Celebi <uce@apache.org> wrote:
+
+> Unfortunately no. You only get the complete execution time after the
+> job has finished. What you can do is browse to the web interface and
+> check the runtime for each operator there (asumming that each
+> iterative process is a separate operator).
+>
+> Does this help?
+>
+> On Mon, Jan 16, 2017 at 7:36 AM, Charith Wickramarachchi
+> <charith.dhanushka@gmail.com> wrote:
+> > Hi All,
+> >
+> > I have a program that executes multiple (data dependent) iterative jobs
+> one
+> > after another in the same execution plan.
+> >
+> > It has the following structure
+> >
+> > ExecutionEnvironment env = ......
+> >
+> > LoadData
+> >
+> > Iterative Process 1
+> >
+> > Iterative Process 2
+> >
+> > ...
+> >
+> > Iterative Process N
+> >
+> > env.execute("...")
+> >
+> >
+> > I want to measure the execution time for each Iterative process. Does
+> flink
+> > has a direct way to measure this time? It will be great if you could
+> provide
+> > a pointer.
+> >
+> > Thanks,
+> > Charith
+> >
+> >
+> >
+> >
+> > --
+> > Charith Dhanushka Wickramaarachchi
+> >
+> > Tel  +1 213 447 4253
+> > Blog  http://charith.wickramaarachchi.org/
+> > Twitter  @charithwiki
+> >
+> > This communication may contain privileged or other confidential
+> information
+> > and is intended exclusively for the addressee/s. If you are not the
+> intended
+> > recipient/s, or believe that you may have
+> > received this communication in error, please reply to the sender
+> indicating
+> > that fact and delete the copy you received and in addition, you should
+> not
+> > print, copy, retransmit, disseminate, or otherwise use the information
+> > contained in this communication. Internet communications cannot be
+> > guaranteed to be timely, secure, error or virus-free. The sender does not
+> > accept liability for any errors or omissions
+>
+
+
+
+-- 
+Charith Dhanushka Wickramaarachchi
+
+Tel  +1 213 447 4253
+Blog  http://charith.wickramaarachchi.org/
+<http://charithwiki.blogspot.com/>
+Twitter  @charithwiki <https://twitter.com/charithwiki>
+
+This communication may contain privileged or other confidential information
+and is intended exclusively for the addressee/s. If you are not the
+intended recipient/s, or believe that you may have
+received this communication in error, please reply to the sender indicating
+that fact and delete the copy you received and in addition, you should not
+print, copy, retransmit, disseminate, or otherwise use the information
+contained in this communication. Internet communications cannot be
+guaranteed to be timely, secure, error or virus-free. The sender does not
+accept liability for any errors or omissions
+

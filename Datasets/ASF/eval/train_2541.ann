@@ -1,0 +1,128 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Sathi,\n\nconfiguring managed memory and taskmanager heap memory also depends on \nyour jobs. If your jobs involve much sorting, then a high managed memory \nis helpful. If you are creating a lot of objects in your functions, that \nneed some time until they get garbage collected (ideally you should not \nuse `new` at all), then a larger Java heap might be useful instead of \nmanaged memory.\n\nRegards,\nTimo\n\n\nAm 31.05.17 um 09:43 schrieb Sathi Chowdhury:\n> Thanks Nico for a good gist on memory management of flink\u00e2\u20ac\u00a6\n> If I have 64 GB in each task manager \u00e2\u20ac\u00a6should I be aggressive of setting taskmanager.heap.mb\nto a very large value 56GB let;s say,563200 was a mistake,that\u00e2\u20ac\u2122s abruptly high.\n> I am actually trying to come up with an understanding how to maximum utilize task manager\u00e2\u20ac\u2122s\nmemory so there is not a large amount of memory left unused, and\n> Flink is starving of memory\u00e2\u20ac\u00a6heap is used for sorting/hashing\u00e2\u20ac\u00a6\n> If I do not mention taskmanager.heap.mb and yarn-session -tm option (actually are they\nthe same thing?) \u00e2\u20ac\u00a6 I am going to try out how much memory is used\n> Thanks again\n> Sathi\n>\n>\n>\n> On 5/30/17, 3:22 AM, \"Nico Kruber\" <nico@data-artisans.com> wrote:\n>\n>> By default, Flink allocates a fraction of 0.7 (taskmanager.memory.fraction) of\n>> the free memory (total memory configured via taskmanager.heap.mb minus memory\n>> used for network buffers) for its managed memory. An absolute value may be set\n>> using taskmanager.memory.size (overrides the fraction parameter). [1]\n>> In general, [1] is a good read for how the different memory settings work\n>> together.\n>>\n>> The 10000 network buffers of size taskmanager.memory.segment-size (default:\n>> 32k) will this remove 320MB from your taskmanager.heap.mb (which in your\n>> example is set to 563GB?!) and therefore do not affect the managed memory size\n>> much.\n>>\n>> Whether the size used by the JVM is preallocated--and thus immediately\n>> visible--depends on taskmanager.memory.preallocate.\n>>\n>>\n>> But actually what are trying to fix? Is your node flushing data to disk yet? Or\n>> has it just not accumulated that much operator state yet?\n>>\n>>\n>>\n>> Nico\n>>\n>> [1] https://ci.apache.org/projects/flink/flink-docs-release-1.3/setup/\n>> config.html#managed-memory\n>>\n>>\n>> On Monday, 29 May 2017 19:09:55 CEST Sathi Chowdhury wrote:\n>>> For got to mention I am running 10 slots in each machine and\n>>> taskmanager.network.numberOfBuffers: 10000\n>> Is there a scope of improving\n>>> memory usage?\n>>>\n>>> From: Sathi Chowdhury\n>>> <Sathi.Chowdhury@elliemae.com<mailto:Sathi.Chowdhury@elliemae.com>>\n>> Date:\n>>> Monday, May 29, 2017 at 9:55 AM\n>>> To: \"user@flink.apache.org<mailto:user@flink.apache.org>\"\n>>> <user@flink.apache.org<mailto:user@flink.apache.org>>\n>> Subject: How can I\n>>> increase Flink managed memory?\n>>>\n>>> Hello Flink Dev and Community\n>>> I have 5 task managers each tie 64 GB of memory\n>>> I am running flink on yarn with task manager heap taskmanager.heap.mb:\n>>> 563200\n>> Link still shows that it is using about 21 GB memory leaving 35 GB\n>>> available..how and what can I do to fix it? Please suggest\n>>> Thanks\n>>> Sathi\n>>> =============Notice to Recipient: This e-mail transmission, and any\n>>> documents, files or previous e-mail messages attached to it may contain\n>>> information that is confidential or legally privileged, and intended for\n>>> the use of the individual or entity named above. If you are not the\n>>> intended recipient, or a person responsible for delivering it to the\n>>> intended recipient, you are hereby notified that you must not read this\n>>> transmission and that any disclosure, copying, printing, distribution or\n>>> use of any of the information contained in or attached to this transmission\n>>> is STRICTLY PROHIBITED. If you have received this transmission in error,\n>>> please immediately notify the sender by telephone or return e-mail and\n>>> delete the original transmission and its attachments without reading or\n>>> saving in any manner. Thank you. =============\n>> =============Notice to\n>>> Recipient: This e-mail transmission, and any documents, files or previous\n>>> e-mail messages attached to it may contain information that is confidential\n>>> or legally privileged, and intended for the use of the individual or entity\n>>> named above. If you are not the intended recipient, or a person responsible\n>>> for delivering it to the intended recipient, you are hereby notified that\n>>> you must not read this transmission and that any disclosure, copying,\n>>> printing, distribution or use of any of the information contained in or\n>>> attached to this transmission is STRICTLY PROHIBITED. If you have received\n>>> this transmission in error, please immediately notify the sender by\n>>> telephone or return e-mail and delete the original transmission and its\n>>> attachments without reading or saving in any manner. Thank you.\n>>> =============\n> =============Notice to Recipient: This e-mail transmission, and any documents, files\nor previous e-mail messages attached to it may contain information that is confidential or\nlegally privileged, and intended for the use of the individual or entity named above. If you\nare not the intended recipient, or a person responsible for delivering it to the intended\nrecipient, you are hereby notified that you must not read this transmission and that any disclosure,\ncopying, printing, distribution or use of any of the information contained in or attached\nto this transmission is STRICTLY PROHIBITED. If you have received this transmission in error,\nplease immediately notify the sender by telephone or return e-mail and delete the original\ntransmission and its attachments without reading or saving in any manner. Thank you. =============\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Sathi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 391,
+      "end": 406,
+      "text": "\nRegards,\nTimo\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 408,
+      "text": "Hi Sathi,\n\nconfiguring managed memory and taskmanager heap memory also depends on \nyour jobs. If your jobs involve much sorting, then a high managed memory \nis helpful. If you are creating a lot of objects in your functions, that \nneed some time until they get garbage collected (ideally you should not \nuse `new` at all), then a larger Java heap might be useful instead of \nmanaged memory.\n\nRegards,\nTimo\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 408,
+      "end": 454,
+      "text": "Am 31.05.17 um 09:43 schrieb Sathi Chowdhury:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1080,
+      "end": 1103,
+      "text": "> Thanks again\n> Sathi\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 454,
+      "end": 1109,
+      "text": "> Thanks Nico for a good gist on memory management of flink\u00e2\u20ac\u00a6\n> If I have 64 GB in each task manager \u00e2\u20ac\u00a6should I be aggressive of setting taskmanager.heap.mb\nto a very large value 56GB let;s say,563200 was a mistake,that\u00e2\u20ac\u2122s abruptly high.\n> I am actually trying to come up with an understanding how to maximum utilize task manager\u00e2\u20ac\u2122s\nmemory so there is not a large amount of memory left unused, and\n> Flink is starving of memory\u00e2\u20ac\u00a6heap is used for sorting/hashing\u00e2\u20ac\u00a6\n> If I do not mention taskmanager.heap.mb and yarn-session -tm option (actually are they\nthe same thing?) \u00e2\u20ac\u00a6 I am going to try out how much memory is used\n> Thanks again\n> Sathi\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1109,
+      "end": 1178,
+      "text": "> On 5/30/17, 3:22 AM, \"Nico Kruber\" <nico@data-artisans.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2125,
+      "end": 2136,
+      "text": ">>\n>> Nico\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1178,
+      "end": 2249,
+      "text": ">\n>> By default, Flink allocates a fraction of 0.7 (taskmanager.memory.fraction) of\n>> the free memory (total memory configured via taskmanager.heap.mb minus memory\n>> used for network buffers) for its managed memory. An absolute value may be set\n>> using taskmanager.memory.size (overrides the fraction parameter). [1]\n>> In general, [1] is a good read for how the different memory settings work\n>> together.\n>>\n>> The 10000 network buffers of size taskmanager.memory.segment-size (default:\n>> 32k) will this remove 320MB from your taskmanager.heap.mb (which in your\n>> example is set to 563GB?!) and therefore do not affect the managed memory size\n>> much.\n>>\n>> Whether the size used by the JVM is preallocated--and thus immediately\n>> visible--depends on taskmanager.memory.preallocate.\n>>\n>>\n>> But actually what are trying to fix? Is your node flushing data to disk yet? Or\n>> has it just not accumulated that much operator state yet?\n>>\n>>\n>>\n>> Nico\n>>\n>> [1] https://ci.apache.org/projects/flink/flink-docs-release-1.3/setup/\n>> config.html#managed-memory\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2249,
+      "end": 2312,
+      "text": ">> On Monday, 29 May 2017 19:09:55 CEST Sathi Chowdhury wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2312,
+      "end": 2479,
+      "text": ">>> For got to mention I am running 10 slots in each machine and\n>>> taskmanager.network.numberOfBuffers: 10000\n>> Is there a scope of improving\n>>> memory usage?\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2479,
+      "end": 2799,
+      "text": ">>> From: Sathi Chowdhury\n>>> <Sathi.Chowdhury@elliemae.com<mailto:Sathi.Chowdhury@elliemae.com>>\n>> Date:\n>>> Monday, May 29, 2017 at 9:55 AM\n>>> To: \"user@flink.apache.org<mailto:user@flink.apache.org>\"\n>>> <user@flink.apache.org<mailto:user@flink.apache.org>>\n>> Subject: How can I\n>>> increase Flink managed memory?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2799,
+      "end": 2837,
+      "text": ">>>\n>>> Hello Flink Dev and Community\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3108,
+      "end": 3129,
+      "text": ">>> Thanks\n>>> Sathi\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2799,
+      "end": 5735,
+      "text": ">>>\n>>> Hello Flink Dev and Community\n>>> I have 5 task managers each tie 64 GB of memory\n>>> I am running flink on yarn with task manager heap taskmanager.heap.mb:\n>>> 563200\n>> Link still shows that it is using about 21 GB memory leaving 35 GB\n>>> available..how and what can I do to fix it? Please suggest\n>>> Thanks\n>>> Sathi\n>>> =============Notice to Recipient: This e-mail transmission, and any\n>>> documents, files or previous e-mail messages attached to it may contain\n>>> information that is confidential or legally privileged, and intended for\n>>> the use of the individual or entity named above. If you are not the\n>>> intended recipient, or a person responsible for delivering it to the\n>>> intended recipient, you are hereby notified that you must not read this\n>>> transmission and that any disclosure, copying, printing, distribution or\n>>> use of any of the information contained in or attached to this transmission\n>>> is STRICTLY PROHIBITED. If you have received this transmission in error,\n>>> please immediately notify the sender by telephone or return e-mail and\n>>> delete the original transmission and its attachments without reading or\n>>> saving in any manner. Thank you. =============\n>> =============Notice to\n>>> Recipient: This e-mail transmission, and any documents, files or previous\n>>> e-mail messages attached to it may contain information that is confidential\n>>> or legally privileged, and intended for the use of the individual or entity\n>>> named above. If you are not the intended recipient, or a person responsible\n>>> for delivering it to the intended recipient, you are hereby notified that\n>>> you must not read this transmission and that any disclosure, copying,\n>>> printing, distribution or use of any of the information contained in or\n>>> attached to this transmission is STRICTLY PROHIBITED. If you have received\n>>> this transmission in error, please immediately notify the sender by\n>>> telephone or return e-mail and delete the original transmission and its\n>>> attachments without reading or saving in any manner. Thank you.\n>>> =============\n> =============Notice to Recipient: This e-mail transmission, and any documents, files\nor previous e-mail messages attached to it may contain information that is confidential or\nlegally privileged, and intended for the use of the individual or entity named above. If you\nare not the intended recipient, or a person responsible for delivering it to the intended\nrecipient, you are hereby notified that you must not read this transmission and that any disclosure,\ncopying, printing, distribution or use of any of the information contained in or attached\nto this transmission is STRICTLY PROHIBITED. If you have received this transmission in error,\nplease immediately notify the sender by telephone or return e-mail and delete the original\ntransmission and its attachments without reading or saving in any manner. Thank you. =============\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_2541"
+}

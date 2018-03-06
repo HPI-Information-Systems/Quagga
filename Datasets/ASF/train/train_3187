@@ -1,0 +1,179 @@
+Thanks Yonik.
+It is double because our use case allows to group by any field of any type.
+According to your below valuable explanation, is it better at this case to use flat faceting
+instead of JSON faceting?
+Indexing the field should give us better performance than flat faceting?
+Do you recommend streaming at that case?
+
+Please advise.
+
+Thanks
+Mikhail
+
+-----Original Message-----
+From: Yonik Seeley [mailto:yseeley@gmail.com] 
+Sent: Sunday, May 07, 2017 6:25 PM
+To: solr-user@lucene.apache.org
+Subject: Re: JSON facet performance for aggregations
+
+OK, so I think I know what's going on.
+
+The current code is more optimized for finding the top K buckets from a total of N.
+When one asks to return the top 10 buckets when there are potentially millions of buckets,
+it makes sense to defer calculating other metrics for those buckets until we know which ones
+they are.  After we identify the top 10 buckets, we calculate the domain for that bucket and
+use that to calculate the remaining metrics.
+
+The current method is obviously much slower when one is requesting
+*all* buckets.  We might as well just calculate all metrics in the first pass rather than
+trying to defer them.
+
+This inefficiency is compounded by the fact that the fields are not indexed.  In the second
+phase, finding the domain for a bucket is a field query.  For an indexed field, this would
+involve a single term lookup.  For a non-indexed docValues field, this involves a full column
+scan.
+
+If you ever want to do quick lookups on studentId, it would make sense for it to be indexed
+(and why is it a double, anyway?)
+
+I'll open up a JIRA issue for the first problem (don't defer metrics if we're going to return
+all buckets anyway)
+
+-Yonik
+
+
+On Sun, Apr 30, 2017 at 8:58 AM, Mikhail Ibraheem <mikhail.ibraheem@oracle.com> wrote:
+> Hi Yonik,
+> We are using Solr 6.5
+> Both studentId and grades are double:
+>   <fieldType name="double" class="solr.TrieDoubleField" 
+> indexed="false" stored="true" docValues="true" multiValued="false" 
+> required="false"/>
+>
+> We have 1.5 million records.
+>
+> Thanks
+> Mikhail
+>
+> -----Original Message-----
+> From: Yonik Seeley [mailto:yseeley@gmail.com]
+> Sent: Sunday, April 30, 2017 1:04 PM
+> To: solr-user@lucene.apache.org
+> Subject: Re: JSON facet performance for aggregations
+>
+> It is odd there would be quite such a big performance delta.
+> What version of solr are you using?
+> What is the fieldType of "grades"?
+> -Yonik
+>
+>
+> On Sun, Apr 30, 2017 at 5:15 AM, Mikhail Ibraheem <mikhail.ibraheem@oracle.com>
+wrote:
+>> 1-
+>> studentId has docValue = true . it is of type double which is 
+>> <fieldType name="double" class="solr.TrieDoubleField" indexed="false"
+>> stored="true" docValues="true" multiValued="false" required="false"/>
+>>
+>>
+>> 2- If we just facet without aggregation it finishes in good time 60ms:
+>>
+>> json.facet={
+>>    studentId:{
+>>       type:terms,
+>>       limit:-1,
+>>       field:" studentId "
+>>
+>>    }
+>> }
+>>
+>>
+>> Thanks
+>>
+>>
+>> -----Original Message-----
+>> From: Vijay Tiwary [mailto:vijaykr.tiwary@gmail.com]
+>> Sent: Sunday, April 30, 2017 10:44 AM
+>> To: solr-user@lucene.apache.org
+>> Subject: RE: JSON facet performance for aggregations
+>>
+>> Please enable doc values and try.
+>> There is a bug in the source code which causes json facet on string field to run
+very slow. On numeric fields it runs fine with doc value enabled.
+>>
+>> On Apr 30, 2017 1:41 PM, "Mikhail Ibraheem"
+>> <mikhail.ibraheem@oracle.com>
+>> wrote:
+>>
+>>> Hi Vijay,
+>>> It is already numeric field.
+>>> It is huge difference between json and flat here. Do you know the 
+>>> reason for this? Is there a way to improve it ?
+>>>
+>>> -----Original Message-----
+>>> From: Vijay Tiwary [mailto:vijaykr.tiwary@gmail.com]
+>>> Sent: Sunday, April 30, 2017 9:58 AM
+>>> To: solr-user@lucene.apache.org
+>>> Subject: Re: JSON facet performance for aggregations
+>>>
+>>> Json facet on string fields run lot slower than on numeric fields.
+>>> Try and see if you can represent studentid as a numeric field.
+>>>
+>>> On Apr 30, 2017 1:19 PM, "Mikhail Ibraheem"
+>>> <mikhail.ibraheem@oracle.com>
+>>> wrote:
+>>>
+>>> > Hi,
+>>> >
+>>> > I am trying to do aggregation with JSON faceting but performance 
+>>> > is very bad for one of the requests:
+>>> >
+>>> > json.facet={
+>>> >
+>>> >    studentId:{
+>>> >
+>>> >       type:terms,
+>>> >
+>>> >       limit:-1,
+>>> >
+>>> >       field:"studentId",
+>>> >
+>>> >                   facet:{
+>>> >
+>>> >                   x:"sum(grades)"
+>>> >
+>>> >                   }
+>>> >
+>>> >    }
+>>> >
+>>> > }
+>>> >
+>>> >
+>>> >
+>>> > This request finishes in 250 seconds, and we can't paginate for 
+>>> > this service for functional reason so we have to use limit:-1, and 
+>>> > the cardinality of the studentId is 7500.
+>>> >
+>>> >
+>>> >
+>>> > If I try the same with flat facet it finishes in 3 seconds :
+>>> > stats=true&facet=true&stats.field={!tag=piv1
+>>> > sum=true}grades&facet.pivot={!stats=piv1}studentId
+>>> >
+>>> >
+>>> >
+>>> > We are hoping to use one approach json or flat for all our services.
+>>> > JSON facet performance is better for many case.
+>>> >
+>>> >
+>>> >
+>>> > Please advise on why the performance for this is so bad and if we 
+>>> > can improve it. Also what is the default algorithm used for json facet.
+>>> >
+>>> >
+>>> >
+>>> > Thanks
+>>> >
+>>> > Mikhail
+>>> >
+>>>
+

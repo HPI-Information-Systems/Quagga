@@ -1,0 +1,122 @@
+{
+  "wrapper": "plaintext",
+  "text": "i didn't leave strong and stable.  I left a unstable but got loads of cash voicemail.\n\n-----Original Message-----\nFrom: Luce, Laura \nSent: Friday, October 26, 2001 12:28 PM\nTo: Kitchen, Louise\nSubject: Re: Peoples\n\n\nI am sure no one wants to provide another were strong and stable speech, but we have it on an extremely confidential basis that a memo is being drafted by their risk management group (remember the thorn in Bill's side and mine over the last years...) that recommends a ceasing of additional business with Enron and a review of their remedies under our agreements for significant changes in our financial capacities.  I have no idea how far Dick or Tom may let this go, but it is bad form...\n\nLaura\nLaura Luce ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 87,
+      "text": "i didn't leave strong and stable.  I left a unstable but got loads of cash voicemail.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 120,
+      "end": 131,
+      "text": "Luce, Laura",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 147,
+      "end": 163,
+      "text": "October 26, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 164,
+      "end": 172,
+      "text": "12:28 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 177,
+      "end": 192,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 202,
+      "end": 213,
+      "text": "Re: Peoples",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 87,
+      "end": 214,
+      "text": "-----Original Message-----\nFrom: Luce, Laura \nSent: Friday, October 26, 2001 12:28 PM\nTo: Kitchen, Louise\nSubject: Re: Peoples\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 708,
+      "end": 713,
+      "text": "Laura",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 714,
+      "end": 725,
+      "text": "Laura Luce ",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 214,
+      "end": 725,
+      "text": "\n\nI am sure no one wants to provide another were strong and stable speech, but we have it on an extremely confidential basis that a memo is being drafted by their risk management group (remember the thorn in Bill's side and mine over the last years...) that recommends a ceasing of additional business with Enron and a review of their remedies under our agreements for significant changes in our financial capacities.  I have no idea how far Dick or Tom may let this go, but it is bad form...\n\nLaura\nLaura Luce ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13906257.1075853011282.JavaMail.evans@thyme>",
+      "Date": "Fri, 26 Oct 2001 16:23:41 -0700 (PDT)",
+      "From": "louise.kitchen@enron.com",
+      "To": "laura.luce@enron.com",
+      "Subject": "RE: Peoples",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-To": "Luce, Laura </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lluce>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\Sent Items",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l_sent_items_586.txt"
+}

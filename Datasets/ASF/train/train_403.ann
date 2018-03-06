@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_403",
+  "meta": {},
+  "text": "Is this visible in the logs? I mean how do I find out that a \"DELETE\ncollection\" API\u00e2\u20ac\u2039 call was made?\n\nIs the following indicative of the fact that the API call was made?\n\n2017-01-20 20:42:39,822 INFO org.apache.solr.cloud.\nShardLeaderElectionContextBase: Removing leader registration node on\ncancel: /collections/3044_01_17/leaders/shard4/leader 9\n\n2017-01-20 20:42:39,832 INFO org.apache.solr.cloud.ElectionContext:\nCanceling election /collections/3044_01_17/leader_elect/shard4/election/\n241183598302995297-core_node3-n_0000000008\n\n2017-01-20 20:42:39,833 INFO org.apache.solr.common.cloud.ZkStateReader:\nRemoving watch for uninteresting collection [3044_01_17]\n\n  \"core\":\"3044_01_17_shard4_replica1\",\n\n  \"collection\":\"3044_01_17\",\n\n\nI am confused as the logs just talk about shard4 not all the shards of the\ncollection.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 826,
+      "text": "Is this visible in the logs? I mean how do I find out that a \"DELETE\ncollection\" API\u00e2\u20ac\u2039 call was made?\n\nIs the following indicative of the fact that the API call was made?\n\n2017-01-20 20:42:39,822 INFO org.apache.solr.cloud.\nShardLeaderElectionContextBase: Removing leader registration node on\ncancel: /collections/3044_01_17/leaders/shard4/leader 9\n\n2017-01-20 20:42:39,832 INFO org.apache.solr.cloud.ElectionContext:\nCanceling election /collections/3044_01_17/leader_elect/shard4/election/\n241183598302995297-core_node3-n_0000000008\n\n2017-01-20 20:42:39,833 INFO org.apache.solr.common.cloud.ZkStateReader:\nRemoving watch for uninteresting collection [3044_01_17]\n\n  \"core\":\"3044_01_17_shard4_replica1\",\n\n  \"collection\":\"3044_01_17\",\n\n\nI am confused as the logs just talk about shard4 not all the shards of the\ncollection.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

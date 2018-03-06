@@ -1,0 +1,129 @@
+{
+  "wrapper": "plaintext",
+  "text": "What's Bobbie's last name?\n\n\n\n\tLucinda Kontos <lkontos@swbell.net>\n\t01/12/2001 10:21 AM\n\t\t \n\t\t To: TANA.JONES@ENRON.COM\n\t\t cc: \n\t\t Subject: \n\n\n\nTana,\nHere is Bobbie's address:\n2223 Goldsmith\nHouston, TX??? 77030\n?\nThanks so much for doing this.? \nLucinda\n?\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 30,
+      "text": "What's Bobbie's last name?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 31,
+      "end": 45,
+      "text": "Lucinda Kontos",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 47,
+      "end": 65,
+      "text": "lkontos@swbell.net",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 68,
+      "end": 78,
+      "text": "01/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 79,
+      "end": 87,
+      "text": "10:21 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 99,
+      "end": 119,
+      "text": "TANA.JONES@ENRON.COM",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 31,
+      "end": 141,
+      "text": "Lucinda Kontos <lkontos@swbell.net>\n\t01/12/2001 10:21 AM\n\t\t \n\t\t To: TANA.JONES@ENRON.COM\n\t\t cc: \n\t\t Subject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 144,
+      "end": 148,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 247,
+      "end": 254,
+      "text": "Lucinda",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 141,
+      "end": 257,
+      "text": "\n\n\nTana,\nHere is Bobbie's address:\n2223 Goldsmith\nHouston, TX??? 77030\n?\nThanks so much for doing this.? \nLucinda\n?\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11576731.1075847293602.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 Jan 2001 03:43:00 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "lkontos@swbell.net",
+      "Subject": "Re:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Lucinda Kontos <lkontos@swbell.net>@ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_9077.txt"
+}

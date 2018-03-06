@@ -1,0 +1,370 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sure, I have a meeting w/ Mark at 3.  Other than that, I'm open.\n\n\n\n\tSara Shackleton@ECT\n\t06/07/2000 09:52 AM\n\t\t \n\t\t To: jason.peters@enron.com\n\t\t cc: \n\t\t Subject: Re: Bridgeline Gas Marketing, LLC\n\nJason:  fyi.  Also, Randy Curry did call me yesterday but wasn't available \nwhen I returned the call.\nAlso, let's get Sakura Dellsher executed (and we should create a file since \nwe're noting the ADM agreement which we did for Bridgeline).  Could we please \ntalk this afternoon about outstanding agreements?  ss\n----- Forwarded by Sara Shackleton/HOU/ECT on 06/07/2000 09:49 AM -----\n\n\tBrant Reves\n\t06/07/2000 09:10 AM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: Bridgeline Gas Marketing, LLC\n\nhello Sara,\n\nI think this should be a high priority once they take on an ISDA attorney.  \nPer your recommendation, I contacted Randy Curry, President of Bridgeline and \npassed along your thoughts about Jason.  I gave him your phone number and he \nsounded enthusiastic about wanting to talk with him.  God knows they need an \nattorney.\n\nRight now, I think we can take this off the priority list.\n\nThanks\nBrant\n\n\n\n\nFrom: Sara Shackleton on 06/06/2000 11:16 AM\nTo: Brant Reves/HOU/ECT@ECT\ncc:  \nSubject: Bridgeline Gas Marketing, LLC\n\nBrant:  Is this really high priority (for our legal/credit discussions)?  We \nhaven't heard from these guys since April 13.  Sara\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 68,
+      "text": "Sure, I have a meeting w/ Mark at 3.  Other than that, I'm open.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 69,
+      "end": 84,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 90,
+      "end": 100,
+      "text": "06/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 101,
+      "end": 109,
+      "text": "09:52 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 121,
+      "end": 143,
+      "text": "jason.peters@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 164,
+      "end": 197,
+      "text": "Re: Bridgeline Gas Marketing, LLC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 69,
+      "end": 198,
+      "text": "Sara Shackleton@ECT\n\t06/07/2000 09:52 AM\n\t\t \n\t\t To: jason.peters@enron.com\n\t\t cc: \n\t\t Subject: Re: Bridgeline Gas Marketing, LLC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 199,
+      "end": 204,
+      "text": "Jason",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 508,
+      "end": 510,
+      "text": "ss",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 198,
+      "end": 511,
+      "text": "\nJason:  fyi.  Also, Randy Curry did call me yesterday but wasn't available \nwhen I returned the call.\nAlso, let's get Sakura Dellsher executed (and we should create a file since \nwe're noting the ADM agreement which we did for Bridgeline).  Could we please \ntalk this afternoon about outstanding agreements?  ss\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 530,
+      "end": 545,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 557,
+      "end": 567,
+      "text": "06/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 568,
+      "end": 576,
+      "text": "09:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 511,
+      "end": 583,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 06/07/2000 09:49 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 585,
+      "end": 596,
+      "text": "Brant Reves",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 598,
+      "end": 608,
+      "text": "06/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 609,
+      "end": 617,
+      "text": "09:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 628,
+      "end": 643,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 676,
+      "end": 709,
+      "text": "Re: Bridgeline Gas Marketing, LLC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 583,
+      "end": 710,
+      "text": "\n\tBrant Reves\n\t06/07/2000 09:10 AM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: Bridgeline Gas Marketing, LLC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 717,
+      "end": 721,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 711,
+      "end": 723,
+      "text": "hello Sara,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1114,
+      "end": 1119,
+      "text": "Brant",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1107,
+      "end": 1120,
+      "text": "Thanks\nBrant\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 710,
+      "end": 1124,
+      "text": "\nhello Sara,\n\nI think this should be a high priority once they take on an ISDA attorney.  \nPer your recommendation, I contacted Randy Curry, President of Bridgeline and \npassed along your thoughts about Jason.  I gave him your phone number and he \nsounded enthusiastic about wanting to talk with him.  God knows they need an \nattorney.\n\nRight now, I think we can take this off the priority list.\n\nThanks\nBrant\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1130,
+      "end": 1145,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1149,
+      "end": 1159,
+      "text": "06/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1160,
+      "end": 1168,
+      "text": "11:16 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1173,
+      "end": 1184,
+      "text": "Brant Reves",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1212,
+      "end": 1241,
+      "text": "Bridgeline Gas Marketing, LLC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1124,
+      "end": 1242,
+      "text": "From: Sara Shackleton on 06/06/2000 11:16 AM\nTo: Brant Reves/HOU/ECT@ECT\ncc:  \nSubject: Bridgeline Gas Marketing, LLC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1243,
+      "end": 1248,
+      "text": "Brant",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1368,
+      "end": 1372,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1242,
+      "end": 1377,
+      "text": "\nBrant:  Is this really high priority (for our legal/credit discussions)?  We \nhaven't heard from these guys since April 13.  Sara\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 32,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 33,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 29,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 26,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 21,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 15,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 18,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 2,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 11,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25567194.1075844366995.JavaMail.evans@thyme>",
+      "Date": "Wed, 7 Jun 2000 02:55:00 -0700 (PDT)",
+      "From": "jason.peters@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: Bridgeline Gas Marketing, LLC",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jason Peters",
+      "X-To": "Sara Shackleton",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_2271.txt"
+}

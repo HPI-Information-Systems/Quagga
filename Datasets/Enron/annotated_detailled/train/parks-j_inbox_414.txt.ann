@@ -1,0 +1,138 @@
+{
+  "wrapper": "plaintext",
+  "text": " \n-----Original Message-----\nFrom: Meyer, Chris \nSent: Tuesday, January 22, 2002 10:33 AM\nTo: Parks, Joe\nCc: Knippa, Mark; Zisman, Stuart\nSubject: FW: TWPL Contacts\n\n\n\nJoe - per our discussion on Friday, any assistance you can give Mark and I in selling February TW (West Tx Pool) gas would be appreciated. We can sell more term if need be.  I will forward you, under separate email, the details.  Mark will provide the exact volume prior to the end of day.  I've already talked to Allegany Supply Development and Cook Inlet.  Neither has shown much interest.  Mark sold January's balance to Sid Richardson.  Below is a list of other potential parties that may have interest in the gas (including the contact for Sid Richardson).\n\nThanks\n\ncmm\n\n \n\n Western Gas Resources: \n\nCalpine:  Pete ?   713-830-2098 \n\nDynegy:  Phil Richardson 713-507-6472 \n\nOneok:   Cathy Bulf   918-591-5749 \n\nSid Richardson:  Scott Walker  817-810-9385 \n\nSempra:  Stefanie Katz  203-355-5060 \n\nReliant:  Tom Toerner  713-207-1450 \n\nAquila:  Elsa Johnston 214-927-9464 \n\nDuke:  Mike Larson 801-531-4497 \n\n[Meyer, Chris] T enaska:  Karen Swett 402-758-6127 \n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 35,
+      "end": 47,
+      "text": "Meyer, Chris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 80,
+      "text": "January 22, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 81,
+      "end": 89,
+      "text": "10:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 94,
+      "end": 104,
+      "text": "Parks, Joe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 109,
+      "end": 121,
+      "text": "Knippa, Mark",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 123,
+      "end": 137,
+      "text": "Zisman, Stuart",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 147,
+      "end": 164,
+      "text": "FW: TWPL Contacts",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 165,
+      "text": " \n-----Original Message-----\nFrom: Meyer, Chris \nSent: Tuesday, January 22, 2002 10:33 AM\nTo: Parks, Joe\nCc: Knippa, Mark; Zisman, Stuart\nSubject: FW: TWPL Contacts\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 168,
+      "end": 171,
+      "text": "Joe",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 739,
+      "end": 742,
+      "text": "cmm",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 731,
+      "end": 743,
+      "text": "Thanks\n\ncmm\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 165,
+      "end": 1133,
+      "text": "\n\n\nJoe - per our discussion on Friday, any assistance you can give Mark and I in selling February TW (West Tx Pool) gas would be appreciated. We can sell more term if need be.  I will forward you, under separate email, the details.  Mark will provide the exact volume prior to the end of day.  I've already talked to Allegany Supply Development and Cook Inlet.  Neither has shown much interest.  Mark sold January's balance to Sid Richardson.  Below is a list of other potential parties that may have interest in the gas (including the contact for Sid Richardson).\n\nThanks\n\ncmm\n\n \n\n Western Gas Resources: \n\nCalpine:  Pete ?   713-830-2098 \n\nDynegy:  Phil Richardson 713-507-6472 \n\nOneok:   Cathy Bulf   918-591-5749 \n\nSid Richardson:  Scott Walker  817-810-9385 \n\nSempra:  Stefanie Katz  203-355-5060 \n\nReliant:  Tom Toerner  713-207-1450 \n\nAquila:  Elsa Johnston 214-927-9464 \n\nDuke:  Mike Larson 801-531-4497 \n\n[Meyer, Chris] T enaska:  Karen Swett 402-758-6127 \n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12359117.1075841392324.JavaMail.evans@thyme>",
+      "Date": "Mon, 25 Feb 2002 08:59:03 -0800 (PST)",
+      "From": "chris.meyer@enron.com",
+      "To": "joe.parks@enron.com",
+      "Subject": "FW: TWPL Contacts",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Meyer, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CMEYER>",
+      "X-To": "Parks, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jparks>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Parks, Joe\\Inbox",
+      "X-Origin": "PARKS-J",
+      "X-FileName": "joe parks 6-26-02.pst"
+    }
+  },
+  "id": "train/parks-j_inbox_414.txt"
+}

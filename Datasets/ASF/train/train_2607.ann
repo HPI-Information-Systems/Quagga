@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "+name:test +(type:research (*:* -type:[* TO *]))\n\nOn Sun, Apr 16, 2017 at 11:47 PM, Furkan KAMACI <furkankamaci@gmail.com>\nwrote:\n\n> Hi,\n>\n> I have a schema like:\n>\n> name,\n> department,\n> type\n>\n> type is an optional field. Some documents don't have that field. Let's\n> assume I have these:\n>\n> Doc 1:\n> name: test\n> type: research\n>\n> Doc 2:\n> name: test\n> type: developer\n>\n> Doc 3:\n> name: test\n>\n> I want to search name: test and type:research if type field exists (result\n> will be Doc 1 and Doc 3).\n>\n> How can I do that?\n>\n> Kind Regards,\n> Furkan KAMACI\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 50,
+      "text": "+name:test +(type:research (*:* -type:[* TO *]))\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 50,
+      "end": 130,
+      "text": "On Sun, Apr 16, 2017 at 11:47 PM, Furkan KAMACI <furkankamaci@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 130,
+      "end": 137,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 529,
+      "end": 563,
+      "text": ">\n> Kind Regards,\n> Furkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 568,
+      "end": 605,
+      "text": "-- \nSincerely yours\nMikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 130,
+      "end": 606,
+      "text": "\n> Hi,\n>\n> I have a schema like:\n>\n> name,\n> department,\n> type\n>\n> type is an optional field. Some documents don't have that field. Let's\n> assume I have these:\n>\n> Doc 1:\n> name: test\n> type: research\n>\n> Doc 2:\n> name: test\n> type: developer\n>\n> Doc 3:\n> name: test\n>\n> I want to search name: test and type:research if type field exists (result\n> will be Doc 1 and Doc 3).\n>\n> How can I do that?\n>\n> Kind Regards,\n> Furkan KAMACI\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2607"
+}

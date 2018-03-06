@@ -1,0 +1,122 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nsorry, got this too late, will be there tommorrow\nbright and early( btw, u must of argued good to keep\nthe numbers even that good, nice going).  I'll be\nthere pretty early, plane lands at 9:00 will come\nright in.\n\nI'll ask for u, feel free to call me at home... 708\n422 4514 if u want to talk tonight.\n\nlater\n\n--- \"Kitchen, Louise\" <Louise.Kitchen@ENRON.com>\nwrote:\n> So far we have spent today relooking at our numbers\n> for the whole business.  Technology is looking about\n> the same as before (possibly 10 -  15 less in Jay's\n> area).  I think it would be a good idea for you to\n> come down and have dinner with either myself or\n> myself, Jenny and Jay together tomorrow.  Hutch is\n> coming down tomorrow night.\n>\n> Regards\n>\n> Louise\n>\n>\n>\n>\n>\n**********************************************************************\n> This e-mail is the property of Enron Corp. and/or\n> its relevant affiliate and may contain confidential\n> and privileged material for the sole use of the\n> intended recipient (s). Any review, use,\n> distribution or disclosure by others is strictly\n> prohibited. If you are not the intended recipient\n> (or authorized to receive for the recipient), please\n> contact the sender or reply to Enron Corp. at\n> enron.messaging.administration@enron.com and delete\n> all copies of the message. This e-mail (and any\n> attachments hereto) are not intended to be an offer\n> (or an acceptance) and do not create or evidence a\n> binding and enforceable contract between Enron Corp.\n> (or any of its affiliates) and the intended\n> recipient or any other party, and may not be relied\n> on by anyone as the basis of a contract by estoppel\n> or otherwise. Thank you.\n>\n**********************************************************************\n>\n>\n\n\n__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 304,
+      "end": 310,
+      "text": "later\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 311,
+      "text": "\nsorry, got this too late, will be there tommorrow\nbright and early( btw, u must of argued good to keep\nthe numbers even that good, nice going).  I'll be\nthere pretty early, plane lands at 9:00 will come\nright in.\n\nI'll ask for u, feel free to call me at home... 708\n422 4514 if u want to talk tonight.\n\nlater\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 316,
+      "end": 331,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 334,
+      "end": 358,
+      "text": "Louise.Kitchen@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 311,
+      "end": 367,
+      "text": "--- \"Kitchen, Louise\" <Louise.Kitchen@ENRON.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 367,
+      "end": 1889,
+      "text": "> So far we have spent today relooking at our numbers\n> for the whole business.  Technology is looking about\n> the same as before (possibly 10 -  15 less in Jay's\n> area).  I think it would be a good idea for you to\n> come down and have dinner with either myself or\n> myself, Jenny and Jay together tomorrow.  Hutch is\n> coming down tomorrow night.\n>\n> Regards\n>\n> Louise\n>\n>\n>\n>\n>\n**********************************************************************\n> This e-mail is the property of Enron Corp. and/or\n> its relevant affiliate and may contain confidential\n> and privileged material for the sole use of the\n> intended recipient (s). Any review, use,\n> distribution or disclosure by others is strictly\n> prohibited. If you are not the intended recipient\n> (or authorized to receive for the recipient), please\n> contact the sender or reply to Enron Corp. at\n> enron.messaging.administration@enron.com and delete\n> all copies of the message. This e-mail (and any\n> attachments hereto) are not intended to be an offer\n> (or an acceptance) and do not create or evidence a\n> binding and enforceable contract between Enron Corp.\n> (or any of its affiliates) and the intended\n> recipient or any other party, and may not be relied\n> on by anyone as the basis of a contract by estoppel\n> or otherwise. Thank you.\n>\n**********************************************************************\n>\n>\n\n\n__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1751,
+      "end": 1889,
+      "text": "__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 749,
+      "end": 1745,
+      "text": "**********************************************************************\n> This e-mail is the property of Enron Corp. and/or\n> its relevant affiliate and may contain confidential\n> and privileged material for the sole use of the\n> intended recipient (s). Any review, use,\n> distribution or disclosure by others is strictly\n> prohibited. If you are not the intended recipient\n> (or authorized to receive for the recipient), please\n> contact the sender or reply to Enron Corp. at\n> enron.messaging.administration@enron.com and delete\n> all copies of the message. This e-mail (and any\n> attachments hereto) are not intended to be an offer\n> (or an acceptance) and do not create or evidence a\n> binding and enforceable contract between Enron Corp.\n> (or any of its affiliates) and the intended\n> recipient or any other party, and may not be relied\n> on by anyone as the basis of a contract by estoppel\n> or otherwise. Thank you.\n>\n**********************************************************************\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 718,
+      "end": 739,
+      "text": "> Regards\n>\n> Louise\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 732,
+      "end": 738,
+      "text": "Louise",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26387521.1075840883243.JavaMail.evans@thyme>",
+      "Date": "Sun, 13 Jan 2002 17:38:13 -0800 (PST)",
+      "From": "pat2od@yahoo.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "Re: So far",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "pat odonnell <pat2od@yahoo.com>@ENRON",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\NETCO IT",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_netco_it_8.txt"
+}

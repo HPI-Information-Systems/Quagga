@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "As discussed, I have arranged for a 30 minute meeting regarding our group's \nparticipation, if any, in the upcoming presentations to FERC regarding \npipeline capacity and gas prices in CA.\n\nDetails are as follows:\n\nThis meeting will take place tomorrow, Friday the 11th at 11:30 CST in 47C1.\nThe call in number is: 1-888-296-1938, participant code: 143538\n \nNote to Jim, Joe and Leslie:  This meeting will immediately follow the 11am \nWest Gas meeting.\n\nThanks, \n\nJennifer\n5-3550 ",
+  "denotations": [
+    {
+      "id": 3,
+      "start": 0,
+      "end": 480,
+      "text": "As discussed, I have arranged for a 30 minute meeting regarding our group's \nparticipation, if any, in the upcoming presentations to FERC regarding \npipeline capacity and gas prices in CA.\n\nDetails are as follows:\n\nThis meeting will take place tomorrow, Friday the 11th at 11:30 CST in 47C1.\nThe call in number is: 1-888-296-1938, participant code: 143538\n \nNote to Jim, Joe and Leslie:  This meeting will immediately follow the 11am \nWest Gas meeting.\n\nThanks, \n\nJennifer\n5-3550 ",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 454,
+      "end": 473,
+      "text": "Thanks, \n\nJennifer\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28334675.1075843662758.JavaMail.evans@thyme>",
+      "Date": "Thu, 10 May 2001 03:33:00 -0700 (PDT)",
+      "From": "jennifer.thome@enron.com",
+      "To": "joe.hartsoe@enron.com, jeff.dasovich@enron.com, leslie.lawner@enron.com, \n\tjames.steffes@enron.com",
+      "Subject": "Discussion tomorrow at 11:30 CST on FERC & gas",
+      "Cc": "linda.noske@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "linda.noske@enron.com",
+      "X-From": "Jennifer Thome",
+      "X-To": "Joe Hartsoe, Jeff Dasovich, Leslie Lawner, James D Steffes",
+      "X-cc": "Linda J Noske",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_3498.txt"
+}

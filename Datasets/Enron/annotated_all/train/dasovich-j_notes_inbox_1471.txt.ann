@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/dasovich-j_notes_inbox_1471.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<28544874.1075843141014.JavaMail.evans@thyme>",
+      "Date": "Tue, 7 Nov 2000 00:59:00 -0800 (PST)",
+      "From": "steven.kean@enron.com",
+      "To": "paul.kaufman@enron.com, tim.belden@enron.com, richard.shapiro@enron.com, \n\tjeff.dasovich@enron.com, susan.mara@enron.com, \n\tsandra.mccubbin@enron.com, david.parquet@enron.com, \n\tmary.hain@enron.com, joe.hartsoe@enron.com, james.steffes@enron.com, \n\tsarah.novosel@enron.com, peggy.mahoney@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Paul Kaufman, Tim Belden, Richard Shapiro, Jeff Dasovich, Susan J Mara, Sandra McCubbin, David Parquet, Mary Hain, Joe Hartsoe, James D Steffes, Sarah Novosel, Peggy Mahoney",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "text": "I will be on the first panel of the FERC California conference on Thursday.  \nThe format allows a 5 min presentation and then 60 min of Q&A.  I need your \nhelp to make sure I have \"Gore-like\" command of the details.  Please help \nwith the following information:\nEnron project information (Parquet/McCubbin) -- please give me any \npresentations or summaries you have on the generation, or firm purchases, we \nhave under way (or planned).  I'll talk with you to find out what we are \ncomfortable disclosing but please err on the side of giving whatever \ninformation you have.\nUpdated Belden presentation (Hain/Belden) -- I believe the latest information \nwas as of August; I think some of the information on the cost of peaking \nfacilities is particularly eye-opening on the price cap issue.\nComparison to PJM (Hartsoe/Novosel) -- Is the information we are seeking from \nthe ISO and PX similar to information PJM already provides?  If so, it would \nbe nice to tie our requests back to something the Commission has already \napproved.\nCancelled DSM projects (Mahoney) -- Again, I'll only use what we feel \ncomfortable with, but it would help make our point if we can give examples of \nhow price caps backfire when it comes to encouraging conservation.\nISO/PX reports (Dasovich).  I have the ISO market surveillance report.  Is \nthere another ISO report?  If so, please get me a copy and provide a copy of \nthe PX report too.\nCEC/Proposed generation update (Mara/Parquet) -- Need the basic information: \nproposed, waiting for permitting; how much/little the legislation did to \nexpedite siting (ie are we still comfortable saying that it applies to less \nthan 10%)?\nSoft cap(Belden/Hain) -- need a crisp explanation of why the \"soft\" nature of \nthe cap is not sufficient.  Also, would we be OK if the Commission revised it \nto say that bids can be taken above 150 without special filing or reporting \nrequirements, but those bids will be accepted at the price bid rather than \napplying to all lower bids as well (ie the highest bid at or below 150 clears \nthe market, bids above 150 accepted at price bid as needed)?\nOffers we have made/deals done (Parquet/Dasovich/ Mccubbin) -- Roseville plus \nany others, offer made to SDG&E -- I want to make the point that the market \nwill provide solutions (below the retail price cap) if we get the utility \n(and the regulators) out of the merchant function.\nHerding the cats(Hartsoe/mccubbin/mara/dasovich):  We are asking FERC to be \ncourageous, do the right thing and ignore the politics.  To be even halfway \ncredible, we can't have IEP, EPSA, Dynegy or anyone else \"squishing\" on the \nprice cap issue..  We have never been closer to reform in California, we need \nthese guys on board.\nThanks.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2732,
+      "text": "I will be on the first panel of the FERC California conference on Thursday.  \nThe format allows a 5 min presentation and then 60 min of Q&A.  I need your \nhelp to make sure I have \"Gore-like\" command of the details.  Please help \nwith the following information:\nEnron project information (Parquet/McCubbin) -- please give me any \npresentations or summaries you have on the generation, or firm purchases, we \nhave under way (or planned).  I'll talk with you to find out what we are \ncomfortable disclosing but please err on the side of giving whatever \ninformation you have.\nUpdated Belden presentation (Hain/Belden) -- I believe the latest information \nwas as of August; I think some of the information on the cost of peaking \nfacilities is particularly eye-opening on the price cap issue.\nComparison to PJM (Hartsoe/Novosel) -- Is the information we are seeking from \nthe ISO and PX similar to information PJM already provides?  If so, it would \nbe nice to tie our requests back to something the Commission has already \napproved.\nCancelled DSM projects (Mahoney) -- Again, I'll only use what we feel \ncomfortable with, but it would help make our point if we can give examples of \nhow price caps backfire when it comes to encouraging conservation.\nISO/PX reports (Dasovich).  I have the ISO market surveillance report.  Is \nthere another ISO report?  If so, please get me a copy and provide a copy of \nthe PX report too.\nCEC/Proposed generation update (Mara/Parquet) -- Need the basic information: \nproposed, waiting for permitting; how much/little the legislation did to \nexpedite siting (ie are we still comfortable saying that it applies to less \nthan 10%)?\nSoft cap(Belden/Hain) -- need a crisp explanation of why the \"soft\" nature of \nthe cap is not sufficient.  Also, would we be OK if the Commission revised it \nto say that bids can be taken above 150 without special filing or reporting \nrequirements, but those bids will be accepted at the price bid rather than \napplying to all lower bids as well (ie the highest bid at or below 150 clears \nthe market, bids above 150 accepted at price bid as needed)?\nOffers we have made/deals done (Parquet/Dasovich/ Mccubbin) -- Roseville plus \nany others, offer made to SDG&E -- I want to make the point that the market \nwill provide solutions (below the retail price cap) if we get the utility \n(and the regulators) out of the merchant function.\nHerding the cats(Hartsoe/mccubbin/mara/dasovich):  We are asking FERC to be \ncourageous, do the right thing and ignore the politics.  To be even halfway \ncredible, we can't have IEP, EPSA, Dynegy or anyone else \"squishing\" on the \nprice cap issue..  We have never been closer to reform in California, we need \nthese guys on board.\nThanks.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

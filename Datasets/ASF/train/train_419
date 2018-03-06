@@ -1,0 +1,31 @@
+Hi Walter,
+We have been using G1GC for more than a year now and are very happy with
+it.
+
+The only flag we have enabled is 'ParallelRefProcEnabled'
+
+On Jan 23, 2017 3:00 PM, "Walter Underwood" <wunder@wunderwood.org> wrote:
+
+> We have a workload with very long queries, and that can drive the CMS
+> collector into using about 20% of the CPU time. So I’m ready to try G1 on a
+> couple of replicas and see what happens. I’ve already upgraded to Java 8
+> update 121.
+>
+> I’ve read these pages:
+>
+> https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector
+> <https://wiki.apache.org/solr/ShawnHeisey#G1_.28Garbage_First.29_Collector
+> >
+> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66 <
+> https://gist.github.com/rockagen/e6d28244e1d540c05144370d6a64ba66>
+>
+> Any updates on recommended settings?
+>
+> wunder
+> Walter Underwood
+> wunder@wunderwood.org
+> http://observer.wunderwood.org/  (my blog)
+>
+>
+>
+

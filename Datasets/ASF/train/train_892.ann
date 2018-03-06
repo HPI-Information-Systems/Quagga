@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "hi Shawn,\n\nas I replied to Markus, of course I know (and use) the collections api to\nreload the config. I am asking what would happen in that scenario:\n - config updated (but collection not reloaded)\n - i restart one node\nnow one node has the new config and the rest the old one??\n\nTo which he already replied:\n>The restared/reloaded node has the new config, the others have the old\nconfig until reloaded/restarted.\n\nI was not asking about making solr restart itself, my English must be worst\nthan I thought. By the way, stuff like that can be achieved with\nhttp://yajsw.sourceforge.net/ a very powerful java wrapper, I used to use\nit when Solr did not have a built in daemon setup. It was built by someone\nhow was using JSW, and got pissed when that one went commercial. It is very\nconfigurable, but of course more complex. I wrote something about it some\ntime ago\nhttps://medium.com/@jmlucjav/how-to-install-solr-as-a-service-in-any-platform-including-solr-5-8e4a93cc3909\n\nthanks\n\nOn Thu, Feb 9, 2017 at 4:53 PM, Shawn Heisey <apache@elyograg.org> wrote:\n\n> On 2/9/2017 5:24 AM, xavier jmlucjav wrote:\n> > I always wondered, if this was not really needed, and I could just call\n> > 'restart' in every node, in a quick loop, and forget about it. Does\n> anyone\n> > know if this is the case?\n> >\n> > My doubt is in regards to changing some config, and then doing the above\n> > (just restart nodes in a loop). For example, what if I change a config G\n> > used in collection C, and I restart just one of the nodes (N1), leaving\n> the rest alone. If all the nodes contain a shard for C, what happens, N1 is\n> using the new config and the rest are not? how is this handled?\n>\n> If you want to change the config or schema for a collection and make it\n> active across all nodes, just use the collections API to RELOAD the\n> collection.  The change will be picked up everywhere.\n>\n> https://cwiki.apache.org/confluence/display/solr/Collections+API\n>\n> To answer your question: No.  Solr does not have the ability to restart\n> itself.  It would require significant development effort and a\n> fundamental change in how Solr is started to make it possible.  It is\n> something that has been discussed, but at this time it is not possible.\n>\n> One idea that would make this possible is mentioned on the following\n> wiki page.  It talks about turning Solr into two applications instead of\n> one:\n>\n> https://wiki.apache.org/solr/WhyNoWar#Information_that.27s_\n> not_version_specific\n>\n> Again -- it would not be easy, which is why it hasn't been done yet.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "hi Shawn,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 974,
+      "end": 982,
+      "text": "\nthanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 983,
+      "text": "hi Shawn,\n\nas I replied to Markus, of course I know (and use) the collections api to\nreload the config. I am asking what would happen in that scenario:\n - config updated (but collection not reloaded)\n - i restart one node\nnow one node has the new config and the rest the old one??\n\nTo which he already replied:\n>The restared/reloaded node has the new config, the others have the old\nconfig until reloaded/restarted.\n\nI was not asking about making solr restart itself, my English must be worst\nthan I thought. By the way, stuff like that can be achieved with\nhttp://yajsw.sourceforge.net/ a very powerful java wrapper, I used to use\nit when Solr did not have a built in daemon setup. It was built by someone\nhow was using JSW, and got pissed when that one went commercial. It is very\nconfigurable, but of course more complex. I wrote something about it some\ntime ago\nhttps://medium.com/@jmlucjav/how-to-install-solr-as-a-service-in-any-platform-including-solr-5-8e4a93cc3909\n\nthanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 983,
+      "end": 1057,
+      "text": "On Thu, Feb 9, 2017 at 4:53 PM, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1057,
+      "end": 1104,
+      "text": "\n> On 2/9/2017 5:24 AM, xavier jmlucjav wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2542,
+      "end": 2562,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1104,
+      "end": 2567,
+      "text": "> > I always wondered, if this was not really needed, and I could just call\n> > 'restart' in every node, in a quick loop, and forget about it. Does\n> anyone\n> > know if this is the case?\n> >\n> > My doubt is in regards to changing some config, and then doing the above\n> > (just restart nodes in a loop). For example, what if I change a config G\n> > used in collection C, and I restart just one of the nodes (N1), leaving\n> the rest alone. If all the nodes contain a shard for C, what happens, N1 is\n> using the new config and the rest are not? how is this handled?\n>\n> If you want to change the config or schema for a collection and make it\n> active across all nodes, just use the collections API to RELOAD the\n> collection.  The change will be picked up everywhere.\n>\n> https://cwiki.apache.org/confluence/display/solr/Collections+API\n>\n> To answer your question: No.  Solr does not have the ability to restart\n> itself.  It would require significant development effort and a\n> fundamental change in how Solr is started to make it possible.  It is\n> something that has been discussed, but at this time it is not possible.\n>\n> One idea that would make this possible is mentioned on the following\n> wiki page.  It talks about turning Solr into two applications instead of\n> one:\n>\n> https://wiki.apache.org/solr/WhyNoWar#Information_that.27s_\n> not_version_specific\n>\n> Again -- it would not be easy, which is why it hasn't been done yet.\n>\n> Thanks,\n> Shawn\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_892"
+}

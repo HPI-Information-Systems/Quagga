@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nHi all,\n\nI was submitting the play application to spark 2.1 standalone cluster . In\nplay application postgres dependency is also added and application works on\nlocal spark libraries. But at run time on standalone cluster it gives me\nerror : \n\no.a.s.s.TaskSetManager - Lost task 0.0 in stage 0.0 (TID 1, 172.31.21.3,\nexecutor 1): java.lang.ClassNotFoundException: org.postgresql\n.Driver\n\nI have placed following in spark-defaults.conf directory\n\nspark.executor.extraClassPath  \n/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar\nspark.driver.extraClassPath    \n/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar\n\nStill executors unable to pick the driver. \nAm i missing something? Need help . \nThanks.\n\n\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Executor-unable-to-pick-postgres-driver-in-Spark-standalone-cluster-tp28563.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "\nHi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1100,
+      "text": "\nHi all,\n\nI was submitting the play application to spark 2.1 standalone cluster . In\nplay application postgres dependency is also added and application works on\nlocal spark libraries. But at run time on standalone cluster it gives me\nerror : \n\no.a.s.s.TaskSetManager - Lost task 0.0 in stage 0.0 (TID 1, 172.31.21.3,\nexecutor 1): java.lang.ClassNotFoundException: org.postgresql\n.Driver\n\nI have placed following in spark-defaults.conf directory\n\nspark.executor.extraClassPath  \n/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar\nspark.driver.extraClassPath    \n/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar\n\nStill executors unable to pick the driver. \nAm i missing something? Need help . \nThanks.\n\n\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Executor-unable-to-pick-postgres-driver-in-Spark-standalone-cluster-tp28563.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2296"
+}

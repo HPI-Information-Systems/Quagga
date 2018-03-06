@@ -1,0 +1,202 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello everyone!  I would love to have dinner and exchange gifts.... I talked\nto Lisa last night and I am volunteering at the MFA on Tuesday, December the\n12th... I was wondering if we could have it on Monday the 11th???  We could\nstart our week fresh!  :o)\n\nLet me know if this works for your schedules... I'm sorry for being THAT\nperson...\n\nHope everyone's doign well and.... Happy Thanksgiving!!!\n\nLove,\n\nJen\n\n\n>From: <Lisa.A.Meador@chase.com>\n>To: jkbowles@hotmail.com, ashleastu@aol.com,\n>julianna.grisham@halliburton.com,        sscott5@enron.com,\n>sarah_c_buck@hotmail.com, rebeccacooke@hotmail.com\n>Subject: A Christmas Tasters\n>Date: Fri, 17 Nov 2000 14:55:23 -0600\n>\n>\n>\n>Hey guys!\n>\n>It is that time of year when everything gets SO crazy, so I am\n>thinking.........\n>we need to plan our Taster's Finale ahead of time so we can all mark our\n>calendars and so we can find a place!\n>\n>Here are some thoughts:  we could do a boy/girl Taster's where we all\n>invite\n>some of our friends, guys and girls to join us and we rent out a room at a\n>restaurant.  Or we could have just girls and have a really nice Christmas\n>celebration at a cool restaurant and do \"Secret Santa\".  Either way, it\n>would be\n>a blast.\n>\n>How does Thursday, Dec 14th sound?\n>\n>So, here is what I need:  your vote on............... the type of party,\n>then\n>what restaurant that goes with that idea, then affirmation of the date.\n>\n>Get excited girls!  This is going to be fun!\n>\n>Love you guys,\n>Lisa\n>\n>\n\n______________________________________________________________________________\n_______\nGet more from the Web.  FREE MSN Explorer download : http://explorer.msn.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 407,
+      "end": 410,
+      "text": "Jen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 400,
+      "end": 411,
+      "text": "Love,\n\nJen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 413,
+      "text": "Hello everyone!  I would love to have dinner and exchange gifts.... I talked\nto Lisa last night and I am volunteering at the MFA on Tuesday, December the\n12th... I was wondering if we could have it on Monday the 11th???  We could\nstart our week fresh!  :o)\n\nLet me know if this works for your schedules... I'm sorry for being THAT\nperson...\n\nHope everyone's doign well and.... Happy Thanksgiving!!!\n\nLove,\n\nJen\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 15,
+      "text": "Hello everyone!",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 421,
+      "end": 444,
+      "text": "Lisa.A.Meador@chase.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 451,
+      "end": 471,
+      "text": "jkbowles@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 473,
+      "end": 490,
+      "text": "ashleastu@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 493,
+      "end": 525,
+      "text": "julianna.grisham@halliburton.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 534,
+      "end": 551,
+      "text": "sscott5@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 554,
+      "end": 578,
+      "text": "sarah_c_buck@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 580,
+      "end": 604,
+      "text": "rebeccacooke@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 615,
+      "end": 634,
+      "text": "A Christmas Tasters",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 647,
+      "end": 658,
+      "text": "17 Nov 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 659,
+      "end": 673,
+      "text": "14:55:23 -0600",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 413,
+      "end": 674,
+      "text": ">From: <Lisa.A.Meador@chase.com>\n>To: jkbowles@hotmail.com, ashleastu@aol.com,\n>julianna.grisham@halliburton.com,        sscott5@enron.com,\n>sarah_c_buck@hotmail.com, rebeccacooke@hotmail.com\n>Subject: A Christmas Tasters\n>Date: Fri, 17 Nov 2000 14:55:23 -0600\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 680,
+      "end": 691,
+      "text": ">Hey guys!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1484,
+      "end": 1647,
+      "text": "______________________________________________________________________________\n_______\nGet more from the Web.  FREE MSN Explorer download : http://explorer.msn.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1474,
+      "end": 1478,
+      "text": "Lisa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1457,
+      "end": 1479,
+      "text": ">Love you guys,\n>Lisa\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 674,
+      "end": 1647,
+      "text": ">\n>\n>\n>Hey guys!\n>\n>It is that time of year when everything gets SO crazy, so I am\n>thinking.........\n>we need to plan our Taster's Finale ahead of time so we can all mark our\n>calendars and so we can find a place!\n>\n>Here are some thoughts:  we could do a boy/girl Taster's where we all\n>invite\n>some of our friends, guys and girls to join us and we rent out a room at a\n>restaurant.  Or we could have just girls and have a really nice Christmas\n>celebration at a cool restaurant and do \"Secret Santa\".  Either way, it\n>would be\n>a blast.\n>\n>How does Thursday, Dec 14th sound?\n>\n>So, here is what I need:  your vote on............... the type of party,\n>then\n>what restaurant that goes with that idea, then affirmation of the date.\n>\n>Get excited girls!  This is going to be fun!\n>\n>Love you guys,\n>Lisa\n>\n>\n\n______________________________________________________________________________\n_______\nGet more from the Web.  FREE MSN Explorer download : http://explorer.msn.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21146705.1075846796137.JavaMail.evans@thyme>",
+      "Date": "Tue, 21 Nov 2000 07:31:00 -0800 (PST)",
+      "From": "jkbowles@hotmail.com",
+      "To": "merharp@hotmail.com, sarahberry819@yahoo.com, lisa.a.meador@chase.com, \n\tashleastu@aol.com, julianna.grisham@halliburton.com, \n\tsscott5@enron.com, sarah_c_buck@hotmail.com, \n\trebeccacooke@hotmail.com",
+      "Subject": "Re: A Christmas Tasters",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Jennifer Bowles\" <jkbowles@hotmail.com>",
+      "X-To": "merharp@hotmail.com, Sarahberry819@yahoo.com, Lisa.A.Meador@chase.com, ashleastu@aol.com, julianna.grisham@halliburton.com, sscott5@enron.com, sarah_c_buck@hotmail.com, rebeccacooke@hotmail.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott5.nsf"
+    }
+  },
+  "id": "train/scott-s_notes_inbox_358.txt"
+}

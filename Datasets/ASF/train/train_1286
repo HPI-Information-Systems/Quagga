@@ -1,0 +1,11 @@
+Many of our field values are large, so we want to use the unified highlighter for its performance
+benefits. Development also seems to be focussed on that highlighter.
+
+> On 1 Mar 2017, at 19:07, Rick Leir <rleir@leirtech.com> wrote:
+> 
+> Matthew, Is TVH term vector highlighter an option? Just a suggestion.
+> Cheers -- Rick
+> -- 
+> Sent from my Android device with K-9 Mail. Please excuse my brevity.
+
+

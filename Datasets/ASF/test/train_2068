@@ -1,0 +1,34 @@
+I realized, my case class was inside the object. It should be defined
+outside the scope of the object. Thanks
+
+On Wed, Mar 22, 2017 at 6:07 PM, shyla deshpande <deshpandeshyla@gmail.com>
+wrote:
+
+> Why userDS is Dataset[Any], instead of Dataset[Teamuser]?  Appreciate your help. Thanks
+>
+>     val spark = SparkSession
+>       .builder
+>       .config("spark.cassandra.connection.host", cassandrahost)
+>       .appName(getClass.getSimpleName)
+>       .getOrCreate()
+>
+>     import spark.implicits._
+>     val sqlContext = spark.sqlContext
+>     import sqlContext.implicits._
+>
+>     case class Teamuser(teamid:String, userid:String, role:String)
+>     spark
+>       .read
+>       .format("org.apache.spark.sql.cassandra")
+>       .options(Map("keyspace" -> "test", "table" -> "teamuser"))
+>       .load
+>       .createOrReplaceTempView("teamuser")
+>
+>     val userDF = spark.sql("SELECT teamid, userid, role FROM teamuser")
+>
+>     userDF.show()
+>
+>     val userDS:Dataset[Teamuser] = userDF.as[Teamuser]
+>
+>
+

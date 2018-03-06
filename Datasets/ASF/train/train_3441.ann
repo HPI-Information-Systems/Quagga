@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "sorry for the confusion. as in i received results due to matches on field x\nvs. field y.\n\ni've gone w a highlighting solution for now. the fact that it requires\nfield storage isn't yet prohibitive for me, so can serve well for now. open\nto any alternative approaches all the same\n\nthanks-\n\n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\nOn Tue, May 16, 2017 at 11:37 AM, David Hastings <\nhastings.recursive@gmail.com> wrote:\n\n> what do you mean \"hit?\" As in the user clicked it?\n>\n> On Tue, May 16, 2017 at 11:35 AM, John Blythe <john@curvolabs.com> wrote:\n>\n> > hey all. i'm sending data out that could represent a purchased item or a\n> > competitive alternative. when the results are returned i'm needing to\n> know\n> > which of the two were hit so i can serve up the *other*.\n> >\n> > i can make a blunt instrument in the application layer to simply look\n> for a\n> > match between the queried terms and the resulting fields, but the problem\n> > of fuzzy matching and some of the special analysis being done to get the\n> > hits will be for naught.\n> >\n> > cursory googling landed me at a similar discussion that suggested using\n> hit\n> > highlighting or retrieving the debuggers explain data to sort through.\n> >\n> > is there another, more efficient means or are these the two tools in the\n> > toolbox?\n> >\n> > thanks!\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 280,
+      "end": 289,
+      "text": "\nthanks-\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 290,
+      "end": 429,
+      "text": "-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 430,
+      "text": "sorry for the confusion. as in i received results due to matches on field x\nvs. field y.\n\ni've gone w a highlighting solution for now. the fact that it requires\nfield storage isn't yet prohibitive for me, so can serve well for now. open\nto any alternative approaches all the same\n\nthanks-\n\n-- \n*John Blythe*\nProduct Manager & Lead Developer\n\n251.605.3071 | john@curvolabs.com\nwww.curvolabs.com\n\n58 Adams Ave\nEvansville, IN 47713\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 430,
+      "end": 518,
+      "text": "On Tue, May 16, 2017 at 11:37 AM, David Hastings <\nhastings.recursive@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 518,
+      "end": 574,
+      "text": "\n> what do you mean \"hit?\" As in the user clicked it?\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 574,
+      "end": 650,
+      "text": "> On Tue, May 16, 2017 at 11:35 AM, John Blythe <john@curvolabs.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1396,
+      "end": 1412,
+      "text": "> >\n> > thanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 650,
+      "end": 1419,
+      "text": ">\n> > hey all. i'm sending data out that could represent a purchased item or a\n> > competitive alternative. when the results are returned i'm needing to\n> know\n> > which of the two were hit so i can serve up the *other*.\n> >\n> > i can make a blunt instrument in the application layer to simply look\n> for a\n> > match between the queried terms and the resulting fields, but the problem\n> > of fuzzy matching and some of the special analysis being done to get the\n> > hits will be for naught.\n> >\n> > cursory googling landed me at a similar discussion that suggested using\n> hit\n> > highlighting or retrieving the debuggers explain data to sort through.\n> >\n> > is there another, more efficient means or are these the two tools in the\n> > toolbox?\n> >\n> > thanks!\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3441"
+}

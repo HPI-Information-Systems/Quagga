@@ -1,0 +1,115 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Mike J Miller/HOU/ECT on 04/10/2000 02:22 \nPM ---------------------------\n\n\nStuart Zisman\n04/10/2000 01:11 PM\nTo: Mike J Miller/HOU/ECT@ECT\ncc:  \nSubject: \n\nAt Healy's request attached is the latest AES LOI\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 49,
+      "text": "Mike J Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 61,
+      "end": 71,
+      "text": "04/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 72,
+      "end": 81,
+      "text": "02:22 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 110,
+      "text": "---------------------- Forwarded by Mike J Miller/HOU/ECT on 04/10/2000 02:22 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 112,
+      "end": 125,
+      "text": "Stuart Zisman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 126,
+      "end": 136,
+      "text": "04/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 137,
+      "end": 145,
+      "text": "01:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 150,
+      "end": 163,
+      "text": "Mike J Miller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 110,
+      "end": 192,
+      "text": "\n\nStuart Zisman\n04/10/2000 01:11 PM\nTo: Mike J Miller/HOU/ECT@ECT\ncc:  \nSubject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 192,
+      "end": 245,
+      "text": "\nAt Healy's request attached is the latest AES LOI\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12246904.1075857190838.JavaMail.evans@thyme>",
+      "Date": "Mon, 10 Apr 2000 07:24:00 -0700 (PDT)",
+      "From": "mike.miller@enron.com",
+      "To": "benjamin.rogers@enron.com",
+      "Subject": "AEWS Term Sheet",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mike J Miller",
+      "X-To": "Benjamin Rogers",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_502.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

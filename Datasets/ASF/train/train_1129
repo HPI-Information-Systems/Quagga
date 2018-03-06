@@ -1,0 +1,224 @@
+Actually just doing a debug-enabled query with real keywords would
+show you what happens, as it will list the analyzed keywords and
+against which fields they run. So, if your stopword is present in
+debug, it got through the chain. If it is not - it has not.
+
+But I am glad that at least your puzzle is solved.
+
+Regards,
+  Alex
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 22 February 2017 at 12:22, Pratik Patel <pratik@semandex.net> wrote:
+> That explains why I was getting back the results. Thanks! I was doing that
+> query only to test whether stopwords are being indexed or not but
+> apparently the query I had would not serve the purpose.  I should rather
+> have a document field with just the stop word and search against it without
+> using wildcard to test whether the stopword was indexed or not. Thanks
+> again.
+>
+> Regards,
+> Pratik
+>
+> On Wed, Feb 22, 2017 at 12:10 PM, Alexandre Rafalovitch <arafalov@gmail.com>
+> wrote:
+>
+>> StopFilterFactory (and WordDelimiterFilterFactory and maybe others)
+>> are NOT multiterm aware.
+>>
+>> Using wildcards triggers the edge-case third type of analyzer chain
+>> that is automatically constructed unless you specify it explicitly.
+>>
+>> You can see the full list of analyzers and whether they are multiterm
+>> aware at http://www.solr-start.com/info/analyzers/ (I mark them with
+>> "(multi)").
+>>
+>> Solution in your case is probably to go away from these
+>> performance-killing double-side wildcards and to switch to the NGrams
+>> instead. And you may want to look at ApostropheFilterFactory while you
+>> are at it (instead of regexp you have there).
+>>
+>> Regards,
+>>    Alex.
+>>
+>> ----
+>> http://www.solr-start.com/ - Resources for Solr users, new and experienced
+>>
+>>
+>> On 22 February 2017 at 12:02, Pratik Patel <pratik@semandex.net> wrote:
+>> > Asterisks were not for formatting, I was trying to use a wildcard
+>> operator.
+>> > Here is another example query and "parsed_query toString" entry for that.
+>> >
+>> > Query :
+>> > http://localhost:8081/solr/collection1/select?debugQuery=
+>> on&indent=on&q=Description_note:*their*&wt=json
+>> >
+>> > "parsedquery_toString":"Description_note:*their*"
+>> >
+>> > I have word "their" in my stopwords list so I am expecting zero results
+>> but
+>> > this query returns 20 documents with word "their"
+>> >
+>> > Here is more of the debug object of response.
+>> >
+>> >
+>> > "debug":{
+>> >     "rawquerystring":"Description_note:*their*",
+>> >     "querystring":"Description_note:*their*",
+>> >     "parsedquery":"Description_note:*their*",
+>> >     "parsedquery_toString":"Description_note:*their*",
+>> >     "explain":{
+>> >       "54227b012a1c4e574f88505556987be57ef1af28d01b6d94":"\n1.0 =
+>> > Description_note:*their*, product of:\n  1.0 = boost\n  1.0 =
+>> > queryNorm\n", ....
+>> >       },
+>> >     "QParser":"LuceneQParser",
+>> >     "timing":{ ... }
+>> >
+>> > }
+>> >
+>> > Thanks,
+>> >
+>> > Pratik
+>> >
+>> >
+>> >
+>> >
+>> >
+>> >
+>> > On Wed, Feb 22, 2017 at 11:25 AM, Erick Erickson <
+>> erickerickson@gmail.com>
+>> > wrote:
+>> >
+>> >> That's not what I'm looking for. Way down near the end there should be
+>> >> an entry like
+>> >> "parsed_query toString"
+>> >>
+>> >> This line is pretty suspicious: 82, "params":{ "q":"Description_note:*
+>> >> and *"
+>> >>
+>> >> Are you really searching for asterisks (I'd originally interpreted
+>> >> that as bolding
+>> >> which sometimes happens). Please don't do formatting with asterisks in
+>> >> e-mails as it's very confusing.
+>> >>
+>> >> Best,
+>> >> Erick
+>> >>
+>> >>
+>> >> On Wed, Feb 22, 2017 at 8:12 AM, Pratik Patel <pratik@semandex.net>
+>> wrote:
+>> >> > Hi Eric,
+>> >> >
+>> >> > Thanks for the reply! Following is the relevant part of response
+>> header
+>> >> > with debugQuery on.
+>> >> >
+>> >> > {
+>> >> > "responseHeader":{ "status":0, "QTime":282, "params":{
+>> >> "q":"Description_note:*
+>> >> > and *", "indent":"on", "wt":"json", "debugQuery":"on",
+>> >> "_":"1487773835305"}},
+>> >> > "response":{"numFound":81771,"start":0,"docs":[ { "id":"<id>",
+.
+>> >> > .
+>> >> > .
+>> >> > },..
+>> >> > ]
+>> >> > }
+>> >> > }
+>> >> >
+>> >> >
+>> >> > On Tue, Feb 21, 2017 at 8:22 PM, Erick Erickson <
+>> erickerickson@gmail.com
+>> >> >
+>> >> > wrote:
+>> >> >
+>> >> >> Attach &debug=query to your query and look at the parsed query
+that's
+>> >> >> returned.
+>> >> >> That'll tell you what was searched at least.
+>> >> >>
+>> >> >> You can also use the TermsComponent to examine terms in a field
+>> >> directly.
+>> >> >>
+>> >> >> Best,
+>> >> >> Erick
+>> >> >>
+>> >> >> On Tue, Feb 21, 2017 at 2:52 PM, Pratik Patel <pratik@semandex.net>
+>> >> wrote:
+>> >> >> > I have a field type in schema which has been applied stopwords
+>> list.
+>> >> >> > I have verified that path of stopwords file is correct and
+it is
+>> being
+>> >> >> > loaded fine in solr admin UI. When I analyse these fields
+using
+>> >> >> "Analysis" tab
+>> >> >> > of the solr admin UI, I can see that stopwords are being filtered
+>> out.
+>> >> >> > However, when I query with some of these stopwords, I do get
+the
+>> >> results
+>> >> >> > back which makes me think that probably stopwords are being
+>> indexed.
+>> >> >> >
+>> >> >> > For example, when I run following query, I do get back results.
+I
+>> have
+>> >> >> word
+>> >> >> > "and" in the stopwords list so I expect no results for this
+query.
+>> >> >> >
+>> >> >> > http://localhost:8081/solr/collection1/select?fq=
+>> >> >> Description_note:*%20and%20*&indent=on&q=*:*&rows=100&
+>> start=0&wt=json
+>> >> >> >
+>> >> >> > Does this mean that the "and" word is being indexed and stopwords
+>> are
+>> >> not
+>> >> >> > being used?
+>> >> >> >
+>> >> >> > Following is the field type of field Description_note :
+>> >> >> >
+>> >> >> >
+>> >> >> > <fieldType name="text_general" class="solr.TextField"
+>> >> >> > positionIncrementGap="100" omitNorms="true">
+>> >> >> >       <analyzer type="index">
+>> >> >> >       <charFilter class="solr.HTMLStripCharFilterFactory"
+/>
+>> >> >> > <tokenizer class="solr.StandardTokenizerFactory"/>
+>> >> >> > <filter class="solr.LowerCaseFilterFactory"/>
+>> >> >> > <charFilter class="solr.PatternReplaceCharFilterFactory"
+>> >> >> > pattern="((?m)[a-z]+)'s" replacement="$1s" />
+>> >> >> > <filter class="solr.WordDelimiterFilterFactory"
+>> >> >> protected="protwords.txt"
+>> >> >> > generateWordParts="1" generateNumberParts="1" catenateWords="1"
+>> >> >> > catenateNumbers="1" catenateAll="0" splitOnCaseChange="0"/>
+>> >> >> >         <filter class="solr.KStemFilterFactory" />
+>> >> >> >         <filter class="solr.StopFilterFactory" ignoreCase="true"
+>> >> >> > words="stopwords.txt" />
+>> >> >> >       </analyzer>
+>> >> >> >       <analyzer type="query">
+>> >> >> >       <charFilter class="solr.HTMLStripCharFilterFactory"
+/>
+>> >> >> >         <tokenizer class="solr.StandardTokenizerFactory"/>
+>> >> >> > <filter class="solr.LowerCaseFilterFactory"/>
+>> >> >> > <charFilter class="solr.PatternReplaceCharFilterFactory"
+>> >> >> > pattern="((?m)[a-z]+)'s" replacement="$1s" />
+>> >> >> > <filter class="solr.WordDelimiterFilterFactory"
+>> >> >> protected="protwords.txt"
+>> >> >> > generateWordParts="1" generateNumberParts="1" catenateWords="1"
+>> >> >> > catenateNumbers="1" catenateAll="0" splitOnCaseChange="0"/>
+>> >> >> >         <filter class="solr.KStemFilterFactory" />
+>> >> >> >         <filter class="solr.StopFilterFactory" ignoreCase="true"
+>> >> >> > words="stopwords.txt" />
+>> >> >> >       </analyzer>
+>> >> >> >     </fieldType>
+>> >> >>
+>> >>
+>>
+

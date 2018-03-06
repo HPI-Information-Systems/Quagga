@@ -1,0 +1,23 @@
+Hi,
+
+How to tune the Spark Jobs that use groupBy operations? Earlier I used to
+use  --conf spark.shuffle.memoryFraction=0.8 --conf 
+spark.storage.memoryFraction=0.1  to tune my jobs that use groupBy. But,
+with Spark 2.x this configs seem to have been deprecated. 
+
+What would be the appropriate config options to tune the Spark Jobs that use
+groupBy operations?
+
+Thanks,
+Swetha
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/How-to-tune-groupBy-operations-in-Spark-2-x-tp28451.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

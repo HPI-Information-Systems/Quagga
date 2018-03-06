@@ -1,0 +1,352 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 05/16/2000 06:23 PM \n---------------------------\n\n\n\"Mukherjee, Gautam VA01\" <GMukherjee@icfconsulting.com> on 05/16/2000 \n08:09:12 PM\nTo: \"'Don Miller'\" <Don.Miller@enron.com>\ncc: \"Leitz, Thomas VA01\" <TLeitz@icfconsulting.com>, \"Goldman, Lenka VA01\" \n<LGoldman@icfconsulting.com> \nSubject: Information Memorandum.\n\n\nHi Don,\n Enlcosed please find a copy of the revised information memorandum.\nIt should\nhave all the revisions you requested.\n\n <<YAG0993_Infodoc.doc>>\n\n\n\nGautam Mukherjee\nSenior Associate\nICF Consulting\ngmukherjee@icfconsulting.com\nVoice (703) 934 - 3547\nFax (703) 934 - 3968\n\n\n - YAG0993_Infodoc.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 46,
+      "text": "Don Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 58,
+      "end": 68,
+      "text": "05/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 69,
+      "end": 77,
+      "text": "06:23 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 107,
+      "text": "---------------------- Forwarded by Don Miller/HOU/ECT on 05/16/2000 06:23 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 127,
+      "text": "Mukherjee, Gautam",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 135,
+      "end": 163,
+      "text": "GMukherjee@icfconsulting.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 168,
+      "end": 178,
+      "text": "05/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 180,
+      "end": 191,
+      "text": "08:09:12 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 198,
+      "end": 208,
+      "text": "Don Miller",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 212,
+      "end": 232,
+      "text": "Don.Miller@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 239,
+      "end": 252,
+      "text": "Leitz, Thomas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 260,
+      "end": 284,
+      "text": "TLeitz@icfconsulting.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 288,
+      "end": 302,
+      "text": "Goldman, Lenka",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 311,
+      "end": 337,
+      "text": "LGoldman@icfconsulting.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 349,
+      "end": 372,
+      "text": "Information Memorandum.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 107,
+      "end": 373,
+      "text": "\n\n\"Mukherjee, Gautam VA01\" <GMukherjee@icfconsulting.com> on 05/16/2000 \n08:09:12 PM\nTo: \"'Don Miller'\" <Don.Miller@enron.com>\ncc: \"Leitz, Thomas VA01\" <TLeitz@icfconsulting.com>, \"Goldman, Lenka VA01\" \n<LGoldman@icfconsulting.com> \nSubject: Information Memorandum.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 378,
+      "end": 381,
+      "text": "Don",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 375,
+      "end": 383,
+      "text": "Hi Don,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 500,
+      "end": 525,
+      "text": " <<YAG0993_Infodoc.doc>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 655,
+      "end": 674,
+      "text": "YAG0993_Infodoc.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 652,
+      "end": 675,
+      "text": " - YAG0993_Infodoc.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 528,
+      "end": 544,
+      "text": "Gautam Mukherjee",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 545,
+      "end": 561,
+      "text": "Senior Associate",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 562,
+      "end": 576,
+      "text": "ICF Consulting",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 577,
+      "end": 605,
+      "text": "gmukherjee@icfconsulting.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 612,
+      "end": 628,
+      "text": "(703) 934 - 3547",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 633,
+      "end": 649,
+      "text": "(703) 934 - 3968",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 528,
+      "end": 650,
+      "text": "Gautam Mukherjee\nSenior Associate\nICF Consulting\ngmukherjee@icfconsulting.com\nVoice (703) 934 - 3547\nFax (703) 934 - 3968\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 503,
+      "end": 522,
+      "text": "YAG0993_Infodoc.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 373,
+      "end": 675,
+      "text": "\n\nHi Don,\n Enlcosed please find a copy of the revised information memorandum.\nIt should\nhave all the revisions you requested.\n\n <<YAG0993_Infodoc.doc>>\n\n\n\nGautam Mukherjee\nSenior Associate\nICF Consulting\ngmukherjee@icfconsulting.com\nVoice (703) 934 - 3547\nFax (703) 934 - 3968\n\n\n - YAG0993_Infodoc.doc\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 13,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 23,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 26,
+      "target": 23,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 24,
+      "target": 23,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 23,
+      "target": 25,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 27,
+      "target": 23,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 28,
+      "target": 23,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23324421.1075857194594.JavaMail.evans@thyme>",
+      "Date": "Tue, 16 May 2000 11:23:00 -0700 (PDT)",
+      "From": "don.miller@enron.com",
+      "To": "benjamin.rogers@enron.com",
+      "Subject": "Information Memorandum.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Don Miller",
+      "X-To": "Benjamin Rogers",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_665.txt"
+}

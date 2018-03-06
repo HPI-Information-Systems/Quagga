@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "At the end of the Leadership Giving Campaign, EWS had reached $488,832 in pledges, which is 38.31% of our campaign goal of $1,276,000.  Enron's plan calls for Leadership Givers to represent 60% of the total pledge goal, so we are short 21.69% or $276,768.  Even more disappointing was the weak 7.85% participation rate by those employees in the Leadership level (i.e., over $90,000 in base pay).  While part of this shortfall was caused by the decision not to conduct a Leadership campaign for EBS, most of the other business units/functional groups in EWS did not fare too well either.  \n\nBelow are the pledge totals and participation rates by functional group:\n\n\tGROUP\t\t\tPLEDGES\t% Participation\n\tEA\t\t\t$79,485\t\t10.78%\n\tEBS\t\t\t$14,555\t\t1.31%\n\tEEOS\t\t\t$32,143\t\t18.18%\n\tEEL\t\t\t$6,104\t\t14.29%\n\tEGM\t\t\t$74,030\t\t11.53%\n\tEIM\t\t\t$62,567\t\t21.62%\n\tENW\t\t\t$77,960\t\t3.82%\n\tEWS Bus. Analysis\t$25,024\t\t12.84%\n\tEWS Bus. Dev.\t\t$13,438\t\t75.00%\n\tEWS HR\t\t$6,985\t\t8.33%\n\tEWS Legal\t\t$38,800\t\t20.65%\n\tEWS Research\t\t$19,080\t\t23.40%\n\tEWS Treasury\t\t$13,661\t\t71.43%\n\tEWS TOTAL\t\t$488,832\t7.85%\n\nFrom a corporate perspective, EWS is tracking fairly closely to the others.  Here are the other groups' totals:\n\n\tETS\t\t\t$146,466\t12.92%\n\tCorporate\t\t$359,925\t10.07%\n\tEES\t\t\t$131,439\t6.56%\n\nIf you have any questions, please call me at ext. 3-9053.\n\nEric",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1313,
+      "text": "At the end of the Leadership Giving Campaign, EWS had reached $488,832 in pledges, which is 38.31% of our campaign goal of $1,276,000.  Enron's plan calls for Leadership Givers to represent 60% of the total pledge goal, so we are short 21.69% or $276,768.  Even more disappointing was the weak 7.85% participation rate by those employees in the Leadership level (i.e., over $90,000 in base pay).  While part of this shortfall was caused by the decision not to conduct a Leadership campaign for EBS, most of the other business units/functional groups in EWS did not fare too well either.  \n\nBelow are the pledge totals and participation rates by functional group:\n\n\tGROUP\t\t\tPLEDGES\t% Participation\n\tEA\t\t\t$79,485\t\t10.78%\n\tEBS\t\t\t$14,555\t\t1.31%\n\tEEOS\t\t\t$32,143\t\t18.18%\n\tEEL\t\t\t$6,104\t\t14.29%\n\tEGM\t\t\t$74,030\t\t11.53%\n\tEIM\t\t\t$62,567\t\t21.62%\n\tENW\t\t\t$77,960\t\t3.82%\n\tEWS Bus. Analysis\t$25,024\t\t12.84%\n\tEWS Bus. Dev.\t\t$13,438\t\t75.00%\n\tEWS HR\t\t$6,985\t\t8.33%\n\tEWS Legal\t\t$38,800\t\t20.65%\n\tEWS Research\t\t$19,080\t\t23.40%\n\tEWS Treasury\t\t$13,661\t\t71.43%\n\tEWS TOTAL\t\t$488,832\t7.85%\n\nFrom a corporate perspective, EWS is tracking fairly closely to the others.  Here are the other groups' totals:\n\n\tETS\t\t\t$146,466\t12.92%\n\tCorporate\t\t$359,925\t10.07%\n\tEES\t\t\t$131,439\t6.56%\n\nIf you have any questions, please call me at ext. 3-9053.\n\nEric",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1309,
+      "end": 1313,
+      "text": "Eric",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16307337.1075852998903.JavaMail.evans@thyme>",
+      "Date": "Mon, 6 Aug 2001 11:04:57 -0700 (PDT)",
+      "From": "eric.thode@enron.com",
+      "To": "mark.frevert@enron.com, greg.whalley@enron.com, john.lavorato@enron.com, \n\tlouise.kitchen@enron.com, greg.piper@enron.com, \n\tmark.pickering@enron.com, mike.mcconnell@enron.com, \n\ta..shankman@enron.com, jeffrey.mcmahon@enron.com, \n\traymond.bowen@enron.com, brian.stanley@enron.com, \n\tkeith.dodson@enron.com, david.oxley@enron.com, exec.jones@enron.com, \n\twes.colwell@enron.com, e..haedicke@enron.com, j.kaminski@enron.com, \n\tjoseph.deffner@enron.com, j..detmering@enron.com, \n\tjim.fallon@enron.com, rich.dimichele@enron.com",
+      "Subject": "United Way Update",
+      "Cc": "kathie.grabstald@enron.com, don.miller@enron.com, tammie.schoppe@enron.com, \n\tbrenda.flores-cuellar@enron.com, maria.sandoval@enron.com, \n\tkal.shah@enron.com, heather.alon@enron.com, larry.lawyer@enron.com, \n\tshanna.funkhouser@enron.com, jennifer.burns@enron.com, \n\ttim.battaglia@enron.com, v..reed@enron.com, terrie.james@enron.com, \n\tstephen.stein@enron.com, marilyn.oliver@enron.com, \n\tjulie.clyatt@enron.com, philip.conn@enron.com, \n\tryan.seleznov@enron.com, k..patrick@enron.com, \n\tthomas.myers@enron.com, marcus.edmonds@enron.com, \n\tellen.fowler@enron.com, kay.mann@enron.com, \n\tcheryl.lindeman@enron.com, kathy.mayfield@enron.com, \n\tnelson.neale@enron.com, nicki.daw@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kathie.grabstald@enron.com, don.miller@enron.com, tammie.schoppe@enron.com, \n\tbrenda.flores-cuellar@enron.com, maria.sandoval@enron.com, \n\tkal.shah@enron.com, heather.alon@enron.com, larry.lawyer@enron.com, \n\tshanna.funkhouser@enron.com, jennifer.burns@enron.com, \n\ttim.battaglia@enron.com, v..reed@enron.com, terrie.james@enron.com, \n\tstephen.stein@enron.com, marilyn.oliver@enron.com, \n\tjulie.clyatt@enron.com, philip.conn@enron.com, \n\tryan.seleznov@enron.com, k..patrick@enron.com, \n\tthomas.myers@enron.com, marcus.edmonds@enron.com, \n\tellen.fowler@enron.com, kay.mann@enron.com, \n\tcheryl.lindeman@enron.com, kathy.mayfield@enron.com, \n\tnelson.neale@enron.com, nicki.daw@enron.com",
+      "X-From": "Thode, Eric </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ETHODE>",
+      "X-To": "Frevert, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mfrevert>, Whalley, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gwhalle>, Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlavora>, Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>, Piper, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gpiper>, Pickering, Mark </O=ENRON/OU=EU/cn=Recipients/cn=mpicker>, Mcconnell, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmccon1>, Shankman, Jeffrey A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jshankm>, McMahon, Jeffrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmcmaho>, Bowen Jr., Raymond </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rbowen>, Stanley, Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=bc181fcc-404b57a6-8025680b-5a8556>, Dodson, Keith </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=6567a386-abb6db3e-86256907-79a18c>, Oxley, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Doxley>, Jones, Robert W.- HR Exec </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rjones2>, Colwell, Wes </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wcolwel>, Haedicke, Mark E. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mhaedic>, Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vkamins>, Deffner, Joseph </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jdeffne>, Detmering, Timothy J. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tdetmer>, Fallon, Jim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jfallon>, Dimichele, Rich </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rdimichele>",
+      "X-cc": "Grabstald, Kathie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kgrabst>, Miller, Don </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dmille2>, Schoppe, Tammie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tstaggs>, Flores-Cuellar, Brenda </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bflores>, Sandoval, Maria </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Msandov>, Shah, Kal </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kshah>, Alon, Heather </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Halon>, Lawyer, Larry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Llawyer>, Funkhouser, Shanna </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sfunkho>, Burns, Jennifer </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jburns>, Battaglia, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbattagl>, Reed, Andrea V. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Areed>, James, Terrie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tjames>, Stein, Stephen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=86256608-65acba-62563ae-69443e>, Oliver, Marilyn </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=86256608-65acba-8625662c-748e7c>, Clyatt, Julie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jclyatt>, Conn, Philip </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pconn>, Seleznov, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rselezn>, Patrick, Michael K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mpatric>, Myers, Thomas </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tmyers>, Edmonds, Marcus </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Medmonds>, Fowler, Ellen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Efowler>, Mann, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kmann>, Lindeman, Cheryl </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clindema>, Mayfield, Kathy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kmayfiel>, Neale, Nelson </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cneale>, Daw, Nicki </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ndaw>",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\'Americas\\OOC",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_ooc_153.txt"
+}

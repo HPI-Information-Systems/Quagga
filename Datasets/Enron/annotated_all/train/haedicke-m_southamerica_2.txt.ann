@@ -1,0 +1,92 @@
+{
+  "wrapper": "plaintext",
+  "text": "OK\nOnce again, thank you so very much.\nVasco.\n\n>>> <Gail.Brownfeld@enron.com> 2/16/01 10:41:43 am >>>\n\nThanks for the information.  I'll review it and contact Jim Derrick\nseeking approval both for Mr. Bermudes to represent Elektro and for the\nfiling of the lawsuit.  Hopefully, I'll hear from him today.  I don't\nexpect it to take longer than Monday.  Thanks for your patience.\n\n\n\n\n\"Vasco de Castro Ferraz Junior\" <vcferraz@elektro.com.br> on 02/15/2001\n05:20:20 PM\n\nTo:   Gail.Brownfeld@enron.com\ncc:   assad@elektro.com.br, John.Novak@enron.com,\nOrlando.gonzalez@enron.com\n\nSubject:  Bermudes\n\n\nGail\nI have mentioned to you today by telephone about our  discussions with\nANEEL regarding  the automatic  passthrough of taxes and legal\nencumbrances, including a legal opinion we have obtained from Sergio\nBermudes/Marcelo Ferro law firm in relation to this subject.\nOrlando and Sergio Assad are about to gave me their clearance to start a\nlegal suit against ANEEL having in view its refusal to grant to Elektro\nsuch passthrough.\nIt is my opinion that this case should be handled by Bermudes.\nDo you know if  Bermudes is authorized by Enron to represent us as one of\nour litigation law firms? If notI would apreciate your help to obtain such\nauthorization.\nBermudes is a very well known litigation lawyer with a sound reputation in\nBrazil and abroad.\nAttached you will find his legal opinion I referred above.\nSergio Bermudes / Marcelo Ferro CVs in  English can be reached in the\ninternet at the following address:  www.sbadv.com.br\nKind regards\nVasco.\n\n\n(See attached file: Elektro legal_opinion_dec12.doc)\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 39,
+      "end": 46,
+      "text": "Vasco.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 382,
+      "end": 595,
+      "text": "\"Vasco de Castro Ferraz Junior\" <vcferraz@elektro.com.br> on 02/15/2001\n05:20:20 PM\n\nTo:   Gail.Brownfeld@enron.com\ncc:   assad@elektro.com.br, John.Novak@enron.com,\nOrlando.gonzalez@enron.com\n\nSubject:  Bermudes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 596,
+      "end": 602,
+      "text": "\nGail\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1532,
+      "end": 1552,
+      "text": "Kind regards\nVasco.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 595,
+      "end": 1608,
+      "text": "\n\nGail\nI have mentioned to you today by telephone about our  discussions with\nANEEL regarding  the automatic  passthrough of taxes and legal\nencumbrances, including a legal opinion we have obtained from Sergio\nBermudes/Marcelo Ferro law firm in relation to this subject.\nOrlando and Sergio Assad are about to gave me their clearance to start a\nlegal suit against ANEEL having in view its refusal to grant to Elektro\nsuch passthrough.\nIt is my opinion that this case should be handled by Bermudes.\nDo you know if  Bermudes is authorized by Enron to represent us as one of\nour litigation law firms? If notI would apreciate your help to obtain such\nauthorization.\nBermudes is a very well known litigation lawyer with a sound reputation in\nBrazil and abroad.\nAttached you will find his legal opinion I referred above.\nSergio Bermudes / Marcelo Ferro CVs in  English can be reached in the\ninternet at the following address:  www.sbadv.com.br\nKind regards\nVasco.\n\n\n(See attached file: Elektro legal_opinion_dec12.doc)\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 47,
+      "text": "OK\nOnce again, thank you so very much.\nVasco.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 47,
+      "end": 102,
+      "text": ">>> <Gail.Brownfeld@enron.com> 2/16/01 10:41:43 am >>>\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 102,
+      "end": 382,
+      "text": "\nThanks for the information.  I'll review it and contact Jim Derrick\nseeking approval both for Mr. Bermudes to represent Elektro and for the\nfiling of the lawsuit.  Hopefully, I'll hear from him today.  I don't\nexpect it to take longer than Monday.  Thanks for your patience.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18162653.1075859874146.JavaMail.evans@thyme>",
+      "Date": "Fri, 16 Feb 2001 08:26:00 -0800 (PST)",
+      "From": "vcferraz@elektro.com.br",
+      "To": "gail.brownfeld@enron.com",
+      "Subject": "Re: Bermudes",
+      "Cc": "assad@elektro.com.br, bruce.lundstrom@enron.com, john.novak@enron.com, \n\tmark.e.haedicke@enron.com, orlando.gonzalez@enron.com, \n\trichard.b.sanders@enron.com, robert.c.williams@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "assad@elektro.com.br, bruce.lundstrom@enron.com, john.novak@enron.com, \n\tmark.e.haedicke@enron.com, orlando.gonzalez@enron.com, \n\trichard.b.sanders@enron.com, robert.c.williams@enron.com",
+      "X-From": "\"Vasco de Castro Ferraz Junior\" <vcferraz@elektro.com.br>",
+      "X-To": "Gail.Brownfeld@enron.com",
+      "X-cc": "assad@elektro.com.br, Bruce.Lundstrom@enron.com, John.Novak@enron.com, Mark.E.Haedicke@enron.com, Orlando.gonzalez@enron.com, Richard.B.Sanders@enron.com, Robert.C.Williams@enron.com",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Jun2001\\Notes Folders\\Southamerica",
+      "X-Origin": "Haedicke-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_southamerica_2.txt"
+}

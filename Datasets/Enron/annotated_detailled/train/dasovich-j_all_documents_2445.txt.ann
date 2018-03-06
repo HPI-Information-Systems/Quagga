@@ -1,0 +1,281 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI.\n\n\n\n\tTim Belden@ECT\n\t10/17/2000 07:40 AM\n\t\t\n\t\t To: Jeff Dasovich/Na/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: ENA Successful in ISO Auction\n\nENA also sold 100 MW of peak power (6x16) to PG&E for 5 years beginning in \nJanuary of 2001 delivered in NP15.  They declined our offer for flat (7x24) \npower delivered in NP15 of $50.90/MWh.  The trade press is claiming that they \npurchased 400 MW from Calpine delivered in the new Greater Bay Area zone for \naround $51/MWh.  I believe that these values are lower than the current \ngeneration component of PG&E's frozen rates.\n\nPG&E procured these MW's through a traditional rfp.  This is a pretty clean \nbilateral deal done outside of the PX.  We papered the deal using the EEI \nmaster agreement.\n\n\nFrom: Jeff Dasovich@ENRON on 10/16/2000 07:54 PM CDT\nSent by: Jeff Dasovich@ENRON\nTo: skean@enronl.com, Richard Shapiro/NA/Enron@Enron, James D \nSteffes/NA/Enron@Enron, mpalmer@enron.com, Karen Denne/Corp/Enron@ENRON, Paul \nKaufman/PDX/ECT@ECT, Tim Belden/HOU/ECT@ECT, Robert Badeer/HOU/ECT@ECT, Susan \nJ Mara/SFO/EES@EES, Mona L Petrochko/SFO/EES@EES, Sandra \nMcCubbin/SFO/EES@EES, Mary Hain/HOU/ECT@ECT, Joe Hartsoe/Corp/Enron@ENRON, \nSarah Novosel/Corp/Enron@ENRON\ncc:  \nSubject: ENA Successful in ISO Auction\n\n\n\t\n\nIn case word hasn't gotten around, ENA learned COB Friday, that it has been \nchosen to engage in further negotiations with the ISO for about 450 MWs of \nprojects.  The preliminary award is based on ENA's response to the RFQ that \nthe ISO issued last month for \"emergency resources.\"\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "FYI.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 9,
+      "end": 19,
+      "text": "Tim Belden",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 25,
+      "end": 35,
+      "text": "10/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 36,
+      "end": 44,
+      "text": "07:40 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 55,
+      "end": 68,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 104,
+      "end": 137,
+      "text": "Re: ENA Successful in ISO Auction",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 9,
+      "end": 138,
+      "text": "Tim Belden@ECT\n\t10/17/2000 07:40 AM\n\t\t\n\t\t To: Jeff Dasovich/Na/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: ENA Successful in ISO Auction\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 138,
+      "end": 740,
+      "text": "\nENA also sold 100 MW of peak power (6x16) to PG&E for 5 years beginning in \nJanuary of 2001 delivered in NP15.  They declined our offer for flat (7x24) \npower delivered in NP15 of $50.90/MWh.  The trade press is claiming that they \npurchased 400 MW from Calpine delivered in the new Greater Bay Area zone for \naround $51/MWh.  I believe that these values are lower than the current \ngeneration component of PG&E's frozen rates.\n\nPG&E procured these MW's through a traditional rfp.  This is a pretty clean \nbilateral deal done outside of the PX.  We papered the deal using the EEI \nmaster agreement.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 746,
+      "end": 759,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 769,
+      "end": 779,
+      "text": "10/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 780,
+      "end": 792,
+      "text": "07:54 PM CDT",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 802,
+      "end": 815,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 826,
+      "end": 842,
+      "text": "skean@enronl.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 844,
+      "end": 859,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 876,
+      "end": 892,
+      "text": "James D \nSteffes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 909,
+      "end": 926,
+      "text": "mpalmer@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 928,
+      "end": 939,
+      "text": "Karen Denne",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 958,
+      "end": 971,
+      "text": "Paul \nKaufman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 985,
+      "end": 995,
+      "text": "Tim Belden",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1009,
+      "end": 1022,
+      "text": "Robert Badeer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1036,
+      "end": 1049,
+      "text": "Susan \nJ Mara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1063,
+      "end": 1079,
+      "text": "Mona L Petrochko",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1093,
+      "end": 1109,
+      "text": "Sandra \nMcCubbin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1123,
+      "end": 1132,
+      "text": "Mary Hain",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1146,
+      "end": 1157,
+      "text": "Joe Hartsoe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1177,
+      "end": 1190,
+      "text": "Sarah Novosel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1223,
+      "end": 1252,
+      "text": "ENA Successful in ISO Auction",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 740,
+      "end": 1253,
+      "text": "From: Jeff Dasovich@ENRON on 10/16/2000 07:54 PM CDT\nSent by: Jeff Dasovich@ENRON\nTo: skean@enronl.com, Richard Shapiro/NA/Enron@Enron, James D \nSteffes/NA/Enron@Enron, mpalmer@enron.com, Karen Denne/Corp/Enron@ENRON, Paul \nKaufman/PDX/ECT@ECT, Tim Belden/HOU/ECT@ECT, Robert Badeer/HOU/ECT@ECT, Susan \nJ Mara/SFO/EES@EES, Mona L Petrochko/SFO/EES@EES, Sandra \nMcCubbin/SFO/EES@EES, Mary Hain/HOU/ECT@ECT, Joe Hartsoe/Corp/Enron@ENRON, \nSarah Novosel/Corp/Enron@ENRON\ncc:  \nSubject: ENA Successful in ISO Auction\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1253,
+      "end": 1543,
+      "text": "\n\n\t\n\nIn case word hasn't gotten around, ENA learned COB Friday, that it has been \nchosen to engage in further negotiations with the ISO for about 450 MWs of \nprojects.  The preliminary award is based on ENA's response to the RFQ that \nthe ISO issued last month for \"emergency resources.\"\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5941962.1075842999835.JavaMail.evans@thyme>",
+      "Date": "Tue, 17 Oct 2000 03:28:00 -0700 (PDT)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "skean@enron.com, richard.shapiro@enron.com, james.steffes@enron.com, \n\tmary.hain@enron.com, joe.hartsoe@enron.com, sarah.novosel@enron.com, \n\tsandra.mccubbin@enron.com, susan.mara@enron.com, \n\tmona.petrochko@enron.com, paul.kaufman@enron.com, mpalmer@enron.com, \n\tkaren.denne@enron.com",
+      "Subject": "Re: ENA Successful in ISO Auction",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Jeff Dasovich",
+      "X-To": "skean@enron.com, Richard Shapiro, James D Steffes, Mary Hain, Joe Hartsoe, Sarah Novosel, Sandra McCubbin, Susan J Mara, Mona L Petrochko, Paul Kaufman, mpalmer@enron.com, Karen Denne",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_2445.txt"
+}

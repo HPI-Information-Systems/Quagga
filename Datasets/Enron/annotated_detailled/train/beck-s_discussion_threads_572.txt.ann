@@ -1,0 +1,248 @@
+{
+  "wrapper": "plaintext",
+  "text": "Reference for future months.  \n---------------------- Forwarded by Sally Beck/HOU/ECT on 01/05/2000 01:16 PM \n---------------------------\n   \n\t\n\t\n\tFrom:  Sheila Glover                           01/05/2000 09:26 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT, Gary Hickerson/HOU/ECT@ECT\ncc: Theresa T Brogan/HOU/ECT@ECT, Bennett Kaufman/HOU/ECT@ECT, Laurel \nAdams/HOU/ECT@ECT, Gretel Smith/HOU/ECT@ECT, Kelly \nTempleton/Corp/Enron@ENRON, Stella L Ely/HOU/ECT@ECT \nSubject: Vacation, floating holiday request\n\nSally, Gary,\n\nI would like the following vacation time off:\nMonday, Jan 10th (changed from Jan 11th)\nFebruary 21-25\nMarch 15 - 17\n\nThanks. Sheila\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 31,
+      "text": "Reference for future months.  \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 67,
+      "end": 77,
+      "text": "Sally Beck",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 89,
+      "end": 99,
+      "text": "01/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 100,
+      "end": 108,
+      "text": "01:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 31,
+      "end": 138,
+      "text": "---------------------- Forwarded by Sally Beck/HOU/ECT on 01/05/2000 01:16 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 154,
+      "end": 167,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 194,
+      "end": 204,
+      "text": "01/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 205,
+      "end": 213,
+      "text": "09:26 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 221,
+      "end": 231,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 245,
+      "end": 259,
+      "text": "Gary Hickerson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 276,
+      "end": 292,
+      "text": "Theresa T Brogan",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 306,
+      "end": 321,
+      "text": "Bennett Kaufman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 335,
+      "end": 348,
+      "text": "Laurel \nAdams",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 362,
+      "end": 374,
+      "text": "Gretel Smith",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 388,
+      "end": 404,
+      "text": "Kelly \nTempleton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 423,
+      "end": 435,
+      "text": "Stella L Ely",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 458,
+      "end": 492,
+      "text": "Vacation, floating holiday request",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 138,
+      "end": 493,
+      "text": "   \n\t\n\t\n\tFrom:  Sheila Glover                           01/05/2000 09:26 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT, Gary Hickerson/HOU/ECT@ECT\ncc: Theresa T Brogan/HOU/ECT@ECT, Bennett Kaufman/HOU/ECT@ECT, Laurel \nAdams/HOU/ECT@ECT, Gretel Smith/HOU/ECT@ECT, Kelly \nTempleton/Corp/Enron@ENRON, Stella L Ely/HOU/ECT@ECT \nSubject: Vacation, floating holiday request\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 494,
+      "end": 499,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 501,
+      "end": 505,
+      "text": "Gary",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 494,
+      "end": 507,
+      "text": "Sally, Gary,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 633,
+      "end": 639,
+      "text": "Sheila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 625,
+      "end": 640,
+      "text": "Thanks. Sheila\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 493,
+      "end": 640,
+      "text": "\nSally, Gary,\n\nI would like the following vacation time off:\nMonday, Jan 10th (changed from Jan 11th)\nFebruary 21-25\nMarch 15 - 17\n\nThanks. Sheila\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 19,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 20,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20953047.1075855820063.JavaMail.evans@thyme>",
+      "Date": "Wed, 5 Jan 2000 05:16:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "gretel.smith@enron.com",
+      "Subject": "Vacation, floating holiday request",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Gretel Smith",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_discussion_threads_572.txt"
+}

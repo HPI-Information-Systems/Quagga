@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/scott-s_discussion_threads_712.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<1316077.1075846702389.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Dec 2000 02:35:00 -0800 (PST)",
+      "From": "shelley.corman@enron.com",
+      "To": "stanley.horton@enron.com, danny.mccarty@enron.com, steven.harris@enron.com, \n\tsteven.january@enron.com, mary.miller@enron.com, \n\tsusan.scott@enron.com, drew.fossum@enron.com, steven.kean@enron.com",
+      "Subject": "FERC Inquiry Regarding TW / Calif.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shelley Corman",
+      "X-To": "Stanley Horton, Danny McCarty, Steven Harris, Steven January, Mary Kay Miller, Susan Scott, Drew Fossum, Steven J Kean",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\Discussion threads",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "text": "Tom Celentano of FERC Energy Markets (in Scott Miller's group) is collecting \ninformal information about the California market.  He has asked Transwestern \nto provide the following information for the gas day of December 7.  He would \nlike this data in the next few hours (preferrably via fax 202-208-1010):\n\nCapacity available by segment \nWhether TW had any curtailments, OFOs, or any other limitations or penalties \nin place\nScheduled capacity to the California delivery point by service type\nAny nominations which were not confirmed/scheduled at the California delivery \npoints\nThroughput\n\nInitially he also asked for pricing data -- specifically any information that \nwe have about delivered prices at the California border.  Steve Harris and I \ntold him that any information we would have on this point would probably be \nhearsay or info. from gas daily or EOL sources.    He said he had access to \npublished data & we could drop this part of the request.\n\nSteve January is working on providing items 1-5.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1010,
+      "text": "Tom Celentano of FERC Energy Markets (in Scott Miller's group) is collecting \ninformal information about the California market.  He has asked Transwestern \nto provide the following information for the gas day of December 7.  He would \nlike this data in the next few hours (preferrably via fax 202-208-1010):\n\nCapacity available by segment \nWhether TW had any curtailments, OFOs, or any other limitations or penalties \nin place\nScheduled capacity to the California delivery point by service type\nAny nominations which were not confirmed/scheduled at the California delivery \npoints\nThroughput\n\nInitially he also asked for pricing data -- specifically any information that \nwe have about delivered prices at the California border.  Steve Harris and I \ntold him that any information we would have on this point would probably be \nhearsay or info. from gas daily or EOL sources.    He said he had access to \npublished data & we could drop this part of the request.\n\nSteve January is working on providing items 1-5.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 12/05/2000 07:00 \nPM ---------------------------\n   \n\t\n\t\n\tFrom:  Ben F Jacoby @ ECT                           11/16/2000 06:01 PM\n\t\n\nSent by: Ben Jacoby@ECT\nTo: Kay Mann/Corp/Enron@ENRON, Catherine Clark/HOU/ECT@ECT\ncc:  \n\nSubject: Re: LM6000 Contract Payment Allocations  \n\nE voila!\n\n\n\n\n\nKay Mann@ENRON\n11/16/2000 02:47 PM\nTo: Ben F Jacoby/HOU/ECT@ECT\ncc:  \nSubject: Re: LM6000 Contract Payment Allocations  \n\nBen,\n\nHas the payment allocation chart been updated, and if so, could I get a copy?\n\nThanks,\n\nKay\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "12/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "07:00 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 12/05/2000 07:00 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 124,
+      "end": 136,
+      "text": "Ben F Jacoby",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 169,
+      "end": 179,
+      "text": "11/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 180,
+      "end": 188,
+      "text": "06:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 201,
+      "end": 211,
+      "text": "Ben Jacoby",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 220,
+      "end": 228,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 247,
+      "end": 262,
+      "text": "Catherine Clark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 291,
+      "end": 330,
+      "text": "Re: LM6000 Contract Payment Allocations",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 108,
+      "end": 333,
+      "text": "   \n\t\n\t\n\tFrom:  Ben F Jacoby @ ECT                           11/16/2000 06:01 PM\n\t\n\nSent by: Ben Jacoby@ECT\nTo: Kay Mann/Corp/Enron@ENRON, Catherine Clark/HOU/ECT@ECT\ncc:  \n\nSubject: Re: LM6000 Contract Payment Allocations  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 333,
+      "end": 348,
+      "text": "\nE voila!\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 348,
+      "end": 356,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 363,
+      "end": 373,
+      "text": "11/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 374,
+      "end": 382,
+      "text": "02:47 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 387,
+      "end": 399,
+      "text": "Ben F Jacoby",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 426,
+      "end": 466,
+      "text": " Re: LM6000 Contract Payment Allocations",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 348,
+      "end": 469,
+      "text": "Kay Mann@ENRON\n11/16/2000 02:47 PM\nTo: Ben F Jacoby/HOU/ECT@ECT\ncc:  \nSubject: Re: LM6000 Contract Payment Allocations  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 470,
+      "end": 473,
+      "text": "Ben",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 564,
+      "end": 567,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 555,
+      "end": 568,
+      "text": "Thanks,\n\nKay\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 469,
+      "end": 570,
+      "text": "\nBen,\n\nHas the payment allocation chart been updated, and if so, could I get a copy?\n\nThanks,\n\nKay\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 21,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22742720.1075845791533.JavaMail.evans@thyme>",
+      "Date": "Tue, 5 Dec 2000 11:01:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "rebecca.mcdonald@enron.com, ben.jacoby@enron.com",
+      "Subject": "Re: LM6000 Contract Payment Allocations",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Rebecca McDonald, Ben Jacoby",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_1604.txt"
+}

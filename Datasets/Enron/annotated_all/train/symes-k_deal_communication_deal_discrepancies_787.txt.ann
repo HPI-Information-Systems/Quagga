@@ -1,0 +1,178 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sorry.  I guess it's time to bring out the glasses.  The number is 576228.  \n\nThanks!\n\n\n\n   Kate Symes                04/09/2001 04:35 PM\n\nTo: Sharen Cason/HOU/ECT@ECT\ncc:  \nSubject: Re: #576220  \n\nI get a \"no records selected\" message when I try to pull up 576220. ????\n\n\n   \n\t\n\t\n\tFrom:  Sharen Cason                           04/09/2001 02:30 PM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: #576220\n\nCan you check and make sure this is the correct counterparty on this deal?  \nWe did a deal in February (#533916) with a little different name.  Also we \nwill need a counterparty contact.\n\nThanks!\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 78,
+      "end": 85,
+      "text": "Thanks!",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 89,
+      "text": "Sorry.  I guess it's time to bring out the glasses.  The number is 576228.  \n\nThanks!\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 92,
+      "end": 102,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 118,
+      "end": 128,
+      "text": "04/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 129,
+      "end": 137,
+      "text": "04:35 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 143,
+      "end": 155,
+      "text": "Sharen Cason",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 183,
+      "end": 194,
+      "text": "Re: #576220",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 89,
+      "end": 197,
+      "text": "   Kate Symes                04/09/2001 04:35 PM\n\nTo: Sharen Cason/HOU/ECT@ECT\ncc:  \nSubject: Re: #576220  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 197,
+      "end": 281,
+      "text": "\nI get a \"no records selected\" message when I try to pull up 576220. ????\n\n\n   \n\t\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 289,
+      "end": 301,
+      "text": "Sharen Cason",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 328,
+      "end": 338,
+      "text": "04/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 339,
+      "end": 347,
+      "text": "02:30 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 355,
+      "end": 365,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 394,
+      "end": 401,
+      "text": "#576220",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 282,
+      "end": 402,
+      "text": "From:  Sharen Cason                           04/09/2001 02:30 PM\n\t\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: #576220\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 591,
+      "end": 598,
+      "text": "Thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 402,
+      "end": 603,
+      "text": "\nCan you check and make sure this is the correct counterparty on this deal?  \nWe did a deal in February (#533916) with a little different name.  Also we \nwill need a counterparty contact.\n\nThanks!\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23181683.1075841743493.JavaMail.evans@thyme>",
+      "Date": "Mon, 9 Apr 2001 10:31:00 -0700 (PDT)",
+      "From": "sharen.cason@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "Re: #576220",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sharen Cason",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Deal communication\\Deal discrepancies",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_deal_communication_deal_discrepancies_787.txt"
+}

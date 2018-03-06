@@ -1,0 +1,24 @@
+Hi Patrick,
+
+I think (but I'm not 100% sure) its not a difference in what the engine
+does in the end, its more of an API thing. When you are grouping, you can
+perform operations such as reducing afterwards.
+On a partitioned dataset, you can do stuff like processing each partition
+in parallel, or sort them.
+
+The parallelism is independent of the partitioning or grouping. Usually
+there are more partitions than parallel instances, so each instance will
+take care of multiple partitions.
+
+
+
+On Thu, Feb 23, 2017 at 6:16 PM, Patrick Brunmayr <jay@kpibench.com> wrote:
+
+> What is the basic difference between partitioning datasets by key or
+> grouping them by key ?
+>
+> Does it make a difference in terms of paralellism ?
+>
+> Thx
+>
+

@@ -1,0 +1,97 @@
+{
+  "wrapper": "plaintext",
+  "text": "Does anyone have this file?  If so, can I borrow it for 5 minutes?  Thanks.\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 77,
+      "end": 92,
+      "text": "Carol St. Clair",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 101,
+      "end": 113,
+      "text": "713-853-3989",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 122,
+      "end": 134,
+      "text": "713-646-3393",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 141,
+      "end": 165,
+      "text": "carol.st.clair@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 77,
+      "end": 165,
+      "text": "Carol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 165,
+      "text": "Does anyone have this file?  If so, can I borrow it for 5 minutes?  Thanks.\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11474917.1075844738673.JavaMail.evans@thyme>",
+      "Date": "Mon, 23 Apr 2001 06:22:00 -0700 (PDT)",
+      "From": "carol.clair@enron.com",
+      "To": "mark.taylor@enron.com, sara.shackleton@enron.com, mary.cook@enron.com, \n\tbrent.hendry@enron.com, tana.jones@enron.com, robert.bruce@enron.com, \n\tanne.koehler@enron.com, cheryl.nelson@enron.com, \n\tfrancisco.leite@enron.com, frank.sayre@enron.com, \n\tsusan.bailey@enron.com, samantha.boyd@enron.com, \n\tstephanie.panus@enron.com, mark.greenberg@enron.com",
+      "Subject": "Smurfit Stone Container Corp.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Carol St Clair",
+      "X-To": "Mark Taylor, Sara Shackleton, Mary Cook, Brent Hendry, Tana Jones, Robert Bruce, Anne C Koehler, Cheryl Nelson, Francisco Pinto Leite, Frank Sayre, Susan Bailey, Samantha Boyd, Stephanie Panus, Mark Greenberg",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_10723.txt"
+}

@@ -1,0 +1,223 @@
+{
+  "wrapper": "plaintext",
+  "text": "Justin - are the EnBank contracts physical or financial?  It seems to me we \nshould use the same customer profiles - that is if the contracts are \nphysical, then any counterparty which can trade physical UK gas should have \naccess.  If the contracts are financial, then any counterparty that can trade \nUK derivatives should have access.\n\nMark\n---------------------- Forwarded by Mark Taylor/HOU/ECT on 02/15/2000 11:47 \nAM ---------------------------\n\n\nDavid Forster\n02/15/2000 10:14 AM\nTo: Justin Boyd/LON/ECT@ECT\ncc: Frank L Davis/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Dale \nNeuner/HOU/ECT@ECT \nSubject: Counterparty access to EnBank\n\nJustin,\n\nI am assuming that there is no reason from a legal perspective to restrict \naccess to EnronOnline EnBank Auctions - so we will proceed with setting up \nthe user profiles this way (I've already checked with credit).\n\nPlease let me know if this is assumption is incorrect and we need to restrict \naccess.\n\nThanks,\n\nDave\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Justin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 339,
+      "end": 343,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 344,
+      "text": "Justin - are the EnBank contracts physical or financial?  It seems to me we \nshould use the same customer profiles - that is if the contracts are \nphysical, then any counterparty which can trade physical UK gas should have \naccess.  If the contracts are financial, then any counterparty that can trade \nUK derivatives should have access.\n\nMark\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 380,
+      "end": 391,
+      "text": "Mark Taylor",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 403,
+      "end": 413,
+      "text": "02/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 414,
+      "end": 423,
+      "text": "11:47 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 344,
+      "end": 452,
+      "text": "---------------------- Forwarded by Mark Taylor/HOU/ECT on 02/15/2000 11:47 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 454,
+      "end": 467,
+      "text": "David Forster",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 468,
+      "end": 478,
+      "text": "02/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 479,
+      "end": 487,
+      "text": "10:14 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 492,
+      "end": 503,
+      "text": "Justin Boyd",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 520,
+      "end": 533,
+      "text": "Frank L Davis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 547,
+      "end": 558,
+      "text": "Mark Taylor",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 572,
+      "end": 584,
+      "text": "Dale \nNeuner",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 607,
+      "end": 636,
+      "text": "Counterparty access to EnBank",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 452,
+      "end": 637,
+      "text": "\n\nDavid Forster\n02/15/2000 10:14 AM\nTo: Justin Boyd/LON/ECT@ECT\ncc: Frank L Davis/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Dale \nNeuner/HOU/ECT@ECT \nSubject: Counterparty access to EnBank\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 638,
+      "end": 644,
+      "text": "Justin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 960,
+      "end": 964,
+      "text": "Dave",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 951,
+      "end": 965,
+      "text": "Thanks,\n\nDave\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 637,
+      "end": 965,
+      "text": "\nJustin,\n\nI am assuming that there is no reason from a legal perspective to restrict \naccess to EnronOnline EnBank Auctions - so we will proceed with setting up \nthe user profiles this way (I've already checked with credit).\n\nPlease let me know if this is assumption is incorrect and we need to restrict \naccess.\n\nThanks,\n\nDave\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 17,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 18,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 2,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28134622.1075860067674.JavaMail.evans@thyme>",
+      "Date": "Tue, 15 Feb 2000 08:29:00 -0800 (PST)",
+      "From": "mark.taylor@enron.com",
+      "To": "justin.boyd@enron.com",
+      "Subject": "Counterparty access to EnBank",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark Taylor",
+      "X-To": "Justin Boyd",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\Sent",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_sent_828.txt"
+}

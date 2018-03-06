@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "I dont have an answer to why the folder got cleared, however i am wondering\nwhy you arent using basic replication to do this exact same thing, since\nsolr will natively take care of all this for you with no interruption to\nthe user and no stop/start routines etc.\n\nOn Wed, Jun 14, 2017 at 2:26 PM, Mike Lissner <\nmlissner@michaeljaylissner.com> wrote:\n\n> We are replacing a drive mounted at /old with one mounted at /new. Our\n> index currently lives on /old, and our plan was to:\n>\n> 1. Create a new index on /new\n> 2. Reindex from our database so that the new index on /new is properly\n> populated.\n> 3. Stop solr.\n> 4. Symlink /old to /new (Solr now looks for the index at /old/solr, which\n> redirects to /new/solr)\n> 5. Start solr\n> 6. (Later) Stop solr, swap the drives (old for new), and start solr. (Solr\n> now looks for the index at /old/solr again, and finds it there.)\n> 7. Delete the index pointing to /new created in step 1.\n>\n> The idea was that this would create a new index for solr, would populate it\n> with the right content, and would avoid having to touch our existing solr\n> configurations aside from creating one new index, which we could soon\n> delete.\n>\n> I just did steps 1-5, but I got null pointer exceptions when starting solr,\n> and it appears that the index on /new has been almost completely deleted by\n> Solr (this is a bummer, since it takes days to populate).\n>\n> Is this expected? Am I terribly crazy to try to swap indexes on disk? As\n> far as I know, the only difference between the indexes is their name.\n>\n> We're using Solr version 4.10.4.\n>\n> Thank you,\n>\n> Mike\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 264,
+      "text": "I dont have an answer to why the folder got cleared, however i am wondering\nwhy you arent using basic replication to do this exact same thing, since\nsolr will natively take care of all this for you with no interruption to\nthe user and no stop/start routines etc.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 264,
+      "end": 351,
+      "text": "On Wed, Jun 14, 2017 at 2:26 PM, Mike Lissner <\nmlissner@michaeljaylissner.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1577,
+      "end": 1601,
+      "text": ">\n> Thank you,\n>\n> Mike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 351,
+      "end": 1604,
+      "text": "\n> We are replacing a drive mounted at /old with one mounted at /new. Our\n> index currently lives on /old, and our plan was to:\n>\n> 1. Create a new index on /new\n> 2. Reindex from our database so that the new index on /new is properly\n> populated.\n> 3. Stop solr.\n> 4. Symlink /old to /new (Solr now looks for the index at /old/solr, which\n> redirects to /new/solr)\n> 5. Start solr\n> 6. (Later) Stop solr, swap the drives (old for new), and start solr. (Solr\n> now looks for the index at /old/solr again, and finds it there.)\n> 7. Delete the index pointing to /new created in step 1.\n>\n> The idea was that this would create a new index for solr, would populate it\n> with the right content, and would avoid having to touch our existing solr\n> configurations aside from creating one new index, which we could soon\n> delete.\n>\n> I just did steps 1-5, but I got null pointer exceptions when starting solr,\n> and it appears that the index on /new has been almost completely deleted by\n> Solr (this is a bummer, since it takes days to populate).\n>\n> Is this expected? Am I terribly crazy to try to swap indexes on disk? As\n> far as I know, the only difference between the indexes is their name.\n>\n> We're using Solr version 4.10.4.\n>\n> Thank you,\n>\n> Mike\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4096"
+}

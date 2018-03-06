@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi ,\n\nI have a situation here where I am required to log the slow queries into a\nseperate log file which then can be used for optimization purposes.\nFor now this log is aggregated into the mainstream log marking\n[slow:......].\nI looked into the code and the configuration and I am really clueless as to\nhow do I go about seperating the slow query logs as it needs another file\nappender\nto be created other than the one already present in the log4j.\nIf I create another appender I can do so by degregating through log levels\n, so that moves all the WARN logs to another file (which is not what I am\nlooking for).\nAlso from the code prespective , I feel how about if I introduce another\nconfig setting along with the slowQueryThresholdMillis value , something\nlike\n\nslowQueryLogFile = get(\"query/slowQueryLogFile\", logfilepath);\n\n\nwhere slowQueryLogFile and if present it logs into this file otherwise it\nworks on the already present along with\n\nslowQueryThresholdMillis = getInt(\"query/slowQueryThresholdMillis\", -1);\n\n\nor should I tweak log4j ?\nI am not sure if anyone has done that before or have any pointers to guide\nme on this.\nPlease help.\n\nThanks in advance,\nAtita\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Hi ,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1145,
+      "end": 1171,
+      "text": "\nThanks in advance,\nAtita\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1172,
+      "text": "Hi ,\n\nI have a situation here where I am required to log the slow queries into a\nseperate log file which then can be used for optimization purposes.\nFor now this log is aggregated into the mainstream log marking\n[slow:......].\nI looked into the code and the configuration and I am really clueless as to\nhow do I go about seperating the slow query logs as it needs another file\nappender\nto be created other than the one already present in the log4j.\nIf I create another appender I can do so by degregating through log levels\n, so that moves all the WARN logs to another file (which is not what I am\nlooking for).\nAlso from the code prespective , I feel how about if I introduce another\nconfig setting along with the slowQueryThresholdMillis value , something\nlike\n\nslowQueryLogFile = get(\"query/slowQueryLogFile\", logfilepath);\n\n\nwhere slowQueryLogFile and if present it logs into this file otherwise it\nworks on the already present along with\n\nslowQueryThresholdMillis = getInt(\"query/slowQueryThresholdMillis\", -1);\n\n\nor should I tweak log4j ?\nI am not sure if anyone has done that before or have any pointers to guide\nme on this.\nPlease help.\n\nThanks in advance,\nAtita\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6612"
+}

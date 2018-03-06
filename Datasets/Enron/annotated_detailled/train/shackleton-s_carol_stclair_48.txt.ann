@@ -1,0 +1,239 @@
+{
+  "wrapper": "plaintext",
+  "text": "In the past few weeks, I have discussed this issue with Brent H., Mark T. \nChris G. and Mary C.  Under the PPSA jurisdictions in Canada, which includes \nAlberta and Ontario among others, cash held on deposit as collateral is not \nclearly categorized as \"money\" but more likely an \"account\".  Although \ncertain categories of collateral can be perfected by possession, including \n\"money\", \"intangibles\", which includes \"accounts\", cannot be perfected by \npossession.  The issue comes down to whether we will accept the risk that a \nwire transfer to an account designated by us constitutes \"money\".  Although \nit is not clear, the better view is that \"money\" means cash in hand and not \non deposit.  The risk is that an unperfected security interest is subordinate \nto various parties, including a bankruptcy trustee and to subsequently taken \nbut properly perfected security interests.  I will admit, however, that this \nseems to be a risk that others in our market take (although likely \nunknowingly).     \n\nAccordingly, to perfect the \"account\" a registration is likely required at \nthe PPR, which is something we do not want to get into. \n\nEven then, as an \"account\" is an \"intangible\" certain conflicts rules for \nperfection by registration need to be considered, as the PPSA jurisdictions \nprovide that perfection of an intangible is governed by the laws of the \njurisdiction where the debtor is located, as determined by the location of \nits principal place of business or chief executive office. i.e.  registration \nmay be required in some other jurisdiction entirely.  Further, an advance \nsearch would have to be done to see if there are competing prior \nregistrations.  Also, as the PPR is not a guaranteed title registry, \nregistration priority does not necessarily guarantee security priority, and \nlaw firms will not typically give priority opinions under the PPSA.  \n\nLastly, if there is an insolvency and the deposit holding institution is also \na creditor of the counterparty, there may be some argument that the deposit \nholding institution will assert rights of set off over the account.\n\nIn terms of updating advice, the statutory provisions have not to my \nknowledge changed.  I suppose there is some possibility that a court has \nrecently determined that \"money\" includes deposits that we are not aware of, \nand I could ask outside counsel to research this issue.\n\nPeter.\n\n\n\n\n   Carol St Clair                03/20/2001 07:45 AM\n\nTo: Peter Keohane/CAL/ECT@ECT, Greg Johnston/CAL/ECT@ECT\ncc: Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT \nSubject: Cash Collateral In Canada\n\nPeter and Greg:\nOne of our counterparties is questioning why we won't accept cash collateral \nin Canada.  They claim that under the current state of the law, holding cash \ncollateral is the method for perfecting.  Please advise.  Should we ask \nStikeman to update their advice to us on this?\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2395,
+      "text": "In the past few weeks, I have discussed this issue with Brent H., Mark T. \nChris G. and Mary C.  Under the PPSA jurisdictions in Canada, which includes \nAlberta and Ontario among others, cash held on deposit as collateral is not \nclearly categorized as \"money\" but more likely an \"account\".  Although \ncertain categories of collateral can be perfected by possession, including \n\"money\", \"intangibles\", which includes \"accounts\", cannot be perfected by \npossession.  The issue comes down to whether we will accept the risk that a \nwire transfer to an account designated by us constitutes \"money\".  Although \nit is not clear, the better view is that \"money\" means cash in hand and not \non deposit.  The risk is that an unperfected security interest is subordinate \nto various parties, including a bankruptcy trustee and to subsequently taken \nbut properly perfected security interests.  I will admit, however, that this \nseems to be a risk that others in our market take (although likely \nunknowingly).     \n\nAccordingly, to perfect the \"account\" a registration is likely required at \nthe PPR, which is something we do not want to get into. \n\nEven then, as an \"account\" is an \"intangible\" certain conflicts rules for \nperfection by registration need to be considered, as the PPSA jurisdictions \nprovide that perfection of an intangible is governed by the laws of the \njurisdiction where the debtor is located, as determined by the location of \nits principal place of business or chief executive office. i.e.  registration \nmay be required in some other jurisdiction entirely.  Further, an advance \nsearch would have to be done to see if there are competing prior \nregistrations.  Also, as the PPR is not a guaranteed title registry, \nregistration priority does not necessarily guarantee security priority, and \nlaw firms will not typically give priority opinions under the PPSA.  \n\nLastly, if there is an insolvency and the deposit holding institution is also \na creditor of the counterparty, there may be some argument that the deposit \nholding institution will assert rights of set off over the account.\n\nIn terms of updating advice, the statutory provisions have not to my \nknowledge changed.  I suppose there is some possibility that a court has \nrecently determined that \"money\" includes deposits that we are not aware of, \nand I could ask outside counsel to research this issue.\n\nPeter.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2384,
+      "end": 2390,
+      "text": "Peter.",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2398,
+      "end": 2412,
+      "text": "Carol St Clair",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2428,
+      "end": 2438,
+      "text": "03/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2439,
+      "end": 2447,
+      "text": "07:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2453,
+      "end": 2466,
+      "text": "Peter Keohane",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2480,
+      "end": 2493,
+      "text": "Greg Johnston",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2510,
+      "end": 2525,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2539,
+      "end": 2548,
+      "text": "Mary Cook",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2571,
+      "end": 2596,
+      "text": "Cash Collateral In Canada",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2395,
+      "end": 2597,
+      "text": "   Carol St Clair                03/20/2001 07:45 AM\n\nTo: Peter Keohane/CAL/ECT@ECT, Greg Johnston/CAL/ECT@ECT\ncc: Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT \nSubject: Cash Collateral In Canada\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2598,
+      "end": 2603,
+      "text": "Peter",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2608,
+      "end": 2612,
+      "text": "Greg",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2598,
+      "end": 2614,
+      "text": "Peter and Greg:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2891,
+      "end": 2906,
+      "text": "Carol St. Clair",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2915,
+      "end": 2927,
+      "text": "713-853-3989",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2936,
+      "end": 2948,
+      "text": "713-646-3393",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2955,
+      "end": 2979,
+      "text": "carol.st.clair@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2891,
+      "end": 2980,
+      "text": "Carol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2597,
+      "end": 2981,
+      "text": "\nPeter and Greg:\nOne of our counterparties is questioning why we won't accept cash collateral \nin Canada.  They claim that under the current state of the law, holding cash \ncollateral is the method for perfecting.  Please advise.  Should we ask \nStikeman to update their advice to us on this?\n\nCarol St. Clair\nEB 3889\n713-853-3989 (Phone)\n713-646-3393 (Fax)\ncarol.st.clair@enron.com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 16,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 17,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 18,
+      "target": 15,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 2,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25631443.1075853641096.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Mar 2001 00:58:00 -0800 (PST)",
+      "From": "peter.keohane@enron.com",
+      "To": "carol.clair@enron.com",
+      "Subject": "Re: Cash Collateral In Canada",
+      "Cc": "greg.johnston@enron.com, sara.shackleton@enron.com, mary.cook@enron.com, \n\tmark.taylor@enron.com, brent.hendry@enron.com, \n\tchris.gaffney@enron.com, mark.powell@enron.com, \n\tsharon.crawford@enron.com, tana.jones@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "greg.johnston@enron.com, sara.shackleton@enron.com, mary.cook@enron.com, \n\tmark.taylor@enron.com, brent.hendry@enron.com, \n\tchris.gaffney@enron.com, mark.powell@enron.com, \n\tsharon.crawford@enron.com, tana.jones@enron.com",
+      "X-From": "Peter Keohane",
+      "X-To": "Carol St Clair",
+      "X-cc": "Greg Johnston, Sara Shackleton, Mary Cook, Mark Taylor, Brent Hendry, Chris Gaffney, Mark Powell, Sharon Crawford, Tana Jones",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Nov2001\\Notes Folders\\Carol stclair",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_carol_stclair_48.txt"
+}

@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Chris, the simple fact, which we know from past experience and which OPG is \nmissing, is that there is a large segment of counterparties who for various \nreasons (logistics/scheduling fixed-priced physical requirements for term \nwith a with a marketer; corporate authorizations for physical transacting \nonly; industrial culture; commercial sophistication; etc) will only want to \ntransact physically.  To ignore this is to ignore a large segment of the \nmarket.  \n\nIf OPG wants out of the process I nonetheless urge you to continue as I am \nconfident that once the market opens, or gets closer to opening, they will \nrealize this.  If they want to compete fully in the trading business they \nwill come back to what the industry is using for physical settlement, which \nis the EEI form you will have developed.\n\nI also think that OPG is missing the point on physical settlement.  As we \ndiscussed the IMO is merely the pool settlement mechanism.  That does not \nmean that the underlying transaction cannot be a physical bilateral which \nallocates physical settlement risk as between the parties for physical \ndelivery obligations (such as for failure to deliver; increased costs and \nprudential support for failure to deliver even where the IMO mechanism makes \nup the deficiency volume; force majeure; volume management; etc).\n\nI think it can be said in all markets that in many cases the distinctions \nbetween physical and financial trading can be distinctions without a \ndifference, but nonetheless there are some real distinctions and more \nimportantly, even if there are no differences, certain counterparties will \nonly want to deal in what they believe to be a physically settled product. \n\nSo it seems you are close with the other counterparties, and I suggest you \njust march on with them if OPG does not want to participate further.\n\nPeter.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Chris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1850,
+      "text": "Chris, the simple fact, which we know from past experience and which OPG is \nmissing, is that there is a large segment of counterparties who for various \nreasons (logistics/scheduling fixed-priced physical requirements for term \nwith a with a marketer; corporate authorizations for physical transacting \nonly; industrial culture; commercial sophistication; etc) will only want to \ntransact physically.  To ignore this is to ignore a large segment of the \nmarket.  \n\nIf OPG wants out of the process I nonetheless urge you to continue as I am \nconfident that once the market opens, or gets closer to opening, they will \nrealize this.  If they want to compete fully in the trading business they \nwill come back to what the industry is using for physical settlement, which \nis the EEI form you will have developed.\n\nI also think that OPG is missing the point on physical settlement.  As we \ndiscussed the IMO is merely the pool settlement mechanism.  That does not \nmean that the underlying transaction cannot be a physical bilateral which \nallocates physical settlement risk as between the parties for physical \ndelivery obligations (such as for failure to deliver; increased costs and \nprudential support for failure to deliver even where the IMO mechanism makes \nup the deficiency volume; force majeure; volume management; etc).\n\nI think it can be said in all markets that in many cases the distinctions \nbetween physical and financial trading can be distinctions without a \ndifference, but nonetheless there are some real distinctions and more \nimportantly, even if there are no differences, certain counterparties will \nonly want to deal in what they believe to be a physically settled product. \n\nSo it seems you are close with the other counterparties, and I suggest you \njust march on with them if OPG does not want to participate further.\n\nPeter.",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1844,
+      "end": 1850,
+      "text": "Peter.",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4124283.1075859607149.JavaMail.evans@thyme>",
+      "Date": "Mon, 30 Apr 2001 09:01:00 -0700 (PDT)",
+      "From": "peter.keohane@enron.com",
+      "To": "chris.gaffney@enron.com",
+      "Subject": "Re: Ontario Standard Contract",
+      "Cc": "mark.haedicke@enron.com, elizabeth.sager@enron.com, rob.milnthorp@enron.com, \n\tsharon.crawford@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "mark.haedicke@enron.com, elizabeth.sager@enron.com, rob.milnthorp@enron.com, \n\tsharon.crawford@enron.com",
+      "X-From": "Peter Keohane",
+      "X-To": "Chris Gaffney",
+      "X-cc": "Mark E Haedicke, Elizabeth Sager, Rob Milnthorp, Sharon Crawford",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "id": "train/sager-e_notes_inbox_830.txt"
+}

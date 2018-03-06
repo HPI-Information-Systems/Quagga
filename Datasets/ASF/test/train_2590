@@ -1,0 +1,69 @@
+Hi Jörn,
+
+
+I do think a 5 MB column is odd but I don't have any other idea before asking this question.
+The binary data is a short video and the maximum size is no more than 50 MB.
+
+
+Hadoop archive sounds very interesting and I'll try it first to check whether filtering is
+fast on it.
+
+
+To my best knowledge, HBase works best for record around hundreds of KB and it requires extra
+work of the cluster administrator. So this would be the last option.
+
+
+Thanks!
+
+
+Mo Tao
+
+________________________________
+发件人: Jörn Franke <jornfranke@gmail.com>
+发送时间: 2017年4月17日 15:59:28
+收件人: 莫涛
+抄送: user@spark.apache.org
+主题: Re: How to store 10M records in HDFS to speed up further filtering?
+
+You need to sort the data by id otherwise q situation can occur where the index does not work.
+Aside from this, it sounds odd to put a 5 MB column using those formats. This will be also
+not so efficient.
+What is in the 5 MB binary data?
+You could use HAR or maybe Hbase to store this kind of data (if it does not get much larger
+than 5 MB).
+
+> On 17. Apr 2017, at 08:23, MoTao <motao@sensetime.com> wrote:
+>
+> Hi all,
+>
+> I have 10M (ID, BINARY) record, and the size of each BINARY is 5MB on
+> average.
+> In my daily application, I need to filter out 10K BINARY according to an ID
+> list.
+> How should I store the whole data to make the filtering faster?
+>
+> I'm using DataFrame in Spark 2.0.0 and I've tried row-based format (avro)
+> and column-based format (orc).
+> However, both of them require to scan almost ALL records, making the
+> filtering stage very very slow.
+> The code block for filtering looks like:
+>
+> val IDSet: Set[String] = ...
+> val checkID = udf { ID: String => IDSet(ID) }
+> spark.read.orc("/path/to/whole/data")
+>  .filter(checkID($"ID"))
+>  .select($"ID", $"BINARY")
+>  .write...
+>
+> Thanks for any advice!
+>
+>
+>
+>
+> --
+> View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/How-to-store-10M-records-in-HDFS-to-speed-up-further-filtering-tp28605.html
+> Sent from the Apache Spark User List mailing list archive at Nabble.com.
+>
+> ---------------------------------------------------------------------
+> To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+>

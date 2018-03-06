@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "I did threading but got many failed tasks and they were not reprocessed. I\nam guessing driver lost track of threaded tasks. I had also tired Future\nand par of scala and same result as above\n\nOn Mon, Jul 17, 2017 at 5:56 PM, Pralabh Kumar <pralabhkumar@gmail.com>\nwrote:\n\n> Run the spark context in multithreaded way .\n>\n> Something like this\n>\n> val spark =  SparkSession.builder()\n>   .appName(\"practice\")\n>   .config(\"spark.scheduler.mode\",\"FAIR\")\n>   .enableHiveSupport().getOrCreate()\n> val sc = spark.sparkContext\n> val hc = spark.sqlContext\n>\n>\n> val thread1 = new Thread {\n>      override def run {\n>        hc.sql(\"select * from table1\")\n>      }\n>    }\n>\n>    val thread2 = new Thread {\n>      override def run {\n>        hc.sql(\"select * from table2\")\n>      }\n>    }\n>\n>    thread1.start()\n>    thread2.start()\n>\n>\n>\n> On Mon, Jul 17, 2017 at 5:42 PM, FN <nuson.fretz@gmail.com> wrote:\n>\n>> Hi\n>> I am currently trying to parallelize reading multiple tables from Hive .\n>> As\n>> part of an archival framework, i need to convert few hundred tables which\n>> are in txt format to Parquet. For now i am calling a Spark SQL inside a\n>> for\n>> loop for conversion. But this execute sequential and entire process takes\n>> longer time to finish.\n>>\n>> I tired  submitting 4 different Spark jobs ( each having set of tables to\n>> be\n>> converted), it did give me some parallelism , but i would like to do this\n>> in\n>> single Spark job due to few limitation of our cluster and process\n>>\n>> Any help will be greatly appreciated\n>>\n>>\n>>\n>>\n>>\n>> --\n>> View this message in context: http://apache-spark-user-list.\n>> 1001560.n3.nabble.com/Reading-Hive-tables-Parallel-in-Spark-tp28869.html\n>> Sent from the Apache Spark User List mailing list archive at Nabble.com.\n>>\n>> ---------------------------------------------------------------------\n>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 191,
+      "text": "I did threading but got many failed tasks and they were not reprocessed. I\nam guessing driver lost track of threaded tasks. I had also tired Future\nand par of scala and same result as above\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 191,
+      "end": 270,
+      "text": "On Mon, Jul 17, 2017 at 5:56 PM, Pralabh Kumar <pralabhkumar@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 270,
+      "end": 828,
+      "text": "\n> Run the spark context in multithreaded way .\n>\n> Something like this\n>\n> val spark =  SparkSession.builder()\n>   .appName(\"practice\")\n>   .config(\"spark.scheduler.mode\",\"FAIR\")\n>   .enableHiveSupport().getOrCreate()\n> val sc = spark.sparkContext\n> val hc = spark.sqlContext\n>\n>\n> val thread1 = new Thread {\n>      override def run {\n>        hc.sql(\"select * from table1\")\n>      }\n>    }\n>\n>    val thread2 = new Thread {\n>      override def run {\n>        hc.sql(\"select * from table2\")\n>      }\n>    }\n>\n>    thread1.start()\n>    thread2.start()\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 828,
+      "end": 897,
+      "text": "> On Mon, Jul 17, 2017 at 5:42 PM, FN <nuson.fretz@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 897,
+      "end": 905,
+      "text": ">\n>> Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 897,
+      "end": 1912,
+      "text": ">\n>> Hi\n>> I am currently trying to parallelize reading multiple tables from Hive .\n>> As\n>> part of an archival framework, i need to convert few hundred tables which\n>> are in txt format to Parquet. For now i am calling a Spark SQL inside a\n>> for\n>> loop for conversion. But this execute sequential and entire process takes\n>> longer time to finish.\n>>\n>> I tired  submitting 4 different Spark jobs ( each having set of tables to\n>> be\n>> converted), it did give me some parallelism , but i would like to do this\n>> in\n>> single Spark job due to few limitation of our cluster and process\n>>\n>> Any help will be greatly appreciated\n>>\n>>\n>>\n>>\n>>\n>> --\n>> View this message in context: http://apache-spark-user-list.\n>> 1001560.n3.nabble.com/Reading-Hive-tables-Parallel-in-Spark-tp28869.html\n>> Sent from the Apache Spark User List mailing list archive at Nabble.com.\n>>\n>> ---------------------------------------------------------------------\n>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4218"
+}

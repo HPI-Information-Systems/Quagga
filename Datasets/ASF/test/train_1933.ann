@@ -1,0 +1,256 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nWill MongoDB not fit this solution?\n\n\n\nFrom: Vova Shelgunov [mailto:vvshvv@gmail.com]\nSent: Wednesday, March 15, 2017 11:51 PM\nTo: Muthu Jayakumar <babloo80@gmail.com>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com>; Richard Siebeling <rsiebeling@gmail.com>;\nuser <user@spark.apache.org>; Shiva Ramagopal <tr.shiv@gmail.com>\nSubject: Re: Fast write datastore...\n\nHi Muthu,.\n\nI did not catch from your message, what performance do you expect from subsequent queries?\n\nRegards,\nUladzimir\n\nOn Mar 15, 2017 9:03 PM, \"Muthu Jayakumar\" <babloo80@gmail.com<mailto:babloo80@gmail.com>>\nwrote:\nHello Uladzimir / Shiva,\n\nFrom ElasticSearch documentation (i have to see the logical plan of a query to confirm), the\nrichness of filters (like regex,..) is pretty good while comparing to Cassandra. As for aggregates,\ni think Spark Dataframes is quite rich enough to tackle.\nLet me know your thoughts.\n\nThanks,\nMuthu\n\n\nOn Wed, Mar 15, 2017 at 10:55 AM, vvshvv <vvshvv@gmail.com<mailto:vvshvv@gmail.com>>\nwrote:\nHi muthu,\n\nI agree with Shiva, Cassandra also supports SASI indexes, which can partially replace Elasticsearch\nfunctionality.\n\nRegards,\nUladzimir\n\n\n\nSent from my Mi phone\nOn Shiva Ramagopal <tr.shiv@gmail.com<mailto:tr.shiv@gmail.com>>, Mar 15, 2017\n5:57 PM wrote:\nProbably Cassandra is a good choice if you are mainly looking for a datastore that supports\nfast writes. You can ingest the data into a table and define one or more materialized views\non top of it to support your queries. Since you mention that your queries are going to be\nsimple you can define your indexes in the materialized views according to how you want to\nquery the data.\nThanks,\nShiva\n\n\nOn Wed, Mar 15, 2017 at 7:58 PM, Muthu Jayakumar <babloo80@gmail.com<mailto:babloo80@gmail.com>>\nwrote:\nHello Vincent,\n\nCassandra may not fit my bill if I need to define my partition and other indexes upfront.\nIs this right?\n\nHello Richard,\n\nLet me evaluate Apache Ignite. I did evaluate it 3 months back and back then the connector\nto Apache Spark did not support Spark 2.0.\n\nAnother drastic thought may be repartition the result count to 1 (but have to be cautions\non making sure I don't run into Heap issues if the result is too large to fit into an executor)\n and write to a relational database like mysql / postgres. But, I believe I can do the same\nusing ElasticSearch too.\n\nA slightly over-kill solution may be Spark to Kafka to ElasticSearch?\n\nMore thoughts welcome please.\n\nThanks,\nMuthu\n\nOn Wed, Mar 15, 2017 at 4:53 AM, Richard Siebeling <rsiebeling@gmail.com<mailto:rsiebeling@gmail.com>>\nwrote:\nmaybe Apache Ignite does fit your requirements\n\nOn 15 March 2017 at 08:44, vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>\nwrote:\nHi\nIf queries are statics and filters are on the same columns, Cassandra is a good option.\n\nLe 15 mars 2017 7:04 AM, \"muthu\" <babloo80@gmail.com<mailto:babloo80@gmail.com>>\na \u00c3\u00a9crit :\nHello there,\n\nI have one or more parquet files to read and perform some aggregate queries\nusing Spark Dataframe. I would like to find a reasonable fast datastore that\nallows me to write the results for subsequent (simpler queries).\nI did attempt to use ElasticSearch to write the query results using\nElasticSearch Hadoop connector. But I am running into connector write issues\nif the number of Spark executors are too many for ElasticSearch to handle.\nBut in the schema sense, this seems a great fit as ElasticSearch has smartz\nin place to discover the schema. Also in the query sense, I can perform\nsimple filters and sort using ElasticSearch and for more complex aggregate,\nSpark Dataframe can come back to the rescue :).\nPlease advice on other possible data-stores I could use?\n\nThanks,\nMuthu\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Fast-write-datastore-tp28497.html<https://urldefense.proofpoint.com/v2/url?u=http-3A__apache-2Dspark-2Duser-2Dlist.1001560.n3.nabble.com_Fast-2Dwrite-2Ddatastore-2Dtp28497.html&d=DwMFaQ&c=eIGjsITfXP_y-DLLX0uEHXJvU8nOHrUK8IrwNKOtkVU&r=7scIIjM0jY9x3fjvY6a_yERLxMA2NwA8l0DnuyrL6yA&m=9OzGCUHXXQLjuS_SpMHII54QWHNzFKrwMma4qV3ADxE&s=6305WvqHeyTC5S2ZSBXamJrcO03n3MQyoU4tkMQlM_k&e=>\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org<mailto:user-unsubscribe@spark.apache.org>\n\n\n\n\n\n\n________________________________\n\nThis message is for the designated recipient only and may contain privileged, proprietary,\nor otherwise confidential information. If you have received it in error, please notify the\nsender immediately and delete the original. Any other use of the e-mail by you is prohibited.\nWhere allowed by local law, electronic communications with Accenture and its affiliates, including\ne-mail and instant messaging (including content), may be scanned by our systems for the purposes\nof information security and assessment of internal compliance with Accenture policy.\n______________________________________________________________________________________\n\nwww.accenture.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 44,
+      "text": "Hi,\n\nWill MongoDB not fit this solution?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 44,
+      "end": 375,
+      "text": "From: Vova Shelgunov [mailto:vvshvv@gmail.com]\nSent: Wednesday, March 15, 2017 11:51 PM\nTo: Muthu Jayakumar <babloo80@gmail.com>\nCc: vincent gromakowski <vincent.gromakowski@gmail.com>; Richard Siebeling <rsiebeling@gmail.com>;\nuser <user@spark.apache.org>; Shiva Ramagopal <tr.shiv@gmail.com>\nSubject: Re: Fast write datastore...\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 375,
+      "end": 387,
+      "text": "\nHi Muthu,.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 479,
+      "end": 499,
+      "text": "\nRegards,\nUladzimir\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 375,
+      "end": 500,
+      "text": "\nHi Muthu,.\n\nI did not catch from your message, what performance do you expect from subsequent queries?\n\nRegards,\nUladzimir\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 500,
+      "end": 598,
+      "text": "On Mar 15, 2017 9:03 PM, \"Muthu Jayakumar\" <babloo80@gmail.com<mailto:babloo80@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 598,
+      "end": 623,
+      "text": "Hello Uladzimir / Shiva,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 901,
+      "end": 916,
+      "text": "\nThanks,\nMuthu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 598,
+      "end": 918,
+      "text": "Hello Uladzimir / Shiva,\n\nFrom ElasticSearch documentation (i have to see the logical plan of a query to confirm), the\nrichness of filters (like regex,..) is pretty good while comparing to Cassandra. As for aggregates,\ni think Spark Dataframes is quite rich enough to tackle.\nLet me know your thoughts.\n\nThanks,\nMuthu\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 918,
+      "end": 1010,
+      "text": "On Wed, Mar 15, 2017 at 10:55 AM, vvshvv <vvshvv@gmail.com<mailto:vvshvv@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1010,
+      "end": 1020,
+      "text": "Hi muthu,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1136,
+      "end": 1156,
+      "text": "\nRegards,\nUladzimir\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1010,
+      "end": 1181,
+      "text": "Hi muthu,\n\nI agree with Shiva, Cassandra also supports SASI indexes, which can partially replace Elasticsearch\nfunctionality.\n\nRegards,\nUladzimir\n\n\n\nSent from my Mi phone\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1181,
+      "end": 1275,
+      "text": "On Shiva Ramagopal <tr.shiv@gmail.com<mailto:tr.shiv@gmail.com>>, Mar 15, 2017\n5:57 PM wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1655,
+      "end": 1669,
+      "text": "Thanks,\nShiva\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1275,
+      "end": 1671,
+      "text": "Probably Cassandra is a good choice if you are mainly looking for a datastore that supports\nfast writes. You can ingest the data into a table and define one or more materialized views\non top of it to support your queries. Since you mention that your queries are going to be\nsimple you can define your indexes in the materialized views according to how you want to\nquery the data.\nThanks,\nShiva\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1671,
+      "end": 1775,
+      "text": "On Wed, Mar 15, 2017 at 7:58 PM, Muthu Jayakumar <babloo80@gmail.com<mailto:babloo80@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1775,
+      "end": 1790,
+      "text": "Hello Vincent,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1896,
+      "end": 1912,
+      "text": "\nHello Richard,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2453,
+      "end": 2468,
+      "text": "\nThanks,\nMuthu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1775,
+      "end": 2469,
+      "text": "Hello Vincent,\n\nCassandra may not fit my bill if I need to define my partition and other indexes upfront.\nIs this right?\n\nHello Richard,\n\nLet me evaluate Apache Ignite. I did evaluate it 3 months back and back then the connector\nto Apache Spark did not support Spark 2.0.\n\nAnother drastic thought may be repartition the result count to 1 (but have to be cautions\non making sure I don't run into Heap issues if the result is too large to fit into an executor)\n and write to a relational database like mysql / postgres. But, I believe I can do the same\nusing ElasticSearch too.\n\nA slightly over-kill solution may be Spark to Kafka to ElasticSearch?\n\nMore thoughts welcome please.\n\nThanks,\nMuthu\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 2468,
+      "end": 2579,
+      "text": "\nOn Wed, Mar 15, 2017 at 4:53 AM, Richard Siebeling <rsiebeling@gmail.com<mailto:rsiebeling@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2579,
+      "end": 2627,
+      "text": "maybe Apache Ignite does fit your requirements\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2627,
+      "end": 2751,
+      "text": "On 15 March 2017 at 08:44, vincent gromakowski <vincent.gromakowski@gmail.com<mailto:vincent.gromakowski@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2751,
+      "end": 2754,
+      "text": "Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2751,
+      "end": 2843,
+      "text": "Hi\nIf queries are statics and filters are on the same columns, Cassandra is a good option.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2843,
+      "end": 2935,
+      "text": "Le 15 mars 2017 7:04 AM, \"muthu\" <babloo80@gmail.com<mailto:babloo80@gmail.com>>\na \u00c3\u00a9crit :\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2935,
+      "end": 2948,
+      "text": "Hello there,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 3716,
+      "end": 3731,
+      "text": "\nThanks,\nMuthu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2935,
+      "end": 5139,
+      "text": "Hello there,\n\nI have one or more parquet files to read and perform some aggregate queries\nusing Spark Dataframe. I would like to find a reasonable fast datastore that\nallows me to write the results for subsequent (simpler queries).\nI did attempt to use ElasticSearch to write the query results using\nElasticSearch Hadoop connector. But I am running into connector write issues\nif the number of Spark executors are too many for ElasticSearch to handle.\nBut in the schema sense, this seems a great fit as ElasticSearch has smartz\nin place to discover the schema. Also in the query sense, I can perform\nsimple filters and sort using ElasticSearch and for more complex aggregate,\nSpark Dataframe can come back to the rescue :).\nPlease advice on other possible data-stores I could use?\n\nThanks,\nMuthu\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Fast-write-datastore-tp28497.html<https://urldefense.proofpoint.com/v2/url?u=http-3A__apache-2Dspark-2Duser-2Dlist.1001560.n3.nabble.com_Fast-2Dwrite-2Ddatastore-2Dtp28497.html&d=DwMFaQ&c=eIGjsITfXP_y-DLLX0uEHXJvU8nOHrUK8IrwNKOtkVU&r=7scIIjM0jY9x3fjvY6a_yERLxMA2NwA8l0DnuyrL6yA&m=9OzGCUHXXQLjuS_SpMHII54QWHNzFKrwMma4qV3ADxE&s=6305WvqHeyTC5S2ZSBXamJrcO03n3MQyoU4tkMQlM_k&e=>\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org<mailto:user-unsubscribe@spark.apache.org>\n\n\n\n\n\n\n________________________________\n\nThis message is for the designated recipient only and may contain privileged, proprietary,\nor otherwise confidential information. If you have received it in error, please notify the\nsender immediately and delete the original. Any other use of the e-mail by you is prohibited.\nWhere allowed by local law, electronic communications with Accenture and its affiliates, including\ne-mail and instant messaging (including content), may be scanned by our systems for the purposes\nof information security and assessment of internal compliance with Accenture policy.\n______________________________________________________________________________________\n\nwww.accenture.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1933"
+}

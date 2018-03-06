@@ -1,0 +1,13 @@
+Dear reader,
+
+I've found that using the distinct clause gives me the list I want.
+
+I also have a multivalued rpt_location in the collection that I'd like to
+use in the filter.
+
+Is this possible in any way shape of form?
+
+Many thanks in advance,
+
+Greg
+

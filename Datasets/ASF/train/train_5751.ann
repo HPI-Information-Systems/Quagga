@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi John,\n\nThe map-reduce contrib module is removed as part of SOLR-9221\n<https://issues.apache.org/jira/browse/SOLR-9221>. Are you using this\ncontrib module?\n\nThanks\nHrishikesh\n\n\nOn Tue, Aug 29, 2017 at 2:39 PM, John Bickerstaff <john@johnbickerstaff.com>\nwrote:\n\n> All,\n>\n> I'm looking at upgrading some java projects to solr and lucene 6.6.0.\n>\n> I get an error when trying to \"mvn package\" one of them - it complained\n> about the solr-map-reduce:jar:6.6.0 not being available.\n>\n> I went here:\n> https://mvnrepository.com/artifact/org.apache.solr/solr-map-reduce\n>\n> And it looks like this hasn't been updated to 6.6...\n>\n> Is it going to be updated soon?  Am I misunderstanding something?\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 179,
+      "end": 263,
+      "text": "On Tue, Aug 29, 2017 at 2:39 PM, John Bickerstaff <john@johnbickerstaff.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 158,
+      "end": 177,
+      "text": "\nThanks\nHrishikesh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 9,
+      "text": "Hi John,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 179,
+      "text": "Hi John,\n\nThe map-reduce contrib module is removed as part of SOLR-9221\n<https://issues.apache.org/jira/browse/SOLR-9221>. Are you using this\ncontrib module?\n\nThanks\nHrishikesh\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 263,
+      "end": 271,
+      "text": "\n> All,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 263,
+      "end": 696,
+      "text": "\n> All,\n>\n> I'm looking at upgrading some java projects to solr and lucene 6.6.0.\n>\n> I get an error when trying to \"mvn package\" one of them - it complained\n> about the solr-map-reduce:jar:6.6.0 not being available.\n>\n> I went here:\n> https://mvnrepository.com/artifact/org.apache.solr/solr-map-reduce\n>\n> And it looks like this hasn't been updated to 6.6...\n>\n> Is it going to be updated soon?  Am I misunderstanding something?\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5751"
+}

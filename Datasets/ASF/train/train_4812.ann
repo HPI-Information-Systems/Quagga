@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "1) nope, no big tlog or replaying problem\n\n2) Solr just seem freezed. Not responsive and nothing in the log.\nNow I just tried just to restart after the Zookeeper config deploy and on\nrestart the log complety freezes and the instances don't come up...\nIf I clean the indexes and then start, this works.\nSolr is deployed in Jboss, so I don't know if the stop is too aggressive and\nbreaks something.\n\n3) No problem at all!\n\nI will continue with some analysis.\n\n\n\n-----\n---------------\nAlessandro Benedetti\nSearch Consultant, R&D Software Engineer, Director\nSease Ltd. - www.sease.io\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Apache-Solr-4-10-x-Collection-Reload-times-out-tp4346075p4347347.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 466,
+      "end": 583,
+      "text": "---------------\nAlessandro Benedetti\nSearch Consultant, R&D Software Engineer, Director\nSease Ltd. - www.sease.io\n--\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 781,
+      "text": "1) nope, no big tlog or replaying problem\n\n2) Solr just seem freezed. Not responsive and nothing in the log.\nNow I just tried just to restart after the Zookeeper config deploy and on\nrestart the log complety freezes and the instances don't come up...\nIf I clean the indexes and then start, this works.\nSolr is deployed in Jboss, so I don't know if the stop is too aggressive and\nbreaks something.\n\n3) No problem at all!\n\nI will continue with some analysis.\n\n\n\n-----\n---------------\nAlessandro Benedetti\nSearch Consultant, R&D Software Engineer, Director\nSease Ltd. - www.sease.io\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Apache-Solr-4-10-x-Collection-Reload-times-out-tp4346075p4347347.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4812"
+}

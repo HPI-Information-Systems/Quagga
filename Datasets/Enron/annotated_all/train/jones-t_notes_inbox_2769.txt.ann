@@ -1,0 +1,568 @@
+{
+  "wrapper": "plaintext",
+  "text": "Tana:\n\nThis CP is not authorized to trade physical US power products.  I will leave \nit to you to determine if it should be granted access to any other \ncommodities.\n\nLeslie\n----- Forwarded by Leslie Hansen/HOU/ECT on 11/30/2000 12:48 PM -----\n\n\tImelda Frayre\n\t11/21/2000 06:57 AM\n\t\t \n\t\t To: Leslie Hansen/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: New Counterparty - President & Fellows of Harvard College\n\nJust forwarding this to you per Justin Boyd's request.  The CP above is \napplying for trade access on EnronOnline.  Please let me know if you have any \ncomments.\n\nImelda Frayre\n---------------------- Forwarded by Imelda Frayre/LON/ECT on 21/11/2000 12:59 \n---------------------------\n\n\nJustin Boyd\n21/11/2000 09:38\nTo: Imelda Frayre/LON/ECT@ECT\ncc:  \n\nSubject: Re: New Counterparty - President & Fellows of Harvard College  \n\nImelda\n\nYou will need to ask the US group whether this gives rise to any \nissues....ask Leslie Hansen\n\nThanks.\nJustin\n \n\n\nTo: Justin Boyd/LON/ECT@ECT, ECT London Credit, Enron Europe Global \nCounterParty\ncc: Enron London - EOL Product Control Group/LON/ECT@ECT, EOL Marketing \nEurope@ECT, Lindsay F Edmonds/EU/Enron@Enron, Hamish M Scutt/EU/Enron@Enron, \nDiana Higgins/LON/ECT@ECT, Alan Jamieson/EU/Enron@Enron, Britta \nDinnendahl/LON/ECT@ECT, Alex Heath/LON/ECT@ECT, Robert Brewis/LON/ECT@ECT, \nChris Shapland/LON/ECT@ECT \n\nSubject: New Counterparty - President & Fellows of Harvard College\n\nHi\n\nWe've received a PA registration form from President & Fellows of Harvard \nCollege  for EnronOnline.  I've entered the customer details in the customer \ndatabase (s:/access database).  Please review and confirm via return e-mail \nonce approval is completed.  Attached is the PA registration form for your \nreview.   \n\nRegards\n\nImelda Frayre\n\n---------------------- Forwarded by Imelda Frayre/LON/ECT on 21/11/2000 07:53 \n---------------------------\n\n\nLondon Fax System\n20/11/2000 22:07\nTo: Enron London - EOL Product Control Group/LON/ECT@ECT\ncc:  \n\nSubject: New fax received (Likely sender: 713 646 8511).\n\n\nYou have received a new fax from 713 646 8511\n\nThe image contains 3 page(s).\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 167,
+      "end": 173,
+      "text": "Leslie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 174,
+      "text": "Tana:\n\nThis CP is not authorized to trade physical US power products.  I will leave \nit to you to determine if it should be granted access to any other \ncommodities.\n\nLeslie\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 193,
+      "end": 206,
+      "text": "Leslie Hansen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 218,
+      "end": 228,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 229,
+      "end": 237,
+      "text": "12:48 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 174,
+      "end": 244,
+      "text": "----- Forwarded by Leslie Hansen/HOU/ECT on 11/30/2000 12:48 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 246,
+      "end": 259,
+      "text": "Imelda Frayre",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 261,
+      "end": 271,
+      "text": "11/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 272,
+      "end": 280,
+      "text": "06:57 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 292,
+      "end": 305,
+      "text": "Leslie Hansen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 338,
+      "end": 399,
+      "text": "Re: New Counterparty - President & Fellows of Harvard College",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 244,
+      "end": 400,
+      "text": "\n\tImelda Frayre\n\t11/21/2000 06:57 AM\n\t\t \n\t\t To: Leslie Hansen/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: New Counterparty - President & Fellows of Harvard College\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 564,
+      "end": 577,
+      "text": "Imelda Frayre",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 400,
+      "end": 578,
+      "text": "\nJust forwarding this to you per Justin Boyd's request.  The CP above is \napplying for trade access on EnronOnline.  Please let me know if you have any \ncomments.\n\nImelda Frayre\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 614,
+      "end": 627,
+      "text": "Imelda Frayre",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 639,
+      "end": 649,
+      "text": "21/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 650,
+      "end": 655,
+      "text": "12:59",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 578,
+      "end": 685,
+      "text": "---------------------- Forwarded by Imelda Frayre/LON/ECT on 21/11/2000 12:59 \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 687,
+      "end": 698,
+      "text": "Justin Boyd",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 699,
+      "end": 709,
+      "text": "21/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 710,
+      "end": 715,
+      "text": "09:38",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 720,
+      "end": 733,
+      "text": "Imelda Frayre",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 762,
+      "end": 823,
+      "text": "Re: New Counterparty - President & Fellows of Harvard College",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 685,
+      "end": 826,
+      "text": "\n\nJustin Boyd\n21/11/2000 09:38\nTo: Imelda Frayre/LON/ECT@ECT\ncc:  \n\nSubject: Re: New Counterparty - President & Fellows of Harvard College  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 827,
+      "end": 833,
+      "text": "Imelda",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 938,
+      "end": 944,
+      "text": "Justin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 930,
+      "end": 944,
+      "text": "Thanks.\nJustin",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 826,
+      "end": 949,
+      "text": "\nImelda\n\nYou will need to ask the US group whether this gives rise to any \nissues....ask Leslie Hansen\n\nThanks.\nJustin\n \n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 953,
+      "end": 964,
+      "text": "Justin Boyd",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1035,
+      "end": 1075,
+      "text": "Enron London - EOL Product Control Group",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1089,
+      "end": 1110,
+      "text": "EOL Marketing \nEurope",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1116,
+      "end": 1133,
+      "text": "Lindsay F Edmonds",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1150,
+      "end": 1164,
+      "text": "Hamish M Scutt",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1182,
+      "end": 1195,
+      "text": "Diana Higgins",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1209,
+      "end": 1222,
+      "text": "Alan Jamieson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1239,
+      "end": 1257,
+      "text": "Britta \nDinnendahl",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1271,
+      "end": 1281,
+      "text": "Alex Heath",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1295,
+      "end": 1308,
+      "text": "Robert Brewis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1323,
+      "end": 1337,
+      "text": "Chris Shapland",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1361,
+      "end": 1418,
+      "text": "New Counterparty - President & Fellows of Harvard College",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 949,
+      "end": 1419,
+      "text": "To: Justin Boyd/LON/ECT@ECT, ECT London Credit, Enron Europe Global \nCounterParty\ncc: Enron London - EOL Product Control Group/LON/ECT@ECT, EOL Marketing \nEurope@ECT, Lindsay F Edmonds/EU/Enron@Enron, Hamish M Scutt/EU/Enron@Enron, \nDiana Higgins/LON/ECT@ECT, Alan Jamieson/EU/Enron@Enron, Britta \nDinnendahl/LON/ECT@ECT, Alex Heath/LON/ECT@ECT, Robert Brewis/LON/ECT@ECT, \nChris Shapland/LON/ECT@ECT \n\nSubject: New Counterparty - President & Fellows of Harvard College\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1420,
+      "end": 1422,
+      "text": "Hi",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1742,
+      "end": 1764,
+      "text": "Regards\n\nImelda Frayre",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1751,
+      "end": 1764,
+      "text": "Imelda Frayre",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1419,
+      "end": 1766,
+      "text": "\nHi\n\nWe've received a PA registration form from President & Fellows of Harvard \nCollege  for EnronOnline.  I've entered the customer details in the customer \ndatabase (s:/access database).  Please review and confirm via return e-mail \nonce approval is completed.  Attached is the PA registration form for your \nreview.   \n\nRegards\n\nImelda Frayre\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1802,
+      "end": 1815,
+      "text": "Imelda Frayre",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1827,
+      "end": 1837,
+      "text": "21/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1838,
+      "end": 1843,
+      "text": "07:53",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1766,
+      "end": 1873,
+      "text": "---------------------- Forwarded by Imelda Frayre/LON/ECT on 21/11/2000 07:53 \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1875,
+      "end": 1892,
+      "text": "London Fax System",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1893,
+      "end": 1903,
+      "text": "20/11/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1904,
+      "end": 1909,
+      "text": "22:07",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1914,
+      "end": 1954,
+      "text": "Enron London - EOL Product Control Group",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1983,
+      "end": 2030,
+      "text": "New fax received (Likely sender: 713 646 8511).",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1873,
+      "end": 2031,
+      "text": "\n\nLondon Fax System\n20/11/2000 22:07\nTo: Enron London - EOL Product Control Group/LON/ECT@ECT\ncc:  \n\nSubject: New fax received (Likely sender: 713 646 8511).\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2031,
+      "end": 2117,
+      "text": "\n\nYou have received a new fax from 713 646 8511\n\nThe image contains 3 page(s).\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 23,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 27,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 23,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 30,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 45,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 47,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 54,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8620765.1075847137534.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Nov 2000 04:49:00 -0800 (PST)",
+      "From": "leslie.hansen@enron.com",
+      "To": "tana.jones@enron.com, imelda.frayre@enron.com",
+      "Subject": "Re: New Counterparty - President & Fellows of Harvard College",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Leslie Hansen",
+      "X-To": "Tana Jones, Imelda Frayre",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_2769.txt"
+}

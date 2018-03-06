@@ -1,0 +1,32 @@
+Hi,
+
+The MLT documentation says that for best results, the fields should have
+stored term vectors in schema.xml, with:
+
+<field name="cat" ... termVectors="true" />
+
+My question: should I also create the TermVectorComponent and declare it in
+the search handler?
+
+In other terms, do I have to do this in my solrconfig.xml for best results?
+
+<searchComponent name="tvComponent"
+class="org.apache.solr.handler.component.TermVectorComponent"/>
+
+<requestHandler name="/tvrh" class=
+"org.apache.solr.handler.component.SearchHandler">
+  <lst name="defaults">
+    <bool name="tv">true</bool>
+  </lst>
+  <arr name="last-components">
+    <str>tvComponent</str>
+  </arr>
+</requestHandler>
+
+
+I am seeing continuously increasing MLT response times and I am wondering
+if I am doing something wrong.
+
+Thanks.
+Max.
+

@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Evening MBA Students:\n\nThis evening we contacted the students who got into the classes they\nrequested.  This was the SECOND ROUND.\n\nIf you were not contacted, we will continue to look at add/drops as they\nare submitted.\n\nThanks and see you,\nTJ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 22,
+      "text": "Evening MBA Students:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 221,
+      "end": 243,
+      "text": "Thanks and see you,\nTJ",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 243,
+      "text": "Evening MBA Students:\n\nThis evening we contacted the students who got into the classes they\nrequested.  This was the SECOND ROUND.\n\nIf you were not contacted, we will continue to look at add/drops as they\nare submitted.\n\nThanks and see you,\nTJ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26209610.1075843102620.JavaMail.evans@thyme>",
+      "Date": "Thu, 7 Sep 2000 15:50:00 -0700 (PDT)",
+      "From": "owner-eveningmba@haas.berkeley.edu",
+      "To": "eveningmba@haas.berkeley.edu",
+      "Subject": "Second Round classes",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "owner-eveningmba@Haas.Berkeley.EDU",
+      "X-To": "eveningmba@haas.berkeley.edu",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_300.txt"
+}

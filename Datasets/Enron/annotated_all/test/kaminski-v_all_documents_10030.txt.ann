@@ -1,0 +1,285 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vince,\n\nWe have many Associates that we have to place within business units.  \nThereafter, if there are additional hiring needs, we will consider her \nresume.  \n\nRegards,\nShannon\n\n\n\n\n\nVince J Kaminski\n03/16/2000 05:32 PM\nTo: Shannon Rodgers/HOU/ECT@ECT\ncc: Vince J Kaminski/HOU/ECT@ECT \nSubject: Re: Resume of Carla Di Castro  \n\nShannon,\n\nI realize that the program is full. If I find a group interested in her,\nwould you consider re-inviting her?\n\n\nVince\n\n\n\n\n\nShannon Rodgers\n03/16/2000 01:52 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Resume of Carla Di Castro\n\nVince,\n\nThank you for forwarding the resume of Carla Di Castro.  Currently, our \nSummer Associate Internship program is full.  I have responded to Carla to \ninform her of the program's status.  \n\nRegards,\nShannon\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 171,
+      "end": 178,
+      "text": "Shannon",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 162,
+      "end": 179,
+      "text": "Regards,\nShannon\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 184,
+      "text": "Vince,\n\nWe have many Associates that we have to place within business units.  \nThereafter, if there are additional hiring needs, we will consider her \nresume.  \n\nRegards,\nShannon\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 184,
+      "end": 200,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 201,
+      "end": 211,
+      "text": "03/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 212,
+      "end": 220,
+      "text": "05:32 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 225,
+      "end": 240,
+      "text": "Shannon Rodgers",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 257,
+      "end": 273,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 295,
+      "end": 326,
+      "text": " Re: Resume of Carla Di Castro ",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 184,
+      "end": 328,
+      "text": "Vince J Kaminski\n03/16/2000 05:32 PM\nTo: Shannon Rodgers/HOU/ECT@ECT\ncc: Vince J Kaminski/HOU/ECT@ECT \nSubject: Re: Resume of Carla Di Castro  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 329,
+      "end": 336,
+      "text": "Shannon",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 450,
+      "end": 455,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 328,
+      "end": 461,
+      "text": "\nShannon,\n\nI realize that the program is full. If I find a group interested in her,\nwould you consider re-inviting her?\n\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 461,
+      "end": 476,
+      "text": "Shannon Rodgers",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 477,
+      "end": 487,
+      "text": "03/16/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 488,
+      "end": 496,
+      "text": "01:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 501,
+      "end": 517,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 545,
+      "end": 570,
+      "text": "Resume of Carla Di Castro",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 461,
+      "end": 571,
+      "text": "Shannon Rodgers\n03/16/2000 01:52 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Resume of Carla Di Castro\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 572,
+      "end": 577,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 768,
+      "end": 784,
+      "text": "Regards,\nShannon",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 777,
+      "end": 784,
+      "text": "Shannon",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 571,
+      "end": 789,
+      "text": "\nVince,\n\nThank you for forwarding the resume of Carla Di Castro.  Currently, our \nSummer Associate Internship program is full.  I have responded to Carla to \ninform her of the program's status.  \n\nRegards,\nShannon\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 9,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 18,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 15,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 21,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 15,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17421769.1075856758708.JavaMail.evans@thyme>",
+      "Date": "Fri, 17 Mar 2000 05:51:00 -0800 (PST)",
+      "From": "shannon.rodgers@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "Re: Resume of Carla Di Castro",
+      "Cc": "joan.woodson@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "joan.woodson@enron.com",
+      "X-From": "Shannon Rodgers",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "Joan Woodson",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_6\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_10030.txt"
+}

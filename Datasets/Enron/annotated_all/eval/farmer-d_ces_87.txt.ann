@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Ami Chokshi/Corp/Enron on 06/16/2000 \n05:36 PM ---------------------------\n\n\n\"Steve Holmes\" <Steve.Holmes@dvn.com> on 06/16/2000 05:10:37 PM\nTo: <Ami.Chokshi@enron.com>, <Christina.Sanchez@enron.com>\ncc:  \n\nSubject: Revised Sea Robin Availabilities effective 6/17/00\n\n\nChristina,\nPer our conversation this afternoon, I have revised the availabilities for \nthose meters that have a PVR deduction effective 6/17/00.  I will let you \nknow as soon as I hear anything about the Sea Robin plant coming back online.\n\nSteve\n\n - EI305reveff061700.xls\n - EI330Areveff061700#2.xls\n - EI330Breveff061700.xls\n - EI330Creveff061700.xls\n - EI333reveff061700.xls\n - EI337reveff061700.xls\n - SMI23reveff061700.xls\n - SMI41reveff061700.xls\n - SMI128reveff061700#2.xls\n - WC560reveff061700.xls\n - WC580reveff061700.xls\n - GB128reveff061700.xls\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Ami Chokshi/Corp/Enron on 06/16/2000 \n05:36 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 303,
+      "text": "\n\n\"Steve Holmes\" <Steve.Holmes@dvn.com> on 06/16/2000 05:10:37 PM\nTo: <Ami.Chokshi@enron.com>, <Christina.Sanchez@enron.com>\ncc:  \n\nSubject: Revised Sea Robin Availabilities effective 6/17/00\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 304,
+      "end": 316,
+      "text": "\nChristina,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 545,
+      "end": 552,
+      "text": "\nSteve\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 303,
+      "end": 861,
+      "text": "\n\nChristina,\nPer our conversation this afternoon, I have revised the availabilities for \nthose meters that have a PVR deduction effective 6/17/00.  I will let you \nknow as soon as I hear anything about the Sea Robin plant coming back online.\n\nSteve\n\n - EI305reveff061700.xls\n - EI330Areveff061700#2.xls\n - EI330Breveff061700.xls\n - EI330Creveff061700.xls\n - EI333reveff061700.xls\n - EI337reveff061700.xls\n - SMI23reveff061700.xls\n - SMI41reveff061700.xls\n - SMI128reveff061700#2.xls\n - WC560reveff061700.xls\n - WC580reveff061700.xls\n - GB128reveff061700.xls\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23804599.1075854040596.JavaMail.evans@thyme>",
+      "Date": "Fri, 16 Jun 2000 10:37:00 -0700 (PDT)",
+      "From": "ami.chokshi@enron.com",
+      "To": "george.smith@enron.com, edward.terry@enron.com, tricia.bowen@enron.com, \n\tvictor.lamadrid@enron.com, mark.schrab@enron.com, \n\tdarren.espey@enron.com, margie.straight@enron.com, \n\tcharles.muzzy@enron.com, sabra.dinari@enron.com, joe.casas@enron.com, \n\tchristina.sanchez@enron.com, lisa.kinsey@enron.com, \n\tkirk.lenart@enron.com, daren.farmer@enron.com, \n\tbeverly.beaty@enron.com",
+      "Subject": "Revised Sea Robin Availabilities effective 6/17/00",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Ami Chokshi",
+      "X-To": "George Smith, Edward Terry, Tricia Bowen, Victor Lamadrid, Mark L Schrab, Darren Espey, Margie Straight, Charles T Muzzy, Sabra L Dinari, Joe A Casas, Christina Sanchez, Lisa Kinsey, Kirk Lenart, Daren J Farmer, Beverly Beaty",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darren_Farmer_Dec2000\\Notes Folders\\Ces",
+      "X-Origin": "Farmer-D",
+      "X-FileName": "dfarmer.nsf"
+    }
+  },
+  "id": "eval/farmer-d_ces_87.txt"
+}

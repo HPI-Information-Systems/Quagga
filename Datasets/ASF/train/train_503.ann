@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "Alexandre:\n\nWe recommend only using alphanum and underscore here:\nhttps://cwiki.apache.org/confluence/display/solr/Defining+Fields. WDYT\nabout adding an explicit warning about this problem there? Or a JIRA\nabout \"field names with periods cannot use field qualifiers like\nf.<fieldname>.facet.limit where <fieldname> contains periods\"?\n\nErick\n\nOn Mon, Jan 30, 2017 at 10:35 AM, KRIS MUSSHORN <musshorns@comcast.net> wrote:\n>\n> Alexandre..\n>\n> Once i converted to fieldnames without dots it worked.. thank you\n>\n> Kris\n> ----- Original Message -----\n>\n> From: \"Alexandre Rafalovitch\" <arafalov@gmail.com>\n> To: \"solr-user\" <solr-user@lucene.apache.org>\n> Sent: Thursday, January 26, 2017 11:40:49 AM\n> Subject: Re: How to alter the facet query limit default\n>\n> facet.limit?\n> f.<fieldname>.facet.limit? (not sure how that would work with field\n> name that contains dots)\n>\n> Docs are at: https://cwiki.apache.org/confluence/display/solr/Faceting\n>\n> Regards,\n> Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n> On 26 January 2017 at 10:36, KRIS MUSSHORN <musshorns@comcast.net> wrote:\n>> SOLR 5.4.1 i am running a query with multiple facet fields.\n>> _snip_ select?q=*%3A*&sort=metatag.date.prefix4+DESC&rows=7910&fl=metatag.date.prefix7&wt=json&indent=true&facet=true&facet.field=metatag.date.prefix7\n&facet.field=metatag.date.prefix4&facet.field=metatag.doctype\n>>\n>> field metatag.date.prefix7 has way more facets than the default of 100.\n>>\n>> How would I set up solr, or modify my query, to ensure that the facets return all\nvalues.\n>>\n>> TIA,\n>>\n>> Kris\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Alexandre:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 334,
+      "end": 341,
+      "text": "\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 342,
+      "text": "Alexandre:\n\nWe recommend only using alphanum and underscore here:\nhttps://cwiki.apache.org/confluence/display/solr/Defining+Fields. WDYT\nabout adding an explicit warning about this problem there? Or a JIRA\nabout \"field names with periods cannot use field qualifiers like\nf.<fieldname>.facet.limit where <fieldname> contains periods\"?\n\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 342,
+      "end": 421,
+      "text": "On Mon, Jan 30, 2017 at 10:35 AM, KRIS MUSSHORN <musshorns@comcast.net> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 421,
+      "end": 437,
+      "text": ">\n> Alexandre..\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 507,
+      "end": 516,
+      "text": ">\n> Kris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 421,
+      "end": 516,
+      "text": ">\n> Alexandre..\n>\n> Once i converted to fieldnames without dots it worked.. thank you\n>\n> Kris\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 516,
+      "end": 755,
+      "text": "> ----- Original Message -----\n>\n> From: \"Alexandre Rafalovitch\" <arafalov@gmail.com>\n> To: \"solr-user\" <solr-user@lucene.apache.org>\n> Sent: Thursday, January 26, 2017 11:40:49 AM\n> Subject: Re: How to alter the facet query limit default\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 944,
+      "end": 965,
+      "text": ">\n> Regards,\n> Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 755,
+      "end": 1053,
+      "text": ">\n> facet.limit?\n> f.<fieldname>.facet.limit? (not sure how that would work with field\n> name that contains dots)\n>\n> Docs are at: https://cwiki.apache.org/confluence/display/solr/Faceting\n>\n> Regards,\n> Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1053,
+      "end": 1129,
+      "text": "> On 26 January 2017 at 10:36, KRIS MUSSHORN <musshorns@comcast.net> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1582,
+      "end": 1604,
+      "text": ">>\n>> TIA,\n>>\n>> Kris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1129,
+      "end": 1610,
+      "text": ">> SOLR 5.4.1 i am running a query with multiple facet fields.\n>> _snip_ select?q=*%3A*&sort=metatag.date.prefix4+DESC&rows=7910&fl=metatag.date.prefix7&wt=json&indent=true&facet=true&facet.field=metatag.date.prefix7\n&facet.field=metatag.date.prefix4&facet.field=metatag.doctype\n>>\n>> field metatag.date.prefix7 has way more facets than the default of 100.\n>>\n>> How would I set up solr, or modify my query, to ensure that the facets return all\nvalues.\n>>\n>> TIA,\n>>\n>> Kris\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_503"
+}

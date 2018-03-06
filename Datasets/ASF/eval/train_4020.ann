@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\nI want to aggregate hits by Country, State, City. I would these as tags in\nmy sample data.\n\nHow would I do aggregation at different levels ? Input data would be single\nrecord\n\nShould I do flatMap transformation first and create 3 records from 1 input\nrecord, or is there a better way to do it ?\n\nthank you,\nbasanth\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 299,
+      "end": 319,
+      "text": "\nthank you,\nbasanth\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 320,
+      "text": "Hi,\nI want to aggregate hits by Country, State, City. I would these as tags in\nmy sample data.\n\nHow would I do aggregation at different levels ? Input data would be single\nrecord\n\nShould I do flatMap transformation first and create 3 records from 1 input\nrecord, or is there a better way to do it ?\n\nthank you,\nbasanth\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_4020"
+}

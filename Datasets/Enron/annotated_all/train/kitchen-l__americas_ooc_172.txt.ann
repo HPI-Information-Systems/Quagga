@@ -1,0 +1,167 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is the Enron Americas master schedule of events for 2001.\nThe approval process that was established in EA has enabled my department to easily track event costs and provide overall savings by leveraging the fees for items such as hotel rates, audio/visual, transportation and printing charges.\nI will update this schedule after each quarter.\nPlease let me know if you have any questions or require additional information.\nThanks.\n \n\n\n  \nDorie Hitchcock\nEvent Manager\nEnron\n1400 Smith Street\nSuite 3640a\nHouston, TX  77002\nTelephone:  (713) 853-6978\nFax:  (713) 646-5800\nCell:  (713) 594-7093\nE-Mail:  dorie.hitchcock@enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 445,
+      "end": 460,
+      "text": "Dorie Hitchcock",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 461,
+      "end": 474,
+      "text": "Event Manager",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 475,
+      "end": 480,
+      "text": "Enron",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 481,
+      "end": 529,
+      "text": "1400 Smith Street\nSuite 3640a\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 542,
+      "end": 556,
+      "text": "(713) 853-6978",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 563,
+      "end": 577,
+      "text": "(713) 646-5800",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 584,
+      "end": 599,
+      "text": " (713) 594-7093",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 609,
+      "end": 634,
+      "text": "dorie.hitchcock@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 445,
+      "end": 634,
+      "text": "Dorie Hitchcock\nEvent Manager\nEnron\n1400 Smith Street\nSuite 3640a\nHouston, TX  77002\nTelephone:  (713) 853-6978\nFax:  (713) 646-5800\nCell:  (713) 594-7093\nE-Mail:  dorie.hitchcock@enron.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 430,
+      "end": 437,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 634,
+      "text": "Attached is the Enron Americas master schedule of events for 2001.\nThe approval process that was established in EA has enabled my department to easily track event costs and provide overall savings by leveraging the fees for items such as hotel rates, audio/visual, transportation and printing charges.\nI will update this schedule after each quarter.\nPlease let me know if you have any questions or require additional information.\nThanks.\n \n\n\n  \nDorie Hitchcock\nEvent Manager\nEnron\n1400 Smith Street\nSuite 3640a\nHouston, TX  77002\nTelephone:  (713) 853-6978\nFax:  (713) 646-5800\nCell:  (713) 594-7093\nE-Mail:  dorie.hitchcock@enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 7,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 8,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9806120.1075852999387.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Jul 2001 11:13:22 -0700 (PDT)",
+      "From": "dorie.hitchcock@enron.com",
+      "To": "louise.kitchen@enron.com, john.lavorato@enron.com",
+      "Subject": "EA EVENT MASTER SCHEDULE",
+      "Cc": "tammie.schoppe@enron.com, kimberly.hillis@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "tammie.schoppe@enron.com, kimberly.hillis@enron.com",
+      "X-From": "Hitchcock, Dorie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DHITCHC>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>, Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlavora>",
+      "X-cc": "Schoppe, Tammie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tstaggs>, Hillis, Kimberly </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Khillis>",
+      "X-bcc": "",
+      "X-Folder": "\\LKITCHEN (Non-Privileged)\\'Americas\\OOC",
+      "X-Origin": "Kitchen-L",
+      "X-FileName": "LKITCHEN (Non-Privileged).pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_ooc_172.txt"
+}

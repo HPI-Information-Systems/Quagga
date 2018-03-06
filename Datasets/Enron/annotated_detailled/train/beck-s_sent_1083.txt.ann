@@ -1,0 +1,285 @@
+{
+  "wrapper": "plaintext",
+  "text": "I meant to blind copy you on this.  Here it is...\n---------------------- Forwarded by Sally Beck/HOU/ECT on 12/14/2000 11:25 AM \n---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Sally Beck                           12/14/2000 11:25 AM\n\t\n\nTo: Kimberly Hillis/HOU/ECT@ect\ncc:  \nSubject: Re: The Assistant's Party  \n\nThanks for taking the time to send your note.  I am glad that the party was \nsuch a success and that Heather was able to contribute to that.  Heather is \nabsolutely a wonderful asset to our team and to the company.  Thanks for your \nacknowledgement of that.  --Sally \n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Kimberly Hillis                           12/13/2000 10:33 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: The Assistant's Party\n\nSally,\n\nI wanted to send you a short note to tell you about the success of last \nnights Office of the Chairman Holiday Assistant's Party.\n\nThe party was an absolute success, but one of the main reasons why was \nbecause of Heather Choate.  I sent out ONE email to Patti and she recruited \nHeather who made huge efforts to get some wonderful gifts to be given out. \n\nIt is nice to see people truly going above and beyond!  She was a superstar!\n\nKim Hillis\nx30681\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 50,
+      "text": "I meant to blind copy you on this.  Here it is...\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 86,
+      "end": 96,
+      "text": "Sally Beck",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 108,
+      "end": 118,
+      "text": "12/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 119,
+      "end": 127,
+      "text": "11:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 50,
+      "end": 157,
+      "text": "---------------------- Forwarded by Sally Beck/HOU/ECT on 12/14/2000 11:25 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 157,
+      "end": 190,
+      "text": "   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 162,
+      "end": 187,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 198,
+      "end": 208,
+      "text": "Sally Beck",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 235,
+      "end": 245,
+      "text": "12/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 246,
+      "end": 254,
+      "text": "11:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 262,
+      "end": 277,
+      "text": "Kimberly Hillis",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 305,
+      "end": 330,
+      "text": "Re: The Assistant's Party",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 191,
+      "end": 333,
+      "text": "From:  Sally Beck                           12/14/2000 11:25 AM\n\t\n\nTo: Kimberly Hillis/HOU/ECT@ect\ncc:  \nSubject: Re: The Assistant's Party  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 595,
+      "end": 600,
+      "text": "Sally",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 609,
+      "end": 634,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 333,
+      "end": 637,
+      "text": "\nThanks for taking the time to send your note.  I am glad that the party was \nsuch a success and that Heather was able to contribute to that.  Heather is \nabsolutely a wonderful asset to our team and to the company.  Thanks for your \nacknowledgement of that.  --Sally \n\n\n   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 645,
+      "end": 660,
+      "text": "Kimberly Hillis",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 687,
+      "end": 697,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 698,
+      "end": 706,
+      "text": "10:33 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 714,
+      "end": 724,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 752,
+      "end": 773,
+      "text": "The Assistant's Party",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 638,
+      "end": 774,
+      "text": "From:  Kimberly Hillis                           12/13/2000 10:33 AM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT\ncc:  \nSubject: The Assistant's Party\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 775,
+      "end": 780,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1218,
+      "end": 1228,
+      "text": "Kim Hillis",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1218,
+      "end": 1236,
+      "text": "Kim Hillis\nx30681\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 774,
+      "end": 1239,
+      "text": "\nSally,\n\nI wanted to send you a short note to tell you about the success of last \nnights Office of the Chairman Holiday Assistant's Party.\n\nThe party was an absolute success, but one of the main reasons why was \nbecause of Heather Choate.  I sent out ONE email to Patti and she recruited \nHeather who made huge efforts to get some wonderful gifts to be given out. \n\nIt is nice to see people truly going above and beyond!  She was a superstar!\n\nKim Hillis\nx30681\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 20,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 24,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26304218.1075856081460.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Dec 2000 03:26:00 -0800 (PST)",
+      "From": "sally.beck@enron.com",
+      "To": "heather.choate@enron.com",
+      "Subject": "Re: The Assistant's Party",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Heather Choate",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_sent_1083.txt"
+}

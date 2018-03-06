@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nAs far as I understand you can hookup lucene syntax with <UserQuery>.\n\nOn Mon, Feb 6, 2017 at 2:18 PM, Puneet Pawaia <puneet.pawaia@gmail.com>\nwrote:\n\n> Hi,\n>\n> I see that the Lucene XMLQueryParser still does not support some query\n> types like Wildcard queries and Prefix queries.\n> How is the search for terms with wildcards etc proposed to be handled by\n> XmlQueryParser?\n>\n> Thanks.\n> Puneet\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 79,
+      "text": "Hello,\n\nAs far as I understand you can hookup lucene syntax with <UserQuery>.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 79,
+      "end": 158,
+      "text": "On Mon, Feb 6, 2017 at 2:18 PM, Puneet Pawaia <puneet.pawaia@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 158,
+      "end": 165,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 383,
+      "end": 404,
+      "text": ">\n> Thanks.\n> Puneet\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 409,
+      "end": 446,
+      "text": "-- \nSincerely yours\nMikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 158,
+      "end": 447,
+      "text": "\n> Hi,\n>\n> I see that the Lucene XMLQueryParser still does not support some query\n> types like Wildcard queries and Prefix queries.\n> How is the search for terms with wildcards etc proposed to be handled by\n> XmlQueryParser?\n>\n> Thanks.\n> Puneet\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_787"
+}

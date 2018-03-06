@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "May be you can click  Header Status cloumn of Task section,then failed task\nwill appear first.\n\n2017-07-25 10:02 GMT+08:00 jeff saremi <jeffsaremi@hotmail.com>:\n\n> On the Spark status UI you can click Stages on the menu and see Active\n> (and completed stages). For the active stage, you can see Succeeded/Total\n> and a count of failed ones in paranthesis.\n>\n> I'm looking for a way to go straight to the failed tasks and list the\n> errors. Currently I must go into details on that stage, then scroll down to\n> Tasks section. Change the number of records per page so I can see\n> everything. and click Go. There is no way that I can just filter the ones\n> with errors\n>\n> thanks\n>\n> jeff\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 96,
+      "text": "May be you can click  Header Status cloumn of Task section,then failed task\nwill appear first.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 96,
+      "end": 161,
+      "text": "2017-07-25 10:02 GMT+08:00 jeff saremi <jeffsaremi@hotmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 666,
+      "end": 686,
+      "text": ">\n> thanks\n>\n> jeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 161,
+      "end": 693,
+      "text": "\n> On the Spark status UI you can click Stages on the menu and see Active\n> (and completed stages). For the active stage, you can see Succeeded/Total\n> and a count of failed ones in paranthesis.\n>\n> I'm looking for a way to go straight to the failed tasks and list the\n> errors. Currently I must go into details on that stage, then scroll down to\n> Tasks section. Change the number of records per page so I can see\n> everything. and click Go. There is no way that I can just filter the ones\n> with errors\n>\n> thanks\n>\n> jeff\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4425"
+}

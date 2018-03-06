@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "hi guys,\n\n\nan uber/fat jar file has been created to run with spark in CDH yarc client\nmode.\n\nAs usual job is submitted to the edge node.\n\ndoes the jar file has to be placed in the same directory ewith spark is\nrunning in the cluster to make it work?\n\nAlso what will happen if say out of 9 nodes running spark, 3 have not got\nthe jar file. will that job fail or it will carry on on the fremaing 6\nnodes that have that jar file?\n\nthanks\n\nDr Mich Talebzadeh\n\n\n\nLinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n<https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n\n\n\nhttp://talebzadehmich.wordpress.com\n\n\n*Disclaimer:* Use it at your own risk. Any and all responsibility for any\nloss, damage or destruction of data or any other property which may arise\nfrom relying on this email's technical content is explicitly disclaimed.\nThe author will in no case be liable for any monetary damages arising from\nsuch loss, damage or destruction.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "hi guys,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 427,
+      "end": 455,
+      "text": "\nthanks\n\nDr Mich Talebzadeh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1006,
+      "text": "hi guys,\n\n\nan uber/fat jar file has been created to run with spark in CDH yarc client\nmode.\n\nAs usual job is submitted to the edge node.\n\ndoes the jar file has to be placed in the same directory ewith spark is\nrunning in the cluster to make it work?\n\nAlso what will happen if say out of 9 nodes running spark, 3 have not got\nthe jar file. will that job fail or it will carry on on the fremaing 6\nnodes that have that jar file?\n\nthanks\n\nDr Mich Talebzadeh\n\n\n\nLinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw\n<https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*\n\n\n\nhttp://talebzadehmich.wordpress.com\n\n\n*Disclaimer:* Use it at your own risk. Any and all responsibility for any\nloss, damage or destruction of data or any other property which may arise\nfrom relying on this email's technical content is explicitly disclaimed.\nThe author will in no case be liable for any monetary damages arising from\nsuch loss, damage or destruction.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4224"
+}

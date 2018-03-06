@@ -1,0 +1,27 @@
+On 7/14/2017 8:29 AM, Nawab Zada Asad Iqbal wrote:
+> I want my solr to restart if the process crashes; I am wondering if there
+> is any drawback which I should consider?
+> I am considering to use 'daemon --respawn' in the bin/solr;
+
+The included scripts already run Solr in the background.  I don't know
+if that's enough to call it a daemon, but it's pretty close even if it's
+not technically accurate.
+
+Solr almost never *crashes*.  I've never seen it happen, and I've been
+using Solr for seven years.  Typically if a Solr process were to
+actually crash, it would be caused by a problem with Java itself, a
+problem with the local Solr installation, or a problem with the
+operating system.
+
+Modern Solr versions (if running on non-Windows systems) *do* kill
+themselves if an OutOfMemoryError exception occurs ... but if that
+happens, you do not want to automatically restart Solr -- you need to
+figure out why the OOME happened and fix it.  After a Java program
+encounters OOME, it is completely unpredictable and can destroy its
+data.  If the OOME was not caused by an atypical query, it is almost
+guaranteed to happen again.
+
+Thanks,
+Shawn
+
+

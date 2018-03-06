@@ -1,0 +1,803 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Steven J Kean/NA/Enron on 11/28/2000 11:05 AM -----\n\n\tKaren Denne\n\t11/27/2000 04:33 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Jeff \nDasovich/NA/Enron@Enron, Paul Kaufman/PDX/ECT@ECT, Sandra \nMcCubbin/NA/Enron@Enron, Mona L Petrochko/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON, Peggy Mahoney/HOU/EES@EES\n\t\t cc: \n\t\t Subject: Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years\n\nfyi...\n---------------------- Forwarded by Karen Denne/Corp/Enron on 11/27/2000 \n03:58 PM ---------------------------\n\n\ntcwillia@duke-energy.com on 11/27/2000 02:23:42 PM\nTo: \"Andy Brown (IEP)\" <runwithmee@aol.com>, Bob Escalante at Constellation \n<Bob.escalante@powersrc.com>, Curtis Keebler at Reliant \n<curtis_l_kebler@reliantenergy.com>, Greg Blue <gtbl@dynegy.com>, \"Jack \nPigott @ Calpine\" <jackp@calpine.com>, Jan Smutny-Jones <smutny@iepa.com>, \n\"Joe Ronan @ Calpine\" <joer@calpine.com>, John Stout for Reliant \n<john_h_stout@reliantenergy.com>, \"Julie @ Edson\" <jmball@ns.net>, \"Karen \nDenne, Enron\" <kdenne@enron.com>, Karen Edson <kedson@ns.net>, \"Kassandra \nGough @ Calpine\" <kgough@calpine.com>, Katie at IEP <kaplan@iepa.com>, Lynn \nLednicky at Dynegy <lale@dynegy.com>, Marty Wilson <mwilson@pstrategies.com>, \nPaula Hall-Collins <paula.hall-collins@williams.com>, \"Richard Hyde, Duke\" \n<rwhyde@duke-energy.com>, Rob Lamkin <rllamkin@seiworldwide.com>, Roger \nPelote <roger.pelote@williams.com>, Stephanie Newell at Reliant \n<stephanie-newell@reliantenergy.com>, Steven Kelly <steven@iepa.com>\ncc:  \n\nSubject: Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years\n\n\nThe note below was sent to the 20 or so reporters that I have been working\nwith on the CA electricity crisis.\n\nFYI.\n\nBelow is a press release we distributed today that details a proposal we\nhave made to San Diego Gas & Electric to manage their entire electricity\nload (up to 3,300 megawatts) for five years at a fixed price of $60 a\nmegawatt hour.  The proposal was detailed in our comments to the Federal\nEnergy Regulatory Commission on their recent proposed solutions to\nCaifornia.\n\nAs the release indicates, forward contracting for electricity is a very\neffective way for the state's utilities to manage the volitility in the\nstate's electricity markets.  With natural gas prices more than doubling\nsince last year and last week being up to seven times higher than last year\non the spot market (up to $19 a million BTU vs. an average of about $2.50\nin 1999), we feel that its imperative for utilities to take advantage of\nthese contracts so they can manage their own risk  exposure and their\ncustomer's risk exposue to this volitility and the associated high prices.\n(The price of natural gas represents about 90 percent of our plant's\noperating costs).\n\nWe signed a forward power contract with PG&E Oct. 30 and Southern Cal\nEdison Nov. 15 (announced for the first time in the this release).  The\nFederal Energy Regulatory Commission strongly encourages these kind of\ncontracts -- and we hope that we, or other wholesale power marketers, can\ndo more of this kind of business with these utilities and SDG&E in the very\nnear future to bring stability to the state's wholesale electricity market.\n\nOur proposal is detailed on pages eight and nine in the FERC filing, which\nalso includes our other positions on the California electricity crisis.\nThese are also detailed on our CA web site at\nwww.Duke-Energy.com/California.\n\nFor more information, call me at 805-595-4270 or page me at 877-364-5170.\n\n(See attached file: Nov 27 release.doc)(See attached file: Duke Nov. 22\nFERC filing.doc)\n - Nov 27 release.doc\n - Duke Nov. 22 FERC filing.doc\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 32,
+      "text": "Steven J Kean",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 45,
+      "end": 55,
+      "text": "11/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 56,
+      "end": 64,
+      "text": "11:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 71,
+      "text": "----- Forwarded by Steven J Kean/NA/Enron on 11/28/2000 11:05 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 73,
+      "end": 84,
+      "text": "Karen Denne",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 86,
+      "end": 96,
+      "text": "11/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 97,
+      "end": 105,
+      "text": "04:33 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 117,
+      "end": 130,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 147,
+      "end": 162,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 179,
+      "end": 193,
+      "text": "Jeff \nDasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 210,
+      "end": 222,
+      "text": "Paul Kaufman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 236,
+      "end": 252,
+      "text": "Sandra \nMcCubbin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 269,
+      "end": 285,
+      "text": "Mona L Petrochko",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 302,
+      "end": 314,
+      "text": "Mark \nPalmer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 333,
+      "end": 346,
+      "text": "Peggy Mahoney",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 379,
+      "end": 457,
+      "text": "Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 71,
+      "end": 458,
+      "text": "\n\tKaren Denne\n\t11/27/2000 04:33 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron, Jeff \nDasovich/NA/Enron@Enron, Paul Kaufman/PDX/ECT@ECT, Sandra \nMcCubbin/NA/Enron@Enron, Mona L Petrochko/NA/Enron@Enron, Mark \nPalmer/Corp/Enron@ENRON, Peggy Mahoney/HOU/EES@EES\n\t\t cc: \n\t\t Subject: Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 458,
+      "end": 466,
+      "text": "\nfyi...\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 502,
+      "end": 513,
+      "text": "Karen Denne",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 528,
+      "end": 538,
+      "text": "11/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 540,
+      "end": 548,
+      "text": "03:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 466,
+      "end": 577,
+      "text": "---------------------- Forwarded by Karen Denne/Corp/Enron on 11/27/2000 \n03:58 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 579,
+      "end": 603,
+      "text": "tcwillia@duke-energy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 607,
+      "end": 617,
+      "text": "11/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 618,
+      "end": 629,
+      "text": "02:23:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 635,
+      "end": 645,
+      "text": "Andy Brown",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 654,
+      "end": 672,
+      "text": "runwithmee@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 675,
+      "end": 688,
+      "text": "Bob Escalante",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 708,
+      "end": 734,
+      "text": "Bob.escalante@powersrc.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 737,
+      "end": 751,
+      "text": "Curtis Keebler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 765,
+      "end": 798,
+      "text": "curtis_l_kebler@reliantenergy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 801,
+      "end": 810,
+      "text": "Greg Blue",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 812,
+      "end": 827,
+      "text": "gtbl@dynegy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 831,
+      "end": 843,
+      "text": "Jack \nPigott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 856,
+      "end": 873,
+      "text": "jackp@calpine.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 876,
+      "end": 892,
+      "text": "Jan Smutny-Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 894,
+      "end": 909,
+      "text": "smutny@iepa.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 914,
+      "end": 923,
+      "text": "Joe Ronan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 936,
+      "end": 952,
+      "text": "joer@calpine.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 955,
+      "end": 965,
+      "text": "John Stout",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 980,
+      "end": 1010,
+      "text": "john_h_stout@reliantenergy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1014,
+      "end": 1019,
+      "text": "Julie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1030,
+      "end": 1043,
+      "text": "jmball@ns.net",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1047,
+      "end": 1059,
+      "text": "Karen \nDenne",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1069,
+      "end": 1085,
+      "text": "kdenne@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1088,
+      "end": 1099,
+      "text": "Karen Edson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1101,
+      "end": 1114,
+      "text": "kedson@ns.net",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1118,
+      "end": 1134,
+      "text": "Kassandra \nGough",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1147,
+      "end": 1165,
+      "text": "kgough@calpine.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1168,
+      "end": 1173,
+      "text": "Katie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1182,
+      "end": 1197,
+      "text": "kaplan@iepa.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1200,
+      "end": 1214,
+      "text": "Lynn \nLednicky",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1226,
+      "end": 1241,
+      "text": "lale@dynegy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1244,
+      "end": 1256,
+      "text": "Marty Wilson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1258,
+      "end": 1281,
+      "text": "mwilson@pstrategies.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1285,
+      "end": 1303,
+      "text": "Paula Hall-Collins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1305,
+      "end": 1336,
+      "text": "paula.hall-collins@williams.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1340,
+      "end": 1352,
+      "text": "Richard Hyde",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1362,
+      "end": 1384,
+      "text": "rwhyde@duke-energy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1387,
+      "end": 1397,
+      "text": "Rob Lamkin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1399,
+      "end": 1424,
+      "text": "rllamkin@seiworldwide.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1427,
+      "end": 1439,
+      "text": "Roger \nPelot",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1442,
+      "end": 1467,
+      "text": "roger.pelote@williams.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1470,
+      "end": 1486,
+      "text": "Stephanie Newell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1500,
+      "end": 1534,
+      "text": "stephanie-newell@reliantenergy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1537,
+      "end": 1549,
+      "text": "Steven Kelly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1551,
+      "end": 1566,
+      "text": "steven@iepa.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1584,
+      "end": 1662,
+      "text": "Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 577,
+      "end": 1663,
+      "text": "\n\ntcwillia@duke-energy.com on 11/27/2000 02:23:42 PM\nTo: \"Andy Brown (IEP)\" <runwithmee@aol.com>, Bob Escalante at Constellation \n<Bob.escalante@powersrc.com>, Curtis Keebler at Reliant \n<curtis_l_kebler@reliantenergy.com>, Greg Blue <gtbl@dynegy.com>, \"Jack \nPigott @ Calpine\" <jackp@calpine.com>, Jan Smutny-Jones <smutny@iepa.com>, \n\"Joe Ronan @ Calpine\" <joer@calpine.com>, John Stout for Reliant \n<john_h_stout@reliantenergy.com>, \"Julie @ Edson\" <jmball@ns.net>, \"Karen \nDenne, Enron\" <kdenne@enron.com>, Karen Edson <kedson@ns.net>, \"Kassandra \nGough @ Calpine\" <kgough@calpine.com>, Katie at IEP <kaplan@iepa.com>, Lynn \nLednicky at Dynegy <lale@dynegy.com>, Marty Wilson <mwilson@pstrategies.com>, \nPaula Hall-Collins <paula.hall-collins@williams.com>, \"Richard Hyde, Duke\" \n<rwhyde@duke-energy.com>, Rob Lamkin <rllamkin@seiworldwide.com>, Roger \nPelote <roger.pelote@williams.com>, Stephanie Newell at Reliant \n<stephanie-newell@reliantenergy.com>, Steven Kelly <steven@iepa.com>\ncc:  \n\nSubject: Duke Energy proposes to manage SDG&E's entire electricity load for \nfive years\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 1663,
+      "end": 3708,
+      "text": "\n\nThe note below was sent to the 20 or so reporters that I have been working\nwith on the CA electricity crisis.\n\nFYI.\n\nBelow is a press release we distributed today that details a proposal we\nhave made to San Diego Gas & Electric to manage their entire electricity\nload (up to 3,300 megawatts) for five years at a fixed price of $60 a\nmegawatt hour.  The proposal was detailed in our comments to the Federal\nEnergy Regulatory Commission on their recent proposed solutions to\nCaifornia.\n\nAs the release indicates, forward contracting for electricity is a very\neffective way for the state's utilities to manage the volitility in the\nstate's electricity markets.  With natural gas prices more than doubling\nsince last year and last week being up to seven times higher than last year\non the spot market (up to $19 a million BTU vs. an average of about $2.50\nin 1999), we feel that its imperative for utilities to take advantage of\nthese contracts so they can manage their own risk  exposure and their\ncustomer's risk exposue to this volitility and the associated high prices.\n(The price of natural gas represents about 90 percent of our plant's\noperating costs).\n\nWe signed a forward power contract with PG&E Oct. 30 and Southern Cal\nEdison Nov. 15 (announced for the first time in the this release).  The\nFederal Energy Regulatory Commission strongly encourages these kind of\ncontracts -- and we hope that we, or other wholesale power marketers, can\ndo more of this kind of business with these utilities and SDG&E in the very\nnear future to bring stability to the state's wholesale electricity market.\n\nOur proposal is detailed on pages eight and nine in the FERC filing, which\nalso includes our other positions on the California electricity crisis.\nThese are also detailed on our CA web site at\nwww.Duke-Energy.com/California.\n\nFor more information, call me at 805-595-4270 or page me at 877-364-5170.\n\n(See attached file: Nov 27 release.doc)(See attached file: Duke Nov. 22\nFERC filing.doc)\n - Nov 27 release.doc\n - Duke Nov. 22 FERC filing.doc\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 3656,
+      "end": 3674,
+      "text": "Nov 27 release.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 3678,
+      "end": 3706,
+      "text": "Duke Nov. 22 FERC filing.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 3584,
+      "end": 3602,
+      "text": "Nov 27 release.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 3623,
+      "end": 3651,
+      "text": "Duke Nov. 22\nFERC filing.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 3564,
+      "end": 3707,
+      "text": "(See attached file: Nov 27 release.doc)(See attached file: Duke Nov. 22\nFERC filing.doc)\n - Nov 27 release.doc\n - Duke Nov. 22 FERC filing.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 66,
+      "target": 67,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 65,
+      "target": 64,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 63,
+      "target": 62,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 19,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 28,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 30,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 32,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 34,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 36,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 38,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 40,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 42,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 44,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 46,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 48,
+      "target": 49,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 50,
+      "target": 51,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 52,
+      "target": 53,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 54,
+      "target": 55,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 56,
+      "target": 57,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 58,
+      "target": 59,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 60,
+      "target": 61,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 62,
+      "target": 63,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23400051.1075858004789.JavaMail.evans@thyme>",
+      "Date": "Tue, 28 Nov 2000 03:06:00 -0800 (PST)",
+      "From": "steven.kean@enron.com",
+      "To": "greg.whalley@enron.com",
+      "Subject": "Duke Energy proposes to manage SDG&E's entire electricity load for\n five years",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Greg Whalley",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Lawrence_Whalley_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "Whalley-L",
+      "X-FileName": "gwhalley.nsf"
+    }
+  },
+  "id": "train/whalley-l_notes_inbox_227.txt"
+}

@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "John wanted me to send it to you.  We are going to ask Jinsung what the \ndifferences are once he gets out of this meeting.  Thanks\nBen",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 131,
+      "end": 134,
+      "text": "Ben",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 124,
+      "end": 134,
+      "text": "Thanks\nBen",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 134,
+      "text": "John wanted me to send it to you.  We are going to ask Jinsung what the \ndifferences are once he gets out of this meeting.  Thanks\nBen",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28588391.1075857246722.JavaMail.evans@thyme>",
+      "Date": "Wed, 8 Nov 2000 09:50:00 -0800 (PST)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "rippr@andrews-kurth.com",
+      "Subject": "Re:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Benjamin Rogers",
+      "X-To": "\"Roger Rippy\" <RIPPR@andrews-kurth.com> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_3\\Notes Folders\\'sent mail",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b__sent_mail_75.txt"
+}

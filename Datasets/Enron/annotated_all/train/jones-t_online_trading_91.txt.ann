@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Tana:\n\nThe following CPs are not authorized to trade US power:\n\nCity of Huntsville:  Not a current trading partner/not FERC approved\nCytec Industries Inc.:  Not a current trading partner/not FERC approved\nTorch Energy TM, Inc:  Not a current trading partner/not FERC approved; \nrestricted by credit\nTrans-World (Aluminum Inc.): Restricted by credit\n\n******************\n\nAmeren Services Company:  Sell pursuant to their Service Ag; Buy pursuant to \non-line GTCs\nWilliams Energy:  no change -- authorized to trade.\n\nLeslie",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 514,
+      "end": 520,
+      "text": "Leslie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 520,
+      "text": "Tana:\n\nThe following CPs are not authorized to trade US power:\n\nCity of Huntsville:  Not a current trading partner/not FERC approved\nCytec Industries Inc.:  Not a current trading partner/not FERC approved\nTorch Energy TM, Inc:  Not a current trading partner/not FERC approved; \nrestricted by credit\nTrans-World (Aluminum Inc.): Restricted by credit\n\n******************\n\nAmeren Services Company:  Sell pursuant to their Service Ag; Buy pursuant to \non-line GTCs\nWilliams Energy:  no change -- authorized to trade.\n\nLeslie",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29836218.1075847146944.JavaMail.evans@thyme>",
+      "Date": "Fri, 4 Aug 2000 02:59:00 -0700 (PDT)",
+      "From": "leslie.hansen@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "Re: EOL Credit Responses 08/03/00",
+      "Cc": "rhonda.denton@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "rhonda.denton@enron.com",
+      "X-From": "Leslie Hansen",
+      "X-To": "Tana Jones",
+      "X-cc": "Rhonda L Denton",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Online trading",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_online_trading_91.txt"
+}

@@ -1,0 +1,497 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI.  Please let us know if we will be receiving broker paper in Houston or \nwill it come to Portland?\n---------------------- Forwarded by Rhonda L Denton/HOU/ECT on 04/20/2001 \n08:15 AM ---------------------------\n\n\nJason Moore\n04/20/2001 08:10 AM\nTo: Rhonda L Denton/HOU/ECT@ECT\ncc:  \nSubject: Re: New Broker: Automated Power Exchange  \n\nThe counterparty has been linked to the Power Broker - Houston Group.\n\nJason Moore\n\n\n\n\n\nRhonda L Denton\n04/19/2001 04:16 PM\nTo: Jason Moore/HOU/ECT@ECT\ncc:  \nSubject: New Broker: Automated Power Exchange\n\nPlease link this CP to Enpower with group link of Power Broker-Houston.  \nPlease let me know when completed.  Thanks.\n---------------------- Forwarded by Rhonda L Denton/HOU/ECT on 04/19/2001 \n04:15 PM ---------------------------\n   Kate Symes                04/19/2001 03:25 PM\n\nTo: Melissa Ann Murphy/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT\ncc:  \nSubject: New Broker: Automated Power Exchange\n\nP.S. I mentioned this to you, Melissa. But just a reminder that we need the \ndefault broker fee on this to be $.03.\n\nThank you!\n---------------------- Forwarded by Kate Symes/PDX/ECT on 04/19/2001 01:32 PM \n---------------------------\n   Kate Symes                04/19/2001 01:20 PM\n\nTo: Melissa Ann Murphy/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT\ncc:  \n\nSubject: New Broker: Automated Power Exchange\n\nChris Foster has requested that we set up a new broker - the Automated Power \nExchange, in EnPower. It is the same counterparty we already have in EnPower, \nwith the same name and contact information. Melissa, I believe you said we \ncould pretty easily add the name in the broker list if it was the same as in \nthe counterparty list, which Chris has verified it is. Please let me know if \nyou need anymore information.\n\nThanks,\nKate\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 103,
+      "text": "FYI.  Please let us know if we will be receiving broker paper in Houston or \nwill it come to Portland?\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 139,
+      "end": 154,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 166,
+      "end": 176,
+      "text": "04/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 178,
+      "end": 186,
+      "text": "08:15 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 103,
+      "end": 215,
+      "text": "---------------------- Forwarded by Rhonda L Denton/HOU/ECT on 04/20/2001 \n08:15 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 217,
+      "end": 228,
+      "text": "Jason Moore",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 229,
+      "end": 239,
+      "text": "04/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 240,
+      "end": 248,
+      "text": "08:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 253,
+      "end": 268,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 296,
+      "end": 336,
+      "text": "Re: New Broker: Automated Power Exchange",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 215,
+      "end": 339,
+      "text": "\n\nJason Moore\n04/20/2001 08:10 AM\nTo: Rhonda L Denton/HOU/ECT@ECT\ncc:  \nSubject: Re: New Broker: Automated Power Exchange  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 411,
+      "end": 422,
+      "text": "Jason Moore",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 339,
+      "end": 428,
+      "text": "\nThe counterparty has been linked to the Power Broker - Houston Group.\n\nJason Moore\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 428,
+      "end": 443,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 444,
+      "end": 454,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 455,
+      "end": 463,
+      "text": "04:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 468,
+      "end": 479,
+      "text": "Jason Moore",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 507,
+      "end": 543,
+      "text": "New Broker: Automated Power Exchange",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 428,
+      "end": 544,
+      "text": "Rhonda L Denton\n04/19/2001 04:16 PM\nTo: Jason Moore/HOU/ECT@ECT\ncc:  \nSubject: New Broker: Automated Power Exchange\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 655,
+      "end": 662,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 544,
+      "end": 663,
+      "text": "\nPlease link this CP to Enpower with group link of Power Broker-Houston.  \nPlease let me know when completed.  Thanks.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 699,
+      "end": 714,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 726,
+      "end": 736,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 738,
+      "end": 746,
+      "text": "04:15 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 663,
+      "end": 775,
+      "text": "---------------------- Forwarded by Rhonda L Denton/HOU/ECT on 04/19/2001 \n04:15 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 778,
+      "end": 788,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 804,
+      "end": 814,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 815,
+      "end": 823,
+      "text": "03:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 829,
+      "end": 847,
+      "text": "Melissa Ann Murphy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 861,
+      "end": 876,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 904,
+      "end": 940,
+      "text": "New Broker: Automated Power Exchange",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 775,
+      "end": 941,
+      "text": "   Kate Symes                04/19/2001 03:25 PM\n\nTo: Melissa Ann Murphy/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT\ncc:  \nSubject: New Broker: Automated Power Exchange\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 942,
+      "end": 1058,
+      "text": "P.S. I mentioned this to you, Melissa. But just a reminder that we need the \ndefault broker fee on this to be $.03.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1059,
+      "end": 1069,
+      "text": "Thank you!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 941,
+      "end": 1070,
+      "text": "\nP.S. I mentioned this to you, Melissa. But just a reminder that we need the \ndefault broker fee on this to be $.03.\n\nThank you!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1106,
+      "end": 1116,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1128,
+      "end": 1138,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1139,
+      "end": 1147,
+      "text": "01:32 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1070,
+      "end": 1177,
+      "text": "---------------------- Forwarded by Kate Symes/PDX/ECT on 04/19/2001 01:32 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1180,
+      "end": 1190,
+      "text": "Kate Symes",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1206,
+      "end": 1216,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1217,
+      "end": 1225,
+      "text": "01:20 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1231,
+      "end": 1249,
+      "text": "Melissa Ann Murphy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1263,
+      "end": 1278,
+      "text": "Rhonda L Denton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1307,
+      "end": 1343,
+      "text": "New Broker: Automated Power Exchange",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1177,
+      "end": 1344,
+      "text": "   Kate Symes                04/19/2001 01:20 PM\n\nTo: Melissa Ann Murphy/HOU/ECT@ECT, Rhonda L Denton/HOU/ECT@ECT\ncc:  \n\nSubject: New Broker: Automated Power Exchange\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1773,
+      "end": 1777,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1765,
+      "end": 1778,
+      "text": "Thanks,\nKate\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1344,
+      "end": 1785,
+      "text": "\nChris Foster has requested that we set up a new broker - the Automated Power \nExchange, in EnPower. It is the same counterparty we already have in EnPower, \nwith the same name and contact information. Melissa, I believe you said we \ncould pretty easily add the name in the broker list if it was the same as in \nthe counterparty list, which Chris has verified it is. Please let me know if \nyou need anymore information.\n\nThanks,\nKate\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 40,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 44,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 43,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 47,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4796171.1075841711107.JavaMail.evans@thyme>",
+      "Date": "Fri, 20 Apr 2001 01:16:00 -0700 (PDT)",
+      "From": "rhonda.denton@enron.com",
+      "To": "kate.symes@enron.com, melissa.murphy@enron.com",
+      "Subject": "Re: New Broker: Automated Power Exchange",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Rhonda L Denton",
+      "X-To": "Kate Symes, Melissa Ann Murphy",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Confirms",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_confirms_48.txt"
+}

@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Further to that. What results do you get when you put those indexed terms into the Analysis\ntool on the Solr UI?\n\n-----Original Message-----\nFrom: Phil Scadden [mailto:P.Scadden@gns.cri.nz]\nSent: Tuesday, 1 August 2017 9:06 a.m.\nTo: solr-user@lucene.apache.org\nSubject: RE: Arabic words search in solr\n\nAm I correct in assuming that you have the problem searching only when there is a hyphen in\nyour indexed text? If you, then it would suggest that you need to use a different tokenizer\nwhen indexing - it looks like the hyphen is removed and words each side are concatenated -\nhence need both terms to find the text.\n\n-----Original Message-----\nFrom: mohanmca01 [mailto:mohanmca01@gmail.com]\nSent: Tuesday, 1 August 2017 1:18 a.m.\nTo: solr-user@lucene.apache.org\nSubject: Re: Arabic words search in solr\n\nPlease help me on this...\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Arabic-words-search-in-solr-tp4317733p4348372.html\nSent from the Solr - User mailing list archive at Nabble.com.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 114,
+      "text": "Further to that. What results do you get when you put those indexed terms into the Analysis\ntool on the Solr UI?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 114,
+      "end": 302,
+      "text": "-----Original Message-----\nFrom: Phil Scadden [mailto:P.Scadden@gns.cri.nz]\nSent: Tuesday, 1 August 2017 9:06 a.m.\nTo: solr-user@lucene.apache.org\nSubject: RE: Arabic words search in solr\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 302,
+      "end": 619,
+      "text": "\nAm I correct in assuming that you have the problem searching only when there is a hyphen in\nyour indexed text? If you, then it would suggest that you need to use a different tokenizer\nwhen indexing - it looks like the hyphen is removed and words each side are concatenated -\nhence need both terms to find the text.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 619,
+      "end": 805,
+      "text": "-----Original Message-----\nFrom: mohanmca01 [mailto:mohanmca01@gmail.com]\nSent: Tuesday, 1 August 2017 1:18 a.m.\nTo: solr-user@lucene.apache.org\nSubject: Re: Arabic words search in solr\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 805,
+      "end": 1663,
+      "text": "\nPlease help me on this...\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Arabic-words-search-in-solr-tp4317733p4348372.html\nSent from the Solr - User mailing list archive at Nabble.com.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\nNotice: This email and any attachments are confidential and may not be used, published or\nredistributed without the prior written consent of the Institute of Geological and Nuclear\nSciences Limited (GNS Science). If received in error please destroy and immediately notify\nGNS Science. Do not copy or disclose the contents.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4701"
+}

@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/01/2000 \n09:23 AM ---------------------------\n\n\nMark.Ebert@broadwing.com on 12/01/2000 07:29:01 AM\nTo: dgiron@ect.enron.com, david.long@tdhca.state.tx.us, \nkeykeith@mindspring.com, george.ewton@unisys.com, \nheather.hodnett@tdhca.state.tx.us, bjnelson81@uswest.net, kelang@mmm.com, \nkeith.doran@tdhca.state.tx.us, psalas@flash.net, SPSMITHCPA@aol.com, \nswash@tdhca.state.tx.us\ncc:  \nSubject: FW: ha ha ha!\n\n\n> !\n>\n>  <<ha ha ha!>>\n\nMessage-ID: <v04220807b64aeaf089d7@[128.83.49.136]>\nFrom: eyhastings@mail.utexas.edu\nTo: johuber@mail.utexas.edu, m.lehman@mail.utexas.edu,  \ndeclerck@mail.utexas.edu, cdison@mail.utexas.edu,  \nlsanmiguel@mail.utexas.edu, janice.martinez@tasb.org\nSubject: ha ha ha!\nDate: Wed, 29 Nov 2000 11:20:14 -0600\nMIME-Version: 1.0\nX-Mailer: Internet Mail Service (5.5.2653.19)\nContent-Type: text/plain\n\nMy niece sent this today...got a good laugh from it!\n\nLiz\n\nA lady stopped unexpectedly by her recently married son's house.  She rang\nthe doorbell and stepped into the house to see her daughter-in-law standing\nnaked by the door.\n\"What are you doing?\" she asked.\n\"I am waiting for my husband to come home from work,\" the daughter-in-law\nreplied.\n\"Why are you naked?\" asked the mother-in-law.\n\"This is my love dress,\" the daughter-in-law replied.\n\"LOVE DRESS! You're naked,\" said the mother-in-law.\n\"But my husband loves it when I wear this dress. It makes him happy and he\nmakes me happy,\" said the  daughter-in-law \"He will be home any minute now,\nso perhaps you could stop by a little later?\"\nSoured by all of this romantic stuff, the mother-in-law left.\nOn the way home, she thought about the \"LOVE DRESS\" and got an idea. She\nundressed, showered, applied her best perfume, and waited by the door for\nher husband to come home.\nFinally, his pickup truck drove up the drive way. Her husband opened the\ndoor, and immediately saw his naked wife.\n\"What are you doing?\" he asked.\n\"This is my love dress.\" She said, excitedly.\n\"Needs ironing.\" He replied.\n*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*\n\nElizabeth Y. Hastings\nAcademic Advisor\nDepartment of Spanish and Portuguese, ( BAT 110 -- B3700)\nAdvising Office  BATTS 218\nThe University of Texas at Austin\nAustin, TX 78712-1155\n\nAdvising Office:  (512) 232-4506\nDepartmental Office: (512) 471-4936\nOffice Fax: (512) 471-8073\n\neyhastings@mail.utexas.edu\n\ndepartmental web site:  http://www.sp.utexas.edu/\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/01/2000 \n09:23 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 470,
+      "text": "\n\nMark.Ebert@broadwing.com on 12/01/2000 07:29:01 AM\nTo: dgiron@ect.enron.com, david.long@tdhca.state.tx.us, \nkeykeith@mindspring.com, george.ewton@unisys.com, \nheather.hodnett@tdhca.state.tx.us, bjnelson81@uswest.net, kelang@mmm.com, \nkeith.doran@tdhca.state.tx.us, psalas@flash.net, SPSMITHCPA@aol.com, \nswash@tdhca.state.tx.us\ncc:  \nSubject: FW: ha ha ha!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 496,
+      "end": 889,
+      "text": "Message-ID: <v04220807b64aeaf089d7@[128.83.49.136]>\nFrom: eyhastings@mail.utexas.edu\nTo: johuber@mail.utexas.edu, m.lehman@mail.utexas.edu,  \ndeclerck@mail.utexas.edu, cdison@mail.utexas.edu,  \nlsanmiguel@mail.utexas.edu, janice.martinez@tasb.org\nSubject: ha ha ha!\nDate: Wed, 29 Nov 2000 11:20:14 -0600\nMIME-Version: 1.0\nX-Mailer: Internet Mail Service (5.5.2653.19)\nContent-Type: text/plain\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 470,
+      "end": 496,
+      "text": "\n\n> !\n>\n>  <<ha ha ha!>>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2041,
+      "end": 2378,
+      "text": "*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*\n\nElizabeth Y. Hastings\nAcademic Advisor\nDepartment of Spanish and Portuguese, ( BAT 110 -- B3700)\nAdvising Office  BATTS 218\nThe University of Texas at Austin\nAustin, TX 78712-1155\n\nAdvising Office:  (512) 232-4506\nDepartmental Office: (512) 471-4936\nOffice Fax: (512) 471-8073\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 889,
+      "end": 2458,
+      "text": "\nMy niece sent this today...got a good laugh from it!\n\nLiz\n\nA lady stopped unexpectedly by her recently married son's house.  She rang\nthe doorbell and stepped into the house to see her daughter-in-law standing\nnaked by the door.\n\"What are you doing?\" she asked.\n\"I am waiting for my husband to come home from work,\" the daughter-in-law\nreplied.\n\"Why are you naked?\" asked the mother-in-law.\n\"This is my love dress,\" the daughter-in-law replied.\n\"LOVE DRESS! You're naked,\" said the mother-in-law.\n\"But my husband loves it when I wear this dress. It makes him happy and he\nmakes me happy,\" said the  daughter-in-law \"He will be home any minute now,\nso perhaps you could stop by a little later?\"\nSoured by all of this romantic stuff, the mother-in-law left.\nOn the way home, she thought about the \"LOVE DRESS\" and got an idea. She\nundressed, showered, applied her best perfume, and waited by the door for\nher husband to come home.\nFinally, his pickup truck drove up the drive way. Her husband opened the\ndoor, and immediately saw his naked wife.\n\"What are you doing?\" he asked.\n\"This is my love dress.\" She said, excitedly.\n\"Needs ironing.\" He replied.\n*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*\n\nElizabeth Y. Hastings\nAcademic Advisor\nDepartment of Spanish and Portuguese, ( BAT 110 -- B3700)\nAdvising Office  BATTS 218\nThe University of Texas at Austin\nAustin, TX 78712-1155\n\nAdvising Office:  (512) 232-4506\nDepartmental Office: (512) 471-4936\nOffice Fax: (512) 471-8073\n\neyhastings@mail.utexas.edu\n\ndepartmental web site:  http://www.sp.utexas.edu/\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25053681.1075854402216.JavaMail.evans@thyme>",
+      "Date": "Fri, 1 Dec 2000 01:23:00 -0800 (PST)",
+      "From": "darron.giron@enron.com",
+      "To": "kristi.giron@cfisd.net, dawn.kenne@enron.com, hollyw@email.msn.com",
+      "Subject": "FW: ha ha ha!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "kristi.giron@cfisd.net, Dawn C Kenne, hollyw@email.msn.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "id": "train/giron-d_sent_433.txt"
+}

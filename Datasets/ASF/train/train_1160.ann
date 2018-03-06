@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 22 February 2017 at 12:27, Noriyuki TAKEI <ntakei@sios.com> wrote:\n> field2:\u00e2\u02dc\u2026\n\nWhat does this (star) part of the query means to you in business\nterms? Are you doing a wildcard search (see previous email exchange I\nreplied to)? Or is this a specific special character you are trying to\nsearch for?\n\nRegards,\n   Alex.\n\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 70,
+      "text": "On 22 February 2017 at 12:27, Noriyuki TAKEI <ntakei@sios.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 302,
+      "end": 321,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 403,
+      "text": "> field2:\u00e2\u02dc\u2026\n\nWhat does this (star) part of the query means to you in business\nterms? Are you doing a wildcard search (see previous email exchange I\nreplied to)? Or is this a specific special character you are trying to\nsearch for?\n\nRegards,\n   Alex.\n\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1160"
+}

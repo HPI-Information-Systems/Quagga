@@ -1,0 +1,106 @@
+{
+  "wrapper": "plaintext",
+  "text": "I don't know anyone over there well enough to recommend them, so my interest \nis low. However, I have no objection.\n\n\n\n\nRobert C Williams@ENRON_DEVELOPMENT\n04/27/2000 12:03 PM\nTo: Stephanie Harris@ENRON_DEVELOPMENT, Rob \nWalls/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Richard Sanders\ncc:  \nSubject: Porter & Hedges\n\nAre we interested in adding Porter & Hedges to our list of approved \nlitigation counsel?  Mark Glatzer of that firm has called me and requested a \nmeeting or lunch.  I don't want to encourage him if there's no hope.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 120,
+      "text": "I don't know anyone over there well enough to recommend them, so my interest \nis low. However, I have no objection.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 120,
+      "end": 137,
+      "text": "Robert C Williams",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 156,
+      "end": 166,
+      "text": "04/27/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 167,
+      "end": 175,
+      "text": "12:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 180,
+      "end": 196,
+      "text": "Stephanie Harris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 216,
+      "end": 226,
+      "text": "Rob \nWalls",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 264,
+      "end": 279,
+      "text": "Richard Sanders",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 295,
+      "end": 310,
+      "text": "Porter & Hedges",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 120,
+      "end": 311,
+      "text": "Robert C Williams@ENRON_DEVELOPMENT\n04/27/2000 12:03 PM\nTo: Stephanie Harris@ENRON_DEVELOPMENT, Rob \nWalls/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Richard Sanders\ncc:  \nSubject: Porter & Hedges\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 311,
+      "end": 529,
+      "text": "\nAre we interested in adding Porter & Hedges to our list of approved \nlitigation counsel?  Mark Glatzer of that firm has called me and requested a \nmeeting or lunch.  I don't want to encourage him if there's no hope.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10114609.1075853170129.JavaMail.evans@thyme>",
+      "Date": "Thu, 27 Apr 2000 07:39:00 -0700 (PDT)",
+      "From": "richard.sanders@enron.com",
+      "To": "robert.williams@enron.com",
+      "Subject": "Re: Porter & Hedges",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Richard B Sanders",
+      "X-To": "Robert C Williams",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_72.txt"
+}

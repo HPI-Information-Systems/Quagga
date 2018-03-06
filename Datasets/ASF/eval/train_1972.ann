@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nI am using 1.2-SNAPSHOT of Apache Flink and 1.3-SNAPSHOT\nof flink-connector-kafka-0.9_2.11.\n\nIt was executing without any errors before but it is giving the following\nexception at the moment:\n\n\u00e2\u20ac\u2039java.lang.NoSuchMethodError:\norg.apache.flink.util.PropertiesUtil.getBoolean(Ljava/util/Properties;Ljava/lang/String;Z)Z\nat\norg.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer09.getIsAutoCommitEnabled(FlinkKafkaConsumer09.java:235)\nat\norg.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumerBase.open(FlinkKafkaConsumerBase.java:330)\nat\norg.apache.flink.api.common.functions.util.FunctionUtils.openFunction(FunctionUtils.java:36)\nat\norg.apache.flink.streaming.api.operators.AbstractUdfStreamOperator.open(AbstractUdfStreamOperator.java:157)\nat\norg.apache.flink.streaming.runtime.tasks.StreamTask.openAllOperators(StreamTask.java:383)\nat\norg.apache.flink.streaming.runtime.tasks.StreamTask.invoke(StreamTask.java:259)\nat org.apache.flink.runtime.taskmanager.Task.run(Task.java:654)\nat java.lang.Thread.run(Thread.java:745)\n\nHas anything change recently on this front ?\n\nThanks in anticipation!\u00e2\u20ac\u2039\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1086,
+      "end": 1114,
+      "text": "\nThanks in anticipation!\u00e2\u20ac\u2039\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1115,
+      "text": "Hi,\n\nI am using 1.2-SNAPSHOT of Apache Flink and 1.3-SNAPSHOT\nof flink-connector-kafka-0.9_2.11.\n\nIt was executing without any errors before but it is giving the following\nexception at the moment:\n\n\u00e2\u20ac\u2039java.lang.NoSuchMethodError:\norg.apache.flink.util.PropertiesUtil.getBoolean(Ljava/util/Properties;Ljava/lang/String;Z)Z\nat\norg.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer09.getIsAutoCommitEnabled(FlinkKafkaConsumer09.java:235)\nat\norg.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumerBase.open(FlinkKafkaConsumerBase.java:330)\nat\norg.apache.flink.api.common.functions.util.FunctionUtils.openFunction(FunctionUtils.java:36)\nat\norg.apache.flink.streaming.api.operators.AbstractUdfStreamOperator.open(AbstractUdfStreamOperator.java:157)\nat\norg.apache.flink.streaming.runtime.tasks.StreamTask.openAllOperators(StreamTask.java:383)\nat\norg.apache.flink.streaming.runtime.tasks.StreamTask.invoke(StreamTask.java:259)\nat org.apache.flink.runtime.taskmanager.Task.run(Task.java:654)\nat java.lang.Thread.run(Thread.java:745)\n\nHas anything change recently on this front ?\n\nThanks in anticipation!\u00e2\u20ac\u2039\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1972"
+}

@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "Well, historically during the really old days, optimize made a major\ndifference. As Lucene evolved that difference was smaller, and in\nrecent _anecdotal_ reports it's up to 10% improvement in query\nprocessing with the usual caveats that there are a ton of variables\nhere, including and especially how frequently the index is updated\nso since yours is rarely updated take that number with a huge grain\nof salt. It's an open question whether a 10% increase (assuming that's\nwhat you get) is noticeable. I mean if your query latency is 250 ms,\nwho's going to notice? If it's 10 seconds, that's a different story....\n\nThere's a subtext here about whether your query load is enough that\na 10% improvement can ripple, but that's only under pretty high query\nloads.\n\nBest,\nErick\n\nOn Fri, Mar 3, 2017 at 9:03 AM, Caruana, Matthew <mcaruana@icij.org> wrote:\n> We index rarely and in bulk as we\u00e2\u20ac\u2122re an organisation that deals in enabling access\nto leaked documents for journalists.\n>\n> The indexes are mostly static for 99% of the year. We only optimise after reindexing\ndue to schema changes or when\n> we have a new leak.\n>\n> Our workflow is to index on a staging server, optimise then trigger replication to a\nproduction instance of Solr. We cannot\n> index straight to production as extracting text from documents is expensive (lots of\nEC2 machines running Extract<https://github.com/ICIJ/extract>) and we need\n> to really hammer the Solr server with updates (up to 250 concurrent update request at\nsome times).\n>\n> I\u00e2\u20ac\u2122ve never done benchmark tests, but it\u00e2\u20ac\u2122s an interesting question. I always worked\non the assumption that if the optimise\n> operation exists then there must be a reason. Also something tells me that having your\nindex spread over 70 files must be bad.\n>\n> The OOM error is certainly due to something else as it happens when we try indexing text\nextracted from multi-gigabyte\n> archives.\n>\n> On 3 Mar 2017, at 17:45, Erick Erickson <erickerickson@gmail.com<mailto:erickerickson@gmail.com>>\nwrote:\n>\n> Matthew:\n>\n> What load testing have you done on optimized .vs. unoptimized indexes?\n> Is there enough of a performance gain to be worth the trouble? Toke's\n> indexes are pretty static, and in his situation it's worth the effort.\n> Before spending a lot of cycles on making optimization\n> work/understanding the ins and outs I'd really recommend you see if\n> any performance gain is worth it ;)...\n>\n> And as I mentioned earlier, optimizing is unlikely to be related to\n> OOMs during indexing. You never know of course....\n>\n> Best,\n> Erick\n>\n> On Fri, Mar 3, 2017 at 3:40 AM, Caruana, Matthew <mcaruana@icij.org<mailto:mcaruana@icij.org>>\nwrote:\n> Thank you, you\u00e2\u20ac\u2122re right - only one of the four cores is hitting 100%. This is the correct\nanswer. The bottleneck is CPU exacerbated by an absence of parallelisation.\n>\n> On 3 Mar 2017, at 12:32, Toke Eskildsen <toes@kb.dk<mailto:toes@kb.dk>> wrote:\n>\n> On Thu, 2017-03-02 at 15:39 +0000, Caruana, Matthew wrote:\n> Thank you. The question remains however, if this is such a hefty\n> operation then why is it walking to the destination instead of\n> running, so to speak?\n>\n> We only do optimize on an old Solr 4.10 setup, but for that we have\n> plenty of experience. At least for single-shard, and at least for most\n> of the work, optimize is a single-threaded process: It takes us ~8\n> hours to optimize a ~900GB shard using SSDs, with 1 CPU-core at near\n> 100% and the other ones not doing anything.\n>\n> The machine load number is a bit fuzzy, but if you do a top doing\n> optimization, my guess is that you will see the same thing as we do:\n> Only 1 CPU-core working.\n> --\n> Toke Eskildsen, Royal Danish Library\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 759,
+      "end": 772,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 773,
+      "text": "Well, historically during the really old days, optimize made a major\ndifference. As Lucene evolved that difference was smaller, and in\nrecent _anecdotal_ reports it's up to 10% improvement in query\nprocessing with the usual caveats that there are a ton of variables\nhere, including and especially how frequently the index is updated\nso since yours is rarely updated take that number with a huge grain\nof salt. It's an open question whether a 10% increase (assuming that's\nwhat you get) is noticeable. I mean if your query latency is 250 ms,\nwho's going to notice? If it's 10 seconds, that's a different story....\n\nThere's a subtext here about whether your query load is enough that\na 10% improvement can ripple, but that's only under pretty high query\nloads.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 773,
+      "end": 849,
+      "text": "On Fri, Mar 3, 2017 at 9:03 AM, Caruana, Matthew <mcaruana@icij.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 849,
+      "end": 1901,
+      "text": "> We index rarely and in bulk as we\u00e2\u20ac\u2122re an organisation that deals in enabling access\nto leaked documents for journalists.\n>\n> The indexes are mostly static for 99% of the year. We only optimise after reindexing\ndue to schema changes or when\n> we have a new leak.\n>\n> Our workflow is to index on a staging server, optimise then trigger replication to a\nproduction instance of Solr. We cannot\n> index straight to production as extracting text from documents is expensive (lots of\nEC2 machines running Extract<https://github.com/ICIJ/extract>) and we need\n> to really hammer the Solr server with updates (up to 250 concurrent update request at\nsome times).\n>\n> I\u00e2\u20ac\u2122ve never done benchmark tests, but it\u00e2\u20ac\u2122s an interesting question. I always worked\non the assumption that if the optimise\n> operation exists then there must be a reason. Also something tells me that having your\nindex spread over 70 files must be bad.\n>\n> The OOM error is certainly due to something else as it happens when we try indexing text\nextracted from multi-gigabyte\n> archives.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1901,
+      "end": 2008,
+      "text": "> On 3 Mar 2017, at 17:45, Erick Erickson <erickerickson@gmail.com<mailto:erickerickson@gmail.com>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2008,
+      "end": 2021,
+      "text": ">\n> Matthew:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2534,
+      "end": 2552,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2008,
+      "end": 2554,
+      "text": ">\n> Matthew:\n>\n> What load testing have you done on optimized .vs. unoptimized indexes?\n> Is there enough of a performance gain to be worth the trouble? Toke's\n> indexes are pretty static, and in his situation it's worth the effort.\n> Before spending a lot of cycles on making optimization\n> work/understanding the ins and outs I'd really recommend you see if\n> any performance gain is worth it ;)...\n>\n> And as I mentioned earlier, optimizing is unlikely to be related to\n> OOMs during indexing. You never know of course....\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2554,
+      "end": 2658,
+      "text": "> On Fri, Mar 3, 2017 at 3:40 AM, Caruana, Matthew <mcaruana@icij.org<mailto:mcaruana@icij.org>>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2658,
+      "end": 2830,
+      "text": "> Thank you, you\u00e2\u20ac\u2122re right - only one of the four cores is hitting 100%. This is the correct\nanswer. The bottleneck is CPU exacerbated by an absence of parallelisation.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2830,
+      "end": 2911,
+      "text": "> On 3 Mar 2017, at 12:32, Toke Eskildsen <toes@kb.dk<mailto:toes@kb.dk>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2911,
+      "end": 2974,
+      "text": ">\n> On Thu, 2017-03-02 at 15:39 +0000, Caruana, Matthew wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3629,
+      "end": 3673,
+      "text": "> --\n> Toke Eskildsen, Royal Danish Library\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2974,
+      "end": 3678,
+      "text": "> Thank you. The question remains however, if this is such a hefty\n> operation then why is it walking to the destination instead of\n> running, so to speak?\n>\n> We only do optimize on an old Solr 4.10 setup, but for that we have\n> plenty of experience. At least for single-shard, and at least for most\n> of the work, optimize is a single-threaded process: It takes us ~8\n> hours to optimize a ~900GB shard using SSDs, with 1 CPU-core at near\n> 100% and the other ones not doing anything.\n>\n> The machine load number is a bit fuzzy, but if you do a top doing\n> optimization, my guess is that you will see the same thing as we do:\n> Only 1 CPU-core working.\n> --\n> Toke Eskildsen, Royal Danish Library\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1350"
+}

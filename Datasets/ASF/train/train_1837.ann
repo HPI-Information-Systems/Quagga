@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Daphne,\n\nAre you using DSE?\n\n\nThanks & Regards,\nVishal\n\nOn Fri, Mar 17, 2017 at 7:40 PM, Liu, Daphne <Daphne.Liu@cevalogistics.com>\nwrote:\n\n> I just want to share my recent project. I have successfully sent all our\n> EDI documents to Cassandra 3.7 clusters using Solr 6.3 Data Import JDBC\n> Cassandra connector indexing our documents.\n> Since Cassandra is so fast for writing, compression rate is around 13% and\n> all my documents can be keep in my Cassandra clusters' memory, we are very\n> happy with the result.\n>\n>\n> Kind regards,\n>\n> Daphne Liu\n> BI Architect - Matrix SCM\n>\n> CEVA Logistics / 10751 Deerwood Park Blvd, Suite 200, Jacksonville, FL\n> 32256 USA / www.cevalogistics.com T 904.564.1192 / F 904.928.1448 /\n> Daphne.Liu@cevalogistics.com\n>\n>\n>\n> -----Original Message-----\n> From: Alexandre Rafalovitch [mailto:arafalov@gmail.com]\n> Sent: Friday, March 17, 2017 9:54 AM\n> To: solr-user <solr-user@lucene.apache.org>\n> Subject: Re: Data Import\n>\n> I feel DIH is much better for prototyping, even though people do use it in\n> production. If you do want to use DIH, you may benefit from reviewing the\n> DIH-DB example I am currently rewriting in\n> https://issues.apache.org/jira/browse/SOLR-10312 (may need to change\n> luceneMatchVersion in solrconfig.xml first).\n>\n> CSV, etc, could be useful if you want to keep history of past imports,\n> again useful during development, as you evolve schema.\n>\n> SolrJ may actually be easiest/best for production since you already have\n> Java stack.\n>\n> The choice is yours in the end.\n>\n> Regards,\n>    Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n> On 17 March 2017 at 08:56, Shawn Heisey <apache@elyograg.org> wrote:\n> > On 3/17/2017 3:04 AM, vishal jain wrote:\n> >> I am new to Solr and am trying to move data from my RDBMS to Solr. I\n> know the available options are:\n> >> 1) Post Tool\n> >> 2) DIH\n> >> 3) SolrJ (as ours is a J2EE application).\n> >>\n> >> I want to know what is the recommended way for Data import in\n> >> production environment. Will sending data via SolrJ in batches be\n> faster than posting a csv using POST tool?\n> >\n> > I've heard that CSV import runs EXTREMELY fast, but I have never\n> > tested it.  The same threading problem that I discuss below would\n> > apply to indexing this way.\n> >\n> > DIH is extremely powerful, but it has one glaring problem:  It's\n> > single-threaded, which means that only one stream of data is going\n> > into Solr, and each batch of documents to be inserted must wait for\n> > the previous one to finish inserting before it can start.  I do not\n> > know if DIH batches documents or sends them in one at a time.  If you\n> > have a manually sharded index, you can run DIH on each shard in\n> > parallel, but each one will be single-threaded.  That single thread is\n> > pretty efficient, but it's still only one thread.\n> >\n> > Sending multiple index updates to Solr in parallel (multi-threading)\n> > is how you radically speed up the Solr part of indexing.  This is\n> > usually done with a custom indexing program, which might be written\n> > with SolrJ or even in a completely different language.\n> >\n> > One thing to keep in mind with ANY indexing method:  Once the\n> > situation is examined closely, most people find that it's not Solr\n> > that makes their indexing slow.  The bottleneck is usually the source\n> > system -- how quickly the data can be retrieved.  It usually takes a\n> > lot longer to obtain the data than it does for Solr to index it.\n> >\n> > Thanks,\n> > Shawn\n> >\n> This e-mail message is intended for the above named recipient(s) only. It\n> may contain confidential information that is privileged. If you are not the\n> intended recipient, you are hereby notified that any dissemination,\n> distribution or copying of this e-mail and any attachment(s) is strictly\n> prohibited. If you have received this e-mail by error, please immediately\n> notify the sender by replying to this e-mail and deleting the message\n> including any attachment(s) from your system. Thank you in advance for your\n> cooperation and assistance. Although the company has taken reasonable\n> precautions to ensure no viruses are present in this email, the company\n> cannot accept responsibility for any loss or damage arising from the use of\n> this email or attachments.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Daphne,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 32,
+      "end": 58,
+      "text": "\nThanks & Regards,\nVishal\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 59,
+      "text": "Hi Daphne,\n\nAre you using DSE?\n\n\nThanks & Regards,\nVishal\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 59,
+      "end": 142,
+      "text": "On Fri, Mar 17, 2017 at 7:40 PM, Liu, Daphne <Daphne.Liu@cevalogistics.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 519,
+      "end": 552,
+      "text": ">\n> Kind regards,\n>\n> Daphne Liu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 539,
+      "end": 756,
+      "text": "> Daphne Liu\n> BI Architect - Matrix SCM\n>\n> CEVA Logistics / 10751 Deerwood Park Blvd, Suite 200, Jacksonville, FL\n> 32256 USA / www.cevalogistics.com T 904.564.1192 / F 904.928.1448 /\n> Daphne.Liu@cevalogistics.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 142,
+      "end": 762,
+      "text": "\n> I just want to share my recent project. I have successfully sent all our\n> EDI documents to Cassandra 3.7 clusters using Solr 6.3 Data Import JDBC\n> Cassandra connector indexing our documents.\n> Since Cassandra is so fast for writing, compression rate is around 13% and\n> all my documents can be keep in my Cassandra clusters' memory, we are very\n> happy with the result.\n>\n>\n> Kind regards,\n>\n> Daphne Liu\n> BI Architect - Matrix SCM\n>\n> CEVA Logistics / 10751 Deerwood Park Blvd, Suite 200, Jacksonville, FL\n> 32256 USA / www.cevalogistics.com T 904.564.1192 / F 904.928.1448 /\n> Daphne.Liu@cevalogistics.com\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 762,
+      "end": 961,
+      "text": "> -----Original Message-----\n> From: Alexandre Rafalovitch [mailto:arafalov@gmail.com]\n> Sent: Friday, March 17, 2017 9:54 AM\n> To: solr-user <solr-user@lucene.apache.org>\n> Subject: Re: Data Import\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1538,
+      "end": 1562,
+      "text": ">\n> Regards,\n>    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 961,
+      "end": 1650,
+      "text": ">\n> I feel DIH is much better for prototyping, even though people do use it in\n> production. If you do want to use DIH, you may benefit from reviewing the\n> DIH-DB example I am currently rewriting in\n> https://issues.apache.org/jira/browse/SOLR-10312 (may need to change\n> luceneMatchVersion in solrconfig.xml first).\n>\n> CSV, etc, could be useful if you want to keep history of past imports,\n> again useful during development, as you evolve schema.\n>\n> SolrJ may actually be easiest/best for production since you already have\n> Java stack.\n>\n> The choice is yours in the end.\n>\n> Regards,\n>    Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1650,
+      "end": 1721,
+      "text": "> On 17 March 2017 at 08:56, Shawn Heisey <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1721,
+      "end": 1766,
+      "text": "> > On 3/17/2017 3:04 AM, vishal jain wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 3508,
+      "end": 3534,
+      "text": "> >\n> > Thanks,\n> > Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1766,
+      "end": 4319,
+      "text": "> >> I am new to Solr and am trying to move data from my RDBMS to Solr. I\n> know the available options are:\n> >> 1) Post Tool\n> >> 2) DIH\n> >> 3) SolrJ (as ours is a J2EE application).\n> >>\n> >> I want to know what is the recommended way for Data import in\n> >> production environment. Will sending data via SolrJ in batches be\n> faster than posting a csv using POST tool?\n> >\n> > I've heard that CSV import runs EXTREMELY fast, but I have never\n> > tested it.  The same threading problem that I discuss below would\n> > apply to indexing this way.\n> >\n> > DIH is extremely powerful, but it has one glaring problem:  It's\n> > single-threaded, which means that only one stream of data is going\n> > into Solr, and each batch of documents to be inserted must wait for\n> > the previous one to finish inserting before it can start.  I do not\n> > know if DIH batches documents or sends them in one at a time.  If you\n> > have a manually sharded index, you can run DIH on each shard in\n> > parallel, but each one will be single-threaded.  That single thread is\n> > pretty efficient, but it's still only one thread.\n> >\n> > Sending multiple index updates to Solr in parallel (multi-threading)\n> > is how you radically speed up the Solr part of indexing.  This is\n> > usually done with a custom indexing program, which might be written\n> > with SolrJ or even in a completely different language.\n> >\n> > One thing to keep in mind with ANY indexing method:  Once the\n> > situation is examined closely, most people find that it's not Solr\n> > that makes their indexing slow.  The bottleneck is usually the source\n> > system -- how quickly the data can be retrieved.  It usually takes a\n> > lot longer to obtain the data than it does for Solr to index it.\n> >\n> > Thanks,\n> > Shawn\n> >\n> This e-mail message is intended for the above named recipient(s) only. It\n> may contain confidential information that is privileged. If you are not the\n> intended recipient, you are hereby notified that any dissemination,\n> distribution or copying of this e-mail and any attachment(s) is strictly\n> prohibited. If you have received this e-mail by error, please immediately\n> notify the sender by replying to this e-mail and deleting the message\n> including any attachment(s) from your system. Thank you in advance for your\n> cooperation and assistance. Although the company has taken reasonable\n> precautions to ensure no viruses are present in this email, the company\n> cannot accept responsibility for any loss or damage arising from the use of\n> this email or attachments.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1837"
+}

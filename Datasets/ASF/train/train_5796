@@ -1,0 +1,154 @@
+Hi Markus,
+
+I don't know what Client you use, but if you are using SolrJ enabling the 
+logging could be an option to "dig deeper" into the problem. This can be 
+the ouput for example via log4j on log level info:
+
+...
+2017-08-31 10:01:56 INFO  ZooKeeper:438 - Initiating client connection, 
+connectString=ZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 
+sessionTimeout=600000 
+watcher=org.apache.solr.common.cloud.SolrZkClient$3@14379273
+2017-08-31 10:01:56 INFO  ClientCnxn:876 - Socket connection established 
+to SOLRHOST/ZKHOST3:9983, initiating session
+2017-08-31 10:01:56 INFO  ClientCnxn:1299 - Session establishment complete 
+on server SOLRHOST/ZKHOST3:9983, sessionid = 0x45e35eaa9fd3584, negotiated 
+timeout = 40000
+2017-08-31 10:01:56 INFO  ZkStateReader:688 - Updated live nodes from 
+ZooKeeper... (0) -> (4)
+2017-08-31 10:01:56 INFO  ZkClientClusterStateProvider:134 - Cluster at 
+ZKHOST1:9983,ZKHOST2:9983,ZKHOST3:9983,ZKHOST4:9983,ZKHOST5:9983 ready
+
+
+
+
+
+Von:    Markus Jelsma <markus.jelsma@openindex.io>
+An:     solr-user@lucene.apache.org <solr-user@lucene.apache.org>
+Datum:  31.08.2017 10:00
+Betreff:        RE: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are 
+disabled.
+
+
+
+Hello Stephan,
+
+I know that restarting stuff can sometimes cure what's wrong, but we are 
+nog going to, we want to get rid of the problem, not restart microsoft 
+windows whenever things run slow. Also, there is no indexing going on 
+right now.
+
+We also see these sometimes, this explains at least why it cannot talk to 
+Zookeeper, but why..
+ o.a.s.c.RecoveryStrategy Socket timeout on send prep recovery cmd, 
+retrying.. 
+
+This has been going on with just one of our nodes for over two hours, 
+other nodes are fine. And why is this bad node green in cluster overview?
+
+Thanks,
+Markus
+
+-----Original message-----
+> From:Stephan Schubert <Stephan.Schubert@sick.de>
+> Sent: Thursday 31st August 2017 9:52
+> To: solr-user@lucene.apache.org
+> Subject: Antwort: 6.6 Cannot talk to ZooKeeper - Updates are disabled.
+> 
+> Hi markus,
+> 
+> try to stop your indexing/update processes and restart your ZooKeeper 
+> instances (not all at the same time of course). This is what I do in 
+these 
+> cases and helped me so far.
+> 
+> 
+> 
+> 
+> Von:    Markus Jelsma <markus.jelsma@openindex.io>
+> An:     Solr-user <solr-user@lucene.apache.org>
+> Datum:  31.08.2017 09:49
+> Betreff:        6.6 Cannot talk to ZooKeeper - Updates are disabled.
+> 
+> 
+> 
+> Hello,
+> 
+> One node is behaving badly, at least according to the logs, but the node 
+
+> is green in the cluster overview although the logs claim recovery fails 
+> all the time. It is not the first time this message pops up in the logs 
+of 
+> one of the nodes, why can it not talk to Zookeeper? I miss a reason.
+> 
+> The cluster is not extremely busy at the moment, we allow plenty of file 
+
+> descriptors, there are no firewall restrictions, i cannot think of any 
+> problem in our infrastructure.
+> 
+> What's going on? What can i do? Can the error be explained a bit 
+further?
+> 
+> Thanks,
+> Markus
+> 
+> 8/31/2017, 9:34:34 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 8/31/2017, 9:34:34 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 8/31/2017, 9:34:36 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 8/31/2017, 9:34:38 AM
+> ERROR false
+> RecoveryStrategy
+> Could not publish as ACTIVE after succesful recovery
+> 8/31/2017, 9:34:38 AM
+> ERROR true
+> RecoveryStrategy
+> Recovery failed - trying again... (0)
+> 8/31/2017, 9:34:49 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 8/31/2017, 9:34:49 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 8/31/2017, 9:34:50 AM
+> ERROR false
+> RecoveryStrategy
+> Could not publish as ACTIVE after succesful recovery
+> 8/31/2017, 9:34:50 AM
+> ERROR false
+> RecoveryStrategy
+> Recovery failed - trying again... (1)
+> 8/31/2017, 9:35:36 AM
+> ERROR false
+> RequestHandlerBase
+> org.apache.solr.common.SolrException: Cannot talk to ZooKeeper - Updates 
+
+> are disabled.
+> 
+> 
+> 
+> 
+
+
+
+

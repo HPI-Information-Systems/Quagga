@@ -1,0 +1,76 @@
+{
+  "wrapper": "plaintext",
+  "text": "Chris, I don't believe that this is real. Sounds like a CES system mistake. \nLet\nus know what you find Scott. Thanks.\n\n\n\n\n\ncgerman@ect.enron.com on 01/12/2000 07:27:18 PM\nPlease respond to cgerman@ect.enron.com\n\nTo: Noel Bartlo/CES/ColumbiaGas@COLUMBIAGAS, Paul Drexelius\n[NOTES.pdrexel]@LMSOV\ncc: csulliv@ect.enron.com, jtownse@ect.enron.com,\nsgoodel@columbiaenergygroup.com\nSubject: Equitrans\n\n\n\nI have very little info on this deal.  Who pays for the FT on Equitrans?\nContract 270, volume=1,000/day, start date = 7/1/97, max demand, all receipts\nand all deliveries, AND the end date is 10/31/2099 (looks suspicious to me).\nScott is trying to find the term of this deal from Equitrans.  I believe\nEquitrans did say this is a capacity release deal.\n\nScott, I'm going to list this as a wholesale deal for now.  It was not on my\nwholesale transport worksheet from Mark Breese.  Please email everyone with \nthe\nend date when you find out.  Also, please find out who the releasing shipper \nis\nand the primary receipt and delivery points.\n\nThanks\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Chris,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 103,
+      "end": 118,
+      "text": "Scott. Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 123,
+      "text": "Chris, I don't believe that this is real. Sounds like a CES system mistake. \nLet\nus know what you find Scott. Thanks.\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 123,
+      "end": 395,
+      "text": "cgerman@ect.enron.com on 01/12/2000 07:27:18 PM\nPlease respond to cgerman@ect.enron.com\n\nTo: Noel Bartlo/CES/ColumbiaGas@COLUMBIAGAS, Paul Drexelius\n[NOTES.pdrexel]@LMSOV\ncc: csulliv@ect.enron.com, jtownse@ect.enron.com,\nsgoodel@columbiaenergygroup.com\nSubject: Equitrans\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1035,
+      "end": 1043,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 395,
+      "end": 1045,
+      "text": "\n\n\nI have very little info on this deal.  Who pays for the FT on Equitrans?\nContract 270, volume=1,000/day, start date = 7/1/97, max demand, all receipts\nand all deliveries, AND the end date is 10/31/2099 (looks suspicious to me).\nScott is trying to find the term of this deal from Equitrans.  I believe\nEquitrans did say this is a capacity release deal.\n\nScott, I'm going to list this as a wholesale deal for now.  It was not on my\nwholesale transport worksheet from Mark Breese.  Please email everyone with \nthe\nend date when you find out.  Also, please find out who the releasing shipper \nis\nand the primary receipt and delivery points.\n\nThanks\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6819202.1075853739010.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Jan 2000 07:02:00 -0800 (PST)",
+      "From": "nbartlo@columbiaenergygroup.com",
+      "To": "chris.germany@enron.com",
+      "Subject": "Re: Equitrans",
+      "Cc": "sgoodel@columbiaenergygroup.com, judy.townsend@enron.com, \n\tcolleen.sullivan@enron.com, pdrexel@columbiaenergygroup.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "sgoodel@columbiaenergygroup.com, judy.townsend@enron.com, \n\tcolleen.sullivan@enron.com, pdrexel@columbiaenergygroup.com",
+      "X-From": "nbartlo@columbiaenergygroup.com",
+      "X-To": "Chris Germany",
+      "X-cc": "\"        -         *sgoodel@columbiaenergygroup.com\" <sgoodel@columbiaenergygroup.com>, Judy Townsend, Colleen Sullivan, NOTES -PDREXEL * <pdrexel@columbiaenergygroup.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_discussion_threads_332.txt"
+}

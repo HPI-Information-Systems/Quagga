@@ -1,0 +1,43 @@
+Hi,
+
+unfortunately, there is no direct and easy API for this, but it seems worthwhile having this
+in the future. Nevertheless, I can see two ways of doing this with low effort in Flink:
+
+1. The cleanest way I could think of: implement your own multiplexing in the source. At first,
+the source will read and emit the bootstrap data. When it is exhausted, the source emits the
+data for processing. Your downstream operators might want to know where the bootstrap ends
+and the real processing starts. Maybe this is already decidable from the data. If not, you
+can use watermarks (e.g. use Long.MIN_VALUE for the bootstrap phase) or a custom signal record
+between bootstrap and processing data.
+
+2. One more dirty way would be: run the job with a source that emits the bootstrap data, take
+a savepoint, then replace the source with the with the one that emits the stream data and
+resume from the savepoint.
+
+Hope this helps.
+Best,
+Stefan
+
+> Am 22.06.2017 um 02:24 schrieb Jakob Homan <jghoman@gmail.com>:
+> 
+> Hey all-
+>   I'm using the Managed Key State to store data in a map.  I would
+> like, on initial job startup (trigged by a config), for that state to
+> be populated before processing begings.  This can either be from
+> another stream or from a file.  In Samza, one would do this with
+> bootstrap streams
+> (https://samza.apache.org/learn/documentation/0.13/container/streams.html),
+> which are consumed entirely before the job begins its normal
+> processing.
+> 
+>   I'm not seeing an obvious way to accomplish the same thing within
+> Flink.  The RichFlatMapFunction that is using the MapState could read
+> a file during the call to open, but it wouldn't appear to know what
+> subset of keys each instance should consume.
+> 
+>   Any hints?
+> 
+> Thanks,
+> Jakob
+
+

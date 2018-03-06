@@ -1,0 +1,221 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Elizabeth Sager/HOU/ECT on 12/30/99 08:46 \nAM ---------------------------\n\n\n\"Yaish, Yair (OGC)\" <YYaish@exchange.ml.com> on 12/28/99 05:22:00 PM\nTo: Elizabeth Sager/HOU/ECT@ECT\ncc:  \nSubject: Notices Language \n\n\n\nElizabeth,\n\nThe following is the address where copies of notices should be sent to:\n\n    Merrill Lynch & Co., Inc.\n     Office of General Counsel - CICG\nLegal\n     World Financial Center, North Tower\n     250 Vesey Street, 12th Floor\n     New York, NY  10281-1312\n     Phone: (212) 449-4367\n     Fax: (212) 449-5559\n\n\nBest regards,\n\nYair Yaish\nMerrill Lynch (OGC)\n212-449-2456\nyyaish@exchange.ml.com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 51,
+      "text": "Elizabeth Sager",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 71,
+      "text": "12/30/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 72,
+      "end": 81,
+      "text": "08:46 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 110,
+      "text": "---------------------- Forwarded by Elizabeth Sager/HOU/ECT on 12/30/99 08:46 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 124,
+      "text": "Yaish, Yair",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 133,
+      "end": 155,
+      "text": "YYaish@exchange.ml.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 160,
+      "end": 168,
+      "text": "12/28/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 169,
+      "end": 180,
+      "text": "05:22:00 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 185,
+      "end": 200,
+      "text": "Elizabeth Sager",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 228,
+      "end": 244,
+      "text": "Notices Language",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 110,
+      "end": 246,
+      "text": "\n\n\"Yaish, Yair (OGC)\" <YYaish@exchange.ml.com> on 12/28/99 05:22:00 PM\nTo: Elizabeth Sager/HOU/ECT@ECT\ncc:  \nSubject: Notices Language \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 249,
+      "end": 258,
+      "text": "Elizabeth",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 582,
+      "end": 592,
+      "text": "Yair Yaish",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 593,
+      "end": 612,
+      "text": "Merrill Lynch (OGC)",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 613,
+      "end": 625,
+      "text": "212-449-2456",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 626,
+      "end": 648,
+      "text": "yyaish@exchange.ml.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 567,
+      "end": 581,
+      "text": "Best regards,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 246,
+      "end": 650,
+      "text": "\n\n\nElizabeth,\n\nThe following is the address where copies of notices should be sent to:\n\n    Merrill Lynch & Co., Inc.\n     Office of General Counsel - CICG\nLegal\n     World Financial Center, North Tower\n     250 Vesey Street, 12th Floor\n     New York, NY  10281-1312\n     Phone: (212) 449-4367\n     Fax: (212) 449-5559\n\n\nBest regards,\n\nYair Yaish\nMerrill Lynch (OGC)\n212-449-2456\nyyaish@exchange.ml.com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 14,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 15,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 16,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4748328.1075859514278.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Dec 1999 00:47:00 -0800 (PST)",
+      "From": "elizabeth.sager@enron.com",
+      "To": "brenda.whitehead@enron.com",
+      "Subject": "Notices Language",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Elizabeth Sager",
+      "X-To": "Brenda Whitehead",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "id": "train/sager-e_all_documents_1236.txt"
+}

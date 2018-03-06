@@ -1,0 +1,131 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 12/08/2000 08:39 \nAM ---------------------------\n\n\nKay Mann\n12/07/2000 11:52 PM\nTo: kent.shoemaker@ae.ge.com, lee.johnson@ss.ps.ge.com\ncc:  \n\nSubject: Override letter for Master Agreement\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "12/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "08:39 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 12/08/2000 08:39 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 110,
+      "end": 118,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 119,
+      "end": 129,
+      "text": "12/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 130,
+      "end": 138,
+      "text": "11:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 143,
+      "end": 167,
+      "text": "kent.shoemaker@ae.ge.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 169,
+      "end": 193,
+      "text": "lee.johnson@ss.ps.ge.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 210,
+      "end": 246,
+      "text": "Override letter for Master Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 108,
+      "end": 247,
+      "text": "\n\nKay Mann\n12/07/2000 11:52 PM\nTo: kent.shoemaker@ae.ge.com, lee.johnson@ss.ps.ge.com\ncc:  \n\nSubject: Override letter for Master Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 247,
+      "end": 249,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32818702.1075845794462.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Dec 2000 00:41:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "lisa.bills@enron.com, sheila.tweed@enron.com, roseann.engeldorf@enron.com, \n\tben.jacoby@enron.com, rebecca.walker@enron.com, pthompson@akllp.com",
+      "Subject": "Override letter for Master Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Lisa Bills, Sheila Tweed, Roseann Engeldorf, Ben Jacoby, Rebecca Walker, pthompson@akllp.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_1722.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "wrapper": "plaintext",
+  "text": "ISDA and the Bond Market Association are hosting a meeting on bankruptcy\nreform on February 8 at 2:00 at the Bond Market Association offices in New\nYork.  The purpose of the meeting is to discuss strategy (to include or nor\ninclude cross-affiliate netting) and technical modifications to netting\nlegislation.\n\nPlease advise if you will like to attend. -- Many thanks -- Stacy\n\nStacy Carey\nDirector North American Regulatory Policy\nInternational Swaps and Derivatives Association\n(202) 457-6545 ph\n(703) 256-1833 fax\n(917) 543-9622 cell\nscarey@isda.org\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 377,
+      "end": 388,
+      "text": "Stacy Carey",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 389,
+      "end": 430,
+      "text": "Director North American Regulatory Policy",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 431,
+      "end": 478,
+      "text": "International Swaps and Derivatives Association",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 479,
+      "end": 493,
+      "text": "(202) 457-6545",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 497,
+      "end": 511,
+      "text": "(703) 256-1833",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 516,
+      "end": 530,
+      "text": "(917) 543-9622",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 536,
+      "end": 551,
+      "text": "scarey@isda.org",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 377,
+      "end": 552,
+      "text": "Stacy Carey\nDirector North American Regulatory Policy\nInternational Swaps and Derivatives Association\n(202) 457-6545 ph\n(703) 256-1833 fax\n(917) 543-9622 cell\nscarey@isda.org\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 370,
+      "end": 375,
+      "text": "Stacy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 355,
+      "end": 376,
+      "text": "Many thanks -- Stacy\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 552,
+      "text": "ISDA and the Bond Market Association are hosting a meeting on bankruptcy\nreform on February 8 at 2:00 at the Bond Market Association offices in New\nYork.  The purpose of the meeting is to discuss strategy (to include or nor\ninclude cross-affiliate netting) and technical modifications to netting\nlegislation.\n\nPlease advise if you will like to attend. -- Many thanks -- Stacy\n\nStacy Carey\nDirector North American Regulatory Policy\nInternational Swaps and Derivatives Association\n(202) 457-6545 ph\n(703) 256-1833 fax\n(917) 543-9622 cell\nscarey@isda.org\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 7,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31083075.1075860254760.JavaMail.evans@thyme>",
+      "Date": "Thu, 25 Jan 2001 10:44:00 -0800 (PST)",
+      "From": "scarey@isda.org",
+      "To": "usregcomm@isda.org",
+      "Subject": "Bankruptcy Meeting - February 8th - 2:00 p.m. NY",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stacy Carey <SCAREY@ISDA.ORG>",
+      "X-To": "US REGULATORY COMMITTEE <USREGCOMM@isda.org>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_notes_inbox_2554.txt"
+}

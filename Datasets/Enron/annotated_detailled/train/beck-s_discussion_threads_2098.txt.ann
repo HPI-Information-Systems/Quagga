@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nWe have set up 2 PUB codes for Sea Freight:\n\nMain Curve = FF-USJAP-PM\nNEW PUB code = FF-R2A-L7-PM (averages over last 7 days)\n\nMain Curve FF-3A-PNMX\nNew Pub code FF-3A-L7-TC (averages over last 7 days)\n\nrgds\n\nKenny",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 208,
+      "end": 219,
+      "text": "rgds\n\nKenny",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 214,
+      "end": 219,
+      "text": "Kenny",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 219,
+      "text": "Hi,\n\nWe have set up 2 PUB codes for Sea Freight:\n\nMain Curve = FF-USJAP-PM\nNEW PUB code = FF-R2A-L7-PM (averages over last 7 days)\n\nMain Curve FF-3A-PNMX\nNew Pub code FF-3A-L7-TC (averages over last 7 days)\n\nrgds\n\nKenny",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31712377.1075855859512.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Nov 2000 03:03:00 -0800 (PST)",
+      "From": "kenny.nicoll@enron.com",
+      "To": "chris.abel@enron.com, susan.trevino@enron.com, homan.amiry@enron.com, \n\tshona.wilson@enron.com",
+      "Subject": "2 NEW Pub Codes",
+      "Cc": "dimitri.taylor@enron.com, patryk.wlodarski@enron.com, pierre.aury@enron.com, \n\tchris.connelly@enron.com, andy.james@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "dimitri.taylor@enron.com, patryk.wlodarski@enron.com, pierre.aury@enron.com, \n\tchris.connelly@enron.com, andy.james@enron.com",
+      "X-From": "Kenny Nicoll",
+      "X-To": "Chris Abel, Susan D Trevino, Homan Amiry, Shona Wilson",
+      "X-cc": "Dimitri Taylor, Patryk Wlodarski, Pierre Aury, Chris Connelly, Andy James",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_discussion_threads_2098.txt"
+}

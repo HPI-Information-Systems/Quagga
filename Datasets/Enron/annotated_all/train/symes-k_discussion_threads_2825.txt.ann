@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "564894 - changed to Bloomberg - but it's a buy, not a sale - is this the same \ndeal prebon is missing?\n\n\n\n\nEvelyn Metoyer@ENRON\n03/29/2001 02:25 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 3/29 Checkout\n\n\n\nAMEREX\nAll deals o.k.\n\n\nPREBON\n\nMark Fischer \ndeal 564894\nPrebon does not recognize\n\n\nBLOOMBERG\n\nMark Fischer\nI am missing the following deal:\nEnron sells to El Paso 25 mw May PV  $304.00\nI believe this deal is the deal prebon does not recognize--564894\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 107,
+      "text": "564894 - changed to Bloomberg - but it's a buy, not a sale - is this the same \ndeal prebon is missing?\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 107,
+      "end": 121,
+      "text": "Evelyn Metoyer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 128,
+      "end": 138,
+      "text": "03/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 139,
+      "end": 147,
+      "text": "02:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 152,
+      "end": 162,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 191,
+      "end": 204,
+      "text": "3/29 Checkout",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 107,
+      "end": 205,
+      "text": "Evelyn Metoyer@ENRON\n03/29/2001 02:25 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: 3/29 Checkout\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 205,
+      "end": 463,
+      "text": "\n\n\nAMEREX\nAll deals o.k.\n\n\nPREBON\n\nMark Fischer \ndeal 564894\nPrebon does not recognize\n\n\nBLOOMBERG\n\nMark Fischer\nI am missing the following deal:\nEnron sells to El Paso 25 mw May PV  $304.00\nI believe this deal is the deal prebon does not recognize--564894\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20564090.1075841836306.JavaMail.evans@thyme>",
+      "Date": "Thu, 29 Mar 2001 06:24:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "evelyn.metoyer@enron.com",
+      "Subject": "Re: 3/29 Checkout",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Evelyn Metoyer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Discussion threads",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_discussion_threads_2825.txt"
+}

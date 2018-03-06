@@ -1,0 +1,68 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is the referenced presentation.\n\n----- Forwarded by Chris Gaffney/TOR/ECT on 11/23/2000 10:18 AM -----\n\n\tChris Gaffney\n\t11/23/2000 10:11 AM\n\t\t \n\t\t To: Greg Johnston/CAL/ECT@ECT, Elizabeth Sager/HOU/ECT@ECT\n\t\t cc: Aleck Dadson/TOR/ECT@ECT, Paul Devries/TOR/ECT@ECT, Mark E \nHaedicke/HOU/ECT@ECT, Peter Keohane/CAL/ECT@ECT, Garrett Tripp/TOR/ECT@ECT\n\t\t Subject: Ontario Standard Contract\n\nYesterday I attended the initial Ontario Standard Physical Bilateral Contract \n(OSPBC) drafting committee meeting.   A summary of the meeting follows:\n\nThe main debate in the meeting was with respect to whether \"physical\" \ntransactions were possible in Ontario given the market rules.  Ontario Power \nGeneration Inc. (OPG) put forth the premise that all transactions involving \nthe pool are financial.  I led the charge that the pool was simply a \nsettlement mechanism yet the underlying transactions are physical in nature.  \nOPG supported a  form of master which essentially a much boiled down ISDA.  I \nsupported the Canadianized EEI form that Greg has put together.\nJack Lubec of the IMO made a powerpoint presentation on how transactions are \nsettled and his interpretation of the physical/financial issue.  A copy of \nthe presentation is attached hereto.\nThe group (which included TransCanada, TransAlta, AMPCO (industrials), Hydro \nOne (transco), the IMO, several consultants and lawyers) seemed unable to \nagree with either position and decided that the market in Ontario was a \nhybrid market (a position that in practice may be correct but in terms of \nlegal obligations is nonsensical).\nThe IMO advised that Revenue Canada does not take title to power, does not \ntake possession of power and the pool transactions are deemed not \n\"derivatives\".  Notwithstanding this direction, some in the group seemed to \naccept the OPG assertion that as a generator can choose not to generate (in \nwhich case the pool will supply on the generator's behalf and charge the \ngenerator) and/or a would be load can choose not to receive (in which case \nthe pool treats this as a resale to the pool and pays the load for energy not \nconsumed) and that a supplier has no ability to guarantee physical delivery \nthat the market is financial.  I refuted this premise but only found support \nfrom TransAlta.\nNotwithstanding the lack of consensus on the physical/financial issue the \ngroup did agree with my position that many market participants did not have \nthe requisite corporate authority to do derivative or financial transactions \nand those that did may not be comfortable with or even understand a financial \ntrading document.  All in the group supported this position.  Thus,it is \nlikely that the starting point, if not the Enron Canada EEI form, will be the \nbase EEI form.  Many supported an Ontario only document but accepted the \nposition if possible a multi-jurisdictional standard base agreement would be \npreferred.\n The group tentatively accepted me and Dan Pastoric of Hydro One as the \nco-chairs of the drafting committee.  This is subject to confirmation at the \nnext meeting which is scheduled for December 6th.\n\nElizabeth - I suggest that you and I may want to prepare some sort of memo \nsetting out why the market is physical and not financial.  I think that to \nthe extent that you (or someone in your group) can provide a commentary why \nothers pools (California, NEPOOL,...) are still physical markets, I may be \nbetter equipped to convince the group. \n\nGreg - I suggest that until we are closer to market opening in Ontario that \nthe form of power master that we circulate in Alberta not include the Ontario \nFirm (LD) product definition as this will likely be modified through the \nOSPBC process.\n\nRegards\nCJG",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 42,
+      "end": 112,
+      "text": "----- Forwarded by Chris Gaffney/TOR/ECT on 11/23/2000 10:18 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 42,
+      "text": "Attached is the referenced presentation.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 112,
+      "end": 395,
+      "text": "\n\tChris Gaffney\n\t11/23/2000 10:11 AM\n\t\t \n\t\t To: Greg Johnston/CAL/ECT@ECT, Elizabeth Sager/HOU/ECT@ECT\n\t\t cc: Aleck Dadson/TOR/ECT@ECT, Paul Devries/TOR/ECT@ECT, Mark E \nHaedicke/HOU/ECT@ECT, Peter Keohane/CAL/ECT@ECT, Garrett Tripp/TOR/ECT@ECT\n\t\t Subject: Ontario Standard Contract\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 3708,
+      "end": 3720,
+      "text": "\nRegards\nCJG",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 395,
+      "end": 3720,
+      "text": "\nYesterday I attended the initial Ontario Standard Physical Bilateral Contract \n(OSPBC) drafting committee meeting.   A summary of the meeting follows:\n\nThe main debate in the meeting was with respect to whether \"physical\" \ntransactions were possible in Ontario given the market rules.  Ontario Power \nGeneration Inc. (OPG) put forth the premise that all transactions involving \nthe pool are financial.  I led the charge that the pool was simply a \nsettlement mechanism yet the underlying transactions are physical in nature.  \nOPG supported a  form of master which essentially a much boiled down ISDA.  I \nsupported the Canadianized EEI form that Greg has put together.\nJack Lubec of the IMO made a powerpoint presentation on how transactions are \nsettled and his interpretation of the physical/financial issue.  A copy of \nthe presentation is attached hereto.\nThe group (which included TransCanada, TransAlta, AMPCO (industrials), Hydro \nOne (transco), the IMO, several consultants and lawyers) seemed unable to \nagree with either position and decided that the market in Ontario was a \nhybrid market (a position that in practice may be correct but in terms of \nlegal obligations is nonsensical).\nThe IMO advised that Revenue Canada does not take title to power, does not \ntake possession of power and the pool transactions are deemed not \n\"derivatives\".  Notwithstanding this direction, some in the group seemed to \naccept the OPG assertion that as a generator can choose not to generate (in \nwhich case the pool will supply on the generator's behalf and charge the \ngenerator) and/or a would be load can choose not to receive (in which case \nthe pool treats this as a resale to the pool and pays the load for energy not \nconsumed) and that a supplier has no ability to guarantee physical delivery \nthat the market is financial.  I refuted this premise but only found support \nfrom TransAlta.\nNotwithstanding the lack of consensus on the physical/financial issue the \ngroup did agree with my position that many market participants did not have \nthe requisite corporate authority to do derivative or financial transactions \nand those that did may not be comfortable with or even understand a financial \ntrading document.  All in the group supported this position.  Thus,it is \nlikely that the starting point, if not the Enron Canada EEI form, will be the \nbase EEI form.  Many supported an Ontario only document but accepted the \nposition if possible a multi-jurisdictional standard base agreement would be \npreferred.\n The group tentatively accepted me and Dan Pastoric of Hydro One as the \nco-chairs of the drafting committee.  This is subject to confirmation at the \nnext meeting which is scheduled for December 6th.\n\nElizabeth - I suggest that you and I may want to prepare some sort of memo \nsetting out why the market is physical and not financial.  I think that to \nthe extent that you (or someone in your group) can provide a commentary why \nothers pools (California, NEPOOL,...) are still physical markets, I may be \nbetter equipped to convince the group. \n\nGreg - I suggest that until we are closer to market opening in Ontario that \nthe form of power master that we circulate in Alberta not include the Ontario \nFirm (LD) product definition as this will likely be modified through the \nOSPBC process.\n\nRegards\nCJG",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18636759.1075859677794.JavaMail.evans@thyme>",
+      "Date": "Thu, 23 Nov 2000 02:13:00 -0800 (PST)",
+      "From": "chris.gaffney@enron.com",
+      "To": "greg.johnston@enron.com, elizabeth.sager@enron.com",
+      "Subject": "Ontario Standard Contract",
+      "Cc": "aleck.dadson@enron.com, paul.devries@enron.com, mark.haedicke@enron.com, \n\tpeter.keohane@enron.com, garrett.tripp@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "aleck.dadson@enron.com, paul.devries@enron.com, mark.haedicke@enron.com, \n\tpeter.keohane@enron.com, garrett.tripp@enron.com",
+      "X-From": "Chris Gaffney",
+      "X-To": "Greg Johnston, Elizabeth Sager",
+      "X-cc": "Aleck Dadson, Paul Devries, Mark E Haedicke, Peter Keohane, Garrett Tripp",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Dec2000_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "Haedicke-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_notes_inbox_334.txt"
+}

@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello Jason,\n\nI figured it out:\n\n1) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder(\"http://localhost:8389/solr/core\").build();\n2) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder(\"http://localhost:8389/solr/core\")\n\t\t\t\t.withQueueSize(20)\n\t\t\t\t.build();\n\n1) fails with an IllegalArgumentException due to the fact the the queue size is not specified.\n2) works as expected.\n\nCheers,\nP.\n\n> On 13 Aug 2017, at 22:58, Jason Gerlowski <gerlowskija@gmail.com> wrote:\n> \n> Hi Paul,\n> \n> I'll try reproducing this with the snippet provided, but I don't see\n> anything inherently wrong with the Builder usage you mentioned, assuming\n> the Solr base URL you provided is correct.\n> \n> It would be easier to troubleshoot your issue though if you included some\n> more information about the NPE you're seeing. Could you post the stacktrace\n> to help others investigate please?\n> \n> Best,\n> \n> Jason\n> \n> On Aug 13, 2017 5:43 AM, \"Paul Smith Parker\" <paul.smith.parker@gmail.com>\n> wrote:\n> \n>> Hello,\n>> \n>> I can\u00e2\u20ac\u2122t find an example on how to properly instantiate/configure an\n>> instance of ConcurrentUpdateSolrClient.\n>> \n>> I tried this but it gives me a NPE:\n>> \n>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.\n>> Builder(\u00e2\u20ac\u0153http://localhost:8389/solr <http://localhost:8389/solr>/\n>> core\").build();\n>> \n>> While this seems to work (it should use an internal httpClient):\n>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.\n>> Builder(\u00e2\u20ac\u0153http://localhost:8389/solr <http://localhost:8389/solr>/core\")\n>>                                .withHttpClient(null)\n>>                                .withQueueSize(1000)\n>>                                .withThreadCount(20)\n>>                                .build();\n>> \n>> Is this the correct way to set it up?\n>> \n>> Thanks,\n>> P.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Hello Jason,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 421,
+      "end": 433,
+      "text": "\nCheers,\nP.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 434,
+      "text": "Hello Jason,\n\nI figured it out:\n\n1) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder(\"http://localhost:8389/solr/core\").build();\n2) ConcurrentUpdateSolrClient build = new ConcurrentUpdateSolrClient.Builder(\"http://localhost:8389/solr/core\")\n\t\t\t\t.withQueueSize(20)\n\t\t\t\t.build();\n\n1) fails with an IllegalArgumentException due to the fact the the queue size is not specified.\n2) works as expected.\n\nCheers,\nP.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 434,
+      "end": 509,
+      "text": "> On 13 Aug 2017, at 22:58, Jason Gerlowski <gerlowskija@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 509,
+      "end": 523,
+      "text": "> \n> Hi Paul,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 911,
+      "end": 933,
+      "text": "> \n> Best,\n> \n> Jason\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 509,
+      "end": 936,
+      "text": "> \n> Hi Paul,\n> \n> I'll try reproducing this with the snippet provided, but I don't see\n> anything inherently wrong with the Builder usage you mentioned, assuming\n> the Solr base URL you provided is correct.\n> \n> It would be easier to troubleshoot your issue though if you included some\n> more information about the NPE you're seeing. Could you post the stacktrace\n> to help others investigate please?\n> \n> Best,\n> \n> Jason\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 936,
+      "end": 1022,
+      "text": "> On Aug 13, 2017 5:43 AM, \"Paul Smith Parker\" <paul.smith.parker@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1022,
+      "end": 1035,
+      "text": "> \n>> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1846,
+      "end": 1867,
+      "text": ">> \n>> Thanks,\n>> P.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1022,
+      "end": 1869,
+      "text": "> \n>> Hello,\n>> \n>> I can\u00e2\u20ac\u2122t find an example on how to properly instantiate/configure an\n>> instance of ConcurrentUpdateSolrClient.\n>> \n>> I tried this but it gives me a NPE:\n>> \n>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.\n>> Builder(\u00e2\u20ac\u0153http://localhost:8389/solr <http://localhost:8389/solr>/\n>> core\").build();\n>> \n>> While this seems to work (it should use an internal httpClient):\n>> ConcurrentUpdateSolrClient solrClient = new ConcurrentUpdateSolrClient.\n>> Builder(\u00e2\u20ac\u0153http://localhost:8389/solr <http://localhost:8389/solr>/core\")\n>>                                .withHttpClient(null)\n>>                                .withQueueSize(1000)\n>>                                .withThreadCount(20)\n>>                                .build();\n>> \n>> Is this the correct way to set it up?\n>> \n>> Thanks,\n>> P.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5470"
+}

@@ -1,0 +1,107 @@
+{
+  "wrapper": "plaintext",
+  "text": "It's an Amerex deal. I've changed it.\n\nKate\n\n\n\n\nKerri Thompson@ENRON\n01/24/2001 02:38 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb check out\n\n504017  not there deal\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 39,
+      "end": 43,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 48,
+      "text": "It's an Amerex deal. I've changed it.\n\nKate\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 48,
+      "end": 62,
+      "text": "Kerri Thompson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 69,
+      "end": 79,
+      "text": "01/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 80,
+      "end": 88,
+      "text": "02:38 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 93,
+      "end": 103,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 132,
+      "end": 145,
+      "text": "apb check out",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 48,
+      "end": 146,
+      "text": "Kerri Thompson@ENRON\n01/24/2001 02:38 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb check out\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 146,
+      "end": 171,
+      "text": "\n504017  not there deal\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16048404.1075841888894.JavaMail.evans@thyme>",
+      "Date": "Wed, 24 Jan 2001 06:36:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "kerri.thompson@enron.com",
+      "Subject": "Re: apb check out",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Kerri Thompson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Sent",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_sent_435.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

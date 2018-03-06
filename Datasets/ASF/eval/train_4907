@@ -1,0 +1,31 @@
+Hi,
+
+we start our Flink Jobs on EMR with Lambda functions. Lambda functions
+can have various triggers, among many others they can be triggered by
+some CloudWatch rule. So you could create a rule based on your desires
+that triggers a Lambda function, which will in turn spin up an EMR
+cluster with the steps being your particular jobs.
+
+Hope that helps,
+best regards
+
+Konstantin
+
+
+On 21.09.2017 01:25, ShB wrote:
+> Are there any recommended ways to schedule and manage Flink Workflows on EMR?
+> I need to run a series of jobs daily, based on API requests coming in, and
+> this job will need to interface with S3 for data. 
+> 
+> 
+> 
+> --
+> Sent from: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/
+> 
+
+-- 
+Konstantin Gregor * konstantin.gregor@tngtech.com
+TNG Technology Consulting GmbH, Betastr. 13a, 85774 Unterföhring
+Geschäftsführer: Henrik Klagges, Dr. Robert Dahlke, Gerhard Müller
+Amtsgericht München, HRB 135082
+

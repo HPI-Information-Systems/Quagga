@@ -1,0 +1,132 @@
+{
+  "wrapper": "plaintext",
+  "text": "Fiona Grant mentioned to me that you will be speaking at the Eurelectric \nmeeting in Madrid on Monday and we thought that you might therefore be \ninterested to see the attached note summarising the current PR situation with \nrespect to our power plant developments in Spain.  \n\nFYI Greenpeace is lobbying the Spanish Government heavily over the next few \ndays in advance of the Bush visit - according to its website, will be calling \nfor the Spanish Government to prohibit the development of power plants by US \ncompanies in protest at his policy on Kyoto.\n\n\n\n -----Original Message-----\nFrom:  Green, Julie  \nSent: 08 June 2001 13:40\nTo: Sherriff, John; Brown, Michael - COO London; Gentilini, Mariano; Shaw, \nEric; Soneira, Ignacio; Gentle, Jackie\nSubject: Arcos/Tordesillas demonstrations \n\nThis Sunday sees the demonstration in Arcos opposing the development of CCGTs \nin the region.  It is difficult to estimate likely turnout at the event - \nhowever the opposition Platform has been placing ads and has organised \nseveral buses from outside villages.  We are in contact with the Arcos Town \nHall to see if they will be issuing official attendance numbers in advance of \nthe opposition group, which can be sure to distort numbers.\n\nOur PR consultant is in contact today with local media and will be in Arcos \nat the weekend to gauge the mood - if the demonstration does not attract many \nsupporters, we will not comment publicly.  However, we will assess the \nsituation on Sunday, and if there is a very large turnout, we may set up some \ninterviews for Ignacio Soneira during the afternoon with local press and \nradio.  These interviews will be used to communicate that: Enron continues to \nbelieve in the positive benefits of the project for the region; the project \nhas been subject to extensive public consultation; we have obtained our \nEnvironmental Impact Declaration and a large number of other permits; \ndifferent opinions are to be welcomed in a democracy, and in fact the project \ndoes have support from many parts of the local community.\n\nIt is important to note that local politicians are setting great store by the \nsuccess or otherwise of this weekend's demonstration - one key factor will be \nthe ratio of Arcos residents present versus outsiders.  We will be continuing \nwith our ongoing PR activities - adverts, presentations, sponsorships, \ninterviews etc - next week, so that we are not seen to be backing off from \nthe project following the demonstration.\n\nSome local politicians are predicting that the level of turnout may in the \nend depend on the weather.  \n\n\nTordesillas\n\nThe demonstration which took place a few days ago in Tordesillas did attract \na large number of local people (in the thousands).  The Tordesillas Mayor has \nnow said that if local people are against the plant, then she too is against \nthe project.  Our media response on this issue is that the consultation \nprocess is ongoing and that the Environmental Impact Report is due out within \nthe next few weeks.  \n\nThe demonstration and the Mayor's position has attracted substantial local \npress coverage - the obvious concern is that these latest developments get \npicked up by newswires (one energy publication has picked up on the \nsituation) and spread through Spain to Arcos.\n\nJackie Gentle and I will be visiting Tordesillas and Arcos next week to \ndiscuss the latest developments.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 560,
+      "text": "Fiona Grant mentioned to me that you will be speaking at the Eurelectric \nmeeting in Madrid on Monday and we thought that you might therefore be \ninterested to see the attached note summarising the current PR situation with \nrespect to our power plant developments in Spain.  \n\nFYI Greenpeace is lobbying the Spanish Government heavily over the next few \ndays in advance of the Bush visit - according to its website, will be calling \nfor the Spanish Government to prohibit the development of power plants by US \ncompanies in protest at his policy on Kyoto.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 595,
+      "end": 607,
+      "text": "Green, Julie",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 616,
+      "end": 628,
+      "text": "08 June 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 629,
+      "end": 634,
+      "text": "13:40",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 639,
+      "end": 653,
+      "text": "Sherriff, John",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 655,
+      "end": 669,
+      "text": "Brown, Michael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 684,
+      "end": 702,
+      "text": "Gentilini, Mariano",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 704,
+      "end": 715,
+      "text": "Shaw, \nEric",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 717,
+      "end": 733,
+      "text": "Soneira, Ignacio",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 735,
+      "end": 749,
+      "text": "Gentle, Jackie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 759,
+      "end": 791,
+      "text": "Arcos/Tordesillas demonstrations",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 560,
+      "end": 793,
+      "text": " -----Original Message-----\nFrom:  Green, Julie  \nSent: 08 June 2001 13:40\nTo: Sherriff, John; Brown, Michael - COO London; Gentilini, Mariano; Shaw, \nEric; Soneira, Ignacio; Gentle, Jackie\nSubject: Arcos/Tordesillas demonstrations \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 793,
+      "end": 3390,
+      "text": "\nThis Sunday sees the demonstration in Arcos opposing the development of CCGTs \nin the region.  It is difficult to estimate likely turnout at the event - \nhowever the opposition Platform has been placing ads and has organised \nseveral buses from outside villages.  We are in contact with the Arcos Town \nHall to see if they will be issuing official attendance numbers in advance of \nthe opposition group, which can be sure to distort numbers.\n\nOur PR consultant is in contact today with local media and will be in Arcos \nat the weekend to gauge the mood - if the demonstration does not attract many \nsupporters, we will not comment publicly.  However, we will assess the \nsituation on Sunday, and if there is a very large turnout, we may set up some \ninterviews for Ignacio Soneira during the afternoon with local press and \nradio.  These interviews will be used to communicate that: Enron continues to \nbelieve in the positive benefits of the project for the region; the project \nhas been subject to extensive public consultation; we have obtained our \nEnvironmental Impact Declaration and a large number of other permits; \ndifferent opinions are to be welcomed in a democracy, and in fact the project \ndoes have support from many parts of the local community.\n\nIt is important to note that local politicians are setting great store by the \nsuccess or otherwise of this weekend's demonstration - one key factor will be \nthe ratio of Arcos residents present versus outsiders.  We will be continuing \nwith our ongoing PR activities - adverts, presentations, sponsorships, \ninterviews etc - next week, so that we are not seen to be backing off from \nthe project following the demonstration.\n\nSome local politicians are predicting that the level of turnout may in the \nend depend on the weather.  \n\n\nTordesillas\n\nThe demonstration which took place a few days ago in Tordesillas did attract \na large number of local people (in the thousands).  The Tordesillas Mayor has \nnow said that if local people are against the plant, then she too is against \nthe project.  Our media response on this issue is that the consultation \nprocess is ongoing and that the Environmental Impact Report is due out within \nthe next few weeks.  \n\nThe demonstration and the Mayor's position has attracted substantial local \npress coverage - the obvious concern is that these latest developments get \npicked up by newswires (one energy publication has picked up on the \nsituation) and spread through Spain to Arcos.\n\nJackie Gentle and I will be visiting Tordesillas and Arcos next week to \ndiscuss the latest developments.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2092099.1075850538133.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Jun 2001 11:47:00 -0700 (PDT)",
+      "From": "julie.green@enron.com",
+      "To": "steven.kean@enron.com",
+      "Subject": "Eurelectric conference - PR issues in Spain",
+      "Cc": "richard.shapiro@enron.com, fiona.grant@enron.com, peter.styles@enron.com, \n\talfredo.huertas-rubio@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "richard.shapiro@enron.com, fiona.grant@enron.com, peter.styles@enron.com, \n\talfredo.huertas-rubio@enron.com",
+      "X-From": "Julie Green",
+      "X-To": "Steven J Kean",
+      "X-cc": "Richard Shapiro, Fiona Grant, Peter Styles, Alfredo Huertas-rubio",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Nov2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_discussion_threads_7010.txt"
+}

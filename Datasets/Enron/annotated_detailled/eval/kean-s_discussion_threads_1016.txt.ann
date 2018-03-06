@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "eval/kean-s_discussion_threads_1016.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<31474610.1075848095862.JavaMail.evans@thyme>",
+      "Date": "Wed, 23 Aug 2000 11:06:00 -0700 (PDT)",
+      "From": "steven.kean@enron.com",
+      "To": "ricardo.charvel@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Ricardo Charvel",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "text": "You probably saw the announcement that Mike Mcconnell is now CEO of Enron \nGlobal Markets.  EGM will be focussing on a number of new and existing \nmarkets (including coal, LNG, crude and products, interest rates, \nagricultural commodities, equities, weather, etc).  One of the markets Mike's \ngroup is actively considering is transport capacity.  I mentioned your work \nin the area.  He is anxious to see it and meet with you after he has had a \nchance to review it.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 466,
+      "text": "You probably saw the announcement that Mike Mcconnell is now CEO of Enron \nGlobal Markets.  EGM will be focussing on a number of new and existing \nmarkets (including coal, LNG, crude and products, interest rates, \nagricultural commodities, equities, weather, etc).  One of the markets Mike's \ngroup is actively considering is transport capacity.  I mentioned your work \nin the area.  He is anxious to see it and meet with you after he has had a \nchance to review it.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please read\n\nDG\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/20/2000 \n05:43 PM ---------------------------\n\n\nJeffrey C Gossett\n12/20/2000 04:00 PM\nTo: Kam Keiser/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, William \nKelly/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON\ncc:  \nSubject: Physical Deals\n\nPlease make sure that all physical deals with a finacial component are marked \nphysical in TAGG.  Mostly this applies to annuities associated with physical \ndeals and imbedded options.   Not clicking physical is causing problems with \naccounting as well as the credit group.\n\nThanks\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 12,
+      "end": 16,
+      "text": "\nDG\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 16,
+      "end": 127,
+      "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/20/2000 \n05:43 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 16,
+      "text": "Please read\n\nDG\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 127,
+      "end": 344,
+      "text": "\n\nJeffrey C Gossett\n12/20/2000 04:00 PM\nTo: Kam Keiser/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, William \nKelly/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON\ncc:  \nSubject: Physical Deals\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 620,
+      "end": 628,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 344,
+      "end": 628,
+      "text": "\nPlease make sure that all physical deals with a finacial component are marked \nphysical in TAGG.  Mostly this applies to annuities associated with physical \ndeals and imbedded options.   Not clicking physical is causing problems with \naccounting as well as the credit group.\n\nThanks\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5943937.1075854418772.JavaMail.evans@thyme>",
+      "Date": "Wed, 20 Dec 2000 09:43:00 -0800 (PST)",
+      "From": "darron.giron@enron.com",
+      "To": "jason.wolfe@enron.com, anne.bike@enron.com, chris.walker@enron.com, \n\tcarole.frank@enron.com, jennifer.bagwell@enron.com",
+      "Subject": "Physical Deals",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "Jason Wolfe, Anne Bike, Chris Walker, Carole Frank, Jennifer Bagwell",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\'sent mail",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "id": "train/giron-d__sent_mail_381.txt"
+}

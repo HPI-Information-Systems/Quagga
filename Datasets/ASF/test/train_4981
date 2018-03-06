@@ -1,0 +1,18 @@
+Is there a way to not have to specify a schema when using from_json() or infer the schema?
+When you read a JSON doc from disk, you can infer the schema. Should I write it to disk before
+(ouch)?
+
+jg
+
+______________________________________________________________________
+This electronic transmission and any documents accompanying this electronic transmission contain
+confidential information belonging to the sender.  This information may contain confidential
+health information that is legally privileged.  The information is intended only for the use
+of the individual or entity named above.  The authorized recipient of this transmission is
+prohibited from disclosing this information to any other party unless required to do so by
+law or regulation and is required to delete or destroy the information after its stated need
+has been fulfilled.  If you are not the intended recipient, you are hereby notified that any
+disclosure, copying, distribution or the taking of any action in reliance on or regarding
+the contents of this electronically transmitted information is strictly prohibited.  If you
+have received this E-mail in error, please notify the sender and delete this message immediately.
+

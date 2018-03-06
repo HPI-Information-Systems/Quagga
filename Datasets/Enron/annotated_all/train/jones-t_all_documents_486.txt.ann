@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/jones-t_all_documents_486.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<14704553.1075846921875.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 Nov 1999 03:49:00 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "michael.neves@enron.com",
+      "Subject": "Re: Changes to our Master Swap Areement Database",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Michael Neves",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "text": "How about Wednesday at 10:00 am?",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 32,
+      "text": "How about Wednesday at 10:00 am?",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

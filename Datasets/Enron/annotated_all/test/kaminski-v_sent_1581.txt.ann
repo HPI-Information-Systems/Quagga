@@ -1,0 +1,490 @@
+{
+  "wrapper": "plaintext",
+  "text": "Nia,\n\nNo, not yet.\n\nVince\n\n\n\n\nNia Mansell <niam@informationforecast.com> on 11/06/2000 12:48:21 PM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: RE: Power Crisis in the West\n\n\nTim Belden's office referred me to you.  Has Grant Masson been replaced?\n\n-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: Monday, November 06, 2000 11:00 AM\nTo: niam@infocastinc.com\nSubject: Re: Power Crisis in the West\n\n\n\nNia,\n\nPlease, contact Tim Belden in our Portland office.\nHis phone number is:   (503) 464-3820\n\nVince\n\n\n\n\n\nNia Mansell <niam@infocastinc.com> on 11/03/2000 12:46:52 PM\n\nTo:   vkamins@enron.com\ncc:\nSubject:  Power Crisis in the West\n\n\nDear Vince,\n\nI spoke with you briefly yesterday regarding Grant Masson.  You informed me\nthat he is no longer an Enron employee.  I have also been informed that\nGrant has not yet been replaced.\n\nI am inquiring because Infocast would like to have an Enron representative\nspeak at an upcoming conference entitled \"Power Crisis in the West: Status\n&\nOutlook for Wholesale and Retail Markets\".  Is there someone else at Enron\nwhom you would recommend to speak at the conference?\n\nI have attached the program agenda for your review.  Knowing a bit about\nGrant's expertise, I specifically wanted him to participate on the panel\n\"How Will Power Prices Play Out in 2001-2005?\".  Please let me know if\nthere\nis someone else at Enron whom I should speak with regarding this topic, or\nothers that may be of interest to Enron.\n\nI look forward to working with Enron on this conference; it is certainly\ngoing to be an exciting conference due to all of the controversy\nsurrounding\nthe situation in San Diego.\n\nKind Regards,\nNia Mansell\nInfocast\nConference Manager\n(818)888-4445 ext.45\n(818)888-4440 fax\nniam@informationforecast.com\n <<Power Crisis in the West Invite.doc>>\n\n(See attached file: Power Crisis in the West Invite.doc)\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Nia",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 20,
+      "end": 25,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 30,
+      "text": "Nia,\n\nNo, not yet.\n\nVince\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 30,
+      "end": 41,
+      "text": "Nia Mansell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 43,
+      "end": 71,
+      "text": "niam@informationforecast.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 76,
+      "end": 86,
+      "text": "11/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 87,
+      "end": 98,
+      "text": "12:48:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 103,
+      "end": 129,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 145,
+      "end": 173,
+      "text": "RE: Power Crisis in the West",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 30,
+      "end": 174,
+      "text": "Nia Mansell <niam@informationforecast.com> on 11/06/2000 12:48:21 PM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: RE: Power Crisis in the West\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 174,
+      "end": 250,
+      "text": "\n\nTim Belden's office referred me to you.  Has Grant Masson been replaced?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 283,
+      "end": 309,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 318,
+      "end": 344,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 360,
+      "end": 377,
+      "text": "November 06, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 378,
+      "end": 386,
+      "text": "11:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 391,
+      "end": 411,
+      "text": "niam@infocastinc.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 421,
+      "end": 449,
+      "text": "Re: Power Crisis in the West",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 250,
+      "end": 450,
+      "text": "-----Original Message-----\nFrom: Vince.J.Kaminski@enron.com [mailto:Vince.J.Kaminski@enron.com]\nSent: Monday, November 06, 2000 11:00 AM\nTo: niam@infocastinc.com\nSubject: Re: Power Crisis in the West\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 453,
+      "end": 456,
+      "text": "Nia",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 549,
+      "end": 554,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 450,
+      "end": 560,
+      "text": "\n\n\nNia,\n\nPlease, contact Tim Belden in our Portland office.\nHis phone number is:   (503) 464-3820\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 560,
+      "end": 571,
+      "text": "Nia Mansell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 573,
+      "end": 593,
+      "text": "niam@infocastinc.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 598,
+      "end": 608,
+      "text": "11/03/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 609,
+      "end": 620,
+      "text": "12:46:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 628,
+      "end": 645,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 660,
+      "end": 684,
+      "text": "Power Crisis in the West",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 560,
+      "end": 685,
+      "text": "Nia Mansell <niam@infocastinc.com> on 11/03/2000 12:46:52 PM\n\nTo:   vkamins@enron.com\ncc:\nSubject:  Power Crisis in the West\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 692,
+      "end": 697,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 687,
+      "end": 699,
+      "text": "Dear Vince,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1866,
+      "end": 1901,
+      "text": "Power Crisis in the West Invite.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1807,
+      "end": 1842,
+      "text": "Power Crisis in the West Invite.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1804,
+      "end": 1903,
+      "text": " <<Power Crisis in the West Invite.doc>>\n\n(See attached file: Power Crisis in the West Invite.doc)\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1682,
+      "end": 1708,
+      "text": "Kind Regards,\nNia Mansell\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1696,
+      "end": 1707,
+      "text": "Nia Mansell",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1708,
+      "end": 1716,
+      "text": "Infocast",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1717,
+      "end": 1735,
+      "text": "Conference Manager",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1736,
+      "end": 1749,
+      "text": "(818)888-4445",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1757,
+      "end": 1770,
+      "text": "(818)888-4440",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1775,
+      "end": 1803,
+      "text": "niam@informationforecast.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1708,
+      "end": 1804,
+      "text": "Infocast\nConference Manager\n(818)888-4445 ext.45\n(818)888-4440 fax\nniam@informationforecast.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 685,
+      "end": 1906,
+      "text": "\n\nDear Vince,\n\nI spoke with you briefly yesterday regarding Grant Masson.  You informed me\nthat he is no longer an Enron employee.  I have also been informed that\nGrant has not yet been replaced.\n\nI am inquiring because Infocast would like to have an Enron representative\nspeak at an upcoming conference entitled \"Power Crisis in the West: Status\n&\nOutlook for Wholesale and Retail Markets\".  Is there someone else at Enron\nwhom you would recommend to speak at the conference?\n\nI have attached the program agenda for your review.  Knowing a bit about\nGrant's expertise, I specifically wanted him to participate on the panel\n\"How Will Power Prices Play Out in 2001-2005?\".  Please let me know if\nthere\nis someone else at Enron whom I should speak with regarding this topic, or\nothers that may be of interest to Enron.\n\nI look forward to working with Enron on this conference; it is certainly\ngoing to be an exciting conference due to all of the controversy\nsurrounding\nthe situation in San Diego.\n\nKind Regards,\nNia Mansell\nInfocast\nConference Manager\n(818)888-4445 ext.45\n(818)888-4440 fax\nniam@informationforecast.com\n <<Power Crisis in the West Invite.doc>>\n\n(See attached file: Power Crisis in the West Invite.doc)\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 13,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 37,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 35,
+      "target": 36,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 38,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 39,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 40,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 19,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 13,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 19,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 23,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 26,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 29,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 35,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21728210.1075856474038.JavaMail.evans@thyme>",
+      "Date": "Mon, 6 Nov 2000 05:49:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "niam@informationforecast.com",
+      "Subject": "RE: Power Crisis in the West",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Nia Mansell <niam@informationforecast.com> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1581.txt"
+}

@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here we go\nhttps://cwiki.apache.org/confluence/display/solr/Other+Parsers#OtherParsers-FunctionRangeQueryParser\n.\nBut it's %100 YAGNI. You'd better tweak search to be more precise.\n\nOn Mon, Apr 10, 2017 at 7:12 PM, Ahmet Arslan <iorixxx@yahoo.com.invalid>\nwrote:\n\n> Hi,\n> I remember that this is possible via frange query parser.But I don't have\n> the query string at hand.\n> Ahmet\n> On Monday, April 10, 2017, 9:00:09 PM GMT+3, David Kramer <\n> David.Kramer@shoebuy.com> wrote:\n> I\u00e2\u20ac\u2122ve done quite a bit of searching on this.  Pretty much every page I find\n> says it\u00e2\u20ac\u2122s a bad idea and won\u00e2\u20ac\u2122t work well, but I\u00e2\u20ac\u2122ve been asked to at least\n> try it to reduce the number of completely unrelated results returned.  We\n> are not trying to normalize the number, or display it as a percentage, and\n> I understand why those are not mathematically sound.  We are relying on\n> Solr for pagination, so we can\u00e2\u20ac\u2122t just filter out low scores from the\n> results.\n>\n> I had assumed that you could use score in the filter query, but that\n> doesn\u00e2\u20ac\u2122t appear to be the case.  Is there a special way to reference it, or\n> is there another way to attack the problem?  It seems like something that\n> should be allowed and possible.\n>\n> Thanks.\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 182,
+      "text": "Here we go\nhttps://cwiki.apache.org/confluence/display/solr/Other+Parsers#OtherParsers-FunctionRangeQueryParser\n.\nBut it's %100 YAGNI. You'd better tweak search to be more precise.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 182,
+      "end": 263,
+      "text": "On Mon, Apr 10, 2017 at 7:12 PM, Ahmet Arslan <iorixxx@yahoo.com.invalid>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 263,
+      "end": 270,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 374,
+      "end": 382,
+      "text": "> Ahmet\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 263,
+      "end": 382,
+      "text": "\n> Hi,\n> I remember that this is possible via frange query parser.But I don't have\n> the query string at hand.\n> Ahmet\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 382,
+      "end": 479,
+      "text": "> On Monday, April 10, 2017, 9:00:09 PM GMT+3, David Kramer <\n> David.Kramer@shoebuy.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1230,
+      "end": 1267,
+      "text": "-- \nSincerely yours\nMikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 479,
+      "end": 1268,
+      "text": "> I\u00e2\u20ac\u2122ve done quite a bit of searching on this.  Pretty much every page I find\n> says it\u00e2\u20ac\u2122s a bad idea and won\u00e2\u20ac\u2122t work well, but I\u00e2\u20ac\u2122ve been asked to at least\n> try it to reduce the number of completely unrelated results returned.  We\n> are not trying to normalize the number, or display it as a percentage, and\n> I understand why those are not mathematically sound.  We are relying on\n> Solr for pagination, so we can\u00e2\u20ac\u2122t just filter out low scores from the\n> results.\n>\n> I had assumed that you could use score in the filter query, but that\n> doesn\u00e2\u20ac\u2122t appear to be the case.  Is there a special way to reference it, or\n> is there another way to attack the problem?  It seems like something that\n> should be allowed and possible.\n>\n> Thanks.\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2402"
+}

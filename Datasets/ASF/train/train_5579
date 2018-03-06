@@ -1,0 +1,225 @@
+righto,
+
+thanks very much for your help clarifying this. I am not alone :)
+
+I have been looking at this for a few days now.
+
+I am seeing people who have experienced this issue going back to solr
+version 4.x.
+
+I am wondering if it is an underlying issue with the way the q is managed.
+
+I would think that it should not be able to be put into a state that is not
+recoverable except destructively.
+
+If you have a very active  solr cluster this could cause data loss I am
+thinking.
+
+
+
+
+
+
+--
+Thanks,
+
+Jeff Courtade
+M: 240.507.6116
+
+On Tue, Aug 22, 2017 at 1:14 PM, Hendrik Haddorp <hendrik.haddorp@gmx.net>
+wrote:
+
+> - stop all solr nodes
+> - start zk with the new jute.maxbuffer setting
+> - start a zk client, like zkCli, with the changed jute.maxbuffer setting
+> and check that you can read out the overseer queue
+> - clear the queue
+> - restart zk with the normal settings
+> - slowly start solr
+>
+> On 22.08.2017 15:27, Jeff Courtade wrote:
+>
+>> I set jute.maxbuffer on the so hosts should this be done to solr as well?
+>>
+>> Mine is happening in a severely memory constrained end as well.
+>>
+>> Jeff Courtade
+>> M: 240.507.6116
+>>
+>> On Aug 22, 2017 8:53 AM, "Hendrik Haddorp" <hendrik.haddorp@gmx.net>
+>> wrote:
+>>
+>> We have Solr and ZK running in Docker containers. There is no more then
+>>> one Solr/ZK node per host but Solr and ZK node can run on the same host.
+>>> So
+>>> Solr and ZK are spread out separately.
+>>>
+>>> I have not seen this problem during normal processing just when we
+>>> recycle
+>>> nodes or when we have nodes fail, which is pretty much always caused by
+>>> being out of memory, which again is unfortunately a bit complex in
+>>> Docker.
+>>> When nodes come up they add quite a few tasks to the overseer queue. I
+>>> assume one task for every core. We have about 2000 cores on each node. If
+>>> nodes come up too fast the queue might grow to a few thousand entries. At
+>>> maybe 10000 entries it usually reaches the point of no return and Solr is
+>>> just added more tasks then it is able to process. So it's best to pull
+>>> the
+>>> plug at that point as you will not have to play with jute.maxbuffer to
+>>> get
+>>> Solr up again.
+>>>
+>>> We are using Solr 6.3. There is some improvements in 6.6:
+>>>      https://issues.apache.org/jira/browse/SOLR-10524
+>>>      https://issues.apache.org/jira/browse/SOLR-10619
+>>>
+>>> On 22.08.2017 14:41, Jeff Courtade wrote:
+>>>
+>>> Thanks very much.
+>>>>
+>>>> I will followup when we try this.
+>>>>
+>>>> Im curious in the env this is happening to you.... are the zookeeper
+>>>> servers residing on solr nodes? Are the solr nodes underpowered ram and
+>>>> or
+>>>> cpu?
+>>>>
+>>>> Jeff Courtade
+>>>> M: 240.507.6116
+>>>>
+>>>> On Aug 22, 2017 8:30 AM, "Hendrik Haddorp" <hendrik.haddorp@gmx.net>
+>>>> wrote:
+>>>>
+>>>> I'm always using a small Java program to delete the nodes directly. I
+>>>>
+>>>>> assume you can also delete the whole node but that is nothing I have
+>>>>> tried
+>>>>> myself.
+>>>>>
+>>>>> On 22.08.2017 14:27, Jeff Courtade wrote:
+>>>>>
+>>>>> So ...
+>>>>>
+>>>>>> Using the zkCli.sh i have the jute.maxbuffer setup so I can list
+it
+>>>>>> now.
+>>>>>>
+>>>>>> Can I
+>>>>>>
+>>>>>>     rmr /overseer/queue
+>>>>>>
+>>>>>> Or do i need to delete individual entries?
+>>>>>>
+>>>>>> Will
+>>>>>>
+>>>>>> rmr /overseer/queue/*
+>>>>>>
+>>>>>> work?
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> Jeff Courtade
+>>>>>> M: 240.507.6116
+>>>>>>
+>>>>>> On Aug 22, 2017 8:20 AM, "Hendrik Haddorp" <hendrik.haddorp@gmx.net>
+>>>>>> wrote:
+>>>>>>
+>>>>>> When Solr is stopped it did not cause a problem so far.
+>>>>>>
+>>>>>> I cleared the queue also a few times while Solr was still running.
+>>>>>>> That
+>>>>>>> also didn't result in a real problem but some replicas might
+not come
+>>>>>>> up
+>>>>>>> again. In those case it helps to either restart the node with
+the
+>>>>>>> replicas
+>>>>>>> that are in state "down" or to remove the failed replica and
+then
+>>>>>>> recreate
+>>>>>>> it. But as said, clearing it when Solr is stopped worked fine
+so far.
+>>>>>>>
+>>>>>>> On 22.08.2017 14:03, Jeff Courtade wrote:
+>>>>>>>
+>>>>>>> How does the cluster react to the overseer q entries disapeering?
+>>>>>>>
+>>>>>>>
+>>>>>>>> Jeff Courtade
+>>>>>>>> M: 240.507.6116
+>>>>>>>>
+>>>>>>>> On Aug 22, 2017 8:01 AM, "Hendrik Haddorp" <hendrik.haddorp@gmx.net
+>>>>>>>> >
+>>>>>>>> wrote:
+>>>>>>>>
+>>>>>>>> Hi Jeff,
+>>>>>>>>
+>>>>>>>> we ran into that a few times already. We have lots of collections
+>>>>>>>> and
+>>>>>>>>
+>>>>>>>>> when
+>>>>>>>>> nodes get started too fast the overseer queue grows faster
+then
+>>>>>>>>> Solr
+>>>>>>>>> can
+>>>>>>>>> process it. At some point Solr tries to redo things like
+leaders
+>>>>>>>>> votes
+>>>>>>>>> and
+>>>>>>>>> adds new tasks to the list, which then gets longer and
+longer. Once
+>>>>>>>>> it
+>>>>>>>>> is
+>>>>>>>>> too long you can not read out the data anymore but Solr
+is still
+>>>>>>>>> adding
+>>>>>>>>> tasks. In case you already reached that point you have
+to start
+>>>>>>>>> ZooKeeper
+>>>>>>>>> and the ZooKeeper client with and increased "jute.maxbuffer"
+>>>>>>>>> value. I
+>>>>>>>>> usually double it until I can read out the queue again.
+After that
+>>>>>>>>> I
+>>>>>>>>> delete
+>>>>>>>>> all entries in the queue and then start the Solr nodes
+one by one,
+>>>>>>>>> like
+>>>>>>>>> every 5 minutes.
+>>>>>>>>>
+>>>>>>>>> regards,
+>>>>>>>>> Hendrik
+>>>>>>>>>
+>>>>>>>>> On 22.08.2017 13:42, Jeff Courtade wrote:
+>>>>>>>>>
+>>>>>>>>> Hi,
+>>>>>>>>>
+>>>>>>>>> I have an issue with what seems to be a blocked up /overseer/queue
+>>>>>>>>>
+>>>>>>>>>> There are 700k + entries.
+>>>>>>>>>>
+>>>>>>>>>> Solr cloud 6.x
+>>>>>>>>>>
+>>>>>>>>>> You cannot addreplica or deletereplica the commands
+time out.
+>>>>>>>>>>
+>>>>>>>>>> Full stop and start of solr and zookeeper does not
+clear it.
+>>>>>>>>>>
+>>>>>>>>>> Is it safe to use the zookeeper supplied zkCli.sh
+to simple rmr
+>>>>>>>>>> the
+>>>>>>>>>> /overseer/queue ?
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>> Jeff Courtade
+>>>>>>>>>> M: 240.507.6116
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>>
+>
+

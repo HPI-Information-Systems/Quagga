@@ -1,0 +1,64 @@
+Hi All - trying to call ClouderSolrStream.open(), but I'm getting this 
+error:
+
+java.io.IOException: java.lang.NullPointerException
+      at 
+org.apache.solr.client.solrj.io.stream.CloudSolrStream.constructStreams(CloudSolrStream.java:408)
+      at 
+org.apache.solr.client.solrj.io.stream.CloudSolrStream.open(CloudSolrStream.java:299)
+
+I'm passing in a valid zkHost, collection name, and parameters. In fact, 
+if I take the stream expression and past it into the GUI, it works OK.  
+I'm stumped by what could be null here.
+
+My code looks like the following, and I'm getting the error on 
+stream.open().
+
+         StringBuilder expression = new StringBuilder();
+         expression.append("update(models, batchSize=\"50\",");
+expression.append("train(").append(solrCollectionName).append(",");
+expression.append("features(").append(solrCollectionName).append(",");
+expression.append("q=\"*:*\",featureSet=\"FSet_").append(solrCollectionName).append("\",");
+expression.append("field=\"Text\",outcome=\"out_i\",positiveLabel=1,numTerms=").append(numTerms).append("),");
+expression.append("q=\"*:*\",name=\"").append(docID).append("\",field=\"Text\",outcome=\"out_i\",maxIterations=\"").append(maxIterations).append("\"))");
+         logger.info("Have update 
+expression:\n"+expression.toString()+"\n");
+         params.set("expr", expression.toString());
+         params.set("qt", "/stream");
+         params.set("explain", "true");
+         params.set("q", "*:*");
+         params.set("fl", "id");
+         params.set("sort", "id asc");
+         try {
+             System.out.println("Open: 
+"+props.getProperty("hbase.zookeeper.solr.quorum")+"\nCollection: 
+"+solrCollectionName+" \nWith params: "+params);
+             stream = new 
+CloudSolrStream(props.getProperty("hbase.zookeeper.solr.quorum"), 
+solrCollectionName, params);
+             stream.open();
+             while (true) {
+                 Tuple tuple = stream.read();
+                 logger.info("Tuple Read: "+tuple.fields.toString());
+                 if (tuple.EOF) {
+                     break;
+                 }
+             }
+         } catch (IOException ex) {
+             logger.error("Solr stream error: " + ex);
+             ex.printStackTrace();
+         } finally {
+             if (stream != null) {
+                 try {
+                     stream.close();
+                 } catch (IOException ex) {
+                     logger.error("Could not close stream: "+ex);
+                 }
+             }
+         }
+
+I'm stuck!  Thanks!
+
+-Joe
+
+

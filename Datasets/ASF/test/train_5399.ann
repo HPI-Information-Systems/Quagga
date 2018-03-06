@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "hello all,\n    Im trying to write parquet files using\ndf.write.partitionBy('type').mode('overwrite').parquet(path),when df is\npartitioned by column `type` it may skrewed.Some dir may take 100GB hdfs\nspace or more,but some of them only take 1GB.But all sub dir have the same\nfiles nums,let's say 800.So there are lots of small files.Is there a way to\nfix this?I have tried         \n         config('dfs.blocksize', 1024 * 1024 * 512) \\\n        .config('parquet.block.size', 1024 * 1024 * 512) \\\nbut not work.\n\nThank you!\n\n\n\n--\nSent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "hello all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 508,
+      "end": 520,
+      "text": "\nThank you!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 720,
+      "text": "hello all,\n    Im trying to write parquet files using\ndf.write.partitionBy('type').mode('overwrite').parquet(path),when df is\npartitioned by column `type` it may skrewed.Some dir may take 100GB hdfs\nspace or more,but some of them only take 1GB.But all sub dir have the same\nfiles nums,let's say 800.So there are lots of small files.Is there a way to\nfix this?I have tried         \n         config('dfs.blocksize', 1024 * 1024 * 512) \\\n        .config('parquet.block.size', 1024 * 1024 * 512) \\\nbut not work.\n\nThank you!\n\n\n\n--\nSent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5399"
+}

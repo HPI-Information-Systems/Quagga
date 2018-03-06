@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/giron-d__sent_mail_678.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<9043137.1075854425629.JavaMail.evans@thyme>",
+      "Date": "Tue, 29 Aug 2000 04:17:00 -0700 (PDT)",
+      "From": "darron.giron@enron.com",
+      "To": "steve.jackson@enron.com",
+      "Subject": "Meeting",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "Steve Jackson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\'sent mail",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "text": "I totally forgot about the weekly meeting.  Sorry.  Like I said yesterday, \nI'm working on getting new books set up for Chicago.  I just need to \nfollow-up with Mary Lynn on Friday before I submit requests.  I'm also \nworking on OA issues for July.  I will teach a class on Thursday and next \nTuesday to settlements about OA (just basics like desk price, customer price, \nand liquidations).  In addition, I need to ask you a few questions about the \nTrunkline deal.  When I meet with Mary Lynn on Friday, I am going to explain \nthe deal to her.  That's about it.  Once again, I apologize about missing the \nmeeting today.\n\nDG    3-9573",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 635,
+      "text": "I totally forgot about the weekly meeting.  Sorry.  Like I said yesterday, \nI'm working on getting new books set up for Chicago.  I just need to \nfollow-up with Mary Lynn on Friday before I submit requests.  I'm also \nworking on OA issues for July.  I will teach a class on Thursday and next \nTuesday to settlements about OA (just basics like desk price, customer price, \nand liquidations).  In addition, I need to ask you a few questions about the \nTrunkline deal.  When I meet with Mary Lynn on Friday, I am going to explain \nthe deal to her.  That's about it.  Once again, I apologize about missing the \nmeeting today.\n\nDG    3-9573",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi\n\nI am aggregating open source solr client libraries across all languages.\nBelow are the links. Very few projects are currently active. Most of them\nare last updated few years back. Please provide me pointers, if i missed\nany solr client library.\n\nhttp://www.findbestopensource.com/tagged/solr-client\nhttp://www.findbestopensource.com/tagged/solr-gui\n\n\nRegards\nGanesh\n\nPS: The website http://www.findbestopensource.com search is powered by Solr.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 354,
+      "end": 370,
+      "text": "\nRegards\nGanesh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 3,
+      "text": "Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 449,
+      "text": "Hi\n\nI am aggregating open source solr client libraries across all languages.\nBelow are the links. Very few projects are currently active. Most of them\nare last updated few years back. Please provide me pointers, if i missed\nany solr client library.\n\nhttp://www.findbestopensource.com/tagged/solr-client\nhttp://www.findbestopensource.com/tagged/solr-gui\n\n\nRegards\nGanesh\n\nPS: The website http://www.findbestopensource.com search is powered by Solr.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5736"
+}

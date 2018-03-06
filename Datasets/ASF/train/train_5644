@@ -1,0 +1,61 @@
+Hello,
+
+So I can never have soft auto commit after each update ? This sounds like a
+bug to me.
+
+Thanks
+Angrl
+
+On Thu, Aug 24, 2017 at 9:36 PM Susheel Kumar <susheel2777@gmail.com> wrote:
+
+> I believe the commit triggers on > condition (no of cached docs > maxDocs
+> then commit).  So that's why you need one extra...
+>
+> On Thu, Aug 24, 2017 at 6:59 AM, Angel Todorov <attodorov@gmail.com>
+> wrote:
+>
+> > I also tested, of course, by setting a value of 0, expecting that it
+> would
+> > work in the way I expect it to , but unfortunately - it doesn't. Nothing
+> is
+> > committed in that case.
+> >
+> > Thanks
+> >
+> >
+> > On Thu, Aug 24, 2017 at 1:54 PM, Angel Todorov <attodorov@gmail.com>
+> > wrote:
+> >
+> > > Hi all,
+> > >
+> > > I have this in my config:
+> > >
+> > >      <autoSoftCommit>
+> > >
+> > >        <maxDocs>1</maxDocs>
+> > >
+> > >      </autoSoftCommit>
+> > >
+> > >
+> > > My expectation is that SOLR will make changes available in the index
+> > after
+> > > every document change. But this doesn't work - I need to do _ another _
+> > > update in order for the changes to be visible. Basically it's like: if
+> > > maxDocs is 1, it behaves as if it is 2. If it is set to 2, I need to
+> do 3
+> > > updates, and only after the third one my changes are visible for
+> > searching.
+> > >
+> > >
+> > > Is this a bug?
+> > >
+> > >
+> > > Thanks,
+> > >
+> > > Angel
+> > >
+> > >
+> > >
+> >
+>
+

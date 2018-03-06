@@ -1,0 +1,516 @@
+{
+  "wrapper": "plaintext",
+  "text": "tx, rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 10:11 AM\nTo:\tBuy, Rick\nCc:\tGorte, David\nSubject:\tRE: FYI - Project Raven\n\nMy first official involvement (along with Chip)  was a meeting with Brad Richter on 5/23 to discuss the strategy and valuation approach.  This was the EBS' structuring teams introduction as well.   The model that Lehman had prepared only looked at the Managed Hosting business and had a number of questionable assumptions that were pointed out to the corporate development team.  \n\nRAC did not prepare its own numbers.  I had more questions about strategy and understanding the different parts of the transaction.\n\n RAC was not invited to the meeting with Skilling.\n\nThe transaction was being run by EBS Corporate Development - Jeff Donohue was heavily involved from the start of discussions with the company.  Brad Richter, who works for Donohue, was the day to day contact at the end. \n\nDavid\n\n\n\n\n\n\tRick Buy/ENRON@enronXgate 05/30/01 09:20 AM \t   To: David Crews/Enron Communications@Enron Communications  cc: David Gorte/ENRON@enronXgate  Subject: RE: FYI - Project Raven\t\n\n\nWere we involved in transaction? Did we run any numbers. Were we at the meeting with Skilling? Was corporate development involved? Who? Rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 8:25 AM\nTo:\tBuy, Rick\nCc:\tDavid Gorte/HOU/ECT@ENRON\nSubject:\tRE: FYI - Project Raven\n\nI spoke briefly yesterday with Brad Richter who was going to put something more formal together.  I will send that to you when I have it.\n\nJeff and the commercial team had different opinions about the managed hosting side of the business.  Part of EBS liked the technical capabilitiy of PSI Net and felt that this capability would allow EBS to run a managed hosting business (basically outsourcing the operation of company web sites).  Jeff did not like this business and had told EBS last week to not put any growth on this part of the business in their analysis.  \n\nWithout growth on the managed hosting part of the business, EBS needed to find $100 million/year of benefit through the acquisition.  A large part of this would have come from IP Transit which, due to its size, PSI Net would have received free through peering and which EBS currently pays for.  These saving depend a lot on hockey stick projections from EBS' current activities (although MSN would provide a large portion of this savings).  The rest of the benefit was to come through cross selling PSI Net's existing customers and new customers obtained due to the combination of their technical capability and Enron's financial capability.  This increased technical capability is diametrically opposed to Project Reset (the sale of EBS' long haul network to Qwest in return for a series of options on capacity).\n\nPSI Net wanted a quick decision and a purchase of the whole company through a packaged bankruptcy to try and maintain staff and customers.  I have heard comments that they wanted Enron to purchase their consulting arm as well.  This group had approximately 1,000 people and held no particular interest to EBS.  I do not know whether it was the speed of the transaction, the consulting arm, the managed hosting business, or the increased technical direction that killed the transaction.\n\n\n\n\n\n\n\n\n\tRick Buy/ENRON@enronXgate 05/30/01 07:58 AM \t   To: David Crews/Enron Communications@Enron Communications  cc:   Subject: RE: FYI - Project Raven\t\n\n\n\ni would like more detail if we have it tx rick\n\n -----Original Message-----\nFrom: \tCrews, David  \nSent:\tTuesday, May 29, 2001 11:57 AM\nTo:\tRick Buy/HOU/ECT@ENRON; David Gorte/HOU/ECT@ENRON\nSubject:\tFYI - Project Raven\n\nThe proposed purchase of PSI Net by EBS was officially killed by Skilling this morning.\n\nDavid\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 4,
+      "end": 8,
+      "text": "rick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 9,
+      "text": "tx, rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 10,
+      "text": "tx, rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 45,
+      "end": 57,
+      "text": "Crews, David",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 77,
+      "end": 89,
+      "text": "May 30, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 90,
+      "end": 98,
+      "text": "10:11 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 103,
+      "end": 112,
+      "text": "Buy, Rick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 117,
+      "end": 129,
+      "text": "Gorte, David",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 139,
+      "end": 162,
+      "text": "RE: FYI - Project Raven",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 10,
+      "end": 163,
+      "text": " -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 10:11 AM\nTo:\tBuy, Rick\nCc:\tGorte, David\nSubject:\tRE: FYI - Project Raven\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 953,
+      "end": 958,
+      "text": "David",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 163,
+      "end": 964,
+      "text": "\nMy first official involvement (along with Chip)  was a meeting with Brad Richter on 5/23 to discuss the strategy and valuation approach.  This was the EBS' structuring teams introduction as well.   The model that Lehman had prepared only looked at the Managed Hosting business and had a number of questionable assumptions that were pointed out to the corporate development team.  \n\nRAC did not prepare its own numbers.  I had more questions about strategy and understanding the different parts of the transaction.\n\n RAC was not invited to the meeting with Skilling.\n\nThe transaction was being run by EBS Corporate Development - Jeff Donohue was heavily involved from the start of discussions with the company.  Brad Richter, who works for Donohue, was the day to day contact at the end. \n\nDavid\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 965,
+      "end": 973,
+      "text": "Rick Buy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 991,
+      "end": 999,
+      "text": "05/30/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1000,
+      "end": 1008,
+      "text": "09:20 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1017,
+      "end": 1028,
+      "text": "David Crews",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1076,
+      "end": 1087,
+      "text": "David Gorte",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1115,
+      "end": 1138,
+      "text": "RE: FYI - Project Raven",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 965,
+      "end": 1140,
+      "text": "Rick Buy/ENRON@enronXgate 05/30/01 09:20 AM \t   To: David Crews/Enron Communications@Enron Communications  cc: David Gorte/ENRON@enronXgate  Subject: RE: FYI - Project Raven\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1278,
+      "end": 1282,
+      "text": "Rick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1140,
+      "end": 1284,
+      "text": "\n\nWere we involved in transaction? Did we run any numbers. Were we at the meeting with Skilling? Was corporate development involved? Who? Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1319,
+      "end": 1331,
+      "text": "Crews, David",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1351,
+      "end": 1363,
+      "text": "May 30, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1364,
+      "end": 1371,
+      "text": "8:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1376,
+      "end": 1385,
+      "text": "Buy, Rick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1390,
+      "end": 1401,
+      "text": "David Gorte",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1425,
+      "end": 1448,
+      "text": "RE: FYI - Project Raven",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1284,
+      "end": 1449,
+      "text": " -----Original Message-----\nFrom: \tCrews, David  \nSent:\tWednesday, May 30, 2001 8:25 AM\nTo:\tBuy, Rick\nCc:\tDavid Gorte/HOU/ECT@ENRON\nSubject:\tRE: FYI - Project Raven\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1449,
+      "end": 3327,
+      "text": "\nI spoke briefly yesterday with Brad Richter who was going to put something more formal together.  I will send that to you when I have it.\n\nJeff and the commercial team had different opinions about the managed hosting side of the business.  Part of EBS liked the technical capabilitiy of PSI Net and felt that this capability would allow EBS to run a managed hosting business (basically outsourcing the operation of company web sites).  Jeff did not like this business and had told EBS last week to not put any growth on this part of the business in their analysis.  \n\nWithout growth on the managed hosting part of the business, EBS needed to find $100 million/year of benefit through the acquisition.  A large part of this would have come from IP Transit which, due to its size, PSI Net would have received free through peering and which EBS currently pays for.  These saving depend a lot on hockey stick projections from EBS' current activities (although MSN would provide a large portion of this savings).  The rest of the benefit was to come through cross selling PSI Net's existing customers and new customers obtained due to the combination of their technical capability and Enron's financial capability.  This increased technical capability is diametrically opposed to Project Reset (the sale of EBS' long haul network to Qwest in return for a series of options on capacity).\n\nPSI Net wanted a quick decision and a purchase of the whole company through a packaged bankruptcy to try and maintain staff and customers.  I have heard comments that they wanted Enron to purchase their consulting arm as well.  This group had approximately 1,000 people and held no particular interest to EBS.  I do not know whether it was the speed of the transaction, the consulting arm, the managed hosting business, or the increased technical direction that killed the transaction.\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 3328,
+      "end": 3336,
+      "text": "Rick Buy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 3354,
+      "end": 3362,
+      "text": "05/30/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 3363,
+      "end": 3371,
+      "text": "07:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 3380,
+      "end": 3391,
+      "text": "David Crews",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 3450,
+      "end": 3473,
+      "text": "RE: FYI - Project Raven",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 3328,
+      "end": 3475,
+      "text": "Rick Buy/ENRON@enronXgate 05/30/01 07:58 AM \t   To: David Crews/Enron Communications@Enron Communications  cc:   Subject: RE: FYI - Project Raven\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 3520,
+      "end": 3524,
+      "text": "rick",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 3517,
+      "end": 3525,
+      "text": "tx rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 3475,
+      "end": 3526,
+      "text": "\n\n\ni would like more detail if we have it tx rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 3561,
+      "end": 3573,
+      "text": "Crews, David",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 3591,
+      "end": 3603,
+      "text": "May 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 3604,
+      "end": 3612,
+      "text": "11:57 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 3617,
+      "end": 3625,
+      "text": "Rick Buy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 3641,
+      "end": 3652,
+      "text": "David Gorte",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 3676,
+      "end": 3695,
+      "text": "FYI - Project Raven",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 3526,
+      "end": 3696,
+      "text": " -----Original Message-----\nFrom: \tCrews, David  \nSent:\tTuesday, May 29, 2001 11:57 AM\nTo:\tRick Buy/HOU/ECT@ENRON; David Gorte/HOU/ECT@ENRON\nSubject:\tFYI - Project Raven\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 3786,
+      "end": 3791,
+      "text": "David",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 3696,
+      "end": 3795,
+      "text": "\nThe proposed purchase of PSI Net by EBS was officially killed by Skilling this morning.\n\nDavid\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 39,
+      "target": 46,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 16,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 17,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 20,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 22,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 25,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 26,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 30,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 33,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 36,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 39,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 42,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 43,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4606458.1075863361580.JavaMail.evans@thyme>",
+      "Date": "Wed, 30 May 2001 11:24:48 -0700 (PDT)",
+      "From": "rick.buy@enron.com",
+      "To": "david.crews@enron.com",
+      "Subject": "RE: FYI - Project Raven",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Buy, Rick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RBUY>",
+      "X-To": "Crews, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=aff6db1a-f02a9087-882569ee-6f5aab>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\RBUY (Non-Privileged)\\Buy, Rick\\Sent Items",
+      "X-Origin": "Buy-R",
+      "X-FileName": "RBUY (Non-Privileged).pst"
+    }
+  },
+  "id": "train/buy-r_sent_items_276.txt"
+}

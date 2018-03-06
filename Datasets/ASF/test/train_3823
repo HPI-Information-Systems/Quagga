@@ -1,0 +1,206 @@
+Hi,
+
+I am *intermittently* seeing this error while doing spark-submit for spark
+2.0.2-scala 2.11 version.
+
+I see the same issue reported in
+https://issues.apache.org/jira/browse/SPARK-18343 and it seems to be
+RESOLVED.  I can run successfully most of the time though. Hence I'm unsure
+if it is because of any submodule version incorrectness?
+
+Jun 22, 2017 11:01:15 PM org.apache.hadoop.mapred.Task taskCleanup
+INFO: Runnning cleanup for the task
+Jun 22, 2017 11:01:15 PM org.apache.hadoop.metrics2.impl.MetricsSystemImpl
+stop
+INFO: Stopping MapTask metrics system...
+Jun 22, 2017 11:01:15 PM org.apache.hadoop.metrics2.impl.MetricsSystemImpl
+stop
+INFO: MapTask metrics system stopped.
+Jun 22, 2017 11:01:15 PM org.apache.hadoop.metrics2.impl.MetricsSystemImpl
+shutdown
+INFO: MapTask metrics system shutdown complete.
+Jun 22, 2017 11:01:17 PM org.apache.hadoop.mapred.Task run
+INFO: Communication exception: java.io.IOException: The client is stopped
+at org.apache.hadoop.ipc.Client.getConnection(Client.java:1507)
+at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+at
+org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:242)
+at com.sun.proxy.$Proxy9.ping(Unknown Source)
+at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:767)
+at java.lang.Thread.run(Thread.java:748)
+
+Jun 22, 2017 11:01:20 PM org.apache.hadoop.mapred.Task run
+INFO: Communication exception: java.io.IOException: The client is stopped
+at org.apache.hadoop.ipc.Client.getConnection(Client.java:1507)
+at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+at
+org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:242)
+at com.sun.proxy.$Proxy9.ping(Unknown Source)
+at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:767)
+at java.lang.Thread.run(Thread.java:748)
+
+Jun 22, 2017 11:01:23 PM org.apache.hadoop.mapred.Task run
+INFO: Communication exception: java.io.IOException: The client is stopped
+at org.apache.hadoop.ipc.Client.getConnection(Client.java:1507)
+at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+at
+org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:242)
+at com.sun.proxy.$Proxy9.ping(Unknown Source)
+at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:767)
+at java.lang.Thread.run(Thread.java:748)
+
+Jun 22, 2017 11:01:23 PM org.apache.hadoop.mapred.Task logThreadInfo
+INFO: Process Thread Dump: Communication exception
+12 active threads
+Thread 35 (DestroyJavaVM):
+  State: RUNNABLE
+  Blocked count: 0
+  Waited count: 0
+  Stack:
+Thread 33 (LeaseRenewer:kprasad@kprasad-ltm.internal.salesforce.com:8020):
+  State: TIMED_WAITING
+  Blocked count: 0
+  Waited count: 8
+  Stack:
+    java.lang.Thread.sleep(Native Method)
+    org.apache.hadoop.hdfs.LeaseRenewer.run(LeaseRenewer.java:444)
+    org.apache.hadoop.hdfs.LeaseRenewer.access$700(LeaseRenewer.java:71)
+    org.apache.hadoop.hdfs.LeaseRenewer$1.run(LeaseRenewer.java:304)
+    java.lang.Thread.run(Thread.java:748)
+Thread 31 (IPC Client (1041365481) connection to
+kprasad-ltm.internal.salesforce.com/10.3.28.87:8020 from kprasad):
+  State: TIMED_WAITING
+  Blocked count: 2
+  Waited count: 3
+  Stack:
+    java.lang.Object.wait(Native Method)
+    org.apache.hadoop.ipc.Client$Connection.waitForWork(Client.java:933)
+    org.apache.hadoop.ipc.Client$Connection.run(Client.java:978)
+Thread 29 (pool-5-thread-1):
+  State: TIMED_WAITING
+  Blocked count: 0
+  Waited count: 1
+  Stack:
+    java.lang.Thread.sleep(Native Method)
+    java.lang.Thread.sleep(Thread.java:340)
+    java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+
+gridforce.spark.delegate.SparkScriptRunner$KeepAliveThread.run(SparkScriptRunner.java:622)
+    java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+    java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+    java.lang.Thread.run(Thread.java:748)
+Thread 24 (org.apache.hadoop.hdfs.PeerCache@1c80e49b):
+  State: TIMED_WAITING
+  Blocked count: 0
+  Waited count: 23
+  Stack:
+    java.lang.Thread.sleep(Native Method)
+    org.apache.hadoop.hdfs.PeerCache.run(PeerCache.java:255)
+    org.apache.hadoop.hdfs.PeerCache.access$000(PeerCache.java:46)
+    org.apache.hadoop.hdfs.PeerCache$1.run(PeerCache.java:124)
+    java.lang.Thread.run(Thread.java:748)
+Thread 22 (communication thread):
+  State: RUNNABLE
+  Blocked count: 20
+  Waited count: 63
+  Stack:
+    sun.management.ThreadImpl.getThreadInfo1(Native Method)
+    sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:178)
+    sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:139)
+
+org.apache.hadoop.util.ReflectionUtils.printThreadInfo(ReflectionUtils.java:168)
+
+org.apache.hadoop.util.ReflectionUtils.logThreadInfo(ReflectionUtils.java:223)
+    org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:785)
+    java.lang.Thread.run(Thread.java:748)
+Thread 16 (process reaper):
+  State: TIMED_WAITING
+  Blocked count: 0
+  Waited count: 5
+  Stack:
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+
+java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+
+java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+
+java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+    java.lang.Thread.run(Thread.java:748)
+Thread 14
+(org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner):
+  State: WAITING
+  Blocked count: 0
+  Waited count: 1
+  Waiting on java.lang.ref.ReferenceQueue$Lock@407a7f2a
+  Stack:
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+
+org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner.run(FileSystem.java:3060)
+    java.lang.Thread.run(Thread.java:748)
+Thread 13 (IPC Parameter Sending Thread #0):
+  State: TIMED_WAITING
+  Blocked count: 0
+  Waited count: 31
+  Stack:
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+
+java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+
+java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+
+java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+    java.lang.Thread.run(Thread.java:748)
+Thread 4 (Signal Dispatcher):
+  State: RUNNABLE
+  Blocked count: 0
+  Waited count: 0
+  Stack:
+Thread 3 (Finalizer):
+  State: WAITING
+  Blocked count: 567
+  Waited count: 6
+  Waiting on java.lang.ref.ReferenceQueue$Lock@2cb2fc20
+  Stack:
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+    java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+Thread 2 (Reference Handler):
+  State: WAITING
+  Blocked count: 9
+  Waited count: 5
+  Waiting on java.lang.ref.Reference$Lock@4f4c4b1a
+  Stack:
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Object.java:502)
+    java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+    java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+Jun 22, 2017 11:01:23 PM org.apache.hadoop.mapred.Task run
+WARNING: Last retry, killing attempt_1498171863687_0003_m_000000_0
+

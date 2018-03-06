@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for the reply. Yeah I found the same doc and am able to use multiple\ncores in spark-shell, however, when I use pyspark, it appears only to use\none core, I am wondering if this is something I did't configure correctly\nor something supported in pyspark.\n\nOn Fri, Mar 24, 2017 at 3:52 PM, Kadam, Gangadhar (GE Aviation, Non-GE) <\nGangadhar.Kadam@ge.com> wrote:\n\n> In Local Mode  all processes are executed inside a single JVM.\n> Application is started in a local mode by setting master to local,\n> local[*] or local[n].\n> spark.executor.cores and spark.executor.cores are not applicable in the\n> local mode because there is only one embedded executor.\n>\n>\n> In Standalone mode, you need  standalone Spark cluster<\n> https://spark.apache.org/docs/latest/spark-standalone.html>.\n>\n> It requires a master node (can be started using\n> SPARK_HOME/sbin/start-master.sh script) and at least one worker node (can\n> be started using SPARK_HOME/sbin/start-slave.sh script).SparkConf should\n> use master node address to create (spark://host:port)\n>\n> Thanks!\n>\n> Gangadhar\n> From: Li Jin <ice.xelloss@gmail.com<mailto:ice.xelloss@gmail.com>>\n> Date: Friday, March 24, 2017 at 3:43 PM\n> To: \"user@spark.apache.org<mailto:user@spark.apache.org>\" <\n> user@spark.apache.org<mailto:user@spark.apache.org>>\n> Subject: EXT: Multiple cores/executors in Pyspark standalone mode\n>\n> Hi,\n>\n> I am wondering does pyspark standalone (local) mode support multi\n> cores/executors?\n>\n> Thanks,\n> Li\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 260,
+      "text": "Thanks for the reply. Yeah I found the same doc and am able to use multiple\ncores in spark-shell, however, when I use pyspark, it appears only to use\none core, I am wondering if this is something I did't configure correctly\nor something supported in pyspark.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 260,
+      "end": 365,
+      "text": "On Fri, Mar 24, 2017 at 3:52 PM, Kadam, Gangadhar (GE Aviation, Non-GE) <\nGangadhar.Kadam@ge.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1040,
+      "end": 1066,
+      "text": ">\n> Thanks!\n>\n> Gangadhar\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 365,
+      "end": 1066,
+      "text": "\n> In Local Mode  all processes are executed inside a single JVM.\n> Application is started in a local mode by setting master to local,\n> local[*] or local[n].\n> spark.executor.cores and spark.executor.cores are not applicable in the\n> local mode because there is only one embedded executor.\n>\n>\n> In Standalone mode, you need  standalone Spark cluster<\n> https://spark.apache.org/docs/latest/spark-standalone.html>.\n>\n> It requires a master node (can be started using\n> SPARK_HOME/sbin/start-master.sh script) and at least one worker node (can\n> be started using SPARK_HOME/sbin/start-slave.sh script).SparkConf should\n> use master node address to create (spark://host:port)\n>\n> Thanks!\n>\n> Gangadhar\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1066,
+      "end": 1362,
+      "text": "> From: Li Jin <ice.xelloss@gmail.com<mailto:ice.xelloss@gmail.com>>\n> Date: Friday, March 24, 2017 at 3:43 PM\n> To: \"user@spark.apache.org<mailto:user@spark.apache.org>\" <\n> user@spark.apache.org<mailto:user@spark.apache.org>>\n> Subject: EXT: Multiple cores/executors in Pyspark standalone mode\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1362,
+      "end": 1370,
+      "text": ">\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1459,
+      "end": 1476,
+      "text": ">\n> Thanks,\n> Li\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1362,
+      "end": 1479,
+      "text": ">\n> Hi,\n>\n> I am wondering does pyspark standalone (local) mode support multi\n> cores/executors?\n>\n> Thanks,\n> Li\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2135"
+}

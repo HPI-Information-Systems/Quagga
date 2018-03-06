@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello all,\n\nI would like to bring to your attention the (long overdue) release of a new\nversion of TensorFrames. Thank you to all people who have reported some\npackaging and installation issues. This release fixes a large number of\nperformance and stability problems, and brings a few improvements.\n\nAs an example, following this notebook [1], you can distribute the\nclassification of images using Spark, TensorFlow and the Inception V3 model\nfrom google. It is published as a Databricks notebook and it has been\ntested on Jupyter as well.\n\nWhat is TensorFrames?\nTensorFrames (TensorFlow on Spark Dataframes) lets you manipulate Spark's\nDataFrames with TensorFlow programs.\n\nSpark package:\nhttps://spark-packages.org/package/databricks/tensorframes\n\nRelease notes:\nhttps://github.com/databricks/tensorframes/releases/tag/v0.2.8\n\nBest regards\n\nTim Hunter\n\n\n[1]\nhttps://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5181772898130619/2927463166045304/1282150081618649/latest.html\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hello all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 828,
+      "end": 854,
+      "text": "\nBest regards\n\nTim Hunter\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1020,
+      "text": "Hello all,\n\nI would like to bring to your attention the (long overdue) release of a new\nversion of TensorFrames. Thank you to all people who have reported some\npackaging and installation issues. This release fixes a large number of\nperformance and stability problems, and brings a few improvements.\n\nAs an example, following this notebook [1], you can distribute the\nclassification of images using Spark, TensorFlow and the Inception V3 model\nfrom google. It is published as a Databricks notebook and it has been\ntested on Jupyter as well.\n\nWhat is TensorFrames?\nTensorFrames (TensorFlow on Spark Dataframes) lets you manipulate Spark's\nDataFrames with TensorFlow programs.\n\nSpark package:\nhttps://spark-packages.org/package/databricks/tensorframes\n\nRelease notes:\nhttps://github.com/databricks/tensorframes/releases/tag/v0.2.8\n\nBest regards\n\nTim Hunter\n\n\n[1]\nhttps://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5181772898130619/2927463166045304/1282150081618649/latest.html\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_2755"
+}

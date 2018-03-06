@@ -1,0 +1,276 @@
+{
+  "wrapper": "plaintext",
+  "text": "Just a head's up on NUI - I'll let you know when I hear from Stacy.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n----- Forwarded by Sara Shackleton/HOU/ECT on 04/11/2001 11:16 AM -----\n\n\tTanya Rohauer/ENRON@enronXgate\n\t04/11/2001 11:09 AM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT, Stacy E Dickson/HOU/ECT@ECT\n\t\t cc: Rudwell Johnson/ENRON@enronXgate, Mark Breese/HOU/ECT@ECT\n\t\t Subject: NUI\n\nSince NUI Utilites, Inc. is the rated entity, we are no longer requiring the \n$50MM NUI Corp gty for this transaction.  However, the financial swap (which \nshould be 40,000/day total for May-Oct) is being documented under  the NUI \nEnergy Brokers, Inc. existing ISDA.  Sara has modified to cross default the \nconfirmation to the Credit Agreement.  Stacy, please share the language you \nare using for the Transaciton Agreement to compensate for the Credit \nAgreement expiry in December with Sara so the financial confirmation can be \nmodified as well.  We also need to modify the financial confirmation to state \nthat for this transaction only, NUI must be the Guarantor not NUI Capital.  \nThen we must get a deal specific gty from NUI Utilites to cover this trade - \nprobably $10MM.  This all arises because the finc/phys gty we were working on \nis out the window since NUI Utilities is the rated entity with associated \nbalance sheet and the NUI Corp is not needed.  Please advise asap and call \nwith any questions.\n\nThanks,\nTanya",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 69,
+      "end": 84,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 85,
+      "end": 110,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 111,
+      "end": 160,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 161,
+      "end": 173,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 182,
+      "end": 194,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 201,
+      "end": 226,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 69,
+      "end": 227,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 227,
+      "text": "Just a head's up on NUI - I'll let you know when I hear from Stacy.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 246,
+      "end": 261,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 273,
+      "end": 283,
+      "text": "04/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 284,
+      "end": 292,
+      "text": "11:16 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 227,
+      "end": 299,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 04/11/2001 11:16 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 301,
+      "end": 314,
+      "text": "Tanya Rohauer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 333,
+      "end": 343,
+      "text": "04/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 344,
+      "end": 352,
+      "text": "11:09 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 364,
+      "end": 379,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 393,
+      "end": 408,
+      "text": "Stacy E Dickson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 428,
+      "end": 443,
+      "text": "Rudwell Johnson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 462,
+      "end": 473,
+      "text": "Mark Breese",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 498,
+      "end": 501,
+      "text": "NUI",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 299,
+      "end": 502,
+      "text": "\n\tTanya Rohauer/ENRON@enronXgate\n\t04/11/2001 11:09 AM\n\t\t \n\t\t To: Sara Shackleton/HOU/ECT@ECT, Stacy E Dickson/HOU/ECT@ECT\n\t\t cc: Rudwell Johnson/ENRON@enronXgate, Mark Breese/HOU/ECT@ECT\n\t\t Subject: NUI\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1529,
+      "end": 1534,
+      "text": "Tanya",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1521,
+      "end": 1534,
+      "text": "Thanks,\nTanya",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 502,
+      "end": 1534,
+      "text": "\nSince NUI Utilites, Inc. is the rated entity, we are no longer requiring the \n$50MM NUI Corp gty for this transaction.  However, the financial swap (which \nshould be 40,000/day total for May-Oct) is being documented under  the NUI \nEnergy Brokers, Inc. existing ISDA.  Sara has modified to cross default the \nconfirmation to the Credit Agreement.  Stacy, please share the language you \nare using for the Transaciton Agreement to compensate for the Credit \nAgreement expiry in December with Sara so the financial confirmation can be \nmodified as well.  We also need to modify the financial confirmation to state \nthat for this transaction only, NUI must be the Guarantor not NUI Capital.  \nThen we must get a deal specific gty from NUI Utilites to cover this trade - \nprobably $10MM.  This all arises because the finc/phys gty we were working on \nis out the window since NUI Utilities is the rated entity with associated \nbalance sheet and the NUI Corp is not needed.  Please advise asap and call \nwith any questions.\n\nThanks,\nTanya",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 22,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 16,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<192296.1075844731405.JavaMail.evans@thyme>",
+      "Date": "Wed, 11 Apr 2001 04:17:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "diane.anderson@enron.com",
+      "Subject": "NUI",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Diane Anderson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_10467.txt"
+}

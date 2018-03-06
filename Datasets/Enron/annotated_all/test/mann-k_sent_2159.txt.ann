@@ -1,0 +1,170 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 06:08 \nPM ---------------------------\n   \n\tEnron Global Finance\n\t\n\tFrom:  Catherine Clark @ ECT                           01/02/2001 06:06 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron, Roseann Engeldorf/Corp/Enron@ENRON, Lisa \nBills/Corp/Enron@ENRON\ncc:  \n\nSubject: Form of Purchase Option Notice\n\nKay,\nHere is a form of the notice that needs to go out to the E-Next Generation \nlenders.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "01/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "06:08 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 06:08 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 133,
+      "text": "Enron Global Finance",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 108,
+      "end": 136,
+      "text": "   \n\tEnron Global Finance\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 144,
+      "end": 159,
+      "text": "Catherine Clark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 192,
+      "end": 202,
+      "text": "01/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 203,
+      "end": 211,
+      "text": "06:06 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 219,
+      "end": 227,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 246,
+      "end": 263,
+      "text": "Roseann Engeldorf",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 282,
+      "end": 293,
+      "text": "Lisa \nBills",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 327,
+      "end": 357,
+      "text": "Form of Purchase Option Notice",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 137,
+      "end": 358,
+      "text": "From:  Catherine Clark @ ECT                           01/02/2001 06:06 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron, Roseann Engeldorf/Corp/Enron@ENRON, Lisa \nBills/Corp/Enron@ENRON\ncc:  \n\nSubject: Form of Purchase Option Notice\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 359,
+      "end": 362,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 358,
+      "end": 450,
+      "text": "\nKay,\nHere is a form of the notice that needs to go out to the E-Next Generation \nlenders.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28679341.1075845970956.JavaMail.evans@thyme>",
+      "Date": "Tue, 2 Jan 2001 10:09:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "fred.mitro@enron.com, ben.jacoby@enron.com",
+      "Subject": "Form of Purchase Option Notice",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Fred Mitro, Ben Jacoby",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_2159.txt"
+}

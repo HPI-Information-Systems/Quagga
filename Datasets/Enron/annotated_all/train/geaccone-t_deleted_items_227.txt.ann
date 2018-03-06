@@ -1,0 +1,146 @@
+{
+  "wrapper": "plaintext",
+  "text": "Does this cost center get allocated or direct charged?  Please get back to Morris for me.\n\n -----Original Message-----\nFrom: \tBrassfield, Morris  \nSent:\tThursday, October 25, 2001 9:57 AM\nTo:\tHayslett, Rod\nCc:\tNelson, Mike\nSubject:\tFW: Cost Center\n\nRod - What is our policy of accepting direct charges for corporate assistance?   Should this remain in corporate and be a part of the allocation?\n\nMike - Was any agreement made up front with Brindle to cover Kyle's expenses?   Was the request to travel made by Dave Odneal or yourself?\n\nMorris A. Brassfield\nEnron Transportation Services\nSenior Director\nOperations Support Services\nThree Allen Center 3285\n333 Clay Street\nHouston, Texas 77002\n\n713-646-7006  Business Phone\n713-503-1409  Cell Phone\n\n -----Original Message-----\nFrom: \tLowry, Phil  \nSent:\tWednesday, October 24, 2001 4:03 PM\nTo:\tBrassfield, Morris\nCc:\tNelson, Mike\nSubject:\tFW: Cost Center\n\nMorris, can you look at this for us.  I kinda think that the Corp Allocation is the right place for this expense.\n\n -----Original Message-----\nFrom: \tNelson, Mike  \nSent:\tWednesday, October 24, 2001 2:00 PM\nTo:\tLowry, Phil\nSubject:\tFW: Cost Center\n\nI appreciate Kyle's expertise and work, but do we always pay the direct expenses for Corp assistance?  \n\n -----Original Message-----\nFrom: \tLadish, Kim  \nSent:\tWednesday, October 24, 2001 1:42 PM\nTo:\tNelson, Mike\nSubject:\tFW: Cost Center\n\nMike:  In regard to Sharon's note below, please confirm the entities responsible for the cost of Kyle's trip.\n\nThank you,\n\nKim\n\n -----Original Message-----\nFrom: \tKilley, Sharon  \nSent:\tMonday, October 22, 2001 11:20 AM\nTo:\tLadish, Kim\nSubject:\tCost Center\n\nKyle Norosky who works in Enron Corp Business Controls, recently flew to Minneapolis with regard to security issues.  He has told me that his trip is to be charged to ETS/Northern Pipeline cost center or project code.\n\nPlease can you let me know what company number and code to charge this to.  The total cost of his trip was $1603.28\n\nMany thanks.\n\nSharon Killey\nAssistant to John Brindle\nBusiness Controls\nTel:  713-345-4999\nFax: 713-646-8838",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 91,
+      "text": "Does this cost center get allocated or direct charged?  Please get back to Morris for me.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 91,
+      "end": 248,
+      "text": " -----Original Message-----\nFrom: \tBrassfield, Morris  \nSent:\tThursday, October 25, 2001 9:57 AM\nTo:\tHayslett, Rod\nCc:\tNelson, Mike\nSubject:\tFW: Cost Center\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 748,
+      "end": 904,
+      "text": " -----Original Message-----\nFrom: \tLowry, Phil  \nSent:\tWednesday, October 24, 2001 4:03 PM\nTo:\tBrassfield, Morris\nCc:\tNelson, Mike\nSubject:\tFW: Cost Center\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1020,
+      "end": 1153,
+      "text": " -----Original Message-----\nFrom: \tNelson, Mike  \nSent:\tWednesday, October 24, 2001 2:00 PM\nTo:\tLowry, Phil\nSubject:\tFW: Cost Center\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 904,
+      "end": 1020,
+      "text": "\nMorris, can you look at this for us.  I kinda think that the Corp Allocation is the right place for this expense.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1153,
+      "end": 1259,
+      "text": "\nI appreciate Kyle's expertise and work, but do we always pay the direct expenses for Corp assistance?  \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1259,
+      "end": 1392,
+      "text": " -----Original Message-----\nFrom: \tLadish, Kim  \nSent:\tWednesday, October 24, 2001 1:42 PM\nTo:\tNelson, Mike\nSubject:\tFW: Cost Center\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1504,
+      "end": 1520,
+      "text": "Thank you,\n\nKim\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1392,
+      "end": 1521,
+      "text": "\nMike:  In regard to Sharon's note below, please confirm the entities responsible for the cost of Kyle's trip.\n\nThank you,\n\nKim\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1521,
+      "end": 1650,
+      "text": " -----Original Message-----\nFrom: \tKilley, Sharon  \nSent:\tMonday, October 22, 2001 11:20 AM\nTo:\tLadish, Kim\nSubject:\tCost Center\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2000,
+      "end": 2095,
+      "text": "\nSharon Killey\nAssistant to John Brindle\nBusiness Controls\nTel:  713-345-4999\nFax: 713-646-8838",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1986,
+      "end": 2000,
+      "text": "\nMany thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1650,
+      "end": 2095,
+      "text": "\nKyle Norosky who works in Enron Corp Business Controls, recently flew to Minneapolis with regard to security issues.  He has told me that his trip is to be charged to ETS/Northern Pipeline cost center or project code.\n\nPlease can you let me know what company number and code to charge this to.  The total cost of his trip was $1603.28\n\nMany thanks.\n\nSharon Killey\nAssistant to John Brindle\nBusiness Controls\nTel:  713-345-4999\nFax: 713-646-8838",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 535,
+      "end": 748,
+      "text": "\nMorris A. Brassfield\nEnron Transportation Services\nSenior Director\nOperations Support Services\nThree Allen Center 3285\n333 Clay Street\nHouston, Texas 77002\n\n713-646-7006  Business Phone\n713-503-1409  Cell Phone\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 248,
+      "end": 535,
+      "text": "\nRod - What is our policy of accepting direct charges for corporate assistance?   Should this remain in corporate and be a part of the allocation?\n\nMike - Was any agreement made up front with Brindle to cover Kyle's expenses?   Was the request to travel made by Dave Odneal or yourself?\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4849757.1075859035380.JavaMail.evans@thyme>",
+      "Date": "Mon, 29 Oct 2001 05:27:10 -0800 (PST)",
+      "From": "rod.hayslett@enron.com",
+      "To": "tracy.geaccone@enron.com",
+      "Subject": "FW: Cost Center",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Hayslett, Rod </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RHAYSLE>",
+      "X-To": "Geaccone, Tracy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tgeacco>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\TGEACCO (Non-Privileged)\\Geaccone, Tracy\\Deleted Items",
+      "X-Origin": "Geaccone-T",
+      "X-FileName": "TGEACCO (Non-Privileged).pst"
+    }
+  },
+  "id": "train/geaccone-t_deleted_items_227.txt"
+}

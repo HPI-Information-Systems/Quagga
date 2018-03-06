@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Mrs. Tracy Geaccone\n\niClearing LLC (\"iClearing\"), member NASD/SIPC, carries your Datek Online \nFinancial Services LLC (\"DOFS\") account as a clearing broker pursuant \nto a Clearing Agreement with DOFS.\n\nThe enclosed iClearing Statement of Financial Condition for the period \nending June 29, 2001 is being sent to you pursuant to Securities and \nExchange Commission regulations.  To access this document please click \nthe link below:  \n\nhttp://www.Datek.com/helpdesk/fincondition.html - iClearing Statement \nof Financial Condition  \n\n\nYou may also view this document on the Datek website by clicking on the \nLegal and Disclosure Notices link on the bottom of the Datek Home Page.\n\nYou are encouraged to maintain a copy of the Statement of Financial Condition \nfor your records by printing or downloading the file. \n\nIf you wish to request a hard copy version of the Statement of Financial \nCondition or if you experience any difficulty accessing this document, you \nmay contact Datek at 1-800-U2 DATEK or email them at support@datek.com.  \nYou may also request a hard copy via @nswerbox - \nhttps://homesec.datek.com/answerbox/index.htm?answerbox=answerPublic \n\nSincerely,\n\niClearing LLC",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 25,
+      "text": "Dear Mrs. Tracy Geaccone\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1164,
+      "end": 1189,
+      "text": "Sincerely,\n\niClearing LLC",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1189,
+      "text": "Dear Mrs. Tracy Geaccone\n\niClearing LLC (\"iClearing\"), member NASD/SIPC, carries your Datek Online \nFinancial Services LLC (\"DOFS\") account as a clearing broker pursuant \nto a Clearing Agreement with DOFS.\n\nThe enclosed iClearing Statement of Financial Condition for the period \nending June 29, 2001 is being sent to you pursuant to Securities and \nExchange Commission regulations.  To access this document please click \nthe link below:  \n\nhttp://www.Datek.com/helpdesk/fincondition.html - iClearing Statement \nof Financial Condition  \n\n\nYou may also view this document on the Datek website by clicking on the \nLegal and Disclosure Notices link on the bottom of the Datek Home Page.\n\nYou are encouraged to maintain a copy of the Statement of Financial Condition \nfor your records by printing or downloading the file. \n\nIf you wish to request a hard copy version of the Statement of Financial \nCondition or if you experience any difficulty accessing this document, you \nmay contact Datek at 1-800-U2 DATEK or email them at support@datek.com.  \nYou may also request a hard copy via @nswerbox - \nhttps://homesec.datek.com/answerbox/index.htm?answerbox=answerPublic \n\nSincerely,\n\niClearing LLC",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19546313.1075859051323.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Aug 2001 22:00:17 -0700 (PDT)",
+      "From": "support@datek.com",
+      "To": "tgeacco@enron.com",
+      "Subject": "Statement of Financial Conditions",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Datek Online <support@datek.com>",
+      "X-To": "tgeacco@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\TGEACCO (Non-Privileged)\\Geaccone, Tracy\\DATEK",
+      "X-Origin": "Geaccone-T",
+      "X-FileName": "TGEACCO (Non-Privileged).pst"
+    }
+  },
+  "id": "train/geaccone-t_datek_8.txt"
+}

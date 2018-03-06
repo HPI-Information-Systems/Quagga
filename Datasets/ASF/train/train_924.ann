@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello, community!\nDid you manage to recognize jpf,tiff or whatever with cyrillics text inside?\nIve got only latin letter (looks like ugly translite text) in result for\nthat moment.For image contains only lattin letters it works fine.\nDoes anyone have any suggestion, best practice or case studies refer to\nthis situation?\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 18,
+      "text": "Hello, community!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 323,
+      "text": "Hello, community!\nDid you manage to recognize jpf,tiff or whatever with cyrillics text inside?\nIve got only latin letter (looks like ugly translite text) in result for\nthat moment.For image contains only lattin letters it works fine.\nDoes anyone have any suggestion, best practice or case studies refer to\nthis situation?\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_924"
+}

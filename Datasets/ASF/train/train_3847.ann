@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "\"ant server\" should be sufficient. \"dist\" is useful for when\nyou have custom _external_ programs (say SolrJ) that you\nwant all the libraries collected in the same place. There's\nno need to \"ant compile\" as the \"server\" target\n\nI assume what you're seeing is a ClassNotFound error, right?\nI'm a bit puzzled since that filter isn't a contrib, so it should\nbe found.\n\nWhat I'd do is just do the build first then start the example,\n\"bin/solr start -e techproducts\"\nDon't specify solrhome or anything else. Once that works,\nbuild up from there.\n\nBest,\nErick\n\nOn Fri, Jun 2, 2017 at 3:15 AM, Nawab Zada Asad Iqbal <khichi@gmail.com> wrote:\n> Hi,\n>\n> I have synced lucene-solr repo because I (will) have some custom code in\n> lucene and solr folders. What are the steps for starting solr server? My\n> schema.xml uses ICUNormalizer2CharFilterFactory (which I see in lucene\n> folder tree), but I don't know how to make it work with solr webapp. I know\n> the (luncene ant\n> target) 'compile',  (solr targets) 'dist', and 'server', but the order is\n> not clear to me.\n>\n> I have compiled lucene before doing 'ant server' in solr folder, but I\n> still see this error when I do 'bin/solr start -f -s ~/solrhome/' :-\n>\n> Caused by: org.apache.solr.common.SolrException: Plugin init failure for\n> [schema.xml] fieldType \"text\": Plugin init failure for [schema.xml]\n> analyzer/charFilter \"nfkc\": Error loading class\n> 'org.apache.lucene.analysis.icu.ICUNormalizer2CharFilterFactory'\n>\n>\n>\n> Thanks\n> Nawab\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 540,
+      "end": 553,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 554,
+      "text": "\"ant server\" should be sufficient. \"dist\" is useful for when\nyou have custom _external_ programs (say SolrJ) that you\nwant all the libraries collected in the same place. There's\nno need to \"ant compile\" as the \"server\" target\n\nI assume what you're seeing is a ClassNotFound error, right?\nI'm a bit puzzled since that filter isn't a contrib, so it should\nbe found.\n\nWhat I'd do is just do the build first then start the example,\n\"bin/solr start -e techproducts\"\nDon't specify solrhome or anything else. Once that works,\nbuild up from there.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 554,
+      "end": 634,
+      "text": "On Fri, Jun 2, 2017 at 3:15 AM, Nawab Zada Asad Iqbal <khichi@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 634,
+      "end": 640,
+      "text": "> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1471,
+      "end": 1490,
+      "text": ">\n> Thanks\n> Nawab\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 634,
+      "end": 1491,
+      "text": "> Hi,\n>\n> I have synced lucene-solr repo because I (will) have some custom code in\n> lucene and solr folders. What are the steps for starting solr server? My\n> schema.xml uses ICUNormalizer2CharFilterFactory (which I see in lucene\n> folder tree), but I don't know how to make it work with solr webapp. I know\n> the (luncene ant\n> target) 'compile',  (solr targets) 'dist', and 'server', but the order is\n> not clear to me.\n>\n> I have compiled lucene before doing 'ant server' in solr folder, but I\n> still see this error when I do 'bin/solr start -f -s ~/solrhome/' :-\n>\n> Caused by: org.apache.solr.common.SolrException: Plugin init failure for\n> [schema.xml] fieldType \"text\": Plugin init failure for [schema.xml]\n> analyzer/charFilter \"nfkc\": Error loading class\n> 'org.apache.lucene.analysis.icu.ICUNormalizer2CharFilterFactory'\n>\n>\n>\n> Thanks\n> Nawab\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3847"
+}

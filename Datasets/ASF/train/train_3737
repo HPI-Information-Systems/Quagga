@@ -1,0 +1,10 @@
+I've been working on a go library for solr that is zk aware for the past
+few months.  Here is my library.  let me know if you'd like to contribute.
+I compute the hashrange given a key and route and return the desired
+servers in the cluster then have an sdk for query and for retries given
+network outages.  We've found that just using a load balancer leads to some
+data loss when nodes reboot which is why i emulated the java solr client
+and rotate through a list of solr servers.
+
+https://github.com/sendgrid/go-solr
+

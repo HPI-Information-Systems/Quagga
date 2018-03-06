@@ -1,0 +1,210 @@
+{
+  "wrapper": "plaintext",
+  "text": "1.0  John A and Armando.\n\nMy question and John's response has led me down the following merry chase:\n\nThe LM6000 contract has GE keeping risk of loss and damage until delivery to \nthe Delivery Point.   The Delivery Point is Jacinto Port.   Without any other \ndocuments, GE has delivered the equipment and Risk of Loss and Damage is \nBrazilian Trust's.   I understand that some deal was cut in a letter that Ben \nJacoby sent to GE where GE keeps the ROL while in storage, but there are some \nstorage costs.\n\n(Note:) We have a very painful experience on a turbine from another vendor \nwhere the point and time of transfer of risk of loss is a central issue to a \ndispute at hand.) \n\nI think we need clear documentation making it clear that GE has ROL for the \nequipment until we take it out of storage.\n\nAs it relates to NEPCO if I understand it correctly the risk of loss chain is \nas follows: GE delivers to the Jacinto port where Risk of loss transfers to \nBrazilian Trust,  Brazilian Trust delivers to the port  and keeps risk of \nloss until Ex Terra, at which point risk of loss under the Turbine Purchase \nAgreement transfers to NEPCO, but under the EPC contract SFE assumes risk of \nloss at ExTerra.  Thus NEPCO does not have a risk of loss exposure.  \n\nI can see how NEPCO transports from Exterra to the Site under the EPC \ncontract and is protected by clause 8.1 of the EPC Contract. \n\n Under what authority is NEPCO transporting the equipment from the GE \ndelivery point to Exterra, has Brazilian Trust engaged NEPCO to do so?  The \nTurbine Purchase Agreement does not contemplate this.\n\n2.0  David Gohlke-  I think we have a small hole that needs and can be easily \nfilled.  In the Turbine Purchase Agreement, can we have NEPCO perform \ntransport service from the GE delivery point to Exterra but BT keeps ROL.\n\n3.0 I think from a GE perspective,  the Enron family takes ROL from GE at \nJacinto port and gets the turbines delivered to  the Site.  \n\n4.0  Kay Mann - I really need a copy of the Ben letter- we start moving \nequipment shortly- I need to make sure that the ROL issue with GE is \nadequately covered.\n\n\n\n\tJohn R Ayres@ENRON\n\t05/08/2001 08:53 AM\n\t\t\n\t\t To: John G Rigby/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\n\t\t cc: Pamela K Blande/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Armando \nLucio/Enron@EnronXGate\n\t\t Subject: Re: Who delivers from Houston to Brazil\n\nJohn, call Pam Blande for the exact details.  It is a custom broker by the \nname of Fritz, but she will gladly give you the details.  NEPCO via a \nsub-contract moves the material out of the GE storage, to the ship, load on \nthe ship, ocean shipment, unloading at Sepitiba, transport to the site, \ncustom clearance, and then NEPCO unloads from the heavy hauller onto the pads.\nPam has all of the details.\nJohn\n\n\n\nJohn G Rigby@ENRON_DEVELOPMENT\n05/07/2001 06:01 PM\nTo: John R Ayres/NA/Enron@Enron\ncc:  \n\nSubject: Who delivers from Houston to Brazil\n\nWho transports from Houston to Brazil,    GE, SFE, Brazil Trust or NEPCO.  \nHave we elected the Option to have GE deliver to the Site?\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2124,
+      "text": "1.0  John A and Armando.\n\nMy question and John's response has led me down the following merry chase:\n\nThe LM6000 contract has GE keeping risk of loss and damage until delivery to \nthe Delivery Point.   The Delivery Point is Jacinto Port.   Without any other \ndocuments, GE has delivered the equipment and Risk of Loss and Damage is \nBrazilian Trust's.   I understand that some deal was cut in a letter that Ben \nJacoby sent to GE where GE keeps the ROL while in storage, but there are some \nstorage costs.\n\n(Note:) We have a very painful experience on a turbine from another vendor \nwhere the point and time of transfer of risk of loss is a central issue to a \ndispute at hand.) \n\nI think we need clear documentation making it clear that GE has ROL for the \nequipment until we take it out of storage.\n\nAs it relates to NEPCO if I understand it correctly the risk of loss chain is \nas follows: GE delivers to the Jacinto port where Risk of loss transfers to \nBrazilian Trust,  Brazilian Trust delivers to the port  and keeps risk of \nloss until Ex Terra, at which point risk of loss under the Turbine Purchase \nAgreement transfers to NEPCO, but under the EPC contract SFE assumes risk of \nloss at ExTerra.  Thus NEPCO does not have a risk of loss exposure.  \n\nI can see how NEPCO transports from Exterra to the Site under the EPC \ncontract and is protected by clause 8.1 of the EPC Contract. \n\n Under what authority is NEPCO transporting the equipment from the GE \ndelivery point to Exterra, has Brazilian Trust engaged NEPCO to do so?  The \nTurbine Purchase Agreement does not contemplate this.\n\n2.0  David Gohlke-  I think we have a small hole that needs and can be easily \nfilled.  In the Turbine Purchase Agreement, can we have NEPCO perform \ntransport service from the GE delivery point to Exterra but BT keeps ROL.\n\n3.0 I think from a GE perspective,  the Enron family takes ROL from GE at \nJacinto port and gets the turbines delivered to  the Site.  \n\n4.0  Kay Mann - I really need a copy of the Ben letter- we start moving \nequipment shortly- I need to make sure that the ROL issue with GE is \nadequately covered.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2125,
+      "end": 2137,
+      "text": "John R Ayres",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2145,
+      "end": 2155,
+      "text": "05/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2156,
+      "end": 2164,
+      "text": "08:53 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2175,
+      "end": 2187,
+      "text": "John G Rigby",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2231,
+      "end": 2246,
+      "text": "Pamela K Blande",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2284,
+      "end": 2298,
+      "text": "Armando \nLucio",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2328,
+      "end": 2367,
+      "text": "Re: Who delivers from Houston to Brazil",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2125,
+      "end": 2368,
+      "text": "John R Ayres@ENRON\n\t05/08/2001 08:53 AM\n\t\t\n\t\t To: John G Rigby/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\n\t\t cc: Pamela K Blande/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Armando \nLucio/Enron@EnronXGate\n\t\t Subject: Re: Who delivers from Houston to Brazil\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2773,
+      "end": 2777,
+      "text": "John",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2369,
+      "end": 2373,
+      "text": "John",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2368,
+      "end": 2781,
+      "text": "\nJohn, call Pam Blande for the exact details.  It is a custom broker by the \nname of Fritz, but she will gladly give you the details.  NEPCO via a \nsub-contract moves the material out of the GE storage, to the ship, load on \nthe ship, ocean shipment, unloading at Sepitiba, transport to the site, \ncustom clearance, and then NEPCO unloads from the heavy hauller onto the pads.\nPam has all of the details.\nJohn\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2781,
+      "end": 2793,
+      "text": "John G Rigby",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2812,
+      "end": 2822,
+      "text": "05/07/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2823,
+      "end": 2831,
+      "text": "06:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2836,
+      "end": 2848,
+      "text": "John R Ayres",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2879,
+      "end": 2915,
+      "text": " Who delivers from Houston to Brazil",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2781,
+      "end": 2916,
+      "text": "John G Rigby@ENRON_DEVELOPMENT\n05/07/2001 06:01 PM\nTo: John R Ayres/NA/Enron@Enron\ncc:  \n\nSubject: Who delivers from Houston to Brazil\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2916,
+      "end": 3055,
+      "text": "\nWho transports from Houston to Brazil,    GE, SFE, Brazil Trust or NEPCO.  \nHave we elected the Option to have GE deliver to the Site?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20186803.1075845911426.JavaMail.evans@thyme>",
+      "Date": "Tue, 8 May 2001 10:40:00 -0700 (PDT)",
+      "From": "john.rigby@enron.com",
+      "To": "john.ayres@enron.com, randy.pais@enron.com, dgohlke@skadden.com",
+      "Subject": "Re: Who delivers LM6000s from GE Facility to Site",
+      "Cc": "kay.mann@enron.com, armando.lucio@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kay.mann@enron.com, armando.lucio@enron.com",
+      "X-From": "John G Rigby",
+      "X-To": "John R Ayres, Randy Pais, dgohlke@skadden.com",
+      "X-cc": "Kay Mann, Armando Lucio",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Notes inbox",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_notes_inbox_605.txt"
+}

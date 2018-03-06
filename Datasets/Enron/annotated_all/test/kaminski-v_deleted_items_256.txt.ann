@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "test/kaminski-v_deleted_items_256.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<23782039.1075840756090.JavaMail.evans@thyme>",
+      "Date": "Tue, 22 Jan 2002 02:45:15 -0800 (PST)",
+      "From": "hotpick@yahoo.com.tw",
+      "To": "vinayaj@hotmail.com",
+      "Subject": "Hot Pick 13643221111111000",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "hotpick@yahoo.com.tw",
+      "X-To": "vinayaj@hotmail.com",
+      "X-cc": "vinayaka65@hotmail.com, vinayakas@hotmail.com, vinayk@pacbell.net, vinaykalsi@hotmail.com, vinaym@hotmail.com, vinayp@hotmail.com, vinbar@att.net, vinbel@att.net, vinboi@hotmail.com, vinbor@hotmail.com, vinc39@hotmail.com, vinc80@hotmail.com, vinca23@hotmail.com, vincap@att.net, vincap@hotmail.com, vincap@jth.it, Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VKAMINS>, vince006@hotmail.com, vince02@hotmail.com",
+      "X-bcc": "",
+      "X-Folder": "\\vkamins\\Deleted Items",
+      "X-Origin": "KAMINSKI-V",
+      "X-FileName": "vincent kaminski 1-30-02.pst"
+    }
+  },
+  "text": "CBCom, Inc. (OTCBB : CBCI) Immediate & Strong BUY Recommendation Huge Analy=\nst and Newsletter Coverage for CBCI                       CBCI will be prof=\niled by some major analysts and newsletters along with the release of signi=\nficant news regarding explosive sales for the Company. There will be huge v=\nolume and a strong increase in price for several days. The same groups that=\n featured ONNN will begin coverage on CBCI. ONNN exploded from $ 1.94 to $4=\n.13 in six days.  We know for certain that the same groups are going to fea=\nture CBCI and even better returns are expected. CBCom, Inc. (CBCI) is the l=\nargest and fastest growing non-government owned ISP and Internet services c=\nompany in China.  CBCI, our top undervalued HOT PICK, is the only Company o=\nf its kind to trade on a US Exchange. Revenues are Exploding due to booming=\n Chinese Internet growth and CBCI's aquisition of many of its competitors. =\nWe are very proud that we can share this information with you so that you c=\nan make a profit out of it. It is highly advisable to take a position in CB=\nCI as soon as possible, today before the market closes or tomorrow. The sto=\nck could easily reach $4.00 in less than a month on the strength of their u=\npcoming contract announcements and Strong Analyst Buy Recomendations. When =\nword gets out this stock will SOAR! 13643221111111000",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1362,
+      "text": "CBCom, Inc. (OTCBB : CBCI) Immediate & Strong BUY Recommendation Huge Analy=\nst and Newsletter Coverage for CBCI                       CBCI will be prof=\niled by some major analysts and newsletters along with the release of signi=\nficant news regarding explosive sales for the Company. There will be huge v=\nolume and a strong increase in price for several days. The same groups that=\n featured ONNN will begin coverage on CBCI. ONNN exploded from $ 1.94 to $4=\n.13 in six days.  We know for certain that the same groups are going to fea=\nture CBCI and even better returns are expected. CBCom, Inc. (CBCI) is the l=\nargest and fastest growing non-government owned ISP and Internet services c=\nompany in China.  CBCI, our top undervalued HOT PICK, is the only Company o=\nf its kind to trade on a US Exchange. Revenues are Exploding due to booming=\n Chinese Internet growth and CBCI's aquisition of many of its competitors. =\nWe are very proud that we can share this information with you so that you c=\nan make a profit out of it. It is highly advisable to take a position in CB=\nCI as soon as possible, today before the market closes or tomorrow. The sto=\nck could easily reach $4.00 in less than a month on the strength of their u=\npcoming contract announcements and Strong Analyst Buy Recomendations. When =\nword gets out this stock will SOAR! 13643221111111000",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

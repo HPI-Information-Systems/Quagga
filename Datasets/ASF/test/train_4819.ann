@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "So performing complete output without an aggregation would require building\nup a table of the entire input to write out at each micro batch. This would\nget prohibitively expensive quickly. With an aggregation we just need to\nkeep track of the aggregates and update them every batch, so the memory\nrequirement is more reasonable.\n\n(Note: I don't do a lot of work in streaming so there may be additional\nreasons, but these are the ones I remember from when I was working on\nlooking at integrating ML with SS).\n\nOn Fri, Aug 18, 2017 at 5:25 AM Jacek Laskowski <jacek@japila.pl> wrote:\n\n> Hi,\n>\n> Why is the requirement for a streaming aggregation in a streaming\n> query? What would happen if Spark allowed Complete without a single\n> aggregation? This is the latest master.\n>\n> scala> val q = ids.\n>      |   writeStream.\n>      |   format(\"memory\").\n>      |   queryName(\"dups\").\n>      |   outputMode(OutputMode.Complete).  // <-- memory sink supports\n> checkpointing for Complete output mode only\n>      |   trigger(Trigger.ProcessingTime(30.seconds)).\n>      |   option(\"checkpointLocation\", \"checkpoint-dir\"). // <-- use\n> checkpointing to save state between restarts\n>      |   start\n> org.apache.spark.sql.AnalysisException: Complete output mode not\n> supported when there are no streaming aggregations on streaming\n> DataFrames/Datasets;;\n> Project [cast(time#10 as bigint) AS time#15L, id#6]\n> +- Deduplicate [id#6], true\n>    +- Project [cast(time#5 as timestamp) AS time#10, id#6]\n>       +- Project [_1#2 AS time#5, _2#3 AS id#6]\n>          +- StreamingExecutionRelation MemoryStream[_1#2,_2#3], [_1#2,\n> _2#3]\n>\n>   at\n> org.apache.spark.sql.catalyst.analysis.UnsupportedOperationChecker$.org$apache$spark$sql$catalyst$analysis$UnsupportedOperationChecker$$throwError(UnsupportedOperationChecker.scala:297)\n>   at\n> org.apache.spark.sql.catalyst.analysis.UnsupportedOperationChecker$.checkForStreaming(UnsupportedOperationChecker.scala:115)\n>   at\n> org.apache.spark.sql.streaming.StreamingQueryManager.createQuery(StreamingQueryManager.scala:232)\n>   at\n> org.apache.spark.sql.streaming.StreamingQueryManager.startQuery(StreamingQueryManager.scala:278)\n>   at\n> org.apache.spark.sql.streaming.DataStreamWriter.start(DataStreamWriter.scala:249)\n>   ... 57 elided\n>\n> Pozdrawiam,\n> Jacek Laskowski\n> ----\n> https://medium.com/@jaceklaskowski/\n> Mastering Apache Spark 2 https://bit.ly/mastering-apache-spark\n> Follow me at https://twitter.com/jaceklaskowski\n>\n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>\n> --\nCell : 425-233-8271\nTwitter: https://twitter.com/holdenkarau\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 509,
+      "text": "So performing complete output without an aggregation would require building\nup a table of the entire input to write out at each micro batch. This would\nget prohibitively expensive quickly. With an aggregation we just need to\nkeep track of the aggregates and update them every batch, so the memory\nrequirement is more reasonable.\n\n(Note: I don't do a lot of work in streaming so there may be additional\nreasons, but these are the ones I remember from when I was working on\nlooking at integrating ML with SS).\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 509,
+      "end": 582,
+      "text": "On Fri, Aug 18, 2017 at 5:25 AM Jacek Laskowski <jacek@japila.pl> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 582,
+      "end": 589,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2602,
+      "end": 2668,
+      "text": "> --\nCell : 425-233-8271\nTwitter: https://twitter.com/holdenkarau\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2273,
+      "end": 2307,
+      "text": ">\n> Pozdrawiam,\n> Jacek Laskowski\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 582,
+      "end": 2669,
+      "text": "\n> Hi,\n>\n> Why is the requirement for a streaming aggregation in a streaming\n> query? What would happen if Spark allowed Complete without a single\n> aggregation? This is the latest master.\n>\n> scala> val q = ids.\n>      |   writeStream.\n>      |   format(\"memory\").\n>      |   queryName(\"dups\").\n>      |   outputMode(OutputMode.Complete).  // <-- memory sink supports\n> checkpointing for Complete output mode only\n>      |   trigger(Trigger.ProcessingTime(30.seconds)).\n>      |   option(\"checkpointLocation\", \"checkpoint-dir\"). // <-- use\n> checkpointing to save state between restarts\n>      |   start\n> org.apache.spark.sql.AnalysisException: Complete output mode not\n> supported when there are no streaming aggregations on streaming\n> DataFrames/Datasets;;\n> Project [cast(time#10 as bigint) AS time#15L, id#6]\n> +- Deduplicate [id#6], true\n>    +- Project [cast(time#5 as timestamp) AS time#10, id#6]\n>       +- Project [_1#2 AS time#5, _2#3 AS id#6]\n>          +- StreamingExecutionRelation MemoryStream[_1#2,_2#3], [_1#2,\n> _2#3]\n>\n>   at\n> org.apache.spark.sql.catalyst.analysis.UnsupportedOperationChecker$.org$apache$spark$sql$catalyst$analysis$UnsupportedOperationChecker$$throwError(UnsupportedOperationChecker.scala:297)\n>   at\n> org.apache.spark.sql.catalyst.analysis.UnsupportedOperationChecker$.checkForStreaming(UnsupportedOperationChecker.scala:115)\n>   at\n> org.apache.spark.sql.streaming.StreamingQueryManager.createQuery(StreamingQueryManager.scala:232)\n>   at\n> org.apache.spark.sql.streaming.StreamingQueryManager.startQuery(StreamingQueryManager.scala:278)\n>   at\n> org.apache.spark.sql.streaming.DataStreamWriter.start(DataStreamWriter.scala:249)\n>   ... 57 elided\n>\n> Pozdrawiam,\n> Jacek Laskowski\n> ----\n> https://medium.com/@jaceklaskowski/\n> Mastering Apache Spark 2 https://bit.ly/mastering-apache-spark\n> Follow me at https://twitter.com/jaceklaskowski\n>\n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>\n> --\nCell : 425-233-8271\nTwitter: https://twitter.com/holdenkarau\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4819"
+}

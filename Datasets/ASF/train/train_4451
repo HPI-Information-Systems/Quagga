@@ -1,0 +1,20 @@
+Checkout Term Vector component
+
+https://wiki.apache.org/solr/TermVectorComponent
+
+On Thu, Jun 29, 2017 at 10:40 AM, Kaushik <kaushikadya@gmail.com> wrote:
+
+> Hello,
+>
+> We are trying to get the most frequently used words in a collection. My
+> understanding is that using facet.field=content_txt. An e.g. of content_txt
+> value is "The fox jumped over another fox". In such a scenario, I am
+> expecting the facet to return with "fox" and with a count value of 2.
+> However, we end up getting "fox" with a value of 1. It appears we are
+> getting total number of documents that match the query as opposed to the
+> total number of times the word ocurred. How can the latter be achieved?
+>
+> Thanks,
+> AK
+>
+

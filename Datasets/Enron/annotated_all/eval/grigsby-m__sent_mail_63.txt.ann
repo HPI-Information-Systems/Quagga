@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Mike Grigsby/HOU/ECT on 03/13/2001 08:33 \nAM ---------------------------\n   \n\t\n\t\n\tFrom:  Mike Swerzbin                           03/13/2001 08:14 AM\n\t\n\nTo: Mike Grigsby/HOU/ECT@ECT\ncc:  \nSubject: New Generation Report 2/28/01\n\n\n---------------------- Forwarded by Mike Swerzbin/HOU/ECT on 03/13/2001 06:21 \nAM ---------------------------\nFrom: Jeffrey Oh on 02/28/2001 09:59 AM\nTo: Phillip K Allen/HOU/ECT@ECT, Julie A Gomez/HOU/ECT@ECT, Tim \nBelden/HOU/ECT@ECT, Robert Badeer/HOU/ECT@ECT, Matt Motley/PDX/ECT@ECT, Mike \nSwerzbin/HOU/ECT@ECT, Jim Gilbert/PDX/ECT@ECT, David Parquet/SF/ECT@ECT, \nChristopher F Calger/PDX/ECT@ECT, Jim Buerkle/PDX/ECT@ECT, Angela \nCadena/PDX/ECT@ECT, Elliot Mainzer/PDX/ECT@ECT, Todd Perry/PDX/ECT@ECT, Laird \nDyer/SF/ECT@ECT, Michael McDonald/SF/ECT@ECT, Ed Clark/PDX/ECT@ECT, Dave \nFuller/PDX/ECT@ECT, Alan Comnes/PDX/ECT@ECT, Michael Etringer/HOU/ECT@ECT, \nJohn Malowney/HOU/ECT@ECT, Stewart Rosman/HOU/ECT@ECT, Jeff \nShields/PDX/ECT@ECT, Julie Sarnowski/HOU/ECT@ECT, Kim Ward/HOU/ECT@ECT, Bill \nWilliams III/PDX/ECT@ECT, Jeff Richter/HOU/ECT@ECT, Sean \nCrandall/PDX/ECT@ECT, Tom Alonso/PDX/ECT@ECT\ncc:  \nSubject: New Generation Report 2/28/01\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 109,
+      "text": "---------------------- Forwarded by Mike Grigsby/HOU/ECT on 03/13/2001 08:33 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 109,
+      "end": 262,
+      "text": "   \n\t\n\t\n\tFrom:  Mike Swerzbin                           03/13/2001 08:14 AM\n\t\n\nTo: Mike Grigsby/HOU/ECT@ECT\ncc:  \nSubject: New Generation Report 2/28/01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 262,
+      "end": 264,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 264,
+      "end": 374,
+      "text": "---------------------- Forwarded by Mike Swerzbin/HOU/ECT on 03/13/2001 06:21 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 374,
+      "end": 1214,
+      "text": "From: Jeffrey Oh on 02/28/2001 09:59 AM\nTo: Phillip K Allen/HOU/ECT@ECT, Julie A Gomez/HOU/ECT@ECT, Tim \nBelden/HOU/ECT@ECT, Robert Badeer/HOU/ECT@ECT, Matt Motley/PDX/ECT@ECT, Mike \nSwerzbin/HOU/ECT@ECT, Jim Gilbert/PDX/ECT@ECT, David Parquet/SF/ECT@ECT, \nChristopher F Calger/PDX/ECT@ECT, Jim Buerkle/PDX/ECT@ECT, Angela \nCadena/PDX/ECT@ECT, Elliot Mainzer/PDX/ECT@ECT, Todd Perry/PDX/ECT@ECT, Laird \nDyer/SF/ECT@ECT, Michael McDonald/SF/ECT@ECT, Ed Clark/PDX/ECT@ECT, Dave \nFuller/PDX/ECT@ECT, Alan Comnes/PDX/ECT@ECT, Michael Etringer/HOU/ECT@ECT, \nJohn Malowney/HOU/ECT@ECT, Stewart Rosman/HOU/ECT@ECT, Jeff \nShields/PDX/ECT@ECT, Julie Sarnowski/HOU/ECT@ECT, Kim Ward/HOU/ECT@ECT, Bill \nWilliams III/PDX/ECT@ECT, Jeff Richter/HOU/ECT@ECT, Sean \nCrandall/PDX/ECT@ECT, Tom Alonso/PDX/ECT@ECT\ncc:  \nSubject: New Generation Report 2/28/01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1214,
+      "end": 1218,
+      "text": "\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8017665.1075855618113.JavaMail.evans@thyme>",
+      "Date": "Tue, 13 Mar 2001 00:34:00 -0800 (PST)",
+      "From": "mike.grigsby@enron.com",
+      "To": "jane.tholt@enron.com, tori.kuykendall@enron.com",
+      "Subject": "New Generation Report 2/28/01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mike Grigsby",
+      "X-To": "Jane M Tholt, Tori Kuykendall",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Michael_Grigsby_Jun2001\\Notes Folders\\'sent mail",
+      "X-Origin": "Grigsby-M",
+      "X-FileName": "mgrigsb.nsf"
+    }
+  },
+  "id": "eval/grigsby-m__sent_mail_63.txt"
+}

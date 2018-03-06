@@ -1,0 +1,35 @@
+hi guys,
+
+
+an uber/fat jar file has been created to run with spark in CDH yarc client
+mode.
+
+As usual job is submitted to the edge node.
+
+does the jar file has to be placed in the same directory ewith spark is
+running in the cluster to make it work?
+
+Also what will happen if say out of 9 nodes running spark, 3 have not got
+the jar file. will that job fail or it will carry on on the fremaing 6
+nodes that have that jar file?
+
+thanks
+
+Dr Mich Talebzadeh
+
+
+
+LinkedIn * https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw
+<https://www.linkedin.com/profile/view?id=AAEAAAAWh2gBxianrbJd6zP6AcPCCdOABUrV8Pw>*
+
+
+
+http://talebzadehmich.wordpress.com
+
+
+*Disclaimer:* Use it at your own risk. Any and all responsibility for any
+loss, damage or destruction of data or any other property which may arise
+from relying on this email's technical content is explicitly disclaimed.
+The author will in no case be liable for any monetary damages arising from
+such loss, damage or destruction.
+

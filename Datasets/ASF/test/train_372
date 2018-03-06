@@ -1,0 +1,60 @@
+thanks Neil. I followed original suggestion from Andrw and everything is
+working fine now
+kr
+
+On Sun, Jan 15, 2017 at 4:27 PM, Neil Jonkers <neilodini@gmail.com> wrote:
+
+> Hello,
+>
+> Can you drop the url:
+>
+>  spark://master:7077
+>
+> The url is used when running Spark in standalone mode.
+>
+> Regards
+>
+>
+> -------- Original message --------
+> From: Marco Mistroni
+> Date:15/01/2017 16:34 (GMT+02:00)
+> To: User
+> Subject: Running Spark on EMR
+>
+> hi all
+>  could anyone assist here?
+> i am trying to run spark 2.0.0 on an EMR cluster,but i am having issues
+> connecting to the master node
+> So, below is a snippet of what i am doing
+>
+>
+> sc = SparkSession.builder.master(sparkHost).appName("
+> DataProcess").getOrCreate()
+>
+> sparkHost is passed as input parameter. that was thought so that i can run
+> the script locally
+> on my spark local instance as well as submitting scripts on any cluster i
+> want
+>
+>
+> Now i have
+> 1 - setup a cluster on EMR.
+> 2 - connected to masternode
+> 3  - launch the command spark-submit myscripts.py spark://master:7077
+>
+> But that results in an connection refused exception
+> Then i have tried to remove the .master call above and launch the script
+> with the following command
+>
+> spark-submit --master spark://master:7077   myscript.py  but still i am
+> getting
+> connectionREfused exception
+>
+>
+> I am using Spark 2.0.0 , could anyone advise on how shall i build the
+> spark session and how can i submit a pythjon script to the cluster?
+>
+> kr
+>  marco
+>
+

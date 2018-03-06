@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "<<memo to Buy.doc>> \n Please see the attached Memorandum. ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 58,
+      "text": "<<memo to Buy.doc>> \n Please see the attached Memorandum. ",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2,
+      "end": 17,
+      "text": "memo to Buy.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 21,
+      "text": "<<memo to Buy.doc>> \n",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14947768.1075840382688.JavaMail.evans@thyme>",
+      "Date": "Fri, 11 Jan 2002 10:14:06 -0800 (PST)",
+      "From": "jybrewster@swidlaw.com",
+      "To": "rick.buy@enron.com",
+      "Subject": "Memorandum",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brewster, Jessica <JYBrewster@SWIDLAW.com>",
+      "X-To": "Buy, Rick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RBUY>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\rbuy\\Inbox",
+      "X-Origin": "BUY-R",
+      "X-FileName": "richard buy 1-30-02..pst"
+    }
+  },
+  "id": "train/buy-r_inbox_131.txt"
+}

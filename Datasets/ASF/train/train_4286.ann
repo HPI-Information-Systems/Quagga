@@ -1,0 +1,152 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for confirming.  Here is the JIRA\n\nhttps://issues.apache.org/jira/browse/SOLR-10944\n\nOn Fri, Jun 23, 2017 at 11:20 AM, Joel Bernstein <joelsolr@gmail.com> wrote:\n\n> yeah, this looks like a bug in the get expression.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n> On Fri, Jun 23, 2017 at 11:07 AM, Susheel Kumar <susheel2777@gmail.com>\n> wrote:\n>\n> > Hi Joel,\n> >\n> > As i am getting deeper, it doesn't look like a problem due to hashJoin\n> etc.\n> >\n> >\n> > Below is a simple let expr where if search would not find a match and\n> > return 0 result.  In that case, I would expect get(a) to show a EOF tuple\n> > while it is throwing exception. It looks like something wrong/bug in the\n> > code.  Please suggest\n> >\n> > ===\n> > let(a=search(collection1,\n> >                         q=id:999999999,\n> >                         fl=\"id,business_email\",\n> >                         sort=\"business_email asc\"),\n> > get(a)\n> > )\n> >\n> >\n> > {\n> >   \"result-set\": {\n> >     \"docs\": [\n> >       {\n> >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> >         \"EOF\": true,\n> >         \"RESPONSE_TIME\": 8\n> >       }\n> >     ]\n> >   }\n> > }\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > On Fri, Jun 23, 2017 at 7:44 AM, Joel Bernstein <joelsolr@gmail.com>\n> > wrote:\n> >\n> > > Ok, I hadn't anticipated some of the scenarios that you've been trying\n> > out.\n> > > Particularly reading streams into variables and performing joins etc...\n> > >\n> > > The main idea with variables was to use them with the new statistical\n> > > evaluators. So you perform retrievals (search, random, nodes, knn\n> etc...)\n> > > set the results to variables and then perform statistical analysis.\n> > >\n> > > The problem with joining variables is that is doesn't scale very well\n> > > because all the records are read into memory. Also the parallel stream\n> > > won't work over variables.\n> > >\n> > > Joel Bernstein\n> > > http://joelsolr.blogspot.com/\n> > >\n> > > On Thu, Jun 22, 2017 at 3:50 PM, Susheel Kumar <susheel2777@gmail.com>\n> > > wrote:\n> > >\n> > > > Hi Joel,\n> > > >\n> > > > I am able to reproduce this in a simple way.  Looks like Let Stream\n> is\n> > > > having some issues.  Below complement function works fine if I\n> execute\n> > > > outside let and returns an EOF:true tuple but if a tuple with\n> EOF:true\n> > > > assigned to let variable, it gets changed to EXCEPTION \"Index 0, Size\n> > 0\"\n> > > > etc.\n> > > >\n> > > > So let stream not able to handle the stream/results which has only\n> EOF\n> > > > tuple and breaks the whole let expression block\n> > > >\n> > > >\n> > > > ===Complement inside let\n> > > > let(\n> > > > a=echo(Hello),\n> > > > b=complement(sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id\n> > > asc,email\n> > > > asc\"),\n> > > > sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id asc,email asc\"),\n> > > > on=\"id,email\"),\n> > > > c=get(b),\n> > > > get(a)\n> > > > )\n> > > >\n> > > > Result\n> > > > ===\n> > > > {\n> > > >   \"result-set\": {\n> > > >     \"docs\": [\n> > > >       {\n> > > >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > >         \"EOF\": true,\n> > > >         \"RESPONSE_TIME\": 1\n> > > >       }\n> > > >     ]\n> > > >   }\n> > > > }\n> > > >\n> > > > ===Complement outside let\n> > > >\n> > > > complement(sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id\n> > asc,email\n> > > > asc\"),\n> > > > sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id asc,email asc\"),\n> > > > on=\"id,email\")\n> > > >\n> > > > Result\n> > > > ===\n> > > > { \"result-set\": { \"docs\": [ { \"EOF\": true, \"RESPONSE_TIME\": 0 } ] } }\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > > On Thu, Jun 22, 2017 at 11:55 AM, Susheel Kumar <\n> susheel2777@gmail.com\n> > >\n> > > > wrote:\n> > > >\n> > > > > Sorry for typo\n> > > > >\n> > > > > Facing a weird behavior when using hashJoin / innerJoin etc. The\n> > below\n> > > > > expression display tuples from variable a shown below\n> > > > >\n> > > > >\n> > > > > let(a=fetch(SMS,having(rollup(over=email,\n> > > > >                  count(email),\n> > > > >                 select(search(SMS,\n> > > > >                         q=*:*,\n> > > > >                         fl=\"id,dv_sv_business_email\",\n> > > > >                         sort=\"dv_sv_business_email asc\"),\n> > > > >    id,\n> > > > >    dv_sv_business_email as email)),\n> > > > >     eq(count(email),1)),\n> > > > > fl=\"id,dv_sv_business_email as email\",\n> > > > > on=\"email=dv_sv_business_email\"),\n> > > > > b=fetch(SMS,having(rollup(over=email,\n> > > > >                  count(email),\n> > > > >                 select(search(SMS,\n> > > > >                         q=*:*,\n> > > > >                         fl=\"id,dv_sv_personal_email\",\n> > > > >                         sort=\"dv_sv_personal_email asc\"),\n> > > > >    id,\n> > > > >    dv_sv_personal_email as email)),\n> > > > >     eq(count(email),1)),\n> > > > > fl=\"id,dv_sv_personal_email as email\",\n> > > > > on=\"email=dv_sv_personal_email\"),\n> > > > > c=innerJoin(sort(get(a),by=\"email asc\"),sort(get(b),by=\"email\n> > > > > asc\"),on=\"email\"),\n> > > > > #d=select(get(c),id,email),\n> > > > > get(a)\n> > > > > )\n> > > > >\n> > > > > var a result\n> > > > > ==\n> > > > > {\n> > > > >   \"result-set\": {\n> > > > >     \"docs\": [\n> > > > >       {\n> > > > >         \"count(email)\": 1,\n> > > > >         \"id\": \"1\",\n> > > > >         \"email\": \"A\"\n> > > > >       },\n> > > > >       {\n> > > > >         \"count(email)\": 1,\n> > > > >         \"id\": \"2\",\n> > > > >         \"email\": \"C\"\n> > > > >       },\n> > > > >       {\n> > > > >         \"EOF\": true,\n> > > > >         \"RESPONSE_TIME\": 18\n> > > > >       }\n> > > > >     ]\n> > > > >   }\n> > > > > }\n> > > > >\n> > > > > And after uncomment var d above, even though we are displaying a,\n> we\n> > > get\n> > > > > results shown below. I understand that join in my test data didn't\n> > find\n> > > > any\n> > > > > match but then it should not skew up the results of var a.  When\n> data\n> > > > > matches during join then its fine but otherwise I am running into\n> > this\n> > > > > issue and whole next expressions doesn't get evaluated due to\n> this...\n> > > > >\n> > > > >\n> > > > > after uncomment var d\n> > > > > ===\n> > > > > {\n> > > > >   \"result-set\": {\n> > > > >     \"docs\": [\n> > > > >       {\n> > > > >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > > >         \"EOF\": true,\n> > > > >         \"RESPONSE_TIME\": 44\n> > > > >       }\n> > > > >     ]\n> > > > >   }\n> > > > > }\n> > > > >\n> > > > > On Thu, Jun 22, 2017 at 11:51 AM, Susheel Kumar <\n> > susheel2777@gmail.com\n> > > >\n> > > > > wrote:\n> > > > >\n> > > > >> Hello Joel,\n> > > > >>\n> > > > >> Facing a weird behavior when using hashJoin / innerJoin etc.\nThe\n> > below\n> > > > >> expression display tuples from variable a   and the moment I\nuse\n> get\n> > > on\n> > > > >> innerJoin / hashJoin expr on variable c\n> > > > >>\n> > > > >>\n> > > > >> let(a=fetch(SMS,having(rollup(over=email,\n> > > > >>                  count(email),\n> > > > >>                 select(search(SMS,\n> > > > >>                         q=*:*,\n> > > > >>                         fl=\"id,dv_sv_business_email\",\n> > > > >>                         sort=\"dv_sv_business_email asc\"),\n> > > > >>    id,\n> > > > >>    dv_sv_business_email as email)),\n> > > > >>     eq(count(email),1)),\n> > > > >> fl=\"id,dv_sv_business_email as email\",\n> > > > >> on=\"email=dv_sv_business_email\"),\n> > > > >> b=fetch(SMS,having(rollup(over=email,\n> > > > >>                  count(email),\n> > > > >>                 select(search(SMS,\n> > > > >>                         q=*:*,\n> > > > >>                         fl=\"id,dv_sv_personal_email\",\n> > > > >>                         sort=\"dv_sv_personal_email asc\"),\n> > > > >>    id,\n> > > > >>    dv_sv_personal_email as email)),\n> > > > >>     eq(count(email),1)),\n> > > > >> fl=\"id,dv_sv_personal_email as email\",\n> > > > >> on=\"email=dv_sv_personal_email\"),\n> > > > >> c=innerJoin(sort(get(a),by=\"email asc\"),sort(get(b),by=\"email\n> > > > >> asc\"),on=\"email\"),\n> > > > >> #d=select(get(c),id,email),\n> > > > >> get(a)\n> > > > >> )\n> > > > >>\n> > > > >> var a result\n> > > > >> ==\n> > > > >> {\n> > > > >>   \"result-set\": {\n> > > > >>     \"docs\": [\n> > > > >>       {\n> > > > >>         \"count(email)\": 1,\n> > > > >>         \"id\": \"1\",\n> > > > >>         \"email\": \"A\"\n> > > > >>       },\n> > > > >>       {\n> > > > >>         \"count(email)\": 1,\n> > > > >>         \"id\": \"2\",\n> > > > >>         \"email\": \"C\"\n> > > > >>       },\n> > > > >>       {\n> > > > >>         \"EOF\": true,\n> > > > >>         \"RESPONSE_TIME\": 18\n> > > > >>       }\n> > > > >>     ]\n> > > > >>   }\n> > > > >> }\n> > > > >>\n> > > > >> after uncomment var d above, even though we are displaying a,\nwe\n> get\n> > > > >> results like below. I understand that join in my test data didn't\n> > find\n> > > > any\n> > > > >> match but then it should not skew up the results of var a.  When\n> > data\n> > > > >> matches during join then its fine but otherwise I am running\ninto\n> > this\n> > > > >> issue and whole next expressions doesn't get evaluated due to\n> > this...\n> > > > >>\n> > > > >>\n> > > > >> {\n> > > > >>   \"result-set\": {\n> > > > >>     \"docs\": [\n> > > > >>       {\n> > > > >>         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > > >>         \"EOF\": true,\n> > > > >>         \"RESPONSE_TIME\": 44\n> > > > >>       }\n> > > > >>     ]\n> > > > >>   }\n> > > > >> }\n> > > > >>\n> > > > >\n> > > > >\n> > > >\n> > >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 92,
+      "text": "Thanks for confirming.  Here is the JIRA\n\nhttps://issues.apache.org/jira/browse/SOLR-10944\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 92,
+      "end": 169,
+      "text": "On Fri, Jun 23, 2017 at 11:20 AM, Joel Bernstein <joelsolr@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 223,
+      "end": 274,
+      "text": ">\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 169,
+      "end": 276,
+      "text": "\n> yeah, this looks like a bug in the get expression.\n>\n> Joel Bernstein\n> http://joelsolr.blogspot.com/\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 276,
+      "end": 359,
+      "text": "> On Fri, Jun 23, 2017 at 11:07 AM, Susheel Kumar <susheel2777@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 359,
+      "end": 374,
+      "text": ">\n> > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 359,
+      "end": 1166,
+      "text": ">\n> > Hi Joel,\n> >\n> > As i am getting deeper, it doesn't look like a problem due to hashJoin\n> etc.\n> >\n> >\n> > Below is a simple let expr where if search would not find a match and\n> > return 0 result.  In that case, I would expect get(a) to show a EOF tuple\n> > while it is throwing exception. It looks like something wrong/bug in the\n> > code.  Please suggest\n> >\n> > ===\n> > let(a=search(collection1,\n> >                         q=id:999999999,\n> >                         fl=\"id,business_email\",\n> >                         sort=\"business_email asc\"),\n> > get(a)\n> > )\n> >\n> >\n> > {\n> >   \"result-set\": {\n> >     \"docs\": [\n> >       {\n> >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> >         \"EOF\": true,\n> >         \"RESPONSE_TIME\": 8\n> >       }\n> >     ]\n> >   }\n> > }\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1166,
+      "end": 1250,
+      "text": "> > On Fri, Jun 23, 2017 at 7:44 AM, Joel Bernstein <joelsolr@gmail.com>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1848,
+      "end": 1911,
+      "text": "> > >\n> > > Joel Bernstein\n> > > http://joelsolr.blogspot.com/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1250,
+      "end": 1917,
+      "text": "> >\n> > > Ok, I hadn't anticipated some of the scenarios that you've been trying\n> > out.\n> > > Particularly reading streams into variables and performing joins etc...\n> > >\n> > > The main idea with variables was to use them with the new statistical\n> > > evaluators. So you perform retrievals (search, random, nodes, knn\n> etc...)\n> > > set the results to variables and then perform statistical analysis.\n> > >\n> > > The problem with joining variables is that is doesn't scale very well\n> > > because all the records are read into memory. Also the parallel stream\n> > > won't work over variables.\n> > >\n> > > Joel Bernstein\n> > > http://joelsolr.blogspot.com/\n> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1917,
+      "end": 2007,
+      "text": "> > > On Thu, Jun 22, 2017 at 3:50 PM, Susheel Kumar <susheel2777@gmail.com>\n> > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2007,
+      "end": 2030,
+      "text": "> > >\n> > > > Hi Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2007,
+      "end": 3555,
+      "text": "> > >\n> > > > Hi Joel,\n> > > >\n> > > > I am able to reproduce this in a simple way.  Looks like Let Stream\n> is\n> > > > having some issues.  Below complement function works fine if I\n> execute\n> > > > outside let and returns an EOF:true tuple but if a tuple with\n> EOF:true\n> > > > assigned to let variable, it gets changed to EXCEPTION \"Index 0, Size\n> > 0\"\n> > > > etc.\n> > > >\n> > > > So let stream not able to handle the stream/results which has only\n> EOF\n> > > > tuple and breaks the whole let expression block\n> > > >\n> > > >\n> > > > ===Complement inside let\n> > > > let(\n> > > > a=echo(Hello),\n> > > > b=complement(sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id\n> > > asc,email\n> > > > asc\"),\n> > > > sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id asc,email asc\"),\n> > > > on=\"id,email\"),\n> > > > c=get(b),\n> > > > get(a)\n> > > > )\n> > > >\n> > > > Result\n> > > > ===\n> > > > {\n> > > >   \"result-set\": {\n> > > >     \"docs\": [\n> > > >       {\n> > > >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > >         \"EOF\": true,\n> > > >         \"RESPONSE_TIME\": 1\n> > > >       }\n> > > >     ]\n> > > >   }\n> > > > }\n> > > >\n> > > > ===Complement outside let\n> > > >\n> > > > complement(sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id\n> > asc,email\n> > > > asc\"),\n> > > > sort(select(tuple(id=1,email=\"A\"),id,email),by=\"id asc,email asc\"),\n> > > > on=\"id,email\")\n> > > >\n> > > > Result\n> > > > ===\n> > > > { \"result-set\": { \"docs\": [ { \"EOF\": true, \"RESPONSE_TIME\": 0 } ] } }\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n> > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3555,
+      "end": 3658,
+      "text": "> > > > On Thu, Jun 22, 2017 at 11:55 AM, Susheel Kumar <\n> susheel2777@gmail.com\n> > >\n> > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 6461,
+      "end": 9293,
+      "text": "> > > > >\n> > > > >> Hello Joel,\n> > > > >>\n> > > > >> Facing a weird behavior when using hashJoin / innerJoin etc.\nThe\n> > below\n> > > > >> expression display tuples from variable a   and the moment I\nuse\n> get\n> > > on\n> > > > >> innerJoin / hashJoin expr on variable c\n> > > > >>\n> > > > >>\n> > > > >> let(a=fetch(SMS,having(rollup(over=email,\n> > > > >>                  count(email),\n> > > > >>                 select(search(SMS,\n> > > > >>                         q=*:*,\n> > > > >>                         fl=\"id,dv_sv_business_email\",\n> > > > >>                         sort=\"dv_sv_business_email asc\"),\n> > > > >>    id,\n> > > > >>    dv_sv_business_email as email)),\n> > > > >>     eq(count(email),1)),\n> > > > >> fl=\"id,dv_sv_business_email as email\",\n> > > > >> on=\"email=dv_sv_business_email\"),\n> > > > >> b=fetch(SMS,having(rollup(over=email,\n> > > > >>                  count(email),\n> > > > >>                 select(search(SMS,\n> > > > >>                         q=*:*,\n> > > > >>                         fl=\"id,dv_sv_personal_email\",\n> > > > >>                         sort=\"dv_sv_personal_email asc\"),\n> > > > >>    id,\n> > > > >>    dv_sv_personal_email as email)),\n> > > > >>     eq(count(email),1)),\n> > > > >> fl=\"id,dv_sv_personal_email as email\",\n> > > > >> on=\"email=dv_sv_personal_email\"),\n> > > > >> c=innerJoin(sort(get(a),by=\"email asc\"),sort(get(b),by=\"email\n> > > > >> asc\"),on=\"email\"),\n> > > > >> #d=select(get(c),id,email),\n> > > > >> get(a)\n> > > > >> )\n> > > > >>\n> > > > >> var a result\n> > > > >> ==\n> > > > >> {\n> > > > >>   \"result-set\": {\n> > > > >>     \"docs\": [\n> > > > >>       {\n> > > > >>         \"count(email)\": 1,\n> > > > >>         \"id\": \"1\",\n> > > > >>         \"email\": \"A\"\n> > > > >>       },\n> > > > >>       {\n> > > > >>         \"count(email)\": 1,\n> > > > >>         \"id\": \"2\",\n> > > > >>         \"email\": \"C\"\n> > > > >>       },\n> > > > >>       {\n> > > > >>         \"EOF\": true,\n> > > > >>         \"RESPONSE_TIME\": 18\n> > > > >>       }\n> > > > >>     ]\n> > > > >>   }\n> > > > >> }\n> > > > >>\n> > > > >> after uncomment var d above, even though we are displaying a,\nwe\n> get\n> > > > >> results like below. I understand that join in my test data didn't\n> > find\n> > > > any\n> > > > >> match but then it should not skew up the results of var a.  When\n> > data\n> > > > >> matches during join then its fine but otherwise I am running\ninto\n> > this\n> > > > >> issue and whole next expressions doesn't get evaluated due to\n> > this...\n> > > > >>\n> > > > >>\n> > > > >> {\n> > > > >>   \"result-set\": {\n> > > > >>     \"docs\": [\n> > > > >>       {\n> > > > >>         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > > >>         \"EOF\": true,\n> > > > >>         \"RESPONSE_TIME\": 44\n> > > > >>       }\n> > > > >>     ]\n> > > > >>   }\n> > > > >> }\n> > > > >>\n> > > > >\n> > > > >\n> > > >\n> > >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 6461,
+      "end": 6494,
+      "text": "> > > > >\n> > > > >> Hello Joel,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 6350,
+      "end": 6461,
+      "text": "> > > > > On Thu, Jun 22, 2017 at 11:51 AM, Susheel Kumar <\n> > susheel2777@gmail.com\n> > > >\n> > > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3658,
+      "end": 6350,
+      "text": "> > > >\n> > > > > Sorry for typo\n> > > > >\n> > > > > Facing a weird behavior when using hashJoin / innerJoin etc. The\n> > below\n> > > > > expression display tuples from variable a shown below\n> > > > >\n> > > > >\n> > > > > let(a=fetch(SMS,having(rollup(over=email,\n> > > > >                  count(email),\n> > > > >                 select(search(SMS,\n> > > > >                         q=*:*,\n> > > > >                         fl=\"id,dv_sv_business_email\",\n> > > > >                         sort=\"dv_sv_business_email asc\"),\n> > > > >    id,\n> > > > >    dv_sv_business_email as email)),\n> > > > >     eq(count(email),1)),\n> > > > > fl=\"id,dv_sv_business_email as email\",\n> > > > > on=\"email=dv_sv_business_email\"),\n> > > > > b=fetch(SMS,having(rollup(over=email,\n> > > > >                  count(email),\n> > > > >                 select(search(SMS,\n> > > > >                         q=*:*,\n> > > > >                         fl=\"id,dv_sv_personal_email\",\n> > > > >                         sort=\"dv_sv_personal_email asc\"),\n> > > > >    id,\n> > > > >    dv_sv_personal_email as email)),\n> > > > >     eq(count(email),1)),\n> > > > > fl=\"id,dv_sv_personal_email as email\",\n> > > > > on=\"email=dv_sv_personal_email\"),\n> > > > > c=innerJoin(sort(get(a),by=\"email asc\"),sort(get(b),by=\"email\n> > > > > asc\"),on=\"email\"),\n> > > > > #d=select(get(c),id,email),\n> > > > > get(a)\n> > > > > )\n> > > > >\n> > > > > var a result\n> > > > > ==\n> > > > > {\n> > > > >   \"result-set\": {\n> > > > >     \"docs\": [\n> > > > >       {\n> > > > >         \"count(email)\": 1,\n> > > > >         \"id\": \"1\",\n> > > > >         \"email\": \"A\"\n> > > > >       },\n> > > > >       {\n> > > > >         \"count(email)\": 1,\n> > > > >         \"id\": \"2\",\n> > > > >         \"email\": \"C\"\n> > > > >       },\n> > > > >       {\n> > > > >         \"EOF\": true,\n> > > > >         \"RESPONSE_TIME\": 18\n> > > > >       }\n> > > > >     ]\n> > > > >   }\n> > > > > }\n> > > > >\n> > > > > And after uncomment var d above, even though we are displaying a,\n> we\n> > > get\n> > > > > results shown below. I understand that join in my test data didn't\n> > find\n> > > > any\n> > > > > match but then it should not skew up the results of var a.  When\n> data\n> > > > > matches during join then its fine but otherwise I am running into\n> > this\n> > > > > issue and whole next expressions doesn't get evaluated due to\n> this...\n> > > > >\n> > > > >\n> > > > > after uncomment var d\n> > > > > ===\n> > > > > {\n> > > > >   \"result-set\": {\n> > > > >     \"docs\": [\n> > > > >       {\n> > > > >         \"EXCEPTION\": \"Index: 0, Size: 0\",\n> > > > >         \"EOF\": true,\n> > > > >         \"RESPONSE_TIME\": 44\n> > > > >       }\n> > > > >     ]\n> > > > >   }\n> > > > > }\n> > > > >\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4286"
+}

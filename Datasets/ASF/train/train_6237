@@ -1,0 +1,157 @@
+That's what I ended up doing too, for my MariaDB (MySQL derivative) DB:
+
+CONVERT_TZ('${dataimporter.last_index_time}','${user.timezone}','${
+custom.dataimporter.datasource.tz}')
+
+user.timezone is Solr's time zone and custom.dataimporter.datasource.tz is
+a property I set on startup.
+
+The other option was to change Solr's timezone to match the DB, but I
+thought that was even more of a hack.
+
+On Thu, Sep 21, 2017 at 7:08 AM, Mannott, Birgit <B.Mannott@klopotek.de>
+wrote:
+
+> As far as I understood, you can use the locale so that DIH saves the last
+> index time for  the given time zone and not for UTC. So if you set the
+> locale according to the timezone of your DB you don't need to convert dates
+> for comparison.
+>
+> But for me it's not working because every time I include settings for the
+> propertyWriter (concrete data doesn't matter - I tried a lot),  the null
+> pointer exception appears. So I had to find a workaround and convert now
+> the time saved by the DIH from UTC to the timezone of my DB when comparing
+> for delta imports. But it's an ugly workaround I don't like.
+>
+> So, if anyone has an idea why this NPE occurs it would be great. Do I
+> perhaps have to add something to solrconfig.xml?
+>
+> Thanks,
+> Birgit
+>
+>
+>
+> -----Original Message-----
+> From: Jamie Jackson [mailto:jamiejaxon@gmail.com]
+> Sent: Tuesday, September 19, 2017 6:54 PM
+> To: solr-user@lucene.apache.org
+> Subject: [bulk]: Re: [bulk]: Dates and DataImportHandler
+>
+> FWIW, I know mine worked, so maybe try:
+>
+> <propertyWriter dateFormat="yyyy-MM-dd HH:mm:ss"
+> type="SimplePropertiesWriter" />
+>
+> I can't conceive of what the locale would possibly do when a dateFormat is
+> specified, so I omitted the attribute. (Maybe one can specify dateFormat
+> *or *locale--it seems like specifying both would cause a clash.) For what
+> it's worth, the format you're trying to write seems identical to the
+> default*, so I'm not sure what benefit you're getting by using that
+> propertyWriter.
+>
+> *It's identical to *my* default, anyway. Maybe the default changes based
+> on one's system configuration, I don't know. This stuff isn't very well
+> documented.
+>
+> On Tue, Sep 19, 2017 at 7:22 AM, Mannott, Birgit <B.Mannott@klopotek.de>
+> wrote:
+>
+> > Hi,
+> >
+> > I have a similar problem. I try to change the timezone for the
+> > last_index_time by setting
+> >
+> >         <propertyWriter dateFormat="yyyy-MM-dd HH:mm:ss"
+> > type="SimplePropertiesWriter" locale="en_US" />
+> >
+> > in the <dataConfig> section of my data-config.xml file.
+> >
+> > But when doing this I always get a NullPointerException on Delta Import:
+> >
+> > 2017-09-15 14:04:00.825 INFO  (Thread-2938) [   x:mex_prd_dev1100-ap]
+> > o.a.s.h.d.DataImporter Starting Delta Import
+> > 2017-09-15 14:04:00.827 ERROR (Thread-2938) [   x:mex_prd_dev1100-ap]
+> > o.a.s.h.d.DataImporter Delta Import Failed
+> > org.apache.solr.handler.dataimport.DataImportHandlerException: Unable
+> > to PropertyWriter implementation:SimplePropertiesWriter
+> >             at org.apache.solr.handler.dataimport.DataImporter.
+> > createPropertyWriter(DataImporter.java:330)
+> >             at org.apache.solr.handler.dataimport.DataImporter.
+> > doDeltaImport(DataImporter.java:439)
+> >             at org.apache.solr.handler.dataimport.DataImporter.
+> > runCmd(DataImporter.java:476)
+> >             at org.apache.solr.handler.dataimport.DataImporter.
+> > lambda$runAsync$0(DataImporter.java:457)
+> >             at java.lang.Thread.run(Thread.java:745)
+> > Caused by: java.lang.NullPointerException
+> >             at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:
+> > 598)
+> >             at org.apache.solr.handler.dataimport.
+> > SimplePropertiesWriter.init(SimplePropertiesWriter.java:100)
+> >             at org.apache.solr.handler.dataimport.DataImporter.
+> > createPropertyWriter(DataImporter.java:328)
+> >             ... 4 more
+> >
+> > Has anyone an idea what is wrong or missing?
+> >
+> > Thanks,
+> > Birgit
+> >
+> >
+> >
+> > -----Original Message-----
+> > From: Jamie Jackson [mailto:jamiejaxon@gmail.com]
+> > Sent: Tuesday, September 19, 2017 3:42 AM
+> > To: solr-user@lucene.apache.org
+> > Subject: [bulk]: Dates and DataImportHandler
+> >
+> > Hi folks,
+> >
+> > My DB server is on America/Chicago time. Solr (on Docker) is running
+> > on UTC. Dates coming from my (MariaDB) data source seem to get
+> > translated properly into the Solr index without me doing anything
+> special.
+> >
+> > However when doing delta imports using last_index_time (
+> > http://wiki.apache.org/solr/DataImportHandlerDeltaQueryViaFullImport
+> > ), I can't seem to get the date, which Solr provides, to be understood
+> > by the DB as being UTC (and translated back, accordingly). In other
+> > words, the DB thinks the Solr UTC date is local, so it thinks the date
+> > is ahead by six hours.
+> >
+> > '${dataimporter.request.clean}' != 'false'
+> >
+> > or dt > '${dataimporter.last_index_time}'
+> >
+> > I came up with this workaround, which seems to work:
+> >
+> > '${dataimporter.request.clean}' != 'false'
+> >
+> > /* ${user.timezone} is UTC, and the
+> > ${custom.dataimporter.datasource.tz}
+> > property is set to America/Chicago */
+> >
+> > or dt > CONVERT_TZ('${dataimporter.last_index_time}','${user.
+> > timezone}','${
+> > custom.dataimporter.datasource.tz}')
+> >
+> > However, isn't there a way for this translation to happen more naturally?
+> >
+> > I thought maybe I could do something like this:
+> >
+> > <propertyWriter
+> >
+> > dateFormat="yyyy-MM-dd HH:mm:ssZ"
+> >
+> > type="SimplePropertiesWriter"
+> >
+> > />
+> >
+> > The above did set the property as expected (with a trailiing `+0000`),
+> > but that didn't seem to help the DB understand/translate the date.
+> >
+> > Thanks,
+> > Jamie
+> >
+>
+

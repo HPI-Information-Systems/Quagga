@@ -1,0 +1,10 @@
+Hi,
+
+Is there any good example for custom metrics reporting in Flink? I tried to
+follow the documentation but failed to achieve the result. Basically my
+task is to identify the corrupt records based on a missing field and report
+the same via statsd reporter.
+
+
+Rahul Raj
+

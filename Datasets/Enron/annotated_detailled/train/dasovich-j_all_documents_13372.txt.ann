@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "Everyone,\n\nA few months ago Enron was contacted by the firm Barnes Mosher Whitehurst \nLauter & Partners.  Enron was asked to join a new coalition called the \nCalifornia Energy Alliance.  The purpose of CEA is to identify opinion \nleaders, union members and registered voters who can be mobilized in support \nof streamlining California's process for building power plants.  \n\nBoth Paul and I have had conversations with the partners at BMWL.  Today, I \nleft a message for one of the partners that Enron will not be participating \nin the coalition and wished them well in their efforts.  I wanted you all to \nbe aware of the telephone call and understand that Enron would not be \ninvolved in the coalition's efforts. ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Everyone,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 715,
+      "text": "Everyone,\n\nA few months ago Enron was contacted by the firm Barnes Mosher Whitehurst \nLauter & Partners.  Enron was asked to join a new coalition called the \nCalifornia Energy Alliance.  The purpose of CEA is to identify opinion \nleaders, union members and registered voters who can be mobilized in support \nof streamlining California's process for building power plants.  \n\nBoth Paul and I have had conversations with the partners at BMWL.  Today, I \nleft a message for one of the partners that Enron will not be participating \nin the coalition and wished them well in their efforts.  I wanted you all to \nbe aware of the telephone call and understand that Enron would not be \ninvolved in the coalition's efforts. ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20775258.1075843554535.JavaMail.evans@thyme>",
+      "Date": "Tue, 5 Jun 2001 02:20:00 -0700 (PDT)",
+      "From": "janel.guerrero@enron.com",
+      "To": "paul.kaufman@enron.com, susan.mara@enron.com, jeff.dasovich@enron.com, \n\tdavid.parquet@enron.com, mary.schoen@enron.com, bhansen@lhom.com, \n\tsgovenar@govadv.com, hgovenar@govadv.com",
+      "Subject": "California Enery Alliance",
+      "Cc": "richard.shapiro@enron.com, james.steffes@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "richard.shapiro@enron.com, james.steffes@enron.com",
+      "X-From": "Janel Guerrero",
+      "X-To": "Paul Kaufman, Susan J Mara, Jeff Dasovich, David Parquet, Mary Schoen, bhansen@lhom.com, sgovenar@govadv.com, hgovenar@govadv.com",
+      "X-cc": "Richard Shapiro, James D Steffes",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_13372.txt"
+}

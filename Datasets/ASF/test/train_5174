@@ -1,0 +1,19 @@
+Hello,
+
+you might get the information you are looking for from this hidden API:
+
+http://<master_ip>:8888/json/
+
+Hope it helps,
+Davide
+
+
+
+
+--
+Sent from: http://apache-spark-user-list.1001560.n3.nabble.com/
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

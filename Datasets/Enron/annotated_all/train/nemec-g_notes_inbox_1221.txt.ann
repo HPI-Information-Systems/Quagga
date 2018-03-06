@@ -1,0 +1,295 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please see attached a credit worksheet as requested.\n\nThanks\nRussell\n\n\n\n -----Original Message-----\nFrom:  Tycholiz, Barry  \nSent: Wednesday, May 30, 2001 9:13 AM\nTo: Diamond, Russell\nCc: Nemec, Gerald\nSubject: RE: Mexican de Cobre -Deemed ISDA Credit Worksheet\n\nRussell, pls set up credit terms for customer for transactions under the \nphysical, which may include pricing amemdments. i.e. the MTM risk may sit \nunder the physical agreement.  \n\nAt this time, we are not going to pursue the execution of a deemed ISDA and \nany price amendments will be handled physicaly. \n\nCall if there are any questions. \n\nBT \n\n -----Original Message-----\nFrom:  Diamond, Russell  \nSent: Tuesday, May 29, 2001 1:07 PM\nTo: Leite, Francisco Pinto\nCc: Tycholiz, Barry; Nemec, Gerald\nSubject: Mexican de Cobre -Deemed ISDA Credit Worksheet\n\nFrancisco,\n\nAttached is a credit worksheet for a draft deemed ISDA.\n\nThanks\nRussell\n\n << File: Mexicana de Cobre_ENA.xls >> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 167,
+      "end": 183,
+      "text": "Diamond, Russell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 61,
+      "end": 68,
+      "text": "Russell",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 54,
+      "end": 68,
+      "text": "Thanks\nRussell",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 72,
+      "text": "Please see attached a credit worksheet as requested.\n\nThanks\nRussell\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 107,
+      "end": 122,
+      "text": "Tycholiz, Barry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 142,
+      "end": 154,
+      "text": "May 30, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 155,
+      "end": 162,
+      "text": "9:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 188,
+      "end": 201,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 210,
+      "end": 261,
+      "text": " RE: Mexican de Cobre -Deemed ISDA Credit Worksheet",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 72,
+      "end": 262,
+      "text": " -----Original Message-----\nFrom:  Tycholiz, Barry  \nSent: Wednesday, May 30, 2001 9:13 AM\nTo: Diamond, Russell\nCc: Nemec, Gerald\nSubject: RE: Mexican de Cobre -Deemed ISDA Credit Worksheet\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 607,
+      "end": 609,
+      "text": "BT",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 263,
+      "end": 270,
+      "text": "Russell",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 262,
+      "end": 612,
+      "text": "\nRussell, pls set up credit terms for customer for transactions under the \nphysical, which may include pricing amemdments. i.e. the MTM risk may sit \nunder the physical agreement.  \n\nAt this time, we are not going to pursue the execution of a deemed ISDA and \nany price amendments will be handled physicaly. \n\nCall if there are any questions. \n\nBT \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 647,
+      "end": 663,
+      "text": "Diamond, Russell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 681,
+      "end": 693,
+      "text": "May 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 694,
+      "end": 701,
+      "text": "1:07 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 706,
+      "end": 728,
+      "text": "Leite, Francisco Pinto",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 733,
+      "end": 748,
+      "text": "Tycholiz, Barry",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 750,
+      "end": 763,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 773,
+      "end": 819,
+      "text": "Mexican de Cobre -Deemed ISDA Credit Worksheet",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 612,
+      "end": 820,
+      "text": " -----Original Message-----\nFrom:  Diamond, Russell  \nSent: Tuesday, May 29, 2001 1:07 PM\nTo: Leite, Francisco Pinto\nCc: Tycholiz, Barry; Nemec, Gerald\nSubject: Mexican de Cobre -Deemed ISDA Credit Worksheet\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 821,
+      "end": 830,
+      "text": "Francisco",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 897,
+      "end": 904,
+      "text": "Russell",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 890,
+      "end": 904,
+      "text": "Thanks\nRussell",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 910,
+      "end": 941,
+      "text": "File: Mexicana de Cobre_ENA.xls",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 906,
+      "end": 945,
+      "text": " << File: Mexicana de Cobre_ENA.xls >> ",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 820,
+      "end": 945,
+      "text": "\nFrancisco,\n\nAttached is a credit worksheet for a draft deemed ISDA.\n\nThanks\nRussell\n\n << File: Mexicana de Cobre_ENA.xls >> ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 22,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 23,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22955960.1075842805313.JavaMail.evans@thyme>",
+      "Date": "Wed, 30 May 2001 03:13:00 -0700 (PDT)",
+      "From": "russell.diamond@enron.com",
+      "To": "barry.tycholiz@enron.com",
+      "Subject": "Mexicana de Cobre- Physical Credit W/S",
+      "Cc": "gerald.nemec@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "gerald.nemec@enron.com",
+      "X-From": "Russell Diamond",
+      "X-To": "Barry Tycholiz",
+      "X-cc": "Gerald Nemec",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_1221.txt"
+}

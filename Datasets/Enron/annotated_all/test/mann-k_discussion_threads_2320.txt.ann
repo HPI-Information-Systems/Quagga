@@ -1,0 +1,515 @@
+{
+  "wrapper": "plaintext",
+  "text": "Kay--As you requested, I am sending you the final version of the FVP EPC \ncontract and exhibits.\n---------------------- Forwarded by Alan Larsen/PDX/ECT on 01/23/2001 09:24 \nAM ---------------------------\n\n\n\"SANDY COFER\" <SCOFER@LLGM.COM> on 01/23/2001 12:24:26 PM\nTo: <Sheila.Tweed@enron.com>, <SUZANNE.adams@enron.com>\ncc: <Alan.Larsen@enron.com>, <david.marshall@enron.com>, \n<ed.dannhaus@enron.com>, <ehearn@enron.com>, <Jake.Thomas@enron.com>, \n<Jeff.G.Slaughter@enron.com>, <JOHN.g.rigby@enron.com>, \n<JOHN.normand@enron.com>, <John.Schwartzenburg@enron.com>, \n<JUDE.rolfes@enron.com>, <larry.leib@enron.com>, <mgocker@enron.com>, \n<SHIRLEY.oliver@enron.com>, \"JOHN G KLAUBERG\" <JKLAUBER@LLGM.COM>, \"JOHN \nMAAS\" <JMAAS@LLGM.COM>, \"THOMAS CONSTANTINE\" <TCONSTAN@LLGM.COM>, \"THOMAS J. \nMOORE\" <TMOORE@LLGM.COM>, <DAVIDlu@nepco.com>, <GENEl@nepco.com>, \n<kenr@nepco.com> \n\nSubject: FVP / EPC and exhibits (execution versions)\n\n\nSheila --\n\nAs requested, attached are execution versions of the EPC contract and exhibit \nfile.  I am sending the execution version of the Scope of Work under separate \nemail due to the size of the file.\n\nSandy Cofer\nLeBoeuf, Lamb, Greene & MacRae\n633 17th St., Suite 2000\nDenver, CO 80202\n303-291-2717\nscofer@llgm.com\n\nThis e-mail, including attachments, contains information that\nis confidential and it may be protected by the attorney/client\nor other privileges.  This e-mail, including attachments, constitutes\nnon-public information intended to be conveyed only to the\ndesignated recipient(s).  If you are not an intended recipient,\nplease delete this e-mail, including attachments, and notify me\nby return mail, e-mail or at 303-291-2717.  The unauthorized use,\ndissemination, distribution or reproduction of this e-mail, including\nattachments, is prohibited and may be unlawful.\n\n - FVP EPC EXHIBITS execution version.doc\n - FVP EPC execution version.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 97,
+      "text": "Kay--As you requested, I am sending you the final version of the FVP EPC \ncontract and exhibits.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 133,
+      "end": 144,
+      "text": "Alan Larsen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 156,
+      "end": 166,
+      "text": "01/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 167,
+      "end": 176,
+      "text": "09:24 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 97,
+      "end": 205,
+      "text": "---------------------- Forwarded by Alan Larsen/PDX/ECT on 01/23/2001 09:24 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 208,
+      "end": 219,
+      "text": "SANDY COFER",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 222,
+      "end": 237,
+      "text": "SCOFER@LLGM.COM",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 242,
+      "end": 252,
+      "text": "01/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 253,
+      "end": 264,
+      "text": "12:24:26 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 270,
+      "end": 292,
+      "text": "Sheila.Tweed@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 296,
+      "end": 319,
+      "text": "SUZANNE.adams@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 326,
+      "end": 347,
+      "text": "Alan.Larsen@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 351,
+      "end": 375,
+      "text": "david.marshall@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 380,
+      "end": 401,
+      "text": "ed.dannhaus@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 405,
+      "end": 421,
+      "text": "ehearn@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 425,
+      "end": 446,
+      "text": "Jake.Thomas@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 481,
+      "end": 503,
+      "text": "JOHN.g.rigby@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 451,
+      "end": 477,
+      "text": "Jeff.G.Slaughter@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 508,
+      "end": 530,
+      "text": "JOHN.normand@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 534,
+      "end": 563,
+      "text": "John.Schwartzenburg@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 617,
+      "end": 634,
+      "text": "mgocker@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 593,
+      "end": 613,
+      "text": "larry.leib@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 568,
+      "end": 589,
+      "text": "JUDE.rolfes@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 639,
+      "end": 663,
+      "text": "SHIRLEY.oliver@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 667,
+      "end": 682,
+      "text": "JOHN G KLAUBERG",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 685,
+      "end": 702,
+      "text": "JKLAUBER@LLGM.COM",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 706,
+      "end": 716,
+      "text": "JOHN \nMAAS",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 719,
+      "end": 733,
+      "text": "JMAAS@LLGM.COM",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 737,
+      "end": 755,
+      "text": "THOMAS CONSTANTINE",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 758,
+      "end": 775,
+      "text": "TCONSTAN@LLGM.COM",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 779,
+      "end": 795,
+      "text": "THOMAS J. \nMOORE",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 798,
+      "end": 813,
+      "text": "TMOORE@LLGM.COM",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 817,
+      "end": 834,
+      "text": "DAVIDlu@nepco.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 838,
+      "end": 853,
+      "text": "GENEl@nepco.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 858,
+      "end": 872,
+      "text": "kenr@nepco.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 885,
+      "end": 928,
+      "text": "FVP / EPC and exhibits (execution versions)",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 205,
+      "end": 929,
+      "text": "\n\n\"SANDY COFER\" <SCOFER@LLGM.COM> on 01/23/2001 12:24:26 PM\nTo: <Sheila.Tweed@enron.com>, <SUZANNE.adams@enron.com>\ncc: <Alan.Larsen@enron.com>, <david.marshall@enron.com>, \n<ed.dannhaus@enron.com>, <ehearn@enron.com>, <Jake.Thomas@enron.com>, \n<Jeff.G.Slaughter@enron.com>, <JOHN.g.rigby@enron.com>, \n<JOHN.normand@enron.com>, <John.Schwartzenburg@enron.com>, \n<JUDE.rolfes@enron.com>, <larry.leib@enron.com>, <mgocker@enron.com>, \n<SHIRLEY.oliver@enron.com>, \"JOHN G KLAUBERG\" <JKLAUBER@LLGM.COM>, \"JOHN \nMAAS\" <JMAAS@LLGM.COM>, \"THOMAS CONSTANTINE\" <TCONSTAN@LLGM.COM>, \"THOMAS J. \nMOORE\" <TMOORE@LLGM.COM>, <DAVIDlu@nepco.com>, <GENEl@nepco.com>, \n<kenr@nepco.com> \n\nSubject: FVP / EPC and exhibits (execution versions)\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 931,
+      "end": 937,
+      "text": "Sheila",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 931,
+      "end": 941,
+      "text": "Sheila --\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1136,
+      "end": 1147,
+      "text": "Sandy Cofer",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1251,
+      "end": 1817,
+      "text": "This e-mail, including attachments, contains information that\nis confidential and it may be protected by the attorney/client\nor other privileges.  This e-mail, including attachments, constitutes\nnon-public information intended to be conveyed only to the\ndesignated recipient(s).  If you are not an intended recipient,\nplease delete this e-mail, including attachments, and notify me\nby return mail, e-mail or at 303-291-2717.  The unauthorized use,\ndissemination, distribution or reproduction of this e-mail, including\nattachments, is prohibited and may be unlawful.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1821,
+      "end": 1859,
+      "text": "FVP EPC EXHIBITS execution version.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1863,
+      "end": 1892,
+      "text": "FVP EPC execution version.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1818,
+      "end": 1893,
+      "text": " - FVP EPC EXHIBITS execution version.doc\n - FVP EPC execution version.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1148,
+      "end": 1178,
+      "text": "LeBoeuf, Lamb, Greene & MacRae",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1179,
+      "end": 1220,
+      "text": "633 17th St., Suite 2000\nDenver, CO 80202",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1221,
+      "end": 1233,
+      "text": "303-291-2717",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1234,
+      "end": 1249,
+      "text": "scofer@llgm.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1136,
+      "end": 1250,
+      "text": "Sandy Cofer\nLeBoeuf, Lamb, Greene & MacRae\n633 17th St., Suite 2000\nDenver, CO 80202\n303-291-2717\nscofer@llgm.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 929,
+      "end": 1893,
+      "text": "\n\nSheila --\n\nAs requested, attached are execution versions of the EPC contract and exhibit \nfile.  I am sending the execution version of the Scope of Work under separate \nemail due to the size of the file.\n\nSandy Cofer\nLeBoeuf, Lamb, Greene & MacRae\n633 17th St., Suite 2000\nDenver, CO 80202\n303-291-2717\nscofer@llgm.com\n\nThis e-mail, including attachments, contains information that\nis confidential and it may be protected by the attorney/client\nor other privileges.  This e-mail, including attachments, constitutes\nnon-public information intended to be conveyed only to the\ndesignated recipient(s).  If you are not an intended recipient,\nplease delete this e-mail, including attachments, and notify me\nby return mail, e-mail or at 303-291-2717.  The unauthorized use,\ndissemination, distribution or reproduction of this e-mail, including\nattachments, is prohibited and may be unlawful.\n\n - FVP EPC EXHIBITS execution version.doc\n - FVP EPC execution version.doc\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 26,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 28,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 30,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 32,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 41,
+      "target": 46,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 47,
+      "target": 46,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 48,
+      "target": 41,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 49,
+      "target": 41,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 41,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 39,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6719183.1075845809366.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 Jan 2001 01:38:00 -0800 (PST)",
+      "From": "alan.larsen@enron.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "FVP / EPC and exhibits (execution versions)",
+      "Cc": "sheila.tweed@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "sheila.tweed@enron.com",
+      "X-From": "Alan Larsen",
+      "X-To": "Kay Mann",
+      "X-cc": "Sheila Tweed",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_2320.txt"
+}

@@ -1,0 +1,35 @@
+
+Hi all,
+
+I was submitting the play application to spark 2.1 standalone cluster . In
+play application postgres dependency is also added and application works on
+local spark libraries. But at run time on standalone cluster it gives me
+error : 
+
+o.a.s.s.TaskSetManager - Lost task 0.0 in stage 0.0 (TID 1, 172.31.21.3,
+executor 1): java.lang.ClassNotFoundException: org.postgresql
+.Driver
+
+I have placed following in spark-defaults.conf directory
+
+spark.executor.extraClassPath  
+/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar
+spark.driver.extraClassPath    
+/home/ubuntu/downloads/postgres/postgresql-9.4-1200-jdbc41.jar
+
+Still executors unable to pick the driver. 
+Am i missing something? Need help . 
+Thanks.
+
+
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Executor-unable-to-pick-postgres-driver-in-Spark-standalone-cluster-tp28563.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

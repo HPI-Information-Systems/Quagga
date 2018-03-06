@@ -1,0 +1,98 @@
+Hello,
+
+
+Background:
+
+
+We have been successfully using Solr for over 5 years and we recently made the decision to
+move into SolrCloud. For the most part that has been easy but we have repeated problems with
+our rolling restart were server remain functional but stay in Recovery until they stop trying.
+We restarted because we increased the memory from 12GB to 16GB on the JVM.
+
+
+Does anyone have any insight as to what is going on here?
+
+Is there a special procedure I should use for starting a stopping host?
+
+Is it ok to do a rolling restart on all the nodes in s shard?
+
+
+Any insight would be appreciated.
+
+
+Configuration:
+
+
+We have a group of servers with multiple collections. Each collection consist of one shard
+and multiple replicates. We are running the latest stable version of SolrClound 6.6 on Ubuntu
+LTS and Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 1.8.0_66 25.66-b17
+
+
+(collection)              (shard)          (replicates)
+
+journals_stage   ->  shard1  ->  solr-220 (leader) , solr-223, solr-221, solr-222 (replicates)
+
+
+Problem:
+
+
+Restarting the system puts the replicates in a recovery state they never exit from. They eventually
+give up after 500 tries.  If I go to the individual replicates and execute a query the data
+is still available.
+
+
+Using tcpdump I find the replicates sending this request to the leader (the leader appears
+to be active).
+
+
+The exchange goes  like this - :
+
+
+solr-220 is the leader.
+
+Solr-221 to Solr-220
+
+
+10:18:42.426823 IP solr-221:54341 > solr-220:8983:
+
+
+POST /solr/journals_stage_shard1_replica1/update HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Solr[org.apache.solr<http://org.apache.solr/>.client.solrj.impl<http://client.solrj.impl/>.HttpSolrClient]
+1.0
+Content-Length: 108
+Host: solr-220:8983
+Connection: Keep-Alive
+
+
+commit_end_point=true&openSearcher=false&commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2
+
+
+Solr-220 back to Solr-221
+
+
+IP solr-220:8983 > solr-221:54341: Flags [P.], seq 1:5152, ack 385, win 235, options [nop,nop,
+TS val 858155553 ecr 858107069], length 5151
+..HTTP/1.1 500 Server Error
+Content-Type: application/octet-stream
+Content-Length: 5060
+
+
+.responseHeader..&statusT..%QTimeC.%error..#msg?.For input string: "1578578283947098112".%trace?.&java.lang.NumberFormatException:
+For
+input string: "1578578283947098112"
+        at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+        at java.lang.Integer.parseInt(Integer.java:583)
+        at java.lang.Integer.parseInt(Integer.java:615)
+        at org.apache.lucene.queries.function.docvalues.IntDocValues.getRangeScorer(IntDocValues.java:89)
+        at org.apache.solr<http://org.apache.solr/>.search.function.ValueSourceRangeFilter$1.iterator(ValueSourceRangeFilter.java:83)
+        at org.apache.solr<http://org.apache.solr/>.search.SolrConstantScoreQuery$ConstantWeight.scorer(SolrConstantScoreQuery.java:100)
+        at org.apache.lucene.search.Weight.scorerSupplier(Weight.java:126)
+        at org.apache.lucene.search.BooleanWeight.scorerSupplier(BooleanWeight.java:400)
+        at org.apache.lucene.search.BooleanWeight.scorer(BooleanWeight.java:381)
+        at org.apache.solr<http://org.apache.solr/>.update.DeleteByQueryWrapper$1.scorer(DeleteByQueryWrapper.java:90)
+        at org.apache.lucene.index.BufferedUpdatesStream.applyQueryDeletes(BufferedUpdatesStream.java:709)
+
+        at org.apache.lucene.index.BufferedUpdatesStream.applyDeletesAndUpdates(BufferedUpdatesStream.java:267)
+
+

@@ -1,0 +1,145 @@
+{
+  "wrapper": "plaintext",
+  "text": "Nathan,  Can you describe where Encore compression is located? \n\n -----Original Message-----\nFrom: \tCreech, Nathan  \nSent:\tWednesday, August 01, 2001 10:02 AM\nTo:\tNemec, Gerald\nSubject:\tCA for Encore\n\nGerald,\n\nHere is the information that you requested.\n\nCounter party:  \n\nEncore Acquisition Partners\n\nAddress:  \n\n777 Main St., Ste. 1400\nFort Worth, TX 76102\n\nScope:  \n\nThe scope of this project is to analyze, develop and propose a compression services package that will optimally manage Encore's current and future horsepower requirements.  In order to do this we will need to explain our financial structures and gain access to information pertaining to their compression facilities and existing power agreements. \n\nEmail me with the completed CA so that I can forward it on to the client.\n\nThanks\n\nNathan B. Creech",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Nathan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 65,
+      "text": "Nathan,  Can you describe where Encore compression is located? \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 100,
+      "end": 114,
+      "text": "Creech, Nathan",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 134,
+      "end": 149,
+      "text": "August 01, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 150,
+      "end": 158,
+      "text": "10:02 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 163,
+      "end": 176,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 186,
+      "end": 199,
+      "text": "CA for Encore",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 65,
+      "end": 200,
+      "text": " -----Original Message-----\nFrom: \tCreech, Nathan  \nSent:\tWednesday, August 01, 2001 10:02 AM\nTo:\tNemec, Gerald\nSubject:\tCA for Encore\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 201,
+      "end": 207,
+      "text": "Gerald",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 802,
+      "end": 818,
+      "text": "Nathan B. Creech",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 794,
+      "end": 818,
+      "text": "Thanks\n\nNathan B. Creech",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 200,
+      "end": 818,
+      "text": "\nGerald,\n\nHere is the information that you requested.\n\nCounter party:  \n\nEncore Acquisition Partners\n\nAddress:  \n\n777 Main St., Ste. 1400\nFort Worth, TX 76102\n\nScope:  \n\nThe scope of this project is to analyze, develop and propose a compression services package that will optimally manage Encore's current and future horsepower requirements.  In order to do this we will need to explain our financial structures and gain access to information pertaining to their compression facilities and existing power agreements. \n\nEmail me with the completed CA so that I can forward it on to the client.\n\nThanks\n\nNathan B. Creech",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30433455.1075858556780.JavaMail.evans@thyme>",
+      "Date": "Wed, 1 Aug 2001 15:11:10 -0700 (PDT)",
+      "From": "gerald.nemec@enron.com",
+      "To": "nathan.creech@enron.com",
+      "Subject": "RE: CA for Encore",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-To": "Creech, Nathan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ncreech>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Nemec, Gerald (Non-Privileged)\\Nemec, Gerald\\Sent Items",
+      "X-Origin": "Nemec-G",
+      "X-FileName": "Nemec, Gerald (Non-Privileged).pst"
+    }
+  },
+  "id": "train/nemec-g_sent_items_479.txt"
+}

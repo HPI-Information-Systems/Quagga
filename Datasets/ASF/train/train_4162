@@ -1,0 +1,37 @@
+Here is the image:
+
+https://www.dropbox.com/s/hd97j4d3h3q0oyh/solr%20nodes.png?dl=0
+
+There is a node on 002: 15101 port missing from the cloud.
+
+On Fri, Jun 16, 2017 at 7:46 PM Erick Erickson <erickerickson@gmail.com>
+wrote:
+
+> Images don't come through the mailer, they're stripped. You'll have to put
+> it somewhere else and provide a link.
+>
+> Best,
+> Erick
+>
+>
+> On Fri, Jun 16, 2017 at 3:29 PM, Satya Marivada <satya.chaitanya@gmail.com
+> >
+> wrote:
+>
+> > Hi,
+> >
+> > I am running solr-6.3.0. There are4 nodes, when I start solr, only 3
+> nodes
+> > are joining the cloud, the fourth one is coming up separately and not
+> > joining the other 3 nodes.
+> > Please see below in the picture on admin screen how fourth node is not
+> > joining. Any suggestions.
+> >
+> > Thanks,
+> > satya
+> >
+> >
+> > [image: image.png]
+> >
+>
+

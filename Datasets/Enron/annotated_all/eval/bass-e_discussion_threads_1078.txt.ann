@@ -1,0 +1,130 @@
+{
+  "wrapper": "plaintext",
+  "text": "Holy cow!  Looks like we'll be playing a lot of board games in the condo.\nLU-M\n----- Original Message -----\nFrom: <Eric.Bass@enron.com>\nTo: <shusser@enron.com>; <dfranklin@hanovermeasurement.com>;\n<Jason.Bass2@COMPAQ.com>; <daphneco64@bigplanet.com>;\n<lwbthemarine@bigplanet.com>\nSent: Monday, December 04, 2000 11:13 AM\nSubject: The coldest weather . . .\n\n\n> . . . in the US in the last five years and we will be in the mountains to\n> enjoy it.  Should be fun!!!   :-)\n>\n>\n>\n> http://www.weather.com/weather/cities/us_co_telluride.html\n>",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 74,
+      "end": 78,
+      "text": "LU-M",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 356,
+      "end": 538,
+      "text": "\n\n> . . . in the US in the last five years and we will be in the mountains to\n> enjoy it.  Should be fun!!!   :-)\n>\n>\n>\n> http://www.weather.com/weather/cities/us_co_telluride.html\n>",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 79,
+      "text": "Holy cow!  Looks like we'll be playing a lot of board games in the condo.\nLU-M\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 115,
+      "end": 134,
+      "text": "Eric.Bass@enron.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 141,
+      "end": 158,
+      "text": "shusser@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 162,
+      "end": 194,
+      "text": "dfranklin@hanovermeasurement.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 224,
+      "end": 248,
+      "text": "daphneco64@bigplanet.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 198,
+      "end": 220,
+      "text": "Jason.Bass2@COMPAQ.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 252,
+      "end": 278,
+      "text": "lwbthemarine@bigplanet.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 294,
+      "end": 311,
+      "text": "December 04, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 312,
+      "end": 320,
+      "text": "11:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 330,
+      "end": 355,
+      "text": "The coldest weather . . .",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 79,
+      "end": 356,
+      "text": "----- Original Message -----\nFrom: <Eric.Bass@enron.com>\nTo: <shusser@enron.com>; <dfranklin@hanovermeasurement.com>;\n<Jason.Bass2@COMPAQ.com>; <daphneco64@bigplanet.com>;\n<lwbthemarine@bigplanet.com>\nSent: Monday, December 04, 2000 11:13 AM\nSubject: The coldest weather . . .\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13290838.1075854652893.JavaMail.evans@thyme>",
+      "Date": "Mon, 4 Dec 2000 03:35:00 -0800 (PST)",
+      "From": "daphneco64@bigplanet.com",
+      "To": "eric.bass@enron.com",
+      "Subject": "Re: The coldest weather . . .",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"K. Bass\" <daphneco64@bigplanet.com>",
+      "X-To": "Eric.Bass@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Eric_Bass_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Bass-E",
+      "X-FileName": "ebass.nsf"
+    }
+  },
+  "id": "eval/bass-e_discussion_threads_1078.txt"
+}

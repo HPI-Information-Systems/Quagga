@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Juan Hernandez/Corp/Enron on 07/29/2000 \n11:52 AM ---------------------------\n\n\nChristina Sanchez\n07/27/2000 09:23 AM\nTo: Juan Hernandez/Corp/Enron@ENRON\ncc:  \n\nSubject: Promotion\n\nCheck this out...\n---------------------- Forwarded by Christina Sanchez/Corp/Enron on \n07/27/2000 09:23 AM ---------------------------\n\n\nPhil Villagomez@EES\n07/27/2000 09:19 AM\nTo: Christina Sanchez/Corp/Enron@ENRON\ncc:  \n\nSubject: Promotion\n\n\n\n\nAnd to think we knew him when he was a worker bee !\n\nPhil \n\n\n\"Please join me in congratulating Robert Bailey on his promotion to the \nposition of Director, Bill Payment Services.  Robert joined EES in May, 2000 \nand has been actively working to help direct and improve our bill payment \nservice area.  Congratulations Robert.\"\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 114,
+      "text": "---------------------- Forwarded by Juan Hernandez/Corp/Enron on 07/29/2000 \n11:52 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 114,
+      "end": 216,
+      "text": "\n\nChristina Sanchez\n07/27/2000 09:23 AM\nTo: Juan Hernandez/Corp/Enron@ENRON\ncc:  \n\nSubject: Promotion\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 216,
+      "end": 235,
+      "text": "\nCheck this out...\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 235,
+      "end": 352,
+      "text": "---------------------- Forwarded by Christina Sanchez/Corp/Enron on \n07/27/2000 09:23 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 352,
+      "end": 459,
+      "text": "\n\nPhil Villagomez@EES\n07/27/2000 09:19 AM\nTo: Christina Sanchez/Corp/Enron@ENRON\ncc:  \n\nSubject: Promotion\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 459,
+      "end": 796,
+      "text": "\n\n\n\nAnd to think we knew him when he was a worker bee !\n\nPhil \n\n\n\"Please join me in congratulating Robert Bailey on his promotion to the \nposition of Director, Bill Payment Services.  Robert joined EES in May, 2000 \nand has been actively working to help direct and improve our bill payment \nservice area.  Congratulations Robert.\"\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 515,
+      "end": 522,
+      "text": "\nPhil \n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7354668.1075855584323.JavaMail.evans@thyme>",
+      "Date": "Sat, 29 Jul 2000 05:00:00 -0700 (PDT)",
+      "From": "juan.hernandez@enron.com",
+      "To": "chris.lenartowicz@enron.com",
+      "Subject": "Promotion",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Juan Hernandez",
+      "X-To": "Chris Lenartowicz",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Juan_Hernandez_Jun2001\\Notes Folders\\Sent",
+      "X-Origin": "Hernandez-J",
+      "X-FileName": "jhernan3.nsf"
+    }
+  },
+  "id": "train/hernandez-j_sent_236.txt"
+}

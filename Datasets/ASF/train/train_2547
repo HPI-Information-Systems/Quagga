@@ -1,0 +1,19 @@
+Thanks Alex. Yes, I am using TIKA. So, to some extent it preserves the text
+flow.
+
+There is something interesting in your reply, "Or you could try using
+highlighter to return only 
+the sentence. ".
+
+I didnt understand that bit. How do we use Highlighter to return the
+sentence?
+
+To make sure, I want to return all sentences where the word "Growth"
+appears. 
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/keyword-in-context-for-PDF-document-tp4329754p4329794.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

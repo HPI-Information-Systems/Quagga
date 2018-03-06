@@ -1,0 +1,36 @@
+Robert:
+Do you know when maven artifacts would be populated ?
+
+Currently I don't see 1.3.0 here:
+
+https://mvnrepository.com/artifact/org.apache.flink/flink-core
+
+Thanks
+
+On Thu, Jun 1, 2017 at 7:48 AM, Robert Metzger <rmetzger@apache.org> wrote:
+
+> The Apache Flink community is pleased to announce the release of Apache
+> Flink 1.3.0.
+>
+> Apache Flink® is an open-source stream processing framework for
+> distributed, high-performing, always-available, and accurate data streaming
+> applications.
+>
+>
+> The release is available for download at:
+>
+>     https://flink.apache.org/downloads.html
+>
+> There is a blog post available on the Flink site explaining most of the
+> new features:
+>
+>    https://flink.apache.org/news/2017/06/01/release-1.3.0.html
+>
+> The full changelog is available at: https://flink.apache.org/
+> blog/release_1.3.0-changelog.html
+>
+>
+>
+> We would like to thank all contributors who made this release possible!
+>
+

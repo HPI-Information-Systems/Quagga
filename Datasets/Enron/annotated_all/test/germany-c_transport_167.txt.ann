@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "Molly - Chris Germany preferred to have new deals for these.  These are \nnecessary due to there being two different transportation adjustments for the \nproducers' group of meters (points).  The existing deals are OK for certain \nmeters, but new deals are needed for the other meters.  Please modify \nexisting deals and provide new deals as follows:\n\n       Meter(Point)\nProducer  Prod Dates Deal#  These Only \nPricing                                                                       \n                                 \n\nPocono Energy Corp 9911 - 0002 103058  1125631 existing pricing OK - 100% \nCNG.APPAL.IF.M.I  +1 winter  with   -0.02  transportation adj\n       1125642 existing pricing OK - 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.02  transportation adj\n       1125651 existing pricing OK - 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.02  transportation adj\n\n   9911 -  0002 New Deal 1125629 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.218  transportation adj\n       1125708 100% CNG.APPAL.IF.M.I  +1 winter  with   -0.218  \ntransportation adj\n\nLong Ridge Farms 9911 - 0002 103071  1154516 100% CNG.APPAL.IF.M.I   with   \n-0.02   transportation adj\n       1154517 100% CNG.APPAL.IF.M.I   with   -0.02   transportation adj\n\n   9911 - 0002 New Deal 1154522 100% CNG.APPAL.IF.M.I   with   -0.218 \ntransportation adj\n\nI need these as soon as you can.\n\nThanks  WRP",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1361,
+      "end": 1373,
+      "text": "\nThanks  WRP",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1373,
+      "text": "Molly - Chris Germany preferred to have new deals for these.  These are \nnecessary due to there being two different transportation adjustments for the \nproducers' group of meters (points).  The existing deals are OK for certain \nmeters, but new deals are needed for the other meters.  Please modify \nexisting deals and provide new deals as follows:\n\n       Meter(Point)\nProducer  Prod Dates Deal#  These Only \nPricing                                                                       \n                                 \n\nPocono Energy Corp 9911 - 0002 103058  1125631 existing pricing OK - 100% \nCNG.APPAL.IF.M.I  +1 winter  with   -0.02  transportation adj\n       1125642 existing pricing OK - 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.02  transportation adj\n       1125651 existing pricing OK - 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.02  transportation adj\n\n   9911 -  0002 New Deal 1125629 100% CNG.APPAL.IF.M.I  +1 winter  with   \n-0.218  transportation adj\n       1125708 100% CNG.APPAL.IF.M.I  +1 winter  with   -0.218  \ntransportation adj\n\nLong Ridge Farms 9911 - 0002 103071  1154516 100% CNG.APPAL.IF.M.I   with   \n-0.02   transportation adj\n       1154517 100% CNG.APPAL.IF.M.I   with   -0.02   transportation adj\n\n   9911 - 0002 New Deal 1154522 100% CNG.APPAL.IF.M.I   with   -0.218 \ntransportation adj\n\nI need these as soon as you can.\n\nThanks  WRP",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25711955.1075853858051.JavaMail.evans@thyme>",
+      "Date": "Wed, 19 Jan 2000 08:19:00 -0800 (PST)",
+      "From": "wade.price@enron.com",
+      "To": "molly.lafuze@enron.com",
+      "Subject": "New Deals for Pocono and Long Ridge Farms",
+      "Cc": "lashonda.poledore@enron.com, chris.germany@enron.com, \n\tkatherine.kelly@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "lashonda.poledore@enron.com, chris.germany@enron.com, \n\tkatherine.kelly@enron.com",
+      "X-From": "Wade R Price",
+      "X-To": "Molly LaFuze",
+      "X-cc": "LaShonda Poledore, Chris Germany, Katherine L Kelly",
+      "X-bcc": "",
+      "X-Folder": "\\Chris_Germany_Dec2000\\Notes Folders\\Transport",
+      "X-Origin": "Germany-C",
+      "X-FileName": "cgerman.nsf"
+    }
+  },
+  "id": "test/germany-c_transport_167.txt"
+}

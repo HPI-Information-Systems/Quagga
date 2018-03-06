@@ -1,0 +1,19 @@
+Dear all,
+
+For a particular Spark extension, I would like to know whether it would be
+possible for the Resource Manager (e.g. Standalone cluster manager) to know
+or estimate the total execution time of a submitted application, or the
+execution remaining time of such application.
+
+Thanks.
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Resource-manager-estimation-of-application-execution-time-remaining-time-tp28453.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

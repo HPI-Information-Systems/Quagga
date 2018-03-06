@@ -1,0 +1,48 @@
+sorry for the confusion. as in i received results due to matches on field x
+vs. field y.
+
+i've gone w a highlighting solution for now. the fact that it requires
+field storage isn't yet prohibitive for me, so can serve well for now. open
+to any alternative approaches all the same
+
+thanks-
+
+-- 
+*John Blythe*
+Product Manager & Lead Developer
+
+251.605.3071 | john@curvolabs.com
+www.curvolabs.com
+
+58 Adams Ave
+Evansville, IN 47713
+
+On Tue, May 16, 2017 at 11:37 AM, David Hastings <
+hastings.recursive@gmail.com> wrote:
+
+> what do you mean "hit?" As in the user clicked it?
+>
+> On Tue, May 16, 2017 at 11:35 AM, John Blythe <john@curvolabs.com> wrote:
+>
+> > hey all. i'm sending data out that could represent a purchased item or a
+> > competitive alternative. when the results are returned i'm needing to
+> know
+> > which of the two were hit so i can serve up the *other*.
+> >
+> > i can make a blunt instrument in the application layer to simply look
+> for a
+> > match between the queried terms and the resulting fields, but the problem
+> > of fuzzy matching and some of the special analysis being done to get the
+> > hits will be for naught.
+> >
+> > cursory googling landed me at a similar discussion that suggested using
+> hit
+> > highlighting or retrieving the debuggers explain data to sort through.
+> >
+> > is there another, more efficient means or are these the two tools in the
+> > toolbox?
+> >
+> > thanks!
+> >
+>
+

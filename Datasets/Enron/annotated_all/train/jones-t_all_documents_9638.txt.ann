@@ -1,0 +1,75 @@
+{
+  "wrapper": "plaintext",
+  "text": "Good morning,\n\nPlease provide the path to the Financial Trading Agreement database.  The \ninformation can be found by right-clicking on the database icon, then \nselecting Database properties.  The Server and File name will be under the \nBasic tab.\n\nHave a nice day,\nGary Sta. Maria\nEnron Messaging Security",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Good morning",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 266,
+      "end": 281,
+      "text": "Gary Sta. Maria",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 249,
+      "end": 281,
+      "text": "Have a nice day,\nGary Sta. Maria",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 282,
+      "end": 306,
+      "text": "Enron Messaging Security",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 306,
+      "text": "Good morning,\n\nPlease provide the path to the Financial Trading Agreement database.  The \ninformation can be found by right-clicking on the database icon, then \nselecting Database properties.  The Server and File name will be under the \nBasic tab.\n\nHave a nice day,\nGary Sta. Maria\nEnron Messaging Security",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25320645.1075847309761.JavaMail.evans@thyme>",
+      "Date": "Tue, 27 Feb 2001 03:17:00 -0800 (PST)",
+      "From": "enron.security@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "eRequests 20721 & 20740",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Enron Messaging Security",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_9638.txt"
+}

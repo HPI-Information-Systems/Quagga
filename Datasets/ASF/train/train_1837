@@ -1,0 +1,108 @@
+Hi Daphne,
+
+Are you using DSE?
+
+
+Thanks & Regards,
+Vishal
+
+On Fri, Mar 17, 2017 at 7:40 PM, Liu, Daphne <Daphne.Liu@cevalogistics.com>
+wrote:
+
+> I just want to share my recent project. I have successfully sent all our
+> EDI documents to Cassandra 3.7 clusters using Solr 6.3 Data Import JDBC
+> Cassandra connector indexing our documents.
+> Since Cassandra is so fast for writing, compression rate is around 13% and
+> all my documents can be keep in my Cassandra clusters' memory, we are very
+> happy with the result.
+>
+>
+> Kind regards,
+>
+> Daphne Liu
+> BI Architect - Matrix SCM
+>
+> CEVA Logistics / 10751 Deerwood Park Blvd, Suite 200, Jacksonville, FL
+> 32256 USA / www.cevalogistics.com T 904.564.1192 / F 904.928.1448 /
+> Daphne.Liu@cevalogistics.com
+>
+>
+>
+> -----Original Message-----
+> From: Alexandre Rafalovitch [mailto:arafalov@gmail.com]
+> Sent: Friday, March 17, 2017 9:54 AM
+> To: solr-user <solr-user@lucene.apache.org>
+> Subject: Re: Data Import
+>
+> I feel DIH is much better for prototyping, even though people do use it in
+> production. If you do want to use DIH, you may benefit from reviewing the
+> DIH-DB example I am currently rewriting in
+> https://issues.apache.org/jira/browse/SOLR-10312 (may need to change
+> luceneMatchVersion in solrconfig.xml first).
+>
+> CSV, etc, could be useful if you want to keep history of past imports,
+> again useful during development, as you evolve schema.
+>
+> SolrJ may actually be easiest/best for production since you already have
+> Java stack.
+>
+> The choice is yours in the end.
+>
+> Regards,
+>    Alex.
+> ----
+> http://www.solr-start.com/ - Resources for Solr users, new and experienced
+>
+>
+> On 17 March 2017 at 08:56, Shawn Heisey <apache@elyograg.org> wrote:
+> > On 3/17/2017 3:04 AM, vishal jain wrote:
+> >> I am new to Solr and am trying to move data from my RDBMS to Solr. I
+> know the available options are:
+> >> 1) Post Tool
+> >> 2) DIH
+> >> 3) SolrJ (as ours is a J2EE application).
+> >>
+> >> I want to know what is the recommended way for Data import in
+> >> production environment. Will sending data via SolrJ in batches be
+> faster than posting a csv using POST tool?
+> >
+> > I've heard that CSV import runs EXTREMELY fast, but I have never
+> > tested it.  The same threading problem that I discuss below would
+> > apply to indexing this way.
+> >
+> > DIH is extremely powerful, but it has one glaring problem:  It's
+> > single-threaded, which means that only one stream of data is going
+> > into Solr, and each batch of documents to be inserted must wait for
+> > the previous one to finish inserting before it can start.  I do not
+> > know if DIH batches documents or sends them in one at a time.  If you
+> > have a manually sharded index, you can run DIH on each shard in
+> > parallel, but each one will be single-threaded.  That single thread is
+> > pretty efficient, but it's still only one thread.
+> >
+> > Sending multiple index updates to Solr in parallel (multi-threading)
+> > is how you radically speed up the Solr part of indexing.  This is
+> > usually done with a custom indexing program, which might be written
+> > with SolrJ or even in a completely different language.
+> >
+> > One thing to keep in mind with ANY indexing method:  Once the
+> > situation is examined closely, most people find that it's not Solr
+> > that makes their indexing slow.  The bottleneck is usually the source
+> > system -- how quickly the data can be retrieved.  It usually takes a
+> > lot longer to obtain the data than it does for Solr to index it.
+> >
+> > Thanks,
+> > Shawn
+> >
+> This e-mail message is intended for the above named recipient(s) only. It
+> may contain confidential information that is privileged. If you are not the
+> intended recipient, you are hereby notified that any dissemination,
+> distribution or copying of this e-mail and any attachment(s) is strictly
+> prohibited. If you have received this e-mail by error, please immediately
+> notify the sender by replying to this e-mail and deleting the message
+> including any attachment(s) from your system. Thank you in advance for your
+> cooperation and assistance. Although the company has taken reasonable
+> precautions to ensure no viruses are present in this email, the company
+> cannot accept responsibility for any loss or damage arising from the use of
+> this email or attachments.
+>
+

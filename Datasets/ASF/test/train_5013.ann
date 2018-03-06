@@ -1,0 +1,160 @@
+{
+  "wrapper": "plaintext",
+  "text": "That just gives you the max time for each train. If I understood the\nquestion correctly, OP wants the whole row with the max time. That's\ngenerally solved through joins or subqueries, which would be hard to do in\na streaming setting\n\nOn Aug 29, 2017 7:29 PM, \"ayan guha\" <guha.ayan@gmail.com> wrote:\n\n> Why removing the destination from the window wont work? Like this:\n>\n>  *trainTimesDataset*\n> *  .withWatermark(\"**activity_timestamp\", \"5 days\")*\n> *  .groupBy(window(activity_timestamp, \"24 hours\", \"24 hours\"), \"train\")*\n> *  .max(\"time\")*\n>\n> On Wed, Aug 30, 2017 at 10:38 AM, kant kodali <kanth909@gmail.com> wrote:\n>\n>> @Burak so how would the transformation or query would look like for the\n>> above example? I don't see flatMapGroupsWithState in the DataSet API\n>> Spark 2.1.1. I may be able to upgrade to 2.2.0 if that makes life easier.\n>>\n>>\n>>\n>> On Tue, Aug 29, 2017 at 5:25 PM, Burak Yavuz <brkyvz@gmail.com> wrote:\n>>\n>>> Hey TD,\n>>>\n>>> If I understood the question correctly, your solution wouldn't return\n>>> the exact solution, since it also groups by on destination. I would say the\n>>> easiest solution would be to use flatMapGroupsWithState, where you:\n>>> .groupByKey(_.train)\n>>>\n>>> and keep in state the row with the maximum time.\n>>>\n>>> On Tue, Aug 29, 2017 at 5:18 PM, Tathagata Das <\n>>> tathagata.das1565@gmail.com> wrote:\n>>>\n>>>> Yes. And in that case, if you just care about only the last few days of\n>>>> max, then you should set watermark on the timestamp column.\n>>>>\n>>>>  *trainTimesDataset*\n>>>> *  .withWatermark(\"**activity_timestamp\", \"5 days\")*\n>>>> *  .groupBy(window(activity_timestamp, \"24 hours\", \"24 hours\"),\n>>>> \"train\", \"dest\")*\n>>>> *  .max(\"time\")*\n>>>>\n>>>> Any counts which are more than 5 days old will be dropped from the\n>>>> streaming state.\n>>>>\n>>>> On Tue, Aug 29, 2017 at 2:06 PM, kant kodali <kanth909@gmail.com>\n>>>> wrote:\n>>>>\n>>>>> Hi,\n>>>>>\n>>>>> Thanks for the response. Since this is a streaming based query and in\n>>>>> my case I need to hold state for 24 hours which I forgot to mention in\nmy\n>>>>> previous email. can I do ?\n>>>>>\n>>>>>  *trainTimesDataset.groupBy(window(activity_timestamp, \"24 hours\",\n>>>>> \"24 hours\"), \"train\", \"dest\").max(\"time\")*\n>>>>>\n>>>>>\n>>>>> On Tue, Aug 29, 2017 at 1:38 PM, Tathagata Das <\n>>>>> tathagata.das1565@gmail.com> wrote:\n>>>>>\n>>>>>> Say, *trainTimesDataset* is the streaming Dataset of schema *[train:\n>>>>>> Int, dest: String, time: Timestamp] *\n>>>>>>\n>>>>>>\n>>>>>> *Scala*: *trainTimesDataset.groupBy(\"train\", \"dest\").max(\"time\")*\n>>>>>>\n>>>>>>\n>>>>>> *SQL*: *\"select train, dest, max(time) from trainTimesView group\nby\n>>>>>> train, dest\"*    // after calling\n>>>>>> *trainTimesData.createOrReplaceTempView(trainTimesView)*\n>>>>>>\n>>>>>>\n>>>>>> On Tue, Aug 29, 2017 at 12:59 PM, kant kodali <kanth909@gmail.com>\n>>>>>> wrote:\n>>>>>>\n>>>>>>> Hi All,\n>>>>>>>\n>>>>>>> I am wondering what is the easiest and concise way to express\nthe\n>>>>>>> computation below in Spark Structured streaming given that it\nsupports both\n>>>>>>> imperative and declarative styles?\n>>>>>>> I am just trying to select rows that has max timestamp for each\n>>>>>>> train? Instead of doing some sort of nested queries like we normally\ndo in\n>>>>>>> any relational database I am trying to see if I can leverage\nboth\n>>>>>>> imperative and declarative at the same time. If nested queries\nor join are\n>>>>>>> not required then I would like to see how this can be possible?\nI am using\n>>>>>>> spark 2.1.1.\n>>>>>>>\n>>>>>>> Dataset\n>>>>>>>\n>>>>>>> Train    Dest      Time1        HK        10:001        SH  \n     12:001        SZ        14:002        HK        13:002        SH        09:002      \n SZ        07:00\n>>>>>>>\n>>>>>>> The desired result should be:\n>>>>>>>\n>>>>>>> Train    Dest      Time1        SZ        14:002        HK  \n     13:00\n>>>>>>>\n>>>>>>>\n>>>>>>\n>>>>>\n>>>>\n>>>\n>>\n>\n>\n> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 234,
+      "text": "That just gives you the max time for each train. If I understood the\nquestion correctly, OP wants the whole row with the max time. That's\ngenerally solved through joins or subqueries, which would be hard to do in\na streaming setting\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 234,
+      "end": 300,
+      "text": "On Aug 29, 2017 7:29 PM, \"ayan guha\" <guha.ayan@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 300,
+      "end": 547,
+      "text": "\n> Why removing the destination from the window wont work? Like this:\n>\n>  *trainTimesDataset*\n> *  .withWatermark(\"**activity_timestamp\", \"5 days\")*\n> *  .groupBy(window(activity_timestamp, \"24 hours\", \"24 hours\"), \"train\")*\n> *  .max(\"time\")*\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 547,
+      "end": 623,
+      "text": "> On Wed, Aug 30, 2017 at 10:38 AM, kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 623,
+      "end": 858,
+      "text": ">\n>> @Burak so how would the transformation or query would look like for the\n>> above example? I don't see flatMapGroupsWithState in the DataSet API\n>> Spark 2.1.1. I may be able to upgrade to 2.2.0 if that makes life easier.\n>>\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 858,
+      "end": 932,
+      "text": ">> On Tue, Aug 29, 2017 at 5:25 PM, Burak Yavuz <brkyvz@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 932,
+      "end": 947,
+      "text": ">>\n>>> Hey TD,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 932,
+      "end": 1263,
+      "text": ">>\n>>> Hey TD,\n>>>\n>>> If I understood the question correctly, your solution wouldn't return\n>>> the exact solution, since it also groups by on destination. I would say the\n>>> easiest solution would be to use flatMapGroupsWithState, where you:\n>>> .groupByKey(_.train)\n>>>\n>>> and keep in state the row with the maximum time.\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1263,
+      "end": 1356,
+      "text": ">>> On Tue, Aug 29, 2017 at 5:18 PM, Tathagata Das <\n>>> tathagata.das1565@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1356,
+      "end": 1809,
+      "text": ">>>\n>>>> Yes. And in that case, if you just care about only the last few days of\n>>>> max, then you should set watermark on the timestamp column.\n>>>>\n>>>>  *trainTimesDataset*\n>>>> *  .withWatermark(\"**activity_timestamp\", \"5 days\")*\n>>>> *  .groupBy(window(activity_timestamp, \"24 hours\", \"24 hours\"),\n>>>> \"train\", \"dest\")*\n>>>> *  .max(\"time\")*\n>>>>\n>>>> Any counts which are more than 5 days old will be dropped from the\n>>>> streaming state.\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1809,
+      "end": 1892,
+      "text": ">>>> On Tue, Aug 29, 2017 at 2:06 PM, kant kodali <kanth909@gmail.com>\n>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1892,
+      "end": 1907,
+      "text": ">>>>\n>>>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1892,
+      "end": 2242,
+      "text": ">>>>\n>>>>> Hi,\n>>>>>\n>>>>> Thanks for the response. Since this is a streaming based query and in\n>>>>> my case I need to hold state for 24 hours which I forgot to mention in\nmy\n>>>>> previous email. can I do ?\n>>>>>\n>>>>>  *trainTimesDataset.groupBy(window(activity_timestamp, \"24 hours\",\n>>>>> \"24 hours\"), \"train\", \"dest\").max(\"time\")*\n>>>>>\n>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2242,
+      "end": 2339,
+      "text": ">>>>> On Tue, Aug 29, 2017 at 1:38 PM, Tathagata Das <\n>>>>> tathagata.das1565@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2339,
+      "end": 2761,
+      "text": ">>>>>\n>>>>>> Say, *trainTimesDataset* is the streaming Dataset of schema *[train:\n>>>>>> Int, dest: String, time: Timestamp] *\n>>>>>>\n>>>>>>\n>>>>>> *Scala*: *trainTimesDataset.groupBy(\"train\", \"dest\").max(\"time\")*\n>>>>>>\n>>>>>>\n>>>>>> *SQL*: *\"select train, dest, max(time) from trainTimesView group\nby\n>>>>>> train, dest\"*    // after calling\n>>>>>> *trainTimesData.createOrReplaceTempView(trainTimesView)*\n>>>>>>\n>>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2761,
+      "end": 2849,
+      "text": ">>>>>> On Tue, Aug 29, 2017 at 12:59 PM, kant kodali <kanth909@gmail.com>\n>>>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2849,
+      "end": 2872,
+      "text": ">>>>>>\n>>>>>>> Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3884,
+      "end": 3917,
+      "text": "> --\n> Best Regards,\n> Ayan Guha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2849,
+      "end": 3920,
+      "text": ">>>>>>\n>>>>>>> Hi All,\n>>>>>>>\n>>>>>>> I am wondering what is the easiest and concise way to express\nthe\n>>>>>>> computation below in Spark Structured streaming given that it\nsupports both\n>>>>>>> imperative and declarative styles?\n>>>>>>> I am just trying to select rows that has max timestamp for each\n>>>>>>> train? Instead of doing some sort of nested queries like we normally\ndo in\n>>>>>>> any relational database I am trying to see if I can leverage\nboth\n>>>>>>> imperative and declarative at the same time. If nested queries\nor join are\n>>>>>>> not required then I would like to see how this can be possible?\nI am using\n>>>>>>> spark 2.1.1.\n>>>>>>>\n>>>>>>> Dataset\n>>>>>>>\n>>>>>>> Train    Dest      Time1        HK        10:001        SH  \n     12:001        SZ        14:002        HK        13:002        SH        09:002      \n SZ        07:00\n>>>>>>>\n>>>>>>> The desired result should be:\n>>>>>>>\n>>>>>>> Train    Dest      Time1        SZ        14:002        HK  \n     13:00\n>>>>>>>\n>>>>>>>\n>>>>>>\n>>>>>\n>>>>\n>>>\n>>\n>\n>\n> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5013"
+}

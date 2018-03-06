@@ -1,0 +1,130 @@
+{
+  "wrapper": "plaintext",
+  "text": "Please give me a call and we can discuss.  Shari is now definately moving to \npower trading (not public yet) so we really need to figure out how we are \ngoing to cover all the bases - short and long term.  I will be out the 14th \nthrough the 17th and plan to be in S.A. the last week in March.  It would be \ngrea if we could both be there for the second seminar (looks like the more \npertinent to our issues) but I hate to think of Carol left all by herself \nthat much.  Let's see what we can figure out to make sure everything is \ncovered.\n\n\n\n\nSara Shackleton\n03/01/2000 07:43 AM\nTo: Mark Taylor/HOU/ECT@ECT\ncc: Kaye Ellis/HOU/ECT@ECT \nSubject: Trip to Brazil\n\nMark:  I have been in touch with Sami Arap who is now Andrea Bertone's boss.  \nThere are currently two seminars scheduled in Sao Paulo aimed for the \ncommercial group and the lawyers as follows:\n\n1.  March 17 - Milbank Tweed  (Securitization)\n2.  March 27 - Bracewell (legal issues for contracts)\n\nI think I should attend these and was considering a trip to arrive before the \nstart and after the termination of the seminars (approx March 15 - March \n28).  In the interim I could (hopefully) wrap up financial issues with \nTozzini and address at length physical issues with Tozzini.  Also, I can \nspeak with commercial groups and plan a \"swap\"seminar for the commercial and \nlegal groups (date TBD but probably after the legal seminar in San Antonio).  \nPlease let me know if the timing works for our group in Houston and if you \nhave other thoughts.   Hope all is well.  Sara\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 545,
+      "text": "Please give me a call and we can discuss.  Shari is now definately moving to \npower trading (not public yet) so we really need to figure out how we are \ngoing to cover all the bases - short and long term.  I will be out the 14th \nthrough the 17th and plan to be in S.A. the last week in March.  It would be \ngrea if we could both be there for the second seminar (looks like the more \npertinent to our issues) but I hate to think of Carol left all by herself \nthat much.  Let's see what we can figure out to make sure everything is \ncovered.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 545,
+      "end": 560,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 561,
+      "end": 571,
+      "text": "03/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 572,
+      "end": 580,
+      "text": "07:43 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 585,
+      "end": 596,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 613,
+      "end": 623,
+      "text": "Kaye Ellis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 646,
+      "end": 660,
+      "text": "Trip to Brazil",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 545,
+      "end": 661,
+      "text": "Sara Shackleton\n03/01/2000 07:43 AM\nTo: Mark Taylor/HOU/ECT@ECT\ncc: Kaye Ellis/HOU/ECT@ECT \nSubject: Trip to Brazil\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 662,
+      "end": 666,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1534,
+      "end": 1538,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 661,
+      "end": 1540,
+      "text": "\nMark:  I have been in touch with Sami Arap who is now Andrea Bertone's boss.  \nThere are currently two seminars scheduled in Sao Paulo aimed for the \ncommercial group and the lawyers as follows:\n\n1.  March 17 - Milbank Tweed  (Securitization)\n2.  March 27 - Bracewell (legal issues for contracts)\n\nI think I should attend these and was considering a trip to arrive before the \nstart and after the termination of the seminars (approx March 15 - March \n28).  In the interim I could (hopefully) wrap up financial issues with \nTozzini and address at length physical issues with Tozzini.  Also, I can \nspeak with commercial groups and plan a \"swap\"seminar for the commercial and \nlegal groups (date TBD but probably after the legal seminar in San Antonio).  \nPlease let me know if the timing works for our group in Houston and if you \nhave other thoughts.   Hope all is well.  Sara\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32150111.1075859912349.JavaMail.evans@thyme>",
+      "Date": "Wed, 1 Mar 2000 02:56:00 -0800 (PST)",
+      "From": "mark.taylor@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: Trip to Brazil",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark Taylor",
+      "X-To": "Sara Shackleton",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\All documents",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_all_documents_1449.txt"
+}

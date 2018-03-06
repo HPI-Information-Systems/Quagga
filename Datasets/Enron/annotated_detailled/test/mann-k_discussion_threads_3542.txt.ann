@@ -1,0 +1,193 @@
+{
+  "wrapper": "plaintext",
+  "text": "Per my previous email.  NW doesn't have this change.\n---------------------- Forwarded by Kay Mann/Corp/Enron on 04/25/2001 11:36 \nAM ---------------------------\n   \n\t\n\t\n\tFrom:  Rebecca Walker                           04/24/2001 04:05 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron\ncc: Ben Jacoby/HOU/ECT@ECT, Chris Booth/NA/Enron@Enron, Catherine \nClark/Enron@EnronXGate \n\nSubject: PLEASE REVIEW -- Changes to Northwestern Letter Agreement\n\nKay\n\nAttached are changes to the Northwestern 7EA Letter Agreement.  Per Ben \nJacoby's request, I have updated the Remaining Purchase Amount Instalment \n(Schedule III) Amounts.  Catherine Clark in Global Finance has signed off on \nthese numbers, as well.  Please call me at x57968 if you have any questions.\n\n\n\nRegards,\nRebecca\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 53,
+      "text": "Per my previous email.  NW doesn't have this change.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 89,
+      "end": 97,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 112,
+      "end": 122,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 123,
+      "end": 132,
+      "text": "11:36 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 53,
+      "end": 161,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 04/25/2001 11:36 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 177,
+      "end": 191,
+      "text": "Rebecca Walker",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 218,
+      "end": 228,
+      "text": "04/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 229,
+      "end": 237,
+      "text": "04:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 245,
+      "end": 253,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 275,
+      "end": 285,
+      "text": "Ben Jacoby",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 299,
+      "end": 310,
+      "text": "Chris Booth",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 327,
+      "end": 343,
+      "text": "Catherine \nClark",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 372,
+      "end": 429,
+      "text": "PLEASE REVIEW -- Changes to Northwestern Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 161,
+      "end": 430,
+      "text": "   \n\t\n\t\n\tFrom:  Rebecca Walker                           04/24/2001 04:05 PM\n\t\n\nTo: Kay Mann/Corp/Enron@Enron\ncc: Ben Jacoby/HOU/ECT@ECT, Chris Booth/NA/Enron@Enron, Catherine \nClark/Enron@EnronXGate \n\nSubject: PLEASE REVIEW -- Changes to Northwestern Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 431,
+      "end": 434,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 751,
+      "end": 758,
+      "text": "Rebecca",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 742,
+      "end": 759,
+      "text": "Regards,\nRebecca\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 430,
+      "end": 759,
+      "text": "\nKay\n\nAttached are changes to the Northwestern 7EA Letter Agreement.  Per Ben \nJacoby's request, I have updated the Remaining Purchase Amount Instalment \n(Schedule III) Amounts.  Catherine Clark in Global Finance has signed off on \nthese numbers, as well.  Please call me at x57968 if you have any questions.\n\n\n\nRegards,\nRebecca\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15579986.1075845840415.JavaMail.evans@thyme>",
+      "Date": "Wed, 25 Apr 2001 04:37:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "jkeffer@kslaw.com, mreuter@kslaw.com",
+      "Subject": "PLEASE REVIEW -- Changes to Northwestern Letter Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "jkeffer@kslaw.com, mreuter@kslaw.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_3542.txt"
+}

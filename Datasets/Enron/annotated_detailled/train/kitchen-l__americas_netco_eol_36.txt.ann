@@ -1,0 +1,178 @@
+{
+  "wrapper": "plaintext",
+  "text": "cc: Louise\n\n -----Original Message-----\nFrom: \tForster, David  \nSent:\tMonday, January 28, 2002 2:50 PM\nTo:\tDL-NETCO Gas Traders; DL-NETCO Gas Originators; DL-NETCO Power Traders; DL-NETCO Power Originators\nCc:\tDL-EOL eCommerce Support; Becker, Lorraine; Mandola, Teresa; Mcquade, Jennifer; Carter, Carl; Diamond, Daniel; Jafry, Rahil; Shults, Bob\nSubject:\tOnline Launch Plan Update\n\nWith the filing of the Hart-Scott-Rodino application last week, it looks like our updated launch timeline is as follows. Note that it is still possible that this timeline could shift:\n\nWeek of Jan 28:\n\nWe will distribute a packet to each of the Originators/Traders who have volounteered to call customers and assist in getting signed Password Applications. The packets will contain:\n\nKey Messages\nFrequently Asked Questions (FAQs)\nTop Counterparty Checklist \nExternal Customer Cover Letter\nPassword Application (PA)\nRegistration Form\nFax Cover Sheet for PA/Registration \nElectronic Trading Agreement (ETA)\nInternal online Marketing Contact List\n\nEach person receiving a pack will contact the Master Users at the companies they have volounteered for and send them copies of the Password Application (PA) and Electronic Trading Agreement (ETA). During this week, we will be working hard to get as many of the PA's returned as possible. Once we have a signed PA, we can send the customer their new User ID, which will allow them to start trading on the day we launch the new site.\n\nA Splash page will be available at www.UBSWenergy.com or via an automatic redirect from www.enrononline.com. This page will tell customers about the pending launch of www.UBSWenergy.com and provide links to the PA and Registration screens and also to the User Admin screens, which will allow customer Master Users to start setting up their Sub Users.\n\nThe Splash page will look something like the following:\n\n \n\n\nWeek of Feb. 4:\n\nWe will send out a mass mailing to approx. 3,000 individuals at 450 companies inviting them to sign up for the site. Included in the package will be a simple brochure, copies of the PA and ETA, key messages and a list of Frequently Asked Questions.\n\nWeek of Feb. 11:\n\nThe site will launch, with at least financial products (timing for gas physical and power physical to be determined according to regulatory issues). \n\nGeneral Terms and Conditions (GTC's) will be available online and must be accepted online before a company can start to trade a particular commodity.\n\t\t\n\nTrading/Origination Coordination\n\nThe Top 50 customers will have at least an initial contact within the first two days of starting the marketing effort and that all customers who previously traded either gas or power will receive a mailing within the first 10 days. An online marketer has been assigned as coordinator for each company and will assist each Trader/Originator in following up with Master Users as necessary to make sure PA's are signed and returned.\n\n\nUBSWenergy Marketing Contacts:\n\nFor Marketing-specific questions, please use the following contacts. For other questions, please contact Bob Shults (30397) or Dave Forster (31861).\t\t\n\nTeresa Mandola (39807) - Power\nJennifer McQuade (53614) - Power\nDan Diamond (39673) - Gas\n\n\n<Embedded Picture (Metafile)>",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "cc: Louise\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 47,
+      "end": 61,
+      "text": "Forster, David",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 78,
+      "end": 94,
+      "text": "January 28, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 95,
+      "end": 102,
+      "text": "2:50 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 107,
+      "end": 127,
+      "text": "DL-NETCO Gas Traders",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 129,
+      "end": 153,
+      "text": "DL-NETCO Gas Originators",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 155,
+      "end": 177,
+      "text": "DL-NETCO Power Traders",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 179,
+      "end": 205,
+      "text": "DL-NETCO Power Originators",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 210,
+      "end": 234,
+      "text": "DL-EOL eCommerce Support",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 236,
+      "end": 252,
+      "text": "Becker, Lorraine",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 254,
+      "end": 269,
+      "text": "Mandola, Teresa",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 271,
+      "end": 288,
+      "text": "Mcquade, Jennifer",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 290,
+      "end": 302,
+      "text": "Carter, Carl",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 304,
+      "end": 319,
+      "text": "Diamond, Daniel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 321,
+      "end": 333,
+      "text": "Jafry, Rahil",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 335,
+      "end": 346,
+      "text": "Shults, Bob",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 356,
+      "end": 381,
+      "text": "Online Launch Plan Update",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 12,
+      "end": 382,
+      "text": " -----Original Message-----\nFrom: \tForster, David  \nSent:\tMonday, January 28, 2002 2:50 PM\nTo:\tDL-NETCO Gas Traders; DL-NETCO Gas Originators; DL-NETCO Power Traders; DL-NETCO Power Originators\nCc:\tDL-EOL eCommerce Support; Becker, Lorraine; Mandola, Teresa; Mcquade, Jennifer; Carter, Carl; Diamond, Daniel; Jafry, Rahil; Shults, Bob\nSubject:\tOnline Launch Plan Update\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 382,
+      "end": 3236,
+      "text": "\nWith the filing of the Hart-Scott-Rodino application last week, it looks like our updated launch timeline is as follows. Note that it is still possible that this timeline could shift:\n\nWeek of Jan 28:\n\nWe will distribute a packet to each of the Originators/Traders who have volounteered to call customers and assist in getting signed Password Applications. The packets will contain:\n\nKey Messages\nFrequently Asked Questions (FAQs)\nTop Counterparty Checklist \nExternal Customer Cover Letter\nPassword Application (PA)\nRegistration Form\nFax Cover Sheet for PA/Registration \nElectronic Trading Agreement (ETA)\nInternal online Marketing Contact List\n\nEach person receiving a pack will contact the Master Users at the companies they have volounteered for and send them copies of the Password Application (PA) and Electronic Trading Agreement (ETA). During this week, we will be working hard to get as many of the PA's returned as possible. Once we have a signed PA, we can send the customer their new User ID, which will allow them to start trading on the day we launch the new site.\n\nA Splash page will be available at www.UBSWenergy.com or via an automatic redirect from www.enrononline.com. This page will tell customers about the pending launch of www.UBSWenergy.com and provide links to the PA and Registration screens and also to the User Admin screens, which will allow customer Master Users to start setting up their Sub Users.\n\nThe Splash page will look something like the following:\n\n \n\n\nWeek of Feb. 4:\n\nWe will send out a mass mailing to approx. 3,000 individuals at 450 companies inviting them to sign up for the site. Included in the package will be a simple brochure, copies of the PA and ETA, key messages and a list of Frequently Asked Questions.\n\nWeek of Feb. 11:\n\nThe site will launch, with at least financial products (timing for gas physical and power physical to be determined according to regulatory issues). \n\nGeneral Terms and Conditions (GTC's) will be available online and must be accepted online before a company can start to trade a particular commodity.\n\t\t\n\nTrading/Origination Coordination\n\nThe Top 50 customers will have at least an initial contact within the first two days of starting the marketing effort and that all customers who previously traded either gas or power will receive a mailing within the first 10 days. An online marketer has been assigned as coordinator for each company and will assist each Trader/Originator in following up with Master Users as necessary to make sure PA's are signed and returned.\n\n\nUBSWenergy Marketing Contacts:\n\nFor Marketing-specific questions, please use the following contacts. For other questions, please contact Bob Shults (30397) or Dave Forster (31861).\t\t\n\nTeresa Mandola (39807) - Power\nJennifer McQuade (53614) - Power\nDan Diamond (39673) - Gas\n\n\n<Embedded Picture (Metafile)>",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18623340.1075840879630.JavaMail.evans@thyme>",
+      "Date": "Mon, 28 Jan 2002 12:50:04 -0800 (PST)",
+      "From": "david.forster@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "FW: Online Launch Plan Update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Forster, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DFORSTER>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Netco EOL",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_netco_eol_36.txt"
+}

@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Erick, I have not changed any config. I have autoaddReplica = true for\nindividual collection config as well as the overall cluster config. Still,\nit does not add a replica when I decommission a node.\n\nAdding a replica is overseer's job. I looked at the logs of the overseer of\nthe solrCloud but could not find anything there as well.\n\nI am doing some testing using different configs. I would be happy to share\nmy finding.\n\nOne of the things I have observed is: if I use the collection API to create\na replica for that shard, it does not complain about the config which has\nbeen set to ReplicationFactor=1. If replication factor was the issue as\nsuggested by Shawn, shouldn't it complain?\n\nI would also like to mention that I experience some instance dirs getting\ndeleted and also found this open bug (\nhttps://issues.apache.org/jira/browse/SOLR-8905)\n\nThanks!\n\nOn Thu, Jan 12, 2017 at 9:50 AM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> Hmmm, have you changed any of the settings for autoAddReplcia? There\n> are several parameters that govern how long before a replica would be\n> added.\n>\n> But I suggest you use the Cloudera resources for this question, not\n> only did they write this functionality, but Cloudera support is deeply\n> embedded in HDFS and I suspect has _by far_ the most experience with\n> it.\n>\n> And that said, anything you find out that would suggest good ways to\n> clarify the docs would be most welcome!\n>\n> Best,\n> Erick\n>\n> On Thu, Jan 12, 2017 at 8:42 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> > On 1/11/2017 7:14 PM, Chetas Joshi wrote:\n> >> This is what I understand about how Solr works on HDFS. Please correct\n> me\n> >> if I am wrong.\n> >>\n> >> Although solr shard replication Factor = 1, HDFS default replication =\n> 3.\n> >> When the node goes down, the solr server running on that node goes down\n> and\n> >> hence the instance (core) representing the replica goes down. The data\n> in\n> >> on HDFS (distributed across all the datanodes of the hadoop cluster\n> with 3X\n> >> replication).  This is the reason why I have kept replicationFactor=1.\n> >>\n> >> As per the link:\n> >> https://cwiki.apache.org/confluence/display/solr/Running+Solr+on+HDFS\n> >> One benefit to running Solr in HDFS is the ability to automatically add\n> new\n> >> replicas when the Overseer notices that a shard has gone down. Because\n> the\n> >> \"gone\" index shards are stored in HDFS, a new core will be created and\n> the\n> >> new core will point to the existing indexes in HDFS.\n> >>\n> >> This is the expected behavior of Solr overseer which I am not able to\n> see.\n> >> After a couple of hours a node was assigned to host the shard but the\n> >> status of the shard is still \"down\" and the instance dir is missing on\n> that\n> >> node for that particular shard_replica.\n> >\n> > As I said before, I know very little about HDFS, so the following could\n> > be wrong, but it makes sense so I'll say it:\n> >\n> > I would imagine that Solr doesn't know or care what your HDFS\n> > replication is ... the only replicas it knows about are the ones that it\n> > is managing itself.  The autoAddReplicas feature manages *SolrCloud*\n> > replicas, not HDFS replicas.\n> >\n> > I have seen people say that multiple SolrCloud replicas will take up\n> > additional space in HDFS -- they do not point at the same index files.\n> > This is because proper Lucene operation requires that it lock an index\n> > and prevent any other thread/process from writing to the index at the\n> > same time.  When you index, SolrCloud updates all replicas independently\n> > -- the only time indexes are replicated is when you add a new replica or\n> > a serious problem has occurred and an index needs to be recovered.\n> >\n> > Thanks,\n> > Shawn\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 851,
+      "end": 860,
+      "text": "\nThanks!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 861,
+      "text": "Erick, I have not changed any config. I have autoaddReplica = true for\nindividual collection config as well as the overall cluster config. Still,\nit does not add a replica when I decommission a node.\n\nAdding a replica is overseer's job. I looked at the logs of the overseer of\nthe solrCloud but could not find anything there as well.\n\nI am doing some testing using different configs. I would be happy to share\nmy finding.\n\nOne of the things I have observed is: if I use the collection API to create\na replica for that shard, it does not complain about the config which has\nbeen set to ReplicationFactor=1. If replication factor was the issue as\nsuggested by Shawn, shouldn't it complain?\n\nI would also like to mention that I experience some instance dirs getting\ndeleted and also found this open bug (\nhttps://issues.apache.org/jira/browse/SOLR-8905)\n\nThanks!\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 6,
+      "text": "Erick,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 861,
+      "end": 942,
+      "text": "On Thu, Jan 12, 2017 at 9:50 AM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1432,
+      "end": 1450,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 942,
+      "end": 1452,
+      "text": "\n> Hmmm, have you changed any of the settings for autoAddReplcia? There\n> are several parameters that govern how long before a replica would be\n> added.\n>\n> But I suggest you use the Cloudera resources for this question, not\n> only did they write this functionality, but Cloudera support is deeply\n> embedded in HDFS and I suspect has _by far_ the most experience with\n> it.\n>\n> And that said, anything you find out that would suggest good ways to\n> clarify the docs would be most welcome!\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1452,
+      "end": 1575,
+      "text": "> On Thu, Jan 12, 2017 at 8:42 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> > On 1/11/2017 7:14 PM, Chetas Joshi wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 3690,
+      "end": 3716,
+      "text": "> >\n> > Thanks,\n> > Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1575,
+      "end": 3723,
+      "text": "> >> This is what I understand about how Solr works on HDFS. Please correct\n> me\n> >> if I am wrong.\n> >>\n> >> Although solr shard replication Factor = 1, HDFS default replication =\n> 3.\n> >> When the node goes down, the solr server running on that node goes down\n> and\n> >> hence the instance (core) representing the replica goes down. The data\n> in\n> >> on HDFS (distributed across all the datanodes of the hadoop cluster\n> with 3X\n> >> replication).  This is the reason why I have kept replicationFactor=1.\n> >>\n> >> As per the link:\n> >> https://cwiki.apache.org/confluence/display/solr/Running+Solr+on+HDFS\n> >> One benefit to running Solr in HDFS is the ability to automatically add\n> new\n> >> replicas when the Overseer notices that a shard has gone down. Because\n> the\n> >> \"gone\" index shards are stored in HDFS, a new core will be created and\n> the\n> >> new core will point to the existing indexes in HDFS.\n> >>\n> >> This is the expected behavior of Solr overseer which I am not able to\n> see.\n> >> After a couple of hours a node was assigned to host the shard but the\n> >> status of the shard is still \"down\" and the instance dir is missing on\n> that\n> >> node for that particular shard_replica.\n> >\n> > As I said before, I know very little about HDFS, so the following could\n> > be wrong, but it makes sense so I'll say it:\n> >\n> > I would imagine that Solr doesn't know or care what your HDFS\n> > replication is ... the only replicas it knows about are the ones that it\n> > is managing itself.  The autoAddReplicas feature manages *SolrCloud*\n> > replicas, not HDFS replicas.\n> >\n> > I have seen people say that multiple SolrCloud replicas will take up\n> > additional space in HDFS -- they do not point at the same index files.\n> > This is because proper Lucene operation requires that it lock an index\n> > and prevent any other thread/process from writing to the index at the\n> > same time.  When you index, SolrCloud updates all replicas independently\n> > -- the only time indexes are replicated is when you add a new replica or\n> > a serious problem has occurred and an index needs to be recovered.\n> >\n> > Thanks,\n> > Shawn\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_241"
+}

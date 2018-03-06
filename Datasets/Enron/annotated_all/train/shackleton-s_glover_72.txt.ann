@@ -1,0 +1,728 @@
+{
+  "wrapper": "plaintext",
+  "text": "Paul,\nWhere are we on this?  Can I do anything to assist?\nThanks. Sheila\n---------------------- Forwarded by Sheila Glover/HOU/ECT on 03/29/2000 03:37 \nPM ---------------------------\n   \n\tEnron Capital Management\n\t\n\tFrom:  Paul Garcia                           03/10/2000 05:30 PM\n\t\n\nTo: Sheila Glover/HOU/ECT@ECT, Shari Stack/HOU/ECT@ECT\ncc:  \nSubject: Fixed Income Account Profile\n\nFYI\n---------------------- Forwarded by Paul Garcia/HOU/ECT on 03/10/2000 05:29 \nPM ---------------------------\n\n\nGREG.CAMPBELL@chase.com on 03/10/2000 04:01:40 PM\nTo: Sam.M.Schwartzman@chase.com\ncc: Paul.Garcia@enron.com \nSubject: Fixed Income Account Profile\n\n\n\n\nSam,\n\nPer our conversation, see below Enron's request.  After investigating, please\ncall me so we can discuss.\n\nThanks\n---------------------- Forwarded by Greg Campbell/CHASE on 03/10/2000 03:59 PM\n---------------------------\n                                    DAVID M.\n                              HODGESCAPITALMARKETS\n                              03/06/2000 03:31 PM\n                  (Embedded image moved to file: pic17086.pcx)\n\nChase Securities of Texas  713-216-1442    Fax Number: 713-216-2884\n\nTo:   Greg Campbell/CHASE@CHASE\ncc:\nSubject:  Fixed Income Account Profile\n\nGreg, I hope this will help to get this account set up.  Let me know if you \nneed\nanything.\n---------------------- Forwarded by David M. HodgesCapitalMarkets/CHASE on\n03/06/2000 02:46 PM ---------------------------\n\n\n\"Sheila Glover\" <Sheila.Glover@enron.com> on 03/06/2000 01:57:49 PM\n\n\n\n\n\n\n\n\n\n To:      David M. HodgesCapitalMarkets/CHASE@CHASE\n\n cc:      \"Paul Garcia\" <Paul.Garcia@enron.com>, \"Gary\n          Hickerson\" <Gary.Hickerson@enron.com>, \"Harry\n          Arora\" <Harry.Arora@enron.com>\n\n\n\n Subject: Fixed Income Account Profile\n\n\n\n\n\n\nDavid,\nAs per Paul and my conversation with you this morning, below you will please\nfind a brief summary of the type of account we want to establish.\nPaul will forward this e-mail to Greg Campbell at Chase, as well.\nPlease give us a call at your convenience.\nSheila\n713-853-3210\n\nRE:  Fixed Income Clearance Account\n\nProfile:\n     Three principal currencies: USD, CAD and GBP (would anticipate Euro, as\nwell)\n     Products: Bonds (governments and agencies)\n     Normal Activity:\n          Repo Settlement clearance account between counterparties\n          Estimate 5-10 transactions a month\n          Average size 10-25 Million, could go to $100 million\n          DVP delivery\n          May have fails or small delivery differences\n          May have a custodial position for 2-3 days\n          Hold cash in account of residual P&L or wire back if significant\n\nQuestions:\n     Advance notice for settlement instructions required? Domestic? Foreign?\n     Intraday draft facility or we cover\n     Systems and daily information access\n\n\n\n\n\n\n\n - pic17086.pcx\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 66,
+      "end": 72,
+      "text": "Sheila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 58,
+      "end": 73,
+      "text": "Thanks. Sheila\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 73,
+      "text": "Paul,\nWhere are we on this?  Can I do anything to assist?\nThanks. Sheila\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 109,
+      "end": 122,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 134,
+      "end": 144,
+      "text": "03/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 145,
+      "end": 154,
+      "text": "03:37 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 73,
+      "end": 183,
+      "text": "---------------------- Forwarded by Sheila Glover/HOU/ECT on 03/29/2000 03:37 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 183,
+      "end": 215,
+      "text": "   \n\tEnron Capital Management\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 223,
+      "end": 234,
+      "text": "Paul Garcia",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 261,
+      "end": 271,
+      "text": "03/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 272,
+      "end": 280,
+      "text": "05:30 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 288,
+      "end": 301,
+      "text": "Sheila Glover",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 315,
+      "end": 326,
+      "text": "Shari Stack",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 354,
+      "end": 382,
+      "text": "Fixed Income Account Profile",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 216,
+      "end": 383,
+      "text": "From:  Paul Garcia                           03/10/2000 05:30 PM\n\t\n\nTo: Sheila Glover/HOU/ECT@ECT, Shari Stack/HOU/ECT@ECT\ncc:  \nSubject: Fixed Income Account Profile\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 383,
+      "end": 388,
+      "text": "\nFYI\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 424,
+      "end": 435,
+      "text": "Paul Garcia",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 447,
+      "end": 457,
+      "text": "03/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 458,
+      "end": 467,
+      "text": "05:29 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 388,
+      "end": 496,
+      "text": "---------------------- Forwarded by Paul Garcia/HOU/ECT on 03/10/2000 05:29 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 498,
+      "end": 521,
+      "text": "GREG.CAMPBELL@chase.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 525,
+      "end": 535,
+      "text": "03/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 536,
+      "end": 547,
+      "text": "04:01:40 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 552,
+      "end": 579,
+      "text": "Sam.M.Schwartzman@chase.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 584,
+      "end": 605,
+      "text": "Paul.Garcia@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 616,
+      "end": 644,
+      "text": "Fixed Income Account Profile",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 496,
+      "end": 645,
+      "text": "\n\nGREG.CAMPBELL@chase.com on 03/10/2000 04:01:40 PM\nTo: Sam.M.Schwartzman@chase.com\ncc: Paul.Garcia@enron.com \nSubject: Fixed Income Account Profile\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 649,
+      "end": 652,
+      "text": "Sam",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 761,
+      "end": 767,
+      "text": "Thanks",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 645,
+      "end": 768,
+      "text": "\n\n\n\nSam,\n\nPer our conversation, see below Enron's request.  After investigating, please\ncall me so we can discuss.\n\nThanks\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 804,
+      "end": 817,
+      "text": "Greg Campbell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 827,
+      "end": 837,
+      "text": "03/10/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 838,
+      "end": 846,
+      "text": "03:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 768,
+      "end": 875,
+      "text": "---------------------- Forwarded by Greg Campbell/CHASE on 03/10/2000 03:59 PM\n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 911,
+      "end": 919,
+      "text": "DAVID M.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1001,
+      "end": 1011,
+      "text": "03/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1012,
+      "end": 1020,
+      "text": "03:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1160,
+      "end": 1173,
+      "text": "Greg Campbell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1200,
+      "end": 1228,
+      "text": "Fixed Income Account Profile",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 875,
+      "end": 1229,
+      "text": "                                    DAVID M.\n                              HODGESCAPITALMARKETS\n                              03/06/2000 03:31 PM\n                  (Embedded image moved to file: pic17086.pcx)\n\nChase Securities of Texas  713-216-1442    Fax Number: 713-216-2884\n\nTo:   Greg Campbell/CHASE@CHASE\ncc:\nSubject:  Fixed Income Account Profile\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1230,
+      "end": 1234,
+      "text": "Greg",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1229,
+      "end": 1322,
+      "text": "\nGreg, I hope this will help to get this account set up.  Let me know if you \nneed\nanything.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1358,
+      "end": 1366,
+      "text": "David M.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1397,
+      "end": 1407,
+      "text": "03/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1408,
+      "end": 1416,
+      "text": "02:46 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1322,
+      "end": 1445,
+      "text": "---------------------- Forwarded by David M. HodgesCapitalMarkets/CHASE on\n03/06/2000 02:46 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1448,
+      "end": 1461,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1464,
+      "end": 1487,
+      "text": "Sheila.Glover@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1492,
+      "end": 1502,
+      "text": "03/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1503,
+      "end": 1514,
+      "text": "01:57:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1534,
+      "end": 1542,
+      "text": "David M.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1588,
+      "end": 1599,
+      "text": "Paul Garcia",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1602,
+      "end": 1623,
+      "text": "Paul.Garcia@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1627,
+      "end": 1631,
+      "text": "Gary",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1641,
+      "end": 1651,
+      "text": " Hickerson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1654,
+      "end": 1678,
+      "text": "Gary.Hickerson@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1682,
+      "end": 1687,
+      "text": "Harry",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1697,
+      "end": 1703,
+      "text": " Arora",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1706,
+      "end": 1727,
+      "text": "Harry.Arora@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1742,
+      "end": 1770,
+      "text": "Fixed Income Account Profile",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1445,
+      "end": 1771,
+      "text": "\n\n\"Sheila Glover\" <Sheila.Glover@enron.com> on 03/06/2000 01:57:49 PM\n\n\n\n\n\n\n\n\n\n To:      David M. HodgesCapitalMarkets/CHASE@CHASE\n\n cc:      \"Paul Garcia\" <Paul.Garcia@enron.com>, \"Gary\n          Hickerson\" <Gary.Hickerson@enron.com>, \"Harry\n          Arora\" <Harry.Arora@enron.com>\n\n\n\n Subject: Fixed Income Account Profile\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1777,
+      "end": 1782,
+      "text": "David",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 2036,
+      "end": 2042,
+      "text": "Sheila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 2043,
+      "end": 2056,
+      "text": "713-853-3210\n",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1771,
+      "end": 2834,
+      "text": "\n\n\n\n\n\nDavid,\nAs per Paul and my conversation with you this morning, below you will please\nfind a brief summary of the type of account we want to establish.\nPaul will forward this e-mail to Greg Campbell at Chase, as well.\nPlease give us a call at your convenience.\nSheila\n713-853-3210\n\nRE:  Fixed Income Clearance Account\n\nProfile:\n     Three principal currencies: USD, CAD and GBP (would anticipate Euro, as\nwell)\n     Products: Bonds (governments and agencies)\n     Normal Activity:\n          Repo Settlement clearance account between counterparties\n          Estimate 5-10 transactions a month\n          Average size 10-25 Million, could go to $100 million\n          DVP delivery\n          May have fails or small delivery differences\n          May have a custodial position for 2-3 days\n          Hold cash in account of residual P&L or wire back if significant\n\nQuestions:\n     Advance notice for settlement instructions required? Domestic? Foreign?\n     Intraday draft facility or we cover\n     Systems and daily information access\n\n\n\n\n\n\n\n - pic17086.pcx\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 2819,
+      "end": 2831,
+      "text": "pic17086.pcx",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 2816,
+      "end": 2832,
+      "text": " - pic17086.pcx\n",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 26,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 29,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 32,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 40,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 43,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 45,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 49,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 13,
+      "target": 49,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 53,
+      "target": 45,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 54,
+      "target": 55,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 57,
+      "target": 56,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 56,
+      "target": 58,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 60,
+      "target": 59,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 61,
+      "target": 59,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 54,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 64,
+      "target": 53,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 65,
+      "target": 49,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 66,
+      "target": 65,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28618540.1075844460357.JavaMail.evans@thyme>",
+      "Date": "Wed, 29 Mar 2000 07:40:00 -0800 (PST)",
+      "From": "sheila.glover@enron.com",
+      "To": "paul.garcia@enron.com",
+      "Subject": "Fixed Income Account Profile",
+      "Cc": "sara.shackleton@enron.com, theresa.brogan@enron.com, \n\tclara.carrington@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "sara.shackleton@enron.com, theresa.brogan@enron.com, \n\tclara.carrington@enron.com",
+      "X-From": "Sheila Glover",
+      "X-To": "Paul Garcia",
+      "X-cc": "Sara Shackleton, Theresa T Brogan, Clara Carrington",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Glover",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_glover_72.txt"
+}

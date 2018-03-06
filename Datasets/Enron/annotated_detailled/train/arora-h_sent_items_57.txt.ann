@@ -1,0 +1,194 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n-----Original Message-----\nFrom: Wang, Steve \nSent: Friday, November 02, 2001 10:00 AM\nTo: Stalford, Robert; Arora, Harry; Gualy, Jaime; Mack, Iris\nSubject: FW: Two cow theory\n\n\n\n\n-----Original Message-----\nFrom: Hodnette, Brooks [mailto:BHodnette@coral-energy.com]\nSent: Friday, November 02, 2001 9:58 AM\nTo: Wang, Steve; Adam Hoffman (E-mail); Dean Sloan (E-mail)\nSubject: Two cow theory\n\n\n\n> Enron Venture Capitalism\n> You have two cows.\n> You sell three of them to your publicly listed company, using letters of\n> credit opened by your brother-in-law at the bank, then execute a debt/\n> equity swap with an associated general offer so that you get all four cows\n> back, with a tax exemption for five cows.  The milk rights of the six cows\n> are transferred via an intermediary to a Cayman Island company secretly\n> owned by the majority shareholder who sells the rights to all seven cows\n> back to your listed company.  The annual report says the company owns\n> eight cows, with an option on one more.\n> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 35,
+      "end": 46,
+      "text": "Wang, Steve",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 62,
+      "end": 79,
+      "text": "November 02, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 80,
+      "end": 88,
+      "text": "10:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 93,
+      "end": 109,
+      "text": "Stalford, Robert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 111,
+      "end": 123,
+      "text": "Arora, Harry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 125,
+      "end": 137,
+      "text": "Gualy, Jaime",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 139,
+      "end": 149,
+      "text": "Mack, Iris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 159,
+      "end": 177,
+      "text": "FW: Two cow theory",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 178,
+      "text": "\n\n-----Original Message-----\nFrom: Wang, Steve \nSent: Friday, November 02, 2001 10:00 AM\nTo: Stalford, Robert; Arora, Harry; Gualy, Jaime; Mack, Iris\nSubject: FW: Two cow theory\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 215,
+      "end": 231,
+      "text": "Hodnette, Brooks",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 240,
+      "end": 266,
+      "text": "BHodnette@coral-energy.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 282,
+      "end": 299,
+      "text": "November 02, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 300,
+      "end": 307,
+      "text": "9:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 312,
+      "end": 323,
+      "text": "Wang, Steve",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 325,
+      "end": 337,
+      "text": "Adam Hoffman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 348,
+      "end": 358,
+      "text": "Dean Sloan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 377,
+      "end": 391,
+      "text": "Two cow theory",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 178,
+      "end": 392,
+      "text": "\n\n\n\n-----Original Message-----\nFrom: Hodnette, Brooks [mailto:BHodnette@coral-energy.com]\nSent: Friday, November 02, 2001 9:58 AM\nTo: Wang, Steve; Adam Hoffman (E-mail); Dean Sloan (E-mail)\nSubject: Two cow theory\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 392,
+      "end": 1010,
+      "text": "\n\n\n> Enron Venture Capitalism\n> You have two cows.\n> You sell three of them to your publicly listed company, using letters of\n> credit opened by your brother-in-law at the bank, then execute a debt/\n> equity swap with an associated general offer so that you get all four cows\n> back, with a tax exemption for five cows.  The milk rights of the six cows\n> are transferred via an intermediary to a Cayman Island company secretly\n> owned by the majority shareholder who sells the rights to all seven cows\n> back to your listed company.  The annual report says the company owns\n> eight cows, with an option on one more.\n> ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4189864.1075861400112.JavaMail.evans@thyme>",
+      "Date": "Fri, 2 Nov 2001 10:24:17 -0800 (PST)",
+      "From": "harry.arora@enron.com",
+      "To": "nmwolf@duke-energy.com",
+      "Subject": "FW: Two cow theory",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Arora, Harry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=HARORA>",
+      "X-To": "'nmwolf@duke-energy.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\HARORA (Non-Privileged)\\Arora, Harry\\Sent Items",
+      "X-Origin": "Arora-H",
+      "X-FileName": "HARORA (Non-Privileged).pst"
+    }
+  },
+  "id": "train/arora-h_sent_items_57.txt"
+}

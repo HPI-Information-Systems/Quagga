@@ -1,0 +1,21 @@
+Hi Team,
+
+I am new to solr and need your help. My problem statement is as below....
+
+I have uploaded document in solr as below. #sb# represents sentence begining and #se# represents
+senetence ending. Now I want to search terms which occur in same sentence .  If I search for
+q=text:"Federer Wimbledon" ,  below document should come in search result as both the terms
+occur in same senetence. If I search for q=text:"Federer Rafa" ,below document should not
+come in search result as the terms occur in different sentences.
+
+#sb#Federer, who looked ahead at Sunday's final, calling it an 'epic battle', said, "Maybe
+I lost the Wimbledon final in 2008 because of too many clay court matches #se##sb# He crushed
+me at the French Open final #se##sb# I think it affected my first two sets at Wimbledon #se##sb#
+Maybe that's why I ended up losing#se##sb# The Swiss continued, "I know Rafa played great
+in that final #se##sb# I actually ended up playing great too, but I wasn't fighting the right
+way #se##sb# I think that was the effect of that French Open loss. It was more mental #se#
+Could you please tell me how to fire query to achieve this.
+
+Thanks
+Neeraj
+

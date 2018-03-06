@@ -1,0 +1,39 @@
+What _exactly_ are you testing? It's unclear whether you're asking
+about general Lucene/Solr syntax or some of the recent streaming SQL
+work.
+
+On Wed, Mar 8, 2017 at 7:34 PM, Sundeep T <sundeep.t16@gmail.com> wrote:
+> Hi,
+>
+> I am using solr 6.3 version.
+>
+> We are seeing issues involving NOT clauses when they are paired in boolean expressions.
+The issues specifically occur when the “NOT” clause is surrounded by paratheses.
+>
+> For example, the following solr query does not return any results -
+>
+> (timestamp:[* TO "2017-08-17T07:12:55.807Z"]) AND (-text:"Daemon”)
+>
+> But if I remove the parantheses around the “NOT” clause for text param it returns
+expected results. Like, the below query works as expected -
+>
+> (timestamp:[* TO "2017-08-17T07:12:55.807Z"]) AND -text:”Daemon”
+>
+> This problem seems to happen only for boolean expression queries. If i give a singular
+query like below involving NOT with parantheses, it still works  -
+> (-text:"Daemon”)
+>
+> I see that the parantheses around the expression is added in SQLVisitor class in these
+lines. I tried removing the parantheses for NOT case and the code works.
+>
+>             case NOT_EQUAL:
+>                 buf.append('-').append(field).append(":").append(value);
+>                 return null;
+>
+> Any ideas what’s going on here and why parantheses are causing an issue?
+>
+> Thanks
+> Sundeep
+>
+>
+

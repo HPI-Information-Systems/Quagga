@@ -1,0 +1,792 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n\nCordially,\nMary Cook\nEnron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n----- Forwarded by Mary Cook/HOU/ECT on 04/24/2001 08:57 AM -----\n\n=09Tana Jones\n=0904/23/2001 05:56 PM\n=09=09=20\n=09=09 To: Alan Aronowitz/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, Marcus=\n=20\nNettelton/NA/Enron@ENRON, Harry M Collins/HOU/ECT@ECT, David=20\nMinns/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, Marie Heard/Enron=20\nCommunications@Enron Communications, Robbi Rossi/Enron Communications@Enron=\n=20\nCommunications, John Viverito/Corp/Enron@Enron, Jane McBride/AP/Enron@Enron=\n,=20\nAndrea Calo/SA/Enron@Enron, Peter Keohane/CAL/ECT@ECT, Mary Cook/HOU/ECT@EC=\nT,=20\nMark Taylor/HOU/ECT@ECT\n=09=09 cc:=20\n=09=09 Subject: FW: PG&E Energy Trading Entities\n\nPlease let me know immediately if you have any issues with the PG&E entitie=\ns=20\nat the bottom of this email trading the listed products.\n----- Forwarded by Tana Jones/HOU/ECT on 04/23/2001 05:55 PM -----\n\n=09Walter Guidroz/ENRON@enronXgate\n=0904/23/2001 05:35 PM\n=09=09=20\n=09=09 To: Lisa Lees/ENRON@enronXgate, Stephanie Sever/ENRON@enronXgate, Ta=\nna=20\nJones/HOU/ECT@ECT\n=09=09 cc:=20\n=09=09 Subject: FW: PG&E Energy Trading Entities\n\nLisa/Stephanie, could you please ensure that the trading profiles for each =\nof=20\nthe three PG&E entities are changed below such that by tomorrow morning the=\ny=20\nwill be able to transact once we restore their headroom once we enter it in=\nto=20\nthe system?\n\nTana, are you OK with restoring the changes reflected below?  I'm thinking=\n=20\nthat since they had this transact ability once before, that it should be OK=\n. =20\n\nPLEASE LET ME KNOW IF THERE WILL BE ANY PROBLEMS. =20\n\nThanks all!\n\nWalter\n\n -----Original Message-----\nFrom:  Moran, Tom =20\nSent: Monday, April 23, 2001 5:08 PM\nTo: Guidroz, Walter\nSubject: FW: PG&E Energy Trading Entities\n\nWalter,\n\nCould you ensure that the profiles are set-up accordingly and that CAS is=\n=20\npopulated with a $5million minimum for each of these cp=01,s.\n\nI do not want to turn them on in Datamanager until tomorrow am.\n\ntm\n\n -----Original Message-----\nFrom:  Conwell, Wendy =20\nSent: Monday, April 23, 2001 4:59 PM\nTo: Moran, Tom\nCc: Bradford, William S.; Ngo, Tracy; Sacks, Edward; Radous, Paul\nSubject: PG&E Energy Trading Entities\n\nTom,\n\nPer our discussion with Bill, please set up the following PG&E counterparti=\nes=20\non EOL providing for transactions having a maximum tenor of 12 MONTHS:\n\nPG&E Energy Trading - Power L.P.-------> Physical Power\nPG&E Energy Trading, Canada Corporation---------> Physical Canadian Gas\nPG&E Energy Trading - Gas Corporation---------->Physical and Financial US G=\nas\n\n\nThanks,\nWendy\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 14,
+      "end": 23,
+      "text": "Mary Cook",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 3,
+      "end": 23,
+      "text": "Cordially,\nMary Cook",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 152,
+      "end": 171,
+      "text": "mary.cook@enron.com",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 131,
+      "end": 145,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 108,
+      "end": 123,
+      "text": "(713) 345-7732 ",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 50,
+      "end": 107,
+      "text": "1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 24,
+      "end": 49,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 24,
+      "end": 172,
+      "text": "Enron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 172,
+      "text": "\n\n\nCordially,\nMary Cook\nEnron North America Corp.\n1400 Smith, 38th Floor, Legal\nHouston, Texas   77002-7361\n(713) 345-7732 (phone)\n(713) 646-3490 (fax)\nmary.cook@enron.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 191,
+      "end": 200,
+      "text": "Mary Cook",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 212,
+      "end": 222,
+      "text": "04/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 223,
+      "end": 231,
+      "text": "08:57 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 172,
+      "end": 238,
+      "text": "----- Forwarded by Mary Cook/HOU/ECT on 04/24/2001 08:57 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 242,
+      "end": 252,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 256,
+      "end": 266,
+      "text": "04/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 267,
+      "end": 275,
+      "text": "05:56 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 297,
+      "end": 311,
+      "text": "Alan Aronowitz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 325,
+      "end": 340,
+      "text": "Jeffrey T Hodge",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 354,
+      "end": 360,
+      "text": "Marcus",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 366,
+      "end": 375,
+      "text": "Nettelton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 392,
+      "end": 407,
+      "text": "Harry M Collins",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 421,
+      "end": 426,
+      "text": "David",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 430,
+      "end": 435,
+      "text": "Minns",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 473,
+      "end": 484,
+      "text": "Marie Heard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 531,
+      "end": 542,
+      "text": "Robbi Rossi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 591,
+      "end": 604,
+      "text": "John Viverito",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 623,
+      "end": 635,
+      "text": "Jane McBride",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 657,
+      "end": 668,
+      "text": "Andrea Calo",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 685,
+      "end": 698,
+      "text": "Peter Keohane",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 712,
+      "end": 721,
+      "text": "Mary Cook",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 740,
+      "end": 751,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 794,
+      "end": 826,
+      "text": "FW: PG&E Energy Trading Entities",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 238,
+      "end": 827,
+      "text": "\n=09Tana Jones\n=0904/23/2001 05:56 PM\n=09=09=20\n=09=09 To: Alan Aronowitz/HOU/ECT@ECT, Jeffrey T Hodge/HOU/ECT@ECT, Marcus=\n=20\nNettelton/NA/Enron@ENRON, Harry M Collins/HOU/ECT@ECT, David=20\nMinns/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, Marie Heard/Enron=20\nCommunications@Enron Communications, Robbi Rossi/Enron Communications@Enron=\n=20\nCommunications, John Viverito/Corp/Enron@Enron, Jane McBride/AP/Enron@Enron=\n,=20\nAndrea Calo/SA/Enron@Enron, Peter Keohane/CAL/ECT@ECT, Mary Cook/HOU/ECT@EC=\nT,=20\nMark Taylor/HOU/ECT@ECT\n=09=09 cc:=20\n=09=09 Subject: FW: PG&E Energy Trading Entities\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 827,
+      "end": 967,
+      "text": "\nPlease let me know immediately if you have any issues with the PG&E entitie=\ns=20\nat the bottom of this email trading the listed products.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 986,
+      "end": 996,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1008,
+      "end": 1018,
+      "text": "04/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1019,
+      "end": 1027,
+      "text": "05:55 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 967,
+      "end": 1034,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 04/23/2001 05:55 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1038,
+      "end": 1052,
+      "text": "Walter Guidroz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1073,
+      "end": 1083,
+      "text": "04/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1084,
+      "end": 1092,
+      "text": "05:35 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1114,
+      "end": 1123,
+      "text": "Lisa Lees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1142,
+      "end": 1157,
+      "text": "Stephanie Sever",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1176,
+      "end": 1178,
+      "text": "Ta",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1180,
+      "end": 1182,
+      "text": "na",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1186,
+      "end": 1191,
+      "text": "Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1234,
+      "end": 1266,
+      "text": "FW: PG&E Energy Trading Entities",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1034,
+      "end": 1267,
+      "text": "\n=09Walter Guidroz/ENRON@enronXgate\n=0904/23/2001 05:35 PM\n=09=09=20\n=09=09 To: Lisa Lees/ENRON@enronXgate, Stephanie Sever/ENRON@enronXgate, Ta=\nna=20\nJones/HOU/ECT@ECT\n=09=09 cc:=20\n=09=09 Subject: FW: PG&E Energy Trading Entities\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1268,
+      "end": 1272,
+      "text": "Lisa",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1273,
+      "end": 1282,
+      "text": "Stephanie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1748,
+      "end": 1767,
+      "text": "Thanks all!\n\nWalter",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1761,
+      "end": 1767,
+      "text": "Walter",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1267,
+      "end": 1769,
+      "text": "\nLisa/Stephanie, could you please ensure that the trading profiles for each =\nof=20\nthe three PG&E entities are changed below such that by tomorrow morning the=\ny=20\nwill be able to transact once we restore their headroom once we enter it in=\nto=20\nthe system?\n\nTana, are you OK with restoring the changes reflected below?  I'm thinking=\n=20\nthat since they had this transact ability once before, that it should be OK=\n. =20\n\nPLEASE LET ME KNOW IF THERE WILL BE ANY PROBLEMS. =20\n\nThanks all!\n\nWalter\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1804,
+      "end": 1814,
+      "text": "Moran, Tom",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1833,
+      "end": 1847,
+      "text": "April 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1848,
+      "end": 1855,
+      "text": "5:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1860,
+      "end": 1875,
+      "text": "Guidroz, Walter",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1885,
+      "end": 1917,
+      "text": "FW: PG&E Energy Trading Entities",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1769,
+      "end": 1918,
+      "text": " -----Original Message-----\nFrom:  Moran, Tom =20\nSent: Monday, April 23, 2001 5:08 PM\nTo: Guidroz, Walter\nSubject: FW: PG&E Energy Trading Entities\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1919,
+      "end": 1925,
+      "text": "Walter",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 2135,
+      "end": 2137,
+      "text": "tm",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1918,
+      "end": 2139,
+      "text": "\nWalter,\n\nCould you ensure that the profiles are set-up accordingly and that CAS is=\n=20\npopulated with a $5million minimum for each of these cp=01,s.\n\nI do not want to turn them on in Datamanager until tomorrow am.\n\ntm\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 2174,
+      "end": 2188,
+      "text": "Conwell, Wendy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 2207,
+      "end": 2221,
+      "text": "April 23, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 2222,
+      "end": 2229,
+      "text": "4:59 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 2234,
+      "end": 2244,
+      "text": "Moran, Tom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 2249,
+      "end": 2268,
+      "text": "Bradford, William S",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 2271,
+      "end": 2281,
+      "text": "Ngo, Tracy",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 2283,
+      "end": 2296,
+      "text": "Sacks, Edward",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 2298,
+      "end": 2310,
+      "text": "Radous, Paul",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 2320,
+      "end": 2348,
+      "text": "PG&E Energy Trading Entities",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 2139,
+      "end": 2349,
+      "text": " -----Original Message-----\nFrom:  Conwell, Wendy =20\nSent: Monday, April 23, 2001 4:59 PM\nTo: Moran, Tom\nCc: Bradford, William S.; Ngo, Tracy; Sacks, Edward; Radous, Paul\nSubject: PG&E Energy Trading Entities\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 2350,
+      "end": 2353,
+      "text": "Tom",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 2729,
+      "end": 2734,
+      "text": "Wendy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 2721,
+      "end": 2734,
+      "text": "Thanks,\nWendy",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 2349,
+      "end": 2735,
+      "text": "\nTom,\n\nPer our discussion with Bill, please set up the following PG&E counterparti=\nes=20\non EOL providing for transactions having a maximum tenor of 12 MONTHS:\n\nPG&E Energy Trading - Power L.P.-------> Physical Power\nPG&E Energy Trading, Canada Corporation---------> Physical Canadian Gas\nPG&E Energy Trading - Gas Corporation---------->Physical and Financial US G=\nas\n\n\nThanks,\nWendy\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 7,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 1,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 20,
+      "target": 19,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 23,
+      "target": 22,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 35,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 46,
+      "target": 45,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 45,
+      "target": 44,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 44,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 50,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 49,
+      "target": 42,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 52,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 57,
+      "target": 52,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 60,
+      "target": 57,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 61,
+      "target": 54,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 30,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 66,
+      "target": 61,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 74,
+      "target": 63,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 73,
+      "target": 66,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10325429.1075847434939.JavaMail.evans@thyme>",
+      "Date": "Tue, 24 Apr 2001 01:58:00 -0700 (PDT)",
+      "From": "mary.cook@enron.com",
+      "To": "lisa.mellencamp@enron.com, elizabeth.sager@enron.com",
+      "Subject": "FW: PG&E Energy Trading Entities",
+      "Cc": "tana.jones@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "Bcc": "tana.jones@enron.com",
+      "X-From": "Mary Cook",
+      "X-To": "Lisa Mellencamp, Elizabeth Sager",
+      "X-cc": "Tana Jones",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_4272.txt"
+}

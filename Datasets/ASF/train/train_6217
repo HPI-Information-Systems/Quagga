@@ -1,0 +1,61 @@
+this _should_ be OK. I'd expect the new nodes to see that more than
+100 docs have been indexed and do a full sync.
+
+However, you can insure this by removing the entire data directory
+from the nodes that are down (rm -rf data). They'll
+come back up, do a full sync and start answering queries only after
+the full sync is completed.
+
+Best,
+Erick
+
+On Wed, Sep 20, 2017 at 3:00 PM, Joe Heasly <jheasly@llbean.com> wrote:
+> Hello,
+>
+> We have just moved from solr 4.6 master/slave to 6.4.2 SolrCloud.  We have three collections,
+each with a single shard and a varying number of replicas, all kept by an ensemble of three
+zooKeepers (on their own hosts).  As an ecommerce site, our capacity needs vary so we add
+and remove replicas with some frequency.  The basic topology is like this:
+>
+> solr1
+>   |- collection1
+>         |- shard1 - replica1
+>   |- collection2
+>         |- shard1 - replica1
+>   |- collection3
+>         |- shard1 - replica1
+>          .
+>          .
+>          .
+> solrN
+>   |- collection1
+>         |- shard1 - replicaN
+>   |- collection2
+>         |- shard1 - replicaN
+>   |- collection3
+>         |- shard1 - replicaN
+>
+> Where N varies between three and six most of the time.
+>
+> During a recent test, we ran our indexing processes to a set of nodes, and then two nodes
+were removed from our configuration.  Subsequently the remaining nodes were reindexed, without
+problems.  The two nodes that had been previously removed (by simply stopping solr on those
+boxes) were brought back into the cluster by starting solr with the appropriate zkHost strings.
+ (These were the same zkHosts as when the instances were stopped.)  We found that the indexes
+did not synch up until we re-indexed the entire cluster.
+>
+> What are we missing?  We need the re-added indexes to synchronize with those already
+active in the cluster.  If we have to re-index the whole cluster, we risk inconsistent results
+being served from the new nodes while indexing is going on.  In reviewing the Reference Guide
+and doing various searches, I haven't found anything that clearly references adding replicas
+to a cluster when the cores already contain data.
+>
+> Thank you for any insights,
+> Joe
+>
+> Joe Heasly, Systems Analyst I
+> L.L.Bean, Inc. ~ Direct Channel Business & Technology Team
+> Office: 207.552.2254
+> Cell:    207.756.9250
+>
+

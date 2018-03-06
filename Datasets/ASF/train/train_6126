@@ -1,0 +1,9 @@
+shamik <shamikb@gmail.com> wrote:
+> I've facet.limit=-1 configured for few search types, but facet.mincount is
+> always set as 1. Didn't know that's detrimental to doc values.
+
+It is if you have a lot (1000+) of unique values in your facet field, especially when you
+have more than 1 shard. Only ask for the number you need. Same goes for rows BTW.
+
+- Toke Eskildsen
+

@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "If literally all you are doing is rdd.map I wouldn't expect\nsaveToCassandra to happen at all, since map is not an action.\n\nFiltering for unsuccessful attempts and collecting those back to the\ndriver would be one way for the driver to know whether it was safe to\ncommit.\n\nOn Mon, Aug 7, 2017 at 12:31 AM, shyla deshpande\n<deshpandeshyla@gmail.com> wrote:\n> rdd.map { record => ()}.saveToCassandra(\"keyspace1\", \"table1\")  --> is\n> running on executor\n>\n> stream1.asInstanceOf[CanCommitOffsets].commitAsync(offsetRanges) --> is\n> running on driver.\n>\n> Is this the reason why kafka offsets are committed even when an exception is\n> raised? If so is there a way to commit the offsets only when there are no\n> exceptions?\n>\n>\n>\n> On Sun, Aug 6, 2017 at 10:23 PM, shyla deshpande <deshpandeshyla@gmail.com>\n> wrote:\n>>\n>> Thanks again Cody,\n>>\n>> My understanding is all the code inside foreachRDD is running on the\n>> driver except for\n>> rdd.map { record => ()}.saveToCassandra(\"keyspace1\", \"table1\").\n>>\n>> When the exception is raised, I was thinking I won't be committing the\n>> offsets, but the offsets are committed all the time independent of whether\n>> an exception was raised or not.\n>>\n>> It will be helpful if you can explain this behavior.\n>>\n>>\n>> On Sun, Aug 6, 2017 at 5:19 PM, Cody Koeninger <cody@koeninger.org> wrote:\n>>>\n>>> I mean that the kafka consumers running on the executors should not be\n>>> automatically committing, because the fact that a message was read by\n>>> the consumer has no bearing on whether it was actually successfully\n>>> processed after reading.\n>>>\n>>> It sounds to me like you're confused about where code is running.\n>>> foreachRDD runs on the driver, not the executor.\n>>>\n>>>\n>>> http://spark.apache.org/docs/latest/streaming-programming-guide.html#design-patterns-for-using-foreachrdd\n>>>\n>>> On Sun, Aug 6, 2017 at 12:55 PM, shyla deshpande\n>>> <deshpandeshyla@gmail.com> wrote:\n>>> > Thanks Cody for your response.\n>>> >\n>>> > All I want to do is, commit the offsets only if I am successfully able\n>>> > to\n>>> > write to cassandra database.\n>>> >\n>>> > The line //save the rdd to Cassandra database is\n>>> > rdd.map { record => ()}.saveToCassandra(\"kayspace1\", \"table1\")\n>>> >\n>>> > What do you mean by Executors shouldn't be auto-committing, that's why\n>>> > it's\n>>> > being overridden. It is the executors that do the mapping and saving to\n>>> > cassandra. The status of success or failure of this operation is known\n>>> > only\n>>> > on the executor and thats where I want to commit the kafka offsets. If\n>>> > this\n>>> > is not what I sould be doing, then  what is the right way?\n>>> >\n>>> > On Sun, Aug 6, 2017 at 9:21 AM, Cody Koeninger <cody@koeninger.org>\n>>> > wrote:\n>>> >>\n>>> >> If your complaint is about offsets being committed that you didn't\n>>> >> expect... auto commit being false on executors shouldn't have anything\n>>> >> to do with that.  Executors shouldn't be auto-committing, that's why\n>>> >> it's being overridden.\n>>> >>\n>>> >> What you've said and the code you posted isn't really enough to\n>>> >> explain what your issue is, e.g.\n>>> >>\n>>> >> is this line\n>>> >> // save the rdd to Cassandra database\n>>> >> a blocking call\n>>> >>\n>>> >> are you sure that the rdd foreach isn't being retried and succeeding\n>>> >> the second time around, etc\n>>> >>\n>>> >> On Sat, Aug 5, 2017 at 5:10 PM, shyla deshpande\n>>> >> <deshpandeshyla@gmail.com> wrote:\n>>> >> > Hello All,\n>>> >> > I am using spark 2.0.2 and spark-streaming-kafka-0-10_2.11 .\n>>> >> >\n>>> >> > I am setting enable.auto.commit to false, and manually want to\n>>> >> > commit\n>>> >> > the\n>>> >> > offsets after my output operation is successful. So when a exception\n>>> >> > is\n>>> >> > raised during during the processing I do not want the offsets to\nbe\n>>> >> > committed. But looks like the offsets are automatically committed\n>>> >> > even\n>>> >> > when\n>>> >> > the exception is raised and thereby I am losing data.\n>>> >> > In my logs I see,  WARN  overriding enable.auto.commit to false\nfor\n>>> >> > executor.  But I don't want it to override. Please help.\n>>> >> >\n>>> >> > My code looks like..\n>>> >> >\n>>> >> >     val kafkaParams = Map[String, Object](\n>>> >> >       \"bootstrap.servers\" -> brokers,\n>>> >> >       \"key.deserializer\" -> classOf[StringDeserializer],\n>>> >> >       \"value.deserializer\" -> classOf[StringDeserializer],\n>>> >> >       \"group.id\" -> \"Group1\",\n>>> >> >       \"auto.offset.reset\" -> offsetresetparameter,\n>>> >> >       \"enable.auto.commit\" -> (false: java.lang.Boolean)\n>>> >> >     )\n>>> >> >\n>>> >> >     val myTopics = Array(\"topic1\")\n>>> >> >     val stream1 = KafkaUtils.createDirectStream[String, String](\n>>> >> >       ssc,\n>>> >> >       PreferConsistent,\n>>> >> >       Subscribe[String, String](myTopics, kafkaParams)\n>>> >> >     )\n>>> >> >\n>>> >> >     stream1.foreachRDD { (rdd, time) =>\n>>> >> >         val offsetRanges =\n>>> >> > rdd.asInstanceOf[HasOffsetRanges].offsetRanges\n>>> >> >         try {\n>>> >> >             //save the rdd to Cassandra database\n>>> >> >\n>>> >> >\n>>> >> > stream1.asInstanceOf[CanCommitOffsets].commitAsync(offsetRanges)\n>>> >> >         } catch {\n>>> >> >           case ex: Exception => {\n>>> >> >             println(ex.toString + \"!!!!!! Bad Data, Unable to\n>>> >> > persist\n>>> >> > into\n>>> >> > table !!!!!\" + errorOffsetRangesToString(offsetRanges))\n>>> >> >           }\n>>> >> >         }\n>>> >> >     }\n>>> >> >\n>>> >> >     ssc.start()\n>>> >> >     ssc.awaitTermination()\n>>> >\n>>> >\n>>\n>>\n>\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 271,
+      "text": "If literally all you are doing is rdd.map I wouldn't expect\nsaveToCassandra to happen at all, since map is not an action.\n\nFiltering for unsuccessful attempts and collecting those back to the\ndriver would be one way for the driver to know whether it was safe to\ncommit.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 271,
+      "end": 354,
+      "text": "On Mon, Aug 7, 2017 at 12:31 AM, shyla deshpande\n<deshpandeshyla@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 354,
+      "end": 723,
+      "text": "> rdd.map { record => ()}.saveToCassandra(\"keyspace1\", \"table1\")  --> is\n> running on executor\n>\n> stream1.asInstanceOf[CanCommitOffsets].commitAsync(offsetRanges) --> is\n> running on driver.\n>\n> Is this the reason why kafka offsets are committed even when an exception is\n> raised? If so is there a way to commit the offsets only when there are no\n> exceptions?\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 723,
+      "end": 810,
+      "text": "> On Sun, Aug 6, 2017 at 10:23 PM, shyla deshpande <deshpandeshyla@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 810,
+      "end": 835,
+      "text": ">>\n>> Thanks again Cody,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 810,
+      "end": 1253,
+      "text": ">>\n>> Thanks again Cody,\n>>\n>> My understanding is all the code inside foreachRDD is running on the\n>> driver except for\n>> rdd.map { record => ()}.saveToCassandra(\"keyspace1\", \"table1\").\n>>\n>> When the exception is raised, I was thinking I won't be committing the\n>> offsets, but the offsets are committed all the time independent of whether\n>> an exception was raised or not.\n>>\n>> It will be helpful if you can explain this behavior.\n>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1253,
+      "end": 1331,
+      "text": ">> On Sun, Aug 6, 2017 at 5:19 PM, Cody Koeninger <cody@koeninger.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1331,
+      "end": 1834,
+      "text": ">>>\n>>> I mean that the kafka consumers running on the executors should not be\n>>> automatically committing, because the fact that a message was read by\n>>> the consumer has no bearing on whether it was actually successfully\n>>> processed after reading.\n>>>\n>>> It sounds to me like you're confused about where code is running.\n>>> foreachRDD runs on the driver, not the executor.\n>>>\n>>>\n>>> http://spark.apache.org/docs/latest/streaming-programming-guide.html#design-patterns-for-using-foreachrdd\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1834,
+      "end": 1925,
+      "text": ">>> On Sun, Aug 6, 2017 at 12:55 PM, shyla deshpande\n>>> <deshpandeshyla@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1925,
+      "end": 1962,
+      "text": ">>> > Thanks Cody for your response.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1925,
+      "end": 2638,
+      "text": ">>> > Thanks Cody for your response.\n>>> >\n>>> > All I want to do is, commit the offsets only if I am successfully able\n>>> > to\n>>> > write to cassandra database.\n>>> >\n>>> > The line //save the rdd to Cassandra database is\n>>> > rdd.map { record => ()}.saveToCassandra(\"kayspace1\", \"table1\")\n>>> >\n>>> > What do you mean by Executors shouldn't be auto-committing, that's why\n>>> > it's\n>>> > being overridden. It is the executors that do the mapping and saving to\n>>> > cassandra. The status of success or failure of this operation is known\n>>> > only\n>>> > on the executor and thats where I want to commit the kafka offsets. If\n>>> > this\n>>> > is not what I sould be doing, then  what is the right way?\n>>> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2638,
+      "end": 2725,
+      "text": ">>> > On Sun, Aug 6, 2017 at 9:21 AM, Cody Koeninger <cody@koeninger.org>\n>>> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2725,
+      "end": 3328,
+      "text": ">>> >>\n>>> >> If your complaint is about offsets being committed that you didn't\n>>> >> expect... auto commit being false on executors shouldn't have anything\n>>> >> to do with that.  Executors shouldn't be auto-committing, that's why\n>>> >> it's being overridden.\n>>> >>\n>>> >> What you've said and the code you posted isn't really enough to\n>>> >> explain what your issue is, e.g.\n>>> >>\n>>> >> is this line\n>>> >> // save the rdd to Cassandra database\n>>> >> a blocking call\n>>> >>\n>>> >> are you sure that the rdd foreach isn't being retried and succeeding\n>>> >> the second time around, etc\n>>> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3328,
+      "end": 3424,
+      "text": ">>> >> On Sat, Aug 5, 2017 at 5:10 PM, shyla deshpande\n>>> >> <deshpandeshyla@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3424,
+      "end": 3444,
+      "text": ">>> >> > Hello All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3424,
+      "end": 5655,
+      "text": ">>> >> > Hello All,\n>>> >> > I am using spark 2.0.2 and spark-streaming-kafka-0-10_2.11 .\n>>> >> >\n>>> >> > I am setting enable.auto.commit to false, and manually want to\n>>> >> > commit\n>>> >> > the\n>>> >> > offsets after my output operation is successful. So when a exception\n>>> >> > is\n>>> >> > raised during during the processing I do not want the offsets to\nbe\n>>> >> > committed. But looks like the offsets are automatically committed\n>>> >> > even\n>>> >> > when\n>>> >> > the exception is raised and thereby I am losing data.\n>>> >> > In my logs I see,  WARN  overriding enable.auto.commit to false\nfor\n>>> >> > executor.  But I don't want it to override. Please help.\n>>> >> >\n>>> >> > My code looks like..\n>>> >> >\n>>> >> >     val kafkaParams = Map[String, Object](\n>>> >> >       \"bootstrap.servers\" -> brokers,\n>>> >> >       \"key.deserializer\" -> classOf[StringDeserializer],\n>>> >> >       \"value.deserializer\" -> classOf[StringDeserializer],\n>>> >> >       \"group.id\" -> \"Group1\",\n>>> >> >       \"auto.offset.reset\" -> offsetresetparameter,\n>>> >> >       \"enable.auto.commit\" -> (false: java.lang.Boolean)\n>>> >> >     )\n>>> >> >\n>>> >> >     val myTopics = Array(\"topic1\")\n>>> >> >     val stream1 = KafkaUtils.createDirectStream[String, String](\n>>> >> >       ssc,\n>>> >> >       PreferConsistent,\n>>> >> >       Subscribe[String, String](myTopics, kafkaParams)\n>>> >> >     )\n>>> >> >\n>>> >> >     stream1.foreachRDD { (rdd, time) =>\n>>> >> >         val offsetRanges =\n>>> >> > rdd.asInstanceOf[HasOffsetRanges].offsetRanges\n>>> >> >         try {\n>>> >> >             //save the rdd to Cassandra database\n>>> >> >\n>>> >> >\n>>> >> > stream1.asInstanceOf[CanCommitOffsets].commitAsync(offsetRanges)\n>>> >> >         } catch {\n>>> >> >           case ex: Exception => {\n>>> >> >             println(ex.toString + \"!!!!!! Bad Data, Unable to\n>>> >> > persist\n>>> >> > into\n>>> >> > table !!!!!\" + errorOffsetRangesToString(offsetRanges))\n>>> >> >           }\n>>> >> >         }\n>>> >> >     }\n>>> >> >\n>>> >> >     ssc.start()\n>>> >> >     ssc.awaitTermination()\n>>> >\n>>> >\n>>\n>>\n>\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4630"
+}

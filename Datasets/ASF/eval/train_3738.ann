@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "No, those are two different queries.\n\nThe second query would also not work because the revenue table does not\nhave the EventTime attribute.\n\nBest, Fabian\n\n2017-08-01 13:03 GMT+02:00 nragon <nuno.goncalves@wedotechnologies.com>:\n\n> Hi,\n>\n> Can i expect the output from this:\n>\n> Table revenue = tableEnv.sql(\n>     \"SELECT TUMBLE_START(EventTime, INTERVAL '30' MINUTE) as tStart, \" +\n>                         \"TUMBLE_END(EventTime, INTERVAL '30' MINUTE) as\n> tEnd, \" +\n>                         \"cID, \" +\n>                         \"cName, \" +\n>                         \"SUM(revenue) AS revSum \" +\n>     \"FROM Orders \" +\n>     \"WHERE cCountry = 'FRANCE' \" +\n>     \"GROUP BY TUMBLE(EventTime, INTERVAL '30' MINUTE), cID, cName\"\n>   );\n>\n> being the same as this:\n>\n> Table revenue = tableEnv.sql(\n>     \"SELECT cID, cName, SUM(revenue) AS revSum \" +\n>     \"FROM Orders \" +\n>     \"WHERE cCountry = 'FRANCE' \" +\n>     \"GROUP BY cID, cName\"\n>   );\n>\n> revenue\n>         .select(\"*, e.start, e.end\")\n>         .window(Tumble.over(\"30.minute\").on(\"EventTime\").as(\"e\"))\n>         .groupBy(\"e\")\n>\n>\n> Or the second involves one query as nested of tumble query?\n>\n> Thanks\n>\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/SQL-API-with-\n> Table-API-tp14599.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 140,
+      "end": 154,
+      "text": "\nBest, Fabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 155,
+      "text": "No, those are two different queries.\n\nThe second query would also not work because the revenue table does not\nhave the EventTime attribute.\n\nBest, Fabian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 155,
+      "end": 228,
+      "text": "2017-08-01 13:03 GMT+02:00 nragon <nuno.goncalves@wedotechnologies.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 228,
+      "end": 235,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1152,
+      "end": 1163,
+      "text": ">\n> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 228,
+      "end": 1415,
+      "text": "\n> Hi,\n>\n> Can i expect the output from this:\n>\n> Table revenue = tableEnv.sql(\n>     \"SELECT TUMBLE_START(EventTime, INTERVAL '30' MINUTE) as tStart, \" +\n>                         \"TUMBLE_END(EventTime, INTERVAL '30' MINUTE) as\n> tEnd, \" +\n>                         \"cID, \" +\n>                         \"cName, \" +\n>                         \"SUM(revenue) AS revSum \" +\n>     \"FROM Orders \" +\n>     \"WHERE cCountry = 'FRANCE' \" +\n>     \"GROUP BY TUMBLE(EventTime, INTERVAL '30' MINUTE), cID, cName\"\n>   );\n>\n> being the same as this:\n>\n> Table revenue = tableEnv.sql(\n>     \"SELECT cID, cName, SUM(revenue) AS revSum \" +\n>     \"FROM Orders \" +\n>     \"WHERE cCountry = 'FRANCE' \" +\n>     \"GROUP BY cID, cName\"\n>   );\n>\n> revenue\n>         .select(\"*, e.start, e.end\")\n>         .window(Tumble.over(\"30.minute\").on(\"EventTime\").as(\"e\"))\n>         .groupBy(\"e\")\n>\n>\n> Or the second involves one query as nested of tumble query?\n>\n> Thanks\n>\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/SQL-API-with-\n> Table-API-tp14599.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3738"
+}

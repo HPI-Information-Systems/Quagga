@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "I am familiar with the Mancini option, but I don't know who this person might be.  Any ideas?\n\n -----Original Message-----\nFrom: \tCarnahan, Kathleen  \nSent:\tThursday, December 13, 2001 10:38 AM\nTo:\tMann, Kay; Jacoby, Ben\nSubject:\tDeerfield landowner!!!!!\n\nPaul Jankowsky just called and wanted to talk to the attorney in charge of the Deerfield project.  He sounded a tad irate.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 95,
+      "text": "I am familiar with the Mancini option, but I don't know who this person might be.  Any ideas?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 130,
+      "end": 148,
+      "text": "Carnahan, Kathleen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 167,
+      "end": 184,
+      "text": "December 13, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 185,
+      "end": 193,
+      "text": "10:38 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 198,
+      "end": 207,
+      "text": "Mann, Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 209,
+      "end": 220,
+      "text": "Jacoby, Ben",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 230,
+      "end": 254,
+      "text": "Deerfield landowner!!!!!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 255,
+      "end": 378,
+      "text": "\nPaul Jankowsky just called and wanted to talk to the attorney in charge of the Deerfield project.  He sounded a tad irate.",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 95,
+      "end": 255,
+      "text": " -----Original Message-----\nFrom: \tCarnahan, Kathleen  \nSent:\tThursday, December 13, 2001 10:38 AM\nTo:\tMann, Kay; Jacoby, Ben\nSubject:\tDeerfield landowner!!!!!\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4805541.1075855240085.JavaMail.evans@thyme>",
+      "Date": "Thu, 13 Dec 2001 09:58:28 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "kathleen.carnahan@enron.com, ben.jacoby@enron.com",
+      "Subject": "RE: Deerfield landowner!!!!!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mann, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KMANN>",
+      "X-To": "Carnahan, Kathleen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kcarnah>, Jacoby, Ben </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bjacoby>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_Jan2002\\Mann, Kay\\Sent Items",
+      "X-Origin": "Mann-K",
+      "X-FileName": "kmann (Non-Privileged).pst"
+    }
+  },
+  "id": "test/mann-k_sent_items_81.txt"
+}

@@ -1,0 +1,46 @@
+Yes, it has been asked many times and has been answered both on the
+list and in the - awesome - Reference Guide. I'd recommend reading
+that and then coming back again with more specific question:
+https://cwiki.apache.org/confluence/display/solr/Overview+of+Documents%2C+Fields%2C+and+Schema+Design
+
+One confusion to clarify though. API is HTTP API, Admin UI just uses
+it and does not - yet - expose everything possible. You can always
+just hit Solr directly for the missing bits. Again, RTARG (.. Awesome
+Reference Guide) and then come back with specifics:
+https://cwiki.apache.org/confluence/display/solr/Schema+API
+
+Regards,
+   Alex.
+
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 7 March 2017 at 11:41, OTH <omer.t.h.7@gmail.com> wrote:
+> Hello
+>
+> I'm sure this has been asked many times but I'm having some confusion here.
+>
+> I understand that managed-schema is not supposed to be edited by hand but
+> only via the "API".  All I understand about this "API" however, is that it
+> may be referring to the "Schema" page in the Solr browser-based Admin.
+>
+> However, in this "Schema" page, it provides options for "Add Field", "Add
+> Dynamic Field", "Add Copy Field"; but when I was trying to add a
+> "fieldType", I couldn't find any way to do this from this web page.
+>
+> So I instead edited the managed-schema page by hand, which I understand can
+> be problematic if the schema is ever edited it via the API later on?
+>
+> I am using v. 6.4.1; when I create a new core, it creates the
+> managed-schema file in the 'conf' folder.  Is there any way to use the
+> older 'schema.xml' format instead?  Because there seems to be more
+> documentation available for that, and like I describe, the browser API
+> seems to perhaps be lacking.
+>
+> If so - what do users usually prefer; schema.xml or managed-schema?  (I'm
+> aware this depends on individual preference, but would be nice to get
+> others' feedback.)
+>
+> Thanks
+

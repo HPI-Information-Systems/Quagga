@@ -1,0 +1,93 @@
+The trigger interval is optionally specified in the writeStream option
+before start.
+
+val windowedCounts = words.groupBy(
+  window($"timestamp", "24 hours", "24 hours"),
+  $"word"
+).count()
+.writeStream
+.trigger(ProcessingTime("10 seconds"))  // optional
+.format("memory")
+.queryName("tableName")
+.start()
+
+See the full example here -
+https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/sql/streaming/StructuredNetworkWordCountWindowed.scala
+
+
+On Mon, Apr 10, 2017 at 12:55 PM, kant kodali <kanth909@gmail.com> wrote:
+
+> Thanks again! Looks like the update mode is not available in 2.1 (which
+> seems to be the latest version as of today) and I am assuming there will be
+> a way to specify trigger interval with the next release because with the
+> following code I don't see a way to specify trigger interval.
+>
+> val windowedCounts = words.groupBy(
+>   window($"timestamp", "24 hours", "24 hours"),
+>   $"word").count()
+>
+>
+> On Mon, Apr 10, 2017 at 12:32 PM, Michael Armbrust <michael@databricks.com
+> > wrote:
+>
+>> It sounds like you want a tumbling window (where the slide and duration
+>> are the same).  This is the default if you give only one interval.  You
+>> should set the output mode to "update" (i.e. output only the rows that have
+>> been updated since the last trigger) and the trigger to "1 second".
+>>
+>> Try thinking about the batch query that would produce the answer you
+>> want.  Structured streaming will figure out an efficient way to compute
+>> that answer incrementally as new data arrives.
+>>
+>> On Mon, Apr 10, 2017 at 12:20 PM, kant kodali <kanth909@gmail.com> wrote:
+>>
+>>> Hi Michael,
+>>>
+>>> Thanks for the response. I guess I was thinking more in terms of the
+>>> regular streaming model. so In this case I am little confused what my
+>>> window interval and slide interval be for the following case?
+>>>
+>>> I need to hold a state (say a count) for 24 hours while capturing all
+>>> its updates and produce results every second. I also need to reset the
+>>> state (the count) back to zero every 24 hours.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On Mon, Apr 10, 2017 at 11:49 AM, Michael Armbrust <
+>>> michael@databricks.com> wrote:
+>>>
+>>>> Nope, structured streaming eliminates the limitation that
+>>>> micro-batching should affect the results of your streaming query.  Trigger
+>>>> is just an indication of how often you want to produce results (and if you
+>>>> leave it blank we just run as quickly as possible).
+>>>>
+>>>> To control how tuples are grouped into a window, take a look at the
+>>>> window
+>>>> <http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#window-operations-on-event-time>
+>>>> function.
+>>>>
+>>>> On Thu, Apr 6, 2017 at 10:26 AM, kant kodali <kanth909@gmail.com>
+>>>> wrote:
+>>>>
+>>>>> Hi All,
+>>>>>
+>>>>> Is the trigger interval mentioned in this doc
+>>>>> <http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html>
+>>>>> the same as batch interval in structured streaming? For example I have
+a
+>>>>> long running receiver(not kafka) which sends me a real time stream I
+want
+>>>>> to use window interval, slide interval of 24 hours to create the Tumbling
+>>>>> window effect but I want to process updates every second.
+>>>>>
+>>>>> Thanks!
+>>>>>
+>>>>
+>>>>
+>>>
+>>
+>
+

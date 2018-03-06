@@ -1,0 +1,57 @@
+Hello guys,
+
+Can somebody help me with my problem?
+Let me know, if you need more details.
+
+
+ср, 7 июн. 2017 г. в 16:43, Patrik Medvedev <patrik.medvedev@gmail.com>:
+
+> No, I don't.
+>
+> ср, 7 июн. 2017 г. в 16:42, Jean Georges Perrin <jgp@jgp.net>:
+>
+>> Do you have some other security in place like Kerberos or impersonation?
+>> It may affect your access.
+>>
+>>
+>> jg
+>>
+>>
+>> On Jun 7, 2017, at 02:15, Patrik Medvedev <patrik.medvedev@gmail.com>
+>> wrote:
+>>
+>> Hello guys,
+>>
+>> I need to execute hive queries on remote hive server from spark, but for
+>> some reasons i receive only column names(without data).
+>> Data available in table, i checked it via HUE and java jdbc connection.
+>>
+>> Here is my code example:
+>> val test = spark.read
+>>         .option("url", "jdbc:hive2://remote.hive.server:10000/work_base")
+>>         .option("user", "user")
+>>         .option("password", "password")
+>>         .option("dbtable", "some_table_with_data")
+>>         .option("driver", "org.apache.hive.jdbc.HiveDriver")
+>>         .format("jdbc")
+>>         .load()
+>> test.show()
+>>
+>>
+>> Scala version: 2.11
+>> Spark version: 2.1.0, i also tried 2.1.1
+>> Hive version: CDH 5.7 Hive 1.1.1
+>> Hive JDBC version: 1.1.1
+>>
+>> But this problem available on Hive with later versions, too.
+>> Could you help me with this issue, because i didn't find anything in mail
+>> group answers and StackOverflow.
+>> Or could you help me find correct solution how to query remote hive from
+>> spark?
+>>
+>> --
+>> *Cheers,*
+>> *Patrick*
+>>
+>>
+

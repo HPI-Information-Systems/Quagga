@@ -1,0 +1,79 @@
+bq: Which might be the same as saying nothing matched
+
+Right, a score of zero for a doc means it didn't match the query.
+
+It can be useful to specify &debug.explainOther can show the scoring
+for an arbitrary doc, even one with a zero score.
+
+https://cwiki.apache.org/confluence/display/solr/Common+Query+Parameters
+
+Best,
+Erick
+
+On Wed, Jan 18, 2017 at 12:53 AM, Tom Chiverton <tc@extravision.com> wrote:
+
+> I 'solved' this by removing some of the 'AND' from my full query. AND
+> should be optional but have no effect if there, right ? But for me it was
+> forcing the score to 0.
+>
+>
+> Which might be the same as saying nothing matched ?
+>
+>
+> Tom
+>
+> On 13/01/17 15:10, Tom Chiverton wrote:
+>
+> I have a few hundred documents with title and content fields.
+>
+> I want a match in title to trump matches in content. If I search for
+> "connected vehicle" then a news article that has that in the content
+> shouldn't be ranked higher than the page with that in the title is
+> essentially what I want.
+>
+> I have tried dismax with qf=title^2 as well as several other variants with
+> the standard query parser (like q="title:"foo"^2 OR content:"foo") but
+> documents without the search term in the title still come out before those
+> with the term in the title when ordered by score.
+>
+> Is there something I am missing ?
+>
+> From the docs, something like q=title:"connected vehicle"^2 OR
+> content:"connected vehicle" should have worked ? Even using ^100 didn't
+> help.
+>
+> I tried with the dismax parser using
+>
+>       "q": "Connected Vehicle",
+>       "defType": "dismax",
+>       "indent": "true",
+>       "qf": "title^2000 content",
+>       "pf": "pf=title^4000 content^2",
+>       "sort": "score desc",
+>       "wt": "json",
+> but that was not better. if I remove content from pf/qf then documents seem to rank correctly.
+>
+> Example query and results (content omitted) :
+> <http://pastebin.com/5EhrRJP8>http://pastebin.com/5EhrRJP8 with
+> managed-schema http://pastebin.com/mdraWQWE
+>
+> --
+> *Tom Chiverton*
+> Lead Developer
+> e:  tc@extravision.com
+> p:  0161 817 2922
+> t:  @extravision <http://www.twitter.com/extravision>
+> w:  <http://www.extravision.com>www.extravision.com
+> [image: Extravision - email worth seeing] <http://www.extravision.com/>
+> Registered in the UK at: 107 Timber Wharf, 33 Worsley Street, Manchester,
+> M15 4LD.
+> Company Reg No: 0‌‌5017214 VAT: GB 8‌‌24 5386 19
+>
+> This e-mail is intended solely for the person to whom it is addressed and
+> may contain confidential or privileged information.
+> Any views or opinions presented in this e-mail are solely of the author
+> and do not necessarily represent those of Extravision Ltd.
+>
+>
+>
+

@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for your response, Rick.\n\nThe search is based on fields with our custom type \"text_en\":\n\n<fieldType name=\"text_en\" class=\"solr.TextField\"\npositionIncrementGap=\"100\" storeOffsetsWithPositions=\"true\">\n<analyzer type=\"index\">\n<tokenizer class=\"solr.StandardTokenizerFactory\"/>\n<filter class=\"solr.WordDelimiterFilterFactory\"\ngenerateWordParts=\"1\"\ngenerateNumberParts=\"1\"\nsplitOnCaseChange=\"1\"\nsplitOnNumerics=\"0\"\ncatenateWords=\"0\"\ncatenateNumbers=\"0\"\ncatenateAll=\"0\"\npreserveOriginal=\"1\"\n                />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"synonyms_light.txt\" tokenizerFactory=\"solr.KeywordTokenizerFactory\"\nformat=\"solr\" ignoreCase=\"true\" expand=\"true\" />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"english_abbreviations.txt\" tokenizerFactory=\"solr.KeywordTokenizerFactory\"\nformat=\"solr\" ignoreCase=\"false\" expand=\"true\" />\n<filter class=\"solr.LengthFilterFactory\" min=\"2\" max=\"64\" />\n<filter class=\"solr.StopFilterFactory\" ignoreCase=\"true\" words=\"lang/stopwords_en.txt\"\n/>\n<filter class=\"solr.LowerCaseFilterFactory\" />\n<filter class=\"solr.KStemFilterFactory\"/>\n</analyzer>\n<analyzer type=\"query\">\n<tokenizer class=\"solr.StandardTokenizerFactory\"/>\n<filter class=\"solr.WordDelimiterFilterFactory\"\ngenerateWordParts=\"1\"\ngenerateNumberParts=\"1\"\nsplitOnCaseChange=\"1\"\nsplitOnNumerics=\"0\"\ncatenateWords=\"0\"\ncatenateNumbers=\"0\"\ncatenateAll=\"0\"\npreserveOriginal=\"1\"\n                />\n<filter class=\"solr.LengthFilterFactory\" min=\"2\" max=\"64\" />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"synonyms_user.txt\" ignoreCase=\"true\"\nexpand=\"true\" />\n<filter class=\"solr.StopFilterFactory\" ignoreCase=\"true\" words=\"lang/stopwords_en.txt\"\n/>\n<filter class=\"solr.LowerCaseFilterFactory\" />\n<filter class=\"solr.KStemFilterFactory\"/>\n</analyzer>\n</fieldType>\n\nI tested it using Solr admin Analysis. It acts as expected. Both huntman's and +huntman's\nare divided to huntman's and huntman in index and search:\n\nIndex:\nSThuntman's\nGFhuntman's\nWDFhuntman'shuntman\nSFhuntman'shuntman\nSFhuntman'shuntman\nLFhuntman'shuntman\nSFhuntman'shuntman\nLCFhuntman'shuntman\nKSFhuntman'shuntman\n\n\nSearch:\nSThuntman's\nWDFhuntman'shuntman\nLFhuntman'shuntman\nLBTShuntman'shuntman\nSFhuntman'shuntman\nLCFhuntman'shuntman\nKSFhuntman'shuntman\n\nBTW, I use Solr 5.3.1\n\n-----Original Message-----\nFrom: Rick Leir [mailto:rleir@leirtech.com]\nSent: Monday, May 1, 2017 2:19 PM\nTo: solr-user@lucene.apache.org\nSubject: Re: BooleanQuery and WordDelimiterFilter\n\nAvi,\nTell us the relevant field types you have in schema.xml.\nYou can also solve this all for yourself in the Solr Admin Analysis panel.\nCheers -- Rick\n\nOn May 1, 2017 2:34:31 AM EDT, Avi Steiner <asteiner@varonis.com> wrote:\n>Hi\n>\n>I have  a question regarding the use of query parser and BooleanQuery.\n>\n>I have 3 documents indexed.\n>Doc1 contains the words huntman's and huntman\n>Doc2 contains the word huntman's\n>Doc3 contains the word huntman\n>\n>When I search for huntman's I get Doc1 and Doc2 When I search for\n>+huntman's I get Doc1, Doc2 and Doc3\n>\n>As far as I understand, when I search for huntman's it should return\n>documents with both huntman and huntman's (using WordDelimiterFilter) I\n>also know that plus sign means that the term must be in document and\n>the absence of plus (or minus) sign means that the term may or may not\n>be in document as explained here:\n>https://urldefense.proofpoint.com/v2/url?u=https-3A__lucidworks.com_201\n>1_12_28_why-2Dnot-2Dand-2Dor-2Dand-2Dnot_&d=DwIFaQ&c=TxO9TIZxM1NIgbR_44\n>vEiALc2o8uaxixBRc1BtwrN08&r=N8Ef6xGR2eDgjA8I5q1SOErZhf616XiV4IPj4Ncf1w0\n>&m=pZs_VDg5Br0bnHYnuE8wJ64OUjAiwkYwaNWZE2KcyfY&s=BNJJK_BERjj8dHeIAys8P0\n>eU5oZ4-aD38XDXehqXsao&e=\n>\n>So I don't understand the combination of these two properties.\n>I think I understand why +huntman's returns Doc3 as well, because it\n>can be translated to +(huntman's OR huntman), which means: must be one\n>of the following: huntman's or huntman.\n>But I don't understand why Doc3 is not returned by huntman's as well.\n>Isn't it translated to huntman's OR huntman?\n>\n>Thanks\n>\n>Avi\n>\n>\n>________________________________\n>This email and any attachments thereto may contain private,\n>confidential, and privileged material for the sole use of the intended\n>recipient. Any review, copying, or distribution of this email (or any\n>attachments thereto) by others is strictly prohibited. If you are not\n>the intended recipient, please contact the sender immediately and\n>permanently delete the original and any copies of this email and any\n>attachments thereto.\n\n--\nSorry for being brief. Alternate email is rickleir at yahoo dot com\n________________________________\nThis email and any attachments thereto may contain private, confidential, and privileged material\nfor the sole use of the intended recipient. Any review, copying, or distribution of this email\n(or any attachments thereto) by others is strictly prohibited. If you are not the intended\nrecipient, please contact the sender immediately and permanently delete the original and any\ncopies of this email and any attachments thereto.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2267,
+      "text": "Thanks for your response, Rick.\n\nThe search is based on fields with our custom type \"text_en\":\n\n<fieldType name=\"text_en\" class=\"solr.TextField\"\npositionIncrementGap=\"100\" storeOffsetsWithPositions=\"true\">\n<analyzer type=\"index\">\n<tokenizer class=\"solr.StandardTokenizerFactory\"/>\n<filter class=\"solr.WordDelimiterFilterFactory\"\ngenerateWordParts=\"1\"\ngenerateNumberParts=\"1\"\nsplitOnCaseChange=\"1\"\nsplitOnNumerics=\"0\"\ncatenateWords=\"0\"\ncatenateNumbers=\"0\"\ncatenateAll=\"0\"\npreserveOriginal=\"1\"\n                />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"synonyms_light.txt\" tokenizerFactory=\"solr.KeywordTokenizerFactory\"\nformat=\"solr\" ignoreCase=\"true\" expand=\"true\" />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"english_abbreviations.txt\" tokenizerFactory=\"solr.KeywordTokenizerFactory\"\nformat=\"solr\" ignoreCase=\"false\" expand=\"true\" />\n<filter class=\"solr.LengthFilterFactory\" min=\"2\" max=\"64\" />\n<filter class=\"solr.StopFilterFactory\" ignoreCase=\"true\" words=\"lang/stopwords_en.txt\"\n/>\n<filter class=\"solr.LowerCaseFilterFactory\" />\n<filter class=\"solr.KStemFilterFactory\"/>\n</analyzer>\n<analyzer type=\"query\">\n<tokenizer class=\"solr.StandardTokenizerFactory\"/>\n<filter class=\"solr.WordDelimiterFilterFactory\"\ngenerateWordParts=\"1\"\ngenerateNumberParts=\"1\"\nsplitOnCaseChange=\"1\"\nsplitOnNumerics=\"0\"\ncatenateWords=\"0\"\ncatenateNumbers=\"0\"\ncatenateAll=\"0\"\npreserveOriginal=\"1\"\n                />\n<filter class=\"solr.LengthFilterFactory\" min=\"2\" max=\"64\" />\n<filter class=\"solr.SynonymFilterFactory\" synonyms=\"synonyms_user.txt\" ignoreCase=\"true\"\nexpand=\"true\" />\n<filter class=\"solr.StopFilterFactory\" ignoreCase=\"true\" words=\"lang/stopwords_en.txt\"\n/>\n<filter class=\"solr.LowerCaseFilterFactory\" />\n<filter class=\"solr.KStemFilterFactory\"/>\n</analyzer>\n</fieldType>\n\nI tested it using Solr admin Analysis. It acts as expected. Both huntman's and +huntman's\nare divided to huntman's and huntman in index and search:\n\nIndex:\nSThuntman's\nGFhuntman's\nWDFhuntman'shuntman\nSFhuntman'shuntman\nSFhuntman'shuntman\nLFhuntman'shuntman\nSFhuntman'shuntman\nLCFhuntman'shuntman\nKSFhuntman'shuntman\n\n\nSearch:\nSThuntman's\nWDFhuntman'shuntman\nLFhuntman'shuntman\nLBTShuntman'shuntman\nSFhuntman'shuntman\nLCFhuntman'shuntman\nKSFhuntman'shuntman\n\nBTW, I use Solr 5.3.1\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2267,
+      "end": 2454,
+      "text": "-----Original Message-----\nFrom: Rick Leir [mailto:rleir@leirtech.com]\nSent: Monday, May 1, 2017 2:19 PM\nTo: solr-user@lucene.apache.org\nSubject: Re: BooleanQuery and WordDelimiterFilter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2454,
+      "end": 2460,
+      "text": "\nAvi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2592,
+      "end": 2607,
+      "text": "Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2454,
+      "end": 2608,
+      "text": "\nAvi,\nTell us the relevant field types you have in schema.xml.\nYou can also solve this all for yourself in the Solr Admin Analysis panel.\nCheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2608,
+      "end": 2681,
+      "text": "On May 1, 2017 2:34:31 AM EDT, Avi Steiner <asteiner@varonis.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2681,
+      "end": 2685,
+      "text": ">Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 4016,
+      "end": 4033,
+      "text": ">\n>Thanks\n>\n>Avi\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2681,
+      "end": 5037,
+      "text": ">Hi\n>\n>I have  a question regarding the use of query parser and BooleanQuery.\n>\n>I have 3 documents indexed.\n>Doc1 contains the words huntman's and huntman\n>Doc2 contains the word huntman's\n>Doc3 contains the word huntman\n>\n>When I search for huntman's I get Doc1 and Doc2 When I search for\n>+huntman's I get Doc1, Doc2 and Doc3\n>\n>As far as I understand, when I search for huntman's it should return\n>documents with both huntman and huntman's (using WordDelimiterFilter) I\n>also know that plus sign means that the term must be in document and\n>the absence of plus (or minus) sign means that the term may or may not\n>be in document as explained here:\n>https://urldefense.proofpoint.com/v2/url?u=https-3A__lucidworks.com_201\n>1_12_28_why-2Dnot-2Dand-2Dor-2Dand-2Dnot_&d=DwIFaQ&c=TxO9TIZxM1NIgbR_44\n>vEiALc2o8uaxixBRc1BtwrN08&r=N8Ef6xGR2eDgjA8I5q1SOErZhf616XiV4IPj4Ncf1w0\n>&m=pZs_VDg5Br0bnHYnuE8wJ64OUjAiwkYwaNWZE2KcyfY&s=BNJJK_BERjj8dHeIAys8P0\n>eU5oZ4-aD38XDXehqXsao&e=\n>\n>So I don't understand the combination of these two properties.\n>I think I understand why +huntman's returns Doc3 as well, because it\n>can be translated to +(huntman's OR huntman), which means: must be one\n>of the following: huntman's or huntman.\n>But I don't understand why Doc3 is not returned by huntman's as well.\n>Isn't it translated to huntman's OR huntman?\n>\n>Thanks\n>\n>Avi\n>\n>\n>________________________________\n>This email and any attachments thereto may contain private,\n>confidential, and privileged material for the sole use of the intended\n>recipient. Any review, copying, or distribution of this email (or any\n>attachments thereto) by others is strictly prohibited. If you are not\n>the intended recipient, please contact the sender immediately and\n>permanently delete the original and any copies of this email and any\n>attachments thereto.\n\n--\nSorry for being brief. Alternate email is rickleir at yahoo dot com\n________________________________\nThis email and any attachments thereto may contain private, confidential, and privileged material\nfor the sole use of the intended recipient. Any review, copying, or distribution of this email\n(or any attachments thereto) by others is strictly prohibited. If you are not the intended\nrecipient, please contact the sender immediately and permanently delete the original and any\ncopies of this email and any attachments thereto.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2989"
+}

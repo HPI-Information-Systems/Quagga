@@ -1,0 +1,36 @@
+Further to that. What results do you get when you put those indexed terms into the Analysis
+tool on the Solr UI?
+
+-----Original Message-----
+From: Phil Scadden [mailto:P.Scadden@gns.cri.nz]
+Sent: Tuesday, 1 August 2017 9:06 a.m.
+To: solr-user@lucene.apache.org
+Subject: RE: Arabic words search in solr
+
+Am I correct in assuming that you have the problem searching only when there is a hyphen in
+your indexed text? If you, then it would suggest that you need to use a different tokenizer
+when indexing - it looks like the hyphen is removed and words each side are concatenated -
+hence need both terms to find the text.
+
+-----Original Message-----
+From: mohanmca01 [mailto:mohanmca01@gmail.com]
+Sent: Tuesday, 1 August 2017 1:18 a.m.
+To: solr-user@lucene.apache.org
+Subject: Re: Arabic words search in solr
+
+Please help me on this...
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Arabic-words-search-in-solr-tp4317733p4348372.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+Notice: This email and any attachments are confidential and may not be used, published or
+redistributed without the prior written consent of the Institute of Geological and Nuclear
+Sciences Limited (GNS Science). If received in error please destroy and immediately notify
+GNS Science. Do not copy or disclose the contents.
+Notice: This email and any attachments are confidential and may not be used, published or
+redistributed without the prior written consent of the Institute of Geological and Nuclear
+Sciences Limited (GNS Science). If received in error please destroy and immediately notify
+GNS Science. Do not copy or disclose the contents.
+

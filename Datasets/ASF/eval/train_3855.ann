@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Probably you need to refer to the file on HDFS or manually make it available on each node as\na local file. HDFS is recommended.\n\nIf it is already on HDFS then you need to provide an HDFS URL to the file.\n\n> On 5. Aug 2017, at 14:27, Kaepke, Marc <marc.kaepke@haw-hamburg.de> wrote:\n> \n> Hi there,\n> \n> my really small test job reads an external file and print the input to console.\n> Execute it as standalone with a local cluster, everything is fine.\n> If I execute the same job as standalone with 1 job manager und 1 task manager, I get\nan FileNotFound Exception. As a real distributed cluster. The cluster seems to be fine, because\nI can execute another job, which don\u00e2\u20ac\u2122t consume a file.\n> \n> at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)\n> at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)\n> at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)\n> Caused by: java.io.IOException: Error opening the Input Split file:/home/bigdata/Documents/marc/wiki-vote.txt\n[0,1095061]: /home/bigdata/Documents/marc/wiki-vote.txt (No such file or directory)\n> at org.apache.flink.api.common.io.FileInputFormat.open(FileInputFormat.java:706)\n> at org.apache.flink.api.common.io.DelimitedInputFormat.open(DelimitedInputFormat.java:477)\n> at org.apache.flink.api.common.io.GenericCsvInputFormat.open(GenericCsvInputFormat.java:301)\n> at org.apache.flink.api.java.io.CsvInputFormat.open(CsvInputFormat.java:48)\n> at org.apache.flink.api.java.io.CsvInputFormat.open(CsvInputFormat.java:31)\n> at org.apache.flink.runtime.operators.DataSourceTask.invoke(DataSourceTask.java:145)\n> at org.apache.flink.runtime.taskmanager.Task.run(Task.java:702)\n> at java.lang.Thread.run(Thread.java:745)\n> Caused by: java.io.FileNotFoundException: /home/bigdata/Documents/marc/wiki-vote.txt\n(No such file or directory)\n> at java.io.FileInputStream.open0(Native Method)\n> at java.io.FileInputStream.open(FileInputStream.java:195)\n> at java.io.FileInputStream.<init>(FileInputStream.java:138)\n> at org.apache.flink.core.fs.local.LocalDataInputStream.<init>(LocalDataInputStream.java:49)\n> at org.apache.flink.core.fs.local.LocalFileSystem.open(LocalFileSystem.java:141)\n> at org.apache.flink.api.common.io.FileInputFormat$InputSplitOpenThread.run(FileInputFormat.java:866)\n> \n> Does someone has an idea to solve it?\n> \n> \n> Thanks!\n> \n> Marc\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 282,
+      "end": 297,
+      "text": "> \n> Hi there,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 205,
+      "text": "Probably you need to refer to the file on HDFS or manually make it available on each node as\na local file. HDFS is recommended.\n\nIf it is already on HDFS then you need to provide an HDFS URL to the file.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 205,
+      "end": 282,
+      "text": "> On 5. Aug 2017, at 14:27, Kaepke, Marc <marc.kaepke@haw-hamburg.de> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2377,
+      "end": 2400,
+      "text": "> \n> Thanks!\n> \n> Marc\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 282,
+      "end": 2401,
+      "text": "> \n> Hi there,\n> \n> my really small test job reads an external file and print the input to console.\n> Execute it as standalone with a local cluster, everything is fine.\n> If I execute the same job as standalone with 1 job manager und 1 task manager, I get\nan FileNotFound Exception. As a real distributed cluster. The cluster seems to be fine, because\nI can execute another job, which don\u00e2\u20ac\u2122t consume a file.\n> \n> at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)\n> at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)\n> at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)\n> Caused by: java.io.IOException: Error opening the Input Split file:/home/bigdata/Documents/marc/wiki-vote.txt\n[0,1095061]: /home/bigdata/Documents/marc/wiki-vote.txt (No such file or directory)\n> at org.apache.flink.api.common.io.FileInputFormat.open(FileInputFormat.java:706)\n> at org.apache.flink.api.common.io.DelimitedInputFormat.open(DelimitedInputFormat.java:477)\n> at org.apache.flink.api.common.io.GenericCsvInputFormat.open(GenericCsvInputFormat.java:301)\n> at org.apache.flink.api.java.io.CsvInputFormat.open(CsvInputFormat.java:48)\n> at org.apache.flink.api.java.io.CsvInputFormat.open(CsvInputFormat.java:31)\n> at org.apache.flink.runtime.operators.DataSourceTask.invoke(DataSourceTask.java:145)\n> at org.apache.flink.runtime.taskmanager.Task.run(Task.java:702)\n> at java.lang.Thread.run(Thread.java:745)\n> Caused by: java.io.FileNotFoundException: /home/bigdata/Documents/marc/wiki-vote.txt\n(No such file or directory)\n> at java.io.FileInputStream.open0(Native Method)\n> at java.io.FileInputStream.open(FileInputStream.java:195)\n> at java.io.FileInputStream.<init>(FileInputStream.java:138)\n> at org.apache.flink.core.fs.local.LocalDataInputStream.<init>(LocalDataInputStream.java:49)\n> at org.apache.flink.core.fs.local.LocalFileSystem.open(LocalFileSystem.java:141)\n> at org.apache.flink.api.common.io.FileInputFormat$InputSplitOpenThread.run(FileInputFormat.java:866)\n> \n> Does someone has an idea to solve it?\n> \n> \n> Thanks!\n> \n> Marc\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3855"
+}

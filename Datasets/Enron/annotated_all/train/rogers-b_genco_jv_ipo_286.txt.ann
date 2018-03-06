@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is the 2000 Peakers Cost Summary with actuals thru 9/25/00.  Please \ncall me if you have any questions.\n\n\nthanks,\ntheresa\nx58173\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 123,
+      "end": 130,
+      "text": "theresa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 115,
+      "end": 138,
+      "text": "thanks,\ntheresa\nx58173\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 138,
+      "text": "Attached is the 2000 Peakers Cost Summary with actuals thru 9/25/00.  Please \ncall me if you have any questions.\n\n\nthanks,\ntheresa\nx58173\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13959438.1075857275973.JavaMail.evans@thyme>",
+      "Date": "Fri, 29 Sep 2000 06:35:00 -0700 (PDT)",
+      "From": "theresa.vos@enron.com",
+      "To": "david.delainey@enron.com, mike.miller@enron.com",
+      "Subject": "00 Peakers Report thru 9/25",
+      "Cc": "ozzie.pagan@enron.com, kevin.presto@enron.com, ben.jacoby@enron.com, \n\tclay.spears@enron.com, scott.healy@enron.com, robert.virgo@enron.com, \n\tjeffrey.keenan@enron.com, benjamin.rogers@enron.com, \n\tjohn.moore@enron.com, georgeanne.hodges@enron.com, \n\tclement.lau@enron.com, mitch.robinson@enron.com, \n\tjinsung.myung@enron.com, faith.killen@enron.com, \n\tkay.chapman@enron.com, lisa.zarsky@enron.com, jim.curry@enron.com, \n\twarren.schick@enron.com, jody.pierce@enron.com, \n\ttammy.shepperd@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "ozzie.pagan@enron.com, kevin.presto@enron.com, ben.jacoby@enron.com, \n\tclay.spears@enron.com, scott.healy@enron.com, robert.virgo@enron.com, \n\tjeffrey.keenan@enron.com, benjamin.rogers@enron.com, \n\tjohn.moore@enron.com, georgeanne.hodges@enron.com, \n\tclement.lau@enron.com, mitch.robinson@enron.com, \n\tjinsung.myung@enron.com, faith.killen@enron.com, \n\tkay.chapman@enron.com, lisa.zarsky@enron.com, jim.curry@enron.com, \n\twarren.schick@enron.com, jody.pierce@enron.com, \n\ttammy.shepperd@enron.com",
+      "X-From": "Theresa Vos",
+      "X-To": "David W Delainey, Mike J Miller",
+      "X-cc": "Ozzie Pagan, Kevin M Presto, Ben Jacoby, Clay Spears, Scott Healy, Robert P Virgo, Jeffrey Keenan, Benjamin Rogers, John Moore, Georgeanne Hodges, Clement Lau, Mitch Robinson, Jinsung Myung, Faith Killen, Kay Chapman, Lisa Zarsky, Jim Curry, Warren Schick, Jody Pierce, Tammy R Shepperd",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_4\\Notes Folders\\Genco-jv_ipo",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_genco_jv_ipo_286.txt"
+}

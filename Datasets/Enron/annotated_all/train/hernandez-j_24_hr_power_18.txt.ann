@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have downloaded the new loss matrix. I have placed the spreadsheet  in  the \nM: 24hour/ ERCOT(new!) folder called Fall ERCOT.\nThanks\n\n\n   \n\t\n\t\n\tFrom:  Keller Mayeaux @ ECT                           09/23/2000 07:24 AM\n\t\n\nTo: Jay Wills/Corp/Enron@ENRON, Cyril Price/HOU/ECT@ECT, John \nKinser/HOU/ECT@ECT, Rudy Acevedo/HOU/ECT@ECT, Richard Hrabal/HOU/ECT@ect, \nWayne Herndon/Corp/Enron@ENRON, Juan Hernandez/Corp/Enron@ENRON, Greg \nTrefz/Corp/Enron@ENRON, Miguel Garcia/NA/Enron@ENRON, Russell \nBallato/NA/Enron@Enron, Joe Stepenovitch/Corp/Enron@Enron, Joe \nErrigo/Corp/Enron@Enron, Doug Miller/Corp/Enron@Enron, Larry F \nCampbell/NA/Enron@Enron, Keller Mayeaux/Corp/Enron@Enron, Chad \nStarnes/Corp/Enron@Enron, Dean Laurent/HOU/ECT@ECT, Don Baughman/HOU/ECT@ECT, \nLawrence Clayton/Corp/Enron@Enron\ncc:  \n\nSubject: Ercot Losses\n\nUse the new loss matrices located in Ercot Iso home page.I or someone will \nhave to go back and look at the losses from Sept.1 till Sept.20 becouse I \nthink we were using summers losses.FALL IS SIGNIFICANTLY LOWER EFFECTIVE SEPT \n1.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 128,
+      "end": 135,
+      "text": "Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 137,
+      "text": "I have downloaded the new loss matrix. I have placed the spreadsheet  in  the \nM: 24hour/ ERCOT(new!) folder called Fall ERCOT.\nThanks\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 137,
+      "end": 829,
+      "text": "   \n\t\n\t\n\tFrom:  Keller Mayeaux @ ECT                           09/23/2000 07:24 AM\n\t\n\nTo: Jay Wills/Corp/Enron@ENRON, Cyril Price/HOU/ECT@ECT, John \nKinser/HOU/ECT@ECT, Rudy Acevedo/HOU/ECT@ECT, Richard Hrabal/HOU/ECT@ect, \nWayne Herndon/Corp/Enron@ENRON, Juan Hernandez/Corp/Enron@ENRON, Greg \nTrefz/Corp/Enron@ENRON, Miguel Garcia/NA/Enron@ENRON, Russell \nBallato/NA/Enron@Enron, Joe Stepenovitch/Corp/Enron@Enron, Joe \nErrigo/Corp/Enron@Enron, Doug Miller/Corp/Enron@Enron, Larry F \nCampbell/NA/Enron@Enron, Keller Mayeaux/Corp/Enron@Enron, Chad \nStarnes/Corp/Enron@Enron, Dean Laurent/HOU/ECT@ECT, Don Baughman/HOU/ECT@ECT, \nLawrence Clayton/Corp/Enron@Enron\ncc:  \n\nSubject: Ercot Losses\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 829,
+      "end": 1064,
+      "text": "\nUse the new loss matrices located in Ercot Iso home page.I or someone will \nhave to go back and look at the losses from Sept.1 till Sept.20 becouse I \nthink we were using summers losses.FALL IS SIGNIFICANTLY LOWER EFFECTIVE SEPT \n1.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<130522.1075855574662.JavaMail.evans@thyme>",
+      "Date": "Sat, 23 Sep 2000 21:20:00 -0700 (PDT)",
+      "From": "chad.starnes@enron.com",
+      "To": "keller.mayeaux@enron.com",
+      "Subject": "Re: Ercot Losses",
+      "Cc": "jay.wills@enron.com, cyril.price@enron.com, john.kinser@enron.com, \n\trudy.acevedo@enron.com, richard.hrabal@enron.com, \n\twayne.herndon@enron.com, juan.hernandez@enron.com, \n\tgreg.trefz@enron.com, miguel.garcia@enron.com, \n\trussell.ballato@enron.com, joe.stepenovitch@enron.com, \n\tjoe.errigo@enron.com, doug.miller@enron.com, \n\tlarry.campbell@enron.com, keller.mayeaux@enron.com, \n\tdean.laurent@enron.com, don.baughman@enron.com, \n\tlawrence.clayton@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "jay.wills@enron.com, cyril.price@enron.com, john.kinser@enron.com, \n\trudy.acevedo@enron.com, richard.hrabal@enron.com, \n\twayne.herndon@enron.com, juan.hernandez@enron.com, \n\tgreg.trefz@enron.com, miguel.garcia@enron.com, \n\trussell.ballato@enron.com, joe.stepenovitch@enron.com, \n\tjoe.errigo@enron.com, doug.miller@enron.com, \n\tlarry.campbell@enron.com, keller.mayeaux@enron.com, \n\tdean.laurent@enron.com, don.baughman@enron.com, \n\tlawrence.clayton@enron.com",
+      "X-From": "Chad Starnes",
+      "X-To": "Keller Mayeaux",
+      "X-cc": "Jay Wills, Cyril Price, John Kinser, Rudy Acevedo, Richard Hrabal, Wayne Herndon, Juan Hernandez, Greg Trefz, Miguel Garcia, Russell Ballato, Joe Stepenovitch, Joe Errigo, Doug Miller, Larry F Campbell, Keller Mayeaux, Dean Laurent, Don Baughman, Lawrence Clayton",
+      "X-bcc": "",
+      "X-Folder": "\\Juan_Hernandez_Jun2001\\Notes Folders\\24-hr power",
+      "X-Origin": "Hernandez-J",
+      "X-FileName": "jhernan3.nsf"
+    }
+  },
+  "id": "train/hernandez-j_24_hr_power_18.txt"
+}

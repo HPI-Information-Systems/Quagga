@@ -1,0 +1,22 @@
+Hi Michael,
+
+I have indexed the documents in such a way,I used OpenNLP to extract named
+entities and POS and has indexed these data to respective fields. I have
+read(my understanding) that for natural language search using Solr,once you
+have the entities extracted the next step is to create a custom query parser
+which takes advantage of the entite fields.
+I have referred the slides and talk-
+https://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011
+<https://www.slideshare.net/lucenerevolution/teofilie-natural-languagesearchinsolreurocon2011>
+ 
+to do the same.
+
+Thanks and Regards,
+Arun
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Solr-NLS-custom-query-parser-tp4340511p4340679.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

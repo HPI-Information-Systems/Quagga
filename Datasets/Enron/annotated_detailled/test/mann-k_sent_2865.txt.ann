@@ -1,0 +1,1156 @@
+{
+  "wrapper": "plaintext",
+  "text": "My memory has failed me once again!\n\n\n\n\n\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 02/26/2001 12:44:58 PM\nTo: \"'Kay.Mann@enron.com'\" <Kay.Mann@enron.com>\ncc: Carlos.Sole@enron.com, \"Keffer, John\" <JKeffer@KSLAW.com>=20\n\nSubject: RE: Revised 7EA Turbine Letter Agreement\n\nKay:\n\nMy notes indicate that the promissory note structure was used not due to HS=\nR\nconcerns, but rather, in order to avoid issues associated with\ndisproportionate distributions resulting from the contribution of funds as\ncapital.  I believe that the use of an LLC as the subject entity eliminated\nthe HSR issues.  Of course, the higher HSR threshold is also now effective.=\n=20\n\nCarolyn M. Campbell\nKing=01;& Spalding=20\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>=20\n=01;\n\n\n-----Original Message-----\nFrom: Kay.Mann@enron.com [mailto:Kay.Mann@enron.com]\nSent: Monday, February 26, 2001 11:37 AM\nTo: Campbell, Carolyn\nCc: Carlos.Sole@enron.com; jkeffer@kslaw.com\nSubject: RE: Revised 7EA Turbine Letter Agreement\n\n\n\nCarloyn,\n\nIs the promissory note structure still necessary, given the increase in the\nHSR threshhold?\n\nckm\n\n\n\n\n\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 02/22/2001 05:59:49 PM\n\nTo:   \"'Kay.Mann@enron.com'\" <Kay.Mann@enron.com>\ncc:   Carlos.Sole@enron.com\n\nSubject:  RE: Revised 7EA Turbine Letter Agreement\n\nKay:\n\nYes, the 1/11 draft (v4) is the current draft.\n\nCarolyn M. Campbell\nKing=01;& Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n\n\n\n-----Original Message-----\nFrom: Kay.Mann@enron.com [mailto:Kay.Mann@enron.com]\nSent: Thursday, February 22, 2001 4:10 PM\nTo: ccampbell@kslaw.com\nCc: Carlos.Sole@enron.com\nSubject: Revised 7EA Turbine Letter Agreement\n\n\nHi Carolyn,\n\nIs this the most current version?\n\nThanks,\n\nKay\n---------------------- Forwarded by Kay Mann/Corp/Enron on 02/22/2001 04:08\nPM ---------------------------\n\n\n\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/11/2001 06:29:24 PM\n\nTo:   \"'kay.mann@enron.com'\" <kay.mann@enron.com>\ncc:   \"'ben.f.jacoby@enron.com'\" <ben.f.jacoby@enron.com>,\n      \"'fred.mitro@enron.com'\" <fred.mitro@enron.com>\n\nSubject:  Revised 7EA Turbine Letter Agreement\n\n\n <<2RZ504!.DOC>>  <<2RZ5RED.DOC>>\n\nKay:\n\nWe have enclosed clean and marked copies of a revised draft of the 7EA\nturbine letter agreement reflecting revisions from the draft previously\ndistributed on January 8, 2001.  Please review and advise of any comments.\nThank you.\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com\n\nEnclosures:    129569v4\n          129569vR4/3\n\n(See attached file: 2RZ504!.DOC)\n(See attached file: 2RZ5RED.DOC)\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are not\nthe named addressee, you are not authorized to read, print, retain, copy or\ndisseminate this message or any part of it.  If you have received this\nmessage in error, please notify the sender immediately by e-mail and delete\nall copies of the message.\n\n\n\n\n\n\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended=20\nexclusively for the individual or entity to which it is addressed.  This=20\ncommunication may contain information that is proprietary, privileged or=20\nconfidential or otherwise legally exempt from disclosure.  If you are not t=\nhe=20\nnamed addressee, you are not authorized to read, print, retain, copy or=20\ndisseminate this message or any part of it.  If you have received this=20\nmessage in error, please notify the sender immediately by e-mail and delete=\n=20\nall copies of the message.\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 40,
+      "text": "My memory has failed me once again!\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 58,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 61,
+      "end": 80,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 85,
+      "end": 95,
+      "text": "02/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 96,
+      "end": 107,
+      "text": "12:44:58 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 114,
+      "end": 132,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 136,
+      "end": 154,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 160,
+      "end": 181,
+      "text": "Carlos.Sole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 184,
+      "end": 196,
+      "text": "Keffer, John",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 199,
+      "end": 216,
+      "text": "JKeffer@KSLAW.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 231,
+      "end": 271,
+      "text": "RE: Revised 7EA Turbine Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 40,
+      "end": 272,
+      "text": "\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 02/26/2001 12:44:58 PM\nTo: \"'Kay.Mann@enron.com'\" <Kay.Mann@enron.com>\ncc: Carlos.Sole@enron.com, \"Keffer, John\" <JKeffer@KSLAW.com>=20\n\nSubject: RE: Revised 7EA Turbine Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 273,
+      "end": 276,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 654,
+      "end": 673,
+      "text": "Carolyn M. Campbell",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 674,
+      "end": 678,
+      "text": "King",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 682,
+      "end": 692,
+      "text": "& Spalding",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 696,
+      "end": 708,
+      "text": "713-276-7307",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 717,
+      "end": 729,
+      "text": "713-751-3280",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 736,
+      "end": 755,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 764,
+      "end": 783,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 654,
+      "end": 793,
+      "text": "Carolyn M. Campbell\nKing=01;& Spalding=20\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>=20\n=01;\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 272,
+      "end": 795,
+      "text": "\nKay:\n\nMy notes indicate that the promissory note structure was used not due to HS=\nR\nconcerns, but rather, in order to avoid issues associated with\ndisproportionate distributions resulting from the contribution of funds as\ncapital.  I believe that the use of an LLC as the subject entity eliminated\nthe HSR issues.  Of course, the higher HSR threshold is also now effective.=\n=20\n\nCarolyn M. Campbell\nKing=01;& Spalding=20\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>=20\n=01;\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 828,
+      "end": 846,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 855,
+      "end": 873,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 889,
+      "end": 906,
+      "text": "February 26, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 907,
+      "end": 915,
+      "text": "11:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 920,
+      "end": 937,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 942,
+      "end": 963,
+      "text": "Carlos.Sole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 965,
+      "end": 982,
+      "text": "jkeffer@kslaw.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 992,
+      "end": 1032,
+      "text": "RE: Revised 7EA Turbine Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 795,
+      "end": 1033,
+      "text": "-----Original Message-----\nFrom: Kay.Mann@enron.com [mailto:Kay.Mann@enron.com]\nSent: Monday, February 26, 2001 11:37 AM\nTo: Campbell, Carolyn\nCc: Carlos.Sole@enron.com; jkeffer@kslaw.com\nSubject: RE: Revised 7EA Turbine Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1036,
+      "end": 1043,
+      "text": "Carloyn",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1139,
+      "end": 1142,
+      "text": "ckm",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1033,
+      "end": 1147,
+      "text": "\n\n\nCarloyn,\n\nIs the promissory note structure still necessary, given the increase in the\nHSR threshhold?\n\nckm\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1148,
+      "end": 1165,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1168,
+      "end": 1187,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1191,
+      "end": 1202,
+      "text": " 02/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1203,
+      "end": 1214,
+      "text": "05:59:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1224,
+      "end": 1242,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1246,
+      "end": 1264,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1272,
+      "end": 1293,
+      "text": "Carlos.Sole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1305,
+      "end": 1345,
+      "text": "RE: Revised 7EA Turbine Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1147,
+      "end": 1346,
+      "text": "\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 02/22/2001 05:59:49 PM\n\nTo:   \"'Kay.Mann@enron.com'\" <Kay.Mann@enron.com>\ncc:   Carlos.Sole@enron.com\n\nSubject:  RE: Revised 7EA Turbine Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1347,
+      "end": 1350,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1401,
+      "end": 1420,
+      "text": "Carolyn M. Campbell",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1421,
+      "end": 1425,
+      "text": "King",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1429,
+      "end": 1439,
+      "text": "& Spalding",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1440,
+      "end": 1452,
+      "text": "713-276-7307",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1461,
+      "end": 1473,
+      "text": "713-751-3280",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1480,
+      "end": 1499,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1508,
+      "end": 1527,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1401,
+      "end": 1529,
+      "text": "Carolyn M. Campbell\nKing=01;& Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1346,
+      "end": 1532,
+      "text": "\nKay:\n\nYes, the 1/11 draft (v4) is the current draft.\n\nCarolyn M. Campbell\nKing=01;& Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1565,
+      "end": 1583,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1592,
+      "end": 1610,
+      "text": "Kay.Mann@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1628,
+      "end": 1645,
+      "text": "February 22, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1646,
+      "end": 1653,
+      "text": "4:10 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1658,
+      "end": 1677,
+      "text": "ccampbell@kslaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1682,
+      "end": 1703,
+      "text": "Carlos.Sole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1713,
+      "end": 1749,
+      "text": "Revised 7EA Turbine Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1532,
+      "end": 1750,
+      "text": "-----Original Message-----\nFrom: Kay.Mann@enron.com [mailto:Kay.Mann@enron.com]\nSent: Thursday, February 22, 2001 4:10 PM\nTo: ccampbell@kslaw.com\nCc: Carlos.Sole@enron.com\nSubject: Revised 7EA Turbine Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1755,
+      "end": 1762,
+      "text": "Carolyn",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1752,
+      "end": 1764,
+      "text": "Hi Carolyn,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1809,
+      "end": 1812,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1800,
+      "end": 1813,
+      "text": "Thanks,\n\nKay\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1750,
+      "end": 1813,
+      "text": "\n\nHi Carolyn,\n\nIs this the most current version?\n\nThanks,\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1849,
+      "end": 1857,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1872,
+      "end": 1882,
+      "text": "02/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1883,
+      "end": 1891,
+      "text": "04:08\nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 1813,
+      "end": 1920,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 02/22/2001 04:08\nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 1923,
+      "end": 1940,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 1943,
+      "end": 1962,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 1967,
+      "end": 1977,
+      "text": "01/11/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 1978,
+      "end": 1989,
+      "text": "06:29:24 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 1999,
+      "end": 2017,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 2021,
+      "end": 2039,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 77,
+      "start": 2049,
+      "end": 2071,
+      "text": "ben.f.jacoby@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 78,
+      "start": 2075,
+      "end": 2097,
+      "text": "ben.f.jacoby@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 79,
+      "start": 2108,
+      "end": 2128,
+      "text": "fred.mitro@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 80,
+      "start": 2132,
+      "end": 2152,
+      "text": "fred.mitro@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 81,
+      "start": 2165,
+      "end": 2201,
+      "text": "Revised 7EA Turbine Letter Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 82,
+      "start": 1920,
+      "end": 2202,
+      "text": "\n\n\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/11/2001 06:29:24 PM\n\nTo:   \"'kay.mann@enron.com'\" <kay.mann@enron.com>\ncc:   \"'ben.f.jacoby@enron.com'\" <ben.f.jacoby@enron.com>,\n      \"'fred.mitro@enron.com'\" <fred.mitro@enron.com>\n\nSubject:  Revised 7EA Turbine Letter Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 83,
+      "start": 2207,
+      "end": 2218,
+      "text": "2RZ504!.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 84,
+      "start": 2224,
+      "end": 2235,
+      "text": "2RZ5RED.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 85,
+      "start": 2204,
+      "end": 2238,
+      "text": " <<2RZ504!.DOC>>  <<2RZ5RED.DOC>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 86,
+      "start": 2239,
+      "end": 2242,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 87,
+      "start": 3284,
+      "end": 3894,
+      "text": "                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended=20\nexclusively for the individual or entity to which it is addressed.  This=20\ncommunication may contain information that is proprietary, privileged or=20\nconfidential or otherwise legally exempt from disclosure.  If you are not t=\nhe=20\nnamed addressee, you are not authorized to read, print, retain, copy or=20\ndisseminate this message or any part of it.  If you have received this=20\nmessage in error, please notify the sender immediately by e-mail and delete=\n=20\nall copies of the message.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 88,
+      "start": 2689,
+      "end": 3274,
+      "text": "                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are not\nthe named addressee, you are not authorized to read, print, retain, copy or\ndisseminate this message or any part of it.  If you have received this\nmessage in error, please notify the sender immediately by e-mail and delete\nall copies of the message.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 89,
+      "start": 2672,
+      "end": 2683,
+      "text": "2RZ5RED.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 90,
+      "start": 2638,
+      "end": 2650,
+      "text": " 2RZ504!.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 91,
+      "start": 2619,
+      "end": 2685,
+      "text": "(See attached file: 2RZ504!.DOC)\n(See attached file: 2RZ5RED.DOC)\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 92,
+      "start": 2551,
+      "end": 2570,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 93,
+      "start": 2532,
+      "end": 2544,
+      "text": "713-751-3280",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 94,
+      "start": 2511,
+      "end": 2523,
+      "text": "713-276-7307",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 95,
+      "start": 2495,
+      "end": 2510,
+      "text": "King & Spalding",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 96,
+      "start": 2475,
+      "end": 2494,
+      "text": "Carolyn M. Campbell",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 97,
+      "start": 2202,
+      "end": 3898,
+      "text": "\n\n <<2RZ504!.DOC>>  <<2RZ5RED.DOC>>\n\nKay:\n\nWe have enclosed clean and marked copies of a revised draft of the 7EA\nturbine letter agreement reflecting revisions from the draft previously\ndistributed on January 8, 2001.  Please review and advise of any comments.\nThank you.\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com\n\nEnclosures:    129569v4\n          129569vR4/3\n\n(See attached file: 2RZ504!.DOC)\n(See attached file: 2RZ5RED.DOC)\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are not\nthe named addressee, you are not authorized to read, print, retain, copy or\ndisseminate this message or any part of it.  If you have received this\nmessage in error, please notify the sender immediately by e-mail and delete\nall copies of the message.\n\n\n\n\n\n\n\n\n\n\n                    Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended=20\nexclusively for the individual or entity to which it is addressed.  This=20\ncommunication may contain information that is proprietary, privileged or=20\nconfidential or otherwise legally exempt from disclosure.  If you are not t=\nhe=20\nnamed addressee, you are not authorized to read, print, retain, copy or=20\ndisseminate this message or any part of it.  If you have received this=20\nmessage in error, please notify the sender immediately by e-mail and delete=\n=20\nall copies of the message.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 16,
+      "target": 15,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 17,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 20,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 14,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 6,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 13,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 33,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 23,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 32,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 47,
+      "target": 46,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 92,
+      "target": 96,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 93,
+      "target": 96,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 94,
+      "target": 96,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 96,
+      "target": 95,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 24,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 2,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 28,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 29,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 35,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 35,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "origin": 39,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "origin": 40,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "origin": 41,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "origin": 45,
+      "target": 46,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "origin": 45,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "origin": 44,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "origin": 48,
+      "target": 45,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "origin": 49,
+      "target": 45,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "origin": 50,
+      "target": 45,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "origin": 51,
+      "target": 45,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "origin": 45,
+      "target": 58,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "origin": 59,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "origin": 44,
+      "target": 54,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "origin": 54,
+      "target": 55,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "origin": 62,
+      "target": 58,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "origin": 64,
+      "target": 54,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "origin": 67,
+      "target": 64,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "origin": 71,
+      "target": 72,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "origin": 71,
+      "target": 62,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "origin": 75,
+      "target": 76,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "origin": 77,
+      "target": 78,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "origin": 79,
+      "target": 80,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "origin": 75,
+      "target": 67,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "origin": 86,
+      "target": 75,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "origin": 96,
+      "target": 71,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29087207.1075845988211.JavaMail.evans@thyme>",
+      "Date": "Mon, 26 Feb 2001 05:07:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "ccampbell@kslaw.com",
+      "Subject": "RE: Revised 7EA Turbine Letter Agreement",
+      "Cc": "carlos.sole@enron.com, jkeffer@kslaw.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "Bcc": "carlos.sole@enron.com, jkeffer@kslaw.com",
+      "X-From": "Kay Mann",
+      "X-To": "\"Campbell, Carolyn\" <CCampbell@KSLAW.com>",
+      "X-cc": "Carlos.Sole@enron.com, \"Keffer, John\" <JKeffer@KSLAW.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_2865.txt"
+}

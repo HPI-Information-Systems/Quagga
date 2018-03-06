@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "firewall?\n\n\nOn 2017-06-18 01:04 AM, Nawab Zada Asad Iqbal wrote:\n> Hi\n>\n> So I am deploying solr 6.5.1 using puppet to another machine (which I can\n> ssh to) . The logs  have no error but solr home page has nothing (no\n> response from server) . Using curl also showed empty response.\n>\n> What could be wrong ?\n> The server is writing   logs and also found  the core folder; so from\n> directory structure and logs , everything seems fine .\n>\n>\n> Regards\n> Nawab\n>\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "firewall?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 12,
+      "end": 65,
+      "text": "On 2017-06-18 01:04 AM, Nawab Zada Asad Iqbal wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 65,
+      "end": 70,
+      "text": "> Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 441,
+      "end": 461,
+      "text": ">\n> Regards\n> Nawab\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 65,
+      "end": 465,
+      "text": "> Hi\n>\n> So I am deploying solr 6.5.1 using puppet to another machine (which I can\n> ssh to) . The logs  have no error but solr home page has nothing (no\n> response from server) . Using curl also showed empty response.\n>\n> What could be wrong ?\n> The server is writing   logs and also found  the core folder; so from\n> directory structure and logs , everything seems fine .\n>\n>\n> Regards\n> Nawab\n>\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4188"
+}

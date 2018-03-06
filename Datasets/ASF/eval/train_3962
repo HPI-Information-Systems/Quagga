@@ -1,0 +1,16 @@
+Hi
+
+We have use case where we have thousands of Telegraf agents sending data to
+kafka( some of them are sending 10s interval, 15s interval and 30s
+interval). We would like to aggregate the incoming data to 1 minuter
+interval based on the hostname as key before we write into influxdb. Is it
+possible to do this type of usecase with Flink? if so any sample to get
+started?
+
+sample data ( influxdb line protocal) coming from Kafka
+
+weather,location=us-midwest,season=summer temperature=82 1465839830100400200
+
+
+-Madhu
+

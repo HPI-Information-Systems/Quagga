@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "To add to it, my pipeline is a simple\n\nkeyBy(0)\n        .timeWindow(Time.of(window_size, TimeUnit.MINUTES))\n        .allowedLateness(Time.of(late_by, TimeUnit.SECONDS))\n        .reduce(new ReduceFunction(), new WindowFunction())\n\n\nOn Wed, Oct 4, 2017 at 8:19 PM, Vishal Santoshi <vishal.santoshi@gmail.com>\nwrote:\n\n> Hello folks,\n>\n> As far as I know checkpoint failure should be ignored and retried with\n> potentially larger state. I had this situation\n>\n> * hdfs went into a safe mode b'coz of Name Node issues\n> * exception was thrown\n>\n>     org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.ipc.StandbyException):\n> Operation category WRITE is not supported in state standby. Visit\n> https://s.apache.org/sbnn-error\n>     ..................\n>\n>     at org.apache.flink.runtime.fs.hdfs.HadoopFileSystem.mkdirs(Had\n> oopFileSystem.java:453)\n>         at org.apache.flink.core.fs.SafetyNetWrapperFileSystem.mkdirs(S\n> afetyNetWrapperFileSystem.java:111)\n>         at org.apache.flink.runtime.state.filesystem.FsCheckpointStream\n> Factory.createBasePath(FsCheckpointStreamFactory.java:132)\n>\n> * The pipeline came back after a few restarts and checkpoint failures,\n> after the hdfs issues were resolved.\n>\n> I would not have worried about the restart, but it was evident that I lost\n> my operator state. Either it was my kafka consumer that kept on advancing\n> it's offset between a start and the next checkpoint failure ( a minute's\n> worth ) or the the operator that had partial aggregates was lost. I have a\n> 15 minute window of counts on a keyed operator\n>\n> I am using ROCKS DB and of course have checkpointing turned on.\n>\n> The questions thus are\n>\n> * Should a pipeline be restarted if checkpoint fails ?\n> * Why on restart did the operator state did not recreate ?\n> * Is the nature of the exception thrown have to do with any of this b'coz\n> suspend and resume from a save point work as expected ?\n> * And though I am pretty sure, are operators like the Window operator\n> stateful by drfault and thus if I have timeWindow(Time.of(window_size,\n> TimeUnit.MINUTES)).reduce(new ReduceFunction(), new WindowFunction()), the\n> state is managed by flink ?\n>\n> Thanks.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 231,
+      "text": "To add to it, my pipeline is a simple\n\nkeyBy(0)\n        .timeWindow(Time.of(window_size, TimeUnit.MINUTES))\n        .allowedLateness(Time.of(late_by, TimeUnit.SECONDS))\n        .reduce(new ReduceFunction(), new WindowFunction())\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 231,
+      "end": 314,
+      "text": "On Wed, Oct 4, 2017 at 8:19 PM, Vishal Santoshi <vishal.santoshi@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 314,
+      "end": 330,
+      "text": "\n> Hello folks,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2168,
+      "end": 2180,
+      "text": ">\n> Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 314,
+      "end": 2183,
+      "text": "\n> Hello folks,\n>\n> As far as I know checkpoint failure should be ignored and retried with\n> potentially larger state. I had this situation\n>\n> * hdfs went into a safe mode b'coz of Name Node issues\n> * exception was thrown\n>\n>     org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.ipc.StandbyException):\n> Operation category WRITE is not supported in state standby. Visit\n> https://s.apache.org/sbnn-error\n>     ..................\n>\n>     at org.apache.flink.runtime.fs.hdfs.HadoopFileSystem.mkdirs(Had\n> oopFileSystem.java:453)\n>         at org.apache.flink.core.fs.SafetyNetWrapperFileSystem.mkdirs(S\n> afetyNetWrapperFileSystem.java:111)\n>         at org.apache.flink.runtime.state.filesystem.FsCheckpointStream\n> Factory.createBasePath(FsCheckpointStreamFactory.java:132)\n>\n> * The pipeline came back after a few restarts and checkpoint failures,\n> after the hdfs issues were resolved.\n>\n> I would not have worried about the restart, but it was evident that I lost\n> my operator state. Either it was my kafka consumer that kept on advancing\n> it's offset between a start and the next checkpoint failure ( a minute's\n> worth ) or the the operator that had partial aggregates was lost. I have a\n> 15 minute window of counts on a keyed operator\n>\n> I am using ROCKS DB and of course have checkpointing turned on.\n>\n> The questions thus are\n>\n> * Should a pipeline be restarted if checkpoint fails ?\n> * Why on restart did the operator state did not recreate ?\n> * Is the nature of the exception thrown have to do with any of this b'coz\n> suspend and resume from a save point work as expected ?\n> * And though I am pretty sure, are operators like the Window operator\n> stateful by drfault and thus if I have timeWindow(Time.of(window_size,\n> TimeUnit.MINUTES)).reduce(new ReduceFunction(), new WindowFunction()), the\n> state is managed by flink ?\n>\n> Thanks.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_5165"
+}

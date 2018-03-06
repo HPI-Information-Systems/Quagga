@@ -1,0 +1,57 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vince, \n\nI was thinking about the type of things you could be talking to Jeff Shankman \nabout, in the Dabhol LNG context.  It occurred to me that one way to collect \non regas charges, and still find alternate cutomers for gas is through the \nrailways.\n\nSome time back, I had looked into the possiblility of transporting LNG by \ntrain.  Apparently, technology exists wherein LNG can be put into cryogenic \ncontainers that can be trucked as well as the same containers being loaded \nfrom trucks to train bogies.  I believe this maybe a way to earn some monies \nwith LNG by developing just such a market in India for Commercial customers.\n\nIt is pertinent to note that the Konkan Rail line is just about 1 hr. 45 \nminutes from the Dabhol plant.  Trucks from Dabhol could carry LNG to the \nrail line at Guhagar from where it could travel up and down the west coast of \nIndia.  If we target end-consumers directly, we could easily sell at retail \ntype prices, and build in a large margin, even if the volumes disposed are \nrelatively smaller.  (The alternative fuel for most of these establishments \nis diesel or naphtha which is highly priced, and mostly trucked along \nroads,increasing costs).  The end aim is to keep income targets in India, so \nthat the Analysts do not have a field day with the stock.\n\nHence keeping activity up in India, and showing that solutions exist, will \nkeep stock price buoyed.  We could explore this idea if it appeals!\n\nRegards,\nSandeep.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1457,
+      "end": 1464,
+      "text": "Sandeep",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1448,
+      "end": 1465,
+      "text": "Regards,\nSandeep.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 1465,
+      "text": "Vince, \n\nI was thinking about the type of things you could be talking to Jeff Shankman \nabout, in the Dabhol LNG context.  It occurred to me that one way to collect \non regas charges, and still find alternate cutomers for gas is through the \nrailways.\n\nSome time back, I had looked into the possiblility of transporting LNG by \ntrain.  Apparently, technology exists wherein LNG can be put into cryogenic \ncontainers that can be trucked as well as the same containers being loaded \nfrom trucks to train bogies.  I believe this maybe a way to earn some monies \nwith LNG by developing just such a market in India for Commercial customers.\n\nIt is pertinent to note that the Konkan Rail line is just about 1 hr. 45 \nminutes from the Dabhol plant.  Trucks from Dabhol could carry LNG to the \nrail line at Guhagar from where it could travel up and down the west coast of \nIndia.  If we target end-consumers directly, we could easily sell at retail \ntype prices, and build in a large margin, even if the volumes disposed are \nrelatively smaller.  (The alternative fuel for most of these establishments \nis diesel or naphtha which is highly priced, and mostly trucked along \nroads,increasing costs).  The end aim is to keep income targets in India, so \nthat the Analysts do not have a field day with the stock.\n\nHence keeping activity up in India, and showing that solutions exist, will \nkeep stock price buoyed.  We could explore this idea if it appeals!\n\nRegards,\nSandeep.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10982865.1075856605758.JavaMail.evans@thyme>",
+      "Date": "Tue, 13 Mar 2001 09:41:00 -0800 (PST)",
+      "From": "sandeep.kohli@enron.com",
+      "Subject": "LNG by Rail",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sandeep Kohli",
+      "X-To": "Vince J Kaminski@ECT",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Ei",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_ei_17.txt"
+}

@@ -1,0 +1,153 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Tana Jones/HOU/ECT on 05/15/2001 04:39 PM -----\n\n\tARSystem <ARSystem@mailman.enron.com>\n\t05/15/2001 03:44 PM\n\t\t \n\t\t To: \"tana.jones@enron.com\" <tana.jones@enron.com>\n\t\t cc: \n\t\t Subject: Request Closed: Access Request for paul.johnson@enron.com\n\n\nThe request has been completed with all resources requested either completed \nor rejected. You can view the details of the  request by clicking \nhttp://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000034916&Page=\nMyReq.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 29,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 51,
+      "text": "05/15/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 52,
+      "end": 60,
+      "text": "04:39 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 67,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 05/15/2001 04:39 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 69,
+      "end": 77,
+      "text": "ARSystem",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 79,
+      "end": 105,
+      "text": "ARSystem@mailman.enron.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 108,
+      "end": 118,
+      "text": "05/15/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 119,
+      "end": 127,
+      "text": "03:44 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 140,
+      "end": 160,
+      "text": "tana.jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 163,
+      "end": 183,
+      "text": "tana.jones@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 205,
+      "end": 262,
+      "text": "Request Closed: Access Request for paul.johnson@enron.com",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 67,
+      "end": 263,
+      "text": "\n\tARSystem <ARSystem@mailman.enron.com>\n\t05/15/2001 03:44 PM\n\t\t \n\t\t To: \"tana.jones@enron.com\" <tana.jones@enron.com>\n\t\t cc: \n\t\t Subject: Request Closed: Access Request for paul.johnson@enron.com\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 263,
+      "end": 499,
+      "text": "\n\nThe request has been completed with all resources requested either completed \nor rejected. You can view the details of the  request by clicking \nhttp://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000034916&Page=\nMyReq.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31610658.1075847564906.JavaMail.evans@thyme>",
+      "Date": "Tue, 15 May 2001 09:39:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "matt.dawson@enron.com",
+      "Subject": "Request Closed: Access Request for paul.johnson@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Matt Dawson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Sent",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_sent_6312.txt"
+}

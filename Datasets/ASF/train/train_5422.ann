@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nRegarding 'analysis chain':\n\nI'm using Solr 6.4.1, and in the managed-schema file, I find the following:\n<fieldType name=\"text_general\" class=\"solr.TextField\"\npositionIncrementGap=\"100\" multiValued=\"true\">\n    <analyzer type=\"index\">\n      <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n      <filter class=\"solr.StopFilterFactory\" words=\"stopwords.txt\"\nignoreCase=\"true\"/>\n      <filter class=\"solr.LowerCaseFilterFactory\"/>\n    </analyzer>\n    <analyzer type=\"query\">\n      <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n      <filter class=\"solr.StopFilterFactory\" words=\"stopwords.txt\"\nignoreCase=\"true\"/>\n      <filter class=\"solr.SynonymFilterFactory\" expand=\"true\"\nignoreCase=\"true\" synonyms=\"synonyms.txt\"/>\n      <filter class=\"solr.LowerCaseFilterFactory\"/>\n    </analyzer>\n  </fieldType>\n\n\nRegarding the Admin UI >> Analysis page:  I just tried that, and to be\nhonest, I can't seem to get much useful info out of it, especially in terms\nof lemmatization.\n\nFor example, for any text I enter in it to \"analyse\", all it does is seem\nto tell me which analysers (if that's the right term?) are being used for\nthe selected field / fieldtype, and for each of these analyzers, it would\ngive some very basic info, like text, raw_bytes, etc.  Eg, for the input\n\"united\" in the \"field value (index)\" box, having \"text_general\" selected\nfor fieldtype, all I get is this:\n\nST\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nSF\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nLCF\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nPlacing the mouse cursor on \"ST\", \"SF\", or \"LCF\" shows a tooltip saying\n\"org.apache.lucene.analysis.standard.StandardTokenizer\",\n\"org...core.StopFilter\", and \"org...core.LowerCaseFilter\", respectively.\n\n\nSo - should 'states' not be lemmatized to 'state' using these settings?\n (If not, then I would need to figure out how to use a different lemmatizer)\n\nThanks\n\nOn Thu, Aug 10, 2017 at 10:28 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n\n> saying the field is \"text_general\" is not sufficient, please post the\n> analysis chain defined in your schema.\n>\n> Also the admin UI>>analysis page will help you figure out exactly what\n> part of the analysis chain does what.\n>\n> Best,\n> Erick\n>\n> On Thu, Aug 10, 2017 at 8:37 AM, OTH <omer.t.h.7@gmail.com> wrote:\n> > Hello,\n> >\n> > It seems for me that the token \"states\" is not getting lemmatized to\n> > \"state\" by Solr.\n> >\n> > Eg, I have a document with the value \"united states of america\".\n> > This document is not returned when the following query is issued:\n> > q=name:state^1+name:america^1+name:united^1\n> > However, all documents which contain the token \"state\" are indeed\n> returned,\n> > with the above query.\n> > The \"united states of america\" document is returned if I change \"state\"\n> in\n> > the query to \"states\"; so:\n> > q=name:states^1+name:america^1+name:united^1\n> >\n> > At first I thought maybe the lemmatization isn't working for some reason.\n> > However, when I changed \"united\" in the query to \"unite\", then it did\n> still\n> > return the \"united states of america\" document:\n> > q=name:states^1+name:america^1+name:unite^1\n> > Which means that the lemmatization is working for the token \"united\", but\n> > not for the token \"states\".\n> >\n> > The \"name\" field above is defined as \"text_general\".\n> >\n> > So it seems to me, that perhaps the default Solr lemmatizer does not\n> > lemmatize \"states\" to \"state\"?\n> > Can anyone confirm if this is indeed the expected behaviour?\n> > And what can I do to change it?\n> > If I need to put in a customer lemmatizer, then what would be the (best)\n> > way to do that?\n> >\n> > Much thanks\n> > Omer\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2047,
+      "end": 2055,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2056,
+      "text": "Hi,\n\nRegarding 'analysis chain':\n\nI'm using Solr 6.4.1, and in the managed-schema file, I find the following:\n<fieldType name=\"text_general\" class=\"solr.TextField\"\npositionIncrementGap=\"100\" multiValued=\"true\">\n    <analyzer type=\"index\">\n      <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n      <filter class=\"solr.StopFilterFactory\" words=\"stopwords.txt\"\nignoreCase=\"true\"/>\n      <filter class=\"solr.LowerCaseFilterFactory\"/>\n    </analyzer>\n    <analyzer type=\"query\">\n      <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n      <filter class=\"solr.StopFilterFactory\" words=\"stopwords.txt\"\nignoreCase=\"true\"/>\n      <filter class=\"solr.SynonymFilterFactory\" expand=\"true\"\nignoreCase=\"true\" synonyms=\"synonyms.txt\"/>\n      <filter class=\"solr.LowerCaseFilterFactory\"/>\n    </analyzer>\n  </fieldType>\n\n\nRegarding the Admin UI >> Analysis page:  I just tried that, and to be\nhonest, I can't seem to get much useful info out of it, especially in terms\nof lemmatization.\n\nFor example, for any text I enter in it to \"analyse\", all it does is seem\nto tell me which analysers (if that's the right term?) are being used for\nthe selected field / fieldtype, and for each of these analyzers, it would\ngive some very basic info, like text, raw_bytes, etc.  Eg, for the input\n\"united\" in the \"field value (index)\" box, having \"text_general\" selected\nfor fieldtype, all I get is this:\n\nST\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nSF\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nLCF\ntext\nraw_bytes\nstart\nend\npositionLength\ntype\nposition\nunited\n[75 6e 69 74 65 64]\n0\n6\n1\n<ALPHANUM>\n1\nPlacing the mouse cursor on \"ST\", \"SF\", or \"LCF\" shows a tooltip saying\n\"org.apache.lucene.analysis.standard.StandardTokenizer\",\n\"org...core.StopFilter\", and \"org...core.LowerCaseFilter\", respectively.\n\n\nSo - should 'states' not be lemmatized to 'state' using these settings?\n (If not, then I would need to figure out how to use a different lemmatizer)\n\nThanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2056,
+      "end": 2138,
+      "text": "On Thu, Aug 10, 2017 at 10:28 PM, Erick Erickson <erickerickson@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2367,
+      "end": 2385,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2138,
+      "end": 2387,
+      "text": "\n> saying the field is \"text_general\" is not sufficient, please post the\n> analysis chain defined in your schema.\n>\n> Also the admin UI>>analysis page will help you figure out exactly what\n> part of the analysis chain does what.\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2387,
+      "end": 2456,
+      "text": "> On Thu, Aug 10, 2017 at 8:37 AM, OTH <omer.t.h.7@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2456,
+      "end": 2467,
+      "text": "> > Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 3770,
+      "end": 3799,
+      "text": "> >\n> > Much thanks\n> > Omer\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2456,
+      "end": 3802,
+      "text": "> > Hello,\n> >\n> > It seems for me that the token \"states\" is not getting lemmatized to\n> > \"state\" by Solr.\n> >\n> > Eg, I have a document with the value \"united states of america\".\n> > This document is not returned when the following query is issued:\n> > q=name:state^1+name:america^1+name:united^1\n> > However, all documents which contain the token \"state\" are indeed\n> returned,\n> > with the above query.\n> > The \"united states of america\" document is returned if I change \"state\"\n> in\n> > the query to \"states\"; so:\n> > q=name:states^1+name:america^1+name:united^1\n> >\n> > At first I thought maybe the lemmatization isn't working for some reason.\n> > However, when I changed \"united\" in the query to \"unite\", then it did\n> still\n> > return the \"united states of america\" document:\n> > q=name:states^1+name:america^1+name:unite^1\n> > Which means that the lemmatization is working for the token \"united\", but\n> > not for the token \"states\".\n> >\n> > The \"name\" field above is defined as \"text_general\".\n> >\n> > So it seems to me, that perhaps the default Solr lemmatizer does not\n> > lemmatize \"states\" to \"state\"?\n> > Can anyone confirm if this is indeed the expected behaviour?\n> > And what can I do to change it?\n> > If I need to put in a customer lemmatizer, then what would be the (best)\n> > way to do that?\n> >\n> > Much thanks\n> > Omer\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5422"
+}

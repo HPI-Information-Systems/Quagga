@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "bq: I thought that LotsOfCores didn't coexist with Cloud very well.\n\nIt doesn't, you're right, I got off on a tangent there. The OP\nmentioned \"Cloud\" and my brain cross-wired.\n\nOn Thu, Mar 30, 2017 at 6:32 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> On 3/29/2017 8:09 PM, Erick Erickson wrote:\n>> bq: My guess is that it is decided by the load time, because this is\n>> the option that would have the best performance.\n>>\n>> Not at all. The theory here is that this is to support the pattern\n>> where some transient cores are used all the time and some cores are\n>> only used for a while then go quiet. E.g. searching an organization's\n>> documents. A large organization might have users searching all day. A\n>> small organization may search the docs once a week.\n>\n> Thank you for all the info about LotsOfCores internals!\n>\n> If it orders the LRU structure by access time, I think that Shashank\n> must have a transientCacheSize value that's WAY too small, or perhaps\n> that the job being done by their custom component is not updating the\n> \"last access\" info for the core.  Increasing the transientCacheSize\n> might help, but a better option is modifying the custom component so\n> that it occasionally makes a request that updates the last access info.\n> It seems likely that such a request can be\n>\n>> This does work with SolrCloud (I'm not assuming you're using\n>> SolrCloud, just sayin'), but note that the machine being replicated\n>> _to_ (that, BTW, doesn't even have to be part of the collection) won't\n>> be able to serve queries while the replication is going on. I'm\n>> thinking something like use a dummy Solr instance to issue the\n>> fetchindex to _then_ move the result to your Cloud storage.\n>\n> I thought that LotsOfCores didn't coexist with Cloud very well.\n>\n> If you DO run SolrCloud, one option that you have for a \"sort-of backup\"\n> is the Cross-Datacenter-Replication capability.  With this, you set up\n> two complete SolrCloud installs, and one of them will mirror the other.\n>\n> The replication handler has built-in backup capability.\n>\n> One option for backups that I happen to like quite a bit is this, which\n> works on most non-Windows operating systems and doesn't require any\n> custom components:  Set up a shell script, run by cron, that makes a\n> hardlink backup of the data directory, then copies from that directory\n> to a location on another server or on a network share.\n>\n> The hardlink will happen instantly for any size index and produce a\n> directory with a snapshot view of the index that will remain valid no\n> matter what happens to the source directory.  Once the script makes a\n> copy (the slow part) it can delete the directory containing the hardlinks.\n>\n> Thanks,\n> Shawn\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 177,
+      "text": "bq: I thought that LotsOfCores didn't coexist with Cloud very well.\n\nIt doesn't, you're right, I got off on a tangent there. The OP\nmentioned \"Cloud\" and my brain cross-wired.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 177,
+      "end": 298,
+      "text": "On Thu, Mar 30, 2017 at 6:32 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> On 3/29/2017 8:09 PM, Erick Erickson wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2703,
+      "end": 2723,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 298,
+      "end": 2726,
+      "text": ">> bq: My guess is that it is decided by the load time, because this is\n>> the option that would have the best performance.\n>>\n>> Not at all. The theory here is that this is to support the pattern\n>> where some transient cores are used all the time and some cores are\n>> only used for a while then go quiet. E.g. searching an organization's\n>> documents. A large organization might have users searching all day. A\n>> small organization may search the docs once a week.\n>\n> Thank you for all the info about LotsOfCores internals!\n>\n> If it orders the LRU structure by access time, I think that Shashank\n> must have a transientCacheSize value that's WAY too small, or perhaps\n> that the job being done by their custom component is not updating the\n> \"last access\" info for the core.  Increasing the transientCacheSize\n> might help, but a better option is modifying the custom component so\n> that it occasionally makes a request that updates the last access info.\n> It seems likely that such a request can be\n>\n>> This does work with SolrCloud (I'm not assuming you're using\n>> SolrCloud, just sayin'), but note that the machine being replicated\n>> _to_ (that, BTW, doesn't even have to be part of the collection) won't\n>> be able to serve queries while the replication is going on. I'm\n>> thinking something like use a dummy Solr instance to issue the\n>> fetchindex to _then_ move the result to your Cloud storage.\n>\n> I thought that LotsOfCores didn't coexist with Cloud very well.\n>\n> If you DO run SolrCloud, one option that you have for a \"sort-of backup\"\n> is the Cross-Datacenter-Replication capability.  With this, you set up\n> two complete SolrCloud installs, and one of them will mirror the other.\n>\n> The replication handler has built-in backup capability.\n>\n> One option for backups that I happen to like quite a bit is this, which\n> works on most non-Windows operating systems and doesn't require any\n> custom components:  Set up a shell script, run by cron, that makes a\n> hardlink backup of the data directory, then copies from that directory\n> to a location on another server or on a network share.\n>\n> The hardlink will happen instantly for any size index and produce a\n> directory with a snapshot view of the index that will remain valid no\n> matter what happens to the source directory.  Once the script makes a\n> copy (the slow part) it can delete the directory containing the hardlinks.\n>\n> Thanks,\n> Shawn\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2138"
+}

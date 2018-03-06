@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Sergei,\n\nUsually you don't want to know which is which, but you do want to have \nexact matches first. In case of simple queries and depending on your \nusecase, you can use score to make distinction. If \"bolter\" matches \n\"bolt\" because of some filters, you will need to index it in two fields \nand boost fields differently to get different score for different matches:\n\ncode_text_exact:bolt^10000 OR code_text:bolt\n\nIf you want to use wildcards, you can use similar approach:\n\ncode_text:bolt^10000 OR code_text:bolt*\n\nHTH,\nEmir\n\n\nOn 02.03.2017 14:41, \u00d0\u00a1\u00d0\u00b5\u00d1\u20ac\u00d0\u00b3\u00d0\u00b5\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b2\u00d0\u00b5\u00d1\u20ac\u00d0\u00b4\u00d0\u00be\u00d1\u2026\u00d0\u00bb\u00d0\u00b5\u00d0\u00b1 wrote:\n> Hi,\n>\n> is there way to separate exact match from wildcard match in solr response?\n> e.g. there are two documents: {code_text:bolt} and {code_text:bolter}. When\n> I search for \"bolt\" I want to get both results, but somehow grouped, so I\n> can determine either it was found with exact or non-exact match.\n>\n> Thanks.\n>\n\n-- \nMonitoring * Alerting * Anomaly Detection * Centralized Log Management\nSolr & Elasticsearch Support * http://sematext.com/\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Sergei,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 519,
+      "end": 530,
+      "text": "\nHTH,\nEmir\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 532,
+      "end": 594,
+      "text": "On 02.03.2017 14:41, \u00d0\u00a1\u00d0\u00b5\u00d1\u20ac\u00d0\u00b3\u00d0\u00b5\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b2\u00d0\u00b5\u00d1\u20ac\u00d0\u00b4\u00d0\u00be\u00d1\u2026\u00d0\u00bb\u00d0\u00b5\u00d0\u00b1 wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 594,
+      "end": 600,
+      "text": "> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 900,
+      "end": 912,
+      "text": ">\n> Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 594,
+      "end": 1044,
+      "text": "> Hi,\n>\n> is there way to separate exact match from wildcard match in solr response?\n> e.g. there are two documents: {code_text:bolt} and {code_text:bolter}. When\n> I search for \"bolt\" I want to get both results, but somehow grouped, so I\n> can determine either it was found with exact or non-exact match.\n>\n> Thanks.\n>\n\n-- \nMonitoring * Alerting * Anomaly Detection * Centralized Log Management\nSolr & Elasticsearch Support * http://sematext.com/\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 532,
+      "text": "Hi Sergei,\n\nUsually you don't want to know which is which, but you do want to have \nexact matches first. In case of simple queries and depending on your \nusecase, you can use score to make distinction. If \"bolter\" matches \n\"bolt\" because of some filters, you will need to index it in two fields \nand boost fields differently to get different score for different matches:\n\ncode_text_exact:bolt^10000 OR code_text:bolt\n\nIf you want to use wildcards, you can use similar approach:\n\ncode_text:bolt^10000 OR code_text:bolt*\n\nHTH,\nEmir\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1332"
+}

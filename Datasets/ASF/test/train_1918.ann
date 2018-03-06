@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_1918",
+  "meta": {},
+  "text": "To work around an out of space issue in a Direct Kafka Streaming\napplication we create topics with a low retention policy (retention.ms=300000)\nwhich works fine from Kafka perspective. However this results\ninto OffsetOutOfRangeException in Spark job (red line below). Is there any\nconfiguration in Spark to set to avoid receiving expired messages?\n\n\n        JavaInputDStream<MyTuple> dStream = KafkaUtils.createDirectStream(ssc,\nString.class, byte[].class,\n                StringDecoder.class, DefaultDecoder.class, MyTuple.class,\nkafkaParams, fromOffsets, messageHandler);\n\n        dStream.foreachRDD(\n                new VoidFunction<JavaRDD<MyTuple>>() {\n                    @Override\n                    public void call(JavaRDD<MyTuple> rdd) {\n                        final OffsetRange[] offSetRanges =\n((HasOffsetRanges) rdd.rdd()).offsetRanges();\n\n                        rdd.foreachPartition(new\nVoidFunction<Iterator<MyTuple>>() {\n\n                            @Override\n                            public void call(Iterator<MyTuple> iterator)\nthrows Exception {\n                                //init some data\n                                while (*iterator.hasNext()*) {\n                                  //handle next Tuple\n                                }\n                            }\n                            //...\n                        }\n                    }\n                });\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1404,
+      "text": "To work around an out of space issue in a Direct Kafka Streaming\napplication we create topics with a low retention policy (retention.ms=300000)\nwhich works fine from Kafka perspective. However this results\ninto OffsetOutOfRangeException in Spark job (red line below). Is there any\nconfiguration in Spark to set to avoid receiving expired messages?\n\n\n        JavaInputDStream<MyTuple> dStream = KafkaUtils.createDirectStream(ssc,\nString.class, byte[].class,\n                StringDecoder.class, DefaultDecoder.class, MyTuple.class,\nkafkaParams, fromOffsets, messageHandler);\n\n        dStream.foreachRDD(\n                new VoidFunction<JavaRDD<MyTuple>>() {\n                    @Override\n                    public void call(JavaRDD<MyTuple> rdd) {\n                        final OffsetRange[] offSetRanges =\n((HasOffsetRanges) rdd.rdd()).offsetRanges();\n\n                        rdd.foreachPartition(new\nVoidFunction<Iterator<MyTuple>>() {\n\n                            @Override\n                            public void call(Iterator<MyTuple> iterator)\nthrows Exception {\n                                //init some data\n                                while (*iterator.hasNext()*) {\n                                  //handle next Tuple\n                                }\n                            }\n                            //...\n                        }\n                    }\n                });\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

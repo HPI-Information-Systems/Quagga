@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "I think I figured it out: the problem is due to Flink's behavior when a job has checkpointing\nenabled.\n\nWhen the job graph is created, if checkpointing is enabled but a restart strategy hasn't been\nprogrammatically configured, Flink changes the job graph's execution config to use the fixed\ndelay restart strategy. That gets serialized with the job graph. Then, when the JobManager\ndeserializes the execution config, it sees that there's a restart strategy configured for\nthe job and uses that instead of using the restart strategy that's configured on the cluster.\n\nClearly, the documentation definitely needs to be adjusted. Maybe I can add some changes to\nhttps://github.com/apache/flink/pull/3059\n\nHowever, should we also consider some implementation changes? Is it intentional that enabling\ncheckpoint overrides the restart strategy set on the cluster, and that the only way to control\nthe restart strategy on a checkpointed job is to set it programmatically? If not, then would\nit be reasonable to only set fixed-delay restart strategy if checkpointing is enabled AND\nthe cluster doesn't explicitly configure it? Flink would no longer be use the execution config\nto control the strategy, but would instead do it in the JobManager#submitJob().\n\n-Shannon\n\nFrom: Shannon Carey <scarey@expedia.com<mailto:scarey@expedia.com>>\nDate: Thursday, January 5, 2017 at 1:50 PM\nTo: \"user@flink.apache.org<mailto:user@flink.apache.org>\" <user@flink.apache.org<mailto:user@flink.apache.org>>\nSubject: failure-rate restart strategy not working?\n\nI recently updated my cluster with the following config:\n\nrestart-strategy: failure-rate\nrestart-strategy.failure-rate.max-failures-per-interval: 3\nrestart-strategy.failure-rate.failure-rate-interval: 5 min\nrestart-strategy.failure-rate.delay: 10 s\n\nI see the settings inside the JobManager web UI, as expected. I am not setting the restart-strategy\nprogrammatically, but the job does have checkpointing enabled.\n\nHowever, if I launch a job that (intentionally) fails every 10 seconds by throwing a RuntimeException,\nit continues to restart beyond the limit of 3 failures.\n\nDoes anyone know why this might be happening? Any ideas of things I could check?\n\nThanks!\nShannon\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1249,
+      "end": 1259,
+      "text": "\n-Shannon\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1260,
+      "end": 1535,
+      "text": "From: Shannon Carey <scarey@expedia.com<mailto:scarey@expedia.com>>\nDate: Thursday, January 5, 2017 at 1:50 PM\nTo: \"user@flink.apache.org<mailto:user@flink.apache.org>\" <user@flink.apache.org<mailto:user@flink.apache.org>>\nSubject: failure-rate restart strategy not working?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1260,
+      "text": "I think I figured it out: the problem is due to Flink's behavior when a job has checkpointing\nenabled.\n\nWhen the job graph is created, if checkpointing is enabled but a restart strategy hasn't been\nprogrammatically configured, Flink changes the job graph's execution config to use the fixed\ndelay restart strategy. That gets serialized with the job graph. Then, when the JobManager\ndeserializes the execution config, it sees that there's a restart strategy configured for\nthe job and uses that instead of using the restart strategy that's configured on the cluster.\n\nClearly, the documentation definitely needs to be adjusted. Maybe I can add some changes to\nhttps://github.com/apache/flink/pull/3059\n\nHowever, should we also consider some implementation changes? Is it intentional that enabling\ncheckpoint overrides the restart strategy set on the cluster, and that the only way to control\nthe restart strategy on a checkpointed job is to set it programmatically? If not, then would\nit be reasonable to only set fixed-delay restart strategy if checkpointing is enabled AND\nthe cluster doesn't explicitly configure it? Flink would no longer be use the execution config\nto control the strategy, but would instead do it in the JobManager#submitJob().\n\n-Shannon\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2191,
+      "end": 2208,
+      "text": "\nThanks!\nShannon\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1535,
+      "end": 2208,
+      "text": "\nI recently updated my cluster with the following config:\n\nrestart-strategy: failure-rate\nrestart-strategy.failure-rate.max-failures-per-interval: 3\nrestart-strategy.failure-rate.failure-rate-interval: 5 min\nrestart-strategy.failure-rate.delay: 10 s\n\nI see the settings inside the JobManager web UI, as expected. I am not setting the restart-strategy\nprogrammatically, but the job does have checkpointing enabled.\n\nHowever, if I launch a job that (intentionally) fails every 10 seconds by throwing a RuntimeException,\nit continues to restart beyond the limit of 3 failures.\n\nDoes anyone know why this might be happening? Any ideas of things I could check?\n\nThanks!\nShannon\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_133"
+}

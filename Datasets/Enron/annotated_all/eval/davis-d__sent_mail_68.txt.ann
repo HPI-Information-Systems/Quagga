@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "Have I responded to you regarding this?\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Nicole Mendez                           09/26/2000 02:07 PM\n\t\n\nTo: Dana Davis/HOU/ECT@ECT\ncc:  \nSubject: Projected Vacation Schedule\n\nDana,\n\nCan you send me a copy of your requested days so that I can update the \nvacation calendar?  Thanks.\n\nNicole\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 42,
+      "end": 216,
+      "text": "   \n\tEnron North America Corp.\n\t\n\tFrom:  Nicole Mendez                           09/26/2000 02:07 PM\n\t\n\nTo: Dana Davis/HOU/ECT@ECT\ncc:  \nSubject: Projected Vacation Schedule\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 42,
+      "text": "Have I responded to you regarding this?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 216,
+      "end": 223,
+      "text": "\nDana,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 324,
+      "end": 332,
+      "text": "\nNicole\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 216,
+      "end": 333,
+      "text": "\nDana,\n\nCan you send me a copy of your requested days so that I can update the \nvacation calendar?  Thanks.\n\nNicole\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5777476.1075853953345.JavaMail.evans@thyme>",
+      "Date": "Mon, 2 Oct 2000 08:52:00 -0700 (PDT)",
+      "From": "dana.davis@enron.com",
+      "To": "nicole.mendez@enron.com",
+      "Subject": "Re: Projected Vacation Schedule",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Dana Davis",
+      "X-To": "Nicole Mendez",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Dana_Davis_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Davis-D",
+      "X-FileName": "ddavis2.nsf"
+    }
+  },
+  "id": "eval/davis-d__sent_mail_68.txt"
+}

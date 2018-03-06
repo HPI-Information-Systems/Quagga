@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Sally,\n\nI sent the last one to you without saving the last changes.  Here is a new \none.\n\nSorry!\n\nShona\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 10,
+      "text": "Sally",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 12,
+      "text": "Dear Sally,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 103,
+      "end": 108,
+      "text": "Shona",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 95,
+      "end": 109,
+      "text": "Sorry!\n\nShona\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 109,
+      "text": "Dear Sally,\n\nI sent the last one to you without saving the last changes.  Here is a new \none.\n\nSorry!\n\nShona\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21799948.1075855836067.JavaMail.evans@thyme>",
+      "Date": "Wed, 14 Jun 2000 00:39:00 -0700 (PDT)",
+      "From": "shona.wilson@enron.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "updated strawman - please delete prior message",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shona Wilson",
+      "X-To": "Sally Beck",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_discussion_threads_1181.txt"
+}

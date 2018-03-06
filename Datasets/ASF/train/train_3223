@@ -1,0 +1,34 @@
+On 5/9/2017 12:58 AM, Bharath Kumar wrote:
+> Thanks Hrishikesh and Dave. We use SOLR cloud with 2 extra replicas, will that not serve
+as backup when something goes wrong? Also we use latest solr 6 and from the documentation
+of solr, the indexing performance has been good. The reason is that we are using MySQL as
+the primary data store and the performance might not be optimal if we write data at a very
+rapid rate. Already we index almost half the fields that are in MySQL in solr.
+
+A replica is protection against data loss in the event of hardware
+failure, but there are classes of problems that it cannot protect against.
+
+Although Solr (Lucene) does try *really* hard to never lose data that it
+hasn't been asked to delete, it is not designed to be a database.  It's
+a search engine.  Solr doesn't offer the same kinds of guarantees about
+the data it contains that software like MySQL does.
+
+I personally don't recommend trying to use Solr as a primary data store,
+but if that's what you really want to do, then I would suggest that you
+have two complete Solr installs, with multiple replicas on both.  One of
+them will be used for searching and have a configuration you're already
+familiar with, the other will be purely for data storage -- only certain
+fields like the uniqueKey will be indexed, but every other field will be
+stored only.
+
+Running with two separate Solr installs will allow you to optimize one
+for searching and the other for data storage.  The searching install
+will be able to rebuild itself from the data storage install when that
+is required.  If better performance is needed for the rebuild, you have
+the option of writing a multi-threaded or multi-process program that
+reads from one and writes to the other.
+
+Thanks,
+Shawn
+
+

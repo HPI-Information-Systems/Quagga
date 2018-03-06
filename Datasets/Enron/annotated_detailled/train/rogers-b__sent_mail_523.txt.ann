@@ -1,0 +1,318 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hey there, \nHave I got a potential job opportunity for you.  My neighbor at work since \nthis business plan to me to see if knew anyone who would be interested in \njoining this company and believe it or NOT, I thought of you.  Give me a call \nwhen you go through this BP.  Keep this confidential.  How did you like those \npics from Chobs of the girls on the beach.  Have you taken them home yet and \ndone unspeakable things to them? See ya!\nThanks\nBen\n---------------------- Forwarded by Benjamin Rogers/HOU/ECT on 05/22/2000 \n04:45 PM ---------------------------\n\n\nMichelle Parks@ENRON\n05/22/2000 04:29 PM\nTo: Benjamin Rogers/HOU/ECT@ECT\ncc:  \nSubject: Re: photofete\n\nBen:\n\nHere is the business summary. Jennifer iscurrently looking for a CFO, COO and \nMarketing Director. If you know of anyone, let me know!\n\nThanks,\n\nMichelle\n---------------------- Forwarded by Michelle Parks/Corp/Enron on 05/22/2000 \n04:25 PM ---------------------------\n\n\nPhotoJBind@aol.com on 05/22/2000 04:01:37 PM\nTo: Michelle.Parks@enron.com\ncc:  \n\nSubject: Re: photofete\n\n\n\n\n - photofet.pdf\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 12,
+      "text": "Hey there, \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 447,
+      "end": 450,
+      "text": "Ben",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 440,
+      "end": 451,
+      "text": "Thanks\nBen\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 451,
+      "text": "Hey there, \nHave I got a potential job opportunity for you.  My neighbor at work since \nthis business plan to me to see if knew anyone who would be interested in \njoining this company and believe it or NOT, I thought of you.  Give me a call \nwhen you go through this BP.  Keep this confidential.  How did you like those \npics from Chobs of the girls on the beach.  Have you taken them home yet and \ndone unspeakable things to them? See ya!\nThanks\nBen\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 487,
+      "end": 502,
+      "text": "Benjamin Rogers",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 514,
+      "end": 524,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 526,
+      "end": 534,
+      "text": "04:45 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 451,
+      "end": 563,
+      "text": "---------------------- Forwarded by Benjamin Rogers/HOU/ECT on 05/22/2000 \n04:45 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 565,
+      "end": 579,
+      "text": "Michelle Parks",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 586,
+      "end": 596,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 597,
+      "end": 605,
+      "text": "04:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 610,
+      "end": 625,
+      "text": "Benjamin Rogers",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 653,
+      "end": 666,
+      "text": "Re: photofete",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 563,
+      "end": 667,
+      "text": "\n\nMichelle Parks@ENRON\n05/22/2000 04:29 PM\nTo: Benjamin Rogers/HOU/ECT@ECT\ncc:  \nSubject: Re: photofete\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 668,
+      "end": 671,
+      "text": "Ben",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 819,
+      "end": 827,
+      "text": "Michelle",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 810,
+      "end": 828,
+      "text": "Thanks,\n\nMichelle\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 667,
+      "end": 828,
+      "text": "\nBen:\n\nHere is the business summary. Jennifer iscurrently looking for a CFO, COO and \nMarketing Director. If you know of anyone, let me know!\n\nThanks,\n\nMichelle\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 864,
+      "end": 878,
+      "text": "Michelle Parks",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 893,
+      "end": 903,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 905,
+      "end": 913,
+      "text": "04:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 828,
+      "end": 942,
+      "text": "---------------------- Forwarded by Michelle Parks/Corp/Enron on 05/22/2000 \n04:25 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 944,
+      "end": 962,
+      "text": "PhotoJBind@aol.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 966,
+      "end": 976,
+      "text": "05/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 977,
+      "end": 988,
+      "text": "04:01:37 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 993,
+      "end": 1017,
+      "text": "Michelle.Parks@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1034,
+      "end": 1047,
+      "text": "Re: photofete",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 942,
+      "end": 1048,
+      "text": "\n\nPhotoJBind@aol.com on 05/22/2000 04:01:37 PM\nTo: Michelle.Parks@enron.com\ncc:  \n\nSubject: Re: photofete\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1055,
+      "end": 1067,
+      "text": "photofet.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1052,
+      "end": 1068,
+      "text": " - photofet.pdf\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1048,
+      "end": 1070,
+      "text": "\n\n\n\n - photofet.pdf\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 9,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 19,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 26,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9610361.1075857256421.JavaMail.evans@thyme>",
+      "Date": "Mon, 22 May 2000 09:48:00 -0700 (PDT)",
+      "From": "benjamin.rogers@enron.com",
+      "To": "john.e.obrien@us.pwcglobal.com",
+      "Subject": "Re: photofete",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Benjamin Rogers",
+      "X-To": "john.e.obrien@us.pwcglobal.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_3\\Notes Folders\\'sent mail",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b__sent_mail_523.txt"
+}

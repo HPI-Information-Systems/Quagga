@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 05/01/2017 13:30, Morten B\u00c3\u00b8geskov wrote:\n>\n>\n> Hi.\n>\n> We've got a SolrCloud which is sharded and has a replication factor of\n> 2.\n>\n> The 2 replicas of a shard may look like this:\n>\n> Num Docs:    5401023\n> Max Doc:    6388614\n> Deleted Docs:    987591\n>\n>\n> Num Docs:    5401023\n> Max Doc:    5948122\n> Deleted Docs:    547099\n>\n> We've seen >10% difference in Max Doc at times with same Num Docs.\n> Our use case is few documents that are search and many small that\n> are filtered against (often updated multiple times a day), so the\n> difference in deleted docs aren't surprising.\n>\n> This results in a different score for a document depending on which\n> replica it comes from. As I see it: it has to do with the different\n> maxDoc value when calculating idf.\n>\n> This in turn alters a specific document's position in the search\n> result over reloads. This is quite confusing (duplicates in pagination).\n>\n> What is the trick to get homogeneous score from different replicas.\n> We've tried using ExactStatsCache & ExactSharedStatsCache, but that\n> didn't seem to make any difference.\n>\n> Any hints to this will be greatly appreciated.\n>\n\nThis was one of things we looked at during our recent Lucene London \nHackday (see item 3) https://github.com/flaxsearch/london-hackday-2016\n\nI'm not sure there is a way to get a homogenous score - this patch tries \nto keep you connected to the same replica during a session so you don't \nsee results jumping over pagination.\n\nCheers\n\nCharlie\n\n\n-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 45,
+      "text": "On 05/01/2017 13:30, Morten B\u00c3\u00b8geskov wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 47,
+      "end": 55,
+      "text": ">\n> Hi.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1470,
+      "end": 1487,
+      "text": "\nCheers\n\nCharlie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1489,
+      "end": 1621,
+      "text": "-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 45,
+      "end": 1621,
+      "text": ">\n>\n> Hi.\n>\n> We've got a SolrCloud which is sharded and has a replication factor of\n> 2.\n>\n> The 2 replicas of a shard may look like this:\n>\n> Num Docs:    5401023\n> Max Doc:    6388614\n> Deleted Docs:    987591\n>\n>\n> Num Docs:    5401023\n> Max Doc:    5948122\n> Deleted Docs:    547099\n>\n> We've seen >10% difference in Max Doc at times with same Num Docs.\n> Our use case is few documents that are search and many small that\n> are filtered against (often updated multiple times a day), so the\n> difference in deleted docs aren't surprising.\n>\n> This results in a different score for a document depending on which\n> replica it comes from. As I see it: it has to do with the different\n> maxDoc value when calculating idf.\n>\n> This in turn alters a specific document's position in the search\n> result over reloads. This is quite confusing (duplicates in pagination).\n>\n> What is the trick to get homogeneous score from different replicas.\n> We've tried using ExactStatsCache & ExactSharedStatsCache, but that\n> didn't seem to make any difference.\n>\n> Any hints to this will be greatly appreciated.\n>\n\nThis was one of things we looked at during our recent Lucene London \nHackday (see item 3) https://github.com/flaxsearch/london-hackday-2016\n\nI'm not sure there is a way to get a homogenous score - this patch tries \nto keep you connected to the same replica during a session so you don't \nsee results jumping over pagination.\n\nCheers\n\nCharlie\n\n\n-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_98"
+}

@@ -1,0 +1,67 @@
+Stefan is correct in pointing out the lines to remove.
+
+FYI: We are trying to add this patch to the upcoming 1.3.2 release which
+should also help: https://github.com/apache/flink/pull/4397
+
+On Wed, Jul 26, 2017 at 9:48 AM, Stefan Richter <s.richter@data-artisans.com
+> wrote:
+
+> Hi,
+>
+> I think Stephan was talking about removing this part:
+>
+>         try {
+>                 FileUtils.deletePathIfEmpty(fs, filePath.getParent());
+>         } catch (Exception ignored) {}
+>
+>
+> This part should *NOT* be removed:
+>
+>         fs.delete(filePath, false);
+>
+> The reason is that the first is only an additional cleanup that, for each
+> deleted file, checks if the containing directory is now empty and then
+> removes the directory. Checking for empty directories includes listing all
+> files in the directory, which is expensive in S3 and the only downside of
+> removing the line are orphaned empty checkpoint directories, which could be
+> cleaned by a script.
+>
+> Delete of the file itself must remain because that is how we release files
+> from old checkpoints.
+>
+> Best,
+> Stefan
+>
+> > Am 26.07.2017 um 04:31 schrieb prashantnayak <
+> prashant@intellifylearning.com>:
+> >
+> > Hi Stephan
+> >
+> > Unclear on what you mean by the "trash" option... thought that was only
+> > available for command line hadoop and not applicable for API, which is
+> what
+> > Flink uses?  If there is a configuration for the Flink/Hadoop connector,
+> > please let me know.
+> >
+> > Also, one additional thing about S3.... S3 supports this option of
+> > "versioned" buckets... Since versioning basically results in a delete on
+> a
+> > object not actually deleting it (unless there is a bucket lifecycle
+> > policy)... I think you should recommend that Flink users that rely on S3
+> > turn off bucket versioning since it seems to not really be a factor for
+> > Flink...
+> >
+> > Thanks
+> > Prashant
+> >
+> >
+> >
+> > --
+> > View this message in context: http://apache-flink-user-
+> mailing-list-archive.2336050.n4.nabble.com/S3-recovery-and-
+> checkpoint-directories-exhibit-explosive-growth-tp14270p14453.html
+> > Sent from the Apache Flink User Mailing List archive. mailing list
+> archive at Nabble.com.
+>
+>
+

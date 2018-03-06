@@ -1,0 +1,18 @@
+All,
+
+Is there possiblity in near future in coming new releases, adding shards
+dynamically though compositeId ( default ) based routing is used.
+Currently only option is we need to split the shard, instead we should able
+to add shards dynamically and then on all new documents should go on new
+shards.
+Is there a plan to include this in coming release(s) ?
+
+Regards,
+Ganesh
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Adding-shards-dynamically-when-the-automatic-routing-is-used-tp4333883.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

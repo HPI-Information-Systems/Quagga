@@ -1,0 +1,58 @@
+Hi Alexandre,
+
+A boost should works for my needs.
+
+Thanks!
+
+Alexandre Drouin
+
+
+-----Original Message-----
+From: Alexandre Rafalovitch [mailto:arafalov@gmail.com] 
+Sent: February 3, 2017 12:14 PM
+To: solr-user <solr-user@lucene.apache.org>
+Subject: Re: Promote documents if they are present in the search results
+Importance: High
+
+Could you do a basic boost query with a list of all those document ids. If they are in results,
+their relevance is boosted. If they are not, they are just ignored.
+
+You could have that boost query configured in the solrconfig.xml or passed in by a client.
+
+Regards,
+   Alex
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 3 February 2017 at 12:06, Alexandre Drouin <alexandre.drouin@orckestra.com> wrote:
+> Hello,
+>
+> I am developing a new feature in my product where an administrator can select a list
+of documents for different sections of the application.  You can think of this feature as
+the classic categorization in an e-commerce site (e.g.: Boots, Headgear, etc).  Since this
+categorization is different depending on the section/category I cannot easily store which
+documents are promoted in Solr itself.  I know ahead of time which documents should be promoted
+for which section so I would like to know if there is a way to "pass" these documents to Solr
+and have them at the top of the list if they are found in the search results.
+>
+> For example let's say that I have the following documents:
+>     - Doc1 (name: A, Age: 12)
+>     - Doc2 (name: B, Age: 24)
+>     - Doc3 (name: C, Age: 36)
+>
+> I would like to promote Doc3 at the top of the list and if someone search for "name:B"
+or "Age:12" the results should not include Doc3 because it did not match the query.
+>
+> I looked at QueryElevationComponent and it doesn't do exactly what I want: the component
+is based on a "query" and this query can be different in my use case.  I know I can use the
+"elevatedIds" parameter to elevate documents however they are always elevated even if they
+are not present in the search results.
+>
+> Is it possible to achieve what I need with Solr? I am using Solr 
+> 4.10.2
+>
+> Thanks!
+>
+>
+> Alexandre Drouin

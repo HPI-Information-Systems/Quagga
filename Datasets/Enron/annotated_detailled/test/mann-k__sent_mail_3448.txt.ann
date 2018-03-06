@@ -1,0 +1,131 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 09/19/2000 06:11 \nPM ---------------------------\n   \n\t\n\t\n\tFrom:  ENA Office of the Chairman                           09/19/2000 06:07 \nPM\n\t\n\nSent by: Enron NA Office of the Chairman\nTo: Houston_ENA_EGM_EIM\ncc:  \n\nSubject: Reminder - Employee Appreciation\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 69,
+      "text": "09/19/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 70,
+      "end": 79,
+      "text": "06:11 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 108,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 09/19/2000 06:11 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 124,
+      "end": 150,
+      "text": "ENA Office of the Chairman",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 177,
+      "end": 187,
+      "text": "09/19/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 188,
+      "end": 197,
+      "text": "06:07 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 210,
+      "end": 241,
+      "text": "Enron NA Office of the Chairman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 246,
+      "end": 265,
+      "text": "Houston_ENA_EGM_EIM",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 282,
+      "end": 314,
+      "text": "Reminder - Employee Appreciation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 108,
+      "end": 315,
+      "text": "   \n\t\n\t\n\tFrom:  ENA Office of the Chairman                           09/19/2000 06:07 \nPM\n\t\n\nSent by: Enron NA Office of the Chairman\nTo: Houston_ENA_EGM_EIM\ncc:  \n\nSubject: Reminder - Employee Appreciation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 315,
+      "end": 317,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16404734.1075846113011.JavaMail.evans@thyme>",
+      "Date": "Tue, 19 Sep 2000 11:11:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "nmann@erac.com",
+      "Subject": "Reminder - Employee Appreciation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "nmann@erac.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k__sent_mail_3448.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

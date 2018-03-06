@@ -1,0 +1,210 @@
+{
+  "wrapper": "plaintext",
+  "text": "Shirley,\n\nPlease, rescheduule.\n\nVince\n\n\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/29/2001 \n08:15 AM ---------------------------\n\n\n\tClayton Vernon @ ENRON\n\t01/29/2001 12:38 AM\n\t\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc: Stinson Gibner/HOU/ECT@ECT, Tom Barkley/NA/Enron@Enron \nSubject: reschedule\n\nVince-\n\nI apologize, but something has come regarding this afternoon. My server's OS \nis acting up, and is affecting all of my apps right now.\n\nCan we think about later this week? I promise it will be worth it to you. The \nEOL stuff is nice.\n\nAgain, my apologies.\n\nClayton\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Shirley",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 32,
+      "end": 37,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 40,
+      "text": "Shirley,\n\nPlease, rescheduule.\n\nVince\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 76,
+      "end": 92,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 104,
+      "end": 114,
+      "text": "01/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 116,
+      "end": 124,
+      "text": "08:15 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 40,
+      "end": 153,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/29/2001 \n08:15 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 170,
+      "text": "Clayton Vernon",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 180,
+      "end": 190,
+      "text": "01/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 191,
+      "end": 199,
+      "text": "12:38 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 206,
+      "end": 222,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 239,
+      "end": 253,
+      "text": "Stinson Gibner",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 267,
+      "end": 278,
+      "text": "Tom Barkley",
+      "type": "Header/Org/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 304,
+      "end": 314,
+      "text": "reschedule",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 153,
+      "end": 315,
+      "text": "\n\n\tClayton Vernon @ ENRON\n\t01/29/2001 12:38 AM\n\t\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc: Stinson Gibner/HOU/ECT@ECT, Tom Barkley/NA/Enron@Enron \nSubject: reschedule\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 316,
+      "end": 321,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 581,
+      "end": 588,
+      "text": "Clayton",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 559,
+      "end": 589,
+      "text": "Again, my apologies.\n\nClayton\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 315,
+      "end": 589,
+      "text": "\nVince-\n\nI apologize, but something has come regarding this afternoon. My server's OS \nis acting up, and is affecting all of my apps right now.\n\nCan we think about later this week? I promise it will be worth it to you. The \nEOL stuff is nice.\n\nAgain, my apologies.\n\nClayton\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15173461.1075856456489.JavaMail.evans@thyme>",
+      "Date": "Mon, 29 Jan 2001 00:13:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "shirley.crenshaw@enron.com",
+      "Subject": "reschedule",
+      "Cc": "clayton.vernon@enron.com, stinson.gibner@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "clayton.vernon@enron.com, stinson.gibner@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Shirley Crenshaw",
+      "X-cc": "Clayton Vernon, Stinson Gibner",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_843.txt"
+}

@@ -1,0 +1,115 @@
+Hi there, on Solr 6.6.0, using the built-in "techproducts" example:
+
+bin/solr start -f -e techproducts
+
+I can successfully search with URL-based bq as shown in the URL (bq setting
+in *bold*) below:
+
+http://localhost:8983/solr/techproducts/select?
+*bq={!complexphrase%20inOrder=true%20df=name}%22${q}%22*
+&debugQuery=on&defType=edismax&fl=*,score&indent=on&q=iPod%20Mini&wt=json
+
+where I see the expected ComplexPhraseQuery expression in the parsed query:
+
+"parsedquery":"(+(DisjunctionMaxQuery((text:ipod))
+DisjunctionMaxQuery((text:mini))) *ComplexPhraseQuery(\"iPod Mini\")*
+)/no_coord"
+
+However, *I have been unable to accomplish the same query using a search
+handler *in solrconfig.xml, as shown below:
+
+  <requestHandler name="/search_by_name_phrase" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="echoParams">ALL</str>
+      <int name="rows">10</int>
+
+      <!-- Query parser -->
+      <str name="defType">edismax</str>
+
+      <!-- Query fields -->
+      <str name="qf">name</str>
+
+      <!-- Fields list -->
+      <str name="fl">name, score</str>
+
+      <!-- Boost matching the search terms in order in name -->
+      <!-- Error: org.apache.solr.common.SolrException: No system property
+or default value specified for q value:{!complexphrase inOrder=true
+df=name}"${q}"-->
+      <str name="bq">*{!complexphrase inOrder=true df=name}"${q}"*</str>
+
+      <!-- Escaping does not work either. Not sure I have the proper
+escaping syntax. -->
+      <!--<str name="bq">{!complexphrase inOrder=true
+df=name}"\\$\\{q\\}"</str>-->
+    </lst>
+  </requestHandler>
+
+The expression <str name="bq">{!complexphrase inOrder=true
+df=name}"${q}"</str> errors out when loading solrconfig.xml with the
+following error:
+
+Error: org.apache.solr.common.SolrException: No system property or default
+value specified for q value:{!complexphrase inOrder=true df=name}"${q}"
+
+as if Solr is looking for a Java property "q"!?
+
+The variation shows below without the macro expansion, but assuming a
+normal localParam substitution, seems to be taking "$q" as a literate:
+
+Setting:
+      <str name="bq">{!complexphrase inOrder=true}name:"$q"</str>
+Produces:
+      "parsedquery":"(+(DisjunctionMaxQuery((name:ipod))
+DisjunctionMaxQuery((name:mini))) *ComplexPhraseQuery(\"$q\")*)/no_coord"
+
+The variation with an attempt to escape the macro expansion does not work
+either:
+
+Setting:
+      <str name="bq">{!complexphrase inOrder=true df=name}"\\$\\{q\\}"</str>
+Produces:
+      "parsedquery":"(+(DisjunctionMaxQuery((name:ipod))
+DisjunctionMaxQuery((name:mini)))* ComplexPhraseQuery(\"\\$\\{q\\}\"))*
+/no_coord"
+
+Also, the following variations do *not* produce the expected
+ComplexPhraseQuery statement in the parsed query:
+Settings:
+      <str name="bq">{!complexphrase inOrder=true}name:$q</str>
+      <str name="bq">{!complexphrase inOrder=true df=name}$q</str>
+      <str name="bq">{!complexphrase inOrder=true}name:($q)</str>
+      <str name="bq">{!complexphrase inOrder=true df=name}($q)</str>
+      <str name="bq">{!complexphrase inOrder=true}name:\"$q\"</str>
+      <str name="bq">{!complexphrase inOrder=true df=name}\"$q\"</str>
+      <str name="bq">{!complexphrase inOrder=true df=name v="$q"}</str>
+      <str name="bq">{!complexphrase inOrder=true df=name v=\"$q\"}</str>
+Produces:
+      "parsedquery":"(+(DisjunctionMaxQuery((name:ipod))
+DisjunctionMaxQuery((name:mini))) *name:q*)/no_coord"
+
+And finally, also not producing the expected ComplexPhraseQuery statement:
+Setting:
+      <str name="bq">{!complexphrase inOrder=true df=name v=$q}</str>
+Produces:
+      "parsedquery":"(+(DisjunctionMaxQuery((name:ipod))
+DisjunctionMaxQuery((name:mini))) *(name:ipod name:mini)*)/no_coord"
+
+The documentation for ComplexPhraseQuery
+<https://lucene.apache.org/solr/guide/6_6/other-parsers.html#other-parsers>
+stipulates
+some required "escaping": Special care has to be given when escaping:
+clauses between double quotes (usually whole query) is parsed twice, these
+parts have to be escaped as twice. eg "foo\\: bar\\^"
+
+hence, it is possible that I have not used the proper escaping syntax.
+
+It is troubling that I cannot use the same URL parameter expression in a
+search handler to accomplish the same effect, a strong assumption of mine
+in how Solr can be used.
+
+Any suggestion, comment, or similar experience? Does it look like a bug?
+
+Thank you,
+Bertrand
+

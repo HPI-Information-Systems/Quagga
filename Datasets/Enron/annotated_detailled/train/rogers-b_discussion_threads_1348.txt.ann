@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is Indices of all projects as of 10/12/00. As you know, we will NOT \nupdate in DealBench until next update date (maybe next Tuesday?). These \nindices are currently matched with DealBench. Therefore, please wait until \nnext update date and let me know then what is your changes/update.\n\nI will also create a new diskette. Thanks.\n\nJinsung Myung\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 339,
+      "end": 352,
+      "text": "Jinsung Myung",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 330,
+      "end": 353,
+      "text": "Thanks.\n\nJinsung Myung\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 353,
+      "text": "Attached is Indices of all projects as of 10/12/00. As you know, we will NOT \nupdate in DealBench until next update date (maybe next Tuesday?). These \nindices are currently matched with DealBench. Therefore, please wait until \nnext update date and let me know then what is your changes/update.\n\nI will also create a new diskette. Thanks.\n\nJinsung Myung\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21415261.1075857210365.JavaMail.evans@thyme>",
+      "Date": "Fri, 13 Oct 2000 07:58:00 -0700 (PDT)",
+      "From": "jinsung.myung@enron.com",
+      "To": "jonathan.hoff@enron.com, benjamin.rogers@enron.com, ron.coker@enron.com",
+      "Subject": "New Index as of 10/12/00",
+      "Cc": "don.miller@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "don.miller@enron.com",
+      "X-From": "Jinsung Myung",
+      "X-To": "Jonathan Hoff, Benjamin Rogers, Ron Coker",
+      "X-cc": "Don Miller",
+      "X-bcc": "",
+      "X-Folder": "\\Benjamin_Rogers_Dec2000_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Rogers-B",
+      "X-FileName": "brogers.nsf"
+    }
+  },
+  "id": "train/rogers-b_discussion_threads_1348.txt"
+}

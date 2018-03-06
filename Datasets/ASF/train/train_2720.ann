@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nI have looked at many examples on how to do what I want, but they tend to only show fragments\nor they \nare based on older versions of Solr. I'm hoping there are new features that make what I'm\ndoing easier. \n\nI am running version 6.5 and am testing by running in cloud mode but only on a single machine.\n\n\nBasically, I have a large number of documents stored as JSON in individual files. I want to\ntake that JSON \ndocument and index it without having to do any pre-processing, etc. I also need to be able\nto write newly indexed \nJSON data back to individual files in the same format. \n\nFor example, let's say I have a json document that looks like the following: \n\n{ \n\"id\" : \"bb903493-55b0-421f-a83e-2199ea11e136\", \n\"productName_s\" : \"UsefulWidget\", \n\"productCategory_s\" : \"tool\", \n\"suppliers\" : [ \n{ \n\"id\" : \" bb903493-55b0-421f-a83e-2199ea11e221\", \n\"name_s\" : \"Acme Tools\", \n\"productNumber_s\" : \"10342UW\" \n}, { \n\"id\" : \" bb903493-55b0-421a-a83e-2199ea11e445\", \n\"name_s\" : \"Snappy Tools\", \n\"productNumber_s\" : \"ST-X100023\" \n} \n], \n\"resellers\" : [ \n{ \n\"id\" : \"cc 903493-55b0-421f-a83e-2199ea11e221\", \n\"name_s\" : \"Target\", \n\"productSKU_s\" : \"TA092310342UW\" \n}, { \n\"id\" : \"bc903493-55b0-421a-a83e-2199ea11e445\", \n\"name_s\" : \"Wal-Mart\", \n\"productSKU_s\" : \"029342ABLSWM\" \n} \n] \n} \n\nI know I can use the /update/json/docs handler to insert the above but from what I understand,\nI'd have to set up parameters \ntelling it how to split the children, etc. Though that is a bit of a pain, I can make that\nhappen. \n\nThe problem is that, when I then try to query for the data, it comes back with _childDocuments_\ninstead of the names of the \nchild document lists. So, how can I have Solr return the document as it was originally indexed\n(I know it would be embedded \nin the results structure, but I can deal with that)? \n\nI am running version 6.5 and I am hoping there is a method I haven't seen documented that\ncan do this. If not, can someone \npoint me to some examples of how to do this another way. \n\nIf there is no easy way to do this with the current version, can someone point me to a good\nresource for writing my own \nhandlers? \n\nThank you. \n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2126,
+      "end": 2139,
+      "text": "\nThank you. \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2148,
+      "text": "\nI have looked at many examples on how to do what I want, but they tend to only show fragments\nor they \nare based on older versions of Solr. I'm hoping there are new features that make what I'm\ndoing easier. \n\nI am running version 6.5 and am testing by running in cloud mode but only on a single machine.\n\n\nBasically, I have a large number of documents stored as JSON in individual files. I want to\ntake that JSON \ndocument and index it without having to do any pre-processing, etc. I also need to be able\nto write newly indexed \nJSON data back to individual files in the same format. \n\nFor example, let's say I have a json document that looks like the following: \n\n{ \n\"id\" : \"bb903493-55b0-421f-a83e-2199ea11e136\", \n\"productName_s\" : \"UsefulWidget\", \n\"productCategory_s\" : \"tool\", \n\"suppliers\" : [ \n{ \n\"id\" : \" bb903493-55b0-421f-a83e-2199ea11e221\", \n\"name_s\" : \"Acme Tools\", \n\"productNumber_s\" : \"10342UW\" \n}, { \n\"id\" : \" bb903493-55b0-421a-a83e-2199ea11e445\", \n\"name_s\" : \"Snappy Tools\", \n\"productNumber_s\" : \"ST-X100023\" \n} \n], \n\"resellers\" : [ \n{ \n\"id\" : \"cc 903493-55b0-421f-a83e-2199ea11e221\", \n\"name_s\" : \"Target\", \n\"productSKU_s\" : \"TA092310342UW\" \n}, { \n\"id\" : \"bc903493-55b0-421a-a83e-2199ea11e445\", \n\"name_s\" : \"Wal-Mart\", \n\"productSKU_s\" : \"029342ABLSWM\" \n} \n] \n} \n\nI know I can use the /update/json/docs handler to insert the above but from what I understand,\nI'd have to set up parameters \ntelling it how to split the children, etc. Though that is a bit of a pain, I can make that\nhappen. \n\nThe problem is that, when I then try to query for the data, it comes back with _childDocuments_\ninstead of the names of the \nchild document lists. So, how can I have Solr return the document as it was originally indexed\n(I know it would be embedded \nin the results structure, but I can deal with that)? \n\nI am running version 6.5 and I am hoping there is a method I haven't seen documented that\ncan do this. If not, can someone \npoint me to some examples of how to do this another way. \n\nIf there is no easy way to do this with the current version, can someone point me to a good\nresource for writing my own \nhandlers? \n\nThank you. \n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2720"
+}

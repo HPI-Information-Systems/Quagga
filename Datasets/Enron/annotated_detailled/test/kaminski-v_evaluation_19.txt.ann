@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "test/kaminski-v_evaluation_19.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<27948983.1075856607071.JavaMail.evans@thyme>",
+      "Date": "Thu, 2 Nov 2000 12:15:00 -0800 (PST)",
+      "From": "perfmgmt@enron.com",
+      "To": "vkamins@enron.com",
+      "Subject": "Year End 2000 Performance Feedback",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"perfmgmt@enron.com\"<perfmgmt@enron.com>",
+      "X-To": "vkamins@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Evaluation",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "text": "NOTE:  YOU WILL RECEIVE THIS MESSAGE EACH TIME YOU ARE SELECTED AS A REVIEWER.\n\nYou have been selected to participate in the Year End 2000 Performance \nManagement process by providing meaningful feedback on specific employee(s).  \nYour feedback plays an important role in the process, and your participation \nis critical to the success of Enron's Performance Management goals.\n\nTo complete requests for feedback, access PEP at http://pep.corp.enron.com \nand select Perform Review under Performance Review Services.  You may begin \nproviding feedback immediately and are requested to have all feedback forms \ncompleted by Friday, November 17, 2000.\n\nIf you have any questions regarding PEP or your responsibility in the \nprocess, please contact the PEP Help Desk at:\n\nHouston: 1.713.853.4777, Option 4\nLondon:  44.207.783.4040, Option 4\nEmail: perfmgmt@enron.com\n\nThank you for your participation in this important process.\n\nThe following is a CUMULATIVE list of employee feedback requests with a \nstatus of \"OPEN.\"   Once you have submitted or declined an employee's request \nfor feedback, their name will no longer appear on this list.\n\n\n\n\nReview Group: ENRON\nFeedback Due Date: Nov 17, 2000\n\nEmployee Name                   Supervisor Name                 Date Selected\n-------------                   ---------------                 -------------\nANDREWS, NAVEEN C               RUDI C ZIPTER                   Oct 31, 2000\nBAXTER, ASHLEY                  DAVID DAVIES                    Nov 02, 2000\nCRENSHAW, SHIRLEY J             WINCENTY J KAMINSKI             Oct 26, 2000\nKINDALL, KEVIN                  VASANT SHANBHOGUE               Oct 30, 2000\nLAMAS VIEIRA PINTO, RODRIGO     DAVID PORT                      Oct 31, 2000\nSUPATGIAT, CHONAWEE             PEYTON S GIBNER                 Oct 27, 2000\nTAMARCHENKO, TANYA V            VASANT SHANBHOGUE               Oct 26, 2000\nVILLARREAL, NORMA E             SHEILA H WALTON                 Oct 26, 2000\nWALTON, SHEILA H                DAVID OXLEY                     Oct 27, 2000\nYAMAN, SEVIL                    VASANT SHANBHOGUE               Oct 27, 2000\nYUAN, DING                      RICHARD L CARSON                Oct 31, 2000",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 2196,
+      "text": "NOTE:  YOU WILL RECEIVE THIS MESSAGE EACH TIME YOU ARE SELECTED AS A REVIEWER.\n\nYou have been selected to participate in the Year End 2000 Performance \nManagement process by providing meaningful feedback on specific employee(s).  \nYour feedback plays an important role in the process, and your participation \nis critical to the success of Enron's Performance Management goals.\n\nTo complete requests for feedback, access PEP at http://pep.corp.enron.com \nand select Perform Review under Performance Review Services.  You may begin \nproviding feedback immediately and are requested to have all feedback forms \ncompleted by Friday, November 17, 2000.\n\nIf you have any questions regarding PEP or your responsibility in the \nprocess, please contact the PEP Help Desk at:\n\nHouston: 1.713.853.4777, Option 4\nLondon:  44.207.783.4040, Option 4\nEmail: perfmgmt@enron.com\n\nThank you for your participation in this important process.\n\nThe following is a CUMULATIVE list of employee feedback requests with a \nstatus of \"OPEN.\"   Once you have submitted or declined an employee's request \nfor feedback, their name will no longer appear on this list.\n\n\n\n\nReview Group: ENRON\nFeedback Due Date: Nov 17, 2000\n\nEmployee Name                   Supervisor Name                 Date Selected\n-------------                   ---------------                 -------------\nANDREWS, NAVEEN C               RUDI C ZIPTER                   Oct 31, 2000\nBAXTER, ASHLEY                  DAVID DAVIES                    Nov 02, 2000\nCRENSHAW, SHIRLEY J             WINCENTY J KAMINSKI             Oct 26, 2000\nKINDALL, KEVIN                  VASANT SHANBHOGUE               Oct 30, 2000\nLAMAS VIEIRA PINTO, RODRIGO     DAVID PORT                      Oct 31, 2000\nSUPATGIAT, CHONAWEE             PEYTON S GIBNER                 Oct 27, 2000\nTAMARCHENKO, TANYA V            VASANT SHANBHOGUE               Oct 26, 2000\nVILLARREAL, NORMA E             SHEILA H WALTON                 Oct 26, 2000\nWALTON, SHEILA H                DAVID OXLEY                     Oct 27, 2000\nYAMAN, SEVIL                    VASANT SHANBHOGUE               Oct 27, 2000\nYUAN, DING                      RICHARD L CARSON                Oct 31, 2000",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

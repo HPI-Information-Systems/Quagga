@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "It depends on the permissions the user has on the local file system or HDFS, so there is no\nneed to have grant/revoke.\n\n> On 15. Sep 2017, at 17:13, Arun Khetarpal <arunkhetarpal87@gmail.com> wrote:\n> \n> Hi - \n> \n> Wanted to understand if spark sql has GRANT and REVOKE statements available? \n> Is anyone working on making that available? \n> \n> Regards,\n> Arun\n> \n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n> \n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 340,
+      "end": 361,
+      "text": "> \n> Regards,\n> Arun\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 199,
+      "end": 628,
+      "text": "> \n> Hi - \n> \n> Wanted to understand if spark sql has GRANT and REVOKE statements available? \n> Is anyone working on making that available? \n> \n> Regards,\n> Arun\n> \n> ---------------------------------------------------------------------\n> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n> \n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 199,
+      "end": 210,
+      "text": "> \n> Hi - \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 120,
+      "end": 199,
+      "text": "> On 15. Sep 2017, at 17:13, Arun Khetarpal <arunkhetarpal87@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 120,
+      "text": "It depends on the permissions the user has on the local file system or HDFS, so there is no\nneed to have grant/revoke.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5305"
+}

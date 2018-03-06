@@ -1,0 +1,12 @@
+I had same concern regarding HBase . So I also added metric to measure Hbase
+op time in flatmap (Basically complete flatmap op).
+
+>From metrics I see that aprox 96 % time op time was under 1 sec. (Still I
+can do a dummy run without HBase op . But  did these timing make sense?)
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Partitioner-is-spending-around-2-to-4-minutes-while-pushing-data-to-next-operator-tp13913p14040.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.
+

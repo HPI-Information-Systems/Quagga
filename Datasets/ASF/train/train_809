@@ -1,0 +1,165 @@
+I just tested, the success of the need to amend two points
+1、the jetty.xml <Ref id = "Server" /> comment out
+2、Jndi's name is this: <Arg>java:comp/env/jdbc/mysqlds</Arg> 
+The complete steps are as follows:
+
+
+jetty.xml
+<New id = "dataSource" class = "org.eclipse.jetty.plus.jndi.Resource">
+         <Arg> </ Arg> <! - is Configure node id value ->
+         <Arg>java:comp/env/jdbc/mysqlds</Arg>
+         <Arg>
+             <New class = "com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource">
+                 <Set name = "url">jdbc:mysql://localhost:3306/ka_ka</ Set>
+                 <Set name = "User">root</ Set>
+                 <Set name = "Password">123456</ Set>
+             </ New>
+         </ Arg>
+     </ New>
+
+
+db-data-config.xml
+<DataConfig>
+     <DataSource jndiName="java:comp/env/jdbc/mysqlds" type="JdbcDataSource" />
+     <Document>
+              
+    </ Document>
+</ DataConfig>
+
+
+I wish you success
+
+
+
+
+
+------------------ 原始邮件 ------------------
+发件人: "Per Newgro";<per.newgro@gmx.ch>;
+发送时间: 2017年2月7日(星期二) 晚上8:44
+收件人: "solr-user"<solr-user@lucene.apache.org>; 
+
+主题: Aw: 回复：Solr 5.5.0 Configure global jndi DS for dataimport
+
+
+
+Maybe someone is interested in solution:
+<dataSource jndiName="java:comp/env/jdbc/myds" type="JdbcDataSource"/>
+AND
+<Arg>java:comp/env/jdbc/myds</Arg>
+
+Both need the complete lookup name.
+
+Per
+
+
+> Gesendet: Dienstag, 07. Februar 2017 um 10:29 Uhr
+> Von: "Per Newgro" <per.newgro@gmx.ch>
+> An: solr-user@lucene.apache.org
+> Betreff: Aw: 回复：Solr 5.5.0 Configure global jndi DS for dataimport
+>
+> Changed db-data-config.xml
+>     <dataSource jndiName="java:comp/env/jdbc/myds" type="JdbcDataSource"/>
+> 
+> This leads to
+> Caused by: javax.naming.NameNotFoundException; remaining name 'env/jdbc/myds'
+>         at org.eclipse.jetty.jndi.NamingContext.lookup(NamingContext.java:538)
+>         at org.eclipse.jetty.jndi.NamingContext.lookup(NamingContext.java:569)
+>         at org.eclipse.jetty.jndi.NamingContext.lookup(NamingContext.java:584)
+>         at org.eclipse.jetty.jndi.java.javaRootURLContext.lookup(javaRootURLContext.java:108)
+>         at javax.naming.InitialContext.lookup(InitialContext.java:417)
+>         at org.apache.solr.handler.dataimport.JdbcDataSource$1.getFromJndi(JdbcDataSource.java:250)
+>         at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:182)
+>         at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:172)
+>         at org.apache.solr.handler.dataimport.JdbcDataSource.getConnection(JdbcDataSource.java:463)
+>         at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:309)
+>         ... 39 more
+> 
+> Do i need to install other libraries? Do i need to enable jndi?
+> Can i configure something useful for logging?
+> 
+> Thanks for your support
+> Per
+> 
+> > Gesendet: Dienstag, 07. Februar 2017 um 10:02 Uhr
+> > Von: alias <524839460@qq.com>
+> > An: solr-user <solr-user@lucene.apache.org>
+> > Betreff: 回复：Solr 5.5.0 Configure global jndi DS for dataimport
+> >
+> > jndiName="java:comp/env/jdbc/myds"
+> > 
+> > 
+> > ------------------ 原始邮件 ------------------
+> > 发件人: "Per Newgro";<per.newgro@gmx.ch>;
+> > 发送时间: 2017年2月7日(星期二) 下午4:47
+> > 收件人: "solr-user-group"<solr-user@lucene.apache.org>; 
+> > 
+> > 主题: Solr 5.5.0 Configure global jndi DS for dataimport
+> > 
+> > 
+> > 
+> > Hello,
+> > 
+> > I would like to configure a JNDI datasource for use in dataimport. From the documentation
+it shall be possible and easy.
+> > 
+> > My environment:
+> > Debian
+> > OpenJDK Runtime Environment (build 1.8.0_111-8u111-b14-2~bpo8+1-b14)
+> > Solr 5.5.0 downloaded and installed as service in /opt/solr
+> > Installed core in /var/lib/solr/data/collection1
+> > 
+> > Solr is running and core can be managed.
+> > 
+> > Put into /opt/solr/server/lib
+> > jetty-jndi-9.2.13.v20150730.jar
+> > jetty-plus-9.2.13.v20150730.jar
+> > Put into /opt/solr/server/lib/ext
+> > sqljdbc4-4.0.jar
+> > 
+> > /opt/solr/server/etc/jetty.xml
+> > ...
+> >     <New id="dataSource" class="org.eclipse.jetty.plus.jndi.Resource">
+> >         <Arg><Ref id="Server" /></Arg>
+> >         <Arg>jdbc/myds</Arg>
+> >         <Arg>
+> >             <New class="com.microsoft.sqlserver.jdbc.SQLServerDataSource">
+> >                 <Set name="URL">jdbc:sqlserver://<ip>;databaseName=dbname;</Set>
+> >                 <Set name="User">user</Set>
+> >                 <Set name="Password">password</Set>
+> >             </New>
+> >         </Arg>
+> >     </New>
+> > ...
+> > 
+> > /var/lib/solr/data/collection1/conf/db-data-config.xml
+> > <dataConfig>
+> >     <dataSource jndiName="jdbc/myds" type="JdbcDataSource"/>
+> >     <document>
+> >         <entity
+> >             name="bodyshop"
+> >             query="SELECT b.id as ID,
+> >                           customer_number as CUSTOMER_NUMBER,
+> >                           customer_name as CUSTOMER_NAME
+> >                     FROM  schema.body_shops b
+> >                    WHERE  '${dataimporter.request.clean}' != 'false'
+> >                       OR  b.last_modified > '${dataimporter.last_index_time}'">
+> > ...
+> > 
+> > But all i get is an exception
+> > Caused by: javax.naming.NameNotFoundException; remaining name 'jdbc/myds'
+> >         at org.eclipse.jetty.jndi.local.localContextRoot.lookup(localContextRoot.java:487)
+> >         at org.eclipse.jetty.jndi.local.localContextRoot.lookup(localContextRoot.java:533)
+> >         at javax.naming.InitialContext.lookup(InitialContext.java:417)
+> >         at org.apache.solr.handler.dataimport.JdbcDataSource$1.getFromJndi(JdbcDataSource.java:250)
+> >         at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:182)
+> >         at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:172)
+> >         at org.apache.solr.handler.dataimport.JdbcDataSource.getConnection(JdbcDataSource.java:463)
+> >         at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:309)
+> >         ... 39 more
+> > 
+> > I've searched across the web for a solution but all i found did not work.
+> > It would be great if someone could help me out.
+> > 
+> > Thanks
+> > Per
+>

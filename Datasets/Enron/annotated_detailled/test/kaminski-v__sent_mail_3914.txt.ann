@@ -1,0 +1,471 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 06/01/2000 \n03:06 PM ---------------------------\n\n\nJoseph Hrgovcic\n06/01/2000 12:54 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Weather Derivatives: Under cover\n\n\n---------------------- Forwarded by Joseph Hrgovcic/HOU/ECT on 06/01/2000 \n12:53 PM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Lucy Ortiz                           06/01/2000 08:58 AM\n\t\n\nTo: Mark Tawney/HOU/ECT@ECT, Steven Vu/HOU/ECT@ECT, Brando \nHayden/HOU/ECT@ect, David Kistler/HOU/ECT@ECT, Gary Taylor/HOU/ECT@ECT, Paul \nR Henry/HOU/ECT@ECT, Joseph Hrgovcic/HOU/ECT@ECT, Rajib Saha/HOU/ECT@ECT, \nMichael Nguyen/HOU/ECT@ECT, Tony Harris/HOU/ECT@ECT, Seth \nHurwitz/Corp/Enron@Enron, Timothy M Norton/HOU/ECT@ECT,  Nick mooney, Ingrid \nWees, Catherine Woolgar/LON/ECT@ECT,  Victoria Bedingfield, Raymond \nYeow/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Christian \nWerner/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc:  \nSubject: Weather Derivatives: Under cover\n\n\n---------------------- Forwarded by Lucy Ortiz/HOU/ECT on 06/01/2000 08:56 AM \n---------------------------\n\n\ndjcustomclips@djinteractive.com on 06/01/2000 09:21:18 AM\nPlease respond to nobody@mail1.djnr.com\nTo: 126812@mailman.enron.com\ncc:  \nSubject: Weather Derivatives: Under cover\n\n\nBusiness\nUnder cover\nMartin Waller\n\n05/31/2000\nThe Times of London\n2W\n31\n(Copyright Times Newspapers Ltd, 2000)\n\n   CORNEY & BARROW, the mainly City wine bar chain, is going into the\nderivatives market. The chain is thought to be the first in the\nhospitality industry to take a position against our atrocious\nweather.\n\n   Sarah Heward, the managing director, got the idea after meeting a\nbunch of customers who had just left Garban to set up their own\nbusiness, Speedwell Weather Derivatives. About half her wine bars\nhave outside terraces which have understandably not proven too\npopular of late.\n   \"They set me up with a hedge - my counterparty is Enron US,\" says\nHeward. This safeguards a modest Pounds 15,000 of turnover.\n\n\n\nFolder Name: Weather Derivatives\nRelevance Score on Scale of 100: 94\n\n______________________________________________________________________\n\nTo review or revise your folder, visit http://www.djinteractive.com or \ncontact Dow Jones Customer Service by e-mail at custom.news@bis.dowjones.com \nor by phone at 800-369-7466. (Outside the U.S. and Canada, call 609-452-1511 \nor contact your local sales representative.)\n______________________________________________________________________\n\nCopyright (c) 2000 Dow Jones & Company, Inc. All Rights Reserved\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "03:06 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 06/01/2000 \n03:06 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 130,
+      "text": "Joseph Hrgovcic",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 131,
+      "end": 141,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 142,
+      "end": 150,
+      "text": "12:54 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 155,
+      "end": 171,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 199,
+      "end": 231,
+      "text": "Weather Derivatives: Under cover",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 113,
+      "end": 232,
+      "text": "\n\nJoseph Hrgovcic\n06/01/2000 12:54 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: Weather Derivatives: Under cover\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 270,
+      "end": 285,
+      "text": "Joseph Hrgovcic",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 297,
+      "end": 307,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 309,
+      "end": 317,
+      "text": "12:53 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 234,
+      "end": 346,
+      "text": "---------------------- Forwarded by Joseph Hrgovcic/HOU/ECT on 06/01/2000 \n12:53 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 346,
+      "end": 379,
+      "text": "   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 387,
+      "end": 397,
+      "text": "Lucy Ortiz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 424,
+      "end": 434,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 435,
+      "end": 443,
+      "text": "08:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 451,
+      "end": 462,
+      "text": "Mark Tawney",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 476,
+      "end": 485,
+      "text": "Steven Vu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 499,
+      "end": 513,
+      "text": "Brando \nHayden",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 527,
+      "end": 540,
+      "text": "David Kistler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 554,
+      "end": 565,
+      "text": "Gary Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 579,
+      "end": 592,
+      "text": "Paul \nR Henry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 606,
+      "end": 621,
+      "text": "Joseph Hrgovcic",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 635,
+      "end": 645,
+      "text": "Rajib Saha",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 660,
+      "end": 674,
+      "text": "Michael Nguyen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 688,
+      "end": 699,
+      "text": "Tony Harris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 713,
+      "end": 726,
+      "text": "Seth \nHurwitz",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 745,
+      "end": 761,
+      "text": "Timothy M Norton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 776,
+      "end": 787,
+      "text": "Nick mooney",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 789,
+      "end": 801,
+      "text": "Ingrid \nWees",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 803,
+      "end": 820,
+      "text": "Catherine Woolgar",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 835,
+      "end": 855,
+      "text": "Victoria Bedingfield",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 857,
+      "end": 870,
+      "text": "Raymond \nYeow",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 908,
+      "end": 925,
+      "text": "Christian \nWerner",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 977,
+      "end": 1009,
+      "text": "Weather Derivatives: Under cover",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 380,
+      "end": 1010,
+      "text": "From:  Lucy Ortiz                           06/01/2000 08:58 AM\n\t\n\nTo: Mark Tawney/HOU/ECT@ECT, Steven Vu/HOU/ECT@ECT, Brando \nHayden/HOU/ECT@ect, David Kistler/HOU/ECT@ECT, Gary Taylor/HOU/ECT@ECT, Paul \nR Henry/HOU/ECT@ECT, Joseph Hrgovcic/HOU/ECT@ECT, Rajib Saha/HOU/ECT@ECT, \nMichael Nguyen/HOU/ECT@ECT, Tony Harris/HOU/ECT@ECT, Seth \nHurwitz/Corp/Enron@Enron, Timothy M Norton/HOU/ECT@ECT,  Nick mooney, Ingrid \nWees, Catherine Woolgar/LON/ECT@ECT,  Victoria Bedingfield, Raymond \nYeow/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Christian \nWerner/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc:  \nSubject: Weather Derivatives: Under cover\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1048,
+      "end": 1058,
+      "text": "Lucy Ortiz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1070,
+      "end": 1080,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1081,
+      "end": 1089,
+      "text": "08:56 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1012,
+      "end": 1119,
+      "text": "---------------------- Forwarded by Lucy Ortiz/HOU/ECT on 06/01/2000 08:56 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1010,
+      "end": 1012,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1121,
+      "end": 1152,
+      "text": "djcustomclips@djinteractive.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1156,
+      "end": 1166,
+      "text": "06/01/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1167,
+      "end": 1178,
+      "text": "09:21:18 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1197,
+      "end": 1218,
+      "text": "nobody@mail1.djnr.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1223,
+      "end": 1247,
+      "text": "126812@mailman.enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1263,
+      "end": 1295,
+      "text": "Weather Derivatives: Under cover",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1119,
+      "end": 1296,
+      "text": "\n\ndjcustomclips@djinteractive.com on 06/01/2000 09:21:18 AM\nPlease respond to nobody@mail1.djnr.com\nTo: 126812@mailman.enron.com\ncc:  \nSubject: Weather Derivatives: Under cover\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1296,
+      "end": 2585,
+      "text": "\n\nBusiness\nUnder cover\nMartin Waller\n\n05/31/2000\nThe Times of London\n2W\n31\n(Copyright Times Newspapers Ltd, 2000)\n\n   CORNEY & BARROW, the mainly City wine bar chain, is going into the\nderivatives market. The chain is thought to be the first in the\nhospitality industry to take a position against our atrocious\nweather.\n\n   Sarah Heward, the managing director, got the idea after meeting a\nbunch of customers who had just left Garban to set up their own\nbusiness, Speedwell Weather Derivatives. About half her wine bars\nhave outside terraces which have understandably not proven too\npopular of late.\n   \"They set me up with a hedge - my counterparty is Enron US,\" says\nHeward. This safeguards a modest Pounds 15,000 of turnover.\n\n\n\nFolder Name: Weather Derivatives\nRelevance Score on Scale of 100: 94\n\n______________________________________________________________________\n\nTo review or revise your folder, visit http://www.djinteractive.com or \ncontact Dow Jones Customer Service by e-mail at custom.news@bis.dowjones.com \nor by phone at 800-369-7466. (Outside the U.S. and Canada, call 609-452-1511 \nor contact your local sales representative.)\n______________________________________________________________________\n\nCopyright (c) 2000 Dow Jones & Company, Inc. All Rights Reserved\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 47,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 25,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 39,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24403802.1075856984364.JavaMail.evans@thyme>",
+      "Date": "Thu, 1 Jun 2000 08:04:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Weather Derivatives: Under cover",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_8\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_3914.txt"
+}

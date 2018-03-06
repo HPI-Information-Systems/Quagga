@@ -1,0 +1,54 @@
+The issue has been fixed. Seems there is a problem in *solr/core/ivy.xml *
+
+<dependency org="commons-fileupload" name="commons-fileupload"
+rev="${/commons-fileupload/commons-fileupload}" conf="compile"/>
+
+In this line, I replaced the ${/commons-fileupload/commons-fileupload} with
+1.3.2 as the variable seemed to be downloading version 1.3.1 of the
+commons-fileupload instead of the latest 1.3.2 version.
+
+Once this was done, ant built the sources successfully.
+
+Thanks!
+Sahil
+
+On 13 February 2017 at 19:30, Shawn Heisey <apache@elyograg.org> wrote:
+
+> On 2/12/2017 11:52 PM, Sahil Agarwal wrote:
+> > I have not been able to build Solr 5.5.3 from the source.
+> <snip>
+> > Detected Java version: 1.8 in: /usr/lib/jvm/jdk1.8.0_121/jre
+>
+> The unresolved dependency error is unusual, I'm not really sure what's
+> going on there.  My best idea would be to delete the ivy cache entirely
+> and try again.  These would be the commands I would use, from the top
+> level of the source code:
+>
+> rm -rf ~/.ivy2
+> ant clean clean-jars
+>
+> This will cause ivy to re-download all dependent jars when you do the
+> compile, and if you are using ivy with any other java source code, might
+> cause some temporary issues for those builds.
+>
+> Even if you get ivy to work right, you're going to run into another
+> problem due to the JDK version you've got.  Oracle changed the javadoc
+> compiler to be more strict in that version, which broke the build.
+>
+> https://issues.apache.org/jira/browse/LUCENE-7651
+>
+> The fix has been backported to the 5.5 branch, so it will be available
+> in the 5.5.4 tag when it is created.  The 5.5.3 build will continue to
+> be broken with Java 8u121.
+>
+> You'll need to either get the branch_5_5 source code from git to build
+> 5.5.4, or downgrade your JDK version.  Alternatively, you can wait for
+> the 5.5.4 release to be available to get the source code, or get the
+> patch and apply it to your 5.5.3 code.  I do not know if the patch will
+> apply cleanly -- it may require manual work.
+>
+> Thanks,
+> Shawn
+>
+>
+

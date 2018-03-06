@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "Broker is correct - I've changed these deals to May.\n\n\n\n\nKerri Thompson@ENRON\n04/26/2001 02:48 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb\n\n\n594290\n594291\n\nbroker has may on these deals.  these were the ones i was missing on the \nprevious email.\n\nthanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 57,
+      "text": "Broker is correct - I've changed these deals to May.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 57,
+      "end": 71,
+      "text": "Kerri Thompson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 78,
+      "end": 88,
+      "text": "04/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 89,
+      "end": 97,
+      "text": "02:48 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 102,
+      "end": 112,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 141,
+      "end": 144,
+      "text": "apb",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 57,
+      "end": 145,
+      "text": "Kerri Thompson@ENRON\n04/26/2001 02:48 PM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: apb\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 253,
+      "end": 259,
+      "text": "thanks",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 145,
+      "end": 261,
+      "text": "\n\n594290\n594291\n\nbroker has may on these deals.  these were the ones i was missing on the \nprevious email.\n\nthanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<55048.1075841911100.JavaMail.evans@thyme>",
+      "Date": "Thu, 26 Apr 2001 07:48:00 -0700 (PDT)",
+      "From": "kate.symes@enron.com",
+      "To": "kerri.thompson@enron.com",
+      "Subject": "Re: apb",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Kerri Thompson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\'sent mail",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k__sent_mail_57.txt"
+}

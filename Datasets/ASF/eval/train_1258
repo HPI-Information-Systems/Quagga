@@ -1,0 +1,29 @@
+Vinshnu,
+You can find the latest design discussion for incremental checkpoint in
+http://apache-flink-mailing-list-archive.1008284.n3.nabble.com/DISCUSS-Support-Incremental-Checkpointing-in-Flink-td15931.html
+ @Stefan Richter
+<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=srichter>
+and @Xiaogang
+Shi
+<https://issues.apache.org/jira/secure/ViewProfile.jspa?name=xiaogang.shi>
+might
+be the right person to provide you its on-going status.
+
+cheers,
+Shaoxuan
+
+On Sat, Mar 4, 2017 at 5:14 AM, Vishnu Viswanath <
+vishnu.viswanath25@gmail.com> wrote:
+
+> Hi,
+>
+> Can someone point me to the branch where the ongoing work for incremental
+> checkpoint is going on, I would like to try it out even if the work is not
+> complete.
+>
+> I have a use case where the state size increase about ~1gb every 5 minutes.
+>
+> Thanks,
+> Vishnu
+>
+

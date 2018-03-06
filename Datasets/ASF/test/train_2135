@@ -1,0 +1,41 @@
+Thanks for the reply. Yeah I found the same doc and am able to use multiple
+cores in spark-shell, however, when I use pyspark, it appears only to use
+one core, I am wondering if this is something I did't configure correctly
+or something supported in pyspark.
+
+On Fri, Mar 24, 2017 at 3:52 PM, Kadam, Gangadhar (GE Aviation, Non-GE) <
+Gangadhar.Kadam@ge.com> wrote:
+
+> In Local Mode  all processes are executed inside a single JVM.
+> Application is started in a local mode by setting master to local,
+> local[*] or local[n].
+> spark.executor.cores and spark.executor.cores are not applicable in the
+> local mode because there is only one embedded executor.
+>
+>
+> In Standalone mode, you need  standalone Spark cluster<
+> https://spark.apache.org/docs/latest/spark-standalone.html>.
+>
+> It requires a master node (can be started using
+> SPARK_HOME/sbin/start-master.sh script) and at least one worker node (can
+> be started using SPARK_HOME/sbin/start-slave.sh script).SparkConf should
+> use master node address to create (spark://host:port)
+>
+> Thanks!
+>
+> Gangadhar
+> From: Li Jin <ice.xelloss@gmail.com<mailto:ice.xelloss@gmail.com>>
+> Date: Friday, March 24, 2017 at 3:43 PM
+> To: "user@spark.apache.org<mailto:user@spark.apache.org>" <
+> user@spark.apache.org<mailto:user@spark.apache.org>>
+> Subject: EXT: Multiple cores/executors in Pyspark standalone mode
+>
+> Hi,
+>
+> I am wondering does pyspark standalone (local) mode support multi
+> cores/executors?
+>
+> Thanks,
+> Li
+>
+

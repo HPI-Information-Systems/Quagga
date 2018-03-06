@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Attached is a memo from Beth Tilney regarding the new P&D (Participation and \nDissent) program, as proposed by the Vision and Values Task Force.  \n\nPlease take a minute to consider issues within your groups that might be \nappropriate for a P&D pilot.  We would like to host several pilots within ENA \nin the next week or so if at all possible and need your help in doing so.  \n\nI would be happy to provide more details or answer questions about the P&D \nprocess.  Please don't hesitate to contact me.  My extension is 3-9964.\n\nThank you,\nElisabeth McCabe\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 538,
+      "end": 554,
+      "text": "Elisabeth McCabe",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 527,
+      "end": 555,
+      "text": "Thank you,\nElisabeth McCabe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 556,
+      "text": "Attached is a memo from Beth Tilney regarding the new P&D (Participation and \nDissent) program, as proposed by the Vision and Values Task Force.  \n\nPlease take a minute to consider issues within your groups that might be \nappropriate for a P&D pilot.  We would like to host several pilots within ENA \nin the next week or so if at all possible and need your help in doing so.  \n\nI would be happy to provide more details or answer questions about the P&D \nprocess.  Please don't hesitate to contact me.  My extension is 3-9964.\n\nThank you,\nElisabeth McCabe\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23297967.1075855930701.JavaMail.evans@thyme>",
+      "Date": "Tue, 11 Apr 2000 02:43:00 -0700 (PDT)",
+      "From": "elisabeth.mccabe@enron.com",
+      "To": "tom.shelton@enron.com, georgeanne.hodges@enron.com, paul.devries@enron.com, \n\tbilly.lemmons@enron.com, patrick.wade@enron.com, \n\tjames.ducote@enron.com, sally.beck@enron.com, brenda.herod@enron.com, \n\tkathryn.cordes@enron.com, louise.kitchen@enron.com, \n\tvaleria.hope@enron.com, susan.runkel@enron.com, \n\tbrad.blesie@enron.com, dan.lyons@enron.com, scott.neal@enron.com, \n\tmax.yzaguirre@enron.com, john.enerson@enron.com, \n\tmorris.clark@enron.com, shannon.bedrich@enron.com",
+      "Subject": "V&V Memo from Beth Tilney",
+      "Cc": "brian.redmond@enron.com, michelle.vitrella@enron.com, heather.alon@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "brian.redmond@enron.com, michelle.vitrella@enron.com, heather.alon@enron.com",
+      "X-From": "Elisabeth McCabe",
+      "X-To": "Tom Shelton, Georgeanne Hodges, Paul Devries, Billy Lemmons, Patrick Wade, James I Ducote, Sally Beck, Brenda F Herod, Kathryn Cordes, Louise Kitchen, Valeria A Hope, Susan Runkel, Brad Blesie, Dan Lyons, Scott Neal, Max Yzaguirre, John Enerson, Morris Richard Clark, Shannon Bedrich",
+      "X-cc": "Brian Redmond, Michelle Vitrella, Heather Alon",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Visions & values",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_visions___values_4.txt"
+}

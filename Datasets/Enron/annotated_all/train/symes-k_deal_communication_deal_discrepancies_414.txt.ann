@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "Kate,\nVerballing two Badeer trades from 1/30/01\nDeal 508957.01 Enron Sells to Mirant, Index Forward  we show offset of -1.5, \nMirant shows -1\n\nand \n\nDeal 508958.01 Enron Buys Mirant, Index forward,  we show offset of -1.5, \nMirant shows -1\n\nThanks for looking into\nStephanie",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Kate",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 265,
+      "end": 274,
+      "text": "Stephanie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 241,
+      "end": 274,
+      "text": "Thanks for looking into\nStephanie",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 274,
+      "text": "Kate,\nVerballing two Badeer trades from 1/30/01\nDeal 508957.01 Enron Sells to Mirant, Index Forward  we show offset of -1.5, \nMirant shows -1\n\nand \n\nDeal 508958.01 Enron Buys Mirant, Index forward,  we show offset of -1.5, \nMirant shows -1\n\nThanks for looking into\nStephanie",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24268786.1075841734516.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Feb 2001 02:19:00 -0800 (PST)",
+      "From": "stephanie.piwetz@enron.com",
+      "To": "kate.symes@enron.com",
+      "Subject": "Please check...",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stephanie Piwetz",
+      "X-To": "Kate Symes",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Deal communication\\Deal discrepancies",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_deal_communication_deal_discrepancies_414.txt"
+}

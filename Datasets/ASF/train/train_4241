@@ -1,0 +1,95 @@
+Thanks Mikhail,
+
+Can you please explain the same? How can it be done in SolrJ
+
+Thanks and Regards,
+Srinivas Kashyap
+Senior Software Engineer
+“GURUDAS HERITAGE”
+100 Feet Ring Road,
+Kadirenahalli,
+Banashankari 2nd Stage,
+Bangalore-560070
+P:  973-986-6105
+Bamboo Rose
+The only B2B marketplace powered by proven trade engines.
+www.BambooRose.com
+
+Make Retail. Fun. Connected. Easier. Smarter. Together. Better.
+
+-----Original Message-----
+From: Mikhail Khludnev [mailto:mkhl@apache.org]
+Sent: 21 June 2017 11:57 AM
+To: solr-user <solr-user@lucene.apache.org>
+Subject: Re: How to synchronize the imports (DIH) delta imports
+
+Hello, Srinivas.
+
+You can literally poll import status.
+
+On Wed, Jun 21, 2017 at 7:41 AM, Srinivas Kashyap <srinivas@bamboorose.com>
+wrote:
+
+> Hello,
+>
+> We have our architecture of index server, where delta-imports run
+> periodically based on modify_ts of the records.
+>
+> We have another adhoc import handler on each core where import is
+> called based on the key of solr core. This adhoc import is also called
+> periodically.
+>
+> We have scenario where multiple records are picked up for the adhoc
+> import and the index server starts indexing them sequentially. At the
+> subsequent time, if another adhoc import command is called, the
+> records are not being
+> indexed(skipped) as the solr core is busy re-indexing the earlier records.
+>
+> Is there a way we can poll the import status of index server in SolrJ,
+> so that we can refrain sending another adhoc import command while the
+> index is still runnning?
+>
+> Thanks and Regards,
+> Srinivas Kashyap
+> Senior Software Engineer
+> "GURUDAS HERITAGE"
+> 100 Feet Ring Road,
+> Kadirenahalli,
+> Banashankari 2nd Stage,
+> Bangalore-560070
+> P:  973-986-6105
+> Bamboo Rose
+> The only B2B marketplace powered by proven trade engines.
+> www.BambooRose.com<http://www.bamboorose.com/>
+>
+> Make Retail. Fun. Connected. Easier. Smarter. Together. Better.
+>
+> ________________________________
+>
+> DISCLAIMER: E-mails and attachments from Bamboo Rose, LLC are
+> confidential. If you are not the intended recipient, please notify the
+> sender immediately by replying to the e-mail, and then delete it
+> without making copies or using it in any way. No representation is
+> made that this email or any attachments are free of viruses. Virus
+> scanning is recommended and is the responsibility of the recipient.
+>
+
+
+
+--
+Sincerely yours
+Mikhail Khludnev
+________________________________
+
+DISCLAIMER: E-mails and attachments from Bamboo Rose, LLC are confidential. If you are not
+the intended recipient, please notify the sender immediately by replying to the e-mail, and
+then delete it without making copies or using it in any way. No representation is made that
+this email or any attachments are free of viruses. Virus scanning is recommended and is the
+responsibility of the recipient.
+________________________________
+
+DISCLAIMER: E-mails and attachments from Bamboo Rose, LLC are confidential. If you are not
+the intended recipient, please notify the sender immediately by replying to the e-mail, and
+then delete it without making copies or using it in any way. No representation is made that
+this email or any attachments are free of viruses. Virus scanning is recommended and is the
+responsibility of the recipient.

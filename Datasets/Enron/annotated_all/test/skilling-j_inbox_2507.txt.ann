@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Jeffrey,\n\nThe launch party for the Houston Entrepreneurs Foundation is only 1 week away.   The event is at Ruggles, Enron Field in the late afternoon/evening of November 14.  We expect it to be a fun event and hope that you will join us. Below is a link where you can find out more details about the event and a form to RSVP.\n\nhttp://www.houstonfirst.org/movie.html\n\nI did not see your name on the RSVP list and wanted to remind you to please RSVP if you plan to attend. If you do not need additional information and would like to RSVP directly, you can send an email to rsvphef@yahoo.com or call (713) 830-3388.\n\nWe look forward to seeing you on the 14th!\n\nRegards,\n\nMichelle Weisblatt and Billy Ladin\n\n\n\n\n\n\n\n\n\n\n_________________________________________________________\nDo You Yahoo!?\nGet your free @yahoo.com address at http://mail.yahoo.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 716,
+      "end": 846,
+      "text": "_________________________________________________________\nDo You Yahoo!?\nGet your free @yahoo.com address at http://mail.yahoo.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 671,
+      "end": 689,
+      "text": "Michelle Weisblatt",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 694,
+      "end": 705,
+      "text": "Billy Ladin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 661,
+      "end": 706,
+      "text": "Regards,\n\nMichelle Weisblatt and Billy Ladin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 3,
+      "end": 10,
+      "text": "Jeffrey",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 12,
+      "text": "Hi Jeffrey,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 846,
+      "text": "Hi Jeffrey,\n\nThe launch party for the Houston Entrepreneurs Foundation is only 1 week away.   The event is at Ruggles, Enron Field in the late afternoon/evening of November 14.  We expect it to be a fun event and hope that you will join us. Below is a link where you can find out more details about the event and a form to RSVP.\n\nhttp://www.houstonfirst.org/movie.html\n\nI did not see your name on the RSVP list and wanted to remind you to please RSVP if you plan to attend. If you do not need additional information and would like to RSVP directly, you can send an email to rsvphef@yahoo.com or call (713) 830-3388.\n\nWe look forward to seeing you on the 14th!\n\nRegards,\n\nMichelle Weisblatt and Billy Ladin\n\n\n\n\n\n\n\n\n\n\n_________________________________________________________\nDo You Yahoo!?\nGet your free @yahoo.com address at http://mail.yahoo.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13764347.1075861576379.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Nov 2001 13:08:30 -0800 (PST)",
+      "From": "mgweisblatt@yahoo.com",
+      "To": "jskilli@enron.com",
+      "Subject": "Reminder:  HEF Launch Party",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Michelle Weisblatt\" <mgweisblatt@yahoo.com>@ENRON",
+      "X-To": "jskilli@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\JSKILLIN (Non-Privileged)\\Skilling, Jeff\\Inbox",
+      "X-Origin": "Skilling-J",
+      "X-FileName": "JSKILLIN (Non-Privileged).pst"
+    }
+  },
+  "id": "test/skilling-j_inbox_2507.txt"
+}

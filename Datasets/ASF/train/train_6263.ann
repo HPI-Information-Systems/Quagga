@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\nI'm using Solr 6.6.0 i have set mm as 100% but when i have the repeated\nsearch term then mm param is not honoured\n\nI have 2 docs in index\nDoc1-\nname=lock\nDoc 2-\nname=lock lock\n\nNow when i'm quering the solr with query\n*http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json\n<http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json>*\nthen it is returning both results but it should return only Doc 2 as no of\nfrequency is 2 in query while doc1 has frequency of 1 (lock term frequency).\nAny Idea what to do ,to avoid getting doc 1 in resultset as i don't want\nuser to get the Doc1.\nSchema\n<field name=\"name\" type=\"text_word_delimiter\" indexed=\"true\" stored=\"true\"/>\n<fieldType name=\"text_word_delimiter\" class=\"solr.TextField\"\nautoGeneratePhraseQueries=\"false\" positionIncrementGap=\"100\"> <analyzer type\n=\"index\"> <tokenizer class=\"solr.StandardTokenizerFactory\"/> <filter class=\n\"solr.LowerCaseFilterFactory\"/> </analyzer> <analyzer type=\"query\"> <\ntokenizer class=\"solr.StandardTokenizerFactory\"/> <filter class=\n\"solr.ManagedSynonymFilterFactory\" managed=\"synonyms_gdn\"/> <filter class=\n\"solr.LowerCaseFilterFactory\"/> </analyzer> </fieldType>\n\nTheir is no synonym is added also.\n\nThanks,\nAman Deep Singh\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1284,
+      "end": 1309,
+      "text": "\nThanks,\nAman Deep Singh\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1310,
+      "text": "Hi,\nI'm using Solr 6.6.0 i have set mm as 100% but when i have the repeated\nsearch term then mm param is not honoured\n\nI have 2 docs in index\nDoc1-\nname=lock\nDoc 2-\nname=lock lock\n\nNow when i'm quering the solr with query\n*http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json\n<http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json>*\nthen it is returning both results but it should return only Doc 2 as no of\nfrequency is 2 in query while doc1 has frequency of 1 (lock term frequency).\nAny Idea what to do ,to avoid getting doc 1 in resultset as i don't want\nuser to get the Doc1.\nSchema\n<field name=\"name\" type=\"text_word_delimiter\" indexed=\"true\" stored=\"true\"/>\n<fieldType name=\"text_word_delimiter\" class=\"solr.TextField\"\nautoGeneratePhraseQueries=\"false\" positionIncrementGap=\"100\"> <analyzer type\n=\"index\"> <tokenizer class=\"solr.StandardTokenizerFactory\"/> <filter class=\n\"solr.LowerCaseFilterFactory\"/> </analyzer> <analyzer type=\"query\"> <\ntokenizer class=\"solr.StandardTokenizerFactory\"/> <filter class=\n\"solr.ManagedSynonymFilterFactory\" managed=\"synonyms_gdn\"/> <filter class=\n\"solr.LowerCaseFilterFactory\"/> </analyzer> </fieldType>\n\nTheir is no synonym is added also.\n\nThanks,\nAman Deep Singh\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6263"
+}

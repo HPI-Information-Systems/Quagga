@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Is your filePath prefaced with file:/// and the full path or is it relative ?\n\nYou might also try calling close() on the Spark context or session the end of the program\nexecution to try and ensure that cleanup is completed \n\nSent from my iPhone\n\n> On Aug 10, 2017, at 3:58 AM, Hemanth Gudela <hemanth.gudela@qvantel.com> wrote:\n> \n> Thanks for reply Femi!\n>  \n> I\u00e2\u20ac\u2122m writing the file like this \u00c3\u00a0 myDataFrame.write.mode(\"overwrite\").csv(\"myFilePath\")\n> There absolutely are no errors/warnings after the write.\n>  \n> _SUCCESS file is created on master node, but the problem of _temporary is noticed only\non worked nodes.\n>  \n> I know spark.write.csv works best with HDFS, but with the current setup I have in my\nenvironment, I have to deal with spark write to node\u00e2\u20ac\u2122s local file system and not to HDFS.\n>  \n> Regards,\n> Hemanth\n>  \n> From: Femi Anthony <femibyte@gmail.com>\n> Date: Thursday, 10 August 2017 at 10.38\n> To: Hemanth Gudela <hemanth.gudela@qvantel.com>\n> Cc: \"user@spark.apache.org\" <user@spark.apache.org>\n> Subject: Re: spark.write.csv is not able write files to specified path, but is writing\nto unintended subfolder _temporary/0/task_xxx folder on worker nodes\n>  \n> Normally the _temporary directory gets deleted as part of the cleanup when the write\nis complete and a SUCCESS file is created. I suspect that the writes are not properly completed.\nHow are you specifying the write ? Any error messages in the logs ?\n>  \n> On Thu, Aug 10, 2017 at 3:17 AM, Hemanth Gudela <hemanth.gudela@qvantel.com> wrote:\n> Hi,\n>  \n> I\u00e2\u20ac\u2122m running spark on cluster mode containing 4 nodes, and trying to write CSV files\nto node\u00e2\u20ac\u2122s local path (not HDFS).\n> I\u00e2\u20ac\u2122m spark.write.csv to write CSV files.\n>  \n> On master node:\n> spark.write.csv creates a folder with csv file name and writes many files with part-r-000n\nsuffix. This is okay for me, I can merge them later.\n> But on worker nodes:\n>                 spark.write.csv creates a folder with csv file name and writes many folders\nand files under _temporary/0/. This is not okay for me.\n> Could someone please suggest me what could have been going wrong in my settings/how to\nbe able to write csv files to the specified folder, and not to subfolders (_temporary/0/task_xxx)\nin worker machines.\n>  \n> Thank you,\n> Hemanth\n>  \n> \n> \n>  \n> --\n> http://www.femibyte.com/twiki5/bin/view/Tech/\n> http://www.nextmatrix.com\n> \"Great spirits have always encountered violent opposition from mediocre minds.\" - Albert\nEinstein.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 246,
+      "text": "Is your filePath prefaced with file:/// and the full path or is it relative ?\n\nYou might also try calling close() on the Spark context or session the end of the program\nexecution to try and ensure that cleanup is completed \n\nSent from my iPhone\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 246,
+      "end": 328,
+      "text": "> On Aug 10, 2017, at 3:58 AM, Hemanth Gudela <hemanth.gudela@qvantel.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 804,
+      "end": 829,
+      "text": ">  \n> Regards,\n> Hemanth\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 328,
+      "end": 833,
+      "text": "> \n> Thanks for reply Femi!\n>  \n> I\u00e2\u20ac\u2122m writing the file like this \u00c3\u00a0 myDataFrame.write.mode(\"overwrite\").csv(\"myFilePath\")\n> There absolutely are no errors/warnings after the write.\n>  \n> _SUCCESS file is created on master node, but the problem of _temporary is noticed only\non worked nodes.\n>  \n> I know spark.write.csv works best with HDFS, but with the current setup I have in my\nenvironment, I have to deal with spark write to node\u00e2\u20ac\u2122s local file system and not to HDFS.\n>  \n> Regards,\n> Hemanth\n>  \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 833,
+      "end": 1179,
+      "text": "> From: Femi Anthony <femibyte@gmail.com>\n> Date: Thursday, 10 August 2017 at 10.38\n> To: Hemanth Gudela <hemanth.gudela@qvantel.com>\n> Cc: \"user@spark.apache.org\" <user@spark.apache.org>\n> Subject: Re: spark.write.csv is not able write files to specified path, but is writing\nto unintended subfolder _temporary/0/task_xxx folder on worker nodes\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1179,
+      "end": 1439,
+      "text": ">  \n> Normally the _temporary directory gets deleted as part of the cleanup when the write\nis complete and a SUCCESS file is created. I suspect that the writes are not properly completed.\nHow are you specifying the write ? Any error messages in the logs ?\n>  \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1439,
+      "end": 1525,
+      "text": "> On Thu, Aug 10, 2017 at 3:17 AM, Hemanth Gudela <hemanth.gudela@qvantel.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1525,
+      "end": 1531,
+      "text": "> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2250,
+      "end": 2277,
+      "text": ">  \n> Thank you,\n> Hemanth\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1525,
+      "end": 2474,
+      "text": "> Hi,\n>  \n> I\u00e2\u20ac\u2122m running spark on cluster mode containing 4 nodes, and trying to write CSV files\nto node\u00e2\u20ac\u2122s local path (not HDFS).\n> I\u00e2\u20ac\u2122m spark.write.csv to write CSV files.\n>  \n> On master node:\n> spark.write.csv creates a folder with csv file name and writes many files with part-r-000n\nsuffix. This is okay for me, I can merge them later.\n> But on worker nodes:\n>                 spark.write.csv creates a folder with csv file name and writes many folders\nand files under _temporary/0/. This is not okay for me.\n> Could someone please suggest me what could have been going wrong in my settings/how to\nbe able to write csv files to the specified folder, and not to subfolders (_temporary/0/task_xxx)\nin worker machines.\n>  \n> Thank you,\n> Hemanth\n>  \n> \n> \n>  \n> --\n> http://www.femibyte.com/twiki5/bin/view/Tech/\n> http://www.nextmatrix.com\n> \"Great spirits have always encountered violent opposition from mediocre minds.\" - Albert\nEinstein.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4708"
+}

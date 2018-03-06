@@ -1,0 +1,41 @@
+{
+  "wrapper": "plaintext",
+  "text": "Over the past few weeks, we have experienced significant issues with our em=\nail environment that have caused business interruptions and frustration for=\n Outlook users.  The purpose of this e-mail is to outline the issues that w=\ne have encountered and what we are doing to resolve the issues.=20\n?=09During the last week of August, we encountered a bug in Microsoft's Exc=\nhange Server -- the mail server that is used by Outlook clients.  This bug,=\n which impacted approximately 3,000 users, delayed mail delivery for the be=\ntter part of a day.  At that time, we applied a fix from Microsoft which ap=\npears to have resolved the problem.  We have carefully monitored the Exchan=\nge servers for four weeks, and have not seen a re-occurrence of the bug.\n?=09Also during the last week of August, another Exchange Server experience=\nd database corruption issues -- again, this impacted approximately 3,000 Ou=\ntlook users.  To resolve this, we moved the 3,000 users to different Exchan=\nge servers and made several hardware/software upgrades to the affected serv=\ner.  We have not yet returned the repaired server to full production use --=\n we are closely monitoring it to ensure that there are no more problems wit=\nh the server.  While this event did not cause e-mail outages during the bus=\niness week, we had to do maintenance on the server during the evenings on W=\nednesday, Thursday, and Friday, and throughout the Labor day weekend to mov=\ne users to different servers.  During these evenings and weekend, the impac=\nted users could not access their e-mail.\n?=09During the last three weeks, there have been a number of new and danger=\nous viruses on the internet.  We have a multi-layered defense against virus=\nes that include virus scanning software on servers and desktops.  All mail =\nis scanned on the Exchange servers and all files are scanned on the desktop=\ns.  During the last few weeks, we have had to apply numerous virus scanning=\n updates to the Exchange servers - sometimes even several updates per day. =\n The result is that when new virus scanning updates arrive, the performance=\n of the Exchange servers diminishes for several hours while the anti-virus =\nproduct rescans every message in every mailbox.  This is unfortunate, but w=\ne believe necessary to prevent viruses from causing outages in the Enron co=\nmputing environment and threaten our revenue generating systems.  At this t=\nime, we are working with the vendor to arrive at a technical solution that =\nwill speed up the virus scanning process.  We have made some progress as th=\ne performance has improved during virus scans, however, it can continue to =\nget better.\nThere is no question that the email issues we have encountered over the las=\nt few weeks are unacceptable.  We are continuing to monitor and improve the=\n overall performance to ensure that we substantially reduce the outages and=\n meet Enron's business needs and expectations.\n\nEnron Global Technology",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2935,
+      "end": 2959,
+      "text": "\nEnron Global Technology",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2959,
+      "text": "Over the past few weeks, we have experienced significant issues with our em=\nail environment that have caused business interruptions and frustration for=\n Outlook users.  The purpose of this e-mail is to outline the issues that w=\ne have encountered and what we are doing to resolve the issues.=20\n?=09During the last week of August, we encountered a bug in Microsoft's Exc=\nhange Server -- the mail server that is used by Outlook clients.  This bug,=\n which impacted approximately 3,000 users, delayed mail delivery for the be=\ntter part of a day.  At that time, we applied a fix from Microsoft which ap=\npears to have resolved the problem.  We have carefully monitored the Exchan=\nge servers for four weeks, and have not seen a re-occurrence of the bug.\n?=09Also during the last week of August, another Exchange Server experience=\nd database corruption issues -- again, this impacted approximately 3,000 Ou=\ntlook users.  To resolve this, we moved the 3,000 users to different Exchan=\nge servers and made several hardware/software upgrades to the affected serv=\ner.  We have not yet returned the repaired server to full production use --=\n we are closely monitoring it to ensure that there are no more problems wit=\nh the server.  While this event did not cause e-mail outages during the bus=\niness week, we had to do maintenance on the server during the evenings on W=\nednesday, Thursday, and Friday, and throughout the Labor day weekend to mov=\ne users to different servers.  During these evenings and weekend, the impac=\nted users could not access their e-mail.\n?=09During the last three weeks, there have been a number of new and danger=\nous viruses on the internet.  We have a multi-layered defense against virus=\nes that include virus scanning software on servers and desktops.  All mail =\nis scanned on the Exchange servers and all files are scanned on the desktop=\ns.  During the last few weeks, we have had to apply numerous virus scanning=\n updates to the Exchange servers - sometimes even several updates per day. =\n The result is that when new virus scanning updates arrive, the performance=\n of the Exchange servers diminishes for several hours while the anti-virus =\nproduct rescans every message in every mailbox.  This is unfortunate, but w=\ne believe necessary to prevent viruses from causing outages in the Enron co=\nmputing environment and threaten our revenue generating systems.  At this t=\nime, we are working with the vendor to arrive at a technical solution that =\nwill speed up the virus scanning process.  We have made some progress as th=\ne performance has improved during virus scans, however, it can continue to =\nget better.\nThere is no question that the email issues we have encountered over the las=\nt few weeks are unacceptable.  We are continuing to monitor and improve the=\n overall performance to ensure that we substantially reduce the outages and=\n meet Enron's business needs and expectations.\n\nEnron Global Technology",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27482363.1075852223262.JavaMail.evans@thyme>",
+      "Date": "Mon, 24 Sep 2001 13:25:04 -0700 (PDT)",
+      "From": "40enron@enron.com",
+      "Subject": "Outlook Communication",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Enron Global Technology@ENRON <IMCEANOTES-Enron+20Global+20Technology+40ENRON@ENRON.com>",
+      "X-To": "All Enron Houston@ENRON <??SAll Enron Houston@ENRON>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\DGIRON (Non-Privileged)\\Giron, Darron C.\\Deleted Items",
+      "X-Origin": "GIRON-D",
+      "X-FileName": "DGIRON (Non-Privileged).pst"
+    }
+  },
+  "id": "train/giron-d_deleted_items_250.txt"
+}

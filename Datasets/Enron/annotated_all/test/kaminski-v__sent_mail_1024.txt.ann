@@ -1,0 +1,193 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/10/2001 \n06:39 PM ---------------------------\n\n\n\"Walkup, David C (HOUSTONAS AS 582)\" <dwalkup@pclient.ml.com> on 01/10/2001 \n11:39:57 AM\nTo: \"'Vincent Kaminski'\" <vkamins@enron.com>\ncc:  \nSubject: 2000 U.S. Collective Wisdom Portfolio (http: //psm20.mlpc.privnet. \nus.ml.com/logi\n\n\n <<2000 U.S. Collective Wisdom Portfolio.htm>>\n\n____________________________________________________________\n\n\n\n\nCAUTION: Electronic mail sent through the Internet is not secure and could\nbe intercepted by a third party.  For your protection, avoid sending\nidentifying information, such as account, Social Security or card numbers to\nus or others.  Further, do not send time-sensitive, action-oriented\nmessages, such as transaction orders, fund transfer instructions, or check\nstop payments, as it is our policy not to accept such items electronicall\n\n - 2000 U.S. Collective Wisdom Portfolio.htm\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "01/10/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "06:39 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/10/2001 \n06:39 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 116,
+      "end": 131,
+      "text": "Walkup, David C",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 153,
+      "end": 175,
+      "text": "dwalkup@pclient.ml.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 180,
+      "end": 190,
+      "text": "01/10/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 192,
+      "end": 203,
+      "text": "11:39:57 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 210,
+      "end": 226,
+      "text": "Vincent Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 230,
+      "end": 247,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 264,
+      "end": 346,
+      "text": "2000 U.S. Collective Wisdom Portfolio (http: //psm20.mlpc.privnet. \nus.ml.com/logi",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 113,
+      "end": 347,
+      "text": "\n\n\"Walkup, David C (HOUSTONAS AS 582)\" <dwalkup@pclient.ml.com> on 01/10/2001 \n11:39:57 AM\nTo: \"'Vincent Kaminski'\" <vkamins@enron.com>\ncc:  \nSubject: 2000 U.S. Collective Wisdom Portfolio (http: //psm20.mlpc.privnet. \nus.ml.com/logi\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 352,
+      "end": 393,
+      "text": "2000 U.S. Collective Wisdom Portfolio.htm",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 349,
+      "end": 396,
+      "text": " <<2000 U.S. Collective Wisdom Portfolio.htm>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 397,
+      "end": 900,
+      "text": "____________________________________________________________\n\n\n\n\nCAUTION: Electronic mail sent through the Internet is not secure and could\nbe intercepted by a third party.  For your protection, avoid sending\nidentifying information, such as account, Social Security or card numbers to\nus or others.  Further, do not send time-sensitive, action-oriented\nmessages, such as transaction orders, fund transfer instructions, or check\nstop payments, as it is our policy not to accept such items electronicall\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 904,
+      "end": 945,
+      "text": "2000 U.S. Collective Wisdom Portfolio.htm",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 901,
+      "end": 946,
+      "text": " - 2000 U.S. Collective Wisdom Portfolio.htm\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 347,
+      "end": 946,
+      "text": "\n\n <<2000 U.S. Collective Wisdom Portfolio.htm>>\n\n____________________________________________________________\n\n\n\n\nCAUTION: Electronic mail sent through the Internet is not secure and could\nbe intercepted by a third party.  For your protection, avoid sending\nidentifying information, such as account, Social Security or card numbers to\nus or others.  Further, do not send time-sensitive, action-oriented\nmessages, such as transaction orders, fund transfer instructions, or check\nstop payments, as it is our policy not to accept such items electronicall\n\n - 2000 U.S. Collective Wisdom Portfolio.htm\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30240184.1075856527165.JavaMail.evans@thyme>",
+      "Date": "Wed, 10 Jan 2001 10:37:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "2000 U.S. Collective Wisdom Portfolio (http: //psm20.mlpc.privnet.\n us.ml.com/logi",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_1024.txt"
+}

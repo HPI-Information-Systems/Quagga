@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sorry I am not using Tomcat.  This is a fresh build of solr.  \n\nSent from my iPhone\n\n> On Sep 1, 2017, at 3:33 PM, Rick Leir <rleir@leirtech.com> wrote:\n> \n> Kent,\n> Did you say you are using Tomcat? Solr does not use Tomcat by default, so you will need\nto tell us more about your configuration. \n> \n> But first, think of what you might have changed just before it stopped working.\n> Cheers -- Rick\n> \n>> On September 1, 2017 11:55:47 AM EDT, \"Younge, Kent A - Norman, OK - Contractor\"\n<Kent.A.Younge@usps.gov.INVALID> wrote:\n>> \n>> Hello,\n>> \n>> I am getting an error ERR_SSL_VERSION_OR_CIPHER_MISMATCH on one of my\n>> Solr servers.   The details show that it's an Unsupported protocol: \n>> The client and server don't support a common SSL protocol version or\n>> cipher suite.  I have changed my browser settings and nothing seems to\n>> work.  If I comment out the SSL configuration in the solr.in.sh and use\n>> HTTP the site Admin site comes up fine.  I have searched for where the\n>> ciphers might be but, I am unsuccessful as I am not sure that they are\n>> the ciphers in TOMCAT or do they get written somewhere else?  I've gone\n>> over the certs several times I have compared it to a working Solr\n>> server and nothing seems different.  Other than this one does not work.\n>> \n>> \n>> \n>> \n>> \n>> \n>> Thank you,\n>> \n>> Kent\n> \n> -- \n> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 85,
+      "text": "Sorry I am not using Tomcat.  This is a fresh build of solr.  \n\nSent from my iPhone\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 85,
+      "end": 153,
+      "text": "> On Sep 1, 2017, at 3:33 PM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 153,
+      "end": 164,
+      "text": "> \n> Kent,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 382,
+      "end": 399,
+      "text": "> Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 153,
+      "end": 402,
+      "text": "> \n> Kent,\n> Did you say you are using Tomcat? Solr does not use Tomcat by default, so you will need\nto tell us more about your configuration. \n> \n> But first, think of what you might have changed just before it stopped working.\n> Cheers -- Rick\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 402,
+      "end": 526,
+      "text": ">> On September 1, 2017 11:55:47 AM EDT, \"Younge, Kent A - Norman, OK - Contractor\"\n<Kent.A.Younge@usps.gov.INVALID> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 526,
+      "end": 540,
+      "text": ">> \n>> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1297,
+      "end": 1327,
+      "text": ">> \n>> Thank you,\n>> \n>> Kent\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 526,
+      "end": 1407,
+      "text": ">> \n>> Hello,\n>> \n>> I am getting an error ERR_SSL_VERSION_OR_CIPHER_MISMATCH on one of my\n>> Solr servers.   The details show that it's an Unsupported protocol: \n>> The client and server don't support a common SSL protocol version or\n>> cipher suite.  I have changed my browser settings and nothing seems to\n>> work.  If I comment out the SSL configuration in the solr.in.sh and use\n>> HTTP the site Admin site comes up fine.  I have searched for where the\n>> ciphers might be but, I am unsuccessful as I am not sure that they are\n>> the ciphers in TOMCAT or do they get written somewhere else?  I've gone\n>> over the certs several times I have compared it to a working Solr\n>> server and nothing seems different.  Other than this one does not work.\n>> \n>> \n>> \n>> \n>> \n>> \n>> Thank you,\n>> \n>> Kent\n> \n> -- \n> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5844"
+}

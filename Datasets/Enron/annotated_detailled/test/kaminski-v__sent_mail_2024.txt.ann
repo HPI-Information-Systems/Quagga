@@ -1,0 +1,146 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 09/08/2000 \n08:25 AM ---------------------------\n\n\nShirley Crenshaw\n09/06/2000 12:56 PM\nTo: ludkam@aol.com\ncc:  (bcc: Vince J Kaminski/HOU/ECT)\nSubject: Vince's Travel Itinerary\n\nLudmilla:\n\nHere is Vince's travel itinerary for Sunday to New York.\n\n\n\n                                           DATE 06SEPTEMBER00\n                                           BOOKING REF ZE56TX\n\n                                           KAMINSKI/WINCENTY  S0C0011R10\n\n  ENRON CORP                               KAMINSKI/WINCENTY\n                                           EB 1962\n                                           E-TKT RECEIPT\n                                           **REVIEW UPGRADE BELOW**\n\nSERVICE               DATE  FROM           TO             DEPART  ARRIVE\n\nCONTINENTAL AIRLINES  10SEP HOUSTON TX     NEW YORK NY    539P    1000P\nCO 1672    A          SUN   G.BUSH INTERCO LA GUARDIA\n                            TERMINAL C     TERMINAL M\n                            DINNER                        NON STOP\n                            RESERVATION CONFIRMED         3:21 DURATION\n                  AIRCRAFT: BOEING 737-800\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nHOTEL                 10SEP HILTON MILLENIUM\n                      11SEP 55 CHURCH STREET\n                            NEW YORK, NY 10007\n                            UNITED STATES OF AMERICA\n                            TELEPHONE: 212-693-2001\n                            FAX: 212-571-2316\n                            TELEX: TLX NONE\n                            CONFIRMATION: 3110994415\n                            SINGLE ROOM QUEEN SIZE BED\n                            RATE: RA1 USD 339.00 PER NIGHT\n                            GUARANTEE GIVEN\n                            NONSMOKING KING ENRON CORP\n      TO AVOID BILLING CANCEL 24 HOURS PRIOR TO ARRIVAL HOTEL TIME\n\nCONTINENTAL AIRLINES  11SEP NEW YORK NY    HOUSTON TX     745P    1033P\nCO 1963    A          MON   LA GUARDIA     G.BUSH INTERCO\n                            TERMINAL M     TERMINAL C\n                            SNACK                         NON STOP\n                            RESERVATION CONFIRMED         3:48 DURATION\n                  AIRCRAFT: BOEING 737-300\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nMISCELLANEOUS         10NOV HOUSTON TX\n                      FRI   ** THANK YOU FOR USING THE TAP **\n\nKAMINSKI/WINCENTY  S0C0011R1000\n\nCO  FREQUENT FLYER COWT472179\nSHIRLEY CRENSHAW: 853-5290\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRONASSISTANCE INFO\nCALL SOS: IN U.S 800 523-6586/INTL 215 245-4707 (COLLECT)\n*******************************************\nTHIS IS THE PASSENGER RECEIPT FOR YOUR ELECTRONIC TICKET\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "09/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "08:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 09/08/2000 \n08:25 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 131,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 142,
+      "text": "09/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 143,
+      "end": 151,
+      "text": "12:56 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 170,
+      "text": "ludkam@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 182,
+      "end": 198,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/Bcc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 217,
+      "end": 241,
+      "text": "Vince's Travel Itinerary",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 113,
+      "end": 242,
+      "text": "\n\nShirley Crenshaw\n09/06/2000 12:56 PM\nTo: ludkam@aol.com\ncc:  (bcc: Vince J Kaminski/HOU/ECT)\nSubject: Vince's Travel Itinerary\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 243,
+      "end": 251,
+      "text": "Ludmilla",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 242,
+      "end": 2885,
+      "text": "\nLudmilla:\n\nHere is Vince's travel itinerary for Sunday to New York.\n\n\n\n                                           DATE 06SEPTEMBER00\n                                           BOOKING REF ZE56TX\n\n                                           KAMINSKI/WINCENTY  S0C0011R10\n\n  ENRON CORP                               KAMINSKI/WINCENTY\n                                           EB 1962\n                                           E-TKT RECEIPT\n                                           **REVIEW UPGRADE BELOW**\n\nSERVICE               DATE  FROM           TO             DEPART  ARRIVE\n\nCONTINENTAL AIRLINES  10SEP HOUSTON TX     NEW YORK NY    539P    1000P\nCO 1672    A          SUN   G.BUSH INTERCO LA GUARDIA\n                            TERMINAL C     TERMINAL M\n                            DINNER                        NON STOP\n                            RESERVATION CONFIRMED         3:21 DURATION\n                  AIRCRAFT: BOEING 737-800\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nHOTEL                 10SEP HILTON MILLENIUM\n                      11SEP 55 CHURCH STREET\n                            NEW YORK, NY 10007\n                            UNITED STATES OF AMERICA\n                            TELEPHONE: 212-693-2001\n                            FAX: 212-571-2316\n                            TELEX: TLX NONE\n                            CONFIRMATION: 3110994415\n                            SINGLE ROOM QUEEN SIZE BED\n                            RATE: RA1 USD 339.00 PER NIGHT\n                            GUARANTEE GIVEN\n                            NONSMOKING KING ENRON CORP\n      TO AVOID BILLING CANCEL 24 HOURS PRIOR TO ARRIVAL HOTEL TIME\n\nCONTINENTAL AIRLINES  11SEP NEW YORK NY    HOUSTON TX     745P    1033P\nCO 1963    A          MON   LA GUARDIA     G.BUSH INTERCO\n                            TERMINAL M     TERMINAL C\n                            SNACK                         NON STOP\n                            RESERVATION CONFIRMED         3:48 DURATION\n                  AIRCRAFT: BOEING 737-300\n                            SEAT 01F NO SMOKING CONFIRMED KAMINSKI/WINCEN\n                    FIRST CLASS UPGRADE IS CONFIRMED\n\nMISCELLANEOUS         10NOV HOUSTON TX\n                      FRI   ** THANK YOU FOR USING THE TAP **\n\nKAMINSKI/WINCENTY  S0C0011R1000\n\nCO  FREQUENT FLYER COWT472179\nSHIRLEY CRENSHAW: 853-5290\nINTL TVLRS: CARRY SOS WALLET CARD W/ENRONASSISTANCE INFO\nCALL SOS: IN U.S 800 523-6586/INTL 215 245-4707 (COLLECT)\n*******************************************\nTHIS IS THE PASSENGER RECEIPT FOR YOUR ELECTRONIC TICKET\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27438553.1075856550855.JavaMail.evans@thyme>",
+      "Date": "Fri, 8 Sep 2000 01:19:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Vince's Travel Itinerary",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v__sent_mail_2024.txt"
+}

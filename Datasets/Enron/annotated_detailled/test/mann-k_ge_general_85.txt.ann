@@ -1,0 +1,68 @@
+{
+  "wrapper": "plaintext",
+  "text": " <<01.DOC>> Pursuant to your request, attached please find the current\nversion of the exhibits.  I have made few, if any, changes to this.  I\nwas waiting to see what ENA and others had done before inserting any of\nmy comments/changes.\n - 01.DOC",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 238,
+      "end": 244,
+      "text": "01.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 235,
+      "end": 244,
+      "text": " - 01.DOC",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 3,
+      "end": 9,
+      "text": "01.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 11,
+      "text": " <<01.DOC>>",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 244,
+      "text": " <<01.DOC>> Pursuant to your request, attached please find the current\nversion of the exhibits.  I have made few, if any, changes to this.  I\nwas waiting to see what ENA and others had done before inserting any of\nmy comments/changes.\n - 01.DOC",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29101243.1075845884381.JavaMail.evans@thyme>",
+      "Date": "Fri, 11 May 2001 08:15:00 -0700 (PDT)",
+      "From": "pthompson@akllp.com",
+      "To": "john.g.rigby@enron.com",
+      "Subject": "Exhibits to Enron Turbine Form Agreement 2/16/01.DOC",
+      "Cc": "kay.mann@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kay.mann@enron.com",
+      "X-From": "\"Thompson, Peter J.\" <pthompson@akllp.com>",
+      "X-To": "\"John Rigby (E-mail)\" <john.g.rigby@enron.com>",
+      "X-cc": "\"Kay Mann (E-mail)\" <kay.mann@enron.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Ge general",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_ge_general_85.txt"
+}

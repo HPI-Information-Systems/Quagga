@@ -1,0 +1,41 @@
+I dont have an answer to why the folder got cleared, however i am wondering
+why you arent using basic replication to do this exact same thing, since
+solr will natively take care of all this for you with no interruption to
+the user and no stop/start routines etc.
+
+On Wed, Jun 14, 2017 at 2:26 PM, Mike Lissner <
+mlissner@michaeljaylissner.com> wrote:
+
+> We are replacing a drive mounted at /old with one mounted at /new. Our
+> index currently lives on /old, and our plan was to:
+>
+> 1. Create a new index on /new
+> 2. Reindex from our database so that the new index on /new is properly
+> populated.
+> 3. Stop solr.
+> 4. Symlink /old to /new (Solr now looks for the index at /old/solr, which
+> redirects to /new/solr)
+> 5. Start solr
+> 6. (Later) Stop solr, swap the drives (old for new), and start solr. (Solr
+> now looks for the index at /old/solr again, and finds it there.)
+> 7. Delete the index pointing to /new created in step 1.
+>
+> The idea was that this would create a new index for solr, would populate it
+> with the right content, and would avoid having to touch our existing solr
+> configurations aside from creating one new index, which we could soon
+> delete.
+>
+> I just did steps 1-5, but I got null pointer exceptions when starting solr,
+> and it appears that the index on /new has been almost completely deleted by
+> Solr (this is a bummer, since it takes days to populate).
+>
+> Is this expected? Am I terribly crazy to try to swap indexes on disk? As
+> far as I know, the only difference between the indexes is their name.
+>
+> We're using Solr version 4.10.4.
+>
+> Thank you,
+>
+> Mike
+>
+

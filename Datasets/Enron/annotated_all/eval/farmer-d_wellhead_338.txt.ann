@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Daren:\n\nJust wanted to follow up with you on the April noms at Texas \nCity..............   the volumes recorded for April 1 were 5300 and 1165...  \nsince we have been directed not to change Sitara deal tickets for now, would \nyou please correct?\n\nThanks!!\n\n\nCharlotte\n\n---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000 \n01:37 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Charlotte Hawkins                           03/30/2000 11:33 AM\n\t\n\nTo: Daren J Farmer/HOU/ECT@ECT, Stacey Neuweiler/HOU/ECT@ECT\ncc: Vance L Taylor/HOU/ECT@ECT, Mary Jo Johnson/HOU/ECT@ECT, Melissa \nGraves/HOU/ECT@ECT \nSubject: April, Aspect Volume @ Texas City\n\n\nFor April 1, 2000:\n\nCross Media                         989815 =    903 MMBtu\nTNCT                                      989816  = 5878  MMBtu\n\nAny questions, just call.\n\nThanks,\n\nCharlotte Hawkins\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 246,
+      "end": 268,
+      "text": "\nThanks!!\n\n\nCharlotte\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 269,
+      "text": "Daren:\n\nJust wanted to follow up with you on the April noms at Texas \nCity..............   the volumes recorded for April 1 were 5300 and 1165...  \nsince we have been directed not to change Sitara deal tickets for now, would \nyou please correct?\n\nThanks!!\n\n\nCharlotte\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 7,
+      "text": "Daren:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 269,
+      "end": 383,
+      "text": "---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000 \n01:37 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 383,
+      "end": 660,
+      "text": "   \n\t\n\t\n\tFrom:  Charlotte Hawkins                           03/30/2000 11:33 AM\n\t\n\nTo: Daren J Farmer/HOU/ECT@ECT, Stacey Neuweiler/HOU/ECT@ECT\ncc: Vance L Taylor/HOU/ECT@ECT, Mary Jo Johnson/HOU/ECT@ECT, Melissa \nGraves/HOU/ECT@ECT \nSubject: April, Aspect Volume @ Texas City\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 831,
+      "end": 859,
+      "text": "\nThanks,\n\nCharlotte Hawkins\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 660,
+      "end": 860,
+      "text": "\n\nFor April 1, 2000:\n\nCross Media                         989815 =    903 MMBtu\nTNCT                                      989816  = 5878  MMBtu\n\nAny questions, just call.\n\nThanks,\n\nCharlotte Hawkins\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<422734.1075854188543.JavaMail.evans@thyme>",
+      "Date": "Tue, 4 Apr 2000 06:39:00 -0700 (PDT)",
+      "From": "charlotte.hawkins@enron.com",
+      "To": "daren.farmer@enron.com",
+      "Subject": "April, Aspect Volume @ Texas City",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Charlotte Hawkins",
+      "X-To": "Daren J Farmer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darren_Farmer_Dec2000\\Notes Folders\\Wellhead",
+      "X-Origin": "Farmer-D",
+      "X-FileName": "dfarmer.nsf"
+    }
+  },
+  "id": "eval/farmer-d_wellhead_338.txt"
+}

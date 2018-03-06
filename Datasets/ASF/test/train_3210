@@ -1,0 +1,79 @@
+Well there are few things here.
+
+1. What is the Spark Version?
+2. You said there is OOM error but what is the cause that appears in the
+log message or stack trace? OOM can happen for various reasons and JVM
+usually specifies the cause in the error message.
+3. What is the driver and executor memory?
+4. What is the receive throughput per second and what is the data size of
+an average message?
+5. What OS you are using ?
+
+StorageLevel.MEMORY_AND_DISK_SER_2 This means that after the receiver
+receives the data is replicated across worker nodes.
+
+
+
+
+On Mon, May 22, 2017 at 5:20 PM, Manish Malhotra <
+manish.malhotra.work@gmail.com> wrote:
+
+> thanks Alonso,
+>
+> Sorry, but there are some security reservations.
+>
+> But we can assume the receiver, is equivalent to writing a JMS based
+> custom receiver, where we register a message listener and for each message
+> delivered by JMS will be stored by calling store method of listener.
+>
+>
+> Something like : https://github.com/tbfenet/spark-jms-receiver/blob/
+> master/src/main/scala/org/apache/spark/streaming/jms/JmsReceiver.scala
+>
+> Though the diff is here this JMS receiver is using block generator and the
+> calling store.
+> I m calling store when I receive message.
+> And also I'm not using block generator.
+> Not sure if that something will make the memory to balloon up.
+>
+> Btw I also run the same message consumer code from standalone map and
+> never seen this memory issue.
+>
+> On Sun, May 21, 2017 at 10:20 AM, Alonso Isidoro Roman <alonsoir@gmail.com
+> > wrote:
+>
+>> could you share the code?
+>>
+>> Alonso Isidoro Roman
+>> [image: https://]about.me/alonso.isidoro.roman
+>>
+>> <https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>
+>>
+>> 2017-05-20 7:54 GMT+02:00 Manish Malhotra <manish.malhotra.work@gmail.com
+>> >:
+>>
+>>> Hello,
+>>>
+>>> have implemented Java based custom receiver, which consumes from
+>>> messaging system say JMS.
+>>> once received message, I call store(object) ... Im storing spark Row
+>>> object.
+>>>
+>>> it run for around 8 hrs, and then goes OOM, and OOM is happening in
+>>> receiver nodes.
+>>> I also tried to run multiple receivers, to distribute the load but
+>>> faces the same issue.
+>>>
+>>> something fundamentally we are doing wrong, which tells custom receiver/spark
+>>> to release the memory.
+>>> but Im not able to crack that, atleast till now.
+>>>
+>>> any help is appreciated !!
+>>>
+>>> Regards,
+>>> Manish
+>>>
+>>>
+>>
+>
+

@@ -1,0 +1,58 @@
+I have version 5.2.1. Short of an upgrade, are there any remedies?
+
+
+Erick Erickson wrote
+> What version of Solr? since 5.4 there's been a FORCELEADER colelctions
+> API call that might help.
+> 
+> I'd run it with the newly added replicas offline. you only want it to
+> have good replicas to choose from.
+> 
+> Best,
+> Erick
+> 
+> On Wed, Feb 1, 2017 at 6:48 AM, tedsolr &lt;
+
+> tsmith@
+
+> &gt; wrote:
+>> Update! I did find an error:
+>>
+>> 2017-02-01 09:23:22.673 ERROR org.apache.solr.common.SolrException
+>> :org.apache.solr.common.SolrException: Error getting leader from zk for
+>> shard shard1
+>> ....
+>> Caused by: org.apache.solr.common.SolrException: Could not get leader
+>> props
+>>         at
+>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1040)
+>>         at
+>> org.apache.solr.cloud.ZkController.getLeaderProps(ZkController.java:1004)
+>>         at
+>> org.apache.solr.cloud.ZkController.getLeader(ZkController.java:960)
+>>         ... 14 more
+>> Caused by: org.apache.zookeeper.KeeperException$NoNodeException:
+>> KeeperErrorCode = NoNode for /collections/colname/leaders/shard1
+>>         at
+>> org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+>>
+>> When I view the cluster status I see that this shard does not have a
+>> leader.
+>> So it appears I need to force the leader designation to the "active"
+>> replica. How do I do that?
+>>
+>>
+>>
+>> --
+>> View this message in context:
+>> http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318265.html
+>> Sent from the Solr - User mailing list archive at Nabble.com.
+
+
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Collection-will-not-replicate-tp4318260p4318283.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

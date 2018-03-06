@@ -1,0 +1,451 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Sara Shackleton/HOU/ECT on 03/24/2000 \n05:40 PM ---------------------------\n\n\n\"CAVALIER,D. MD\" <LAB-DSC@womans.com> on 03/23/2000 02:44:04 PM\nTo: \"'Sara Shackleton'\" <sshackl@ect.enron.com>\ncc:  (bcc: Sara Shackleton/HOU/ECT)\nSubject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n\n\n\n\n\n> -----Original Message-----\n> From: PARRISH,LORI B\n> Sent: Thursday, March 23, 2000 8:39 AM\n> To: CAVALIER,D. MD\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n>\n> FOR YOU\n>\n> -----Original Message-----\n> From: HORNE,BECKY B\n> Sent: Thursday, March 23, 2000 8:36 AM\n> To: PARRISH,LORI B\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n>\n>\n>\n> -----Original Message-----\n> From: LABORDE,JEANNE M\n> Sent: Thursday, March 23, 2000 7:50 AM\n> To: HORNE,BECKY B\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n>\n>\n>\n> -----Original Message-----\n> From: sorihuela@wm.com [SMTP:sorihuela@wm.com]\n> Sent: Wednesday, March 22, 2000 3:11 PM\n> To: LAB-JML@womans.com\n> Subject: Re: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n>\n> >\n> >\n> > READ THIS BEFORE YOU LOOK AT THE PHOTO\n> >\n> > How much does this guy like biking?!  This ad appeared in the Arkansas\n> > Democrat-Gazette on Thursday June 17th.  The unfortunate photographic\n> > illusion was quickly noticed (look at the bike seat) and action was\n> taken\n> > to correct the advertisement, but not before the image made it to the\n> > newsstand.  They should have used a bike seat that was not tan in color.\n> >\n> >\n> >\n> >\n> >  <<BIKER.jpg>> (See attached file: BIKER.jpg)\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>  <<JPEG File Interchange>>\n\n - BIKER.jpg\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 51,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 73,
+      "text": "03/24/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 75,
+      "end": 83,
+      "text": "05:40 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 112,
+      "text": "---------------------- Forwarded by Sara Shackleton/HOU/ECT on 03/24/2000 \n05:40 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 129,
+      "text": "CAVALIER,D. MD",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 150,
+      "text": "LAB-DSC@womans.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 155,
+      "end": 165,
+      "text": "03/23/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 166,
+      "end": 177,
+      "text": "02:44:04 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 184,
+      "end": 199,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 203,
+      "end": 224,
+      "text": "sshackl@ect.enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 237,
+      "end": 252,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/Bcc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 271,
+      "end": 319,
+      "text": "FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 112,
+      "end": 320,
+      "text": "\n\n\"CAVALIER,D. MD\" <LAB-DSC@womans.com> on 03/23/2000 02:44:04 PM\nTo: \"'Sara Shackleton'\" <sshackl@ect.enron.com>\ncc:  (bcc: Sara Shackleton/HOU/ECT)\nSubject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 362,
+      "end": 376,
+      "text": "PARRISH,LORI B",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 395,
+      "end": 409,
+      "text": "March 23, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 410,
+      "end": 417,
+      "text": "8:39 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 424,
+      "end": 438,
+      "text": "CAVALIER,D. MD",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 450,
+      "end": 498,
+      "text": "FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 320,
+      "end": 499,
+      "text": "\n\n\n\n\n> -----Original Message-----\n> From: PARRISH,LORI B\n> Sent: Thursday, March 23, 2000 8:39 AM\n> To: CAVALIER,D. MD\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 499,
+      "end": 513,
+      "text": ">\n> FOR YOU\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 550,
+      "end": 563,
+      "text": "HORNE,BECKY B",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 582,
+      "end": 596,
+      "text": "March 23, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 597,
+      "end": 604,
+      "text": "8:36 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 611,
+      "end": 625,
+      "text": "PARRISH,LORI B",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 637,
+      "end": 685,
+      "text": "FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 513,
+      "end": 686,
+      "text": "> -----Original Message-----\n> From: HORNE,BECKY B\n> Sent: Thursday, March 23, 2000 8:36 AM\n> To: PARRISH,LORI B\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 729,
+      "end": 745,
+      "text": "LABORDE,JEANNE M",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 764,
+      "end": 778,
+      "text": "March 23, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 779,
+      "end": 786,
+      "text": "7:50 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 793,
+      "end": 806,
+      "text": "HORNE,BECKY B",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 818,
+      "end": 866,
+      "text": "FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 686,
+      "end": 867,
+      "text": ">\n>\n>\n> -----Original Message-----\n> From: LABORDE,JEANNE M\n> Sent: Thursday, March 23, 2000 7:50 AM\n> To: HORNE,BECKY B\n> Subject: FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 910,
+      "end": 926,
+      "text": "sorihuela@wm.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 933,
+      "end": 949,
+      "text": "sorihuela@wm.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 970,
+      "end": 984,
+      "text": "March 22, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 985,
+      "end": 992,
+      "text": "3:11 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 999,
+      "end": 1017,
+      "text": "LAB-JML@womans.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1029,
+      "end": 1077,
+      "text": "Re: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 867,
+      "end": 1078,
+      "text": ">\n>\n>\n> -----Original Message-----\n> From: sorihuela@wm.com [SMTP:sorihuela@wm.com]\n> Sent: Wednesday, March 22, 2000 3:11 PM\n> To: LAB-JML@womans.com\n> Subject: Re: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1078,
+      "end": 1642,
+      "text": ">\n> >\n> >\n> > READ THIS BEFORE YOU LOOK AT THE PHOTO\n> >\n> > How much does this guy like biking?!  This ad appeared in the Arkansas\n> > Democrat-Gazette on Thursday June 17th.  The unfortunate photographic\n> > illusion was quickly noticed (look at the bike seat) and action was\n> taken\n> > to correct the advertisement, but not before the image made it to the\n> > newsstand.  They should have used a bike seat that was not tan in color.\n> >\n> >\n> >\n> >\n> >  <<BIKER.jpg>> (See attached file: BIKER.jpg)\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>  <<JPEG File Interchange>>\n\n - BIKER.jpg\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1632,
+      "end": 1641,
+      "text": "BIKER.jpg",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1629,
+      "end": 1642,
+      "text": " - BIKER.jpg\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1538,
+      "end": 1547,
+      "text": "BIKER.jpg",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1570,
+      "end": 1579,
+      "text": "BIKER.jpg",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1531,
+      "end": 1581,
+      "text": "> >  <<BIKER.jpg>> (See attached file: BIKER.jpg)\n",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 21,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 27,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22013005.1075844349020.JavaMail.evans@thyme>",
+      "Date": "Fri, 24 Mar 2000 09:41:00 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "sshackl@swbell.net",
+      "Subject": "FW: FW: Fw: READ THIS BEFORE YOU LOOK AT THE PIC",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "sshackl@swbell.net",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_1538.txt"
+}

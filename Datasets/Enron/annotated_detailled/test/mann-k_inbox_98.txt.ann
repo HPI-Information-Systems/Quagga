@@ -1,0 +1,295 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n-----Original Message-----\nFrom: Tom Vandivier [mailto:tomvandivier@ev1.net]\nSent: Wednesday, December 12, 2001 10:35 AM\nTo: Ann Brodnax; Carleton Wilkes; Jerry Mazzaferro; jessica vandivier;\nLaura Vandivier; Neil Mann; Phil Tinker; Ron Brock; Sonja Vandivier;\nStewart and Becky Williams\nSubject: [Fwd: Taliban vs. Texans]\n\n\n\n\n\n--------- Inline attachment follows ---------\n\nFrom:  <Whitt.Trimble@parsons.com>\nTo: Kopecky, Lewis </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=B86BA4C-D800F8E1-86256AC5-7BB7CC>, Michael. Bible (E-mail) <Michael.Bible@Fluor.com>, Tom Vandivier (E-mail) <tomvandivier@ev1.net>, Wade Trimble (E-mail) <wade135@hotmail.com>\nDate: Wednesday, December 12, 2001 3:50:59 GMT\nSubject: \n\n\n    \n\n\n\n\nA large group of Taliban soldiers are moving down a road when they hear a\nvoice call from behind a sand dune.\n\n\"One Texas soldier is better than ten Taliban.\"\n\nThe Taliban commander quickly sends 10 of his best soldiers over the dune\nwhereupon a gun battle breaks out and continues for a few minutes, then\nsilence.\n\nThe voice then calls out \"One Texan is better than one hundred Taliban.\"\n\nFurious, the Taliban commander sends his next best 100 troops over the dune\nand instantly a huge gunfight commences. After 10 minutes of battle, again\nsilence.\n\nThe Texan voice calls out again \"One Texan is better than one thousand\nTaliban.\"\n\nThe enraged Taliban Commander musters one thousand fighters and sends them\nacross the dune. Cannon, rocket and machine gun fire ring out as a huge\nbattle is fought. Then silence. Eventually one wounded Taliban fighter\ncrawls back over the dune and with his dying words tells his commander,\n\"Don't send any more men, its a trap. There's two of them.\"\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 57,
+      "end": 77,
+      "text": "tomvandivier@ev1.net",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 35,
+      "end": 48,
+      "text": "Tom Vandivier",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 96,
+      "end": 113,
+      "text": "December 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 114,
+      "end": 122,
+      "text": "10:35 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 127,
+      "end": 138,
+      "text": "Ann Brodnax",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 140,
+      "end": 155,
+      "text": "Carleton Wilkes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 157,
+      "end": 173,
+      "text": "Jerry Mazzaferro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 175,
+      "end": 192,
+      "text": "jessica vandivier",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 194,
+      "end": 209,
+      "text": "Laura Vandivier",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 211,
+      "end": 220,
+      "text": "Neil Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 222,
+      "end": 233,
+      "text": "Phil Tinker",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 235,
+      "end": 244,
+      "text": "Ron Brock",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 246,
+      "end": 261,
+      "text": "Sonja Vandivier",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 263,
+      "end": 289,
+      "text": "Stewart and Becky Williams",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 299,
+      "end": 324,
+      "text": "[Fwd: Taliban vs. Texans]",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 0,
+      "end": 325,
+      "text": "\n\n-----Original Message-----\nFrom: Tom Vandivier [mailto:tomvandivier@ev1.net]\nSent: Wednesday, December 12, 2001 10:35 AM\nTo: Ann Brodnax; Carleton Wilkes; Jerry Mazzaferro; jessica vandivier;\nLaura Vandivier; Neil Mann; Phil Tinker; Ron Brock; Sonja Vandivier;\nStewart and Becky Williams\nSubject: [Fwd: Taliban vs. Texans]\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 325,
+      "end": 377,
+      "text": "\n\n\n\n\n--------- Inline attachment follows ---------\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 385,
+      "end": 410,
+      "text": "Whitt.Trimble@parsons.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 416,
+      "end": 430,
+      "text": "Kopecky, Lewis",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 512,
+      "end": 526,
+      "text": "Michael. Bible",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 537,
+      "end": 560,
+      "text": "Michael.Bible@Fluor.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 563,
+      "end": 576,
+      "text": "Tom Vandivier",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 587,
+      "end": 607,
+      "text": "tomvandivier@ev1.net",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 610,
+      "end": 622,
+      "text": "Wade Trimble",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 633,
+      "end": 652,
+      "text": "wade135@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 671,
+      "end": 688,
+      "text": "December 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 689,
+      "end": 700,
+      "text": "3:50:59 GMT",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 377,
+      "end": 711,
+      "text": "From:  <Whitt.Trimble@parsons.com>\nTo: Kopecky, Lewis </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=B86BA4C-D800F8E1-86256AC5-7BB7CC>, Michael. Bible (E-mail) <Michael.Bible@Fluor.com>, Tom Vandivier (E-mail) <tomvandivier@ev1.net>, Wade Trimble (E-mail) <wade135@hotmail.com>\nDate: Wednesday, December 12, 2001 3:50:59 GMT\nSubject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 711,
+      "end": 1711,
+      "text": "\n\n    \n\n\n\n\nA large group of Taliban soldiers are moving down a road when they hear a\nvoice call from behind a sand dune.\n\n\"One Texas soldier is better than ten Taliban.\"\n\nThe Taliban commander quickly sends 10 of his best soldiers over the dune\nwhereupon a gun battle breaks out and continues for a few minutes, then\nsilence.\n\nThe voice then calls out \"One Texan is better than one hundred Taliban.\"\n\nFurious, the Taliban commander sends his next best 100 troops over the dune\nand instantly a huge gunfight commences. After 10 minutes of battle, again\nsilence.\n\nThe Texan voice calls out again \"One Texan is better than one thousand\nTaliban.\"\n\nThe enraged Taliban Commander musters one thousand fighters and sends them\nacross the dune. Cannon, rocket and machine gun fire ring out as a huge\nbattle is fought. Then silence. Eventually one wounded Taliban fighter\ncrawls back over the dune and with his dying words tells his commander,\n\"Don't send any more men, its a trap. There's two of them.\"\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 24,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 23,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 20,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19359892.1075855243985.JavaMail.evans@thyme>",
+      "Date": "Wed, 12 Dec 2001 12:23:29 -0800 (PST)",
+      "From": "nmann@erac.com",
+      "To": "kay.mann@enron.com, e-mail <.mikey@enron.com>, e-mail <.paige@enron.com>",
+      "Subject": "FW: [Fwd: Taliban vs. Texans]",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "neil mann <nmann@erac.com>",
+      "X-To": "Mann, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KMANN>, Mikey Brown (E-mail) <agmikey@angelfire.com>, Paige Record (E-mail) <recordp@southwestern.edu>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_Jan2002\\Mann, Kay\\Inbox",
+      "X-Origin": "Mann-K",
+      "X-FileName": "kmann (Non-Privileged).pst"
+    }
+  },
+  "id": "test/mann-k_inbox_98.txt"
+}

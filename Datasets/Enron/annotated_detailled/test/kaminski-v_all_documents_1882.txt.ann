@@ -1,0 +1,719 @@
+{
+  "wrapper": "plaintext",
+  "text": "FYI\n\nVince\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/24/2001 \n10:58 AM ---------------------------\n\n\nCarrie Miller <cmiller@rice.edu> on 01/24/2001 10:13:44 AM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: Re: Enron ALP\n\n\nVince,\n\nMany thanks for the invitation.? I'm leaving for a conference in New Orleans \ntoday and won't be in town.? However, I'd love to join you if dinner should \nhappen again in the future.\n\nThanks again for all your support and interest in the ALP program.? I feel \nconfident that this will be a great project.\n\nCarrie\n\nAt 10:03 AM 1/24/01 -0600, you wrote:\nCarrie,\n\nWe have invited the team to dinner Thursday, 7:00 p.m.\nWould you loike to join us?\n\nVince\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/24/2001\n10:04 AM ---------------------------\n\n\nPamela Vande Krol Castro <castro@rice.edu> on 01/22/2001 06:18:16 PM\n\nTo:?? Kenneth.Parkhill@enron.com, vkamins@enron.com\ncc:\nSubject:? Enron ALP\n\n\nDear ALP Company Representatives:\n\nThank you again for your participation in the ALP Company Day at Rice\nUniversity. We are pleased to inform you that your project proposal has\nbeen chosen for the 2001 ALP program. The following students will  be\nworking on your project:\n\n?? CALABRESE, luigi??????? luigical@rice.edu\n?? GHOSE, Ivy????????????? ghosei@rice.edu\n?? GHOSH, Ronnie?? ghoshr@rice.edu\n?? IQBAL, Syed???????????? iqbal@rice.edu\n?? SUD, Pravas???????????? pravas@rice.edu\n?? WOMACK, Charles cwomack@rice.edu\n\nThe faculty liaisons for your project are:\n\n\n?? BARRETT, Deborah??????????????? barrett@rice.edu\n?? UECKER, Will??????????????????? uecker@rice.edu\n?? LOUGHRIDGE, Dennis????? loughrid@rice.edu\n\nA representative from the student team will contact you soon to set up \nmeeting time. If you need to contact your team, I have included the\nstudents' email addresses. They check their email on a regular basis, so\nthis is a good way to communicate with them.\n\nPlease let me know if you have any questions regarding this information.\nAgain, thank you for your interest in the Jones School. Best wishes for \ngreat project!\n\n==============================================================\nCarrie Chamberlin Miller\nDirector of MBA Program\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone: (713) 348-5260\nFax: (713) 348-5251\nE-mail: cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n\nPamela Castro\nMBA Program Associate\nRice University\nPhone: 713-348-6223\nFAX: 713-348-5251\nE-mail: castro@rice.edu\n\n======================================\nCarrie Chamberlin Miller\nDirector of MBA Program\nJesse H. Jones Graduate School of Management\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone:? (713) 348-5260\nFax:? (713) 348-5251\nE-mail:? cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 10,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 11,
+      "text": "FYI\n\nVince\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 47,
+      "end": 63,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 75,
+      "end": 85,
+      "text": "01/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 87,
+      "end": 95,
+      "text": "10:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 11,
+      "end": 124,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/24/2001 \n10:58 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 126,
+      "end": 139,
+      "text": "Carrie Miller",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 141,
+      "end": 157,
+      "text": "cmiller@rice.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 162,
+      "end": 172,
+      "text": "01/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 173,
+      "end": 184,
+      "text": "10:13:44 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 189,
+      "end": 215,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 231,
+      "end": 244,
+      "text": "Re: Enron ALP",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 124,
+      "end": 245,
+      "text": "\n\nCarrie Miller <cmiller@rice.edu> on 01/24/2001 10:13:44 AM\nTo: Vince.J.Kaminski@enron.com\ncc:  \nSubject: Re: Enron ALP\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 247,
+      "end": 252,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 561,
+      "end": 567,
+      "text": "Carrie",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 245,
+      "end": 569,
+      "text": "\n\nVince,\n\nMany thanks for the invitation.? I'm leaving for a conference in New Orleans \ntoday and won't be in town.? However, I'd love to join you if dinner should \nhappen again in the future.\n\nThanks again for all your support and interest in the ALP program.? I feel \nconfident that this will be a great project.\n\nCarrie\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 572,
+      "end": 580,
+      "text": "10:03 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 581,
+      "end": 588,
+      "text": "1/24/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 589,
+      "end": 594,
+      "text": "-0600",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 596,
+      "end": 599,
+      "text": "you",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 569,
+      "end": 607,
+      "text": "At 10:03 AM 1/24/01 -0600, you wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 607,
+      "end": 613,
+      "text": "Carrie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 700,
+      "end": 705,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 607,
+      "end": 706,
+      "text": "Carrie,\n\nWe have invited the team to dinner Thursday, 7:00 p.m.\nWould you loike to join us?\n\nVince\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 742,
+      "end": 758,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 770,
+      "end": 780,
+      "text": "01/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 781,
+      "end": 789,
+      "text": "10:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 706,
+      "end": 818,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/24/2001\n10:04 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 820,
+      "end": 844,
+      "text": "Pamela Vande Krol Castro",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 846,
+      "end": 861,
+      "text": "castro@rice.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 866,
+      "end": 876,
+      "text": "01/22/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 877,
+      "end": 888,
+      "text": "06:18:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 896,
+      "end": 922,
+      "text": "Kenneth.Parkhill@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 924,
+      "end": 941,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 956,
+      "end": 965,
+      "text": "Enron ALP",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 818,
+      "end": 966,
+      "text": "\n\nPamela Vande Krol Castro <castro@rice.edu> on 01/22/2001 06:18:16 PM\n\nTo:?? Kenneth.Parkhill@enron.com, vkamins@enron.com\ncc:\nSubject:? Enron ALP\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 968,
+      "end": 1001,
+      "text": "Dear ALP Company Representatives:",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 966,
+      "end": 2793,
+      "text": "\n\nDear ALP Company Representatives:\n\nThank you again for your participation in the ALP Company Day at Rice\nUniversity. We are pleased to inform you that your project proposal has\nbeen chosen for the 2001 ALP program. The following students will  be\nworking on your project:\n\n?? CALABRESE, luigi??????? luigical@rice.edu\n?? GHOSE, Ivy????????????? ghosei@rice.edu\n?? GHOSH, Ronnie?? ghoshr@rice.edu\n?? IQBAL, Syed???????????? iqbal@rice.edu\n?? SUD, Pravas???????????? pravas@rice.edu\n?? WOMACK, Charles cwomack@rice.edu\n\nThe faculty liaisons for your project are:\n\n\n?? BARRETT, Deborah??????????????? barrett@rice.edu\n?? UECKER, Will??????????????????? uecker@rice.edu\n?? LOUGHRIDGE, Dennis????? loughrid@rice.edu\n\nA representative from the student team will contact you soon to set up \nmeeting time. If you need to contact your team, I have included the\nstudents' email addresses. They check their email on a regular basis, so\nthis is a good way to communicate with them.\n\nPlease let me know if you have any questions regarding this information.\nAgain, thank you for your interest in the Jones School. Best wishes for \ngreat project!\n\n==============================================================\nCarrie Chamberlin Miller\nDirector of MBA Program\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone: (713) 348-5260\nFax: (713) 348-5251\nE-mail: cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n\nPamela Castro\nMBA Program Associate\nRice University\nPhone: 713-348-6223\nFAX: 713-348-5251\nE-mail: castro@rice.edu\n\n======================================\nCarrie Chamberlin Miller\nDirector of MBA Program\nJesse H. Jones Graduate School of Management\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone:? (713) 348-5260\nFax:? (713) 348-5251\nE-mail:? cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2532,
+      "end": 2556,
+      "text": "Carrie Chamberlin Miller",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2532,
+      "end": 2793,
+      "text": "Carrie Chamberlin Miller\nDirector of MBA Program\nJesse H. Jones Graduate School of Management\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone:? (713) 348-5260\nFax:? (713) 348-5251\nE-mail:? cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2164,
+      "end": 2377,
+      "text": "Carrie Chamberlin Miller\nDirector of MBA Program\nRice University\n6100 Main Street, MS 531\nHouston, Texas 77005-1892\nPhone: (713) 348-5260\nFax: (713) 348-5251\nE-mail: cmiller@rice.edu\nhttp://www.ruf.rice.edu/~jgs/\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2378,
+      "end": 2492,
+      "text": "Pamela Castro\nMBA Program Associate\nRice University\nPhone: 713-348-6223\nFAX: 713-348-5251\nE-mail: castro@rice.edu\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2164,
+      "end": 2188,
+      "text": "Carrie Chamberlin Miller",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2189,
+      "end": 2212,
+      "text": "Director of MBA Program",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2213,
+      "end": 2228,
+      "text": "Rice University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 2229,
+      "end": 2279,
+      "text": "6100 Main Street, MS 531\nHouston, Texas 77005-1892",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 2287,
+      "end": 2301,
+      "text": "(713) 348-5260",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 2307,
+      "end": 2321,
+      "text": "(713) 348-5251",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2330,
+      "end": 2346,
+      "text": "cmiller@rice.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2378,
+      "end": 2391,
+      "text": "Pamela Castro",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2392,
+      "end": 2413,
+      "text": "MBA Program Associate",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 2414,
+      "end": 2429,
+      "text": "Rice University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2437,
+      "end": 2449,
+      "text": "713-348-6223",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2455,
+      "end": 2467,
+      "text": "713-348-5251",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2476,
+      "end": 2491,
+      "text": "castro@rice.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2557,
+      "end": 2580,
+      "text": "Director of MBA Program",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2581,
+      "end": 2641,
+      "text": "Jesse H. Jones Graduate School of Management\nRice University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 2642,
+      "end": 2692,
+      "text": "6100 Main Street, MS 531\nHouston, Texas 77005-1892",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 2700,
+      "end": 2715,
+      "text": " (713) 348-5260",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 2722,
+      "end": 2736,
+      "text": "(713) 348-5251",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 2746,
+      "end": 2762,
+      "text": "cmiller@rice.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 19,
+      "target": 17,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 43,
+      "target": 45,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 44,
+      "target": 43,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 46,
+      "target": 45,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 47,
+      "target": 43,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 48,
+      "target": 43,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 49,
+      "target": 43,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 50,
+      "target": 52,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 51,
+      "target": 50,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 53,
+      "target": 50,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 54,
+      "target": 50,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 55,
+      "target": 50,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 39,
+      "target": 57,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 56,
+      "target": 39,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 58,
+      "target": 57,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 59,
+      "target": 39,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 60,
+      "target": 39,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 61,
+      "target": 39,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 39,
+      "target": 43,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 29,
+      "target": 50,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 7,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "origin": 22,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "origin": 20,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "origin": 20,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "origin": 25,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "origin": 43,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11812174.1075856227560.JavaMail.evans@thyme>",
+      "Date": "Wed, 24 Jan 2001 02:55:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "kenneth.parkhill@enron.com",
+      "Subject": "Re: Enron ALP",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Kenneth Parkhill",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_1882.txt"
+}

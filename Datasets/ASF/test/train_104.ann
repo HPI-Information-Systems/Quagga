@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Do you have more of the exception stack?\n\n\n________________________________\nFrom: Ankur Srivastava <ankur.srivastava@gmail.com>\nSent: Wednesday, January 4, 2017 4:40:02 PM\nTo: user@spark.apache.org\nSubject: Spark GraphFrame ConnectedComponents\n\nHi,\n\nI am trying to use the ConnectedComponent algorithm of GraphFrames but by default it needs\na checkpoint directory. As I am running my spark cluster with S3 as the DFS and do not have\naccess to HDFS file system I tried using a s3 directory as checkpoint directory but I run\ninto below exception:\n\n\nException in thread \"main\" java.lang.IllegalArgumentException: Wrong FS: s3n://<folder-path>,\nexpected: file:///\n\nat org.apache.hadoop.fs.FileSystem.checkPath(FileSystem.java:642)\n\nat org.apache.hadoop.fs.RawLocalFileSystem.pathToFile(RawLocalFileSystem.java:69)\n\nIf I set checkpoint interval to -1 to avoid checkpointing the driver just hangs after 3 or\n4 iterations.\n\nIs there some way I can set the default FileSystem to S3 for Spark or any other option?\n\nThanks\nAnkur\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 43,
+      "end": 244,
+      "text": "________________________________\nFrom: Ankur Srivastava <ankur.srivastava@gmail.com>\nSent: Wednesday, January 4, 2017 4:40:02 PM\nTo: user@spark.apache.org\nSubject: Spark GraphFrame ConnectedComponents\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 43,
+      "text": "Do you have more of the exception stack?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 244,
+      "end": 249,
+      "text": "\nHi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1005,
+      "end": 1019,
+      "text": "\nThanks\nAnkur\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 244,
+      "end": 1021,
+      "text": "\nHi,\n\nI am trying to use the ConnectedComponent algorithm of GraphFrames but by default it needs\na checkpoint directory. As I am running my spark cluster with S3 as the DFS and do not have\naccess to HDFS file system I tried using a s3 directory as checkpoint directory but I run\ninto below exception:\n\n\nException in thread \"main\" java.lang.IllegalArgumentException: Wrong FS: s3n://<folder-path>,\nexpected: file:///\n\nat org.apache.hadoop.fs.FileSystem.checkPath(FileSystem.java:642)\n\nat org.apache.hadoop.fs.RawLocalFileSystem.pathToFile(RawLocalFileSystem.java:69)\n\nIf I set checkpoint interval to -1 to avoid checkpointing the driver just hangs after 3 or\n4 iterations.\n\nIs there some way I can set the default FileSystem to S3 for Spark or any other option?\n\nThanks\nAnkur\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_104"
+}

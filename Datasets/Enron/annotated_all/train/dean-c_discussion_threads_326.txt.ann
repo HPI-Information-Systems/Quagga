@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Second try, this time with the attachement \n\n-----Original Message----- \nFrom: Donohoo, Ken \nSent: Friday, May 18, 2001 4:47 PM \nTo: 1 CSC Working Group; 1 WMS and others(Wholesale Market Sub.); 1 2001 \nTAC and others \nCc: 1 MockMarket \nSubject: CSC MRS Presentation \n\nAttached to this email is a presentation made at yesterday MRS meeting.? The \nlast slide indicates calculated TTC limits between zones for the on peak \nsummer base case.? Have a great weekend.\n\n? \nKenneth A. Donohoo, PE \nManager of System Planning, Technical Operations \nERCOT \n2705 West Lake Dr. \nTaylor, TX 76574-2136 \n(512)248-3003, FAX(512)248-3082 \n\n? \n - KenDCSCMRS7.ppt",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 45,
+      "text": "Second try, this time with the attachement \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 45,
+      "end": 268,
+      "text": "-----Original Message----- \nFrom: Donohoo, Ken \nSent: Friday, May 18, 2001 4:47 PM \nTo: 1 CSC Working Group; 1 WMS and others(Wholesale Market Sub.); 1 2001 \nTAC and others \nCc: 1 MockMarket \nSubject: CSC MRS Presentation \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 466,
+      "end": 623,
+      "text": "Kenneth A. Donohoo, PE \nManager of System Planning, Technical Operations \nERCOT \n2705 West Lake Dr. \nTaylor, TX 76574-2136 \n(512)248-3003, FAX(512)248-3082 \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 268,
+      "end": 645,
+      "text": "\nAttached to this email is a presentation made at yesterday MRS meeting.? The \nlast slide indicates calculated TTC limits between zones for the on peak \nsummer base case.? Have a great weekend.\n\n? \nKenneth A. Donohoo, PE \nManager of System Planning, Technical Operations \nERCOT \n2705 West Lake Dr. \nTaylor, TX 76574-2136 \n(512)248-3003, FAX(512)248-3082 \n\n? \n - KenDCSCMRS7.ppt",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6623112.1075857367040.JavaMail.evans@thyme>",
+      "Date": "Fri, 18 May 2001 09:47:00 -0700 (PDT)",
+      "From": "kdonohoo@ercot.com",
+      "To": "1cscworkinggroup@ercot.com, wms_etc@ercot.com, tac@ercot.com",
+      "Subject": "RE: CSC MRS Presentation",
+      "Cc": "mockmarket@ercot.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "mockmarket@ercot.com",
+      "X-From": "\"Donohoo, Ken\" <KDonohoo@ercot.com>",
+      "X-To": "1 CSC Working Group <1CSCWorkingGroup@ercot.com>, \"1 WMS and others(Wholesale Market Sub.)\" <wms_etc@ercot.com>, 1 2001 TAC and others <tac@ercot.com>",
+      "X-cc": "1 MockMarket <mockmarket@ercot.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Clint_Dean_Jun2001\\Notes Folders\\Discussion threads",
+      "X-Origin": "Dean-C",
+      "X-FileName": "cdean.nsf"
+    }
+  },
+  "id": "train/dean-c_discussion_threads_326.txt"
+}

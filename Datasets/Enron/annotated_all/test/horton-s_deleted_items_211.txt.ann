@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "We met with GTB representatives yesterday and today, and worked out an agreement in principle for an assignment of our contract to a replacement contractor.  The commercial terms have been tentatively agreed to, pending GTB management approval.  The other terms and conditions are generally agreed to, and the actual wording is in draft form; the expectation is to execute the letter agreement by 31 December 2001.  Also, GTB expects to execute their agreement with the replacement contractor by 11 January 2002, with the assignment from EPCSC to be effective then.\n\nGTB agreed to pay their past due invoices by 26 December 2001.  A payment schedule, with conditions and target dates, was agreed to for the balance of payments.  All are targeted to be paid during January 2002.\n\nEnron Pipeline Construction Services Company (EPCSC) received no payments since last week's report.  The total paid to date is $4,058K (EPCSC's portion remains at $3,476K).    \n\nNine EPCSC invoices remain past due, and the following is a summary of the GTB payments \"in process\" (either debit noticed or invoiced), along with their forecasted due dates:\n\nDue Date\tAmount\n\n\t\n04 Jan\t\t$  131K\t\tInvoice:  Yacuses Construction Progress - November\n05 Jan\t\t$    28K\t\tInvoice:  Rio Grande delivery to jobsite\n05 Jan\t\t$     4K\t\tInvoice:  Yacuses Solar Engineering - November\n05 Jan\t\t$     9K\t\tInvoice:  Chiquitos Solar Engineering - November\n05 Jan\t\t$     6K\t\tInvoice:  Izozog Solar Engineering - November\n05 Jan\t\t$     3K\t\tInvoice:  Robore Solar Engineering - November\n\nTOTAL\t            $  181K\n\n\nPast Due\tAmount\n\n30 Nov\t\t$  439K\t\tInvoice:  Chiquitos Drawing Package Issued for Approval\n30 Nov\t\t$  220K\t\tInvoice:  Yacuses Delivery of Major Equipment\n14 Dec\t\t$      4K\t\tInvoice:  Yacuses Solar Engineering - October\n14 Dec\t\t$      8K\t\tInvoice:  Chiquitos Solar Engineering - October\n14 Dec\t\t$      1K\t\tInvoice:  Izozog Solar Engineering - October\n14 Dec\t\t$      6K\t\tInvoice:  Robore Solar Engineering - October\n14 Dec\t\t$  150K\t\tInvoice:  Yacuses Construction Progress - October\n14 Dec\t\t$  594K\t\tInvoice:  Izozog NTP Equipment Specification\n14 Dec\t\t$  596K\t\tInvoice:  Robore NTP Equipment Specification\n\nTOTAL\t            $  2,017K\n\n\nIf anyone has questions about the status or the agreement, please call me any time at 713-557-0982.\n\nThanks,\nJerry",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2304,
+      "end": 2318,
+      "text": "\nThanks,\nJerry",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2318,
+      "text": "We met with GTB representatives yesterday and today, and worked out an agreement in principle for an assignment of our contract to a replacement contractor.  The commercial terms have been tentatively agreed to, pending GTB management approval.  The other terms and conditions are generally agreed to, and the actual wording is in draft form; the expectation is to execute the letter agreement by 31 December 2001.  Also, GTB expects to execute their agreement with the replacement contractor by 11 January 2002, with the assignment from EPCSC to be effective then.\n\nGTB agreed to pay their past due invoices by 26 December 2001.  A payment schedule, with conditions and target dates, was agreed to for the balance of payments.  All are targeted to be paid during January 2002.\n\nEnron Pipeline Construction Services Company (EPCSC) received no payments since last week's report.  The total paid to date is $4,058K (EPCSC's portion remains at $3,476K).    \n\nNine EPCSC invoices remain past due, and the following is a summary of the GTB payments \"in process\" (either debit noticed or invoiced), along with their forecasted due dates:\n\nDue Date\tAmount\n\n\t\n04 Jan\t\t$  131K\t\tInvoice:  Yacuses Construction Progress - November\n05 Jan\t\t$    28K\t\tInvoice:  Rio Grande delivery to jobsite\n05 Jan\t\t$     4K\t\tInvoice:  Yacuses Solar Engineering - November\n05 Jan\t\t$     9K\t\tInvoice:  Chiquitos Solar Engineering - November\n05 Jan\t\t$     6K\t\tInvoice:  Izozog Solar Engineering - November\n05 Jan\t\t$     3K\t\tInvoice:  Robore Solar Engineering - November\n\nTOTAL\t            $  181K\n\n\nPast Due\tAmount\n\n30 Nov\t\t$  439K\t\tInvoice:  Chiquitos Drawing Package Issued for Approval\n30 Nov\t\t$  220K\t\tInvoice:  Yacuses Delivery of Major Equipment\n14 Dec\t\t$      4K\t\tInvoice:  Yacuses Solar Engineering - October\n14 Dec\t\t$      8K\t\tInvoice:  Chiquitos Solar Engineering - October\n14 Dec\t\t$      1K\t\tInvoice:  Izozog Solar Engineering - October\n14 Dec\t\t$      6K\t\tInvoice:  Robore Solar Engineering - October\n14 Dec\t\t$  150K\t\tInvoice:  Yacuses Construction Progress - October\n14 Dec\t\t$  594K\t\tInvoice:  Izozog NTP Equipment Specification\n14 Dec\t\t$  596K\t\tInvoice:  Robore NTP Equipment Specification\n\nTOTAL\t            $  2,017K\n\n\nIf anyone has questions about the status or the agreement, please call me any time at 713-557-0982.\n\nThanks,\nJerry",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7898214.1075855411539.JavaMail.evans@thyme>",
+      "Date": "Fri, 21 Dec 2001 15:35:07 -0800 (PST)",
+      "From": "d..martin@enron.com",
+      "To": "stanley.horton@enron.com",
+      "Subject": "GTB Payment status",
+      "Cc": "nasim.khan@enron.com, leigh.lyons@enron.com, phil.lowry@enron.com, \n\trod.hayslett@enron.com, l..eisenstein@enron.com, \n\tmark.lavine@enron.com, richard.melton@enron.com, e.weidler@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "nasim.khan@enron.com, leigh.lyons@enron.com, phil.lowry@enron.com, \n\trod.hayslett@enron.com, l..eisenstein@enron.com, \n\tmark.lavine@enron.com, richard.melton@enron.com, e.weidler@enron.com",
+      "X-From": "Martin, Jerry D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JMARTIN>",
+      "X-To": "Horton, Stanley </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=5D54FC1F-7C796798-86256A8C-4DDAD1>",
+      "X-cc": "Khan, Nasim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=C4249056-C7DE5243-425683A-6F8A7E>, Lyons, Leigh </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=9840188F-56FEEC60-4256989-670937>, Lowry, Phil </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PLOWRY2>, Hayslett, Rod </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RHAYSLE>, Eisenstein, Arnold L. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=AEISENS>, Lavine, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MLAVINE>, Melton, Richard  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RMELTON>, Weidler, Peter E </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PWEIDLE>",
+      "X-bcc": "",
+      "X-Folder": "\\Stanley_Horton_Jan2002\\Horton, Stanley\\Deleted Items",
+      "X-Origin": "Horton-S",
+      "X-FileName": "shorton (Non-Privileged).pst"
+    }
+  },
+  "id": "test/horton-s_deleted_items_211.txt"
+}

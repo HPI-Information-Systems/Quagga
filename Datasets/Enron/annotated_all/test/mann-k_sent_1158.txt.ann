@@ -1,0 +1,233 @@
+{
+  "wrapper": "plaintext",
+  "text": "Barbara, here is the document I discussed concerning some of the Chicago \nstuff.  Jeff, I don't know if you have received this from Gregg all ready.\n\nKay\n---------------------- Forwarded by Kay Mann/Corp/Enron on 10/21/2000 12:34 \nPM ---------------------------\n   \n\t\n\t\n\tFrom:  Gregg Penman                           10/13/2000 02:19 PM\n\t\n\nTo: David W Delainey/HOU/ECT@ECT, t.patrick@pecorp.com\ncc: Janet R Dietrich/HOU/ECT@ECT, w.morrow@pecorp.com, j.luebbers@pecorp.com, \nLaura Luce/Corp/Enron@Enron, Richard Tomaski/Corp/Enron@Enron, \nt.hermann@pecorp.com (bcc: Kay Mann/Corp/Enron)\n\nSubject: enovate update\n\nAttached is the weekly status update for the business setup of enovate.  \nThere are no significant updates to last week's report.   Please call me with \nany questions.\n\nGregg\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Barbara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 150,
+      "end": 153,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 154,
+      "text": "Barbara, here is the document I discussed concerning some of the Chicago \nstuff.  Jeff, I don't know if you have received this from Gregg all ready.\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 190,
+      "end": 198,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 213,
+      "end": 223,
+      "text": "10/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 224,
+      "end": 233,
+      "text": "12:34 \nPM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 154,
+      "end": 262,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 10/21/2000 12:34 \nPM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 278,
+      "end": 290,
+      "text": "Gregg Penman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 317,
+      "end": 327,
+      "text": "10/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 328,
+      "end": 336,
+      "text": "02:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 344,
+      "end": 360,
+      "text": "David W Delainey",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 374,
+      "end": 394,
+      "text": "t.patrick@pecorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 399,
+      "end": 415,
+      "text": "Janet R Dietrich",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 429,
+      "end": 448,
+      "text": "w.morrow@pecorp.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 450,
+      "end": 471,
+      "text": "j.luebbers@pecorp.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 503,
+      "end": 518,
+      "text": "Richard Tomaski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 474,
+      "end": 484,
+      "text": "Laura Luce",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 538,
+      "end": 558,
+      "text": "t.hermann@pecorp.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 565,
+      "end": 573,
+      "text": "Kay Mann",
+      "type": "Header/Person/Bcc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 596,
+      "end": 610,
+      "text": "enovate update",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 262,
+      "end": 611,
+      "text": "   \n\t\n\t\n\tFrom:  Gregg Penman                           10/13/2000 02:19 PM\n\t\n\nTo: David W Delainey/HOU/ECT@ECT, t.patrick@pecorp.com\ncc: Janet R Dietrich/HOU/ECT@ECT, w.morrow@pecorp.com, j.luebbers@pecorp.com, \nLaura Luce/Corp/Enron@Enron, Richard Tomaski/Corp/Enron@Enron, \nt.hermann@pecorp.com (bcc: Kay Mann/Corp/Enron)\n\nSubject: enovate update\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 781,
+      "end": 786,
+      "text": "Gregg",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 611,
+      "end": 790,
+      "text": "\nAttached is the weekly status update for the business setup of enovate.  \nThere are no significant updates to last week's report.   Please call me with \nany questions.\n\nGregg\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 22,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33415281.1075845946024.JavaMail.evans@thyme>",
+      "Date": "Sat, 21 Oct 2000 05:35:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "barbara.gray@enron.com, jeffrey.hodge@enron.com",
+      "Subject": "enovate update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Barbara N Gray, Jeffrey T Hodge",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_1158.txt"
+}

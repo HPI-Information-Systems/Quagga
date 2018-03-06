@@ -1,0 +1,497 @@
+{
+  "wrapper": "plaintext",
+  "text": "I have been trying to hook up with Kevin and will see him tomorrow.  I still \nprefer to use the \"old exec committee plus\" for this PRC with a reformed MD \nPRC starting at mid year.  We have too many people in transition to just \nswitch over to the policy committee at this stage.\n\n\n\n\tCindy Olson\n\t12/04/2000 09:10 AM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Re:\n\nSteve, my preference is the first option however I can live with either \nreally.......we just need to make a decision ......what do you think??????\n---------------------- Forwarded by Cindy Olson/Corp/Enron on 12/04/2000 \n09:00 AM ---------------------------\n\n\nDavid Oxley@ECT\n12/04/2000 08:29 AM\nTo: Cindy Olson/Corp/Enron@ENRON\ncc: Gina Corteselli/Corp/Enron@Enron, Andrea Yowman/Corp/Enron@ENRON \n\nSubject: Re:\n\nHow can we resolve today if possible?\n---------------------- Forwarded by David Oxley/HOU/ECT on 12/04/2000 08:28 \nAM ---------------------------\n\n\nKevin Hannon@ENRON COMMUNICATIONS on 12/02/2000 10:12:58 AM\nTo: Gina Corteselli/Corp/Enron@ENRON\ncc: Cindy Olson/Corp/Enron@ENRON, David Oxley/HOU/ECT@ECT@ENRON, Steven J \nKean/NA/Enron@Enron \nSubject: Re:   \n\nYou know my opinion, I vote for option #2.\n\nKevin\n\n\n\n\n\tGina Corteselli@ENRON\n\t11/30/00 07:19 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Kevin Hannon/Enron Communications@Enron \nCommunications, Cindy Olson/Corp/Enron@ENRON\n\t\t cc: David Oxley/HOU/ECT@ECT\n\t\t Subject: \n\nFollowing discussions with Steve and Kevin yesterday, we're providing some \noptions for the conduct of final PRC reviews  for the Enron VP's and MD's.  \nPlease let us know which of these options (or a derivative therein) you'd \nprefer.  \n\nFor continuity through the year-end process, we might consider having the \nexisting MD VP PRC Committee review the VP slate; and  the former EC and two \nnewly appointed EC members  who are also VP PRC Committee, (John  Lavorato \nand Jeff Shankman were suggested), ratify the VP slate and review the \nMD's.    The newly appointed EC members who are MD level will remain in the \n\"Not Rated\" category, so that Jeff and John may participate in the overall \ndiscussion and depart before discussions relative to them and their EC \ncolleagues.      \n\nAlternatively, we might disband the existing MD VP PRC Committee in favor of \nhaving the newly appointed EC  (13  of whom are MD VP PRC) review the VP \nslate.  Thereafter, the Enron Corporate Policy Committee would be responsible \nfor ratifying these results and for reviewing the MD's slate.  Insofar as the \nPolicy Committee might require further  information on individual MD's, \nselected EC members could be invited for an appropriate period of time to \nprovide the necessary details.   \n\nIf we opt to disband the existing MD VP PRC we'd need to notify those members \nwho aren't part of the new EC that their services are no longer required.  In \nso much as some of these people are currently assigned to, and attending, BU \nand functional pre-rankings clearly the sooner we are able to do this, the \nbetter.\n\nYour immediate attention to this issue would be greatly appreciated, since we \nare eager to begin the year-end VP/MD PRC planning process.  Thanks in \nadvance,\n\nGina Corteselli\n\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 283,
+      "text": "I have been trying to hook up with Kevin and will see him tomorrow.  I still \nprefer to use the \"old exec committee plus\" for this PRC with a reformed MD \nPRC starting at mid year.  We have too many people in transition to just \nswitch over to the policy committee at this stage.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 284,
+      "end": 295,
+      "text": "Cindy Olson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 297,
+      "end": 307,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 308,
+      "end": 316,
+      "text": "09:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 328,
+      "end": 341,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 377,
+      "end": 380,
+      "text": "Re:",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 284,
+      "end": 381,
+      "text": "Cindy Olson\n\t12/04/2000 09:10 AM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Re:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 381,
+      "end": 530,
+      "text": "\nSteve, my preference is the first option however I can live with either \nreally.......we just need to make a decision ......what do you think??????\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 566,
+      "end": 577,
+      "text": "Cindy Olson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 592,
+      "end": 602,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 604,
+      "end": 612,
+      "text": "09:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 530,
+      "end": 641,
+      "text": "---------------------- Forwarded by Cindy Olson/Corp/Enron on 12/04/2000 \n09:00 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 643,
+      "end": 654,
+      "text": "David Oxley",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 659,
+      "end": 669,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 670,
+      "end": 678,
+      "text": "08:29 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 683,
+      "end": 694,
+      "text": "Cindy Olson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 716,
+      "end": 731,
+      "text": "Gina Corteselli",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 750,
+      "end": 763,
+      "text": "Andrea Yowman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 792,
+      "end": 795,
+      "text": "Re:",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 641,
+      "end": 796,
+      "text": "\n\nDavid Oxley@ECT\n12/04/2000 08:29 AM\nTo: Cindy Olson/Corp/Enron@ENRON\ncc: Gina Corteselli/Corp/Enron@Enron, Andrea Yowman/Corp/Enron@ENRON \n\nSubject: Re:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 796,
+      "end": 835,
+      "text": "\nHow can we resolve today if possible?\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 871,
+      "end": 882,
+      "text": "David Oxley",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 894,
+      "end": 904,
+      "text": "12/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 905,
+      "end": 914,
+      "text": "08:28 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 835,
+      "end": 943,
+      "text": "---------------------- Forwarded by David Oxley/HOU/ECT on 12/04/2000 08:28 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 945,
+      "end": 957,
+      "text": "Kevin Hannon",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 982,
+      "end": 992,
+      "text": "12/02/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 993,
+      "end": 1004,
+      "text": "10:12:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1009,
+      "end": 1024,
+      "text": "Gina Corteselli",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1046,
+      "end": 1057,
+      "text": "Cindy Olson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1076,
+      "end": 1087,
+      "text": "David Oxley",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1107,
+      "end": 1121,
+      "text": "Steven J \nKean",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1147,
+      "end": 1150,
+      "text": "Re:",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 943,
+      "end": 1154,
+      "text": "\n\nKevin Hannon@ENRON COMMUNICATIONS on 12/02/2000 10:12:58 AM\nTo: Gina Corteselli/Corp/Enron@ENRON\ncc: Cindy Olson/Corp/Enron@ENRON, David Oxley/HOU/ECT@ECT@ENRON, Steven J \nKean/NA/Enron@Enron \nSubject: Re:   \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1154,
+      "end": 1209,
+      "text": "\nYou know my opinion, I vote for option #2.\n\nKevin\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1199,
+      "end": 1204,
+      "text": "Kevin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1210,
+      "end": 1225,
+      "text": "Gina Corteselli",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1233,
+      "end": 1241,
+      "text": "11/30/00",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1242,
+      "end": 1250,
+      "text": "07:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1262,
+      "end": 1275,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1292,
+      "end": 1304,
+      "text": "Kevin Hannon",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1349,
+      "end": 1360,
+      "text": "Cindy Olson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1385,
+      "end": 1396,
+      "text": "David Oxley",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1210,
+      "end": 1422,
+      "text": "Gina Corteselli@ENRON\n\t11/30/00 07:19 PM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Kevin Hannon/Enron Communications@Enron \nCommunications, Cindy Olson/Corp/Enron@ENRON\n\t\t cc: David Oxley/HOU/ECT@ECT\n\t\t Subject: \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1422,
+      "end": 3208,
+      "text": "\nFollowing discussions with Steve and Kevin yesterday, we're providing some \noptions for the conduct of final PRC reviews  for the Enron VP's and MD's.  \nPlease let us know which of these options (or a derivative therein) you'd \nprefer.  \n\nFor continuity through the year-end process, we might consider having the \nexisting MD VP PRC Committee review the VP slate; and  the former EC and two \nnewly appointed EC members  who are also VP PRC Committee, (John  Lavorato \nand Jeff Shankman were suggested), ratify the VP slate and review the \nMD's.    The newly appointed EC members who are MD level will remain in the \n\"Not Rated\" category, so that Jeff and John may participate in the overall \ndiscussion and depart before discussions relative to them and their EC \ncolleagues.      \n\nAlternatively, we might disband the existing MD VP PRC Committee in favor of \nhaving the newly appointed EC  (13  of whom are MD VP PRC) review the VP \nslate.  Thereafter, the Enron Corporate Policy Committee would be responsible \nfor ratifying these results and for reviewing the MD's slate.  Insofar as the \nPolicy Committee might require further  information on individual MD's, \nselected EC members could be invited for an appropriate period of time to \nprovide the necessary details.   \n\nIf we opt to disband the existing MD VP PRC we'd need to notify those members \nwho aren't part of the new EC that their services are no longer required.  In \nso much as some of these people are currently assigned to, and attending, BU \nand functional pre-rankings clearly the sooner we are able to do this, the \nbetter.\n\nYour immediate attention to this issue would be greatly appreciated, since we \nare eager to begin the year-end VP/MD PRC planning process.  Thanks in \nadvance,\n\nGina Corteselli\n\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 3181,
+      "end": 3196,
+      "text": "Gina Corteselli",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 3160,
+      "end": 3197,
+      "text": "Thanks in \nadvance,\n\nGina Corteselli\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 46,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 31,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 30,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 17,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 32,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 36,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 41,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 40,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 42,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 43,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27434548.1075846389290.JavaMail.evans@thyme>",
+      "Date": "Mon, 4 Dec 2000 02:12:00 -0800 (PST)",
+      "From": "steven.kean@enron.com",
+      "To": "cindy.olson@enron.com",
+      "Subject": "Re:",
+      "Cc": "gina.corteselli@enron.com, david.oxley@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "gina.corteselli@enron.com, david.oxley@enron.com",
+      "X-From": "Steven J Kean",
+      "X-To": "Cindy Olson",
+      "X-cc": "Gina Corteselli, David Oxley",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Sent",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_sent_591.txt"
+}

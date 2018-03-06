@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "\t\n\t\nHi Kathy -\n\nI'm Dana Davis.  A member of Veterans Memorial are you still sending \ninformation/directions regarding Edith's bridal shower on Dec. 2nd?\n\n---------------------- Forwarded by Dana Davis/HOU/ECT on 11/28/2000 04:05 PM \n---------------------------\n\n\nEdithErica@aol.com on 11/22/2000 09:06:29 AM\nTo: EdithErica@aol.com, jwashing@mail.mdanderson.org, faith1@pdq.net, \nbettynance@dellnet.com, abraham5@flash.net, cashley@poha.com, \nWMontg6626@aol.com, dana.davis@enron.com, dimoore@airmail.net, \ndenise.moore@dhs.state.tx, gijack3@hotmail.com, grace.jackson@alz.org, \ndchildre@kuht.uh.edu\ncc:  \nSubject: Re: Bridal Shower\n\n\n I'm resending this email because it appears that I am having problems\nforwarding\n to my sisters email address. The address is kathy_d_lacy@reliantenergy.com.\nIf you care to respond, please remember to copy me as well  and I'm sure one\nof us will get the information. For those of you who did receive this email\nthe first time please scroll down.\n\nThank you\nEdith:-)\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 15,
+      "text": "\nHi Kathy -\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 982,
+      "end": 1002,
+      "text": "\nThank you\nEdith:-)\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 633,
+      "end": 1002,
+      "text": "\n\n I'm resending this email because it appears that I am having problems\nforwarding\n to my sisters email address. The address is kathy_d_lacy@reliantenergy.com.\nIf you care to respond, please remember to copy me as well  and I'm sure one\nof us will get the information. For those of you who did receive this email\nthe first time please scroll down.\n\nThank you\nEdith:-)\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 155,
+      "end": 262,
+      "text": "---------------------- Forwarded by Dana Davis/HOU/ECT on 11/28/2000 04:05 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1,
+      "end": 155,
+      "text": "\n\t\nHi Kathy -\n\nI'm Dana Davis.  A member of Veterans Memorial are you still sending \ninformation/directions regarding Edith's bridal shower on Dec. 2nd?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 262,
+      "end": 633,
+      "text": "\n\nEdithErica@aol.com on 11/22/2000 09:06:29 AM\nTo: EdithErica@aol.com, jwashing@mail.mdanderson.org, faith1@pdq.net, \nbettynance@dellnet.com, abraham5@flash.net, cashley@poha.com, \nWMontg6626@aol.com, dana.davis@enron.com, dimoore@airmail.net, \ndenise.moore@dhs.state.tx, gijack3@hotmail.com, grace.jackson@alz.org, \ndchildre@kuht.uh.edu\ncc:  \nSubject: Re: Bridal Shower\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31444105.1075853952562.JavaMail.evans@thyme>",
+      "Date": "Tue, 28 Nov 2000 08:08:00 -0800 (PST)",
+      "From": "dana.davis@enron.com",
+      "To": "kathy_d_lacy@reliantenergy.com",
+      "Subject": "Re: Bridal Shower",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Dana Davis",
+      "X-To": "kathy_d_lacy@reliantenergy.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Dana_Davis_Dec2000\\Notes Folders\\'sent mail",
+      "X-Origin": "Davis-D",
+      "X-FileName": "ddavis2.nsf"
+    }
+  },
+  "id": "eval/davis-d__sent_mail_36.txt"
+}

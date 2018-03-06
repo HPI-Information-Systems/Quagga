@@ -1,0 +1,98 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/18/2000 \n11:15 AM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  B Scott Palmer                           10/18/2000 11:06 AM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: FW: [Fwd: Fw: This says it all!!!]\n\n\n---------------------- Forwarded by B Scott Palmer/HOU/ECT on 10/18/2000 \n09:43 AM ---------------------------\n\n\n\"Palmer, John T\" <PalmeJT@ch.etn.com> on 10/17/2000 08:45:45 AM\nTo: \"'B Scott Palmer'\" <B.Scott.Palmer@enron.com>\ncc:  \nSubject: FW: [Fwd: Fw: This says it all!!!]\n\n\n\n\nJohn T. Palmer\nIT Manager - Milwaukee\nEaton Corporation - Navy Controls Division\nOffice (414) 449-7227\nAdnet 434-7227\nCell Phone 414-759-5918 (new)\njohntpalmer@eaton.com\n\n\n-----Original Message-----\nFrom: ROY CAPPS [mailto:BUS3.CAPPS@MEMO.VOLVO.COM]\nSent: Tuesday, October 17, 2000 8:40 AM\nTo: BARBLPHILLIPS@HOTMAIL.COM; BUFFYB1@prodigy.net;\nHEYLUCI54@HOTMAIL.COM; Craig_Dean@URSCorp.com;\neric.bourque@defense.bombardier.com; JohnTPalmer@eaton.com;\nJUDITH_TANSEY@EXCHANGE.BMC.COM; matt40@prodigy.net\nSubject: [Fwd: Fw: This says it all!!!]\n\n\n--- Received from BUS3.CAPPS ROY CAPPS                      00-10-17 09:40\n----------------------------------------------------------------------------\n----------------------------------------------------------------------------\n----------------------------\n\n\nSubject: [Fwd: Fw: This says it all!!!]\n\n---- 00-10-17 09:40 ---- Sent to\n----------------------------------------------------------------------------\n----------------------------------------------------------------------------\n----------------------------------------------------------------\n  -> BARBLPHILLIPS@HOTMAIL.COM\n  -> BUS3.BYOUNG                BARBARA YOUNG\nPURCHASI\n  -> BUFFYB1@prodigy.net\n  -> HEYLUCI54@HOTMAIL.COM\n  -> Craig_Dean@URSCorp.com\n  -> eric.bourque@defense.bombardier.com\n  -> JohnTPalmer@eaton.com\n  -> JUDITH_TANSEY@EXCHANGE.BMC.COM\n  -> BUS3.WHITLOCK              LINDA WHITLOCK\nI.T.\n  -> BUS3.MKARLSON              MATS KARLSSON\nNVD\n  -> matt40@prodigy.net\n  -> BUS3.SCHILDRE              STEVE CHILDRESS\nENG\n\n\n\n - ATT803751.txt\n - TXT00000.TXT\n - ManWoman.jpg\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/18/2000 \n11:15 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 297,
+      "text": "   \n\tEnron North America Corp.\n\t\n\tFrom:  B Scott Palmer                           10/18/2000 11:06 AM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: FW: [Fwd: Fw: This says it all!!!]\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 299,
+      "end": 410,
+      "text": "---------------------- Forwarded by B Scott Palmer/HOU/ECT on 10/18/2000 \n09:43 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 297,
+      "end": 299,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 410,
+      "end": 576,
+      "text": "\n\n\"Palmer, John T\" <PalmeJT@ch.etn.com> on 10/17/2000 08:45:45 AM\nTo: \"'B Scott Palmer'\" <B.Scott.Palmer@enron.com>\ncc:  \nSubject: FW: [Fwd: Fw: This says it all!!!]\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 580,
+      "end": 750,
+      "text": "John T. Palmer\nIT Manager - Milwaukee\nEaton Corporation - Navy Controls Division\nOffice (414) 449-7227\nAdnet 434-7227\nCell Phone 414-759-5918 (new)\njohntpalmer@eaton.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 576,
+      "end": 752,
+      "text": "\n\n\n\nJohn T. Palmer\nIT Manager - Milwaukee\nEaton Corporation - Navy Controls Division\nOffice (414) 449-7227\nAdnet 434-7227\nCell Phone 414-759-5918 (new)\njohntpalmer@eaton.com\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 752,
+      "end": 1120,
+      "text": "-----Original Message-----\nFrom: ROY CAPPS [mailto:BUS3.CAPPS@MEMO.VOLVO.COM]\nSent: Tuesday, October 17, 2000 8:40 AM\nTo: BARBLPHILLIPS@HOTMAIL.COM; BUFFYB1@prodigy.net;\nHEYLUCI54@HOTMAIL.COM; Craig_Dean@URSCorp.com;\neric.bourque@defense.bombardier.com; JohnTPalmer@eaton.com;\nJUDITH_TANSEY@EXCHANGE.BMC.COM; matt40@prodigy.net\nSubject: [Fwd: Fw: This says it all!!!]\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1120,
+      "end": 2177,
+      "text": "\n\n--- Received from BUS3.CAPPS ROY CAPPS                      00-10-17 09:40\n----------------------------------------------------------------------------\n----------------------------------------------------------------------------\n----------------------------\n\n\nSubject: [Fwd: Fw: This says it all!!!]\n\n---- 00-10-17 09:40 ---- Sent to\n----------------------------------------------------------------------------\n----------------------------------------------------------------------------\n----------------------------------------------------------------\n  -> BARBLPHILLIPS@HOTMAIL.COM\n  -> BUS3.BYOUNG                BARBARA YOUNG\nPURCHASI\n  -> BUFFYB1@prodigy.net\n  -> HEYLUCI54@HOTMAIL.COM\n  -> Craig_Dean@URSCorp.com\n  -> eric.bourque@defense.bombardier.com\n  -> JohnTPalmer@eaton.com\n  -> JUDITH_TANSEY@EXCHANGE.BMC.COM\n  -> BUS3.WHITLOCK              LINDA WHITLOCK\nI.T.\n  -> BUS3.MKARLSON              MATS KARLSSON\nNVD\n  -> matt40@prodigy.net\n  -> BUS3.SCHILDRE              STEVE CHILDRESS\nENG\n\n\n\n - ATT803751.txt\n - TXT00000.TXT\n - ManWoman.jpg\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12879621.1075854423067.JavaMail.evans@thyme>",
+      "Date": "Wed, 18 Oct 2000 04:18:00 -0700 (PDT)",
+      "From": "darron.giron@enron.com",
+      "To": "kristi.giron@cfisd.net, hollyw@email.msn.com, dawn.kenne@enron.com, \n\tsmmayers@earthlink.net, mrichter@us.ibm.com, cgiron@mindspring.com, \n\tgreg_carrow@valic.com",
+      "Subject": "FW: [Fwd: Fw: This says it all!!!]",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "kristi.giron@cfisd.net, hollyw@email.msn.com, Dawn C Kenne, smmayers@earthlink.net, mrichter@us.ibm.com, cgiron@mindspring.com, greg_carrow@valic.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\'sent mail",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "id": "train/giron-d__sent_mail_576.txt"
+}

@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Alexandre,\n\nA boost should works for my needs.\n\nThanks!\n\nAlexandre Drouin\n\n\n-----Original Message-----\nFrom: Alexandre Rafalovitch [mailto:arafalov@gmail.com] \nSent: February 3, 2017 12:14 PM\nTo: solr-user <solr-user@lucene.apache.org>\nSubject: Re: Promote documents if they are present in the search results\nImportance: High\n\nCould you do a basic boost query with a list of all those document ids. If they are in results,\ntheir relevance is boosted. If they are not, they are just ignored.\n\nYou could have that boost query configured in the solrconfig.xml or passed in by a client.\n\nRegards,\n   Alex\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 3 February 2017 at 12:06, Alexandre Drouin <alexandre.drouin@orckestra.com> wrote:\n> Hello,\n>\n> I am developing a new feature in my product where an administrator can select a list\nof documents for different sections of the application.  You can think of this feature as\nthe classic categorization in an e-commerce site (e.g.: Boots, Headgear, etc).  Since this\ncategorization is different depending on the section/category I cannot easily store which\ndocuments are promoted in Solr itself.  I know ahead of time which documents should be promoted\nfor which section so I would like to know if there is a way to \"pass\" these documents to Solr\nand have them at the top of the list if they are found in the search results.\n>\n> For example let's say that I have the following documents:\n>     - Doc1 (name: A, Age: 12)\n>     - Doc2 (name: B, Age: 24)\n>     - Doc3 (name: C, Age: 36)\n>\n> I would like to promote Doc3 at the top of the list and if someone search for \"name:B\"\nor \"Age:12\" the results should not include Doc3 because it did not match the query.\n>\n> I looked at QueryElevationComponent and it doesn't do exactly what I want: the component\nis based on a \"query\" and this query can be different in my use case.  I know I can use the\n\"elevatedIds\" parameter to elevate documents however they are always elevated even if they\nare not present in the search results.\n>\n> Is it possible to achieve what I need with Solr? I am using Solr \n> 4.10.2\n>\n> Thanks!\n>\n>\n> Alexandre Drouin\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 14,
+      "text": "Hi Alexandre,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 50,
+      "end": 77,
+      "text": "\nThanks!\n\nAlexandre Drouin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 79,
+      "text": "Hi Alexandre,\n\nA boost should works for my needs.\n\nThanks!\n\nAlexandre Drouin\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 79,
+      "end": 329,
+      "text": "-----Original Message-----\nFrom: Alexandre Rafalovitch [mailto:arafalov@gmail.com] \nSent: February 3, 2017 12:14 PM\nTo: solr-user <solr-user@lucene.apache.org>\nSubject: Re: Promote documents if they are present in the search results\nImportance: High\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 586,
+      "end": 604,
+      "text": "\nRegards,\n   Alex\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 329,
+      "end": 686,
+      "text": "\nCould you do a basic boost query with a list of all those document ids. If they are in results,\ntheir relevance is boosted. If they are not, they are just ignored.\n\nYou could have that boost query configured in the solrconfig.xml or passed in by a client.\n\nRegards,\n   Alex\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 686,
+      "end": 772,
+      "text": "On 3 February 2017 at 12:06, Alexandre Drouin <alexandre.drouin@orckestra.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 772,
+      "end": 781,
+      "text": "> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2137,
+      "end": 2172,
+      "text": ">\n> Thanks!\n>\n>\n> Alexandre Drouin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 772,
+      "end": 2172,
+      "text": "> Hello,\n>\n> I am developing a new feature in my product where an administrator can select a list\nof documents for different sections of the application.  You can think of this feature as\nthe classic categorization in an e-commerce site (e.g.: Boots, Headgear, etc).  Since this\ncategorization is different depending on the section/category I cannot easily store which\ndocuments are promoted in Solr itself.  I know ahead of time which documents should be promoted\nfor which section so I would like to know if there is a way to \"pass\" these documents to Solr\nand have them at the top of the list if they are found in the search results.\n>\n> For example let's say that I have the following documents:\n>     - Doc1 (name: A, Age: 12)\n>     - Doc2 (name: B, Age: 24)\n>     - Doc3 (name: C, Age: 36)\n>\n> I would like to promote Doc3 at the top of the list and if someone search for \"name:B\"\nor \"Age:12\" the results should not include Doc3 because it did not match the query.\n>\n> I looked at QueryElevationComponent and it doesn't do exactly what I want: the component\nis based on a \"query\" and this query can be different in my use case.  I know I can use the\n\"elevatedIds\" parameter to elevate documents however they are always elevated even if they\nare not present in the search results.\n>\n> Is it possible to achieve what I need with Solr? I am using Solr \n> 4.10.2\n>\n> Thanks!\n>\n>\n> Alexandre Drouin\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_739"
+}

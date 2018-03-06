@@ -1,0 +1,30 @@
+T1	SigName 488 504	Brian T. Hoskins
+T2	Organisation 505 529	Enron Broadband Services
+T3	Phone 530 542	713-853-0380
+T4	Phone 552 564	713-412-3667
+T5	Fax 574 586	713-646-5745
+T6	Mail 593 616	Brian_Hoskins@enron.net
+R1	Works_for Arg1:T1 Arg2:T2	
+R2	Contact_info Arg1:T4 Arg2:T1	
+R3	Contact_info Arg1:T3 Arg2:T1	
+R4	Contact_info Arg1:T5 Arg2:T1	
+R5	Contact_info Arg1:T6 Arg2:T1	
+T7	Signature 488 504;505 529;530 551;552 573;574 592;593 616	Brian T. Hoskins Enron Broadband Services 713-853-0380 (office) 713-412-3667 (mobile) 713-646-5745 (fax) Brian_Hoskins@enron.net
+T8	From 638 651	Brian Hoskins
+T9	Date 676 684	11/15/00
+T10	Time 685 693	09:40 AM
+T11	Header 619 693;695 700	----- Forwarded by Brian Hoskins/Enron Communications on 11/15/00 09:40 AM -----
+T12	From 703 713	Kori Loibl
+T13	Date 719 727	11/14/00
+T14	Time 728 736	04:03 PM
+T15	To 748 762	Alicia Perkins
+T16	To 776 787	Purvi Patel
+T17	To 801 805;807 814	Beau Ratliff
+T18	To 828 838	Lucy Ortiz
+T19	To 852 864	Scott Pleus/
+T20	To 908 920	Don Baughman
+T21	To 934 939;941 948	Brian Hoskins
+T22	To 992 1005	Tobin Carlson
+T23	Subject 1038 1059	Another slam on Gore!
+T25	Body 1061 1075	This is great!
+T24	Header 703 717;719 736;740 737;744 805;807 869;871 939;941 1017;1021 1024;1029 1059	Kori Loibl@ECT 11/14/00 04:03 PM  To: Alicia Perkins/HOU/EES@EES, Purvi Patel/HOU/ECT@ECT, Beau Ratliff/HOU/EES@EES, Lucy Ortiz/HOU/ECT@ECT, Scott Pleus/Enron Communications@Enron Communications, Don Baughman/HOU/ECT@ECT, Brian Hoskins/Enron Communications@Enron Communications, Tobin Carlson/HOU/ECT@ECT cc: Subject: Another slam on Gore!

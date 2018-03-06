@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Is this a sharded collection? group.ngroups isn't supported (see the\ndocs, \"group.ngroups and group.facet require that all documents in\neach group must be co-located on the same shard\") in sharded\nsituations so it's not surprising that the results differ.\n\nBest,\nErick\n\nOn Thu, Sep 7, 2017 at 10:35 AM, Ray Niu <newry1979@gmail.com> wrote:\n> Hello:\n>    I tried to use Collapsing Query Parser per following link:\n>\n> https://cwiki.apache.org/confluence/display/solr/Collapse+and+Expand+Results\n> here is the query I am using\n> http://<host_name>/solr/collection/select?q=groupId:*&\n> fl=id,groupId,date&fq=%7B!collapse%20field=groupId%20sort=%27id%20asc%27%7D&\n> expand=true&expand.rows=3&sort=date%20asc&expand.sort=id%20asc&rows=3\n>\n> but I found the result is different from group query:\n> http://<host_name>/solr/collection/select?q=groupId:*&\n> fl=id,date,groupId&group=true&group.field=groupId&group.\n> limit=4&group.ngroups=true&sort=date%20asc&group.sort=id%20asc&rows=3\n>\n> it seems sort across collapsed document is not working.\n>\n> Can anyone help on this?\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 256,
+      "end": 269,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 270,
+      "text": "Is this a sharded collection? group.ngroups isn't supported (see the\ndocs, \"group.ngroups and group.facet require that all documents in\neach group must be co-located on the same shard\") in sharded\nsituations so it's not surprising that the results differ.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 270,
+      "end": 340,
+      "text": "On Thu, Sep 7, 2017 at 10:35 AM, Ray Niu <newry1979@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 340,
+      "end": 349,
+      "text": "> Hello:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 340,
+      "end": 1069,
+      "text": "> Hello:\n>    I tried to use Collapsing Query Parser per following link:\n>\n> https://cwiki.apache.org/confluence/display/solr/Collapse+and+Expand+Results\n> here is the query I am using\n> http://<host_name>/solr/collection/select?q=groupId:*&\n> fl=id,groupId,date&fq=%7B!collapse%20field=groupId%20sort=%27id%20asc%27%7D&\n> expand=true&expand.rows=3&sort=date%20asc&expand.sort=id%20asc&rows=3\n>\n> but I found the result is different from group query:\n> http://<host_name>/solr/collection/select?q=groupId:*&\n> fl=id,date,groupId&group=true&group.field=groupId&group.\n> limit=4&group.ngroups=true&sort=date%20asc&group.sort=id%20asc&rows=3\n>\n> it seems sort across collapsed document is not working.\n>\n> Can anyone help on this?\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5957"
+}

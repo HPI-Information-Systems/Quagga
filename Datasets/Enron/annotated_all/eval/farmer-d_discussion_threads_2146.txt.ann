@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mary, \n\nYou can roll this if you need to.  I usually leave it up to logistics to \nupdate the trans usage tickets like this.\n\nD\n\n\n\n\nMary Poorman@ENRON\n09/13/2000 10:48 AM\nTo: Daren J Farmer/HOU/ECT@ECT\ncc:  \nSubject: deal id 109475\n\nDaren,\n\nThe above deal is a desk to desk for Amoco gas at Katy, which is xported on \nENA's agmt on Tejas.  Please extend the deal to cover September.\n\nThank you,\n\nMary\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Mary, \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 124,
+      "end": 127,
+      "text": "\nD\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 131,
+      "end": 231,
+      "text": "Mary Poorman@ENRON\n09/13/2000 10:48 AM\nTo: Daren J Farmer/HOU/ECT@ECT\ncc:  \nSubject: deal id 109475\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 131,
+      "text": "Mary, \n\nYou can roll this if you need to.  I usually leave it up to logistics to \nupdate the trans usage tickets like this.\n\nD\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 231,
+      "end": 239,
+      "text": "\nDaren,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 382,
+      "end": 400,
+      "text": "\nThank you,\n\nMary\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 231,
+      "end": 401,
+      "text": "\nDaren,\n\nThe above deal is a desk to desk for Amoco gas at Katy, which is xported on \nENA's agmt on Tejas.  Please extend the deal to cover September.\n\nThank you,\n\nMary\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19489224.1075854095036.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Sep 2000 04:21:00 -0700 (PDT)",
+      "From": "daren.farmer@enron.com",
+      "To": "mary.poorman@enron.com",
+      "Subject": "Re: deal id 109475",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Daren J Farmer",
+      "X-To": "Mary Poorman",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darren_Farmer_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Farmer-D",
+      "X-FileName": "dfarmer.nsf"
+    }
+  },
+  "id": "eval/farmer-d_discussion_threads_2146.txt"
+}

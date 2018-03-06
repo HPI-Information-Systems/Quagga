@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ann K is working on this now.  Thanks.  Mark\n\n\n\n\tMark Greenberg@ENRON\n\t02/28/2001 09:52 AM\n\t\t \n\t\t To: Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: Mark Taylor/HOU/ECT@ECT\n\t\t Subject: Third Party Trading Platform Policy\n\nMark -\n\nI was reviewing information Leslie had left behind and was curious if you \never had a chance to review and approve the Third Party Platform Policy that \nLeslie had prepared?  If not, I have attached a version of the policy below \nfor your review.\n\nThe only change I see that needs to be made is the replacement of Leslie's \nname with mine.\n\nPlease let me know if you should need anything further.\n\n\n\n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 31,
+      "end": 45,
+      "text": "Thanks.  Mark\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 48,
+      "text": "Ann K is working on this now.  Thanks.  Mark\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 49,
+      "end": 209,
+      "text": "Mark Greenberg@ENRON\n\t02/28/2001 09:52 AM\n\t\t \n\t\t To: Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: Mark Taylor/HOU/ECT@ECT\n\t\t Subject: Third Party Trading Platform Policy\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 209,
+      "end": 217,
+      "text": "\nMark -\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 619,
+      "end": 730,
+      "text": "Mark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 209,
+      "end": 730,
+      "text": "\nMark -\n\nI was reviewing information Leslie had left behind and was curious if you \never had a chance to review and approve the Third Party Platform Policy that \nLeslie had prepared?  If not, I have attached a version of the policy below \nfor your review.\n\nThe only change I see that needs to be made is the replacement of Leslie's \nname with mine.\n\nPlease let me know if you should need anything further.\n\n\n\n\nMark\nSenior Counsel, ENA\nPhone:     713-345-8897\nFacsimile: 713-646-3940\nE-Mail:      Mark.Greenberg@enron.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14100923.1075845021332.JavaMail.evans@thyme>",
+      "Date": "Wed, 28 Feb 2001 05:48:00 -0800 (PST)",
+      "From": "mark.haedicke@enron.com",
+      "To": "mark.greenberg@enron.com",
+      "Subject": "Re: Third Party Trading Platform Policy",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark E Haedicke",
+      "X-To": "Mark Greenberg",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "HAEDICKE-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_all_documents_993.txt"
+}

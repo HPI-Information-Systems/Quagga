@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Just guessing here, but would\nhttp://spark.apache.org/docs/latest/streaming-programming-guide.html#basic-sources\n\"*Queue of RDDs as a Stream*\" work? Basically create DStream from your RDD\nand than union with other DStream.\n\n2017-02-08 12:32 GMT-08:00 Amit Sela <amitsela33@gmail.com>:\n\n> Hi all,\n>\n> I'm looking to union a DStream and RDD into a single stream.\n> One important note is that the RDD has to be added to the DStream just\n> once.\n>\n> Ideas ?\n>\n> Thanks,\n> Amit\n>\n>\n\n\n\n-- \n\n\n*Sincerely yoursEgor Pakhomov*\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 224,
+      "end": 285,
+      "text": "2017-02-08 12:32 GMT-08:00 Amit Sela <amitsela33@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 224,
+      "text": "Just guessing here, but would\nhttp://spark.apache.org/docs/latest/streaming-programming-guide.html#basic-sources\n\"*Queue of RDDs as a Stream*\" work? Basically create DStream from your RDD\nand than union with other DStream.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 285,
+      "end": 296,
+      "text": "\n> Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 454,
+      "end": 473,
+      "text": ">\n> Thanks,\n> Amit\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 285,
+      "end": 518,
+      "text": "\n> Hi all,\n>\n> I'm looking to union a DStream and RDD into a single stream.\n> One important note is that the RDD has to be added to the DStream just\n> once.\n>\n> Ideas ?\n>\n> Thanks,\n> Amit\n>\n>\n\n\n\n-- \n\n\n*Sincerely yoursEgor Pakhomov*\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1174"
+}

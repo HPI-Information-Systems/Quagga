@@ -1,0 +1,223 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Karen Denne/Corp/Enron on 05/24/2001 \n05:16 PM ---------------------------\n\n\nSandra Yamane <SYamane@marathon-com.com> on 05/24/2001 11:46:04 AM\nTo: \"'karen.denne@enron.com'\" <karen.denne@enron.com>, Joan Kradin \n<JKradin@marathon-com.com>, Richard Lichtenstein \n<RLichtenstein@marathon-com.com>\ncc:  \n\nSubject: The Daily Review.htm\n\n\n <<The Daily Review.htm>>\n\n - The Daily Review.htm\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 47,
+      "text": "Karen Denne",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 62,
+      "end": 72,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 74,
+      "end": 82,
+      "text": "05:16 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Karen Denne/Corp/Enron on 05/24/2001 \n05:16 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 126,
+      "text": "Sandra Yamane",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 128,
+      "end": 152,
+      "text": "SYamane@marathon-com.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 157,
+      "end": 167,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 168,
+      "end": 179,
+      "text": "11:46:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 186,
+      "end": 207,
+      "text": "karen.denne@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 211,
+      "end": 232,
+      "text": "karen.denne@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 235,
+      "end": 246,
+      "text": "Joan Kradin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 276,
+      "end": 296,
+      "text": "Richard Lichtenstein",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 249,
+      "end": 273,
+      "text": "JKradin@marathon-com.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 299,
+      "end": 329,
+      "text": "RLichtenstein@marathon-com.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 347,
+      "end": 367,
+      "text": "The Daily Review.htm",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 111,
+      "end": 368,
+      "text": "\n\nSandra Yamane <SYamane@marathon-com.com> on 05/24/2001 11:46:04 AM\nTo: \"'karen.denne@enron.com'\" <karen.denne@enron.com>, Joan Kradin \n<JKradin@marathon-com.com>, Richard Lichtenstein \n<RLichtenstein@marathon-com.com>\ncc:  \n\nSubject: The Daily Review.htm\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 373,
+      "end": 393,
+      "text": "The Daily Review.htm",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 400,
+      "end": 420,
+      "text": "The Daily Review.htm",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 370,
+      "end": 421,
+      "text": " <<The Daily Review.htm>>\n\n - The Daily Review.htm\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 368,
+      "end": 421,
+      "text": "\n\n <<The Daily Review.htm>>\n\n - The Daily Review.htm\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<30015920.1075843527803.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 10:17:00 -0700 (PDT)",
+      "From": "karen.denne@enron.com",
+      "To": "susan.mara@enron.com, jeff.dasovich@enron.com, paul.kaufman@enron.com, \n\tjames.steffes@enron.com, mark.palmer@enron.com, \n\trichard.shapiro@enron.com, sandra.mccubbin@enron.com, \n\tken@kdscommunications.com",
+      "Subject": "more Lockyear coverage",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Karen Denne",
+      "X-To": "Susan J Mara, Jeff Dasovich, Paul Kaufman, James D Steffes, Mark Palmer, Richard Shapiro, Sandra McCubbin, ken@kdscommunications.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_13058.txt"
+}

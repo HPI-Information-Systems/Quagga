@@ -1,0 +1,668 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Richard Shapiro/NA/Enron on 06/12/2001 \n07:37 AM ---------------------------\nFrom: Jeff Dasovich on 05/31/2001 05:28 PM\nSent by: Jeff Dasovich\nTo: Richard Shapiro/NA/Enron@Enron\ncc:  \n\nSubject: Hertzberg\n\nHere's the document that I sent, and the list of folks that I sent it to.\n----- Forwarded by Jeff Dasovich/NA/Enron on 05/31/2001 05:25 PM -----\n\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t05/30/2001 01:39 PM\n\t\t \n\t\t To: Richard Shapiro/NA/Enron@Enron, skean@enron.com, Paul \nKaufman/Enron@EnronXGate, Susan J Mara/NA/Enron@ENRON, Sandra \nMcCubbin/NA/Enron@Enron, Karen Denne/Corp/Enron@ENRON, Janel \nGuerrero/Corp/Enron@Enron, mpalmer@enron.com, James D Steffes/NA/Enron@Enron, \nLinda Robertson/NA/Enron@ENRON, Susan M Landwehr/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Hertzberg\n\n\n\t\n\n\nFolks:\n\nHere is a rewrite of the power point presentation referenced in the previous \nnote.  Again, please keep confidential and do not distribute.  It's the copy \nthat Hertzberg used to present to his caucus.Thanks.\n\nBest,\nJeff\n\nP.S.  Our numbers show that noncore for Edison would be about 30% of load; \nHertzberg has it at about 20%.\n\n\n\n---------------------- Forwarded by Richard Shapiro/NA/Enron on 06/12/2001 \n07:37 AM ---------------------------\nFrom: Jeff Dasovich on 05/31/2001 05:29 PM\nSent by: Jeff Dasovich\nTo: Richard Shapiro/NA/Enron@Enron\ncc:  \n\nSubject: Asm Dem Plan\n\nHere's the document that I received from the lobbyist today.  It's the same \ndocument that I distributed internally yesterday.\n\nBest,\nJeff\n----- Forwarded by Jeff Dasovich/NA/Enron on 05/31/2001 05:26 PM -----\n\n\t\"Delaney Hunter\" <dhunter@s-k-w.com>\n\t05/30/2001 12:29 PM\n\tPlease respond to dhunter\n\t\t \n\t\t To: \"Jeff Dasovich (E-mail)\" <jdasovic@enron.com>\n\t\t cc: \n\t\t Subject: Asm Dem Plan\n\n\nA little something we got our hands on.....\n - Assembly Demo Plan.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1837,
+      "end": 1859,
+      "text": "Assembly Demo Plan.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1834,
+      "end": 1860,
+      "text": " - Assembly Demo Plan.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1788,
+      "end": 1860,
+      "text": "\n\nA little something we got our hands on.....\n - Assembly Demo Plan.doc\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1775,
+      "end": 1787,
+      "text": "Asm Dem Plan",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1710,
+      "end": 1723,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1735,
+      "end": 1753,
+      "text": "jdasovic@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1614,
+      "end": 1628,
+      "text": "Delaney Hunter",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1631,
+      "end": 1648,
+      "text": "dhunter@s-k-w.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1651,
+      "end": 1661,
+      "text": "05/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1662,
+      "end": 1670,
+      "text": "12:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1613,
+      "end": 1788,
+      "text": "\"Delaney Hunter\" <dhunter@s-k-w.com>\n\t05/30/2001 12:29 PM\n\tPlease respond to dhunter\n\t\t \n\t\t To: \"Jeff Dasovich (E-mail)\" <jdasovic@enron.com>\n\t\t cc: \n\t\t Subject: Asm Dem Plan\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1559,
+      "end": 1572,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1585,
+      "end": 1595,
+      "text": "05/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1596,
+      "end": 1604,
+      "text": "05:26 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1540,
+      "end": 1612,
+      "text": "----- Forwarded by Jeff Dasovich/NA/Enron on 05/31/2001 05:26 PM -----\n\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1535,
+      "end": 1539,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1529,
+      "end": 1540,
+      "text": "Best,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1400,
+      "end": 1540,
+      "text": "\nHere's the document that I received from the lobbyist today.  It's the same \ndocument that I distributed internally yesterday.\n\nBest,\nJeff\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1276,
+      "end": 1289,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1293,
+      "end": 1303,
+      "text": "05/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1304,
+      "end": 1312,
+      "text": "05:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1322,
+      "end": 1335,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1340,
+      "end": 1355,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1387,
+      "end": 1399,
+      "text": "Asm Dem Plan",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1270,
+      "end": 1400,
+      "text": "From: Jeff Dasovich on 05/31/2001 05:29 PM\nSent by: Jeff Dasovich\nTo: Richard Shapiro/NA/Enron@Enron\ncc:  \n\nSubject: Asm Dem Plan\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1193,
+      "end": 1208,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1221,
+      "end": 1231,
+      "text": "06/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1233,
+      "end": 1241,
+      "text": "07:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1157,
+      "end": 1270,
+      "text": "---------------------- Forwarded by Richard Shapiro/NA/Enron on 06/12/2001 \n07:37 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1047,
+      "end": 1154,
+      "text": "P.S.  Our numbers show that noncore for Edison would be about 30% of load; \nHertzberg has it at about 20%.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1041,
+      "end": 1045,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1035,
+      "end": 1046,
+      "text": "Best,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 811,
+      "end": 1157,
+      "text": "\n\n\t\n\n\nFolks:\n\nHere is a rewrite of the power point presentation referenced in the previous \nnote.  Again, please keep confidential and do not distribute.  It's the copy \nthat Hertzberg used to present to his caucus.Thanks.\n\nBest,\nJeff\n\nP.S.  Our numbers show that noncore for Edison would be about 30% of load; \nHertzberg has it at about 20%.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 801,
+      "end": 810,
+      "text": "Hertzberg",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 388,
+      "end": 401,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 412,
+      "end": 425,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 427,
+      "end": 437,
+      "text": "05/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 438,
+      "end": 446,
+      "text": "01:39 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 458,
+      "end": 473,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 490,
+      "end": 505,
+      "text": "skean@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 507,
+      "end": 520,
+      "text": "Paul \nKaufman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 539,
+      "end": 551,
+      "text": "Susan J Mara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 568,
+      "end": 584,
+      "text": "Sandra \nMcCubbin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 601,
+      "end": 612,
+      "text": "Karen Denne",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 631,
+      "end": 646,
+      "text": "Janel \nGuerrero",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 665,
+      "end": 682,
+      "text": "mpalmer@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 684,
+      "end": 699,
+      "text": "James D Steffes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 717,
+      "end": 732,
+      "text": "Linda Robertson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 749,
+      "end": 765,
+      "text": "Susan M Landwehr",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 386,
+      "end": 811,
+      "text": "\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t05/30/2001 01:39 PM\n\t\t \n\t\t To: Richard Shapiro/NA/Enron@Enron, skean@enron.com, Paul \nKaufman/Enron@EnronXGate, Susan J Mara/NA/Enron@ENRON, Sandra \nMcCubbin/NA/Enron@Enron, Karen Denne/Corp/Enron@ENRON, Janel \nGuerrero/Corp/Enron@Enron, mpalmer@enron.com, James D Steffes/NA/Enron@Enron, \nLinda Robertson/NA/Enron@ENRON, Susan M Landwehr/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Hertzberg\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 334,
+      "end": 347,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 360,
+      "end": 370,
+      "text": "05/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 371,
+      "end": 379,
+      "text": "05:25 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 315,
+      "end": 386,
+      "text": "----- Forwarded by Jeff Dasovich/NA/Enron on 05/31/2001 05:25 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 240,
+      "end": 315,
+      "text": "\nHere's the document that I sent, and the list of folks that I sent it to.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 230,
+      "end": 239,
+      "text": "Hertzberg",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 183,
+      "end": 198,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 165,
+      "end": 178,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 119,
+      "end": 132,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 136,
+      "end": 146,
+      "text": "05/31/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 147,
+      "end": 155,
+      "text": "05:28 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 113,
+      "end": 240,
+      "text": "From: Jeff Dasovich on 05/31/2001 05:28 PM\nSent by: Jeff Dasovich\nTo: Richard Shapiro/NA/Enron@Enron\ncc:  \n\nSubject: Hertzberg\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 36,
+      "end": 51,
+      "text": "Richard Shapiro",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 64,
+      "end": 74,
+      "text": "06/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 76,
+      "end": 84,
+      "text": "07:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Richard Shapiro/NA/Enron on 06/12/2001 \n07:37 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 63,
+      "target": 57,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 51,
+      "target": 58,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 58,
+      "target": 59,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 51,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 35,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 57,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 31,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 26,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 19,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 22,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 23,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 22,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 12,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 7,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3192671.1075850041994.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Jun 2001 00:37:00 -0700 (PDT)",
+      "From": "richard.shapiro@enron.com",
+      "To": "steven.kean@enron.com",
+      "Subject": "Hertzberg",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Richard Shapiro",
+      "X-To": "Steven J Kean",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Nov2001_2\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_8998.txt"
+}

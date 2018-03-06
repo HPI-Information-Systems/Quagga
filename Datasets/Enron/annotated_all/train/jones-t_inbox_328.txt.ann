@@ -1,0 +1,475 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nFYI,\nIgnore approval for Nicor Energy LLC.  (Company has not re-applied)  Call me if you have any questions.\n\nThank you,\nClaudia \n\nWendi:  Please add Albert Escamilla to your email list.\n\n\n -----Original Message-----\nFrom: \tLebrocq, Wendi  \nSent:\tThursday, October 04, 2001 6:04 PM\nTo:\tLambert, Karen; Jones, Tana; Schott, Samuel; Brackett, Debbie R.; Clark, Cynthia; Enron Europe Global CounterParty,; Sever, Stephanie; Moran, Tom; Clark, Claudia; Bradford, William S.; Lees, Lisa; Fayett, Juana; Morse, Jana; Le, Trang; Maley, Paul; O'day, Karen; Rohauer, Tanya; Lombardi, Kelly; Lindsay, Brian; EOL Call Center; Hare, Bill D.; Heffernan, Amy; Lafuze, Molly; Clark, Danny; Panus, Stephanie; Mandola, Teresa; Ebow, Amber; Coleman, Tandra; Campbell, Lesli; Lebrocq, Wendi; Taylor, Mark E (Legal); Lauer, Kara; Banner, Kimberly; Mcquade, Jennifer; George, Fraisy; Guillory, Michael; Rajaram, Aparna; Monterrey, Maribel; Lebeau, Maria; Escamilla, Albert; Curry, Ken\nSubject:\tEOL and Clickpaper Approvals: 10-4-01\n\n\n\nPlease see attached.\n\n \n\nRegards,\n\nWendi LeBrocq\n3-3835\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 122,
+      "end": 129,
+      "text": "Claudia",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 130,
+      "text": "Thank you,\nClaudia ",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 190,
+      "text": "\nFYI,\nIgnore approval for Nicor Energy LLC.  (Company has not re-applied)  Call me if you have any questions.\n\nThank you,\nClaudia \n\nWendi:  Please add Albert Escamilla to your email list.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 225,
+      "end": 239,
+      "text": "Lebrocq, Wendi",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 258,
+      "end": 274,
+      "text": "October 04, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 275,
+      "end": 282,
+      "text": "6:04 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 287,
+      "end": 301,
+      "text": "Lambert, Karen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 303,
+      "end": 314,
+      "text": "Jones, Tana",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 316,
+      "end": 330,
+      "text": "Schott, Samuel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 332,
+      "end": 351,
+      "text": "Brackett, Debbie R.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 353,
+      "end": 367,
+      "text": "Clark, Cynthia",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 369,
+      "end": 401,
+      "text": "Enron Europe Global CounterParty",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 404,
+      "end": 420,
+      "text": "Sever, Stephanie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 422,
+      "end": 432,
+      "text": "Moran, Tom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 434,
+      "end": 448,
+      "text": "Clark, Claudia",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 450,
+      "end": 470,
+      "text": "Bradford, William S.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 472,
+      "end": 482,
+      "text": "Lees, Lisa",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 484,
+      "end": 497,
+      "text": "Fayett, Juana",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 499,
+      "end": 510,
+      "text": "Morse, Jana",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 512,
+      "end": 521,
+      "text": "Le, Trang",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 523,
+      "end": 534,
+      "text": "Maley, Paul",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 536,
+      "end": 548,
+      "text": "O'day, Karen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 550,
+      "end": 564,
+      "text": "Rohauer, Tanya",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 566,
+      "end": 581,
+      "text": "Lombardi, Kelly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 583,
+      "end": 597,
+      "text": "Lindsay, Brian",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 599,
+      "end": 614,
+      "text": "EOL Call Center",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 616,
+      "end": 629,
+      "text": "Hare, Bill D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 631,
+      "end": 645,
+      "text": "Heffernan, Amy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 647,
+      "end": 660,
+      "text": "Lafuze, Molly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 662,
+      "end": 674,
+      "text": "Clark, Danny",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 676,
+      "end": 692,
+      "text": "Panus, Stephanie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 694,
+      "end": 709,
+      "text": "Mandola, Teresa",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 711,
+      "end": 722,
+      "text": "Ebow, Amber",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 724,
+      "end": 739,
+      "text": "Coleman, Tandra",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 741,
+      "end": 756,
+      "text": "Campbell, Lesli",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 758,
+      "end": 772,
+      "text": "Lebrocq, Wendi",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 774,
+      "end": 788,
+      "text": "Taylor, Mark E",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 798,
+      "end": 809,
+      "text": "Lauer, Kara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 811,
+      "end": 827,
+      "text": "Banner, Kimberly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 829,
+      "end": 846,
+      "text": "Mcquade, Jennifer",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 848,
+      "end": 862,
+      "text": "George, Fraisy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 864,
+      "end": 881,
+      "text": "Guillory, Michael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 883,
+      "end": 898,
+      "text": "Rajaram, Aparna",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 900,
+      "end": 918,
+      "text": "Monterrey, Maribel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 920,
+      "end": 933,
+      "text": "Lebeau, Maria",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 935,
+      "end": 952,
+      "text": "Escamilla, Albert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 954,
+      "end": 964,
+      "text": "Curry, Ken",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 974,
+      "end": 1011,
+      "text": "EOL and Clickpaper Approvals: 10-4-01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1050,
+      "end": 1063,
+      "text": "Wendi LeBrocq",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1040,
+      "end": 1063,
+      "text": "Regards,\n\nWendi LeBrocq",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1064,
+      "end": 1070,
+      "text": "3-3835",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1012,
+      "end": 1071,
+      "text": "\n\n\nPlease see attached.\n\n \n\nRegards,\n\nWendi LeBrocq\n3-3835\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 190,
+      "end": 1012,
+      "text": " -----Original Message-----\nFrom: \tLebrocq, Wendi  \nSent:\tThursday, October 04, 2001 6:04 PM\nTo:\tLambert, Karen; Jones, Tana; Schott, Samuel; Brackett, Debbie R.; Clark, Cynthia; Enron Europe Global CounterParty,; Sever, Stephanie; Moran, Tom; Clark, Claudia; Bradford, William S.; Lees, Lisa; Fayett, Juana; Morse, Jana; Le, Trang; Maley, Paul; O'day, Karen; Rohauer, Tanya; Lombardi, Kelly; Lindsay, Brian; EOL Call Center; Hare, Bill D.; Heffernan, Amy; Lafuze, Molly; Clark, Danny; Panus, Stephanie; Mandola, Teresa; Ebow, Amber; Coleman, Tandra; Campbell, Lesli; Lebrocq, Wendi; Taylor, Mark E (Legal); Lauer, Kara; Banner, Kimberly; Mcquade, Jennifer; George, Fraisy; Guillory, Michael; Rajaram, Aparna; Monterrey, Maribel; Lebeau, Maria; Escamilla, Albert; Curry, Ken\nSubject:\tEOL and Clickpaper Approvals: 10-4-01\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 51,
+      "target": 49,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 49,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23715946.1075858956600.JavaMail.evans@thyme>",
+      "Date": "Mon, 8 Oct 2001 11:10:29 -0700 (PDT)",
+      "From": "claudia.clark@enron.com",
+      "To": "albert.escamilla@enron.com",
+      "Subject": "FW: EEL and Clickpaper Approvals: 10-4-01",
+      "Cc": "wendi.lebrocq@enron.com, tana.jones@enron.com, stephanie.sever@enron.com, \n\tkaren.o'day@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "wendi.lebrocq@enron.com, tana.jones@enron.com, stephanie.sever@enron.com, \n\tkaren.o'day@enron.com",
+      "X-From": "Clark, Claudia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CCLARK1>",
+      "X-To": "Escamilla, Albert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Aescami>",
+      "X-cc": "Lebrocq, Wendi </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wlebrocq>, Jones, Tana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tjones>, Sever, Stephanie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ssever>, O'day, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Koday>",
+      "X-bcc": "",
+      "X-Folder": "\\TJONES (Non-Privileged)\\Jones, Tana\\Inbox",
+      "X-Origin": "Jones-T",
+      "X-FileName": "TJONES (Non-Privileged).pst"
+    }
+  },
+  "id": "train/jones-t_inbox_328.txt"
+}

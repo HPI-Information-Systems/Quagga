@@ -1,0 +1,8 @@
+Hey,
+
+I was wondering if there is some way to add fields "on the fly" based on
+arithmetic operations on other fields. For example add a new field
+"custom_field" = log(field1) + field2 -5.
+
+Thanks.
+

@@ -1,0 +1,59 @@
+Hi Matt,
+
+I think your approach should be fine.
+Although the second keyBy is logically a shuffle, the data will not be sent
+of the wire to a different machine if the parallelism of the first and
+second window operator are identical.
+It only cost one serialization / deserialization step.
+
+I would be careful about putting the result of the first window into
+operator state. I think it is not well defined how function objects are
+reused. This might be an internal implementation detail which might change
+in the future.
+Aljoscha (in CC) should know more about how the window function objects are
+used.
+
+Best, Fabian
+
+2017-01-05 10:06 GMT+01:00 Matt <dromitlabs@gmail.com>:
+
+> I'm still looking for an answer to this question. Hope you can give me
+> some insight!
+>
+> On Thu, Dec 22, 2016 at 6:17 PM, Matt <dromitlabs@gmail.com> wrote:
+>
+>> Just to be clear, the stream is of String elements. The first part of the
+>> pipeline (up to the first .apply) receives those strings, and returns
+>> objects of another class ("A" let's say).
+>>
+>> On Thu, Dec 22, 2016 at 6:04 PM, Matt <dromitlabs@gmail.com> wrote:
+>>
+>>> Hello,
+>>>
+>>> I have a window processing 10 objects at a time, and creating 1 as a
+>>> result. The problem is in order to create that object I need the object
+>>> from the previous window.
+>>>
+>>> I'm doing this:
+>>>
+>>> stream
+>>>   .keyBy(...some key...)
+>>>   .countWindow(10, 1)
+>>>   .apply(...creates an element A...)
+>>>   .keyBy(...same key as above...)
+>>>   .countWindow(2, 1)
+>>>   .apply(...updates A with the value of the previous element A...)
+>>>   .addSink(...)
+>>>
+>>> Probably there is a way to retrieve the last collected object inside the
+>>> first .apply(), or to cache it somehow.
+>>>
+>>> Is there a better way to achieve the same? How inefficient is this?
+>>>
+>>> Regards,
+>>> Matt
+>>>
+>>
+>>
+>
+

@@ -1,0 +1,256 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Mark Taylor/HOU/ECT on 12/19/2000 02:10 PM -----\n\n\tLorraine Becker\n\t12/15/2000 02:05 PM\n\t\t \n\t\t To: Mark Taylor/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Power Merchants LOI\n\n\n---------------------- Forwarded by Lorraine Becker/HOU/ECT on 12/15/2000 \n02:05 PM ---------------------------\n   \n\n\nFrom:  Bob Shults                                                             \n12/15/2000 12:09 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: Mark Taylor/HOU/ECT@ECT\ncc: Michael.bridges@enron.com, Andy Zipper/Corp/Enron@Enron, \nLorraine.Becker@enron.com \nSubject: Power Merchants LOI\n\nAttached is a copy an LOI for Power Merchants please review and if ok give to \nLorraine Becker so that she can forward to Power Merchants.  Thanks\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 30,
+      "text": "Mark Taylor",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 42,
+      "end": 52,
+      "text": "12/19/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 53,
+      "end": 61,
+      "text": "02:10 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 68,
+      "text": "----- Forwarded by Mark Taylor/HOU/ECT on 12/19/2000 02:10 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 70,
+      "end": 85,
+      "text": "Lorraine Becker",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 87,
+      "end": 97,
+      "text": "12/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 98,
+      "end": 106,
+      "text": "02:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 118,
+      "end": 129,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 162,
+      "end": 181,
+      "text": "Power Merchants LOI",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 68,
+      "end": 182,
+      "text": "\n\tLorraine Becker\n\t12/15/2000 02:05 PM\n\t\t \n\t\t To: Mark Taylor/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Power Merchants LOI\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 220,
+      "end": 235,
+      "text": "Lorraine Becker",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 247,
+      "end": 257,
+      "text": "12/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 259,
+      "end": 267,
+      "text": "02:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 182,
+      "end": 296,
+      "text": "\n\n---------------------- Forwarded by Lorraine Becker/HOU/ECT on 12/15/2000 \n02:05 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 309,
+      "end": 319,
+      "text": "Bob Shults",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 381,
+      "end": 391,
+      "text": "12/15/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 392,
+      "end": 400,
+      "text": "12:09 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 442,
+      "end": 453,
+      "text": "Mark Taylor",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 470,
+      "end": 495,
+      "text": "Michael.bridges@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 497,
+      "end": 508,
+      "text": "Andy Zipper",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 564,
+      "end": 583,
+      "text": "Power Merchants LOI",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 296,
+      "end": 584,
+      "text": "   \n\n\nFrom:  Bob Shults                                                             \n12/15/2000 12:09 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: Mark Taylor/HOU/ECT@ECT\ncc: Michael.bridges@enron.com, Andy Zipper/Corp/Enron@Enron, \nLorraine.Becker@enron.com \nSubject: Power Merchants LOI\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 584,
+      "end": 735,
+      "text": "\nAttached is a copy an LOI for Power Merchants please review and if ok give to \nLorraine Becker so that she can forward to Power Merchants.  Thanks\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 725,
+      "end": 731,
+      "text": "Thanks",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 528,
+      "end": 553,
+      "text": "Lorraine.Becker@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 26,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 18,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19223607.1075860178684.JavaMail.evans@thyme>",
+      "Date": "Tue, 19 Dec 2000 06:10:00 -0800 (PST)",
+      "From": "mark.taylor@enron.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "Power Merchants LOI",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark Taylor",
+      "X-To": "Tana Jones",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor_Jun2001\\Notes Folders\\All documents",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_all_documents_7329.txt"
+}

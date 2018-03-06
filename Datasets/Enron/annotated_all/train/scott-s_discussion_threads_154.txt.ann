@@ -1,0 +1,686 @@
+{
+  "wrapper": "plaintext",
+  "text": "I am re-sending the attachment. \n\n\n-----Original Message----- \nFrom: Michael Rochman \nSent: Thursday, May 04, 2000 10:40 AM \nTo: Cherry, Brian - TPBKC; AlexanMS@sce.com; paulamirault@aec.ca; \ndavid.bayless@utility.com; Tomb@crossborderenergy.com; Burkee@cts.com; \nCraigc@calpine.com; Rick.Counihan@greenmountain.com; Jdasovic@enron.com; \nMday@gmssr.com; bdingwall@unitedgas.com; Douglass@arterhadden.com; \neke@aelaw.com; Jfawcet@enron.com; rfoss@coral-energy.com; \nplg@cpuc.ca.gov; johnj@bcjlaw.com; Johnson_Pamela@lacoe.edu; \nkarpjos@sf.whitecase.com; jleslie@luce.com; kmccrea@sablaw.com; \njmpa@dynegy.com; rmp@cpuc.ca.gov; porterdk@sce.com; Michael Rochman; \nMichael Rochman; susan.scott@enron.com; Beamish, Richard - TPRMB; \nBetonte, Robert - TP2RSB; Brill, Thomas R.; Cotton, Gary; Davis, Robert \nE.; Davis, Steven D.; Fair, Pam; Follett, B. David - TPDBF; Fong, Ed; \nFreeman, Kimberly; Gaines, Mark - TPMFG; Harrigan, James P. - TP1JPH; \nHay, James E.; Hubbard, Lisa J.; Lorenz, Lad - TPLPL; McVay, Nancy W - \nTPNWM; Morrow, Rick - TP3RMM; Purves, Ralph A.; Reed, William; Sakarias, \nWayne P.; Schavrien, Lee; Smith, Anne S. - TPASS; Sullivan, Glen J.; \nSurak, Thomas M. - TP1TMS; Suwara, J.- TPJUS; Takemura, Earl - TPEKT; \nTeeter, James S.; Van Lierop, Jan - TP2JXV; Watson, Steven - TP2SAW; \nWright, Gillian - TP1GXW; Barker, David - TPDTB; 'How-Downing, Lindsey'; \n'Jun, Christine'; 'Gileau, Pat'; 'Khoury, Dexter'; ack@aelaw.com \nSubject: FW: Testimony to Support the SoCalGas Settlement Agreement \n\nTo SoCal settlement parties, \n\nAttached please find the latest draft of Rick Counihan's testimony, as \ndrafted by John Leslie. John asked me to distribute it as his email system is \ncurrently battling a virus. (I am using the distribution list that Brian \nCherry used to distribute the Lad Lorenz draft testimony, which I believe \nreaches all parties.)\n\nPlease call John with any comments you may have on the draft. His number is \n619-699-2536. He cannot currently be reached by email.\n\nMichael Rochman \nManaging Director of SPURR and CUB \n\n? \n\n? \n - #1511099 v2 - SHELL-SOCALGAS - Counihan's Prepared Direct Testimony of \nGreenMountain.com in Support of Comprehensive Sttlmt (5-3-00).doc",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 35,
+      "text": "I am re-sending the attachment. \n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 69,
+      "end": 84,
+      "text": "Michael Rochman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 102,
+      "end": 114,
+      "text": "May 04, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 115,
+      "end": 123,
+      "text": "10:40 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 129,
+      "end": 142,
+      "text": "Cherry, Brian",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 152,
+      "end": 168,
+      "text": "AlexanMS@sce.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 170,
+      "end": 189,
+      "text": "paulamirault@aec.ca",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2062,
+      "end": 2199,
+      "text": "#1511099 v2 - SHELL-SOCALGAS - Counihan's Prepared Direct Testimony of \nGreenMountain.com in Support of Comprehensive Sttlmt (5-3-00).doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2059,
+      "end": 2199,
+      "text": " - #1511099 v2 - SHELL-SOCALGAS - Counihan's Prepared Direct Testimony of \nGreenMountain.com in Support of Comprehensive Sttlmt (5-3-00).doc",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1998,
+      "end": 2013,
+      "text": "Michael Rochman",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2036,
+      "end": 2041,
+      "text": "SPURR",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2046,
+      "end": 2049,
+      "text": "CUB",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2015,
+      "end": 2032,
+      "text": "Managing Director",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1998,
+      "end": 2051,
+      "text": "Michael Rochman \nManaging Director of SPURR and CUB \n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1510,
+      "end": 2199,
+      "text": "\nTo SoCal settlement parties, \n\nAttached please find the latest draft of Rick Counihan's testimony, as \ndrafted by John Leslie. John asked me to distribute it as his email system is \ncurrently battling a virus. (I am using the distribution list that Brian \nCherry used to distribute the Lad Lorenz draft testimony, which I believe \nreaches all parties.)\n\nPlease call John with any comments you may have on the draft. His number is \n619-699-2536. He cannot currently be reached by email.\n\nMichael Rochman \nManaging Director of SPURR and CUB \n\n? \n\n? \n - #1511099 v2 - SHELL-SOCALGAS - Counihan's Prepared Direct Testimony of \nGreenMountain.com in Support of Comprehensive Sttlmt (5-3-00).doc",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 192,
+      "end": 217,
+      "text": "david.bayless@utility.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 219,
+      "end": 245,
+      "text": "Tomb@crossborderenergy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 247,
+      "end": 261,
+      "text": "Burkee@cts.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 317,
+      "end": 335,
+      "text": "Jdasovic@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 284,
+      "end": 315,
+      "text": "Rick.Counihan@greenmountain.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 264,
+      "end": 282,
+      "text": "Craigc@calpine.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 338,
+      "end": 352,
+      "text": "Mday@gmssr.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 354,
+      "end": 377,
+      "text": "bdingwall@unitedgas.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 379,
+      "end": 403,
+      "text": "Douglass@arterhadden.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 440,
+      "end": 462,
+      "text": "rfoss@coral-energy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 421,
+      "end": 438,
+      "text": "Jfawcet@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 406,
+      "end": 419,
+      "text": "eke@aelaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 465,
+      "end": 480,
+      "text": "plg@cpuc.ca.gov",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 482,
+      "end": 498,
+      "text": "johnj@bcjlaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 500,
+      "end": 524,
+      "text": "Johnson_Pamela@lacoe.edu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 571,
+      "end": 589,
+      "text": "kmccrea@sablaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 553,
+      "end": 569,
+      "text": "jleslie@luce.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 527,
+      "end": 551,
+      "text": "karpjos@sf.whitecase.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 592,
+      "end": 607,
+      "text": "jmpa@dynegy.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 609,
+      "end": 624,
+      "text": "rmp@cpuc.ca.gov",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 626,
+      "end": 642,
+      "text": "porterdk@sce.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 644,
+      "end": 659,
+      "text": "Michael Rochman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 702,
+      "end": 718,
+      "text": "Beamish, Richard",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 679,
+      "end": 700,
+      "text": "susan.scott@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 662,
+      "end": 677,
+      "text": "Michael Rochman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 729,
+      "end": 744,
+      "text": "Betonte, Robert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 754,
+      "end": 771,
+      "text": " Brill, Thomas R.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 773,
+      "end": 785,
+      "text": "Cotton, Gary",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 787,
+      "end": 804,
+      "text": "Davis, Robert \nE.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 806,
+      "end": 822,
+      "text": "Davis, Steven D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 824,
+      "end": 833,
+      "text": "Fair, Pam",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 835,
+      "end": 852,
+      "text": "Follett, B. David",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 862,
+      "end": 870,
+      "text": "Fong, Ed",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 914,
+      "end": 932,
+      "text": "Harrigan, James P.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 892,
+      "end": 904,
+      "text": "Gaines, Mark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 873,
+      "end": 890,
+      "text": "Freeman, Kimberly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 944,
+      "end": 957,
+      "text": "Hay, James E.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 959,
+      "end": 975,
+      "text": "Hubbard, Lisa J.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 977,
+      "end": 988,
+      "text": "Lorenz, Lad",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 998,
+      "end": 1012,
+      "text": "McVay, Nancy W",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1023,
+      "end": 1035,
+      "text": "Morrow, Rick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1046,
+      "end": 1062,
+      "text": "Purves, Ralph A.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1064,
+      "end": 1077,
+      "text": "Reed, William",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1079,
+      "end": 1098,
+      "text": "Sakarias, \nWayne P.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1100,
+      "end": 1114,
+      "text": "Schavrien, Lee",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1116,
+      "end": 1130,
+      "text": "Smith, Anne S.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1140,
+      "end": 1157,
+      "text": "Sullivan, Glen J.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1206,
+      "end": 1220,
+      "text": "Takemura, Earl",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1187,
+      "end": 1197,
+      "text": "Suwara, J.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1160,
+      "end": 1176,
+      "text": "Surak, Thomas M.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 1231,
+      "end": 1247,
+      "text": "Teeter, James S.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 1249,
+      "end": 1264,
+      "text": "Van Lierop, Jan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1275,
+      "end": 1289,
+      "text": "Watson, Steven",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 70,
+      "start": 1351,
+      "end": 1371,
+      "text": "How-Downing, Lindsey",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 71,
+      "start": 1327,
+      "end": 1340,
+      "text": "Barker, David",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 72,
+      "start": 1301,
+      "end": 1316,
+      "text": "Wright, Gillian",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 73,
+      "start": 1376,
+      "end": 1390,
+      "text": "Jun, Christine",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 74,
+      "start": 1394,
+      "end": 1405,
+      "text": "Gileau, Pat",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 75,
+      "start": 1409,
+      "end": 1423,
+      "text": "Khoury, Dexter",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 76,
+      "start": 1426,
+      "end": 1439,
+      "text": "ack@aelaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 77,
+      "start": 1450,
+      "end": 1508,
+      "text": "FW: Testimony to Support the SoCalGas Settlement Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 78,
+      "start": 35,
+      "end": 1510,
+      "text": "-----Original Message----- \nFrom: Michael Rochman \nSent: Thursday, May 04, 2000 10:40 AM \nTo: Cherry, Brian - TPBKC; AlexanMS@sce.com; paulamirault@aec.ca; \ndavid.bayless@utility.com; Tomb@crossborderenergy.com; Burkee@cts.com; \nCraigc@calpine.com; Rick.Counihan@greenmountain.com; Jdasovic@enron.com; \nMday@gmssr.com; bdingwall@unitedgas.com; Douglass@arterhadden.com; \neke@aelaw.com; Jfawcet@enron.com; rfoss@coral-energy.com; \nplg@cpuc.ca.gov; johnj@bcjlaw.com; Johnson_Pamela@lacoe.edu; \nkarpjos@sf.whitecase.com; jleslie@luce.com; kmccrea@sablaw.com; \njmpa@dynegy.com; rmp@cpuc.ca.gov; porterdk@sce.com; Michael Rochman; \nMichael Rochman; susan.scott@enron.com; Beamish, Richard - TPRMB; \nBetonte, Robert - TP2RSB; Brill, Thomas R.; Cotton, Gary; Davis, Robert \nE.; Davis, Steven D.; Fair, Pam; Follett, B. David - TPDBF; Fong, Ed; \nFreeman, Kimberly; Gaines, Mark - TPMFG; Harrigan, James P. - TP1JPH; \nHay, James E.; Hubbard, Lisa J.; Lorenz, Lad - TPLPL; McVay, Nancy W - \nTPNWM; Morrow, Rick - TP3RMM; Purves, Ralph A.; Reed, William; Sakarias, \nWayne P.; Schavrien, Lee; Smith, Anne S. - TPASS; Sullivan, Glen J.; \nSurak, Thomas M. - TP1TMS; Suwara, J.- TPJUS; Takemura, Earl - TPEKT; \nTeeter, James S.; Van Lierop, Jan - TP2JXV; Watson, Steven - TP2SAW; \nWright, Gillian - TP1GXW; Barker, David - TPDTB; 'How-Downing, Lindsey'; \n'Jun, Christine'; 'Gileau, Pat'; 'Khoury, Dexter'; ack@aelaw.com \nSubject: FW: Testimony to Support the SoCalGas Settlement Agreement \n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 14,
+      "target": 11,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 12,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 13,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 38,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 2,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 11,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<1160119.1075846686630.JavaMail.evans@thyme>",
+      "Date": "Thu, 4 May 2000 04:21:00 -0700 (PDT)",
+      "From": "rochmanm@spurr.org",
+      "To": "rochmanm@spurr.org, bcherry@sempra.com, alexanms@sce.com, \n\tpaulamirault@aec.ca, david.bayless@utility.com, \n\ttomb@crossborderenergy.com, burkee@cts.com, craigc@calpine.com, \n\trick.counihan@greenmountain.com, jdasovic@enron.com, mday@gmssr.com, \n\tbdingwall@unitedgas.com, douglass@arterhadden.com, eke@aelaw.com, \n\tjfawcet@enron.com, rfoss@coral-energy.com, plg@cpuc.ca.gov, \n\tjohnj@bcjlaw.com, johnson_pamela@lacoe.edu, karpjos@sf.whitecase.com, \n\tjleslie@luce.com, kmccrea@sablaw.com, jmpa@dynegy.com, \n\trmp@cpuc.ca.gov, porterdk@sce.com, susan.scott@enron.com, \n\trbeamish@sempra.com, rbetonte@socalgas.com, tbrill@sempra.com, \n\tgcotton@sdge.com, redavis@sempra.com, sdavis@sdge.com, \n\tpfair@sdge.com, dfollett@sempra.com, efong@sdge.com, \n\tkfreeman@sempra.com, mgaines@socalgas.com, jharrigan@socalgas.com, \n\tjhay@sempra.com, ljhubbard@sempra.com, llorenz@socalgas.com, \n\tnmcvay@socalgas.com, rmorrow@socalgas.com, rpurves@sdge.com, \n\twreed@sempra.com, wsakarias@sdge.com, lschavrien@sempra.com, \n\tasmith@sempra.com, gsullivan@sempra.com, tsurak@socalgas.com, \n\tjsuwara@sempra.com, etakemura@socalgas.com, jteeter@sdge.com, \n\ttp2jxv@socalgas.com, swatson@socalgas.com, gwright@sempra.com, \n\tdbarker@socalgas.com, lindseyhowdowning@dwt.com, chj@aelaw.com, \n\tplg@cpuc.ca.gov, bsl@cpuc.ca.gov, ack@aelaw.com",
+      "Subject": "RE: Testimony to Support the SoCalGas Settlement Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Michael Rochman <rochmanm@spurr.org>",
+      "X-To": "Michael Rochman <rochmanm@spurr.org>, \"'Cherry, Brian - TPBKC'\" <BCherry@sempra.com>, \"'AlexanMS@sce.com'\" <AlexanMS@sce.com>, \"'paulamirault@aec.ca'\" <paulamirault@aec.ca>, \"'david.bayless@utility.com'\" <david.bayless@utility.com>, \"'Tomb@crossborderenergy.com'\" <Tomb@crossborderenergy.com>, \"'Burkee@cts.com'\" <Burkee@cts.com>, \"'Craigc@calpine.com'\" <Craigc@calpine.com>, \"'Rick.Counihan@greenmountain.com'\" <Rick.Counihan@greenmountain.com>, \"'Jdasovic@enron.com'\" <Jdasovic@enron.com>, \"'Mday@gmssr.com'\" <Mday@gmssr.com>, \"'bdingwall@unitedgas.com'\" <bdingwall@unitedgas.com>, \"'Douglass@arterhadden.com'\" <Douglass@arterhadden.com>, \"'eke@aelaw.com'\" <eke@aelaw.com>, \"'Jfawcet@enron.com'\" <Jfawcet@enron.com>, \"'rfoss@coral-energy.com'\" <rfoss@coral-energy.com>, \"'plg@cpuc.ca.gov'\" <plg@cpuc.ca.gov>, \"'johnj@bcjlaw.com'\" <johnj@bcjlaw.com>, \"'Johnson_Pamela@lacoe.edu'\" <Johnson_Pamela@lacoe.edu>, \"'karpjos@sf.whitecase.com'\" <karpjos@sf.whitecase.com>, \"'jleslie@luce.com'\" <jleslie@luce.com>, \"'kmccrea@sablaw.com'\" <kmccrea@sablaw.com>, \"'jmpa@dynegy.com'\" <jmpa@dynegy.com>, \"'rmp@cpuc.ca.gov'\" <rmp@cpuc.ca.gov>, \"'porterdk@sce.com'\" <porterdk@sce.com>, \"'susan.scott@enron.com'\" <susan.scott@enron.com>, \"'Beamish, Richard - TPRMB'\" <RBeamish@sempra.com>, \"'Betonte, Robert - TP2RSB'\" <RBetonte@socalgas.com>, \"'Brill, Thomas R.'\" <TBrill@sempra.com>, \"'Cotton, Gary'\" <GCotton@SDGE.com>, \"'Davis, Robert E.'\" <REDavis@sempra.com>, \"'Davis, Steven D.'\" <SDavis@SDGE.com>, \"'Fair, Pam'\" <PFair@SDGE.com>, \"'Follett, B. David - TPDBF'\" <DFollett@sempra.com>, \"'Fong, Ed'\" <EFong@SDGE.com>, \"'Freeman, Kimberly'\" <KFreeman@sempra.com>, \"'Gaines, Mark - TPMFG'\" <MGaines@socalgas.com>, \"'Harrigan, James P. - TP1JPH'\" <JHarrigan@socalgas.com>, \"'Hay, James E.'\" <JHay@sempra.com>, \"'Hubbard, Lisa J.'\" <LJHubbard@sempra.com>, \"'Lorenz, Lad - TPLPL'\" <LLorenz@socalgas.com>, \"'McVay, Nancy W - TPNWM'\" <NMcVay@socalgas.com>, \"'Morrow, Rick - TP3RMM'\" <RMorrow@socalgas.com>, \"'Purves, Ralph A.'\" <RPurves@SDGE.com>, \"'Reed, William'\" <WReed@sempra.com>, \"'Sakarias, Wayne P.'\" <WSakarias@SDGE.com>, \"'Schavrien, Lee'\" <LSchavrien@sempra.com>, \"'Smith, Anne S. - TPASS'\" <ASmith@sempra.com>, \"'Sullivan, Glen J.'\" <GSullivan@sempra.com>, \"'Surak, Thomas M. - TP1TMS'\" <TSurak@socalgas.com>, \"'Suwara, J.- TPJUS'\" <JSuwara@sempra.com>, \"'Takemura, Earl - TPEKT'\" <ETakemura@socalgas.com>, \"'Teeter, James S.'\" <JTeeter@SDGE.com>, \"'Van Lierop, Jan - TP2JXV'\" <tp2jxv@socalgas.com>, \"'Watson, Steven - TP2SAW'\" <SWatson@socalgas.com>, \"'Wright, Gillian - TP1GXW'\" <GWright@sempra.com>, \"'Barker, David - TPDTB'\" <DBarker@socalgas.com>, \"'How-Downing, Lindsey'\" <lindseyhowdowning@dwt.com>, \"'Jun, Christine'\" <chj@aelaw.com>, \"'Gileau, Pat'\" <plg@cpuc.ca.gov>, \"'Khoury, Dexter'\" <bsl@cpuc.ca.gov>, \"'ack@aelaw.com'\" <ack@aelaw.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_1\\Notes Folders\\Discussion threads",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott3.nsf"
+    }
+  },
+  "id": "train/scott-s_discussion_threads_154.txt"
+}

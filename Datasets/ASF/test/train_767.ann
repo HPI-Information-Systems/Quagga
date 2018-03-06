@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Not outdated at all, because there are other methods having dependencies on\nsparkcontext so you have to create it.\nFor example,\nhttps://gist.github.com/chetkhatri/f75c2b743e6cb2d7066188687448c5a1\n\nOn Fri, Jan 27, 2017 at 2:06 PM, Wojciech Indyk <wojciechindyk@gmail.com>\nwrote:\n\n> Hi!\n> In this doc http://spark.apache.org/docs/latest/programming-guide.html#\n> initializing-spark initialization is described by SparkContext. Do you\n> think is it reasonable to change it to SparkSession or just mentioned it at\n> the end? I can prepare it and make PR for this, but want to know your\n> opinion at first. The same for quickstart: http://spark.\n> apache.org/docs/latest/quick-start.html#self-contained-applications\n>\n> --\n> Kind regards/ Pozdrawiam,\n> Wojciech Indyk\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 197,
+      "text": "Not outdated at all, because there are other methods having dependencies on\nsparkcontext so you have to create it.\nFor example,\nhttps://gist.github.com/chetkhatri/f75c2b743e6cb2d7066188687448c5a1\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 197,
+      "end": 278,
+      "text": "On Fri, Jan 27, 2017 at 2:06 PM, Wojciech Indyk <wojciechindyk@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 278,
+      "end": 285,
+      "text": "\n> Hi!\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 713,
+      "end": 763,
+      "text": "> --\n> Kind regards/ Pozdrawiam,\n> Wojciech Indyk\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 278,
+      "end": 766,
+      "text": "\n> Hi!\n> In this doc http://spark.apache.org/docs/latest/programming-guide.html#\n> initializing-spark initialization is described by SparkContext. Do you\n> think is it reasonable to change it to SparkSession or just mentioned it at\n> the end? I can prepare it and make PR for this, but want to know your\n> opinion at first. The same for quickstart: http://spark.\n> apache.org/docs/latest/quick-start.html#self-contained-applications\n>\n> --\n> Kind regards/ Pozdrawiam,\n> Wojciech Indyk\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_767"
+}

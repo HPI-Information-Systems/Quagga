@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "We've hit this issue again since solr defaults new fields to string type\nwhich has docvalues. Changing those to be lowercase text does not remove\nthe docvalues and breaks faceting. Is there a way to remove docvalues for a\nfield w/o starting fresh?\n\nOn Tue, Oct 18, 2016 at 8:19 PM, Yonik Seeley <yseeley@gmail.com> wrote:\n\n> Actually, a delete-by-query of *:* may also be hit-or-miss on replicas\n> in a solr cloud setup because of reorders.\n> If it does work, you should see something in the logs at the INFO\n> level like \"REMOVING ALL DOCUMENTS FROM INDEX\"\n>\n> -Yonik\n>\n> On Tue, Oct 18, 2016 at 11:02 PM, Yonik Seeley <yseeley@gmail.com> wrote:\n> > A delete-by-query of *:* may do it (because it special cases to\n> > removing the index).\n> > The underlying issue is when lucene merges a segment without docvalues\n> > with a segment that has them.\n> > -Yonik\n> >\n> >\n> > On Tue, Oct 18, 2016 at 10:09 PM, John Davis <johndavis925254@gmail.com>\n> wrote:\n> >> Thanks. Is there a way around to not starting fresh and forcing the\n> reindex\n> >> to remove docValues?\n> >>\n> >> On Tue, Oct 18, 2016 at 6:56 PM, Yonik Seeley <yseeley@gmail.com>\n> wrote:\n> >>>\n> >>> This sounds like you didn't actually start fresh, but just reindexed\n> your\n> >>> data.\n> >>> This would mean that docValues would still exist in the index for this\n> >>> field (just with no values), and that normal faceting would use those.\n> >>> Forcing facet.method=enum forces the use of the index instead of\n> >>> docvalues (or the fieldcache if the field is configured w/o\n> >>> docvalues).\n> >>>\n> >>> -Yonik\n> >>>\n> >>> On Tue, Oct 18, 2016 at 9:43 PM, John Davis <johndavis925254@gmail.com\n> >\n> >>> wrote:\n> >>> > Hi,\n> >>> >\n> >>> > I have converted one of my fields from StrField to TextField and am\n> not\n> >>> > getting back any facets for that field. Here's the exact\n> configuration\n> >>> > of\n> >>> > the TextField. I have tested it with 6.2.0 on a fresh instance and\nit\n> >>> > repros consistently. From reading through past archives and\n> >>> > documentation,\n> >>> > it feels like this should just work. I would appreciate any input.\n> >>> >\n> >>> > <fieldType name=\"lowercase\" class=\"solr.TextField\" omitNorms=\"true\"\n> >>> > omitTermFreqAndPositions=\"true\" indexed=\"true\" stored=\"true\"\n> >>> > positionIncrementGap=\"100\" sortMissingLast=\"true\" multiValued=\"true\">\n> >>> >     <analyzer>\n> >>> >       <tokenizer class=\"solr.KeywordTokenizerFactory\"/>\n> >>> >       <filter class=\"solr.LowerCaseFilterFactory\"/>\n> >>> >     </analyzer>\n> >>> >   </fieldType>\n> >>> >\n> >>> >\n> >>> > Search\n> >>> > query:\n> >>> > /select/?facet.field=FACET_FIELD_NAME&facet=on&indent=on&\n> q=QUERY_STRING&wt=json\n> >>> >\n> >>> > Interestingly facets are returned if I change facet.method to enum\n> >>> > instead\n> >>> > of default fc.\n> >>> >\n> >>> > John\n> >>\n> >>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 249,
+      "text": "We've hit this issue again since solr defaults new fields to string type\nwhich has docvalues. Changing those to be lowercase text does not remove\nthe docvalues and breaks faceting. Is there a way to remove docvalues for a\nfield w/o starting fresh?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 249,
+      "end": 322,
+      "text": "On Tue, Oct 18, 2016 at 8:19 PM, Yonik Seeley <yseeley@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 558,
+      "end": 569,
+      "text": ">\n> -Yonik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 322,
+      "end": 571,
+      "text": "\n> Actually, a delete-by-query of *:* may also be hit-or-miss on replicas\n> in a solr cloud setup because of reorders.\n> If it does work, you should see something in the logs at the INFO\n> level like \"REMOVING ALL DOCUMENTS FROM INDEX\"\n>\n> -Yonik\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 571,
+      "end": 647,
+      "text": "> On Tue, Oct 18, 2016 at 11:02 PM, Yonik Seeley <yseeley@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 849,
+      "end": 860,
+      "text": "> > -Yonik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 647,
+      "end": 868,
+      "text": "> > A delete-by-query of *:* may do it (because it special cases to\n> > removing the index).\n> > The underlying issue is when lucene merges a segment without docvalues\n> > with a segment that has them.\n> > -Yonik\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 868,
+      "end": 954,
+      "text": "> > On Tue, Oct 18, 2016 at 10:09 PM, John Davis <johndavis925254@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 954,
+      "end": 1068,
+      "text": "> >> Thanks. Is there a way around to not starting fresh and forcing the\n> reindex\n> >> to remove docValues?\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1068,
+      "end": 1148,
+      "text": "> >> On Tue, Oct 18, 2016 at 6:56 PM, Yonik Seeley <yseeley@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1557,
+      "end": 1576,
+      "text": "> >>>\n> >>> -Yonik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1148,
+      "end": 1582,
+      "text": "> >>>\n> >>> This sounds like you didn't actually start fresh, but just reindexed\n> your\n> >>> data.\n> >>> This would mean that docValues would still exist in the index for this\n> >>> field (just with no values), and that normal faceting would use those.\n> >>> Forcing facet.method=enum forces the use of the index instead of\n> >>> docvalues (or the fieldcache if the field is configured w/o\n> >>> docvalues).\n> >>>\n> >>> -Yonik\n> >>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1582,
+      "end": 1676,
+      "text": "> >>> On Tue, Oct 18, 2016 at 9:43 PM, John Davis <johndavis925254@gmail.com\n> >\n> >>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1676,
+      "end": 1688,
+      "text": "> >>> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2798,
+      "end": 2819,
+      "text": "> >>> >\n> >>> > John\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1676,
+      "end": 2832,
+      "text": "> >>> > Hi,\n> >>> >\n> >>> > I have converted one of my fields from StrField to TextField and am\n> not\n> >>> > getting back any facets for that field. Here's the exact\n> configuration\n> >>> > of\n> >>> > the TextField. I have tested it with 6.2.0 on a fresh instance and\nit\n> >>> > repros consistently. From reading through past archives and\n> >>> > documentation,\n> >>> > it feels like this should just work. I would appreciate any input.\n> >>> >\n> >>> > <fieldType name=\"lowercase\" class=\"solr.TextField\" omitNorms=\"true\"\n> >>> > omitTermFreqAndPositions=\"true\" indexed=\"true\" stored=\"true\"\n> >>> > positionIncrementGap=\"100\" sortMissingLast=\"true\" multiValued=\"true\">\n> >>> >     <analyzer>\n> >>> >       <tokenizer class=\"solr.KeywordTokenizerFactory\"/>\n> >>> >       <filter class=\"solr.LowerCaseFilterFactory\"/>\n> >>> >     </analyzer>\n> >>> >   </fieldType>\n> >>> >\n> >>> >\n> >>> > Search\n> >>> > query:\n> >>> > /select/?facet.field=FACET_FIELD_NAME&facet=on&indent=on&\n> q=QUERY_STRING&wt=json\n> >>> >\n> >>> > Interestingly facets are returned if I change facet.method to enum\n> >>> > instead\n> >>> > of default fc.\n> >>> >\n> >>> > John\n> >>\n> >>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_142"
+}

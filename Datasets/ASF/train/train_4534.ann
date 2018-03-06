@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Walid\nIs there any error occurring? If not, then do not change anything. Yes, that version of Solr\nis old, if you get the chance you would want to upgrade. Cheers -- Rick\n\nOn July 4, 2017 6:11:57 AM EDT, walid <walid.kharrat@gmail.com> wrote:\n>Hi,\n>i have a multiple solr slaves reversed by nginx, clients browser send\n>to\n>nginx who reverse with round robin to solr slaves, clients use post,\n>and\n>directly deal with solrs i use \"ajax-solr\". with this configuration and\n>if i\n>have a lot of ecommerce users, Is there a risk to have many tomcat\n>sessions\n>in solr servers? if i found solution with nginx to use same session in\n>the\n>solr requests, this will not cause solr response errors?\n>my solr version is 1.4.1, i know this is too old \n>\n>\n>\n>--\n>View this message in context:\n>http://lucene.472066.n3.nabble.com/behind-nginx-tp4344124.html\n>Sent from the Solr - User mailing list archive at Nabble.com.\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Walid\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 175,
+      "text": "Hi Walid\nIs there any error occurring? If not, then do not change anything. Yes, that version of Solr\nis old, if you get the chance you would want to upgrade. Cheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 175,
+      "end": 246,
+      "text": "On July 4, 2017 6:11:57 AM EDT, walid <walid.kharrat@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 246,
+      "end": 251,
+      "text": ">Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 246,
+      "end": 986,
+      "text": ">Hi,\n>i have a multiple solr slaves reversed by nginx, clients browser send\n>to\n>nginx who reverse with round robin to solr slaves, clients use post,\n>and\n>directly deal with solrs i use \"ajax-solr\". with this configuration and\n>if i\n>have a lot of ecommerce users, Is there a risk to have many tomcat\n>sessions\n>in solr servers? if i found solution with nginx to use same session in\n>the\n>solr requests, this will not cause solr response errors?\n>my solr version is 1.4.1, i know this is too old \n>\n>\n>\n>--\n>View this message in context:\n>http://lucene.472066.n3.nabble.com/behind-nginx-tp4344124.html\n>Sent from the Solr - User mailing list archive at Nabble.com.\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4534"
+}

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\n>From where we can download Sunplot/setup to use SQL and streaming\nexpressions?\n\nThanks,\nSusheel\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 88,
+      "end": 105,
+      "text": "\nThanks,\nSusheel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 106,
+      "text": "Hello,\n\n>From where we can download Sunplot/setup to use SQL and streaming\nexpressions?\n\nThanks,\nSusheel\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5631"
+}

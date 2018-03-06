@@ -1,0 +1,182 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear Vince,\n\nIt will be a great pleasure to see you in Atlanta. I will be delighted to\nhave breakfast with you.\nLet me know you itinerary and the hotel.\n\nLooking forward to seeing you.\n\nAlex\n\n <<...OLE_Obj...>>\n\nAlexander Eydeland\nVice President, Research\nMirant Corp.\nPhone: 678-579-5129\nFax: 678-579-5752\nalexander.eydeland@mirant.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 5,
+      "end": 10,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 11,
+      "text": "Dear Vince,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 186,
+      "end": 190,
+      "text": "Alex",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 154,
+      "end": 191,
+      "text": "Looking forward to seeing you.\n\nAlex\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 198,
+      "end": 205,
+      "text": "OLE_Obj",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 192,
+      "end": 211,
+      "text": " <<...OLE_Obj...>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 212,
+      "end": 230,
+      "text": "Alexander Eydeland",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 231,
+      "end": 255,
+      "text": "Vice President, Research",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 256,
+      "end": 268,
+      "text": "Mirant Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 276,
+      "end": 288,
+      "text": "678-579-5129",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 294,
+      "end": 306,
+      "text": "678-579-5752",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 307,
+      "end": 336,
+      "text": "alexander.eydeland@mirant.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 212,
+      "end": 337,
+      "text": "Alexander Eydeland\nVice President, Research\nMirant Corp.\nPhone: 678-579-5129\nFax: 678-579-5752\nalexander.eydeland@mirant.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 0,
+      "end": 337,
+      "text": "Dear Vince,\n\nIt will be a great pleasure to see you in Atlanta. I will be delighted to\nhave breakfast with you.\nLet me know you itinerary and the hotel.\n\nLooking forward to seeing you.\n\nAlex\n\n <<...OLE_Obj...>>\n\nAlexander Eydeland\nVice President, Research\nMirant Corp.\nPhone: 678-579-5129\nFax: 678-579-5752\nalexander.eydeland@mirant.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 9,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 11,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9017926.1075863446930.JavaMail.evans@thyme>",
+      "Date": "Fri, 26 Oct 2001 05:52:45 -0700 (PDT)",
+      "From": "alexander.eydeland@mirant.com",
+      "To": "j.kaminski@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Eydeland, Alexander\" <alexander.eydeland@mirant.com>@ENRON",
+      "X-To": "Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VKAMINS>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\VKAMINS (Non-Privileged)\\Kaminski, Vince J\\Inbox",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "VKAMINS (Non-Privileged).pst"
+    }
+  },
+  "id": "test/kaminski-v_inbox_754.txt"
+}

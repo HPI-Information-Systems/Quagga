@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi All - trying to call ClouderSolrStream.open(), but I'm getting this \nerror:\n\njava.io.IOException: java.lang.NullPointerException\n      at \norg.apache.solr.client.solrj.io.stream.CloudSolrStream.constructStreams(CloudSolrStream.java:408)\n      at \norg.apache.solr.client.solrj.io.stream.CloudSolrStream.open(CloudSolrStream.java:299)\n\nI'm passing in a valid zkHost, collection name, and parameters. In fact, \nif I take the stream expression and past it into the GUI, it works OK.  \nI'm stumped by what could be null here.\n\nMy code looks like the following, and I'm getting the error on \nstream.open().\n\n         StringBuilder expression = new StringBuilder();\n         expression.append(\"update(models, batchSize=\\\"50\\\",\");\nexpression.append(\"train(\").append(solrCollectionName).append(\",\");\nexpression.append(\"features(\").append(solrCollectionName).append(\",\");\nexpression.append(\"q=\\\"*:*\\\",featureSet=\\\"FSet_\").append(solrCollectionName).append(\"\\\",\");\nexpression.append(\"field=\\\"Text\\\",outcome=\\\"out_i\\\",positiveLabel=1,numTerms=\").append(numTerms).append(\"),\");\nexpression.append(\"q=\\\"*:*\\\",name=\\\"\").append(docID).append(\"\\\",field=\\\"Text\\\",outcome=\\\"out_i\\\",maxIterations=\\\"\").append(maxIterations).append(\"\\\"))\");\n         logger.info(\"Have update \nexpression:\\n\"+expression.toString()+\"\\n\");\n         params.set(\"expr\", expression.toString());\n         params.set(\"qt\", \"/stream\");\n         params.set(\"explain\", \"true\");\n         params.set(\"q\", \"*:*\");\n         params.set(\"fl\", \"id\");\n         params.set(\"sort\", \"id asc\");\n         try {\n             System.out.println(\"Open: \n\"+props.getProperty(\"hbase.zookeeper.solr.quorum\")+\"\\nCollection: \n\"+solrCollectionName+\" \\nWith params: \"+params);\n             stream = new \nCloudSolrStream(props.getProperty(\"hbase.zookeeper.solr.quorum\"), \nsolrCollectionName, params);\n             stream.open();\n             while (true) {\n                 Tuple tuple = stream.read();\n                 logger.info(\"Tuple Read: \"+tuple.fields.toString());\n                 if (tuple.EOF) {\n                     break;\n                 }\n             }\n         } catch (IOException ex) {\n             logger.error(\"Solr stream error: \" + ex);\n             ex.printStackTrace();\n         } finally {\n             if (stream != null) {\n                 try {\n                     stream.close();\n                 } catch (IOException ex) {\n                     logger.error(\"Could not close stream: \"+ex);\n                 }\n             }\n         }\n\nI'm stuck!  Thanks!\n\n-Joe\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Hi All",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2495,
+      "end": 2522,
+      "text": "\nI'm stuck!  Thanks!\n\n-Joe\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2524,
+      "text": "Hi All - trying to call ClouderSolrStream.open(), but I'm getting this \nerror:\n\njava.io.IOException: java.lang.NullPointerException\n      at \norg.apache.solr.client.solrj.io.stream.CloudSolrStream.constructStreams(CloudSolrStream.java:408)\n      at \norg.apache.solr.client.solrj.io.stream.CloudSolrStream.open(CloudSolrStream.java:299)\n\nI'm passing in a valid zkHost, collection name, and parameters. In fact, \nif I take the stream expression and past it into the GUI, it works OK.  \nI'm stumped by what could be null here.\n\nMy code looks like the following, and I'm getting the error on \nstream.open().\n\n         StringBuilder expression = new StringBuilder();\n         expression.append(\"update(models, batchSize=\\\"50\\\",\");\nexpression.append(\"train(\").append(solrCollectionName).append(\",\");\nexpression.append(\"features(\").append(solrCollectionName).append(\",\");\nexpression.append(\"q=\\\"*:*\\\",featureSet=\\\"FSet_\").append(solrCollectionName).append(\"\\\",\");\nexpression.append(\"field=\\\"Text\\\",outcome=\\\"out_i\\\",positiveLabel=1,numTerms=\").append(numTerms).append(\"),\");\nexpression.append(\"q=\\\"*:*\\\",name=\\\"\").append(docID).append(\"\\\",field=\\\"Text\\\",outcome=\\\"out_i\\\",maxIterations=\\\"\").append(maxIterations).append(\"\\\"))\");\n         logger.info(\"Have update \nexpression:\\n\"+expression.toString()+\"\\n\");\n         params.set(\"expr\", expression.toString());\n         params.set(\"qt\", \"/stream\");\n         params.set(\"explain\", \"true\");\n         params.set(\"q\", \"*:*\");\n         params.set(\"fl\", \"id\");\n         params.set(\"sort\", \"id asc\");\n         try {\n             System.out.println(\"Open: \n\"+props.getProperty(\"hbase.zookeeper.solr.quorum\")+\"\\nCollection: \n\"+solrCollectionName+\" \\nWith params: \"+params);\n             stream = new \nCloudSolrStream(props.getProperty(\"hbase.zookeeper.solr.quorum\"), \nsolrCollectionName, params);\n             stream.open();\n             while (true) {\n                 Tuple tuple = stream.read();\n                 logger.info(\"Tuple Read: \"+tuple.fields.toString());\n                 if (tuple.EOF) {\n                     break;\n                 }\n             }\n         } catch (IOException ex) {\n             logger.error(\"Solr stream error: \" + ex);\n             ex.printStackTrace();\n         } finally {\n             if (stream != null) {\n                 try {\n                     stream.close();\n                 } catch (IOException ex) {\n                     logger.error(\"Could not close stream: \"+ex);\n                 }\n             }\n         }\n\nI'm stuck!  Thanks!\n\n-Joe\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4778"
+}

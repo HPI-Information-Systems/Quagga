@@ -1,0 +1,208 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks so much for all the answer, gonna test it out then..\n\n\nBest Regards,\n\nFelix Stanley\n\n\n\n-----Original Message-----\nFrom: Walter Underwood [mailto:wunder@wunderwood.org] \nSent: Wednesday, September 20, 2017 1:05 AM\nTo: solr-user@lucene.apache.org\nSubject: Re: Using SOLR J 5.5.4 with SOLR 6.5\n\nAs I understand it, any node in the cluster will direct the document to the leader for the\nappropriate shard.\n\nWorks for us.\n\nwunder\nWalter Underwood\nwunder@wunderwood.org\nhttp://observer.wunderwood.org/  (my blog)\n\n\n> On Sep 19, 2017, at 9:59 AM, David Hastings <hastings.recursive@gmail.com> wrote:\n> \n> Thanks! Going to have to throw up another solr 6.x instance for \n> testing again.  Solr cloud will maintain index integrity across the \n> nodes if indexed to just one node correct?\n> \n> On Tue, Sep 19, 2017 at 12:55 PM, Walter Underwood \n> <wunder@wunderwood.org>\n> wrote:\n> \n>> Yes, good old HTTP.\n>> \n>> wunder\n>> Walter Underwood\n>> wunder@wunderwood.org\n>> http://observer.wunderwood.org/  (my blog)\n>> \n>> \n>>> On Sep 19, 2017, at 9:54 AM, David Hastings <\n>> hastings.recursive@gmail.com> wrote:\n>>> \n>>> Do you use HttpSolrClient then?\n>>> \n>>> On Tue, Sep 19, 2017 at 12:26 PM, Walter Underwood <\n>> wunder@wunderwood.org>\n>>> wrote:\n>>> \n>>>> We run SolrJ 4.7.1 with Solr 6.5.1 (16 node cloud). No problems.\n>>>> \n>>>> We do not use the cloud-specific client and I\u00e2\u20ac\u2122m pretty sure that we\n>> don\u00e2\u20ac\u2122t\n>>>> use ConcurrentUpdateSolrServer. The latter is because it doesn\u00e2\u20ac\u2122t \n>>>> report errors properly.\n>>>> \n>>>> We do our indexing through the load balancer and let the Solr Cloud \n>>>> cluster get the right docs to the right shards. That runs at 1 \n>>>> million docs/minute, so it isn\u00e2\u20ac\u2122t worth doing anything fancier.\n>>>> \n>>>> wunder\n>>>> Walter Underwood\n>>>> wunder@wunderwood.org\n>>>> http://observer.wunderwood.org/  (my blog)\n>>>> \n>>>> \n>>>>> On Sep 19, 2017, at 9:05 AM, David Hastings <\n>>>> hastings.recursive@gmail.com> wrote:\n>>>>> \n>>>>> What about the ConcurrentUpdateSolrServer for solrj?  That is what\n>> almost\n>>>>> all of my indexing code is using for solr 5.x, Its been a while \n>>>>> since I experimented with upgrading but i seem to remember having \n>>>>> to go to HttpSolrClient and couldnt get the code to compile, so i \n>>>>> tabled the experiment for a while.  eventually I will need to move \n>>>>> to solr 6, but\n>>>> if i\n>>>>> could keep the same indexing code that would be ideal\n>>>>> \n>>>>> On Tue, Sep 19, 2017 at 11:59 AM, Erick Erickson <\n>>>> erickerickson@gmail.com>\n>>>>> wrote:\n>>>>> \n>>>>>> Felix:\n>>>>>> \n>>>>>> There's no specific testing that I know of for this issue, it's \n>>>>>> \"best effort\". Which means it _should_ work but I can't make promises.\n>>>>>> \n>>>>>> Now that said, underlying it all is just HTTP requests going back\n\n>>>>>> and forth so I know of no a-priori reasons it wouldn't be fine. \n>>>>>> It's just \"try it and see\" though.\n>>>>>> \n>>>>>> Best,\n>>>>>> Erick\n>>>>>> \n>>>>>> I'm probably preaching to the choir, but Java 1.7 is two years \n>>>>>> past the end of support from Oracle, somebody sometime has to \n>>>>>> deal with upgrading.\n>>>>>> \n>>>>>> On Mon, Sep 18, 2017 at 10:47 PM, Felix Stanley \n>>>>>> <felixstanley@globalsources.com> wrote:\n>>>>>>> Hi there,\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> We are planning to use SOLR J 5.5.4 to query from SOLR 6.5.\n>>>>>>> \n>>>>>>> The reason was that we have to rely on JDK 1.7 at the client\nand \n>>>>>>> as\n>> far\n>>>>>> as I\n>>>>>>> know SOLR J 6.x.x only support JDK 1.8.\n>>>>>>> \n>>>>>>> I understood that SOLR J generally maintains backwards/forward\n>>>>>> compatibility\n>>>>>>> from this article:\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> https://wiki.apache.org/solr/Solrj\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Would there though be any exception that we need to take caution\n\n>>>>>>> of\n>> for\n>>>>>> this\n>>>>>>> specific version?\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Thanks a lot.\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Best Regards,\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Felix Stanley\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> ----------------------\n>>>>>>> CONFIDENTIALITY NOTICE\n>>>>>>> \n>>>>>>> This e-mail (including any attachments) may contain confidential\n>> and/or\n>>>>>> privileged information. If you are not the intended recipient or\n\n>>>>>> have received this e-mail in error, please inform the sender \n>>>>>> immediately\n>> and\n>>>>>> delete this e-mail (including any attachments) from your \n>>>>>> computer, and\n>>>> you\n>>>>>> must not use, disclose to anyone else or copy this e-mail \n>>>>>> (including\n>> any\n>>>>>> attachments), whether in whole or in part.\n>>>>>>> \n>>>>>>> This e-mail and any reply to it may be monitored for security,\n\n>>>>>>> legal,\n>>>>>> regulatory compliance and/or other appropriate reasons.\n>>>>>> \n>>>> \n>>>> \n>> \n>> \n\n\n\n----------------------\nCONFIDENTIALITY NOTICE \n\nThis e-mail (including any attachments) may contain confidential and/or privileged information.\nIf you are not the intended recipient or have received this e-mail in error, please inform\nthe sender immediately and delete this e-mail (including any attachments) from your computer,\nand you must not use, disclose to anyone else or copy this e-mail (including any attachments),\nwhether in whole or in part. \n\nThis e-mail and any reply to it may be monitored for security, legal, regulatory compliance\nand/or other appropriate reasons.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 61,
+      "end": 91,
+      "text": "\nBest Regards,\n\nFelix Stanley\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 94,
+      "text": "Thanks so much for all the answer, gonna test it out then..\n\n\nBest Regards,\n\nFelix Stanley\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 94,
+      "end": 298,
+      "text": "-----Original Message-----\nFrom: Walter Underwood [mailto:wunder@wunderwood.org] \nSent: Wednesday, September 20, 2017 1:05 AM\nTo: solr-user@lucene.apache.org\nSubject: Re: Using SOLR J 5.5.4 with SOLR 6.5\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 424,
+      "end": 514,
+      "text": "\nwunder\nWalter Underwood\nwunder@wunderwood.org\nhttp://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 298,
+      "end": 516,
+      "text": "\nAs I understand it, any node in the cluster will direct the document to the leader for the\nappropriate shard.\n\nWorks for us.\n\nwunder\nWalter Underwood\nwunder@wunderwood.org\nhttp://observer.wunderwood.org/  (my blog)\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 516,
+      "end": 600,
+      "text": "> On Sep 19, 2017, at 9:59 AM, David Hastings <hastings.recursive@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 600,
+      "end": 789,
+      "text": "> \n> Thanks! Going to have to throw up another solr 6.x instance for \n> testing again.  Solr cloud will maintain index integrity across the \n> nodes if indexed to just one node correct?\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 789,
+      "end": 878,
+      "text": "> On Tue, Sep 19, 2017 at 12:55 PM, Walter Underwood \n> <wunder@wunderwood.org>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 904,
+      "end": 1009,
+      "text": ">> \n>> wunder\n>> Walter Underwood\n>> wunder@wunderwood.org\n>> http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 878,
+      "end": 1017,
+      "text": "> \n>> Yes, good old HTTP.\n>> \n>> wunder\n>> Walter Underwood\n>> wunder@wunderwood.org\n>> http://observer.wunderwood.org/  (my blog)\n>> \n>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1017,
+      "end": 1107,
+      "text": ">>> On Sep 19, 2017, at 9:54 AM, David Hastings <\n>> hastings.recursive@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1107,
+      "end": 1153,
+      "text": ">>> \n>>> Do you use HttpSolrClient then?\n>>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1153,
+      "end": 1247,
+      "text": ">>> On Tue, Sep 19, 2017 at 12:26 PM, Walter Underwood <\n>> wunder@wunderwood.org>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1735,
+      "end": 1850,
+      "text": ">>>> \n>>>> wunder\n>>>> Walter Underwood\n>>>> wunder@wunderwood.org\n>>>> http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1247,
+      "end": 1862,
+      "text": ">>> \n>>>> We run SolrJ 4.7.1 with Solr 6.5.1 (16 node cloud). No problems.\n>>>> \n>>>> We do not use the cloud-specific client and I\u00e2\u20ac\u2122m pretty sure that we\n>> don\u00e2\u20ac\u2122t\n>>>> use ConcurrentUpdateSolrServer. The latter is because it doesn\u00e2\u20ac\u2122t \n>>>> report errors properly.\n>>>> \n>>>> We do our indexing through the load balancer and let the Solr Cloud \n>>>> cluster get the right docs to the right shards. That runs at 1 \n>>>> million docs/minute, so it isn\u00e2\u20ac\u2122t worth doing anything fancier.\n>>>> \n>>>> wunder\n>>>> Walter Underwood\n>>>> wunder@wunderwood.org\n>>>> http://observer.wunderwood.org/  (my blog)\n>>>> \n>>>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1862,
+      "end": 1956,
+      "text": ">>>>> On Sep 19, 2017, at 9:05 AM, David Hastings <\n>>>> hastings.recursive@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1956,
+      "end": 2435,
+      "text": ">>>>> \n>>>>> What about the ConcurrentUpdateSolrServer for solrj?  That is what\n>> almost\n>>>>> all of my indexing code is using for solr 5.x, Its been a while \n>>>>> since I experimented with upgrading but i seem to remember having \n>>>>> to go to HttpSolrClient and couldnt get the code to compile, so i \n>>>>> tabled the experiment for a while.  eventually I will need to move \n>>>>> to solr 6, but\n>>>> if i\n>>>>> could keep the same indexing code that would be ideal\n>>>>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2435,
+      "end": 2535,
+      "text": ">>>>> On Tue, Sep 19, 2017 at 11:59 AM, Erick Erickson <\n>>>> erickerickson@gmail.com>\n>>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2535,
+      "end": 2556,
+      "text": ">>>>> \n>>>>>> Felix:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 2910,
+      "end": 2944,
+      "text": ">>>>>> \n>>>>>> Best,\n>>>>>> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 2535,
+      "end": 3129,
+      "text": ">>>>> \n>>>>>> Felix:\n>>>>>> \n>>>>>> There's no specific testing that I know of for this issue, it's \n>>>>>> \"best effort\". Which means it _should_ work but I can't make promises.\n>>>>>> \n>>>>>> Now that said, underlying it all is just HTTP requests going back\n\n>>>>>> and forth so I know of no a-priori reasons it wouldn't be fine. \n>>>>>> It's just \"try it and see\" though.\n>>>>>> \n>>>>>> Best,\n>>>>>> Erick\n>>>>>> \n>>>>>> I'm probably preaching to the choir, but Java 1.7 is two years \n>>>>>> past the end of support from Oracle, somebody sometime has to \n>>>>>> deal with upgrading.\n>>>>>> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 3129,
+      "end": 3232,
+      "text": ">>>>>> On Mon, Sep 18, 2017 at 10:47 PM, Felix Stanley \n>>>>>> <felixstanley@globalsources.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 3232,
+      "end": 3250,
+      "text": ">>>>>>> Hi there,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 3955,
+      "end": 4026,
+      "text": ">>>>>>> Best Regards,\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Felix Stanley\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 3232,
+      "end": 5393,
+      "text": ">>>>>>> Hi there,\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> We are planning to use SOLR J 5.5.4 to query from SOLR 6.5.\n>>>>>>> \n>>>>>>> The reason was that we have to rely on JDK 1.7 at the client\nand \n>>>>>>> as\n>> far\n>>>>>> as I\n>>>>>>> know SOLR J 6.x.x only support JDK 1.8.\n>>>>>>> \n>>>>>>> I understood that SOLR J generally maintains backwards/forward\n>>>>>> compatibility\n>>>>>>> from this article:\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> https://wiki.apache.org/solr/Solrj\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Would there though be any exception that we need to take caution\n\n>>>>>>> of\n>> for\n>>>>>> this\n>>>>>>> specific version?\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Thanks a lot.\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Best Regards,\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> Felix Stanley\n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> \n>>>>>>> ----------------------\n>>>>>>> CONFIDENTIALITY NOTICE\n>>>>>>> \n>>>>>>> This e-mail (including any attachments) may contain confidential\n>> and/or\n>>>>>> privileged information. If you are not the intended recipient or\n\n>>>>>> have received this e-mail in error, please inform the sender \n>>>>>> immediately\n>> and\n>>>>>> delete this e-mail (including any attachments) from your \n>>>>>> computer, and\n>>>> you\n>>>>>> must not use, disclose to anyone else or copy this e-mail \n>>>>>> (including\n>> any\n>>>>>> attachments), whether in whole or in part.\n>>>>>>> \n>>>>>>> This e-mail and any reply to it may be monitored for security,\n\n>>>>>>> legal,\n>>>>>> regulatory compliance and/or other appropriate reasons.\n>>>>>> \n>>>> \n>>>> \n>> \n>> \n\n\n\n----------------------\nCONFIDENTIALITY NOTICE \n\nThis e-mail (including any attachments) may contain confidential and/or privileged information.\nIf you are not the intended recipient or have received this e-mail in error, please inform\nthe sender immediately and delete this e-mail (including any attachments) from your computer,\nand you must not use, disclose to anyone else or copy this e-mail (including any attachments),\nwhether in whole or in part. \n\nThis e-mail and any reply to it may be monitored for security, legal, regulatory compliance\nand/or other appropriate reasons.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_6151"
+}

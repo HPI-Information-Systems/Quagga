@@ -1,0 +1,229 @@
+{
+  "wrapper": "plaintext",
+  "text": "Debra Perlingiere\nEnron North America Corp.\nLegal Department\n1400 Smith Street, EB 3885\nHouston, Texas 77002\ndperlin@enron.com\nPhone 713-853-7658\nFax  713-646-3490\n\n----- Forwarded by Debra Perlingiere/HOU/ECT on 06/01/2001 04:43 PM -----\n\n\tBob Bowen\n\t06/01/2001 04:19 PM\n\t\t \n\t\t To: Debra Perlingiere/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Citation\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 184,
+      "end": 201,
+      "text": "Debra Perlingiere",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 213,
+      "end": 223,
+      "text": "06/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 224,
+      "end": 232,
+      "text": "04:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 165,
+      "end": 239,
+      "text": "----- Forwarded by Debra Perlingiere/HOU/ECT on 06/01/2001 04:43 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 241,
+      "end": 250,
+      "text": "Bob Bowen",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 252,
+      "end": 262,
+      "text": "06/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 263,
+      "end": 271,
+      "text": "04:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 283,
+      "end": 300,
+      "text": "Debra Perlingiere",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 333,
+      "end": 341,
+      "text": "Citation",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 239,
+      "end": 342,
+      "text": "\n\tBob Bowen\n\t06/01/2001 04:19 PM\n\t\t \n\t\t To: Debra Perlingiere/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Citation\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 342,
+      "end": 343,
+      "text": "\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 0,
+      "end": 17,
+      "text": "Debra Perlingiere",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 18,
+      "end": 60,
+      "text": "Enron North America Corp.\nLegal Department",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 61,
+      "end": 108,
+      "text": "1400 Smith Street, EB 3885\nHouston, Texas 77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 109,
+      "end": 126,
+      "text": "dperlin@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 133,
+      "end": 145,
+      "text": "713-853-7658",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 151,
+      "end": 163,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 0,
+      "end": 164,
+      "text": "Debra Perlingiere\nEnron North America Corp.\nLegal Department\n1400 Smith Street, EB 3885\nHouston, Texas 77002\ndperlin@enron.com\nPhone 713-853-7658\nFax  713-646-3490\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 0,
+      "end": 165,
+      "text": "Debra Perlingiere\nEnron North America Corp.\nLegal Department\n1400 Smith Street, EB 3885\nHouston, Texas 77002\ndperlin@enron.com\nPhone 713-853-7658\nFax  713-646-3490\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 13,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 12,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28836063.1075842804387.JavaMail.evans@thyme>",
+      "Date": "Fri, 1 Jun 2001 09:43:00 -0700 (PDT)",
+      "From": "debra.perlingiere@enron.com",
+      "To": "gerald.nemec@enron.com",
+      "Subject": "Citation",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Debra Perlingiere",
+      "X-To": "Gerald Nemec",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_notes_inbox_1186.txt"
+}

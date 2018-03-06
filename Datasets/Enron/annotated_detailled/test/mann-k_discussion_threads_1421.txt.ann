@@ -1,0 +1,278 @@
+{
+  "wrapper": "plaintext",
+  "text": "Some changes.  Can you review and advise?\n\nMitch\n---------------------- Forwarded by Mitch Robinson/Corp/Enron on 11/22/2000 \n09:08 AM ---------------------------\n\n\nDeKrey Lynn <Lynn.DeKray@swpc.siemens.com> on 11/21/2000 10:42:05 AM\nTo: \"'Mitch.Robinson@enron.com'\" <Mitch.Robinson@enron.com>\ncc: Monahan Bill <Bill.Monahan@swpc.siemens.com> \n\nSubject: Enron Issues Letter\n\n\nMitch\nAttached are SWPC revisions to your proposed letter. Our contracts group\nadvised to add signatures for all affected parties to the agreement, in\naddition to know parties for contracts on Gleason and Wheatland sites, we\nhave added parties identified in draft Blue Girl contract, Enron input as to\nappropriate Enron signatures for the Blue Girl would be appreciated.  Please\ncall with any concerns.\n\n\nRegards\nLynn DeKrey\n407 736 2823\n <<Proposal to Resolve Issues on Enron - Rev by SWPC.doc>>\n\n - Proposal to Resolve Issues on Enron - Rev by SWPC.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 43,
+      "end": 48,
+      "text": "Mitch",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 49,
+      "text": "Some changes.  Can you review and advise?\n\nMitch\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 85,
+      "end": 99,
+      "text": "Mitch Robinson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 114,
+      "end": 124,
+      "text": "11/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 126,
+      "end": 134,
+      "text": "09:08 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 49,
+      "end": 163,
+      "text": "---------------------- Forwarded by Mitch Robinson/Corp/Enron on 11/22/2000 \n09:08 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 165,
+      "end": 176,
+      "text": "DeKrey Lynn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 178,
+      "end": 206,
+      "text": "Lynn.DeKray@swpc.siemens.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 211,
+      "end": 221,
+      "text": "11/21/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 222,
+      "end": 233,
+      "text": "10:42:05 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 240,
+      "end": 264,
+      "text": "Mitch.Robinson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 268,
+      "end": 292,
+      "text": "Mitch.Robinson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 312,
+      "end": 341,
+      "text": "Bill.Monahan@swpc.siemens.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 298,
+      "end": 310,
+      "text": "Monahan Bill",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 354,
+      "end": 373,
+      "text": "Enron Issues Letter",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 163,
+      "end": 374,
+      "text": "\n\nDeKrey Lynn <Lynn.DeKray@swpc.siemens.com> on 11/21/2000 10:42:05 AM\nTo: \"'Mitch.Robinson@enron.com'\" <Mitch.Robinson@enron.com>\ncc: Monahan Bill <Bill.Monahan@swpc.siemens.com> \n\nSubject: Enron Issues Letter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 376,
+      "end": 381,
+      "text": "Mitch",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 789,
+      "end": 800,
+      "text": "Lynn DeKrey",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 781,
+      "end": 801,
+      "text": "Regards\nLynn DeKrey\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 801,
+      "end": 813,
+      "text": "407 736 2823",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 817,
+      "end": 870,
+      "text": "Proposal to Resolve Issues on Enron - Rev by SWPC.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 877,
+      "end": 930,
+      "text": "Proposal to Resolve Issues on Enron - Rev by SWPC.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 814,
+      "end": 931,
+      "text": " <<Proposal to Resolve Issues on Enron - Rev by SWPC.doc>>\n\n - Proposal to Resolve Issues on Enron - Rev by SWPC.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 374,
+      "end": 931,
+      "text": "\n\nMitch\nAttached are SWPC revisions to your proposed letter. Our contracts group\nadvised to add signatures for all affected parties to the agreement, in\naddition to know parties for contracts on Gleason and Wheatland sites, we\nhave added parties identified in draft Blue Girl contract, Enron input as to\nappropriate Enron signatures for the Blue Girl would be appreciated.  Please\ncall with any concerns.\n\n\nRegards\nLynn DeKrey\n407 736 2823\n <<Proposal to Resolve Issues on Enron - Rev by SWPC.doc>>\n\n - Proposal to Resolve Issues on Enron - Rev by SWPC.doc\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 20,
+      "target": 18,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 17,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 18,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31358213.1075845786997.JavaMail.evans@thyme>",
+      "Date": "Wed, 22 Nov 2000 01:09:00 -0800 (PST)",
+      "From": "mitch.robinson@enron.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "Enron Issues Letter",
+      "Cc": "stuart.zisman@enron.com, don.miller@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "stuart.zisman@enron.com, don.miller@enron.com",
+      "X-From": "Mitch Robinson",
+      "X-To": "Kay Mann",
+      "X-cc": "Stuart Zisman, Don Miller",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_1421.txt"
+}

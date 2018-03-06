@@ -1,0 +1,21 @@
+Hello All,
+
+Sorry to bother you all again. I am having hard time understanding solr
+terminologies.
+
+Is there any step by step guide to create solr cloud in Solr 6.x ?
+
+I have two servers on my google cloud and have installed solr on both of
+them.
+
+I would like to create one collection, shard1 on server1, shard2 on
+server2, (replicas).
+
+I want to index few GBs of documents on Shard1/Server1 and few GBs
+documents on Shard2/Server1.
+
+Could you please point me to a link or video ?
+
+Thanks,
+Nilesh Kamani
+

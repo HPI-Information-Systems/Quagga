@@ -1,0 +1,164 @@
+{
+  "wrapper": "plaintext",
+  "text": "I was out sick yesterday.  Let me know if this has not been taken care of.  Thanks.\n\n -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tThursday, January 31, 2002 8:29 AM\nTo:\tCheung, Cecilia\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tRE: new script for moving books\n\n\nCan you do the same thing with a different book id?  Instead of book counterparty FT-CAND-TERMIN, move any deals with the FT-TERMIN-GD book to the bankruptcy book from NG-Price.  Financial deals only.  Thanks.  Let me know if you need any further clarification, should be the exact same script as yesterday, just substitute FT_TERMIN-GD for the two books you were looking for yesterday.\nPL\n\n -----Original Message-----\nFrom: \tCheung, Cecilia  \nSent:\tWednesday, January 30, 2002 4:28 PM\nTo:\tLove, Phillip M.\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tRE: new script for moving books\n\nDeal moves has been completed and retranslated.\n\nCecilia\n\n\n -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tWednesday, January 30, 2002 3:54 PM\nTo:\tCheung, Cecilia\nSubject:\tRE: new script for moving books\n\n1. move to the appropriate book based on the logic - Canadian deal needs to go to CAD\n2. should only have to change deals from NG-Price to bankruptcy (deals are not in any other book)\n3. The Canadian logic deals will probably be in GJ and the US logic should be in NG\n4. Financial only\n5. Cutoff date 1/1/2002\n\n\n\n -----Original Message-----\nFrom: \tCheung, Cecilia  \nSent:\tWednesday, January 30, 2002 3:48 PM\nTo:\tLove, Phillip M.\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tFW: new script for moving books\n\nThese are interbook deals and I need to confirm the following:\n\n1. Which Bankruptcy book you want to move the deals to? BANKRUPTCY (166660) or BANKRUPTCY-CAD (166762)?\n2. Change the counterparty of the deals associated with FT-CAND-TERMIN (166764) or FT-CAND-GONE-PR (166767) from NG-PRICE(11360), ENA-FT-WT-SOCAL(108201), ENA-WT-CAL(105544) to Bankruptcy (166660 or 166762)?\n3. Should we should NGGJ as the commodity instead of NG?\n4. Financial deals only\n5. Cutoff date 1-jan-2002\n\n\n\n -----Original Message-----\nFrom: \tKeiser, Kam  \nSent:\tWednesday, January 30, 2002 3:03 PM\nTo:\tCheung, Cecilia\nSubject:\tFW: new script for moving books\n\n\nThose two counterparties could be currently  in NG-Price, ENA-WT-Socal, or ENA-WT-Cal, not just NG-Price.\n\nThanks\n\n\n -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tWednesday, January 30, 2002 3:01 PM\nTo:\tCheung, Cecilia\nCc:\tGiron, Darron C.; Gossett, Jeffrey C.; Keiser, Kam\nSubject:\tnew script for moving books\n\nPlease move the following book to book trades with Canada from NG-Price to Bankruptcy:\nFT-Cand-Termin\nFt-Cand-Gone-PR\n\nPleae let me know when this is done, we are waiting to calc today on this.  Thanks.\nPL",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 76,
+      "end": 84,
+      "text": "Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 85,
+      "text": "I was out sick yesterday.  Let me know if this has not been taken care of.  Thanks.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 85,
+      "end": 313,
+      "text": " -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tThursday, January 31, 2002 8:29 AM\nTo:\tCheung, Cecilia\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tRE: new script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 313,
+      "end": 706,
+      "text": "\n\nCan you do the same thing with a different book id?  Instead of book counterparty FT-CAND-TERMIN, move any deals with the FT-TERMIN-GD book to the bankruptcy book from NG-Price.  Financial deals only.  Thanks.  Let me know if you need any further clarification, should be the exact same script as yesterday, just substitute FT_TERMIN-GD for the two books you were looking for yesterday.\nPL\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 706,
+      "end": 935,
+      "text": " -----Original Message-----\nFrom: \tCheung, Cecilia  \nSent:\tWednesday, January 30, 2002 4:28 PM\nTo:\tLove, Phillip M.\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tRE: new script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 984,
+      "end": 993,
+      "text": "\nCecilia\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 935,
+      "end": 995,
+      "text": "\nDeal moves has been completed and retranslated.\n\nCecilia\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 995,
+      "end": 1152,
+      "text": " -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tWednesday, January 30, 2002 3:54 PM\nTo:\tCheung, Cecilia\nSubject:\tRE: new script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1152,
+      "end": 1466,
+      "text": "\n1. move to the appropriate book based on the logic - Canadian deal needs to go to CAD\n2. should only have to change deals from NG-Price to bankruptcy (deals are not in any other book)\n3. The Canadian logic deals will probably be in GJ and the US logic should be in NG\n4. Financial only\n5. Cutoff date 1/1/2002\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1466,
+      "end": 1695,
+      "text": " -----Original Message-----\nFrom: \tCheung, Cecilia  \nSent:\tWednesday, January 30, 2002 3:48 PM\nTo:\tLove, Phillip M.\nCc:\tKeiser, Kam; Gossett, Jeffrey C.; Giron, Darron C.; Lim, Francis S.\nSubject:\tFW: new script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1695,
+      "end": 2182,
+      "text": "\nThese are interbook deals and I need to confirm the following:\n\n1. Which Bankruptcy book you want to move the deals to? BANKRUPTCY (166660) or BANKRUPTCY-CAD (166762)?\n2. Change the counterparty of the deals associated with FT-CAND-TERMIN (166764) or FT-CAND-GONE-PR (166767) from NG-PRICE(11360), ENA-FT-WT-SOCAL(108201), ENA-WT-CAL(105544) to Bankruptcy (166660 or 166762)?\n3. Should we should NGGJ as the commodity instead of NG?\n4. Financial deals only\n5. Cutoff date 1-jan-2002\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2182,
+      "end": 2334,
+      "text": " -----Original Message-----\nFrom: \tKeiser, Kam  \nSent:\tWednesday, January 30, 2002 3:03 PM\nTo:\tCheung, Cecilia\nSubject:\tFW: new script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2442,
+      "end": 2450,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2334,
+      "end": 2452,
+      "text": "\n\nThose two counterparties could be currently  in NG-Price, ENA-WT-Socal, or ENA-WT-Cal, not just NG-Price.\n\nThanks\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2452,
+      "end": 2660,
+      "text": " -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tWednesday, January 30, 2002 3:01 PM\nTo:\tCheung, Cecilia\nCc:\tGiron, Darron C.; Gossett, Jeffrey C.; Keiser, Kam\nSubject:\tnew script for moving books\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2780,
+      "end": 2866,
+      "text": "Pleae let me know when this is done, we are waiting to calc today on this.  Thanks.\nPL",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2660,
+      "end": 2866,
+      "text": "\nPlease move the following book to book trades with Canada from NG-Price to Bankruptcy:\nFT-Cand-Termin\nFt-Cand-Gone-PR\n\nPleae let me know when this is done, we are waiting to calc today on this.  Thanks.\nPL",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33435896.1075840549666.JavaMail.evans@thyme>",
+      "Date": "Fri, 1 Feb 2002 08:38:47 -0800 (PST)",
+      "From": "cecilia.cheung@enron.com",
+      "To": "m..love@enron.com",
+      "Subject": "RE: new script for moving books",
+      "Cc": "kam.keiser@enron.com, c..gossett@enron.com, c..giron@enron.com, \n\ts..lim@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kam.keiser@enron.com, c..gossett@enron.com, c..giron@enron.com, \n\ts..lim@enron.com",
+      "X-From": "Cheung, Cecilia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CCHEUNG>",
+      "X-To": "Love, Phillip M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Plove>",
+      "X-cc": "Keiser, Kam </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kkeiser>, Gossett, Jeffrey C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jgosset>, Giron, Darron C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dgiron>, Lim, Francis S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Flim>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Giron, Darron C.\\Deleted Items",
+      "X-Origin": "GIRON-D",
+      "X-FileName": "darron giron 6-26-02.PST"
+    }
+  },
+  "id": "train/giron-d_deleted_items_25.txt"
+}

@@ -1,0 +1,143 @@
+{
+  "wrapper": "plaintext",
+  "text": "Jeff,\n\nCongratulations are your appointment to Chief Executive Officer of Enron.  A \nwell deserved appointment and one that will keep Enron on its incredible \nperformance path.   I look forward to expeditiously resolving the issues we \nhave at Azurix without tarnishing the image or performance  you have worked \nso diligently to create at Enron.\n\nGood luck and God Speed.\n\nJohn L. Garrison\nPresident and Chief Executive Officer\nAzurix Corp.\n713-646-6421 Office\n713-646-9577 Fax\njgarris2@azurix.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Jeff",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 348,
+      "end": 373,
+      "text": "Good luck and God Speed.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 374,
+      "end": 390,
+      "text": "John L. Garrison",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 391,
+      "end": 428,
+      "text": "President and Chief Executive Officer",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 429,
+      "end": 441,
+      "text": "Azurix Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 442,
+      "end": 454,
+      "text": "713-646-6421",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 462,
+      "end": 474,
+      "text": "713-646-9577",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 479,
+      "end": 498,
+      "text": "jgarris2@azurix.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 374,
+      "end": 498,
+      "text": "John L. Garrison\nPresident and Chief Executive Officer\nAzurix Corp.\n713-646-6421 Office\n713-646-9577 Fax\njgarris2@azurix.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 498,
+      "text": "Jeff,\n\nCongratulations are your appointment to Chief Executive Officer of Enron.  A \nwell deserved appointment and one that will keep Enron on its incredible \nperformance path.   I look forward to expeditiously resolving the issues we \nhave at Azurix without tarnishing the image or performance  you have worked \nso diligently to create at Enron.\n\nGood luck and God Speed.\n\nJohn L. Garrison\nPresident and Chief Executive Officer\nAzurix Corp.\n713-646-6421 Office\n713-646-9577 Fax\njgarris2@azurix.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 5,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 6,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 8,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33020888.1075840096803.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 00:26:00 -0800 (PST)",
+      "From": "john.garrison@enron.com",
+      "To": "jeff.skilling@enron.com",
+      "Subject": "",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "John L Garrison",
+      "X-To": "Jeff Skilling",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeffrey_Skilling_Dec2000\\Notes Folders\\Notes inbox",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.nsf"
+    }
+  },
+  "id": "test/skilling-j_notes_inbox_42.txt"
+}

@@ -1,0 +1,408 @@
+{
+  "wrapper": "plaintext",
+  "text": "Good morning.\n\nI haven't seen the insurance certificate she references.  Anyone know where \nit is?\n\nIs the retention letter of credit available yet? I know it has been \nrequested, but I don't recall seeing that it has been delivered.\n\nThanks for everything,\n\nKay\n---------------------- Forwarded by Kay Mann/Corp/Enron on 05/02/2001 08:37 \nAM ---------------------------\n\n\n\"Chow, Susan D.\" <susanchow@paulhastings.com> on 05/01/2001 07:45:03 PM\nTo: \"'ccampbell@kslaw.com'\" <ccampbell@kslaw.com>, \"'kay.mann@enron.com'\" \n<kay.mann@enron.com>\ncc: \"Lang, Gregory F.\" <gregorylang@paulhastings.com> \n\nSubject: Signatures for Certain Documents\n\n\n\n\"paulhastings.com\" made the following annotations on 05/01/01 20:45:12\n------------------------------------------------------------------------------\nNEW E-MAIL ADDRESSES AT PAUL, HASTINGS, JANOFSKY & WALKER LLP\n\nWe have changed our e-mail address.  Our new domain name is\npaulhastings.com.  In most cases, our address is composed of\nconventional first name and last name plus @paulhastings.com.  Here are\ntwo examples: janesmith@paulhastings.com and danjones@paulhastings.com.\nIf you have any questions, please contact us at noc@paulhastings.com.\n\n==============================================================================\n\"The information transmitted is intended only for the person or entity\nto which it is addressed and may contain confidential and/or privileged\nmaterial. Any review, retransmission, dissemination or other use of, or\ntaking of any action in reliance upon, this information by persons or\nentities other than the intended recipient is prohibited. If you\nreceived this in error, please contact the sender and delete the\nmaterial from all computers.\"\n\n==============================================================================\n\n\nAttached please find signature pages for:\nGE  Consent, Consent of Director for transaction.\nWe  will forward signature pages for\nAmended LLC Agreement, Consent of Director  and Members tomorrow morning upon \nreceipt from Fed  Ex.\n\nPlease confirm that insurance certificates have  been received from the \ninsurance broker.? It is my understanding that  originals were sent to Enron.\nThanks.\n?\nSusan D. Chow\nPaul, Hastings, Janofsky & Walker  LLP\n1055 Washington Boulevard\nStamford, Connecticut 06901\n(203) 961-7527\n(203) 359-3031 (fax)\nNOTE NEW EMAIL ADDRESS: susanchow@paulhastings.com\n?\n - ge_conse.pdf\n - salmon_d.pdf\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Good morning.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 235,
+      "end": 263,
+      "text": "Thanks for everything,\n\nKay\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 259,
+      "end": 262,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 263,
+      "text": "Good morning.\n\nI haven't seen the insurance certificate she references.  Anyone know where \nit is?\n\nIs the retention letter of credit available yet? I know it has been \nrequested, but I don't recall seeing that it has been delivered.\n\nThanks for everything,\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 299,
+      "end": 307,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 322,
+      "end": 332,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 333,
+      "end": 342,
+      "text": "08:37 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 263,
+      "end": 371,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 05/02/2001 08:37 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 374,
+      "end": 388,
+      "text": "Chow, Susan D.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 391,
+      "end": 417,
+      "text": "susanchow@paulhastings.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 422,
+      "end": 432,
+      "text": "05/01/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 433,
+      "end": 444,
+      "text": "07:45:03 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 451,
+      "end": 470,
+      "text": "ccampbell@kslaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 474,
+      "end": 493,
+      "text": "ccampbell@kslaw.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 498,
+      "end": 516,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 521,
+      "end": 539,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 546,
+      "end": 562,
+      "text": "Lang, Gregory F.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 565,
+      "end": 593,
+      "text": "gregorylang@paulhastings.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 606,
+      "end": 638,
+      "text": "Signatures for Certain Documents",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 371,
+      "end": 639,
+      "text": "\n\n\"Chow, Susan D.\" <susanchow@paulhastings.com> on 05/01/2001 07:45:03 PM\nTo: \"'ccampbell@kslaw.com'\" <ccampbell@kslaw.com>, \"'kay.mann@enron.com'\" \n<kay.mann@enron.com>\ncc: \"Lang, Gregory F.\" <gregorylang@paulhastings.com> \n\nSubject: Signatures for Certain Documents\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 643,
+      "end": 659,
+      "text": "paulhastings.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 695,
+      "end": 703,
+      "text": "05/01/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 704,
+      "end": 712,
+      "text": "20:45:12",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 642,
+      "end": 713,
+      "text": "\"paulhastings.com\" made the following annotations on 05/01/01 20:45:12\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 639,
+      "end": 642,
+      "text": "\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 713,
+      "end": 2417,
+      "text": "------------------------------------------------------------------------------\nNEW E-MAIL ADDRESSES AT PAUL, HASTINGS, JANOFSKY & WALKER LLP\n\nWe have changed our e-mail address.  Our new domain name is\npaulhastings.com.  In most cases, our address is composed of\nconventional first name and last name plus @paulhastings.com.  Here are\ntwo examples: janesmith@paulhastings.com and danjones@paulhastings.com.\nIf you have any questions, please contact us at noc@paulhastings.com.\n\n==============================================================================\n\"The information transmitted is intended only for the person or entity\nto which it is addressed and may contain confidential and/or privileged\nmaterial. Any review, retransmission, dissemination or other use of, or\ntaking of any action in reliance upon, this information by persons or\nentities other than the intended recipient is prohibited. If you\nreceived this in error, please contact the sender and delete the\nmaterial from all computers.\"\n\n==============================================================================\n\n\nAttached please find signature pages for:\nGE  Consent, Consent of Director for transaction.\nWe  will forward signature pages for\nAmended LLC Agreement, Consent of Director  and Members tomorrow morning upon \nreceipt from Fed  Ex.\n\nPlease confirm that insurance certificates have  been received from the \ninsurance broker.? It is my understanding that  originals were sent to Enron.\nThanks.\n?\nSusan D. Chow\nPaul, Hastings, Janofsky & Walker  LLP\n1055 Washington Boulevard\nStamford, Connecticut 06901\n(203) 961-7527\n(203) 359-3031 (fax)\nNOTE NEW EMAIL ADDRESS: susanchow@paulhastings.com\n?\n - ge_conse.pdf\n - salmon_d.pdf\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2388,
+      "end": 2400,
+      "text": "ge_conse.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2404,
+      "end": 2416,
+      "text": "salmon_d.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2385,
+      "end": 2417,
+      "text": " - ge_conse.pdf\n - salmon_d.pdf\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2356,
+      "end": 2382,
+      "text": "susanchow@paulhastings.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2311,
+      "end": 2325,
+      "text": "(203) 359-3031",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 2296,
+      "end": 2310,
+      "text": "(203) 961-7527",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 2242,
+      "end": 2295,
+      "text": "1055 Washington Boulevard\nStamford, Connecticut 06901",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 2203,
+      "end": 2241,
+      "text": "Paul, Hastings, Janofsky & Walker  LLP",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2189,
+      "end": 2202,
+      "text": "Susan D. Chow",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 2189,
+      "end": 2383,
+      "text": "Susan D. Chow\nPaul, Hastings, Janofsky & Walker  LLP\n1055 Washington Boulevard\nStamford, Connecticut 06901\n(203) 961-7527\n(203) 359-3031 (fax)\nNOTE NEW EMAIL ADDRESS: susanchow@paulhastings.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 2179,
+      "end": 2187,
+      "text": "Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 35,
+      "target": 34,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 33,
+      "target": 34,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 32,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 31,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 30,
+      "target": 35,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 35,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 16,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 15,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22783478.1075845846989.JavaMail.evans@thyme>",
+      "Date": "Wed, 2 May 2001 01:42:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "kent.shoemaker@ae.ge.com, lee.johnson@ss.ps.ge.com, jaap.smink@ps.ge.com",
+      "Subject": "Signatures for Certain Documents",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "kent.shoemaker@ae.ge.com, lee.johnson@ss.ps.ge.com, jaap.smink@ps.ge.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_3791.txt"
+}

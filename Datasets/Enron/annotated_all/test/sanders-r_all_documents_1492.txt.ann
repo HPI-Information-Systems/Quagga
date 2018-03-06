@@ -1,0 +1,129 @@
+{
+  "wrapper": "plaintext",
+  "text": "CONFIDENTIAL:\nJOINT DEFENSE - HENDRICKS\n\nAttached is the Powerex v. PX complaint, which was filed yesterday in the\nCentral District and assigned to Judge Lew.\n\n**************\n\nCONFIDENTIAL\n\nLuce, Forward, Hamilton & Scripps LLP\n600 West Broadway\nSuite 2600\nSan Diego, CA 92101-3391\n(619) 236-1414\n\nThe information contained in this electronic mail transmission is\nconfidential and intended to be sent only to the stated recipient of the\ntransmission.  It may therefore be protected from unauthorized use or\ndissemination by the attorney-client and/or attorney work-product\nprivileges.  If you are not the intended recipient or the intended\nrecipient's agent, you are hereby notified that any review, use,\ndissemination, distribution or copying of this communication is strictly\nprohibited.  You are also asked to notify us immediately by telephone and to\ndelete this transmission with any attachments and destroy all copies in any\nform.  Thank you in advance for your cooperation.\n\n\n\n\n <<Powrex.pdf>>\n\n - Powrex.pdf",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 988,
+      "end": 998,
+      "text": "Powrex.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1005,
+      "end": 1015,
+      "text": "Powrex.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 985,
+      "end": 1015,
+      "text": " <<Powrex.pdf>>\n\n - Powrex.pdf",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 298,
+      "end": 981,
+      "text": "The information contained in this electronic mail transmission is\nconfidential and intended to be sent only to the stated recipient of the\ntransmission.  It may therefore be protected from unauthorized use or\ndissemination by the attorney-client and/or attorney work-product\nprivileges.  If you are not the intended recipient or the intended\nrecipient's agent, you are hereby notified that any review, use,\ndissemination, distribution or copying of this communication is strictly\nprohibited.  You are also asked to notify us immediately by telephone and to\ndelete this transmission with any attachments and destroy all copies in any\nform.  Thank you in advance for your cooperation.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 190,
+      "end": 203,
+      "text": "Luce, Forward",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 205,
+      "end": 227,
+      "text": "Hamilton & Scripps LLP",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 228,
+      "end": 281,
+      "text": "600 West Broadway\nSuite 2600\nSan Diego, CA 92101-3391",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 282,
+      "end": 296,
+      "text": "(619) 236-1414",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 190,
+      "end": 297,
+      "text": "Luce, Forward, Hamilton & Scripps LLP\n600 West Broadway\nSuite 2600\nSan Diego, CA 92101-3391\n(619) 236-1414\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 1015,
+      "text": "CONFIDENTIAL:\nJOINT DEFENSE - HENDRICKS\n\nAttached is the Powerex v. PX complaint, which was filed yesterday in the\nCentral District and assigned to Judge Lew.\n\n**************\n\nCONFIDENTIAL\n\nLuce, Forward, Hamilton & Scripps LLP\n600 West Broadway\nSuite 2600\nSan Diego, CA 92101-3391\n(619) 236-1414\n\nThe information contained in this electronic mail transmission is\nconfidential and intended to be sent only to the stated recipient of the\ntransmission.  It may therefore be protected from unauthorized use or\ndissemination by the attorney-client and/or attorney work-product\nprivileges.  If you are not the intended recipient or the intended\nrecipient's agent, you are hereby notified that any review, use,\ndissemination, distribution or copying of this communication is strictly\nprohibited.  You are also asked to notify us immediately by telephone and to\ndelete this transmission with any attachments and destroy all copies in any\nform.  Thank you in advance for your cooperation.\n\n\n\n\n <<Powrex.pdf>>\n\n - Powrex.pdf",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 6,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 5,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16668930.1075853206885.JavaMail.evans@thyme>",
+      "Date": "Tue, 13 Feb 2001 03:19:00 -0800 (PST)",
+      "From": "chealey@luce.com",
+      "To": "jalexander@gibbs-bruns.com, gallen@bakerbotts.com, bbailey@duke-energy.com, \n\tjames.beh@troutmansanders.com, bestorg@dsmo.com, erik.bliss@lw.com, \n\tjtbrooks@luce.com, heather.brown@williams.com, dbutswinkas@wc.com, \n\ttcalvani@pillsburywinthrop.com, gacarter@phjw.com, \n\techapin@chapinlaw.com, charles.chasin@msdw.com, \n\trcoleman@duke-energy.com, gcopeland@bakerbotts.com, \n\tjennifer.costa@neg.pge.com, lcottle@whitecase.com, \n\thugh.davenport@mirant.com, jeffrey_davidson@la.kirkland.com, \n\tbrady.edwards@bakerbotts.com, robert.edwards@troutmansanders.com, \n\teisenstatl@dsmo.com, fallonr@dsmo.com, gfergus@brobeck.com, \n\tkirk.forrest@williams.com, jfrizzell@gibbs-bruns.com, \n\tjohn.gammie@williams.com, sbishop@gibbs-bruns.com, \n\talex.goldberg@williams.com, mhamer@graycary.com, \n\tscott.harris@nrgenergy.com, sanford.hartman@neg.pge.com, \n\tchealey@luce.com, jennifer.hein@neg.pge.com, jche@dynegy.com, \n\tsteve.herman@neg.pge.com, hershberger@scmv.com, thixson@mdbe.com, \n\tholcombb@dsmo.com, thoulihan@mdbe.com, mike-jines@reliantenergy.com, \n\tkadzikp@dsmo.com, jkarp@whitecase.com, mkass@pillsburywinthrop.com, \n\tbkatz@chapinlaw.com, tkennedy@mdbe.com, dcastro@pkns.com, \n\tkleinmanj@dsmo.com, llane@graycary.com, blarkin@phjw.com, \n\tleone@scmv.com, jleslie@luce.com, mmaxwell@bakerbotts.com, \n\tmcmahon@scmv.com, rmcmanus@bakerbotts.com, pcmeier@phjw.com, \n\tbmerryman@whitecase.com, rmittelstaedt@pillsburywinthrop.com, \n\ttim.muller@williams.com, hemu@dynegy.com, tanya.murphy@neg.pge.com, \n\tjdne@dynegy.com, nnissen@mdbe.com, djn@pkns.com, \n\tcmpallenik@duke-energy.com, jmpa@dynegy.com, napedersen@jonesday.com, \n\tperlism@dsmo.com, marylou.peters@msdw.com, apickens@gibbs-bruns.com, \n\tdpickett@mdbe.com, sraber@wc.com, jareding@phjw.com, \n\tlight-kelly@reliantenergy.com, tony_richardson@la.kirkland.com, \n\troppe@scmv.com, jprussell@duke-energy.com, \n\trichard.b.sanders@enron.com, juneann.sauntry@troutmansanders.com, \n\twwschofi@phjw.com, jshohet@graycary.com, msmith1@enron.com, \n\tmsottosanti@smrh.com, springerj@dsmo.com, zack.starbird@mirant.com, \n\trsteiner@luce.com, jsturgeon@whitecase.com, ttaylor@smrh.com, \n\tjtiffany@pillsburywinthrop.com, dtribble@pillsburywinthrop.com, \n\tcvarner@smrh.com, dan.wall@lw.com, mike.weaver@lw.com, \n\thwiegmann@wc.com, robert.c.williams@enron.com, \n\tcharles.zdebski@troutmansanders.com",
+      "Subject": "New complaint - Powerex v. PX",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Healey, Chris\" <chealey@LUCE.com>",
+      "X-To": "\"Alexander, Jeff\" <jalexander@gibbs-bruns.com>, \"Allen, Gretchen\"\t <gallen@bakerbotts.com>, \"Bailey, Brent\" <bbailey@duke-energy.com>, \"Beh, James\" <james.beh@troutmansanders.com>, \"Bestor, Geoffrey\"\t <BestorG@dsmo.com>, \"Bliss, Erik\" <erik.bliss@lw.com>, \"Brooks, John T.\"\t <jtbrooks@luce.com>, \"Brown, Heather\" <heather.brown@williams.com>, \"Butswinkas, Dane\" <dbutswinkas@wc.com>, \"Calvani, Terry\"\t <tcalvani@pillsburywinthrop.com>, \"Carter, Grace\" <gacarter@phjw.com>, \"Chapin, Edward\" <echapin@chapinlaw.com>, \"Chasin, Charlie\"\t <charles.chasin@msdw.com>, \"Coleman, Ran\" <rcoleman@duke-energy.com>, \"Copeland, Greg\" <gcopeland@bakerbotts.com>, \"Costa, Jennifer\"\t <jennifer.costa@neg.pge.com>, \"Cottle, Lisa\" <lcottle@whitecase.com>, \"Davenport, Hugh\" <hugh.davenport@mirant.com>, \"Davidson, Jeffrey\"\t <jeffrey_davidson@la.kirkland.com>, \"Edwards, Brady\"\t <brady.edwards@bakerbotts.com>, \"Edwards, Robert Jr.\"\t <robert.edwards@troutmansanders.com>, \"Eisenstat, Larry\"\t <EisenstatL@dsmo.com>, \"Fallon, Robert\" <FallonR@dsmo.com>, \"Fergus, G.\"\t <GFergus@brobeck.com>, \"Forrest, Kirk\" <kirk.forrest@williams.com>, \"Frizzell, Jean\" <jfrizzell@gibbs-bruns.com>, \"Gammie, John\"\t <john.gammie@williams.com>, \"Gibbs, Robin\" <sbishop@gibbs-bruns.com>, \"Goldberg, Alex\" <alex.goldberg@williams.com>, \"Hamer, Mark\"\t <mhamer@graycary.com>, \"Harris, Scott\" <scott.harris@nrgenergy.com>, \"Hartman, Sanford\" <sanford.hartman@neg.pge.com>, \"Healey, Christopher\"\t <chealey@luce.com>, \"Hein, Jennifer\" <jennifer.hein@neg.pge.com>, \"Herbert, John\" <jche@dynegy.com>, \"Herman, Stephen\"\t <steve.herman@neg.pge.com>, \"Hershberger, John\" <hershberger@scmv.com>, \"Hixson, Thomas\" <thixson@mdbe.com>, \"Holcomb, Bruce\" <HolcombB@dsmo.com>, \"Houlihan, Terry\" <thoulihan@mdbe.com>, \"Jines, Mike\"\t <mike-jines@reliantenergy.com>, \"Kadzik, Peter\" <KadzikP@dsmo.com>, \"Karp, Joseph\" <jkarp@whitecase.com>, \"Kass, Michael\"\t <mkass@pillsburywinthrop.com>, \"Katz, Bruno\" <bkatz@chapinlaw.com>, \"Kennedy, Thomas\" <tkennedy@mdbe.com>, \"Kirby, Michael\"\t <dcastro@pkns.com>, \"Kleinman, Joel\" <KleinmanJ@dsmo.com>, \"Lane, Linda\"\t <llane@graycary.com>, \"Larkin, Blake\" <blarkin@phjw.com>, \"Leone, Michael\" <leone@scmv.com>, \"Leslie, John\" <jleslie@luce.com>, \"Maxwell, Melissa\" <mmaxwell@bakerbotts.com>, \"McMahon, Gerald\"\t <mcmahon@scmv.com>, \"McManus, Randy\" <rmcmanus@bakerbotts.com>, \"Meier, Peter\" <pcmeier@phjw.com>, \"Merryman, Bryan\"\t <bmerryman@whitecase.com>, \"Mittelstaedt, Robert\"\t <rmittelstaedt@PillsburyWinthrop.com>, \"Muller, Tim\"\t <tim.muller@williams.com>, \"Murphy, Harlan\" <Hemu@dynegy.com>, \"Murphy, Tanya\" <tanya.murphy@neg.pge.com>, \"Newton, Joel\"\t <jdne@dynegy.com>, \"Nissen, Neha\" <nnissen@mdbe.com>, \"Noonan, David\"\t <djn@pkns.com>, \"Pallenik, Christine\" <cmpallenik@duke-energy.com>, \"Paul, Joe\" <jmpa@dynegy.com>, \"Pedersen, Norman\"\t <napedersen@jonesday.com>, \"Perlis, Mark\" <PerlisM@dsmo.com>, \"Peters, Mary Lou\" <marylou.peters@msdw.com>, \"Pickens, A.\"\t <apickens@gibbs-bruns.com>, \"Pickett, Donn\" <dpickett@mdbe.com>, \"Raber, Stephen\" <sraber@wc.com>, \"Reding, Jack\" <jareding@phjw.com>, \"Rice Kelly, Hugh\" <light-kelly@reliantenergy.com>, \"Richardson, Tony\"\t <tony_richardson@la.kirkland.com>, \"Roppe, Laura\" <roppe@scmv.com>, \"Russell, JoAnn\" <jprussell@duke-energy.com>, \"Sanders, Richard\"\t <richard.b.sanders@enron.com>, \"Sauntry, June Ann\"\t <juneann.sauntry@troutmansanders.com>, \"Schofield, Bill\"\t <wwschofi@phjw.com>, \"Shohet, Jeffrey\" <jshohet@graycary.com>, \"Smith, Mike\" <msmith1@enron.com>, \"Sottosanti, Martha\"\t <msottosanti@smrh.com>, \"Springer, James\" <SpringerJ@dsmo.com>, \"Starbird, Zackary\" <zack.starbird@mirant.com>, \"Steiner, Robert\"\t <rsteiner@luce.com>, \"Sturgeon, John\" <jsturgeon@whitecase.com>, \"Taylor, Timothy\" <ttaylor@smrh.com>, \"Tiffany, Joseph II\"\t <jtiffany@pillsburywinthrop.com>, \"Tribble, Douglas\"\t <dtribble@pillsburywinthrop.com>, \"Varner, Carlton\" <cvarner@smrh.com>, \"Wall, Dan\" <dan.wall@lw.com>, \"Weaver, Michael\" <mike.weaver@lw.com>, \"Wiegmann, Hack\" <hwiegmann@wc.com>, \"Williams, Robert\"\t <robert.c.williams@enron.com>, \"Zdebski, Charles\"\t <charles.zdebski@troutmansanders.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_1492.txt"
+}

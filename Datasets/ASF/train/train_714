@@ -1,0 +1,11 @@
+Hi all,
+I developed a custom DocTransformer that is loaded from a .jar in the core
+"lib" directory. It works but I have now a problem with versioning:
+1. if lib directory contains different versions of the same .jar which one
+is loaded? I tried putting both myplugins-1.0.0.jar and myplugins-1.0.1.jar
+and I noticed that the oldest one is loaded. Is there a way to force
+specific jar version to be loaded in solrconfig?
+2. More in general: is it possible to expose in solr the version number for
+custom plugins?
+Thank you in advance
+

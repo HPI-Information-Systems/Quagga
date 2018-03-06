@@ -1,0 +1,191 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/19/2001 \n04:21 PM ---------------------------\n\n\nNW on Linux <Linux@bdcimail.com> on 04/16/2001 06:20:01 PM\nPlease respond to Linux Help <NWReplies@bellevue.com>\nTo: vkamins@enron.com\ncc:  \nSubject: Super-secret Linux\n\n\nNETWORK WORLD NEWSLETTER: PHIL HOCHMUTH\non LINUX\n04/16/01 - Today's focus: Super-secret Linux\n\nDear Wincenty Kaminski,\n\nIn this issue:\n\n* National Security Agency is bulletproofing the operating system\n* Links related to Linux\n* Featured reader resource\n* CAREER CORNER: Mission-critical opportunities with marketplace\n                 winners\n\n_______________________________________________________________\nIf a friend has forwarded this newsletter to you, why not sign-up\nfor your own free copy? Visit http://www.nwwsubscribe.com/FOC162\nfor your own free subscription.\n_______________________________________________________________\nToday's focus: Super-secret Linux\n\nBy Phil Hochmuth\n\nNetwork Associates is teaming up with the National Security Agency,\nthe government's top electronic cryptography and spying institution,\nto help the agency fine-tune its highly secure version of Linux. The\ngoal is to create a version of Linux that is impervious to outside\nattacks.\n\nSecurity Enhanced Linux, or SELinux, is a project under development\nby the NSA to create a version of the operating system that is more\nsecure than the commercial distributions of Linux available from\nsoftware vendors and the open-source community. The PGP Security\ndivision of Network Associates is working with the NSA to modify the\nLinux source code so that applications running on a Linux server or\nPC have reduced access to a Linux machine's underlying operating\nsystem. The aim is to give Linux servers the ability to shirk off\n\"buffer overrun\" and \"format string\" attacks, which take advantage of\nloose ends in Linux applications to access a server's core operating\nsystem and shut it down. A Linux worm dubbed \"Lion\" was recently\nidentified as using this method to hack Linux servers.\n\nNSA has worked with other software firms to shore up other weaknesses\nin the operating system. Secure Computing has worked on the SELinux\nproject to add its Type Enforcement technology to SELinux. Type\nEnforcement protects the operating system and applications by\nsegmenting them into security \"domains\" with specifications on what\ntypes of files can be accessed by each domain. (For example, this\ncould be used to prevent access to a configuration file through an\napplication, such as Apache Web server). NSA is also working with\nVMWare to come up with a more secure user permissions system for\nallowing users with different security access to work on the same\nserver.\n\nThe good news for Linux users who are not high-level NSA operatives\nis that SELinux will be released to the open-source community once\nfinished. This means that commercial Linux vendors could include\nSELinux security enhancements in future releases, resulting in more\nbulletproof Linux Web and database servers in enterprises.\n\n_______________________________________________________________\nTo contact Phil Hochmuth:\n\nPhil Hochmuth is a staff writer for Network World, and\na former systems integrator. You can reach him at\nmailto:phochmut@nww.com.\n_______________________________________________________________\nRELATED LINKS\n\nGet the source code for SELinux\nhttp://www.nsa.gov/selinux/src-disclaim.html\n\nCheck out a site with Linux security tools and tips\nhttp://www.linuxsecurity.com\n\nPGP working with NSA on Linux security prototype  -  Network World,\n04/16/01\nhttp://www.nwfusion.com/news/2001/0416apps.html\n\nBreaking Linux news from Network World and around the 'Net,\nupdated daily: http://www.nwfusion.com/topics/linux.html\n\nArchive of the Linux newsletter:\nhttp://www.nwfusion.com/newsletters/linux/index.html\n______________________________________________________________\nFEATURED READER RESOURCE\n\nBuyer's Guides\n\nResearching for a purchase? Check out Network World Fusion's\nBuyer's Guides. Whether you're researching VPN products or SAN\nswitches or wireless LAN gear, these guides provide reviews and\ncompare vendors head to head. See the list of guides at:\nhttp://www.nwfusion.com/research/bg.html\n_______________________________________________________________\nCAREER CORNER presented by http://www.ITcareers.com\n\nLINUX TALENT IN DEMAND\n\nTechnology business trends are shifting, but job creation is\nstill high. Register with LeadersOnline and let our web-based\nrecruiting service bring exceptional Linux opportunities your\nway. With positions ranging from $75-200K, we work with the\nbest companies on their mission-critical jobs. LeadersOnline is\njust what you'd expect from Heidrick & Struggles, the world's\nleading executive search firm. It takes just 10 minutes to\nregister and our service is free and confidential.\nhttp://ad.doubleclick.net/clk;2712563;5704255;f\n_______________________________________________________________\nSUBSCRIPTION SERVICES\n\nTo subscribe or unsubscribe to any Network World e-mail\nnewsletters, go to:\nhttp://www.nwwsubscribe.com/news/scripts/notprinteditnews.asp\n\nTo unsubscribe from promotional e-mail go to:\nhttp://www.nwwsubscribe.com/ep\n\nTo change your e-mail address, go to:\nhttp://www.nwwsubscribe.com/news/scripts/changeemail.asp\n\nSubscription questions? Contact Customer Service by replying to\nthis message.\n\nHave editorial comments? Write Jeff Caruso, Newsletter Editor,\nat: mailto:jcaruso@nww.com\n\nFor advertising information, write Jamie Kalbach, Fusion Sales\nManager, at: mailto:jkalbach@nww.com\n\nCopyright Network World, Inc., 2001\n\n------------------------\nThis message was sent to:  vkamins@enron.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "04:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 04/19/2001 \n04:21 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 126,
+      "text": "NW on Linux",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 128,
+      "end": 146,
+      "text": "Linux@bdcimail.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 151,
+      "end": 161,
+      "text": "04/16/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 162,
+      "end": 173,
+      "text": "06:20:01 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 204,
+      "end": 226,
+      "text": "NWReplies@bellevue.com",
+      "type": "Header/Org/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 192,
+      "end": 202,
+      "text": "Linux Help",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 232,
+      "end": 249,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 265,
+      "end": 283,
+      "text": "Super-secret Linux",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 113,
+      "end": 284,
+      "text": "\n\nNW on Linux <Linux@bdcimail.com> on 04/16/2001 06:20:01 PM\nPlease respond to Linux Help <NWReplies@bellevue.com>\nTo: vkamins@enron.com\ncc:  \nSubject: Super-secret Linux\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 386,
+      "end": 403,
+      "text": "Wincenty Kaminski",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 381,
+      "end": 405,
+      "text": "Dear Wincenty Kaminski,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 284,
+      "end": 5680,
+      "text": "\n\nNETWORK WORLD NEWSLETTER: PHIL HOCHMUTH\non LINUX\n04/16/01 - Today's focus: Super-secret Linux\n\nDear Wincenty Kaminski,\n\nIn this issue:\n\n* National Security Agency is bulletproofing the operating system\n* Links related to Linux\n* Featured reader resource\n* CAREER CORNER: Mission-critical opportunities with marketplace\n                 winners\n\n_______________________________________________________________\nIf a friend has forwarded this newsletter to you, why not sign-up\nfor your own free copy? Visit http://www.nwwsubscribe.com/FOC162\nfor your own free subscription.\n_______________________________________________________________\nToday's focus: Super-secret Linux\n\nBy Phil Hochmuth\n\nNetwork Associates is teaming up with the National Security Agency,\nthe government's top electronic cryptography and spying institution,\nto help the agency fine-tune its highly secure version of Linux. The\ngoal is to create a version of Linux that is impervious to outside\nattacks.\n\nSecurity Enhanced Linux, or SELinux, is a project under development\nby the NSA to create a version of the operating system that is more\nsecure than the commercial distributions of Linux available from\nsoftware vendors and the open-source community. The PGP Security\ndivision of Network Associates is working with the NSA to modify the\nLinux source code so that applications running on a Linux server or\nPC have reduced access to a Linux machine's underlying operating\nsystem. The aim is to give Linux servers the ability to shirk off\n\"buffer overrun\" and \"format string\" attacks, which take advantage of\nloose ends in Linux applications to access a server's core operating\nsystem and shut it down. A Linux worm dubbed \"Lion\" was recently\nidentified as using this method to hack Linux servers.\n\nNSA has worked with other software firms to shore up other weaknesses\nin the operating system. Secure Computing has worked on the SELinux\nproject to add its Type Enforcement technology to SELinux. Type\nEnforcement protects the operating system and applications by\nsegmenting them into security \"domains\" with specifications on what\ntypes of files can be accessed by each domain. (For example, this\ncould be used to prevent access to a configuration file through an\napplication, such as Apache Web server). NSA is also working with\nVMWare to come up with a more secure user permissions system for\nallowing users with different security access to work on the same\nserver.\n\nThe good news for Linux users who are not high-level NSA operatives\nis that SELinux will be released to the open-source community once\nfinished. This means that commercial Linux vendors could include\nSELinux security enhancements in future releases, resulting in more\nbulletproof Linux Web and database servers in enterprises.\n\n_______________________________________________________________\nTo contact Phil Hochmuth:\n\nPhil Hochmuth is a staff writer for Network World, and\na former systems integrator. You can reach him at\nmailto:phochmut@nww.com.\n_______________________________________________________________\nRELATED LINKS\n\nGet the source code for SELinux\nhttp://www.nsa.gov/selinux/src-disclaim.html\n\nCheck out a site with Linux security tools and tips\nhttp://www.linuxsecurity.com\n\nPGP working with NSA on Linux security prototype  -  Network World,\n04/16/01\nhttp://www.nwfusion.com/news/2001/0416apps.html\n\nBreaking Linux news from Network World and around the 'Net,\nupdated daily: http://www.nwfusion.com/topics/linux.html\n\nArchive of the Linux newsletter:\nhttp://www.nwfusion.com/newsletters/linux/index.html\n______________________________________________________________\nFEATURED READER RESOURCE\n\nBuyer's Guides\n\nResearching for a purchase? Check out Network World Fusion's\nBuyer's Guides. Whether you're researching VPN products or SAN\nswitches or wireless LAN gear, these guides provide reviews and\ncompare vendors head to head. See the list of guides at:\nhttp://www.nwfusion.com/research/bg.html\n_______________________________________________________________\nCAREER CORNER presented by http://www.ITcareers.com\n\nLINUX TALENT IN DEMAND\n\nTechnology business trends are shifting, but job creation is\nstill high. Register with LeadersOnline and let our web-based\nrecruiting service bring exceptional Linux opportunities your\nway. With positions ranging from $75-200K, we work with the\nbest companies on their mission-critical jobs. LeadersOnline is\njust what you'd expect from Heidrick & Struggles, the world's\nleading executive search firm. It takes just 10 minutes to\nregister and our service is free and confidential.\nhttp://ad.doubleclick.net/clk;2712563;5704255;f\n_______________________________________________________________\nSUBSCRIPTION SERVICES\n\nTo subscribe or unsubscribe to any Network World e-mail\nnewsletters, go to:\nhttp://www.nwwsubscribe.com/news/scripts/notprinteditnews.asp\n\nTo unsubscribe from promotional e-mail go to:\nhttp://www.nwwsubscribe.com/ep\n\nTo change your e-mail address, go to:\nhttp://www.nwwsubscribe.com/news/scripts/changeemail.asp\n\nSubscription questions? Contact Customer Service by replying to\nthis message.\n\nHave editorial comments? Write Jeff Caruso, Newsletter Editor,\nat: mailto:jcaruso@nww.com\n\nFor advertising information, write Jamie Kalbach, Fusion Sales\nManager, at: mailto:jkalbach@nww.com\n\nCopyright Network World, Inc., 2001\n\n------------------------\nThis message was sent to:  vkamins@enron.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8338395.1075856439696.JavaMail.evans@thyme>",
+      "Date": "Thu, 19 Apr 2001 09:21:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Super-secret Linux",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_184.txt"
+}

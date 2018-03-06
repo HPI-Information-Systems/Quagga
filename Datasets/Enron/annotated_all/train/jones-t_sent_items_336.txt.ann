@@ -1,0 +1,132 @@
+{
+  "wrapper": "plaintext",
+  "text": "Anne also requested this.  Kay young prepared and is emailing a copy to anne.\n\n -----Original Message-----\nFrom: \tGreenberg, Mark  \nSent:\tWednesday, October 31, 2001 1:22 PM\nTo:\tYoung, Kay\nCc:\tJones, Tana\nSubject:\tSunGard Trading & Risk\n\nKay -\n\nDo we have a CA with SunGard Trading & Risk??\n\n\nMark",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 79,
+      "text": "Anne also requested this.  Kay young prepared and is emailing a copy to anne.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 114,
+      "end": 129,
+      "text": "Greenberg, Mark",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 149,
+      "end": 165,
+      "text": "October 31, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 166,
+      "end": 173,
+      "text": "1:22 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 178,
+      "end": 188,
+      "text": "Young, Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 193,
+      "end": 204,
+      "text": "Jones, Tana",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 214,
+      "end": 236,
+      "text": "SunGard Trading & Risk",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 79,
+      "end": 237,
+      "text": " -----Original Message-----\nFrom: \tGreenberg, Mark  \nSent:\tWednesday, October 31, 2001 1:22 PM\nTo:\tYoung, Kay\nCc:\tJones, Tana\nSubject:\tSunGard Trading & Risk\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 238,
+      "end": 241,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 293,
+      "end": 297,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 237,
+      "end": 297,
+      "text": "\nKay -\n\nDo we have a CA with SunGard Trading & Risk??\n\n\nMark",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 10,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28656237.1075863224665.JavaMail.evans@thyme>",
+      "Date": "Wed, 31 Oct 2001 12:02:52 -0800 (PST)",
+      "From": "tana.jones@enron.com",
+      "To": "mark.greenberg@enron.com",
+      "Subject": "RE: SunGard Trading & Risk",
+      "Cc": "c..koehler@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "c..koehler@enron.com",
+      "X-From": "Jones, Tana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=TJONES>",
+      "X-To": "Greenberg, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mgreenbe>",
+      "X-cc": "Koehler, Anne C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Akoehle>",
+      "X-bcc": "",
+      "X-Folder": "\\TJONES (Non-Privileged)\\Jones, Tana\\Sent Items",
+      "X-Origin": "Jones-T",
+      "X-FileName": "TJONES (Non-Privileged).pst"
+    }
+  },
+  "id": "train/jones-t_sent_items_336.txt"
+}

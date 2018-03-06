@@ -1,0 +1,39 @@
+Any other definitions in that URP chain are triggered?
+
+Are you seeing this in a nested document by any chance?
+
+Regards,
+   Alex.
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 13 March 2017 at 10:29, Furkan KAMACI <furkankamaci@gmail.com> wrote:
+> Hi,
+>
+> I'm testing schemaless mode of Solr 6.4.2. Solr predicts fields types when
+> I generate dummy data and index it to Solr. However I could not make Solr
+> to predict date fields. I tried that:
+>
+>  "custom_start":["2017-05-16T00:00"]
+>
+> which is a date parse result of SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
+>
+> and
+>
+>  "custom_start":["2017-05-16"]
+>
+> from SimpleDateFormat("yyyy-MM-dd");
+>
+> at both scenarios, predicted type is:
+>
+> org.apache.solr.schema.StrField
+>
+> I use fresh version of Solr which does not have custom modifications and
+> has proper solr.ParseDateFieldUpdateProcessorFactory definition.
+>
+> What I'm missing?
+>
+> Kind Regards,
+> Furkan KAMACI
+

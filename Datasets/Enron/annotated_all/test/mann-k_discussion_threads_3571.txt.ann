@@ -1,0 +1,660 @@
+{
+  "wrapper": "plaintext",
+  "text": "Didn't go through the first time.\n\nKay\n---------------------- Forwarded by Kay Mann/Corp/Enron on 04/26/2001 07:19 \nAM ---------------------------\n\n\nKay Mann\n04/26/2001 07:17 AM\nTo: \"Staikos, John P.\" <johnstaikos@paulhastings.com>\ncc: CCampbell@KSLAW.com/, gregorylang@paulhastings.com/, \njohnstaikos@paulhastings.com/, \"'VAN DUSEN, Nicholas'\" \n<nicholas.vandusen@freshfields.com/, \"'O'BRIEN, Lisa'\" <lisa.obri> \n\nSubject: Re: GE Guarantee  \n\nWill you  be providing an execution version with questions removed/blanks \nfilled in?  Please send it directly to kent.shoemaker@ae.ge.com, copy to me.\n\nThanks,\n\nThanks,\n\nKay\n\n\n\n\"Staikos, John P.\" <johnstaikos@paulhastings.com> on 04/25/2001 11:42:49 AM\nTo: \"'kay.mann@enron.com'\" <kay.mann@enron.com>, \"'Campbell, Carolyn'\" \n<CCampbell@KSLAW.com>\ncc: \"Lang, Gregory F.\" <gregorylang@paulhastings.com>, \"Staikos, John P.\" \n<johnstaikos@paulhastings.com>, \"'VAN DUSEN, Nicholas'\" \n<nicholas.vandusen@freshfields.com>, \"'O'BRIEN, Lisa'\" \n<lisa.obrien@freshfields.com>, \"'PARKER, Isabel'\" \n<isabel.parker@freshfields.com> \n\nSubject: GE Guarantee\n\n\n\n\"paulhastings.com\" made the following annotations on 04/25/01 12:42:55\n------------------------------------------------------------------------------\nNEW E-MAIL ADDRESSES AT PAUL, HASTINGS, JANOFSKY & WALKER LLP\n\nWe have changed our e-mail address.  Our new domain name is\npaulhastings.com.  In most cases, our address is composed of\nconventional first name and last name plus @paulhastings.com.  Here are\ntwo examples: janesmith@paulhastings.com and danjones@paulhastings.com.\nIf you have any questions, please contact us at noc@paulhastings.com.\n\n==============================================================================\n\"The information transmitted is intended only for the person or entity\nto which it is addressed and may contain confidential and/or privileged\nmaterial. Any review, retransmission, dissemination or other use of, or\ntaking of any action in reliance upon, this information by persons or\nentities other than the intended recipient is prohibited. If you\nreceived this in error, please contact the sender and delete the\nmaterial from all computers.\"\n\n==============================================================================\n\n\nAttached please find the GE Guarantee in  Word format.? Also, we have \nattached a pdf black-line of the Guarantee vs  the form of guarantee in the \nTurbine Contract.\n?\nDo not hesitate to call us with any  questions.\n?\nBest regards.\n?\n______________________\nJohn  Staikos\nDirect Dial:?  203.961.7523\nDirect Fax:?  203.674.7723\nE-mail:?  johnstaikos@paulhastings.com\n?\n - 47K202!.DOC\n - GE Guarantee black-line against form of guarantee - distrbuted 4-25-01.pdf\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 39,
+      "text": "Didn't go through the first time.\n\nKay\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 35,
+      "end": 38,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 75,
+      "end": 83,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 98,
+      "end": 108,
+      "text": "04/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 109,
+      "end": 118,
+      "text": "07:19 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 39,
+      "end": 147,
+      "text": "---------------------- Forwarded by Kay Mann/Corp/Enron on 04/26/2001 07:19 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 149,
+      "end": 157,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 158,
+      "end": 168,
+      "text": "04/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 169,
+      "end": 177,
+      "text": "07:17 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 183,
+      "end": 199,
+      "text": "Staikos, John P.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 202,
+      "end": 230,
+      "text": "johnstaikos@paulhastings.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 236,
+      "end": 255,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 258,
+      "end": 286,
+      "text": "gregorylang@paulhastings.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 290,
+      "end": 318,
+      "text": "johnstaikos@paulhastings.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 323,
+      "end": 342,
+      "text": "VAN DUSEN, Nicholas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 347,
+      "end": 380,
+      "text": "nicholas.vandusen@freshfields.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 385,
+      "end": 398,
+      "text": "O'BRIEN, Lisa",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 402,
+      "end": 411,
+      "text": "lisa.obri",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 424,
+      "end": 440,
+      "text": "Re: GE Guarantee",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 147,
+      "end": 443,
+      "text": "\n\nKay Mann\n04/26/2001 07:17 AM\nTo: \"Staikos, John P.\" <johnstaikos@paulhastings.com>\ncc: CCampbell@KSLAW.com/, gregorylang@paulhastings.com/, \njohnstaikos@paulhastings.com/, \"'VAN DUSEN, Nicholas'\" \n<nicholas.vandusen@freshfields.com/, \"'O'BRIEN, Lisa'\" <lisa.obri> \n\nSubject: Re: GE Guarantee  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 615,
+      "end": 618,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 597,
+      "end": 619,
+      "text": "Thanks,\n\nThanks,\n\nKay\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 443,
+      "end": 622,
+      "text": "\nWill you  be providing an execution version with questions removed/blanks \nfilled in?  Please send it directly to kent.shoemaker@ae.ge.com, copy to me.\n\nThanks,\n\nThanks,\n\nKay\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 623,
+      "end": 639,
+      "text": "Staikos, John P.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 642,
+      "end": 670,
+      "text": "johnstaikos@paulhastings.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 675,
+      "end": 685,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 686,
+      "end": 697,
+      "text": "11:42:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 704,
+      "end": 722,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 726,
+      "end": 744,
+      "text": "kay.mann@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 749,
+      "end": 766,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 771,
+      "end": 790,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 797,
+      "end": 813,
+      "text": "Lang, Gregory F.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 816,
+      "end": 844,
+      "text": "gregorylang@paulhastings.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 848,
+      "end": 864,
+      "text": "Staikos, John P.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 868,
+      "end": 896,
+      "text": "johnstaikos@paulhastings.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 901,
+      "end": 920,
+      "text": "VAN DUSEN, Nicholas",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 925,
+      "end": 958,
+      "text": "nicholas.vandusen@freshfields.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 963,
+      "end": 976,
+      "text": "O'BRIEN, Lisa",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 981,
+      "end": 1008,
+      "text": "lisa.obrien@freshfields.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1013,
+      "end": 1027,
+      "text": "PARKER, Isabel",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1032,
+      "end": 1061,
+      "text": "isabel.parker@freshfields.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1074,
+      "end": 1086,
+      "text": "GE Guarantee",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 622,
+      "end": 1087,
+      "text": "\"Staikos, John P.\" <johnstaikos@paulhastings.com> on 04/25/2001 11:42:49 AM\nTo: \"'kay.mann@enron.com'\" <kay.mann@enron.com>, \"'Campbell, Carolyn'\" \n<CCampbell@KSLAW.com>\ncc: \"Lang, Gregory F.\" <gregorylang@paulhastings.com>, \"Staikos, John P.\" \n<johnstaikos@paulhastings.com>, \"'VAN DUSEN, Nicholas'\" \n<nicholas.vandusen@freshfields.com>, \"'O'BRIEN, Lisa'\" \n<lisa.obrien@freshfields.com>, \"'PARKER, Isabel'\" \n<isabel.parker@freshfields.com> \n\nSubject: GE Guarantee\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1091,
+      "end": 1107,
+      "text": "paulhastings.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1143,
+      "end": 1151,
+      "text": "04/25/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1152,
+      "end": 1160,
+      "text": "12:42:55",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1090,
+      "end": 1161,
+      "text": "\"paulhastings.com\" made the following annotations on 04/25/01 12:42:55\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1087,
+      "end": 1090,
+      "text": "\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 2615,
+      "end": 2626,
+      "text": "47K202!.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 2630,
+      "end": 2704,
+      "text": "GE Guarantee black-line against form of guarantee - distrbuted 4-25-01.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 2612,
+      "end": 2705,
+      "text": " - 47K202!.DOC\n - GE Guarantee black-line against form of guarantee - distrbuted 4-25-01.pdf\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 2581,
+      "end": 2609,
+      "text": "johnstaikos@paulhastings.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 2558,
+      "end": 2570,
+      "text": "203.674.7723",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 2531,
+      "end": 2543,
+      "text": "203.961.7523",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2502,
+      "end": 2515,
+      "text": "John  Staikos",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2479,
+      "end": 2610,
+      "text": "______________________\nJohn  Staikos\nDirect Dial:?  203.961.7523\nDirect Fax:?  203.674.7723\nE-mail:?  johnstaikos@paulhastings.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 2463,
+      "end": 2477,
+      "text": "Best regards.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1161,
+      "end": 2708,
+      "text": "------------------------------------------------------------------------------\nNEW E-MAIL ADDRESSES AT PAUL, HASTINGS, JANOFSKY & WALKER LLP\n\nWe have changed our e-mail address.  Our new domain name is\npaulhastings.com.  In most cases, our address is composed of\nconventional first name and last name plus @paulhastings.com.  Here are\ntwo examples: janesmith@paulhastings.com and danjones@paulhastings.com.\nIf you have any questions, please contact us at noc@paulhastings.com.\n\n==============================================================================\n\"The information transmitted is intended only for the person or entity\nto which it is addressed and may contain confidential and/or privileged\nmaterial. Any review, retransmission, dissemination or other use of, or\ntaking of any action in reliance upon, this information by persons or\nentities other than the intended recipient is prohibited. If you\nreceived this in error, please contact the sender and delete the\nmaterial from all computers.\"\n\n==============================================================================\n\n\nAttached please find the GE Guarantee in  Word format.? Also, we have \nattached a pdf black-line of the Guarantee vs  the form of guarantee in the \nTurbine Contract.\n?\nDo not hesitate to call us with any  questions.\n?\nBest regards.\n?\n______________________\nJohn  Staikos\nDirect Dial:?  203.961.7523\nDirect Fax:?  203.674.7723\nE-mail:?  johnstaikos@paulhastings.com\n?\n - 47K202!.DOC\n - GE Guarantee black-line against form of guarantee - distrbuted 4-25-01.pdf\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 15,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 7,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 28,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 30,
+      "target": 31,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 32,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 34,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 36,
+      "target": 37,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 38,
+      "target": 39,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 40,
+      "target": 41,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 54,
+      "target": 55,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 53,
+      "target": 55,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 52,
+      "target": 55,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 21,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 24,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 14,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 55,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "origin": 12,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "origin": 13,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "origin": 15,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "origin": 17,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6704493.1075845841108.JavaMail.evans@thyme>",
+      "Date": "Thu, 26 Apr 2001 00:19:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "johnstaikos@paulhastings.com",
+      "Subject": "Re: GE Guarantee",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "johnstaikos@paulhastings.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_3571.txt"
+}

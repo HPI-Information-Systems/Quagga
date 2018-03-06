@@ -1,0 +1,207 @@
+{
+  "wrapper": "plaintext",
+  "text": "Kim,\n\nYes, the offer is coming. It may take a few days to process it, but you can \ncount on it.\n\nVince\n\n\n\n\n\n\"Whitsel, Kimberly\" <whitselk@wharton.upenn.edu> on 03/05/2001 08:36:47 AM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: Summer Opportunity\n\n\nVince:\n\nI did get your phone message about the summer, but I still haven't heard from \nEnron about an offer for summer employment.  I do have other offers with \nother energy companies that I must respond to this week.  Could you let me \nknow as soon as possible if an offer will be made to me.\n\nSincerely,\nKimberly Whitsel\nWharton MBA Candidate 2002\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Kim",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 97,
+      "end": 102,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 108,
+      "text": "Kim,\n\nYes, the offer is coming. It may take a few days to process it, but you can \ncount on it.\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 109,
+      "end": 126,
+      "text": "Whitsel, Kimberly",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 129,
+      "end": 155,
+      "text": "whitselk@wharton.upenn.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 160,
+      "end": 170,
+      "text": "03/05/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 171,
+      "end": 182,
+      "text": "08:36:47 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 189,
+      "end": 215,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 219,
+      "end": 245,
+      "text": "Vince.J.Kaminski@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 262,
+      "end": 280,
+      "text": "Summer Opportunity",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 108,
+      "end": 281,
+      "text": "\"Whitsel, Kimberly\" <whitselk@wharton.upenn.edu> on 03/05/2001 08:36:47 AM\nTo: \"'Vince.J.Kaminski@enron.com'\" <Vince.J.Kaminski@enron.com>\ncc:  \nSubject: Summer Opportunity\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 283,
+      "end": 288,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 589,
+      "end": 605,
+      "text": "Kimberly Whitsel",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 578,
+      "end": 606,
+      "text": "Sincerely,\nKimberly Whitsel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 606,
+      "end": 632,
+      "text": "Wharton MBA Candidate 2002",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 281,
+      "end": 634,
+      "text": "\n\nVince:\n\nI did get your phone message about the summer, but I still haven't heard from \nEnron about an offer for summer employment.  I do have other offers with \nother energy companies that I must respond to this week.  Could you let me \nknow as soon as possible if an offer will be made to me.\n\nSincerely,\nKimberly Whitsel\nWharton MBA Candidate 2002\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 13,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27647340.1075856632760.JavaMail.evans@thyme>",
+      "Date": "Mon, 5 Mar 2001 02:24:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "whitselk@wharton.upenn.edu",
+      "Subject": "Re: Summer Opportunity",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"Whitsel, Kimberly\" <whitselk@wharton.upenn.edu> @ ENRON",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Universities",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_universities_60.txt"
+}

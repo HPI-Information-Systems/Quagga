@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "a quick search on google:\n\nhttps://www.cloudera.com/documentation/enterprise/5-9-x/topics/admin_spark_tuning.html\n\nhttps://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/\n\nhttp://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/\n\nand of course, Jacek`s\n<https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-tuning.html>\n\n\n\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n\n2017-06-09 14:50 GMT+02:00 Debabrata Ghosh <mailfordebu@gmail.com>:\n\n> Hi,\n>                      I need some help / guidance in performance tuning\n> Spark code written in Scala. Can you please help.\n>\n> Thanks\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 391,
+      "end": 586,
+      "text": "\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 587,
+      "text": "a quick search on google:\n\nhttps://www.cloudera.com/documentation/enterprise/5-9-x/topics/admin_spark_tuning.html\n\nhttps://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/\n\nhttp://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/\n\nand of course, Jacek`s\n<https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-tuning.html>\n\n\n\nAlonso Isidoro Roman\n[image: https://]about.me/alonso.isidoro.roman\n<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 587,
+      "end": 655,
+      "text": "2017-06-09 14:50 GMT+02:00 Debabrata Ghosh <mailfordebu@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 655,
+      "end": 662,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 787,
+      "end": 798,
+      "text": ">\n> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 655,
+      "end": 801,
+      "text": "\n> Hi,\n>                      I need some help / guidance in performance tuning\n> Spark code written in Scala. Can you please help.\n>\n> Thanks\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3556"
+}

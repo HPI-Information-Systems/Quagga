@@ -1,0 +1,229 @@
+{
+  "wrapper": "plaintext",
+  "text": "All,\n\nPlease review and call your customers if they have not paid their invoice.  Keep Market Services plugged into your conversations with the customer. \n\nThanks, Kim.\n\n -----Original Message-----\nFrom: \tHanagriff, Richard  \nSent:\tThursday, January 24, 2002 2:23 PM\nTo:\tLindberg, Lorraine; Watson, Kimberly; Blair, Lynn; Kowalke, Terry; Dietz, Rick; Ward, Linda; Mulligan, Amy; Minter, Tracy; Hernandez, Bert; McEvoy, Christine; Lokay, Michelle; Giambrone, Laura; Miller, Christopher L; Lohman, TK\nSubject:\tTW Dec unpaid invoices\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 164,
+      "end": 167,
+      "text": "Kim",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 156,
+      "end": 169,
+      "text": "Thanks, Kim.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 170,
+      "text": "All,\n\nPlease review and call your customers if they have not paid their invoice.  Keep Market Services plugged into your conversations with the customer. \n\nThanks, Kim.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 205,
+      "end": 223,
+      "text": "Hanagriff, Richard",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 242,
+      "end": 258,
+      "text": "January 24, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 259,
+      "end": 266,
+      "text": "2:23 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 271,
+      "end": 289,
+      "text": "Lindberg, Lorraine",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 291,
+      "end": 307,
+      "text": "Watson, Kimberly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 309,
+      "end": 320,
+      "text": "Blair, Lynn",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 322,
+      "end": 337,
+      "text": "Kowalke, Terry;",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 338,
+      "end": 349,
+      "text": "Dietz, Rick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 351,
+      "end": 362,
+      "text": "Ward, Linda",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 364,
+      "end": 377,
+      "text": "Mulligan, Amy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 379,
+      "end": 392,
+      "text": "Minter, Tracy",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 394,
+      "end": 409,
+      "text": "Hernandez, Bert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 411,
+      "end": 428,
+      "text": "McEvoy, Christine",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 430,
+      "end": 445,
+      "text": "Lokay, Michelle",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 447,
+      "end": 463,
+      "text": "Giambrone, Laura",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 465,
+      "end": 486,
+      "text": "Miller, Christopher L",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 488,
+      "end": 498,
+      "text": "Lohman, TK",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 508,
+      "end": 530,
+      "text": "TW Dec unpaid invoices",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 170,
+      "end": 531,
+      "text": " -----Original Message-----\nFrom: \tHanagriff, Richard  \nSent:\tThursday, January 24, 2002 2:23 PM\nTo:\tLindberg, Lorraine; Watson, Kimberly; Blair, Lynn; Kowalke, Terry; Dietz, Rick; Ward, Linda; Mulligan, Amy; Minter, Tracy; Hernandez, Bert; McEvoy, Christine; Lokay, Michelle; Giambrone, Laura; Miller, Christopher L; Lohman, TK\nSubject:\tTW Dec unpaid invoices\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 531,
+      "end": 533,
+      "text": "\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26529605.1075860979951.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 Jan 2002 13:51:00 -0800 (PST)",
+      "From": "kimberly.watson@enron.com",
+      "To": "lorraine.lindberg@enron.com, tk.lohman@enron.com, michelle.lokay@enron.com, \n\tmark.mcconnell@enron.com, paul.y'barbo@enron.com",
+      "Subject": "FW: TW Dec unpaid invoices",
+      "Cc": "steven.harris@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "steven.harris@enron.com",
+      "X-From": "Watson, Kimberly </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KWATSON>",
+      "X-To": "Lindberg, Lorraine </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Llindbe>, Lohman, TK </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tlohman>, Lokay, Michelle </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mlokay>, McConnell, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MMcConne>, Y'barbo, Paul </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pybarbo>",
+      "X-cc": "Harris, Steven </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sharris1>",
+      "X-bcc": "",
+      "X-Folder": "\\Michelle_Lokay_Mar2002\\Lokay, Michelle\\TW-Commercial Group",
+      "X-Origin": "Lokay-M",
+      "X-FileName": "mlokay (Non-Privileged).pst"
+    }
+  },
+  "id": "train/lokay-m_tw_commercial_group_1723.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

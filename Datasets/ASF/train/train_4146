@@ -1,0 +1,91 @@
+OK, new collection.
+
+1> With schemaless? When you add a document in schemaless mode, it
+makes some guesses that may not play nice later.
+
+2> Are you storing the _destination_ of any copyField? Atomic updates
+do odd things if you set stored="true" for fields that are
+destinations for atomic updates, specifically accumulate values in
+them. You should set stored="false" for all destinations of copyField
+directives.
+
+Best,
+Erick
+
+On Fri, Jun 23, 2017 at 9:23 AM, Aman Deep Singh
+<amandeep.cool99@gmail.com> wrote:
+> No Shawn,
+> I download the latest solr again then run without installing by command
+> ./bin/solr -c
+> after upload the fresh configset and create the new collection
+> Then create a single document in solr
+> after do atomic update
+> and the same error occurs again.
+>
+>
+> On Fri, Jun 23, 2017 at 7:53 PM Shawn Heisey <apache@elyograg.org> wrote:
+>
+>> On 6/20/2017 11:01 PM, Aman Deep Singh wrote:
+>> > If I am using docValues=false getting this exception
+>> > java.lang.IllegalStateException: Type mismatch: isBlibliShipping was
+>> > indexed with multiple values per document, use SORTED_SET instead at
+>> >
+>> org.apache.solr.uninverting.FieldCacheImpl$SortedDocValuesCache.createValue(FieldCacheImpl.java:799)
+>> > at
+>> >
+>> org.apache.solr.uninverting.FieldCacheImpl$Cache.get(FieldCacheImpl.java:187)
+>> > at
+>> >
+>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:767)
+>> > at
+>> >
+>> org.apache.solr.uninverting.FieldCacheImpl.getTermsIndex(FieldCacheImpl.java:747)
+>> > at
+>> > But if docValues=true then getting this error
+>> > java.lang.IllegalStateException: unexpected docvalues type NUMERIC for
+>> > field 'isBlibliShipping' (expected=SORTED). Re-index with correct
+>> docvalues
+>> > type. at org.apache.lucene.index.DocValues.checkField(DocValues.java:212)
+>> > at org.apache.lucene.index.DocValues.getSorted(DocValues.java:264) at
+>> >
+>> org.apache.lucene.search.grouping.term.TermGroupFacetCollector$SV.doSetNextReader(TermGroupFacetCollector.java:129)
+>> > at
+>> >
+>> org.apache.lucene.search.SimpleCollector.getLeafCollector(SimpleCollector.java:33)
+>> > at org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:659)
+>> at
+>> > org.apache.lucene.search.IndexSearcher.search(IndexSearcher.java:472) at
+>> >
+>> org.apache.solr.request.SimpleFacets.getGroupedCounts(SimpleFacets.java:692)
+>> > at
+>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:476)
+>> > at
+>> > org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:405)
+>> > at
+>> >
+>> org.apache.solr.request.SimpleFacets.lambda$getFacetFieldCounts$0(SimpleFacets.java:803)
+>> >
+>> > It Only appear in case when we facet on group query normal facet works
+>> fine
+>> >
+>> > Also appears only when we atomically update the document.
+>>
+>> These errors look like problems that appear when you *change* the
+>> schema, but try to use that new schema with an existing Lucene index
+>> directory.  As Erick already mentioned, certain changes in the schema
+>> *require* completely deleting the index directory and
+>> restarting/reloading, or starting with a brand new index.  Deleting all
+>> documents instead of wiping out the index may leave Lucene remnants with
+>> incorrect metadata for the new schema.
+>>
+>> What you've said elsewhere in the thread is that you're starting with a
+>> brand new collection ... but the error messages suggest that we're still
+>> dealing with an index where you had one schema setting, indexed some
+>> data, then changed the schema without completely wiping out the index
+>> from the disk.
+>>
+>> Thanks,
+>> Shawn
+>>
+>>
+

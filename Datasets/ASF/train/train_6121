@@ -1,0 +1,41 @@
+A suggester rebuild will mmap the entire index. So'll you need free memory
+for depending on your index size.
+
+On 19 September 2017 at 13:47, shamik <shamikb@gmail.com> wrote:
+
+> I agree, should have made it clear in my initial post. The reason I thought
+> it's little trivial since the newly introduced collection has only few
+> hundred documents and is not being used in search yet. Neither it's being
+> indexed at a regular interval. The cache parameters are kept to a minimum
+> as
+> well. But there might be overheads of a simply creating a collection which
+> I'm not aware of.
+>
+> I did bring down the heap size to 8gb, changed to G1 and reduced the cache
+> params. The memory so far has been holding up but will wait for a while
+> before passing on a judgment.
+>
+> <filterCache class="solr.FastLRUCache" size="256" initialSize="256"
+> autowarmCount="0"/>
+> <queryResultCache class="solr.LRUCache" size="256" initialSize="256"
+> autowarmCount="0"/>
+> <documentCache class="solr.LRUCache" size="256" initialSize="256"
+> autowarmCount="0"/>
+> <cache name="perSegFilter" class="solr.search.LRUCache" size="10"
+> initialSize="0" autowarmCount="10" regenerator="solr.NoOpRegenerator" />
+> <fieldValueCache class="solr.FastLRUCache" size="256" autowarmCount="256"
+> showItems="0" />
+>
+> The change seemed to have increased the number of slow queries (1000 ms),
+> but I'm willing to address the OOM over performance at this point. One
+> thing
+> I realized is that I provided the wrong index size here. It's 49gb instead
+> of 25, which I mistakenly picked from one shard. I hope the heap size will
+> continue to sustain for the index size.
+>
+>
+>
+> --
+> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html
+>
+

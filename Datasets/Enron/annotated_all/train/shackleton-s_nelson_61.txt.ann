@@ -1,0 +1,416 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n----- Forwarded by Cheryl Nelson/NA/Enron on 03/30/2001 01:37 PM -----\n\n\t\"Meytina, Anna Confidential Memo-Counsel (Exchange)\" <ameytina@bear.com>\n\t03/29/2001 01:39 PM\n\t\t \n\t\t To: \"'cheryl.nelson@enron.com'\" <cheryl.nelson@enron.com>\n\t\t cc: \n\t\t Subject: FW: Assignment and Assumption Agreement\n\n\n\n\n> -----Original Message-----\n> From: Meytina, Anna Confidential Memo-Counsel (Exchange)\n> Sent: Thursday, March 29, 2001 2:32 PM\n> To: 'Cheryl.Nelson@enron.com'\n> Subject: FW: Assignment and Assumption Agreement\n>\n> Apologies!\n> -----Original Message-----\n> From: Meytina, Anna Confidential Memo-Counsel (Exchange)\n> Sent: Thursday, March 29, 2001 12:21 PM\n> To: 'Cheryl.Nelson@enron.com'\n> Subject: Assignment and Assumption Agreement\n>\n> Cheryl:\n>\n> As discussed, attached please find the revised Assignment and Assumption\n> agreement.\n>\n> Regards,\n>\n> Anna\n>\n>  <<Enron Assign& Assumpt.doc>>\n\n - Enron Assign& Assumpt.doc\n***********************************************************************\nBear Stearns is not responsible for any recommendation, solicitation,\noffer or agreement or any information about any transaction, customer\naccount or account activity contained in this communication.\n***********************************************************************\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2,
+      "end": 15,
+      "text": "Cheryl Nelson",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 16,
+      "end": 30,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 38,
+      "end": 52,
+      "text": "(713) 345-4693",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2,
+      "end": 53,
+      "text": "Cheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 53,
+      "text": "\n\nCheryl Nelson\nSenior Counsel\nEB3816\n(713) 345-4693\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 72,
+      "end": 85,
+      "text": "Cheryl Nelson",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 98,
+      "end": 108,
+      "text": "03/30/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 109,
+      "end": 117,
+      "text": "01:37 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 53,
+      "end": 124,
+      "text": "----- Forwarded by Cheryl Nelson/NA/Enron on 03/30/2001 01:37 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 127,
+      "end": 140,
+      "text": "Meytina, Anna",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 180,
+      "end": 197,
+      "text": "ameytina@bear.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 200,
+      "end": 210,
+      "text": "03/29/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 211,
+      "end": 219,
+      "text": "01:39 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 233,
+      "end": 256,
+      "text": "cheryl.nelson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 260,
+      "end": 283,
+      "text": "cheryl.nelson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 305,
+      "end": 344,
+      "text": "FW: Assignment and Assumption Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 124,
+      "end": 345,
+      "text": "\n\t\"Meytina, Anna Confidential Memo-Counsel (Exchange)\" <ameytina@bear.com>\n\t03/29/2001 01:39 PM\n\t\t \n\t\t To: \"'cheryl.nelson@enron.com'\" <cheryl.nelson@enron.com>\n\t\t cc: \n\t\t Subject: FW: Assignment and Assumption Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 386,
+      "end": 399,
+      "text": "Meytina, Anna",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 455,
+      "end": 469,
+      "text": "March 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 470,
+      "end": 477,
+      "text": "2:32 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 485,
+      "end": 508,
+      "text": "Cheryl.Nelson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 521,
+      "end": 560,
+      "text": "FW: Assignment and Assumption Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 345,
+      "end": 561,
+      "text": "\n\n\n\n> -----Original Message-----\n> From: Meytina, Anna Confidential Memo-Counsel (Exchange)\n> Sent: Thursday, March 29, 2001 2:32 PM\n> To: 'Cheryl.Nelson@enron.com'\n> Subject: FW: Assignment and Assumption Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 561,
+      "end": 576,
+      "text": ">\n> Apologies!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 613,
+      "end": 626,
+      "text": "Meytina, Anna",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 682,
+      "end": 696,
+      "text": "March 29, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 697,
+      "end": 705,
+      "text": "12:21 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 713,
+      "end": 736,
+      "text": "Cheryl.Nelson@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 749,
+      "end": 784,
+      "text": "Assignment and Assumption Agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 576,
+      "end": 785,
+      "text": "> -----Original Message-----\n> From: Meytina, Anna Confidential Memo-Counsel (Exchange)\n> Sent: Thursday, March 29, 2001 12:21 PM\n> To: 'Cheryl.Nelson@enron.com'\n> Subject: Assignment and Assumption Agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 789,
+      "end": 795,
+      "text": "Cheryl",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 904,
+      "end": 908,
+      "text": "Anna",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 889,
+      "end": 909,
+      "text": "> Regards,\n>\n> Anna\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 974,
+      "end": 1319,
+      "text": "***********************************************************************\nBear Stearns is not responsible for any recommendation, solicitation,\noffer or agreement or any information about any transaction, customer\naccount or account activity contained in this communication.\n***********************************************************************\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 948,
+      "end": 973,
+      "text": "Enron Assign& Assumpt.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 916,
+      "end": 941,
+      "text": "Enron Assign& Assumpt.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 911,
+      "end": 974,
+      "text": ">  <<Enron Assign& Assumpt.doc>>\n\n - Enron Assign& Assumpt.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 785,
+      "end": 1319,
+      "text": ">\n> Cheryl:\n>\n> As discussed, attached please find the revised Assignment and Assumption\n> agreement.\n>\n> Regards,\n>\n> Anna\n>\n>  <<Enron Assign& Assumpt.doc>>\n\n - Enron Assign& Assumpt.doc\n***********************************************************************\nBear Stearns is not responsible for any recommendation, solicitation,\noffer or agreement or any information about any transaction, customer\naccount or account activity contained in this communication.\n***********************************************************************\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 15,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 10,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 21,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 25,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 28,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 31,
+      "target": 28,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 32,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29115680.1075844781610.JavaMail.evans@thyme>",
+      "Date": "Fri, 30 Mar 2001 05:37:00 -0800 (PST)",
+      "From": "cheryl.nelson@enron.com",
+      "To": "sara.shackleton@enron.com, tom.doukas@enron.com",
+      "Subject": "FW: Assignment and Assumption Agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Cheryl Nelson",
+      "X-To": "Sara Shackleton, Tom Doukas",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\Nelson",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_nelson_61.txt"
+}

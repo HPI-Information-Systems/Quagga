@@ -1,0 +1,170 @@
+{
+  "wrapper": "plaintext",
+  "text": "Kevin,  these cover some of the items we talked about yesterday that Dave has expanded on-  Another potential item, although not sure of  is MOPS sale closure and Eagle lateral sale closure.  \nFor TW we need to add the same elements related to new construction, Red Rock, Sun Devil, Trans Pecos.\nAlso overall impact of prepays-  MK\n\n\n-----Original Message-----\nFrom:\tNeubauer, Dave\nSent:\tWed 12/12/2001 6:31 PM\nTo:\tHoward, Kevin A.; McCarty, Danny; Miller, Mary Kay; Miller, Kent; Gilbert, Steve\nCc:\t\nSubject:\tList of potential impacts to NNG if TW or NNG is included in a Bankruptcy Filing.\n\nThe attached list is a draft of potential items to be included in the list.  Please let me know of any additional thoughts.\n <<Issues related to TW or NNG filing for Bankruptcy.doc>> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Kevin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 329,
+      "end": 331,
+      "text": "MK",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 334,
+      "text": "Kevin,  these cover some of the items we talked about yesterday that Dave has expanded on-  Another potential item, although not sure of  is MOPS sale closure and Eagle lateral sale closure.  \nFor TW we need to add the same elements related to new construction, Red Rock, Sun Devil, Trans Pecos.\nAlso overall impact of prepays-  MK\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 367,
+      "end": 381,
+      "text": "Neubauer, Dave",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 392,
+      "end": 402,
+      "text": "12/12/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 403,
+      "end": 410,
+      "text": "6:31 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 415,
+      "end": 431,
+      "text": "Howard, Kevin A.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 433,
+      "end": 447,
+      "text": "McCarty, Danny",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 449,
+      "end": 465,
+      "text": "Miller, Mary Kay",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 467,
+      "end": 479,
+      "text": "Miller, Kent",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 481,
+      "end": 495,
+      "text": "Gilbert, Steve",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 510,
+      "end": 591,
+      "text": "List of potential impacts to NNG if TW or NNG is included in a Bankruptcy Filing.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 334,
+      "end": 592,
+      "text": "-----Original Message-----\nFrom:\tNeubauer, Dave\nSent:\tWed 12/12/2001 6:31 PM\nTo:\tHoward, Kevin A.; McCarty, Danny; Miller, Mary Kay; Miller, Kent; Gilbert, Steve\nCc:\t\nSubject:\tList of potential impacts to NNG if TW or NNG is included in a Bankruptcy Filing.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 592,
+      "end": 776,
+      "text": "\nThe attached list is a draft of potential items to be included in the list.  Please let me know of any additional thoughts.\n <<Issues related to TW or NNG filing for Bankruptcy.doc>> ",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 720,
+      "end": 773,
+      "text": "Issues related to TW or NNG filing for Bankruptcy.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 717,
+      "end": 776,
+      "text": " <<Issues related to TW or NNG filing for Bankruptcy.doc>> ",
+      "type": "Body/Attachments",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<8238400.1075859085200.JavaMail.evans@thyme>",
+      "Date": "Wed, 12 Dec 2001 18:38:46 -0800 (PST)",
+      "From": "kay.miller@enron.com",
+      "To": "dave.neubauer@enron.com, a..howard@enron.com, danny.mccarty@enron.com, \n\tkent.miller@enron.com, steve.gilbert@enron.com",
+      "Subject": "RE: List of potential impacts to NNG if TW or NNG is included in a\n Bankruptcy Filing.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Miller, Mary Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MKMILLER>",
+      "X-To": "Neubauer, Dave </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DNEUBAU>, Howard, Kevin A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Khoward>, McCarty, Danny </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dmccarty>, Miller, Kent </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kmiller2>, Gilbert, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sgilbe2>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Danny_McCarty_Jan2002\\McCarty, Danny\\Inbox\\TW",
+      "X-Origin": "McCarty-D",
+      "X-FileName": "dmccarty (Non-Privileged).pst"
+    }
+  },
+  "id": "train/mccarty-d_inbox_tw_8.txt"
+}

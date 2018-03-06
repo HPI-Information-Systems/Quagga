@@ -1,0 +1,116 @@
+{
+  "wrapper": "plaintext",
+  "text": "Tim:  What's your reaction to this article on Cal Px?  Mark\n----- Forwarded by Mark E Haedicke/HOU/ECT on 06/26/2000 05:34 PM -----\n\n\tVince J Kaminski\n\t06/23/2000 05:43 PM\n\t\t \n\t\t To: Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: Vince J Kaminski/HOU/ECT@ECT\n\t\t Subject: Restructuring Today - 6/23\n\nMark,\n\nPlease, tale a look at the attached newsletter. An interesting story on \ngaming Cal\nPX. Let me know if you have problems opening the document.\n\nVince\n\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 06/23/2000 \n05:45 PM ---------------------------\n\n\nEnergy Info Source <custsvc@energyinfosource.com> on 06/23/2000 07:24:22 AM\nTo: \ncc:  \nSubject: Restructuring Today - 6/23\n\n\nEnergy Info Source - http://www.energyinfosource.com - is privileged to\nmake available to you a free trial subscription to Restructuring Today\nuntil July 11.\n\nRestructuring Today is the leading daily trade newsletter focused solely\non the deregulation, restructuring and convergence of the electric, natural\ngas and telecommunications industries, with a special focus on emerging\nmarkets.\n\nYou do not need to do anything to continue to receive this trial. However,\nif you do not want to receive any more trial issues, please reply to us\nand with the word \"cancel\" in the subject line.\n\nRestructuring Today has distinctive industry news and analysis which Energy\nInfo Source can't deliver from the wire services, and at only $487 (regular\nprice for an individual subscription) for 250 issues each year, we consider\nit a bargain. As a special offer to Energy Info Source users, Restructuring\nToday is offering $50 off the regular subscription price.\n\nAct before July 14 to receive your $50 off!\n\nCheck out the attached sample, and if you'd like to order an annual \nsubscription,\nchoose your favorite way:\n\n- Hit reply and fill out the subscriber information below.\n- For fastest service call 888-986-2250 today!\n- There's a handy subscription coupon on the last page of each issue of\nRestructuring Today.\n\nFor credit card orders, please use the subscription coupon in the back\nof the sample issue or call 888-986-2250.\n\nFor more information, feel free to email us at custsvc@energyinfosource.com\nor call us at 888-986-2250.\n\nRequires Acrobat Reader 3.1 or higher.  The latest version is available\nfree at:\nhttp://www.adobe.com/prodindex/acrobat/readstep.html#reader\n\n----------------------\nPlease begin my subscription to Restructuring Today right away!\n\nName:\nTitle:\nCompany:\nBilling Address:\nAddress cont.:\nCity:\nST:\nZip:\nCountry: USA\nPhone:\nFax:\nEmail address:\n\n[ ] Bill me\n[ ] Call me for my credit card information\n\n\n\n\n\n - rt000623-EIS.pdf\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 683,
+      "end": 2629,
+      "text": "\n\nEnergy Info Source - http://www.energyinfosource.com - is privileged to\nmake available to you a free trial subscription to Restructuring Today\nuntil July 11.\n\nRestructuring Today is the leading daily trade newsletter focused solely\non the deregulation, restructuring and convergence of the electric, natural\ngas and telecommunications industries, with a special focus on emerging\nmarkets.\n\nYou do not need to do anything to continue to receive this trial. However,\nif you do not want to receive any more trial issues, please reply to us\nand with the word \"cancel\" in the subject line.\n\nRestructuring Today has distinctive industry news and analysis which Energy\nInfo Source can't deliver from the wire services, and at only $487 (regular\nprice for an individual subscription) for 250 issues each year, we consider\nit a bargain. As a special offer to Energy Info Source users, Restructuring\nToday is offering $50 off the regular subscription price.\n\nAct before July 14 to receive your $50 off!\n\nCheck out the attached sample, and if you'd like to order an annual \nsubscription,\nchoose your favorite way:\n\n- Hit reply and fill out the subscriber information below.\n- For fastest service call 888-986-2250 today!\n- There's a handy subscription coupon on the last page of each issue of\nRestructuring Today.\n\nFor credit card orders, please use the subscription coupon in the back\nof the sample issue or call 888-986-2250.\n\nFor more information, feel free to email us at custsvc@energyinfosource.com\nor call us at 888-986-2250.\n\nRequires Acrobat Reader 3.1 or higher.  The latest version is available\nfree at:\nhttp://www.adobe.com/prodindex/acrobat/readstep.html#reader\n\n----------------------\nPlease begin my subscription to Restructuring Today right away!\n\nName:\nTitle:\nCompany:\nBilling Address:\nAddress cont.:\nCity:\nST:\nZip:\nCountry: USA\nPhone:\nFax:\nEmail address:\n\n[ ] Bill me\n[ ] Call me for my credit card information\n\n\n\n\n\n - rt000623-EIS.pdf\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 558,
+      "end": 683,
+      "text": "\n\nEnergy Info Source <custsvc@energyinfosource.com> on 06/23/2000 07:24:22 AM\nTo: \ncc:  \nSubject: Restructuring Today - 6/23\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 445,
+      "end": 558,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 06/23/2000 \n05:45 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 437,
+      "end": 444,
+      "text": "\nVince\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 286,
+      "end": 293,
+      "text": "\nMark,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 286,
+      "end": 445,
+      "text": "\nMark,\n\nPlease, tale a look at the attached newsletter. An interesting story on \ngaming Cal\nPX. Let me know if you have problems opening the document.\n\nVince\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 132,
+      "end": 287,
+      "text": "\n\tVince J Kaminski\n\t06/23/2000 05:43 PM\n\t\t \n\t\t To: Mark E Haedicke/HOU/ECT@ECT\n\t\t cc: Vince J Kaminski/HOU/ECT@ECT\n\t\t Subject: Restructuring Today - 6/23\n\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 60,
+      "end": 132,
+      "text": "----- Forwarded by Mark E Haedicke/HOU/ECT on 06/26/2000 05:34 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 4,
+      "text": "Tim:",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 55,
+      "end": 60,
+      "text": "Mark\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 0,
+      "end": 60,
+      "text": "Tim:  What's your reaction to this article on Cal Px?  Mark\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16013342.1075845004779.JavaMail.evans@thyme>",
+      "Date": "Mon, 26 Jun 2000 10:35:00 -0700 (PDT)",
+      "From": "mark.haedicke@enron.com",
+      "To": "tim.belden@enron.com",
+      "Subject": "Restructuring Today - 6/23",
+      "Cc": "richard.sanders@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "richard.sanders@enron.com",
+      "X-From": "Mark E Haedicke",
+      "X-To": "Tim Belden",
+      "X-cc": "Richard B Sanders",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "HAEDICKE-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_all_documents_382.txt"
+}

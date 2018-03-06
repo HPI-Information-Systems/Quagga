@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nTeam:\n\nI have attached a memo that I would like to send to D. Hart setting out AEP's outstanding action items in respect to the Close.  Please review and provide any comments (e.g. additional actions for AEP or revised status for Enron) that I may have missed.\n\nThanks,\nBrian\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 271,
+      "end": 276,
+      "text": "Brian",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 263,
+      "end": 277,
+      "text": "Thanks,\nBrian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1,
+      "end": 7,
+      "text": "Team:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 279,
+      "text": "\nTeam:\n\nI have attached a memo that I would like to send to D. Hart setting out AEP's outstanding action items in respect to the Close.  Please review and provide any comments (e.g. additional actions for AEP or revised status for Enron) that I may have missed.\n\nThanks,\nBrian\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3890390.1075845082000.JavaMail.evans@thyme>",
+      "Date": "Wed, 18 Apr 2001 23:22:00 -0700 (PDT)",
+      "From": "brian.redmond@enron.com",
+      "To": "anne.koehler@enron.com, barbara.gray@enron.com, jim.coffey@enron.com, \n\ttommy.yanowski@enron.com, robert.hall@enron.com, \n\tsally.beck@enron.com, mary.perkins@enron.com, \n\ttanya.rohauer@enron.com, fran.mayes@enron.com, \n\tthomas.martin@enron.com",
+      "Subject": "AEP Actions",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Brian Redmond <Brian Redmond/ENRON@enronXgate@ENRON>",
+      "X-To": "Anne C Koehler <Anne C Koehler/HOU/ECT@ECT>, Barbara N Gray <Barbara N Gray/HOU/ECT@ECT>, Jim Coffey <Jim Coffey/ENRON@enronXgate>, Tommy Yanowski <Tommy Yanowski/ENRON@enronXgate>, Robert L Hall <Robert L Hall/ENRON@enronXgate>, Sally Beck <Sally Beck/HOU/ECT@ECT>, Mary Perkins <Mary Perkins/ENRON@enronXgate>, Tanya Rohauer <Tanya Rohauer/ENRON@enronXgate>, Fran L Mayes <Fran L Mayes/ENRON@enronXgate>, Thomas A Martin <Thomas A Martin/ENRON@enronXgate>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Beck, Sally\\Beck, Sally\\HPL",
+      "X-Origin": "BECK-S",
+      "X-FileName": "Beck, Sally.pst"
+    }
+  },
+  "id": "train/beck-s_hpl_3.txt"
+}

@@ -1,0 +1,160 @@
+{
+  "wrapper": "plaintext",
+  "text": "Cool, Thank you very much Erick and Walter.\n\nOn Wed, Feb 22, 2017 at 12:32 PM, Walter Underwood <wunder@wunderwood.org>\nwrote:\n\n> I\u00e2\u20ac\u2122ve run with 8GB for years for moderate data sets (250K to 15M docs).\n> Faceting can need more space.\n>\n> Make -Xms equal to -Xmx. The heap will grow to the max size regardless and\n> you\u00e2\u20ac\u2122ll get pauses while it grows. Starting at the max will avoid that pain.\n>\n> Solr uses lots and lots of short-lived allocations. Unless it goes into\n> cache, everything allocated for a single request is garbage afterwards. You\n> want to slow down the growth of tenured (old) space, so that it only\n> includes cache ejections.\n>\n> I run with 8GB heap and 2GB of new/eden space. That makes my friend who\n> works on the Go garbage collector cringe, but it works for Solr. I don\u00e2\u20ac\u2122t\n> fool around with all the ratio options. Just set the sizes and sleep well\n> at night.\n>\n> Watch the sawtooth of the old space under load. The highest of the minimum\n> allocated old space plus the eden space is your smallest working set. Add a\n> bit of breathing space above that. Not tons, because more old space garbage\n> means longer collections.\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n> > On Feb 21, 2017, at 5:18 PM, Erick Erickson <erickerickson@gmail.com>\n> wrote:\n> >\n> > Solr is very memory-intensive. 1g is still a very small heap. For any\n> > sizeable data store people often run with at least 4G, often 8G or\n> > more. If you facet or group or sort on fields that are _not_\n> > docValues=\"true\" fields you'll use up a lot of JVM memory. The\n> > filterCache uses up maxDoc/8 bytes for every entry etc.\n> >\n> > I guess my point is that you shouldn't be surprised if 1G is too\n> > small. I'd start with 4-8G and then reduce it after you get some\n> > experience with your data and queries and now much memory they\n> > require.\n> >\n> > Best,\n> > Erick\n> >\n> > On Tue, Feb 21, 2017 at 3:07 PM, Sadheera Vithanage <sadheerav@gmail.com>\n> wrote:\n> >> Thanks Eric, It looked like the garbage collection was blocking the\n> other\n> >> processes.\n> >>\n> >> I updated the SOLR_JAVA_MEM=\"-Xms1g -Xmx4g\" as it was the default before\n> >> and looked like the garbage collection was triggered too frequent.\n> >>\n> >> Lets see how it goes now.\n> >>\n> >> Thanks again for the support.\n> >>\n> >> On Mon, Feb 20, 2017 at 11:50 AM, Erick Erickson <\n> erickerickson@gmail.com>\n> >> wrote:\n> >>\n> >>> The first place to look for something like his is garbage collection.\n> >>> Are you hitting any really long stop-the-world GC pauses?\n> >>>\n> >>> Best,\n> >>> Erick\n> >>>\n> >>> On Sun, Feb 19, 2017 at 2:21 PM, Sadheera Vithanage <\n> sadheerav@gmail.com>\n> >>> wrote:\n> >>>> Hi Experts,\n> >>>>\n> >>>> I have a solr cloud node (Just 1 node for now with a zookeeper\n> running on\n> >>>> the same machine) running on ubuntu and It has been running without\n> >>> issues\n> >>>> for a while.\n> >>>>\n> >>>> This morning I noticed below error in the error log.\n> >>>>\n> >>>>\n> >>>> *2017-02-19 20:27:54.724 ERROR (qtp97730845-4968) [   ]\n> >>>> o.a.s.s.HttpSolrCall null:java.io.IOException:\n> >>>> java.util.concurrent.TimeoutException: Idle timeout expired:\n> >>> 50001/50000 ms*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(\n> >>> SharedBlockingCallback.java:226)*\n> >>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:164)*\n> >>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:530)*\n> >>>> * at\n> >>>> org.apache.commons.io.output.ProxyOutputStream.write(\n> >>> ProxyOutputStream.java:55)*\n> >>>> * at\n> >>>> org.apache.solr.response.QueryResponseWriterUtil$1.\n> >>> write(QueryResponseWriterUtil.java:54)*\n> >>>> * at java.io.OutputStream.write(OutputStream.java:116)*\n> >>>> * at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)*\n> >>>> * at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)*\n> >>>> * at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)*\n> >>>> * at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)*\n> >>>> * at org.apache.solr.util.FastWriter.flush(FastWriter.java:140)*\n> >>>> * at org.apache.solr.util.FastWriter.write(FastWriter.java:54)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeStr(\n> >>> JSONResponseWriter.java:454)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeVal(\n> >>> TextResponseWriter.java:128)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeSolrDocument(\n> >>> JSONResponseWriter.java:346)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeSolrDocumentList(\n> >>> TextResponseWriter.java:239)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeVal(\n> >>> TextResponseWriter.java:163)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeNamedListAsMapWithDups(\n> >>> JSONResponseWriter.java:184)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeNamedList(\n> >>> JSONResponseWriter.java:300)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeResponse(\n> >>> JSONResponseWriter.java:96)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONResponseWriter.write(\n> >>> JSONResponseWriter.java:55)*\n> >>>> * at\n> >>>> org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(\n> >>> QueryResponseWriterUtil.java:65)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.HttpSolrCall.writeResponse(\n> >>> HttpSolrCall.java:728)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(\n> >>> HttpSolrCall.java:667)*\n> >>>> * at org.apache.solr.servlet.HttpSolrCall.call(\n> HttpSolrCall.java:441)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(\n> >>> SolrDispatchFilter.java:303)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(\n> >>> SolrDispatchFilter.java:254)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler$CachedChain.\n> >>> doFilter(ServletHandler.java:1668)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler.doHandle(\n> >>> ServletHandler.java:581)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(\n> >>> ScopedHandler.java:143)*\n> >>>> * at\n> >>>> org.eclipse.jetty.security.SecurityHandler.handle(\n> >>> SecurityHandler.java:548)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.session.SessionHandler.\n> >>> doHandle(SessionHandler.java:226)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandler.\n> >>> doHandle(ContextHandler.java:1160)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler.doScope(\n> >>> ServletHandler.java:511)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.session.SessionHandler.\n> >>> doScope(SessionHandler.java:185)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandler.\n> >>> doScope(ContextHandler.java:1092)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(\n> >>> ScopedHandler.java:141)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(\n> >>> ContextHandlerCollection.java:213)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.HandlerCollection.\n> >>> handle(HandlerCollection.java:119)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.HandlerWrapper.handle(\n> >>> HandlerWrapper.java:134)*\n> >>>> * at org.eclipse.jetty.server.Server.handle(Server.java:518)*\n> >>>> * at org.eclipse.jetty.server.HttpChannel.handle(\n> HttpChannel.java:308)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.HttpConnection.onFillable(\n> >>> HttpConnection.java:244)*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(\n> >>> AbstractConnection.java:273)*\n> >>>> * at org.eclipse.jetty.io.FillInterest.fillable(\n> FillInterest.java:95)*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.SelectChannelEndPoint$2.run(\n> >>> SelectChannelEndPoint.java:93)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.\n> >>> produceAndRun(ExecuteProduceConsume.java:246)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(\n> >>> ExecuteProduceConsume.java:156)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(\n> >>> QueuedThreadPool.java:654)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(\n> >>> QueuedThreadPool.java:572)*\n> >>>> * at java.lang.Thread.run(Thread.java:745)*\n> >>>> *Caused by: java.util.concurrent.TimeoutException: Idle timeout\n> expired:\n> >>>> 50001/50000 ms*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(\n> IdleTimeout.java:166)*\n> >>>> * at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)*\n> >>>> * at\n> >>>> java.util.concurrent.Executors$RunnableAdapter.\n> call(Executors.java:511)*\n> >>>> * at java.util.concurrent.FutureTask.run(FutureTask.java:266)*\n> >>>> * at\n> >>>> java.util.concurrent.ScheduledThreadPoolExecutor$\n> >>> ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)*\n> >>>> * at\n> >>>> java.util.concurrent.ScheduledThreadPoolExecutor$\n> >>> ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)*\n> >>>> * at\n> >>>> java.util.concurrent.ThreadPoolExecutor.runWorker(\n> >>> ThreadPoolExecutor.java:1142)*\n> >>>> * at\n> >>>> java.util.concurrent.ThreadPoolExecutor$Worker.run(\n> >>> ThreadPoolExecutor.java:617)*\n> >>>> * ... 1 more*\n> >>>>\n> >>>> It has been there for 3 minutes and nothing after that.\n> >>>>\n> >>>> Any Clue?\n> >>>>\n> >>>> --\n> >>>> Regards\n> >>>>\n> >>>> Sadheera Vithanage\n> >>>\n> >>\n> >>\n> >>\n> >> --\n> >> Regards\n> >>\n> >> Sadheera Vithanage\n>\n>\n\n\n-- \nRegards\n\nSadheera Vithanage\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 45,
+      "end": 127,
+      "text": "On Wed, Feb 22, 2017 at 12:32 PM, Walter Underwood <wunder@wunderwood.org>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1151,
+      "end": 1250,
+      "text": ">\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 127,
+      "end": 1254,
+      "text": "\n> I\u00e2\u20ac\u2122ve run with 8GB for years for moderate data sets (250K to 15M docs).\n> Faceting can need more space.\n>\n> Make -Xms equal to -Xmx. The heap will grow to the max size regardless and\n> you\u00e2\u20ac\u2122ll get pauses while it grows. Starting at the max will avoid that pain.\n>\n> Solr uses lots and lots of short-lived allocations. Unless it goes into\n> cache, everything allocated for a single request is garbage afterwards. You\n> want to slow down the growth of tenured (old) space, so that it only\n> includes cache ejections.\n>\n> I run with 8GB heap and 2GB of new/eden space. That makes my friend who\n> works on the Go garbage collector cringe, but it works for Solr. I don\u00e2\u20ac\u2122t\n> fool around with all the ratio options. Just set the sizes and sleep well\n> at night.\n>\n> Watch the sawtooth of the old space under load. The highest of the minimum\n> allocated old space plus the eden space is your smallest working set. Add a\n> bit of breathing space above that. Not tons, because more old space garbage\n> means longer collections.\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1254,
+      "end": 1337,
+      "text": "> > On Feb 21, 2017, at 5:18 PM, Erick Erickson <erickerickson@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1900,
+      "end": 1924,
+      "text": "> >\n> > Best,\n> > Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1337,
+      "end": 1928,
+      "text": "> >\n> > Solr is very memory-intensive. 1g is still a very small heap. For any\n> > sizeable data store people often run with at least 4G, often 8G or\n> > more. If you facet or group or sort on fields that are _not_\n> > docValues=\"true\" fields you'll use up a lot of JVM memory. The\n> > filterCache uses up maxDoc/8 bytes for every entry etc.\n> >\n> > I guess my point is that you shouldn't be surprised if 1G is too\n> > small. I'd start with 4-8G and then reduce it after you get some\n> > experience with your data and queries and now much memory they\n> > require.\n> >\n> > Best,\n> > Erick\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1928,
+      "end": 2015,
+      "text": "> > On Tue, Feb 21, 2017 at 3:07 PM, Sadheera Vithanage <sadheerav@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2348,
+      "end": 2443,
+      "text": "> >> On Mon, Feb 20, 2017 at 11:50 AM, Erick Erickson <\n> erickerickson@gmail.com>\n> >> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2303,
+      "end": 2343,
+      "text": "> >>\n> >> Thanks again for the support.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2015,
+      "end": 2348,
+      "text": "> >> Thanks Eric, It looked like the garbage collection was blocking the\n> other\n> >> processes.\n> >>\n> >> I updated the SOLR_JAVA_MEM=\"-Xms1g -Xmx4g\" as it was the default before\n> >> and looked like the garbage collection was triggered too frequent.\n> >>\n> >> Lets see how it goes now.\n> >>\n> >> Thanks again for the support.\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2588,
+      "end": 2618,
+      "text": "> >>>\n> >>> Best,\n> >>> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2443,
+      "end": 2624,
+      "text": "> >>\n> >>> The first place to look for something like his is garbage collection.\n> >>> Are you hitting any really long stop-the-world GC pauses?\n> >>>\n> >>> Best,\n> >>> Erick\n> >>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2624,
+      "end": 2720,
+      "text": "> >>> On Sun, Feb 19, 2017 at 2:21 PM, Sadheera Vithanage <\n> sadheerav@gmail.com>\n> >>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2720,
+      "end": 2739,
+      "text": "> >>>> Hi Experts,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 9526,
+      "end": 9558,
+      "text": "-- \nRegards\n\nSadheera Vithanage\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 9470,
+      "end": 9520,
+      "text": "> >> --\n> >> Regards\n> >>\n> >> Sadheera Vithanage\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 9391,
+      "end": 9449,
+      "text": "> >>>> --\n> >>>> Regards\n> >>>>\n> >>>> Sadheera Vithanage\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2720,
+      "end": 9559,
+      "text": "> >>>> Hi Experts,\n> >>>>\n> >>>> I have a solr cloud node (Just 1 node for now with a zookeeper\n> running on\n> >>>> the same machine) running on ubuntu and It has been running without\n> >>> issues\n> >>>> for a while.\n> >>>>\n> >>>> This morning I noticed below error in the error log.\n> >>>>\n> >>>>\n> >>>> *2017-02-19 20:27:54.724 ERROR (qtp97730845-4968) [   ]\n> >>>> o.a.s.s.HttpSolrCall null:java.io.IOException:\n> >>>> java.util.concurrent.TimeoutException: Idle timeout expired:\n> >>> 50001/50000 ms*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(\n> >>> SharedBlockingCallback.java:226)*\n> >>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:164)*\n> >>>> * at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:530)*\n> >>>> * at\n> >>>> org.apache.commons.io.output.ProxyOutputStream.write(\n> >>> ProxyOutputStream.java:55)*\n> >>>> * at\n> >>>> org.apache.solr.response.QueryResponseWriterUtil$1.\n> >>> write(QueryResponseWriterUtil.java:54)*\n> >>>> * at java.io.OutputStream.write(OutputStream.java:116)*\n> >>>> * at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)*\n> >>>> * at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)*\n> >>>> * at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)*\n> >>>> * at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)*\n> >>>> * at org.apache.solr.util.FastWriter.flush(FastWriter.java:140)*\n> >>>> * at org.apache.solr.util.FastWriter.write(FastWriter.java:54)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeStr(\n> >>> JSONResponseWriter.java:454)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeVal(\n> >>> TextResponseWriter.java:128)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeSolrDocument(\n> >>> JSONResponseWriter.java:346)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeSolrDocumentList(\n> >>> TextResponseWriter.java:239)*\n> >>>> * at\n> >>>> org.apache.solr.response.TextResponseWriter.writeVal(\n> >>> TextResponseWriter.java:163)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeNamedListAsMapWithDups(\n> >>> JSONResponseWriter.java:184)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeNamedList(\n> >>> JSONResponseWriter.java:300)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONWriter.writeResponse(\n> >>> JSONResponseWriter.java:96)*\n> >>>> * at\n> >>>> org.apache.solr.response.JSONResponseWriter.write(\n> >>> JSONResponseWriter.java:55)*\n> >>>> * at\n> >>>> org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(\n> >>> QueryResponseWriterUtil.java:65)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.HttpSolrCall.writeResponse(\n> >>> HttpSolrCall.java:728)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(\n> >>> HttpSolrCall.java:667)*\n> >>>> * at org.apache.solr.servlet.HttpSolrCall.call(\n> HttpSolrCall.java:441)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(\n> >>> SolrDispatchFilter.java:303)*\n> >>>> * at\n> >>>> org.apache.solr.servlet.SolrDispatchFilter.doFilter(\n> >>> SolrDispatchFilter.java:254)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler$CachedChain.\n> >>> doFilter(ServletHandler.java:1668)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler.doHandle(\n> >>> ServletHandler.java:581)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(\n> >>> ScopedHandler.java:143)*\n> >>>> * at\n> >>>> org.eclipse.jetty.security.SecurityHandler.handle(\n> >>> SecurityHandler.java:548)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.session.SessionHandler.\n> >>> doHandle(SessionHandler.java:226)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandler.\n> >>> doHandle(ContextHandler.java:1160)*\n> >>>> * at\n> >>>> org.eclipse.jetty.servlet.ServletHandler.doScope(\n> >>> ServletHandler.java:511)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.session.SessionHandler.\n> >>> doScope(SessionHandler.java:185)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandler.\n> >>> doScope(ContextHandler.java:1092)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ScopedHandler.handle(\n> >>> ScopedHandler.java:141)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(\n> >>> ContextHandlerCollection.java:213)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.HandlerCollection.\n> >>> handle(HandlerCollection.java:119)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.handler.HandlerWrapper.handle(\n> >>> HandlerWrapper.java:134)*\n> >>>> * at org.eclipse.jetty.server.Server.handle(Server.java:518)*\n> >>>> * at org.eclipse.jetty.server.HttpChannel.handle(\n> HttpChannel.java:308)*\n> >>>> * at\n> >>>> org.eclipse.jetty.server.HttpConnection.onFillable(\n> >>> HttpConnection.java:244)*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(\n> >>> AbstractConnection.java:273)*\n> >>>> * at org.eclipse.jetty.io.FillInterest.fillable(\n> FillInterest.java:95)*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.SelectChannelEndPoint$2.run(\n> >>> SelectChannelEndPoint.java:93)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.\n> >>> produceAndRun(ExecuteProduceConsume.java:246)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(\n> >>> ExecuteProduceConsume.java:156)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(\n> >>> QueuedThreadPool.java:654)*\n> >>>> * at\n> >>>> org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(\n> >>> QueuedThreadPool.java:572)*\n> >>>> * at java.lang.Thread.run(Thread.java:745)*\n> >>>> *Caused by: java.util.concurrent.TimeoutException: Idle timeout\n> expired:\n> >>>> 50001/50000 ms*\n> >>>> * at\n> >>>> org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(\n> IdleTimeout.java:166)*\n> >>>> * at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)*\n> >>>> * at\n> >>>> java.util.concurrent.Executors$RunnableAdapter.\n> call(Executors.java:511)*\n> >>>> * at java.util.concurrent.FutureTask.run(FutureTask.java:266)*\n> >>>> * at\n> >>>> java.util.concurrent.ScheduledThreadPoolExecutor$\n> >>> ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)*\n> >>>> * at\n> >>>> java.util.concurrent.ScheduledThreadPoolExecutor$\n> >>> ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)*\n> >>>> * at\n> >>>> java.util.concurrent.ThreadPoolExecutor.runWorker(\n> >>> ThreadPoolExecutor.java:1142)*\n> >>>> * at\n> >>>> java.util.concurrent.ThreadPoolExecutor$Worker.run(\n> >>> ThreadPoolExecutor.java:617)*\n> >>>> * ... 1 more*\n> >>>>\n> >>>> It has been there for 3 minutes and nothing after that.\n> >>>>\n> >>>> Any Clue?\n> >>>>\n> >>>> --\n> >>>> Regards\n> >>>>\n> >>>> Sadheera Vithanage\n> >>>\n> >>\n> >>\n> >>\n> >> --\n> >> Regards\n> >>\n> >> Sadheera Vithanage\n>\n>\n\n\n-- \nRegards\n\nSadheera Vithanage\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 0,
+      "end": 45,
+      "text": "Cool, Thank you very much Erick and Walter.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1089"
+}

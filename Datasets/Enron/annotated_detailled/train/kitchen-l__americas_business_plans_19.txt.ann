@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/kitchen-l__americas_business_plans_19.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<13986191.1075840811677.JavaMail.evans@thyme>",
+      "Date": "Tue, 16 Oct 2001 08:51:21 -0700 (PDT)",
+      "From": "faith.killen@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "2002 Plan Expenses Estimate",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Killen, Faith </O=ENRON/OU=NA/CN=RECIPIENTS/CN=FKILLEN>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Business Plans",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "text": "Commercial:\t$269 (includes facility costs)\n\nSupport Depts/Corp Charges: $299 (includes estimated $100M for bonuses)",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 115,
+      "text": "Commercial:\t$269 (includes facility costs)\n\nSupport Depts/Corp Charges: $299 (includes estimated $100M for bonuses)",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

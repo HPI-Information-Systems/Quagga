@@ -1,0 +1,120 @@
+{
+  "wrapper": "plaintext",
+  "text": "bq: To me this seems like a design flaw. The Solr fieldtypes seem like they\nallow a developer to create types that should handle wildcards\nintelligently.\n\nWell, that's pretty impossible. WordDelimiter(Graph)FilterFactory is a\ncase in point. It's designed to break up on\nuppercase/lowercase/numeric/non-alpha-num transitions. This is to\nexpressly support, say, phone numbers where the input is 123-456-7890\nor (123) 456-7890 or..... This is just basically incompatible with\nWDFF. How would one support wildcards here? Would you expect 123-45*\nto match? What about 123 45* What about..... you see the problem.\n\nIt's not even valid to fail on wildcards in, say, WDFF. There's no\na-priori reason why the asterisk character is \"special\", as it may not\nbe in some situations.\n\nThere's been some progress from the bad old days, but it's an ongoing\nprocess. See: https://lucidworks.com/2011/11/29/whats-with-lowercasing-wildcard-multiterm-queries-in-solr/\n\nIt's just a messy problem.\n\nBest,\nErick\n\nOn Thu, Jul 27, 2017 at 2:15 PM, Webster Homer <webster.homer@sial.com> wrote:\n> It doesn't seem to matter what you do in the query analyzer, if you have a\n> wildcard, it won't use it. Which is exactly the behavior I observed.\n>\n> the solution was to set preserveOriginal=\"1\" and change the etl process to\n> not strip the dashes, letting the index analyzer do that. We have a lot of\n> legacy etl which was developed to load Endeca. It's not always what we want\n> with Solr\n>\n> On Thu, Jul 27, 2017 at 2:07 PM, Saurabh Sethi <saurabh.sethi@sendgrid.com>\n> wrote:\n>\n>> Webster, did you try escaping the special character (assuming you did not\n>> do what Shawn did by replacing - with some other text and your indexed\n>> tokens have -)?\n>>\n>> On Thu, Jul 27, 2017 at 12:03 PM, Webster Homer <webster.homer@sial.com>\n>> wrote:\n>>\n>> > Shawn,\n>> > Thank you for that. I didn't know about that feature of the WDF. It\n>> doesn't\n>> > help my situation but it's great to know about.\n>> > Googling solr wildcard searches I found this link\n>> > http://lucene.472066.n3.nabble.com/Wildcard-search-\n>> > not-working-with-search-term-having-special-characters-and-\n>> > digits-td4133385.html\n>> >\n>> > \"The use of a wildcard in a query term with embedded special characters\n>> > will bypass\n>> > normal analysis - you need to enter the term exactly as it would be\n>> > analyzed\n>> > at index time for wildcard to work.\"\n>> >\n>> > To me this seems like a design flaw. The Solr fieldtypes seem like they\n>> > allow a developer to create types that should handle wildcards\n>> > intelligently. At the very least the Analyzer tool should show this\n>> > behavior, and not even try to analyze terms with wildcards.\n>> >\n>> > Actually the behavior would more correctly be stated as \"You need to\n>> enter\n>> > the term exactly as the data is after it has been indexed\" If the\n>> fieldtype\n>> > removes hyphens then you must enter the wildcard query without hyphens.\n>> >\n>> > On Thu, Jul 27, 2017 at 8:35 AM, Shawn Heisey <apache@elyograg.org>\n>> wrote:\n>> >\n>> > > On 7/26/2017 12:33 PM, Webster Homer wrote:\n>> > > > checked the Pattern Replace it's OK. Can't use the preserve original\n>> > > > since it preserves the hyphens too, which I don't want. It would be\n>> > > > best if it didn't touch the * at all\n>> > >\n>> > > You can tell WDF to change the meaning of certain characters.  Here's a\n>> > > WDF entry in one of my schemas:\n>> > >\n>> > >         <filter class=\"solr.WordDelimiterFilterFactory\"\n>> > >           splitOnCaseChange=\"0\"\n>> > >           splitOnNumerics=\"0\"\n>> > >           stemEnglishPossessive=\"0\"\n>> > >           generateWordParts=\"1\"\n>> > >           generateNumberParts=\"1\"\n>> > >           catenateWords=\"0\"\n>> > >           catenateNumbers=\"0\"\n>> > >           catenateAll=\"0\"\n>> > >           preserveOriginal=\"1\"\n>> > >           types=\"wdftypes_mt.txt\"\n>> > >         />\n>> > >\n>> > > This is the contents of wdftypes_mt.txt (between the --- lines):\n>> > >\n>> > > ---\n>> > > - => ALPHA\n>> > > _ => ALPHA\n>> > > ---\n>> > >\n>> > > I have defined the hyphen and underscore as alphabetic characters in\n>> > > this situation.  This is in a fieldType that I use for a field that\n>> > > contains a typical mime-type, where I do not want to split on a hyphen\n>> > > or underscore.\n>> > >\n>> > > I am having a hard time finding documentation on the \"types\" parameter\n>> > > for WDF.  I no longer remember where I found the information on how to\n>> > > format that file.  I may have looked at the source code.\n>> > >\n>> > > Thanks,\n>> > > Shawn\n>> > >\n>> > >\n>> >\n>> > --\n>> >\n>> >\n>> > This message and any attachment are confidential and may be privileged or\n>> > otherwise protected from disclosure. If you are not the intended\n>> recipient,\n>> > you must not copy this message or attachment or disclose the contents to\n>> > any other person. If you have received this transmission in error, please\n>> > notify the sender immediately and delete the message and any attachment\n>> > from your system. Merck KGaA, Darmstadt, Germany and any of its\n>> > subsidiaries do not accept liability for any omissions or errors in this\n>> > message which may arise as a result of E-Mail-transmission or for damages\n>> > resulting from any unauthorized changes of the content of this message\n>> and\n>> > any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n>> > subsidiaries do not guarantee that this message is free of viruses and\n>> does\n>> > not accept liability for any damages caused by any virus transmitted\n>> > therewith.\n>> >\n>> > Click http://www.emdgroup.com/disclaimer to access the German, French,\n>> > Spanish and Portuguese versions of this disclaimer.\n>> >\n>>\n>>\n>>\n>> --\n>> Saurabh Sethi\n>> Principal Engineer I | Engineering\n>>\n>\n> --\n>\n>\n> This message and any attachment are confidential and may be privileged or\n> otherwise protected from disclosure. If you are not the intended recipient,\n> you must not copy this message or attachment or disclose the contents to\n> any other person. If you have received this transmission in error, please\n> notify the sender immediately and delete the message and any attachment\n> from your system. Merck KGaA, Darmstadt, Germany and any of its\n> subsidiaries do not accept liability for any omissions or errors in this\n> message which may arise as a result of E-Mail-transmission or for damages\n> resulting from any unauthorized changes of the content of this message and\n> any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n> subsidiaries do not guarantee that this message is free of viruses and does\n> not accept liability for any damages caused by any virus transmitted\n> therewith.\n>\n> Click http://www.emdgroup.com/disclaimer to access the German, French,\n> Spanish and Portuguese versions of this disclaimer.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 976,
+      "end": 989,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 990,
+      "text": "bq: To me this seems like a design flaw. The Solr fieldtypes seem like they\nallow a developer to create types that should handle wildcards\nintelligently.\n\nWell, that's pretty impossible. WordDelimiter(Graph)FilterFactory is a\ncase in point. It's designed to break up on\nuppercase/lowercase/numeric/non-alpha-num transitions. This is to\nexpressly support, say, phone numbers where the input is 123-456-7890\nor (123) 456-7890 or..... This is just basically incompatible with\nWDFF. How would one support wildcards here? Would you expect 123-45*\nto match? What about 123 45* What about..... you see the problem.\n\nIt's not even valid to fail on wildcards in, say, WDFF. There's no\na-priori reason why the asterisk character is \"special\", as it may not\nbe in some situations.\n\nThere's been some progress from the bad old days, but it's an ongoing\nprocess. See: https://lucidworks.com/2011/11/29/whats-with-lowercasing-wildcard-multiterm-queries-in-solr/\n\nIt's just a messy problem.\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 990,
+      "end": 1069,
+      "text": "On Thu, Jul 27, 2017 at 2:15 PM, Webster Homer <webster.homer@sial.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1069,
+      "end": 1465,
+      "text": "> It doesn't seem to matter what you do in the query analyzer, if you have a\n> wildcard, it won't use it. Which is exactly the behavior I observed.\n>\n> the solution was to set preserveOriginal=\"1\" and change the etl process to\n> not strip the dashes, letting the index analyzer do that. We have a lot of\n> legacy etl which was developed to load Endeca. It's not always what we want\n> with Solr\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1465,
+      "end": 1552,
+      "text": "> On Thu, Jul 27, 2017 at 2:07 PM, Saurabh Sethi <saurabh.sethi@sendgrid.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1552,
+      "end": 1727,
+      "text": ">\n>> Webster, did you try escaping the special character (assuming you did not\n>> do what Shawn did by replacing - with some other text and your indexed\n>> tokens have -)?\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1727,
+      "end": 1813,
+      "text": ">> On Thu, Jul 27, 2017 at 12:03 PM, Webster Homer <webster.homer@sial.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1813,
+      "end": 1828,
+      "text": ">>\n>> > Shawn,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1813,
+      "end": 2939,
+      "text": ">>\n>> > Shawn,\n>> > Thank you for that. I didn't know about that feature of the WDF. It\n>> doesn't\n>> > help my situation but it's great to know about.\n>> > Googling solr wildcard searches I found this link\n>> > http://lucene.472066.n3.nabble.com/Wildcard-search-\n>> > not-working-with-search-term-having-special-characters-and-\n>> > digits-td4133385.html\n>> >\n>> > \"The use of a wildcard in a query term with embedded special characters\n>> > will bypass\n>> > normal analysis - you need to enter the term exactly as it would be\n>> > analyzed\n>> > at index time for wildcard to work.\"\n>> >\n>> > To me this seems like a design flaw. The Solr fieldtypes seem like they\n>> > allow a developer to create types that should handle wildcards\n>> > intelligently. At the very least the Analyzer tool should show this\n>> > behavior, and not even try to analyze terms with wildcards.\n>> >\n>> > Actually the behavior would more correctly be stated as \"You need to\n>> enter\n>> > the term exactly as the data is after it has been indexed\" If the\n>> fieldtype\n>> > removes hyphens then you must enter the wildcard query without hyphens.\n>> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2939,
+      "end": 3022,
+      "text": ">> > On Thu, Jul 27, 2017 at 8:35 AM, Shawn Heisey <apache@elyograg.org>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 3022,
+      "end": 3078,
+      "text": ">> >\n>> > > On 7/26/2017 12:33 PM, Webster Homer wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 4504,
+      "end": 4539,
+      "text": ">> > >\n>> > > Thanks,\n>> > > Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 5683,
+      "end": 5744,
+      "text": ">> --\n>> Saurabh Sethi\n>> Principal Engineer I | Engineering\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3078,
+      "end": 6795,
+      "text": ">> > > > checked the Pattern Replace it's OK. Can't use the preserve original\n>> > > > since it preserves the hyphens too, which I don't want. It would be\n>> > > > best if it didn't touch the * at all\n>> > >\n>> > > You can tell WDF to change the meaning of certain characters.  Here's a\n>> > > WDF entry in one of my schemas:\n>> > >\n>> > >         <filter class=\"solr.WordDelimiterFilterFactory\"\n>> > >           splitOnCaseChange=\"0\"\n>> > >           splitOnNumerics=\"0\"\n>> > >           stemEnglishPossessive=\"0\"\n>> > >           generateWordParts=\"1\"\n>> > >           generateNumberParts=\"1\"\n>> > >           catenateWords=\"0\"\n>> > >           catenateNumbers=\"0\"\n>> > >           catenateAll=\"0\"\n>> > >           preserveOriginal=\"1\"\n>> > >           types=\"wdftypes_mt.txt\"\n>> > >         />\n>> > >\n>> > > This is the contents of wdftypes_mt.txt (between the --- lines):\n>> > >\n>> > > ---\n>> > > - => ALPHA\n>> > > _ => ALPHA\n>> > > ---\n>> > >\n>> > > I have defined the hyphen and underscore as alphabetic characters in\n>> > > this situation.  This is in a fieldType that I use for a field that\n>> > > contains a typical mime-type, where I do not want to split on a hyphen\n>> > > or underscore.\n>> > >\n>> > > I am having a hard time finding documentation on the \"types\" parameter\n>> > > for WDF.  I no longer remember where I found the information on how to\n>> > > format that file.  I may have looked at the source code.\n>> > >\n>> > > Thanks,\n>> > > Shawn\n>> > >\n>> > >\n>> >\n>> > --\n>> >\n>> >\n>> > This message and any attachment are confidential and may be privileged or\n>> > otherwise protected from disclosure. If you are not the intended\n>> recipient,\n>> > you must not copy this message or attachment or disclose the contents to\n>> > any other person. If you have received this transmission in error, please\n>> > notify the sender immediately and delete the message and any attachment\n>> > from your system. Merck KGaA, Darmstadt, Germany and any of its\n>> > subsidiaries do not accept liability for any omissions or errors in this\n>> > message which may arise as a result of E-Mail-transmission or for damages\n>> > resulting from any unauthorized changes of the content of this message\n>> and\n>> > any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n>> > subsidiaries do not guarantee that this message is free of viruses and\n>> does\n>> > not accept liability for any damages caused by any virus transmitted\n>> > therewith.\n>> >\n>> > Click http://www.emdgroup.com/disclaimer to access the German, French,\n>> > Spanish and Portuguese versions of this disclaimer.\n>> >\n>>\n>>\n>>\n>> --\n>> Saurabh Sethi\n>> Principal Engineer I | Engineering\n>>\n>\n> --\n>\n>\n> This message and any attachment are confidential and may be privileged or\n> otherwise protected from disclosure. If you are not the intended recipient,\n> you must not copy this message or attachment or disclose the contents to\n> any other person. If you have received this transmission in error, please\n> notify the sender immediately and delete the message and any attachment\n> from your system. Merck KGaA, Darmstadt, Germany and any of its\n> subsidiaries do not accept liability for any omissions or errors in this\n> message which may arise as a result of E-Mail-transmission or for damages\n> resulting from any unauthorized changes of the content of this message and\n> any attachment thereto. Merck KGaA, Darmstadt, Germany and any of its\n> subsidiaries do not guarantee that this message is free of viruses and does\n> not accept liability for any damages caused by any virus transmitted\n> therewith.\n>\n> Click http://www.emdgroup.com/disclaimer to access the German, French,\n> Spanish and Portuguese versions of this disclaimer.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5101"
+}

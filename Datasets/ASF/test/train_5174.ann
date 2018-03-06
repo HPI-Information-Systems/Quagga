@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nyou might get the information you are looking for from this hidden API:\n\nhttp://<master_ip>:8888/json/\n\nHope it helps,\nDavide\n\n\n\n\n--\nSent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 134,
+      "text": "\nHope it helps,\nDavide\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 335,
+      "text": "Hello,\n\nyou might get the information you are looking for from this hidden API:\n\nhttp://<master_ip>:8888/json/\n\nHope it helps,\nDavide\n\n\n\n\n--\nSent from: http://apache-spark-user-list.1001560.n3.nabble.com/\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_5174"
+}

@@ -1,0 +1,51 @@
+hmm..I guess in that case my assumption of "app" is wrong. I thought the
+app is a client jar that you submit. no? If so, say I submit multiple jobs
+then I get two UI'S?
+
+On Mon, Jan 23, 2017 at 12:07 PM, Marcelo Vanzin <vanzin@cloudera.com>
+wrote:
+
+> No. Each app has its own UI which runs (starting on) port 4040.
+>
+> On Mon, Jan 23, 2017 at 12:05 PM, kant kodali <kanth909@gmail.com> wrote:
+> > I am using standalone mode so wouldn't be 8080 for my app web ui as well?
+> > There is nothing running on 4040 in my cluster.
+> >
+> > http://spark.apache.org/docs/latest/security.html#standalone-mode-only
+> >
+> > On Mon, Jan 23, 2017 at 11:51 AM, Marcelo Vanzin <vanzin@cloudera.com>
+> > wrote:
+> >>
+> >> That's the Master, whose default port is 8080 (not 4040). The default
+> >> port for the app's UI is 4040.
+> >>
+> >> On Mon, Jan 23, 2017 at 11:47 AM, kant kodali <kanth909@gmail.com>
+> wrote:
+> >> > I am not sure why Spark web UI keeps changing its port every time I
+> >> > restart
+> >> > a cluster? how can I make it run always on one port? I did make sure
+> >> > there
+> >> > is no process running on 4040(spark default web ui port) however it
+> >> > still
+> >> > starts at 8080. any ideas?
+> >> >
+> >> >
+> >> > MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at
+> >> > http://x.x.x.x:8080
+> >> >
+> >> >
+> >> > Thanks!
+> >>
+> >>
+> >>
+> >> --
+> >> Marcelo
+> >
+> >
+>
+>
+>
+> --
+> Marcelo
+>
+

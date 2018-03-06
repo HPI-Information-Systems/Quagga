@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "We have a 30 node Hadoop cluster and each data node has a SOLR instance also running. We are\nadding 10 nodes. After adding nodes, we'll run HDFS balancer. This will affect data locality.\ndoes this impact how solr works (I mean performance)?\u00c2\u00a0ThanksImad\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 242,
+      "end": 253,
+      "text": "ThanksImad\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 253,
+      "text": "We have a 30 node Hadoop cluster and each data node has a SOLR instance also running. We are\nadding 10 nodes. After adding nodes, we'll run HDFS balancer. This will affect data locality.\ndoes this impact how solr works (I mean performance)?\u00c2\u00a0ThanksImad\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1647"
+}

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 7/17/2017 2:48 AM, wg85907 wrote:\n>         Thanks for your detail explanation. The reason I want to shutdown the CloudSolrServer\ninstance and create a new one is that I have concern that if it can successfully reconnect\nto Zookeeper server if Zookeeper cluster has some issue and reboot.\n\nI know that as long as the zookeeper ensemble (which is three or more ZK\nservers working together) does not lose quorum, and Solr is connected to\nall of the servers in the ensemble, Solr will be fine.\n\nI have heard someone on the list say that if ZK loses quorum (which\nmeans that the number of running servers drops below a required minimum)\nthen Solr doesn't recover correctly when quorum is re-established.  If\nyou have three servers, then at least two of them must be working to\nmaintain quorum.  If there are five servers, then at least three of them\nmust be working.\n\nI do not think that the problem described above has been confirmed as an\nissue.  If it does turn out to be true, then the problem is not likely\nto be in Solr, but in ZK -- Solr uses the ZK client, which completely\nmanages that communication.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 37,
+      "text": "On 7/17/2017 2:48 AM, wg85907 wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1109,
+      "end": 1124,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 37,
+      "end": 1126,
+      "text": ">         Thanks for your detail explanation. The reason I want to shutdown the CloudSolrServer\ninstance and create a new one is that I have concern that if it can successfully reconnect\nto Zookeeper server if Zookeeper cluster has some issue and reboot.\n\nI know that as long as the zookeeper ensemble (which is three or more ZK\nservers working together) does not lose quorum, and Solr is connected to\nall of the servers in the ensemble, Solr will be fine.\n\nI have heard someone on the list say that if ZK loses quorum (which\nmeans that the number of running servers drops below a required minimum)\nthen Solr doesn't recover correctly when quorum is re-established.  If\nyou have three servers, then at least two of them must be working to\nmaintain quorum.  If there are five servers, then at least three of them\nmust be working.\n\nI do not think that the problem described above has been confirmed as an\nissue.  If it does turn out to be true, then the problem is not likely\nto be in Solr, but in ZK -- Solr uses the ZK client, which completely\nmanages that communication.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4802"
+}

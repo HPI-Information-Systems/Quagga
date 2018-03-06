@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/nemec-g_all_documents_1941.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<1844373.1075842626465.JavaMail.evans@thyme>",
+      "Date": "Thu, 9 Nov 2000 01:35:00 -0800 (PST)",
+      "From": "gerald.nemec@enron.com",
+      "To": "carlos.alatorre@enron.com, carl.carter@enron.com",
+      "Subject": "EOL GTC",
+      "Cc": "shak@ev1.net, dick.jenkins@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "shak@ev1.net, dick.jenkins@enron.com",
+      "X-From": "Gerald Nemec",
+      "X-To": "Carlos Alatorre, Carl Carter",
+      "X-cc": "shak@ev1.net, Dick Jenkins",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "text": "One more revision to the GTC.  Few changes based on my discussion with Carl \nthis morning.  I have attached a clean and redlined copy.  The redline is \ncompared against the version prior to the secondary point discussion for \nColleen's benefit.  I am fine to run with this copy from a legal perspective \nunless Dick or Colleen had any comments.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 345,
+      "text": "One more revision to the GTC.  Few changes based on my discussion with Carl \nthis morning.  I have attached a clean and redlined copy.  The redline is \ncompared against the version prior to the secondary point discussion for \nColleen's benefit.  I am fine to run with this copy from a legal perspective \nunless Dick or Colleen had any comments.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

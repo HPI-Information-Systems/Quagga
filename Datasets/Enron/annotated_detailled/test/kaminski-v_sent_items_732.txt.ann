@@ -1,0 +1,214 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 05/03/2001 10:32 AM ---------------------------\n\n\nDavid Ikenberry <daveike@rice.edu> on 04/19/2001 12:41:10 PM\nTo:\tAndrew.S.Fastow@enron.com\ncc:\t \nSubject:\tThe National Forum on Corporate Finance\n\n\nMr. Fastow,\n\nI'm writing all of our participants and confirming plans for the upcoming\ncorporate finance meetings on May 4-5 here.  As a reminder, you are slated\nto sit on the executive option/equity dilution panel on Saturday\nmorning.  Dave Yermack from NYU, the number one expert on this issue, is\npresenting at that session.  (Again, serving as a panelist should require\nlittle preparation on your behalf.)\n\nAlso, you and your wife are welcome to attend the dinner on Friday evening,\nMay 4.  It will be held in the Baker Institute across from the business\nschool.  Tom Copeland is our speaker - (I think he plans to focus his\nremarks on real options).  Vince Kaminski  has told me he will be at the\ndinner, however his wife is out of town and will not be.\n\nPlease call me direct if I can be of any help or assistance.   I look\nforward to seeing you soon.  I've attached a copy of the program along with\na name rooster of those planning to attend.\n\n\nDave Ikenberry\n\n\n***********************************\nProf. David Ikenberry\nJones Graduate School of Management\nRice University\n713-348-5385\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 53,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 65,
+      "end": 75,
+      "text": "05/03/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "10:32 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 05/03/2001 10:32 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 130,
+      "text": "David Ikenberry",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 148,
+      "text": "daveike@rice.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 153,
+      "end": 163,
+      "text": "04/19/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 164,
+      "end": 175,
+      "text": "12:41:10 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 180,
+      "end": 205,
+      "text": "Andrew.S.Fastow@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 221,
+      "end": 260,
+      "text": "The National Forum on Corporate Finance",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 113,
+      "end": 261,
+      "text": "\n\nDavid Ikenberry <daveike@rice.edu> on 04/19/2001 12:41:10 PM\nTo:\tAndrew.S.Fastow@enron.com\ncc:\t \nSubject:\tThe National Forum on Corporate Finance\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 263,
+      "end": 273,
+      "text": "Mr. Fastow",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1215,
+      "end": 1229,
+      "text": "Dave Ikenberry",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1268,
+      "end": 1289,
+      "text": "Prof. David Ikenberry",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1290,
+      "end": 1342,
+      "text": "Jones Graduate School of Management\nRice University\n",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1342,
+      "end": 1354,
+      "text": "713-348-5385",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1232,
+      "end": 1356,
+      "text": "***********************************\nProf. David Ikenberry\nJones Graduate School of Management\nRice University\n713-348-5385\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 261,
+      "end": 1356,
+      "text": "\n\nMr. Fastow,\n\nI'm writing all of our participants and confirming plans for the upcoming\ncorporate finance meetings on May 4-5 here.  As a reminder, you are slated\nto sit on the executive option/equity dilution panel on Saturday\nmorning.  Dave Yermack from NYU, the number one expert on this issue, is\npresenting at that session.  (Again, serving as a panelist should require\nlittle preparation on your behalf.)\n\nAlso, you and your wife are welcome to attend the dinner on Friday evening,\nMay 4.  It will be held in the Baker Institute across from the business\nschool.  Tom Copeland is our speaker - (I think he plans to focus his\nremarks on real options).  Vince Kaminski  has told me he will be at the\ndinner, however his wife is out of town and will not be.\n\nPlease call me direct if I can be of any help or assistance.   I look\nforward to seeing you soon.  I've attached a copy of the program along with\na name rooster of those planning to attend.\n\n\nDave Ikenberry\n\n\n***********************************\nProf. David Ikenberry\nJones Graduate School of Management\nRice University\n713-348-5385\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 5,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 14,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5912243.1075858472739.JavaMail.evans@thyme>",
+      "Date": "Thu, 3 May 2001 13:32:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "shirley.crenshaw@enron.com",
+      "Subject": "The National Forum on Corporate Finance",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Shirley Crenshaw <Shirley Crenshaw/HOU/ECT@ECT>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vince_Kaminski_Jun2001_10\\Sent Items",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.pst"
+    }
+  },
+  "id": "test/kaminski-v_sent_items_732.txt"
+}

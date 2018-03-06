@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thank you for your Amazon.com gift certificate order!\n\n\nYour order summary appears below.  To see the latest information\nabout your order, please visit:\n\nhttp://www.amazon.com/your-account\n\nor click the \"Your Account\" link in the top right corner of any page\non our web site.  If you need to get in touch with us about your\norder, send an e-mail message to orders@amazon.com (or just reply\nto this message).\n\n------------------------------------------------------------\n\nQuantity:              1\nAmount:                $    250.00\n\nGift certificate(s):   $    250.00\nShipping:                   free\nTax:                   $       0\n-------\nTOTAL:                 $    250.00\n\nWill be sent to:\nkean.philip@mcleodusa.net\n\n\n\n\n\n\nThank you for shopping at Amazon.com!\n\n-------------------------------------------------------------\nAmazon.com\nEarth's Biggest Selection\nhttp://www.amazon.com/\norders@amazon.com\n-------------------------------------------------------------",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 765,
+      "end": 966,
+      "text": "-------------------------------------------------------------\nAmazon.com\nEarth's Biggest Selection\nhttp://www.amazon.com/\norders@amazon.com\n-------------------------------------------------------------",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 966,
+      "text": "Thank you for your Amazon.com gift certificate order!\n\n\nYour order summary appears below.  To see the latest information\nabout your order, please visit:\n\nhttp://www.amazon.com/your-account\n\nor click the \"Your Account\" link in the top right corner of any page\non our web site.  If you need to get in touch with us about your\norder, send an e-mail message to orders@amazon.com (or just reply\nto this message).\n\n------------------------------------------------------------\n\nQuantity:              1\nAmount:                $    250.00\n\nGift certificate(s):   $    250.00\nShipping:                   free\nTax:                   $       0\n-------\nTOTAL:                 $    250.00\n\nWill be sent to:\nkean.philip@mcleodusa.net\n\n\n\n\n\n\nThank you for shopping at Amazon.com!\n\n-------------------------------------------------------------\nAmazon.com\nEarth's Biggest Selection\nhttp://www.amazon.com/\norders@amazon.com\n-------------------------------------------------------------",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20119342.1075847800996.JavaMail.evans@thyme>",
+      "Date": "Mon, 25 Dec 2000 02:24:00 -0800 (PST)",
+      "From": "auto-confirm@amazon.com",
+      "To": "skean@enron.com",
+      "Subject": "Your Order with Amazon.com (#104-7660794-8240766)",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "auto-confirm@amazon.com",
+      "X-To": "skean@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_2\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_6473.txt"
+}

@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Since it hits heap, moving to docValues might make sense.\n\nOn Wed, Mar 22, 2017 at 7:47 AM, Midas A <test.midas@gmail.com> wrote:\n\n> waiting for reply . Actually Heap utilization increases when we sort with\n> dynamic fields\n>\n> On Tue, Mar 21, 2017 at 10:37 AM, Midas A <test.midas@gmail.com> wrote:\n>\n> > Hi ,\n> >\n> > How can i improve the performance of dynamic field sorting .\n> >\n> > index size is : 20 GB\n> >\n> > Regards,\n> > Midas\n> >\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 59,
+      "text": "Since it hits heap, moving to docValues might make sense.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 59,
+      "end": 130,
+      "text": "On Wed, Mar 22, 2017 at 7:47 AM, Midas A <test.midas@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 226,
+      "end": 300,
+      "text": "> On Tue, Mar 21, 2017 at 10:37 AM, Midas A <test.midas@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 130,
+      "end": 226,
+      "text": "\n> waiting for reply . Actually Heap utilization increases when we sort with\n> dynamic fields\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 300,
+      "end": 311,
+      "text": ">\n> > Hi ,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 410,
+      "end": 437,
+      "text": "> >\n> > Regards,\n> > Midas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 446,
+      "end": 483,
+      "text": "-- \nSincerely yours\nMikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 300,
+      "end": 484,
+      "text": ">\n> > Hi ,\n> >\n> > How can i improve the performance of dynamic field sorting .\n> >\n> > index size is : 20 GB\n> >\n> > Regards,\n> > Midas\n> >\n>\n\n\n\n-- \nSincerely yours\nMikhail Khludnev\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1909"
+}

@@ -1,0 +1,155 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sounds interesting, and Scottsdale is supposed to be nice.  Enjoy! \n\n\n   \n\t\n\t\n\tFrom:  Sheila Glover                           04/20/2000 12:07 PM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT, Gary Hickerson/HOU/ECT@ECT\ncc: Kelly Templeton/Corp/Enron@ENRON, Patti Thompson/HOU/ECT@ECT, Theresa T \nBrogan/HOU/ECT@ECT, Laurel Adams/HOU/ECT@ECT, Clara Carrington/HOU/ECT@ECT \nSubject: Goldman Sachs CFO Conference\n\nI will be out of the office on May 9 and 10 attending a Goldman Sachs CFO \nHedge Fund Conference in Scottsdale, AZ.\n\nTheresa, Laurel and Clara are in.\nSheila\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 547,
+      "end": 553,
+      "text": "Sheila",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 395,
+      "end": 556,
+      "text": "\nI will be out of the office on May 9 and 10 attending a Goldman Sachs CFO \nHedge Fund Conference in Scottsdale, AZ.\n\nTheresa, Laurel and Clara are in.\nSheila\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 366,
+      "end": 394,
+      "text": "Goldman Sachs CFO Conference",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 78,
+      "text": "Sounds interesting, and Scottsdale is supposed to be nice.  Enjoy! \n\n\n   \n\t\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 86,
+      "end": 99,
+      "text": "Sheila Glover",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 126,
+      "end": 136,
+      "text": "04/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 137,
+      "end": 145,
+      "text": "12:07 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 153,
+      "end": 163,
+      "text": "Sally Beck",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 177,
+      "end": 191,
+      "text": "Gary Hickerson",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 208,
+      "end": 223,
+      "text": "Kelly Templeton",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 242,
+      "end": 256,
+      "text": "Patti Thompson",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 270,
+      "end": 287,
+      "text": "Theresa T \nBrogan",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 301,
+      "end": 313,
+      "text": "Laurel Adams",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 327,
+      "end": 343,
+      "text": "Clara Carrington",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 79,
+      "end": 395,
+      "text": "From:  Sheila Glover                           04/20/2000 12:07 PM\n\t\n\nTo: Sally Beck/HOU/ECT@ECT, Gary Hickerson/HOU/ECT@ECT\ncc: Kelly Templeton/Corp/Enron@ENRON, Patti Thompson/HOU/ECT@ECT, Theresa T \nBrogan/HOU/ECT@ECT, Laurel Adams/HOU/ECT@ECT, Clara Carrington/HOU/ECT@ECT \nSubject: Goldman Sachs CFO Conference\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6704044.1075855908326.JavaMail.evans@thyme>",
+      "Date": "Mon, 24 Apr 2000 03:50:00 -0700 (PDT)",
+      "From": "sally.beck@enron.com",
+      "To": "sheila.glover@enron.com",
+      "Subject": "Re: Goldman Sachs CFO Conference",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sally Beck",
+      "X-To": "Sheila Glover",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_sent_502.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

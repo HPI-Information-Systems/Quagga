@@ -1,0 +1,9 @@
+Hi,
+
+As you know that json facet api returns inconsistent counts in cloud set up
+(SOLR-7452). I would like to learn that is the situation same for Solr SQL
+queries too?
+
+Kind Regards,
+Furkan KAMACI
+

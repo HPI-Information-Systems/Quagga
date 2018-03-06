@@ -1,0 +1,123 @@
+{
+  "wrapper": "plaintext",
+  "text": "I checked both of these deals, and they each show no broker fee. Mark Fischer \nmight have just changed this, but let me know if it's still not showing up in \nyour system.\n\nThanks,\nkate\n\n\n\n\nEvelyn Metoyer@ENRON\n12/13/2000 11:55 AM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Fee discrepancies\n\n\nMark Fischer- traded 12-12-00\ndeals 478539 and 478546\nAmerex shows no fee on these deals and we show $.0075\n\nThanks!!\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 180,
+      "end": 184,
+      "text": "kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 172,
+      "end": 185,
+      "text": "Thanks,\nkate\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 189,
+      "text": "I checked both of these deals, and they each show no broker fee. Mark Fischer \nmight have just changed this, but let me know if it's still not showing up in \nyour system.\n\nThanks,\nkate\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 189,
+      "end": 203,
+      "text": "Evelyn Metoyer",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 210,
+      "end": 220,
+      "text": "12/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 221,
+      "end": 229,
+      "text": "11:55 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 234,
+      "end": 244,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 273,
+      "end": 290,
+      "text": "Fee discrepancies",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 189,
+      "end": 291,
+      "text": "Evelyn Metoyer@ENRON\n12/13/2000 11:55 AM\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: Fee discrepancies\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 402,
+      "end": 411,
+      "text": "Thanks!!\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 291,
+      "end": 412,
+      "text": "\n\nMark Fischer- traded 12-12-00\ndeals 478539 and 478546\nAmerex shows no fee on these deals and we show $.0075\n\nThanks!!\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19757328.1075841934671.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Dec 2000 04:51:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "evelyn.metoyer@enron.com",
+      "Subject": "Re: Fee discrepancies",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Evelyn Metoyer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\'sent mail",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k__sent_mail_1069.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 7,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "I am curios why you need to restart solr every week.  Our Prod solr\ninstance (6.0) has been running Since Nov,16 with no restart\n\nOn Sun, Jul 2, 2017 at 12:55 PM, Furkan KAMACI <furkankamaci@gmail.com>\nwrote:\n\n> Hi Jeck,\n>\n> Here is the documentation about how you can run Solr as service:\n> https://lucene.apache.org/solr/guide/6_6/taking-solr-to-production.html\n>\n> However, as far as I see you use Windows as operating system. There is\n> currently an open issue for creating scripts to run as a Windows Service:\n> https://issues.apache.org/jira/browse/SOLR-7105 but not yet completed.\n>\n> Could you check this:\n> http://coding-art.blogspot.com.tr/2016/07/running-solr-\n> 61-as-windows-service.html\n>\n> Kind Regards,\n> Furkan KAMACI\n>\n>\n> On Sun, Jul 2, 2017 at 6:12 PM, rojerick luna <rhl_21@yahoo.com.invalid>\n> wrote:\n>\n> > Hi,\n> >\n> > Anyone who successfully set this up? Thanks\n> >\n> > Best Regards,\n> > Jeck\n> >\n> > > On 20 Jun 2017, at 7:10 PM, rojerick luna <rhl_21@yahoo.com.INVALID>\n> > wrote:\n> > >\n> > > Hi,\n> > >\n> > > I'm trying to automate Solr restart every week.\n> > >\n> > > I created a stop.bat and updated the start.bat which I found on an\n> > article online. Using stop.bat and start.bat is working fine. However\n> when\n> > I created a Task Scheduler (Windows Scheduler) and setup the frequency to\n> > stop and start (using the bat files), it's not working; the Solr app\n> didn't\n> > restart.\n> > >\n> > > Please let me know if you have successfully tried it and send me steps\n> > how you've setup the Task Scheduler.\n> > >\n> > > Best Regards,\n> > > Jeck Luna\n> >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 130,
+      "text": "I am curios why you need to restart solr every week.  Our Prod solr\ninstance (6.0) has been running Since Nov,16 with no restart\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 130,
+      "end": 209,
+      "text": "On Sun, Jul 2, 2017 at 12:55 PM, Furkan KAMACI <furkankamaci@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 209,
+      "end": 221,
+      "text": "\n> Hi Jeck,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 701,
+      "end": 735,
+      "text": ">\n> Kind Regards,\n> Furkan KAMACI\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 209,
+      "end": 739,
+      "text": "\n> Hi Jeck,\n>\n> Here is the documentation about how you can run Solr as service:\n> https://lucene.apache.org/solr/guide/6_6/taking-solr-to-production.html\n>\n> However, as far as I see you use Windows as operating system. There is\n> currently an open issue for creating scripts to run as a Windows Service:\n> https://issues.apache.org/jira/browse/SOLR-7105 but not yet completed.\n>\n> Could you check this:\n> http://coding-art.blogspot.com.tr/2016/07/running-solr-\n> 61-as-windows-service.html\n>\n> Kind Regards,\n> Furkan KAMACI\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 739,
+      "end": 823,
+      "text": "> On Sun, Jul 2, 2017 at 6:12 PM, rojerick luna <rhl_21@yahoo.com.invalid>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 823,
+      "end": 833,
+      "text": ">\n> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 885,
+      "end": 916,
+      "text": "> >\n> > Best Regards,\n> > Jeck\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 823,
+      "end": 920,
+      "text": ">\n> > Hi,\n> >\n> > Anyone who successfully set this up? Thanks\n> >\n> > Best Regards,\n> > Jeck\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 920,
+      "end": 1006,
+      "text": "> > > On 20 Jun 2017, at 7:10 PM, rojerick luna <rhl_21@yahoo.com.INVALID>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1006,
+      "end": 1022,
+      "text": "> > >\n> > > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1539,
+      "end": 1581,
+      "text": "> > >\n> > > Best Regards,\n> > > Jeck Luna\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1006,
+      "end": 1592,
+      "text": "> > >\n> > > Hi,\n> > >\n> > > I'm trying to automate Solr restart every week.\n> > >\n> > > I created a stop.bat and updated the start.bat which I found on an\n> > article online. Using stop.bat and start.bat is working fine. However\n> when\n> > I created a Task Scheduler (Windows Scheduler) and setup the frequency to\n> > stop and start (using the bat files), it's not working; the Solr app\n> didn't\n> > restart.\n> > >\n> > > Please let me know if you have successfully tried it and send me steps\n> > how you've setup the Task Scheduler.\n> > >\n> > > Best Regards,\n> > > Jeck Luna\n> >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4503"
+}

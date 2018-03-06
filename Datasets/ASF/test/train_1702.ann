@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear all,\n\nFor a particular Spark extension, I would like to know whether it would be\npossible for the Resource Manager (e.g. Standalone cluster manager) to know\nor estimate the total execution time of a submitted application, or the\nexecution remaining time of such application.\n\nThanks.\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Resource-manager-estimation-of-application-execution-time-remaining-time-tp28453.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Dear all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 280,
+      "end": 289,
+      "text": "\nThanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 666,
+      "text": "Dear all,\n\nFor a particular Spark extension, I would like to know whether it would be\npossible for the Resource Manager (e.g. Standalone cluster manager) to know\nor estimate the total execution time of a submitted application, or the\nexecution remaining time of such application.\n\nThanks.\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Resource-manager-estimation-of-application-execution-time-remaining-time-tp28453.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1702"
+}

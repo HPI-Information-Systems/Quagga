@@ -1,0 +1,161 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 12/22/2000 \n05:29 PM ---------------------------\n\n\nShirley Crenshaw\n12/20/2000 10:51 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, vkaminski@aol.com\ncc:  \nSubject: Lance's telephone\n\nHi Vince:\n\nLance's telephone # is:  (512) 280-5052.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "12/22/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "05:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 12/22/2000 \n05:29 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 131,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 142,
+      "text": "12/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 143,
+      "end": 151,
+      "text": "10:51 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 172,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 186,
+      "end": 203,
+      "text": "vkaminski@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 219,
+      "end": 236,
+      "text": "Lance's telephone",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 113,
+      "end": 237,
+      "text": "\n\nShirley Crenshaw\n12/20/2000 10:51 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, vkaminski@aol.com\ncc:  \nSubject: Lance's telephone\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 241,
+      "end": 246,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 238,
+      "end": 248,
+      "text": "Hi Vince:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 237,
+      "end": 292,
+      "text": "\nHi Vince:\n\nLance's telephone # is:  (512) 280-5052.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22956853.1075856383731.JavaMail.evans@thyme>",
+      "Date": "Fri, 22 Dec 2000 09:27:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Lance's telephone",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_2378.txt"
+}

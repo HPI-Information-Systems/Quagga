@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 7/14/2017 8:29 AM, Nawab Zada Asad Iqbal wrote:\n> I want my solr to restart if the process crashes; I am wondering if there\n> is any drawback which I should consider?\n> I am considering to use 'daemon --respawn' in the bin/solr;\n\nThe included scripts already run Solr in the background.  I don't know\nif that's enough to call it a daemon, but it's pretty close even if it's\nnot technically accurate.\n\nSolr almost never *crashes*.  I've never seen it happen, and I've been\nusing Solr for seven years.  Typically if a Solr process were to\nactually crash, it would be caused by a problem with Java itself, a\nproblem with the local Solr installation, or a problem with the\noperating system.\n\nModern Solr versions (if running on non-Windows systems) *do* kill\nthemselves if an OutOfMemoryError exception occurs ... but if that\nhappens, you do not want to automatically restart Solr -- you need to\nfigure out why the OOME happened and fix it.  After a Java program\nencounters OOME, it is completely unpredictable and can destroy its\ndata.  If the OOME was not caused by an atypical query, it is almost\nguaranteed to happen again.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 51,
+      "text": "On 7/14/2017 8:29 AM, Nawab Zada Asad Iqbal wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1127,
+      "end": 1142,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 51,
+      "end": 1144,
+      "text": "> I want my solr to restart if the process crashes; I am wondering if there\n> is any drawback which I should consider?\n> I am considering to use 'daemon --respawn' in the bin/solr;\n\nThe included scripts already run Solr in the background.  I don't know\nif that's enough to call it a daemon, but it's pretty close even if it's\nnot technically accurate.\n\nSolr almost never *crashes*.  I've never seen it happen, and I've been\nusing Solr for seven years.  Typically if a Solr process were to\nactually crash, it would be caused by a problem with Java itself, a\nproblem with the local Solr installation, or a problem with the\noperating system.\n\nModern Solr versions (if running on non-Windows systems) *do* kill\nthemselves if an OutOfMemoryError exception occurs ... but if that\nhappens, you do not want to automatically restart Solr -- you need to\nfigure out why the OOME happened and fix it.  After a Java program\nencounters OOME, it is completely unpredictable and can destroy its\ndata.  If the OOME was not caused by an atypical query, it is almost\nguaranteed to happen again.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4805"
+}

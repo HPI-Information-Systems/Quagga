@@ -1,0 +1,13 @@
+Hi,
+I want to aggregate hits by Country, State, City. I would these as tags in
+my sample data.
+
+How would I do aggregation at different levels ? Input data would be single
+record
+
+Should I do flatMap transformation first and create 3 records from 1 input
+record, or is there a better way to do it ?
+
+thank you,
+basanth
+

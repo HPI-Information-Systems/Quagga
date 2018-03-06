@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi !\n\n\nI've a Lucene base coming from a C++ program linked with Lucene++, a\nport of Lucene 3.5.9. When I open this base with Luke, it show Lucene\n2.9. Can see a binary field I have in Luke, with data encoded in\nbase64.\n\n\nI have upgrade this base from 2.9 => 4.0 => 5.0 =>6.0 so I can use it\nwith Solr 6.5.1. I rebuild a schema for this base, who have one field\nin binary:\n\n\n<field name=\"document\" type=\"binary\" indexed=\"false\" stored=\"true\"/>\n\n\nWhen I try to retrieve this field with a query (with SOLR admin\ninterface) it's fail with \"can not use FieldCache on a field which is\nneither indexed nor has doc values: document\"\n\n\nI can retrieve others fields, but can't find a way for this one. Does\nsomeone have an idea ? (At the end I want do this with php, but as it\nfail with Solr interface too ....).\n\nThank you for any help !\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Hi !\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 803,
+      "end": 829,
+      "text": "\nThank you for any help !\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 830,
+      "text": "Hi !\n\n\nI've a Lucene base coming from a C++ program linked with Lucene++, a\nport of Lucene 3.5.9. When I open this base with Luke, it show Lucene\n2.9. Can see a binary field I have in Luke, with data encoded in\nbase64.\n\n\nI have upgrade this base from 2.9 => 4.0 => 5.0 =>6.0 so I can use it\nwith Solr 6.5.1. I rebuild a schema for this base, who have one field\nin binary:\n\n\n<field name=\"document\" type=\"binary\" indexed=\"false\" stored=\"true\"/>\n\n\nWhen I try to retrieve this field with a query (with SOLR admin\ninterface) it's fail with \"can not use FieldCache on a field which is\nneither indexed nor has doc values: document\"\n\n\nI can retrieve others fields, but can't find a way for this one. Does\nsomeone have an idea ? (At the end I want do this with php, but as it\nfail with Solr interface too ....).\n\nThank you for any help !\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5448"
+}

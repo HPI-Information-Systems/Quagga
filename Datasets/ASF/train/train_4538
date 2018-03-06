@@ -1,0 +1,45 @@
+Hey folks,
+
+I'm experiencing some strange query behaviour, and it isn't immediately
+clear to me why this wouldn happen. The definition of the query syntax
+on the wiki is a bit fuzzy, so my interpretation of the syntax might be off.
+
+This query does work (no results, when results are expected).
+
+(-someField:Foo) AND (otherField: (Bar OR Baz))
+
+With debug enabled, Solr interprets the query as
+
++(-someField:Foo) +(otherField:Bar otherField:Baz)
+
+This query DOES work, results are returned.
+
+-someField:Foo +(otherField:Bar otherField:Baz)
+
+With debug enabled:
+
+-someField:Foo +(otherField:Bar otherField:Baz)
+
+
+The only difference between these queries is the presence of parantheses
+around the field with a single NOT condition. From a boolean point of
+view, they are equivalent.
+
+To make matters stranger, if I add a *:* clause to the NOT field,
+everything works again.
+
+(-someField:Foo AND *:*) AND (otherField: (Bar OR Baz))
+and
+-someField:Foo AND *:* AND (otherField: (Bar OR Baz))
+both work.
+
+Is this is query parser bug? Or are parenthesized groups with a single
+negated expression not supported? :-/
+
+I've only tested this on 5.5.4 using the default query parser, I don't
+have access to any other versions at the moment.
+
+Thanks for any insights,
+
+ - Bram
+

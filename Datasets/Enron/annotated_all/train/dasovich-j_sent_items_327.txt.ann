@@ -1,0 +1,106 @@
+{
+  "wrapper": "plaintext",
+  "text": "you're not billing by the word now are you?  :)\n\n-----Original Message-----\nFrom: MDay [mailto:MDay@GMSSR.com]\nSent: Thursday, September 27, 2001 12:24 PM\nTo: Dasovich, Jeff; Smith, Mike; Mara, Susan; Steffes, James D.; MDay;\nWilliams, Robert C.\nCc: Sharp, Vicki; Higgason, Kelly; Maynard, Michelle\nSubject: RE: Extensions of CA Deals\n\n\nI also agree.  Until we see how the direct access suspension implementation\nissues are resolved, there is a signficant probability that the utilities\nwill insist on seeing all documents related to an ESP agreement, and will go\nscreaming to the commission to turn off your DA service if it appears any\nportion of the agreement was executed after Sept. 20.  As indicated in\nprevious calls, that does not mean an ESP agreement executed prior to Sept\n20 cannot be amended as to price and other such terms, but it cannot be\nextended or renewed so as to give the customer longer access to direct\naccess without raising the risk that the CPUC will invalidate the extension\nIF it chooses to forbid extensions and renewals after Sept. 20.  At this\ntime we do not know when or if the CPUC will address these issues, although\nas Sue Mara has reported, there will be a Rule 22 meeting in a week which\nwill likely result in utility filings to get clarification from the\ncommission on these issues.  Beyond that we have no idea of the procedural\nschedule the Commission will follow in addressing these issues.\n\nBottom line:  The existing commercial deals should not be put at risk by\nmeans of amendments as to term of the agreement which were executed after\nSept. 20.  Follow on extensions or renewals to take effect at the end of the\nexisting agreements can be signed, but will remain at risk untilthe renewal\nor extension issue is addressed by the Commission.  Post Sept. 20 amendments\nto the price term of existing agreements are very likely safe so long as the\npre-Sept 20 term and quantity of the contracts are not altered.\n\nLet me know if you have any other questions. \n\nMike Day\n\n-----Original Message-----\nFrom: Dasovich, Jeff [mailto:Jeff.Dasovich@ENRON.com]\nSent: Thursday, September 27, 2001 10:06 AM\nTo: Smith, Mike; Mara, Susan; Steffes, James D.; mday@gmssr.com;\nWilliams, Robert C.\nCc: Sharp, Vicki; Higgason, Kelly; Maynard, Michelle\nSubject: RE: Extensions of CA Deals\n\n\nFor what it's worth, I concur with Mike.  Option 3 is the most prudent,\nand preferable, path.\n\nBest,\nJeff\n\n>  -----Original Message-----\n> From: \tSmith, Mike  \n> Sent:\tThursday, September 27, 2001 10:50 AM\n> To:\tDasovich, Jeff; Mara, Susan; Steffes, James D.; mday@gmssr.com;\n> Williams, Robert C.\n> Cc:\tSharp, Vicki; Higgason, Kelly; Maynard, Michelle\n> Subject:\tExtensions of CA Deals\n> \n> CONFIDENTIAL ATTORNEY CLIENT COMMUNICATION\n> \n> I'd like to get some thoughts on this issue and hopefully build a\n> consensus pretty quickly.\n> \n> We are in the process of extending the term of some of our existing CA\n> deals that we executed on the Master in June.  Understanding that\n> \"new\" deals struck after 9/20 are, and extensions of existing deals\n> may be, at risk, it seems to me we have three basic options in order\n> to effect this extension, and I want to make sure we evaluate and\n> choose the one that minimizes the risk that the extension is\n> invalidated.  Note that DASR's have been submitted for the subject\n> accounts under the original Transactions.  \n> \n> The 3 choices I see are:\n> \n> 1.  .Amend and Restate the existing Transaction Confirmation to add\n> the extension and new price for the extension.  In this case, the\n> extension would be wrapped up on one document that is signed after\n> 9/20 but effective in June.\n> 2.  Simply amend the existing Transaction to add extended term and\n> price.  This would be a separate document.\n> 3.  Execute a whole new Transaction for the extended term, which would\n> be effective when signed but the services and price under which would\n> not start until after the expiration of the existing Transaction.  The\n> existing Transaction would stay in tact as written.\n> \n> It seems to me that choice number 3 is the safest overall.  The\n> amended and restated route has appeal because the whole transaction is\n> dated back to June.  However, if a regulator were to peel it back, the\n> conclusion could be that the deal was struck after Sept 20 and\n> therefore the whole transaction was invalid, including the original\n> structure.  I think that choice 2, though creating a separate document\n> for the extension, could fall into the same trap.  In that sense,\n> choice 3 seems safest because arguably the original transaction is not\n> at risk.  If the extension is invalidated, that determination would\n> likely not claw back to the original deal.\n> \n> The commercial teams want to close these extensions in Q3 so they are\n> moving fast.  Please let me know your thoughts asap.  If we need to\n> have a quick call, I can set something up.  Thanks.  MDS\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you. \n**********************************************************************",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 49,
+      "text": "you're not billing by the word now are you?  :)\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 49,
+      "end": 335,
+      "text": "-----Original Message-----\nFrom: MDay [mailto:MDay@GMSSR.com]\nSent: Thursday, September 27, 2001 12:24 PM\nTo: Dasovich, Jeff; Smith, Mike; Mara, Susan; Steffes, James D.; MDay;\nWilliams, Robert C.\nCc: Sharp, Vicki; Higgason, Kelly; Maynard, Michelle\nSubject: RE: Extensions of CA Deals\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1999,
+      "end": 2009,
+      "text": "\nMike Day\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 335,
+      "end": 2010,
+      "text": "\n\nI also agree.  Until we see how the direct access suspension implementation\nissues are resolved, there is a signficant probability that the utilities\nwill insist on seeing all documents related to an ESP agreement, and will go\nscreaming to the commission to turn off your DA service if it appears any\nportion of the agreement was executed after Sept. 20.  As indicated in\nprevious calls, that does not mean an ESP agreement executed prior to Sept\n20 cannot be amended as to price and other such terms, but it cannot be\nextended or renewed so as to give the customer longer access to direct\naccess without raising the risk that the CPUC will invalidate the extension\nIF it chooses to forbid extensions and renewals after Sept. 20.  At this\ntime we do not know when or if the CPUC will address these issues, although\nas Sue Mara has reported, there will be a Rule 22 meeting in a week which\nwill likely result in utility filings to get clarification from the\ncommission on these issues.  Beyond that we have no idea of the procedural\nschedule the Commission will follow in addressing these issues.\n\nBottom line:  The existing commercial deals should not be put at risk by\nmeans of amendments as to term of the agreement which were executed after\nSept. 20.  Follow on extensions or renewals to take effect at the end of the\nexisting agreements can be signed, but will remain at risk untilthe renewal\nor extension issue is addressed by the Commission.  Post Sept. 20 amendments\nto the price term of existing agreements are very likely safe so long as the\npre-Sept 20 term and quantity of the contracts are not altered.\n\nLet me know if you have any other questions. \n\nMike Day\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2010,
+      "end": 2309,
+      "text": "-----Original Message-----\nFrom: Dasovich, Jeff [mailto:Jeff.Dasovich@ENRON.com]\nSent: Thursday, September 27, 2001 10:06 AM\nTo: Smith, Mike; Mara, Susan; Steffes, James D.; mday@gmssr.com;\nWilliams, Robert C.\nCc: Sharp, Vicki; Higgason, Kelly; Maynard, Michelle\nSubject: RE: Extensions of CA Deals\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2405,
+      "end": 2417,
+      "text": "\nBest,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2309,
+      "end": 2418,
+      "text": "\n\nFor what it's worth, I concur with Mike.  Option 3 is the most prudent,\nand preferable, path.\n\nBest,\nJeff\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2418,
+      "end": 2698,
+      "text": ">  -----Original Message-----\n> From: \tSmith, Mike  \n> Sent:\tThursday, September 27, 2001 10:50 AM\n> To:\tDasovich, Jeff; Mara, Susan; Steffes, James D.; mday@gmssr.com;\n> Williams, Robert C.\n> Cc:\tSharp, Vicki; Higgason, Kelly; Maynard, Michelle\n> Subject:\tExtensions of CA Deals\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2698,
+      "end": 5877,
+      "text": "> \n> CONFIDENTIAL ATTORNEY CLIENT COMMUNICATION\n> \n> I'd like to get some thoughts on this issue and hopefully build a\n> consensus pretty quickly.\n> \n> We are in the process of extending the term of some of our existing CA\n> deals that we executed on the Master in June.  Understanding that\n> \"new\" deals struck after 9/20 are, and extensions of existing deals\n> may be, at risk, it seems to me we have three basic options in order\n> to effect this extension, and I want to make sure we evaluate and\n> choose the one that minimizes the risk that the extension is\n> invalidated.  Note that DASR's have been submitted for the subject\n> accounts under the original Transactions.  \n> \n> The 3 choices I see are:\n> \n> 1.  .Amend and Restate the existing Transaction Confirmation to add\n> the extension and new price for the extension.  In this case, the\n> extension would be wrapped up on one document that is signed after\n> 9/20 but effective in June.\n> 2.  Simply amend the existing Transaction to add extended term and\n> price.  This would be a separate document.\n> 3.  Execute a whole new Transaction for the extended term, which would\n> be effective when signed but the services and price under which would\n> not start until after the expiration of the existing Transaction.  The\n> existing Transaction would stay in tact as written.\n> \n> It seems to me that choice number 3 is the safest overall.  The\n> amended and restated route has appeal because the whole transaction is\n> dated back to June.  However, if a regulator were to peel it back, the\n> conclusion could be that the deal was struck after Sept 20 and\n> therefore the whole transaction was invalid, including the original\n> structure.  I think that choice 2, though creating a separate document\n> for the extension, could fall into the same trap.  In that sense,\n> choice 3 seems safest because arguably the original transaction is not\n> at risk.  If the extension is invalidated, that determination would\n> likely not claw back to the original deal.\n> \n> The commercial teams want to close these extensions in Q3 so they are\n> moving fast.  Please let me know your thoughts asap.  If we need to\n> have a quick call, I can set something up.  Thanks.  MDS\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and\nmay contain confidential and privileged material for the sole use of the\nintended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or reply\nto Enron Corp. at enron.messaging.administration@enron.com and delete all\ncopies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you. \n**********************************************************************",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 4901,
+      "end": 4915,
+      "text": " Thanks.  MDS\n",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6062583.1075851618376.JavaMail.evans@thyme>",
+      "Date": "Thu, 27 Sep 2001 10:55:51 -0700 (PDT)",
+      "From": "jeff.dasovich@enron.com",
+      "To": "mday@gmssr.com",
+      "Subject": "RE: Extensions of CA Deals",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Dasovich, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JDASOVIC>",
+      "X-To": "'MDay' <MDay@GMSSR.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Dasovich, Jeff (Non-Privileged)\\Dasovich, Jeff\\Sent Items",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "Dasovich, Jeff (Non-Privileged).pst"
+    }
+  },
+  "id": "train/dasovich-j_sent_items_327.txt"
+}

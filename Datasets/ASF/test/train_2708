@@ -1,0 +1,57 @@
+Is there a API available to do this via SparkSession?
+
+Sent from my iPhone
+
+On Apr 24, 2017, at 6:20 AM, Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>
+wrote:
+
+
+Thanks Hemanth for a quick reply.
+
+________________________________
+From: Hemanth Gudela <hemanth.gudela@qvantel.com<mailto:hemanth.gudela@qvantel.com>>
+Sent: Monday, April 24, 2017 6:37:48 PM
+To: Devender Yadav; user@spark.apache.org<mailto:user@spark.apache.org>
+Subject: Re: How to maintain order of key-value in DataFrame same as JSON?
+
+Hi,
+
+One option to use if you can is to force df to use the schema order you prefer like this.
+
+DataFrame df = sqlContext.read().json(jsonPath).select("name","salary","occupation","address")
+
+-Hemanth
+
+From: Devender Yadav <devender.yadav@impetus.co.in<mailto:devender.yadav@impetus.co.in>>
+Date: Monday, 24 April 2017 at 15.45
+To: "user@spark.apache.org<mailto:user@spark.apache.org>" <user@spark.apache.org<mailto:user@spark.apache.org>>
+Subject: How to maintain order of key-value in DataFrame same as JSON?
+
+
+{"name": "dev","salary": 100,"occupation": "engg","address": "noida"}
+
+{"name": "karthik","salary": 200,"occupation": "engg","address": "blore"}
+
+________________________________
+
+
+
+
+
+
+NOTE: This message may contain information that is confidential, proprietary, privileged or
+otherwise protected by law. The message is intended solely for the named addressee. If received
+in error, please destroy and notify the sender. Any use of this email is prohibited when received
+in error. Impetus does not represent, warrant and/or guarantee, that the integrity of this
+communication has been maintained nor that the communication is free of errors, virus, interception
+or interference.
+________________________________________________________
+
+The information contained in this e-mail is confidential and/or proprietary to Capital One
+and/or its affiliates and may only be used solely in performance of work or services for Capital
+One. The information transmitted herewith is intended only for use by the individual or entity
+to which it is addressed. If the reader of this message is not the intended recipient, you
+are hereby notified that any review, retransmission, dissemination, distribution, copying
+or other use of, or taking of any action in reliance upon this information is strictly prohibited.
+If you have received this communication in error, please contact the sender and delete the
+material from your computer.

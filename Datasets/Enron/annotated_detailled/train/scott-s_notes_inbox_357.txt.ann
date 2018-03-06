@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/scott-s_notes_inbox_357.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<8516142.1075846796114.JavaMail.evans@thyme>",
+      "Date": "Tue, 21 Nov 2000 08:19:00 -0800 (PST)",
+      "From": "irena.hogan@enron.com",
+      "To": "kori.loibl@enron.com, errol.mclaughlin@enron.com, susan.scott@enron.com, \n\tlaura.vargas@enron.com, luchas.johnson@enron.com, \n\tamy.cavazos@enron.com, sherry.dawson@enron.com, \n\tbilal.bajwa@enron.com, kam.keiser@enron.com, \n\tvictor.guggenheim@enron.com, phillip.love@enron.com, \n\tb.palmer@enron.com, bruce.mills@enron.com, \n\tandres.balmaceda@enron.com, natalie.baker@enron.com, \n\tsouad.mahmassani@enron.com, jeffrey.gossett@enron.com, \n\tgreg.couch@enron.com",
+      "Subject": "BID WEEK MENU",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Irena D Hogan",
+      "X-To": "Kori Loibl, Errol McLaughlin, Susan M Scott, Laura Vargas, Luchas Johnson, Amy Cavazos, Sherry Dawson, Bilal Bajwa, Kam Keiser, Victor Guggenheim, Phillip M Love, B Scott Palmer, Bruce Mills, Andres Balmaceda, Natalie Baker, Souad Mahmassani, Jeffrey C Gossett, Greg Couch",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott5.nsf"
+    }
+  },
+  "text": "Assistants, please forward to your groups.\n  Attn: Gas Logistics-we will be eating all five days this Bid Week.\n\n\n\nWednesday, November 22st\n\nBreakfast:  Assorted Breakfast Tacos/Fruit\nLunch: Domino's Pizza\nAssorted Pizza and Soft Drinks\n\n\nMonday, November 27th\n\nBreakfast:  Assorted Pastries/Fruit\nLunch:  James Coney Island\nTwo Coney's (Chilli, Cheese, Onions)\nor\nOne Hamburger (Cheese, Lettuce, Tomato, Pickles, Onions)\nAssorted Chips\nCookie or Brownie\nAssorted Soft Drinks\n\n\nTuesday, November 28th\n\nBreakfast:  Assorted Crossiant Sandwiches/Fruit\nLunch:  Crumley's\nAssorted Sandwiches\nTortilla or Baked Potato Soup\nAssorted Desserts\nIced Tea\n\n\nWednesday, November 29th\n\nBreakfast:  Assorted Breakfast Tacos/Fruit\nLunch:  Trigg's \nBarbecued Beef Brisket, Chicken, Smoked Ham, Sausage\nPotato Salad/Cole Slaw/Pinto Beans/Jambalaya\nSpecial Recipe Barbecue Sauce\nBread/Cookies\nAssorted Soft Drinks\n\n\nThursday, November 30th\n\nBreakfast:  Assorted Pastries/Fruit\nLunch:  Kelly's\nChicken Fried Steak\nor \nMeat Loaf\nMashed Potatoe's/Corn/Green Beans\nAssorted Desserts\nIced Tea\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1071,
+      "text": "Assistants, please forward to your groups.\n  Attn: Gas Logistics-we will be eating all five days this Bid Week.\n\n\n\nWednesday, November 22st\n\nBreakfast:  Assorted Breakfast Tacos/Fruit\nLunch: Domino's Pizza\nAssorted Pizza and Soft Drinks\n\n\nMonday, November 27th\n\nBreakfast:  Assorted Pastries/Fruit\nLunch:  James Coney Island\nTwo Coney's (Chilli, Cheese, Onions)\nor\nOne Hamburger (Cheese, Lettuce, Tomato, Pickles, Onions)\nAssorted Chips\nCookie or Brownie\nAssorted Soft Drinks\n\n\nTuesday, November 28th\n\nBreakfast:  Assorted Crossiant Sandwiches/Fruit\nLunch:  Crumley's\nAssorted Sandwiches\nTortilla or Baked Potato Soup\nAssorted Desserts\nIced Tea\n\n\nWednesday, November 29th\n\nBreakfast:  Assorted Breakfast Tacos/Fruit\nLunch:  Trigg's \nBarbecued Beef Brisket, Chicken, Smoked Ham, Sausage\nPotato Salad/Cole Slaw/Pinto Beans/Jambalaya\nSpecial Recipe Barbecue Sauce\nBread/Cookies\nAssorted Soft Drinks\n\n\nThursday, November 30th\n\nBreakfast:  Assorted Pastries/Fruit\nLunch:  Kelly's\nChicken Fried Steak\nor \nMeat Loaf\nMashed Potatoe's/Corn/Green Beans\nAssorted Desserts\nIced Tea\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "That's a good point Alex, about indexed vs stored. Since all my queries are\nexact match, I can just have them stored=false to save space. I believe\nthat helps since there are billions of rows and it'll hopefully save on\nquite some of space.\nBut nothing can be done for squeezing dates in same document right?\n\nThanks for the reply.\n\n\nOn Tue, Jan 17, 2017 at 10:50 AM, Alexandre Rafalovitch <arafalov@gmail.com>\nwrote:\n\n> On 16 January 2017 at 00:54, map reduced <k3t.git.1@gmail.com> wrote:\n> > some way to squeeze timestamps in single\n> > document so that it doesn't increase the number of document by a lot and\n> I\n> > am still able to range query on 'ts'.\n>\n> Would DateRangeField be useful here?\n> https://cwiki.apache.org/confluence/display/solr/Working+with+Dates\n>\n> Also, if the fields are indexed and not stored, more records with the\n> same values is not such a big deal because they effectively just add\n> more indexes from the token tables. Of course, I am not sure whether\n> this advice scales as much as your specific use case requires, but it\n> is just something to keep in mind.\n>\n> Regards,\n>    Alex.\n>\n>\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 309,
+      "end": 332,
+      "text": "\nThanks for the reply.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 334,
+      "text": "That's a good point Alex, about indexed vs stored. Since all my queries are\nexact match, I can just have them stored=false to save space. I believe\nthat helps since there are billions of rows and it'll hopefully save on\nquite some of space.\nBut nothing can be done for squeezing dates in same document right?\n\nThanks for the reply.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 334,
+      "end": 418,
+      "text": "On Tue, Jan 17, 2017 at 10:50 AM, Alexandre Rafalovitch <arafalov@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1095,
+      "end": 1119,
+      "text": ">\n> Regards,\n>    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 418,
+      "end": 1210,
+      "text": "\n> On 16 January 2017 at 00:54, map reduced <k3t.git.1@gmail.com> wrote:\n> > some way to squeeze timestamps in single\n> > document so that it doesn't increase the number of document by a lot and\n> I\n> > am still able to range query on 'ts'.\n>\n> Would DateRangeField be useful here?\n> https://cwiki.apache.org/confluence/display/solr/Working+with+Dates\n>\n> Also, if the fields are indexed and not stored, more records with the\n> same values is not such a big deal because they effectively just add\n> more indexes from the token tables. Of course, I am not sure whether\n> this advice scales as much as your specific use case requires, but it\n> is just something to keep in mind.\n>\n> Regards,\n>    Alex.\n>\n>\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_304"
+}

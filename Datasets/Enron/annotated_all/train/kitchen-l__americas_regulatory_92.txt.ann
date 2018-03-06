@@ -1,0 +1,178 @@
+{
+  "wrapper": "plaintext",
+  "text": "New Draft decision out for meeting on Aug 23\n\n-----Original Message-----\nFrom: JBennett [mailto:JBennett@GMSSR.com]\nSent: Thursday, August 16, 2001 11:12 AM\nTo: Tribolet, Michael; Huddleson, Diann; Steffes, James D.; Curry,\nWanda; Williams, Robert C.; 'Sue Mara (E-mail)'; Kingerski, Harry; 'Jeff\nDasovich (E-mail)'\nSubject: Suspension of Direct Access\nImportance: High\n\n\nOn August 15th, ALJ Barnett issued a revised proposed decision (on which no\ncomments are allowed) which will suspend direct access as of September 1,\n2001.  The Commission is due to vote on the PD next week at its August 23rd\nmeeting.\n\nJeanne Bennett   ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 46,
+      "text": "New Draft decision out for meeting on Aug 23\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 79,
+      "end": 87,
+      "text": "JBennett",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 96,
+      "end": 114,
+      "text": "JBennett@GMSSR.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 132,
+      "end": 147,
+      "text": "August 16, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 148,
+      "end": 156,
+      "text": "11:12 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 161,
+      "end": 178,
+      "text": "Tribolet, Michael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 180,
+      "end": 196,
+      "text": "Huddleson, Diann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 198,
+      "end": 215,
+      "text": "Steffes, James D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 217,
+      "end": 229,
+      "text": "Curry,\nWanda",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 231,
+      "end": 250,
+      "text": "Williams, Robert C.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 253,
+      "end": 261,
+      "text": "Sue Mara",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 273,
+      "end": 289,
+      "text": "Kingerski, Harry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 293,
+      "end": 305,
+      "text": "eff\nDasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 325,
+      "end": 352,
+      "text": "Suspension of Direct Access",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 46,
+      "end": 370,
+      "text": "-----Original Message-----\nFrom: JBennett [mailto:JBennett@GMSSR.com]\nSent: Thursday, August 16, 2001 11:12 AM\nTo: Tribolet, Michael; Huddleson, Diann; Steffes, James D.; Curry,\nWanda; Williams, Robert C.; 'Sue Mara (E-mail)'; Kingerski, Harry; 'Jeff\nDasovich (E-mail)'\nSubject: Suspension of Direct Access\nImportance: High\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 608,
+      "end": 622,
+      "text": "Jeanne Bennett",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 370,
+      "end": 625,
+      "text": "\n\nOn August 15th, ALJ Barnett issued a revised proposed decision (on which no\ncomments are allowed) which will suspend direct access as of September 1,\n2001.  The Commission is due to vote on the PD next week at its August 23rd\nmeeting.\n\nJeanne Bennett   ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 16,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23071244.1075840897809.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Aug 2001 11:28:33 -0700 (PDT)",
+      "From": "susan.mara@enron.com",
+      "To": "vicki.sharp@enron.com, jeff.dasovich@enron.com, wanda.curry@enron.com, \n\tdavid.delainey@enron.com, tim.belden@enron.com, \n\tdiann.huddleson@enron.com, richard.shapiro@enron.com, \n\tharry.kingerski@enron.com, m..landwehr@enron.com, \n\trobert.frank@enron.com, f..calger@enron.com, lamar.frazier@enron.com, \n\td..steffes@enron.com, c..williams@enron.com, \n\tlouise.kitchen@enron.com, john.lavorato@enron.com, \n\tjeff.richter@enron.com, steve.swain@enron.com, laird.dyer@enron.com, \n\tmichael.mcdonald@enron.com, h..foster@enron.com, j..kean@enron.com, \n\tdon.black@enron.com, greg.wolfe@enron.com, karen.denne@enron.com, \n\tpr <.palmer@enron.com>, janel.guerrero@enron.com, \n\tpaul.kaufman@enron.com, michael.lechner@enron.com",
+      "Subject": "FW: Suspension of Direct Access -- NEW DATE SEPT 1",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mara, Susan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SMARA>",
+      "X-To": "Sharp, Vicki </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=dc350363-f761e300-862564c2-54998e>, Dasovich, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jdasovic>, Curry, Wanda </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wcurry>, Delainey, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=28fc501b-22d3a001-62569fb-57caaa>, Belden, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbelden>, Huddleson, Diann </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=42fc33c8-1b17856e-86256583-4c4c89>, Shapiro, Richard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rshapiro>, Kingerski, Harry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hkingers>, Landwehr, Susan M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Slandweh>, Frank, Robert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rfrank>, Calger, Christopher F. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ccalger>, Frazier, Lamar </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=3f111304-72dee4ff-8625699e-522b69>, Steffes, James D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jsteffe>, Williams, Robert C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rwillia2>, Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>, Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlavora>, Richter, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jrichte>, Swain, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sswain>, Dyer, Laird </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ldyer>, Mcdonald, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmcdona>, Foster, Chris H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cfoster>, Kean, Steven J. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Skean>, Black, Don </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=3fb677c9-5533a11e-8625699d-71b01e>, Wolfe, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gwolfe>, Denne, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kdenne>, Palmer, Mark A. (PR) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mpalmer>, Guerrero, Janel </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jguerre>, Kaufman, Paul </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pkaufma>, Lechner, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=5464e5ef-ca1a2f4d-a3a67336-ae30c5d5>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Regulatory",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_regulatory_92.txt"
+}

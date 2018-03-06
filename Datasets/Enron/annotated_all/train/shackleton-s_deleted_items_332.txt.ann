@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n--------- Inline attachment follows ---------\n\nFrom:  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>\nTo: Spencer, Becky </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BTLUCEK>\nDate: Tuesday, January 22, 2002 4:23:32 GMT\nSubject: ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 101,
+      "end": 115,
+      "text": "Spencer, Becky",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 173,
+      "end": 189,
+      "text": "January 22, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 190,
+      "end": 201,
+      "text": "4:23:32 GMT",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 211,
+      "text": "\n--------- Inline attachment follows ---------\n\nFrom:  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>\nTo: Spencer, Becky </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BTLUCEK>\nDate: Tuesday, January 22, 2002 4:23:32 GMT\nSubject: ",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17175477.1075861036532.JavaMail.evans@thyme>",
+      "Date": "Tue, 22 Jan 2002 08:23:32 -0800 (PST)",
+      "From": "exchange.administrator@enron.com",
+      "To": "becky.spencer@enron.com",
+      "Subject": "Undeliverable: Accepted: Letters of Credit",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Exchange System Administrator <.>",
+      "X-To": "Spencer, Becky </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BTLUCEK>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Mar2002\\Shackleton, Sara\\Deleted Items",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackl (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_deleted_items_332.txt"
+}

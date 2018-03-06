@@ -1,0 +1,415 @@
+{
+  "wrapper": "plaintext",
+  "text": "Cheryl:\n\nAttached are Welch's comments.\n\nAs you already know, Jennifer is doing the 2-month deal (but no others until \nthe ISDA is inked).  We do have to investigate the coop issue under Michigan \nlaw.  Both the swap CP and the parent have the word \"cooperative\" in their \nnames.  Please see Lotus Notes.  You should send an immediate email to the \ndepartment to see if anyone has used Michigan counsel (I saw a single \nreference in the Jurisdictional Database).  We may be able to obtain an \nopinion from McDermott or even Welch's inhouse counsel.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n----- Forwarded by Sara Shackleton/HOU/ECT on 05/24/2001 03:42 PM -----\n\n\tdkoya@mwe.com\n\t05/24/2001 01:29 PM\n\t\t \n\t\t To: sara.shackleton@enron.com\n\t\t cc: tbockhorst@welchs.com, gbenson@mwe.com\n\t\t Subject: Welch's / Enron - Markup of schedule and paragraph 13\n\n\n\n\nSara,\n\nAttached are Welch's comments to the schedule and paragraph 13 proposed by\nEnron.  I look forward to discussing the terms of these documents at your\nearliest convenience.   The form of the Letter of Credit and the guaranty are\nstill under review by Welch's and MWE.\n\nThanks,\n\n\nDevi S. Koya\nMcDermott, Will & Emery\n227 West Monroe\nChicago, IL 60606\nPh: 312-984-2133\nFax: 312-984-7700\n\n\n(See attached file: CHI99_3716524_1.DOC)\n\n(See attached file: CHI99_3719227_1.DOC)\n\n\n******************************************************************************\n*******\n\nThis message is a PRIVATE communication.   If you are not the intended\nrecipient, please do not read, copy, or use it, and do not disclose it to\nothers.  Please notify the sender of the delivery error by replying to this\nmessage, and then delete it from your system.  Thank you.\n******************************************************************************\n*******\n\n\nFor more information on McDERMOTT, WILL & EMERY please visit our website at:\nhttp://www.mwe.com/\n\n - CHI99_3716524_1.DOC\n - CHI99_3719227_1.DOC",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Cheryl",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 727,
+      "end": 742,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 682,
+      "end": 707,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 663,
+      "end": 675,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 642,
+      "end": 654,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 592,
+      "end": 641,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 566,
+      "end": 591,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 550,
+      "end": 565,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 550,
+      "end": 708,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 708,
+      "text": "Cheryl:\n\nAttached are Welch's comments.\n\nAs you already know, Jennifer is doing the 2-month deal (but no others until \nthe ISDA is inked).  We do have to investigate the coop issue under Michigan \nlaw.  Both the swap CP and the parent have the word \"cooperative\" in their \nnames.  Please see Lotus Notes.  You should send an immediate email to the \ndepartment to see if anyone has used Michigan counsel (I saw a single \nreference in the Jurisdictional Database).  We may be able to obtain an \nopinion from McDermott or even Welch's inhouse counsel.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 754,
+      "end": 764,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 765,
+      "end": 773,
+      "text": "03:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 708,
+      "end": 780,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 05/24/2001 03:42 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 782,
+      "end": 795,
+      "text": "dkoya@mwe.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 797,
+      "end": 807,
+      "text": "05/24/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 808,
+      "end": 816,
+      "text": "01:29 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 828,
+      "end": 853,
+      "text": "sara.shackleton@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 861,
+      "end": 882,
+      "text": "tbockhorst@welchs.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 884,
+      "end": 899,
+      "text": "gbenson@mwe.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 912,
+      "end": 965,
+      "text": "Welch's / Enron - Markup of schedule and paragraph 13",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 780,
+      "end": 966,
+      "text": "\n\tdkoya@mwe.com\n\t05/24/2001 01:29 PM\n\t\t \n\t\t To: sara.shackleton@enron.com\n\t\t cc: tbockhorst@welchs.com, gbenson@mwe.com\n\t\t Subject: Welch's / Enron - Markup of schedule and paragraph 13\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 970,
+      "end": 974,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1447,
+      "end": 1901,
+      "text": "******************************************************************************\n*******\n\nThis message is a PRIVATE communication.   If you are not the intended\nrecipient, please do not read, copy, or use it, and do not disclose it to\nothers.  Please notify the sender of the delivery error by replying to this\nmessage, and then delete it from your system.  Thank you.\n******************************************************************************\n*******\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 2004,
+      "end": 2023,
+      "text": "CHI99_3716524_1.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2027,
+      "end": 2046,
+      "text": "CHI99_3719227_1.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2001,
+      "end": 2046,
+      "text": " - CHI99_3716524_1.DOC\n - CHI99_3719227_1.DOC",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1382,
+      "end": 1401,
+      "text": "CHI99_3716524_1.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1424,
+      "end": 1443,
+      "text": "CHI99_3719227_1.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1362,
+      "end": 1445,
+      "text": "(See attached file: CHI99_3716524_1.DOC)\n\n(See attached file: CHI99_3719227_1.DOC)\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1254,
+      "end": 1266,
+      "text": "Devi S. Koya",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1291,
+      "end": 1324,
+      "text": "227 West Monroe\nChicago, IL 60606",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1267,
+      "end": 1290,
+      "text": "McDermott, Will & Emery",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1329,
+      "end": 1341,
+      "text": "312-984-2133",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1347,
+      "end": 1359,
+      "text": "312-984-7700",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1254,
+      "end": 1360,
+      "text": "Devi S. Koya\nMcDermott, Will & Emery\n227 West Monroe\nChicago, IL 60606\nPh: 312-984-2133\nFax: 312-984-7700\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1244,
+      "end": 1252,
+      "text": "Thanks,\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 966,
+      "end": 2046,
+      "text": "\n\n\n\nSara,\n\nAttached are Welch's comments to the schedule and paragraph 13 proposed by\nEnron.  I look forward to discussing the terms of these documents at your\nearliest convenience.   The form of the Letter of Credit and the guaranty are\nstill under review by Welch's and MWE.\n\nThanks,\n\n\nDevi S. Koya\nMcDermott, Will & Emery\n227 West Monroe\nChicago, IL 60606\nPh: 312-984-2133\nFax: 312-984-7700\n\n\n(See attached file: CHI99_3716524_1.DOC)\n\n(See attached file: CHI99_3719227_1.DOC)\n\n\n******************************************************************************\n*******\n\nThis message is a PRIVATE communication.   If you are not the intended\nrecipient, please do not read, copy, or use it, and do not disclose it to\nothers.  Please notify the sender of the delivery error by replying to this\nmessage, and then delete it from your system.  Thank you.\n******************************************************************************\n*******\n\n\nFor more information on McDERMOTT, WILL & EMERY please visit our website at:\nhttp://www.mwe.com/\n\n - CHI99_3716524_1.DOC\n - CHI99_3719227_1.DOC",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 7,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 7,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 8,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 8,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 3,
+      "target": 8,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 30,
+      "target": 32,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 31,
+      "target": 32,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 33,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 34,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 30,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 22,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 17,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3182853.1075844754987.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 08:47:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "cheryl.nelson@enron.com",
+      "Subject": "Welch's / Enron - Markup of schedule and paragraph 13",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Cheryl Nelson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_11221.txt"
+}

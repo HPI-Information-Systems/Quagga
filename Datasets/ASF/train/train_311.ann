@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nSo is there anyway which we can concat 2 fields together in JSON Facet?\n\nRegards,\nEdwin\n\n\nOn 16 January 2017 at 22:58, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n\n> Hi,\n>\n> I have been using JSON Facet, but I am facing some constraints in\n> displaying the field.\n>\n> For example, I have 2 fields, itemId and itemName. However, when I do the\n> JSON Facet, I can only get it to show one of them in the output, and I\n> could not get it to show both together.\n> I will like to show both the ID and Name together, so that it will be more\n> meaningful and easier for user to understand, without having to refer to\n> another table to determine the match between the ID and Name.\n>\n> I have tried to do something like the below, but it will only show the 2nd\n> field.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>    item:{\n>                  type:terms,\n>                  field:itemId,\n>                  field:itemName,\n>                  limit:200\n>     }\n> }\n>\n> If I do the following, I'll get error.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>    item:{\n>                  type:terms,\n>                  field:itemId;itemName,\n>                  limit:200\n>     }\n> }\n>\n>\n> This will probably work, but it will greatly increase the size of the\n> output, as 2 buckets will be produced.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>     itemId:{\n>                  type:terms,\n>                  field:itemId,\n>                  limit:200\n>     },\n>     itemName:{\n>                  type:terms,\n>                  field:itemName,\n>                  limit:200\n>     }\n> }\n>\n>\n> Is there any way which I can do to concat both the itemId and the itemName\n> into a single JSON together?\n>\n> Regards,\n> Edwin\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 77,
+      "end": 93,
+      "text": "\nRegards,\nEdwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 95,
+      "text": "Hi,\n\nSo is there anyway which we can concat 2 fields together in JSON Facet?\n\nRegards,\nEdwin\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 95,
+      "end": 174,
+      "text": "On 16 January 2017 at 22:58, Zheng Lin Edwin Yeo <edwinyeozl@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 174,
+      "end": 181,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1767,
+      "end": 1788,
+      "text": ">\n> Regards,\n> Edwin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 174,
+      "end": 1793,
+      "text": "\n> Hi,\n>\n> I have been using JSON Facet, but I am facing some constraints in\n> displaying the field.\n>\n> For example, I have 2 fields, itemId and itemName. However, when I do the\n> JSON Facet, I can only get it to show one of them in the output, and I\n> could not get it to show both together.\n> I will like to show both the ID and Name together, so that it will be more\n> meaningful and easier for user to understand, without having to refer to\n> another table to determine the match between the ID and Name.\n>\n> I have tried to do something like the below, but it will only show the 2nd\n> field.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>    item:{\n>                  type:terms,\n>                  field:itemId,\n>                  field:itemName,\n>                  limit:200\n>     }\n> }\n>\n> If I do the following, I'll get error.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>    item:{\n>                  type:terms,\n>                  field:itemId;itemName,\n>                  limit:200\n>     }\n> }\n>\n>\n> This will probably work, but it will greatly increase the size of the\n> output, as 2 buckets will be produced.\n>\n> http://localhost:8983/solr/collection/select?q=*:*&json.facet={\n>     itemId:{\n>                  type:terms,\n>                  field:itemId,\n>                  limit:200\n>     },\n>     itemName:{\n>                  type:terms,\n>                  field:itemName,\n>                  limit:200\n>     }\n> }\n>\n>\n> Is there any way which I can do to concat both the itemId and the itemName\n> into a single JSON together?\n>\n> Regards,\n> Edwin\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_311"
+}

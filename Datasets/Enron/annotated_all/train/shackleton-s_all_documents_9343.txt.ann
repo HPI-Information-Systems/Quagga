@@ -1,0 +1,457 @@
+{
+  "wrapper": "plaintext",
+  "text": "Susan:  You've just hit the nail on the head!  Remember, for FX trading ENA \nis always the principal, either in Houston, through EEFT as agent (under \nservices agreement which I presume covers FX deals) or Enron Japan Corp. \n(under services agreement).  Most problematic are the counterparties since \nthey could originate from anywhere in the world.\n\nI have heard that Enron Japan had some GTC's that contained \"universal tax \nreps\" but I haven't checked it out.  Why don't you give me a call.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n\tSusan Musch@ENRON_DEVELOPMENT\n\t02/21/2001 03:42 PM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: Carlos Alatorre/NA/Enron@Enron@ECT, Jeff Blumenthal/Enron@EnronXGate\n\t\t Subject: Re: EOL tax reps\n\nSara,\n\nWhich Enron entities would be a party to the transactions?  Also, where would \nthe counterparties likely be organized and doing business?\n\nBest regards,\nSusan\n\n\n\nFrom: Sara Shackleton@ECT on 02/21/2001 08:45 AM\nTo: Susan Musch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Carlos Alatorre/NA/Enron@Enron \n\nSubject: EOL tax reps\n\nSusan:\n\nThe internal EOL FX products will be opened up to third parties shortly.  I'm \nreviewing the GTC's.  With respect to the tax reps which are incorporated \ninto the GTC's, I think we need a \"universal\" rep since the products could be \ntraded by parties residing anywhere in the world.  I believe that the first \nweek in March is the target EOL date.  \n\nCan you prepare the tax rep section for the GTC's?  I am not aware of any \nother EOL product having this type of rep but I am not familiar with the \ntotality of EOL products.\n\nPlease call me if you have any questions.  Thanks.\n\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Susan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 495,
+      "end": 510,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 511,
+      "end": 536,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 537,
+      "end": 586,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 587,
+      "end": 599,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 608,
+      "end": 620,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 627,
+      "end": 652,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 495,
+      "end": 653,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 656,
+      "text": "Susan:  You've just hit the nail on the head!  Remember, for FX trading ENA \nis always the principal, either in Houston, through EEFT as agent (under \nservices agreement which I presume covers FX deals) or Enron Japan Corp. \n(under services agreement).  Most problematic are the counterparties since \nthey could originate from anywhere in the world.\n\nI have heard that Enron Japan had some GTC's that contained \"universal tax \nreps\" but I haven't checked it out.  Why don't you give me a call.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 657,
+      "end": 668,
+      "text": "Susan Musch",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 688,
+      "end": 698,
+      "text": "02/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 699,
+      "end": 707,
+      "text": "03:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 718,
+      "end": 733,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 753,
+      "end": 768,
+      "text": "Carlos Alatorre",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 789,
+      "end": 804,
+      "text": "Jeff Blumenthal",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 834,
+      "end": 850,
+      "text": "Re: EOL tax reps",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 657,
+      "end": 851,
+      "text": "Susan Musch@ENRON_DEVELOPMENT\n\t02/21/2001 03:42 PM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: Carlos Alatorre/NA/Enron@Enron@ECT, Jeff Blumenthal/Enron@EnronXGate\n\t\t Subject: Re: EOL tax reps\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 852,
+      "end": 856,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1012,
+      "end": 1017,
+      "text": "Susan",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 998,
+      "end": 1018,
+      "text": "Best regards,\nSusan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 851,
+      "end": 1021,
+      "text": "\nSara,\n\nWhich Enron entities would be a party to the transactions?  Also, where would \nthe counterparties likely be organized and doing business?\n\nBest regards,\nSusan\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1027,
+      "end": 1042,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1050,
+      "end": 1060,
+      "text": "02/21/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1061,
+      "end": 1069,
+      "text": "08:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1074,
+      "end": 1085,
+      "text": "Susan Musch",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1126,
+      "end": 1141,
+      "text": "Carlos Alatorre",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1168,
+      "end": 1180,
+      "text": "EOL tax reps",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1021,
+      "end": 1181,
+      "text": "From: Sara Shackleton@ECT on 02/21/2001 08:45 AM\nTo: Susan Musch/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT\ncc: Carlos Alatorre/NA/Enron@Enron \n\nSubject: EOL tax reps\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1182,
+      "end": 1187,
+      "text": "Susan",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1770,
+      "end": 1785,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1786,
+      "end": 1811,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1812,
+      "end": 1861,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1862,
+      "end": 1874,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1883,
+      "end": 1895,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1902,
+      "end": 1927,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1770,
+      "end": 1928,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1181,
+      "end": 1931,
+      "text": "\nSusan:\n\nThe internal EOL FX products will be opened up to third parties shortly.  I'm \nreviewing the GTC's.  With respect to the tax reps which are incorporated \ninto the GTC's, I think we need a \"universal\" rep since the products could be \ntraded by parties residing anywhere in the world.  I believe that the first \nweek in March is the target EOL date.  \n\nCan you prepare the tax rep section for the GTC's?  I am not aware of any \nother EOL product having this type of rep but I am not familiar with the \ntotality of EOL products.\n\nPlease call me if you have any questions.  Thanks.\n\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 7,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 10,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 2,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 18,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 10,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 22,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 25,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 26,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 29,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 30,
+      "target": 22,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 30,
+      "target": 31,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 32,
+      "target": 31,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 33,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "origin": 34,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "origin": 35,
+      "target": 30,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2767348.1075844697452.JavaMail.evans@thyme>",
+      "Date": "Wed, 21 Feb 2001 09:51:00 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "susan.musch@enron.com",
+      "Subject": "Re: EOL tax reps",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Susan Musch",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_9343.txt"
+}

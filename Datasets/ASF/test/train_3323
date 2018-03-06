@@ -1,0 +1,27 @@
+You can't do that. SparkContext and SparkSession can exist only on the
+Driver.
+
+On Sun, May 28, 2017 at 6:56 AM, Abdulfattah Safa <fattah.safa@gmail.com>
+wrote:
+
+> How can I use SparkContext (to create Spark Session or Cassandra Sessions)
+> in executors?
+> If I pass it as parameter to the foreach or foreachpartition, then it will
+> have a null value.
+> Shall I create a new SparkContext in each executor?
+>
+> Here is what I'm trying to do:
+> Read a dump directory with millions of dump files as follows:
+>
+>     dumpFiles = Directory.listFiles(dumpDirectory)
+>     dumpFilesRDD = sparkContext.parallize(dumpFiles, numOfSlices)
+>     dumpFilesRDD.foreachPartition(dumpFilePath->parse(dumpFilePath))
+>     .
+>     .
+>     .
+>
+> In parse(), each dump file is parsed and inserted into database using
+> SparlSQL. In order to do that, SparkContext is needed in the function parse
+> to use the sql() method.
+>
+

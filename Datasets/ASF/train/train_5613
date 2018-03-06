@@ -1,0 +1,62 @@
+Newest docs:
+https://lucene.apache.org/solr/guide/6_6/securing-solr.html
+
+
+On Wed, 23 Aug 2017 at 19:20, Lars Karlsson <lars.karlsson.sthlm@gmail.com>
+wrote:
+
+> Such setup is not supported, interfering inter node communication, start
+> here on how to secure Solr:
+>
+> https://cwiki.apache.org/confluence/display/solr/Securing+Solr
+>
+> On Wed, 23 Aug 2017 at 14:41, Scott Stults <
+> sstults@opensourceconnections.com> wrote:
+>
+>> Radhakrishnan,
+>>
+>> I'm not sure offhand whether or not that's possible. It sounds like you've
+>> done enough analysis to write a good Jira ticket, so if nobody speaks up
+>> on
+>> the mailing list, go ahead and create one.
+>>
+>>
+>> Cheers,
+>> Scott
+>>
+>> On Tue, Aug 22, 2017 at 7:15 PM, radha krishnan <
+>> dradhakrishnan24@gmail.com>
+>> wrote:
+>>
+>> > Hi,
+>> >
+>> > I enabled jetty basic auth for solr by making changes to jetty.xml and
+>> add
+>> > a 'realm.properties'
+>> >
+>> > while basic queries are working, queries involving more than one shard
+>> is
+>> > not working. i went through the code and figured out that in
+>> > HttpShardHandler, there is no provision to specify a username:password
+>> >
+>> > I went through a lot of JIRA's/posts and was not able to figure out
+>> whether
+>> > it is really possible to do.
+>> >
+>> > can we do a distributed operation with jetty base basic auth. can you
+>> > please give share the relevant links so that i can try it out.
+>> >
+>> >
+>> > Thanks,
+>> > Radhakrishnan
+>> >
+>>
+>>
+>>
+>> --
+>> Scott Stults | Founder & Solutions Architect | OpenSource Connections, LLC
+>> | 434.409.2780
+>> http://www.opensourceconnections.com
+>>
+>
+

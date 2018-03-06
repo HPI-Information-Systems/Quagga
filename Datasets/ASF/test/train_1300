@@ -1,0 +1,25 @@
+Hi,
+
+master   = "spark://193.70.43.207:7077"
+appName  = "romain2"
+spark = SparkSession.builder.master(master).appName(appName).getOrCreate()
+
+also gives me an error : 
+
+
+IllegalArgumentException: u"Error while instantiating
+'org.apache.spark.sql.hive.HiveSessionState':"
+
+
+Any way out ? 
+
+
+
+--
+View this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/Spark-2-1-0-issue-with-spark-shell-and-pyspark-tp28339p28427.html
+Sent from the Apache Spark User List mailing list archive at Nabble.com.
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

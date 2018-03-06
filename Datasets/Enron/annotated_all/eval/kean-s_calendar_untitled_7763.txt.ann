@@ -1,0 +1,139 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here are the message points\n----- Forwarded by Steven J Kean/NA/Enron on 03/09/2001 01:05 PM -----\n\n\tYorleni Mendez\n\t03/08/2001 10:00 AM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Karen Denne/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Per Your Request\n\n\n\n\t\n\t\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 47,
+      "end": 60,
+      "text": "Steven J Kean",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 73,
+      "end": 83,
+      "text": "03/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 84,
+      "end": 92,
+      "text": "01:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 28,
+      "end": 99,
+      "text": "----- Forwarded by Steven J Kean/NA/Enron on 03/09/2001 01:05 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 28,
+      "text": "Here are the message points\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 101,
+      "end": 115,
+      "text": "Yorleni Mendez",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 117,
+      "end": 127,
+      "text": "03/08/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 128,
+      "end": 136,
+      "text": "10:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 148,
+      "end": 161,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 178,
+      "end": 189,
+      "text": "Karen Denne",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 227,
+      "end": 244,
+      "text": "Per Your Request\n",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 99,
+      "end": 244,
+      "text": "\n\tYorleni Mendez\n\t03/08/2001 10:00 AM\n\t\t \n\t\t To: Steven J Kean/NA/Enron@Enron, Karen Denne/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Per Your Request\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 244,
+      "end": 255,
+      "text": "\n\n\n\t\n\t\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<219856.1075847972396.JavaMail.evans@thyme>",
+      "Date": "Fri, 9 Mar 2001 05:06:00 -0800 (PST)",
+      "From": "steven.kean@enron.com",
+      "To": "mary.clark@enron.com, sarah.palmer@enron.com",
+      "Subject": "Per Your Request",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Mary Clark, Sarah Palmer",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_3\\Notes Folders\\Calendar\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_calendar_untitled_7763.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

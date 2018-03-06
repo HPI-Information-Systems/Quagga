@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "What topics do you think would be appropriate?  I will have just a few \nminutes.  I was thinking CFTC, electronic trading, physical trading forms and \ncontinued opening of power markets in North America to trading.\n\nMark\n----- Forwarded by Mark E Haedicke/HOU/ECT on 07/17/2000 05:05 PM -----\n\n\tRosemary Ryan <RRYAN@isda.org>\n\t07/14/2000 01:53 PM\n\t\t \n\t\t To: Mark Haedicke <Mark.E.Haedicke@enron.com>\n\t\t cc: \n\t\t Subject: Agenda for Members Update\n\nMark,\n\nWe are putting together the brochure for the Members Update in London and\nNew York.  We would like to list the topics to be covered during each\npresentation in bullet points on the agenda.   What topics would you suggest\nwe list for Energy.\n\nThanks in advance for your help.\n\nRegards,\n\nRosemary\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 215,
+      "end": 221,
+      "text": "\nMark\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 221,
+      "text": "What topics do you think would be appropriate?  I will have just a few \nminutes.  I was thinking CFTC, electronic trading, physical trading forms and \ncontinued opening of power markets in North America to trading.\n\nMark\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 221,
+      "end": 293,
+      "text": "----- Forwarded by Mark E Haedicke/HOU/ECT on 07/17/2000 05:05 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 293,
+      "end": 446,
+      "text": "\n\tRosemary Ryan <RRYAN@isda.org>\n\t07/14/2000 01:53 PM\n\t\t \n\t\t To: Mark Haedicke <Mark.E.Haedicke@enron.com>\n\t\t cc: \n\t\t Subject: Agenda for Members Update\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 446,
+      "end": 453,
+      "text": "\nMark,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 729,
+      "end": 749,
+      "text": "\nRegards,\n\nRosemary\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 446,
+      "end": 749,
+      "text": "\nMark,\n\nWe are putting together the brochure for the Members Update in London and\nNew York.  We would like to list the topics to be covered during each\npresentation in bullet points on the agenda.   What topics would you suggest\nwe list for Energy.\n\nThanks in advance for your help.\n\nRegards,\n\nRosemary\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13273811.1075845005479.JavaMail.evans@thyme>",
+      "Date": "Mon, 17 Jul 2000 10:10:00 -0700 (PDT)",
+      "From": "mark.haedicke@enron.com",
+      "To": "mark.taylor@enron.com",
+      "Subject": "Agenda for Members Update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mark E Haedicke",
+      "X-To": "Mark Taylor",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "HAEDICKE-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "id": "train/haedicke-m_all_documents_412.txt"
+}

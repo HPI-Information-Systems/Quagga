@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "CDWR is proposing to all potential suppliers the following security package \nfor new PPA's:\n\n1) Irrevocable PUC Order / Agreement that \"locks in the revenue stream\" for \nCDWR to cover the PPA costs.\n\n2) PPA covenant that the power supplier has payment priority over any debt, \nincluding the contemplated debt issue\n  - the concept is that the supply is the operating cost and any debt would \nbe subordinate\n\n3) PPA Covenant that their is a uniform package to all suppliers; no more \nfavorable terms or priority to ayone, no L/C, etc.\n\n\nSubject to definitive language, CDWR is trying to get people to buy into this \ngeneral plan.  What do people think?  Please try to shoot holes in this.  \nPlease forward to the appropriate legal, regulatory and credit folks to air \nthis out.\n\nThanks,\n\nChris\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 777,
+      "end": 793,
+      "text": "\nThanks,\n\nChris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 795,
+      "text": "CDWR is proposing to all potential suppliers the following security package \nfor new PPA's:\n\n1) Irrevocable PUC Order / Agreement that \"locks in the revenue stream\" for \nCDWR to cover the PPA costs.\n\n2) PPA covenant that the power supplier has payment priority over any debt, \nincluding the contemplated debt issue\n  - the concept is that the supply is the operating cost and any debt would \nbe subordinate\n\n3) PPA Covenant that their is a uniform package to all suppliers; no more \nfavorable terms or priority to ayone, no L/C, etc.\n\n\nSubject to definitive language, CDWR is trying to get people to buy into this \ngeneral plan.  What do people think?  Please try to shoot holes in this.  \nPlease forward to the appropriate legal, regulatory and credit folks to air \nthis out.\n\nThanks,\n\nChris\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3689019.1075843738450.JavaMail.evans@thyme>",
+      "Date": "Thu, 8 Feb 2001 08:11:00 -0800 (PST)",
+      "From": "christopher.calger@enron.com",
+      "To": "tracy.ngo@enron.com, christian.yoder@enron.com, jeff.dasovich@enron.com, \n\tchris.foster@enron.com, tim.belden@enron.com",
+      "Subject": "CDWR Credit Proposal",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Christopher F Calger",
+      "X-To": "Tracy Ngo, Christian Yoder, Jeff Dasovich, Chris H Foster, Tim Belden",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_notes_inbox_5383.txt"
+}

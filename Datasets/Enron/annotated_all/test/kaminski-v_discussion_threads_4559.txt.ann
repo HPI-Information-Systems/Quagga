@@ -1,0 +1,44 @@
+{
+  "wrapper": "plaintext",
+  "text": "Ted, please take a quick look at the outline of discussion notes for Friday.\n\nVince\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 78,
+      "end": 83,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 84,
+      "text": "Ted, please take a quick look at the outline of discussion notes for Friday.\n\nVince\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16680462.1075856797594.JavaMail.evans@thyme>",
+      "Date": "Mon, 17 Jan 2000 05:38:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "ted.murphy@enron.com",
+      "Subject": "Discussion notes fro Friday.",
+      "Cc": "vkaminski@aol.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vkaminski@aol.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Ted Murphy",
+      "X-cc": "vkaminski@aol.com",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_7\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_4559.txt"
+}

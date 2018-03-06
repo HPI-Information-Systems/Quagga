@@ -1,0 +1,257 @@
+{
+  "wrapper": "plaintext",
+  "text": "Iris,\n\nI think that your badge has  not been activated \nfor the access to the floor after 7 p.m. or the weekends.\n\nWe shall take care of it.\n\nVince\n\n---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 03/06/2001 \n08:22 AM ---------------------------\nFrom: Iris Mack/ENRON@enronXgate on 03/05/2001 08:14 PM\nTo: Anita DuPont/NA/Enron@ENRON\ncc: Vince J Kaminski/HOU/ECT@ECT \nSubject: FW: Access to the floor\n\n\n\n -----Original Message-----\nFrom:  Mack, Iris  \nSent: Monday, March 05, 2001 8:08 PM\nTo: Crenshaw, Shirley\nSubject: Access to the floor\n\nHi,\n\n     Last nite after using the gym I tried to return to my cubicle to pick up \nmy coat, brief case, etc.\n\n     I was unable to get onto our floor.\n\n\n     Is there a time-sensitive access for my badge?\n\n     If so, can this be remedied.  I will be using the gym most nites and \ndon't want to have to bring my gym bag home each nite.\n\n\nThanks,\nIris\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Iris",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 142,
+      "end": 147,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 149,
+      "text": "Iris,\n\nI think that your badge has  not been activated \nfor the access to the floor after 7 p.m. or the weekends.\n\nWe shall take care of it.\n\nVince\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 185,
+      "end": 201,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 213,
+      "end": 223,
+      "text": "03/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 225,
+      "end": 233,
+      "text": "08:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 149,
+      "end": 262,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 03/06/2001 \n08:22 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 268,
+      "end": 277,
+      "text": "Iris Mack",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 298,
+      "end": 308,
+      "text": "03/05/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 309,
+      "end": 317,
+      "text": "08:14 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 322,
+      "end": 334,
+      "text": "Anita DuPont",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 354,
+      "end": 370,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 393,
+      "end": 416,
+      "text": "FW: Access to the floor",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 262,
+      "end": 417,
+      "text": "From: Iris Mack/ENRON@enronXgate on 03/05/2001 08:14 PM\nTo: Anita DuPont/NA/Enron@ENRON\ncc: Vince J Kaminski/HOU/ECT@ECT \nSubject: FW: Access to the floor\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 455,
+      "end": 465,
+      "text": "Mack, Iris",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 482,
+      "end": 496,
+      "text": "March 05, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 497,
+      "end": 504,
+      "text": "8:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 509,
+      "end": 526,
+      "text": "Crenshaw, Shirley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 536,
+      "end": 555,
+      "text": "Access to the floor",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 417,
+      "end": 556,
+      "text": "\n\n\n -----Original Message-----\nFrom:  Mack, Iris  \nSent: Monday, March 05, 2001 8:08 PM\nTo: Crenshaw, Shirley\nSubject: Access to the floor\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 557,
+      "end": 561,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 904,
+      "end": 908,
+      "text": "Iris",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 896,
+      "end": 909,
+      "text": "Thanks,\nIris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 556,
+      "end": 909,
+      "text": "\nHi,\n\n     Last nite after using the gym I tried to return to my cubicle to pick up \nmy coat, brief case, etc.\n\n     I was unable to get onto our floor.\n\n\n     Is there a time-sensitive access for my badge?\n\n     If so, can this be remedied.  I will be using the gym most nites and \ndon't want to have to bring my gym bag home each nite.\n\n\nThanks,\nIris\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 22,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7880288.1075856449832.JavaMail.evans@thyme>",
+      "Date": "Tue, 6 Mar 2001 00:24:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "anita.dupont@enron.com, shirley.crenshaw@enron.com, iris.mack@enron.com",
+      "Subject": "FW: Access to the floor",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Anita DuPont, Shirley Crenshaw, Iris Mack",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_575.txt"
+}

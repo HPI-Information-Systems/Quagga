@@ -1,0 +1,72 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Shawn - super helpful as always.\n\n-Frank\n \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n\n\n\nOn 1/18/17, 10:23 AM, \"Shawn Heisey\" <apache@elyograg.org> wrote:\n\n>On 1/18/2017 6:51 AM, Kelly, Frank wrote:\n>> We\u00c2\u00b9re investigating a strange spike in Heap memory usage in our\n>> Production Solr.\n>> Heap is stable for days ~ 1.6GB and then suddenly spikes to 3.9 GB and\n>> we get an OOM.\n>>\n>> Our app server behavior using Solr appears to unchanged (no new schema\n>> updates, no additional indexing or searching we could see)\n>> We\u00c2\u00b9re speculating that perhaps segment merges may be contributing to\n>> the heap size increase?\n>>\n>> *Details*\n>> Solr 5.3.1 \n>> Solr Cloud deployment with 110M+ documents in 2 Collections (72M and\n>> 28M) each across 3 shards (each with 3 replicas)\n>> Heavy indexing vs Query load (API calls are 90% Indexing, 10% querying)\n>>\n>> Heap Settings\n>> -Xmx4096m\n>>\n>> Some solrconfig.xml settings\n>>\n>>  <!-- default: 100 -->\n>>      <ramBufferSizeMB>256</ramBufferSizeMB>\n>>      <!-- default: 1000 -->\n>>      <maxBufferedDocs>10000</maxBufferedDocs>\n>>\n>>      <!-- default: 8 -->\n>>      <maxIndexingThreads>10</maxIndexingThreads>\n>>\n>>   <mergeFactor>20</mergeFactor>\n>>\n>> We turned on InfoStream logging and saw the following\n>>\n>> 2017-01-18 13:31:55.368 INFO  (Lucene Merge Thread #24)\n>> [c:prod_us-east-1_here_account s:shard1 r:core_node30\n>> x:prod_us-east-1_here_account_shard1_replica4]\n>> o.a.s.u.LoggingInfoStream [TMP][Lucene Merge Thread #24]:\n>> seg=_9eac9(5.3.1):C23776249/1714903:delGen=13735 size=4338.599 MB\n>> [skip: too large]\n>\n>This \"skip: too large\" message likely means that the size of this\n>segment, if merged with other segments, would be larger than the max\n>segment size.  The max size defaults to 5GB, this segment is 4.3GB in\n>size already.\n>\n>I think you've got an incorrect idea of how Java memory works.  You\n>indicated that the heap stays stable at about 1.6GB ... but this is NOT\n>how Java works.  When a piece of memory is allocated by a Java program,\n>that memory is not reclaimed when the program no longer needs the\n>object.  It is garbage collection, a background process, that frees the\n>memory.  A graph of memory usage from a healthy Java program looks like\n>a sawblade -- allocations use up all the memory in one of the heap\n>regions, then garbage collection kicks in and frees up what it can.\n>Java's normal operation involves constant \"spikes\" in heap usage.\n>\n>The heap usage of Solr will constantly increase as it runs, then garbage\n>collection will kick in when one of the heap regions reaches capacity,\n>reclaiming objects that the program no longer needs and freeing up memory.\n>\n>OOM happens when garbage collection is unable to free any memory because\n>all of it is still in use.  There are exactly two ways to deal with\n>OOM:  1) Increase the size of your heap.  2) Make the program use less\n>memory.\n>\n>I have two theories about why your solr install is using up all your\n>heap and still requesting more:  1) Your Solr caches, particularly your\n>filterCache, may be very large.  2) You may be doing a large number of\n>queries that use a lot of memory -- a lot of facets, and/or using a lot\n>of different fields for sorting.\n>\n>Assuming the entire index is on one server, for your 72 million document\n>index, each filterCache entry is 9 million bytes in size.  For your 28\n>million document index, each filterCache entry is 3.5 million bytes.\n>The default size for the filterCache in Solr example configs is 512.  If\n>you actually fill that cache up on a 72 million document index, just the\n>one cache would require more than the 4GB of memory that you have\n>allocated to Java.  You probably need to decrease the size of the\n>filterCache.\n>\n>If you're doing a lot of facets or sorting, you may need to increase the\n>heap size.\n>\n>Segment merges do use additional memory, but I wouldn't expect that to\n>be anything more than a minor contributor to heap usage.\n>\n>Here's some additional reading on the subject of Solr performance.  Most\n>of this page talks about memory, because that's the limiting factor for\n>performance in most cases.  The page includes some information about\n>things that can require a lot of heap memory, and steps you may be able\n>to take to reduce the memory required:\n>\n>https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwiki.ap\n>ache.org%2Fsolr%2FSolrPerformanceProblems&data=01%7C01%7C%7C101c00a120874f\n>f75e7908d43fb5ff77%7C6d4034cd72254f72b85391feaea64919%7C1&sdata=gAll%2FGHT\n>082FTO0%2ByoNQqnjfsbzdL%2BG8CNlavfRrEGo%3D&reserved=0\n>\n>Thanks,\n>Shawn\n>\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 40,
+      "end": 48,
+      "text": "\n-Frank\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 48,
+      "end": 338,
+      "text": " \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 13,
+      "text": "Thanks Shawn ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 341,
+      "text": "Thanks Shawn - super helpful as always.\n\n-Frank\n \nFrank Kelly\nPrincipal Software Engineer\n \nHERE \n5 Wayside Rd, Burlington, MA 01803, USA\n42\u00c2\u00b0 29' 7\" N 71\u00c2\u00b0 11' 32\" W\n \n <http://360.here.com/>     <https://www.twitter.com/here>\n<https://www.facebook.com/here>\n<https://www.linkedin.com/company/heremaps>\n<https://www.instagram.com/here/>\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 341,
+      "end": 407,
+      "text": "On 1/18/17, 10:23 AM, \"Shawn Heisey\" <apache@elyograg.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 407,
+      "end": 451,
+      "text": "\n>On 1/18/2017 6:51 AM, Kelly, Frank wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 4809,
+      "end": 4827,
+      "text": ">\n>Thanks,\n>Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 451,
+      "end": 4831,
+      "text": ">> We\u00c2\u00b9re investigating a strange spike in Heap memory usage in our\n>> Production Solr.\n>> Heap is stable for days ~ 1.6GB and then suddenly spikes to 3.9 GB and\n>> we get an OOM.\n>>\n>> Our app server behavior using Solr appears to unchanged (no new schema\n>> updates, no additional indexing or searching we could see)\n>> We\u00c2\u00b9re speculating that perhaps segment merges may be contributing to\n>> the heap size increase?\n>>\n>> *Details*\n>> Solr 5.3.1 \n>> Solr Cloud deployment with 110M+ documents in 2 Collections (72M and\n>> 28M) each across 3 shards (each with 3 replicas)\n>> Heavy indexing vs Query load (API calls are 90% Indexing, 10% querying)\n>>\n>> Heap Settings\n>> -Xmx4096m\n>>\n>> Some solrconfig.xml settings\n>>\n>>  <!-- default: 100 -->\n>>      <ramBufferSizeMB>256</ramBufferSizeMB>\n>>      <!-- default: 1000 -->\n>>      <maxBufferedDocs>10000</maxBufferedDocs>\n>>\n>>      <!-- default: 8 -->\n>>      <maxIndexingThreads>10</maxIndexingThreads>\n>>\n>>   <mergeFactor>20</mergeFactor>\n>>\n>> We turned on InfoStream logging and saw the following\n>>\n>> 2017-01-18 13:31:55.368 INFO  (Lucene Merge Thread #24)\n>> [c:prod_us-east-1_here_account s:shard1 r:core_node30\n>> x:prod_us-east-1_here_account_shard1_replica4]\n>> o.a.s.u.LoggingInfoStream [TMP][Lucene Merge Thread #24]:\n>> seg=_9eac9(5.3.1):C23776249/1714903:delGen=13735 size=4338.599 MB\n>> [skip: too large]\n>\n>This \"skip: too large\" message likely means that the size of this\n>segment, if merged with other segments, would be larger than the max\n>segment size.  The max size defaults to 5GB, this segment is 4.3GB in\n>size already.\n>\n>I think you've got an incorrect idea of how Java memory works.  You\n>indicated that the heap stays stable at about 1.6GB ... but this is NOT\n>how Java works.  When a piece of memory is allocated by a Java program,\n>that memory is not reclaimed when the program no longer needs the\n>object.  It is garbage collection, a background process, that frees the\n>memory.  A graph of memory usage from a healthy Java program looks like\n>a sawblade -- allocations use up all the memory in one of the heap\n>regions, then garbage collection kicks in and frees up what it can.\n>Java's normal operation involves constant \"spikes\" in heap usage.\n>\n>The heap usage of Solr will constantly increase as it runs, then garbage\n>collection will kick in when one of the heap regions reaches capacity,\n>reclaiming objects that the program no longer needs and freeing up memory.\n>\n>OOM happens when garbage collection is unable to free any memory because\n>all of it is still in use.  There are exactly two ways to deal with\n>OOM:  1) Increase the size of your heap.  2) Make the program use less\n>memory.\n>\n>I have two theories about why your solr install is using up all your\n>heap and still requesting more:  1) Your Solr caches, particularly your\n>filterCache, may be very large.  2) You may be doing a large number of\n>queries that use a lot of memory -- a lot of facets, and/or using a lot\n>of different fields for sorting.\n>\n>Assuming the entire index is on one server, for your 72 million document\n>index, each filterCache entry is 9 million bytes in size.  For your 28\n>million document index, each filterCache entry is 3.5 million bytes.\n>The default size for the filterCache in Solr example configs is 512.  If\n>you actually fill that cache up on a 72 million document index, just the\n>one cache would require more than the 4GB of memory that you have\n>allocated to Java.  You probably need to decrease the size of the\n>filterCache.\n>\n>If you're doing a lot of facets or sorting, you may need to increase the\n>heap size.\n>\n>Segment merges do use additional memory, but I wouldn't expect that to\n>be anything more than a minor contributor to heap usage.\n>\n>Here's some additional reading on the subject of Solr performance.  Most\n>of this page talks about memory, because that's the limiting factor for\n>performance in most cases.  The page includes some information about\n>things that can require a lot of heap memory, and steps you may be able\n>to take to reduce the memory required:\n>\n>https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwiki.ap\n>ache.org%2Fsolr%2FSolrPerformanceProblems&data=01%7C01%7C%7C101c00a120874f\n>f75e7908d43fb5ff77%7C6d4034cd72254f72b85391feaea64919%7C1&sdata=gAll%2FGHT\n>082FTO0%2ByoNQqnjfsbzdL%2BG8CNlavfRrEGo%3D&reserved=0\n>\n>Thanks,\n>Shawn\n>\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_344"
+}

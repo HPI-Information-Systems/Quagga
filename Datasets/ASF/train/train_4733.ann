@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nThe MLT documentation says that for best results, the fields should have\nstored term vectors in schema.xml, with:\n\n<field name=\"cat\" ... termVectors=\"true\" />\n\nMy question: should I also create the TermVectorComponent and declare it in\nthe search handler?\n\nIn other terms, do I have to do this in my solrconfig.xml for best results?\n\n<searchComponent name=\"tvComponent\"\nclass=\"org.apache.solr.handler.component.TermVectorComponent\"/>\n\n<requestHandler name=\"/tvrh\" class=\n\"org.apache.solr.handler.component.SearchHandler\">\n  <lst name=\"defaults\">\n    <bool name=\"tv\">true</bool>\n  </lst>\n  <arr name=\"last-components\">\n    <str>tvComponent</str>\n  </arr>\n</requestHandler>\n\n\nI am seeing continuously increasing MLT response times and I am wondering\nif I am doing something wrong.\n\nThanks.\nMax.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 784,
+      "end": 798,
+      "text": "\nThanks.\nMax.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 799,
+      "text": "Hi,\n\nThe MLT documentation says that for best results, the fields should have\nstored term vectors in schema.xml, with:\n\n<field name=\"cat\" ... termVectors=\"true\" />\n\nMy question: should I also create the TermVectorComponent and declare it in\nthe search handler?\n\nIn other terms, do I have to do this in my solrconfig.xml for best results?\n\n<searchComponent name=\"tvComponent\"\nclass=\"org.apache.solr.handler.component.TermVectorComponent\"/>\n\n<requestHandler name=\"/tvrh\" class=\n\"org.apache.solr.handler.component.SearchHandler\">\n  <lst name=\"defaults\">\n    <bool name=\"tv\">true</bool>\n  </lst>\n  <arr name=\"last-components\">\n    <str>tvComponent</str>\n  </arr>\n</requestHandler>\n\n\nI am seeing continuously increasing MLT response times and I am wondering\nif I am doing something wrong.\n\nThanks.\nMax.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4733"
+}

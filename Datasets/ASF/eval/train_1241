@@ -1,0 +1,12 @@
+Hello,
+
+In our Sink, we are dealing with a system that uses OAuth 2.0. So the in the open() method
+of the Sink we are getting the token and then we initialise the client that we can use in
+order to write from Flink to that API.
+
+Is there a better approach to handle that? 
+
+open() is a lifecycle method which I assume it will be called only once when creating a Sink,
+correct? Are there any conditions that might trigger open() to be called not upon creations?
+
+Thanks a lot for your help and time.

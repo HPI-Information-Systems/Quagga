@@ -1,0 +1,58 @@
+{
+  "wrapper": "plaintext",
+  "text": "STSW day-ahead deal number is 815078.\t\n\n -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tThursday, October 11, 2001 10:15 AM\nTo:\tDL-Portland Real Time Shift\nSubject:\tSTSW Parking - 10/13\n\nFor Saturday -\n\nSTSW will be 13 mw long, HE 13-20, at West Wing-500KV. Day ahead purchase (made under STSW book) is from PNM. Price is $22.\n\nPlease enter an inter-desk purchase (under STWHOURLY book) from STSW for these hours. Make sure this purchase price covers any transmission costs the West Hourly book incurs to sell off this power. Enter all transmission deals and respective sales under the STWHOURLY book. Again, please refer to Bill's inter-desk swap detail if you run into problems.\n\n \nNote about Transmission: EPMI owns transmission from Pinnacle Peak to Mead-230 that can be re-directed from West Wing to Mead if necessary. Deal number is 426856. Oasis numbers is 26034. Please see the 2001_Available_Transmission worksheet for more information.\n\nKate Symes\nReal Time Trading Support\nOffice/503-464-7744\nCell/503-819-2181\nFax/503-464-7996\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 953,
+      "end": 1046,
+      "text": "\nKate Symes\nReal Time Trading Support\nOffice/503-464-7744\nCell/503-819-2181\nFax/503-464-7996\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 40,
+      "end": 193,
+      "text": " -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tThursday, October 11, 2001 10:15 AM\nTo:\tDL-Portland Real Time Shift\nSubject:\tSTSW Parking - 10/13\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 40,
+      "text": "STSW day-ahead deal number is 815078.\t\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 193,
+      "end": 1047,
+      "text": "\nFor Saturday -\n\nSTSW will be 13 mw long, HE 13-20, at West Wing-500KV. Day ahead purchase (made under STSW book) is from PNM. Price is $22.\n\nPlease enter an inter-desk purchase (under STWHOURLY book) from STSW for these hours. Make sure this purchase price covers any transmission costs the West Hourly book incurs to sell off this power. Enter all transmission deals and respective sales under the STWHOURLY book. Again, please refer to Bill's inter-desk swap detail if you run into problems.\n\n \nNote about Transmission: EPMI owns transmission from Pinnacle Peak to Mead-230 that can be re-directed from West Wing to Mead if necessary. Deal number is 426856. Oasis numbers is 26034. Please see the 2001_Available_Transmission worksheet for more information.\n\nKate Symes\nReal Time Trading Support\nOffice/503-464-7744\nCell/503-819-2181\nFax/503-464-7996\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3912868.1075852160304.JavaMail.evans@thyme>",
+      "Date": "Thu, 11 Oct 2001 10:21:41 -0700 (PDT)",
+      "From": "kate.symes@enron.com",
+      "To": "shift.dl-portland@enron.com",
+      "Subject": "FW: STSW Parking - 10/13",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Symes, Kate </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KSYMES>",
+      "X-To": "DL-Portland Real Time Shift </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DL-PortlandRealTimeShift>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\CDEAN2 (Non-Privileged)\\Dean, Craig\\Inbox",
+      "X-Origin": "DEAN-C",
+      "X-FileName": "CDEAN2 (Non-Privileged).pst"
+    }
+  },
+  "id": "train/dean-c_inbox_937.txt"
+}

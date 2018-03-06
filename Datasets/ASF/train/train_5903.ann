@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "I typed the below then noticed that the field that has \"I have a pen\nAND an apple\" is called \"body\" and you're faceting and searching on a\nfield called \"suggest\". The below is still relevant if there is still\na problem though ;)\n\nYour problem isn't faceting, right? It's that you aren't matching any\ndocs at all when you expect to. Once we solve that then we can move on\nto faceting ;)\n\nFirst, I'd add &debug=query and see what the parsed query looks like.\nDoes it fit your expectations? See \"parsedQuery_toString\" in the debug\noutput.\n\nNext, use the admin/analysis page to see how the input is analyzed at\nindex and query time. The first thing to verify is that the \"and\" is\nnot being removed since it's often considered a stopword. Do you get\nfacets when searching for \"apple\" (no quotes)? If you do is \"and\"\nincluded as a facet? If not then you need to modify the stopwords\nassociated with the field in your schema.\n\nYou can use the admin/<select core>/schema browser to see the actual\nterms in the index that'll help you verify that the _tokens_ in the\nindex include what you expect. Faceting works on indexed tokens BTW.\n\nThis is different than returning the field, since when you specify\nfl=suggest you're getting back the _stored_ values, not the searchable\nindexed tokens. This fools everybody at first. Stored values are a\nverbatim copy of the input, no analysis at all. However, what you can\nsearch/facet/etc. on is the tokenized version, which are _not_\nreturned via the \"fl\" field.\n\nBest,\nErick\n\nP.S. My compliments for including enough data to offer a diagnosis the\nfirst time. It's refreshing not to have to go through 3 or 4 exchanges\nbefore having enough information to say anything even potentially\nuseful.\n\n\n\nOn Wed, Sep 6, 2017 at 6:13 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> On 9/6/2017 3:48 AM, Noriyuki TAKEI wrote:\n>> I use facet query,but I found it dose not work when using 'AND'.\n>>\n>> I woud like to use facet query using 'AND' as not Operator but simple word.\n>\n> With the standard or edismax parser, AND in all uppercase is interpreted\n> as an operator.  There are two ways to deal with this.  One is to change\n> the word to lowercase, which might not do what you want depending on\n> your text analysis, the other is to escape part of it -- use A\\ND\n> instead of AND.  I have verified that escaping one of the letters in the\n> word *does* work.\n>\n> If you're using the edismax query parser and the lowercase option, be\n> sure that the lowercaseOperators parameter is set to false.  The default\n> setting depends on luceneMatchVersion.  It's false when that's 7.0.0 or\n> later, true if it's lower.  Which means that until version 7.0 is\n> released, it will default to true.\n>\n> https://issues.apache.org/jira/browse/SOLR-4646\n>\n> Thanks,\n> Shawn\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1494,
+      "end": 1507,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1727,
+      "text": "I typed the below then noticed that the field that has \"I have a pen\nAND an apple\" is called \"body\" and you're faceting and searching on a\nfield called \"suggest\". The below is still relevant if there is still\na problem though ;)\n\nYour problem isn't faceting, right? It's that you aren't matching any\ndocs at all when you expect to. Once we solve that then we can move on\nto faceting ;)\n\nFirst, I'd add &debug=query and see what the parsed query looks like.\nDoes it fit your expectations? See \"parsedQuery_toString\" in the debug\noutput.\n\nNext, use the admin/analysis page to see how the input is analyzed at\nindex and query time. The first thing to verify is that the \"and\" is\nnot being removed since it's often considered a stopword. Do you get\nfacets when searching for \"apple\" (no quotes)? If you do is \"and\"\nincluded as a facet? If not then you need to modify the stopwords\nassociated with the field in your schema.\n\nYou can use the admin/<select core>/schema browser to see the actual\nterms in the index that'll help you verify that the _tokens_ in the\nindex include what you expect. Faceting works on indexed tokens BTW.\n\nThis is different than returning the field, since when you specify\nfl=suggest you're getting back the _stored_ values, not the searchable\nindexed tokens. This fools everybody at first. Stored values are a\nverbatim copy of the input, no analysis at all. However, what you can\nsearch/facet/etc. on is the tokenized version, which are _not_\nreturned via the \"fl\" field.\n\nBest,\nErick\n\nP.S. My compliments for including enough data to offer a diagnosis the\nfirst time. It's refreshing not to have to go through 3 or 4 exchanges\nbefore having enough information to say anything even potentially\nuseful.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1727,
+      "end": 1846,
+      "text": "On Wed, Sep 6, 2017 at 6:13 AM, Shawn Heisey <apache@elyograg.org> wrote:\n> On 9/6/2017 3:48 AM, Noriyuki TAKEI wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2762,
+      "end": 2782,
+      "text": ">\n> Thanks,\n> Shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1846,
+      "end": 2785,
+      "text": ">> I use facet query,but I found it dose not work when using 'AND'.\n>>\n>> I woud like to use facet query using 'AND' as not Operator but simple word.\n>\n> With the standard or edismax parser, AND in all uppercase is interpreted\n> as an operator.  There are two ways to deal with this.  One is to change\n> the word to lowercase, which might not do what you want depending on\n> your text analysis, the other is to escape part of it -- use A\\ND\n> instead of AND.  I have verified that escaping one of the letters in the\n> word *does* work.\n>\n> If you're using the edismax query parser and the lowercase option, be\n> sure that the lowercaseOperators parameter is set to false.  The default\n> setting depends on luceneMatchVersion.  It's false when that's 7.0.0 or\n> later, true if it's lower.  Which means that until version 7.0 is\n> released, it will default to true.\n>\n> https://issues.apache.org/jira/browse/SOLR-4646\n>\n> Thanks,\n> Shawn\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5903"
+}

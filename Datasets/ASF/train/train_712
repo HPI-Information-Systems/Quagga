@@ -1,0 +1,57 @@
+Hi,
+
+it is possible to use BlobStore & Config API with enabled.runtime.lib=true to add custom
+token filters?
+I tried, but it doesn't work.
+
+1. Uploaded jar lucene-analyzers-morfologik-6.4.0.jar file to blob store .system with name
+lucene-analyzers-morfologik-6.4.0
+
+2. Add runtime library {"add-runtimelib": { "name":"lucene-analyzers-morfologik-6.4.0", "version":1
+}}
+
+3. Create custom field type:
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+  "add-field-type" : {
+     "name":"txt_sk_lemma",
+     "class":"solr.TextField",
+     "positionIncrementGap":"100",
+     "analyzer" : {
+        "tokenizer":{ 
+           "class":"solr.StandardTokenizerFactory" },
+        "filters":[
+           {
+               "class":"solr.SynonymFilterFactory",
+               "synonyms":"synonyms.txt",
+               "ignoreCase":true,
+               "expand":false
+           },
+           {
+               "class":"solr.StopFilterFactory",
+               "ignoreCase":true,
+               "words":"lang/stopwords_sk.txt"
+           },
+           {
+               "class":"solr.LowerCaseFilterFactory"
+           },
+           {
+               "class":"solr.KeywordMarkerFilterFactory",
+               "protected":"protwords.txt"
+           },
+           {
+               "runtimeLib":true,
+               "class":"org.apache.lucene.analysis.morfologik.MorfologikFilterFactory",
+               "dictionary":"morfologik/stemming/sk/sk.dict"
+           }
+        ]}}
+}' http://localhost:8983/solr/default/schema
+
+I get error
+
+"errorMessages":["Plugin init failure for [schema.xml] fieldType\nPlugin init failure for
+[schema.xml] analyzer/filter: Error loading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\nError
+loading class 'org.apache.lucene.analysis.morfologik.MorfologikFilterFactory'\norg.apache.lucene.analysis.morfologik.MorfologikFilterFactory\n"
+
+
+thanks, miso
+

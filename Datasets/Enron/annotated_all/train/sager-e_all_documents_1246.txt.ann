@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/sager-e_all_documents_1246.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<22789125.1075859514501.JavaMail.evans@thyme>",
+      "Date": "Wed, 5 Jan 2000 05:46:00 -0800 (PST)",
+      "From": "elizabeth.sager@enron.com",
+      "To": "gacox@gsi-net.com",
+      "Subject": "Tennis",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Elizabeth Sager",
+      "X-To": "Grant Cox <gacox@gsi-net.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager.nsf"
+    }
+  },
+  "text": "On?\n\nName the time (400?) and the spot (Met?)\n\ne",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 48,
+      "text": "On?\n\nName the time (400?) and the spot (Met?)\n\ne",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

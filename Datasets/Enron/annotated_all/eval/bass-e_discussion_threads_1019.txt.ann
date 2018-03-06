@@ -1,0 +1,706 @@
+{
+  "wrapper": "plaintext",
+  "text": "waaaaa! waaaaa! you notice that she didn't mention the corps of cadet members \nthat tackled and beat on women after texas victory in college station a \ncouple of year back\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Shanna Husser @ EES                           11/30/2000 10:36 AM\n\t\n\nTo: Eric Bass/HOU/ECT@ECT\ncc:  \nSubject: aggie/longhorn letter\n\nSomething to get you ALL riled up!!  And you talk about LSU fans being bad- \n\"Kill him\"!!!\n---------------------- Forwarded by Shanna Husser/HOU/EES on 11/30/2000 10:35 \nAM ---------------------------\n\n\nChristina Barthel\n11/30/2000 09:43 AM\nTo: Shanna Husser/HOU/EES@EES, Kim Chick/HOU/EES@EES, Leon \nBranom/Corp/Enron@ENRON, Jason Sharp/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, \nJames Hollman/Corp/Enron@ENRON, Robert B Cothran/Corp/Enron@ENRON, \"Meredith\" \n<meredith@friersoncpa.com>, \"Zogheib, Lisa A\" <Lisa_Zogheib@AIMFUNDS.COM>, \n\"Kelly Kohrman\" <pyrowoman@hotmail.com>, \"Ashley\" \n<Ashley.Victorick@coastalcorp.com>, \"Jaimie\" <Jaimie.Parker@coastalcorp.com>, \n\"Erin\" <elaggie99@hotmail.com>, \"Anthony\" <urbanaj@texaco.com>, \"Jose\" \n<jose.a.suarez@us.pwcglobal.com>, \"Albert\" <albert.r.ferrel@exxon.com>, \n\"Oscar \" <oscgarcia@notes.primeco.com>, \"Misti\" <mkuehn@tcresidential.com>\ncc:  \nSubject: aggie/longhorn letter\n\n\n---------------------- Forwarded by Christina Barthel/HOU/EES on 11/30/2000 \n09:39 AM ---------------------------\n\n\nAmy.Jon@enron.com on 11/30/2000 09:37:29 AM\nTo: Christina.Barthel@enron.com, kchick@enron.com, dflinn@enron.com, \nLynna.Kacal@enron.com, \"Leigh Ann Perry\" <aotleighann@hotmail.com>, \naramirez@enron.com, \"Michelle\" <mtram@nccol.com>, \"Sponge\" <CZachgo@aol.com>\ncc:  \nSubject: FW: Are we surprised to hear this?\n\n\n\n\n \"Conduct of Texas Fans at Friday's Football Game Dismays Former Student\"\n\n November 28, 2000\n\n Dear Battalion and Daily Texan:\n\nPlease help me.  As a product of both Texas A&M and the University of\nTexas - Austin, I thought I had learned a lot.  But I experienced some new\nthings at the football game this past Friday that my education had not \nprepared\nme for.  No doubt there are Longhorn scholars who can set me straight.  I\nwatched many joyful Texas fans along with a few Aggies tailgating and\ncarousing.  Super.  Fall football rivalry.  Spirits were literally in\nabundance.  May the better football team win.\n\nThen I saw things that I cannot really comprehend.  I saw a Longhorn fan\nwith a t-shirt showing a fallen-over Bonfire.  The caption read, \"What's\nwrong, Aggies? Can't keep it up?\"  Can someone explain that to me?  I do\nnot get it.  I assure you, I get the sexual nuance - I just do not understand\nevil.\n\nI saw Longhorn fans mocking and taunting the fans from A&M who were in\nCorps of Cadets uniforms.  \"Little Hitlers,\" they were called.  They were \nbeing\nspat at.  Help me to understand this Longhorn slant on rivalry.  I\nthought we were all against Hitler - Longhorns and Aggies.\n\nI saw a Longhorn cheerleader - isn't he supposed to represent UT in the\nfinest possible way?  - run in front of the Aggie Band, turn and face it\nsquare on and salute with the clicked heels, arm-above-head, \"Heil\nHitler\" sign. \n\nWhat don't I know here?  What didn't I learn in history class?  All these\nthings happened before kickoff.\n\nAggies, I respect your presentation of a $50,000 endowed scholarship as a\nthank-you for UT's respect and support shown last year.  That support\nobviously came from the finer Horns.  I admired the fortitude and\nrestraint exercised by the Corps of Cadets under attack.\n\nUnfortunately, I learned that hundreds and hundreds of Longhorns have\nMore than one way to show the Hook 'em Horns sign.  They prefer to use their\nmiddle finger.  Class.  Really intelligent and creative.  That will\nquickly teach those \"littlest\" Longhorns how to show spirit.  I just pray they\nget an honest chance to choose.\n\nI am learning.  I have attended both schools.  I will choose the higher\nground.\n\nSusan Priest\nClasses of '77 and '81\n>\n>\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 179,
+      "end": 204,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 207,
+      "text": "waaaaa! waaaaa! you notice that she didn't mention the corps of cadet members \nthat tackled and beat on women after texas victory in college station a \ncouple of year back\n\n\n   \n\tEnron North America Corp.\n\t\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 215,
+      "end": 228,
+      "text": "Shanna Husser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 261,
+      "end": 271,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 272,
+      "end": 280,
+      "text": "10:36 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 288,
+      "end": 297,
+      "text": "Eric Bass",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 325,
+      "end": 346,
+      "text": "aggie/longhorn letter",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 208,
+      "end": 347,
+      "text": "From:  Shanna Husser @ EES                           11/30/2000 10:36 AM\n\t\n\nTo: Eric Bass/HOU/ECT@ECT\ncc:  \nSubject: aggie/longhorn letter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 347,
+      "end": 439,
+      "text": "\nSomething to get you ALL riled up!!  And you talk about LSU fans being bad- \n\"Kill him\"!!!\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 475,
+      "end": 488,
+      "text": "Shanna Husser",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 500,
+      "end": 510,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 511,
+      "end": 520,
+      "text": "10:35 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 439,
+      "end": 549,
+      "text": "---------------------- Forwarded by Shanna Husser/HOU/EES on 11/30/2000 10:35 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 551,
+      "end": 568,
+      "text": "Christina Barthel",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 569,
+      "end": 579,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 580,
+      "end": 588,
+      "text": "09:43 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 593,
+      "end": 606,
+      "text": "Shanna Husser",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 620,
+      "end": 629,
+      "text": "Kim Chick",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 643,
+      "end": 655,
+      "text": "Leon \nBranom",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 674,
+      "end": 685,
+      "text": "Jason Sharp",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 724,
+      "end": 737,
+      "text": "James Hollman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 756,
+      "end": 772,
+      "text": "Robert B Cothran",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 792,
+      "end": 800,
+      "text": "Meredith",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 804,
+      "end": 828,
+      "text": "meredith@friersoncpa.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 832,
+      "end": 847,
+      "text": "Zogheib, Lisa A",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 850,
+      "end": 875,
+      "text": "Lisa_Zogheib@AIMFUNDS.COM",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 896,
+      "end": 917,
+      "text": "pyrowoman@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 880,
+      "end": 893,
+      "text": "Kelly Kohrman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 921,
+      "end": 927,
+      "text": "Ashley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 931,
+      "end": 963,
+      "text": "Ashley.Victorick@coastalcorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 967,
+      "end": 973,
+      "text": "Jaimie",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 976,
+      "end": 1005,
+      "text": "Jaimie.Parker@coastalcorp.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1010,
+      "end": 1014,
+      "text": "Erin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1017,
+      "end": 1038,
+      "text": "elaggie99@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1042,
+      "end": 1049,
+      "text": "Anthony",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1052,
+      "end": 1070,
+      "text": "urbanaj@texaco.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1074,
+      "end": 1078,
+      "text": "Jose",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1082,
+      "end": 1112,
+      "text": "jose.a.suarez@us.pwcglobal.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1116,
+      "end": 1122,
+      "text": "Albert",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1125,
+      "end": 1150,
+      "text": "albert.r.ferrel@exxon.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1155,
+      "end": 1160,
+      "text": "Oscar",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1164,
+      "end": 1191,
+      "text": "oscgarcia@notes.primeco.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1195,
+      "end": 1200,
+      "text": "Misti",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1203,
+      "end": 1227,
+      "text": "mkuehn@tcresidential.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1244,
+      "end": 1265,
+      "text": "aggie/longhorn letter",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 549,
+      "end": 1266,
+      "text": "\n\nChristina Barthel\n11/30/2000 09:43 AM\nTo: Shanna Husser/HOU/EES@EES, Kim Chick/HOU/EES@EES, Leon \nBranom/Corp/Enron@ENRON, Jason Sharp/ENRON_DEVELOPMENT@ENRON_DEVELOPMENt, \nJames Hollman/Corp/Enron@ENRON, Robert B Cothran/Corp/Enron@ENRON, \"Meredith\" \n<meredith@friersoncpa.com>, \"Zogheib, Lisa A\" <Lisa_Zogheib@AIMFUNDS.COM>, \n\"Kelly Kohrman\" <pyrowoman@hotmail.com>, \"Ashley\" \n<Ashley.Victorick@coastalcorp.com>, \"Jaimie\" <Jaimie.Parker@coastalcorp.com>, \n\"Erin\" <elaggie99@hotmail.com>, \"Anthony\" <urbanaj@texaco.com>, \"Jose\" \n<jose.a.suarez@us.pwcglobal.com>, \"Albert\" <albert.r.ferrel@exxon.com>, \n\"Oscar \" <oscgarcia@notes.primeco.com>, \"Misti\" <mkuehn@tcresidential.com>\ncc:  \nSubject: aggie/longhorn letter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1304,
+      "end": 1321,
+      "text": "Christina Barthel",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1333,
+      "end": 1343,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1345,
+      "end": 1353,
+      "text": "09:39 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1266,
+      "end": 1382,
+      "text": "\n\n---------------------- Forwarded by Christina Barthel/HOU/EES on 11/30/2000 \n09:39 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1384,
+      "end": 1401,
+      "text": "Amy.Jon@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1405,
+      "end": 1415,
+      "text": "11/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 1416,
+      "end": 1427,
+      "text": "09:37:29 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1432,
+      "end": 1459,
+      "text": "Christina.Barthel@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 1461,
+      "end": 1477,
+      "text": "kchick@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 1479,
+      "end": 1495,
+      "text": "dflinn@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1522,
+      "end": 1537,
+      "text": "Leigh Ann Perry",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 58,
+      "start": 1498,
+      "end": 1519,
+      "text": "Lynna.Kacal@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 59,
+      "start": 1540,
+      "end": 1563,
+      "text": "aotleighann@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 60,
+      "start": 1627,
+      "end": 1642,
+      "text": "CZachgo@aol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 61,
+      "start": 1618,
+      "end": 1624,
+      "text": "Sponge",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 62,
+      "start": 1599,
+      "end": 1614,
+      "text": "mtram@nccol.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 63,
+      "start": 1588,
+      "end": 1596,
+      "text": "Michelle",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 64,
+      "start": 1567,
+      "end": 1585,
+      "text": "aramirez@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 65,
+      "start": 1659,
+      "end": 1693,
+      "text": "FW: Are we surprised to hear this?",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 66,
+      "start": 1382,
+      "end": 1694,
+      "text": "\n\nAmy.Jon@enron.com on 11/30/2000 09:37:29 AM\nTo: Christina.Barthel@enron.com, kchick@enron.com, dflinn@enron.com, \nLynna.Kacal@enron.com, \"Leigh Ann Perry\" <aotleighann@hotmail.com>, \naramirez@enron.com, \"Michelle\" <mtram@nccol.com>, \"Sponge\" <CZachgo@aol.com>\ncc:  \nSubject: FW: Are we surprised to hear this?\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 67,
+      "start": 3908,
+      "end": 3920,
+      "text": "Susan Priest",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 68,
+      "start": 3908,
+      "end": 3944,
+      "text": "Susan Priest\nClasses of '77 and '81\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 69,
+      "start": 1694,
+      "end": 3956,
+      "text": "\n\n\n\n \"Conduct of Texas Fans at Friday's Football Game Dismays Former Student\"\n\n November 28, 2000\n\n Dear Battalion and Daily Texan:\n\nPlease help me.  As a product of both Texas A&M and the University of\nTexas - Austin, I thought I had learned a lot.  But I experienced some new\nthings at the football game this past Friday that my education had not \nprepared\nme for.  No doubt there are Longhorn scholars who can set me straight.  I\nwatched many joyful Texas fans along with a few Aggies tailgating and\ncarousing.  Super.  Fall football rivalry.  Spirits were literally in\nabundance.  May the better football team win.\n\nThen I saw things that I cannot really comprehend.  I saw a Longhorn fan\nwith a t-shirt showing a fallen-over Bonfire.  The caption read, \"What's\nwrong, Aggies? Can't keep it up?\"  Can someone explain that to me?  I do\nnot get it.  I assure you, I get the sexual nuance - I just do not understand\nevil.\n\nI saw Longhorn fans mocking and taunting the fans from A&M who were in\nCorps of Cadets uniforms.  \"Little Hitlers,\" they were called.  They were \nbeing\nspat at.  Help me to understand this Longhorn slant on rivalry.  I\nthought we were all against Hitler - Longhorns and Aggies.\n\nI saw a Longhorn cheerleader - isn't he supposed to represent UT in the\nfinest possible way?  - run in front of the Aggie Band, turn and face it\nsquare on and salute with the clicked heels, arm-above-head, \"Heil\nHitler\" sign. \n\nWhat don't I know here?  What didn't I learn in history class?  All these\nthings happened before kickoff.\n\nAggies, I respect your presentation of a $50,000 endowed scholarship as a\nthank-you for UT's respect and support shown last year.  That support\nobviously came from the finer Horns.  I admired the fortitude and\nrestraint exercised by the Corps of Cadets under attack.\n\nUnfortunately, I learned that hundreds and hundreds of Longhorns have\nMore than one way to show the Hook 'em Horns sign.  They prefer to use their\nmiddle finger.  Class.  Really intelligent and creative.  That will\nquickly teach those \"littlest\" Longhorns how to show spirit.  I just pray they\nget an honest chance to choose.\n\nI am learning.  I have attended both schools.  I will choose the higher\nground.\n\nSusan Priest\nClasses of '77 and '81\n>\n>\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 26,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 23,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 28,
+      "target": 27,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 29,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 31,
+      "target": 32,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 35,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 33,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 37,
+      "target": 38,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 39,
+      "target": 40,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 43,
+      "target": 44,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 41,
+      "target": 42,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 47,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 17,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 57,
+      "target": 59,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "origin": 63,
+      "target": 62,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "origin": 61,
+      "target": 60,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "origin": 54,
+      "target": 47,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6390395.1075854651228.JavaMail.evans@thyme>",
+      "Date": "Thu, 30 Nov 2000 02:50:00 -0800 (PST)",
+      "From": "eric.bass@enron.com",
+      "To": "shanna.husser@enron.com",
+      "Subject": "Re: aggie/longhorn letter",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Eric Bass",
+      "X-To": "Shanna Husser",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Eric_Bass_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Bass-E",
+      "X-FileName": "ebass.nsf"
+    }
+  },
+  "id": "eval/bass-e_discussion_threads_1019.txt"
+}

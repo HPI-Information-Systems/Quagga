@@ -1,0 +1,93 @@
+Hi Bill,
+
+The exception is from executor side. From the gist you provided, looks like
+the issue is that you only configured java options in driver side, I think
+you should also configure this in executor side. You could refer to here (
+https://github.com/hortonworks-spark/skc#running-on-a-kerberos-enabled-cluster
+).
+
+    --files key.conf#key.conf,v.keytab#v.keytab
+    --driver-java-options "-Djava.security.auth.login.config=./key.conf"
+    --conf "spark.executor.extraJavaOptions=-Djava.security.auth.login.config=./key.conf"
+
+
+On Fri, Mar 31, 2017 at 1:58 AM, Bill Schwanitz <bilsch@bilsch.org> wrote:
+
+> I'm working on a poc spark job to pull data from a kafka topic with
+> kerberos enabled ( required ) brokers.
+>
+> The code seems to connect to kafka and enter a polling mode. When I toss
+> something onto the topic I get an exception which I just can't seem to
+> figure out. Any ideas?
+>
+> I have a full gist up at https://gist.github.com/bilsch/
+> 17f4a4c4303ed3e004e2234a5904f0de with a lot of details. If I use the
+> hdfs/spark client code for just normal operations everything works fine but
+> for some reason the streaming code is having issues. I have verified the
+> KafkaClient object is in the jaas config. The keytab is good etc.
+>
+> Guessing I'm doing something wrong I just have not figured out what yet!
+> Any thoughts?
+>
+> The exception:
+>
+> 17/03/30 12:54:00 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0,
+> host5.some.org.net): org.apache.kafka.common.KafkaException: Failed to
+> construct kafka consumer
+> at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(
+> KafkaConsumer.java:702)
+> at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(
+> KafkaConsumer.java:557)
+> at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(
+> KafkaConsumer.java:540)
+> at org.apache.spark.streaming.kafka010.CachedKafkaConsumer.<
+> init>(CachedKafkaConsumer.scala:47)
+> at org.apache.spark.streaming.kafka010.CachedKafkaConsumer$.
+> get(CachedKafkaConsumer.scala:157)
+> at org.apache.spark.streaming.kafka010.KafkaRDD$KafkaRDDIterator.<init>(
+> KafkaRDD.scala:210)
+> at org.apache.spark.streaming.kafka010.KafkaRDD.compute(
+> KafkaRDD.scala:185)
+> at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:319)
+> at org.apache.spark.rdd.RDD.iterator(RDD.scala:283)
+> at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:70)
+> at org.apache.spark.scheduler.Task.run(Task.scala:86)
+> at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:274)
+> at java.util.concurrent.ThreadPoolExecutor.runWorker(
+> ThreadPoolExecutor.java:1142)
+> at java.util.concurrent.ThreadPoolExecutor$Worker.run(
+> ThreadPoolExecutor.java:617)
+> at java.lang.Thread.run(Thread.java:745)
+> Caused by: org.apache.kafka.common.KafkaException:
+> org.apache.kafka.common.KafkaException: Jaas configuration not found
+> at org.apache.kafka.common.network.SaslChannelBuilder.
+> configure(SaslChannelBuilder.java:86)
+> at org.apache.kafka.common.network.ChannelBuilders.
+> create(ChannelBuilders.java:70)
+> at org.apache.kafka.clients.ClientUtils.createChannelBuilder(
+> ClientUtils.java:83)
+> at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(
+> KafkaConsumer.java:623)
+> ... 14 more
+> Caused by: org.apache.kafka.common.KafkaException: Jaas configuration not
+> found
+> at org.apache.kafka.common.security.kerberos.KerberosLogin.getServiceName(
+> KerberosLogin.java:299)
+> at org.apache.kafka.common.security.kerberos.KerberosLogin.configure(
+> KerberosLogin.java:103)
+> at org.apache.kafka.common.security.authenticator.LoginManager.<init>(
+> LoginManager.java:45)
+> at org.apache.kafka.common.security.authenticator.LoginManager.
+> acquireLoginManager(LoginManager.java:68)
+> at org.apache.kafka.common.network.SaslChannelBuilder.
+> configure(SaslChannelBuilder.java:78)
+> ... 17 more
+> Caused by: java.io.IOException: Could not find a 'KafkaClient' entry in
+> this configuration.
+> at org.apache.kafka.common.security.JaasUtils.jaasConfig(
+> JaasUtils.java:50)
+> at org.apache.kafka.common.security.kerberos.KerberosLogin.getServiceName(
+> KerberosLogin.java:297)
+> ... 21 more
+>
+

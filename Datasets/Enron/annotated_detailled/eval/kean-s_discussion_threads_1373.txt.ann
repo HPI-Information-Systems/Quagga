@@ -1,0 +1,162 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Nicholas O'Day/AP/Enron on 10/17/2000 \n08:06 AM ---------------------------\n\n\nNicholas O'Day\n10/17/2000 08:01 AM\nTo: Tori L Wells/HOU/ECT@ECT\ncc: Steven J Kean/HOU/EES@EES, Rosalee Fleming/Corp/Enron@ENRON \n\nSubject: Office Opening\n\nTori,\nI understand that Rosalee is out of the office. In her absence, I thought you \nshould be aware of the following. \n\nPM Mori has confirmed that he is available to meet with Mr Lay on 1 November. \nHowever, he has advised that he will be unable to attend the office opening. \nParliament is in session at the moment and budget debate has been delayed as \na result of extended debate on the amendment to the electoral rules. The PM \nhas advised that he will be in budget deliberations on the 31st.\n\nThe PM has proposed that he be represented at the office opening by his #2 - \nHidenao Nakagawa  -  Minister of State and Chief Cabinet Secretary. Nakagawa, \nas Minister of State, is Japan's official spokesperson and will open the \noffice in the name of the PM.\n\nNakagawa is generally regarded as being responsible for the PM's policy \ndirection and plays a vital role in supporting PM Mori's fragile leadership. \nSignificantly, Nakagawa is currently responsible for the government's \nInformation Technology (IT) policies, the Government's most important \ninitiative at present. He is vice-chair of the Government's IT Strategy \nConference and  formerly held the post of Vice Minister of MITI.\n\nIn my view, this is not a bad outcome. In some respects we get the best of \nboth worlds. The office is opened in the name of the PM and we have the \nattendance of the man who is likely to be more highly regarded among those \nwho will attend the office opening.    \n\nI will send separately to Tori Wells, with a copy to you, the draft meeting \nschedule.\n\nkind regards\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 50,
+      "text": "Nicholas O'Day",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 63,
+      "end": 73,
+      "text": "10/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 75,
+      "end": 83,
+      "text": "08:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 112,
+      "text": "---------------------- Forwarded by Nicholas O'Day/AP/Enron on 10/17/2000 \n08:06 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 114,
+      "end": 128,
+      "text": "Nicholas O'Day",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 129,
+      "end": 139,
+      "text": "10/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 140,
+      "end": 148,
+      "text": "08:01 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 153,
+      "end": 165,
+      "text": "Tori L Wells",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 182,
+      "end": 195,
+      "text": "Steven J Kean",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 209,
+      "end": 224,
+      "text": "Rosalee Fleming",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 253,
+      "end": 267,
+      "text": "Office Opening",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 112,
+      "end": 268,
+      "text": "\n\nNicholas O'Day\n10/17/2000 08:01 AM\nTo: Tori L Wells/HOU/ECT@ECT\ncc: Steven J Kean/HOU/EES@EES, Rosalee Fleming/Corp/Enron@ENRON \n\nSubject: Office Opening\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 269,
+      "end": 273,
+      "text": "Tori",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1816,
+      "end": 1829,
+      "text": "kind regards\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 268,
+      "end": 1829,
+      "text": "\nTori,\nI understand that Rosalee is out of the office. In her absence, I thought you \nshould be aware of the following. \n\nPM Mori has confirmed that he is available to meet with Mr Lay on 1 November. \nHowever, he has advised that he will be unable to attend the office opening. \nParliament is in session at the moment and budget debate has been delayed as \na result of extended debate on the amendment to the electoral rules. The PM \nhas advised that he will be in budget deliberations on the 31st.\n\nThe PM has proposed that he be represented at the office opening by his #2 - \nHidenao Nakagawa  -  Minister of State and Chief Cabinet Secretary. Nakagawa, \nas Minister of State, is Japan's official spokesperson and will open the \noffice in the name of the PM.\n\nNakagawa is generally regarded as being responsible for the PM's policy \ndirection and plays a vital role in supporting PM Mori's fragile leadership. \nSignificantly, Nakagawa is currently responsible for the government's \nInformation Technology (IT) policies, the Government's most important \ninitiative at present. He is vice-chair of the Government's IT Strategy \nConference and  formerly held the post of Vice Minister of MITI.\n\nIn my view, this is not a bad outcome. In some respects we get the best of \nboth worlds. The office is opened in the name of the PM and we have the \nattendance of the man who is likely to be more highly regarded among those \nwho will attend the office opening.    \n\nI will send separately to Tori Wells, with a copy to you, the draft meeting \nschedule.\n\nkind regards\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5289496.1075848106279.JavaMail.evans@thyme>",
+      "Date": "Tue, 17 Oct 2000 01:07:00 -0700 (PDT)",
+      "From": "nicholas.o'day@enron.com",
+      "To": "steven.kean@enron.com",
+      "Subject": "Office Opening",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Nicholas O'Day",
+      "X-To": "Steven J Kean",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_discussion_threads_1373.txt"
+}

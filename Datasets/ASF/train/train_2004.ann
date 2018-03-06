@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Dear reader,\n\nI've found that using the distinct clause gives me the list I want.\n\nI also have a multivalued rpt_location in the collection that I'd like to\nuse in the filter.\n\nIs this possible in any way shape of form?\n\nMany thanks in advance,\n\nGreg\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 13,
+      "text": "Dear reader,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 220,
+      "end": 251,
+      "text": "\nMany thanks in advance,\n\nGreg\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 252,
+      "text": "Dear reader,\n\nI've found that using the distinct clause gives me the list I want.\n\nI also have a multivalued rpt_location in the collection that I'd like to\nuse in the filter.\n\nIs this possible in any way shape of form?\n\nMany thanks in advance,\n\nGreg\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2004"
+}

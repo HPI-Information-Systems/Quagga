@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nSo I can never have soft auto commit after each update ? This sounds like a\nbug to me.\n\nThanks\nAngrl\n\nOn Thu, Aug 24, 2017 at 9:36 PM Susheel Kumar <susheel2777@gmail.com> wrote:\n\n> I believe the commit triggers on > condition (no of cached docs > maxDocs\n> then commit).  So that's why you need one extra...\n>\n> On Thu, Aug 24, 2017 at 6:59 AM, Angel Todorov <attodorov@gmail.com>\n> wrote:\n>\n> > I also tested, of course, by setting a value of 0, expecting that it\n> would\n> > work in the way I expect it to , but unfortunately - it doesn't. Nothing\n> is\n> > committed in that case.\n> >\n> > Thanks\n> >\n> >\n> > On Thu, Aug 24, 2017 at 1:54 PM, Angel Todorov <attodorov@gmail.com>\n> > wrote:\n> >\n> > > Hi all,\n> > >\n> > > I have this in my config:\n> > >\n> > >      <autoSoftCommit>\n> > >\n> > >        <maxDocs>1</maxDocs>\n> > >\n> > >      </autoSoftCommit>\n> > >\n> > >\n> > > My expectation is that SOLR will make changes available in the index\n> > after\n> > > every document change. But this doesn't work - I need to do _ another _\n> > > update in order for the changes to be visible. Basically it's like: if\n> > > maxDocs is 1, it behaves as if it is 2. If it is set to 2, I need to\n> do 3\n> > > updates, and only after the third one my changes are visible for\n> > searching.\n> > >\n> > >\n> > > Is this a bug?\n> > >\n> > >\n> > > Thanks,\n> > >\n> > > Angel\n> > >\n> > >\n> > >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 95,
+      "end": 109,
+      "text": "\nThanks\nAngrl\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 110,
+      "text": "Hello,\n\nSo I can never have soft auto commit after each update ? This sounds like a\nbug to me.\n\nThanks\nAngrl\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 110,
+      "end": 187,
+      "text": "On Thu, Aug 24, 2017 at 9:36 PM Susheel Kumar <susheel2777@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 187,
+      "end": 319,
+      "text": "\n> I believe the commit triggers on > condition (no of cached docs > maxDocs\n> then commit).  So that's why you need one extra...\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 319,
+      "end": 399,
+      "text": "> On Thu, Aug 24, 2017 at 6:59 AM, Angel Todorov <attodorov@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 592,
+      "end": 607,
+      "text": "> >\n> > Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 399,
+      "end": 615,
+      "text": ">\n> > I also tested, of course, by setting a value of 0, expecting that it\n> would\n> > work in the way I expect it to , but unfortunately - it doesn't. Nothing\n> is\n> > committed in that case.\n> >\n> > Thanks\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 615,
+      "end": 699,
+      "text": "> > On Thu, Aug 24, 2017 at 1:54 PM, Angel Todorov <attodorov@gmail.com>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 699,
+      "end": 717,
+      "text": "> >\n> > > Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1323,
+      "end": 1361,
+      "text": "> > >\n> > > Thanks,\n> > >\n> > > Angel\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 699,
+      "end": 1386,
+      "text": "> >\n> > > Hi all,\n> > >\n> > > I have this in my config:\n> > >\n> > >      <autoSoftCommit>\n> > >\n> > >        <maxDocs>1</maxDocs>\n> > >\n> > >      </autoSoftCommit>\n> > >\n> > >\n> > > My expectation is that SOLR will make changes available in the index\n> > after\n> > > every document change. But this doesn't work - I need to do _ another _\n> > > update in order for the changes to be visible. Basically it's like: if\n> > > maxDocs is 1, it behaves as if it is 2. If it is set to 2, I need to\n> do 3\n> > > updates, and only after the third one my changes are visible for\n> > searching.\n> > >\n> > >\n> > > Is this a bug?\n> > >\n> > >\n> > > Thanks,\n> > >\n> > > Angel\n> > >\n> > >\n> > >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5644"
+}

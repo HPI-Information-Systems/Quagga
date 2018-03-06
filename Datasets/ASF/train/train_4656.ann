@@ -1,0 +1,144 @@
+{
+  "wrapper": "plaintext",
+  "text": "After disabling the buffer are you still seeing documents being replicated\nto the target cluster(s) ?\n\nOn Mon, Jul 10, 2017 at 1:07 PM, Xie, Sean <Sean.Xie@finra.org> wrote:\n\n> After several experiments and observation, finally make it work.\n> The key point is you have to also disablebuffer on source cluster. I don\u00e2\u20ac\u2122t\n> know why in the wiki, it didn\u00e2\u20ac\u2122t mention it, but I figured this out through\n> the source code.\n> Once disablebuffer on source cluster, the lastProcessedVersion will become\n> a position number, and when there is hard commit, the old unused tlog files\n> get deleted.\n>\n> Hope my finding can help other users who experience the same issue.\n>\n>\n> On 7/10/17, 9:08 AM, \"Michael McCarthy\" <michael.mccarthy@gm.com> wrote:\n>\n>     We have been experiencing this same issue for months now, with version\n> 6.2.  No solution to date.\n>\n>     -----Original Message-----\n>     From: Xie, Sean [mailto:Sean.Xie@finra.org]\n>     Sent: Sunday, July 09, 2017 9:41 PM\n>     To: solr-user@lucene.apache.org\n>     Subject: [EXTERNAL] Re: CDCR - how to deal with the transaction log\n> files\n>\n>     Did another round of testing, the tlog on target cluster is cleaned up\n> once the hard commit is triggered. However, on source cluster, the tlog\n> files stay there and never gets cleaned up.\n>\n>     Not sure if there is any command to run manually to trigger the\n> updateLogSynchronizer. The updateLogSynchronizer already set at run at\n> every 10 seconds, but seems it didn\u00e2\u20ac\u2122t help.\n>\n>     Any help?\n>\n>     Thanks\n>     Sean\n>\n>     On 7/8/17, 1:14 PM, \"Xie, Sean\" <Sean.Xie@finra.org> wrote:\n>\n>         I have monitored the CDCR process for a while, the updates are\n> actively sent to the target without a problem. However the tlog size and\n> files count are growing everyday, even when there is 0 updates to sent, the\n> tlog stays there:\n>\n>         Following is from the action=queues command, and you can see after\n> about a month or so running days, the total transaction are reaching to\n> 140K total files, and size is about 103G.\n>\n>         <response>\n>         <lst name=\"responseHeader\">\n>         <int name=\"status\">0</int>\n>         <int name=\"QTime\">465</int>\n>         </lst>\n>         <lst name=\"queues\">\n>         <lst name=\"some_zk_url_list\">\n>         <lst name=\"MY_COLLECTION\">\n>         <long name=\"queueSize\">0</long>\n>         <str name=\"lastTimestamp\">2017-07-07T23:19:09.655Z</str>\n>         </lst>\n>         </lst>\n>         </lst>\n>         <long name=\"tlogTotalSize\">102740042616</long>\n>         <long name=\"tlogTotalCount\">140809</long>\n>         <str name=\"updateLogSynchronizer\">stopped</str>\n>         </response>\n>\n>         Any help on it? Or do I need to configure something else? The CDCR\n> configuration is pretty much following the wiki:\n>\n>         On target:\n>\n>           <requestHandler name=\"/cdcr\" class=\"solr.CdcrRequestHandler\">\n>             <lst name=\"buffer\">\n>               <str name=\"defaultState\">disabled</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateRequestProcessorChain name=\"cdcr-processor-chain\">\n>             <processor class=\"solr.CdcrUpdateProcessorFactory\"/>\n>             <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>           </updateRequestProcessorChain>\n>\n>           <requestHandler name=\"/update\" class=\"solr.\n> UpdateRequestHandler\">\n>             <lst name=\"defaults\">\n>               <str name=\"update.chain\">cdcr-processor-chain</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateHandler class=\"solr.DirectUpdateHandler2\">\n>             <updateLog class=\"solr.CdcrUpdateLog\">\n>               <str name=\"dir\">${solr.ulog.dir:}</str>\n>             </updateLog>\n>             <autoCommit>\n>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>\n>               <openSearcher>false</openSearcher>\n>             </autoCommit>\n>\n>             <autoSoftCommit>\n>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>\n>             </autoSoftCommit>\n>           </updateHandler>\n>\n>         On source:\n>           <requestHandler name=\"/cdcr\" class=\"solr.CdcrRequestHandler\">\n>             <lst name=\"replica\">\n>               <str name=\"zkHost\">${TargetZk}</str>\n>               <str name=\"source\">MY_COLLECTION</str>\n>               <str name=\"target\">MY_COLLECTION</str>\n>             </lst>\n>\n>             <lst name=\"replicator\">\n>               <str name=\"threadPoolSize\">1</str>\n>               <str name=\"schedule\">1000</str>\n>               <str name=\"batchSize\">128</str>\n>             </lst>\n>\n>             <lst name=\"updateLogSynchronizer\">\n>               <str name=\"schedule\">60000</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateHandler class=\"solr.DirectUpdateHandler2\">\n>             <updateLog class=\"solr.CdcrUpdateLog\">\n>               <str name=\"dir\">${solr.ulog.dir:}</str>\n>             </updateLog>\n>             <autoCommit>\n>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>\n>               <openSearcher>false</openSearcher>\n>             </autoCommit>\n>\n>             <autoSoftCommit>\n>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>\n>             </autoSoftCommit>\n>           </updateHandler>\n>\n>         Thanks.\n>         Sean\n>\n>         On 7/8/17, 12:10 PM, \"Erick Erickson\" <erickerickson@gmail.com>\n> wrote:\n>\n>             This should not be the case if you are actively sending\n> updates to the\n>             target cluster. The tlog is used to store unsent updates, so\n> if the\n>             connection is broken for some time, the target cluster will\n> have a\n>             chance to catch up.\n>\n>             If you don't have the remote DC online and do not intend to\n> bring it\n>             online soon, you should turn CDCR off.\n>\n>             Best,\n>             Erick\n>\n>             On Fri, Jul 7, 2017 at 9:35 PM, Xie, Sean <Sean.Xie@finra.org>\n> wrote:\n>             > Once enabled CDCR, update log stores an unlimited number of\n> entries. This is causing the tlog folder getting bigger and bigger, as well\n> as the open files are growing. How can one reduce the number of open files\n> and also to reduce the tlog files? If it\u00e2\u20ac\u2122s not taken care properly, sooner\n> or later the log files size and open file count will exceed the limits.\n>             >\n>             > Thanks\n>             > Sean\n>             >\n>             >\n>             > Confidentiality Notice::  This email, including attachments,\n> may include non-public, proprietary, confidential or legally privileged\n> information.  If you are not an intended recipient or an authorized agent\n> of an intended recipient, you are hereby notified that any dissemination,\n> distribution or copying of the information contained in or transmitted with\n> this e-mail is unauthorized and strictly prohibited.  If you have received\n> this email in error, please notify the sender by replying to this message\n> and permanently delete this e-mail, its attachments, and any copies of it\n> immediately.  You should not retain, copy or use this e-mail or any\n> attachment for any purpose, nor disclose all or any part of the contents to\n> any other person. Thank you.\n>\n>\n>\n>\n>\n>\n>     Nothing in this message is intended to constitute an electronic\n> signature unless a specific statement to the contrary is included in this\n> message.\n>\n>     Confidentiality Note: This message is intended only for the person or\n> entity to which it is addressed. It may contain confidential and/or\n> privileged material. Any review, transmission, dissemination or other use,\n> or taking of any action in reliance upon this message by persons or\n> entities other than the intended recipient is prohibited and may be\n> unlawful. If you received this message in error, please contact the sender\n> and delete it from your computer.\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 103,
+      "text": "After disabling the buffer are you still seeing documents being replicated\nto the target cluster(s) ?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 103,
+      "end": 174,
+      "text": "On Mon, Jul 10, 2017 at 1:07 PM, Xie, Sean <Sean.Xie@finra.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 174,
+      "end": 665,
+      "text": "\n> After several experiments and observation, finally make it work.\n> The key point is you have to also disablebuffer on source cluster. I don\u00e2\u20ac\u2122t\n> know why in the wiki, it didn\u00e2\u20ac\u2122t mention it, but I figured this out through\n> the source code.\n> Once disablebuffer on source cluster, the lastProcessedVersion will become\n> a position number, and when there is hard commit, the old unused tlog files\n> get deleted.\n>\n> Hope my finding can help other users who experience the same issue.\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 665,
+      "end": 740,
+      "text": "> On 7/10/17, 9:08 AM, \"Michael McCarthy\" <michael.mccarthy@gm.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 740,
+      "end": 850,
+      "text": ">\n>     We have been experiencing this same issue for months now, with version\n> 6.2.  No solution to date.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 850,
+      "end": 1095,
+      "text": ">     -----Original Message-----\n>     From: Xie, Sean [mailto:Sean.Xie@finra.org]\n>     Sent: Sunday, July 09, 2017 9:41 PM\n>     To: solr-user@lucene.apache.org\n>     Subject: [EXTERNAL] Re: CDCR - how to deal with the transaction log\n> files\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1095,
+      "end": 1533,
+      "text": ">\n>     Did another round of testing, the tlog on target cluster is cleaned up\n> once the hard commit is triggered. However, on source cluster, the tlog\n> files stay there and never gets cleaned up.\n>\n>     Not sure if there is any command to run manually to trigger the\n> updateLogSynchronizer. The updateLogSynchronizer already set at run at\n> every 10 seconds, but seems it didn\u00e2\u20ac\u2122t help.\n>\n>     Any help?\n>\n>     Thanks\n>     Sean\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1505,
+      "end": 1531,
+      "text": ">\n>     Thanks\n>     Sean\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1533,
+      "end": 1599,
+      "text": ">     On 7/8/17, 1:14 PM, \"Xie, Sean\" <Sean.Xie@finra.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1599,
+      "end": 5303,
+      "text": ">\n>         I have monitored the CDCR process for a while, the updates are\n> actively sent to the target without a problem. However the tlog size and\n> files count are growing everyday, even when there is 0 updates to sent, the\n> tlog stays there:\n>\n>         Following is from the action=queues command, and you can see after\n> about a month or so running days, the total transaction are reaching to\n> 140K total files, and size is about 103G.\n>\n>         <response>\n>         <lst name=\"responseHeader\">\n>         <int name=\"status\">0</int>\n>         <int name=\"QTime\">465</int>\n>         </lst>\n>         <lst name=\"queues\">\n>         <lst name=\"some_zk_url_list\">\n>         <lst name=\"MY_COLLECTION\">\n>         <long name=\"queueSize\">0</long>\n>         <str name=\"lastTimestamp\">2017-07-07T23:19:09.655Z</str>\n>         </lst>\n>         </lst>\n>         </lst>\n>         <long name=\"tlogTotalSize\">102740042616</long>\n>         <long name=\"tlogTotalCount\">140809</long>\n>         <str name=\"updateLogSynchronizer\">stopped</str>\n>         </response>\n>\n>         Any help on it? Or do I need to configure something else? The CDCR\n> configuration is pretty much following the wiki:\n>\n>         On target:\n>\n>           <requestHandler name=\"/cdcr\" class=\"solr.CdcrRequestHandler\">\n>             <lst name=\"buffer\">\n>               <str name=\"defaultState\">disabled</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateRequestProcessorChain name=\"cdcr-processor-chain\">\n>             <processor class=\"solr.CdcrUpdateProcessorFactory\"/>\n>             <processor class=\"solr.RunUpdateProcessorFactory\"/>\n>           </updateRequestProcessorChain>\n>\n>           <requestHandler name=\"/update\" class=\"solr.\n> UpdateRequestHandler\">\n>             <lst name=\"defaults\">\n>               <str name=\"update.chain\">cdcr-processor-chain</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateHandler class=\"solr.DirectUpdateHandler2\">\n>             <updateLog class=\"solr.CdcrUpdateLog\">\n>               <str name=\"dir\">${solr.ulog.dir:}</str>\n>             </updateLog>\n>             <autoCommit>\n>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>\n>               <openSearcher>false</openSearcher>\n>             </autoCommit>\n>\n>             <autoSoftCommit>\n>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>\n>             </autoSoftCommit>\n>           </updateHandler>\n>\n>         On source:\n>           <requestHandler name=\"/cdcr\" class=\"solr.CdcrRequestHandler\">\n>             <lst name=\"replica\">\n>               <str name=\"zkHost\">${TargetZk}</str>\n>               <str name=\"source\">MY_COLLECTION</str>\n>               <str name=\"target\">MY_COLLECTION</str>\n>             </lst>\n>\n>             <lst name=\"replicator\">\n>               <str name=\"threadPoolSize\">1</str>\n>               <str name=\"schedule\">1000</str>\n>               <str name=\"batchSize\">128</str>\n>             </lst>\n>\n>             <lst name=\"updateLogSynchronizer\">\n>               <str name=\"schedule\">60000</str>\n>             </lst>\n>           </requestHandler>\n>\n>           <updateHandler class=\"solr.DirectUpdateHandler2\">\n>             <updateLog class=\"solr.CdcrUpdateLog\">\n>               <str name=\"dir\">${solr.ulog.dir:}</str>\n>             </updateLog>\n>             <autoCommit>\n>               <maxTime>${solr.autoCommit.maxTime:180000}</maxTime>\n>               <openSearcher>false</openSearcher>\n>             </autoCommit>\n>\n>             <autoSoftCommit>\n>               <maxTime>${solr.autoSoftCommit.maxTime:30000}</maxTime>\n>             </autoSoftCommit>\n>           </updateHandler>\n>\n>         Thanks.\n>         Sean\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 5266,
+      "end": 5301,
+      "text": ">\n>         Thanks.\n>         Sean\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 5303,
+      "end": 5386,
+      "text": ">         On 7/8/17, 12:10 PM, \"Erick Erickson\" <erickerickson@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 5816,
+      "end": 5858,
+      "text": ">\n>             Best,\n>             Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 5386,
+      "end": 5860,
+      "text": ">\n>             This should not be the case if you are actively sending\n> updates to the\n>             target cluster. The tlog is used to store unsent updates, so\n> if the\n>             connection is broken for some time, the target cluster will\n> have a\n>             chance to catch up.\n>\n>             If you don't have the remote DC online and do not intend to\n> bring it\n>             online soon, you should turn CDCR off.\n>\n>             Best,\n>             Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 5860,
+      "end": 5946,
+      "text": ">             On Fri, Jul 7, 2017 at 9:35 PM, Xie, Sean <Sean.Xie@finra.org>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 6330,
+      "end": 6390,
+      "text": ">             >\n>             > Thanks\n>             > Sean\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 5946,
+      "end": 7865,
+      "text": ">             > Once enabled CDCR, update log stores an unlimited number of\n> entries. This is causing the tlog folder getting bigger and bigger, as well\n> as the open files are growing. How can one reduce the number of open files\n> and also to reduce the tlog files? If it\u00e2\u20ac\u2122s not taken care properly, sooner\n> or later the log files size and open file count will exceed the limits.\n>             >\n>             > Thanks\n>             > Sean\n>             >\n>             >\n>             > Confidentiality Notice::  This email, including attachments,\n> may include non-public, proprietary, confidential or legally privileged\n> information.  If you are not an intended recipient or an authorized agent\n> of an intended recipient, you are hereby notified that any dissemination,\n> distribution or copying of the information contained in or transmitted with\n> this e-mail is unauthorized and strictly prohibited.  If you have received\n> this email in error, please notify the sender by replying to this message\n> and permanently delete this e-mail, its attachments, and any copies of it\n> immediately.  You should not retain, copy or use this e-mail or any\n> attachment for any purpose, nor disclose all or any part of the contents to\n> any other person. Thank you.\n>\n>\n>\n>\n>\n>\n>     Nothing in this message is intended to constitute an electronic\n> signature unless a specific statement to the contrary is included in this\n> message.\n>\n>     Confidentiality Note: This message is intended only for the person or\n> entity to which it is addressed. It may contain confidential and/or\n> privileged material. Any review, transmission, dissemination or other use,\n> or taking of any action in reliance upon this message by persons or\n> entities other than the intended recipient is prohibited and may be\n> unlawful. If you received this message in error, please contact the sender\n> and delete it from your computer.\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4656"
+}

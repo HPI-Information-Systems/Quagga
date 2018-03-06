@@ -1,0 +1,68 @@
+{
+  "wrapper": "plaintext",
+  "text": "Great work by Susan with help from Walt.  SWD\n\n\n\n\tWalt Zimmerman\n\t06/08/00 03:26 PM\n\t\t \n\t\t To: Susan Ralph/Houston/Eott@Eott\n\t\t cc: Michael Burke/Houston/Eott@Eott, Steve Duffy/Houston/Eott@Eott, Dana \nGibbs/Houston/Eott@Eott, Stanley Horton/Corp/Enron@Enron, Lori \nMaddox/Houston/Eott@Eott\n\t\t Subject: Insurance Recovery on Todoroff Matter\n\nSusan, I spoke this morning with Nancy Manderson (outside counsel for our \ncrime policy insurer).  She has accepted my changes to the Assignment and \nRelease, and she will be forwarding an original of the Assignment and Release \nto EOTT for execution.  She said we will have our check for $2,503,000.00 \nnext week!  The check will be delivered to Phillip Bair with our insurance \nbroker.\n\nWe also had a long conversation about the insurer's claim against Gas \nProducers.  I shared with Nancy some of the research we have done on the \nconversion claim against Gas Producers.  I assured her that EOTT would fully \ncooperate if the insurer did pursue the claim against Gas Producers.  I \ngathered from her comments, however, that the insurer is concerned that Gas \nProducers may not have sufficient assets to satisfy anything but a small \njudgment.  I do not know whether the insurer has actually conducted a \n\"financial investigation\" of Gas Producers.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 42,
+      "end": 46,
+      "text": "SWD\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 49,
+      "text": "Great work by Susan with help from Walt.  SWD\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 50,
+      "end": 341,
+      "text": "Walt Zimmerman\n\t06/08/00 03:26 PM\n\t\t \n\t\t To: Susan Ralph/Houston/Eott@Eott\n\t\t cc: Michael Burke/Houston/Eott@Eott, Steve Duffy/Houston/Eott@Eott, Dana \nGibbs/Houston/Eott@Eott, Stanley Horton/Corp/Enron@Enron, Lori \nMaddox/Houston/Eott@Eott\n\t\t Subject: Insurance Recovery on Todoroff Matter\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 341,
+      "end": 347,
+      "text": "\nSusan",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 341,
+      "end": 1293,
+      "text": "\nSusan, I spoke this morning with Nancy Manderson (outside counsel for our \ncrime policy insurer).  She has accepted my changes to the Assignment and \nRelease, and she will be forwarding an original of the Assignment and Release \nto EOTT for execution.  She said we will have our check for $2,503,000.00 \nnext week!  The check will be delivered to Phillip Bair with our insurance \nbroker.\n\nWe also had a long conversation about the insurer's claim against Gas \nProducers.  I shared with Nancy some of the research we have done on the \nconversion claim against Gas Producers.  I assured her that EOTT would fully \ncooperate if the insurer did pursue the claim against Gas Producers.  I \ngathered from her comments, however, that the insurer is concerned that Gas \nProducers may not have sufficient assets to satisfy anything but a small \njudgment.  I do not know whether the insurer has actually conducted a \n\"financial investigation\" of Gas Producers.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<5264608.1075844938636.JavaMail.evans@thyme>",
+      "Date": "Thu, 8 Jun 2000 10:10:00 -0700 (PDT)",
+      "From": "steve.duffy@enron.com",
+      "To": "walt.zimmerman@enron.com",
+      "Subject": "Re: Insurance Recovery on Todoroff Matter",
+      "Cc": "dana.gibbs@enron.com, lori.maddox@enron.com, michael.burke@enron.com, \n\tstanley.horton@enron.com, susan.ralph@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "dana.gibbs@enron.com, lori.maddox@enron.com, michael.burke@enron.com, \n\tstanley.horton@enron.com, susan.ralph@enron.com",
+      "X-From": "Steve Duffy",
+      "X-To": "Walt Zimmerman",
+      "X-cc": "Dana Gibbs, Lori Maddox, Michael Burke, Stanley Horton, Susan Ralph",
+      "X-bcc": "",
+      "X-Folder": "\\Stanley_Horton_1\\Notes Folders\\All documents",
+      "X-Origin": "HORTON-S",
+      "X-FileName": "shorton.nsf"
+    }
+  },
+  "id": "test/horton-s_all_documents_262.txt"
+}

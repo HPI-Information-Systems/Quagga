@@ -1,0 +1,68 @@
+{
+  "wrapper": "plaintext",
+  "text": "Good morning everyone:\n\nVince would like to schedule a follow-up meeting on Wharton as soon as\nwe can agree on a time.\n\nHow does Monday the 18th look for you?  Vince is free from 9:30 AM -\n11:30 AM and from 1:00 PM - 4:00 PM.\n\nPlease let me know if you are available during any of these times.\n\nThanks!\n\nShirley Crenshaw\n3-5290\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 23,
+      "text": "Good morning everyone:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 295,
+      "end": 302,
+      "text": "Thanks!",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 304,
+      "end": 320,
+      "text": "Shirley Crenshaw",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 304,
+      "end": 328,
+      "text": "Shirley Crenshaw\n3-5290\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 328,
+      "text": "Good morning everyone:\n\nVince would like to schedule a follow-up meeting on Wharton as soon as\nwe can agree on a time.\n\nHow does Monday the 18th look for you?  Vince is free from 9:30 AM -\n11:30 AM and from 1:00 PM - 4:00 PM.\n\nPlease let me know if you are available during any of these times.\n\nThanks!\n\nShirley Crenshaw\n3-5290\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<14536978.1075856377871.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Dec 2000 01:20:00 -0800 (PST)",
+      "From": "shirley.crenshaw@enron.com",
+      "To": "christie.patrick@enron.com, james.bouillion@enron.com, \n\tgeorge.carrick@enron.com, vasant.shanbhogue@enron.com",
+      "Subject": "Follow-up Meeting on Wharton",
+      "Cc": "vince.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vince.kaminski@enron.com",
+      "X-From": "Shirley Crenshaw",
+      "X-To": "Christie Patrick, James L Bouillion, George Carrick, Vasant Shanbhogue",
+      "X-cc": "Vince J Kaminski",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_2152.txt"
+}

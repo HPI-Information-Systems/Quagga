@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "train/train_2664",
+  "meta": {},
+  "text": "We've bumped into this issue too, but it was through the MoreLikeThis query\nparser.  Internally it uses the get handler to obtain the seed document. \nOne of our SOLR collections uses a shard router that is not the document id. \nThe get handler will fail if the value of the document id is not the same as\nthe routing key.  And then this causes the CloudMLTQParser to issue the\nmessage \"Error completing MLT request. Could not fetch document with id\n[/x/]\"\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Get-handler-not-working-tp4325130p4330485.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 637,
+      "text": "We've bumped into this issue too, but it was through the MoreLikeThis query\nparser.  Internally it uses the get handler to obtain the seed document. \nOne of our SOLR collections uses a shard router that is not the document id. \nThe get handler will fail if the value of the document id is not the same as\nthe routing key.  And then this causes the CloudMLTQParser to issue the\nmessage \"Error completing MLT request. Could not fetch document with id\n[/x/]\"\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Get-handler-not-working-tp4325130p4330485.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

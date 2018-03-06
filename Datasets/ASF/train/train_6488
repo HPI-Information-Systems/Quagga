@@ -1,0 +1,74 @@
+ah, thanks for the link.
+
+--
+John Blythe
+
+On Wed, Oct 4, 2017 at 9:23 AM, Erick Erickson <erickerickson@gmail.com>
+wrote:
+
+> Check. The problem is they don't encode the exact length. I _think_
+> this patch shows you'd be OK with shorter lengths, but check:
+> https://issues.apache.org/jira/browse/LUCENE-7730.
+>
+> Note it's not the patch that counts here, just look at the table of
+> lengths.
+>
+> Best,
+> Erick
+>
+> On Wed, Oct 4, 2017 at 4:25 AM, John Blythe <johnblythe@gmail.com> wrote:
+> > interesting idea.
+> >
+> > the field in question is one that can have a good deal of stray zeros
+> based
+> > on distributor skus for a product and bad entries from those entering
+> them.
+> > part of the matching logic for some operations look for these
+> discrepancies
+> > by having a simple regex that removes zeroes. so 400010 can match with
+> > 40010 (and rightly so). issues come in the form of rare cases where 41
+> is a
+> > sku by the same distributor or manufacturer and thus can end up being an
+> > erroneous match. having a means of looking at the length would help to
+> know
+> > that going from 6 characters to 2 is too far a leap to be counted as a
+> > match.
+> >
+> > --
+> > John Blythe
+> >
+> > On Wed, Oct 4, 2017 at 6:22 AM, alessandro.benedetti <
+> a.benedetti@sease.io>
+> > wrote:
+> >
+> >> Are the norms a good approximation for you ?
+> >> If you preserve norms at indexing time ( it is a configuration that you
+> can
+> >> operate in the schema.xml) you can retrieve them with this specific
+> >> function
+> >> query :
+> >>
+> >> *norm(field)*
+> >> Returns the "norm" stored in the index for the specified field. This is
+> the
+> >> product of the index time boost and the length normalization factor,
+> >> according to the Similarity for the field.
+> >> norm(fieldName)
+> >>
+> >> This will not be the exact length of the field, but it can be a good
+> >> approximation though.
+> >>
+> >> Cheers
+> >>
+> >>
+> >>
+> >> -----
+> >> ---------------
+> >> Alessandro Benedetti
+> >> Search Consultant, R&D Software Engineer, Director
+> >> Sease Ltd. - www.sease.io
+> >> --
+> >> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html
+> >>
+>
+

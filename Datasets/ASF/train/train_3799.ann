@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks Erick,\n\nDat:\n\nDo you have more info about the subject?\n\n2017-05-22 17:08 GMT+02:00 Erick Erickson <erickerickson@gmail.com>:\n\n> Eirik:\n>\n> That code is 4 years old and for Lucene 4. I doubt it applies cleanly\n> to the current code base, but feel free to give it a try but it's not\n> guaranteed.\n>\n> I know of no other Vietnamese analyzers available.\n>\n> Dat is active in the community, don't know whether he has plans to\n> update/commit that bit of code.\n>\n> Best,\n> Erick\n>\n> On Mon, May 22, 2017 at 12:25 AM, Eirik Hungnes\n> <hungnes@rubrikkgroup.com> wrote:\n> > Hi,\n> >\n> > There doesn't seem to be any Tokenizer / Analyzer for Vietnamese built in\n> > to Lucene at the moment. Does anyone know if something like this exists\n> > today or is planned for? We found this\n> > https://github.com/CaoManhDat/VNAnalyzer made by Cao Mahn Dat, but not\n> sure\n> > if it's up to date. Any info highly appreciated!\n> >\n> > Thanks,\n> >\n> > Eirik\n>\n\n\n\n-- \nBest regards,\n\nEirik Hungnes\nCTO\nRubrikk Group AS\n\nCell: +4797027732\nskypeid: blindkorn44\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 63,
+      "end": 132,
+      "text": "2017-05-22 17:08 GMT+02:00 Erick Erickson <erickerickson@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 14,
+      "text": "Thanks Erick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 132,
+      "end": 142,
+      "text": "\n> Eirik:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 462,
+      "end": 480,
+      "text": ">\n> Best,\n> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 132,
+      "end": 482,
+      "text": "\n> Eirik:\n>\n> That code is 4 years old and for Lucene 4. I doubt it applies cleanly\n> to the current code base, but feel free to give it a try but it's not\n> guaranteed.\n>\n> I know of no other Vietnamese analyzers available.\n>\n> Dat is active in the community, don't know whether he has plans to\n> update/commit that bit of code.\n>\n> Best,\n> Erick\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 482,
+      "end": 568,
+      "text": "> On Mon, May 22, 2017 at 12:25 AM, Eirik Hungnes\n> <hungnes@rubrikkgroup.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 568,
+      "end": 576,
+      "text": "> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 912,
+      "end": 942,
+      "text": "> >\n> > Thanks,\n> >\n> > Eirik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 947,
+      "end": 1042,
+      "text": "-- \nBest regards,\n\nEirik Hungnes\nCTO\nRubrikk Group AS\n\nCell: +4797027732\nskypeid: blindkorn44\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 568,
+      "end": 1042,
+      "text": "> > Hi,\n> >\n> > There doesn't seem to be any Tokenizer / Analyzer for Vietnamese built in\n> > to Lucene at the moment. Does anyone know if something like this exists\n> > today or is planned for? We found this\n> > https://github.com/CaoManhDat/VNAnalyzer made by Cao Mahn Dat, but not\n> sure\n> > if it's up to date. Any info highly appreciated!\n> >\n> > Thanks,\n> >\n> > Eirik\n>\n\n\n\n-- \nBest regards,\n\nEirik Hungnes\nCTO\nRubrikk Group AS\n\nCell: +4797027732\nskypeid: blindkorn44\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3799"
+}

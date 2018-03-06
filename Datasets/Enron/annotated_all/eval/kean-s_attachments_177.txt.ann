@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "  https://gcs.enron.com/expertfinder/tcid.asp\n\nSteve, \nPlease take a look and I will be available to walk you through the \napplication at your convenience.   I've attached a power point presentation \nto help describe. \nay\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 47,
+      "end": 52,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 219,
+      "end": 221,
+      "text": "ay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 223,
+      "text": "  https://gcs.enron.com/expertfinder/tcid.asp\n\nSteve, \nPlease take a look and I will be available to walk you through the \napplication at your convenience.   I've attached a power point presentation \nto help describe. \nay\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31858131.1075850997464.JavaMail.evans@thyme>",
+      "Date": "Tue, 10 Oct 2000 11:15:00 -0700 (PDT)",
+      "From": "andrea.yowman@enron.com",
+      "To": "steven.kean@enron.com",
+      "Subject": "Re: Data Integrity and expertfinder.ppt",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Andrea Yowman",
+      "X-To": "Steven J Kean",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Oct2001_2\\Notes Folders\\Attachments",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_attachments_177.txt"
+}

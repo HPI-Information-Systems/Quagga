@@ -1,0 +1,88 @@
+Currently Data is processed by R and it pushes the data to Solr using a R package called Solrium.
+I'm running a webserver which has banana to visualize the events.
+
+R re-formats the event created time to "yyyy-MM-dd'T'HH:mm:sss'Z'". And if I process the timezone
+to UTC (substracting 8 hours in my case) and send to Solr, banana dashboard shows data properly,
+but I have to again add 8 hours in banana dashboard. This was not the case with solr 5.5.1.
+ Solr handling timezone is causing lot of confusing, initially thinking event took place in
+wrong time.
+
+Regards,
+Adline
+________________________________________
+From: Erick Erickson <erickerickson@gmail.com>
+Sent: 26 May 2017 12:00
+To: solr-user
+Subject: Re: How to handle date without timezone
+
+What are your autocommit settings? Are you waiting for that interval
+to expire? Does the doc ever show up?
+
+What leads you to suspect "timezone changes in 6x"? Solr tries to be
+timezone-agnostic so this would be a surprise.
+
+Best,
+Erick
+
+On Thu, May 25, 2017 at 8:26 PM, Adline Dsilva <adline.dsilva@mimos.my> wrote:
+> Hi All,
+>
+>
+>   I recently upgraded solr from 5.5.x to 6.4.x and I'm facing few issues with date filtering.
+Few queries which works on 5.x fails to work on 6.x. and I assume its related to timezone
+changes in 6.x.
+>
+>
+> Currently I'm using solr to store & monitor Event data and incoming data is
+>
+> "created":"2017-05-26T10:48:34Z"
+>
+> created:[NOW/MINUTE-5MINUTE TO NOW/MINUTE+1MINUTE] -> this returns 0 Records in 6.x
+but 5.x returns correctly.
+>
+> How can I ensure solr does not handle any timezone processing.
+>
+>
+> Regards,
+>
+> Adline
+>
+>
+>
+>
+> ________________________________
+> DISCLAIMER:
+>
+>
+> This e-mail (including any attachments) is for the addressee(s) only and may be confidential,
+especially as regards personal data. If you are not the intended recipient, please note that
+any dealing, review, distribution, printing, copying or use of this e-mail is strictly prohibited.
+If you have received this email in error, please notify the sender immediately and delete
+the original message (including any attachments).
+>
+> MIMOS Berhad is a research and development institution under the purview of the Malaysian
+Ministry of Science, Technology and Innovation. Opinions, conclusions and other information
+in this e-mail that do not relate to the official business of MIMOS Berhad and/or its subsidiaries
+shall be understood as neither given nor endorsed by MIMOS Berhad and/or its subsidiaries
+and neither MIMOS Berhad nor its subsidiaries accepts responsibility for the same. All liability
+arising from or in connection with computer viruses and/or corrupted e-mails is excluded to
+the fullest extent permitted by law.
+
+________________________________
+DISCLAIMER:
+
+
+This e-mail (including any attachments) is for the addressee(s) only and may be confidential,
+especially as regards personal data. If you are not the intended recipient, please note that
+any dealing, review, distribution, printing, copying or use of this e-mail is strictly prohibited.
+If you have received this email in error, please notify the sender immediately and delete
+the original message (including any attachments).
+
+MIMOS Berhad is a research and development institution under the purview of the Malaysian
+Ministry of Science, Technology and Innovation. Opinions, conclusions and other information
+in this e-mail that do not relate to the official business of MIMOS Berhad and/or its subsidiaries
+shall be understood as neither given nor endorsed by MIMOS Berhad and/or its subsidiaries
+and neither MIMOS Berhad nor its subsidiaries accepts responsibility for the same. All liability
+arising from or in connection with computer viruses and/or corrupted e-mails is excluded to
+the fullest extent permitted by law.
+

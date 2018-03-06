@@ -1,0 +1,115 @@
+So do you have _users_ directly entering Solr queries? And are the
+totally trusted to be
+1> not malicious
+2> already know your schema?
+
+Because direct access to the Solr URL allows me to delete all your
+data. Usually there are drop-downs or other UI "stuff" that allows you
+to programmatically assign the field name.
+
+Trying to get in there and parse an arbitrary query in component is
+do-able but difficult.
+
+As Geraint says, field aliasing will work, but you'd need to cover all
+the possibilities. All uppercase to lowercase is easy, but camel case
+etc. would lead to a lot of aliases.....
+
+Best,
+Erick
+
+2017-05-15 6:16 GMT-07:00 Peemöller, Björn <Bjoern.Peemoeller@berenberg.de>:
+> Hi Rick,
+>
+> thank you for your reply! I really meant field *names*, since our values are already
+processed by a lower case filter (both index and query). However, our users are confused because
+they can search for "id:1" but not for "ID:1". Furthermore, we employ the EDisMax query parser,
+so then even get no error message.
+>
+> Therefore, I thought it may be sufficient to map all field names to lower case at the
+query level so that I do not have to introduce additional fields.
+>
+> Regards,
+> Björn
+>
+> -----Ursprüngliche Nachricht-----
+> Von: Rick Leir [mailto:rleir@leirtech.com]
+> Gesendet: Montag, 15. Mai 2017 13:48
+> An: solr-user@lucene.apache.org
+> Betreff: Re: Configure query parser to handle field name case-insensitive
+>
+> Björn
+> Field names or values? I assume values. Your analysis chain in schema.xml probably downcases
+chars, if not then that could be your problem.
+>
+> Field _name_? Then you might have to copyfield the field to a new field with the desired
+case. Avoid doing that if you can. Cheers -- Rick
+>
+> On May 15, 2017 5:48:09 AM EDT, "Peemöller, Björn" <Bjoern.Peemoeller@berenberg.de>
+wrote:
+>>Hi all,
+>>
+>>I'm fairly new at using Solr and I need to configure our instance to
+>>accept field names in both uppercase and lowercase (they are defined as
+>>lowercase in our configuration). Is there a simple way to achieve this?
+>>
+>>Thanks in advance,
+>>Björn
+>>
+>>Björn Peemöller
+>>IT & IT Operations
+>>
+>>BERENBERG
+>>Joh. Berenberg, Gossler & Co. KG
+>>Neuer Jungfernstieg 20
+>>20354 Hamburg
+>>
+>>Telefon +49 40 350 60-8548
+>>Telefax +49 40 350 60-900
+>>E-Mail
+>>bjoern.peemoeller@berenberg.de<mailto:bjoern.peemoeller@berenberg.de>
+>>www.berenberg.de<http://www.berenberg.de/>
+>>
+>>Sitz: Hamburg - Amtsgericht Hamburg HRA 42659
+>>
+>>
+>>Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist
+>>vertraulich und kann dem Bank- und Datengeheimnis unterliegen oder
+>>sonst rechtlich geschuetzte Daten und Informationen enthalten. Wenn Sie
+>>nicht der richtige Adressat sind oder diese Nachricht irrtuemlich
+>>erhalten haben, informieren Sie bitte sofort den Absender über die
+>>Antwortfunktion. Anschliessend moechten Sie bitte diese Nachricht
+>>einschliesslich etwa beigefuegter Anhaenge unverzueglich vollstaendig
+>>loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht
+>>und/oder der ihr etwa beigefuegten Anhaenge sowie die unbefugte
+>>Weitergabe der darin enthaltenen Daten und Informationen sind nicht
+>>gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen
+>>namens unseres Hauses grundsaetzlich der Unterschriften zweier
+>>ausreichend bevollmaechtigter Vertreter unseres Hauses beduerfen. Wir
+>>verschicken daher keine rechtsverbindlichen Erklaerungen per E-Mail an
+>>Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen
+>>Erklaerungen oder Auftraege von Dritten entgegen.
+>>Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden
+>>Sie sich bitte an den Absender oder an info@berenberg.de. Please refer
+>>to http://www.berenberg.de/my_berenberg/disclaimer_e.html for our
+>>confidentiality notice.
+>
+> --
+> Sorry for being brief. Alternate email is rickleir at yahoo dot com
+>
+> Diese Nachricht einschliesslich etwa beigefuegter Anhaenge ist vertraulich und kann dem
+Bank- und Datengeheimnis unterliegen oder sonst rechtlich geschuetzte Daten und Informationen
+enthalten. Wenn Sie nicht der richtige Adressat sind oder diese Nachricht irrtuemlich erhalten
+haben, informieren Sie bitte sofort den Absender über die Antwortfunktion. Anschliessend
+moechten Sie bitte diese Nachricht einschliesslich etwa beigefuegter Anhaenge unverzueglich
+vollstaendig loeschen. Das unerlaubte Kopieren oder Speichern dieser Nachricht und/oder der
+ihr etwa beigefuegten Anhaenge sowie die unbefugte Weitergabe der darin enthaltenen Daten
+und Informationen sind nicht gestattet. Wir weisen darauf hin, dass rechtsverbindliche Erklaerungen
+namens unseres Hauses grundsaetzlich der Unterschriften zweier ausreichend bevollmaechtigter
+Vertreter unseres Hauses beduerfen. Wir verschicken daher keine rechtsverbindlichen Erklaerungen
+per E-Mail an Dritte. Demgemaess nehmen wir per E-Mail auch keine rechtsverbindlichen Erklaerungen
+oder Auftraege von Dritten entgegen.
+> Sollten Sie Schwierigkeiten beim Oeffnen dieser E-Mail haben, wenden Sie sich bitte an
+den Absender oder an info@berenberg.de. Please refer to http://www.berenberg.de/my_berenberg/disclaimer_e.html
+for our confidentiality notice.
+>
+

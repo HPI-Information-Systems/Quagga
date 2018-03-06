@@ -1,0 +1,123 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 07/26/2000 \n08:22 AM ---------------------------\n\n\nVasant Shanbhogue\n07/25/2000 05:12 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: My Bullet Points for Offsite\n\n1.  Discuss methodology for Insurance Pricing, using concept of Return on \nEconomic Capital\n\n  2.   Compare Real Options approach for evaluating options with a Cash Flow \nModel approach\n\n  3.   Discuss the technology behind building an e-commerce site\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "07/26/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "08:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 07/26/2000 \n08:22 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 132,
+      "text": "Vasant Shanbhogue",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 133,
+      "end": 143,
+      "text": "07/25/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 144,
+      "end": 152,
+      "text": "05:12 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 157,
+      "end": 173,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 201,
+      "end": 229,
+      "text": "My Bullet Points for Offsite",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 113,
+      "end": 230,
+      "text": "\n\nVasant Shanbhogue\n07/25/2000 05:12 PM\nTo: Vince J Kaminski/HOU/ECT@ECT\ncc:  \nSubject: My Bullet Points for Offsite\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 230,
+      "end": 484,
+      "text": "\n1.  Discuss methodology for Insurance Pricing, using concept of Return on \nEconomic Capital\n\n  2.   Compare Real Options approach for evaluating options with a Cash Flow \nModel approach\n\n  3.   Discuss the technology behind building an e-commerce site\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20441774.1075856492656.JavaMail.evans@thyme>",
+      "Date": "Wed, 26 Jul 2000 01:18:00 -0700 (PDT)",
+      "From": "vince.kaminski@enron.com",
+      "To": "shirley.crenshaw@enron.com",
+      "Subject": "My Bullet Points for Offsite",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "Shirley Crenshaw",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_2341.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

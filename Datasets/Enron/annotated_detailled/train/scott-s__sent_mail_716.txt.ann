@@ -1,0 +1,106 @@
+{
+  "wrapper": "plaintext",
+  "text": "I too enjoyed our talk last night ( I'm always interested in other \nviewpoints, it is only by examining them that we challenge our own).   \n\n  The Happy Hour tonight is at Teala's on West Dallas.  My recommendation is \nthat you plan on arriving at 7:00 or later.  Hopefully by that time my old \nmanager will have had enough to drink he won't mind all these other people on \nhis tab.\n\nI must admit, the job just keeps sounding better and better.\n\nP.S. Thanks for the compliment...that's a quality I like being associated \nwith.\n\n\n\n\n\nWilson Kriegel@ENRON\n05/04/2000 01:42 PM\nTo: Susan M Scott/HOU/ECT@ECT\ncc:  \nSubject: Re: Red Meat  \n\nyo  there...good talk last night.\nThere is something i appriciate abuot you which is your willingness to put \nyourself on the line...I find that to be a quality.\nAnyway, I might be living this week end, though i would come back next \nfriday, but then i would go to NY for that weekend...Ben's BBQ\nYeha i've got two days of meeting in  NY and then somwhere down south with my \nnew boss.\ntraveling all week...loving this already.\nAlso i just filled out a American Express coportate card app..(VP and higher \nare priviledge to that, keep it a secret)\nI love this job...\nWhat is the plan tonight, what is the party about...\nlet me know\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 446,
+      "end": 527,
+      "text": "P.S. Thanks for the compliment...that's a quality I like being associated \nwith.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 532,
+      "text": "I too enjoyed our talk last night ( I'm always interested in other \nviewpoints, it is only by examining them that we challenge our own).   \n\n  The Happy Hour tonight is at Teala's on West Dallas.  My recommendation is \nthat you plan on arriving at 7:00 or later.  Hopefully by that time my old \nmanager will have had enough to drink he won't mind all these other people on \nhis tab.\n\nI must admit, the job just keeps sounding better and better.\n\nP.S. Thanks for the compliment...that's a quality I like being associated \nwith.\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 532,
+      "end": 546,
+      "text": "Wilson Kriegel",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 553,
+      "end": 563,
+      "text": "05/04/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 564,
+      "end": 572,
+      "text": "01:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 577,
+      "end": 590,
+      "text": "Susan M Scott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 618,
+      "end": 630,
+      "text": "Re: Red Meat",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 532,
+      "end": 633,
+      "text": "Wilson Kriegel@ENRON\n05/04/2000 01:42 PM\nTo: Susan M Scott/HOU/ECT@ECT\ncc:  \nSubject: Re: Red Meat  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 634,
+      "end": 668,
+      "text": "yo  there...good talk last night.\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 633,
+      "end": 1267,
+      "text": "\nyo  there...good talk last night.\nThere is something i appriciate abuot you which is your willingness to put \nyourself on the line...I find that to be a quality.\nAnyway, I might be living this week end, though i would come back next \nfriday, but then i would go to NY for that weekend...Ben's BBQ\nYeha i've got two days of meeting in  NY and then somwhere down south with my \nnew boss.\ntraveling all week...loving this already.\nAlso i just filled out a American Express coportate card app..(VP and higher \nare priviledge to that, keep it a secret)\nI love this job...\nWhat is the plan tonight, what is the party about...\nlet me know\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6957483.1075846817537.JavaMail.evans@thyme>",
+      "Date": "Thu, 4 May 2000 07:11:00 -0700 (PDT)",
+      "From": "susan.scott@enron.com",
+      "To": "wilson.kriegel@enron.com",
+      "Subject": "Re: Red Meat",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Susan M Scott",
+      "X-To": "Wilson Kriegel",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Dec2000_June2001_2\\Notes Folders\\'sent mail",
+      "X-Origin": "SCOTT-S",
+      "X-FileName": "sscott5.nsf"
+    }
+  },
+  "id": "train/scott-s__sent_mail_716.txt"
+}

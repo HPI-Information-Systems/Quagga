@@ -1,0 +1,228 @@
+{
+  "wrapper": "plaintext",
+  "text": "No, thanks. I'll wait for Cheryl's review.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n\tKeegan Farrell@ENRON\n\t04/09/2001 08:36 AM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: Could you please resend the latest brokerage agreement status \nreport?  thanks\n\nSara, \n\nI am finishing the last of the edits right now, and was going to wait until I \nwas finished to give them to Cheryl for review.  Would you like to see them \nbefore she gives the final review?  I will be glad to send them to you.  \nThanks,\n\nKeegan\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 44,
+      "end": 59,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 60,
+      "end": 85,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 86,
+      "end": 135,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 136,
+      "end": 148,
+      "text": "713-853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 157,
+      "end": 169,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 176,
+      "end": 201,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 44,
+      "end": 202,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 205,
+      "text": "No, thanks. I'll wait for Cheryl's review.\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 206,
+      "end": 220,
+      "text": "Keegan Farrell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 228,
+      "end": 238,
+      "text": "04/09/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 239,
+      "end": 247,
+      "text": "08:36 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 258,
+      "end": 273,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 306,
+      "end": 388,
+      "text": "Re: Could you please resend the latest brokerage agreement status \nreport?  thanks",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 206,
+      "end": 389,
+      "text": "Keegan Farrell@ENRON\n\t04/09/2001 08:36 AM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Re: Could you please resend the latest brokerage agreement status \nreport?  thanks\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 390,
+      "end": 394,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 637,
+      "end": 643,
+      "text": "Keegan",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 628,
+      "end": 644,
+      "text": "Thanks,\n\nKeegan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 389,
+      "end": 646,
+      "text": "\nSara, \n\nI am finishing the last of the edits right now, and was going to wait until I \nwas finished to give them to Cheryl for review.  Would you like to see them \nbefore she gives the final review?  I will be glad to send them to you.  \nThanks,\n\nKeegan\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 16,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 6,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 1,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16029985.1075844729495.JavaMail.evans@thyme>",
+      "Date": "Mon, 9 Apr 2001 02:22:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "keegan.farrell@enron.com",
+      "Subject": "Re: Could you please resend the latest brokerage agreement status\n report?  thanks",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Keegan Farrell",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_10405.txt"
+}

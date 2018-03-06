@@ -1,0 +1,245 @@
+{
+  "wrapper": "plaintext",
+  "text": "Carolyn,\n\nIn addition to the invoice change, the periods should be removed from\n\"LLC\" on the cover page, in the first paragraph of the first page, in\nSection 1.78 and on the signature page of each Facility Agreement.  The\nchange relating to invoices is that the address of the invoices in\nSection 6.7.2  should be as follows for one of the Facility Agreements:\n\nCA Energy Development I, LLC\nc/o Sweetgum Energy L.P.\nc/o InterGen North America L.P.\n909 Fannin, Suite 2200\nHouston, Texas 77010\nAttention: John Jones\nFax: (713) 374-3901\n\nand as follows for the other:\n\nCA Energy Development II, LLC\nc/o Sweetgum Energy L.P.\nc/o InterGen North America L.P.\n909 Fannin, Suite 2200\nHouston, Texas 77010\nAttention: John Jones\nFax: (713) 374-3901\n\nThanks,\nGeorge\n\n>>> \"Campbell, Carolyn\" <CCampbell@KSLAW.com> 01/02/01 11:12AM >>>\nGeorge:\n\nKay Mann is looking for your requested language providing that GE will\ninvoice the LLC directly.  I am unable to find your request.  Can you\nplease\nfurnish this, as Kay intends to address this with GE today.  Thank you.\n\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n\n\n\n\n\nConfidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are\nnot the named addressee, you are not authorized to read, print, retain,\ncopy or disseminate this message or any part of it.  If you have\nreceived this message in error, please notify the sender immediately by\ne-mail and delete all copies of the message.\n\n\n",
+  "denotations": [
+    {
+      "id": 2,
+      "start": 740,
+      "end": 755,
+      "text": "Thanks,\nGeorge\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 748,
+      "end": 754,
+      "text": "George",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 761,
+      "end": 778,
+      "text": "Campbell, Carolyn",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 781,
+      "end": 800,
+      "text": "CCampbell@KSLAW.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 802,
+      "end": 810,
+      "text": "01/02/01",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 811,
+      "end": 818,
+      "text": "11:12AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 756,
+      "end": 823,
+      "text": ">>> \"Campbell, Carolyn\" <CCampbell@KSLAW.com> 01/02/01 11:12AM >>>\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 823,
+      "end": 829,
+      "text": "George",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1054,
+      "end": 1073,
+      "text": "Carolyn M. Campbell",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1074,
+      "end": 1089,
+      "text": "King & Spalding",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1090,
+      "end": 1102,
+      "text": "713-276-7307",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1111,
+      "end": 1123,
+      "text": "713-751-3280",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1130,
+      "end": 1149,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1158,
+      "end": 1177,
+      "text": "ccampbell@kslaw.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1054,
+      "end": 1179,
+      "text": "Carolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1184,
+      "end": 1749,
+      "text": "Confidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are\nnot the named addressee, you are not authorized to read, print, retain,\ncopy or disseminate this message or any part of it.  If you have\nreceived this message in error, please notify the sender immediately by\ne-mail and delete all copies of the message.\n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 823,
+      "end": 1751,
+      "text": "George:\n\nKay Mann is looking for your requested language providing that GE will\ninvoice the LLC directly.  I am unable to find your request.  Can you\nplease\nfurnish this, as Kay intends to address this with GE today.  Thank you.\n\n\nCarolyn M. Campbell\nKing & Spalding\n713-276-7307 (phone)\n713-751-3280 (fax)\nccampbell@kslaw.com <mailto:ccampbell@kslaw.com>\n\n\n\n\n\nConfidentiality Notice\nThis message is being sent by or on behalf of a lawyer.  It is intended\nexclusively for the individual or entity to which it is addressed.  This\ncommunication may contain information that is proprietary, privileged or\nconfidential or otherwise legally exempt from disclosure.  If you are\nnot the named addressee, you are not authorized to read, print, retain,\ncopy or disseminate this message or any part of it.  If you have\nreceived this message in error, please notify the sender immediately by\ne-mail and delete all copies of the message.\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 0,
+      "end": 756,
+      "text": "Carolyn,\n\nIn addition to the invoice change, the periods should be removed from\n\"LLC\" on the cover page, in the first paragraph of the first page, in\nSection 1.78 and on the signature page of each Facility Agreement.  The\nchange relating to invoices is that the address of the invoices in\nSection 6.7.2  should be as follows for one of the Facility Agreements:\n\nCA Energy Development I, LLC\nc/o Sweetgum Energy L.P.\nc/o InterGen North America L.P.\n909 Fannin, Suite 2200\nHouston, Texas 77010\nAttention: John Jones\nFax: (713) 374-3901\n\nand as follows for the other:\n\nCA Energy Development II, LLC\nc/o Sweetgum Energy L.P.\nc/o InterGen North America L.P.\n909 Fannin, Suite 2200\nHouston, Texas 77010\nAttention: John Jones\nFax: (713) 374-3901\n\nThanks,\nGeorge\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 0,
+      "end": 7,
+      "text": "Carolyn",
+      "type": "Body/Intro/Name",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 15,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 12,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 10,
+      "target": 11,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 10,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 9,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31124390.1075845751557.JavaMail.evans@thyme>",
+      "Date": "Tue, 2 Jan 2001 03:36:00 -0800 (PST)",
+      "From": "gkutzschbach@fulbright.com",
+      "To": "ccampbell@kslaw.com",
+      "Subject": "Re: Invoice Language",
+      "Cc": "kay.mann@enron.com, dpedigo@intergen.com, jjones@intergen.com, \n\tsnoonan@intergen.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kay.mann@enron.com, dpedigo@intergen.com, jjones@intergen.com, \n\tsnoonan@intergen.com",
+      "X-From": "\"George Kutzschbach\" <gkutzschbach@fulbright.com>",
+      "X-To": "CCampbell@KSLAW.com",
+      "X-cc": "Kay.Mann@enron.com, DPedigo@INTERGEN.com, jjones@INTERGEN.com, SNoonan@INTERGEN.com",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_1\\Notes Folders\\Coral",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_coral_79.txt"
+}

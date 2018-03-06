@@ -1,0 +1,238 @@
+{
+  "wrapper": "plaintext",
+  "text": "More about forward curves and the drilling/production cycle than the \nconspiracy side.\n\n- Rob\n\n\n\n\n\n\tJeff Dasovich\n\tSent by: Jeff Dasovich\n\t04/25/2001 03:52 PM\n\t\t\n\t\t To: Rob Bradley/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: Gas Bullets\n\nNo thanks necessary.  My pleasure.  Hope that it helped.  What was the gist \nof his comments regarding the gas side?\n\nBest,\nJeff\n\n\n\n\tRob Bradley\n\t04/25/2001 03:43 PM\n\t\t\n\t\t To: Jeff Dasovich/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Re: Gas Bullets\n\nThanks for all your help with this--glad your attention is focused on it.  \nKen was prepared and talked a bit about the gas side at this lunch speech.\n\nThanks again,\n\n- Rob\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 90,
+      "end": 93,
+      "text": "Rob",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 99,
+      "text": "More about forward curves and the drilling/production cycle than the \nconspiracy side.\n\n- Rob\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 100,
+      "end": 113,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 124,
+      "end": 137,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 139,
+      "end": 149,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 150,
+      "end": 158,
+      "text": "03:52 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 169,
+      "end": 180,
+      "text": "Rob Bradley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 218,
+      "end": 233,
+      "text": "Re: Gas Bullets",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 100,
+      "end": 234,
+      "text": "Jeff Dasovich\n\tSent by: Jeff Dasovich\n\t04/25/2001 03:52 PM\n\t\t\n\t\t To: Rob Bradley/Corp/Enron@ENRON\n\t\t cc: \n\t\t Subject: Re: Gas Bullets\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 359,
+      "end": 363,
+      "text": "Jeff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 353,
+      "end": 364,
+      "text": "Best,\nJeff\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 234,
+      "end": 367,
+      "text": "\nNo thanks necessary.  My pleasure.  Hope that it helped.  What was the gist \nof his comments regarding the gas side?\n\nBest,\nJeff\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 368,
+      "end": 379,
+      "text": "Rob Bradley",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 381,
+      "end": 391,
+      "text": "04/25/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 392,
+      "end": 400,
+      "text": "03:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 411,
+      "end": 424,
+      "text": "Jeff Dasovich",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 460,
+      "end": 475,
+      "text": "Re: Gas Bullets",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 368,
+      "end": 476,
+      "text": "Rob Bradley\n\t04/25/2001 03:43 PM\n\t\t\n\t\t To: Jeff Dasovich/NA/Enron@Enron\n\t\t cc: \n\t\t Subject: Re: Gas Bullets\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 646,
+      "end": 649,
+      "text": "Rob",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 629,
+      "end": 650,
+      "text": "Thanks again,\n\n- Rob\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 476,
+      "end": 654,
+      "text": "\nThanks for all your help with this--glad your attention is focused on it.  \nKen was prepared and talked a bit about the gas side at this lunch speech.\n\nThanks again,\n\n- Rob\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 16,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 13,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7649845.1075843445591.JavaMail.evans@thyme>",
+      "Date": "Wed, 25 Apr 2001 09:16:00 -0700 (PDT)",
+      "From": "rob.bradley@enron.com",
+      "To": "jeff.dasovich@enron.com",
+      "Subject": "Re: Gas Bullets",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Rob Bradley",
+      "X-To": "Jeff Dasovich",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_11587.txt"
+}

@@ -1,0 +1,297 @@
+{
+  "wrapper": "plaintext",
+  "text": "Paul,\n\nCan you give me more information about  your computer skills?\n\nMy group is very hands-on oriented and  computer programming is a critical\nskill.\n\n\nVince\n\n\n\n\n\n\"Paul Rowady\" <epr@pipeline.com> on 11/14/2000 04:09:43 PM\nTo: \"Vince Kaminski\" <vkamins@enron.com>\ncc:  \nSubject: Seeking opportunity in computational finance\n\n\nDear Vince:\n\nIn following up on my voicemail message today, I attach my resume below for\nyour review and consideration.\n\nIt's ironic that you called while I was putting the message together.  I\nwill keep it short and look forward to speaking to you at your convenience.\n\nBest regards,\n\nPaul\n\nE. Paul Rowady, Jr.\n2300 West Alabama, Suite 69\nHouston, Texas  77098\n\n713-807-8624   home / fax\n713-539-4541   mobile\nepr@pipeline.com\n\n - Paul Rowady2.doc\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Paul",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 154,
+      "end": 159,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 165,
+      "text": "Paul,\n\nCan you give me more information about  your computer skills?\n\nMy group is very hands-on oriented and  computer programming is a critical\nskill.\n\n\nVince\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 166,
+      "end": 177,
+      "text": "Paul Rowady",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 180,
+      "end": 196,
+      "text": "epr@pipeline.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 201,
+      "end": 211,
+      "text": "11/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 212,
+      "end": 223,
+      "text": "04:09:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 229,
+      "end": 243,
+      "text": "Vince Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 246,
+      "end": 263,
+      "text": "vkamins@enron.com",
+      "type": "Header/Org/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 280,
+      "end": 324,
+      "text": "Seeking opportunity in computational finance",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 165,
+      "end": 325,
+      "text": "\"Paul Rowady\" <epr@pipeline.com> on 11/14/2000 04:09:43 PM\nTo: \"Vince Kaminski\" <vkamins@enron.com>\ncc:  \nSubject: Seeking opportunity in computational finance\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 332,
+      "end": 337,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 327,
+      "end": 339,
+      "text": "Dear Vince:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 613,
+      "end": 617,
+      "text": "Paul",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 598,
+      "end": 618,
+      "text": "Best regards,\n\nPaul\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 619,
+      "end": 638,
+      "text": "E. Paul Rowady, Jr.",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 639,
+      "end": 688,
+      "text": "2300 West Alabama, Suite 69\nHouston, Texas  77098",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 716,
+      "end": 728,
+      "text": "713-539-4541",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 690,
+      "end": 702,
+      "text": "713-807-8624",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 738,
+      "end": 754,
+      "text": "epr@pipeline.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 619,
+      "end": 755,
+      "text": "E. Paul Rowady, Jr.\n2300 West Alabama, Suite 69\nHouston, Texas  77098\n\n713-807-8624   home / fax\n713-539-4541   mobile\nepr@pipeline.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 759,
+      "end": 775,
+      "text": "Paul Rowady2.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 756,
+      "end": 776,
+      "text": " - Paul Rowady2.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 325,
+      "end": 777,
+      "text": "\n\nDear Vince:\n\nIn following up on my voicemail message today, I attach my resume below for\nyour review and consideration.\n\nIt's ironic that you called while I was putting the message together.  I\nwill keep it short and look forward to speaking to you at your convenience.\n\nBest regards,\n\nPaul\n\nE. Paul Rowady, Jr.\n2300 West Alabama, Suite 69\nHouston, Texas  77098\n\n713-807-8624   home / fax\n713-539-4541   mobile\nepr@pipeline.com\n\n - Paul Rowady2.doc\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 12,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 4,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 14,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 17,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 20,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 19,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 21,
+      "target": 16,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15195327.1075856369909.JavaMail.evans@thyme>",
+      "Date": "Tue, 14 Nov 2000 08:29:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "epr@pipeline.com",
+      "Subject": "Re: Seeking opportunity in computational finance",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "\"Paul Rowady\" <epr@pipeline.com> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_discussion_threads_1825.txt"
+}

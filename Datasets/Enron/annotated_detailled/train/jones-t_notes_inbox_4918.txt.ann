@@ -1,0 +1,137 @@
+{
+  "wrapper": "plaintext",
+  "text": "Steve -\n\nSorry for the delay on this end.  I have been waiting for one approval on the \nnon-solicitation provision I had forwarded.  I would suggest inserting the \nlanguage I suggested (another copy of which is attached) and preparing final \ndocuments.  I should know later today or tomorrow if I have final approval.\n\nThanks again for the patience.\n\n\n\n\n\nMark\nSenior Counsel, EWS\nPhone:     713-345-8897\nFacsimile: 713-646-3490\nE-Mail:      Mark.Greenberg@enron.com",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 355,
+      "end": 359,
+      "text": "Mark",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 360,
+      "end": 374,
+      "text": "Senior Counsel",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 376,
+      "end": 379,
+      "text": "EWS",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 391,
+      "end": 403,
+      "text": "713-345-8897",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 415,
+      "end": 427,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 441,
+      "end": 465,
+      "text": "Mark.Greenberg@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 355,
+      "end": 465,
+      "text": "Mark\nSenior Counsel, EWS\nPhone:     713-345-8897\nFacsimile: 713-646-3490\nE-Mail:      Mark.Greenberg@enron.com",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 465,
+      "text": "Steve -\n\nSorry for the delay on this end.  I have been waiting for one approval on the \nnon-solicitation provision I had forwarded.  I would suggest inserting the \nlanguage I suggested (another copy of which is attached) and preparing final \ndocuments.  I should know later today or tomorrow if I have final approval.\n\nThanks again for the patience.\n\n\n\n\n\nMark\nSenior Counsel, EWS\nPhone:     713-345-8897\nFacsimile: 713-646-3490\nE-Mail:      Mark.Greenberg@enron.com",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 7,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<20694946.1075847454937.JavaMail.evans@thyme>",
+      "Date": "Thu, 24 May 2001 08:43:00 -0700 (PDT)",
+      "From": "mark.greenberg@enron.com",
+      "To": "steve.howarth@bea.com",
+      "Subject": "BEA NDA with Enron",
+      "Cc": "kevin.montagne@enron.com, tana.jones@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "kevin.montagne@enron.com, tana.jones@enron.com",
+      "X-From": "Mark Greenberg",
+      "X-To": "steve.howarth@bea.com",
+      "X-cc": "Kevin Montagne, Tana Jones",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_notes_inbox_4918.txt"
+}

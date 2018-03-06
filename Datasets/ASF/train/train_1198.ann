@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all,\n\nVery pleased to announce the first release of Marple, an open source \ntool for inspecting Lucene indexes. We've blogged about it here:\nhttp://www.flax.co.uk/blog/2017/02/24/release-1-0-marple-lucene-index-detective/\nwhich contains links to the code and released JAR.\n\nThis is very much a work in progress (we started it at the Lucene \nhackday we ran in London last autumn) so contributions, bug reports & \nfeature requests very welcome! We'll also be talking about it at the \nnext London Lucene/Solr Meetup on March 23rd.\n\nBest\n\nCharlie\n-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 531,
+      "end": 546,
+      "text": "\nBest\n\nCharlie\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 546,
+      "end": 678,
+      "text": "-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 678,
+      "text": "Hi all,\n\nVery pleased to announce the first release of Marple, an open source \ntool for inspecting Lucene indexes. We've blogged about it here:\nhttp://www.flax.co.uk/blog/2017/02/24/release-1-0-marple-lucene-index-detective/\nwhich contains links to the code and released JAR.\n\nThis is very much a work in progress (we started it at the Lucene \nhackday we ran in London last autumn) so contributions, bug reports & \nfeature requests very welcome! We'll also be talking about it at the \nnext London Lucene/Solr Meetup on March 23rd.\n\nBest\n\nCharlie\n-- \nCharlie Hull\nFlax - Open Source Enterprise Search\n\ntel/fax: +44 (0)8700 118334\nmobile:  +44 (0)7767 825828\nweb: www.flax.co.uk\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1198"
+}

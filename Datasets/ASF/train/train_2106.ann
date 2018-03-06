@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello All,\n\nI am working on a requirement to index field of type JSON (in mongoDB\ncollection) in SOLR 5.4.0.\n\nI am using mongo-jdbc-dih which I found on GitHub :\n\nhttps://github.com/hrishik/solr-mongodb-dih\n\nHowever I could not find a fieldtype on Apache SOLR wiki page which would\nsupport JSON datatype in mongoDB.\n\nCan someone please recommend a way to include datatype / fieldtype in SOLR\nschema to support or index JSON data field from mongoDB.\nThanks.\n\nR\u00e2\u20ac\u2039egards,\n\nAbhijit\u00e2\u20ac\u2039\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 11,
+      "text": "Hello All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 457,
+      "end": 482,
+      "text": "\nR\u00e2\u20ac\u2039egards,\n\nAbhijit\u00e2\u20ac\u2039\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 483,
+      "text": "Hello All,\n\nI am working on a requirement to index field of type JSON (in mongoDB\ncollection) in SOLR 5.4.0.\n\nI am using mongo-jdbc-dih which I found on GitHub :\n\nhttps://github.com/hrishik/solr-mongodb-dih\n\nHowever I could not find a fieldtype on Apache SOLR wiki page which would\nsupport JSON datatype in mongoDB.\n\nCan someone please recommend a way to include datatype / fieldtype in SOLR\nschema to support or index JSON data field from mongoDB.\nThanks.\n\nR\u00e2\u20ac\u2039egards,\n\nAbhijit\u00e2\u20ac\u2039\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2106"
+}

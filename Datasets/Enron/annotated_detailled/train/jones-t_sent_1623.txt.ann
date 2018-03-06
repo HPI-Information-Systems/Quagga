@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/jones-t_sent_1623.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<3991297.1075847189810.JavaMail.evans@thyme>",
+      "Date": "Fri, 4 Aug 2000 10:14:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "bob.bowen@enron.com, jefferson.sorenson@enron.com, laurel.adams@enron.com, \n\tandrea.guillen@enron.com, willie.harrell@enron.com, \n\tlarry.hunter@enron.com, melba.lozano@enron.com, \n\tchris.walker@enron.com, david.dupre@enron.com, \n\tpamela.sonnier@enron.com, jarrod.cyprow@enron.com, \n\tsheetal.patel@enron.com, gordon.heaney@enron.com, \n\tsouad.mahmassani@enron.com, william.bradford@enron.com, \n\tdebbie.brackett@enron.com, nidia.mendoza@enron.com, \n\ttanya.rohauer@enron.com, brant.reves@enron.com, rod.nelson@enron.com, \n\ttracy.ngo@enron.com, john.suttle@enron.com, lesli.campbell@enron.com, \n\tmolly.harris@enron.com, veronica.espinoza@enron.com, \n\tpaul.radous@enron.com, wendi.lebrocq@enron.com, \n\tbrad.schneider@enron.com, brent.hendry@enron.com, \n\tsara.shackleton@enron.com, mark.taylor@enron.com, \n\tcarol.clair@enron.com, susan.bailey@enron.com, mary.cook@enron.com, \n\tsamantha.boyd@enron.com, robert.bruce@enron.com, \n\tmary.solmonson@enron.com, marilyn.colbert@enron.com, \n\tyolanda.cordova-gilbert@enron.com, diane.ellstrom@enron.com, \n\tlynn.shivers@enron.com, bill.hare@enron.com, leslie.reeves@enron.com, \n\tjason.moore@enron.com, dianne.seib@enron.com, \n\tsamuel.schott@enron.com, anthony.campos@enron.com, \n\tbernice.rodriguez@enron.com, mary.gosnell@enron.com, \n\tdale.neuner@enron.com, karen.lambert@enron.com, \n\tfrank.davis@enron.com, carrie.southard@enron.com, \n\tamber.ebow@enron.com, adnan.patel@enron.com, \n\tmelissa.murphy@enron.com, stacey.richardson@enron.com, \n\tbridgette.anderson@enron.com, john.malowney@enron.com",
+      "Subject": "Bellingham Cold Storage Co.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Bob Bowen, Jefferson D Sorenson, Laurel Adams, Andrea R Guillen, Willie Harrell, Larry Joe Hunter, Melba Lozano, Chris Walker, David P Dupre, Pamela Sonnier, Jarrod Cyprow, Sheetal Patel, Gordon Heaney, Souad Mahmassani, William S Bradford, Debbie R Brackett, Nidia Mendoza, Tanya Rohauer, Brant Reves, Rod Nelson, Tracy Ngo, John Suttle, Lesli Campbell, Molly Harris, Veronica Espinoza, Paul Radous, Wendi LeBrocq, Brad Schneider, Brent Hendry, Sara Shackleton, Mark Taylor, Carol St Clair, Susan Bailey, Mary Cook, Samantha Boyd, Robert Bruce, Mary Solmonson, Marilyn Colbert, Yolanda Cordova-Gilbert, Diane Ellstrom, Lynn E Shivers, Bill D Hare, Leslie Reeves, Jason Moore, Dianne Seib, Samuel Schott, Anthony Campos, Bernice Rodriguez, Mary G Gosnell, Dale Neuner, Karen Lambert, Frank L Davis, Carrie Southard, Amber Ebow, Adnan Patel, Melissa Ann Murphy, Stacey Richardson, Bridgette Anderson, John Malowney",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "text": "We have received the following executed Master Agreement:\n\nType of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)\n\nEffective Date:   July 28, 2000\n\nEnron Entity:   Enron North America Corp.\n\nCounterparty:   Bellingham Cold Storage Co.\n\nTransactions Covered:  Approved for all products with the exception of:  \nForeign Exchange",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 341,
+      "text": "We have received the following executed Master Agreement:\n\nType of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)\n\nEffective Date:   July 28, 2000\n\nEnron Entity:   Enron North America Corp.\n\nCounterparty:   Bellingham Cold Storage Co.\n\nTransactions Covered:  Approved for all products with the exception of:  \nForeign Exchange",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

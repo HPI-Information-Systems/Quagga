@@ -1,0 +1,49 @@
+On 2/2/2017 6:16 AM, deepak.ghayal@mediawide.com wrote:
+> I am writting query for getting response from specific index content first.
+> eg.
+> http://192.168.200.14:8983/solr/mypgmee/select?q=*blood*&fq=id:(*/939/* OR **)&fl=id&wt=json&indent=true
+>  
+> In above query I am getting response, Means suppose I Get 4 result for course "939" out
+of 10. It works fine by releanvence. 
+> But Now I want "939" course result first then other result.So Please let me how can I
+do that.
+
+Are those asterisks in your actual query, or did you add some of them
+for emphasis?  I'm guessing that at least some of them are added for
+emphasis.  Asterisks in a query are wildcard characters, and wildcard
+queries frequently do not behave like people expect them to.
+
+We need to see the actual query, without any extra characters.  If
+asterisks have been added, then we will have an incorrect understanding
+about what the query says.
+
+Attempting to guess what you are actually doing, here is what I THINK
+you might have meant:
+
+q=blood
+fq=id:(939 OR *)
+
+If I'm right about that filter query, I do not know what you were trying
+to do.  If you were trying to query for 939 or any other value, use this
+instead:
+
+fq=id:[* TO *]
+
+This is a range query that will match all documents where the id field
+contains SOMETHING.  Documents where it is not present will not be
+matched.  If you do not actually want to *filter* on the id value, then
+you can simply remove the fq parameter entirely.  Filter queries do not
+contribute to scoring at all -- they *only* filter.
+
+The last part of your message says you want documents with an id of 939
+to be listed first.  I think you can do that with this:
+
+bq=id:939^10
+
+The bq parameter means "boost query".  The ^10 part of what I've written
+is the boost value.
+
+Thanks,
+Shawn
+
+

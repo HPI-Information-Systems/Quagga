@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "In a recent discussion with Mark H, he suggested that I consult you two \ngentlemen about outside counsel in Chicago to support our efforts with \nPeoples.  It would be beneficial to have a firm on board with some trading \nexpertise, as well as more generalized transactional experience.  Gas would \nbe a plus.\n\nI've used Jones, Day  (good job on regulatory issues), and Piper Rudnick (bad \nexperience).  Any suggestions?\n\nThanks,\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 430,
+      "end": 433,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 421,
+      "end": 433,
+      "text": "Thanks,\n\nKay",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 433,
+      "text": "In a recent discussion with Mark H, he suggested that I consult you two \ngentlemen about outside counsel in Chicago to support our efforts with \nPeoples.  It would be beneficial to have a firm on board with some trading \nexpertise, as well as more generalized transactional experience.  Gas would \nbe a plus.\n\nI've used Jones, Day  (good job on regulatory issues), and Piper Rudnick (bad \nexperience).  Any suggestions?\n\nThanks,\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33080783.1075845946594.JavaMail.evans@thyme>",
+      "Date": "Tue, 24 Oct 2000 01:29:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "travis.mccullough@enron.com, jeffrey.hodge@enron.com",
+      "Subject": "Chicago counsel",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Travis McCullough, Jeffrey T Hodge",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_1183.txt"
+}

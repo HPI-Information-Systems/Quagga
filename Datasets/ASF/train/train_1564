@@ -1,0 +1,35 @@
+
+What are you doing with RTG that you care about sorting/paging?
+
+https://people.apache.org/~hossman/#xyproblem
+XY Problem
+
+Your question appears to be an "XY Problem" ... that is: you are dealing
+with "X", you are assuming "Y" will help you, and you are asking about "Y"
+without giving more details about the "X" so that we can understand the
+full issue.  Perhaps the best solution doesn't involve "Y" at all?
+See Also: http://www.perlmonks.org/index.pl?node_id=542341
+
+
+
+
+: Date: Thu, 9 Mar 2017 13:27:13 +0200
+: From: Сергей Твердохлеб <selik.oo@gmail.com>
+: Reply-To: solr-user@lucene.apache.org
+: To: solr-user@lucene.apache.org
+: Subject: Paging\sorting with RTG
+: 
+: Hi,
+: 
+: I wonder if it is possible to somehow set start/rows/sort parameteres to
+: RTG request?
+: Official CWiki says only FQ is supported, however there could be some
+: workaround.
+: 
+: -- 
+: Regards,
+: Sergey Tverdokhleb
+: 
+
+-Hoss
+http://www.lucidworks.com/

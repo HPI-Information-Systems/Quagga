@@ -1,0 +1,184 @@
+{
+  "wrapper": "plaintext",
+  "text": "bq: So, ultimate goal is when the exact query matches in field\none_query, apply boost of one_score\n\nIt would have been helpful to have made that statement in the first\nplace, would have saved some false paths.\n\nWhat is your analysis chain here? If it's anything like \"text_general\"\nor the like then you're going to have some trouble. I'd think about an\nanalysis chain like KeywordTokenizerFactory and\nLowercaseFilterFactory. That'll index the entire field as a single\ntoken. The admin/analysis page is your friend.\n\nTo search against it, you need to _escape_ the space (not \"url\nescape\"). As in google\\ cloud so that makes it through the query\nparser as a single token.\n\nAs of Solr 6.5 you can also specify sow=false (Split On Whitespace),\nwhich may be a better option, see:\nhttps://issues.apache.org/jira/browse/SOLR-9185\n\nBest,\nErick\n\nOn Mon, Jun 26, 2017 at 7:32 PM, govind nitk <govind.nitk@gmail.com> wrote:\n> Hi Developers, Erick\n>\n> I am able to add boost through function as below:\n> bf=if(termfreq(one_query,\"google\"),one_score,0)\n>\n> Problem is when I say \"google cloud\" as query, it gives error:\n> undefined field: \\\"cloud\\\"\"\n>\n> I tried encoding the query(%20, + for space), but not able to get it\n> working.\n>\n> So, ultimate goal is when the exact query matches in field one_query, apply\n> boost of one_score.\n>\n> Is there any way to do this? Or a PR is needed.\n>\n>\n> Regards,\n> Govind\n>\n>\n> On Mon, Jun 26, 2017 at 11:14 AM, govind nitk <govind.nitk@gmail.com> wrote:\n>\n>>\n>> Hi Erick,\n>>\n>> Exactly this is what I was looking for.\n>> Thanks a lot.\n>>\n>>\n>> Regards,\n>> Govind\n>>\n>> On Mon, Jun 26, 2017 at 12:03 AM, Erick Erickson <erickerickson@gmail.com>\n>> wrote:\n>>\n>>> Take a look at function queries. You're probably looking for \"field\",\n>>> \"termfreq\" and \"if\" functions or some other combination like that.\n>>>\n>>> On Sun, Jun 25, 2017 at 9:01 AM, govind nitk <govind.nitk@gmail.com>\n>>> wrote:\n>>> > Hi Erik, Thanks for the reply.\n>>> >\n>>> > My intention of using the domain_ct in the qf was, giving the weight\n>>> > present in the that document.\n>>> >\n>>> > e.g\n>>> > qf=category^domain_ct\n>>> >\n>>> > if the current query matched in the category, the boost given will be\n>>> > domain_ct, which is present in the current matched document.\n>>> >\n>>> >\n>>> > So if I have category_1ct, category_2ct, category_3ct, category_4ct as 4\n>>> > indexed categories(text_general fields) and the same document has\n>>> > domain_1ct, domain_2ct, domain_3ct, domain_4ct as 4 different count\n>>> > fields(int), is there any way to achieve:\n>>> >\n>>> > qf=category_1ct^domain_1ct&qf=category_2ct^domain_2ct&qf=cat\n>>> egory_3ct^domain_3ct&qf=category_4ct^domain_4ct\n>>> >   ?\n>>> >\n>>> >\n>>> >\n>>> >\n>>> > Regards\n>>> >\n>>> >\n>>> >\n>>> >\n>>> > On Sat, Jun 24, 2017 at 3:42 PM, Erik Hatcher <erik.hatcher@gmail.com>\n>>> > wrote:\n>>> >\n>>> >> With dismax use bf=domain_ct. you can also use boost=domain_ct with\n>>> >> edismax.\n>>> >>\n>>> >> > On Jun 23, 2017, at 23:01, govind nitk <govind.nitk@gmail.com>\n>>> wrote:\n>>> >> >\n>>> >> > Hi Solr,\n>>> >> >\n>>> >> > My Index Data:\n>>> >> >\n>>> >> > id name category domain domain_ct\n>>> >> > 1 Banana Fruits Home > Fruits > Banana 2\n>>> >> > 2 Orange Fruits Home > Fruits > Orange 4\n>>> >> > 3 Samsung Mobile Electronics > Mobile > Samsung 3\n>>> >> >\n>>> >> >\n>>> >> > I am able to retrieve the documents with dismax parser with the\n>>> weights\n>>> >> > mentioned as below.\n>>> >> >\n>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&\n>>> >> indent=on&q=fruits&qf=category\n>>> >> > ^0.9&qf=name^0.7&wt=json\n>>> >> >\n>>> >> >\n>>> >> > Is it possible to retrieve the documents with weight taken from\nthe\n>>> >> indexed\n>>> >> > field like:\n>>> >> >\n>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&\n>>> >> indent=on&q=fruits&qf=category\n>>> >> > ^domain_ct&qf=name^domain_ct&wt=json\n>>> >> >\n>>> >> > Is this possible to give weight from an indexed field ? Am I doing\n>>> >> > something wrong?\n>>> >> > Is there any other way of doing this?\n>>> >> >\n>>> >> >\n>>> >> > Regards\n>>> >>\n>>>\n>>\n>>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 823,
+      "end": 836,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 837,
+      "text": "bq: So, ultimate goal is when the exact query matches in field\none_query, apply boost of one_score\n\nIt would have been helpful to have made that statement in the first\nplace, would have saved some false paths.\n\nWhat is your analysis chain here? If it's anything like \"text_general\"\nor the like then you're going to have some trouble. I'd think about an\nanalysis chain like KeywordTokenizerFactory and\nLowercaseFilterFactory. That'll index the entire field as a single\ntoken. The admin/analysis page is your friend.\n\nTo search against it, you need to _escape_ the space (not \"url\nescape\"). As in google\\ cloud so that makes it through the query\nparser as a single token.\n\nAs of Solr 6.5 you can also specify sow=false (Split On Whitespace),\nwhich may be a better option, see:\nhttps://issues.apache.org/jira/browse/SOLR-9185\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 837,
+      "end": 913,
+      "text": "On Mon, Jun 26, 2017 at 7:32 PM, govind nitk <govind.nitk@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 913,
+      "end": 936,
+      "text": "> Hi Developers, Erick\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1377,
+      "end": 1399,
+      "text": ">\n> Regards,\n> Govind\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 913,
+      "end": 1403,
+      "text": "> Hi Developers, Erick\n>\n> I am able to add boost through function as below:\n> bf=if(termfreq(one_query,\"google\"),one_score,0)\n>\n> Problem is when I say \"google cloud\" as query, it gives error:\n> undefined field: \\\"cloud\\\"\"\n>\n> I tried encoding the query(%20, + for space), but not able to get it\n> working.\n>\n> So, ultimate goal is when the exact query matches in field one_query, apply\n> boost of one_score.\n>\n> Is there any way to do this? Or a PR is needed.\n>\n>\n> Regards,\n> Govind\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1403,
+      "end": 1482,
+      "text": "> On Mon, Jun 26, 2017 at 11:14 AM, govind nitk <govind.nitk@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1484,
+      "end": 1500,
+      "text": ">>\n>> Hi Erick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1566,
+      "end": 1591,
+      "text": ">>\n>> Regards,\n>> Govind\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1482,
+      "end": 1594,
+      "text": ">\n>>\n>> Hi Erick,\n>>\n>> Exactly this is what I was looking for.\n>> Thanks a lot.\n>>\n>>\n>> Regards,\n>> Govind\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1594,
+      "end": 1682,
+      "text": ">> On Mon, Jun 26, 2017 at 12:03 AM, Erick Erickson <erickerickson@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1682,
+      "end": 1834,
+      "text": ">>\n>>> Take a look at function queries. You're probably looking for \"field\",\n>>> \"termfreq\" and \"if\" functions or some other combination like that.\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1834,
+      "end": 1918,
+      "text": ">>> On Sun, Jun 25, 2017 at 9:01 AM, govind nitk <govind.nitk@gmail.com>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1918,
+      "end": 1932,
+      "text": ">>> > Hi Erik,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2703,
+      "end": 2723,
+      "text": ">>> >\n>>> > Regards\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1918,
+      "end": 2747,
+      "text": ">>> > Hi Erik, Thanks for the reply.\n>>> >\n>>> > My intention of using the domain_ct in the qf was, giving the weight\n>>> > present in the that document.\n>>> >\n>>> > e.g\n>>> > qf=category^domain_ct\n>>> >\n>>> > if the current query matched in the category, the boost given will be\n>>> > domain_ct, which is present in the current matched document.\n>>> >\n>>> >\n>>> > So if I have category_1ct, category_2ct, category_3ct, category_4ct as 4\n>>> > indexed categories(text_general fields) and the same document has\n>>> > domain_1ct, domain_2ct, domain_3ct, domain_4ct as 4 different count\n>>> > fields(int), is there any way to achieve:\n>>> >\n>>> > qf=category_1ct^domain_1ct&qf=category_2ct^domain_2ct&qf=cat\n>>> egory_3ct^domain_3ct&qf=category_4ct^domain_4ct\n>>> >   ?\n>>> >\n>>> >\n>>> >\n>>> >\n>>> > Regards\n>>> >\n>>> >\n>>> >\n>>> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 2747,
+      "end": 2837,
+      "text": ">>> > On Sat, Jun 24, 2017 at 3:42 PM, Erik Hatcher <erik.hatcher@gmail.com>\n>>> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 2837,
+      "end": 2941,
+      "text": ">>> >\n>>> >> With dismax use bf=domain_ct. you can also use boost=domain_ct with\n>>> >> edismax.\n>>> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 2941,
+      "end": 3024,
+      "text": ">>> >> > On Jun 23, 2017, at 23:01, govind nitk <govind.nitk@gmail.com>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 3024,
+      "end": 3051,
+      "text": ">>> >> >\n>>> >> > Hi Solr,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 4035,
+      "end": 4061,
+      "text": ">>> >> >\n>>> >> > Regards\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 3024,
+      "end": 4079,
+      "text": ">>> >> >\n>>> >> > Hi Solr,\n>>> >> >\n>>> >> > My Index Data:\n>>> >> >\n>>> >> > id name category domain domain_ct\n>>> >> > 1 Banana Fruits Home > Fruits > Banana 2\n>>> >> > 2 Orange Fruits Home > Fruits > Orange 4\n>>> >> > 3 Samsung Mobile Electronics > Mobile > Samsung 3\n>>> >> >\n>>> >> >\n>>> >> > I am able to retrieve the documents with dismax parser with the\n>>> weights\n>>> >> > mentioned as below.\n>>> >> >\n>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&\n>>> >> indent=on&q=fruits&qf=category\n>>> >> > ^0.9&qf=name^0.7&wt=json\n>>> >> >\n>>> >> >\n>>> >> > Is it possible to retrieve the documents with weight taken from\nthe\n>>> >> indexed\n>>> >> > field like:\n>>> >> >\n>>> >> > http://localhost:8983/solr/my_index/select?defType=dismax&\n>>> >> indent=on&q=fruits&qf=category\n>>> >> > ^domain_ct&qf=name^domain_ct&wt=json\n>>> >> >\n>>> >> > Is this possible to give weight from an indexed field ? Am I doing\n>>> >> > something wrong?\n>>> >> > Is there any other way of doing this?\n>>> >> >\n>>> >> >\n>>> >> > Regards\n>>> >>\n>>>\n>>\n>>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4330"
+}

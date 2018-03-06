@@ -1,0 +1,169 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Zimin Lu/HOU/ECT on 08/30/2000 11:06 AM \n---------------------------\n\n\nZimin Lu\n08/30/2000 11:07 AM\nTo: Colleen Sullivan/HOU/ECT@ECT\ncc: Andrew H Lewis/HOU/ECT@ECT, Greg Couch/HOU/ECT@ECT \nSubject: Transport Fuel P/L\n\n\n\nColleen,\n\nAfter looking into the transport deals for NBPL (long term deal 1,2, 25,26), \nI think I figured it out why\nwe see positive fuel P/L for deal 1,25,and 26 and negative fuel P/L for deal \n2. \n\nThe following plot shows NYMEX curve as of 8/23/00:\n\n\n\n\nFor short term, NYMEX moved up compared to that of 8/22/00, while the long \nterm NYMEX moved down.\n\nHere are the tenor for each deal:\n\nDeal 1:   start 01-Sep-00, end 22-May-09,    the above graph suggested a \npositve fuel P/L\nDeal 2:   start 01-sep-00, end 28-feb-02,       the above graph suggested a \nsmall negative P/L\nDeal 25: start 01-may-02, end 28-feb-09,      the above graph suggested a \npositve fuel P/L\nDeal 26: start 01-mar-09, end 31-may-09,    the above graph suggested a \npositve fuel P/L\n\nThe transport book seems to be correct on these fuel P/Ls. \n\nAnother point worth to mention is that the fuel cost is related to index \nprice (NYMEX+basis+index premium), to correctly interpret fuel P/L,\nwe need to look at the index curve change. \n\nLet me know your thoughts on this.\n\n\n\nZimin\n\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 44,
+      "text": "Zimin Lu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 56,
+      "end": 66,
+      "text": "08/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 67,
+      "end": 75,
+      "text": "11:06 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 105,
+      "text": "---------------------- Forwarded by Zimin Lu/HOU/ECT on 08/30/2000 11:06 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 107,
+      "end": 115,
+      "text": "Zimin Lu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 116,
+      "end": 126,
+      "text": "08/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 127,
+      "end": 135,
+      "text": "11:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 140,
+      "end": 156,
+      "text": "Colleen Sullivan",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 173,
+      "end": 187,
+      "text": "Andrew H Lewis",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 201,
+      "end": 211,
+      "text": "Greg Couch",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 234,
+      "end": 252,
+      "text": "Transport Fuel P/L",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 105,
+      "end": 253,
+      "text": "\n\nZimin Lu\n08/30/2000 11:07 AM\nTo: Colleen Sullivan/HOU/ECT@ECT\ncc: Andrew H Lewis/HOU/ECT@ECT, Greg Couch/HOU/ECT@ECT \nSubject: Transport Fuel P/L\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 256,
+      "end": 263,
+      "text": "Colleen",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1303,
+      "end": 1308,
+      "text": "Zimin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 253,
+      "end": 1320,
+      "text": "\n\n\nColleen,\n\nAfter looking into the transport deals for NBPL (long term deal 1,2, 25,26), \nI think I figured it out why\nwe see positive fuel P/L for deal 1,25,and 26 and negative fuel P/L for deal \n2. \n\nThe following plot shows NYMEX curve as of 8/23/00:\n\n\n\n\nFor short term, NYMEX moved up compared to that of 8/22/00, while the long \nterm NYMEX moved down.\n\nHere are the tenor for each deal:\n\nDeal 1:   start 01-Sep-00, end 22-May-09,    the above graph suggested a \npositve fuel P/L\nDeal 2:   start 01-sep-00, end 28-feb-02,       the above graph suggested a \nsmall negative P/L\nDeal 25: start 01-may-02, end 28-feb-09,      the above graph suggested a \npositve fuel P/L\nDeal 26: start 01-mar-09, end 31-may-09,    the above graph suggested a \npositve fuel P/L\n\nThe transport book seems to be correct on these fuel P/Ls. \n\nAnother point worth to mention is that the fuel cost is related to index \nprice (NYMEX+basis+index premium), to correctly interpret fuel P/L,\nwe need to look at the index curve change. \n\nLet me know your thoughts on this.\n\n\n\nZimin\n\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 14,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4577031.1075856596471.JavaMail.evans@thyme>",
+      "Date": "Wed, 30 Aug 2000 04:09:00 -0700 (PDT)",
+      "From": "zimin.lu@enron.com",
+      "To": "vince.kaminski@enron.com, stinson.gibner@enron.com",
+      "Subject": "Transport Fuel P/L",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Zimin Lu",
+      "X-To": "Vince J Kaminski, Stinson Gibner",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\C:\\Technote\\Mail\\Techmemos",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_c_technote_mail_techmemos_114.txt"
+}

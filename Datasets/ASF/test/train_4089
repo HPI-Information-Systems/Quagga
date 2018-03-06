@@ -1,0 +1,177 @@
+
+I only want to simulate very huge "network" with even millions parallel time syncronized actors
+(state machines). There are also communication between actors via some (key-value pairs) database.
+I also want the simulation should work in the real time.
+
+
+I don't know what would be the best framework or tool for that kind of simulation. I think
+Akka would be the best and easiest to deploy ?
+
+Or do you know better frameworks or tools ?
+
+
+Nowdays Spark is using Netty instead of Akka ?
+
+________________________________
+Lähettäjä: Jörn Franke <jornfranke@gmail.com>
+Lähetetty: 7. heinäkuuta 2017 10:04
+Vastaanottaja: Esa Heikkinen
+Kopio: Mahesh Sawaiker; user@spark.apache.org
+Aihe: Re: VS: Using Spark as a simulator
+
+Spark dropped Akka some time ago...
+I think the main issue he will face is a library for simulating the state machines (randomly),
+storing a huge amount of files (HDFS is probably the way to go if you want it fast) and distributing
+the work (here you can select different options).
+Are you trying to have some mathematical guarantees on the state machines, such as Markov
+chains/steady state?
+
+On 7. Jul 2017, at 08:46, Esa Heikkinen <esa.heikkinen@student.tut.fi<mailto:esa.heikkinen@student.tut.fi>>
+wrote:
+
+
+
+Would it be better to use Akka as simulator rather than Spark ?
+
+http://akka.io/
+
+Akka<http://akka.io/>
+akka.io<http://akka.io>
+Build powerful reactive, concurrent & distributed applications more easily. Akka is a
+toolkit and runtime for building highly concurrent, distributed, and resilient ...
+
+
+The spark was originally built on it (Akka).
+
+
+Esa
+
+________________________________
+Lähettäjä: Mahesh Sawaiker <mahesh_sawaiker@persistent.com<mailto:mahesh_sawaiker@persistent.com>>
+Lähetetty: 21. kesäkuuta 2017 14:45
+Vastaanottaja: Esa Heikkinen; Jörn Franke
+Kopio: user@spark.apache.org<mailto:user@spark.apache.org>
+Aihe: RE: Using Spark as a simulator
+
+
+Spark can help you to create one large file if needed, but hdfs itself will provide abstraction
+over such things, so it’s a trivial problem if anything.
+
+If you have spark installed, then you can use spark-shell to try a few samples, and build
+from there.If you can collect all the files in a folder then spark can read all files from
+there. The programming guide below has enough information to get started.
+
+
+
+https://spark.apache.org/docs/latest/programming-guide.html
+
+Spark Programming Guide - Spark 2.1.1 Documentation<https://spark.apache.org/docs/latest/programming-guide.html>
+spark.apache.org<http://spark.apache.org>
+Spark Programming Guide. Overview; Linking with Spark; Initializing Spark. Using the Shell;
+Resilient Distributed Datasets (RDDs) Parallelized Collections
+
+
+All of Spark’s file-based input methods, including textFile, support running on directories,
+compressed files, and wildcards as well. For example, you can use textFile("/my/directory"),
+textFile("/my/directory/*.txt"), and textFile("/my/directory/*.gz").
+
+
+
+After reading the file you can map it using map function, which will split the individual
+line and possibly create a scala object. This way you will get a RDD of scala objects, which
+you can then process functional/set operators.
+
+
+
+You would want to read about PairRDDs.
+
+
+
+From: Esa Heikkinen [mailto:esa.heikkinen@student.tut.fi]
+Sent: Wednesday, June 21, 2017 1:12 PM
+To: Jörn Franke
+Cc: user@spark.apache.org<mailto:user@spark.apache.org>
+Subject: VS: Using Spark as a simulator
+
+
+
+
+
+Hi
+
+
+
+Thanks for the answer.
+
+
+
+I think my simulator includes a lot of parallel state machines and each of them generates
+log file (with timestamps). Finally all events (rows) of all log files should combine as time
+order to (one) very huge log file. Practically the combined huge log file can also be split
+into smaller ones.
+
+
+
+What transformation or action functions can i use in Spark for that purpose ?
+
+Or are there exist some code sample (Python or Scala) about that ?
+
+Regards
+
+Esa Heikkinen
+
+
+
+________________________________
+
+Lähettäjä: Jörn Franke <jornfranke@gmail.com<mailto:jornfranke@gmail.com>>
+Lähetetty: 20. kesäkuuta 2017 17:12
+Vastaanottaja: Esa Heikkinen
+Kopio: user@spark.apache.org<mailto:user@spark.apache.org>
+Aihe: Re: Using Spark as a simulator
+
+
+
+It is fine, but you have to design it that generated rows are written in large blocks for
+optimal performance.
+
+The most tricky part with data generation is the conceptual part, such as probabilistic distribution
+etc
+
+You have to check as well that you use a good random generator, for some cases the Java internal
+might be not that well.
+
+On 20. Jun 2017, at 16:04, Esa Heikkinen <esa.heikkinen@student.tut.fi<mailto:esa.heikkinen@student.tut.fi>>
+wrote:
+
+Hi
+
+
+
+Spark is a data analyzer, but would it be possible to use Spark as a data generator or simulator
+?
+
+
+
+My simulation can be very huge and i think a parallelized simulation using by Spark (cloud)
+could work.
+
+Is that good or bad idea ?
+
+
+
+Regards
+
+Esa Heikkinen
+
+
+
+DISCLAIMER
+==========
+This e-mail may contain privileged and confidential information which is the property of Persistent
+Systems Ltd. It is intended only for the use of the individual or entity to which it is addressed.
+If you are not the intended recipient, you are not authorized to read, retain, copy, print,
+distribute or use this message. If you have received this communication in error, please notify
+the sender and delete all copies of this message. Persistent Systems Ltd. does not accept
+any liability for virus infected mails.
+

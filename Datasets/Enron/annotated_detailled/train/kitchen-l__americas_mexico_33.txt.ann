@@ -1,0 +1,207 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n      Louise,\n      I just talked to Fernando Sanchez Ugarte, Chairman of CFC (Federal Competition Commission),  and told him of our urgency\n      to have our request approved in the next two weeks.\n      He told me he will look into it today and will try to have it resolved asap. Our lawyers should do the follow up, but I am \n      confident we will get it done in time.\n      Regards,   Jaime_____\n      \n      \n -----Original Message-----\nFrom: \tKitchen, Louise  \nSent:\tWednesday, September 05, 2001 8:36 AM\nTo:\tAlatorre, Jaime\nSubject:\t\n\nVitro - we really, really, really need that to close this quarter - please help as much as you can.\n\nLouise Kitchen\nChief Operating Officer\nEnron Americas\nTel:  713 853 3488\nFax: 713 646 2308",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 8,
+      "end": 14,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 393,
+      "end": 398,
+      "text": "Jaime",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 376,
+      "end": 404,
+      "text": "      Regards,   Jaime_____\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 418,
+      "text": "\n\n      Louise,\n      I just talked to Fernando Sanchez Ugarte, Chairman of CFC (Federal Competition Commission),  and told him of our urgency\n      to have our request approved in the next two weeks.\n      He told me he will look into it today and will try to have it resolved asap. Our lawyers should do the follow up, but I am \n      confident we will get it done in time.\n      Regards,   Jaime_____\n      \n      \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 453,
+      "end": 468,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 488,
+      "end": 506,
+      "text": "September 05, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 507,
+      "end": 514,
+      "text": "8:36 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 519,
+      "end": 534,
+      "text": "Alatorre, Jaime",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 418,
+      "end": 545,
+      "text": " -----Original Message-----\nFrom: \tKitchen, Louise  \nSent:\tWednesday, September 05, 2001 8:36 AM\nTo:\tAlatorre, Jaime\nSubject:\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 647,
+      "end": 661,
+      "text": "Louise Kitchen",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 662,
+      "end": 685,
+      "text": "Chief Operating Officer",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 686,
+      "end": 700,
+      "text": "Enron Americas",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 707,
+      "end": 719,
+      "text": "713 853 3488",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 725,
+      "end": 737,
+      "text": "713 646 2308",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 647,
+      "end": 737,
+      "text": "Louise Kitchen\nChief Operating Officer\nEnron Americas\nTel:  713 853 3488\nFax: 713 646 2308",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 545,
+      "end": 737,
+      "text": "\nVitro - we really, really, really need that to close this quarter - please help as much as you can.\n\nLouise Kitchen\nChief Operating Officer\nEnron Americas\nTel:  713 853 3488\nFax: 713 646 2308",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 10,
+      "target": 12,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 13,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 14,
+      "target": 10,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25449249.1075840864939.JavaMail.evans@thyme>",
+      "Date": "Wed, 5 Sep 2001 11:45:24 -0700 (PDT)",
+      "From": "jaime.alatorre@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "RE: Vitro",
+      "Cc": "steve.irvin@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "steve.irvin@enron.com",
+      "X-From": "Alatorre, Jaime </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JALATORR>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "Irvin, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sirvin>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Mexico",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_mexico_33.txt"
+}

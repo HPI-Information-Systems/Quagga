@@ -1,0 +1,42 @@
+Hello,
+
+I have a table as below
+
+CREATE TABLE analytics_db.ml_forecast_tbl (
+   "MetricID" int,
+   "TimeStamp" timestamp,
+   "ResourceID" timeuuid
+   "Value"   double,
+    PRIMARY KEY ("MetricID", "TimeStamp", "ResourceID")
+)
+
+select * from ml_forecast_tbl where "MetricID" = 1 and "TimeStamp" >
+'2016-01-22 00:00:00+0000' and "TimeStamp" <= '2016-01-22 00:30:00+0000' ;
+
+ MetricID | TimeStamp                       | ResourceID
+        | Value|
+----------+---------------------------------+--------------------------------------+----------+
+|        1 | 2016-01-22 00:30:00.000000+0000 |
+4a925190-3b13-11e7-83c6-a32261219d03 | 32.16177 |
+| 23.74124 | 15.2371
+        1 | 2016-01-22 00:30:00.000000+0000 |
+4a92c6c0-3b13-11e7-83c6-a32261219d03 | 32.16177 |
+| 23.74124 | 15.2371
+        1 | 2016-01-22 00:30:00.000000+0000 |
+4a936300-3b13-11e7-83c6-a32261219d03 | 32.16177 |
+| 23.74124 | 15.2371
+        1 | 2016-01-22 00:30:00.000000+0000 |
+4a93d830-3b13-11e7-83c6-a32261219d03 | 32.16177 |
+| 23.74124 | 15.2371
+
+This query runs perfectly fine from cqlsh,   but not with Spark SQL, it
+just emits empty results,
+Is there a catch to think about on querying timestamp ranges with cassandra
+spark connector
+
+Any inputs on this ?..
+
+
+Thanks,
+Sujeet
+

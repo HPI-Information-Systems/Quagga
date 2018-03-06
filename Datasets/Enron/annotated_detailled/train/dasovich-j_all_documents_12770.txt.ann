@@ -1,0 +1,301 @@
+{
+  "wrapper": "plaintext",
+  "text": "you're now appearing on fliers!!!  What's next?  Movies?  A supporting role \nw/ Arnold??  :-) kd\n---------------------- Forwarded by Karen Denne/Corp/Enron on 05/18/2001 \n07:02 PM ---------------------------\n\n\nSandra Yamane <SYamane@marathon-com.com> on 05/18/2001 01:28:43 PM\nTo: \"'karen.denne@enron.com'\" <karen.denne@enron.com>\ncc:  \n\nSubject: FW: Power Player Lunch Meeting Notice\n\n\nKaren:\nHere is a copy of the LA Chamber flier for the June 5th energy event\nfeaturing Jeff Dasovich\n\n-----Original Message-----\nFrom: Jeffe, Jerald A. [mailto:jeffjera@lachamber.org]\nSent: Friday, May 18, 2001 11:23 AM\nTo: 'syamane@marathon-com.com'\nSubject: Power Player Lunch Meeting Notice\n\n\n\n\n <<Energy Crisis - Power Player Speaker.doc>>\n\n For further communications on this matter, talk to Melissa Infusino.\nI just helped out on the flyer while she was out of town.\n\n\n - Energy Crisis - Power Player Speaker.doc\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 94,
+      "end": 96,
+      "text": "kd",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 97,
+      "text": "you're now appearing on fliers!!!  What's next?  Movies?  A supporting role \nw/ Arnold??  :-) kd\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 133,
+      "end": 144,
+      "text": "Karen Denne",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 159,
+      "end": 169,
+      "text": "05/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 171,
+      "end": 179,
+      "text": "07:02 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 97,
+      "end": 208,
+      "text": "---------------------- Forwarded by Karen Denne/Corp/Enron on 05/18/2001 \n07:02 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 210,
+      "end": 223,
+      "text": "Sandra Yamane",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 225,
+      "end": 249,
+      "text": "SYamane@marathon-com.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 254,
+      "end": 264,
+      "text": "05/18/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 265,
+      "end": 276,
+      "text": "01:28:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 283,
+      "end": 304,
+      "text": "karen.denne@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 308,
+      "end": 329,
+      "text": "karen.denne@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 347,
+      "end": 384,
+      "text": "FW: Power Player Lunch Meeting Notice",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 208,
+      "end": 385,
+      "text": "\n\nSandra Yamane <SYamane@marathon-com.com> on 05/18/2001 01:28:43 PM\nTo: \"'karen.denne@enron.com'\" <karen.denne@enron.com>\ncc:  \n\nSubject: FW: Power Player Lunch Meeting Notice\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 387,
+      "end": 392,
+      "text": "Karen",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 385,
+      "end": 488,
+      "text": "\n\nKaren:\nHere is a copy of the LA Chamber flier for the June 5th energy event\nfeaturing Jeff Dasovich\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 521,
+      "end": 537,
+      "text": "Jeffe, Jerald A.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 546,
+      "end": 568,
+      "text": "jeffjera@lachamber.org",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 584,
+      "end": 596,
+      "text": "May 18, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 597,
+      "end": 605,
+      "text": "11:23 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 611,
+      "end": 635,
+      "text": "syamane@marathon-com.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 646,
+      "end": 679,
+      "text": "Power Player Lunch Meeting Notice",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 488,
+      "end": 680,
+      "text": "-----Original Message-----\nFrom: Jeffe, Jerald A. [mailto:jeffjera@lachamber.org]\nSent: Friday, May 18, 2001 11:23 AM\nTo: 'syamane@marathon-com.com'\nSubject: Power Player Lunch Meeting Notice\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 687,
+      "end": 727,
+      "text": "Energy Crisis - Power Player Speaker.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 684,
+      "end": 730,
+      "text": " <<Energy Crisis - Power Player Speaker.doc>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 864,
+      "end": 904,
+      "text": "Energy Crisis - Power Player Speaker.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 861,
+      "end": 905,
+      "text": " - Energy Crisis - Power Player Speaker.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 680,
+      "end": 905,
+      "text": "\n\n\n\n <<Energy Crisis - Power Player Speaker.doc>>\n\n For further communications on this matter, talk to Melissa Infusino.\nI just helped out on the flyer while she was out of town.\n\n\n - Energy Crisis - Power Player Speaker.doc\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 15,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 17,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 21,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9585639.1075843508235.JavaMail.evans@thyme>",
+      "Date": "Fri, 18 May 2001 12:03:00 -0700 (PDT)",
+      "From": "karen.denne@enron.com",
+      "To": "jeff.dasovich@enron.com",
+      "Subject": "FW: Power Player Lunch Meeting Notice",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Karen Denne",
+      "X-To": "Jeff Dasovich",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_12770.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Set up a meeting\n\n -----Original Message-----\nFrom: \tSweet, Twanda  \nSent:\tFriday, November 09, 2001 4:06 PM\nTo:\tSanders, Richard B.\nSubject:\tJohn Boudreaux really needs to meet with you re legal letter circularization\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 18,
+      "text": "Set up a meeting\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 53,
+      "end": 66,
+      "text": "Sweet, Twanda",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 101,
+      "end": 108,
+      "text": "4:06 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 83,
+      "end": 100,
+      "text": "November 09, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 113,
+      "end": 132,
+      "text": "Sanders, Richard B.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 142,
+      "end": 218,
+      "text": "John Boudreaux really needs to meet with you re legal letter circularization",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 18,
+      "end": 219,
+      "text": " -----Original Message-----\nFrom: \tSweet, Twanda  \nSent:\tFriday, November 09, 2001 4:06 PM\nTo:\tSanders, Richard B.\nSubject:\tJohn Boudreaux really needs to meet with you re legal letter circularization\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3477348.1075862211337.JavaMail.evans@thyme>",
+      "Date": "Sun, 11 Nov 2001 09:57:24 -0800 (PST)",
+      "From": "b..sanders@enron.com",
+      "To": "twanda.sweet@enron.com",
+      "Subject": "RE: John Boudreaux really needs to meet with you re legal letter\n circularization",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sanders, Richard B. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RSANDER>",
+      "X-To": "Sweet, Twanda </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tsweet>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\RSANDER (Non-Privileged)\\Sanders, Richard B.\\Sent Items",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "RSANDER (Non-Privileged).pst"
+    }
+  },
+  "id": "test/sanders-r_sent_items_1272.txt"
+}

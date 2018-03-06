@@ -1,0 +1,85 @@
+{
+  "wrapper": "plaintext",
+  "text": "Mark,\nWith the support and cooperation of Vince Kaminski and his group, I have been putting together a written piece about the Research Group within Enron.  The focus is on group members' experiences and learning from working in its strongly collegial, creative work environment.  \nI want to include in the writing, the clients' perspective regarding the value and effectiveness of the groups' services.  Vince and Zimin suggested your name.  I respect confidentiality in this work:  As with the others, you will have given approval to anything I use from the interview.  \nWould you be willing to talk very briefly by phone with me this week?  If so, please suggest a time when I could call and a phone number.  \nThank you, \nAnn Thomas\n(713) 871-8345    ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Mark",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 725,
+      "end": 735,
+      "text": "Ann Thomas",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 713,
+      "end": 736,
+      "text": "Thank you, \nAnn Thomas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 736,
+      "end": 750,
+      "text": "(713) 871-8345",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 736,
+      "end": 754,
+      "text": "(713) 871-8345    ",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 754,
+      "text": "Mark,\nWith the support and cooperation of Vince Kaminski and his group, I have been putting together a written piece about the Research Group within Enron.  The focus is on group members' experiences and learning from working in its strongly collegial, creative work environment.  \nI want to include in the writing, the clients' perspective regarding the value and effectiveness of the groups' services.  Vince and Zimin suggested your name.  I respect confidentiality in this work:  As with the others, you will have given approval to anything I use from the interview.  \nWould you be willing to talk very briefly by phone with me this week?  If so, please suggest a time when I could call and a phone number.  \nThank you, \nAnn Thomas\n(713) 871-8345    ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12998240.1075840765589.JavaMail.evans@thyme>",
+      "Date": "Mon, 14 Jan 2002 09:09:43 -0800 (PST)",
+      "From": "athomas80@aol.com",
+      "To": "mark.breese@enron.com",
+      "Subject": "Research Group",
+      "Cc": "j.kaminski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "j.kaminski@enron.com",
+      "X-From": "Athomas80@aol.com@ENRON",
+      "X-To": "Breese, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MBREESE>",
+      "X-cc": "Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VKAMINS>",
+      "X-bcc": "",
+      "X-Folder": "\\vkamins\\Deleted Items",
+      "X-Origin": "KAMINSKI-V",
+      "X-FileName": "vincent kaminski 1-30-02.pst"
+    }
+  },
+  "id": "test/kaminski-v_deleted_items_521.txt"
+}

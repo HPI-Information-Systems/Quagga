@@ -1,0 +1,440 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Richard B Sanders/HOU/ECT on 09/17/2000 12:19 PM -----\n\n\tShonnie Daniel\n\t09/13/2000 10:32 AM\n\t\t \n\t\t To: Richard B Sanders/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n\n\n----- Forwarded by Shonnie Daniel/HOU/ECT on 09/13/2000 10:31 AM -----\n\n\tRob Cole\n\t09/13/2000 07:27 AM\n\t\t \n\t\t To: Shonnie Daniel/HOU/ECT@ECT\n\t\t cc: Rob.Cole@enron.com, James P Studdert/HOU/ECT@ECT\n\t\t Subject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n\nMy trip has been postponed so I will be in the balance of the week.\n\nI would like to secure an affadavit(s) from payroll (stating he was not our \nemployee) and human resources (stating no employment file exists for this \ngentlemen and that no employee benefits were offered/paid to him).  Is this \nsomething that you can assist me in obtaining or would you prefer I work with \nour Litigation Unit in order to obtain? \n\nIn the meantime, I am writing back to the attorney requesting the Wyoming \ncases he is relying upon.  Also, I am going to request his clients damages as \na result of this incident and a copy of their commercial auto policy.  Thanks,\n\nRob\n\n\n---------------------- Forwarded by Rob Cole/HOU/ECT on 09/13/2000 07:15 AM \n---------------------------\n\n\nRob Cole\n09/12/2000 02:46 PM\nTo: Shonnie Daniel/HOU/ECT@ECT\ncc: Rob.Cole@enron.com, James P Studdert/HOU/ECT@ECT \nSubject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n\nShonnie, I am faxing you another letter received from the attorney for the \nother party.  I will call you sometime next week in order to formulate an \nappropriate response as I am leaving the office momentarily until next week.  \nThanks,\n\nRob\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 36,
+      "text": "Richard B Sanders",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 48,
+      "end": 58,
+      "text": "09/17/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 59,
+      "end": 67,
+      "text": "12:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 74,
+      "text": "----- Forwarded by Richard B Sanders/HOU/ECT on 09/17/2000 12:19 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 76,
+      "end": 90,
+      "text": "Shonnie Daniel",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 92,
+      "end": 102,
+      "text": "09/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 103,
+      "end": 111,
+      "text": "10:32 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 123,
+      "end": 140,
+      "text": "Richard B Sanders",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 173,
+      "end": 234,
+      "text": "R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 114,
+      "end": 235,
+      "text": " \n\t\t To: Richard B Sanders/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 256,
+      "end": 270,
+      "text": "Shonnie Daniel",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 282,
+      "end": 292,
+      "text": "09/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 293,
+      "end": 301,
+      "text": "10:31 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 235,
+      "end": 308,
+      "text": "\n\n----- Forwarded by Shonnie Daniel/HOU/ECT on 09/13/2000 10:31 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 310,
+      "end": 318,
+      "text": "Rob Cole",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 320,
+      "end": 330,
+      "text": "09/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 331,
+      "end": 339,
+      "text": "07:27 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 351,
+      "end": 365,
+      "text": "Shonnie Daniel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 385,
+      "end": 403,
+      "text": "Rob.Cole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 405,
+      "end": 421,
+      "text": "James P Studdert",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 446,
+      "end": 507,
+      "text": "R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 308,
+      "end": 508,
+      "text": "\n\tRob Cole\n\t09/13/2000 07:27 AM\n\t\t \n\t\t To: Shonnie Daniel/HOU/ECT@ECT\n\t\t cc: Rob.Cole@enron.com, James P Studdert/HOU/ECT@ECT\n\t\t Subject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1162,
+      "end": 1165,
+      "text": "Rob",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1153,
+      "end": 1166,
+      "text": "Thanks,\n\nRob\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 508,
+      "end": 1168,
+      "text": "\nMy trip has been postponed so I will be in the balance of the week.\n\nI would like to secure an affadavit(s) from payroll (stating he was not our \nemployee) and human resources (stating no employment file exists for this \ngentlemen and that no employee benefits were offered/paid to him).  Is this \nsomething that you can assist me in obtaining or would you prefer I work with \nour Litigation Unit in order to obtain? \n\nIn the meantime, I am writing back to the attorney requesting the Wyoming \ncases he is relying upon.  Also, I am going to request his clients damages as \na result of this incident and a copy of their commercial auto policy.  Thanks,\n\nRob\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1204,
+      "end": 1212,
+      "text": "Rob Cole",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1224,
+      "end": 1234,
+      "text": "09/13/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1235,
+      "end": 1243,
+      "text": "07:15 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1168,
+      "end": 1273,
+      "text": "---------------------- Forwarded by Rob Cole/HOU/ECT on 09/13/2000 07:15 AM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1275,
+      "end": 1283,
+      "text": "Rob Cole",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1284,
+      "end": 1294,
+      "text": "09/12/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1295,
+      "end": 1303,
+      "text": "02:46 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1308,
+      "end": 1322,
+      "text": "Shonnie Daniel",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1339,
+      "end": 1357,
+      "text": "Rob.Cole@enron.com",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1359,
+      "end": 1375,
+      "text": "James P Studdert",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 1398,
+      "end": 1459,
+      "text": "R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1273,
+      "end": 1460,
+      "text": "\n\nRob Cole\n09/12/2000 02:46 PM\nTo: Shonnie Daniel/HOU/ECT@ECT\ncc: Rob.Cole@enron.com, James P Studdert/HOU/ECT@ECT \nSubject: R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1461,
+      "end": 1468,
+      "text": "Shonnie",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1700,
+      "end": 1703,
+      "text": "Rob",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1691,
+      "end": 1704,
+      "text": "Thanks,\n\nRob\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1460,
+      "end": 1706,
+      "text": "\nShonnie, I am faxing you another letter received from the attorney for the \nother party.  I will call you sometime next week in order to formulate an \nappropriate response as I am leaving the office momentarily until next week.  \nThanks,\n\nRob\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 5,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 18,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 19,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 23,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 26,
+      "target": 23,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 30,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 33,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 34,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 35,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 38,
+      "target": 33,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 39,
+      "target": 34,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17350166.1075853182568.JavaMail.evans@thyme>",
+      "Date": "Sun, 17 Sep 2000 05:19:00 -0700 (PDT)",
+      "From": "richard.sanders@enron.com",
+      "To": "eileen.kisluk@enron.com",
+      "Subject": "R & C Trucks, Inc. v. ENA (Van Scoyk auto incident of 2/9/00)",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Richard B Sanders",
+      "X-To": "Eileen Kisluk",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_551.txt"
+}

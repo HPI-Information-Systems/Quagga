@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/lokay-m_discussion_threads_745.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<3667927.1075844080428.JavaMail.evans@thyme>",
+      "Date": "Wed, 8 Nov 2000 08:01:00 -0800 (PST)",
+      "From": "michelle.lokay@enron.com",
+      "To": "kevin.hyatt@enron.com",
+      "Subject": "Outstanding Invoices",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Michelle Lokay",
+      "X-To": "Kevin Hyatt",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Michelle_Lokay_Dec2000_June2001_1\\Notes Folders\\Discussion threads",
+      "X-Origin": "LOKAY-M",
+      "X-FileName": "mlokay.nsf"
+    }
+  },
+  "text": "In an effort to bring incremental revenue for our pipeline, I researched \noutstanding invoices generated from facility interconnects, etc.  \nTranswestern currently has no outstanding dollars to collect.  However, there \nappears to be $600,000 that can be collected on Northern Natural in addition \nto $250,000 that was written off.  Attached are the spreadsheets from \nAccounts Receivable.\n\n  ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 393,
+      "text": "In an effort to bring incremental revenue for our pipeline, I researched \noutstanding invoices generated from facility interconnects, etc.  \nTranswestern currently has no outstanding dollars to collect.  However, there \nappears to be $600,000 that can be collected on Northern Natural in addition \nto $250,000 that was written off.  Attached are the spreadsheets from \nAccounts Receivable.\n\n  ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+So, it turned out that i was not paying attention to the start parameter. I
+found that the 'primary' node is asking for very large count of rows from
+shard nodes when the start= is a large value.
+
+On Thu, Aug 17, 2017 at 11:28 AM, Nawab Zada Asad Iqbal <khichi@gmail.com>
+wrote:
+
+> Hi solr community
+>
+> I am having performance issues after solr6 upgrade. I have multiple nodes
+> in the cluster and direct queries to one of them with `shards=[list of
+> hosts]` which takes care of submitting queries to all the shards and
+> aggregating the results. All the original queries have rows=200.
+>
+> I have found that many logs with `distrib=false` have large rows value.
+> e.g., values like: 1200, 2200, 3200, 4200, ... .
+>
+> What is triggering it?  What am I doing wrong to cause this behavior.
+>
+>
+> Thanks in advance
+> Nawab
+>
+

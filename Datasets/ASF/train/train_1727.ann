@@ -1,0 +1,248 @@
+{
+  "wrapper": "plaintext",
+  "text": "If you have the test bed, could you just enable full trace log mode and run\ntwo most similar tests. Then look for log difference.\n\nIt sounds like a bug, but of what kind...?\n\nRegards,\n   Alex\n\nOn 16 Mar 2017 9:16 AM, \"Chris Ulicny\" <culicny@iq.media> wrote:\n\n> iqdocid is already set to be the uniqueKey value.\n>\n> I tried reindexing a few documents back into the problematic cloud and am\n> getting the same behavior of no document found for get handler.\n>\n> I've also done some testing on standalone instances as well as some quick\n> cloud setups (with embedded zk), and I cannot seem to replicate the\n> problem. For each test, I used the exact same configset that is causing the\n> issue for us and indexed a document from that instance as well. I can\n> provide more details if that would be useful in anyway.\n>\n> Standalone instance worked\n> Cloud mode worked regardless of the use of the security plugin\n> Cloud mode worked regardless of explicit get handler definition\n> Cloud mode consistently worked with explicitly defining the get handler,\n> then removing it and reloading the collection\n>\n> The only differences that I know of between the tests and the problematic\n> cloud is that solr is running as a different user and using an external\n> zookeeper ensemble. The running user has ownership of the solr\n> installation, log, and data directories.\n>\n> I'm going to keep trying different setups to see if I can replicate the\n> issue, but if anyone has any ideas on what direction might make the most\n> sense, please let me know.\n>\n> Thanks again\n>\n> On Wed, Mar 15, 2017 at 5:49 PM Erick Erickson <erickerickson@gmail.com>\n> wrote:\n>\n> Wait... Is iqdocid set to the <uniqueKey> in your schema? That might\n> be the missing thing.\n>\n>\n>\n> On Wed, Mar 15, 2017 at 11:20 AM, Chris Ulicny <culicny@iq.media> wrote:\n> > Unless the behavior's changed on the way to version 6.3.0, the get\n> handler\n> > used to use whatever field is set to be the uniqueKey. We have\n> successfully\n> > been using get on a 4.9.0 standalone core with no explicit \"id\" field\n> > defined by passing in the value for the uniqueKey field to the get\n> handler.\n> > We tend to have a bunch of id fields floating around from different\n> > sources, so we avoid keeping any of them named as \"id\"\n> >\n> > iqdocid is just a basic string type\n> > <field name=\"iqdocid\" type=\"string\" multiValued=\"false\" indexed=\"true\"\n> > required=\"true\" stored=\"true\"/>\n> >\n> > I'll do some more testing on standalone versions, and see how that goes.\n> >\n> > On Wed, Mar 15, 2017 at 1:52 PM David Hastings <\n> hastings.recursive@gmail.com>\n> > wrote:\n> >\n> >> from your previous email:\n> >> \"There is no \"id\"\n> >> field defined in the schema.\"\n> >>\n> >> you need an id field to use the get handler\n> >>\n> >> On Wed, Mar 15, 2017 at 1:45 PM, Chris Ulicny <culicny@iq.media> wrote:\n> >>\n> >> > I thought that \"id\" and \"ids\" were fixed parameters for the get\n> handler,\n> >> > but I never remember, so I've already tried both. Each time it comes\n> back\n> >> > with the same response of no document.\n> >> >\n> >> > On Wed, Mar 15, 2017 at 1:31 PM Alexandre Rafalovitch <\n> >> arafalov@gmail.com>\n> >> > wrote:\n> >> >\n> >> > > Actually.....\n> >> > >\n> >> > > I think Real Time Get handler has \"id\" as a magical parameter, not\n> as\n> >> > > a field name. It maps to the real id field via the uniqueKey\n> >> > > definition:\n> >> > > https://cwiki.apache.org/confluence/display/solr/RealTime+Get\n> >> > >\n> >> > > So, if you have not, could you try the way you originally wrote it.\n> >> > >\n> >> > > Regards,\n> >> > >    Alex.\n> >> > > ----\n> >> > > http://www.solr-start.com/ - Resources for Solr users, new and\n> >> > experienced\n> >> > >\n> >> > >\n> >> > > On 15 March 2017 at 13:22, Chris Ulicny <culicny@iq.media> wrote:\n> >> > > > Sorry, that is a typo. The get is using the iqdocid field. There\n> is\n> >> no\n> >> > > \"id\"\n> >> > > > field defined in the schema.\n> >> > > >\n> >> > > > solr/TestCollection/get?iqdocid=2957-TV-201604141900\n> >> > > >\n> >> > > > solr/TestCollection/select?q=*:*&fq=iqdocid:2957-TV-201604141900\n> >> > > >\n> >> > > > On Wed, Mar 15, 2017 at 1:15 PM Erick Erickson <\n> >> > erickerickson@gmail.com>\n> >> > > > wrote:\n> >> > > >\n> >> > > >> Is this a typo or are you trying to use get with an \"id\"\nfield\n> and\n> >> > > >> your filter query uses \"iqdocid\"?\n> >> > > >>\n> >> > > >> Best,\n> >> > > >> Erick\n> >> > > >>\n> >> > > >> On Wed, Mar 15, 2017 at 8:31 AM, Chris Ulicny <culicny@iq.media>\n> >> > wrote:\n> >> > > >> > Yes, we're using a fixed schema with the iqdocid field\nset as\n> the\n> >> > > >> uniqueKey.\n> >> > > >> >\n> >> > > >> > On Wed, Mar 15, 2017 at 11:28 AM Alexandre Rafalovitch\n<\n> >> > > >> arafalov@gmail.com>\n> >> > > >> > wrote:\n> >> > > >> >\n> >> > > >> >> What is your uniqueKey? Is it iqdocid?\n> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >>    Alex.\n> >> > > >> >> ----\n> >> > > >> >> http://www.solr-start.com/ - Resources for Solr\nusers, new\n> and\n> >> > > >> experienced\n> >> > > >> >>\n> >> > > >> >>\n> >> > > >> >> On 15 March 2017 at 11:24, Chris Ulicny <culicny@iq.media>\n> >> wrote:\n> >> > > >> >> > Hi,\n> >> > > >> >> >\n> >> > > >> >> > I've been trying to use the get handler for\na new solr cloud\n> >> > > >> collection\n> >> > > >> >> we\n> >> > > >> >> > are using, and something seems to be amiss.\n> >> > > >> >> >\n> >> > > >> >> > We are running 6.3.0, so we did not explicitly\ndefine the\n> >> request\n> >> > > >> handler\n> >> > > >> >> > in the solrconfig since it's supposed to be\nimplicitly\n> defined.\n> >> > We\n> >> > > >> also\n> >> > > >> >> > have the update log enabled with the default\nconfiguration.\n> >> > > >> >> >\n> >> > > >> >> > Whenever I send a get query for a document\nalready known to\n> be\n> >> in\n> >> > > the\n> >> > > >> >> > collection, I get no documents returned. But\nwhen I use a\n> >> filter\n> >> > > >> query on\n> >> > > >> >> > the uniqueKey field for the same value I get\nthe document\n> back\n> >> > > >> >> >\n> >> > > >> >> > solr/TestCollection/get?id=2957-TV-201604141900\n> >> > > >> >> >\n> >> > > >> >> >\n> >> solr/TestCollection/select?q=*:*&fq=iqdocid:2957-TV-201604141900\n> >> > > >> >> >\n> >> > > >> >> > Is there some configuration that I am missing?\n> >> > > >> >> >\n> >> > > >> >> > Thanks,\n> >> > > >> >> > Chris\n> >> > > >> >>\n> >> > > >>\n> >> > >\n> >> >\n> >>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 174,
+      "end": 192,
+      "text": "\nRegards,\n   Alex\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 193,
+      "text": "If you have the test bed, could you just enable full trace log mode and run\ntwo most similar tests. Then look for log difference.\n\nIt sounds like a bug, but of what kind...?\n\nRegards,\n   Alex\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 193,
+      "end": 258,
+      "text": "On 16 Mar 2017 9:16 AM, \"Chris Ulicny\" <culicny@iq.media> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1536,
+      "end": 1553,
+      "text": ">\n> Thanks again\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 258,
+      "end": 1555,
+      "text": "\n> iqdocid is already set to be the uniqueKey value.\n>\n> I tried reindexing a few documents back into the problematic cloud and am\n> getting the same behavior of no document found for get handler.\n>\n> I've also done some testing on standalone instances as well as some quick\n> cloud setups (with embedded zk), and I cannot seem to replicate the\n> problem. For each test, I used the exact same configset that is causing the\n> issue for us and indexed a document from that instance as well. I can\n> provide more details if that would be useful in anyway.\n>\n> Standalone instance worked\n> Cloud mode worked regardless of the use of the security plugin\n> Cloud mode worked regardless of explicit get handler definition\n> Cloud mode consistently worked with explicitly defining the get handler,\n> then removing it and reloading the collection\n>\n> The only differences that I know of between the tests and the problematic\n> cloud is that solr is running as a different user and using an external\n> zookeeper ensemble. The running user has ownership of the solr\n> installation, log, and data directories.\n>\n> I'm going to keep trying different setups to see if I can replicate the\n> issue, but if anyone has any ideas on what direction might make the most\n> sense, please let me know.\n>\n> Thanks again\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1555,
+      "end": 1639,
+      "text": "> On Wed, Mar 15, 2017 at 5:49 PM Erick Erickson <erickerickson@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1639,
+      "end": 1742,
+      "text": ">\n> Wait... Is iqdocid set to the <uniqueKey> in your schema? That might\n> be the missing thing.\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1742,
+      "end": 1817,
+      "text": "> On Wed, Mar 15, 2017 at 11:20 AM, Chris Ulicny <culicny@iq.media> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1817,
+      "end": 2507,
+      "text": "> > Unless the behavior's changed on the way to version 6.3.0, the get\n> handler\n> > used to use whatever field is set to be the uniqueKey. We have\n> successfully\n> > been using get on a 4.9.0 standalone core with no explicit \"id\" field\n> > defined by passing in the value for the uniqueKey field to the get\n> handler.\n> > We tend to have a bunch of id fields floating around from different\n> > sources, so we avoid keeping any of them named as \"id\"\n> >\n> > iqdocid is just a basic string type\n> > <field name=\"iqdocid\" type=\"string\" multiValued=\"false\" indexed=\"true\"\n> > required=\"true\" stored=\"true\"/>\n> >\n> > I'll do some more testing on standalone versions, and see how that goes.\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2507,
+      "end": 2603,
+      "text": "> > On Wed, Mar 15, 2017 at 1:52 PM David Hastings <\n> hastings.recursive@gmail.com>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2603,
+      "end": 2755,
+      "text": "> >\n> >> from your previous email:\n> >> \"There is no \"id\"\n> >> field defined in the schema.\"\n> >>\n> >> you need an id field to use the get handler\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2755,
+      "end": 2832,
+      "text": "> >> On Wed, Mar 15, 2017 at 1:45 PM, Chris Ulicny <culicny@iq.media> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2832,
+      "end": 3055,
+      "text": "> >>\n> >> > I thought that \"id\" and \"ids\" were fixed parameters for the get\n> handler,\n> >> > but I never remember, so I've already tried both. Each time it comes\n> back\n> >> > with the same response of no document.\n> >> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3055,
+      "end": 3157,
+      "text": "> >> > On Wed, Mar 15, 2017 at 1:31 PM Alexandre Rafalovitch <\n> >> arafalov@gmail.com>\n> >> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3525,
+      "end": 3570,
+      "text": "> >> > >\n> >> > > Regards,\n> >> > >    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3157,
+      "end": 3693,
+      "text": "> >> >\n> >> > > Actually.....\n> >> > >\n> >> > > I think Real Time Get handler has \"id\" as a magical parameter, not\n> as\n> >> > > a field name. It maps to the real id field via the uniqueKey\n> >> > > definition:\n> >> > > https://cwiki.apache.org/confluence/display/solr/RealTime+Get\n> >> > >\n> >> > > So, if you have not, could you try the way you originally wrote it.\n> >> > >\n> >> > > Regards,\n> >> > >    Alex.\n> >> > > ----\n> >> > > http://www.solr-start.com/ - Resources for Solr users, new and\n> >> > experienced\n> >> > >\n> >> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 3693,
+      "end": 3768,
+      "text": "> >> > > On 15 March 2017 at 13:22, Chris Ulicny <culicny@iq.media> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3768,
+      "end": 4084,
+      "text": "> >> > > > Sorry, that is a typo. The get is using the iqdocid field. There\n> is\n> >> no\n> >> > > \"id\"\n> >> > > > field defined in the schema.\n> >> > > >\n> >> > > > solr/TestCollection/get?iqdocid=2957-TV-201604141900\n> >> > > >\n> >> > > > solr/TestCollection/select?q=*:*&fq=iqdocid:2957-TV-201604141900\n> >> > > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 4084,
+      "end": 4194,
+      "text": "> >> > > > On Wed, Mar 15, 2017 at 1:15 PM Erick Erickson <\n> >> > erickerickson@gmail.com>\n> >> > > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 4332,
+      "end": 4380,
+      "text": "> >> > > >>\n> >> > > >> Best,\n> >> > > >> Erick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 4194,
+      "end": 4392,
+      "text": "> >> > > >\n> >> > > >> Is this a typo or are you trying to use get with an \"id\"\nfield\n> and\n> >> > > >> your filter query uses \"iqdocid\"?\n> >> > > >>\n> >> > > >> Best,\n> >> > > >> Erick\n> >> > > >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 4392,
+      "end": 4483,
+      "text": "> >> > > >> On Wed, Mar 15, 2017 at 8:31 AM, Chris Ulicny <culicny@iq.media>\n> >> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 4602,
+      "end": 4726,
+      "text": "> >> > > >> > On Wed, Mar 15, 2017 at 11:28 AM Alexandre Rafalovitch\n<\n> >> > > >> arafalov@gmail.com>\n> >> > > >> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 4483,
+      "end": 4602,
+      "text": "> >> > > >> > Yes, we're using a fixed schema with the iqdocid field\nset as\n> the\n> >> > > >> uniqueKey.\n> >> > > >> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 4794,
+      "end": 4857,
+      "text": "> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >>    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 4726,
+      "end": 5011,
+      "text": "> >> > > >> >\n> >> > > >> >> What is your uniqueKey? Is it iqdocid?\n> >> > > >> >>\n> >> > > >> >> Regards,\n> >> > > >> >>    Alex.\n> >> > > >> >> ----\n> >> > > >> >> http://www.solr-start.com/ - Resources for Solr\nusers, new\n> and\n> >> > > >> experienced\n> >> > > >> >>\n> >> > > >> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 5011,
+      "end": 5097,
+      "text": "> >> > > >> >> On 15 March 2017 at 11:24, Chris Ulicny <culicny@iq.media>\n> >> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 5097,
+      "end": 5118,
+      "text": "> >> > > >> >> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 6204,
+      "end": 6269,
+      "text": "> >> > > >> >> >\n> >> > > >> >> > Thanks,\n> >> > > >> >> > Chris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 5097,
+      "end": 6320,
+      "text": "> >> > > >> >> > Hi,\n> >> > > >> >> >\n> >> > > >> >> > I've been trying to use the get handler for\na new solr cloud\n> >> > > >> collection\n> >> > > >> >> we\n> >> > > >> >> > are using, and something seems to be amiss.\n> >> > > >> >> >\n> >> > > >> >> > We are running 6.3.0, so we did not explicitly\ndefine the\n> >> request\n> >> > > >> handler\n> >> > > >> >> > in the solrconfig since it's supposed to be\nimplicitly\n> defined.\n> >> > We\n> >> > > >> also\n> >> > > >> >> > have the update log enabled with the default\nconfiguration.\n> >> > > >> >> >\n> >> > > >> >> > Whenever I send a get query for a document\nalready known to\n> be\n> >> in\n> >> > > the\n> >> > > >> >> > collection, I get no documents returned. But\nwhen I use a\n> >> filter\n> >> > > >> query on\n> >> > > >> >> > the uniqueKey field for the same value I get\nthe document\n> back\n> >> > > >> >> >\n> >> > > >> >> > solr/TestCollection/get?id=2957-TV-201604141900\n> >> > > >> >> >\n> >> > > >> >> >\n> >> solr/TestCollection/select?q=*:*&fq=iqdocid:2957-TV-201604141900\n> >> > > >> >> >\n> >> > > >> >> > Is there some configuration that I am missing?\n> >> > > >> >> >\n> >> > > >> >> > Thanks,\n> >> > > >> >> > Chris\n> >> > > >> >>\n> >> > > >>\n> >> > >\n> >> >\n> >>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1727"
+}

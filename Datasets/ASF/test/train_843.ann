@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "i dont know why this is happening but i have given up on\nuserClassPath=first. i have seen many weird errors with it and consider it\nbroken.\n\nOn Jan 30, 2017 05:24, \"Roberto Coluccio\" <roberto.coluccio@gmail.com>\nwrote:\n\nHello folks,\n\nI'm trying to work around an issue with some dependencies by trying to\nspecify at spark-submit time that I want my (user) classpath to be resolved\nand taken into account first (against the jars received through the System\nClasspath, which is /data/cloudera/parcels/CDH/jars/).\n\nIn order to accomplish this, I specify\n\n--conf spark.driver.userClassPathFirst=true\n--conf spark.executor.userClassPathFirst=true\n\nand I pass my jars with\n\n--jars <comma-separated list>\n\nin my spark-submit command, deploying in yarn cluster mode in a CDH 5.8\nenvironment (Spark 1.6).\n\nIn the list passed with --jars I have severals deps, NOT including\nhadoop/spark related ones. My app jar is not a fat (uber) one, thus it\nincludes only business classes. None of these ones has for any reasons a\n\"SparkConf.set(\"master\", \"local\")\", or anything like that.\n\nWithout specifying the userClassPathFirst configuration, my App is launched\nand completed with no issues at all.\n\nI tried to print logs down to the TRACE level with no luck. I get no\nexplicit errors and I verified adding the \"-verbose:class\" JVM arg that\nSpark-related classes seem to be loaded with no issues. From a rapid\noverview of loaded classes, it seems to me that a small fraction of classes\nis loaded using userClassPathFirst=true w/r/t the default case. Eventually,\nmy driver's stderr gets stuck in logging out:\n\n2017-01-30 10:10:22,308 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n2017-01-30 10:10:32,310 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n2017-01-30 10:10:42,311 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n\nDramatically, the application is then killed by YARN after a timeout.\n\nIn my understanding, quoting the doc (http://spark.apache.org/docs/\n1.6.2/configuration.html):\n\n[image: Inline image 1]\n\nSo I would expect the libs given through --jars options to be used first,\nbut I also expect no issues in loading the system classpath afterwards.\nThis is confirmed by the logs printed with the \"-verbose:class\" JVM option,\nwhere I can see logs like:\n\n[Loaded org.apache.spark.SparkContext from\nfile:/data/cloudera/parcels/CDH-5.8.0-1.cdh5.8.0.p0.42/jars/spark-assembly-1.6.0-cdh5.8.0-hadoop2.6.0-cdh5.8.0.jar]\n\n\nWhat am I missing here guys?\n\nThanks for your help.\n\nBest regards,\n\nRoberto\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 141,
+      "text": "i dont know why this is happening but i have given up on\nuserClassPath=first. i have seen many weird errors with it and consider it\nbroken.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 141,
+      "end": 219,
+      "text": "On Jan 30, 2017 05:24, \"Roberto Coluccio\" <roberto.coluccio@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 219,
+      "end": 233,
+      "text": "\nHello folks,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2541,
+      "end": 2565,
+      "text": "\nBest regards,\n\nRoberto\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 219,
+      "end": 2566,
+      "text": "\nHello folks,\n\nI'm trying to work around an issue with some dependencies by trying to\nspecify at spark-submit time that I want my (user) classpath to be resolved\nand taken into account first (against the jars received through the System\nClasspath, which is /data/cloudera/parcels/CDH/jars/).\n\nIn order to accomplish this, I specify\n\n--conf spark.driver.userClassPathFirst=true\n--conf spark.executor.userClassPathFirst=true\n\nand I pass my jars with\n\n--jars <comma-separated list>\n\nin my spark-submit command, deploying in yarn cluster mode in a CDH 5.8\nenvironment (Spark 1.6).\n\nIn the list passed with --jars I have severals deps, NOT including\nhadoop/spark related ones. My app jar is not a fat (uber) one, thus it\nincludes only business classes. None of these ones has for any reasons a\n\"SparkConf.set(\"master\", \"local\")\", or anything like that.\n\nWithout specifying the userClassPathFirst configuration, my App is launched\nand completed with no issues at all.\n\nI tried to print logs down to the TRACE level with no luck. I get no\nexplicit errors and I verified adding the \"-verbose:class\" JVM arg that\nSpark-related classes seem to be loaded with no issues. From a rapid\noverview of loaded classes, it seems to me that a small fraction of classes\nis loaded using userClassPathFirst=true w/r/t the default case. Eventually,\nmy driver's stderr gets stuck in logging out:\n\n2017-01-30 10:10:22,308 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n2017-01-30 10:10:32,310 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n2017-01-30 10:10:42,311 INFO  ApplicationMaster:58 - Waiting for spark\ncontext initialization ...\n\nDramatically, the application is then killed by YARN after a timeout.\n\nIn my understanding, quoting the doc (http://spark.apache.org/docs/\n1.6.2/configuration.html):\n\n[image: Inline image 1]\n\nSo I would expect the libs given through --jars options to be used first,\nbut I also expect no issues in loading the system classpath afterwards.\nThis is confirmed by the logs printed with the \"-verbose:class\" JVM option,\nwhere I can see logs like:\n\n[Loaded org.apache.spark.SparkContext from\nfile:/data/cloudera/parcels/CDH-5.8.0-1.cdh5.8.0.p0.42/jars/spark-assembly-1.6.0-cdh5.8.0-hadoop2.6.0-cdh5.8.0.jar]\n\n\nWhat am I missing here guys?\n\nThanks for your help.\n\nBest regards,\n\nRoberto\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_843"
+}

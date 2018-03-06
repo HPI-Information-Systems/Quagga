@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "Oh of course, didn't think about it. Will do next time this happens (which might take a few\nweeks since we purged the index).\n\nIt could be merging indeed, but i don't understand why the scheduler would wait so long, should\nit not schedule the same when running a long time vs. a fresh start?\n\nThanks,\nMarkus\n \n-----Original message-----\n> From:Mikhail Khludnev <mkhl@apache.org>\n> Sent: Wednesday 19th July 2017 14:41\n> To: solr-user <solr-user@lucene.apache.org>\n> Subject: Re: 6.6 cloud starting to eat CPU after 8+ hours\n> \n> You can get stack from kill -3 jstack even from solradmin. Overall, this\n> behavior looks like typical heavy merge kicking off from time to time.\n> \n> On Wed, Jul 19, 2017 at 3:31 PM, Markus Jelsma <markus.jelsma@openindex.io>\n> wrote:\n> \n> > Hello,\n> >\n> > No i cannot expose the stack, VisualVM samples won't show it to me.\n> >\n> > I am not sure if they're about to sync all the time, but every 15 minutes\n> > some documents are indexed (3 - 4k). For some reason, index time does\n> > increase with latency / CPU usage.\n> >\n> > This situation runs fine for many hours, then it will slowly start to go\n> > bad, until nodes are restarted (or index size decreased).\n> >\n> > Thanks,\n> > Markus\n> >\n> > -----Original message-----\n> > > From:Mikhail Khludnev <mkhl@apache.org>\n> > > Sent: Wednesday 19th July 2017 14:18\n> > > To: solr-user <solr-user@lucene.apache.org>\n> > > Subject: Re: 6.6 cloud starting to eat CPU after 8+ hours\n> > >\n> > > >\n> > > > The real distinction between busy and calm nodes is that busy nodes all\n> > > > have o.a.l.codecs.perfield.PerFieldPostingsFormat$FieldsReader.terms()\n> > as\n> > > > second to fillBuffer(), what are they doing?\n> > >\n> > >\n> > > Can you expose the stack deeper?\n> > > Can they start to sync shards due to some reason?\n> > >\n> > > On Wed, Jul 19, 2017 at 12:35 PM, Markus Jelsma <\n> > markus.jelsma@openindex.io>\n> > > wrote:\n> > >\n> > > > Hello,\n> > > >\n> > > > Another peculiarity here, our six node (2 shards / 3 replica's)\n> > cluster is\n> > > > going crazy after a good part of the day has passed. It starts eating\n> > CPU\n> > > > for no good reason and its latency goes up. Grafana graphs show the\n> > problem\n> > > > really well\n> > > >\n> > > > After restarting 2/6 nodes, there is also quite a distinction in the\n> > > > VisualVM monitor views, and the VisualVM CPU sampler reports (sorted on\n> > > > self time (CPU)). The busy nodes are deeply red in o.a.h.impl.io.\n> > > > AbstractSessionInputBuffer.fillBuffer (as usual), the restarted nodes\n> > are\n> > > > not.\n> > > >\n> > > > The real distinction between busy and calm nodes is that busy nodes all\n> > > > have o.a.l.codecs.perfield.PerFieldPostingsFormat$FieldsReader.terms()\n> > as\n> > > > second to fillBuffer(), what are they doing?! Why? The calm nodes don't\n> > > > show this at all. Busy nodes all have o.a.l.codec stuff on top,\n> > restarted\n> > > > nodes don't.\n> > > >\n> > > > So, actually, i don't have a clue! Any, any ideas?\n> > > >\n> > > > Thanks,\n> > > > Markus\n> > > >\n> > > > Each replica is underpowered but performing really well after restart\n> > (and\n> > > > JVM warmup), 4 CPU's, 900M heap, 8 GB RAM, maxDoc 2.8 million, index\n> > size\n> > > > 18 GB.\n> > > >\n> > >\n> > >\n> > >\n> > > --\n> > > Sincerely yours\n> > > Mikhail Khludnev\n> > >\n> >\n> \n> \n> \n> -- \n> Sincerely yours\n> Mikhail Khludnev\n> \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 292,
+      "end": 308,
+      "text": "\nThanks,\nMarkus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 310,
+      "text": "Oh of course, didn't think about it. Will do next time this happens (which might take a few\nweeks since we purged the index).\n\nIt could be merging indeed, but i don't understand why the scheduler would wait so long, should\nit not schedule the same when running a long time vs. a fresh start?\n\nThanks,\nMarkus\n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 310,
+      "end": 524,
+      "text": "-----Original message-----\n> From:Mikhail Khludnev <mkhl@apache.org>\n> Sent: Wednesday 19th July 2017 14:41\n> To: solr-user <solr-user@lucene.apache.org>\n> Subject: Re: 6.6 cloud starting to eat CPU after 8+ hours\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 524,
+      "end": 678,
+      "text": "> \n> You can get stack from kill -3 jstack even from solradmin. Overall, this\n> behavior looks like typical heavy merge kicking off from time to time.\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 678,
+      "end": 765,
+      "text": "> On Wed, Jul 19, 2017 at 3:31 PM, Markus Jelsma <markus.jelsma@openindex.io>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 765,
+      "end": 779,
+      "text": "> \n> > Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1193,
+      "end": 1220,
+      "text": "> >\n> > Thanks,\n> > Markus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 765,
+      "end": 1224,
+      "text": "> \n> > Hello,\n> >\n> > No i cannot expose the stack, VisualVM samples won't show it to me.\n> >\n> > I am not sure if they're about to sync all the time, but every 15 minutes\n> > some documents are indexed (3 - 4k). For some reason, index time does\n> > increase with latency / CPU usage.\n> >\n> > This situation runs fine for many hours, then it will slowly start to go\n> > bad, until nodes are restarted (or index size decreased).\n> >\n> > Thanks,\n> > Markus\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1224,
+      "end": 1458,
+      "text": "> > -----Original message-----\n> > > From:Mikhail Khludnev <mkhl@apache.org>\n> > > Sent: Wednesday 19th July 2017 14:18\n> > > To: solr-user <solr-user@lucene.apache.org>\n> > > Subject: Re: 6.6 cloud starting to eat CPU after 8+ hours\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1458,
+      "end": 1804,
+      "text": "> > >\n> > > >\n> > > > The real distinction between busy and calm nodes is that busy nodes all\n> > > > have o.a.l.codecs.perfield.PerFieldPostingsFormat$FieldsReader.terms()\n> > as\n> > > > second to fillBuffer(), what are they doing?\n> > >\n> > >\n> > > Can you expose the stack deeper?\n> > > Can they start to sync shards due to some reason?\n> > >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1804,
+      "end": 1905,
+      "text": "> > > On Wed, Jul 19, 2017 at 12:35 PM, Markus Jelsma <\n> > markus.jelsma@openindex.io>\n> > > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1905,
+      "end": 1926,
+      "text": "> > >\n> > > > Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2981,
+      "end": 3020,
+      "text": "> > > >\n> > > > Thanks,\n> > > > Markus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3242,
+      "end": 3296,
+      "text": "> > > --\n> > > Sincerely yours\n> > > Mikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3315,
+      "end": 3358,
+      "text": "> -- \n> Sincerely yours\n> Mikhail Khludnev\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1905,
+      "end": 3362,
+      "text": "> > >\n> > > > Hello,\n> > > >\n> > > > Another peculiarity here, our six node (2 shards / 3 replica's)\n> > cluster is\n> > > > going crazy after a good part of the day has passed. It starts eating\n> > CPU\n> > > > for no good reason and its latency goes up. Grafana graphs show the\n> > problem\n> > > > really well\n> > > >\n> > > > After restarting 2/6 nodes, there is also quite a distinction in the\n> > > > VisualVM monitor views, and the VisualVM CPU sampler reports (sorted on\n> > > > self time (CPU)). The busy nodes are deeply red in o.a.h.impl.io.\n> > > > AbstractSessionInputBuffer.fillBuffer (as usual), the restarted nodes\n> > are\n> > > > not.\n> > > >\n> > > > The real distinction between busy and calm nodes is that busy nodes all\n> > > > have o.a.l.codecs.perfield.PerFieldPostingsFormat$FieldsReader.terms()\n> > as\n> > > > second to fillBuffer(), what are they doing?! Why? The calm nodes don't\n> > > > show this at all. Busy nodes all have o.a.l.codec stuff on top,\n> > restarted\n> > > > nodes don't.\n> > > >\n> > > > So, actually, i don't have a clue! Any, any ideas?\n> > > >\n> > > > Thanks,\n> > > > Markus\n> > > >\n> > > > Each replica is underpowered but performing really well after restart\n> > (and\n> > > > JVM warmup), 4 CPU's, 900M heap, 8 GB RAM, maxDoc 2.8 million, index\n> > size\n> > > > 18 GB.\n> > > >\n> > >\n> > >\n> > >\n> > > --\n> > > Sincerely yours\n> > > Mikhail Khludnev\n> > >\n> >\n> \n> \n> \n> -- \n> Sincerely yours\n> Mikhail Khludnev\n> \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4942"
+}

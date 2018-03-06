@@ -1,0 +1,66 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Sheila,\n\nWhen you have a moment (ha ha) could I get a copy of a couple of power \nproject risk memos?\n\nThanks,\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 9,
+      "text": "Sheila",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 11,
+      "text": "Hi Sheila,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 114,
+      "end": 117,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 105,
+      "end": 117,
+      "text": "Thanks,\n\nKay",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 117,
+      "text": "Hi Sheila,\n\nWhen you have a moment (ha ha) could I get a copy of a couple of power \nproject risk memos?\n\nThanks,\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<33198247.1075845768589.JavaMail.evans@thyme>",
+      "Date": "Fri, 15 Sep 2000 06:27:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "sheila.tweed@enron.com",
+      "Subject": "Risk memo/power projects",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Sheila Tweed",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_669.txt"
+}

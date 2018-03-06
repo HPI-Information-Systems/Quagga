@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi. Was this issue solved?, I am facing a similar one\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/StringIndexOutOfBoundsException-in-SpellCheckCollator-getCollation-tp4312517p4346582.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Hi.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 278,
+      "text": "Hi. Was this issue solved?, I am facing a similar one\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/StringIndexOutOfBoundsException-in-SpellCheckCollator-getCollation-tp4312517p4346582.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4916"
+}

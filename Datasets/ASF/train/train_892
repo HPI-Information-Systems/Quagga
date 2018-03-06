@@ -1,0 +1,62 @@
+hi Shawn,
+
+as I replied to Markus, of course I know (and use) the collections api to
+reload the config. I am asking what would happen in that scenario:
+ - config updated (but collection not reloaded)
+ - i restart one node
+now one node has the new config and the rest the old one??
+
+To which he already replied:
+>The restared/reloaded node has the new config, the others have the old
+config until reloaded/restarted.
+
+I was not asking about making solr restart itself, my English must be worst
+than I thought. By the way, stuff like that can be achieved with
+http://yajsw.sourceforge.net/ a very powerful java wrapper, I used to use
+it when Solr did not have a built in daemon setup. It was built by someone
+how was using JSW, and got pissed when that one went commercial. It is very
+configurable, but of course more complex. I wrote something about it some
+time ago
+https://medium.com/@jmlucjav/how-to-install-solr-as-a-service-in-any-platform-including-solr-5-8e4a93cc3909
+
+thanks
+
+On Thu, Feb 9, 2017 at 4:53 PM, Shawn Heisey <apache@elyograg.org> wrote:
+
+> On 2/9/2017 5:24 AM, xavier jmlucjav wrote:
+> > I always wondered, if this was not really needed, and I could just call
+> > 'restart' in every node, in a quick loop, and forget about it. Does
+> anyone
+> > know if this is the case?
+> >
+> > My doubt is in regards to changing some config, and then doing the above
+> > (just restart nodes in a loop). For example, what if I change a config G
+> > used in collection C, and I restart just one of the nodes (N1), leaving
+> the rest alone. If all the nodes contain a shard for C, what happens, N1 is
+> using the new config and the rest are not? how is this handled?
+>
+> If you want to change the config or schema for a collection and make it
+> active across all nodes, just use the collections API to RELOAD the
+> collection.  The change will be picked up everywhere.
+>
+> https://cwiki.apache.org/confluence/display/solr/Collections+API
+>
+> To answer your question: No.  Solr does not have the ability to restart
+> itself.  It would require significant development effort and a
+> fundamental change in how Solr is started to make it possible.  It is
+> something that has been discussed, but at this time it is not possible.
+>
+> One idea that would make this possible is mentioned on the following
+> wiki page.  It talks about turning Solr into two applications instead of
+> one:
+>
+> https://wiki.apache.org/solr/WhyNoWar#Information_that.27s_
+> not_version_specific
+>
+> Again -- it would not be easy, which is why it hasn't been done yet.
+>
+> Thanks,
+> Shawn
+>
+>
+

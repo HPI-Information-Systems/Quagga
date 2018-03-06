@@ -1,0 +1,143 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi, Sal.  Just saying hello.  Hope your interviews at OU went well.   You\nare quite the interviewing queen!  Maybe you should write a book (or\narticle) sometime on \"Keys to Snagging the Right Employee!\".\n\nGood news about Dad, huh?   So glad you were able to get him to see your\ndoctor to start the ball rolling on finding new answers for him.   It is a\nlot of work to find the right answers for our healthcare!\n\nWe are starting to think more about the baby's room . . .  I think we're\nleaning towards using your bed, if that's still okay.   Did you say that the\nchanging table would be available, too?  Is it light wood also?\nI think we will probably get our own bed linens - but what do your look\nlike?   Boyish?   Do you think it's better to use a rocker or a glider?\n\nSorry we didn't make it for a fall trip.   It seems that almost every\nweekend one of us has been gone - Chris leaves for Asia on Thursday for 2\nweeks - it's a nonstop whirlwind of travel!\n\nThanksgiving should be fun . . . what shall we bring?     Is there any sort\nof a plan for Friday?\n\nI had my monthly doctor's appointment today:  the baby is still in there and\nher mom is getting very fat!\n\nI have really enjoyed my Halloween nutcracker this season!      Love, Cara\n\nCara White\nCommunity Development Coordinator\nUSTA Texas Section\n1-888-883-6388\ncWhite@texas.usta.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 4,
+      "end": 7,
+      "text": "Sal",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 8,
+      "text": "Hi, Sal.",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1343,
+      "text": "Hi, Sal.  Just saying hello.  Hope your interviews at OU went well.   You\nare quite the interviewing queen!  Maybe you should write a book (or\narticle) sometime on \"Keys to Snagging the Right Employee!\".\n\nGood news about Dad, huh?   So glad you were able to get him to see your\ndoctor to start the ball rolling on finding new answers for him.   It is a\nlot of work to find the right answers for our healthcare!\n\nWe are starting to think more about the baby's room . . .  I think we're\nleaning towards using your bed, if that's still okay.   Did you say that the\nchanging table would be available, too?  Is it light wood also?\nI think we will probably get our own bed linens - but what do your look\nlike?   Boyish?   Do you think it's better to use a rocker or a glider?\n\nSorry we didn't make it for a fall trip.   It seems that almost every\nweekend one of us has been gone - Chris leaves for Asia on Thursday for 2\nweeks - it's a nonstop whirlwind of travel!\n\nThanksgiving should be fun . . . what shall we bring?     Is there any sort\nof a plan for Friday?\n\nI had my monthly doctor's appointment today:  the baby is still in there and\nher mom is getting very fat!\n\nI have really enjoyed my Halloween nutcracker this season!      Love, Cara\n\nCara White\nCommunity Development Coordinator\nUSTA Texas Section\n1-888-883-6388\ncWhite@texas.usta.com\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1242,
+      "end": 1252,
+      "text": "Cara White",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1236,
+      "end": 1240,
+      "text": "Cara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1230,
+      "end": 1240,
+      "text": "Love, Cara",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1253,
+      "end": 1286,
+      "text": "Community Development Coordinator",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1287,
+      "end": 1305,
+      "text": "USTA Texas Section",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1306,
+      "end": 1320,
+      "text": "1-888-883-6388",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1321,
+      "end": 1342,
+      "text": "cWhite@texas.usta.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 9,
+      "target": 8,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 7,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 8,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 10,
+      "target": 4,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25276265.1075855890113.JavaMail.evans@thyme>",
+      "Date": "Wed, 1 Nov 2000 07:09:00 -0800 (PST)",
+      "From": "cwhite@texas.usta.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "hi and things",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"White, Cara\" <CWhite@texas.usta.com>",
+      "X-To": "\"'sally.beck@enron.com'\" <sally.beck@enron.com>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\Personal",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_personal_24.txt"
+}

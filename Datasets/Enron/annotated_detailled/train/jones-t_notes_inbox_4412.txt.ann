@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/jones-t_notes_inbox_4412.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<26441755.1075847439337.JavaMail.evans@thyme>",
+      "Date": "Tue, 1 May 2001 01:42:00 -0700 (PDT)",
+      "From": "stephanie.panus@enron.com",
+      "To": "bob.bowen@enron.com, laurel.adams@enron.com, andrea.guillen@enron.com, \n\tlarry.hunter@enron.com, gordon.heaney@enron.com, \n\tjanie.aguayo@enron.com, derek.bailey@enron.com, \n\tdiane.anderson@enron.com, scott.tackett@enron.com, \n\tceleste.cisneros@enron.com, kimberly.allen@enron.com, \n\tjulie.brewer@enron.com, jason.fischer@enron.com, \n\tjorge.garcia@enron.com, kimberly.hundl@enron.com, \n\tbianca.ornelas@enron.com, melissa.murphy@enron.com, \n\tdianne.seib@enron.com, kim.theriot@enron.com, jean.bell@enron.com, \n\tsharen.cason@enron.com, melinda.whalen@enron.com, \n\tstephanie.piwetz@enron.com, melissa.rodriguez@enron.com, \n\ttiffany.williams@enron.com, william.bradford@enron.com, \n\tdebbie.brackett@enron.com, tanya.rohauer@enron.com, \n\tbrant.reves@enron.com, russell.diamond@enron.com, \n\tlesli.campbell@enron.com, wendi.lebrocq@enron.com, \n\tedward.sacks@enron.com, veronica.espinoza@enron.com, \n\tveronica.gonzalez@enron.com, paul.radous@enron.com, \n\tjason.williams@enron.com, rudwell.johnson@enron.com, \n\tdarren.vanek@enron.com, aparna.rajaram@enron.com, \n\twendy.conwell@enron.com, ken.curry@enron.com, tom.moran@enron.com, \n\tnidia.mendoza@enron.com, angela.brown@enron.com, \n\tmarilyn.colbert@enron.com, diane.ellstrom@enron.com, \n\tlynn.shivers@enron.com, bill.hare@enron.com, leslie.reeves@enron.com, \n\tjason.moore@enron.com, samuel.schott@enron.com, \n\tanthony.campos@enron.com, bernice.rodriguez@enron.com, \n\tdale.neuner@enron.com, karen.lambert@enron.com, \n\tfrank.davis@enron.com, carrie.southard@enron.com, \n\tamber.ebow@enron.com, stacey.richardson@enron.com, \n\tlisa.lees@enron.com, camille.gerard@enron.com, \n\tgeorgi.landau@enron.com, cheryl.johnson@enron.com, \n\tstephanie.sever@enron.com, sharon.crawford@enron.com, \n\tlinda.sietzema@enron.com",
+      "Subject": "Legal out of office",
+      "Cc": "brent.hendry@enron.com, sara.shackleton@enron.com, mark.taylor@enron.com, \n\tcarol.clair@enron.com, susan.bailey@enron.com, mary.cook@enron.com, \n\ttana.jones@enron.com, francisco.leite@enron.com, \n\tcheryl.nelson@enron.com, frank.sayre@enron.com, \n\tanne.koehler@enron.com, angela.davis@enron.com, \n\tholly.keiser@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "brent.hendry@enron.com, sara.shackleton@enron.com, mark.taylor@enron.com, \n\tcarol.clair@enron.com, susan.bailey@enron.com, mary.cook@enron.com, \n\ttana.jones@enron.com, francisco.leite@enron.com, \n\tcheryl.nelson@enron.com, frank.sayre@enron.com, \n\tanne.koehler@enron.com, angela.davis@enron.com, \n\tholly.keiser@enron.com",
+      "X-From": "Stephanie Panus",
+      "X-To": "Bob Bowen, Laurel Adams, Andrea R Guillen, Larry Joe Hunter, Gordon Heaney, Janie Aguayo, Derek Bailey, Diane Anderson, Scott Tackett, Celeste Cisneros, Kimberly Allen, Julie Brewer, Jason Fischer, Jorge A Garcia, Kimberly Hundl, Bianca Ornelas, Melissa Ann Murphy, Dianne Seib, Kim S Theriot, Jean Bell, Sharen Cason, Melinda Whalen, Stephanie Piwetz, Melissa Rodriguez, Tiffany Williams, William S Bradford, Debbie R Brackett, Tanya Rohauer, Brant Reves, Russell Diamond, Lesli Campbell, Wendi LeBrocq, Edward Sacks, Veronica Espinoza, Veronica Gonzalez, Paul Radous, Jason R Williams, Rudwell Johnson, Darren Vanek, Aparna Rajaram, Wendy Conwell, Ken Curry, Tom Moran, Nidia Mendoza, Angela Y Brown, Marilyn Colbert, Diane Ellstrom, Lynn E Shivers, Bill D Hare, Leslie Reeves, Jason Moore, Samuel Schott, Anthony Campos, Bernice Rodriguez, Dale Neuner, Karen Lambert, Frank L Davis, Carrie Southard, Amber Ebow, Stacey Richardson, Lisa Lees, Camille Gerard, Georgi Landau, Cheryl Johnson, Stephanie Sever, Sharon Crawford, Linda Sietzema",
+      "X-cc": "Brent Hendry, Sara Shackleton, Mark Taylor, Carol St Clair, Susan Bailey, Mary Cook, Tana Jones, Francisco Pinto Leite, Cheryl Nelson, Frank Sayre, Anne C Koehler, Angela Davis, Holly Keiser",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "text": "FYI -\n\nThe legal team will be out of town at the Enron Corp. Legal Conference \nbeginning at 12:00 noon on Wednesday, May 2 through Friday, May 4.  We will \nreturn to the office on Monday, May 7.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 194,
+      "text": "FYI -\n\nThe legal team will be out of town at the Enron Corp. Legal Conference \nbeginning at 12:00 noon on Wednesday, May 2 through Friday, May 4.  We will \nreturn to the office on Monday, May 7.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

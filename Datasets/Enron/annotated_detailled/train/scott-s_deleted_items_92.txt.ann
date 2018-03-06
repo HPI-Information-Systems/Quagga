@@ -1,0 +1,226 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm sending the evite out right now....don't forget,\nthough, since it is a couple of weeks away.\nLisa.A.Thielemann@chase.com wrote:\n>\n> Ok, I think by a unanimous vote, we should do\n> Tasters on January 14th and\n> we should go to The Daily Review.  Let's meet at\n> 7:30.  Sarah Berry, do you\n> want to do an evite so everyone can RSVP - then we\n> will know how many to\n> make reservations for.\n>\n> Also, Nancy, Julianna and Courtney - will you send\n> me your birthdate?\n>\n> Can't wait to see you guys!\n>\n> Lisa\n>\n>\n>\n>\n>\n>\n>\n> Ashleastu@aol.com on 01/02/2002 07:32:08 PM\n>\n>\n>\n> To:   <sarah_c_buck@hotmail.com>, Lisa A\n> Thielemann/JPMCHASE@CHASE,\n>       <sarahberry819@yahoo.com>,\n> <maryrebecca.harp@reliant.com>,\n>       <julianna.grisham@halliburton.com>,\n> <cvotaw@yahoo.com>,\n>       <stephanie_withers@hotmail.com>,\n> <sscott5@enron.com>,\n>       <nancy.marr@ey.com>\n> cc:\n> Subject:  Re: Jan Tasters\n>\n>\n> Either of those dates are fine with me. I have been\n> to the Daily Review and\n> it was pretty good. There's also Cheesecake Factory,\n> Raven Grill, Amazon\n> Grill, Little Maggiano's.....\n>\n> Which Monday night does everyone want to go?\n>\n>\n>\n>\n\n\n__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 97,
+      "text": "I'm sending the evite out right now....don't forget,\nthough, since it is a couple of weeks away.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 97,
+      "end": 124,
+      "text": "Lisa.A.Thielemann@chase.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 97,
+      "end": 132,
+      "text": "Lisa.A.Thielemann@chase.com wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 132,
+      "end": 525,
+      "text": ">\n> Ok, I think by a unanimous vote, we should do\n> Tasters on January 14th and\n> we should go to The Daily Review.  Let's meet at\n> 7:30.  Sarah Berry, do you\n> want to do an evite so everyone can RSVP - then we\n> will know how many to\n> make reservations for.\n>\n> Also, Nancy, Julianna and Courtney - will you send\n> me your birthdate?\n>\n> Can't wait to see you guys!\n>\n> Lisa\n>\n>\n>\n>\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 506,
+      "end": 510,
+      "text": "Lisa",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 472,
+      "end": 511,
+      "text": "> Can't wait to see you guys!\n>\n> Lisa\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 527,
+      "end": 544,
+      "text": "Ashleastu@aol.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 548,
+      "end": 558,
+      "text": "01/02/2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 559,
+      "end": 570,
+      "text": "07:32:08 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 586,
+      "end": 610,
+      "text": "sarah_c_buck@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 613,
+      "end": 619,
+      "text": "Lisa A",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 622,
+      "end": 632,
+      "text": "Thielemann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 658,
+      "end": 681,
+      "text": "sarahberry819@yahoo.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 687,
+      "end": 715,
+      "text": "maryrebecca.harp@reliant.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 727,
+      "end": 759,
+      "text": "julianna.grisham@halliburton.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 765,
+      "end": 781,
+      "text": "cvotaw@yahoo.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 793,
+      "end": 822,
+      "text": "stephanie_withers@hotmail.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 828,
+      "end": 845,
+      "text": "sscott5@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 857,
+      "end": 874,
+      "text": "nancy.marr@ey.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 894,
+      "end": 909,
+      "text": "Re: Jan Tasters",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 525,
+      "end": 910,
+      "text": "> Ashleastu@aol.com on 01/02/2002 07:32:08 PM\n>\n>\n>\n> To:   <sarah_c_buck@hotmail.com>, Lisa A\n> Thielemann/JPMCHASE@CHASE,\n>       <sarahberry819@yahoo.com>,\n> <maryrebecca.harp@reliant.com>,\n>       <julianna.grisham@halliburton.com>,\n> <cvotaw@yahoo.com>,\n>       <stephanie_withers@hotmail.com>,\n> <sscott5@enron.com>,\n>       <nancy.marr@ey.com>\n> cc:\n> Subject:  Re: Jan Tasters\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1162,
+      "end": 1300,
+      "text": "__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 910,
+      "end": 1300,
+      "text": ">\n>\n> Either of those dates are fine with me. I have been\n> to the Daily Review and\n> it was pretty good. There's also Cheesecake Factory,\n> Raven Grill, Amazon\n> Grill, Little Maggiano's.....\n>\n> Which Monday night does everyone want to go?\n>\n>\n>\n>\n\n\n__________________________________________________\nDo You Yahoo!?\nSend FREE video emails in Yahoo! Mail!\nhttp://promo.yahoo.com/videomail/",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 12,
+      "target": 11,
+      "type": "BelongsTo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<21998850.1075861112582.JavaMail.evans@thyme>",
+      "Date": "Sat, 5 Jan 2002 11:46:29 -0800 (PST)",
+      "From": "sarahberry819@yahoo.com",
+      "To": "lisa.a.thielemann@chase.com, ashleastu@aol.com, sarah_c_buck@hotmail.com, \n\tsarahberry819@yahoo.com, maryrebecca.harp@reliant.com, \n\tjulianna.grisham@halliburton.com, cvotaw@yahoo.com, \n\tstephanie_withers@hotmail.com, sscott5@enron.com, nancy.marr@ey.com",
+      "Subject": "Re: Tasters Date Finalized",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sarah Berry <sarahberry819@yahoo.com>@ENRON",
+      "X-To": "Lisa.A.Thielemann@chase.com, Ashleastu@aol.com, Sarah_c_buck@hotmail.com, Sarahberry819@yahoo.com, maryrebecca.harp@reliant.com, julianna.grisham@halliburton.com, cvotaw@yahoo.com, stephanie_withers@hotmail.com, sscott5@enron.com, nancy.marr@ey.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Susan_Scott_Mar2002\\Scott, Susan M.\\Deleted Items",
+      "X-Origin": "Scott-S",
+      "X-FileName": "sscott5 (Non-Privileged).pst"
+    }
+  },
+  "id": "train/scott-s_deleted_items_92.txt"
+}

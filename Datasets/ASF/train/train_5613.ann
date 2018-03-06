@@ -1,0 +1,104 @@
+{
+  "wrapper": "plaintext",
+  "text": "Newest docs:\nhttps://lucene.apache.org/solr/guide/6_6/securing-solr.html\n\n\nOn Wed, 23 Aug 2017 at 19:20, Lars Karlsson <lars.karlsson.sthlm@gmail.com>\nwrote:\n\n> Such setup is not supported, interfering inter node communication, start\n> here on how to secure Solr:\n>\n> https://cwiki.apache.org/confluence/display/solr/Securing+Solr\n>\n> On Wed, 23 Aug 2017 at 14:41, Scott Stults <\n> sstults@opensourceconnections.com> wrote:\n>\n>> Radhakrishnan,\n>>\n>> I'm not sure offhand whether or not that's possible. It sounds like you've\n>> done enough analysis to write a good Jira ticket, so if nobody speaks up\n>> on\n>> the mailing list, go ahead and create one.\n>>\n>>\n>> Cheers,\n>> Scott\n>>\n>> On Tue, Aug 22, 2017 at 7:15 PM, radha krishnan <\n>> dradhakrishnan24@gmail.com>\n>> wrote:\n>>\n>> > Hi,\n>> >\n>> > I enabled jetty basic auth for solr by making changes to jetty.xml and\n>> add\n>> > a 'realm.properties'\n>> >\n>> > while basic queries are working, queries involving more than one shard\n>> is\n>> > not working. i went through the code and figured out that in\n>> > HttpShardHandler, there is no provision to specify a username:password\n>> >\n>> > I went through a lot of JIRA's/posts and was not able to figure out\n>> whether\n>> > it is really possible to do.\n>> >\n>> > can we do a distributed operation with jetty base basic auth. can you\n>> > please give share the relevant links so that i can try it out.\n>> >\n>> >\n>> > Thanks,\n>> > Radhakrishnan\n>> >\n>>\n>>\n>>\n>> --\n>> Scott Stults | Founder & Solutions Architect | OpenSource Connections, LLC\n>> | 434.409.2780\n>> http://www.opensourceconnections.com\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 75,
+      "text": "Newest docs:\nhttps://lucene.apache.org/solr/guide/6_6/securing-solr.html\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 75,
+      "end": 158,
+      "text": "On Wed, 23 Aug 2017 at 19:20, Lars Karlsson <lars.karlsson.sthlm@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 158,
+      "end": 333,
+      "text": "\n> Such setup is not supported, interfering inter node communication, start\n> here on how to secure Solr:\n>\n> https://cwiki.apache.org/confluence/display/solr/Securing+Solr\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 333,
+      "end": 424,
+      "text": "> On Wed, 23 Aug 2017 at 14:41, Scott Stults <\n> sstults@opensourceconnections.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 424,
+      "end": 444,
+      "text": ">\n>> Radhakrishnan,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 656,
+      "end": 679,
+      "text": ">>\n>> Cheers,\n>> Scott\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 424,
+      "end": 682,
+      "text": ">\n>> Radhakrishnan,\n>>\n>> I'm not sure offhand whether or not that's possible. It sounds like you've\n>> done enough analysis to write a good Jira ticket, so if nobody speaks up\n>> on\n>> the mailing list, go ahead and create one.\n>>\n>>\n>> Cheers,\n>> Scott\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 682,
+      "end": 776,
+      "text": ">> On Tue, Aug 22, 2017 at 7:15 PM, radha krishnan <\n>> dradhakrishnan24@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 776,
+      "end": 788,
+      "text": ">>\n>> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1407,
+      "end": 1444,
+      "text": ">> >\n>> > Thanks,\n>> > Radhakrishnan\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1458,
+      "end": 1600,
+      "text": ">> --\n>> Scott Stults | Founder & Solutions Architect | OpenSource Connections, LLC\n>> | 434.409.2780\n>> http://www.opensourceconnections.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 776,
+      "end": 1606,
+      "text": ">>\n>> > Hi,\n>> >\n>> > I enabled jetty basic auth for solr by making changes to jetty.xml and\n>> add\n>> > a 'realm.properties'\n>> >\n>> > while basic queries are working, queries involving more than one shard\n>> is\n>> > not working. i went through the code and figured out that in\n>> > HttpShardHandler, there is no provision to specify a username:password\n>> >\n>> > I went through a lot of JIRA's/posts and was not able to figure out\n>> whether\n>> > it is really possible to do.\n>> >\n>> > can we do a distributed operation with jetty base basic auth. can you\n>> > please give share the relevant links so that i can try it out.\n>> >\n>> >\n>> > Thanks,\n>> > Radhakrishnan\n>> >\n>>\n>>\n>>\n>> --\n>> Scott Stults | Founder & Solutions Architect | OpenSource Connections, LLC\n>> | 434.409.2780\n>> http://www.opensourceconnections.com\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5613"
+}

@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/nemec-g_sent_items_101.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<33496476.1075852333633.JavaMail.evans@thyme>",
+      "Date": "Fri, 10 Aug 2001 08:12:49 -0700 (PDT)",
+      "From": "gerald.nemec@enron.com",
+      "To": "kay.young@enron.com",
+      "Subject": "CA Check",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Nemec, Gerald </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GNEMEC>",
+      "X-To": "Young, Kay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kyoung>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\GNEMEC (Non-Privileged)\\Sent Items",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "GNEMEC (Non-Privileged).pst"
+    }
+  },
+  "text": "Sorry to bug you, but I have one more.\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 41,
+      "text": "Sorry to bug you, but I have one more.\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

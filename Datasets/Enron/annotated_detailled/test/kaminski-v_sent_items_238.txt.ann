@@ -1,0 +1,145 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \t\"Khokher, Zeigham\" <zkhokher@ivey.uwo.ca>@ENRON  \nSent:\tTuesday, December 25, 2001 9:08 AM\nTo:\t'vkamins@enron.com'\nSubject:\tre:Happy Holidays\n\nHi Vince:\nJust wanted to wish you Happy Holidays and give you my contact information\nin Canada.\n\nI can be reached at:\nzkhokher@ivey.uwo.ca\n519-661-3220\n\n\nSorry about all that is happening at Enron and hope you are fine.\nWishing you and your all the family all the best.\n\nRegards\nZeigham Khokher\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 38,
+      "end": 54,
+      "text": "Khokher, Zeigham",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 57,
+      "end": 77,
+      "text": "zkhokher@ivey.uwo.ca",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 102,
+      "end": 119,
+      "text": "December 25, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 120,
+      "end": 127,
+      "text": "9:08 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 133,
+      "end": 150,
+      "text": "vkamins@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 161,
+      "end": 178,
+      "text": "re:Happy Holidays",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 179,
+      "text": "\n\n -----Original Message-----\nFrom: \t\"Khokher, Zeigham\" <zkhokher@ivey.uwo.ca>@ENRON  \nSent:\tTuesday, December 25, 2001 9:08 AM\nTo:\t'vkamins@enron.com'\nSubject:\tre:Happy Holidays\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 183,
+      "end": 188,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 180,
+      "end": 190,
+      "text": "Hi Vince:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 459,
+      "end": 474,
+      "text": "Zeigham Khokher",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 451,
+      "end": 475,
+      "text": "Regards\nZeigham Khokher\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 179,
+      "end": 476,
+      "text": "\nHi Vince:\nJust wanted to wish you Happy Holidays and give you my contact information\nin Canada.\n\nI can be reached at:\nzkhokher@ivey.uwo.ca\n519-661-3220\n\n\nSorry about all that is happening at Enron and hope you are fine.\nWishing you and your all the family all the best.\n\nRegards\nZeigham Khokher\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16208504.1075840793988.JavaMail.evans@thyme>",
+      "Date": "Fri, 28 Dec 2001 11:23:36 -0800 (PST)",
+      "From": "j.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "FW: Happy Holidays",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kaminski, Vince J </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VKAMINS>",
+      "X-To": "'vkaminski@aol.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\vkamins\\Sent Items",
+      "X-Origin": "KAMINSKI-V",
+      "X-FileName": "vincent kaminski 1-30-02.pst"
+    }
+  },
+  "id": "test/kaminski-v_sent_items_238.txt"
+}

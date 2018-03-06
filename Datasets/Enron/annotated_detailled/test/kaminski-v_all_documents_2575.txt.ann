@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "Yes,  I sent a reply to Gillian.\n\n--Stinson\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 43,
+      "text": "Stinson",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 34,
+      "end": 44,
+      "text": "--Stinson\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 44,
+      "text": "Yes,  I sent a reply to Gillian.\n\n--Stinson\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7574920.1075856245519.JavaMail.evans@thyme>",
+      "Date": "Mon, 18 Dec 2000 09:49:00 -0800 (PST)",
+      "From": "stinson.gibner@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "Re: Arthur Andersen model validation request",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Stinson Gibner",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_2575.txt"
+}

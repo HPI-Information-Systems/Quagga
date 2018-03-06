@@ -1,0 +1,30 @@
+Yeah, if it is just once a day then you can afford to do an optimize.
+For a more NRT indexing approach, I wouldn't recommend optimize at
+all.
+
+On Thu, Apr 20, 2017 at 5:29 PM, Andrea Gazzarini <gxsubs@gmail.com> wrote:
+> Ok, many thanks
+>
+> I see / read that it should be better to rely on the background merging
+> instead of issuing explicit optimizes, but I think in this case one optimize
+> in a day it shouldn't be a problem.
+>
+> Did I get you correctly?
+>
+> Thanks again,
+> Andrea
+>
+>
+> On 20/04/17 13:17, Shalin Shekhar Mangar wrote:
+>>
+>> Can the client not send an optimize command explicitly after all
+>> indexing/deleting is complete?
+>
+>
+
+
+
+-- 
+Regards,
+Shalin Shekhar Mangar.
+

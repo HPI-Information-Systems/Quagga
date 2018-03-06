@@ -1,0 +1,20 @@
+Hello All,
+
+I am working on a requirement to index field of type JSON (in mongoDB
+collection) in SOLR 5.4.0.
+
+I am using mongo-jdbc-dih which I found on GitHub :
+
+https://github.com/hrishik/solr-mongodb-dih
+
+However I could not find a fieldtype on Apache SOLR wiki page which would
+support JSON datatype in mongoDB.
+
+Can someone please recommend a way to include datatype / fieldtype in SOLR
+schema to support or index JSON data field from mongoDB.
+Thanks.
+
+R​egards,
+
+Abhijit​
+

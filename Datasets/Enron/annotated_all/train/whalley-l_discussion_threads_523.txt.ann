@@ -1,0 +1,49 @@
+{
+  "wrapper": "plaintext",
+  "text": "The enclosed research report is being sent to you from PaineWebber by:\n\n EMERY FINANCIAL GROUP\n\n 713-957-7020\n\n ROCKY.EMERY@PaineWebber.COM\n\nPlease contact them if you have any questions or would like to discuss this \nmaterial.\n\nThe information contained in the attached research report is believed to be \nreliable, but its accuracy is not guaranteed.  PaineWebber Incorporated \nand/or Mitchell Hutchins Asset Management Inc., affiliated companies and/or \ntheir officers, directors, employees or stockholders may at times have a \nposition, including an arbitrage position, in the securities described herein \nand may sell or buy them to or from customers.  These companies may from time \nto time act as a consultant to a company being reported upon.\n\nYou will need the Adobe Acrobat Reader to view this document.  If you don't \nalready have it just click on this link, \nhttp://www.adobe.com/prodindex/acrobat/readstep.html, and follow the \non-screen instructions.  The Acrobat Reader is free of charge.\n\n\n\n - P004302520001110D01.pdf",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1009,
+      "end": 1032,
+      "text": "P004302520001110D01.pdf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1006,
+      "end": 1032,
+      "text": " - P004302520001110D01.pdf",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1032,
+      "text": "The enclosed research report is being sent to you from PaineWebber by:\n\n EMERY FINANCIAL GROUP\n\n 713-957-7020\n\n ROCKY.EMERY@PaineWebber.COM\n\nPlease contact them if you have any questions or would like to discuss this \nmaterial.\n\nThe information contained in the attached research report is believed to be \nreliable, but its accuracy is not guaranteed.  PaineWebber Incorporated \nand/or Mitchell Hutchins Asset Management Inc., affiliated companies and/or \ntheir officers, directors, employees or stockholders may at times have a \nposition, including an arbitrage position, in the securities described herein \nand may sell or buy them to or from customers.  These companies may from time \nto time act as a consultant to a company being reported upon.\n\nYou will need the Adobe Acrobat Reader to view this document.  If you don't \nalready have it just click on this link, \nhttp://www.adobe.com/prodindex/acrobat/readstep.html, and follow the \non-screen instructions.  The Acrobat Reader is free of charge.\n\n\n\n - P004302520001110D01.pdf",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18112762.1075857993415.JavaMail.evans@thyme>",
+      "Date": "Thu, 16 Nov 2000 06:55:00 -0800 (PST)",
+      "From": "rocky.emery@painewebber.com",
+      "Subject": "Portfolio Managers' Spotlight:Novemer 10, 2000",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "ROCKY.EMERY@PaineWebber.COM",
+      "X-To": "",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Lawrence_Whalley_Dec2000\\Notes Folders\\Discussion threads",
+      "X-Origin": "Whalley-L",
+      "X-FileName": "gwhalley.nsf"
+    }
+  },
+  "id": "train/whalley-l_discussion_threads_523.txt"
+}

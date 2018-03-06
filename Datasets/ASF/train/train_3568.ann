@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "No, that is way off, because:\n1. you have no \"tag\" defined.\n   shard and replica can be omitted and they will default to wildcard,\n   but a \"tag\" must be defined.\n2. replica must be an integer or a wildcard.\n\nRegards\nBernd\n\nAm 23.05.2017 um 01:17 schrieb Damien Kamerman:\n> If you want all the replicas for shard1 on the same port then I think the\n> rule is: 'shard:shard1,replica:port:8983'\n> \n> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.de>\n> wrote:\n> \n>> I tried many settings with \"Rule-based Replica Placement\" on Solr 6.5.1\n>> and came to the conclusion that it is not working at all.\n>>\n>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each server).\n>>\n>> The call to create a new collection is\n>> \"http://localhost:8983/solr/admin/collections?action=CREATE&name=boss&\n>> collection.configName=boss_configs&numShards=3&replicationFactor=2&\n>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983\"\n>>\n>> With \"rule=shard:shard1,replica:<2,port:8983\" I expect that shard1 has\n>> only nodes with port 8983 _OR_ it shoud fail due to \"strict mode\" because\n>> the fuzzy operator \"~\" it not set.\n>>\n>> The result of the call is:\n>> shard1 --> server2:7574 / server1:8983\n>> shard2 --> server1:7574 / server3:8983\n>> shard3 --> server2:8983 / server3:7574\n>>\n>> The expected result should be (at least!!!) shard1 --> server_x:8983 /\n>> server_y:8983\n>> where \"_x\" and \"_y\" can be anything between 1 and 3 but must be different.\n>>\n>> I think the problem is somewhere in \"class ReplicaAssigner\" with\n>> \"tryAllPermutations\"\n>> and \"tryAPermutationOfRules\".\n>>\n>> Regards\n>> Bernd\n>>\n> \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 208,
+      "end": 223,
+      "text": "\nRegards\nBernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 224,
+      "text": "No, that is way off, because:\n1. you have no \"tag\" defined.\n   shard and replica can be omitted and they will default to wildcard,\n   but a \"tag\" must be defined.\n2. replica must be an integer or a wildcard.\n\nRegards\nBernd\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 224,
+      "end": 272,
+      "text": "Am 23.05.2017 um 01:17 schrieb Damien Kamerman:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 272,
+      "end": 395,
+      "text": "> If you want all the replicas for shard1 on the same port then I think the\n> rule is: 'shard:shard1,replica:port:8983'\n> \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 395,
+      "end": 478,
+      "text": "> On 22 May 2017 at 18:47, Bernd Fehling <bernd.fehling@uni-bielefeld.de>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1601,
+      "end": 1624,
+      "text": ">>\n>> Regards\n>> Bernd\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 478,
+      "end": 1631,
+      "text": "> \n>> I tried many settings with \"Rule-based Replica Placement\" on Solr 6.5.1\n>> and came to the conclusion that it is not working at all.\n>>\n>> My test setup is 6 nodes on 3 servers (port 8983 and 7574 on each server).\n>>\n>> The call to create a new collection is\n>> \"http://localhost:8983/solr/admin/collections?action=CREATE&name=boss&\n>> collection.configName=boss_configs&numShards=3&replicationFactor=2&\n>> maxShardsPerNode=1&rule=shard:shard1,replica:<2,port:8983\"\n>>\n>> With \"rule=shard:shard1,replica:<2,port:8983\" I expect that shard1 has\n>> only nodes with port 8983 _OR_ it shoud fail due to \"strict mode\" because\n>> the fuzzy operator \"~\" it not set.\n>>\n>> The result of the call is:\n>> shard1 --> server2:7574 / server1:8983\n>> shard2 --> server1:7574 / server3:8983\n>> shard3 --> server2:8983 / server3:7574\n>>\n>> The expected result should be (at least!!!) shard1 --> server_x:8983 /\n>> server_y:8983\n>> where \"_x\" and \"_y\" can be anything between 1 and 3 but must be different.\n>>\n>> I think the problem is somewhere in \"class ReplicaAssigner\" with\n>> \"tryAllPermutations\"\n>> and \"tryAPermutationOfRules\".\n>>\n>> Regards\n>> Bernd\n>>\n> \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3568"
+}

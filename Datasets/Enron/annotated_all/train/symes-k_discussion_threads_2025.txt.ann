@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "The Integrated Solutions Center (ISC) has received recommendations from you=\n,=20\nour eHRonline users, on ways we might improve the time entry process as it=\n=20\nrelates to holiday pay.  Based upon these suggestions, the ISC is=20\nimplementing a new time entry process to record holiday time, which is=20\neffective immediately, beginning with the February 16-28, 2001, time-entry=\n=20\nperiod. =20\n\nHoliday pay for all eligible employees must be entered as =01&Company Obser=\nved=20\nHoliday=018, and the recent company-observed holiday of President=01,s Day =\n(Monday,=20\nFebruary 19, 2001) must be coded =01&Company Observed Holiday=018.  However=\n, if you=01,\nre an employee who works a 12-hour shift schedule, there are no changes to=\n=20\nyour time entry process for Holiday pay.  Please continue to record your=20\nholiday time in the usual manner.\n\nIf you=01,re a salaried, non-exempt employee and you work a holiday, you mu=\nst=20\nenter =01&Company Observed Holiday=018 for that holiday and enter =01&Regul=\nar Work=20\nTime=018 for all hours worked on the holiday to ensure proper payment of=20\novertime for the day. =20\n\nDiscretionary holiday time has been limited to eight (8) hours for all=20\neligible employees, per the Enron Policy on Work Hours/Holidays/Vacation (<\nhttp://hrweb.enron.com/policyandprocedure/docs/12-hours.pdf>).   eHRonline=\n=20\nwill not allow you to record more than eight (8) hours per calendar year=20\nunder the =01&Discretionary Holiday=018 time-entry code. =20\n\nDetailed instructions on coding holiday time are available within SAP=20\neHRonline Process Bulletin HR -01-04, which can be accesed through the=20\nfollowing link: =20\nhttp://sap.enron.com/sap_doclib/user/file_list.asp?cabinet_id=3D145.\n\nIf you have questions regarding this new eHRonline functionality, please=20\ncontact the ISC Call Center at (713) 345-4SAP (4727).  Questions about the=\n=20\nEnron Policy on Work Hours/Holidays/Vacation should be directed to your Hum=\nan=20\nResources representative.\n\nThank you.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 1997,
+      "end": 2007,
+      "text": "Thank you.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2007,
+      "text": "The Integrated Solutions Center (ISC) has received recommendations from you=\n,=20\nour eHRonline users, on ways we might improve the time entry process as it=\n=20\nrelates to holiday pay.  Based upon these suggestions, the ISC is=20\nimplementing a new time entry process to record holiday time, which is=20\neffective immediately, beginning with the February 16-28, 2001, time-entry=\n=20\nperiod. =20\n\nHoliday pay for all eligible employees must be entered as =01&Company Obser=\nved=20\nHoliday=018, and the recent company-observed holiday of President=01,s Day =\n(Monday,=20\nFebruary 19, 2001) must be coded =01&Company Observed Holiday=018.  However=\n, if you=01,\nre an employee who works a 12-hour shift schedule, there are no changes to=\n=20\nyour time entry process for Holiday pay.  Please continue to record your=20\nholiday time in the usual manner.\n\nIf you=01,re a salaried, non-exempt employee and you work a holiday, you mu=\nst=20\nenter =01&Company Observed Holiday=018 for that holiday and enter =01&Regul=\nar Work=20\nTime=018 for all hours worked on the holiday to ensure proper payment of=20\novertime for the day. =20\n\nDiscretionary holiday time has been limited to eight (8) hours for all=20\neligible employees, per the Enron Policy on Work Hours/Holidays/Vacation (<\nhttp://hrweb.enron.com/policyandprocedure/docs/12-hours.pdf>).   eHRonline=\n=20\nwill not allow you to record more than eight (8) hours per calendar year=20\nunder the =01&Discretionary Holiday=018 time-entry code. =20\n\nDetailed instructions on coding holiday time are available within SAP=20\neHRonline Process Bulletin HR -01-04, which can be accesed through the=20\nfollowing link: =20\nhttp://sap.enron.com/sap_doclib/user/file_list.asp?cabinet_id=3D145.\n\nIf you have questions regarding this new eHRonline functionality, please=20\ncontact the ISC Call Center at (713) 345-4SAP (4727).  Questions about the=\n=20\nEnron Policy on Work Hours/Holidays/Vacation should be directed to your Hum=\nan=20\nResources representative.\n\nThank you.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3546299.1075841815016.JavaMail.evans@thyme>",
+      "Date": "Wed, 28 Feb 2001 05:08:00 -0800 (PST)",
+      "From": "enron.announcements@enron.com",
+      "To": "all.states@enron.com",
+      "Subject": "Integrated Solutions Center Announces New Method of Coding Holiday\n Time in eHRonline",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "Enron Announcements",
+      "X-To": "All Enron Employees United States",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Discussion threads",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_discussion_threads_2025.txt"
+}

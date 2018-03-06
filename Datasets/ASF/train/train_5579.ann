@@ -1,0 +1,248 @@
+{
+  "wrapper": "plaintext",
+  "text": "righto,\n\nthanks very much for your help clarifying this. I am not alone :)\n\nI have been looking at this for a few days now.\n\nI am seeing people who have experienced this issue going back to solr\nversion 4.x.\n\nI am wondering if it is an underlying issue with the way the q is managed.\n\nI would think that it should not be able to be put into a state that is not\nrecoverable except destructively.\n\nIf you have a very active  solr cluster this could cause data loss I am\nthinking.\n\n\n\n\n\n\n--\nThanks,\n\nJeff Courtade\nM: 240.507.6116\n\nOn Tue, Aug 22, 2017 at 1:14 PM, Hendrik Haddorp <hendrik.haddorp@gmx.net>\nwrote:\n\n> - stop all solr nodes\n> - start zk with the new jute.maxbuffer setting\n> - start a zk client, like zkCli, with the changed jute.maxbuffer setting\n> and check that you can read out the overseer queue\n> - clear the queue\n> - restart zk with the normal settings\n> - slowly start solr\n>\n> On 22.08.2017 15:27, Jeff Courtade wrote:\n>\n>> I set jute.maxbuffer on the so hosts should this be done to solr as well?\n>>\n>> Mine is happening in a severely memory constrained end as well.\n>>\n>> Jeff Courtade\n>> M: 240.507.6116\n>>\n>> On Aug 22, 2017 8:53 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>> wrote:\n>>\n>> We have Solr and ZK running in Docker containers. There is no more then\n>>> one Solr/ZK node per host but Solr and ZK node can run on the same host.\n>>> So\n>>> Solr and ZK are spread out separately.\n>>>\n>>> I have not seen this problem during normal processing just when we\n>>> recycle\n>>> nodes or when we have nodes fail, which is pretty much always caused by\n>>> being out of memory, which again is unfortunately a bit complex in\n>>> Docker.\n>>> When nodes come up they add quite a few tasks to the overseer queue. I\n>>> assume one task for every core. We have about 2000 cores on each node. If\n>>> nodes come up too fast the queue might grow to a few thousand entries. At\n>>> maybe 10000 entries it usually reaches the point of no return and Solr is\n>>> just added more tasks then it is able to process. So it's best to pull\n>>> the\n>>> plug at that point as you will not have to play with jute.maxbuffer to\n>>> get\n>>> Solr up again.\n>>>\n>>> We are using Solr 6.3. There is some improvements in 6.6:\n>>>      https://issues.apache.org/jira/browse/SOLR-10524\n>>>      https://issues.apache.org/jira/browse/SOLR-10619\n>>>\n>>> On 22.08.2017 14:41, Jeff Courtade wrote:\n>>>\n>>> Thanks very much.\n>>>>\n>>>> I will followup when we try this.\n>>>>\n>>>> Im curious in the env this is happening to you.... are the zookeeper\n>>>> servers residing on solr nodes? Are the solr nodes underpowered ram and\n>>>> or\n>>>> cpu?\n>>>>\n>>>> Jeff Courtade\n>>>> M: 240.507.6116\n>>>>\n>>>> On Aug 22, 2017 8:30 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>>>> wrote:\n>>>>\n>>>> I'm always using a small Java program to delete the nodes directly. I\n>>>>\n>>>>> assume you can also delete the whole node but that is nothing I have\n>>>>> tried\n>>>>> myself.\n>>>>>\n>>>>> On 22.08.2017 14:27, Jeff Courtade wrote:\n>>>>>\n>>>>> So ...\n>>>>>\n>>>>>> Using the zkCli.sh i have the jute.maxbuffer setup so I can list\nit\n>>>>>> now.\n>>>>>>\n>>>>>> Can I\n>>>>>>\n>>>>>>     rmr /overseer/queue\n>>>>>>\n>>>>>> Or do i need to delete individual entries?\n>>>>>>\n>>>>>> Will\n>>>>>>\n>>>>>> rmr /overseer/queue/*\n>>>>>>\n>>>>>> work?\n>>>>>>\n>>>>>>\n>>>>>>\n>>>>>>\n>>>>>> Jeff Courtade\n>>>>>> M: 240.507.6116\n>>>>>>\n>>>>>> On Aug 22, 2017 8:20 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>>>>>> wrote:\n>>>>>>\n>>>>>> When Solr is stopped it did not cause a problem so far.\n>>>>>>\n>>>>>> I cleared the queue also a few times while Solr was still running.\n>>>>>>> That\n>>>>>>> also didn't result in a real problem but some replicas might\nnot come\n>>>>>>> up\n>>>>>>> again. In those case it helps to either restart the node with\nthe\n>>>>>>> replicas\n>>>>>>> that are in state \"down\" or to remove the failed replica and\nthen\n>>>>>>> recreate\n>>>>>>> it. But as said, clearing it when Solr is stopped worked fine\nso far.\n>>>>>>>\n>>>>>>> On 22.08.2017 14:03, Jeff Courtade wrote:\n>>>>>>>\n>>>>>>> How does the cluster react to the overseer q entries disapeering?\n>>>>>>>\n>>>>>>>\n>>>>>>>> Jeff Courtade\n>>>>>>>> M: 240.507.6116\n>>>>>>>>\n>>>>>>>> On Aug 22, 2017 8:01 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net\n>>>>>>>> >\n>>>>>>>> wrote:\n>>>>>>>>\n>>>>>>>> Hi Jeff,\n>>>>>>>>\n>>>>>>>> we ran into that a few times already. We have lots of collections\n>>>>>>>> and\n>>>>>>>>\n>>>>>>>>> when\n>>>>>>>>> nodes get started too fast the overseer queue grows faster\nthen\n>>>>>>>>> Solr\n>>>>>>>>> can\n>>>>>>>>> process it. At some point Solr tries to redo things like\nleaders\n>>>>>>>>> votes\n>>>>>>>>> and\n>>>>>>>>> adds new tasks to the list, which then gets longer and\nlonger. Once\n>>>>>>>>> it\n>>>>>>>>> is\n>>>>>>>>> too long you can not read out the data anymore but Solr\nis still\n>>>>>>>>> adding\n>>>>>>>>> tasks. In case you already reached that point you have\nto start\n>>>>>>>>> ZooKeeper\n>>>>>>>>> and the ZooKeeper client with and increased \"jute.maxbuffer\"\n>>>>>>>>> value. I\n>>>>>>>>> usually double it until I can read out the queue again.\nAfter that\n>>>>>>>>> I\n>>>>>>>>> delete\n>>>>>>>>> all entries in the queue and then start the Solr nodes\none by one,\n>>>>>>>>> like\n>>>>>>>>> every 5 minutes.\n>>>>>>>>>\n>>>>>>>>> regards,\n>>>>>>>>> Hendrik\n>>>>>>>>>\n>>>>>>>>> On 22.08.2017 13:42, Jeff Courtade wrote:\n>>>>>>>>>\n>>>>>>>>> Hi,\n>>>>>>>>>\n>>>>>>>>> I have an issue with what seems to be a blocked up /overseer/queue\n>>>>>>>>>\n>>>>>>>>>> There are 700k + entries.\n>>>>>>>>>>\n>>>>>>>>>> Solr cloud 6.x\n>>>>>>>>>>\n>>>>>>>>>> You cannot addreplica or deletereplica the commands\ntime out.\n>>>>>>>>>>\n>>>>>>>>>> Full stop and start of solr and zookeeper does not\nclear it.\n>>>>>>>>>>\n>>>>>>>>>> Is it safe to use the zookeeper supplied zkCli.sh\nto simple rmr\n>>>>>>>>>> the\n>>>>>>>>>> /overseer/queue ?\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>> Jeff Courtade\n>>>>>>>>>> M: 240.507.6116\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 484,
+      "end": 510,
+      "text": "--\nThanks,\n\nJeff Courtade\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 527,
+      "text": "righto,\n\nthanks very much for your help clarifying this. I am not alone :)\n\nI have been looking at this for a few days now.\n\nI am seeing people who have experienced this issue going back to solr\nversion 4.x.\n\nI am wondering if it is an underlying issue with the way the q is managed.\n\nI would think that it should not be able to be put into a state that is not\nrecoverable except destructively.\n\nIf you have a very active  solr cluster this could cause data loss I am\nthinking.\n\n\n\n\n\n\n--\nThanks,\n\nJeff Courtade\nM: 240.507.6116\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 527,
+      "end": 609,
+      "text": "On Tue, Aug 22, 2017 at 1:14 PM, Hendrik Haddorp <hendrik.haddorp@gmx.net>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 609,
+      "end": 895,
+      "text": "\n> - stop all solr nodes\n> - start zk with the new jute.maxbuffer setting\n> - start a zk client, like zkCli, with the changed jute.maxbuffer setting\n> and check that you can read out the overseer queue\n> - clear the queue\n> - restart zk with the normal settings\n> - slowly start solr\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 895,
+      "end": 939,
+      "text": "> On 22.08.2017 15:27, Jeff Courtade wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1088,
+      "end": 1127,
+      "text": ">>\n>> Jeff Courtade\n>> M: 240.507.6116\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 939,
+      "end": 1130,
+      "text": ">\n>> I set jute.maxbuffer on the so hosts should this be done to solr as well?\n>>\n>> Mine is happening in a severely memory constrained end as well.\n>>\n>> Jeff Courtade\n>> M: 240.507.6116\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1130,
+      "end": 1212,
+      "text": ">> On Aug 22, 2017 8:53 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2343,
+      "end": 2389,
+      "text": ">>> On 22.08.2017 14:41, Jeff Courtade wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1212,
+      "end": 2343,
+      "text": ">>\n>> We have Solr and ZK running in Docker containers. There is no more then\n>>> one Solr/ZK node per host but Solr and ZK node can run on the same host.\n>>> So\n>>> Solr and ZK are spread out separately.\n>>>\n>>> I have not seen this problem during normal processing just when we\n>>> recycle\n>>> nodes or when we have nodes fail, which is pretty much always caused by\n>>> being out of memory, which again is unfortunately a bit complex in\n>>> Docker.\n>>> When nodes come up they add quite a few tasks to the overseer queue. I\n>>> assume one task for every core. We have about 2000 cores on each node. If\n>>> nodes come up too fast the queue might grow to a few thousand entries. At\n>>> maybe 10000 entries it usually reaches the point of no return and Solr is\n>>> just added more tasks then it is able to process. So it's best to pull\n>>> the\n>>> plug at that point as you will not have to play with jute.maxbuffer to\n>>> get\n>>> Solr up again.\n>>>\n>>> We are using Solr 6.3. There is some improvements in 6.6:\n>>>      https://issues.apache.org/jira/browse/SOLR-10524\n>>>      https://issues.apache.org/jira/browse/SOLR-10619\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2633,
+      "end": 2678,
+      "text": ">>>>\n>>>> Jeff Courtade\n>>>> M: 240.507.6116\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2389,
+      "end": 2683,
+      "text": ">>>\n>>> Thanks very much.\n>>>>\n>>>> I will followup when we try this.\n>>>>\n>>>> Im curious in the env this is happening to you.... are the zookeeper\n>>>> servers residing on solr nodes? Are the solr nodes underpowered ram and\n>>>> or\n>>>> cpu?\n>>>>\n>>>> Jeff Courtade\n>>>> M: 240.507.6116\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2683,
+      "end": 2769,
+      "text": ">>>> On Aug 22, 2017 8:30 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 2769,
+      "end": 2961,
+      "text": ">>>>\n>>>> I'm always using a small Java program to delete the nodes directly. I\n>>>>\n>>>>> assume you can also delete the whole node but that is nothing I have\n>>>>> tried\n>>>>> myself.\n>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 2961,
+      "end": 3009,
+      "text": ">>>>> On 22.08.2017 14:27, Jeff Courtade wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3332,
+      "end": 3383,
+      "text": ">>>>>>\n>>>>>> Jeff Courtade\n>>>>>> M: 240.507.6116\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 3009,
+      "end": 3390,
+      "text": ">>>>>\n>>>>> So ...\n>>>>>\n>>>>>> Using the zkCli.sh i have the jute.maxbuffer setup so I can list\nit\n>>>>>> now.\n>>>>>>\n>>>>>> Can I\n>>>>>>\n>>>>>>     rmr /overseer/queue\n>>>>>>\n>>>>>> Or do i need to delete individual entries?\n>>>>>>\n>>>>>> Will\n>>>>>>\n>>>>>> rmr /overseer/queue/*\n>>>>>>\n>>>>>> work?\n>>>>>>\n>>>>>>\n>>>>>>\n>>>>>>\n>>>>>> Jeff Courtade\n>>>>>> M: 240.507.6116\n>>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 3390,
+      "end": 3480,
+      "text": ">>>>>> On Aug 22, 2017 8:20 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net>\n>>>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 3480,
+      "end": 4001,
+      "text": ">>>>>>\n>>>>>> When Solr is stopped it did not cause a problem so far.\n>>>>>>\n>>>>>> I cleared the queue also a few times while Solr was still running.\n>>>>>>> That\n>>>>>>> also didn't result in a real problem but some replicas might\nnot come\n>>>>>>> up\n>>>>>>> again. In those case it helps to either restart the node with\nthe\n>>>>>>> replicas\n>>>>>>> that are in state \"down\" or to remove the failed replica and\nthen\n>>>>>>> recreate\n>>>>>>> it. But as said, clearing it when Solr is stopped worked fine\nso far.\n>>>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 4001,
+      "end": 4051,
+      "text": ">>>>>>> On 22.08.2017 14:03, Jeff Courtade wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 4149,
+      "end": 4197,
+      "text": ">>>>>>>> Jeff Courtade\n>>>>>>>> M: 240.507.6116\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 4051,
+      "end": 4206,
+      "text": ">>>>>>>\n>>>>>>> How does the cluster react to the overseer q entries disapeering?\n>>>>>>>\n>>>>>>>\n>>>>>>>> Jeff Courtade\n>>>>>>>> M: 240.507.6116\n>>>>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 4206,
+      "end": 4310,
+      "text": ">>>>>>>> On Aug 22, 2017 8:01 AM, \"Hendrik Haddorp\" <hendrik.haddorp@gmx.net\n>>>>>>>> >\n>>>>>>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 4310,
+      "end": 4337,
+      "text": ">>>>>>>>\n>>>>>>>> Hi Jeff,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 5271,
+      "end": 5318,
+      "text": ">>>>>>>>>\n>>>>>>>>> regards,\n>>>>>>>>> Hendrik\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 4310,
+      "end": 5328,
+      "text": ">>>>>>>>\n>>>>>>>> Hi Jeff,\n>>>>>>>>\n>>>>>>>> we ran into that a few times already. We have lots of collections\n>>>>>>>> and\n>>>>>>>>\n>>>>>>>>> when\n>>>>>>>>> nodes get started too fast the overseer queue grows faster\nthen\n>>>>>>>>> Solr\n>>>>>>>>> can\n>>>>>>>>> process it. At some point Solr tries to redo things like\nleaders\n>>>>>>>>> votes\n>>>>>>>>> and\n>>>>>>>>> adds new tasks to the list, which then gets longer and\nlonger. Once\n>>>>>>>>> it\n>>>>>>>>> is\n>>>>>>>>> too long you can not read out the data anymore but Solr\nis still\n>>>>>>>>> adding\n>>>>>>>>> tasks. In case you already reached that point you have\nto start\n>>>>>>>>> ZooKeeper\n>>>>>>>>> and the ZooKeeper client with and increased \"jute.maxbuffer\"\n>>>>>>>>> value. I\n>>>>>>>>> usually double it until I can read out the queue again.\nAfter that\n>>>>>>>>> I\n>>>>>>>>> delete\n>>>>>>>>> all entries in the queue and then start the Solr nodes\none by one,\n>>>>>>>>> like\n>>>>>>>>> every 5 minutes.\n>>>>>>>>>\n>>>>>>>>> regards,\n>>>>>>>>> Hendrik\n>>>>>>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 5328,
+      "end": 5380,
+      "text": ">>>>>>>>> On 22.08.2017 13:42, Jeff Courtade wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 5380,
+      "end": 5404,
+      "text": ">>>>>>>>>\n>>>>>>>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 5883,
+      "end": 5946,
+      "text": ">>>>>>>>>>\n>>>>>>>>>> Jeff Courtade\n>>>>>>>>>> M: 240.507.6116\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 5380,
+      "end": 6015,
+      "text": ">>>>>>>>>\n>>>>>>>>> Hi,\n>>>>>>>>>\n>>>>>>>>> I have an issue with what seems to be a blocked up /overseer/queue\n>>>>>>>>>\n>>>>>>>>>> There are 700k + entries.\n>>>>>>>>>>\n>>>>>>>>>> Solr cloud 6.x\n>>>>>>>>>>\n>>>>>>>>>> You cannot addreplica or deletereplica the commands\ntime out.\n>>>>>>>>>>\n>>>>>>>>>> Full stop and start of solr and zookeeper does not\nclear it.\n>>>>>>>>>>\n>>>>>>>>>> Is it safe to use the zookeeper supplied zkCli.sh\nto simple rmr\n>>>>>>>>>> the\n>>>>>>>>>> /overseer/queue ?\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>> Jeff Courtade\n>>>>>>>>>> M: 240.507.6116\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>>>>>>>>>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5579"
+}

@@ -1,0 +1,107 @@
+{
+  "wrapper": "plaintext",
+  "text": "I just love the law....\n\n\n\n\nFrom: Roseann Engeldorf on 11/28/2000 03:00 PM\nTo: Kay Mann/Corp/Enron@Enron\ncc:  \n\nSubject: Re: Assignment rev 2  \n\nThat looks really good.  If they want, they can add in the more specific ones \n- ya think?\n\nYou're a draftin' fool.\n\n\n\nRose\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 28,
+      "text": "I just love the law....\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 34,
+      "end": 51,
+      "text": "Roseann Engeldorf",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 55,
+      "end": 65,
+      "text": "11/28/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 66,
+      "end": 74,
+      "text": "03:00 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 79,
+      "end": 87,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 121,
+      "end": 141,
+      "text": "Re: Assignment rev 2",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 28,
+      "end": 144,
+      "text": "From: Roseann Engeldorf on 11/28/2000 03:00 PM\nTo: Kay Mann/Corp/Enron@Enron\ncc:  \n\nSubject: Re: Assignment rev 2  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 264,
+      "end": 268,
+      "text": "Rose",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 144,
+      "end": 270,
+      "text": "\nThat looks really good.  If they want, they can add in the more specific ones \n- ya think?\n\nYou're a draftin' fool.\n\n\n\nRose\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3300550.1075846095275.JavaMail.evans@thyme>",
+      "Date": "Tue, 28 Nov 2000 07:03:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "roseann.engeldorf@enron.com",
+      "Subject": "Re: Assignment rev 2",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Roseann Engeldorf",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k__sent_mail_2717.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

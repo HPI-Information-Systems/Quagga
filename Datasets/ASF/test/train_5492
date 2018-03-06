@@ -1,0 +1,162 @@
+Try tachyon.. its less fuss
+
+
+On Fri, 29 Sep 2017 at 8:32 PM lucas.gary@gmail.com <lucas.gary@gmail.com>
+wrote:
+
+> We use S3, there are caveats and issues with that but it can be made to
+> work.
+>
+> If interested let me know and I'll show you our workarounds.  I wouldn't
+> do it naively though, there's lots of potential problems.  If you already
+> have HDFS use that, otherwise all things told it's probably less effort to
+> use S3.
+>
+> Gary
+>
+> On 29 September 2017 at 05:03, Arun Rai <arunkumarrai@gmail.com> wrote:
+>
+>> Or you can try mounting that drive to all node.
+>>
+>> On Fri, Sep 29, 2017 at 6:14 AM Jörn Franke <jornfranke@gmail.com> wrote:
+>>
+>>> You should use a distributed filesystem such as HDFS. If you want to use
+>>> the local filesystem then you have to copy each file to each node.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> > On 29. Sep 2017, at 12:05, Gaurav1809 <gauravhpandya@gmail.com> wrote:
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > Hi All,
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > I have multi node architecture of (1 master,2 workers) Spark cluster,
+>>> the
+>>>
+>>>
+>>> > job runs to read CSV file data and it works fine when run on local mode
+>>>
+>>>
+>>> > (Local(*)).
+>>>
+>>>
+>>> > However, when the same job is ran in cluster mode(Spark://HOST:PORT),
+>>> it is
+>>>
+>>>
+>>> > not able to read it.
+>>>
+>>>
+>>> > I want to know how to reference the files Or where to store them?
+>>> Currently
+>>>
+>>>
+>>> > the CSV data file is on master(from where the job is submitted).
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > Following code works fine in local mode but not in cluster mode.
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > val spark = SparkSession
+>>>
+>>>
+>>> >      .builder()
+>>>
+>>>
+>>> >      .appName("SampleFlightsApp")
+>>>
+>>>
+>>> >      .master("spark://masterIP:7077") // change it to
+>>> .master("local[*])
+>>>
+>>>
+>>> > for local mode
+>>>
+>>>
+>>> >      .getOrCreate()
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> >    val flightDF =
+>>>
+>>>
+>>> > spark.read.option("header",true).csv("/home/username/sampleflightdata")
+>>>
+>>>
+>>> >    flightDF.printSchema()
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > Error: FileNotFoundException: File
+>>> file:/home/username/sampleflightdata does
+>>>
+>>>
+>>> > not exist
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > --
+>>>
+>>>
+>>> > Sent from: http://apache-spark-user-list.1001560.n3.nabble.com/
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>> > ---------------------------------------------------------------------
+>>>
+>>>
+>>> > To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+>>>
+>>>
+>>> >
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> ---------------------------------------------------------------------
+>>>
+>>>
+>>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>
+>>
+>
+>
+> --
+Sent from Gmail Mobile
+

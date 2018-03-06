@@ -1,0 +1,33 @@
+{
+  "wrapper": "enron",
+  "id": "eval/kean-s_archiving_untitled_2290.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<9738057.1075846269494.JavaMail.evans@thyme>",
+      "Date": "Thu, 12 Jun 1997 08:00:00 -0700 (PDT)",
+      "From": "steven.kean@enron.com",
+      "Subject": "Lynn Church - EPSA, in your office.",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "text": "\n(per Tim Brown 202-789-7200)",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 29,
+      "text": "\n(per Tim Brown 202-789-7200)",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

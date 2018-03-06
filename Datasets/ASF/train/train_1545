@@ -1,0 +1,242 @@
+Uhm, actually, If you have copyField from multiple sources into that
+_text_ field, you may be accumulating/duplicating content on update.
+
+Check what happens to the content of that _text_ field when you do
+full-text and then do an attribute update.
+
+If I am right, you may want to have a separate "original_text" field
+that you store and then have your aggregate copyField destination not
+stored.
+
+Regards,
+   Alex.
+----
+http://www.solr-start.com/ - Resources for Solr users, new and experienced
+
+
+On 8 March 2017 at 13:41, Nicolas Bouillon
+<nico2000_be@yahoo.com.invalid> wrote:
+> Guys
+>
+> A BIG thank you, it works perfectly!!!
+>
+> After so much research I finally got my solution working.
+>
+> That was the trick, _text_ is stored and it’s working as expected.
+>
+> Have a very nice day and thanks a lot for your contribution.
+>
+> Really appreciated
+>
+> Nico
+>> On 8 Mar 2017, at 18:26, Nicolas Bouillon <nico2000_be@yahoo.com.INVALID> wrote:
+>>
+>> Hi Erick, Shawn,
+>>
+>> Thx really a lot for your swift reaction, it’s fantastic.
+>> Let me answer both your answers:
+>>
+>> 1) the df entry in solrconfig.xml has not been changed:
+>>
+>> <str name="df">_text_</str>
+>>
+>> 2)when I do a query for full-text search I don’t specify a field, I just enter
+the string I’m looking for in the q parameter:
+>>
+>> Like this: I have a ppt containing the word “Microsoft”that is called “Dynamics
+365 Roadmap”, I do a query on “Microsoft”and it finds the document
+>> After update, it doesn’t find it unless I search for one of my custom fields or
+something in the title like “Dynamics”
+>>
+>> So, my conclusion would be that you suggest I mark “_text_” as stored=true in
+the schema, right?
+>> And reload core or even re-index.
+>>
+>> Thx a bunch
+>>
+>>
+>>
+>>
+>>> On 8 Mar 2017, at 17:46, Erick Erickson <erickerickson@gmail.com> wrote:
+>>>
+>>> bq: I wonder if it won’t be simpler for me to write a custom handler
+>>>
+>>> Probably not, that would be Java too ;)...
+>>>
+>>> OK, back up a bit. You can change your schema such that the full-text
+>>> field _is_ stored, I don't quite know what the default field is from
+>>> memory, but you must be searching against it ;). It sounds like you're
+>>> using the defaults and it's _probably_ _text_. And my guess is that
+>>> you're searching on that field even though you don't specify, see the
+>>> "df" entry in your solrconfig.xml file. There's no reason you can't
+>>> change that to stored="true" (reindex of course).
+>>>
+>>> Nothing that you've mentioned so far looks like it should take
+>>> anything except getting your configurations to be what you need, so
+>>> don't make more work for yourself than you need to ;).
+>>>
+>>> After that, see the link Shawn provided...
+>>>
+>>> Best,
+>>> Erick
+>>>
+>>> On Wed, Mar 8, 2017 at 8:22 AM, Nicolas Bouillon
+>>> <nico2000_be@yahoo.com.invalid> wrote:
+>>>> Hi Erick
+>>>>
+>>>> Thanks a lot for the elaborated answer. Let me give some precisions:
+>>>>
+>>>> 1. I upload the docs using an AJAX post multiform to my server.
+>>>> 2. The PHP target of the post, takes the file and stores it on disk
+>>>> 3. If the file is moved successfully from TEMP files to final destination,
+I then call SOLR as follows:
+>>>>
+>>>> It’s a curl POST request:
+>>>>
+>>>> URL: http://my_server:8983/solr/my_core/update/extract/?" . $fields . "&literal.id="
+. $id . "&filetypes=*&commit=true
+>>>> HEADER: Content-type: multipart/form-data
+>>>> POSTFIELDS: the entire file that has just been stored
+>>>> (BTW, it’s PHP specific but I send a CurlFile in an array as follows: array('myfile'
+=> $cfile)
+>>>>
+>>>> In the URL, the parameter $fields contains the following:
+>>>>
+>>>> $fields = "literal.kref=" . $id . "&literal.ktype=" . $type . "&literal.kattachment="
+. $attachment;
+>>>>
+>>>> Where kref, ktype and kattachment are my custom fields (that I added to the
+schema.xml previously)
+>>>>
+>>>> So, indeed it’s Tika that extracts the info. I didn’t change anything
+to the ExtractHandler.
+>>>>
+>>>> I read about the fact that all fields must be marked as stored=true but:
+>>>>
+>>>> - I checked in the schema, all the fields that matter (Tika default extracted
+fields) and my customer fields are stored=true.
+>>>> - I suppose that the full-text index is not stored in a field? And therefore
+cannot be marked as stored?
+>>>>
+>>>> I manage to upload files and mark my docs with metadata but I have existing
+files where I would like to update my fields (kref, …) without re-extracting and I’d like
+also to allow for re-indexing if needed without overriding my fields.
+>>>>
+>>>> I’m stuck… I wonder if it won’t be simpler for me to write a custom
+handler of some sort but I don’t really program in Java.
+>>>>
+>>>> Cheers
+>>>>
+>>>> Nico
+>>>>
+>>>>> On 8 Mar 2017, at 17:03, Erick Erickson <erickerickson@gmail.com>
+wrote:
+>>>>>
+>>>>> Nico:
+>>>>>
+>>>>> This is the place  for such questions! I'm not quite sure the source
+>>>>> of the docs. When you say you "extract", does that mean you're using
+>>>>> the ExtractingRequestHandler, i.e. uploading PDF or Word etc. to Solr
+>>>>> and letting Tika parse it out? IOW, where is the fulltext coming from?
+>>>>>
+>>>>> For adding tags any time, Solr has "Atomic Updates" that has a couple
+>>>>> of requirements, mainly you have to set stored="true" for all your
+>>>>> fields _except_ the destinations for any <copyField> directives.
+Under
+>>>>> the covers this pulls the stored data from Solr, overlays it with the
+>>>>> new data you've sent and re-indexes it. The expense here is that your
+>>>>> index will increase in size, but storing the data doesn't mean much of
+>>>>> an increase in JVM requirements. That is, say your index doubles in
+>>>>> size. Your JVM heap requirements may increase 5% (and, frankly I doubt
+>>>>> that much, but I've never measured). FWIW, the on-disk size should
+>>>>> increase by roughly 50% of the raw data size. WARNING: "raw data size"
+>>>>> is the size _after_ extraction, so say you're indexing a 1K XML doc
+>>>>> where the tags are taking up .75K. Then the on-disk memory should go
+>>>>> up roughly .125K (50% of .25K)..
+>>>>>
+>>>>> Don't worry about "thousands" of docs ;) On my laptop I index over 1K
+>>>>> Wikipedia articles a second (YMMV of course). Without any particular
+>>>>> tuning. Without sharding. Very often the most expensive part of
+>>>>> indexing is acquiring the data in the first place, i.e. getting it
+>>>>> from a DB or extracting it from Tika. Solr will handle quite a load.
+>>>>>
+>>>>> And, if you're using the ExtractingRequestHandler, I'd seriously think
+>>>>> about moving it to a Client. Here's a Java example:
+>>>>> https://lucidworks.com/2012/02/14/indexing-with-solrj/
+>>>>>
+>>>>> Best,
+>>>>> Erick
+>>>>>
+>>>>> On Wed, Mar 8, 2017 at 7:46 AM, Nicolas Bouillon
+>>>>> <nico2000_be@yahoo.com.invalid> wrote:
+>>>>>> Dear SOLR friends,
+>>>>>>
+>>>>>> I developed a small ERP. I produce PDF documents linked to objects
+in my ERP: invoices, timesheets, contracts, etc...
+>>>>>> I have also the possibility to attach documents to a particular object
+and when I view an invoice for instance, I can see the attached documents.
+>>>>>>
+>>>>>> Until now, I was adding reference to these documents in my DB and
+store docs on the server.
+>>>>>> Still, I found it cumbersome and not flexible enough, so I removed
+the table documents from my DB and decided to use SOLR to add metadata to the documents in
+the index.
+>>>>>>
+>>>>>> Currently, I have the following custom fields:
+>>>>>> - ktype (string): invoice, contract, etc…
+>>>>>> - kattachment (int): 0 or 1
+>>>>>> - kref (int): reference in DB of linked object, ex: 10 (for contract
+10 in DB)
+>>>>>> - ktags (strings, mutifield): free tags, ex: customerX, consulting,
+development
+>>>>>>
+>>>>>> Each time I upload a document, I store in on server and then add
+it to SOLR using "extract" adding the metadata at the same time. It works fine.
+>>>>>>
+>>>>>> I would like now 3 things:
+>>>>>>
+>>>>>> - For existing documents that have not been extracted with metadata
+altogether at upload (documents uploaded before I developed the functionality), I'd like to
+update them with the proper metadata without losing the full-text search
+>>>>>> - Be able to add anytime tags to the ktags field after upload whilst
+keeping full-text search
+>>>>>> - In case I have to re-index, I want to be sure I don't have to restart
+everything from scratch.
+>>>>>>      In a few months, I expect to have thousands of docs in my system....and
+then I'll add emails
+>>>>>>
+>>>>>> I have very little experience in SOLR. I know I can re-perform an
+extract instead of an update when I modify a field but I'm pretty sure it's not the right
+thing to do + performance problems can arise.
+>>>>>>
+>>>>>> What do you suggest me to do?
+>>>>>>
+>>>>>> I thought about storing the metadata linked to each document separately
+(in DB or separate XML file individually or one XML for all) but I'm pretty sure it will be
+very slow after a while.
+>>>>>>
+>>>>>> Thx a lot in advance fro your precious help.
+>>>>>> This is my first message to the user list, please excuse anything
+I may have done wrong…I learn fast, don’t worry..
+>>>>>>
+>>>>>> Regards
+>>>>>>
+>>>>>> Nico
+>>>>>>
+>>>>>> My configuration:
+>>>>>>
+>>>>>> Synology 1511 running DSM 6.1
+>>>>>> Docker container for SOLR using latest stable version
+>>>>>> 1 core called “katalyst” containing index of all documents
+>>>>>>
+>>>>>> ERP is written in PHP/Mysql for backend and Jquery/Bootstrap for
+front-end
+>>>>>>
+>>>>>> I have a test env on OSX Sierra running docker, a prod environment
+on Synology
+>>>>>>
+>>>>>>
+>>>>
+>>
+>
+

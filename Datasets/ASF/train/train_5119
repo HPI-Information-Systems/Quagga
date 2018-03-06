@@ -1,0 +1,41 @@
+You're better off just using one core.  Perhaps think about pre-processing
+the logs to "summarize" them into less "documents"
+I do this and in my situation i summarize things like, user-hits-item, for
+example.  so i find all the times a certain user had hits on a certain item
+in one day and put that into one document.  I have about 4/5 years of http
+logs and it sits at around 265 million documents and 17gb.  so hardly an
+issue for performance
+
+On Fri, Jul 28, 2017 at 10:04 AM, Chellasamy G <chellasamy.g@zohocorp.com>
+wrote:
+
+> Hi,
+>
+>
+>
+> I am working on a log management tool and considering to use solr to
+> index/search the logs.
+>
+> I have few doubts about how to organize or create the cores.
+>
+>
+>
+> The tool  should process 200 million events per day with each event
+> containing 40 to 50 fields. Currently I have planned to create a core per
+> day pushing all the data to the day's core. This may lead to the creation
+> of many cores. Is this a good design? If not please suggest a good
+> design.(Also, if multiple cores are used, will it slowdown the solr
+> process' uptime)
+>
+>
+>
+>
+>
+> Thanks,
+>
+> Satyan
+>
+>
+>
+>
+

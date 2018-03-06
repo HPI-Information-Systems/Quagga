@@ -1,0 +1,58 @@
+Well, 6.4.0 had a pretty severe performance issue so if you were using
+that release you might see this, 6.4.2 is the most recent 6.4 release.
+But I have no clue how changing linux settings would alter that and I
+sure can't square that issue with you having such different
+performance between local and EC2....
+
+But thanks for telling us about this! It's totally baffling
+
+Erick
+
+On Fri, Apr 28, 2017 at 9:09 AM, Jeff Wartes <jwartes@whitepages.com> wrote:
+>
+> tldr: Recently, I tried moving an existing solrcloud configuration from a local datacenter
+to EC2. Performance was roughly 1/10th what I’d expected, until I applied a bunch of linux
+tweaks.
+>
+> This should’ve been a straight port: one datacenter server -> one EC2 node. Solr
+5.4, Solrcloud, Ubuntu xenial. Nodes were sized in both cases such that the entire index could
+be cached in memory, and the JVM settings were identical in both places. I applied what should’ve
+been a comfortable load to the EC2 cluster, and everything exploded. I had to back the rate
+down to something close to 10% of what I had been getting in the datacenter before latency
+improved.
+> Looking around, I was interested to note that under load, user-time CPU usage was being
+shadowed by an almost equal amount of system CPU time. This was not IOWait, but system time.
+Strace showed a bunch of time being spent in futex and restart_syscall, but I couldn’t see
+where to go from there.
+>
+> Interestingly, a coworker playing with a ElasticSearch (ES 5.x, so a much more recent
+release) alternate implementation of the same index was not seeing this high-system-time behavior
+on EC2, and was getting throughput consistent with our general expectations.
+>
+> Eventually, we came across this: http://www.brendangregg.com/blog/2015-03-03/performance-tuning-linux-instances-on-ec2.html
+> In direct opposition to the author’s intent, (something about taking expired medication)
+we applied these settings blindly to see what happened. The difference was breathtaking. The
+system time usage disappeared, and I could apply load at and even a little above my expected
+rates, well within my latency goals.
+>
+> There are a number of settings involved, and we haven’t isolated for sure which ones
+made the biggest difference, but my guess at the moment is that it’s the change of clocksource.
+I think this would be consistent with the observed system time. Note however that using the
+“tsc” clocksource on EC2 is generally discouraged, because it’s possible to get backwards
+clock drift.
+>
+> I’m writing this for a few reasons:
+>
+> 1.       The performance difference was so crazy I really feel like this should really
+be broader knowledge.
+>
+> 2.       If anyone is aware of anything that changed in Lucene between 5.4 and 6.x that
+could explain why Elasticsearch wasn’t suffering from this? If it’s the clocksource that’s
+the issue, there’s an implication that Solr was using tons more system calls like gettimeofday
+that the EC2 (xen) hypervisor doesn’t allow in userspace.
+>
+> 3.       Has anyone run Solr with the “tsc” clocksource, and is aware of any concrete
+issues?
+>
+>
+

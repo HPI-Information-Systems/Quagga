@@ -1,0 +1,64 @@
+Message-ID: <16751315.1075858661640.JavaMail.evans@thyme>
+Date: Sun, 28 Oct 2001 16:40:40 -0800 (PST)
+From: frank.rishe@enron.com
+To: richard.ring@enron.com, alex.hidalgo@enron.com
+Subject: FW: Update Required for National Grid FTP Site Access
+Cc: rebecca.fite@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: rebecca.fite@enron.com
+X-From: Rishe, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=FRISHE>
+X-To: Ring, Richard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rring>, Hidalgo, Alex </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=b2bcfc9e-4a394f3b-6256a00-544f08>
+X-cc: Fite, Rebecca </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=e37f510b-967f074c-862569cb-53c357>, 'tmrukows@csc.com'
+X-bcc: 
+X-Folder: \RRING (Non-Privileged)\Inbox
+X-Origin: Ring-R
+X-FileName: RRING (Non-Privileged)1.pst
+
+B>
+B>FYI - Please distribute to others in your groups as appropriate. - Frank
+B>
+H> -----Original Message-----
+H>From: 	"Yetman, Kathleen" <KATHLEEN.YETMAN@us.ngrid.com>@ENRON  
+H>Sent:	Friday, October 26, 2001 11:42 AM
+H>To:	'frishe@enron.com'
+H>Subject:	Update Required for National Grid FTP Site Access
+B>
+B>
+B>> National Grid is changing Internet Service Providers, and a change may be
+B>> needed to your setup for downloading Massachusetts Electric Default
+B>> Customer Lists.  If the changes described below are not made, you will
+B>> find that you cannot log in to the National Grid FTP server,
+B>> ftp.us.ngrid.com, after this weekend.
+B>>
+B>> The change is straightforward -- you initially received instructions to
+B>> enter the hostname IP address 204.164.80.201 when you installed the FTP
+B>> client (WS_FTP Pro) on your computer.  The change that needs to be made is
+B>> to replace the IP address number with the text ftp.us.ngrid.com.
+B>>
+B>> To update your installation, please do the following:
+B>> *	Start WS_FTP Pro on your computer
+B>> *	When you see the initial directory screen with the WS_FTP sites
+B>> listed, highlight the ftp.us.ngrid.com item with a single click (do not
+B>> double click -- this will take you to the password entry instead of the
+B>> Properties screen noted below)
+B>> *	With the ftp.us.ngrid.com entry highlighted, click the "Properties"
+B>> button on the right hand border of the dialog box
+B>> *	On the "General" tab of the Properties screen, replace the entry in
+B>> the "Host Name/Address" box with the text ftp.us.ngrid.com, (the same as
+B>> the entry in the "Site Name" box)
+B>> *	Click the "OK" button
+B>>
+B>> You should now be able to log in to the site with the current password,
+B>> and future IP address changes by National Grid should not require any
+B>> change to the WS_FTP Pro client setup.
+B>>
+B>>
+B>
+B>
+S>________________________________________________________________________
+S>This e-mail and any files transmitted with it, are confidential to
+S>National Grid and are intended solely for the use of the individual or
+S>entity to whom they are addressed.  If you have received this e-mail in
+S>error, please contact the National Grid USA help desk on 508-389-3375.

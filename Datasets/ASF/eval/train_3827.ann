@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all! I added a S3 bucketing sink operator to my flink job and tried to\nstart it from a savepoint using --allowNonRestoreState option, and it's\nshowing me this error:\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_exception.png>\n\n\nI found on Flink official document saying:\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_state.png>\n\nSo I suppose the restoration should succeed even if the operator number\ndoesn't match. Can someone explain to me why this happens, and what's the\npossible solution?\n\nFYI, some specs:\nFlink version: 1.2.1\nJob parallelism: 10\nS3 sink parallelism: 1\nJob execution graph: \n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/s3_sink_graph.png>\n\n\n\nThanks\n\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Cannot-restore-from-savepoint-after-adding-a-sink-operator-tp14674.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hi all!",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 786,
+      "end": 794,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1062,
+      "text": "Hi all! I added a S3 bucketing sink operator to my flink job and tried to\nstart it from a savepoint using --allowNonRestoreState option, and it's\nshowing me this error:\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_exception.png>\n\n\nI found on Flink official document saying:\n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/flink_state.png>\n\nSo I suppose the restoration should succeed even if the operator number\ndoesn't match. Can someone explain to me why this happens, and what's the\npossible solution?\n\nFYI, some specs:\nFlink version: 1.2.1\nJob parallelism: 10\nS3 sink parallelism: 1\nJob execution graph: \n<http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/file/n14674/s3_sink_graph.png>\n\n\n\nThanks\n\n\n\n\n--\nView this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Cannot-restore-from-savepoint-after-adding-a-sink-operator-tp14674.html\nSent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3827"
+}

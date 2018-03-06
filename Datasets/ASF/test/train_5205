@@ -1,0 +1,15 @@
+Hi All,
+
+I was wondering if we need to checkpoint both read and write streams when
+reading from Kafka and inserting into a target store?
+
+for example
+
+sparkSession.readStream().option("checkpointLocation", "hdfsPath").load()
+
+vs
+
+dataSet.writeStream().option("checkpointLocation", "hdfsPath")
+
+Thanks!
+

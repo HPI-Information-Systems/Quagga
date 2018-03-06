@@ -1,0 +1,389 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Vince,\n\n I am resending you this request by Dr. Jacque for a paper.  They are \nexpecting something by Jan 22.  Should we sit down and decide on what to put \nin a short paper (I think their limit was 30 pages, but that is impossible -- \nI think a few pages should suffice).  \n\nRegards, and happy new year,\n Vasant\n\n---------------------- Forwarded by Vasant Shanbhogue/HOU/ECT on 01/06/2000 \n08:31 AM ---------------------------\n\n\nLaurent Jacque <LJacque@infonet.tufts.edu> on 12/13/99 03:29:26 PM\nPlease respond to LJacque@infonet.tufts.edu\nTo: Vasant Shanbhogue/HOU/ECT@ECT\ncc:  \nSubject: re: Re: Conference Volume\n\n\n\nDear Dr. Shanboghe:\n\n I certainly understand that it would be difficult for you to\ncontribute a chapter. I thought of an alternative: would Dr. Kaminski be\nwilling to allow us to reprint his article (in an abridged form) on \"Energy\nExotic Options\" published in his excellent book \"Managing Energy Price Risk\"\nas I would really like to have a contribution from Enron on energy\nderivatives. Would you be willing to talk to Dr. Kaminski about my proposal ?\n\n In any event I appreciate your interest in the conference and I only\nregret that hurricane Floyd prevented us from meeting in person.\n\n With very best wishes in the New Year/Millenium\n\n Laurent Jacque\n________________________________________\nLaurent L. Jacque\nProfessor\nInternational Finance & Banking\nDirector\nInternational Business Studies Program\nThe Fletcher School of Law and Diplomacy\nTufts University\nMedford, MA  02155\n(617) 627-5982 tel\n(617) 627-3712 fax\nljacque@infonet.tufts.edu\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 8,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Vince,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 309,
+      "end": 315,
+      "text": "Vasant",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 279,
+      "end": 316,
+      "text": "Regards, and happy new year,\n Vasant\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 317,
+      "text": "Hi Vince,\n\n I am resending you this request by Dr. Jacque for a paper.  They are \nexpecting something by Jan 22.  Should we sit down and decide on what to put \nin a short paper (I think their limit was 30 pages, but that is impossible -- \nI think a few pages should suffice).  \n\nRegards, and happy new year,\n Vasant\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 353,
+      "end": 369,
+      "text": "Vasant Shanbhogu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 382,
+      "end": 392,
+      "text": "01/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 394,
+      "end": 402,
+      "text": "08:31 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 317,
+      "end": 431,
+      "text": "---------------------- Forwarded by Vasant Shanbhogue/HOU/ECT on 01/06/2000 \n08:31 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 433,
+      "end": 447,
+      "text": "Laurent Jacque",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 449,
+      "end": 474,
+      "text": "LJacque@infonet.tufts.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 479,
+      "end": 487,
+      "text": "12/13/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 488,
+      "end": 499,
+      "text": "03:29:26 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 518,
+      "end": 543,
+      "text": "LJacque@infonet.tufts.edu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 548,
+      "end": 565,
+      "text": "Vasant Shanbhogue",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 593,
+      "end": 618,
+      "text": "re: Re: Conference Volume",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 431,
+      "end": 619,
+      "text": "\n\nLaurent Jacque <LJacque@infonet.tufts.edu> on 12/13/99 03:29:26 PM\nPlease respond to LJacque@infonet.tufts.edu\nTo: Vasant Shanbhogue/HOU/ECT@ECT\ncc:  \nSubject: re: Re: Conference Volume\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 627,
+      "end": 640,
+      "text": "Dr. Shanboghe",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 622,
+      "end": 642,
+      "text": "Dear Dr. Shanboghe:\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1264,
+      "end": 1278,
+      "text": "Laurent Jacque",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1213,
+      "end": 1279,
+      "text": " With very best wishes in the New Year/Millenium\n\n Laurent Jacque\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1320,
+      "end": 1337,
+      "text": "Laurent L. Jacque",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1338,
+      "end": 1347,
+      "text": "Professor",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1380,
+      "end": 1388,
+      "text": "Director",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1389,
+      "end": 1485,
+      "text": "International Business Studies Program\nThe Fletcher School of Law and Diplomacy\nTufts University",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1348,
+      "end": 1379,
+      "text": "International Finance & Banking",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1486,
+      "end": 1504,
+      "text": "Medford, MA  02155",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1505,
+      "end": 1519,
+      "text": "(617) 627-5982",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1524,
+      "end": 1538,
+      "text": "(617) 627-3712",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1543,
+      "end": 1568,
+      "text": "ljacque@infonet.tufts.edu",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1279,
+      "end": 1569,
+      "text": "________________________________________\nLaurent L. Jacque\nProfessor\nInternational Finance & Banking\nDirector\nInternational Business Studies Program\nThe Fletcher School of Law and Diplomacy\nTufts University\nMedford, MA  02155\n(617) 627-5982 tel\n(617) 627-3712 fax\nljacque@infonet.tufts.edu\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 619,
+      "end": 1569,
+      "text": "\n\n\nDear Dr. Shanboghe:\n\n I certainly understand that it would be difficult for you to\ncontribute a chapter. I thought of an alternative: would Dr. Kaminski be\nwilling to allow us to reprint his article (in an abridged form) on \"Energy\nExotic Options\" published in his excellent book \"Managing Energy Price Risk\"\nas I would really like to have a contribution from Enron on energy\nderivatives. Would you be willing to talk to Dr. Kaminski about my proposal ?\n\n In any event I appreciate your interest in the conference and I only\nregret that hurricane Floyd prevented us from meeting in person.\n\n With very best wishes in the New Year/Millenium\n\n Laurent Jacque\n________________________________________\nLaurent L. Jacque\nProfessor\nInternational Finance & Banking\nDirector\nInternational Business Studies Program\nThe Fletcher School of Law and Diplomacy\nTufts University\nMedford, MA  02155\n(617) 627-5982 tel\n(617) 627-3712 fax\nljacque@infonet.tufts.edu\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 22,
+      "target": 26,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 22,
+      "target": 25,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 23,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 24,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 27,
+      "target": 25,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 28,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 29,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 30,
+      "target": 22,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 22,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 20,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 14,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 15,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 15,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "origin": 6,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<6698211.1075857040694.JavaMail.evans@thyme>",
+      "Date": "Thu, 6 Jan 2000 00:34:00 -0800 (PST)",
+      "From": "vasant.shanbhogue@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "re: Re: Conference Volume",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vasant Shanbhogue",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_9\\Notes Folders\\Conferences",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_conferences_288.txt"
+}

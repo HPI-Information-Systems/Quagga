@@ -1,0 +1,48 @@
+{
+  "wrapper": "plaintext",
+  "text": "Checkout Term Vector component\n\nhttps://wiki.apache.org/solr/TermVectorComponent\n\nOn Thu, Jun 29, 2017 at 10:40 AM, Kaushik <kaushikadya@gmail.com> wrote:\n\n> Hello,\n>\n> We are trying to get the most frequently used words in a collection. My\n> understanding is that using facet.field=content_txt. An e.g. of content_txt\n> value is \"The fox jumped over another fox\". In such a scenario, I am\n> expecting the facet to return with \"fox\" and with a count value of 2.\n> However, we end up getting \"fox\" with a value of 1. It appears we are\n> getting total number of documents that match the query as opposed to the\n> total number of times the word ocurred. How can the latter be achieved?\n>\n> Thanks,\n> AK\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 82,
+      "text": "Checkout Term Vector component\n\nhttps://wiki.apache.org/solr/TermVectorComponent\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 82,
+      "end": 155,
+      "text": "On Thu, Jun 29, 2017 at 10:40 AM, Kaushik <kaushikadya@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 155,
+      "end": 165,
+      "text": "\n> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 683,
+      "end": 700,
+      "text": ">\n> Thanks,\n> AK\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 155,
+      "end": 703,
+      "text": "\n> Hello,\n>\n> We are trying to get the most frequently used words in a collection. My\n> understanding is that using facet.field=content_txt. An e.g. of content_txt\n> value is \"The fox jumped over another fox\". In such a scenario, I am\n> expecting the facet to return with \"fox\" and with a count value of 2.\n> However, we end up getting \"fox\" with a value of 1. It appears we are\n> getting total number of documents that match the query as opposed to the\n> total number of times the word ocurred. How can the latter be achieved?\n>\n> Thanks,\n> AK\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_4451"
+}

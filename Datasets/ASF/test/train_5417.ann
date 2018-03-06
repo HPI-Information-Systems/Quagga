@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_5417",
+  "meta": {},
+  "text": "The Spark on Kubernetes development community is pleased to announce\nrelease 0.4.0 of Apache Spark with native Kubernetes scheduler back-end!\n\nThe dev community is planning to use this release as the reference for\nupstreaming native kubernetes capability over the Spark 2.3 release cycle.\n\nThis release includes a variety of bug fixes and code improvements, as well\nas the following new features:\n\n   - HDFS rack locality support\n   - Mount small files using secrets, without running the resource staging\n   server\n   - Java options exposed to executor pods\n   - User specified secrets injection for driver and executor pods\n   - Unit testing for the Kubernetes scheduler backend\n   - Standardized docker image build scripting\n   - Reference YAML for RBAC configurations\n\nThe full release notes are available here:\nhttps://github.com/apache-spark-on-k8s/spark/releases/tag/v2.2.0-kubernetes-0.4.0\n\nCommunity resources for Spark on Kubernetes are available at:\n\n   - Slack: https://kubernetes.slack.com\n   - User Docs: https://apache-spark-on-k8s.github.io/userdocs/\n   - GitHub: https://github.com/apache-spark-on-k8s/spark\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1125,
+      "text": "The Spark on Kubernetes development community is pleased to announce\nrelease 0.4.0 of Apache Spark with native Kubernetes scheduler back-end!\n\nThe dev community is planning to use this release as the reference for\nupstreaming native kubernetes capability over the Spark 2.3 release cycle.\n\nThis release includes a variety of bug fixes and code improvements, as well\nas the following new features:\n\n   - HDFS rack locality support\n   - Mount small files using secrets, without running the resource staging\n   server\n   - Java options exposed to executor pods\n   - User specified secrets injection for driver and executor pods\n   - Unit testing for the Kubernetes scheduler backend\n   - Standardized docker image build scripting\n   - Reference YAML for RBAC configurations\n\nThe full release notes are available here:\nhttps://github.com/apache-spark-on-k8s/spark/releases/tag/v2.2.0-kubernetes-0.4.0\n\nCommunity resources for Spark on Kubernetes are available at:\n\n   - Slack: https://kubernetes.slack.com\n   - User Docs: https://apache-spark-on-k8s.github.io/userdocs/\n   - GitHub: https://github.com/apache-spark-on-k8s/spark\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "wrapper": "plaintext",
+  "text": "We just received this resume from an agency.   I had just heard this morning \nthat an economist was coming into your group, so I don't know if you are \ninterested or not.    Let me know if I can be of any help.\n\nMolly\n -----Original Message-----\nFrom:  Graham, Toni  \nSent: Thursday, March 08, 2001 2:07 PM\nTo: Magee, Molly\nSubject: FW: Resume for Vince Kaminski\n\n\n\n -----Original Message-----\nFrom:  \"m eastman\" <meastman@qualitec.com>@ENRON \n[mailto:IMCEANOTES-+22m+20eastman+22+20+3Cmeastman+40qualitec+2Ecom+3E+40ENRON\n@ENRON.com] \nSent: Thursday, March 08, 2001 1:53 PM\nTo: Graham, Toni\nSubject: Resume for Vince Kaminski\n\nJohnathan is at 142,000 base + 10-15% bonus. He is a PhD., Certified in\nFinancial Risk Management, awaiting Charter as CFA, and the list goes\non. At KPMG his clients are Financial Institutions, e-commerce, internet,\nand high tech. He has real options valuation and various other financial\nand overall corporate risk valuation and analysis skills that may be of\ninterest to Vince and his group.\n\n             MIKE EASTMAN, CPC - President\n      QUALITEC  PROFESSIONAL  SERVICES, LP\n      Accounting - Financial - Energy Risk - Tax\n                      Search Consultants\n       281-647-9300 ext.314   Fax 281-647-9300\n              email  meastman@qualitec.com\n                  website www.qualitec.com\n - Johnathan Mun.doc",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 212,
+      "end": 217,
+      "text": "Molly",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 218,
+      "text": "We just received this resume from an agency.   I had just heard this morning \nthat an economist was coming into your group, so I don't know if you are \ninterested or not.    Let me know if I can be of any help.\n\nMolly\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 253,
+      "end": 265,
+      "text": "Graham, Toni",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 284,
+      "end": 298,
+      "text": "March 08, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 299,
+      "end": 306,
+      "text": "2:07 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 311,
+      "end": 323,
+      "text": "Magee, Molly",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 333,
+      "end": 362,
+      "text": "FW: Resume for Vince Kaminski",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 218,
+      "end": 363,
+      "text": " -----Original Message-----\nFrom:  Graham, Toni  \nSent: Thursday, March 08, 2001 2:07 PM\nTo: Magee, Molly\nSubject: FW: Resume for Vince Kaminski\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 402,
+      "end": 411,
+      "text": "m eastman",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 414,
+      "end": 435,
+      "text": "meastman@qualitec.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 452,
+      "end": 533,
+      "text": "IMCEANOTES-+22m+20eastman+22+20+3Cmeastman+40qualitec+2Ecom+3E+40ENRON\n@ENRON.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 552,
+      "end": 566,
+      "text": "March 08, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 567,
+      "end": 574,
+      "text": "1:53 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 579,
+      "end": 591,
+      "text": "Graham, Toni",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 601,
+      "end": 626,
+      "text": "Resume for Vince Kaminski",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 363,
+      "end": 627,
+      "text": "\n\n\n -----Original Message-----\nFrom:  \"m eastman\" <meastman@qualitec.com>@ENRON \n[mailto:IMCEANOTES-+22m+20eastman+22+20+3Cmeastman+40qualitec+2Ecom+3E+40ENRON\n@ENRON.com] \nSent: Thursday, March 08, 2001 1:53 PM\nTo: Graham, Toni\nSubject: Resume for Vince Kaminski\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1036,
+      "end": 1048,
+      "text": "MIKE EASTMAN",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1050,
+      "end": 1065,
+      "text": "CPC - President",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1072,
+      "end": 1108,
+      "text": "QUALITEC  PROFESSIONAL  SERVICES, LP",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1115,
+      "end": 1157,
+      "text": "Accounting - Financial - Energy Risk - Tax",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1180,
+      "end": 1198,
+      "text": "Search Consultants",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1335,
+      "end": 1352,
+      "text": "Johnathan Mun.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1332,
+      "end": 1352,
+      "text": " - Johnathan Mun.doc",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1267,
+      "end": 1288,
+      "text": "meastman@qualitec.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1233,
+      "end": 1245,
+      "text": "281-647-9300",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1206,
+      "end": 1218,
+      "text": "281-647-9300",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1023,
+      "end": 1332,
+      "text": "             MIKE EASTMAN, CPC - President\n      QUALITEC  PROFESSIONAL  SERVICES, LP\n      Accounting - Financial - Energy Risk - Tax\n                      Search Consultants\n       281-647-9300 ext.314   Fax 281-647-9300\n              email  meastman@qualitec.com\n                  website www.qualitec.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 627,
+      "end": 1352,
+      "text": "\nJohnathan is at 142,000 base + 10-15% bonus. He is a PhD., Certified in\nFinancial Risk Management, awaiting Charter as CFA, and the list goes\non. At KPMG his clients are Financial Institutions, e-commerce, internet,\nand high tech. He has real options valuation and various other financial\nand overall corporate risk valuation and analysis skills that may be of\ninterest to Vince and his group.\n\n             MIKE EASTMAN, CPC - President\n      QUALITEC  PROFESSIONAL  SERVICES, LP\n      Accounting - Financial - Energy Risk - Tax\n                      Search Consultants\n       281-647-9300 ext.314   Fax 281-647-9300\n              email  meastman@qualitec.com\n                  website www.qualitec.com\n - Johnathan Mun.doc",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 6,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 21,
+      "target": 20,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 9,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 11,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 17,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 18,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 17,
+      "target": 19,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 20,
+      "target": 19,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 26,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 25,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 24,
+      "target": 17,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22363226.1075856618896.JavaMail.evans@thyme>",
+      "Date": "Thu, 8 Mar 2001 06:14:00 -0800 (PST)",
+      "From": "molly.magee@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "FW: Resume for Vince Kaminski",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Molly Magee",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\Resumes",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_resumes_184.txt"
+}

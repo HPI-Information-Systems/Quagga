@@ -1,0 +1,20 @@
+Hi Solr,
+I admit the issue you mentioned has not been transparently solved, and
+indeed you would need to explicitly use the method=uif to get 4.10.1
+behavior.
+
+This is valid if you were using  fc/fcs approaches with high cardinality
+fields.
+
+In the case you facet method is enum ( Term Enumeration), the issue has been
+transparently solved ( 
+https://issues.apache.org/jira/browse/SOLR-9176 )
+
+Cheers
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Upgrade-SOLR-version-facets-perfomance-regression-tp4315027p4315512.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

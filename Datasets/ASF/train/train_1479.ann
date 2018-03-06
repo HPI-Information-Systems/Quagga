@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "The default text field definition (text_general) tokenizes on spaces,\nso - if I understand the question correctly - it should just work. Are\nyou by any chance searching against name field that is defined as\nString (and is not tokenized).\n\nIf you do Solr tutorial, you search on \"ipod\", which seems like a\nsimilar case to me. So, can you start from there? You can just index\nyour own text into the example config for example.\n\nRegards,\n   Alex.\nP.s. If you are coming from Lucene, copyField instruction may be\nslightly confusing. In the examples provided, your text is copied from\nnamed specific fields to text/_text_ field which is actually the\ndefault field searched, using the type definition associated with that\ntext/_text_ field, rather than with the original field.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\nOn 7 March 2017 at 09:30, OTH <omer.t.h.7@gmail.com> wrote:\n> Hello,\n>\n> I am new to Solr.  I am using v. 6.4.1.  I have what is probably a pretty\n> simple question.\n>\n> Let's say I have these documents with the following values in a single\n> field (let's call it \"name\"):\n>\n> Sandoval@company.example.com\n> Sandburg@company.example.com\n> Sands@company.example.com\n> Sancho Landolt\n> Sanders Greenley\n> Sanders Massey\n> Santa Catarina\n> San Carlos de Bariloche\n> San Francisco\n> San Mateo\n>\n> I would like, if the search query is \"San\", for Solr to return the\n> following and only the following:\n> San Carlos de Bariloche\n> San Francisco\n> San Mateo\n>\n> So basically, I'd like to search based on tokens.  I'd also like Solr to\n> return an associated score.  So eg, if the user searches \"San Francisco\",\n> it should still return the above results, but obviously the score for the\n> document with \"San Francisco\" would be much higher.\n>\n> I've been doing this pretty easily using Lucene from Java, however I'm\n> unable to figure out how to do it using Solr.\n>\n> Much thanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 425,
+      "end": 444,
+      "text": "\nRegards,\n   Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 854,
+      "text": "The default text field definition (text_general) tokenizes on spaces,\nso - if I understand the question correctly - it should just work. Are\nyou by any chance searching against name field that is defined as\nString (and is not tokenized).\n\nIf you do Solr tutorial, you search on \"ipod\", which seems like a\nsimilar case to me. So, can you start from there? You can just index\nyour own text into the example config for example.\n\nRegards,\n   Alex.\nP.s. If you are coming from Lucene, copyField instruction may be\nslightly confusing. In the examples provided, your text is copied from\nnamed specific fields to text/_text_ field which is actually the\ndefault field searched, using the type definition associated with that\ntext/_text_ field, rather than with the original field.\n----\nhttp://www.solr-start.com/ - Resources for Solr users, new and experienced\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 854,
+      "end": 914,
+      "text": "On 7 March 2017 at 09:30, OTH <omer.t.h.7@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 914,
+      "end": 923,
+      "text": "> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1910,
+      "end": 1926,
+      "text": ">\n> Much thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 914,
+      "end": 1927,
+      "text": "> Hello,\n>\n> I am new to Solr.  I am using v. 6.4.1.  I have what is probably a pretty\n> simple question.\n>\n> Let's say I have these documents with the following values in a single\n> field (let's call it \"name\"):\n>\n> Sandoval@company.example.com\n> Sandburg@company.example.com\n> Sands@company.example.com\n> Sancho Landolt\n> Sanders Greenley\n> Sanders Massey\n> Santa Catarina\n> San Carlos de Bariloche\n> San Francisco\n> San Mateo\n>\n> I would like, if the search query is \"San\", for Solr to return the\n> following and only the following:\n> San Carlos de Bariloche\n> San Francisco\n> San Mateo\n>\n> So basically, I'd like to search based on tokens.  I'd also like Solr to\n> return an associated score.  So eg, if the user searches \"San Francisco\",\n> it should still return the above results, but obviously the score for the\n> document with \"San Francisco\" would be much higher.\n>\n> I've been doing this pretty easily using Lucene from Java, however I'm\n> unable to figure out how to do it using Solr.\n>\n> Much thanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1479"
+}

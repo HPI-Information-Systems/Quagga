@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "What other params are you using for the lsh transformer?\n\nAre the issues occurring during transform or during the similarity join?\n\n\nOn Fri, 10 Feb 2017 at 05:46, nguyen duc Tuan <newvalue92@gmail.com> wrote:\n\n> hi Das,\n> In general, I will apply them to larger datasets, so I want to use LSH,\n> which is more scaleable than the approaches as you suggested. Have you\n> tried LSH in Spark 2.1.0 before ? If yes, how do you set the\n> parameters/configuration to make it work ?\n> Thanks.\n>\n> 2017-02-10 19:21 GMT+07:00 Debasish Das <debasish.das83@gmail.com>:\n>\n> If it is 7m rows and 700k features (or say 1m features) brute force row\n> similarity will run fine as well...check out spark-4823...you can compare\n> quality with approximate variant...\n> On Feb 9, 2017 2:55 AM, \"nguyen duc Tuan\" <newvalue92@gmail.com> wrote:\n>\n> Hi everyone,\n> Since spark 2.1.0 introduces LSH (\n> http://spark.apache.org/docs/latest/ml-features.html#locality-sensitive-hashing),\n> we want to use LSH to find approximately nearest neighbors. Basically, We\n> have dataset with about 7M rows. we want to use cosine distance to meassure\n> the similarity between items, so we use *RandomSignProjectionLSH* (\n> https://gist.github.com/tuan3w/c968e56ea8ef135096eeedb08af097db) instead\n> of *BucketedRandomProjectionLSH*. I try to tune some configurations such\n> as serialization, memory fraction, executor memory (~6G), number of\n> executors ( ~20), memory overhead ..., but nothing works. I often get error\n> \"java.lang.OutOfMemoryError: Java heap space\" while running. I know that\n> this implementation is done by engineer at Uber but I don't know right\n> configurations,.. to run the algorithm at scale. Do they need very big\n> memory to run it?\n>\n> Any help would be appreciated.\n> Thanks\n>\n>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 133,
+      "end": 209,
+      "text": "On Fri, 10 Feb 2017 at 05:46, nguyen duc Tuan <newvalue92@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 133,
+      "text": "What other params are you using for the lsh transformer?\n\nAre the issues occurring during transform or during the similarity join?\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 209,
+      "end": 220,
+      "text": "\n> hi Das,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 475,
+      "end": 485,
+      "text": "> Thanks.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 209,
+      "end": 487,
+      "text": "\n> hi Das,\n> In general, I will apply them to larger datasets, so I want to use LSH,\n> which is more scaleable than the approaches as you suggested. Have you\n> tried LSH in Spark 2.1.0 before ? If yes, how do you set the\n> parameters/configuration to make it work ?\n> Thanks.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 487,
+      "end": 557,
+      "text": "> 2017-02-10 19:21 GMT+07:00 Debasish Das <debasish.das83@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 557,
+      "end": 747,
+      "text": ">\n> If it is 7m rows and 700k features (or say 1m features) brute force row\n> similarity will run fine as well...check out spark-4823...you can compare\n> quality with approximate variant...\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 747,
+      "end": 821,
+      "text": "> On Feb 9, 2017 2:55 AM, \"nguyen duc Tuan\" <newvalue92@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 821,
+      "end": 838,
+      "text": ">\n> Hi everyone,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1722,
+      "end": 1766,
+      "text": ">\n> Any help would be appreciated.\n> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 821,
+      "end": 1773,
+      "text": ">\n> Hi everyone,\n> Since spark 2.1.0 introduces LSH (\n> http://spark.apache.org/docs/latest/ml-features.html#locality-sensitive-hashing),\n> we want to use LSH to find approximately nearest neighbors. Basically, We\n> have dataset with about 7M rows. we want to use cosine distance to meassure\n> the similarity between items, so we use *RandomSignProjectionLSH* (\n> https://gist.github.com/tuan3w/c968e56ea8ef135096eeedb08af097db) instead\n> of *BucketedRandomProjectionLSH*. I try to tune some configurations such\n> as serialization, memory fraction, executor memory (~6G), number of\n> executors ( ~20), memory overhead ..., but nothing works. I often get error\n> \"java.lang.OutOfMemoryError: Java heap space\" while running. I know that\n> this implementation is done by engineer at Uber but I don't know right\n> configurations,.. to run the algorithm at scale. Do they need very big\n> memory to run it?\n>\n> Any help would be appreciated.\n> Thanks\n>\n>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_1198"
+}

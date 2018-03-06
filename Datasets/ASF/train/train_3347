@@ -1,0 +1,62 @@
+
+> Shawn Heisey <apache@elyograg.org> hat am 17. Mai 2017 um 15:10 geschrieben:
+> 
+> 
+> On 5/17/2017 6:18 AM, Thomas Porschberg wrote:
+> > Thank you. I am now a step further.
+> > I could import data into the new collection with the DIH. However I observed the
+following exception 
+> > in solr.log:
+> >
+> > request: http://127.0.1.1:8983/solr/hugo_shard1_replica1/update?update.distrib=TOLEADER&distrib.from=http%3A%2F%2F127.0.1.1%3A8983%2Fsolr%2Fhugo_shard2_replica1%2F&wt=javabin&version=2
+> > Remote error message: This IndexSchema is not mutable.
+> 
+> This probably means that the configuration has an update processor that
+> adds unknown fields, but is using the classic schema instead of the
+> managed schema.  If you want unknown fields to automatically be guessed
+> and added, then you need the managed schema.  If not, then remove the
+> custom update processor chain.  If this doesn't sound like what's wrong,
+> then we will need the entire error message including the full Java
+> stacktrace.  That may be in the other instance's solr.log file.
+
+Ok, commenting out the "update processor chain" was a solution. I use classic schema.
+
+> 
+> > I imagine to split my data per day of the year. My idea was to create 365 shards
+of type compositeKey.
+> 
+> You cannot control shard routing explicitly with the compositeId
+> router.  That router uses a hash of the uniqueKey field to decide which
+> shard gets the document.  As its name implies, the hash can be composite
+> -- parts of the hash can be decided by multiple parts of the value in
+> the field, but it's still hashed.
+> 
+> You must use the implicit router (which means all routing is manual) if
+> you want to explicitly name the shard that receives the data.
+
+I was now able to create 365 shards with the 'implicit' router.
+In the collection-API call I also specified 
+router.field=part_crit 
+which is the day of the year 1..365
+I added this field in my SQL-statement and in schema.xml.
+
+Next step I thought would be to trigger the dataimport.
+
+However I get:
+
+2017-05-18 05:41:37.417 ERROR (Thread-14) [c:hansi s:308 r:core_node76 x:hansi_308_replica1]
+o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: org.apache.solr.common.SolrException:
+No registered leader was found after waiting for 4000ms , collection: hansi slice: 230
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:270)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:416)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:475)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:458)
+	at java.lang.Thread.run(Thread.java:745)
+
+when I start the import.
+
+What could be the reason?
+
+Thank you
+Thomas
+

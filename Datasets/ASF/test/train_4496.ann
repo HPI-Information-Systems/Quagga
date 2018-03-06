@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "I think it will be same, but let me try that\n\nFYR - https://issues.apache.org/jira/browse/SPARK-19881\n\nOn Fri, Jul 28, 2017 at 4:44 PM, ayan guha <guha.ayan@gmail.com> wrote:\n\n> Try running spark.sql(\"set yourconf=val\")\n>\n> On Fri, 28 Jul 2017 at 8:51 pm, Chetan Khatri <chetan.opensource@gmail.com>\n> wrote:\n>\n>> Jorn, Both are same.\n>>\n>> On Fri, Jul 28, 2017 at 4:18 PM, J\u00c3\u00b6rn Franke <jornfranke@gmail.com>\n>> wrote:\n>>\n>>> Try sparksession.conf().set\n>>>\n>>> On 28. Jul 2017, at 12:19, Chetan Khatri <chetan.opensource@gmail.com>\n>>> wrote:\n>>>\n>>> Hey Dev/ USer,\n>>>\n>>> I am working with Spark 2.0.1 and with dynamic partitioning with Hive\n>>> facing below issue:\n>>>\n>>> org.apache.hadoop.hive.ql.metadata.HiveException:\n>>> Number of dynamic partitions created is 1344, which is more than 1000.\n>>> To solve this try to set hive.exec.max.dynamic.partitions to at least\n>>> 1344.\n>>>\n>>> I tried below options, but failed:\n>>>\n>>> val spark = sparkSession.builder().enableHiveSupport().getOrCreate()\n>>>\n>>> *spark.sqlContext.setConf(\"hive.exec.max.dynamic.partitions\", \"2000\")*\n>>>\n>>> Please help with alternate workaround !\n>>>\n>>> Thanks\n>>>\n>>>\n>> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 103,
+      "text": "I think it will be same, but let me try that\n\nFYR - https://issues.apache.org/jira/browse/SPARK-19881\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 103,
+      "end": 175,
+      "text": "On Fri, Jul 28, 2017 at 4:44 PM, ayan guha <guha.ayan@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 175,
+      "end": 222,
+      "text": "\n> Try running spark.sql(\"set yourconf=val\")\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 222,
+      "end": 309,
+      "text": "> On Fri, 28 Jul 2017 at 8:51 pm, Chetan Khatri <chetan.opensource@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 309,
+      "end": 319,
+      "text": ">\n>> Jorn,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 338,
+      "end": 420,
+      "text": ">> On Fri, Jul 28, 2017 at 4:18 PM, J\u00c3\u00b6rn Franke <jornfranke@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 309,
+      "end": 338,
+      "text": ">\n>> Jorn, Both are same.\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 420,
+      "end": 459,
+      "text": ">>\n>>> Try sparksession.conf().set\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 459,
+      "end": 545,
+      "text": ">>> On 28. Jul 2017, at 12:19, Chetan Khatri <chetan.opensource@gmail.com>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1157,
+      "end": 1191,
+      "text": ">> --\n> Best Regards,\n> Ayan Guha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1134,
+      "end": 1149,
+      "text": ">>>\n>>> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 545,
+      "end": 568,
+      "text": ">>>\n>>> Hey Dev/ USer,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 545,
+      "end": 1194,
+      "text": ">>>\n>>> Hey Dev/ USer,\n>>>\n>>> I am working with Spark 2.0.1 and with dynamic partitioning with Hive\n>>> facing below issue:\n>>>\n>>> org.apache.hadoop.hive.ql.metadata.HiveException:\n>>> Number of dynamic partitions created is 1344, which is more than 1000.\n>>> To solve this try to set hive.exec.max.dynamic.partitions to at least\n>>> 1344.\n>>>\n>>> I tried below options, but failed:\n>>>\n>>> val spark = sparkSession.builder().enableHiveSupport().getOrCreate()\n>>>\n>>> *spark.sqlContext.setConf(\"hive.exec.max.dynamic.partitions\", \"2000\")*\n>>>\n>>> Please help with alternate workaround !\n>>>\n>>> Thanks\n>>>\n>>>\n>> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4496"
+}

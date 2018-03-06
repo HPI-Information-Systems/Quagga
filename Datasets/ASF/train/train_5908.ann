@@ -1,0 +1,128 @@
+{
+  "wrapper": "plaintext",
+  "text": "You'll have to split up the input on commas if you don't just do it\nthe multiValued way Walter suggests, perhaps one of the pattern\ntokenizers mentioned here:\n\nhttps://cwiki.apache.org/confluence/display/solr/Tokenizers\n\nBest,\nErick\n\nOn Wed, Sep 6, 2017 at 6:29 AM, Walter Underwood <wunder@wunderwood.org> wrote:\n> Use a multivalued field. Search for listOfIds:1. Or search for listOfIds:33. This is\none of the simplest things that Solr can do.\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n>> On Sep 6, 2017, at 6:07 AM, Susheel Kumar <susheel2777@gmail.com> wrote:\n>>\n>> Nick, checkout terms query parser\n>> http://lucene.apache.org/solr/guide/6_6/other-parsers.html or streaming\n>> expressions.\n>>\n>> Thnx\n>>\n>> On Wed, Sep 6, 2017 at 8:33 AM, alex goretoy <alex@goretoy.com> wrote:\n>>\n>>> https://www.youtube.com/watch?v=pNe1wWeaHOU&list=\n>>> PLYI8318YYdkCsZ7dsYV01n6TZhXA6Wf9i&index=1\n>>> https://www.youtube.com/watch?v=pNe1wWeaHOU&list=\n>>> PLYI8318YYdkCsZ7dsYV01n6TZhXA6Wf9i&index=1\n>>>\n>>> http://audiobible.life CHECK IT OUT!\n>>>\n>>>\n>>> On Wed, Sep 6, 2017 at 5:57 PM, Nick Way <nick@southeastpublishing.com>\n>>> wrote:\n>>>> Hi, I have a custom field \"listOfIDs\" = \"1,2,4,33\"\n>>>>\n>>>> I want the equivalent of:\n>>>>\n>>>> select * where '1' IN (listOfIDs)  --> should get a match\n>>>>\n>>>> select * where '33' IN (listOfIDs)  --> should get a match\n>>>>\n>>>> select * where '3' IN (listOfIDs)  --> should NOT get a match\n>>>>\n>>>>\n>>>> Can anyone help me out please as I can't seem to find any documentation\n>>> on\n>>>> this. Thanks very much in advance.\n>>>>\n>>>> Kind regards,\n>>>>\n>>>>\n>>>> Nick Way\n>>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 220,
+      "end": 233,
+      "text": "\nBest,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 234,
+      "text": "You'll have to split up the input on commas if you don't just do it\nthe multiValued way Walter suggests, perhaps one of the pattern\ntokenizers mentioned here:\n\nhttps://cwiki.apache.org/confluence/display/solr/Tokenizers\n\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 234,
+      "end": 314,
+      "text": "On Wed, Sep 6, 2017 at 6:29 AM, Walter Underwood <wunder@wunderwood.org> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 446,
+      "end": 545,
+      "text": ">\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 314,
+      "end": 549,
+      "text": "> Use a multivalued field. Search for listOfIds:1. Or search for listOfIds:33. This is\none of the simplest things that Solr can do.\n>\n> wunder\n> Walter Underwood\n> wunder@wunderwood.org\n> http://observer.wunderwood.org/  (my blog)\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 549,
+      "end": 625,
+      "text": ">> On Sep 6, 2017, at 6:07 AM, Susheel Kumar <susheel2777@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 625,
+      "end": 636,
+      "text": ">>\n>> Nick,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 756,
+      "end": 767,
+      "text": ">>\n>> Thnx\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 625,
+      "end": 770,
+      "text": ">>\n>> Nick, checkout terms query parser\n>> http://lucene.apache.org/solr/guide/6_6/other-parsers.html or streaming\n>> expressions.\n>>\n>> Thnx\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 770,
+      "end": 844,
+      "text": ">> On Wed, Sep 6, 2017 at 8:33 AM, alex goretoy <alex@goretoy.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 844,
+      "end": 1102,
+      "text": ">>\n>>> https://www.youtube.com/watch?v=pNe1wWeaHOU&list=\n>>> PLYI8318YYdkCsZ7dsYV01n6TZhXA6Wf9i&index=1\n>>> https://www.youtube.com/watch?v=pNe1wWeaHOU&list=\n>>> PLYI8318YYdkCsZ7dsYV01n6TZhXA6Wf9i&index=1\n>>>\n>>> http://audiobible.life CHECK IT OUT!\n>>>\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1102,
+      "end": 1189,
+      "text": ">>> On Wed, Sep 6, 2017 at 5:57 PM, Nick Way <nick@southeastpublishing.com>\n>>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1189,
+      "end": 1197,
+      "text": ">>>> Hi,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1624,
+      "end": 1672,
+      "text": ">>>>\n>>>> Kind regards,\n>>>>\n>>>>\n>>>> Nick Way\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1189,
+      "end": 1679,
+      "text": ">>>> Hi, I have a custom field \"listOfIDs\" = \"1,2,4,33\"\n>>>>\n>>>> I want the equivalent of:\n>>>>\n>>>> select * where '1' IN (listOfIDs)  --> should get a match\n>>>>\n>>>> select * where '33' IN (listOfIDs)  --> should get a match\n>>>>\n>>>> select * where '3' IN (listOfIDs)  --> should NOT get a match\n>>>>\n>>>>\n>>>> Can anyone help me out please as I can't seem to find any documentation\n>>> on\n>>>> this. Thanks very much in advance.\n>>>>\n>>>> Kind regards,\n>>>>\n>>>>\n>>>> Nick Way\n>>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5908"
+}

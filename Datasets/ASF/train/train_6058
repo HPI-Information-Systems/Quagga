@@ -1,0 +1,27 @@
+Hi Can,
+
+For your first question: you should share more information with us as Rick
+indicated. Do you have any errors, do you have unique ids or not etc?
+
+For the second one: you should read here:
+https://cwiki.apache.org/confluence/display/solr/Spatial+Search and ask
+your questions if you have any.
+
+Kind Regards,
+Furkan KAMACI
+
+On Thu, Sep 14, 2017 at 1:34 PM, Rick Leir <rleir@leirtech.com> wrote:
+
+> hi Can Ezgi
+> > First of all, i want to use spatial index for my data include polyghons
+> and points. But solr indexed first 18 rows, other rows not indexed.
+>
+> Do all rows have a unique id field?
+>
+> Are there errors in the logfile?
+> cheers -- Rick
+>
+>
+> .
+>
+

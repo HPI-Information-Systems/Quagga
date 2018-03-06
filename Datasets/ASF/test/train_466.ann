@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "Rishabh,\n\nHave you come across any ANSI SQL queries that Spark SQL didn't support?\nI'd be interested to hear if you have.\n\nAndrew\n\nOn Tue, Jan 17, 2017 at 8:14 PM, Deepak Sharma <deepakmca05@gmail.com>\nwrote:\n\n> From spark documentation page:\n> Spark SQL can now run all 99 TPC-DS queries.\n>\n> On Jan 18, 2017 9:39 AM, \"Rishabh Bhardwaj\" <rbnext29@gmail.com> wrote:\n>\n>> Hi All,\n>>\n>> Does Spark 2.0 Sql support full ANSI SQL query standards?\n>>\n>> Thanks,\n>> Rishabh.\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Rishabh,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 122,
+      "end": 130,
+      "text": "\nAndrew\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 131,
+      "text": "Rishabh,\n\nHave you come across any ANSI SQL queries that Spark SQL didn't support?\nI'd be interested to hear if you have.\n\nAndrew\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 131,
+      "end": 209,
+      "text": "On Tue, Jan 17, 2017 at 8:14 PM, Deepak Sharma <deepakmca05@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 209,
+      "end": 292,
+      "text": "\n> From spark documentation page:\n> Spark SQL can now run all 99 TPC-DS queries.\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 292,
+      "end": 366,
+      "text": "> On Jan 18, 2017 9:39 AM, \"Rishabh Bhardwaj\" <rbnext29@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 366,
+      "end": 379,
+      "text": ">\n>> Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 443,
+      "end": 469,
+      "text": ">>\n>> Thanks,\n>> Rishabh.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 366,
+      "end": 475,
+      "text": ">\n>> Hi All,\n>>\n>> Does Spark 2.0 Sql support full ANSI SQL query standards?\n>>\n>> Thanks,\n>> Rishabh.\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_466"
+}

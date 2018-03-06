@@ -1,0 +1,29 @@
+Hi,
+
+I am using 1.2-SNAPSHOT of Apache Flink and 1.3-SNAPSHOT
+of flink-connector-kafka-0.9_2.11.
+
+It was executing without any errors before but it is giving the following
+exception at the moment:
+
+​java.lang.NoSuchMethodError:
+org.apache.flink.util.PropertiesUtil.getBoolean(Ljava/util/Properties;Ljava/lang/String;Z)Z
+at
+org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer09.getIsAutoCommitEnabled(FlinkKafkaConsumer09.java:235)
+at
+org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumerBase.open(FlinkKafkaConsumerBase.java:330)
+at
+org.apache.flink.api.common.functions.util.FunctionUtils.openFunction(FunctionUtils.java:36)
+at
+org.apache.flink.streaming.api.operators.AbstractUdfStreamOperator.open(AbstractUdfStreamOperator.java:157)
+at
+org.apache.flink.streaming.runtime.tasks.StreamTask.openAllOperators(StreamTask.java:383)
+at
+org.apache.flink.streaming.runtime.tasks.StreamTask.invoke(StreamTask.java:259)
+at org.apache.flink.runtime.taskmanager.Task.run(Task.java:654)
+at java.lang.Thread.run(Thread.java:745)
+
+Has anything change recently on this front ?
+
+Thanks in anticipation!​
+

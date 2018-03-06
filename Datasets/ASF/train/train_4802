@@ -1,0 +1,25 @@
+On 7/17/2017 2:48 AM, wg85907 wrote:
+>         Thanks for your detail explanation. The reason I want to shutdown the CloudSolrServer
+instance and create a new one is that I have concern that if it can successfully reconnect
+to Zookeeper server if Zookeeper cluster has some issue and reboot.
+
+I know that as long as the zookeeper ensemble (which is three or more ZK
+servers working together) does not lose quorum, and Solr is connected to
+all of the servers in the ensemble, Solr will be fine.
+
+I have heard someone on the list say that if ZK loses quorum (which
+means that the number of running servers drops below a required minimum)
+then Solr doesn't recover correctly when quorum is re-established.  If
+you have three servers, then at least two of them must be working to
+maintain quorum.  If there are five servers, then at least three of them
+must be working.
+
+I do not think that the problem described above has been confirmed as an
+issue.  If it does turn out to be true, then the problem is not likely
+to be in Solr, but in ZK -- Solr uses the ZK client, which completely
+manages that communication.
+
+Thanks,
+Shawn
+
+

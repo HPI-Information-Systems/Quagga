@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 5/5/2017 12:42 PM, Aman Deep Singh wrote:\n> Hi Erick, I don't want to do the range query , That is why I'm using\n> the pattern replace filter to remove all the non alphanumeric to space\n> so that this type of situation don't arrive,Since end user can query\n> anything, also in the query I haven't mention any range related\n> keyword (TO). If my query is like [64GB/3GB] it works fine and doesn't\n> convert to range query.\n\nI hope I'm headed in the right direction here.\n\nSquare brackets are special characters to the query parser -- they are\ntypically used to specify a range query.  It's a little odd that Solr\nwould add the \"TO\" for you like it seems to be doing, but not REALLY\nsurprising.  This would be happening *before* the parts of the query\nmake it to your analysis chain where you have the pattern replace filter.\n\nIf you want to NOT have special characters perform their special\nfunction, but actually become part of the query, you'll need to escape\nthem with a backslash.  Escaping all the special characters in your\nquery yields this query:\n\nxiomi Mi 5 \\-white \\[64GB\\/ 3GB\\]\n\nIt's difficult to decide whether the dash character before \"white\" was\nintended as a \"NOT\" operator or to be part of the query.  You might not\nwant to escape that one.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 45,
+      "text": "On 5/5/2017 12:42 PM, Aman Deep Singh wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 45,
+      "end": 56,
+      "text": "> Hi Erick,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1261,
+      "end": 1276,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 45,
+      "end": 1278,
+      "text": "> Hi Erick, I don't want to do the range query , That is why I'm using\n> the pattern replace filter to remove all the non alphanumeric to space\n> so that this type of situation don't arrive,Since end user can query\n> anything, also in the query I haven't mention any range related\n> keyword (TO). If my query is like [64GB/3GB] it works fine and doesn't\n> convert to range query.\n\nI hope I'm headed in the right direction here.\n\nSquare brackets are special characters to the query parser -- they are\ntypically used to specify a range query.  It's a little odd that Solr\nwould add the \"TO\" for you like it seems to be doing, but not REALLY\nsurprising.  This would be happening *before* the parts of the query\nmake it to your analysis chain where you have the pattern replace filter.\n\nIf you want to NOT have special characters perform their special\nfunction, but actually become part of the query, you'll need to escape\nthem with a backslash.  Escaping all the special characters in your\nquery yields this query:\n\nxiomi Mi 5 \\-white \\[64GB\\/ 3GB\\]\n\nIt's difficult to decide whether the dash character before \"white\" was\nintended as a \"NOT\" operator or to be part of the query.  You might not\nwant to escape that one.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3142"
+}

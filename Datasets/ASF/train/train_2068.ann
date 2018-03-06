@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "When we restart solr on a leader node while we are doing updates, we've\nnoticed that some small percentage of data is lost.  maybe 9 records out of\n1k.  Updating using min_rf=3 or full quorum seems to resolve this since our\nrf = 3.  Updates then seem to only succeed when all nodes are back up. Why\nwould we see record loss during a node restart?  I assumed the transaction\nlog would get replayed.  We have a 4 node cluster with 24 shards.\n\n-shawn\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 440,
+      "end": 448,
+      "text": "\n-shawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 449,
+      "text": "When we restart solr on a leader node while we are doing updates, we've\nnoticed that some small percentage of data is lost.  maybe 9 records out of\n1k.  Updating using min_rf=3 or full quorum seems to resolve this since our\nrf = 3.  Updates then seem to only succeed when all nodes are back up. Why\nwould we see record loss during a node restart?  I assumed the transaction\nlog would get replayed.  We have a 4 node cluster with 24 shards.\n\n-shawn\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2068"
+}

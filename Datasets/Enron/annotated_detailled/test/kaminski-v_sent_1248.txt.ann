@@ -1,0 +1,498 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 12/14/2000 \n09:53 AM ---------------------------\n\n\nShirley Crenshaw\n12/14/2000 08:30 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, Stinson Gibner/HOU/ECT@ECT, Pinnamaneni \nKrishnarao/HOU/ECT@ECT, Vasant Shanbhogue/HOU/ECT@ECT, Mike A \nRoberts/HOU/ECT@ECT, Joseph Hrgovcic/HOU/ECT@ECT, Tanya \nTamarchenko/HOU/ECT@ECT, Zimin Lu/HOU/ECT@ECT, Martin Lin/HOU/ECT@ECT, \nMaureen Raymond/HOU/ECT@ECT, Osman Sezgen/HOU/EES@EES, Paulo \nIssler/HOU/ECT@ECT, Amitava Dhar/Corp/Enron@ENRON, Alex \nHuang/Corp/Enron@ENRON, Kevin Kindall/Corp/Enron@ENRON, Kevin G \nMoore/HOU/ECT@ECT, Clayton Vernon/Corp/Enron@ENRON, William \nSmith/Corp/Enron@ENRON, Jose Marquez/Corp/Enron@ENRON, Chonawee \nSupatgiat/Corp/Enron@Enron, Shalesh Ganjoo/HOU/ECT@ECT, Tom \nHalliburton/Corp/Enron@Enron, Elena Chilkina/Corp/Enron@Enron, Sevil \nYaman/Corp/Enron@Enron, Sofya Tamarchenko/NA/Enron@Enron, Bob \nLee/NA/Enron@Enron, Gwyn Koepke/NA/Enron@Enron, Hector Campos/HOU/ECT@ECT, \nAnita DuPont/NA/Enron@ENRON, Youyi Feng/NA/Enron@Enron, V Charles \nWeldon/HOU/ECT@ECT, Yana Kristal/Corp/Enron@ENRON, Praveen \nMellacheruvu/HOU/EES@EES, Li Sun/NA/Enron@Enron, Stephen \nBennett/NA/Enron@ENRON, Roman Zadorozhny/HOU/EES@EES, Lance \nCunningham/NA/Enron@ENRON, Leann Walton/NA/Enron@ENRON, Shane \nGreen/HOU/EES@EES, Seksan Kiatsupaibul/HOU/EES@EES, Kate Lucas/HOU/ECT@ECT, \nNelson Neale/NA/Enron@Enron, Rabi De/NA/Enron@ENRON, Kenneth \nParkhill/NA/Enron@ENRON\ncc:  \nSubject: Getting into the Holiday Spirit!\n\n\n\n\nGood morning everyone:\n\nSeveral of us were talking and in order to help us get into the \n\"Holiday Spirit\" we thought it would be nice if each of us brought \nan appetizer, dessert, chips, popcorn, etc. or anything you desire, \nnext Monday, the 18th.  We will put everything out in one of the \nconference rooms and celebrate ALL DAY!  Never mind about the \ncalories - this is a once-a-year thing!  \n\nThis is not mandatory - just if you want to and if you remember!\n\nAlso, don't forget the \"Holiday Party\" at Damians on Tuesday night \n5:30 - 7:30 PM.\n\nHave a great day!\n\nShirley\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 52,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 64,
+      "end": 74,
+      "text": "12/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 76,
+      "end": 84,
+      "text": "09:53 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 113,
+      "text": "---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 12/14/2000 \n09:53 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 131,
+      "text": "Shirley Crenshaw",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 132,
+      "end": 142,
+      "text": "12/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 143,
+      "end": 151,
+      "text": "08:30 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 156,
+      "end": 172,
+      "text": "Vince J Kaminski",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 186,
+      "end": 200,
+      "text": "Stinson Gibner",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 214,
+      "end": 237,
+      "text": "Pinnamaneni \nKrishnarao",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 251,
+      "end": 268,
+      "text": "Vasant Shanbhogue",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 282,
+      "end": 297,
+      "text": "Mike A \nRoberts",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 311,
+      "end": 326,
+      "text": "Joseph Hrgovcic",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 340,
+      "end": 358,
+      "text": "Tanya \nTamarchenko",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 372,
+      "end": 380,
+      "text": "Zimin Lu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 394,
+      "end": 404,
+      "text": "Martin Lin",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 419,
+      "end": 434,
+      "text": "Maureen Raymond",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 448,
+      "end": 460,
+      "text": "Osman Sezgen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 474,
+      "end": 487,
+      "text": "Paulo \nIssler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 501,
+      "end": 513,
+      "text": "Amitava Dhar",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 532,
+      "end": 543,
+      "text": "Alex \nHuang",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 562,
+      "end": 575,
+      "text": "Kevin Kindall",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 594,
+      "end": 608,
+      "text": "Kevin G \nMoore",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 622,
+      "end": 636,
+      "text": "Clayton Vernon",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 655,
+      "end": 669,
+      "text": "William \nSmith",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 688,
+      "end": 700,
+      "text": "Jose Marquez",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 719,
+      "end": 738,
+      "text": "Chonawee \nSupatgiat",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 757,
+      "end": 771,
+      "text": "Shalesh Ganjoo",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 785,
+      "end": 801,
+      "text": "Tom \nHalliburton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 820,
+      "end": 834,
+      "text": "Elena Chilkina",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 853,
+      "end": 865,
+      "text": "Sevil \nYaman",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 884,
+      "end": 901,
+      "text": "Sofya Tamarchenko",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 918,
+      "end": 926,
+      "text": "Bob \nLee",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 943,
+      "end": 954,
+      "text": "Gwyn Koepke",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 971,
+      "end": 984,
+      "text": "Hector Campos",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 999,
+      "end": 1011,
+      "text": "Anita DuPont",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 1028,
+      "end": 1038,
+      "text": "Youyi Feng",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 1055,
+      "end": 1072,
+      "text": "V Charles \nWeldon",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 1086,
+      "end": 1098,
+      "text": "Yana Kristal",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 1117,
+      "end": 1138,
+      "text": "Praveen \nMellacheruvu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 1152,
+      "end": 1158,
+      "text": "Li Sun",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 1175,
+      "end": 1191,
+      "text": "Stephen \nBennett",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 1208,
+      "end": 1224,
+      "text": "Roman Zadorozhny",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 1238,
+      "end": 1255,
+      "text": "Lance \nCunningham",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 1272,
+      "end": 1284,
+      "text": "Leann Walton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 1301,
+      "end": 1313,
+      "text": "Shane \nGreen",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 47,
+      "start": 1327,
+      "end": 1346,
+      "text": "Seksan Kiatsupaibul",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 48,
+      "start": 1360,
+      "end": 1370,
+      "text": "Kate Lucas",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 49,
+      "start": 1385,
+      "end": 1397,
+      "text": "Nelson Neale",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 50,
+      "start": 1414,
+      "end": 1421,
+      "text": "Rabi De",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 51,
+      "start": 1438,
+      "end": 1455,
+      "text": "Kenneth \nParkhill",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 52,
+      "start": 1486,
+      "end": 1518,
+      "text": "Getting into the Holiday Spirit!",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 53,
+      "start": 113,
+      "end": 1519,
+      "text": "\n\nShirley Crenshaw\n12/14/2000 08:30 AM\nTo: Vince J Kaminski/HOU/ECT@ECT, Stinson Gibner/HOU/ECT@ECT, Pinnamaneni \nKrishnarao/HOU/ECT@ECT, Vasant Shanbhogue/HOU/ECT@ECT, Mike A \nRoberts/HOU/ECT@ECT, Joseph Hrgovcic/HOU/ECT@ECT, Tanya \nTamarchenko/HOU/ECT@ECT, Zimin Lu/HOU/ECT@ECT, Martin Lin/HOU/ECT@ECT, \nMaureen Raymond/HOU/ECT@ECT, Osman Sezgen/HOU/EES@EES, Paulo \nIssler/HOU/ECT@ECT, Amitava Dhar/Corp/Enron@ENRON, Alex \nHuang/Corp/Enron@ENRON, Kevin Kindall/Corp/Enron@ENRON, Kevin G \nMoore/HOU/ECT@ECT, Clayton Vernon/Corp/Enron@ENRON, William \nSmith/Corp/Enron@ENRON, Jose Marquez/Corp/Enron@ENRON, Chonawee \nSupatgiat/Corp/Enron@Enron, Shalesh Ganjoo/HOU/ECT@ECT, Tom \nHalliburton/Corp/Enron@Enron, Elena Chilkina/Corp/Enron@Enron, Sevil \nYaman/Corp/Enron@Enron, Sofya Tamarchenko/NA/Enron@Enron, Bob \nLee/NA/Enron@Enron, Gwyn Koepke/NA/Enron@Enron, Hector Campos/HOU/ECT@ECT, \nAnita DuPont/NA/Enron@ENRON, Youyi Feng/NA/Enron@Enron, V Charles \nWeldon/HOU/ECT@ECT, Yana Kristal/Corp/Enron@ENRON, Praveen \nMellacheruvu/HOU/EES@EES, Li Sun/NA/Enron@Enron, Stephen \nBennett/NA/Enron@ENRON, Roman Zadorozhny/HOU/EES@EES, Lance \nCunningham/NA/Enron@ENRON, Leann Walton/NA/Enron@ENRON, Shane \nGreen/HOU/EES@EES, Seksan Kiatsupaibul/HOU/EES@EES, Kate Lucas/HOU/ECT@ECT, \nNelson Neale/NA/Enron@Enron, Rabi De/NA/Enron@ENRON, Kenneth \nParkhill/NA/Enron@ENRON\ncc:  \nSubject: Getting into the Holiday Spirit!\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 54,
+      "start": 1523,
+      "end": 1545,
+      "text": "Good morning everyone:",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 55,
+      "start": 2091,
+      "end": 2098,
+      "text": "Shirley",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 56,
+      "start": 2072,
+      "end": 2099,
+      "text": "Have a great day!\n\nShirley\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 57,
+      "start": 1519,
+      "end": 2101,
+      "text": "\n\n\n\nGood morning everyone:\n\nSeveral of us were talking and in order to help us get into the \n\"Holiday Spirit\" we thought it would be nice if each of us brought \nan appetizer, dessert, chips, popcorn, etc. or anything you desire, \nnext Monday, the 18th.  We will put everything out in one of the \nconference rooms and celebrate ALL DAY!  Never mind about the \ncalories - this is a once-a-year thing!  \n\nThis is not mandatory - just if you want to and if you remember!\n\nAlso, don't forget the \"Holiday Party\" at Damians on Tuesday night \n5:30 - 7:30 PM.\n\nHave a great day!\n\nShirley\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 55,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<13355395.1075856466248.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Dec 2000 01:52:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "vkaminski@aol.com",
+      "Subject": "Getting into the Holiday Spirit!",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "vkaminski@aol.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1248.txt"
+}

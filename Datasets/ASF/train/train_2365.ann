@@ -1,0 +1,136 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Alex,\n\nAfter full re-indexing things work out fine.\n\nBut is there any other way to make schema changes on the go?\n\nOr we have to reindex entire data whenever a schema change is done?\n\nwe are having 30-40 million documents and it is a tedious and time taking\ntask.\n\nWhat other approaches are there to change schema on the fly?\n\nRegards,\nKshitij\n\nOn Sun, Apr 9, 2017 at 12:55 AM, Alexandre Rafalovitch <arafalov@gmail.com>\nwrote:\n\n> Did you do a full reindex? Try completely deleting the index and\n> redoing it from scratch (at least as a test). If you have left over\n> documents and changed type definitions, things may get messy. If\n> that's too hard, just index a single record into a separate collection\n> with matching-definition and check there to find the difference.\n>\n> A type change could be especially complicated if one type was defined\n> (on field OR on type) with DocValues and another one without.\n>\n> Regards,\n>    Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n> On 8 April 2017 at 18:42, kshitij tyagi <kshitij.shopclues@gmail.com>\n> wrote:\n> > Hi Alex,\n> >\n> > Thanks for the response.\n> >\n> > 1. Actually everything was working fine earlier unless I made changes on\n> a\n> > dynamic field whose facets are being created, I changed the field type to\n> > \"strings\" earlier I was tokenizing my field on based delimeter '_'.\n> >\n> > 2. When I made the changes and started indexing then facet count started\n> > coming zero, though I was able to query properly on facets and results\n> were\n> > fine but facet count was giving zero.\n> >\n> > 3. Then I reverted my changes back in schema file but my problem was not\n> > solved and it was still giving zero facet count after reindexing.\n> >\n> > I am unable to understand that when I have reverted my schema changes\n> then\n> > things should be back to normal but the case is almost opposite.\n> >\n> > Kindly help!'\n> > Let me know if u require any other information.\n> >\n> >\n> > On Sat, Apr 8, 2017 at 9:00 PM, Alexandre Rafalovitch <\n> arafalov@gmail.com>\n> > wrote:\n> >\n> >> What happens when you facet on a 'all document query' (q=*:*)? Are you\n> >> sure your facet fields actually have the content? If they are stored,\n> >> they should be returned with the query. If they are not stored, you\n> >> could see what they contain in the Schema screen of the Admin UI (load\n> >> tokens checkbox).\n> >>\n> >> Hope that helps to narrow down the issue.\n> >>\n> >> Regards,\n> >>    Alex.\n> >> P.s. I don't doubt you, but for myself, I would also do a sanity check\n> >> that I AM actually getting results because I am querying on THOSE\n> >> fields and not - say - on some other field and/or copyField target.\n> >> Enabling debug would show you exactly what fields are being querying\n> >> with what (analyzed) token.\n> >> ----\n> >> http://www.solr-start.com/ - Resources for Solr users, new and\n> experienced\n> >>\n> >>\n> >> On 8 April 2017 at 17:53, kshitij tyagi <kshitij.shopclues@gmail.com>\n> >> wrote:\n> >> > Hi,\n> >> >\n> >> > I am getting zero count for all facets created by using facet.field in\n> >> solr\n> >> > 5.1\n> >> >\n> >> > The surprise element is that I am able to query correctly on fields,\n> but\n> >> my\n> >> > facet counts are returning zero count.\n> >> >\n> >> > Can anyone help me out here on what all I should check?\n> >> >\n> >> > Regards,\n> >> > Kshitij\n> >>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 9,
+      "text": "Hi Alex,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 329,
+      "end": 347,
+      "text": "\nRegards,\nKshitij\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 348,
+      "text": "Hi Alex,\n\nAfter full re-indexing things work out fine.\n\nBut is there any other way to make schema changes on the go?\n\nOr we have to reindex entire data whenever a schema change is done?\n\nwe are having 30-40 million documents and it is a tedious and time taking\ntask.\n\nWhat other approaches are there to change schema on the fly?\n\nRegards,\nKshitij\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 348,
+      "end": 431,
+      "text": "On Sun, Apr 9, 2017 at 12:55 AM, Alexandre Rafalovitch <arafalov@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 914,
+      "end": 938,
+      "text": ">\n> Regards,\n>    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 431,
+      "end": 1026,
+      "text": "\n> Did you do a full reindex? Try completely deleting the index and\n> redoing it from scratch (at least as a test). If you have left over\n> documents and changed type definitions, things may get messy. If\n> that's too hard, just index a single record into a separate collection\n> with matching-definition and check there to find the difference.\n>\n> A type change could be especially complicated if one type was defined\n> (on field OR on type) with DocValues and another one without.\n>\n> Regards,\n>    Alex.\n> ----\n> http://www.solr-start.com/ - Resources for Solr users, new and experienced\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1026,
+      "end": 1107,
+      "text": "> On 8 April 2017 at 18:42, kshitij tyagi <kshitij.shopclues@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1107,
+      "end": 1120,
+      "text": "> > Hi Alex,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1107,
+      "end": 1980,
+      "text": "> > Hi Alex,\n> >\n> > Thanks for the response.\n> >\n> > 1. Actually everything was working fine earlier unless I made changes on\n> a\n> > dynamic field whose facets are being created, I changed the field type to\n> > \"strings\" earlier I was tokenizing my field on based delimeter '_'.\n> >\n> > 2. When I made the changes and started indexing then facet count started\n> > coming zero, though I was able to query properly on facets and results\n> were\n> > fine but facet count was giving zero.\n> >\n> > 3. Then I reverted my changes back in schema file but my problem was not\n> > solved and it was still giving zero facet count after reindexing.\n> >\n> > I am unable to understand that when I have reverted my schema changes\n> then\n> > things should be back to normal but the case is almost opposite.\n> >\n> > Kindly help!'\n> > Let me know if u require any other information.\n> >\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1980,
+      "end": 2073,
+      "text": "> > On Sat, Apr 8, 2017 at 9:00 PM, Alexandre Rafalovitch <\n> arafalov@gmail.com>\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2452,
+      "end": 2485,
+      "text": "> >>\n> >> Regards,\n> >>    Alex.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2073,
+      "end": 2914,
+      "text": "> >\n> >> What happens when you facet on a 'all document query' (q=*:*)? Are you\n> >> sure your facet fields actually have the content? If they are stored,\n> >> they should be returned with the query. If they are not stored, you\n> >> could see what they contain in the Schema screen of the Admin UI (load\n> >> tokens checkbox).\n> >>\n> >> Hope that helps to narrow down the issue.\n> >>\n> >> Regards,\n> >>    Alex.\n> >> P.s. I don't doubt you, but for myself, I would also do a sanity check\n> >> that I AM actually getting results because I am querying on THOSE\n> >> fields and not - say - on some other field and/or copyField target.\n> >> Enabling debug would show you exactly what fields are being querying\n> >> with what (analyzed) token.\n> >> ----\n> >> http://www.solr-start.com/ - Resources for Solr users, new and\n> experienced\n> >>\n> >>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 2914,
+      "end": 3001,
+      "text": "> >> On 8 April 2017 at 17:53, kshitij tyagi <kshitij.shopclues@gmail.com>\n> >> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 3001,
+      "end": 3012,
+      "text": "> >> > Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 3331,
+      "end": 3369,
+      "text": "> >> >\n> >> > Regards,\n> >> > Kshitij\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 3001,
+      "end": 3377,
+      "text": "> >> > Hi,\n> >> >\n> >> > I am getting zero count for all facets created by using facet.field in\n> >> solr\n> >> > 5.1\n> >> >\n> >> > The surprise element is that I am able to query correctly on fields,\n> but\n> >> my\n> >> > facet counts are returning zero count.\n> >> >\n> >> > Can anyone help me out here on what all I should check?\n> >> >\n> >> > Regards,\n> >> > Kshitij\n> >>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2365"
+}

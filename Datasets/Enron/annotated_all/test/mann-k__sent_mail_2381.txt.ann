@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "My only warning is that working for Sheila is that she takes over most of the \nbig stuff, even if it is your deal. Everything that she is working on now was \none of her lawyers' deals, but \"things just weren't getting done\".  She can \nbe very unclear in what she expects from you.  She is the ultimate \nmicro-manager.  She may hire the outside counsel on \"your\" deal, then tell \nyou about it later, not consulting you to find out who you want to use.   \nThis style may not bother you, as you may in fact get comfort from working \nclosely with someone.  Clearly, she has a lot of experience to impart, and \nshe is very, very nice.  \n\nI'm sure there will be a downside to working with Jeff and Barbara, I just \nhaven't been in the group long enough to have an opinion.  \n\nKay\n\nPS.  I thought this time I would give you full disclosure...",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 770,
+      "end": 773,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 775,
+      "end": 835,
+      "text": "PS.  I thought this time I would give you full disclosure...",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 835,
+      "text": "My only warning is that working for Sheila is that she takes over most of the \nbig stuff, even if it is your deal. Everything that she is working on now was \none of her lawyers' deals, but \"things just weren't getting done\".  She can \nbe very unclear in what she expects from you.  She is the ultimate \nmicro-manager.  She may hire the outside counsel on \"your\" deal, then tell \nyou about it later, not consulting you to find out who you want to use.   \nThis style may not bother you, as you may in fact get comfort from working \nclosely with someone.  Clearly, she has a lot of experience to impart, and \nshe is very, very nice.  \n\nI'm sure there will be a downside to working with Jeff and Barbara, I just \nhaven't been in the group long enough to have an opinion.  \n\nKay\n\nPS.  I thought this time I would give you full disclosure...",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7102812.1075846087184.JavaMail.evans@thyme>",
+      "Date": "Thu, 14 Dec 2000 23:49:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "carlos.sole@enron.com",
+      "Subject": "Re: Update",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Carlos Sole",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_4\\Notes Folders\\'sent mail",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k__sent_mail_2381.txt"
+}

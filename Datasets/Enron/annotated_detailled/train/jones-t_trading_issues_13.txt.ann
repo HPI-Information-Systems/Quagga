@@ -1,0 +1,154 @@
+{
+  "wrapper": "plaintext",
+  "text": "April 2, 2001\n\nVia Email\n\nTana Jones\nTana.jones@enron.com\nEnron\n\nDear Tana Jones:\n\nThe New York Mercantile Exchange is excited and we want to tell you why.\nNYMEX is about to launch enymexsm  and its prospects are invigorating.\n\nOver-the-counter (OTC) participants will now be able to execute transactions\non the same platform as NYMEX futures.  The Exchange plans to use its proven\nclearing infrastructure to introduce complete counter-party risk management,\nand create net margining with Exchange futures markets by calculating a\nconsolidated clearing position.  Subsequent enymexsm functionality will also\nprovide an internet-based interface to the established Exchange futures\nmarket by routing futures orders to the trading floor and the NYMEX ACCESSc\nelectronic trading system, depending on the session.\n\nAttached please find information announcing the first slate of products to\nbe offered for listing on enymexsm .\n\nSince we value your business as a forerunner in this industry, we are\nenclosing for your review the sale registration form, which consists of the\nenymexsm System User Agreement.  Please review, sign and return to Robert A.\nDagistino, Director of Customer Service, New York Mercantile Exchange, One\nNorth End Avenue, New York, N.Y. 10282.  Any questions can be answered via\nemail at rdagistino@nymex.com or via telephone at 212-299-2429.\n\nThe signatory must be an executive officer or partner of the firm.  We are\nalso attaching two \"click-on screens\" that users will view when they first\nlog on to the system.\n\nPlease note that since the enymexsm products will be cleared you will also\nneed to obtain authorization from a clearing member for your account.\n\nA NYMEX team, consisting of members of our Board, local traders and staff,\nwill be visiting each one of you in person.  They will discuss with you how\nto utilize the benefits of NYMEX to achieve precision in many of your\ncustomized transactions.\n\nWe look forward to receiving your registration and participation in what is\nintended to be the premier, global exchange for forward trading and clearing\ncontracts focusing on energy and metals products.\n\nSincerely,\n\n <<...OLE_Obj...>>\nNeal Wolkoff,\nExecutive Vice President\n\n <<enymex information.doc>>  <<enymex system user agreement.doc>>\n<<clickonscreensfinal3282001.doc>> \n - enymex information.doc\n - enymex system user agreement.doc\n - clickonscreensfinal3282001.doc",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2205,
+      "end": 2227,
+      "text": "enymex information.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2233,
+      "end": 2265,
+      "text": "enymex system user agreement.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 2270,
+      "end": 2300,
+      "text": "clickonscreensfinal3282001.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 2307,
+      "end": 2329,
+      "text": "enymex information.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 2333,
+      "end": 2365,
+      "text": "enymex system user agreement.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 2369,
+      "end": 2399,
+      "text": "clickonscreensfinal3282001.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 2202,
+      "end": 2399,
+      "text": " <<enymex information.doc>>  <<enymex system user agreement.doc>>\n<<clickonscreensfinal3282001.doc>> \n - enymex information.doc\n - enymex system user agreement.doc\n - clickonscreensfinal3282001.doc",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2176,
+      "end": 2200,
+      "text": "Executive Vice President",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2162,
+      "end": 2174,
+      "text": "Neal Wolkoff",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2131,
+      "end": 2141,
+      "text": "Sincerely,",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 2162,
+      "end": 2174,
+      "text": "Neal Wolkoff",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 70,
+      "end": 80,
+      "text": "Tana Jones",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 65,
+      "end": 80,
+      "text": "Dear Tana Jones",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 0,
+      "end": 2399,
+      "text": "April 2, 2001\n\nVia Email\n\nTana Jones\nTana.jones@enron.com\nEnron\n\nDear Tana Jones:\n\nThe New York Mercantile Exchange is excited and we want to tell you why.\nNYMEX is about to launch enymexsm  and its prospects are invigorating.\n\nOver-the-counter (OTC) participants will now be able to execute transactions\non the same platform as NYMEX futures.  The Exchange plans to use its proven\nclearing infrastructure to introduce complete counter-party risk management,\nand create net margining with Exchange futures markets by calculating a\nconsolidated clearing position.  Subsequent enymexsm functionality will also\nprovide an internet-based interface to the established Exchange futures\nmarket by routing futures orders to the trading floor and the NYMEX ACCESSc\nelectronic trading system, depending on the session.\n\nAttached please find information announcing the first slate of products to\nbe offered for listing on enymexsm .\n\nSince we value your business as a forerunner in this industry, we are\nenclosing for your review the sale registration form, which consists of the\nenymexsm System User Agreement.  Please review, sign and return to Robert A.\nDagistino, Director of Customer Service, New York Mercantile Exchange, One\nNorth End Avenue, New York, N.Y. 10282.  Any questions can be answered via\nemail at rdagistino@nymex.com or via telephone at 212-299-2429.\n\nThe signatory must be an executive officer or partner of the firm.  We are\nalso attaching two \"click-on screens\" that users will view when they first\nlog on to the system.\n\nPlease note that since the enymexsm products will be cleared you will also\nneed to obtain authorization from a clearing member for your account.\n\nA NYMEX team, consisting of members of our Board, local traders and staff,\nwill be visiting each one of you in person.  They will discuss with you how\nto utilize the benefits of NYMEX to achieve precision in many of your\ncustomized transactions.\n\nWe look forward to receiving your registration and participation in what is\nintended to be the premier, global exchange for forward trading and clearing\ncontracts focusing on energy and metals products.\n\nSincerely,\n\n <<...OLE_Obj...>>\nNeal Wolkoff,\nExecutive Vice President\n\n <<enymex information.doc>>  <<enymex system user agreement.doc>>\n<<clickonscreensfinal3282001.doc>> \n - enymex information.doc\n - enymex system user agreement.doc\n - clickonscreensfinal3282001.doc",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 10,
+      "type": "BelongsTo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 9,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11187429.1075847569723.JavaMail.evans@thyme>",
+      "Date": "Mon, 2 Apr 2001 11:57:00 -0700 (PDT)",
+      "From": "edotson@nymex.com",
+      "To": "tana.jones@enron.com",
+      "Subject": "enymex Registration Information",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Dotson, Elona\" <EDotson@NYMEX.com>",
+      "X-To": "Tana.jones@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\Trading issues",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_trading_issues_13.txt"
+}

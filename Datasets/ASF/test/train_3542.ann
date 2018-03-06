@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "The  result is count = 0.\n\n2017-06-08 19:42 GMT+03:00 ayan guha <guha.ayan@gmail.com>:\n\n> What is the result of test.count()?\n>\n> On Fri, 9 Jun 2017 at 1:41 am, \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <dashakovalchuk13@gmail.com>\n> wrote:\n>\n>> Thanks for your reply!\n>> Yes, I tried this solution and had the same result. Maybe you have\n>> another solution or maybe I can execute query in another way on remote\n>> cluster?\n>>\n>> 2017-06-08 18:30 GMT+03:00 \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <dashakovalchuk13@gmail.com>:\n>>\n>>> Thanks for your reply!\n>>> Yes, I tried this solution and had the same result. Maybe you have\n>>> another solution or maybe I can execute query in another way on remote\n>>> cluster?\n>>>\n>>\n>>> 2017-06-08 18:10 GMT+03:00 Vadim Semenov <vadim.semenov@datadoghq.com>:\n>>>\n>>>> Have you tried running a query? something like:\n>>>>\n>>>> ```\n>>>> test.select(\"*\").limit(10).show()\n>>>> ```\n>>>>\n>>>> On Thu, Jun 8, 2017 at 4:16 AM, \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <\n>>>> dashakovalchuk13@gmail.com> wrote:\n>>>>\n>>>>> Hi guys,\n>>>>>\n>>>>> I need to execute hive queries on remote hive server from spark, but\n>>>>> for some reasons i receive only column names(without data).\n>>>>> Data available in table, I checked it via HUE and java jdbc\n>>>>>  connection.\n>>>>>\n>>>>> Here is my code example:\n>>>>> val test = spark.read\n>>>>>         .option(\"url\", \"jdbc:hive2://remote.hive.server:\n>>>>> 10000/work_base\")\n>>>>>         .option(\"user\", \"user\")\n>>>>>         .option(\"password\", \"password\")\n>>>>>         .option(\"dbtable\", \"some_table_with_data\")\n>>>>>         .option(\"driver\", \"org.apache.hive.jdbc.HiveDriver\")\n>>>>>         .format(\"jdbc\")\n>>>>>         .load()\n>>>>> test.show()\n>>>>>\n>>>>>\n>>>>> Scala version: 2.11\n>>>>> Spark version: 2.1.0, i also tried 2.1.1\n>>>>> Hive version: CDH 5.7 Hive 1.1.1\n>>>>> Hive JDBC version: 1.1.1\n>>>>>\n>>>>> But this problem available on Hive with later versions, too.\n>>>>> I didn't find anything in mail group answers and StackOverflow.\n>>>>> Could you, please, help me with this issue or could you help me find\ncorrect\n>>>>> solution how to query remote hive from spark?\n>>>>>\n>>>>> Thanks in advance!\n>>>>>\n>>>>\n>>>>\n>>> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 27,
+      "text": "The  result is count = 0.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 27,
+      "end": 87,
+      "text": "2017-06-08 19:42 GMT+03:00 ayan guha <guha.ayan@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 87,
+      "end": 128,
+      "text": "\n> What is the result of test.count()?\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 128,
+      "end": 227,
+      "text": "> On Fri, 9 Jun 2017 at 1:41 am, \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <dashakovalchuk13@gmail.com>\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 227,
+      "end": 414,
+      "text": ">\n>> Thanks for your reply!\n>> Yes, I tried this solution and had the same result. Maybe you have\n>> another solution or maybe I can execute query in another way on remote\n>> cluster?\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 414,
+      "end": 502,
+      "text": ">> 2017-06-08 18:30 GMT+03:00 \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <dashakovalchuk13@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 502,
+      "end": 698,
+      "text": ">>\n>>> Thanks for your reply!\n>>> Yes, I tried this solution and had the same result. Maybe you have\n>>> another solution or maybe I can execute query in another way on remote\n>>> cluster?\n>>>\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 698,
+      "end": 774,
+      "text": ">>> 2017-06-08 18:10 GMT+03:00 Vadim Semenov <vadim.semenov@datadoghq.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 774,
+      "end": 898,
+      "text": ">>>\n>>>> Have you tried running a query? something like:\n>>>>\n>>>> ```\n>>>> test.select(\"*\").limit(10).show()\n>>>> ```\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 898,
+      "end": 1005,
+      "text": ">>>> On Thu, Jun 8, 2017 at 4:16 AM, \u00d0\u201d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b0 \u00d0\u0161\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d0\u00bb\u00d1\u0152\u00d1\u2021\u00d1\u0192\u00d0\u00ba <\n>>>> dashakovalchuk13@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1005,
+      "end": 1025,
+      "text": ">>>>\n>>>>> Hi guys,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 2167,
+      "end": 2202,
+      "text": ">>> --\n> Best Regards,\n> Ayan Guha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1005,
+      "end": 2205,
+      "text": ">>>>\n>>>>> Hi guys,\n>>>>>\n>>>>> I need to execute hive queries on remote hive server from spark, but\n>>>>> for some reasons i receive only column names(without data).\n>>>>> Data available in table, I checked it via HUE and java jdbc\n>>>>>  connection.\n>>>>>\n>>>>> Here is my code example:\n>>>>> val test = spark.read\n>>>>>         .option(\"url\", \"jdbc:hive2://remote.hive.server:\n>>>>> 10000/work_base\")\n>>>>>         .option(\"user\", \"user\")\n>>>>>         .option(\"password\", \"password\")\n>>>>>         .option(\"dbtable\", \"some_table_with_data\")\n>>>>>         .option(\"driver\", \"org.apache.hive.jdbc.HiveDriver\")\n>>>>>         .format(\"jdbc\")\n>>>>>         .load()\n>>>>> test.show()\n>>>>>\n>>>>>\n>>>>> Scala version: 2.11\n>>>>> Spark version: 2.1.0, i also tried 2.1.1\n>>>>> Hive version: CDH 5.7 Hive 1.1.1\n>>>>> Hive JDBC version: 1.1.1\n>>>>>\n>>>>> But this problem available on Hive with later versions, too.\n>>>>> I didn't find anything in mail group answers and StackOverflow.\n>>>>> Could you, please, help me with this issue or could you help me find\ncorrect\n>>>>> solution how to query remote hive from spark?\n>>>>>\n>>>>> Thanks in advance!\n>>>>>\n>>>>\n>>>>\n>>> --\n> Best Regards,\n> Ayan Guha\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3542"
+}

@@ -1,0 +1,50 @@
+Hi,
+
+Please help me understand: http://localhost:8983/solr/wemi/select?facet.field=m_mediaType_s&facet=on&indent=on&q=*:*&wt=json
+returns:
+
+"facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{
+      "m_mediaType_s":[
+        "2",25561,
+        "3",19027,
+        "10",1966,
+        "11",1705,
+        "12",1067,
+        "4",1056,
+        "5",291,
+        "8",68,
+        "13",2,
+        "6",2,
+        "7",1,
+        "9",1,
+        "1",0]},
+    "facet_ranges":{},
+    "facet_intervals":{},
+    "facet_heatmaps":{}}}
+
+http://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%222%22&indent=on&q=*:*&rows=0&start=0&wt=json
+
+
+?  "response":{"numFound":25561,"start":0,"docs":[]
+
+http://localhost:8983/solr/wemi/select?fq=m_mediaType_s:%220%22&indent=on&q=*:*&rows=0&start=0&wt=json
+
+
+?  "response":{"numFound":0,"start":0,"docs":[]
+
+So why does the search for facet.field even contain the value "1", if it does not exist?
+
+And why does it e.g. not contain "SomeReallyCrazyOtherValueWhichLikeValue"1"DoesNotExistButLetsIncludeItInTheFacetFieldsResultListAnywaysWithCountZero"
+: 0
+
+Best regards,
+Sebastian
+
+Additional info, field m_mediaType_s is a string;
+<dynamicField name="*_s"     type="string"                   indexed="true"  stored="true"
+/>
+<fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+
+

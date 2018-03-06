@@ -1,0 +1,215 @@
+{
+  "wrapper": "plaintext",
+  "text": "> -----Original Message-----\n> From: Granville, Sue\n> Sent: Thursday, November 23, 2000 9:00 AM\n> To: Jacob, Sasha\n> Subject: Project Stanley\n>\n> Report for November 23, 2000\n>\n> Report\n>  <<Nov23.doc>>\n> Article\n>  <<Nov23#2.txt>>\n>\n>\n> Sue Granville\n> Project Coordinator\n> GPC Canada\n> T:(613) 238-2747 ex239\n> F:(613) 613-1223\n> www.gpcinternational.com\n>\n>\n\n - Nov23.doc\n - Nov23#2.txt",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 51,
+      "text": "Granville, Sue",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 70,
+      "end": 87,
+      "text": "November 23, 2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 88,
+      "end": 95,
+      "text": "9:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 102,
+      "end": 114,
+      "text": "Jacob, Sasha",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 126,
+      "end": 141,
+      "text": "Project Stanley",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 142,
+      "text": "> -----Original Message-----\n> From: Granville, Sue\n> Sent: Thursday, November 23, 2000 9:00 AM\n> To: Jacob, Sasha\n> Subject: Project Stanley\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 191,
+      "end": 200,
+      "text": "Nov23.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 218,
+      "end": 229,
+      "text": "Nov23#2.txt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 177,
+      "end": 232,
+      "text": "> Report\n>  <<Nov23.doc>>\n> Article\n>  <<Nov23#2.txt>>\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 366,
+      "end": 375,
+      "text": "Nov23.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 379,
+      "end": 390,
+      "text": "Nov23#2.txt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 363,
+      "end": 390,
+      "text": " - Nov23.doc\n - Nov23#2.txt",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 238,
+      "end": 251,
+      "text": "Sue Granville",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 254,
+      "end": 273,
+      "text": "Project Coordinator",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 276,
+      "end": 286,
+      "text": "GPC Canada",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 292,
+      "end": 311,
+      "text": "613) 238-2747 ex239",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 316,
+      "end": 330,
+      "text": "(613) 613-1223",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 236,
+      "end": 358,
+      "text": "> Sue Granville\n> Project Coordinator\n> GPC Canada\n> T:(613) 238-2747 ex239\n> F:(613) 613-1223\n> www.gpcinternational.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 142,
+      "end": 390,
+      "text": ">\n> Report for November 23, 2000\n>\n> Report\n>  <<Nov23.doc>>\n> Article\n>  <<Nov23#2.txt>>\n>\n>\n> Sue Granville\n> Project Coordinator\n> GPC Canada\n> T:(613) 238-2747 ex239\n> F:(613) 613-1223\n> www.gpcinternational.com\n>\n>\n\n - Nov23.doc\n - Nov23#2.txt",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 15,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 16,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 13,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<28332094.1075846214585.JavaMail.evans@thyme>",
+      "Date": "Thu, 23 Nov 2000 01:19:00 -0800 (PST)",
+      "From": "sjacob@gpc.ca",
+      "To": "aleck.dadson@enron.com, alangdon@gpc.ca, eric.thode@enron.com, \n\tezelikovitz@gpc.ca, glenn.leslie@blakes.com, kpeterson@gpc.ca, \n\tmpalmer@enron.com, mreder@gpc.ca, pvarley@gpc.ca, rshapiro@enron.com, \n\trob.milnthorp@enron.com, robert.hemstock@enron.com, skean@enron.com, \n\ttmclaren@gpc.ca, valbush@gpc.ca",
+      "Subject": "FW: Project Stanley",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Jacob, Sasha\" <SJacob@GPC.CA>",
+      "X-To": "\"Aleck Dadson (E-mail)\" <Aleck.Dadson@enron.com>, \"Allen Langdon (E-mail)\" <IMCEAEX-_O=GPC_OU=VICTORIA_cn=Recipients_cn=ALangdon@GPC.CA>, \"Eric Thode (E-mail)\" <Eric.Thode@enron.com>, \"Zelikovitz, Evan\" <EZelikovitz@GPC.CA>, \"Glenn Leslie (E-mail)\" <glenn.leslie@blakes.com>, \"Peterson, Kevin\" <KPeterson@gpc.ca>, \"Mark Palmer (E-mail)\" <mpalmer@enron.com>, \"Reder, Mark\" <MReder@gpc.ca>, \"Varley, Peter\" <PVarley@GPC.CA>, \"Richard Shapiro (E-mail)\" <rshapiro@enron.com>, \"Rob Milnthorp (E-mail)\" <Rob.Milnthorp@enron.com>, \"Robert Hemstock (E-mail)\" <Robert.Hemstock@enron.com>, \"Steven Kean (E-mail)\" <skean@enron.com>, \"McLaren, Tom\" <TMcLaren@GPC.CA>, \"Albush, Vern\" <VAlbush@GPC.CA>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Dec2000_1\\Notes Folders\\Archiving\\Untitled",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_archiving_untitled_301.txt"
+}

@@ -1,0 +1,46 @@
+Hello - FieldCache is your problem. This can be solved in many ways but only one really beneficial:
+decrease number of documents, increase heap, facet on fewer fields, don't do function query
+on many fields. Or, of course, reindex with doc values. And you get a bonus, you can also
+drastically reduce your heap size.
+
+----Original message-----
+> From:Kelly, Frank <frank.kelly@here.com>
+> Sent: Thursday 9th February 2017 14:20
+> To: solr-user@lucene.apache.org
+> Subject: Solr Heap Dump: Any suggestions on what to look for?
+> 
+> Got a heap dump on an Out of Memory error. 
+> Analyzing the dump now in Visual VM 
+> 
+ 
+> Seeing a lot of byte[] arrays (77% of our 8GB Heap) in 
+> TreeMap$Entry FieldCacheImpl$SortedDocValues 
+> We’re considering switch over to DocValues but would rather be definitive about the
+root cause before we experiment with DocValues and require a reindex of our 200M document
+index  
+> In each of our 4 data centers. 
+> 
+ 
+> Any suggestions on what I should look for in this heap dump to get a definitive root
+cause? 
+> 
+ 
+> Cheers! 
+> 
+ 
+> -Frank 
+> 
+ 
+> 
+ 
+> Frank Kelly 
+> Principal Software Engineer 
+> HERE  
+> 5 Wayside Rd, Burlington, MA 01803, USA 
+> 42° 29' 7" N 71° 11' 32" W 
+>  <http://360.here.com/>     
+>  <https://www.twitter.com/here>    
+>  <https://www.facebook.com/here>     
+>  <https://www.linkedin.com/company/heremaps>     
+>  <https://www.instagram.com/here/>
+

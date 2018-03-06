@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "I just wanted to let everyone know that the groups listed below will be \nrelocating from Level 25 to Level 21 this weekend.  I will send out a listing \nof our new locations shortly and all of the people who are moving. \n\nDept. Head   Dept. Name\nMike Eiben   Unify POPS\nStephen Schwarz  Strategic Operations\nOpen   Unify MOPS\nScott Mills   Sitara\nLisa Cousino  Operational Risk Management (Transaction Cost Model)\nSteve Venturatos  Regulatory Compliance\nSteve Venturatos  Texas - Global Contracts\nSteve Venturatos  Texas - Global Facilities\n\n\nPlease note that we have to be packed up by 5:00 today and will not be \navailable after that time until Monday morning.  If you have any questions, \nplease call me.  Thanks.\n\nLisa Cousino\nx3-6343",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 737,
+      "text": "I just wanted to let everyone know that the groups listed below will be \nrelocating from Level 25 to Level 21 this weekend.  I will send out a listing \nof our new locations shortly and all of the people who are moving. \n\nDept. Head   Dept. Name\nMike Eiben   Unify POPS\nStephen Schwarz  Strategic Operations\nOpen   Unify MOPS\nScott Mills   Sitara\nLisa Cousino  Operational Risk Management (Transaction Cost Model)\nSteve Venturatos  Regulatory Compliance\nSteve Venturatos  Texas - Global Contracts\nSteve Venturatos  Texas - Global Facilities\n\n\nPlease note that we have to be packed up by 5:00 today and will not be \navailable after that time until Monday morning.  If you have any questions, \nplease call me.  Thanks.\n\nLisa Cousino\nx3-6343",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 717,
+      "end": 729,
+      "text": "Lisa Cousino",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 708,
+      "end": 737,
+      "text": "Thanks.\n\nLisa Cousino\nx3-6343",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3917036.1075855805128.JavaMail.evans@thyme>",
+      "Date": "Fri, 10 Mar 2000 02:55:00 -0800 (PST)",
+      "From": "lisa.cousino@enron.com",
+      "To": "kristin.albrecht@enron.com, thresa.allen@enron.com, evelyn.aucoin@enron.com, \n\tbryce.baxter@enron.com, sally.beck@enron.com, \n\ttheresa.brogan@enron.com, diane.cook@enron.com, \n\tkathryn.cordes@enron.com, lisa.csikos@enron.com, \n\tfrank.davis@enron.com, jennifer.denny@enron.com, \n\tmichael.eiben@enron.com, thomas.engel@enron.com, \n\thunaid.engineer@enron.com, daren.farmer@enron.com, \n\tmark.friedman@enron.com, randall.gay@enron.com, \n\tscotty.gilbert@enron.com, carolyn.gilley@enron.com, \n\tsheila.glover@enron.com, mary.gosnell@enron.com, \n\tdonna.greif@enron.com, d.hall@enron.com, jeff.harbert@enron.com, \n\tbill.hare@enron.com, susan.harrison@enron.com, \n\tbrenda.herod@enron.com, carrie.hollomon@enron.com, \n\tjohn.jacobsen@enron.com, katherine.kelly@enron.com, \n\tbob.klein@enron.com, roy.lipsett@enron.com, scott.mills@enron.com, \n\tmichael.moscoso@enron.com, gary.nelson@enron.com, \n\tdale.neuner@enron.com, eugenio.perez@enron.com, \n\tscott.pleus@enron.com, brent.price@enron.com, \n\tleslie.reeves@enron.com, dorothy.ricketts@enron.com, \n\tstephen.schwarz@enron.com, russ.severson@enron.com, \n\tgeorge.smith@enron.com, mary.smith@enron.com, \n\tmary.solmonson@enron.com, jefferson.sorenson@enron.com, \n\tmartha.stevens@enron.com, robert.superty@enron.com, \n\tconnie.sutton@enron.com, edward.terry@enron.com, \n\tkim.theriot@enron.com, sheri.thomas@enron.com, \n\tsteve.venturatos@enron.com, melissa.white@enron.com, \n\tstacey.white@enron.com, rita.wynne@enron.com, pat.clynes@enron.com, \n\tbennett.kaufman@enron.com, kimberly.olinger@enron.com, \n\tkimberly.perkins@enron.com, angela.henn@enron.com, \n\tmarvia.jefferson@enron.com, sandra.mcnichols@enron.com, \n\tmaria.sandoval@enron.com, alex.saldana@enron.com, \n\tcecilia.olvera@enron.com, chantelle.villanueva@enron.com, \n\tgretel.smith@enron.com, heather.choate@enron.com, \n\tirena.hogan@enron.com, julissa.marron@enron.com, \n\tkelly.templeton@enron.com, lisa.shoemake@enron.com, \n\tlorraine.becker@enron.com, lynn.tippery@enron.com, \n\tragayle.pellum@enron.com, yvette.connevey@enron.com, \n\tpatti.thompson@enron.com",
+      "Subject": "Relocation of Energy Operations personnel to Level 21 this weekend",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Lisa B Cousino",
+      "X-To": "Kristin Albrecht, Thresa A Allen, Evelyn Aucoin, Bryce Baxter, Sally Beck, Theresa T Brogan, Diane H Cook, Kathryn Cordes, Lisa Csikos, Frank L Davis, Jennifer deBoisblanc Denny, Michael Eiben, Thomas Engel, Hunaid Engineer, Daren J Farmer, Mark Friedman, Randall L Gay, Scotty Gilbert, Carolyn Gilley, Sheila Glover, Mary G Gosnell, Donna Greif, D Todd Hall, Jeff Harbert, Bill D Hare, Susan Harrison, Brenda F Herod, Carrie Hollomon, John Jacobsen, Katherine L Kelly, Bob Klein, Roy Lipsett, Scott Mills, Michael E Moscoso, Gary Nelson, Dale Neuner, Eugenio Perez, Scott Pleus, Brent A Price, Leslie Reeves, Dorothy Ricketts, Stephen P Schwarz, Russ Severson, George Smith, Mary M Smith, Mary Solmonson, Jefferson D Sorenson, Martha Stevens, Robert Superty, Connie Sutton, Edward Terry, Kim S Theriot, Sheri Thomas, Steve Venturatos, Melissa White, Stacey W White, Rita Wynne, Pat Clynes, Bennett Kaufman, Kimberly S Olinger, Kimberly Perkins, Angela Henn, Marvia Jefferson, Sandra R McNichols, Maria Sandoval, Alex Saldana, Cecilia Olvera, Chantelle Villanueva, Gretel Smith, Heather Choate, Irena D Hogan, Julissa Marron, Kelly Templeton, Lisa Shoemake, Lorraine Becker, Lynn Tippery, Ragayle Pellum, Yvette G Connevey, Patti Thompson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sally_Beck_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "Beck-S",
+      "X-FileName": "sbeck.nsf"
+    }
+  },
+  "id": "train/beck-s_all_documents_2475.txt"
+}

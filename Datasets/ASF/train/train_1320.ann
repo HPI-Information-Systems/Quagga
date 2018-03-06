@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi David,\n\nWhat is the solr version you are using? \nTo get started, it's better to use the config file that comes out of the\nbox. \n\nThanks,\nAravind\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/minimal-solrconfig-example-tp4322977p4322978.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi David,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 131,
+      "end": 148,
+      "text": "\nThanks,\nAravind\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 332,
+      "text": "Hi David,\n\nWhat is the solr version you are using? \nTo get started, it's better to use the config file that comes out of the\nbox. \n\nThanks,\nAravind\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/minimal-solrconfig-example-tp4322977p4322978.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1320"
+}

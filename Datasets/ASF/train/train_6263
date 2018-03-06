@@ -1,0 +1,32 @@
+Hi,
+I'm using Solr 6.6.0 i have set mm as 100% but when i have the repeated
+search term then mm param is not honoured
+
+I have 2 docs in index
+Doc1-
+name=lock
+Doc 2-
+name=lock lock
+
+Now when i'm quering the solr with query
+*http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json
+<http://localhost:8983/solr/test2/select?defType=dismax&qf=name&indent=on&mm=100%25&q=lock%20lock&wt=json>*
+then it is returning both results but it should return only Doc 2 as no of
+frequency is 2 in query while doc1 has frequency of 1 (lock term frequency).
+Any Idea what to do ,to avoid getting doc 1 in resultset as i don't want
+user to get the Doc1.
+Schema
+<field name="name" type="text_word_delimiter" indexed="true" stored="true"/>
+<fieldType name="text_word_delimiter" class="solr.TextField"
+autoGeneratePhraseQueries="false" positionIncrementGap="100"> <analyzer type
+="index"> <tokenizer class="solr.StandardTokenizerFactory"/> <filter class=
+"solr.LowerCaseFilterFactory"/> </analyzer> <analyzer type="query"> <
+tokenizer class="solr.StandardTokenizerFactory"/> <filter class=
+"solr.ManagedSynonymFilterFactory" managed="synonyms_gdn"/> <filter class=
+"solr.LowerCaseFilterFactory"/> </analyzer> </fieldType>
+
+Their is no synonym is added also.
+
+Thanks,
+Aman Deep Singh
+

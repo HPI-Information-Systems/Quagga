@@ -1,0 +1,18 @@
+Forgot to mention I am getting a stream of Avro records and I want to do
+Structured streaming on these Avro records but first I wan to be able to
+parse them and put them in a DataSet<Row> or something like that.
+
+On Thu, Jun 29, 2017 at 12:56 AM, kant kodali <kanth909@gmail.com> wrote:
+
+> Hi All,
+>
+> What's the simplest way to Read Avro records from Kafka and put it into
+> Spark DataSet/DataFrame without using Confluent Schema registry or Twitter
+> Bijection API?
+>
+> Thanks!
+>
+>
+>
+>
+

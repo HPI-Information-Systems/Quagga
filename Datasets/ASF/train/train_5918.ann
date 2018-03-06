@@ -1,0 +1,144 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sarvo,\nI hope the users do not read JSON. I would have thought you'd have a web app in front of Solr\nand some Javascript in the browser. Either would be able to transform Solr's output into a\ndisplay format. But I suspect there is more to the problem, and I do not understand it all.\nCheers -- Rick\n\nOn September 6, 2017 4:42:03 PM EDT, Sarvothaman Madhavan <reladric@gmail.com> wrote:\n>Rick,\n>\n>My use case is this :\n>\n>I have a set of documents each of which have \"sub documents\" associated\n>with it. I have this in the json format and I am able to load this into\n>a\n>solr collection. When I search within this set of documents using solr,\n>I\n>want the response in \"grouped\" json format\n>\n>i.e\n>\n>{\n>\n>  \"key\": \"value\",\n>\n>  \"sub_doc\": [\n>\n>    {\n>\n>      \"inner_key\": \"inner_value\"\n>\n>    }\n>\n>  ]\n>\n>}\n>\n>\n>\n>instead of solrs default flat json format:\n>\n>i.e.\n>\n>{\n>\n>               \"key\":\"value\",\n>\n>               \"subdoc.inner_key\"= [\"inner_value\"]\n>\n>}\n>\n>\n>\n>I think the \"grouped\" json format will be much more intuitive to my end\n>users who are going to use the search\n>\n>\n>\n>P.S: Just to be clear I am not having any trouble querying\n>children/parent\n>document since I have all of this stored using fully qualified names in\n>each document in the collection.\n>\n>\n>\n>\n>\n>Regards,\n>\n>Sarvo\n>\n>\n>\n>On Wed, Sep 6, 2017 at 3:52 PM, Rick Leir <rleir@leirtech.com> wrote:\n>\n>> Sarvo,\n>> What are you trying to achieve? Describe the use case.\n>> Cheers -- Rick\n>>\n>> On September 6, 2017 12:36:08 PM EDT, \"Davis, Daniel (NIH/NLM) [C]\" <\n>> daniel.davis@nih.gov> wrote:\n>> >It should be possible with a custom response handler.\n>> >\n>> >-----Original Message-----\n>> >From: Sarvothaman Madhavan [mailto:reladric@gmail.com]\n>> >Sent: Wednesday, September 06, 2017 10:17 AM\n>> >To: solr-user@lucene.apache.org\n>> >Subject: Customizing JSON response of a query\n>> >\n>> >Hello all,\n>> >After a week of research I've come to the conclusion that there is\n>no\n>> >mechanism within solr where I can create a nested json response like\n>> >this:\n>> >https://pastebin.com/XavvUP94 . I am able to get something like this\n>> >https://pastebin.com/FeXRqG59.\n>> >1. Am I right in assuming that within solr this is not possbile?\n>> >2. Assuming it is, I imagine I would need to write custom response\n>> >writer in Java to customize the response. I am having a hard time\n>> >locating the right resource to get me started on writing this.\n>> >\n>> >Any ideas?\n>> >\n>> >Thanks,\n>> >Sarvo\n>>\n>> --\n>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Sarvo,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 284,
+      "end": 299,
+      "text": "Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 300,
+      "text": "Sarvo,\nI hope the users do not read JSON. I would have thought you'd have a web app in front of Solr\nand some Javascript in the browser. Either would be able to transform Solr's output into a\ndisplay format. But I suspect there is more to the problem, and I do not understand it all.\nCheers -- Rick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 300,
+      "end": 386,
+      "text": "On September 6, 2017 4:42:03 PM EDT, Sarvothaman Madhavan <reladric@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 386,
+      "end": 393,
+      "text": ">Rick,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1277,
+      "end": 1298,
+      "text": ">\n>Regards,\n>\n>Sarvo\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 386,
+      "end": 1304,
+      "text": ">Rick,\n>\n>My use case is this :\n>\n>I have a set of documents each of which have \"sub documents\" associated\n>with it. I have this in the json format and I am able to load this into\n>a\n>solr collection. When I search within this set of documents using solr,\n>I\n>want the response in \"grouped\" json format\n>\n>i.e\n>\n>{\n>\n>  \"key\": \"value\",\n>\n>  \"sub_doc\": [\n>\n>    {\n>\n>      \"inner_key\": \"inner_value\"\n>\n>    }\n>\n>  ]\n>\n>}\n>\n>\n>\n>instead of solrs default flat json format:\n>\n>i.e.\n>\n>{\n>\n>               \"key\":\"value\",\n>\n>               \"subdoc.inner_key\"= [\"inner_value\"]\n>\n>}\n>\n>\n>\n>I think the \"grouped\" json format will be much more intuitive to my end\n>users who are going to use the search\n>\n>\n>\n>P.S: Just to be clear I am not having any trouble querying\n>children/parent\n>document since I have all of this stored using fully qualified names in\n>each document in the collection.\n>\n>\n>\n>\n>\n>Regards,\n>\n>Sarvo\n>\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1304,
+      "end": 1375,
+      "text": ">On Wed, Sep 6, 2017 at 3:52 PM, Rick Leir <rleir@leirtech.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1375,
+      "end": 1387,
+      "text": ">\n>> Sarvo,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1445,
+      "end": 1463,
+      "text": ">> Cheers -- Rick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1375,
+      "end": 1466,
+      "text": ">\n>> Sarvo,\n>> What are you trying to achieve? Describe the use case.\n>> Cheers -- Rick\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1466,
+      "end": 1571,
+      "text": ">> On September 6, 2017 12:36:08 PM EDT, \"Davis, Daniel (NIH/NLM) [C]\" <\n>> daniel.davis@nih.gov> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1571,
+      "end": 1634,
+      "text": ">> >It should be possible with a custom response handler.\n>> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1634,
+      "end": 1859,
+      "text": ">> >-----Original Message-----\n>> >From: Sarvothaman Madhavan [mailto:reladric@gmail.com]\n>> >Sent: Wednesday, September 06, 2017 10:17 AM\n>> >To: solr-user@lucene.apache.org\n>> >Subject: Customizing JSON response of a query\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1859,
+      "end": 1879,
+      "text": ">> >\n>> >Hello all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 2442,
+      "end": 2469,
+      "text": ">> >\n>> >Thanks,\n>> >Sarvo\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1859,
+      "end": 2623,
+      "text": ">> >\n>> >Hello all,\n>> >After a week of research I've come to the conclusion that there is\n>no\n>> >mechanism within solr where I can create a nested json response like\n>> >this:\n>> >https://pastebin.com/XavvUP94 . I am able to get something like this\n>> >https://pastebin.com/FeXRqG59.\n>> >1. Am I right in assuming that within solr this is not possbile?\n>> >2. Assuming it is, I imagine I would need to write custom response\n>> >writer in Java to customize the response. I am having a hard time\n>> >locating the right resource to get me started on writing this.\n>> >\n>> >Any ideas?\n>> >\n>> >Thanks,\n>> >Sarvo\n>>\n>> --\n>> Sorry for being brief. Alternate email is rickleir at yahoo dot com\n\n-- \nSorry for being brief. Alternate email is rickleir at yahoo dot com \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5918"
+}

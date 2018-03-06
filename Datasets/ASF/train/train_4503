@@ -1,0 +1,57 @@
+I am curios why you need to restart solr every week.  Our Prod solr
+instance (6.0) has been running Since Nov,16 with no restart
+
+On Sun, Jul 2, 2017 at 12:55 PM, Furkan KAMACI <furkankamaci@gmail.com>
+wrote:
+
+> Hi Jeck,
+>
+> Here is the documentation about how you can run Solr as service:
+> https://lucene.apache.org/solr/guide/6_6/taking-solr-to-production.html
+>
+> However, as far as I see you use Windows as operating system. There is
+> currently an open issue for creating scripts to run as a Windows Service:
+> https://issues.apache.org/jira/browse/SOLR-7105 but not yet completed.
+>
+> Could you check this:
+> http://coding-art.blogspot.com.tr/2016/07/running-solr-
+> 61-as-windows-service.html
+>
+> Kind Regards,
+> Furkan KAMACI
+>
+>
+> On Sun, Jul 2, 2017 at 6:12 PM, rojerick luna <rhl_21@yahoo.com.invalid>
+> wrote:
+>
+> > Hi,
+> >
+> > Anyone who successfully set this up? Thanks
+> >
+> > Best Regards,
+> > Jeck
+> >
+> > > On 20 Jun 2017, at 7:10 PM, rojerick luna <rhl_21@yahoo.com.INVALID>
+> > wrote:
+> > >
+> > > Hi,
+> > >
+> > > I'm trying to automate Solr restart every week.
+> > >
+> > > I created a stop.bat and updated the start.bat which I found on an
+> > article online. Using stop.bat and start.bat is working fine. However
+> when
+> > I created a Task Scheduler (Windows Scheduler) and setup the frequency to
+> > stop and start (using the bat files), it's not working; the Solr app
+> didn't
+> > restart.
+> > >
+> > > Please let me know if you have successfully tried it and send me steps
+> > how you've setup the Task Scheduler.
+> > >
+> > > Best Regards,
+> > > Jeck Luna
+> >
+> >
+>
+

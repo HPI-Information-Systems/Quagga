@@ -1,0 +1,239 @@
+{
+  "wrapper": "plaintext",
+  "text": "PB, FYI and follow-up.  If you are interested or if anything comes of this, \nplease let me know.\nThanks,\nMike\n---------------------- Forwarded by Mike McConnell/HOU/ECT on 11/14/2000 \n04:49 PM ---------------------------\n\n\n\"David W. Hardee\" <dwhardee@earthlink.net> on 11/07/2000 01:39:51 PM\nTo: <mike.mcconnell@enron.com>\ncc:  \nSubject: Western Coal Conference\n\n\nMike:\n\nI enjoyed your remarks and meeting you after your speech.  I remain quite\ninterested in your comment that Enrononline expects to trade more coal that\nnatural gas or electricity in the future.\n\nAs we discussed, we are the dominant software fossil fuel developers in the\ngenerating space, having our operating systems installed in 23 of the\nlargest generating companies.  The largest of our customers are also the\nlargest consumers of coal, and include TVA, Southern, AEP, First Energy,\nCP&L, Exelon, New Century/Excel, and Southern Energy, among others.  At\nseveral of the companies' request, we have developed our Fuel Optimizer\nModule (FPO), which tells the fuel buyer what the delivered cost to a plant\nspecific specifications is, once the coal cost is factored into the\nequation.\n\nAttached is an overview of our system, and the specs on the FPO.  Please\nforward these on the appropriate people in your organization.  I look\nforward to hearing from them.\n\nThank you for your time.\n\nDavid\n\n - David W. Hardee.vcf\n - FCMFPO2.doc\n - IBS_CorpSummary.ppt\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 105,
+      "end": 109,
+      "text": "Mike",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 97,
+      "end": 110,
+      "text": "Thanks,\nMike\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 110,
+      "text": "PB, FYI and follow-up.  If you are interested or if anything comes of this, \nplease let me know.\nThanks,\nMike\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 146,
+      "end": 160,
+      "text": "Mike McConnell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 172,
+      "end": 182,
+      "text": "11/14/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 184,
+      "end": 192,
+      "text": "04:49 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 110,
+      "end": 221,
+      "text": "---------------------- Forwarded by Mike McConnell/HOU/ECT on 11/14/2000 \n04:49 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 224,
+      "end": 239,
+      "text": "David W. Hardee",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 242,
+      "end": 264,
+      "text": "dwhardee@earthlink.net",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 269,
+      "end": 279,
+      "text": "11/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 280,
+      "end": 291,
+      "text": "01:39:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 297,
+      "end": 321,
+      "text": "mike.mcconnell@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 338,
+      "end": 361,
+      "text": "Western Coal Conference",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 221,
+      "end": 362,
+      "text": "\n\n\"David W. Hardee\" <dwhardee@earthlink.net> on 11/07/2000 01:39:51 PM\nTo: <mike.mcconnell@enron.com>\ncc:  \nSubject: Western Coal Conference\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 364,
+      "end": 369,
+      "text": "Mike:",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1365,
+      "end": 1384,
+      "text": "David W. Hardee.vcf",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1388,
+      "end": 1399,
+      "text": "FCMFPO2.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1403,
+      "end": 1422,
+      "text": "IBS_CorpSummary.ppt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1362,
+      "end": 1423,
+      "text": " - David W. Hardee.vcf\n - FCMFPO2.doc\n - IBS_CorpSummary.ppt\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1355,
+      "end": 1360,
+      "text": "David",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1329,
+      "end": 1361,
+      "text": "Thank you for your time.\n\nDavid\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 362,
+      "end": 1423,
+      "text": "\n\nMike:\n\nI enjoyed your remarks and meeting you after your speech.  I remain quite\ninterested in your comment that Enrononline expects to trade more coal that\nnatural gas or electricity in the future.\n\nAs we discussed, we are the dominant software fossil fuel developers in the\ngenerating space, having our operating systems installed in 23 of the\nlargest generating companies.  The largest of our customers are also the\nlargest consumers of coal, and include TVA, Southern, AEP, First Energy,\nCP&L, Exelon, New Century/Excel, and Southern Energy, among others.  At\nseveral of the companies' request, we have developed our Fuel Optimizer\nModule (FPO), which tells the fuel buyer what the delivered cost to a plant\nspecific specifications is, once the coal cost is factored into the\nequation.\n\nAttached is an overview of our system, and the specs on the FPO.  Please\nforward these on the appropriate people in your organization.  I look\nforward to hearing from them.\n\nThank you for your time.\n\nDavid\n\n - David W. Hardee.vcf\n - FCMFPO2.doc\n - IBS_CorpSummary.ppt\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 9,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 20,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23494867.1075843966463.JavaMail.evans@thyme>",
+      "Date": "Tue, 14 Nov 2000 08:51:00 -0800 (PST)",
+      "From": "mike.mcconnell@enron.com",
+      "To": "philippe.bibi@enron.com",
+      "Subject": "Western Coal Conference",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Mike McConnell",
+      "X-To": "Philippe A Bibi",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_McConnell_June2001\\Notes Folders\\Sent",
+      "X-Origin": "MCCONNELL-M",
+      "X-FileName": "mmcconn.nsf"
+    }
+  },
+  "id": "eval/mcconnell-m_sent_400.txt"
+}

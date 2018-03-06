@@ -1,0 +1,41 @@
+On 3/27/2017 5:51 AM, John Blythe wrote:
+> The new versions of solr come out in pretty regular fashion. We are
+> currently on 6.0. I'm curious what drives you / your team to run the
+> upgrades when you do. Particular features or patches you're
+> eyeballing? Only concerned w major releases? Some other protocol that
+> is set internally?
+
+The pace of development in the Lucene/Solr project is extremely swift. 
+Releases are made when one of the developers feels that enough bugfixes
+and features have been added to justify a new release, and volunteers to
+be the release manager.  The release manager will decide whether a
+particular fix or feature under development will delay the release or
+whether it should wait until the next release.
+
+Minor releases are very frequent on this project compared to others. 
+The project is particularly interested in making sure that bugs are
+found and fixed quickly, but each minor release will also include new
+features as well.  If a nasty bug is found, a buxfix release will
+usually follow, within the same minor release.
+
+Major releases are less frequent, but follow a similar pattern.  The
+next major release is developed in an entirely different branch of the
+source repository (named master) and it takes quite a lot of work to get
+that branch ready for release and make sure it works as desired.
+
+Like Alessandro mentioned, we do recommend that you try to stay current
+in your Solr install.  If you let your install get far enough behind,
+you'll probably find that many new versions have been released in the
+meantime, fixing a large number of bugs and adding new functionality
+that may benefit your installation.
+
+The people involved with developing Solr are also *users* of the
+software.  They are aware of the challenges involved in qualifying a new
+release before upgrading.  Most of them are unwilling to upgrade a
+production install without first trying the new version out in an dev
+environment.
+
+Thanks,
+Shawn
+
+

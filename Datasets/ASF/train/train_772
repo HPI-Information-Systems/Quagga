@@ -1,0 +1,65 @@
+Try with split.key=!
+This will migrate all docs.
+
+On 6 February 2017 at 14:31, alias <524839460@qq.com> wrote:
+
+> I use this command,but not effect：  http://localhost:8081/solr/
+> admin/collections?action=MIGRATE&collection=c1&split.
+> key=c1_&target.collection=c2,
+>
+>
+>
+> ------------------ 原始邮件 ------------------
+> 发件人: "Erick Erickson"<erickerickson@gmail.com>;
+> 发送时间: 2017年2月6日(星期一) 中午11:24
+> 收件人: "solr-user"<solr-user@lucene.apache.org>;
+> 主题: Re: Migrate Documents to Another Collection
+>
+>
+>
+> I do not understand the problem. The http command you've shown is
+> simply creating a collection. What does that have to do with migrating
+> from c1 to c2? In fact, it is recreating c1. Assuming you haven't
+> redefined the <uniqueKey>, then the router field defaults to "id". So
+> this is just recreating a plain-vanilla collection. If you already
+> have a "c1" collection, I expect the above would simply fail.
+>
+> There's nothing indicating you tried to move docs from C1 to C2 as the
+> title of this e-mail indicates. There's no magic here, Solr
+> collections are completely independent of one another. If you want
+> docs to be moved, _you_ have to move them.
+>
+> Best,
+> Erick
+>
+>
+>
+> On Sun, Feb 5, 2017 at 6:20 PM, alias <524839460@qq.com> wrote:
+> > hello,please help me look this question
+> >
+> >
+> >
+> > I have a solr collections on the merger, we would like to ask the next
+> question is as follows I have two collections, c1 and c2,
+> >
+> > C1 colleciton there are 10 data, id is from c1_0 to c1_9,
+> >
+> > C2 colleciton also has 10 data, id is from c2_0 to c2_9,
+> >
+> > I now want to c1 id c1_ format data into the c2, I implemented the
+> following order, it seems no effect, and why?
+> >
+> > I c1 designated in the new router.field=id
+> >
+> > http://localhost:8081/solr/admin/collections?action=
+> CREATE&amp;name=c1&amp;numShards=3&replicationFactor=3&maxShardsPerNode=3&
+> collection.configName=myconf&amp;router.field=id
+> >
+> > I refer to https://cwiki.apache.org/confluence/display/solr/
+> Collections+API#CollectionsAPI-api12
+> >
+> > Solr version 6.3.0
+> >
+> > I have a problem? Or understanding wrong?
+>
+

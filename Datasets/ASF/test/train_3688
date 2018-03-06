@@ -1,0 +1,56 @@
+Hi everyone
+
+Currently GBT doesn't expose featureSubsetStrategy as exposed by Random
+Forest.
+
+.
+GradientBoostedTrees in Spark have hardcoded feature subset strategy to
+"all" while calling random forest in  DecisionTreeRegressor.scala
+
+val trees = RandomForest.run(data, oldStrategy, numTrees = 1,
+featureSubsetStrategy = "all",
+
+
+It should provide functionality to the user to set featureSubsetStrategy
+("auto", "all" ,"sqrt" , "log2" , "onethird") ,
+the way random forest does.
+
+This will help GBT to have randomness at feature level.
+
+Jira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>
+
+Please let me know , if my understanding is correct.
+
+Regards
+Pralabh Kumar
+
+On Fri, Jun 16, 2017 at 7:53 AM, Pralabh Kumar <pralabhkumar@gmail.com>
+wrote:
+
+> Hi everyone
+>
+> Currently GBT doesn't expose featureSubsetStrategy as exposed by Random
+> Forest.
+>
+> .
+> GradientBoostedTrees in Spark have hardcoded feature subset strategy to
+> "all" while calling random forest in  DecisionTreeRegressor.scala
+>
+> val trees = RandomForest.run(data, oldStrategy, numTrees = 1,
+> featureSubsetStrategy = "all",
+>
+>
+> It should provide functionality to the user to set featureSubsetStrategy
+> ("auto", "all" ,"sqrt" , "log2" , "onethird") ,
+> the way random forest does.
+>
+> This will help GBT to have randomness at feature level.
+>
+> Jira SPARK-20199 <https://issues.apache.org/jira/browse/SPARK-20199>
+>
+> Please let me know , if my understanding is correct.
+>
+> Regards
+> Pralabh Kumar
+>
+

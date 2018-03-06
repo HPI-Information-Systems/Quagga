@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Sunil,\n\nI have not much experience with logging on Yarn, but Robert (in CC) might\nbe able to help you.\n\nCheers, Fabian\n\n2017-02-28 14:54 GMT+01:00 raikarsunil <rsunilkle@gmail.com>:\n\n> Hi ,\n>\n> Is there any way we can configure application logging by passing the custom\n> log4j properties file in flink run command? The aim is to write all the\n> application logs in a specific file rather than the default yarn/flink log\n> file.\n>\n> Currently I am using the below command to run my application :\n>\n> flink run -m yarn-cluster -yst -yn 2 -ynm MyAppName -yd -yt\n> CustomFileLocation JARFILE ARGS\n>\n> *NOTE:There are many applications running on the EMR ,looking for solution\n> without tweaking the log properties in the flink directory.*\n>\n> Thanks,\n> Sunil\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/Flink-\n> Application-Log-Custom-Log-properties-tp11960.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Sunil,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 106,
+      "end": 122,
+      "text": "\nCheers, Fabian\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 123,
+      "end": 185,
+      "text": "2017-02-28 14:54 GMT+01:00 raikarsunil <rsunilkle@gmail.com>:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 123,
+      "text": "Hi Sunil,\n\nI have not much experience with logging on Yarn, but Robert (in CC) might\nbe able to help you.\n\nCheers, Fabian\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 185,
+      "end": 193,
+      "text": "\n> Hi ,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 739,
+      "end": 759,
+      "text": ">\n> Thanks,\n> Sunil\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 185,
+      "end": 1030,
+      "text": "\n> Hi ,\n>\n> Is there any way we can configure application logging by passing the custom\n> log4j properties file in flink run command? The aim is to write all the\n> application logs in a specific file rather than the default yarn/flink log\n> file.\n>\n> Currently I am using the below command to run my application :\n>\n> flink run -m yarn-cluster -yst -yn 2 -ynm MyAppName -yd -yt\n> CustomFileLocation JARFILE ARGS\n>\n> *NOTE:There are many applications running on the EMR ,looking for solution\n> without tweaking the log properties in the flink directory.*\n>\n> Thanks,\n> Sunil\n>\n>\n>\n> --\n> View this message in context: http://apache-flink-user-\n> mailing-list-archive.2336050.n4.nabble.com/Flink-\n> Application-Log-Custom-Log-properties-tp11960.html\n> Sent from the Apache Flink User Mailing List archive. mailing list archive\n> at Nabble.com.\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_1145"
+}

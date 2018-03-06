@@ -1,0 +1,59 @@
+{
+  "wrapper": "plaintext",
+  "text": "The dept. conf. call scheduled for Friday, March 23 at 10:30am (CST) has been \ncancelled.\n\ngngr\n713-853-7751",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 91,
+      "end": 95,
+      "text": "gngr",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 96,
+      "end": 108,
+      "text": "713-853-7751",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 108,
+      "text": "The dept. conf. call scheduled for Friday, March 23 at 10:30am (CST) has been \ncancelled.\n\ngngr\n713-853-7751",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2537179.1075843398378.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Mar 2001 09:03:00 -0800 (PST)",
+      "From": "ginger.dernehl@enron.com",
+      "To": "assad@elektro.com.br, alan.comnes@enron.com, alberto.levy@enron.com, \n\taleck.dadson@enron.com, allison.navin@enron.com, \n\tamy.fabian@enron.com, barbara.hueter@enron.com, \n\tbernadette.hawkins@enron.com, bill.moore@enron.com, \n\tcristinah@elektro.com.br, carmen.perez@enron.com, \n\tcarolyn.cooney@enron.com, charles.yeung@enron.com, \n\tchauncey.hood@enron.com, chris.long@enron.com, \n\tchristi.nicolay@enron.com, dan.staines@enron.com, \n\tdaniel.allegretti@enron.com, dave.mangskau@enron.com, \n\tdonald.lassere@enron.com, donna.fulton@enron.com, \n\teidy.catala@enron.com, elizabeth.linnell@enron.com, \n\teric.benson@enron.com, frank.rishe@enron.com, \n\tgeriann.warner@enron.com, germain.palmer@enron.com, \n\tginger.dernehl@enron.com, gisele.braz@enron.com, \n\tgloria.ogenyi@enron.com, guillermo.canovas@enron.com, \n\tharry.kingerski@enron.com, howard.fromer@enron.com, \n\tjpr@ceibo.entelnet.bo, james.steffes@enron.com, \n\tjanel.guerrero@enron.com, janine.migden@enron.com, \n\tjavier.pantoja@enron.com, jean.dressler@enron.com, \n\tjean.ryall@enron.com, jeff.brown@enron.com, jeff.dasovich@enron.com, \n\tjeffrey.keeler@enron.com, joao.paixao@enron.com, joe.allen@enron.com, \n\tjoe.connor@enron.com, joe.hartsoe@enron.com, joe.hillings@enron.com, \n\tjose.bestard@enron.com, joseph.alamo@enron.com, \n\tkathleen.sullivan@enron.com, kerry.stroup@enron.com, \n\tkikumi.kishigami@enron.com, kirsten.bellas@enron.com, \n\tlara.leibman@enron.com, laurie.knight@enron.com, \n\tleslie.lawner@enron.com, linda.noske@enron.com, \n\tlinda.robertson@enron.com, lindsay.meade@enron.com, \n\tlisa.yoho@enron.com, lora.sullivan@enron.com, luiz.maurer@enron.com, \n\tlysa.akin@enron.com, marchris.robinson@enron.com, \n\tmarcia.linton@enron.com, mary.hain@enron.com, \n\tmaureen.mcvicker@enron.com, melinda.pharms@enron.com, \n\tmike.roan@enron.com, mona.petrochko@enron.com, \n\tnancy.hetrick@enron.com, patrick.keene@enron.com, \n\tpaul.kaufman@enron.com, ray.alvarez@enron.com, \n\trebecca.cantrell@enron.com, ricardo.charvel@enron.com, \n\trichard.ingersoll@enron.com, richard.shapiro@enron.com, \n\trobert.frank@enron.com, robert.hemstock@enron.com, \n\trobert.neustaedter@enron.com, robin.kittel@enron.com, \n\tron.mcnamara@enron.com, roy.boston@enron.com, \n\trubena.buerger@enron.com, sandra.mccubbin@enron.com, \n\tsarah.novosel@enron.com, scott.bolton@enron.com, \n\tsergio.assad@enron.com, stella.chan@enron.com, \n\tstephen.burns@enron.com, steve.montovano@enron.com, \n\tsteve.walton@enron.com, steven.kean@enron.com, sue.nord@enron.com, \n\tsusan.mara@enron.com, susan.landwehr@enron.com, \n\tterri.miller@enron.com, thane.twiggs@enron.com, tom.briggs@enron.com, \n\ttom.chapman@enron.com, tom.hoatson@enron.com, valeria.lima@enron.com, \n\tvinio.floris@enron.com, xi.xi@enron.com",
+      "Subject": "Dept. Conf. Call Cancelled",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Ginger Dernehl",
+      "X-To": "assad@elektro.com.br, Alan Comnes, Alberto Levy, Aleck Dadson, Allison Navin, Amy Fabian, Barbara A Hueter, Bernadette Hawkins, Bill Moore, cristinah@elektro.com.br, Carmen Perez, Carolyn Cooney, Charles Yeung, Chauncey Hood, Chris Long, Christi L Nicolay, Dan Staines, Daniel Allegretti, Dave Mangskau, Donald Lassere, Donna Fulton, Eidy Catala, Elizabeth Linnell, Eric Benson, Frank Rishe, Geriann Warner, Germain Palmer, Ginger Dernehl, Gisele S Braz, Gloria Ogenyi, Guillermo Canovas, Harry Kingerski, Howard Fromer, jpr@ceibo.entelnet.bo, James D Steffes, Janel Guerrero, Janine Migden, Javier Pantoja, Jean R Dressler, Jean Ryall, Jeff Brown, Jeff Dasovich, Jeffrey Keeler, Joao Paixao, Joe Allen, Joe Connor, Joe Hartsoe, Joe Hillings, Jose Bestard, Joseph Alamo, Kathleen Sullivan, Kerry Stroup, Kikumi Kishigami, Kirsten Bellas, Lara Leibman, Laurie Knight, Leslie Lawner, Linda J Noske, Linda Robertson, Lindsay Meade, Lisa Yoho, Lora Sullivan, Luiz Maurer, Lysa Akin, Marchris Robinson, Marcia A Linton, Mary Hain, Maureen McVicker, Melinda Pharms, Mike Roan, Mona L Petrochko, Nancy Hetrick, Patrick Keene, Paul Kaufman, Ray Alvarez, Rebecca W Cantrell, Ricardo Charvel, Richard Ingersoll, Richard Shapiro, Robert Frank, Robert Hemstock, Robert Neustaedter, Robin Kittel, Ron McNamara, Roy Boston, Rubena Buerger, Sandra McCubbin, Sarah Novosel, Scott Bolton, Sergio Assad, Stella Chan, Stephen D Burns, Steve Montovano, Steve Walton, Steven J Kean, Sue Nord, Susan J Mara, Susan M Landwehr, Terri Miller, Thane Twiggs, Tom Briggs, Tom Chapman, Tom Hoatson, Valeria Lima, Vinio Floris, Xi Xi",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeff_Dasovich_June2001\\Notes Folders\\All documents",
+      "X-Origin": "DASOVICH-J",
+      "X-FileName": "jdasovic.nsf"
+    }
+  },
+  "id": "train/dasovich-j_all_documents_10192.txt"
+}

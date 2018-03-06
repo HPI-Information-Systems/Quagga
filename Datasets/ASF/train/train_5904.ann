@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi, I have a custom field \"listOfIDs\" = \"1,2,4,33\"\n\nI want the equivalent of:\n\nselect * where '1' IN (listOfIDs)  --> should get a match\n\nselect * where '33' IN (listOfIDs)  --> should get a match\n\nselect * where '3' IN (listOfIDs)  --> should NOT get a match\n\n\nCan anyone help me out please as I can't seem to find any documentation on\nthis. Thanks very much in advance.\n\nKind regards,\n\n\nNick Way\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Hi,",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 372,
+      "end": 398,
+      "text": "\nKind regards,\n\n\nNick Way\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 399,
+      "text": "Hi, I have a custom field \"listOfIDs\" = \"1,2,4,33\"\n\nI want the equivalent of:\n\nselect * where '1' IN (listOfIDs)  --> should get a match\n\nselect * where '33' IN (listOfIDs)  --> should get a match\n\nselect * where '3' IN (listOfIDs)  --> should NOT get a match\n\n\nCan anyone help me out please as I can't seem to find any documentation on\nthis. Thanks very much in advance.\n\nKind regards,\n\n\nNick Way\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5904"
+}

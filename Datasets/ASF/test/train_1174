@@ -1,0 +1,27 @@
+Just guessing here, but would
+http://spark.apache.org/docs/latest/streaming-programming-guide.html#basic-sources
+"*Queue of RDDs as a Stream*" work? Basically create DStream from your RDD
+and than union with other DStream.
+
+2017-02-08 12:32 GMT-08:00 Amit Sela <amitsela33@gmail.com>:
+
+> Hi all,
+>
+> I'm looking to union a DStream and RDD into a single stream.
+> One important note is that the RDD has to be added to the DStream just
+> once.
+>
+> Ideas ?
+>
+> Thanks,
+> Amit
+>
+>
+
+
+
+-- 
+
+
+*Sincerely yoursEgor Pakhomov*
+

@@ -1,0 +1,64 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello, \n\nThis is not possible out of the box, you would need to manually pass the input through an\nanalyzer with a tokenizer and your steming token filter, and put the output together again.\n\nMarkus\n\n \n \n-----Original message-----\n> From:Leonidas Zagkaretos <leonzagk@gmail.com>\n> Sent: Wednesday 25th January 2017 17:51\n> To: solr-user@lucene.apache.org\n> Subject: Pass Analyzed Field to SignatureUpdateProcessorFactory\n> \n> Hi all,\n> \n> We have successfully integrated Solr in our application, and now we are\n> facing a requirement where the application should be able to search for\n> duplicate records in Solr core based on equality in 3 distinct fields.\n> \n> Tried using SignatureUpdateProcessorFactory as described in\n> https://cwiki.apache.org/confluence/display/solr/De-Duplication and\n> Lookup3Signature and everything seems to work fine, signature field is\n> being filled with unique hash values.\n> \n> One issue we have, is that we need to pass to\n> SignatureUpdateProcessorFactory the stemmed value of 1 of 3 fields.\n> Currenty, the following documents produce different hash values, and we\n> need them to produce unique.\n> Analysis for field1 and values \"value1_a\" and \"value1_b\" produce stemmed\n> value \"value1\"\n> \n> documentA: {\n>     field1: value1_a,\n>     field2: value2,\n>     field3: value3,\n>     signature: hash_value1\n> }\n> \n> documentB: {\n>     field1: value1_b,\n>     field2: value2,\n>     field3: value3,\n>     signature: hash_value2\n> }\n> \n> I would like to ask whether it is possible to have required behavior, and\n> some tips about how to accomplish this task.\n> \n> Thank you in advance,\n> \n> Leonidas\n> \n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hello, \n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 191,
+      "end": 199,
+      "text": "\nMarkus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 204,
+      "text": "Hello, \n\nThis is not possible out of the box, you would need to manually pass the input through an\nanalyzer with a tokenizer and your steming token filter, and put the output together again.\n\nMarkus\n\n \n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 204,
+      "end": 421,
+      "text": "-----Original message-----\n> From:Leonidas Zagkaretos <leonzagk@gmail.com>\n> Sent: Wednesday 25th January 2017 17:51\n> To: solr-user@lucene.apache.org\n> Subject: Pass Analyzed Field to SignatureUpdateProcessorFactory\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 421,
+      "end": 434,
+      "text": "> \n> Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1588,
+      "end": 1629,
+      "text": "> \n> Thank you in advance,\n> \n> Leonidas\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 421,
+      "end": 1633,
+      "text": "> \n> Hi all,\n> \n> We have successfully integrated Solr in our application, and now we are\n> facing a requirement where the application should be able to search for\n> duplicate records in Solr core based on equality in 3 distinct fields.\n> \n> Tried using SignatureUpdateProcessorFactory as described in\n> https://cwiki.apache.org/confluence/display/solr/De-Duplication and\n> Lookup3Signature and everything seems to work fine, signature field is\n> being filled with unique hash values.\n> \n> One issue we have, is that we need to pass to\n> SignatureUpdateProcessorFactory the stemmed value of 1 of 3 fields.\n> Currenty, the following documents produce different hash values, and we\n> need them to produce unique.\n> Analysis for field1 and values \"value1_a\" and \"value1_b\" produce stemmed\n> value \"value1\"\n> \n> documentA: {\n>     field1: value1_a,\n>     field2: value2,\n>     field3: value3,\n>     signature: hash_value1\n> }\n> \n> documentB: {\n>     field1: value1_b,\n>     field2: value2,\n>     field3: value3,\n>     signature: hash_value2\n> }\n> \n> I would like to ask whether it is possible to have required behavior, and\n> some tips about how to accomplish this task.\n> \n> Thank you in advance,\n> \n> Leonidas\n> \n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_473"
+}

@@ -1,0 +1,231 @@
+{
+  "wrapper": "plaintext",
+  "text": "Latest exposure report for California.\n\nCall if you have any questions.\n\nThanks,\nBill\n3-3831\n\n -----Original Message-----\nFrom:  Conwell, Wendy  \nSent: Wednesday, March 14, 2001 6:44 PM\nTo: Bradford, William S.\nSubject: California Exposure COB 03/13/01\n\n\n---------------------- Forwarded by Wendy Conwell/NA/Enron on 03/14/2001 \n06:43 PM ---------------------------\n   \n\n  From:  Wendy Conwell                                                        \n     03/14/2001 06:40 PM\t                              \n\t\n\n\nTo: William S Bradford/HOU/ECT@ECT\ncc:  \n\nSubject: California Exposure COB 03/13/01\n\n\n\nWendy\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 94,
+      "text": "Latest exposure report for California.\n\nCall if you have any questions.\n\nThanks,\nBill\n3-3831\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 81,
+      "end": 85,
+      "text": "Bill",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 73,
+      "end": 86,
+      "text": "Thanks,\nBill\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 129,
+      "end": 143,
+      "text": "Conwell, Wendy",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 163,
+      "end": 177,
+      "text": "March 14, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 178,
+      "end": 185,
+      "text": "6:44 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 190,
+      "end": 210,
+      "text": "Bradford, William S.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 220,
+      "end": 252,
+      "text": "California Exposure COB 03/13/01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 94,
+      "end": 253,
+      "text": " -----Original Message-----\nFrom:  Conwell, Wendy  \nSent: Wednesday, March 14, 2001 6:44 PM\nTo: Bradford, William S.\nSubject: California Exposure COB 03/13/01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 291,
+      "end": 304,
+      "text": "Wendy Conwell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 317,
+      "end": 327,
+      "text": "03/14/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 329,
+      "end": 337,
+      "text": "06:43 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 253,
+      "end": 366,
+      "text": "\n\n---------------------- Forwarded by Wendy Conwell/NA/Enron on 03/14/2001 \n06:43 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 380,
+      "end": 393,
+      "text": "Wendy Conwell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 455,
+      "end": 465,
+      "text": "03/14/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 466,
+      "end": 474,
+      "text": "06:40 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 514,
+      "end": 532,
+      "text": "William S Bradford",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 561,
+      "end": 593,
+      "text": "California Exposure COB 03/13/01",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 366,
+      "end": 594,
+      "text": "   \n\n  From:  Wendy Conwell                                                        \n     03/14/2001 06:40 PM\t                              \n\t\n\n\nTo: William S Bradford/HOU/ECT@ECT\ncc:  \n\nSubject: California Exposure COB 03/13/01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 597,
+      "end": 602,
+      "text": "Wendy",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 594,
+      "end": 603,
+      "text": "\n\n\nWendy\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 20,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25867438.1075847620497.JavaMail.evans@thyme>",
+      "Date": "Wed, 14 Mar 2001 10:50:00 -0800 (PST)",
+      "From": "william.bradford@enron.com",
+      "To": "kenneth.lay@enron.com, steven.kean@enron.com, greg.whalley@enron.com, \n\tdavid.delainey@enron.com, john.lavorato@enron.com, \n\trick.buy@enron.com",
+      "Subject": "FW: California Exposure COB 03/13/01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "William S Bradford",
+      "X-To": "Kenneth Lay, Steven J Kean, Greg Whalley, David W Delainey, John J Lavorato, Rick Buy",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_all_documents_5542.txt"
+}

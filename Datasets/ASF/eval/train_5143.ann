@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nIs there any good example for custom metrics reporting in Flink? I tried to\nfollow the documentation but failed to achieve the result. Basically my\ntask is to identify the corrupt records based on a missing field and report\nthe same via statsd reporter.\n\n\nRahul Raj\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 260,
+      "end": 271,
+      "text": "\nRahul Raj\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 272,
+      "text": "Hi,\n\nIs there any good example for custom metrics reporting in Flink? I tried to\nfollow the documentation but failed to achieve the result. Basically my\ntask is to identify the corrupt records based on a missing field and report\nthe same via statsd reporter.\n\n\nRahul Raj\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_5143"
+}

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hello,\n\nI've a situation where I need the same configuration (schema.xml and\nsolrconfig.xml) for all the cores in my solr instance, and I can manage\nthis with the same configset.\nBUT, in my case the synonyms and stopwords should be managed by tenant/core\n(each tenant is a solr core), and can be different for each one.\n\nI was trying to use managed resources, but I guess it doesn't handle the\ncore when using configset.\nOnce I pass the core name in CRUD operations, it looks like a bug, because\nit's not handling different resources, and if I don't reload the core right\nbefore a PUT request, for example, the next PUT in other core will override\nthe previous and ignore them. Here's what I'm trying:\n\nCreate core1 using techproducts configset:\ncurl \"\nhttp://localhost:8983/solr/admin/cores?action=CREATE&name=core1&instanceDir=core1&configSet=sample_techproducts_configs\n\"\n\nCreate core2 using techproducts configset:\ncurl \"\nhttp://localhost:8983/solr/admin/cores?action=CREATE&name=core2&instanceDir=core2&configSet=sample_techproducts_configs\n\"\n\nCheck the current stopwords (they are the same at this point): --this\nrequests will be used again later\ncurl \"http://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\ncurl \"http://localhost:8983/solr/core2/schema/analysis/stopwords/english\"\n\nAdd a stopword in core1:\ncurl -X PUT -H 'Content-type:application/json' --data-binary '[\"zz1\"]' \"\nhttp://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\n\nCheck the current stopwords (now the core2 does NOT have the inserted\nstopword - and shouldn't, because the request was specifically for core1)\n\nADD a stopword in core2:\ncurl -X PUT -H 'Content-type:application/json' --data-binary '[\"zz2\"]' \"\nhttp://localhost:8983/solr/core2/schema/analysis/stopwords/english\"\n\nCheck the current stopwords (now both cores have what I expected - \"zz1\" in\ncore1 and \"zz2\" in core2)\n\nThe problem is, now when I reload the core1, it will override the stopwords\nwith the last updated version, which means it'll lose the \"zz1\" word.\ncurl \"http://localhost:8983/solr/admin/cores?action=RELOAD&core=core1\"\ncurl \"http://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\n\nDid I make myself clear? :)\nCan someone confirm if this is a bug or if I doing something wrong?\n\nThanks in advance,\nAlessandro Hoss\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2272,
+      "end": 2308,
+      "text": "\nThanks in advance,\nAlessandro Hoss\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2309,
+      "text": "Hello,\n\nI've a situation where I need the same configuration (schema.xml and\nsolrconfig.xml) for all the cores in my solr instance, and I can manage\nthis with the same configset.\nBUT, in my case the synonyms and stopwords should be managed by tenant/core\n(each tenant is a solr core), and can be different for each one.\n\nI was trying to use managed resources, but I guess it doesn't handle the\ncore when using configset.\nOnce I pass the core name in CRUD operations, it looks like a bug, because\nit's not handling different resources, and if I don't reload the core right\nbefore a PUT request, for example, the next PUT in other core will override\nthe previous and ignore them. Here's what I'm trying:\n\nCreate core1 using techproducts configset:\ncurl \"\nhttp://localhost:8983/solr/admin/cores?action=CREATE&name=core1&instanceDir=core1&configSet=sample_techproducts_configs\n\"\n\nCreate core2 using techproducts configset:\ncurl \"\nhttp://localhost:8983/solr/admin/cores?action=CREATE&name=core2&instanceDir=core2&configSet=sample_techproducts_configs\n\"\n\nCheck the current stopwords (they are the same at this point): --this\nrequests will be used again later\ncurl \"http://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\ncurl \"http://localhost:8983/solr/core2/schema/analysis/stopwords/english\"\n\nAdd a stopword in core1:\ncurl -X PUT -H 'Content-type:application/json' --data-binary '[\"zz1\"]' \"\nhttp://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\n\nCheck the current stopwords (now the core2 does NOT have the inserted\nstopword - and shouldn't, because the request was specifically for core1)\n\nADD a stopword in core2:\ncurl -X PUT -H 'Content-type:application/json' --data-binary '[\"zz2\"]' \"\nhttp://localhost:8983/solr/core2/schema/analysis/stopwords/english\"\n\nCheck the current stopwords (now both cores have what I expected - \"zz1\" in\ncore1 and \"zz2\" in core2)\n\nThe problem is, now when I reload the core1, it will override the stopwords\nwith the last updated version, which means it'll lose the \"zz1\" word.\ncurl \"http://localhost:8983/solr/admin/cores?action=RELOAD&core=core1\"\ncurl \"http://localhost:8983/solr/core1/schema/analysis/stopwords/english\"\n\nDid I make myself clear? :)\nCan someone confirm if this is a bug or if I doing something wrong?\n\nThanks in advance,\nAlessandro Hoss\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5878"
+}

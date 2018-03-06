@@ -1,0 +1,338 @@
+{
+  "wrapper": "plaintext",
+  "text": "Pursuant to the e-mail previously sent regarding closing documents for the \nabove transaction, attached are clean copies in Word Perfect format.\n\nThank you.\n\n\nMary S. Rembert\nAndrews & Kurth L.L.P.\n1717 Main Street\nSuite 3700\nDallas, Texas  75201\n(214) 659-4437\nFAX:  (214) 659-4401\n\n - 242286.wpd\n - 240786.wpd\n - 240795.wpd\n - 240796.wpd\n - 240821.wpd\n - 240822.wpd\n - 240960.wpd\n - 240961.wpd\n - 240962.wpd\n - 240963.wpd\n - 240964.wpd\n - 240996.wpd\n - 240998.wpd\n - 241004.wpd\n - 241010.wpd\n - 241012.wpd\n - 241013.wpd\n - 241014.wpd\n - 241028.wpd\n - 241193.wpd\n - 241207.wpd\n - 241211.wpd\n - 241218.wpd\n - 241220.wpd\n - 242274.wpd\n - 240783.wpd",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 146,
+      "end": 156,
+      "text": "Thank you.",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 159,
+      "end": 174,
+      "text": "Mary S. Rembert",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 175,
+      "end": 197,
+      "text": "Andrews & Kurth L.L.P.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 198,
+      "end": 246,
+      "text": "1717 Main Street\nSuite 3700\nDallas, Texas  75201",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 247,
+      "end": 261,
+      "text": "(214) 659-4437",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 268,
+      "end": 282,
+      "text": "(214) 659-4401",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 159,
+      "end": 283,
+      "text": "Mary S. Rembert\nAndrews & Kurth L.L.P.\n1717 Main Street\nSuite 3700\nDallas, Texas  75201\n(214) 659-4437\nFAX:  (214) 659-4401\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 287,
+      "end": 297,
+      "text": "242286.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 301,
+      "end": 311,
+      "text": "240786.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 315,
+      "end": 325,
+      "text": "240795.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 329,
+      "end": 339,
+      "text": "240796.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 343,
+      "end": 353,
+      "text": "240821.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 357,
+      "end": 367,
+      "text": "240822.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 371,
+      "end": 381,
+      "text": "240960.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 385,
+      "end": 395,
+      "text": "240961.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 399,
+      "end": 409,
+      "text": "240962.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 413,
+      "end": 423,
+      "text": "240963.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 427,
+      "end": 437,
+      "text": "240964.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 441,
+      "end": 451,
+      "text": "240996.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 455,
+      "end": 465,
+      "text": "240998.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 469,
+      "end": 479,
+      "text": "241004.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 483,
+      "end": 493,
+      "text": "241010.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 497,
+      "end": 507,
+      "text": "241012.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 511,
+      "end": 521,
+      "text": "241013.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 525,
+      "end": 535,
+      "text": "241014.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 539,
+      "end": 549,
+      "text": "241028.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 553,
+      "end": 563,
+      "text": "241193.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 567,
+      "end": 577,
+      "text": "241207.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 581,
+      "end": 591,
+      "text": "241211.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 595,
+      "end": 605,
+      "text": "241218.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 609,
+      "end": 619,
+      "text": "241220.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 623,
+      "end": 633,
+      "text": "242274.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 637,
+      "end": 647,
+      "text": "240783.wpd",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 284,
+      "end": 647,
+      "text": " - 242286.wpd\n - 240786.wpd\n - 240795.wpd\n - 240796.wpd\n - 240821.wpd\n - 240822.wpd\n - 240960.wpd\n - 240961.wpd\n - 240962.wpd\n - 240963.wpd\n - 240964.wpd\n - 240996.wpd\n - 240998.wpd\n - 241004.wpd\n - 241010.wpd\n - 241012.wpd\n - 241013.wpd\n - 241014.wpd\n - 241028.wpd\n - 241193.wpd\n - 241207.wpd\n - 241211.wpd\n - 241218.wpd\n - 241220.wpd\n - 242274.wpd\n - 240783.wpd",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 0,
+      "end": 647,
+      "text": "Pursuant to the e-mail previously sent regarding closing documents for the \nabove transaction, attached are clean copies in Word Perfect format.\n\nThank you.\n\n\nMary S. Rembert\nAndrews & Kurth L.L.P.\n1717 Main Street\nSuite 3700\nDallas, Texas  75201\n(214) 659-4437\nFAX:  (214) 659-4401\n\n - 242286.wpd\n - 240786.wpd\n - 240795.wpd\n - 240796.wpd\n - 240821.wpd\n - 240822.wpd\n - 240960.wpd\n - 240961.wpd\n - 240962.wpd\n - 240963.wpd\n - 240964.wpd\n - 240996.wpd\n - 240998.wpd\n - 241004.wpd\n - 241010.wpd\n - 241012.wpd\n - 241013.wpd\n - 241014.wpd\n - 241028.wpd\n - 241193.wpd\n - 241207.wpd\n - 241211.wpd\n - 241218.wpd\n - 241220.wpd\n - 242274.wpd\n - 240783.wpd",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<27467274.1075844509945.JavaMail.evans@thyme>",
+      "Date": "Tue, 23 May 2000 05:45:00 -0700 (PDT)",
+      "From": "rembm@andrews-kurth.com",
+      "To": "rembm@andrews-kurth.com, esantos@baylbny.com, brenda.l.funk@enron.com, \n\tcarol.st.clair@enron.com, charles.delacey@enron.com, \n\tclement.abrams@enron.com, deborah.culver@enron.com, \n\tgareth.bahlmann@enron.com, jodi.coulter@enron.com, \n\tryan.siurek@enron.com, sara.shackleton@enron.com, \n\ttina.livingston@enron.com, trevor.randolph@enron.com, \n\trussell.clingman@funb.com, mniebruegge@mayerbrown.com, \n\ttellwood@mayerbrown.com, john_roberts@paribas.com, \n\teawilburn@prickett.com, tamullen@prickett.com, damon@rlf.com, \n\tkenton@rlf.com, binderg@sanpaolony.com, arangome@us.cibc.com, \n\tschottla@us.cibc.com, wolfmark@us.cibc.com, \n\taroberts@wilmingtontrust.com, bpace@winstead.com, \n\tpstrohl@winstead.com",
+      "Subject": "Project Hawaii 125-O (Danno B)",
+      "Cc": "barbd@andrews-kurth.com, krecc@andrews-kurth.com, mcfam@andrews-kurth.com, \n\tpoppt@andrews-kurth.com, sargp@andrews-kurth.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "barbd@andrews-kurth.com, krecc@andrews-kurth.com, mcfam@andrews-kurth.com, \n\tpoppt@andrews-kurth.com, sargp@andrews-kurth.com",
+      "X-From": "\"Mary Rembert\" <REMBM@andrews-kurth.com>",
+      "X-To": "\"Mary Rembert\" <REMBM@andrews-kurth.com>, <esantos@baylbny.com>, <brenda.l.funk@enron.com>, <carol.st.clair@enron.com>, <charles.delacey@enron.com>, <Clement.abrams@enron.com>, <DEBORAH.culver@enron.com>, <Gareth.Bahlmann@enron.com>, <Jodi.Coulter@enron.com>, <ryan.siurek@enron.com>, <sara.shackleton@enron.com>, <tina.livingston@enron.com>, <Trevor.Randolph@enron.com>, <Russell.clingman@funb.com>, <mniebruegge@mayerbrown.com>, <tellwood@mayerbrown.com>, <john_roberts@paribas.com>, <eawilburn@prickett.com>, <Tamullen@prickett.com>, <damon@rlf.com>, <kenton@rlf.com>, <binderg@sanpaolony.com>, <arangome@us.cibc.com>, <schottla@us.cibc.com>, <wolfmark@us.cibc.com>, <aroberts@wilmingtontrust.com>, <bpace@winstead.com>, <Pstrohl@winstead.com>",
+      "X-cc": "\"David Barbour\" <BARBD@andrews-kurth.com>, \"CHRIS KRECEK\" <KRECC@andrews-kurth.com>, \"MURIEL McFARLING\" <MCFAM@andrews-kurth.com>, \"TOM POPPLEWELL\" <POPPT@andrews-kurth.com>, \"PAT SARGENT\" <SARGP@andrews-kurth.com>",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_notes_inbox_1791.txt"
+}

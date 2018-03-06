@@ -1,0 +1,60 @@
+{
+  "wrapper": "plaintext",
+  "text": "Lee,\n\nVitol's attorney has been in contact with Sara Shackleton of our Houston \nlegal team regarding the updating of our old Master Agreement into an ISDA.  \nHowever, our old agreement contains no MAC clauses.  Further, I note from \nyour CAS analysis that the most recent financial statements you had available \nwere year end 1998.  Did we request more current data from Vitol?  Did Vitol \ndecline this request?  \n\nWe have a teleconference scheduled with their attorney at 10am Houston time \ntomorrow (Tuesday).  If you can shoot me a response to these questions before \nthen, I would appreciate it.  If not, please get back to me at your earliest \nconvenience.\n\nThanks,\nPaul",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Lee",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 671,
+      "end": 675,
+      "text": "Paul",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 663,
+      "end": 675,
+      "text": "Thanks,\nPaul",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 675,
+      "text": "Lee,\n\nVitol's attorney has been in contact with Sara Shackleton of our Houston \nlegal team regarding the updating of our old Master Agreement into an ISDA.  \nHowever, our old agreement contains no MAC clauses.  Further, I note from \nyour CAS analysis that the most recent financial statements you had available \nwere year end 1998.  Did we request more current data from Vitol?  Did Vitol \ndecline this request?  \n\nWe have a teleconference scheduled with their attorney at 10am Houston time \ntomorrow (Tuesday).  If you can shoot me a response to these questions before \nthen, I would appreciate it.  If not, please get back to me at your earliest \nconvenience.\n\nThanks,\nPaul",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19156970.1075844504144.JavaMail.evans@thyme>",
+      "Date": "Mon, 24 Jul 2000 07:43:00 -0700 (PDT)",
+      "From": "paul.radous@enron.com",
+      "To": "lee.munden@enron.com",
+      "Subject": "Vitol S.A.",
+      "Cc": "david.hardy@enron.com, sara.shackleton@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "david.hardy@enron.com, sara.shackleton@enron.com",
+      "X-From": "Paul Radous",
+      "X-To": "Lee Munden",
+      "X-cc": "David Hardy, Sara Shackleton",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Notes inbox",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_notes_inbox_1553.txt"
+}

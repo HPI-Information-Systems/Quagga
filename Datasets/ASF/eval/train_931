@@ -1,0 +1,55 @@
+Hi Robert,
+
+sorry for the long delay.
+
+> I wonder why the decompression with the XmlInputFormat doesn't work. Did
+> you get any exception?
+
+I didn't get any exception, it just seems to read nothing (or at least
+don't match any opening/closing tags).
+
+I digged a bit into the code and found out, that Mahout's XmlInputFormat
+[0] extends the TextInputFormat [1].  TextInputFormat then uses the
+LineRecordReader [2] which handles the compressed data.
+
+However, the Mahout XMLRecordReader [3] does not contain the compression
+handling. So I tried to build a XmlRecordReader which tries to achieve
+that [4]. I use it to split the wikipedia dumps into pages with <page>
+and </page> tags. [5]
+
+It does work, but somehow misses some data sometimes and I guess this is
+because of the different splits. How do FileSplits work? Can a process
+read beyond the FileSplit boundary or not?
+
+I'm also a bit confused why the Flink Doc says that Bzip2 is not
+splittable? [6]
+Afaik hadoop (and flink in compatibility mode) does support splittable,
+compressed data.
+
+I would appreciate some input/ideas/help with this.
+
+All the best,
+Sebastian
+
+
+[0]:
+https://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java
+
+[1]:
+https://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.java
+
+[2]:
+https://github.com/apache/hadoop/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/LineRecordReader.java
+
+[3]:
+https://github.com/apache/mahout/blob/master/integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java#L64
+
+[4]:
+http://paste.gehaxelt.in/?69af3c91480b6bfb#ze+G/X9b3yTHfu1QW70aJioDvXWKoFFOCnLND1ow0sU=
+
+[5]:
+http://paste.gehaxelt.in/?e869d1f1f9f6f1be#kXrNaWXTNqLiHEKL4a6rWVMxhbVcmpXu24jGqJcap1A=
+
+[6]:
+https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/batch/index.html#read-compressed-files
+

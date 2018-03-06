@@ -1,0 +1,162 @@
+{
+  "wrapper": "plaintext",
+  "text": "Virginia, \nI have no idea.\nI would recommend checking with Cara...she's omniscient.\nGood luck.\n\nB\n -----Original Message-----\nFrom: \tThompson, Virginia  \nSent:\tWednesday, June 13, 2001 9:31 AM\nTo:\tWilliams III, Bill\nSubject:\tDo you know who..\n\nBill,\n\n  Do you know who in Houston  keeps up the Lotus Notes Database?  There is a 2 week gap in the database between current and archived records.  \n  Just wondering if you know..\n\n\n  Virginia",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 96,
+      "end": 97,
+      "text": "B",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 84,
+      "end": 98,
+      "text": "Good luck.\n\nB\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 8,
+      "text": "Virginia",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 98,
+      "text": "Virginia, \nI have no idea.\nI would recommend checking with Cara...she's omniscient.\nGood luck.\n\nB\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 133,
+      "end": 152,
+      "text": "Thompson, Virginia ",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 171,
+      "end": 184,
+      "text": "June 13, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 185,
+      "end": 192,
+      "text": "9:31 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 197,
+      "end": 215,
+      "text": "Williams III, Bill",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 225,
+      "end": 242,
+      "text": "Do you know who..",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 98,
+      "end": 243,
+      "text": " -----Original Message-----\nFrom: \tThompson, Virginia  \nSent:\tWednesday, June 13, 2001 9:31 AM\nTo:\tWilliams III, Bill\nSubject:\tDo you know who..\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 244,
+      "end": 248,
+      "text": "Bill",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 430,
+      "end": 438,
+      "text": "Virginia",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 243,
+      "end": 438,
+      "text": "\nBill,\n\n  Do you know who in Houston  keeps up the Lotus Notes Database?  There is a 2 week gap in the database between current and archived records.  \n  Just wondering if you know..\n\n\n  Virginia",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7225781.1075840006456.JavaMail.evans@thyme>",
+      "Date": "Wed, 13 Jun 2001 12:50:28 -0700 (PDT)",
+      "From": "bill.williams@enron.com",
+      "To": "virginia.thompson@enron.com",
+      "Subject": "RE: Do you know who..",
+      "Cc": "cara.semperger@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "cara.semperger@enron.com",
+      "X-From": "Williams III, Bill </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BWILLIA5>",
+      "X-To": "Thompson, Virginia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vthompso>",
+      "X-cc": "Semperger, Cara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Csemper>",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Williams III, Bill\\Sent Items",
+      "X-Origin": "WILLIAMS-W3",
+      "X-FileName": ""
+    }
+  },
+  "id": "train/williams-w3_sent_items_505.txt"
+}

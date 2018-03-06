@@ -1,0 +1,24 @@
+Dear SOLR users,
+
+please point me to the right solution of my problem. I'm using SOLR to 
+implement a Google-like search in my application and this scenario is 
+working fine.
+
+However, in specific use-cases I need to filter documents that include a 
+specific substring in a given field. It's about an SQL-like query 
+similar to this:
+
+SELECT *  FROM table WHERE someField = '%c def g%'
+
+I expect to match documents having someField ='abc def ghi'. That means 
+I expect match parts of words.
+
+As I understand SOLR, as a reversed-index, does work with tokens rather 
+that character strings and thereby looks for whole words (not substrings).
+
+Is there any solution for such an issue?
+
+Regards
+Maciej Łabędzki
+
+

@@ -1,0 +1,143 @@
+{
+  "wrapper": "plaintext",
+  "text": "Steve:  I am told that Justin Boyd (011-44-20-7783-6732) and Anna Fox have already been working on this ISDA between Deutsche Bank and ECTRIC.  Regards.  Sara\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Steve",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 160,
+      "end": 175,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 176,
+      "end": 200,
+      "text": "Enron Wholesale Services",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 201,
+      "end": 246,
+      "text": "1400 Smith Street, EB3801a\nHouston, TX  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 252,
+      "end": 266,
+      "text": "(713) 853-5620",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 272,
+      "end": 286,
+      "text": "(713) 646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 160,
+      "end": 286,
+      "text": "Sara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 154,
+      "end": 158,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 144,
+      "end": 158,
+      "text": "Regards.  Sara",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 0,
+      "end": 286,
+      "text": "Steve:  I am told that Justin Boyd (011-44-20-7783-6732) and Anna Fox have already been working on this ISDA between Deutsche Bank and ECTRIC.  Regards.  Sara\n\nSara Shackleton\nEnron Wholesale Services\n1400 Smith Street, EB3801a\nHouston, TX  77002\nPh:  (713) 853-5620\nFax: (713) 646-3490",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 2,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 2,
+      "target": 3,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 6,
+      "target": 2,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<26096140.1075863195416.JavaMail.evans@thyme>",
+      "Date": "Mon, 5 Nov 2001 06:26:24 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "steven.kessler@db.com",
+      "Subject": "Enron Capital & Trade Resources International Corp.  (\"ECTRIC\")",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSHACKL>",
+      "X-To": "'steven.kessler@db.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SSHACKL (Non-Privileged)\\Shackleton, Sara\\Sent Items",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "SSHACKL (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_sent_items_656.txt"
+}

@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/shackleton-s_all_documents_10414.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<12234314.1075844729807.JavaMail.evans@thyme>",
+      "Date": "Mon, 9 Apr 2001 08:57:00 -0700 (PDT)",
+      "From": "exchangeinfo@nymex.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "(MS-20) NOTICE OF INTENTION TO TRANSFER MEMBERSHIP",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "quoted-printable",
+      "X-From": "exchangeinfo@nymex.com",
+      "X-To": "sara.shackleton@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "text": "Member Services\nNotice No. MS-20\nApril 9, 2001\n\n\nCOMMODITY EXCHANGE, INC.\n\nNOTICE OF INTENTION TO TRANSFER MEMBERSHIP\n\nNotice of Intention to Transfer Membership has been posted on the bulletin=\n=20\nboard of the Exchange by:\n\n\nMark Cricco (MEC-7995)\n\n\nIn connection therewith, notification of any claims against the=20\naforementioned individual arising out of transactions executed on the=20\nExchange up to the close of business on April 9, 2001, must be submitted to=\n=20\nthe Corporate Secretary's Office within ten (10) days.\n\nInquiries regarding the above should be directed to the Member Services=20\nDepartment at (212) 299-2370.\n\n\n\nNAME CHANGE FOR CLEARING MEMBER FIRM\n\nPlease be advised that the Exchange has been notified that effective April =\n2,=20\n2001, Geldermann, Inc. (#358) has changed it=01,s name to Man International=\n Inc.\n\nFurthermore, be advised that the Exchange has been notified that effective=\n=20\nApril 2, 2001, E.D.F. Man International Inc. (#330) has changed it=01,s nam=\ne to=20\nMan Financial Inc.\n\nInquiries regarding the above should be directed to the Member Services=20\nDepartment at (212) 299-2370.\n\n\n\n__________________________________________________\nPlease click on the link below to indicate you have received this\nemail.\n\n\"http://208.206.41.61/email/email_log.cfm?useremail=3Dsara.shackleton@enron=\n.com&\nrefdoc=3D(MS-20)\"\n\nNote: If you click on the above line and nothing happens, please copy\nthe text between the quotes, open your internet browser,\npaste it into the web site address and press Return.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1542,
+      "text": "Member Services\nNotice No. MS-20\nApril 9, 2001\n\n\nCOMMODITY EXCHANGE, INC.\n\nNOTICE OF INTENTION TO TRANSFER MEMBERSHIP\n\nNotice of Intention to Transfer Membership has been posted on the bulletin=\n=20\nboard of the Exchange by:\n\n\nMark Cricco (MEC-7995)\n\n\nIn connection therewith, notification of any claims against the=20\naforementioned individual arising out of transactions executed on the=20\nExchange up to the close of business on April 9, 2001, must be submitted to=\n=20\nthe Corporate Secretary's Office within ten (10) days.\n\nInquiries regarding the above should be directed to the Member Services=20\nDepartment at (212) 299-2370.\n\n\n\nNAME CHANGE FOR CLEARING MEMBER FIRM\n\nPlease be advised that the Exchange has been notified that effective April =\n2,=20\n2001, Geldermann, Inc. (#358) has changed it=01,s name to Man International=\n Inc.\n\nFurthermore, be advised that the Exchange has been notified that effective=\n=20\nApril 2, 2001, E.D.F. Man International Inc. (#330) has changed it=01,s nam=\ne to=20\nMan Financial Inc.\n\nInquiries regarding the above should be directed to the Member Services=20\nDepartment at (212) 299-2370.\n\n\n\n__________________________________________________\nPlease click on the link below to indicate you have received this\nemail.\n\n\"http://208.206.41.61/email/email_log.cfm?useremail=3Dsara.shackleton@enron=\n.com&\nrefdoc=3D(MS-20)\"\n\nNote: If you click on the above line and nothing happens, please copy\nthe text between the quotes, open your internet browser,\npaste it into the web site address and press Return.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi.  We\u00e2\u20ac\u2122re just ramping up a product search engine for our eCommerce site, so this is all\nnew development and we are slowly building up our Solr knowledgebase, so thanks in advance\nfor any guidance.\n\nOur catalog (mostly shoes and apparel) has three objects nested: Products (title, description,\netc), items (color, price, etc), and SKU (size, etc).  Since Solr doesn\u00e2\u20ac\u2122t do documents nested\nthree deep, the SKUs and items both get retrieved as children of products.  That has not bit\nus yet\u00e2\u20ac\u00a6  Also, our search results page expects a list of Item objects, then groups them\n(rolls them up) by their parent object.  Right now we are returning just the items, and that\u00e2\u20ac\u2122s\ngreat, but we want to implement pagination of the products, so we need to return the items\nnested in products, then paginate on the products.\n\nIf I send \u00e2\u20ac\u02dcq=docType:Product description:Armour&fl=title, description,id,[child parentFilter=\"docType:Product\"\nchildFilter=\"docType:Item\"]\u00e2\u20ac\u2122 I get a nice list of products with items nested inside them.\nWoot.\n\nThe problem is, if we want to filter on item attributes, I get back products that have no\nchildren, which means we can\u00e2\u20ac\u2122t paginate on the results if we remove those parents.  For\ninstance, send \u00e2\u20ac\u02dcq=docType:Product description:Armour&fl=title, description,id,[child\nparentFilter=\"docType:Product\" childFilter=\"docType:Item AND price:49.99\"]\u00e2\u20ac\u2122, we get the\nproducts and their items nicely nested, and only items with a price of 49.99 are shown, but\nso are parents that have no matching items.\n\nHow can I build a query that will not return parents without children? I haven\u00e2\u20ac\u2122t figured\nout a way to reference the children in the query.\n\nSince we\u00e2\u20ac\u2122re not in production yet, I can change lots of things here.  I would PREFER not\nto denormalize the documents into one document per SKU with all the item and product information\ntoo, as our catalog is quite large and that would lead to a huge import file and lots of duplicated\ncontent between documents in the index.  If that\u00e2\u20ac\u2122s the only way, though, it is possible.\n\nThanks in advance.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi. ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 2043,
+      "end": 2063,
+      "text": "\nThanks in advance.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 2063,
+      "text": "Hi.  We\u00e2\u20ac\u2122re just ramping up a product search engine for our eCommerce site, so this is all\nnew development and we are slowly building up our Solr knowledgebase, so thanks in advance\nfor any guidance.\n\nOur catalog (mostly shoes and apparel) has three objects nested: Products (title, description,\netc), items (color, price, etc), and SKU (size, etc).  Since Solr doesn\u00e2\u20ac\u2122t do documents nested\nthree deep, the SKUs and items both get retrieved as children of products.  That has not bit\nus yet\u00e2\u20ac\u00a6  Also, our search results page expects a list of Item objects, then groups them\n(rolls them up) by their parent object.  Right now we are returning just the items, and that\u00e2\u20ac\u2122s\ngreat, but we want to implement pagination of the products, so we need to return the items\nnested in products, then paginate on the products.\n\nIf I send \u00e2\u20ac\u02dcq=docType:Product description:Armour&fl=title, description,id,[child parentFilter=\"docType:Product\"\nchildFilter=\"docType:Item\"]\u00e2\u20ac\u2122 I get a nice list of products with items nested inside them.\nWoot.\n\nThe problem is, if we want to filter on item attributes, I get back products that have no\nchildren, which means we can\u00e2\u20ac\u2122t paginate on the results if we remove those parents.  For\ninstance, send \u00e2\u20ac\u02dcq=docType:Product description:Armour&fl=title, description,id,[child\nparentFilter=\"docType:Product\" childFilter=\"docType:Item AND price:49.99\"]\u00e2\u20ac\u2122, we get the\nproducts and their items nicely nested, and only items with a price of 49.99 are shown, but\nso are parents that have no matching items.\n\nHow can I build a query that will not return parents without children? I haven\u00e2\u20ac\u2122t figured\nout a way to reference the children in the query.\n\nSince we\u00e2\u20ac\u2122re not in production yet, I can change lots of things here.  I would PREFER not\nto denormalize the documents into one document per SKU with all the item and product information\ntoo, as our catalog is quite large and that would lead to a huge import file and lots of duplicated\ncontent between documents in the index.  If that\u00e2\u20ac\u2122s the only way, though, it is possible.\n\nThanks in advance.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1897"
+}

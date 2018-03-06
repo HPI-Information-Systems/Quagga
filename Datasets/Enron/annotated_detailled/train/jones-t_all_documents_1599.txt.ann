@@ -1,0 +1,163 @@
+{
+  "wrapper": "plaintext",
+  "text": "----- Forwarded by Tana Jones/HOU/ECT on 05/08/2000 03:51 PM -----\n\n\tNony Flores\n\t05/05/2000 09:23 AM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Memo to Brazilian Counsel\n\nTana,\n\nAttached is the memorandum we sent to Brazilian counsel in 1996 which \naddressed both, the physical and financial trading, I hope this helps.  Let \nme know if you need anything else.\n\nThanks.\nNony\n\n  ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 19,
+      "end": 29,
+      "text": "Tana Jones",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 41,
+      "end": 51,
+      "text": "05/08/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 52,
+      "end": 60,
+      "text": "03:51 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 69,
+      "end": 80,
+      "text": "Nony Flores",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 67,
+      "text": "----- Forwarded by Tana Jones/HOU/ECT on 05/08/2000 03:51 PM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 82,
+      "end": 92,
+      "text": "05/05/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 93,
+      "end": 101,
+      "text": "09:23 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 113,
+      "end": 123,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 156,
+      "end": 181,
+      "text": "Memo to Brazilian Counsel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 67,
+      "end": 182,
+      "text": "\n\tNony Flores\n\t05/05/2000 09:23 AM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: Memo to Brazilian Counsel\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 183,
+      "end": 187,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 382,
+      "end": 386,
+      "text": "Nony",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 374,
+      "end": 387,
+      "text": "Thanks.\nNony\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 182,
+      "end": 390,
+      "text": "\nTana,\n\nAttached is the memorandum we sent to Brazilian counsel in 1996 which \naddressed both, the physical and financial trading, I hope this helps.  Let \nme know if you need anything else.\n\nThanks.\nNony\n\n  ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<9203107.1075846948859.JavaMail.evans@thyme>",
+      "Date": "Mon, 8 May 2000 09:04:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "kmucha@statoilenergy.com, aherrera@statoilenergy.com",
+      "Subject": "Memo to Brazilian Counsel",
+      "Cc": "bob.bowen@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "bob.bowen@enron.com",
+      "X-From": "Tana Jones",
+      "X-To": "kmucha@statoilenergy.com, aherrera@statoilenergy.com",
+      "X-cc": "Bob Bowen",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_1599.txt"
+}

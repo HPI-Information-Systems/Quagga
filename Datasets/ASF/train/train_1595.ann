@@ -1,0 +1,40 @@
+{
+  "wrapper": "plaintext",
+  "text": "This has really nothing to do with SQL. What's happening is that the\nquery doesn't think you're specifying a field and it's looking for\n_text_ which will be defined in your solrconfig file with a \"df\"\nparameter for the query handler.\n\nThat said, the query appears malformed or it's a cut/paste error. You\nuse single quotes to open and a double quote to close:\n 'stmt=select fieldA from collection where field='123''\nyou probably want something like\n\"stmt=select fieldA from collection where field='123' ''\nBest,\nErick\n\nOn Sun, Mar 12, 2017 at 6:33 AM, adfel70 <adfel70@gmail.com> wrote:\n> Seems like this only happend when the value is not a number\n>\n>\n> curl --data-urlencode 'stmt=select fieldA from collection where field='123''\n> http://host:port/solr/collection/sql?aggregationMode=facet\n>\n> works.\n> while this one doesnt work:\n>\n> curl --data-urlencode 'stmt=select fieldA from collection where field='abc''\n> http://host:port/solr/collection/sql?aggregationMode=facet\n>\n> Again, the same message with \"no field name specified in query and no\n> default specified via df param\".\n>\n> tried this on multiple field types.\n> example of field settings: type=string, indexed=true, stored=true,\n> omitNorms=true, multiValued=false, docValues=true.\n>\n> Note that this collection was indexed as nested documents, but while trying\n> the sql, I'm not using anything related to the nested format (except that\n> the data itself was indexed this way)\n>\n>\n>\n> --\n> View this message in context: http://lucene.472066.n3.nabble.com/Simple-sql-query-with-where-clause-doesn-t-work-tp4324498p4324499.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 506,
+      "end": 518,
+      "text": "Best,\nErick\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 519,
+      "text": "This has really nothing to do with SQL. What's happening is that the\nquery doesn't think you're specifying a field and it's looking for\n_text_ which will be defined in your solrconfig file with a \"df\"\nparameter for the query handler.\n\nThat said, the query appears malformed or it's a cut/paste error. You\nuse single quotes to open and a double quote to close:\n 'stmt=select fieldA from collection where field='123''\nyou probably want something like\n\"stmt=select fieldA from collection where field='123' ''\nBest,\nErick\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 519,
+      "end": 587,
+      "text": "On Sun, Mar 12, 2017 at 6:33 AM, adfel70 <adfel70@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 587,
+      "end": 1657,
+      "text": "> Seems like this only happend when the value is not a number\n>\n>\n> curl --data-urlencode 'stmt=select fieldA from collection where field='123''\n> http://host:port/solr/collection/sql?aggregationMode=facet\n>\n> works.\n> while this one doesnt work:\n>\n> curl --data-urlencode 'stmt=select fieldA from collection where field='abc''\n> http://host:port/solr/collection/sql?aggregationMode=facet\n>\n> Again, the same message with \"no field name specified in query and no\n> default specified via df param\".\n>\n> tried this on multiple field types.\n> example of field settings: type=string, indexed=true, stored=true,\n> omitNorms=true, multiValued=false, docValues=true.\n>\n> Note that this collection was indexed as nested documents, but while trying\n> the sql, I'm not using anything related to the nested format (except that\n> the data itself was indexed this way)\n>\n>\n>\n> --\n> View this message in context: http://lucene.472066.n3.nabble.com/Simple-sql-query-with-where-clause-doesn-t-work-tp4324498p4324499.html\n> Sent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1595"
+}

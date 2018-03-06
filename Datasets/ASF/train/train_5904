@@ -1,0 +1,19 @@
+Hi, I have a custom field "listOfIDs" = "1,2,4,33"
+
+I want the equivalent of:
+
+select * where '1' IN (listOfIDs)  --> should get a match
+
+select * where '33' IN (listOfIDs)  --> should get a match
+
+select * where '3' IN (listOfIDs)  --> should NOT get a match
+
+
+Can anyone help me out please as I can't seem to find any documentation on
+this. Thanks very much in advance.
+
+Kind regards,
+
+
+Nick Way
+

@@ -1,0 +1,82 @@
+{
+  "wrapper": "plaintext",
+  "text": "Remove\n\n\n\n\n\n\n\nhjghjgjh@yahoo.com on 12/06/2000 12:35:43 AM\nTo: undisclosed-recipients:;\ncc:  \nSubject: .\n\n\nThe Internet's Finest and Most Reliable Bulk Email Provider!\n\nSince 1996, Tech Data Technologies has provided bulk email service to \nthousands of well-satisfied customers. We offer the most competitive prices \nin the industry, made possible by our high percentage of repeat business. We \nhave the most advanced, direct email technology, employed by only a \nknowledgeable few in the world. Our expert programmers have made it possible \nfor us to penetrate any email blocking filter in use.\n\nWe have over 120 million active email addresses, increasing our list at the \nrate of half a million to one million a month. We will put your product or \nservice instantly and directly into the hands of millions of prospects! You \nwill have instant, guaranteed results, something no other form of marketing \ncan claim. Our turn around time is a remarkable 24 hours.\n\nOur email addresses are sorted by country, state and target. Your marketing \ncampaign will speed with pinpoint accuracy to your desired audience!\n\nYour message can be presented in any language you wish, as plain text if you \ndesire simplicity, or in html with color and graphics.\n\nCall us for a free consultation at (323)- 851- 8386  [U.S.A.]. We are open 24 \nhours a day, 7 days a week. No one understands the global market like we do.\n\nFor a limited time, take advantage of our holiday special -- two million \ngeneral U.S. emails for just $450 per million! We include, at no cost, a \nbullet proof email address for 30 days, a $400 value!\n\nBULK EMAIL PRICES\n\n   500,000........................$375\n   750,000........................$562\n1,200,000........................$720\n1,600,000..................    ...$960\n3,000,000......................$1,500\n3,000,000+ ...................PLEASE CALL FOR A QUOTE\n\n\nResellers welcome. We accept Visa, MasterCard and check by FAX.\n\nDON'T WAIT! LET TECH DATA TECHNOLOGIES BE YOUR PARTNER!!\n\n\nUnder Bill s.1618 TITLE III passed by the 105th U.S. Congress this letter is \nnot considered \"spam\" as long as we include: 1) contact information and, 2) \nthe way to be removed from future mailings (see below).To Remove Yourself \nFrom This List: reply to this email with the email\naddress that you would like removed and the word REMOVE in the subject \nheading.\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 14,
+      "text": "Remove\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 14,
+      "end": 32,
+      "text": "hjghjgjh@yahoo.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 36,
+      "end": 46,
+      "text": "12/06/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 47,
+      "end": 58,
+      "text": "12:35:43 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 103,
+      "end": 104,
+      "text": ".",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 14,
+      "end": 105,
+      "text": "hjghjgjh@yahoo.com on 12/06/2000 12:35:43 AM\nTo: undisclosed-recipients:;\ncc:  \nSubject: .\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 105,
+      "end": 2361,
+      "text": "\n\nThe Internet's Finest and Most Reliable Bulk Email Provider!\n\nSince 1996, Tech Data Technologies has provided bulk email service to \nthousands of well-satisfied customers. We offer the most competitive prices \nin the industry, made possible by our high percentage of repeat business. We \nhave the most advanced, direct email technology, employed by only a \nknowledgeable few in the world. Our expert programmers have made it possible \nfor us to penetrate any email blocking filter in use.\n\nWe have over 120 million active email addresses, increasing our list at the \nrate of half a million to one million a month. We will put your product or \nservice instantly and directly into the hands of millions of prospects! You \nwill have instant, guaranteed results, something no other form of marketing \ncan claim. Our turn around time is a remarkable 24 hours.\n\nOur email addresses are sorted by country, state and target. Your marketing \ncampaign will speed with pinpoint accuracy to your desired audience!\n\nYour message can be presented in any language you wish, as plain text if you \ndesire simplicity, or in html with color and graphics.\n\nCall us for a free consultation at (323)- 851- 8386  [U.S.A.]. We are open 24 \nhours a day, 7 days a week. No one understands the global market like we do.\n\nFor a limited time, take advantage of our holiday special -- two million \ngeneral U.S. emails for just $450 per million! We include, at no cost, a \nbullet proof email address for 30 days, a $400 value!\n\nBULK EMAIL PRICES\n\n   500,000........................$375\n   750,000........................$562\n1,200,000........................$720\n1,600,000..................    ...$960\n3,000,000......................$1,500\n3,000,000+ ...................PLEASE CALL FOR A QUOTE\n\n\nResellers welcome. We accept Visa, MasterCard and check by FAX.\n\nDON'T WAIT! LET TECH DATA TECHNOLOGIES BE YOUR PARTNER!!\n\n\nUnder Bill s.1618 TITLE III passed by the 105th U.S. Congress this letter is \nnot considered \"spam\" as long as we include: 1) contact information and, 2) \nthe way to be removed from future mailings (see below).To Remove Yourself \nFrom This List: reply to this email with the email\naddress that you would like removed and the word REMOVE in the subject \nheading.\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<19897703.1075856467606.JavaMail.evans@thyme>",
+      "Date": "Thu, 7 Dec 2000 01:48:00 -0800 (PST)",
+      "From": "vince.kaminski@enron.com",
+      "To": "hjghjgjh@yahoo.com",
+      "Subject": "Remove",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Vince J Kaminski",
+      "X-To": "hjghjgjh@yahoo.com @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_sent_1306.txt"
+}

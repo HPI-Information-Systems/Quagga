@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n\n\t\t \nChristina Valdez\nEnron Net Works LLC\nPhone - 713.853-9106\nFax     - 713.345.8100\nchristina.valdez@enron.com\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 7,
+      "end": 23,
+      "text": "Christina Valdez",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 24,
+      "end": 43,
+      "text": "Enron Net Works LLC",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 52,
+      "end": 64,
+      "text": "713.853-9106",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 75,
+      "end": 87,
+      "text": "713.345.8100",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 88,
+      "end": 114,
+      "text": "christina.valdez@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 7,
+      "end": 115,
+      "text": "Christina Valdez\nEnron Net Works LLC\nPhone - 713.853-9106\nFax     - 713.345.8100\nchristina.valdez@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 0,
+      "end": 115,
+      "text": "\n\n\n\t\t \nChristina Valdez\nEnron Net Works LLC\nPhone - 713.853-9106\nFax     - 713.345.8100\nchristina.valdez@enron.com\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 2,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 5,
+      "target": 1,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7968798.1075862308503.JavaMail.evans@thyme>",
+      "Date": "Fri, 9 Nov 2001 14:21:36 -0800 (PST)",
+      "From": "christina.valdez@enron.com",
+      "To": "sally.beck@enron.com",
+      "Subject": "Contact List",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Valdez, Christina </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CVALDEZ>",
+      "X-To": "Beck, Sally </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbeck>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\SBECK (Non-Privileged)\\Beck, Sally\\Inbox",
+      "X-Origin": "Beck-S",
+      "X-FileName": "SBECK (Non-Privileged).pst"
+    }
+  },
+  "id": "train/beck-s_inbox_634.txt"
+}

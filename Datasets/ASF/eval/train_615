@@ -1,0 +1,81 @@
+Thanks, Till, for taking time to share your understanding.
+
+-- N
+
+On Sun, Feb 5, 2017 at 12:49 AM, Till Rohrmann [via Apache Flink User
+Mailing List archive.] <ml-node+s2336050n11441h12@n4.nabble.com> wrote:
+
+> I think the problem is that there are actually two constructors with the
+> same signature. The one is defined with default arguments and the other has
+> the same signature as the one with default arguments when you leave all
+> default arguments out. I assume that this confuses the Scala compiler and
+> only works if you've specified the right types or at least one of the
+> parameters with a default argument.
+>
+> Cheers,
+> Till
+>
+> On Fri, Feb 3, 2017 at 12:49 PM, nsengupta <[hidden email]
+> <http:///user/SendEmail.jtp?type=node&node=11441&i=0>> wrote:
+>
+>> Till,
+>>
+>> Many thanks. Just to confirm that it is working fine at my end, here's a
+>> screenshot.
+>>
+>> <http://apache-flink-user-mailing-list-archive.2336050.n4.
+>> nabble.com/file/n11427/Selection_258.png>
+>>
+>> This is Flink 1.1.4 but Flink-1.2/Flink-1.3 shouldn't be any problem.
+>>
+>> It never struck me that lack of covariance in Scala Arrays was the source
+>> of
+>> the problem. Bravo!
+>>
+>> BTW, I am just curious to know how the Testcases worked: just to add to my
+>> knowledge of Scala. We didn't pass any /typehint/ to the compiler there!
+>>
+>> Could you please put a hint of a line or two? TIA.
+>>
+>>
+>>
+>>
+>>
+>> --
+>> View this message in context: http://apache-flink-user-maili
+>> ng-list-archive.2336050.n4.nabble.com/Compiler-error-whil
+>> e-using-CsvTableSource-tp11412p11427.html
+>> Sent from the Apache Flink User Mailing List archive. mailing list
+>> archive at Nabble.com.
+>>
+>
+>
+>
+> ------------------------------
+> If you reply to this email, your message will be added to the discussion
+> below:
+> http://apache-flink-user-mailing-list-archive.2336050.
+> n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11441.html
+> To unsubscribe from Compiler error while using 'CsvTableSource', click
+> here
+> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=unsubscribe_by_code&node=11412&code=c2VuZ3VwdGEubmlybWFseWFAZ21haWwuY29tfDExNDEyfC01NzQyMjQyNDk=>
+> .
+> NAML
+> <http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/template/NamlServlet.jtp?macro=macro_viewer&id=instant_html%21nabble%3Aemail.naml&base=nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.naml.namespaces.BasicNamespace-nabble.view.web.template.NabbleNamespace-nabble.view.web.template.NodeNamespace&breadcrumbs=notify_subscribers%21nabble%3Aemail.naml-instant_emails%21nabble%3Aemail.naml-send_instant_email%21nabble%3Aemail.naml>
+>
+
+
+
+-- 
+Software Technologist
+http://www.linkedin.com/in/nirmalyasengupta
+"If you have built castles in the air, your work need not be lost. That is
+where they should be.
+Now put the foundation under them."
+
+
+
+
+--
+View this message in context: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/Compiler-error-while-using-CsvTableSource-tp11412p11443.html
+Sent from the Apache Flink User Mailing List archive. mailing list archive at Nabble.com.

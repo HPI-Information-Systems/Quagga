@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_5073",
+  "meta": {},
+  "text": "Is watermark always set using processing time or event time or both?\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 70,
+      "text": "Is watermark always set using processing time or event time or both?\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Not outdated at all, because there are other methods having dependencies on
+sparkcontext so you have to create it.
+For example,
+https://gist.github.com/chetkhatri/f75c2b743e6cb2d7066188687448c5a1
+
+On Fri, Jan 27, 2017 at 2:06 PM, Wojciech Indyk <wojciechindyk@gmail.com>
+wrote:
+
+> Hi!
+> In this doc http://spark.apache.org/docs/latest/programming-guide.html#
+> initializing-spark initialization is described by SparkContext. Do you
+> think is it reasonable to change it to SparkSession or just mentioned it at
+> the end? I can prepare it and make PR for this, but want to know your
+> opinion at first. The same for quickstart: http://spark.
+> apache.org/docs/latest/quick-start.html#self-contained-applications
+>
+> --
+> Kind regards/ Pozdrawiam,
+> Wojciech Indyk
+>
+

@@ -1,0 +1,185 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for remembering me (even though I FORGOT to send you birthday wishes \nlast month).  It doesn't seem like a year, does it?  Hope you're doing great \nand your family is well.  How's the HOUSE OF THE CENTURY coming along?  I \nrecall looking at the plans just \"yesterday\".  Stay well (and young).  Sara\n---------------------- Forwarded by Sara Shackleton/HOU/ECT on 11/18/99 11:42 \nAM ---------------------------\n\n\nYao Apasu@ENRON_DEVELOPMENT\n11/18/99 08:01 AM\nTo: Sara Shackleton@ECT\ncc:  \nSubject: Happy B'day\n\nHi Beautiful,\nHappy Birthday. Many Happy Returns. We owe you a celebration. Hope the gang \nis doing something great for you today.\nSee you soon.\n\nYao\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 301,
+      "end": 305,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 306,
+      "text": "Thanks for remembering me (even though I FORGOT to send you birthday wishes \nlast month).  It doesn't seem like a year, does it?  Hope you're doing great \nand your family is well.  How's the HOUSE OF THE CENTURY coming along?  I \nrecall looking at the plans just \"yesterday\".  Stay well (and young).  Sara\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 342,
+      "end": 357,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 277,
+      "end": 305,
+      "text": "Stay well (and young).  Sara",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 369,
+      "end": 377,
+      "text": "11/18/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 378,
+      "end": 387,
+      "text": "11:42 \nAM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 306,
+      "end": 416,
+      "text": "---------------------- Forwarded by Sara Shackleton/HOU/ECT on 11/18/99 11:42 \nAM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 418,
+      "end": 427,
+      "text": "Yao Apasu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 446,
+      "end": 454,
+      "text": "11/18/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 455,
+      "end": 463,
+      "text": "08:01 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 468,
+      "end": 483,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 503,
+      "end": 514,
+      "text": "Happy B'day",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 416,
+      "end": 515,
+      "text": "\n\nYao Apasu@ENRON_DEVELOPMENT\n11/18/99 08:01 AM\nTo: Sara Shackleton@ECT\ncc:  \nSubject: Happy B'day\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 516,
+      "end": 530,
+      "text": "Hi Beautiful,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 662,
+      "end": 665,
+      "text": "Yao",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 647,
+      "end": 666,
+      "text": "See you soon.\n\nYao\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 515,
+      "end": 666,
+      "text": "\nHi Beautiful,\nHappy Birthday. Many Happy Returns. We owe you a celebration. Hope the gang \nis doing something great for you today.\nSee you soon.\n\nYao\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16122496.1075844330984.JavaMail.evans@thyme>",
+      "Date": "Thu, 18 Nov 1999 03:45:00 -0800 (PST)",
+      "From": "sara.shackleton@enron.com",
+      "To": "yao.apasu@enron.com",
+      "Subject": "Happy B'day",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Yao Apasu",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_900.txt"
+}

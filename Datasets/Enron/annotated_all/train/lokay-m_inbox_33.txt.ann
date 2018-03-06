@@ -1,0 +1,137 @@
+{
+  "wrapper": "plaintext",
+  "text": "\nPer discussions in Shelley's introductory meeting this morning, please mark your calendars to reflect a Strategy Meeting on Thursday of this week, March 28, 2:00 - 3:30 pm in ECN-39C1.\n\nPlease let me know if there are any conflicts.\n\nThanks in advance,\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 255,
+      "end": 258,
+      "text": "adr",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 235,
+      "end": 259,
+      "text": "Thanks in advance,\n\nadr\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 260,
+      "end": 279,
+      "text": "Audrey D. Robertson",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 280,
+      "end": 309,
+      "text": "Transwestern Pipeline Company",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 327,
+      "end": 353,
+      "text": "audrey.robertson@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 354,
+      "end": 368,
+      "text": "(713) 853-5849",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 369,
+      "end": 383,
+      "text": "(713) 646-2551",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 260,
+      "end": 387,
+      "text": "Audrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 387,
+      "text": "\nPer discussions in Shelley's introductory meeting this morning, please mark your calendars to reflect a Strategy Meeting on Thursday of this week, March 28, 2:00 - 3:30 pm in ECN-39C1.\n\nPlease let me know if there are any conflicts.\n\nThanks in advance,\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 3,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 3,
+      "target": 4,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<15083891.1075860968420.JavaMail.evans@thyme>",
+      "Date": "Mon, 25 Mar 2002 08:47:08 -0800 (PST)",
+      "From": "audrey.robertson@enron.com",
+      "To": "kevin.hyatt@enron.com, lindy.donoho@enron.com, tk.lohman@enron.com, \n\tmichelle.lokay@enron.com, mark.mcconnell@enron.com, \n\taudrey.robertson@enron.com, e-mail <.shelley@enron.com>, \n\tpaul.y'barbo@enron.com",
+      "Subject": "Strategy Meeting - TW Commercial Team",
+      "Cc": "ricki.winters@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "ricki.winters@enron.com",
+      "X-From": "Robertson, Audrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=AROBERT>",
+      "X-To": "Hyatt, Kevin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Khyatt>, Donoho, Lindy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ldonoho>, Lohman, TK </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tlohman>, Lokay, Michelle </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mlokay>, McConnell, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MMcConne>, Robertson, Audrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Arobert>, Shelley Corman (E-mail) <shelley.corman@enron.com>, Y'barbo, Paul </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pybarbo>",
+      "X-cc": "Winters, Ricki </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rwinter>",
+      "X-bcc": "",
+      "X-Folder": "\\Michelle_Lokay_Mar2002\\Lokay, Michelle\\Inbox",
+      "X-Origin": "Lokay-M",
+      "X-FileName": "mlokay (Non-Privileged).pst"
+    }
+  },
+  "id": "train/lokay-m_inbox_33.txt"
+}

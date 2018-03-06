@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi\n\nWe have use case where we have thousands of Telegraf agents sending data to\nkafka( some of them are sending 10s interval, 15s interval and 30s\ninterval). We would like to aggregate the incoming data to 1 minuter\ninterval based on the hostname as key before we write into influxdb. Is it\npossible to do this type of usecase with Flink? if so any sample to get\nstarted?\n\nsample data ( influxdb line protocal) coming from Kafka\n\nweather,location=us-midwest,season=summer temperature=82 1465839830100400200\n\n\n-Madhu\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3,
+      "text": "Hi\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 508,
+      "end": 516,
+      "text": "\n-Madhu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 517,
+      "text": "Hi\n\nWe have use case where we have thousands of Telegraf agents sending data to\nkafka( some of them are sending 10s interval, 15s interval and 30s\ninterval). We would like to aggregate the incoming data to 1 minuter\ninterval based on the hostname as key before we write into influxdb. Is it\npossible to do this type of usecase with Flink? if so any sample to get\nstarted?\n\nsample data ( influxdb line protocal) coming from Kafka\n\nweather,location=us-midwest,season=summer temperature=82 1465839830100400200\n\n\n-Madhu\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_3962"
+}

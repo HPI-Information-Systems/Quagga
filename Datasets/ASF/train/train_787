@@ -1,0 +1,24 @@
+Hello,
+
+As far as I understand you can hookup lucene syntax with <UserQuery>.
+
+On Mon, Feb 6, 2017 at 2:18 PM, Puneet Pawaia <puneet.pawaia@gmail.com>
+wrote:
+
+> Hi,
+>
+> I see that the Lucene XMLQueryParser still does not support some query
+> types like Wildcard queries and Prefix queries.
+> How is the search for terms with wildcards etc proposed to be handled by
+> XmlQueryParser?
+>
+> Thanks.
+> Puneet
+>
+
+
+
+-- 
+Sincerely yours
+Mikhail Khludnev
+

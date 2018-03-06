@@ -1,0 +1,112 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi TD,\n\nI am still seeing this issue with any immuatble DataStructure. Any idea why\nthis happens? I use scala.collection.immutable.List[String])  and my reduce\nand inverse reduce does the following.\n\nvisitorSet1 ++visitorSet2\n\n\n\nvisitorSet1.filterNot(visitorSet2.contains(_)\n\n\n\nOn Wed, Jun 7, 2017 at 8:43 AM, swetha kasireddy <swethakasireddy@gmail.com>\nwrote:\n\n> I changed the datastructure to scala.collection.immutable.Set and I still\n> see the same issue. My key is a String.  I do the following in my reduce\n> and invReduce.\n>\n> visitorSet1 ++visitorSet2.toTraversable\n>\n>\n> visitorSet1 --visitorSet2.toTraversable\n>\n> On Tue, Jun 6, 2017 at 8:22 PM, Tathagata Das <tathagata.das1565@gmail.com\n> > wrote:\n>\n>> Yes, and in general any mutable data structure. You have to immutable\n>> data structures whose hashcode and equals is consistent enough for being\n>> put in a set.\n>>\n>> On Jun 6, 2017 4:50 PM, \"swetha kasireddy\" <swethakasireddy@gmail.com>\n>> wrote:\n>>\n>>> Are you suggesting against the usage of HashSet?\n>>>\n>>> On Tue, Jun 6, 2017 at 3:36 PM, Tathagata Das <\n>>> tathagata.das1565@gmail.com> wrote:\n>>>\n>>>> This may be because of HashSet is a mutable data structure, and it\n>>>> seems you are actually mutating it in \"set1 ++set2\". I suggest creating a\n>>>> new HashMap in the function (and add both maps into it), rather than\n>>>> mutating one of them.\n>>>>\n>>>> On Tue, Jun 6, 2017 at 11:30 AM, SRK <swethakasireddy@gmail.com> wrote:\n>>>>\n>>>>> Hi,\n>>>>>\n>>>>> I see the following error when I use ReduceByKeyAndWindow in my Spark\n>>>>> Streaming app. I use reduce, invReduce and filterFunction as shown\n>>>>> below.\n>>>>> Any idea as to why I get the error?\n>>>>>\n>>>>>  java.lang.Exception: Neither previous window has value for key, nor\n>>>>> new\n>>>>> values found. Are you sure your key class hashes consistently?\n>>>>>\n>>>>>\n>>>>>   def reduceWithHashSet: ((Long, HashSet[String]), (Long,\n>>>>> HashSet[String]))\n>>>>> => (Long, HashSet[String])= {\n>>>>>     case ((timeStamp1: Long, set1: HashSet[String]), (timeStamp2: Long,\n>>>>> set2: HashSet[String])) => (Math.max(timeStamp1, timeStamp2), set1\n>>>>> ++set2 )\n>>>>>\n>>>>>   }\n>>>>>\n>>>>>   def invReduceWithHashSet: ((Long, HashSet[String]), (Long,\n>>>>> HashSet[String])) => (Long, HashSet[String])= {\n>>>>>     case ((timeStamp1: Long, set1: HashSet[String]), (timeStamp2: Long,\n>>>>> set2: HashSet[String])) => (Math.max(timeStamp1, timeStamp2),\n>>>>> set1.diff(set2))\n>>>>>   }\n>>>>>\n>>>>>   def filterFuncForInvReduce: ((String, (Long, HashSet[String]))) =>\n>>>>> (Boolean)= {\n>>>>>     case ((metricName:String, (timeStamp: Long, set:\n>>>>> HashSet[String]))) =>\n>>>>> set.size>0\n>>>>>   }\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>> --\n>>>>> View this message in context: http://apache-spark-user-list.\n>>>>> 1001560.n3.nabble.com/Exception-which-using-ReduceByKeyAndWi\n>>>>> ndow-in-Spark-Streaming-tp28748.html\n>>>>> Sent from the Apache Spark User List mailing list archive at\n>>>>> Nabble.com.\n>>>>>\n>>>>> ---------------------------------------------------------------------\n>>>>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>>>\n>>>>>\n>>>>\n>>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Hi TD,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 278,
+      "text": "Hi TD,\n\nI am still seeing this issue with any immuatble DataStructure. Any idea why\nthis happens? I use scala.collection.immutable.List[String])  and my reduce\nand inverse reduce does the following.\n\nvisitorSet1 ++visitorSet2\n\n\n\nvisitorSet1.filterNot(visitorSet2.contains(_)\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 278,
+      "end": 362,
+      "text": "On Wed, Jun 7, 2017 at 8:43 AM, swetha kasireddy <swethakasireddy@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 362,
+      "end": 623,
+      "text": "\n> I changed the datastructure to scala.collection.immutable.Set and I still\n> see the same issue. My key is a String.  I do the following in my reduce\n> and invReduce.\n>\n> visitorSet1 ++visitorSet2.toTraversable\n>\n>\n> visitorSet1 --visitorSet2.toTraversable\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 623,
+      "end": 711,
+      "text": "> On Tue, Jun 6, 2017 at 8:22 PM, Tathagata Das <tathagata.das1565@gmail.com\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 711,
+      "end": 882,
+      "text": ">\n>> Yes, and in general any mutable data structure. You have to immutable\n>> data structures whose hashcode and equals is consistent enough for being\n>> put in a set.\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 882,
+      "end": 966,
+      "text": ">> On Jun 6, 2017 4:50 PM, \"swetha kasireddy\" <swethakasireddy@gmail.com>\n>> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 966,
+      "end": 1026,
+      "text": ">>\n>>> Are you suggesting against the usage of HashSet?\n>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 1026,
+      "end": 1118,
+      "text": ">>> On Tue, Jun 6, 2017 at 3:36 PM, Tathagata Das <\n>>> tathagata.das1565@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1118,
+      "end": 1379,
+      "text": ">>>\n>>>> This may be because of HashSet is a mutable data structure, and it\n>>>> seems you are actually mutating it in \"set1 ++set2\". I suggest creating a\n>>>> new HashMap in the function (and add both maps into it), rather than\n>>>> mutating one of them.\n>>>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1379,
+      "end": 1456,
+      "text": ">>>> On Tue, Jun 6, 2017 at 11:30 AM, SRK <swethakasireddy@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1456,
+      "end": 1471,
+      "text": ">>>>\n>>>>> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 1456,
+      "end": 3155,
+      "text": ">>>>\n>>>>> Hi,\n>>>>>\n>>>>> I see the following error when I use ReduceByKeyAndWindow in my Spark\n>>>>> Streaming app. I use reduce, invReduce and filterFunction as shown\n>>>>> below.\n>>>>> Any idea as to why I get the error?\n>>>>>\n>>>>>  java.lang.Exception: Neither previous window has value for key, nor\n>>>>> new\n>>>>> values found. Are you sure your key class hashes consistently?\n>>>>>\n>>>>>\n>>>>>   def reduceWithHashSet: ((Long, HashSet[String]), (Long,\n>>>>> HashSet[String]))\n>>>>> => (Long, HashSet[String])= {\n>>>>>     case ((timeStamp1: Long, set1: HashSet[String]), (timeStamp2: Long,\n>>>>> set2: HashSet[String])) => (Math.max(timeStamp1, timeStamp2), set1\n>>>>> ++set2 )\n>>>>>\n>>>>>   }\n>>>>>\n>>>>>   def invReduceWithHashSet: ((Long, HashSet[String]), (Long,\n>>>>> HashSet[String])) => (Long, HashSet[String])= {\n>>>>>     case ((timeStamp1: Long, set1: HashSet[String]), (timeStamp2: Long,\n>>>>> set2: HashSet[String])) => (Math.max(timeStamp1, timeStamp2),\n>>>>> set1.diff(set2))\n>>>>>   }\n>>>>>\n>>>>>   def filterFuncForInvReduce: ((String, (Long, HashSet[String]))) =>\n>>>>> (Boolean)= {\n>>>>>     case ((metricName:String, (timeStamp: Long, set:\n>>>>> HashSet[String]))) =>\n>>>>> set.size>0\n>>>>>   }\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>>\n>>>>> --\n>>>>> View this message in context: http://apache-spark-user-list.\n>>>>> 1001560.n3.nabble.com/Exception-which-using-ReduceByKeyAndWi\n>>>>> ndow-in-Spark-Streaming-tp28748.html\n>>>>> Sent from the Apache Spark User List mailing list archive at\n>>>>> Nabble.com.\n>>>>>\n>>>>> ---------------------------------------------------------------------\n>>>>> To unsubscribe e-mail: user-unsubscribe@spark.apache.org\n>>>>>\n>>>>>\n>>>>\n>>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_3475"
+}

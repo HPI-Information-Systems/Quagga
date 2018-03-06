@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "What a great idea!  Unfortunately, I bought her something already, which is \nhighly unusual for me.\n\nHope you are enjoying all your guys.\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 139,
+      "end": 142,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 142,
+      "text": "What a great idea!  Unfortunately, I bought her something already, which is \nhighly unusual for me.\n\nHope you are enjoying all your guys.\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<23477398.1075845956308.JavaMail.evans@thyme>",
+      "Date": "Wed, 22 Nov 2000 05:22:00 -0800 (PST)",
+      "From": "kay.mann@enron.com",
+      "To": "carol.clair@enron.com",
+      "Subject": "Re: Suzanne's Christmas Gift",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Carol St Clair",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_3\\Notes Folders\\Sent",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_sent_1573.txt"
+}

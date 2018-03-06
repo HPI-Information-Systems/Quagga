@@ -1,0 +1,25 @@
+Hi All,
+
+I have a job as attached.
+
+I have a 16 Core blade running RHEL 7. The taskmanager default number of
+slots is set to 1. The source is a kafka stream and each of the 2
+sources(topic) have 2 partitions each.
+
+
+*What I notice is that when I deploy a job to run with #parallelism=2 the
+total processing time doubles the time it took when the same job was
+deployed with #parallelism=1. It linearly increases with the parallelism.*
+Since the numberof slots is set to 1 per TM, I would assume that the job
+would be processed in parallel in 2 different TMs and that each consumer in
+each TM is connected to 1 partition of the topic. This therefore should
+have kept the overall processing time the same or less !!!
+
+The co-flatmap connects the 2 streams & uses ValueState (checkpointed in
+FS). I think this is distributed among the TMs. My understanding is that
+the search of values state could be costly between TMs.  Do you sense
+something wrong here?
+
+Best Regards
+CVP
+

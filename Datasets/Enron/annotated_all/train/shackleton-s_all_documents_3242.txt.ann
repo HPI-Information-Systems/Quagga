@@ -1,0 +1,301 @@
+{
+  "wrapper": "plaintext",
+  "text": "I'm free after 11 am - Sara\n----- Forwarded by Sara Shackleton/HOU/ECT on 08/30/2000 08:13 AM -----\n\n\tKay Mann@ENRON\n\t08/29/2000 07:09 PM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: Gregg Penman/Corp/Enron@Enron\n\t\t Subject: Re: Midwest Energy Hub LLC (\"Midwest\")\n\nSara,\n\nMaybe a conference call with Gregg would be the most productive way to go.\n\nKay\n\n\nFrom: Sara Shackleton@ECT on 08/23/2000 05:19 PM\nTo: Kay Mann/Corp/Enron@Enron\ncc: Gregg Penman/Corp/Enron@Enron \n\nSubject: Midwest Energy Hub LLC (\"Midwest\")\n\nKay:  I left you a voice mail yesterday at Sheila's suggestion regarding \nMidwest.  Greg and I discussed the use of ENA's format of ISDA documentation \nby Midwest and I have a couple of questions about how our docs will be used, \nwhether Midwest will be competing with us and who will be negotiating hedge \nagreements on behalf of Midwest (i.e., will ENA swap lawyers be involved?).  \nPlease call me so that I can comply with Greg's request..\nThanks.  Sara\n\nGreg:  I will have the boilerplate sent to you separately.\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 23,
+      "end": 27,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 28,
+      "text": "I'm free after 11 am - Sara\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 47,
+      "end": 62,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 74,
+      "end": 84,
+      "text": "08/30/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 85,
+      "end": 93,
+      "text": "08:13 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 28,
+      "end": 100,
+      "text": "----- Forwarded by Sara Shackleton/HOU/ECT on 08/30/2000 08:13 AM -----\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 102,
+      "end": 110,
+      "text": "Kay Mann",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 118,
+      "end": 128,
+      "text": "08/29/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 129,
+      "end": 137,
+      "text": "07:09 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 148,
+      "end": 163,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 183,
+      "end": 195,
+      "text": "Gregg Penman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 225,
+      "end": 263,
+      "text": "Re: Midwest Energy Hub LLC (\"Midwest\")",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 101,
+      "end": 264,
+      "text": "\tKay Mann@ENRON\n\t08/29/2000 07:09 PM\n\t\t\n\t\t To: Sara Shackleton/HOU/ECT@ECT\n\t\t cc: Gregg Penman/Corp/Enron@Enron\n\t\t Subject: Re: Midwest Energy Hub LLC (\"Midwest\")\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 265,
+      "end": 269,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 348,
+      "end": 351,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 264,
+      "end": 354,
+      "text": "\nSara,\n\nMaybe a conference call with Gregg would be the most productive way to go.\n\nKay\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 360,
+      "end": 375,
+      "text": "Sara Shackleton",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 383,
+      "end": 393,
+      "text": "08/23/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 394,
+      "end": 402,
+      "text": "05:19 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 407,
+      "end": 415,
+      "text": "Kay Mann",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 437,
+      "end": 449,
+      "text": "Gregg Penman",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 478,
+      "end": 512,
+      "text": "Midwest Energy Hub LLC (\"Midwest\")",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 354,
+      "end": 513,
+      "text": "From: Sara Shackleton@ECT on 08/23/2000 05:19 PM\nTo: Kay Mann/Corp/Enron@Enron\ncc: Gregg Penman/Corp/Enron@Enron \n\nSubject: Midwest Energy Hub LLC (\"Midwest\")\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 514,
+      "end": 517,
+      "text": "Kay",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 966,
+      "end": 970,
+      "text": "Sara",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 957,
+      "end": 971,
+      "text": "Thanks.  Sara\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 972,
+      "end": 1031,
+      "text": "Greg:  I will have the boilerplate sent to you separately.\n",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 513,
+      "end": 1033,
+      "text": "\nKay:  I left you a voice mail yesterday at Sheila's suggestion regarding \nMidwest.  Greg and I discussed the use of ENA's format of ISDA documentation \nby Midwest and I have a couple of questions about how our docs will be used, \nwhether Midwest will be competing with us and who will be negotiating hedge \nagreements on behalf of Midwest (i.e., will ENA swap lawyers be involved?).  \nPlease call me so that I can comply with Greg's request..\nThanks.  Sara\n\nGreg:  I will have the boilerplate sent to you separately.\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 25,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 24,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 1,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 3,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 7,
+      "target": 15,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 14,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 21,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29546848.1075844392036.JavaMail.evans@thyme>",
+      "Date": "Wed, 30 Aug 2000 01:14:00 -0700 (PDT)",
+      "From": "sara.shackleton@enron.com",
+      "To": "kay.mann@enron.com",
+      "Subject": "Re: Midwest Energy Hub LLC (\"Midwest\")",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sara Shackleton",
+      "X-To": "Kay Mann",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_all_documents_3242.txt"
+}

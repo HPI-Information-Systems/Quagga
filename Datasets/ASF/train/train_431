@@ -1,0 +1,110 @@
+I know it works as expected when I set type_s:up as you describe. But I was expecting no children
+at all in my query.
+
+In my real query I have a document with several children and thus can't specify a specific
+type with childFilter. And I can't give back all children because some of them do not make
+any sense at all.
+And the problem appears for an intermediate node (which has children and which itself a child
+of another). 
+
+Fabien
+
+-----Original Message-----
+From: Mikhail Khludnev [mailto:mkhl@apache.org] 
+Sent: den 24 januari 2017 14:06
+To: solr-user <solr-user@lucene.apache.org>
+Subject: Re: Indexing nested documents giving back unrelated parents when asking for children
+
+Hello Fabien,
+
+I believe parentFilter should be type_s:up, and consequently the type_s:up should go in fq.
+
+On Tue, Jan 24, 2017 at 3:30 PM, Fabien Renaud <fabien.renaud@findwise.com>
+wrote:
+
+> Hello,
+>
+> I'm wondering if I missed something in my code (which uses solrj 6.3):
+>
+> public class Main {
+>
+>     private SolrClient client1;
+>
+>     public void run() {
+>         client1 = new 
+> HttpSolrClient.Builder("http://localhost:8983/solr
+> ").build();
+>
+>         SolrInputDocument doc1 = new SolrInputDocument();
+>
+>         doc1.addField("id", "1");
+>         doc1.addField("type_s", "up");
+>         SolrInputDocument doc2 = new SolrInputDocument();
+>
+>         doc2.addField("id", "2");
+>         doc2.addField("type_s", "down");
+>
+>         doc1.addChildDocument(doc2);
+>
+>         SolrInputDocument doc4 = new SolrInputDocument();
+>         doc4.addField("id", "4");
+>         doc4.addField("type_s", "up");
+>
+>         SolrInputDocument doc5 = new SolrInputDocument();
+>         doc5.addField("id", "5");
+>         doc5.addField("type_s", "down");
+>
+>         doc4.addChildDocument(doc5);
+>
+>         try {
+>             client1.add("techproducts", Arrays.asList(doc1,doc4));
+>         } catch (Exception e) {
+>             System.out.println("Indexing failed" + e);
+>         }
+>     }
+>
+> If I start Solr 6.3 using bin/start start -e techproduct and ask the
+> following:
+>
+> http://localhost:8983/solr/techproducts/select?fl=*,[
+> child%20parentFilter=type_s:down]&fq=type_s:down&indent=on&q=*:*&wt=js
+> on
+>
+>
+> then I get:
+>
+>     {
+>       "docs": [
+>         {
+>           "id": "2",
+>           "type_s": "down"
+>         },
+>         {
+>           "id": "5",
+>           "type_s": "down",
+>           "_childDocuments_": [
+>             {
+>               "id": "1",
+>               "type_s": "up"
+>             }
+>           ]
+>         }
+>       ]
+>     }
+>
+> which seems to be a bug for me. Or did I miss something?
+> Notice that the relations "2 is a child of 1" and "5 is a child of 4" 
+> are working fine. It's just that I get extra (unwanted and unrelated) relations.
+>
+> Notice that at some point I manage to get back two documents with the 
+> __same__ id (with different version). I'm not able to reproduce this 
+> but I guess it could be related.
+>
+> Fabien
+>
+>
+
+
+--
+Sincerely yours
+Mikhail Khludnev

@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "On 3/13/2017 3:16 AM, vbindal wrote:\n> I am facing the same issue where my query *:* returns inconsistent number (almost 3)\ntime the actual number in millions.\n>\n> When I try disturb=false on every machine, the results are correct. but\n> without `disturb=false` results are incorrect.\n\nThis most likely means that you've got duplicate documents in different\nshards of your cloud.  This most commonly happens when the router is\n\"implicit\" which is easier to understand if you imagine that \"implicit\"\nis \"manual\" -- which would be a far better name for it.\n\nIn a later message you mention duplicate documents and 3 shards.  It\nsounds like you have indexed all your documents to all three shards, and\nare probably using the implicit router.\n\nThe implicit router basically means that there *IS* no shard routing --\ndocuments would be either indexed by the shard that received them, or\ndirected to the shard indicated by explicit routing parameters.  With\nthree shards and \"distrib=false\" requests to one shard, you should see\nabout one-third of your total document count, not the full document count.\n\nThe router that you typically want if you don't want to be concerned\nabout how documents are routed to different shards is the compositeId\nrouter.  This *should* be the default for a multi-shard collection in\nany recent version, but the first one or two releases of SolrCloud might\nhave created the wrong type.\n\nThanks,\nShawn\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 37,
+      "text": "On 3/13/2017 3:16 AM, vbindal wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1409,
+      "end": 1424,
+      "text": "\nThanks,\nShawn\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 37,
+      "end": 1426,
+      "text": "> I am facing the same issue where my query *:* returns inconsistent number (almost 3)\ntime the actual number in millions.\n>\n> When I try disturb=false on every machine, the results are correct. but\n> without `disturb=false` results are incorrect.\n\nThis most likely means that you've got duplicate documents in different\nshards of your cloud.  This most commonly happens when the router is\n\"implicit\" which is easier to understand if you imagine that \"implicit\"\nis \"manual\" -- which would be a far better name for it.\n\nIn a later message you mention duplicate documents and 3 shards.  It\nsounds like you have indexed all your documents to all three shards, and\nare probably using the implicit router.\n\nThe implicit router basically means that there *IS* no shard routing --\ndocuments would be either indexed by the shard that received them, or\ndirected to the shard indicated by explicit routing parameters.  With\nthree shards and \"distrib=false\" requests to one shard, you should see\nabout one-third of your total document count, not the full document count.\n\nThe router that you typically want if you don't want to be concerned\nabout how documents are routed to different shards is the compositeId\nrouter.  This *should* be the default for a multi-shard collection in\nany recent version, but the first one or two releases of SolrCloud might\nhave created the wrong type.\n\nThanks,\nShawn\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_1613"
+}

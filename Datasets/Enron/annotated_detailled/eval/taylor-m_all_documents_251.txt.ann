@@ -1,0 +1,255 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thank you both for the very quick turn-around.   Yes, I agree and hope that \nOM will consent to the proposed changes.\n\nMark T.\n\n\n\n\nMark Elliott\n04/23/99 05:49 AM\nTo: Martin Rosell/OSL/ECT@ECT\ncc: Mark - ECT Legal Taylor/HOU/ECT@ECT \nSubject: Re: OMnet, etc.  \n\nMartin, many thanks for your swift comments on the documents.\n\nYou will see that I have passed on your comments to Mark Taylor and if Mark \nAgrees, I shall try to get inserted (1) an \"whole agreement\" clause plus (2) \nthe arbitration method wehich you have suggested.  May be Mark could just let \nme know on this score if he agrees.\n\nKind regards\n\nMark\n\n\n\nMartin Rosell\n04/23/99 11:10 AM\nTo: Mark Elliott/LON/ECT@ECT\ncc: Mark - ECT Legal Taylor/HOU/ECT@ECT \nSubject: OMnet, etc.\n\nWith reference to your fax of 21 April, 1999 as to the enforceability of \ncertain agreements under Swedish law, please receive the following comments:\n\nThe relevant agreements are actionable in accordance with their respective \nterms.  Please note, however, that the availibilty in Swedish courts of \nequitable remedies such as injuction and specific performance is restricted \nunder Swedish law.  The general remedy in the case of breach of contract is \ndamages.\n\nGenerally speaking, a Swedish judge would not be inclined to consider matters \nof fairness or reasonability in respect of a Swedish law contract between \ncommercial parties such as ECT and OM.  In the case of ambiguity, the court \nwould try to establish the intention of the parties using different means of \ncontract construction.  If ECT wishes to ascertain strict reliance on the \ncontract terms and framework, any court discretion could be limited further \nby way of imposing an 'entire contract clause'. \n\nOm's disclaimers for liability are fairly aggressive, but I assume that this \nis not uncommon in these type supply & services agreements.  I cannot judge \nto what extent ECT risks incurring any liability towards OM.\n\nThe relevant Arbitration Act should be referred to as \"(1929:145)\".  More \nimportantly, this Act  (enacted in 1929) is expected to be replaced by new \nlegislation for ad hoc arbitration.  I believe that a bill for the purpose \nhas been released by the Government.  I'm not yet acquainted with the \ncontents of the bill, but even if I dare say that the new arbitration \nprovisions are likely to be moderns and OK you may wish, rather sailing into \nunknown waters, to propose to OM arbitration in accordance with the Rules of \nthe Arbitration Institute of the Stockholm Chamber of Commerce.  I have no \npersonal experience of this institute but ECT has done some due diligence on \nit (please see Vinge's response to the attached questionnaire), we refer to \nit in our physical Swedish contracts and it has a solid reputation in the \nworld of international arbitration.  Below follows its own recommended \narbitration clause: \n\n\"Any dispute, controversy or claim arising out of or in connection with [this \ncontract], or the breach, termination or invalidity thereof, shall be settled \nby arbitration in accordance with the Rules of Arbitration Institute of the \nStockholm Chamber of Commerce.\n\nThe arbitral tribunal shall be composed of ........................... \narbitrators/a sole arbitrator.\n\nThe place of the arbitration shall be ....................................\n\nThe language(s) to be used in the arbitral proceedings shall be \n...................................\"\n\nIf this is the preferred solution, this clause should be reflected in all \nagreements (and I doubt that OM would reject to it).\n\nPlease check the address details of OM Gruppen AB (I believe the details may \nhave changed to 'Norrlandsgatan 31\n105 78 Stockholm'.).\n\nMartin\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 119,
+      "end": 126,
+      "text": "Mark T.",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 131,
+      "text": "Thank you both for the very quick turn-around.   Yes, I agree and hope that \nOM will consent to the proposed changes.\n\nMark T.\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 131,
+      "end": 143,
+      "text": "Mark Elliott",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 144,
+      "end": 152,
+      "text": "04/23/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 153,
+      "end": 161,
+      "text": "05:49 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 166,
+      "end": 179,
+      "text": "Martin Rosell",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 196,
+      "end": 200,
+      "text": "Mark",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 242,
+      "end": 257,
+      "text": "Re: OMnet, etc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 131,
+      "end": 260,
+      "text": "Mark Elliott\n04/23/99 05:49 AM\nTo: Martin Rosell/OSL/ECT@ECT\ncc: Mark - ECT Legal Taylor/HOU/ECT@ECT \nSubject: Re: OMnet, etc.  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 261,
+      "end": 267,
+      "text": "Martin",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 609,
+      "end": 613,
+      "text": "Mark",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 595,
+      "end": 614,
+      "text": "Kind regards\n\nMark\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 260,
+      "end": 617,
+      "text": "\nMartin, many thanks for your swift comments on the documents.\n\nYou will see that I have passed on your comments to Mark Taylor and if Mark \nAgrees, I shall try to get inserted (1) an \"whole agreement\" clause plus (2) \nthe arbitration method wehich you have suggested.  May be Mark could just let \nme know on this score if he agrees.\n\nKind regards\n\nMark\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 617,
+      "end": 630,
+      "text": "Martin Rosell",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 631,
+      "end": 639,
+      "text": "04/23/99",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 640,
+      "end": 648,
+      "text": "11:10 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 653,
+      "end": 665,
+      "text": "Mark Elliott",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 682,
+      "end": 686,
+      "text": "Mark",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 727,
+      "end": 739,
+      "text": " OMnet, etc.",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 617,
+      "end": 740,
+      "text": "Martin Rosell\n04/23/99 11:10 AM\nTo: Mark Elliott/LON/ECT@ECT\ncc: Mark - ECT Legal Taylor/HOU/ECT@ECT \nSubject: OMnet, etc.\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 740,
+      "end": 3686,
+      "text": "\nWith reference to your fax of 21 April, 1999 as to the enforceability of \ncertain agreements under Swedish law, please receive the following comments:\n\nThe relevant agreements are actionable in accordance with their respective \nterms.  Please note, however, that the availibilty in Swedish courts of \nequitable remedies such as injuction and specific performance is restricted \nunder Swedish law.  The general remedy in the case of breach of contract is \ndamages.\n\nGenerally speaking, a Swedish judge would not be inclined to consider matters \nof fairness or reasonability in respect of a Swedish law contract between \ncommercial parties such as ECT and OM.  In the case of ambiguity, the court \nwould try to establish the intention of the parties using different means of \ncontract construction.  If ECT wishes to ascertain strict reliance on the \ncontract terms and framework, any court discretion could be limited further \nby way of imposing an 'entire contract clause'. \n\nOm's disclaimers for liability are fairly aggressive, but I assume that this \nis not uncommon in these type supply & services agreements.  I cannot judge \nto what extent ECT risks incurring any liability towards OM.\n\nThe relevant Arbitration Act should be referred to as \"(1929:145)\".  More \nimportantly, this Act  (enacted in 1929) is expected to be replaced by new \nlegislation for ad hoc arbitration.  I believe that a bill for the purpose \nhas been released by the Government.  I'm not yet acquainted with the \ncontents of the bill, but even if I dare say that the new arbitration \nprovisions are likely to be moderns and OK you may wish, rather sailing into \nunknown waters, to propose to OM arbitration in accordance with the Rules of \nthe Arbitration Institute of the Stockholm Chamber of Commerce.  I have no \npersonal experience of this institute but ECT has done some due diligence on \nit (please see Vinge's response to the attached questionnaire), we refer to \nit in our physical Swedish contracts and it has a solid reputation in the \nworld of international arbitration.  Below follows its own recommended \narbitration clause: \n\n\"Any dispute, controversy or claim arising out of or in connection with [this \ncontract], or the breach, termination or invalidity thereof, shall be settled \nby arbitration in accordance with the Rules of Arbitration Institute of the \nStockholm Chamber of Commerce.\n\nThe arbitral tribunal shall be composed of ........................... \narbitrators/a sole arbitrator.\n\nThe place of the arbitration shall be ....................................\n\nThe language(s) to be used in the arbitral proceedings shall be \n...................................\"\n\nIf this is the preferred solution, this clause should be reflected in all \nagreements (and I doubt that OM would reject to it).\n\nPlease check the address details of OM Gruppen AB (I believe the details may \nhave changed to 'Norrlandsgatan 31\n105 78 Stockholm'.).\n\nMartin\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 3673,
+      "end": 3679,
+      "text": "Martin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 22,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 3,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 6,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 10,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22788891.1075859883562.JavaMail.evans@thyme>",
+      "Date": "Fri, 23 Apr 1999 01:59:00 -0700 (PDT)",
+      "From": "mark.taylor@enron.com",
+      "To": "mark.elliott@enron.com",
+      "Subject": "Re: OMnet, etc.",
+      "Cc": "martin.rosell@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "martin.rosell@enron.com",
+      "X-From": "Mark - ECT Legal Taylor",
+      "X-To": "Mark Elliott",
+      "X-cc": "Martin Rosell",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Taylor _Dec_2000\\Notes Folders\\All documents",
+      "X-Origin": "Taylor-M",
+      "X-FileName": "mtaylor.nsf"
+    }
+  },
+  "id": "eval/taylor-m_all_documents_251.txt"
+}

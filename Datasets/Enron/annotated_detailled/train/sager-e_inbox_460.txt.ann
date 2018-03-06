@@ -1,0 +1,480 @@
+{
+  "wrapper": "plaintext",
+  "text": "Marcus and Ed can we talk today about this.  Is there a good time?\n\nI need to get back with NEPOOL today.  Also, while our business dropped off, I am guessing that NE-ISO has been arranging energy for our UI load and our payable is growing pretty quickly.\n\nJim\n\n-----Original Message-----\nFrom: Nicolay, Christi L. \nSent: Wednesday, December 12, 2001 9:50 AM\nTo: Steffes, James D.\nSubject: FW: Notice of Financial Assurance Default\nImportance: High\nSensitivity: Confidential\n\n\n\n\n-----Original Message-----\nFrom: Nettelton, Marcus \nSent: Wednesday, December 12, 2001 9:22 AM\nTo: Sacks, Edward\nCc: Bradford, William S.; Sager, Elizabeth; Nicolay, Christi L.\nSubject: RE: Notice of Financial Assurance Default\nImportance: High\nSensitivity: Confidential\n\n\nEd\n\t\nAs a first step, please could you check the position as to the bonds we have posted and provide me with details as to the volume of trades we have entered into since December 2 this year and for the same period last year. In addition please could you confirm what our NEPOOL Charges have been for the last 12 months.\n\t\nMy initial reaction is that, provided the bond holders have not sought to withdraw the bonds and confirm that to us, then ISO-NE's position is considerably weakened. The fact that they only allege \"purported notice\" gives me something to work with, in that it is either notice or it is not.\n\t\nThe amount that they are seeking does appear to be on the high side, especially having regard to what I am assuming is  reduced activity by certainly EPMI, in NEPOOL since December 2. \n\t\nI will review the NEPOOL Financial Assurance Policy to ensure that there is nothing we have missed and subject to the data and information in respect of the bonds posted by us and the activity data I would seek to challenge this as a valid notice and state that we are still in compliance with the Financial Assurance Policy.\n\t\nRegards,\n\t\nMarcus\n\n-----Original Message-----\nFrom: Sacks, Edward \nSent: Wednesday, December 12, 2001 6:45 AM\nTo: Nettelton, Marcus; Nicolay, Christi L.\nCc: Bradford, William S.; Sager, Elizabeth\nSubject: FW: Notice of Financial Assurance Default\n\n\nFYI\n\n-----Original Message-----\nFrom: Arnold, Cheryl [mailto:carnold@iso-ne.com]\nSent: Tuesday, December 11, 2001 6:24 PM\nTo: Sacks, Edward; Steffes, James D.\nCc: McKenna, Edward\nSubject: Notice of Financial Assurance Default\n\n\nPlease see attached notice of Financial Assurance Default.\n\n <<Enron Financial Assur Default 12_11_01.doc>> ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Marcus",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 11,
+      "end": 13,
+      "text": "Ed",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 13,
+      "text": "Marcus and Ed",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 257,
+      "end": 260,
+      "text": "Jim",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 295,
+      "end": 314,
+      "text": "Nicolay, Christi L.",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 333,
+      "end": 350,
+      "text": "December 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 351,
+      "end": 358,
+      "text": "9:50 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 363,
+      "end": 380,
+      "text": "Steffes, James D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 390,
+      "end": 431,
+      "text": "FW: Notice of Financial Assurance Default",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 261,
+      "end": 475,
+      "text": "\n-----Original Message-----\nFrom: Nicolay, Christi L. \nSent: Wednesday, December 12, 2001 9:50 AM\nTo: Steffes, James D.\nSubject: FW: Notice of Financial Assurance Default\nImportance: High\nSensitivity: Confidential\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 512,
+      "end": 529,
+      "text": "Nettelton, Marcus",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 548,
+      "end": 565,
+      "text": "December 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 566,
+      "end": 573,
+      "text": "9:22 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 578,
+      "end": 591,
+      "text": "Sacks, Edward",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 596,
+      "end": 616,
+      "text": "Bradford, William S.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 618,
+      "end": 634,
+      "text": "Sager, Elizabeth",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 636,
+      "end": 655,
+      "text": "Nicolay, Christi L.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 665,
+      "end": 706,
+      "text": "RE: Notice of Financial Assurance Default",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 475,
+      "end": 750,
+      "text": "\n\n\n\n-----Original Message-----\nFrom: Nettelton, Marcus \nSent: Wednesday, December 12, 2001 9:22 AM\nTo: Sacks, Edward\nCc: Bradford, William S.; Sager, Elizabeth; Nicolay, Christi L.\nSubject: RE: Notice of Financial Assurance Default\nImportance: High\nSensitivity: Confidential\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 752,
+      "end": 754,
+      "text": "Ed",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1895,
+      "end": 1901,
+      "text": "Marcus",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1884,
+      "end": 1902,
+      "text": "Regards,\n\t\nMarcus\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 750,
+      "end": 1903,
+      "text": "\n\nEd\n\t\nAs a first step, please could you check the position as to the bonds we have posted and provide me with details as to the volume of trades we have entered into since December 2 this year and for the same period last year. In addition please could you confirm what our NEPOOL Charges have been for the last 12 months.\n\t\nMy initial reaction is that, provided the bond holders have not sought to withdraw the bonds and confirm that to us, then ISO-NE's position is considerably weakened. The fact that they only allege \"purported notice\" gives me something to work with, in that it is either notice or it is not.\n\t\nThe amount that they are seeking does appear to be on the high side, especially having regard to what I am assuming is  reduced activity by certainly EPMI, in NEPOOL since December 2. \n\t\nI will review the NEPOOL Financial Assurance Policy to ensure that there is nothing we have missed and subject to the data and information in respect of the bonds posted by us and the activity data I would seek to challenge this as a valid notice and state that we are still in compliance with the Financial Assurance Policy.\n\t\nRegards,\n\t\nMarcus\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1936,
+      "end": 1949,
+      "text": "Sacks, Edward",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1968,
+      "end": 1985,
+      "text": "December 12, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1986,
+      "end": 1993,
+      "text": "6:45 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1998,
+      "end": 2015,
+      "text": "Nettelton, Marcus",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2017,
+      "end": 2036,
+      "text": "Nicolay, Christi L.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2041,
+      "end": 2061,
+      "text": "Bradford, William S.",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2063,
+      "end": 2079,
+      "text": "Sager, Elizabeth",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2089,
+      "end": 2130,
+      "text": "FW: Notice of Financial Assurance Default",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1903,
+      "end": 2131,
+      "text": "-----Original Message-----\nFrom: Sacks, Edward \nSent: Wednesday, December 12, 2001 6:45 AM\nTo: Nettelton, Marcus; Nicolay, Christi L.\nCc: Bradford, William S.; Sager, Elizabeth\nSubject: FW: Notice of Financial Assurance Default\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 2131,
+      "end": 2138,
+      "text": "\n\nFYI\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 2171,
+      "end": 2185,
+      "text": "Arnold, Cheryl",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 2194,
+      "end": 2212,
+      "text": "carnold@iso-ne.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 2229,
+      "end": 2246,
+      "text": "December 11, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 2247,
+      "end": 2254,
+      "text": "6:24 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 2259,
+      "end": 2272,
+      "text": "Sacks, Edward",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2274,
+      "end": 2291,
+      "text": "Steffes, James D.",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2296,
+      "end": 2311,
+      "text": "McKenna, Edward",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2321,
+      "end": 2358,
+      "text": "Notice of Financial Assurance Default",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2138,
+      "end": 2359,
+      "text": "-----Original Message-----\nFrom: Arnold, Cheryl [mailto:carnold@iso-ne.com]\nSent: Tuesday, December 11, 2001 6:24 PM\nTo: Sacks, Edward; Steffes, James D.\nCc: McKenna, Edward\nSubject: Notice of Financial Assurance Default\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2424,
+      "end": 2466,
+      "text": "Enron Financial Assur Default 12_11_01.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2421,
+      "end": 2469,
+      "text": " <<Enron Financial Assur Default 12_11_01.doc>> ",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2359,
+      "end": 2469,
+      "text": "\n\nPlease see attached notice of Financial Assurance Default.\n\n <<Enron Financial Assur Default 12_11_01.doc>> ",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 46,
+      "start": 0,
+      "end": 261,
+      "text": "Marcus and Ed can we talk today about this.  Is there a good time?\n\nI need to get back with NEPOOL today.  Also, while our business dropped off, I am guessing that NE-ISO has been arranging energy for our UI load and our payable is growing pretty quickly.\n\nJim\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 5,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 20,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 21,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 1,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 27,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 28,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 15,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 30,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 34,
+      "target": 35,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 38,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2533797.1075859132207.JavaMail.evans@thyme>",
+      "Date": "Wed, 12 Dec 2001 08:26:04 -0800 (PST)",
+      "From": "d..steffes@enron.com",
+      "To": "l..nicolay@enron.com, marcus.nettelton@enron.com, edward.sacks@enron.com, \n\telizabeth.sager@enron.com, s..bradford@enron.com",
+      "Subject": "RE: Notice of Financial Assurance Default",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steffes, James D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JSTEFFE>",
+      "X-To": "Nicolay, Christi L. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cnicola>, Nettelton, Marcus </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mnettelt>, Sacks, Edward </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esacks>, Sager, Elizabeth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esager>, Bradford, William S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wbradfo>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Elizabeth_Sager_Jan2002\\Sager, Elizabeth\\Inbox",
+      "X-Origin": "Sager-E",
+      "X-FileName": "esager (Non-Privileged).pst"
+    }
+  },
+  "id": "train/sager-e_inbox_460.txt"
+}

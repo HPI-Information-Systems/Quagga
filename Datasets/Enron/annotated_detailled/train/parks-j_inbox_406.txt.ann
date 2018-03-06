@@ -1,0 +1,99 @@
+{
+  "wrapper": "plaintext",
+  "text": "Joe - to be honest, I do not fully understand the new issue.\n\n -----Original Message-----\nFrom: \tParks, Joe  \nSent:\tTuesday, February  26, 2002 8:37 AM\nTo:\tMeyer, Chris\nSubject:\t\n\nHey, do you think I should ask Centana if they will want to use some of the storage gas to offset the new issue.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Joe ",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 62,
+      "text": "Joe - to be honest, I do not fully understand the new issue.\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 97,
+      "end": 107,
+      "text": "Parks, Joe",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 125,
+      "end": 143,
+      "text": "February  26, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 144,
+      "end": 151,
+      "text": "8:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 156,
+      "end": 168,
+      "text": "Meyer, Chris",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 62,
+      "end": 179,
+      "text": " -----Original Message-----\nFrom: \tParks, Joe  \nSent:\tTuesday, February  26, 2002 8:37 AM\nTo:\tMeyer, Chris\nSubject:\t\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 179,
+      "end": 292,
+      "text": "\nHey, do you think I should ask Centana if they will want to use some of the storage gas to offset the new issue.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4566480.1075841392103.JavaMail.evans@thyme>",
+      "Date": "Tue, 26 Feb 2002 06:57:44 -0800 (PST)",
+      "From": "chris.meyer@enron.com",
+      "To": "joe.parks@enron.com",
+      "Subject": "RE:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Meyer, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=CMEYER>",
+      "X-To": "Parks, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jparks>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Parks, Joe\\Inbox",
+      "X-Origin": "PARKS-J",
+      "X-FileName": "joe parks 6-26-02.pst"
+    }
+  },
+  "id": "train/parks-j_inbox_406.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

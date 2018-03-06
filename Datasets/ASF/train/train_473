@@ -1,0 +1,55 @@
+Hello, 
+
+This is not possible out of the box, you would need to manually pass the input through an
+analyzer with a tokenizer and your steming token filter, and put the output together again.
+
+Markus
+
+ 
+ 
+-----Original message-----
+> From:Leonidas Zagkaretos <leonzagk@gmail.com>
+> Sent: Wednesday 25th January 2017 17:51
+> To: solr-user@lucene.apache.org
+> Subject: Pass Analyzed Field to SignatureUpdateProcessorFactory
+> 
+> Hi all,
+> 
+> We have successfully integrated Solr in our application, and now we are
+> facing a requirement where the application should be able to search for
+> duplicate records in Solr core based on equality in 3 distinct fields.
+> 
+> Tried using SignatureUpdateProcessorFactory as described in
+> https://cwiki.apache.org/confluence/display/solr/De-Duplication and
+> Lookup3Signature and everything seems to work fine, signature field is
+> being filled with unique hash values.
+> 
+> One issue we have, is that we need to pass to
+> SignatureUpdateProcessorFactory the stemmed value of 1 of 3 fields.
+> Currenty, the following documents produce different hash values, and we
+> need them to produce unique.
+> Analysis for field1 and values "value1_a" and "value1_b" produce stemmed
+> value "value1"
+> 
+> documentA: {
+>     field1: value1_a,
+>     field2: value2,
+>     field3: value3,
+>     signature: hash_value1
+> }
+> 
+> documentB: {
+>     field1: value1_b,
+>     field2: value2,
+>     field3: value3,
+>     signature: hash_value2
+> }
+> 
+> I would like to ask whether it is possible to have required behavior, and
+> some tips about how to accomplish this task.
+> 
+> Thank you in advance,
+> 
+> Leonidas
+> 
+

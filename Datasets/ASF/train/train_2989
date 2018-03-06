@@ -1,0 +1,140 @@
+Thanks for your response, Rick.
+
+The search is based on fields with our custom type "text_en":
+
+<fieldType name="text_en" class="solr.TextField"
+positionIncrementGap="100" storeOffsetsWithPositions="true">
+<analyzer type="index">
+<tokenizer class="solr.StandardTokenizerFactory"/>
+<filter class="solr.WordDelimiterFilterFactory"
+generateWordParts="1"
+generateNumberParts="1"
+splitOnCaseChange="1"
+splitOnNumerics="0"
+catenateWords="0"
+catenateNumbers="0"
+catenateAll="0"
+preserveOriginal="1"
+                />
+<filter class="solr.SynonymFilterFactory" synonyms="synonyms_light.txt" tokenizerFactory="solr.KeywordTokenizerFactory"
+format="solr" ignoreCase="true" expand="true" />
+<filter class="solr.SynonymFilterFactory" synonyms="english_abbreviations.txt" tokenizerFactory="solr.KeywordTokenizerFactory"
+format="solr" ignoreCase="false" expand="true" />
+<filter class="solr.LengthFilterFactory" min="2" max="64" />
+<filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"
+/>
+<filter class="solr.LowerCaseFilterFactory" />
+<filter class="solr.KStemFilterFactory"/>
+</analyzer>
+<analyzer type="query">
+<tokenizer class="solr.StandardTokenizerFactory"/>
+<filter class="solr.WordDelimiterFilterFactory"
+generateWordParts="1"
+generateNumberParts="1"
+splitOnCaseChange="1"
+splitOnNumerics="0"
+catenateWords="0"
+catenateNumbers="0"
+catenateAll="0"
+preserveOriginal="1"
+                />
+<filter class="solr.LengthFilterFactory" min="2" max="64" />
+<filter class="solr.SynonymFilterFactory" synonyms="synonyms_user.txt" ignoreCase="true"
+expand="true" />
+<filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"
+/>
+<filter class="solr.LowerCaseFilterFactory" />
+<filter class="solr.KStemFilterFactory"/>
+</analyzer>
+</fieldType>
+
+I tested it using Solr admin Analysis. It acts as expected. Both huntman's and +huntman's
+are divided to huntman's and huntman in index and search:
+
+Index:
+SThuntman's
+GFhuntman's
+WDFhuntman'shuntman
+SFhuntman'shuntman
+SFhuntman'shuntman
+LFhuntman'shuntman
+SFhuntman'shuntman
+LCFhuntman'shuntman
+KSFhuntman'shuntman
+
+
+Search:
+SThuntman's
+WDFhuntman'shuntman
+LFhuntman'shuntman
+LBTShuntman'shuntman
+SFhuntman'shuntman
+LCFhuntman'shuntman
+KSFhuntman'shuntman
+
+BTW, I use Solr 5.3.1
+
+-----Original Message-----
+From: Rick Leir [mailto:rleir@leirtech.com]
+Sent: Monday, May 1, 2017 2:19 PM
+To: solr-user@lucene.apache.org
+Subject: Re: BooleanQuery and WordDelimiterFilter
+
+Avi,
+Tell us the relevant field types you have in schema.xml.
+You can also solve this all for yourself in the Solr Admin Analysis panel.
+Cheers -- Rick
+
+On May 1, 2017 2:34:31 AM EDT, Avi Steiner <asteiner@varonis.com> wrote:
+>Hi
+>
+>I have  a question regarding the use of query parser and BooleanQuery.
+>
+>I have 3 documents indexed.
+>Doc1 contains the words huntman's and huntman
+>Doc2 contains the word huntman's
+>Doc3 contains the word huntman
+>
+>When I search for huntman's I get Doc1 and Doc2 When I search for
+>+huntman's I get Doc1, Doc2 and Doc3
+>
+>As far as I understand, when I search for huntman's it should return
+>documents with both huntman and huntman's (using WordDelimiterFilter) I
+>also know that plus sign means that the term must be in document and
+>the absence of plus (or minus) sign means that the term may or may not
+>be in document as explained here:
+>https://urldefense.proofpoint.com/v2/url?u=https-3A__lucidworks.com_201
+>1_12_28_why-2Dnot-2Dand-2Dor-2Dand-2Dnot_&d=DwIFaQ&c=TxO9TIZxM1NIgbR_44
+>vEiALc2o8uaxixBRc1BtwrN08&r=N8Ef6xGR2eDgjA8I5q1SOErZhf616XiV4IPj4Ncf1w0
+>&m=pZs_VDg5Br0bnHYnuE8wJ64OUjAiwkYwaNWZE2KcyfY&s=BNJJK_BERjj8dHeIAys8P0
+>eU5oZ4-aD38XDXehqXsao&e=
+>
+>So I don't understand the combination of these two properties.
+>I think I understand why +huntman's returns Doc3 as well, because it
+>can be translated to +(huntman's OR huntman), which means: must be one
+>of the following: huntman's or huntman.
+>But I don't understand why Doc3 is not returned by huntman's as well.
+>Isn't it translated to huntman's OR huntman?
+>
+>Thanks
+>
+>Avi
+>
+>
+>________________________________
+>This email and any attachments thereto may contain private,
+>confidential, and privileged material for the sole use of the intended
+>recipient. Any review, copying, or distribution of this email (or any
+>attachments thereto) by others is strictly prohibited. If you are not
+>the intended recipient, please contact the sender immediately and
+>permanently delete the original and any copies of this email and any
+>attachments thereto.
+
+--
+Sorry for being brief. Alternate email is rickleir at yahoo dot com
+________________________________
+This email and any attachments thereto may contain private, confidential, and privileged material
+for the sole use of the intended recipient. Any review, copying, or distribution of this email
+(or any attachments thereto) by others is strictly prohibited. If you are not the intended
+recipient, please contact the sender immediately and permanently delete the original and any
+copies of this email and any attachments thereto.

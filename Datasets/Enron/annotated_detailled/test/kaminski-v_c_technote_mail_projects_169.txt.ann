@@ -1,0 +1,52 @@
+{
+  "wrapper": "plaintext",
+  "text": "Stinson, \n\nHenwood can help us with the project in our time frame (end of January). The \nHenwood person who will coordinate the project is David Branchcomb, located \nin London. He will have to involve the Henwood ?manager for Asia, who works \nout of Australia. \n\nI told him that you would call him Wednesday morning on his cell phone to set \nup a conference call later the same day with the guy in Australia. Given time \ndifference it may happen late afternoon. \n\nThey expect that we shall give them the specs of the project. It makes sense \nto involve Sandeep at the conference call: he will be very specific about our \nneeds. I sent you his coordinates in an earlier message. Sandeep may have to \ncome to the office: I don't know if Anita knows how to set up a conference \ncall. \n\nDavid's phone numbers: \n\n44 207 242 8950 \n44 787 942 5375 (cell). \n\nI may be at the office in the morning for an hour or two. \n\nVince",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Stinson",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 911,
+      "end": 916,
+      "text": "Vince",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 916,
+      "text": "Stinson, \n\nHenwood can help us with the project in our time frame (end of January). The \nHenwood person who will coordinate the project is David Branchcomb, located \nin London. He will have to involve the Henwood ?manager for Asia, who works \nout of Australia. \n\nI told him that you would call him Wednesday morning on his cell phone to set \nup a conference call later the same day with the guy in Australia. Given time \ndifference it may happen late afternoon. \n\nThey expect that we shall give them the specs of the project. It makes sense \nto involve Sandeep at the conference call: he will be very specific about our \nneeds. I sent you his coordinates in an earlier message. Sandeep may have to \ncome to the office: I don't know if Anita knows how to set up a conference \ncall. \n\nDavid's phone numbers: \n\n44 207 242 8950 \n44 787 942 5375 (cell). \n\nI may be at the office in the morning for an hour or two. \n\nVince",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<11108546.1075856590584.JavaMail.evans@thyme>",
+      "Date": "Tue, 26 Dec 2000 05:58:00 -0800 (PST)",
+      "From": "vkaminski@aol.com",
+      "To": "sgibner@enron.com",
+      "Subject": "(no subject)",
+      "Cc": "vkamins@enron.com, vkaminski@aol.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=ANSI_X3.4-1968",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "vkamins@enron.com, vkaminski@aol.com",
+      "X-From": "VKaminski@aol.com",
+      "X-To": "sgibner@enron.com",
+      "X-cc": "vkamins@enron.com, VKaminski@aol.com",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_5\\Notes Folders\\C:\\Technote\\Mail\\Projects",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_c_technote_mail_projects_169.txt"
+}

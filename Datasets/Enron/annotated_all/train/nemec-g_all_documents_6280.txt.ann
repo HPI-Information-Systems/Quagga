@@ -1,0 +1,240 @@
+{
+  "wrapper": "plaintext",
+  "text": "I changed the date in the working drafts.  Let me know what other comments \nyou have.\n\n\n\n\n\n\tHeather Kroll/ENRON@enronXgate\n\t05/23/2001 10:25 AM\n\t\t \n\t\t To: Gerald Nemec/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: RE: Revised Coal and Ash Agreements\n\nGerald,\n\nSorry I made a mistake, the ground lease will end January 31, 2009 (not 2008 \nas in my previous e-mail).\n\n -----Original Message-----\nFrom:  Nemec, Gerald  \nSent: Tuesday, May 22, 2001 8:42 PM\nTo: Kroll, Heather\nCc: Marshall, David\nSubject: Revised Coal and Ash Agreements\n\nHeather,  Attached are the clean and redlined drafts of the revised Coal and \nAsh Agreements per your notes and phone mail.  Please review.   By copy of \nthis email I am asking David to review the insurance section in both \nagreements for adequacy.  \n\nDavid - The attached are the forms of Coal Hauling and Ash Handling agreement \nthat we would use to contract with Reuse Technology for both the Lumberton \nPower LLC and Elizabethtown Power LLC.  Please provide comments.\n\n << File: Coal Hauling2.DOC >>  << File: Coal Hauling2(red).DOC >>  << File: \nAsh Hauling3.DOC >>  << File: Ash Hauling3(red).DOC >> \n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 91,
+      "text": "I changed the date in the working drafts.  Let me know what other comments \nyou have.\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 92,
+      "end": 105,
+      "text": "Heather Kroll",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 124,
+      "end": 134,
+      "text": "05/23/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 135,
+      "end": 143,
+      "text": "10:25 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 155,
+      "end": 167,
+      "text": "Gerald Nemec",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 200,
+      "end": 235,
+      "text": "RE: Revised Coal and Ash Agreements",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 92,
+      "end": 236,
+      "text": "Heather Kroll/ENRON@enronXgate\n\t05/23/2001 10:25 AM\n\t\t \n\t\t To: Gerald Nemec/HOU/ECT@ECT\n\t\t cc: \n\t\t Subject: RE: Revised Coal and Ash Agreements\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 237,
+      "end": 243,
+      "text": "Gerald",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 236,
+      "end": 352,
+      "text": "\nGerald,\n\nSorry I made a mistake, the ground lease will end January 31, 2009 (not 2008 \nas in my previous e-mail).\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 387,
+      "end": 400,
+      "text": "Nemec, Gerald",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 418,
+      "end": 430,
+      "text": "May 22, 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 431,
+      "end": 438,
+      "text": "8:42 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 443,
+      "end": 457,
+      "text": "Kroll, Heather",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 462,
+      "end": 477,
+      "text": "Marshall, David",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 487,
+      "end": 518,
+      "text": "Revised Coal and Ash Agreements",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 352,
+      "end": 519,
+      "text": " -----Original Message-----\nFrom:  Nemec, Gerald  \nSent: Tuesday, May 22, 2001 8:42 PM\nTo: Kroll, Heather\nCc: Marshall, David\nSubject: Revised Coal and Ash Agreements\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 520,
+      "end": 527,
+      "text": "Heather",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1101,
+      "end": 1122,
+      "text": "Ash Hauling3(red).DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1071,
+      "end": 1087,
+      "text": "Ash Hauling3.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1034,
+      "end": 1056,
+      "text": "Coal Hauling2(red).DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1003,
+      "end": 1020,
+      "text": "Coal Hauling2.DOC",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 993,
+      "end": 1127,
+      "text": " << File: Coal Hauling2.DOC >>  << File: Coal Hauling2(red).DOC >>  << File: \nAsh Hauling3.DOC >>  << File: Ash Hauling3(red).DOC >> \n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 519,
+      "end": 1127,
+      "text": "\nHeather,  Attached are the clean and redlined drafts of the revised Coal and \nAsh Agreements per your notes and phone mail.  Please review.   By copy of \nthis email I am asking David to review the insurance section in both \nagreements for adequacy.  \n\nDavid - The attached are the forms of Coal Hauling and Ash Handling agreement \nthat we would use to contract with Reuse Technology for both the Lumberton \nPower LLC and Elizabethtown Power LLC.  Please provide comments.\n\n << File: Coal Hauling2.DOC >>  << File: Coal Hauling2(red).DOC >>  << File: \nAsh Hauling3.DOC >>  << File: Ash Hauling3(red).DOC >> \n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 8,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 13,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 10,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 17,
+      "target": 13,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<31729627.1075842797833.JavaMail.evans@thyme>",
+      "Date": "Wed, 23 May 2001 03:35:00 -0700 (PDT)",
+      "From": "gerald.nemec@enron.com",
+      "To": "heather.kroll@enron.com",
+      "Subject": "RE: Revised Coal and Ash Agreements",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Gerald Nemec",
+      "X-To": "Heather Kroll",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Gerald_Nemec_Dec2000_June2001_2\\Notes Folders\\All documents",
+      "X-Origin": "NEMEC-G",
+      "X-FileName": "gnemec.nsf"
+    }
+  },
+  "id": "train/nemec-g_all_documents_6280.txt"
+}

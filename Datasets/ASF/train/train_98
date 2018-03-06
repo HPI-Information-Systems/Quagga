@@ -1,0 +1,58 @@
+On 05/01/2017 13:30, Morten Bøgeskov wrote:
+>
+>
+> Hi.
+>
+> We've got a SolrCloud which is sharded and has a replication factor of
+> 2.
+>
+> The 2 replicas of a shard may look like this:
+>
+> Num Docs:    5401023
+> Max Doc:    6388614
+> Deleted Docs:    987591
+>
+>
+> Num Docs:    5401023
+> Max Doc:    5948122
+> Deleted Docs:    547099
+>
+> We've seen >10% difference in Max Doc at times with same Num Docs.
+> Our use case is few documents that are search and many small that
+> are filtered against (often updated multiple times a day), so the
+> difference in deleted docs aren't surprising.
+>
+> This results in a different score for a document depending on which
+> replica it comes from. As I see it: it has to do with the different
+> maxDoc value when calculating idf.
+>
+> This in turn alters a specific document's position in the search
+> result over reloads. This is quite confusing (duplicates in pagination).
+>
+> What is the trick to get homogeneous score from different replicas.
+> We've tried using ExactStatsCache & ExactSharedStatsCache, but that
+> didn't seem to make any difference.
+>
+> Any hints to this will be greatly appreciated.
+>
+
+This was one of things we looked at during our recent Lucene London 
+Hackday (see item 3) https://github.com/flaxsearch/london-hackday-2016
+
+I'm not sure there is a way to get a homogenous score - this patch tries 
+to keep you connected to the same replica during a session so you don't 
+see results jumping over pagination.
+
+Cheers
+
+Charlie
+
+
+-- 
+Charlie Hull
+Flax - Open Source Enterprise Search
+
+tel/fax: +44 (0)8700 118334
+mobile:  +44 (0)7767 825828
+web: www.flax.co.uk
+

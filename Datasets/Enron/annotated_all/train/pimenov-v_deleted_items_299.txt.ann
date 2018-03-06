@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "train/pimenov-v_deleted_items_299.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<24140188.1075863456808.JavaMail.evans@thyme>",
+      "Date": "Mon, 15 Oct 2001 07:13:37 -0700 (PDT)",
+      "From": "navigator@nisource.com",
+      "To": "navigator@nisource.com",
+      "Subject": "TCO- CAPACITY ALLOC-TIMELY NOMINATION CYCLE OCT. 16, 2001",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "navigator@nisource.com@ENRON",
+      "X-To": "navigator@nisource.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\VPIMENOV (Non-Privileged)\\Deleted Items",
+      "X-Origin": "Pimenov-V",
+      "X-FileName": "VPIMENOV (Non-Privileged).pst"
+    }
+  },
+  "text": "\n                      COLUMBIA GAS TRANSMISSION CORPORATION\n                        NOTICE TO ALL INTERESTED PARTIES\n                                OCTOBER 15, 2001\n\nNotice ID: 3182\n5 - NO RESPONSE REQUIRED\n\nSUBJECT: CAPACITY ALLOCATION-TIMELY NOMINATION CYCLE FOR OCTOBER 16, 2001\n\nPLEASE NOTE THAT ALL ALLOCATIONS ARE SUBJECT TO CHANGE BASED ON THE RECEIPT OF\nANY NEW NOMINATIONS OR INTRADAY NOMINATIONS.\n\nDELIVERIES:\n\nALGONQUIN:\n\nHANOVER:  There is no capacity for IPP customers.  There is no capacity for\nsecondary firm customers.\n\nExcess MDWQ               Available +\nISS Withdrawals           Available\nSIT Withdrawals           Available\nImbalance Drawdowns       Available\nPAL Lends/Unparks         Available\n\nExcess MDIQ               Not Available +\nISS Injections            Not Available\nSIT Injections            Not Available\nImbalance Paybacks        Not Available\nPAL Parks/Loan Paybacks   Not Available\n\n+ Call Gas Control 24 hours in advance at (304) 357-2606 to request approval.\n\nColumbia Gas Transmission has completed allocating all of its receipt and\ndelivery points for the gas day of October 16, 2001.  You may now view the\nquantities you are authorized to flow on October 16, 2001.  On the Internet\nNAVIGATOR, view Nominations, Scheduled Quantity, Scheduled Quantity for Service\nRequestor-Summary, Nominations to be Viewed, and select Reduced Nominations.\nThe quantities confirmed to flow for your account are available on the Internet\nNAVIGATOR after 5:30 p.m. Eastern Time on Monday, October 15, 2001.\n\nIf you have any questions, please contact your Account Representative.\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 1605,
+      "text": "\n                      COLUMBIA GAS TRANSMISSION CORPORATION\n                        NOTICE TO ALL INTERESTED PARTIES\n                                OCTOBER 15, 2001\n\nNotice ID: 3182\n5 - NO RESPONSE REQUIRED\n\nSUBJECT: CAPACITY ALLOCATION-TIMELY NOMINATION CYCLE FOR OCTOBER 16, 2001\n\nPLEASE NOTE THAT ALL ALLOCATIONS ARE SUBJECT TO CHANGE BASED ON THE RECEIPT OF\nANY NEW NOMINATIONS OR INTRADAY NOMINATIONS.\n\nDELIVERIES:\n\nALGONQUIN:\n\nHANOVER:  There is no capacity for IPP customers.  There is no capacity for\nsecondary firm customers.\n\nExcess MDWQ               Available +\nISS Withdrawals           Available\nSIT Withdrawals           Available\nImbalance Drawdowns       Available\nPAL Lends/Unparks         Available\n\nExcess MDIQ               Not Available +\nISS Injections            Not Available\nSIT Injections            Not Available\nImbalance Paybacks        Not Available\nPAL Parks/Loan Paybacks   Not Available\n\n+ Call Gas Control 24 hours in advance at (304) 357-2606 to request approval.\n\nColumbia Gas Transmission has completed allocating all of its receipt and\ndelivery points for the gas day of October 16, 2001.  You may now view the\nquantities you are authorized to flow on October 16, 2001.  On the Internet\nNAVIGATOR, view Nominations, Scheduled Quantity, Scheduled Quantity for Service\nRequestor-Summary, Nominations to be Viewed, and select Reduced Nominations.\nThe quantities confirmed to flow for your account are available on the Internet\nNAVIGATOR after 5:30 p.m. Eastern Time on Monday, October 15, 2001.\n\nIf you have any questions, please contact your Account Representative.\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

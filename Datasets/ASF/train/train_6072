@@ -1,0 +1,138 @@
+looks as though the problem is in parsing some malformed XML,  based on
+what I'm seeing:
+
+...
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Illegal character
+((CTRL-CHAR, code 11))
+... ( char #11 is a vertical tab).
+
+This should be fixed outside Solr, but if that is not practical, and you
+could live with dropping the offending document(s) then you might want to
+investigate the TolerantUpdateProcessorFactory Solr 6.1 or later)
+
+-Simon
+
+On Thu, Sep 14, 2017 at 3:56 PM, arnoldbronley <arnold.bronley@gmail.com>
+wrote:
+
+> Thanks for information. Here is the full stack trace. I thought to handle
+> it
+> from client side but client apps are not under my control and I don't have
+> access to them.
+>
+> org.apache.solr.common.SolrException: Illegal character ((CTRL-CHAR, code
+> 11))
+>  at [row,col {unknown-source}]: [1,413]
+>         at org.apache.solr.handler.loader.XMLLoader.load(
+> XMLLoader.java:179)
+>         at
+> org.apache.solr.handler.UpdateRequestHandler$1.load(
+> UpdateRequestHandler.java:97)
+>         at
+> org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(
+> ContentStreamHandlerBase.java:68)
+>         at
+> org.apache.solr.handler.RequestHandlerBase.handleRequest(
+> RequestHandlerBase.java:153)
+>         at org.apache.solr.core.SolrCore.execute(SolrCore.java:2213)
+>         at org.apache.solr.servlet.HttpSolrCall.execute(
+> HttpSolrCall.java:654)
+>         at org.apache.solr.servlet.HttpSolrCall.call(
+> HttpSolrCall.java:460)
+>         at
+> org.apache.solr.servlet.SolrDispatchFilter.doFilter(
+> SolrDispatchFilter.java:303)
+>         at
+> org.apache.solr.servlet.SolrDispatchFilter.doFilter(
+> SolrDispatchFilter.java:254)
+>         at
+> org.eclipse.jetty.servlet.ServletHandler$CachedChain.
+> doFilter(ServletHandler.java:1668)
+>         at
+> org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+>         at
+> org.eclipse.jetty.server.handler.ScopedHandler.handle(
+> ScopedHandler.java:143)
+>         at
+> org.eclipse.jetty.security.SecurityHandler.handle(
+> SecurityHandler.java:548)
+>         at
+> org.eclipse.jetty.server.session.SessionHandler.
+> doHandle(SessionHandler.java:226)
+>         at
+> org.eclipse.jetty.server.handler.ContextHandler.
+> doHandle(ContextHandler.java:1160)
+>         at
+> org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+>         at
+> org.eclipse.jetty.server.session.SessionHandler.
+> doScope(SessionHandler.java:185)
+>         at
+> org.eclipse.jetty.server.handler.ContextHandler.
+> doScope(ContextHandler.java:1092)
+>         at
+> org.eclipse.jetty.server.handler.ScopedHandler.handle(
+> ScopedHandler.java:141)
+>         at
+> org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(
+> ContextHandlerCollection.java:213)
+>         at
+> org.eclipse.jetty.server.handler.HandlerCollection.
+> handle(HandlerCollection.java:119)
+>         at
+> org.eclipse.jetty.server.handler.HandlerWrapper.handle(
+> HandlerWrapper.java:134)
+>         at org.eclipse.jetty.server.Server.handle(Server.java:518)
+>         at org.eclipse.jetty.server.HttpChannel.handle(
+> HttpChannel.java:308)
+>         at
+> org.eclipse.jetty.server.HttpConnection.onFillable(
+> HttpConnection.java:244)
+>         at
+> org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(
+> AbstractConnection.java:273)
+>         at org.eclipse.jetty.io.FillInterest.fillable(
+> FillInterest.java:95)
+>         at
+> org.eclipse.jetty.io.SelectChannelEndPoint$2.run(
+> SelectChannelEndPoint.java:93)
+>         at
+> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.
+> produceAndRun(ExecuteProduceConsume.java:246)
+>         at
+> org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(
+> ExecuteProduceConsume.java:156)
+>         at
+> org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(
+> QueuedThreadPool.java:654)
+>         at
+> org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(
+> QueuedThreadPool.java:572)
+>         at java.lang.Thread.run(Thread.java:748)
+> Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Illegal character
+> ((CTRL-CHAR, code 11))
+>  at [row,col {unknown-source}]: [1,413]
+>         at com.ctc.wstx.sr.StreamScanner.throwInvalidSpace(
+> StreamScanner.java:674)
+>         at
+> com.ctc.wstx.sr.BasicStreamReader.readTextPrimary(
+> BasicStreamReader.java:4576)
+>         at
+> com.ctc.wstx.sr.BasicStreamReader.nextFromTree(
+> BasicStreamReader.java:2881)
+>         at com.ctc.wstx.sr.BasicStreamReader.next(
+> BasicStreamReader.java:1073)
+>         at org.apache.solr.handler.loader.XMLLoader.readDoc(
+> XMLLoader.java:397)
+>         at
+> org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:249)
+>         at org.apache.solr.handler.loader.XMLLoader.load(
+> XMLLoader.java:177)
+>         ... 32 more
+>
+>
+>
+> --
+> Sent from: http://lucene.472066.n3.nabble.com/Solr-User-f472068.html
+>
+

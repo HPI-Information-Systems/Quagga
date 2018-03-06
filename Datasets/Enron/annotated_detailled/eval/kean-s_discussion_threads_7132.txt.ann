@@ -1,0 +1,154 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Steven J Kean/NA/Enron on 07/06/2001 \n07:29 AM ---------------------------\n\n\nDavid W Delainey@EES\n07/05/2001 05:24 PM\nTo: Steven J Kean/NA/Enron@Enron, Greg Whalley/HOU/ECT\ncc:  \n\nSubject: Regulatory Policy Committee\n\nGuys, we have a unique capability at this time (ie) me in EES and Greg in EWS \nto have a singular voice in the regulatory market.  I would recommend a \npolicy committee be formed including Greg, Dave, Janet Dietrich, John \nLavorato, Tim Belden, Kevin Presto, Rick Shapiro and Steve Kean that meets on \na regular basis to review and approve our regulatory agenda, policy and \ntactical moves on a regular basis.\n\nThoughts.....?\n\nRegards\nDelainey\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 36,
+      "end": 49,
+      "text": "Steven J Kean",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 62,
+      "end": 72,
+      "text": "07/06/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 74,
+      "end": 82,
+      "text": "07:29 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Steven J Kean/NA/Enron on 07/06/2001 \n07:29 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 129,
+      "text": "David W Delainey",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 134,
+      "end": 144,
+      "text": "07/05/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 145,
+      "end": 153,
+      "text": "05:24 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 158,
+      "end": 171,
+      "text": "Steven J Kean",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 188,
+      "end": 200,
+      "text": "Greg Whalley",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 224,
+      "end": 252,
+      "text": " Regulatory Policy Committee",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 111,
+      "end": 253,
+      "text": "\n\nDavid W Delainey@EES\n07/05/2001 05:24 PM\nTo: Steven J Kean/NA/Enron@Enron, Greg Whalley/HOU/ECT\ncc:  \n\nSubject: Regulatory Policy Committee\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 689,
+      "end": 697,
+      "text": "Delainey",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 681,
+      "end": 698,
+      "text": "Regards\nDelainey\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 253,
+      "end": 698,
+      "text": "\nGuys, we have a unique capability at this time (ie) me in EES and Greg in EWS \nto have a singular voice in the regulatory market.  I would recommend a \npolicy committee be formed including Greg, Dave, Janet Dietrich, John \nLavorato, Tim Belden, Kevin Presto, Rick Shapiro and Steve Kean that meets on \na regular basis to review and approve our regulatory agenda, policy and \ntactical moves on a regular basis.\n\nThoughts.....?\n\nRegards\nDelainey\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 12,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<18224820.1075850543646.JavaMail.evans@thyme>",
+      "Date": "Fri, 6 Jul 2001 00:29:00 -0700 (PDT)",
+      "From": "steven.kean@enron.com",
+      "To": "richard.shapiro@enron.com",
+      "Subject": "Regulatory Policy Committee",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Steven J Kean",
+      "X-To": "Richard Shapiro",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Steven_Kean_Nov2001_4\\Notes Folders\\Discussion threads",
+      "X-Origin": "KEAN-S",
+      "X-FileName": "skean.nsf"
+    }
+  },
+  "id": "eval/kean-s_discussion_threads_7132.txt"
+}

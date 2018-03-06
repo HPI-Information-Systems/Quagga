@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n________________________________\nFrom: john_test_test <john_test_test@hotmail.com>\nSent: Wednesday, August 9, 2017 3:09:44 AM\nTo: user@spark.apache.org\nSubject: speculative execution in spark\n\nIs it possible by anyhow to take advantage of the already processed portion\nof the failed task so I can use the speculative execution to reassign only\nthe what is left from the original task to another node? if yes then how can\nI read it from memroy?\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/speculative-execution-in-spark-tp29042.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 2,
+      "end": 194,
+      "text": "________________________________\nFrom: john_test_test <john_test_test@hotmail.com>\nSent: Wednesday, August 9, 2017 3:09:44 AM\nTo: user@spark.apache.org\nSubject: speculative execution in spark\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 2,
+      "text": "\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 194,
+      "end": 781,
+      "text": "\nIs it possible by anyhow to take advantage of the already processed portion\nof the failed task so I can use the speculative execution to reassign only\nthe what is left from the original task to another node? if yes then how can\nI read it from memroy?\n\n\n\n--\nView this message in context: http://apache-spark-user-list.1001560.n3.nabble.com/speculative-execution-in-spark-tp29042.html\nSent from the Apache Spark User List mailing list archive at Nabble.com.\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4672"
+}

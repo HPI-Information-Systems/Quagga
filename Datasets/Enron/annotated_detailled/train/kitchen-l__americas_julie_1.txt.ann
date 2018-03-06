@@ -1,0 +1,391 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi Louise\n\nHave spoken with Brad several times.  Moving to the US involves finding John a role in the US which would take some time.  \n\nI am open to moving to the US.  Will continue to keep communications open with Brad.  Obviously, if you had a role within your organisation then it would be v.cool.\n\nUnfortunately, I need to choose something asap due to the Broadband business contracting(!) and the voluntary redundancy programme.\n\nFor now - looks like taking the Spartacus role is the short term solution.  Will be speaking to Richard later today to say yes.\n\nLet me know what you think?!?\n\nRegards\n\nAmita\n\n -----Original Message-----\nFrom: \tGosalia, Amita  \nSent:\tTuesday 09 October 2001 16:37\nTo:\tKitchen, Louise\nSubject:\tFW: Questions\n\nHi Louise\n\nThank you for asking Brad to speak with me re the EnronOnline position in the US.  Brad and spoke yesterday and I have sent some questions to him (see below).\n\nI have also been offered a position as project manager for business liaison on the Spartacus project - building a new deal entry and risk management system for the UK power desk - Richard Lewis is the business sponsor for the project.\n\nWould appreciate your views re which would be the better career choice for the medium/long term.\n\nBest wishes to Marcus and Scott.\n\nAmita\n\n -----Original Message-----\nFrom: \tGosalia, Amita  \nSent:\tTuesday 09 October 2001 16:21\nTo:\tRichter, Brad\nSubject:\tQuestions\n\nHi Brad\n\nThanks for spending time with me yesterday.  After our discussion I thought about the role and the implications of a move to the USA.  I also discussed the opportunity with my husband, John Bergman.  We ended up with some questions which I detail below.  \n\n1.\tPlease provide more detail about the remit of the role (I can speak to Savita to get this if you wish).\n\n2.\tWould I be able to make changes in the structure of the team?\n\n3.\tWhat is the timeline for the transition period?\n\n4.\tHow long would you expect this assignment to last?\n\n5.\tWhat happens when the assignment comes to an end - would I be offered a position in the European office again?\n\n6.\tWould Enron be prepared to locate an appropriate role for my husband?  I attach his resume below.\n\n7.\tWould Enron arrange visas for my husband and myself?\n\n8.\tWhat type of package would be offered for the relocation etc.?\n\nI look forward to hearing from you.  I am under some time pressure at the moment - I need to have resolution asap.\n\nBest wishes\n\nAmita\n\nAmita Gosalia\nSenior Director\n\nTel: +44 (0)20 7783 5466\nCell: +44 (0)7768 942201\nFax: +44 (0)20 7783 8804\nEmail: amita.gosalia@enron.com\n\n ",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 9,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 10,
+      "text": "Hi Louise\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 604,
+      "end": 609,
+      "text": "Amita",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 595,
+      "end": 610,
+      "text": "Regards\n\nAmita\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 611,
+      "text": "Hi Louise\n\nHave spoken with Brad several times.  Moving to the US involves finding John a role in the US which would take some time.  \n\nI am open to moving to the US.  Will continue to keep communications open with Brad.  Obviously, if you had a role within your organisation then it would be v.cool.\n\nUnfortunately, I need to choose something asap due to the Broadband business contracting(!) and the voluntary redundancy programme.\n\nFor now - looks like taking the Spartacus role is the short term solution.  Will be speaking to Richard later today to say yes.\n\nLet me know what you think?!?\n\nRegards\n\nAmita\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 646,
+      "end": 660,
+      "text": "Gosalia, Amita",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 677,
+      "end": 692,
+      "text": "09 October 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 693,
+      "end": 698,
+      "text": "16:37",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 703,
+      "end": 718,
+      "text": "Kitchen, Louise",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 728,
+      "end": 741,
+      "text": "FW: Questions",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 611,
+      "end": 742,
+      "text": " -----Original Message-----\nFrom: \tGosalia, Amita  \nSent:\tTuesday 09 October 2001 16:37\nTo:\tKitchen, Louise\nSubject:\tFW: Questions\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 746,
+      "end": 752,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 743,
+      "end": 753,
+      "text": "Hi Louise\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1282,
+      "end": 1287,
+      "text": "Amita",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1248,
+      "end": 1288,
+      "text": "Best wishes to Marcus and Scott.\n\nAmita\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 742,
+      "end": 1289,
+      "text": "\nHi Louise\n\nThank you for asking Brad to speak with me re the EnronOnline position in the US.  Brad and spoke yesterday and I have sent some questions to him (see below).\n\nI have also been offered a position as project manager for business liaison on the Spartacus project - building a new deal entry and risk management system for the UK power desk - Richard Lewis is the business sponsor for the project.\n\nWould appreciate your views re which would be the better career choice for the medium/long term.\n\nBest wishes to Marcus and Scott.\n\nAmita\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1324,
+      "end": 1338,
+      "text": "Gosalia, Amita",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1355,
+      "end": 1370,
+      "text": "09 October 2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 1371,
+      "end": 1376,
+      "text": "16:21",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 1381,
+      "end": 1394,
+      "text": "Richter, Brad",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 1404,
+      "end": 1413,
+      "text": "Questions",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1289,
+      "end": 1414,
+      "text": " -----Original Message-----\nFrom: \tGosalia, Amita  \nSent:\tTuesday 09 October 2001 16:21\nTo:\tRichter, Brad\nSubject:\tQuestions\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 1418,
+      "end": 1422,
+      "text": "Brad",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1415,
+      "end": 1423,
+      "text": "Hi Brad\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 2432,
+      "end": 2437,
+      "text": "Amita",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 2419,
+      "end": 2438,
+      "text": "Best wishes\n\nAmita\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 2439,
+      "end": 2452,
+      "text": "Amita Gosalia",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 2453,
+      "end": 2468,
+      "text": "Senior Director",
+      "type": "Body/Signature/Position",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 2475,
+      "end": 2494,
+      "text": "+44 (0)20 7783 5466",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 2501,
+      "end": 2519,
+      "text": "+44 (0)7768 942201",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 2525,
+      "end": 2544,
+      "text": "+44 (0)20 7783 8804",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 2552,
+      "end": 2575,
+      "text": "amita.gosalia@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 2439,
+      "end": 2576,
+      "text": "Amita Gosalia\nSenior Director\n\nTel: +44 (0)20 7783 5466\nCell: +44 (0)7768 942201\nFax: +44 (0)20 7783 8804\nEmail: amita.gosalia@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1414,
+      "end": 2578,
+      "text": "\nHi Brad\n\nThanks for spending time with me yesterday.  After our discussion I thought about the role and the implications of a move to the USA.  I also discussed the opportunity with my husband, John Bergman.  We ended up with some questions which I detail below.  \n\n1.\tPlease provide more detail about the remit of the role (I can speak to Savita to get this if you wish).\n\n2.\tWould I be able to make changes in the structure of the team?\n\n3.\tWhat is the timeline for the transition period?\n\n4.\tHow long would you expect this assignment to last?\n\n5.\tWhat happens when the assignment comes to an end - would I be offered a position in the European office again?\n\n6.\tWould Enron be prepared to locate an appropriate role for my husband?  I attach his resume below.\n\n7.\tWould Enron arrange visas for my husband and myself?\n\n8.\tWhat type of package would be offered for the relocation etc.?\n\nI look forward to hearing from you.  I am under some time pressure at the moment - I need to have resolution asap.\n\nBest wishes\n\nAmita\n\nAmita Gosalia\nSenior Director\n\nTel: +44 (0)20 7783 5466\nCell: +44 (0)7768 942201\nFax: +44 (0)20 7783 8804\nEmail: amita.gosalia@enron.com\n\n ",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 12,
+      "target": 9,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 14,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 17,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 23,
+      "target": 20,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 25,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 27,
+      "target": 25,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 28,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 29,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 30,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 31,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 32,
+      "target": 27,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12288714.1075840863376.JavaMail.evans@thyme>",
+      "Date": "Wed, 17 Oct 2001 07:05:16 -0700 (PDT)",
+      "From": "amita.gosalia@enron.com",
+      "To": "louise.kitchen@enron.com",
+      "Subject": "FW: Questions",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Gosalia, Amita </O=ENRON/OU=EU/CN=RECIPIENTS/CN=AGOSALIA>",
+      "X-To": "Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\Julie",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_julie_1.txt"
+}

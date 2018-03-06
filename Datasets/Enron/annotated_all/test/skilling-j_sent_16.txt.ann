@@ -1,0 +1,147 @@
+{
+  "wrapper": "plaintext",
+  "text": "You're the best!  I owe you one.  Take care, SRS\n\n\n\n\nafouke@tnc.org on 02/07/2000 11:09:16 AM\nPlease respond to <afouke@tnc.org>\nTo: <jskilli@enron.com>\ncc:  \n\nSubject: JCS Bio\n\n\nHere is your clandestine copy of JCS' bio.\n\nSincerely,\nHumble Servant\n\n - jcsbio.doc\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 45,
+      "end": 48,
+      "text": "SRS",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 34,
+      "end": 48,
+      "text": "Take care, SRS",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 53,
+      "text": "You're the best!  I owe you one.  Take care, SRS\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 53,
+      "end": 67,
+      "text": "afouke@tnc.org",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 127,
+      "text": "afouke@tnc.org",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 71,
+      "end": 81,
+      "text": "02/07/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 82,
+      "end": 93,
+      "text": "11:09:16 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 134,
+      "end": 151,
+      "text": "jskilli@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 169,
+      "end": 176,
+      "text": "JCS Bio",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 53,
+      "end": 177,
+      "text": "afouke@tnc.org on 02/07/2000 11:09:16 AM\nPlease respond to <afouke@tnc.org>\nTo: <jskilli@enron.com>\ncc:  \n\nSubject: JCS Bio\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 223,
+      "end": 249,
+      "text": "Sincerely,\nHumble Servant\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 253,
+      "end": 263,
+      "text": "jcsbio.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 250,
+      "end": 264,
+      "text": " - jcsbio.doc\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 177,
+      "end": 265,
+      "text": "\n\nHere is your clandestine copy of JCS' bio.\n\nSincerely,\nHumble Servant\n\n - jcsbio.doc\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<3157493.1075840100214.JavaMail.evans@thyme>",
+      "Date": "Mon, 7 Feb 2000 06:16:00 -0800 (PST)",
+      "From": "sherri.reinartz@enron.com",
+      "To": "afouke@tnc.org",
+      "Subject": "Re: JCS Bio",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sherri Reinartz",
+      "X-To": "<afouke@tnc.org>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Jeffrey_Skilling_Dec2000\\Notes Folders\\Sent",
+      "X-Origin": "SKILLING-J",
+      "X-FileName": "jskillin.nsf"
+    }
+  },
+  "id": "test/skilling-j_sent_16.txt",
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 5,
+      "type": "Alias",
+      "meta": null
+    }
+  ]
+}

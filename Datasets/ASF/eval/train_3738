@@ -1,0 +1,55 @@
+No, those are two different queries.
+
+The second query would also not work because the revenue table does not
+have the EventTime attribute.
+
+Best, Fabian
+
+2017-08-01 13:03 GMT+02:00 nragon <nuno.goncalves@wedotechnologies.com>:
+
+> Hi,
+>
+> Can i expect the output from this:
+>
+> Table revenue = tableEnv.sql(
+>     "SELECT TUMBLE_START(EventTime, INTERVAL '30' MINUTE) as tStart, " +
+>                         "TUMBLE_END(EventTime, INTERVAL '30' MINUTE) as
+> tEnd, " +
+>                         "cID, " +
+>                         "cName, " +
+>                         "SUM(revenue) AS revSum " +
+>     "FROM Orders " +
+>     "WHERE cCountry = 'FRANCE' " +
+>     "GROUP BY TUMBLE(EventTime, INTERVAL '30' MINUTE), cID, cName"
+>   );
+>
+> being the same as this:
+>
+> Table revenue = tableEnv.sql(
+>     "SELECT cID, cName, SUM(revenue) AS revSum " +
+>     "FROM Orders " +
+>     "WHERE cCountry = 'FRANCE' " +
+>     "GROUP BY cID, cName"
+>   );
+>
+> revenue
+>         .select("*, e.start, e.end")
+>         .window(Tumble.over("30.minute").on("EventTime").as("e"))
+>         .groupBy("e")
+>
+>
+> Or the second involves one query as nested of tumble query?
+>
+> Thanks
+>
+>
+>
+>
+> --
+> View this message in context: http://apache-flink-user-
+> mailing-list-archive.2336050.n4.nabble.com/SQL-API-with-
+> Table-API-tp14599.html
+> Sent from the Apache Flink User Mailing List archive. mailing list archive
+> at Nabble.com.
+>
+

@@ -1,0 +1,34 @@
+{
+  "wrapper": "enron",
+  "id": "test/sanders-r_deleted_items_550.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<1966012.1075862206407.JavaMail.evans@thyme>",
+      "Date": "Sun, 25 Nov 2001 16:49:12 -0800 (PST)",
+      "From": "b..sanders@enron.com",
+      "To": "b..sanders@enron.com",
+      "Subject": "Synchronization Log:",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Sanders, Richard B. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RSANDER>",
+      "X-To": "Sanders, Richard B. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rsander>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\RSANDER (Non-Privileged)\\Sanders, Richard B.\\Deleted Items",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "RSANDER (Non-Privileged).pst"
+    }
+  },
+  "text": "18:49:07 Synchronizing Mailbox 'Sanders, Richard B.'\n18:49:07 Synchronizing Hierarchy\n18:49:07 Synchronizing Favorites\n18:49:07 Synchronizing Folder 'Inbox'\n18:49:10 \t   6 item(s) added to offline folder\n18:49:10 \t   1 item(s) deleted in offline folder\n18:49:10 \t   1 view(s)/form(s) updated in offline folder\n18:49:10 Synchronizing Folder 'Outbox'\n18:49:10 Synchronizing Folder 'Sent Items'\n18:49:10 Synchronizing Folder 'Calendar'\n18:49:10 Synchronizing Folder 'Contacts'\n18:49:11 Synchronizing Folder 'Drafts'\n18:49:11 Synchronizing Folder 'Journal'\n18:49:11 Synchronizing Folder 'Notes'\n18:49:11 Synchronizing Folder 'Tasks'\n18:49:11 Synchronizing Views\n18:49:11 Synchronizing Forms\n18:49:12 Done",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 700,
+      "text": "18:49:07 Synchronizing Mailbox 'Sanders, Richard B.'\n18:49:07 Synchronizing Hierarchy\n18:49:07 Synchronizing Favorites\n18:49:07 Synchronizing Folder 'Inbox'\n18:49:10 \t   6 item(s) added to offline folder\n18:49:10 \t   1 item(s) deleted in offline folder\n18:49:10 \t   1 view(s)/form(s) updated in offline folder\n18:49:10 Synchronizing Folder 'Outbox'\n18:49:10 Synchronizing Folder 'Sent Items'\n18:49:10 Synchronizing Folder 'Calendar'\n18:49:10 Synchronizing Folder 'Contacts'\n18:49:11 Synchronizing Folder 'Drafts'\n18:49:11 Synchronizing Folder 'Journal'\n18:49:11 Synchronizing Folder 'Notes'\n18:49:11 Synchronizing Folder 'Tasks'\n18:49:11 Synchronizing Views\n18:49:11 Synchronizing Forms\n18:49:12 Done",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

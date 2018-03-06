@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all,\n\nI am trying to run FP growth algorithm using spark and scala.sample input\ndataframe is following,\n\n+-------------------------------------------------------------------------------------------+\n|productName\n\n+-------------------------------------------------------------------------------------------+\n|Apple Iphone 7 128GB Jet Black with\nFacetime\n|Levi\u00e2\u20ac\u2122s Blue Slim Fit Jeans- L5112,Rimmel London Lasting Finish Matte by\nKate Moss 101 Dusky|\n|Iphone 6 Plus (5.5\",Limited Stocks, TRA Oman\nApproved)\n+-------------------------------------------------------------------------------------------+\n\nEach row contains unique items.\n\nI converted it into rdd like following\n\nval transactions = names.as[String].rdd.map(s =>s.split(\",\"))\n\nval fpg = new FPGrowth().\n  setMinSupport(0.3).\n  setNumPartitions(100)\n\n\nval model = fpg.run(transactions)\n\nBut I got error\n\nWARN TaskSetManager: Lost task 2.0 in stage 27.0 (TID 622, localhost):\norg.apache.spark.SparkException:\nItems in a transaction must be unique but got WrappedArray(\nHuawei GR3 Dual Sim 16GB 13MP 5Inch 4G,\n Huawei G8 Gold 32GB,  4G,\n5.5 Inches, HTC Desire 816 (Dual Sim, 3G, 8GB),\n Samsung Galaxy S7 Single Sim - 32GB,  4G LTE,\nGold, Huawei P8 Lite 16GB,  4G LTE, Huawei Y625,\nSamsung Galaxy Note 5 - 32GB,  4G LTE,\nSamsung Galaxy S7 Dual Sim - 32GB)\n\n\nHow to solve this?\n\n\nThanks\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 1336,
+      "end": 1344,
+      "text": "\nThanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 1345,
+      "text": "Hi all,\n\nI am trying to run FP growth algorithm using spark and scala.sample input\ndataframe is following,\n\n+-------------------------------------------------------------------------------------------+\n|productName\n\n+-------------------------------------------------------------------------------------------+\n|Apple Iphone 7 128GB Jet Black with\nFacetime\n|Levi\u00e2\u20ac\u2122s Blue Slim Fit Jeans- L5112,Rimmel London Lasting Finish Matte by\nKate Moss 101 Dusky|\n|Iphone 6 Plus (5.5\",Limited Stocks, TRA Oman\nApproved)\n+-------------------------------------------------------------------------------------------+\n\nEach row contains unique items.\n\nI converted it into rdd like following\n\nval transactions = names.as[String].rdd.map(s =>s.split(\",\"))\n\nval fpg = new FPGrowth().\n  setMinSupport(0.3).\n  setNumPartitions(100)\n\n\nval model = fpg.run(transactions)\n\nBut I got error\n\nWARN TaskSetManager: Lost task 2.0 in stage 27.0 (TID 622, localhost):\norg.apache.spark.SparkException:\nItems in a transaction must be unique but got WrappedArray(\nHuawei GR3 Dual Sim 16GB 13MP 5Inch 4G,\n Huawei G8 Gold 32GB,  4G,\n5.5 Inches, HTC Desire 816 (Dual Sim, 3G, 8GB),\n Samsung Galaxy S7 Single Sim - 32GB,  4G LTE,\nGold, Huawei P8 Lite 16GB,  4G LTE, Huawei Y625,\nSamsung Galaxy Note 5 - 32GB,  4G LTE,\nSamsung Galaxy S7 Dual Sim - 32GB)\n\n\nHow to solve this?\n\n\nThanks\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_931"
+}

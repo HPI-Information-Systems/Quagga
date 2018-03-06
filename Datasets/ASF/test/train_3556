@@ -1,0 +1,26 @@
+a quick search on google:
+
+https://www.cloudera.com/documentation/enterprise/5-9-x/topics/admin_spark_tuning.html
+
+https://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/
+
+http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/
+
+and of course, Jacek`s
+<https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-tuning.html>
+
+
+
+Alonso Isidoro Roman
+[image: https://]about.me/alonso.isidoro.roman
+<https://about.me/alonso.isidoro.roman?promo=email_sig&utm_source=email_sig&utm_medium=email_sig&utm_campaign=external_links>
+
+2017-06-09 14:50 GMT+02:00 Debabrata Ghosh <mailfordebu@gmail.com>:
+
+> Hi,
+>                      I need some help / guidance in performance tuning
+> Spark code written in Scala. Can you please help.
+>
+> Thanks
+>
+

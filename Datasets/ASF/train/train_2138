@@ -1,0 +1,56 @@
+bq: I thought that LotsOfCores didn't coexist with Cloud very well.
+
+It doesn't, you're right, I got off on a tangent there. The OP
+mentioned "Cloud" and my brain cross-wired.
+
+On Thu, Mar 30, 2017 at 6:32 AM, Shawn Heisey <apache@elyograg.org> wrote:
+> On 3/29/2017 8:09 PM, Erick Erickson wrote:
+>> bq: My guess is that it is decided by the load time, because this is
+>> the option that would have the best performance.
+>>
+>> Not at all. The theory here is that this is to support the pattern
+>> where some transient cores are used all the time and some cores are
+>> only used for a while then go quiet. E.g. searching an organization's
+>> documents. A large organization might have users searching all day. A
+>> small organization may search the docs once a week.
+>
+> Thank you for all the info about LotsOfCores internals!
+>
+> If it orders the LRU structure by access time, I think that Shashank
+> must have a transientCacheSize value that's WAY too small, or perhaps
+> that the job being done by their custom component is not updating the
+> "last access" info for the core.  Increasing the transientCacheSize
+> might help, but a better option is modifying the custom component so
+> that it occasionally makes a request that updates the last access info.
+> It seems likely that such a request can be
+>
+>> This does work with SolrCloud (I'm not assuming you're using
+>> SolrCloud, just sayin'), but note that the machine being replicated
+>> _to_ (that, BTW, doesn't even have to be part of the collection) won't
+>> be able to serve queries while the replication is going on. I'm
+>> thinking something like use a dummy Solr instance to issue the
+>> fetchindex to _then_ move the result to your Cloud storage.
+>
+> I thought that LotsOfCores didn't coexist with Cloud very well.
+>
+> If you DO run SolrCloud, one option that you have for a "sort-of backup"
+> is the Cross-Datacenter-Replication capability.  With this, you set up
+> two complete SolrCloud installs, and one of them will mirror the other.
+>
+> The replication handler has built-in backup capability.
+>
+> One option for backups that I happen to like quite a bit is this, which
+> works on most non-Windows operating systems and doesn't require any
+> custom components:  Set up a shell script, run by cron, that makes a
+> hardlink backup of the data directory, then copies from that directory
+> to a location on another server or on a network share.
+>
+> The hardlink will happen instantly for any size index and produce a
+> directory with a snapshot view of the index that will remain valid no
+> matter what happens to the source directory.  Once the script makes a
+> copy (the slow part) it can delete the directory containing the hardlinks.
+>
+> Thanks,
+> Shawn
+>
+

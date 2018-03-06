@@ -1,0 +1,22 @@
+May be you can click  Header Status cloumn of Task section,then failed task
+will appear first.
+
+2017-07-25 10:02 GMT+08:00 jeff saremi <jeffsaremi@hotmail.com>:
+
+> On the Spark status UI you can click Stages on the menu and see Active
+> (and completed stages). For the active stage, you can see Succeeded/Total
+> and a count of failed ones in paranthesis.
+>
+> I'm looking for a way to go straight to the failed tasks and list the
+> errors. Currently I must go into details on that stage, then scroll down to
+> Tasks section. Change the number of records per page so I can see
+> everything. and click Go. There is no way that I can just filter the ones
+> with errors
+>
+> thanks
+>
+> jeff
+>
+>
+>
+

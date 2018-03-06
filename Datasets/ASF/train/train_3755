@@ -1,0 +1,24 @@
+Hi all.
+
+I need to implement an indexation solution where my Solr index doesn't get a
+wrong version.
+Due to the fact I have many version for the same entity In some cases my
+client may end up indexing an earlier version of my entity after a newer
+one.
+
+I was wondering if I can use the _version_ field where I send always the
+timespam of last update to the entity.
+
+Is this going to reject earlier versions if a newer is already indexed?
+
+Thanks,
+Sergio
+
+
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/version-Versioning-using-timespan-tp4338171.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

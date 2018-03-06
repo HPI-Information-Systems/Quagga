@@ -1,0 +1,128 @@
+On 7/10/2017 1:02 PM, Miller, William K - Norman, OK - Contractor wrote:
+>
+> I am trying to return results when using a multi-word term.  I am
+> using “Paddle Arm” as my search term(including the quotes).  I know
+> that the field that I am querying against has these words together. 
+> If I run the query using Paddle* Arm* I get the following results, but
+> I want to get only the last two.  I have looked at Fuzzy Searches but
+> that I don’t feel will work and I have looked at the Proximity
+> Searches and I get no results back with that one whether I use 0,1 or
+> 10.  How can I structure my query to get the last items in the below list?
+>
+>  
+>
+> Paddle Assembly
+>
+> Paddle
+>
+> Paddle
+>
+> Paddle Pneumatic Piping
+>
+> Paddle
+>
+> Paddle Assembly
+>
+> Paddle
+>
+> Paddle Assembly
+>
+> Paddle to Bucket Offset Check
+>
+> Paddle to Bucket Wall
+>
+> Paddle to Bucket Offset
+>
+> Paddle
+>
+> Paddle Assembly Troubleshooting
+>
+> Paddle Assembly Troubleshooting
+>
+> Paddle Air Pressure
+>
+> Paddle Assembly
+>
+> Paddle
+>
+> Paddle Stop Adjustment
+>
+> Paddle Stop
+>
+> Paddle Assembly
+>
+> Paddle Assembly
+>
+> Paddle Vacuum Holes
+>
+> Paddle Position
+>
+> Paddle Detection Sensor Adjustment
+>
+> Paddle Assembly
+>
+> Paddle
+>
+> Paddle Assembly
+>
+> Paddle Stop
+>
+> Paddle Assembly
+>
+> Paddle Assembly
+>
+> Paddle
+>
+> Paddle Assembly
+>
+> Paddle Assembly
+>
+> Paddle Rotary Actuator
+>
+> Paddle Removal and Replacement
+>
+> Paddle Assembly
+>
+> Paddle Removal and Replacement
+>
+> Paddle Seal Removal and Replacement
+>
+> Paddle Location
+>
+> Paddle Location
+>
+> Paddle Removal Location
+>
+> Paddle/Belt Speed for Photoeye Inputs
+>
+> Paddle Arm Spring, Upper Paddle Arm, and Lower Paddle Arm
+>
+> Paddle Arm Spring, Upper Paddle Arm, and Lower Paddle Arm
+>
+>
+
+The answer to your question is going to be less about the query
+structure and more about the type of field you're using and any defined
+analysis for that type.
+
+With a schema field type that is properly configured, the query you are
+trying to use (with quotes) should work, as long as it is being directed
+specifically to the correct field as Erick mentioned.  Note that if you
+change your schema to make this work, you will need to entirely reindex.
+
+Nearly any of the "text" field types included in the example schemas
+will do the job.  The "string" or "strings" types in the examples will
+NOT work, because they do not break the text into multiple tokens
+(search terms).  I think you're probably trying to search a field that
+is using one of the latter types.
+
+Can you share your schema and the name of the field that you are
+querying?  Your followup message tells us the version of Solr (6.5.1),
+so the most likely filename for the schema will be "managed-schema" with
+no extension.  If there have been significant changes from an example in
+your solrconfig.xml file, it would be a good idea to share that too.
+
+Thanks,
+Shawn
+
+

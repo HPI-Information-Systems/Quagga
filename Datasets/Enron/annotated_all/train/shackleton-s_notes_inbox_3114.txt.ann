@@ -1,0 +1,283 @@
+{
+  "wrapper": "plaintext",
+  "text": "Sara,\nThank you for your fax.\nSection 180.3 of the CEA prohibits us from agreeing to any settlement\nprocedure/forum ahead of time.  JPMFI, in accordance with 180.3, will offer 3\nforums - which will include AAA.  If Enron chooses AAA, the arbitration will \nbe\nsubject to the provisions specified in your fax dd 2/26/2001.\n\nAttached is JPM's proposed language for the arbitration agreement.\n\n(See attached file: ARBITRATION AGREEMENT.doc)\n\nIf you are in agreement with the language, please forward Enron's proposed\nlanguage (detailed in your 2/26 fax) electronically (if available).\n\nThank you and Regards,\nCorinne\n\n\n\n\n\n\nSara.Shackleton@enron.com on 02/26/2001 12:36:22 PM\n\nTo:   samon_corinne@jpmorgan.com\ncc:\nSubject:  futures agreement\n\n\n\n\nCorinne:\n\nI just sent you a fax re:  arbitration.\n\nI have not heard from your salesperson re:  interest schedule for debit\nrate (Sec. 2) and credit rate (Sec. 6).  Thanks.\n\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n\n - ARBITRATION AGREEMENT.doc",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Sara",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 410,
+      "end": 435,
+      "text": "ARBITRATION AGREEMENT.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 390,
+      "end": 437,
+      "text": "(See attached file: ARBITRATION AGREEMENT.doc)\n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 605,
+      "end": 612,
+      "text": "Corinne",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 582,
+      "end": 613,
+      "text": "Thank you and Regards,\nCorinne\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 619,
+      "text": "Sara,\nThank you for your fax.\nSection 180.3 of the CEA prohibits us from agreeing to any settlement\nprocedure/forum ahead of time.  JPMFI, in accordance with 180.3, will offer 3\nforums - which will include AAA.  If Enron chooses AAA, the arbitration will \nbe\nsubject to the provisions specified in your fax dd 2/26/2001.\n\nAttached is JPM's proposed language for the arbitration agreement.\n\n(See attached file: ARBITRATION AGREEMENT.doc)\n\nIf you are in agreement with the language, please forward Enron's proposed\nlanguage (detailed in your 2/26 fax) electronically (if available).\n\nThank you and Regards,\nCorinne\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 619,
+      "end": 644,
+      "text": "Sara.Shackleton@enron.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 648,
+      "end": 658,
+      "text": "02/26/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 659,
+      "end": 670,
+      "text": "12:36:22 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 678,
+      "end": 704,
+      "text": "samon_corinne@jpmorgan.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 719,
+      "end": 736,
+      "text": "futures agreement",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 619,
+      "end": 737,
+      "text": "Sara.Shackleton@enron.com on 02/26/2001 12:36:22 PM\n\nTo:   samon_corinne@jpmorgan.com\ncc:\nSubject:  futures agreement\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 741,
+      "end": 748,
+      "text": "Corinne",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 1080,
+      "end": 1105,
+      "text": "ARBITRATION AGREEMENT.doc",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 1077,
+      "end": 1105,
+      "text": " - ARBITRATION AGREEMENT.doc",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 1047,
+      "end": 1072,
+      "text": "sara.shackleton@enron.com",
+      "type": "Body/Signature/Mail",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 1028,
+      "end": 1040,
+      "text": "713-646-3490",
+      "type": "Body/Signature/Fax",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 1007,
+      "end": 1020,
+      "text": "713-853-5620 ",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 957,
+      "end": 1006,
+      "text": "1400 Smith Street, EB 3801a\nHouston, Texas  77002",
+      "type": "Body/Signature/Address",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 931,
+      "end": 956,
+      "text": "Enron North America Corp.",
+      "type": "Body/Signature/Organisation",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 915,
+      "end": 930,
+      "text": "Sara Shackleton",
+      "type": "Body/Signature/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 915,
+      "end": 1073,
+      "text": "Sara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 737,
+      "end": 1105,
+      "text": "\n\n\n\nCorinne:\n\nI just sent you a fax re:  arbitration.\n\nI have not heard from your salesperson re:  interest schedule for debit\nrate (Sec. 2) and credit rate (Sec. 6).  Thanks.\n\n\nSara Shackleton\nEnron North America Corp.\n1400 Smith Street, EB 3801a\nHouston, Texas  77002\n713-853-5620 (phone)\n713-646-3490 (fax)\nsara.shackleton@enron.com\n\n\n\n\n - ARBITRATION AGREEMENT.doc",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 905,
+      "end": 912,
+      "text": "Thanks.",
+      "type": "Body/Outro",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 1,
+      "target": 7,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 4,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 13,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 21,
+      "target": 20,
+      "type": "WorksFor",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 19,
+      "target": 20,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 18,
+      "target": 21,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 17,
+      "target": 21,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 16,
+      "target": 21,
+      "type": "ContactInfo",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<22886187.1075844820783.JavaMail.evans@thyme>",
+      "Date": "Tue, 27 Feb 2001 07:58:00 -0800 (PST)",
+      "From": "samon_corinne@jpmorgan.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "Re: futures agreement",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "\"Corinne A Samon\" <samon_corinne@jpmorgan.com>",
+      "X-To": "Sara.Shackleton@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\Notes inbox",
+      "X-Origin": "SHACKLETON-S",
+      "X-FileName": "sshackle.nsf"
+    }
+  },
+  "id": "train/shackleton-s_notes_inbox_3114.txt"
+}

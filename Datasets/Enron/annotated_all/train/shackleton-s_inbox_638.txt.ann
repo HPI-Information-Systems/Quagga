@@ -1,0 +1,208 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tHendry, Brent  \nSent:\tWednesday, January 23, 2002 11:00 AM\nTo:\tNguyen, Michael; Windle, Bill; Tawney, Mark\nSubject:\tRE: Updated Weather Counterparty that have terminated \n\n\nHere is the updated list.  Not much has changed.\n\n \n -----Original Message-----\nFrom: \tNguyen, Michael  \nSent:\tWednesday, January 23, 2002 10:04 AM\nTo:\tHendry, Brent\nSubject:\tUpdated Weather Counterparty that have terminated \n\nBrent,\n\nWould you happen to have an updated version of the counterparties list that have terminated.\n\n\nThanks,\nMichael",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 50,
+      "text": "Hendry, Brent",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 70,
+      "end": 86,
+      "text": "January 23, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 87,
+      "end": 95,
+      "text": "11:00 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 100,
+      "end": 115,
+      "text": "Nguyen, Michael",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 117,
+      "end": 129,
+      "text": "Windle, Bill",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 131,
+      "end": 143,
+      "text": "Tawney, Mark",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 153,
+      "end": 207,
+      "text": "RE: Updated Weather Counterparty that have terminated ",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 208,
+      "text": "\n\n -----Original Message-----\nFrom: \tHendry, Brent  \nSent:\tWednesday, January 23, 2002 11:00 AM\nTo:\tNguyen, Michael; Windle, Bill; Tawney, Mark\nSubject:\tRE: Updated Weather Counterparty that have terminated \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 208,
+      "end": 262,
+      "text": "\n\nHere is the updated list.  Not much has changed.\n\n \n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 297,
+      "end": 312,
+      "text": "Nguyen, Michael",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 332,
+      "end": 348,
+      "text": "January 23, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 349,
+      "end": 357,
+      "text": "10:04 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 362,
+      "end": 375,
+      "text": "Hendry, Brent",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 385,
+      "end": 434,
+      "text": "Updated Weather Counterparty that have terminated",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 262,
+      "end": 436,
+      "text": " -----Original Message-----\nFrom: \tNguyen, Michael  \nSent:\tWednesday, January 23, 2002 10:04 AM\nTo:\tHendry, Brent\nSubject:\tUpdated Weather Counterparty that have terminated \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 437,
+      "end": 442,
+      "text": "Brent",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 548,
+      "end": 555,
+      "text": "Michael",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 540,
+      "end": 555,
+      "text": "Thanks,\nMichael",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 436,
+      "end": 555,
+      "text": "\nBrent,\n\nWould you happen to have an updated version of the counterparties list that have terminated.\n\n\nThanks,\nMichael",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 13,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 10,
+      "target": 17,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 4,
+      "target": 10,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 13,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<24188654.1075861057156.JavaMail.evans@thyme>",
+      "Date": "Tue, 29 Jan 2002 08:23:24 -0800 (PST)",
+      "From": "brent.hendry@enron.com",
+      "To": "sara.shackleton@enron.com",
+      "Subject": "FW: Updated Weather Counterparty that have terminated",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Hendry, Brent </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BHENDRY>",
+      "X-To": "Shackleton, Sara </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sshackl>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Sara_Shackleton_Mar2002\\Shackleton, Sara\\Inbox",
+      "X-Origin": "Shackleton-S",
+      "X-FileName": "sshackl (Non-Privileged).pst"
+    }
+  },
+  "id": "train/shackleton-s_inbox_638.txt"
+}

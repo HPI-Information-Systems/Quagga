@@ -1,0 +1,80 @@
+{
+  "wrapper": "plaintext",
+  "text": "I think it is for hive dependency.\nOn Thu, Aug 10, 2017 at 4:14 PM kant kodali <kanth909@gmail.com> wrote:\n\n> Since I see a calcite dependency in Spark I wonder where Calcite is being\n> used?\n>\n> On Thu, Aug 10, 2017 at 1:30 PM, Sathish Kumaran Vairavelu <\n> vsathishkumaran@gmail.com> wrote:\n>\n>> Spark SQL doesn't use Calcite\n>>\n>> On Thu, Aug 10, 2017 at 3:14 PM kant kodali <kanth909@gmail.com> wrote:\n>>\n>>> Hi All,\n>>>\n>>> Does Spark SQL uses Calcite? If so, what for? I thought the Spark SQL\n>>> has catalyst which would generate its own logical plans, physical plans and\n>>> other optimizations.\n>>>\n>>> Thanks,\n>>> Kant\n>>>\n>>\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 35,
+      "text": "I think it is for hive dependency.\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 35,
+      "end": 107,
+      "text": "On Thu, Aug 10, 2017 at 4:14 PM kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 107,
+      "end": 194,
+      "text": "\n> Since I see a calcite dependency in Spark I wonder where Calcite is being\n> used?\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 194,
+      "end": 293,
+      "text": "> On Thu, Aug 10, 2017 at 1:30 PM, Sathish Kumaran Vairavelu <\n> vsathishkumaran@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 293,
+      "end": 331,
+      "text": ">\n>> Spark SQL doesn't use Calcite\n>>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 331,
+      "end": 406,
+      "text": ">> On Thu, Aug 10, 2017 at 3:14 PM kant kodali <kanth909@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 406,
+      "end": 421,
+      "text": ">>\n>>> Hi All,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 604,
+      "end": 629,
+      "text": ">>>\n>>> Thanks,\n>>> Kant\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 406,
+      "end": 639,
+      "text": ">>\n>>> Hi All,\n>>>\n>>> Does Spark SQL uses Calcite? If so, what for? I thought the Spark SQL\n>>> has catalyst which would generate its own logical plans, physical plans and\n>>> other optimizations.\n>>>\n>>> Thanks,\n>>> Kant\n>>>\n>>\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_4723"
+}

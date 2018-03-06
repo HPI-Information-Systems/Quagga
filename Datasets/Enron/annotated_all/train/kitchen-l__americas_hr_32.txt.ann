@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n \n\n\nJohn/Louise\n\nAttached is the final spreadsheet outlining hires/no hires.     Currently we have 15 selected for hire.       However the two with questions were discussed as good hires and perhaps should be looked at again (both external candidates - Tom Martin's group).\n\nI will circle around with you today to discuss further - so we can proceed with offers with your approval.\n\nThanks, Karen.\n\n\nPs - our external candidates did very well.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 401,
+      "end": 444,
+      "text": "Ps - our external candidates did very well.",
+      "type": "Body/PS",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 392,
+      "end": 397,
+      "text": "Karen",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 384,
+      "end": 399,
+      "text": "Thanks, Karen.\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 10,
+      "end": 16,
+      "text": "Louise",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 5,
+      "end": 9,
+      "text": "John",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 444,
+      "text": "\n \n\n\nJohn/Louise\n\nAttached is the final spreadsheet outlining hires/no hires.     Currently we have 15 selected for hire.       However the two with questions were discussed as good hires and perhaps should be looked at again (both external candidates - Tom Martin's group).\n\nI will circle around with you today to discuss further - so we can proceed with offers with your approval.\n\nThanks, Karen.\n\n\nPs - our external candidates did very well.",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<7488861.1075840852264.JavaMail.evans@thyme>",
+      "Date": "Fri, 2 Nov 2001 08:39:13 -0800 (PST)",
+      "From": "karen.buckley@enron.com",
+      "To": "john.lavorato@enron.com, louise.kitchen@enron.com",
+      "Subject": "Results ENA TT",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Buckley, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KBUCKLEY>",
+      "X-To": "Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlavora>, Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Kitchen, Louise\\'Americas\\HR",
+      "X-Origin": "KITCHEN-L",
+      "X-FileName": "louise kitchen 2-7-02.pst"
+    }
+  },
+  "id": "train/kitchen-l__americas_hr_32.txt"
+}

@@ -1,0 +1,36 @@
+{
+  "wrapper": "enron",
+  "id": "train/haedicke-m_notes_inbox_1163.txt",
+  "meta": {
+    "header": {
+      "Message-ID": "<10790104.1075859839053.JavaMail.evans@thyme>",
+      "Date": "Mon, 30 Apr 2001 04:36:00 -0700 (PDT)",
+      "From": "sara.davidson@enron.com",
+      "To": "john.ale@enron.com, al.alexanderson@enron.com, charles.cheek@enron.com, \n\tmark.evans@enron.com, drew.fossum@enron.com, mark.haedicke@enron.com, \n\tjordan.mintz@enron.com, kristina.mordaunt@enron.com, \n\tjulia.murray@enron.com, eric.newell@enron.com, janet.place@enron.com, \n\trex.rogers@enron.com, molly.sample@enron.com, vicki.sharp@enron.com, \n\trob.walls@enron.com",
+      "Subject": "General Counsel Meeting",
+      "Cc": "james.derrick@enron.com, elizabeth.labanowski@enron.com",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "Bcc": "james.derrick@enron.com, elizabeth.labanowski@enron.com",
+      "X-From": "Sara Davidson",
+      "X-To": "John Ale, AL ALEXANDERSON, Charles Cheek, Mark Evans, Drew Fossum, Mark E Haedicke, Jordan Mintz, Kristina Mordaunt, Julia Murray, Eric Newell, Janet Place, Rex Rogers, Molly Sample, Vicki Sharp, Rob Walls",
+      "X-cc": "James Derrick, Elizabeth Labanowski",
+      "X-bcc": "",
+      "X-Folder": "\\Mark_Haedicke_Jun2001\\Notes Folders\\Notes inbox",
+      "X-Origin": "Haedicke-M",
+      "X-FileName": "mhaedic.nsf"
+    }
+  },
+  "text": "The general counsel meeting on Wednesday, May 2nd at the Westin Riverwalk in \nSan Antonio will start at 9:00am in the Zapata Room on the Ballroom Level.  \nThere will be a one hour break for lunch at noon.  Reservations for the \nentire group have been made at the hotel's restaurant.  The meeting will \nresume at 1:00pm and continue until finished.",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 347,
+      "text": "The general counsel meeting on Wednesday, May 2nd at the Westin Riverwalk in \nSan Antonio will start at 9:00am in the Zapata Room on the Ballroom Level.  \nThere will be a one hour break for lunch at noon.  Reservations for the \nentire group have been made at the hotel's restaurant.  The meeting will \nresume at 1:00pm and continue until finished.",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

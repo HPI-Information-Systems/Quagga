@@ -1,0 +1,245 @@
+Hi Michael,
+thank you for fast answer - I have tried it, but it's not exactly what I
+need. I hope that I understood it good - the problem is that if I will
+write foo bar and foo bar is not found in root entity then it returns
+nothing even if any field in children contains foo bar.
+I need to write foo bar and find all documents where foo bar exists in
+document A OR B OR C OR D even if in A will have FOO and in e.g C will be
+bar. But if I will write bar of chocolate then I need return nothing.
+
+my idea was to use
+edismax and filter query for each word:
+http://localhost:8983/solr/demo/select?q=*:*&fq={!parent
+which=type:root}foo*&fq={!parent
+which=typ:root}bar*&wt=json&indent=true&defType=edismax&qf=$allfields&stopwords=true&lowercaseOperators=true&allfieldscolor,
+first_country, power, name, country
+
+the problem is that I'm not able to find also parent documents in one
+condition with children.
+
+How I wrote I'm able solve it with another parent and then also doc A will
+be child and everything will work fine - but I would like to solve it
+better.
+
+
+Do you have or someone else another idea?:)
+
+Thanks
+Jan
+
+
+2017-03-16 21:51 GMT+01:00 Mikhail Khludnev <mkhl@apache.org>:
+
+> Hello Jan,
+>
+> What if you combine child and parent dismaxes like below
+> q={!edismax qf=$parentfields}foo bar {!parent ..}{!dismax qf=$childfields
+> v=$childclauses}&childclauses=foo bar +type:child&parentfields=...&
+> parentfields=...
+>
+> On Thu, Mar 16, 2017 at 10:54 PM, Jan Nekuda <jan.nekuda@gmail.com> wrote:
+>
+> > Hello Mikhail,
+> >
+> > thanks for fast answer. The problem is, that I want to have the dismax on
+> > child and parent together - to have the filter evaluated together.
+> >
+> > I need to have documents:
+> >
+> >
+> > path: car
+> >
+> > type:car
+> >
+> > color:red
+> >
+> > first_country: CZ
+> >
+> > name:seat
+> >
+> >
+> >
+> > path: car\engine
+> >
+> > type:engine
+> >
+> > power:63KW
+> >
+> >
+> >
+> > path: car\engine\manufacturer
+> >
+> > type:manufacturer
+> >
+> > name: xx
+> >
+> > country:PL
+> >
+> >
+> > path: car
+> >
+> > type:car
+> >
+> > color:green
+> >
+> > first_country: CZ
+> >
+> > name:skoda
+> >
+> >
+> >
+> > path: car\engine
+> >
+> > type:engine
+> >
+> > power:88KW
+> >
+> >
+> >
+> > path: car\engine\manufacturer
+> >
+> > type:manufacturer
+> >
+> > name: yy
+> >
+> > country:PL
+> >
+> >
+> > where car is parent document engine is its child a manufacturer is child
+> > of engine and the structure can be deep.
+> >
+> > I need to make a query with edismax over fields color, first_country,
+> > power, name, country over parent and all childern.
+> >
+> > when I ask then "seat 63 kw" i need to get seat car
+> >
+> > the same if I will write only "seat" or only "63kw" or only "xx"
+> >
+> > but if I will write "seat 88kw" i expect that i will get no result
+> >
+> > I need to return parents in which tree are all the words which I wrote to
+> > query.
+> >
+> > How I wrote before my solution was to split the query text and use q:*:*
+> > and for each /word/ in query make
+> >
+> > fq={!parent which=type:car}/word//
+> > /
+> >
+> > //and edismax with qf=color, first_country, power, name, country
+> >
+> > Thank you for your time:)
+> >
+> > Jan
+> >
+> >
+> > Dne 16.03.2017 v 20:00 Mikhail Khludnev napsal(a):
+> >
+> >
+> > Hello,
+> >>
+> >> It's hard to get into the problem. but you probably want to have dismax
+> on
+> >> child level:
+> >> q={!parent ...}{!edismax qf='childF1 childF2' v=$chq}&chq=foo bar
+> >> It's usually broken because child query might match parents which is not
+> >> allowed. Thus, it's probably can solved by adding +type:child into chq.
+> >> IIRC edismax supports lucene syntax.
+> >>
+> >> On Thu, Mar 16, 2017 at 4:47 PM, Jan Nekuda <jan.nekuda@gmail.com>
+> wrote:
+> >>
+> >> Hi,
+> >>> I have a question for which I wasn't able to find a good solution.
+> >>> I have this structure of documents
+> >>>
+> >>> A
+> >>> |\
+> >>> | \
+> >>> B \
+> >>>       \
+> >>>        C
+> >>>         \
+> >>>          \
+> >>>           \
+> >>>            D
+> >>>
+> >>> Document type A has fields id_number, date_from, date_to
+> >>> Document type C  has fields first_name, surname, birthdate
+> >>> Document type D AND B has fields street_name, house_number, city
+> >>>
+> >>>
+> >>> I want to find *all parents with block join and edismax*.
+> >>> The problem is that I have found that possible is find children by
+> >>> parent,
+> >>> or parent by children.
+> >>> *I want to find parent by values in parent and in children*. I want to
+> >>> use
+> >>> edismax with all fields from all documents (id_number, date_from,
+> >>> date_to,
+> >>> has fields first_name, surname, birthdate,street_name, house_number,
+> >>> city).
+> >>> I want to write *Hynek* AND *Brojova* AND 14 and I expect that it
+> returns
+> >>> document A because it found Hynek in surname, Brojova in street and 14
+> in
+> >>> house number.
+> >>> This is easy with {!parent which=type:A}
+> >>> the problem is, that I'm not able to find by condition 789 AND
+> *Brojova*
+> >>> where 789 is id_number from type A and Brojova is Street from D.
+> >>>
+> >>> In short I need to find all parents of tree (parent and childern) in
+> >>> which
+> >>> are matched all the word which i send to condition
+> >>>
+> >>>
+> >>> My only solution is to make root type X. Then A will be its child.
+> Then I
+> >>> can use {!parent which=type:X}.
+> >>> Than this will work:
+> >>>
+> >>> http://localhost:8983/solr/demo/select?q=*:*&fq={!parent
+> >>> which=type:X}brojova*&fq={!parent which=type:X}16&wt=json&
+> >>> indent=true&defType=edismax&qf=id_number date_from date_to has fields
+> >>> first_name surname birthdate street_name house_number
+> >>> city&stopwords=true&
+> >>> lowercaseOperators=true
+> >>>
+> >>>
+> >>> But I believe it can be solved much better.
+> >>>
+> >>> X
+> >>> |
+> >>> A
+> >>> |\
+> >>> | \
+> >>> B \
+> >>>       \
+> >>>        C
+> >>>         \
+> >>>          \
+> >>>           \
+> >>>            D
+> >>>
+> >>>
+> >>> Thanks for your help
+> >>> Jan
+> >>>
+> >>>
+> >>
+> >>
+> >
+> >
+> > ---
+> > Tato zpráva byla zkontrolována na viry programem Avast Antivirus.
+> > https://www.avast.com/antivirus
+> >
+>
+>
+>
+> --
+> Sincerely yours
+> Mikhail Khludnev
+>
+

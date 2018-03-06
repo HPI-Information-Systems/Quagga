@@ -1,0 +1,41 @@
+Sorry I am not using Tomcat.  This is a fresh build of solr.  
+
+Sent from my iPhone
+
+> On Sep 1, 2017, at 3:33 PM, Rick Leir <rleir@leirtech.com> wrote:
+> 
+> Kent,
+> Did you say you are using Tomcat? Solr does not use Tomcat by default, so you will need
+to tell us more about your configuration. 
+> 
+> But first, think of what you might have changed just before it stopped working.
+> Cheers -- Rick
+> 
+>> On September 1, 2017 11:55:47 AM EDT, "Younge, Kent A - Norman, OK - Contractor"
+<Kent.A.Younge@usps.gov.INVALID> wrote:
+>> 
+>> Hello,
+>> 
+>> I am getting an error ERR_SSL_VERSION_OR_CIPHER_MISMATCH on one of my
+>> Solr servers.   The details show that it's an Unsupported protocol: 
+>> The client and server don't support a common SSL protocol version or
+>> cipher suite.  I have changed my browser settings and nothing seems to
+>> work.  If I comment out the SSL configuration in the solr.in.sh and use
+>> HTTP the site Admin site comes up fine.  I have searched for where the
+>> ciphers might be but, I am unsuccessful as I am not sure that they are
+>> the ciphers in TOMCAT or do they get written somewhere else?  I've gone
+>> over the certs several times I have compared it to a working Solr
+>> server and nothing seems different.  Other than this one does not work.
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> Thank you,
+>> 
+>> Kent
+> 
+> -- 
+> Sorry for being brief. Alternate email is rickleir at yahoo dot com
+

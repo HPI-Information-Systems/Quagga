@@ -1,0 +1,88 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks.\nBoth of these are working in my case:\nname:\"tv promotion\"   -->  name:\"tv promotion\"\nname:tv AND name:promotion --> name:tv AND name:promotion\n(Although I'm assuming, the first might not have worked if my document had\nbeen say 'promotion tv' or 'tv xyz promotion')\n\nHowever, these are returning only those documents which have both the terms\n'tv promotion' in them (there are a few).  It's not returning any document\nwhich have only 'tv' or only 'promotion' in them.\n\nThat's not an absolute requirement of mine, I could work around it, but I\nwas just wondering, if it were possible to pass a single solr query with\nboth the terms 'tv' and 'promotion' in them, and have them return all the\ndocuments which contain either of those terms, but with higher scores\nattached to those documents with both those terms?\n\nMuch thanks\n\nOn Thu, Jun 8, 2017 at 1:43 AM, David Hastings <hastings.recursive@gmail.com\n> wrote:\n\n> sorry, i meant debug query where you would get output like this:\n>\n> \"debug\": {\n>     \"rawquerystring\": \"name:tv promotion\",\n>     \"querystring\": \"name:tv promotion\",\n>     \"parsedquery\": \"+name:tv +text:promotion\",\n>\n>\n> On Wed, Jun 7, 2017 at 4:41 PM, David Hastings <\n> hastings.recursive@gmail.com\n> > wrote:\n>\n> > well, short answer, use the analyzer to see whats happening.\n> > long answer\n> >  theres a difference between\n> > name:tv promotion   -->  name:tv default_field:promotion\n> > name:\"tv promotion\"   -->  name:\"tv promotion\"\n> > name:tv AND name:promotion --> name:tv AND name:promotion\n> >\n> >\n> > since your default field most likely isnt name, its going to search only\n> > the default field for it.  you can alter this behavior using qf\n> parameters:\n> >\n> >\n> >\n> > qf='name^5 text'\n> >\n> >\n> > for example would apply a boost of 5 if it matched the field 'name', and\n> > only 1 for 'text'\n> >\n> > On Wed, Jun 7, 2017 at 4:35 PM, OTH <omer.t.h.7@gmail.com> wrote:\n> >\n> >> Hello,\n> >>\n> >> I have what I would think to be a fairly simple problem to solve,\n> however\n> >> I'm not sure how it's done in Solr and couldn't find an answer on\n> Google.\n> >>\n> >> Say I have two documents, \"TV\" and \"TV promotion\".  If the search query\n> is\n> >> \"TV promotion\", then, obviously, I would like the document \"TV\n> promotion\"\n> >> to score higher.  However, that is not the case right now.\n> >>\n> >> My syntax is something like this:\n> >> http://localhost:8983/solr/sales/select?indent=on&wt=json&\n> >> fl=*,score&q=name:tv\n> >> promotion\n> >> (I tried \"q=name:tv+promotion (added the '+'), but it made no\n> difference.)\n> >>\n> >> It's not scoring the document \"TV promotion\" higher than \"TV\"; in fact\n> >> it's\n> >> scoring it lower.\n> >>\n> >> Thanks\n> >>\n> >\n> >\n>\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 818,
+      "end": 831,
+      "text": "\nMuch thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 832,
+      "text": "Thanks.\nBoth of these are working in my case:\nname:\"tv promotion\"   -->  name:\"tv promotion\"\nname:tv AND name:promotion --> name:tv AND name:promotion\n(Although I'm assuming, the first might not have worked if my document had\nbeen say 'promotion tv' or 'tv xyz promotion')\n\nHowever, these are returning only those documents which have both the terms\n'tv promotion' in them (there are a few).  It's not returning any document\nwhich have only 'tv' or only 'promotion' in them.\n\nThat's not an absolute requirement of mine, I could work around it, but I\nwas just wondering, if it were possible to pass a single solr query with\nboth the terms 'tv' and 'promotion' in them, and have them return all the\ndocuments which contain either of those terms, but with higher scores\nattached to those documents with both those terms?\n\nMuch thanks\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 832,
+      "end": 918,
+      "text": "On Thu, Jun 8, 2017 at 1:43 AM, David Hastings <hastings.recursive@gmail.com\n> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 918,
+      "end": 1141,
+      "text": "\n> sorry, i meant debug query where you would get output like this:\n>\n> \"debug\": {\n>     \"rawquerystring\": \"name:tv promotion\",\n>     \"querystring\": \"name:tv promotion\",\n>     \"parsedquery\": \"+name:tv +text:promotion\",\n>\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 1141,
+      "end": 1234,
+      "text": "> On Wed, Jun 7, 2017 at 4:41 PM, David Hastings <\n> hastings.recursive@gmail.com\n> > wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 1835,
+      "end": 1905,
+      "text": "> > On Wed, Jun 7, 2017 at 4:35 PM, OTH <omer.t.h.7@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 1234,
+      "end": 1835,
+      "text": ">\n> > well, short answer, use the analyzer to see whats happening.\n> > long answer\n> >  theres a difference between\n> > name:tv promotion   -->  name:tv default_field:promotion\n> > name:\"tv promotion\"   -->  name:\"tv promotion\"\n> > name:tv AND name:promotion --> name:tv AND name:promotion\n> >\n> >\n> > since your default field most likely isnt name, its going to search only\n> > the default field for it.  you can alter this behavior using qf\n> parameters:\n> >\n> >\n> >\n> > qf='name^5 text'\n> >\n> >\n> > for example would apply a boost of 5 if it matched the field 'name', and\n> > only 1 for 'text'\n> >\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 1905,
+      "end": 1921,
+      "text": "> >\n> >> Hello,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2665,
+      "end": 2682,
+      "text": "> >>\n> >> Thanks\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 1905,
+      "end": 2698,
+      "text": "> >\n> >> Hello,\n> >>\n> >> I have what I would think to be a fairly simple problem to solve,\n> however\n> >> I'm not sure how it's done in Solr and couldn't find an answer on\n> Google.\n> >>\n> >> Say I have two documents, \"TV\" and \"TV promotion\".  If the search query\n> is\n> >> \"TV promotion\", then, obviously, I would like the document \"TV\n> promotion\"\n> >> to score higher.  However, that is not the case right now.\n> >>\n> >> My syntax is something like this:\n> >> http://localhost:8983/solr/sales/select?indent=on&wt=json&\n> >> fl=*,score&q=name:tv\n> >> promotion\n> >> (I tried \"q=name:tv+promotion (added the '+'), but it made no\n> difference.)\n> >>\n> >> It's not scoring the document \"TV promotion\" higher than \"TV\"; in fact\n> >> it's\n> >> scoring it lower.\n> >>\n> >> Thanks\n> >>\n> >\n> >\n>\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_3959"
+}

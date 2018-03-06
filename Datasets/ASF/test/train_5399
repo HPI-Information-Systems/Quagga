@@ -1,0 +1,22 @@
+hello all,
+    Im trying to write parquet files using
+df.write.partitionBy('type').mode('overwrite').parquet(path),when df is
+partitioned by column `type` it may skrewed.Some dir may take 100GB hdfs
+space or more,but some of them only take 1GB.But all sub dir have the same
+files nums,let's say 800.So there are lots of small files.Is there a way to
+fix this?I have tried         
+         config('dfs.blocksize', 1024 * 1024 * 512) \
+        .config('parquet.block.size', 1024 * 1024 * 512) \
+but not work.
+
+Thank you!
+
+
+
+--
+Sent from: http://apache-spark-user-list.1001560.n3.nabble.com/
+
+---------------------------------------------------------------------
+To unsubscribe e-mail: user-unsubscribe@spark.apache.org
+
+

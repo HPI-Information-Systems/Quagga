@@ -1,0 +1,160 @@
+{
+  "wrapper": "plaintext",
+  "text": "I feel your job-hunting pain, but I am so glad you sent a resume to Amy. And \nas for having to WORK at WORK? Not if they just let you go! If they ask what \nyou're doing say, \"I'm surfing the internet for a NEW JOB YOU SON OF A \nBISCUIT.\" And as for this weekend, most definitely. On Saturday I'm going to \nsee some art and have drinks at the Medicine Hat gallery on Alberta. You \nshould join me in my quest for culture - of course that'll last until just \nafter I finish the first bottle of wine. Who's playing on Friday? I'll pencil \nit in. And I'll keep you posted on what I hear from Amy - in the meantime, \nhang in there. It all works out in the end. (there's your cheesy piece of \nadvice for the day)\n\nKate\n\n\n\n\n\"Chatterton, Jill\" <Jill.Chatterton@Adeccona.com> on 03/20/2001 04:56:05 PM\nTo: \"'kate.symes@enron.com'\" <kate.symes@enron.com>\ncc:  \n\nSubject: Hey there,\n\n\nI e-mailed Amy my resume.\nLooking for a job blows.  I am starting to feel the\nanxiety of not having one soon.  Oh well, that's\nlife.  I can't do much from work because I have to\nactually work.  Dumb.\nWell hope to see you all soon.  Maybe this weekend\nif you and Molly aren't busy.  There is a kick ass concert\nat Berbati's on Friday night.  Yay!\n\nThanks again for the contact.\n\nJill\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 707,
+      "end": 711,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 716,
+      "text": "I feel your job-hunting pain, but I am so glad you sent a resume to Amy. And \nas for having to WORK at WORK? Not if they just let you go! If they ask what \nyou're doing say, \"I'm surfing the internet for a NEW JOB YOU SON OF A \nBISCUIT.\" And as for this weekend, most definitely. On Saturday I'm going to \nsee some art and have drinks at the Medicine Hat gallery on Alberta. You \nshould join me in my quest for culture - of course that'll last until just \nafter I finish the first bottle of wine. Who's playing on Friday? I'll pencil \nit in. And I'll keep you posted on what I hear from Amy - in the meantime, \nhang in there. It all works out in the end. (there's your cheesy piece of \nadvice for the day)\n\nKate\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 717,
+      "end": 733,
+      "text": "Chatterton, Jill",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 736,
+      "end": 764,
+      "text": "Jill.Chatterton@Adeccona.com",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 769,
+      "end": 779,
+      "text": "03/20/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 780,
+      "end": 791,
+      "text": "04:56:05 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 798,
+      "end": 818,
+      "text": "kate.symes@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 822,
+      "end": 842,
+      "text": "kate.symes@enron.com",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 860,
+      "end": 870,
+      "text": "Hey there,",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 716,
+      "end": 871,
+      "text": "\"Chatterton, Jill\" <Jill.Chatterton@Adeccona.com> on 03/20/2001 04:56:05 PM\nTo: \"'kate.symes@enron.com'\" <kate.symes@enron.com>\ncc:  \n\nSubject: Hey there,\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 1251,
+      "end": 1255,
+      "text": "Jill",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 1220,
+      "end": 1256,
+      "text": "Thanks again for the contact.\n\nJill\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 871,
+      "end": 1257,
+      "text": "\n\nI e-mailed Amy my resume.\nLooking for a job blows.  I am starting to feel the\nanxiety of not having one soon.  Oh well, that's\nlife.  I can't do much from work because I have to\nactually work.  Dumb.\nWell hope to see you all soon.  Maybe this weekend\nif you and Molly aren't busy.  There is a kick ass concert\nat Berbati's on Friday night.  Yay!\n\nThanks again for the contact.\n\nJill\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 11,
+      "target": 3,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 3,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 7,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 7,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<10169208.1075841900354.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Mar 2001 09:01:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "jill.chatterton@adeccona.com",
+      "Subject": "Re: Hey there,",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "\"Chatterton, Jill\" <Jill.Chatterton@Adeccona.com> @ ENRON",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Sent",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_sent_928.txt"
+}

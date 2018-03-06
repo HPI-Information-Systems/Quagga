@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "The strips in this deal have been changed. Total MW for the deal is now \n24,800. If this solves the problem, great. If not, let me know.\n\nThanks,\nKate",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 146,
+      "end": 150,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 138,
+      "end": 150,
+      "text": "Thanks,\nKate",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 150,
+      "text": "The strips in this deal have been changed. Total MW for the deal is now \n24,800. If this solves the problem, great. If not, let me know.\n\nThanks,\nKate",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<17544471.1075841776543.JavaMail.evans@thyme>",
+      "Date": "Tue, 12 Dec 2000 05:39:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "kerri.thompson@enron.com",
+      "Subject": "477087",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Kerri Thompson",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\Discussion threads",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k_discussion_threads_593.txt"
+}

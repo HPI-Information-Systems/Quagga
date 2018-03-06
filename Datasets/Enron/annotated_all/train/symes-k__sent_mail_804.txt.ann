@@ -1,0 +1,247 @@
+{
+  "wrapper": "plaintext",
+  "text": "512927 has also been changed to .005 broker fee.\n\nKate\n\n\nStephanie Piwetz   02/05/2001 06:37 AM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: bro fees with Bloomberg\n\nplease check fees on the following trades,  thanks \n\n---------------------- Forwarded by Stephanie Piwetz/HOU/ECT on 02/05/2001 \n08:43 AM ---------------------------\nStephanie Piwetz   02/02/2001 05:32 PM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \nSubject: bro fees with Bloomberg\n\nKate, please verify with traders\ntom\ndeal 512827.01\nenron sells merrill\n260.00   Q2    2001\n25 mws\n\nbloomberg has fee .005   we have zero\n\nbob badeer\ndeal 512927.01\nEnron sells merrill\nQ2 2001\n250.00\n\nbloomberg has .005 fee, we have zero\n\nif fee\nplease add\n\nthanks \n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 50,
+      "end": 54,
+      "text": "Kate",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 57,
+      "text": "512927 has also been changed to .005 broker fee.\n\nKate\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 57,
+      "end": 73,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 76,
+      "end": 86,
+      "text": "02/05/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 87,
+      "end": 95,
+      "text": "06:37 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 101,
+      "end": 111,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 140,
+      "end": 163,
+      "text": "bro fees with Bloomberg",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 57,
+      "end": 164,
+      "text": "Stephanie Piwetz   02/05/2001 06:37 AM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \n\nSubject: bro fees with Bloomberg\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 209,
+      "end": 215,
+      "text": "thanks",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 164,
+      "end": 218,
+      "text": "\nplease check fees on the following trades,  thanks \n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 254,
+      "end": 270,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 282,
+      "end": 292,
+      "text": "02/05/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 294,
+      "end": 302,
+      "text": "08:43 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 218,
+      "end": 331,
+      "text": "---------------------- Forwarded by Stephanie Piwetz/HOU/ECT on 02/05/2001 \n08:43 AM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 331,
+      "end": 347,
+      "text": "Stephanie Piwetz",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 350,
+      "end": 360,
+      "text": "02/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 361,
+      "end": 369,
+      "text": "05:32 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 375,
+      "end": 385,
+      "text": "Kate Symes",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 413,
+      "end": 436,
+      "text": "bro fees with Bloomberg",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 331,
+      "end": 437,
+      "text": "Stephanie Piwetz   02/02/2001 05:32 PM\n\nTo: Kate Symes/PDX/ECT@ECT\ncc:  \nSubject: bro fees with Bloomberg\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 438,
+      "end": 442,
+      "text": "Kate",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 696,
+      "end": 704,
+      "text": "thanks \n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 437,
+      "end": 707,
+      "text": "\nKate, please verify with traders\ntom\ndeal 512827.01\nenron sells merrill\n260.00   Q2    2001\n25 mws\n\nbloomberg has fee .005   we have zero\n\nbob badeer\ndeal 512927.01\nEnron sells merrill\nQ2 2001\n250.00\n\nbloomberg has .005 fee, we have zero\n\nif fee\nplease add\n\nthanks \n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 21,
+      "target": 18,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 1,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 3,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 15,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 18,
+      "target": 6,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<12126352.1075841928542.JavaMail.evans@thyme>",
+      "Date": "Mon, 5 Feb 2001 04:33:00 -0800 (PST)",
+      "From": "kate.symes@enron.com",
+      "To": "stephanie.piwetz@enron.com",
+      "Subject": "Re: bro fees with Bloomberg",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kate Symes",
+      "X-To": "Stephanie Piwetz",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\kate symes 6-27-02\\Notes Folders\\'sent mail",
+      "X-Origin": "SYMES-K",
+      "X-FileName": "kate symes 6-27-02.nsf"
+    }
+  },
+  "id": "train/symes-k__sent_mail_804.txt"
+}

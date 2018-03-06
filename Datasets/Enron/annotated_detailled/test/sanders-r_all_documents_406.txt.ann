@@ -1,0 +1,90 @@
+{
+  "wrapper": "plaintext",
+  "text": "Richard, here is the eighth and final day of Schultes' deposition--Monday, \nAugust 7--Michael Tomaino, McDonald's lawyer, did all of the questioning.\n\nThe next major event is Stickler's deposition starting on September 25th. \n\nSteve \n\n <<Schultes 8.07.txt>> \n\nThis e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n\n\n - Schultes 8.07.txt",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7,
+      "text": "Richard",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 227,
+      "end": 233,
+      "text": "Steve ",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 238,
+      "end": 255,
+      "text": "Schultes 8.07.txt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 235,
+      "end": 259,
+      "text": " <<Schultes 8.07.txt>> \n",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 260,
+      "end": 740,
+      "text": "This e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n",
+      "type": "Body/Signature/Disclaimer",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 745,
+      "end": 762,
+      "text": "Schultes 8.07.txt",
+      "type": "Body/Attachments/Attachment",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 742,
+      "end": 762,
+      "text": " - Schultes 8.07.txt",
+      "type": "Body/Attachments",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 0,
+      "end": 762,
+      "text": "Richard, here is the eighth and final day of Schultes' deposition--Monday, \nAugust 7--Michael Tomaino, McDonald's lawyer, did all of the questioning.\n\nThe next major event is Stickler's deposition starting on September 25th. \n\nSteve \n\n <<Schultes 8.07.txt>> \n\nThis e-mail message may contain legally privileged and/or confidential \ninformation. If you are not the intended recipient(s), or the employee \nor agent responsible for delivery of this message to the intended \nrecipient(s), you are hereby notified that any dissemination, \ndistribution or copying of this e-mail message is strictly prohibited. \nIf you have received this message in error, please immediately notify \nthe sender and delete this e-mail message from your computer. \n\n\n - Schultes 8.07.txt",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<2728116.1075853178029.JavaMail.evans@thyme>",
+      "Date": "Thu, 10 Aug 2000 07:49:00 -0700 (PDT)",
+      "From": "showard@milbank.com",
+      "To": "richard.b.sanders@enron.com",
+      "Subject": "Schultes finally Ends",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "SHoward@milbank.com",
+      "X-To": "Richard.B.Sanders@enron.com",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Richard_Sanders_Oct2001\\Notes Folders\\All documents",
+      "X-Origin": "Sanders-R",
+      "X-FileName": "rsanders.nsf"
+    }
+  },
+  "id": "test/sanders-r_all_documents_406.txt"
+}

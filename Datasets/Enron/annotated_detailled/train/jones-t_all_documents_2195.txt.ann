@@ -1,0 +1,162 @@
+{
+  "wrapper": "plaintext",
+  "text": "Do you only want the form of Credit Support Annex and Paragraph 13 thereto, \nor do you also want a pro forma Canadian ISDA Schedule.  Also, I would expect \nthat since you are dealing with Canadian municipalities you would want a form \nthat include the special municipal provisions, which are somewhat lengthy?\n\n\n\n\tGreg Johnston\n\t06/20/2000 02:41 PM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: Mark Taylor/HOU/ECT@ECT, Eric LeDain/CAL/ECT@ECT, Paul \nDevries/TOR/ECT@ECT, Chris Gaffney/HOU/ECT@ECT\n\t\t Subject: Canadian Precedent Form of ISDA\n\nTana, Enron Canada is currently negotiating a transaction with 6 major \nmunicipalities in Ontario (the \"G6\") to provide various services to a company \nthose 6 entities are setting up, which services will include physical and \nfinancial trading (both gas and electricity).  John Suttle is working with \nJan Wilson of our Toronto office to set the credit terms applicable to this \nentity on both the physical and financial trading side, but they have not yet \nmade a final determination.  In the interim, the G6 has requested that we \nsend them a copy of our precedent form of master financial trading agreement \n(both the ISDA and our short form financial GTC).  I assume you get requests \nlike this all the time and was hoping that you could e-mail to me (i) the \nISDA, credit support annex, Paragraph 13, etc. that we would typically put in \nplace between ECC and a Canadian counterparty to financially trade gas and \nelectricity in Canada (ie. incorporating the Canadian provisions), leaving \nthe credit terms blank for the time being and (ii) the financial GTC we use \nfor Canadian counterparties.\n\nCall me if you have any questions or if there are any problems with preparing \nand forwarding these documents to the counterparty.\n\nThanks\n\nGreg\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 313,
+      "text": "Do you only want the form of Credit Support Annex and Paragraph 13 thereto, \nor do you also want a pro forma Canadian ISDA Schedule.  Also, I would expect \nthat since you are dealing with Canadian municipalities you would want a form \nthat include the special municipal provisions, which are somewhat lengthy?\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 538,
+      "end": 542,
+      "text": "Tana",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1780,
+      "end": 1784,
+      "text": "Greg",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 1772,
+      "end": 1785,
+      "text": "Thanks\n\nGreg\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 537,
+      "end": 1785,
+      "text": "\nTana, Enron Canada is currently negotiating a transaction with 6 major \nmunicipalities in Ontario (the \"G6\") to provide various services to a company \nthose 6 entities are setting up, which services will include physical and \nfinancial trading (both gas and electricity).  John Suttle is working with \nJan Wilson of our Toronto office to set the credit terms applicable to this \nentity on both the physical and financial trading side, but they have not yet \nmade a final determination.  In the interim, the G6 has requested that we \nsend them a copy of our precedent form of master financial trading agreement \n(both the ISDA and our short form financial GTC).  I assume you get requests \nlike this all the time and was hoping that you could e-mail to me (i) the \nISDA, credit support annex, Paragraph 13, etc. that we would typically put in \nplace between ECC and a Canadian counterparty to financially trade gas and \nelectricity in Canada (ie. incorporating the Canadian provisions), leaving \nthe credit terms blank for the time being and (ii) the financial GTC we use \nfor Canadian counterparties.\n\nCall me if you have any questions or if there are any problems with preparing \nand forwarding these documents to the counterparty.\n\nThanks\n\nGreg\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 360,
+      "end": 370,
+      "text": "Tana Jones",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 505,
+      "end": 536,
+      "text": "Canadian Precedent Form of ISDA",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 467,
+      "end": 480,
+      "text": "Chris Gaffney",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 440,
+      "end": 453,
+      "text": "Paul \nDevries",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 415,
+      "end": 426,
+      "text": "Eric LeDain",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 390,
+      "end": 401,
+      "text": "Mark Taylor",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 314,
+      "end": 327,
+      "text": "Greg Johnston",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 329,
+      "end": 339,
+      "text": "06/20/2000",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 340,
+      "end": 348,
+      "text": "02:41 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 314,
+      "end": 537,
+      "text": "Greg Johnston\n\t06/20/2000 02:41 PM\n\t\t \n\t\t To: Tana Jones/HOU/ECT@ECT\n\t\t cc: Mark Taylor/HOU/ECT@ECT, Eric LeDain/CAL/ECT@ECT, Paul \nDevries/TOR/ECT@ECT, Chris Gaffney/HOU/ECT@ECT\n\t\t Subject: Canadian Precedent Form of ISDA\n",
+      "type": "Header",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 3,
+      "target": 12,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 6,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25991545.1075846963695.JavaMail.evans@thyme>",
+      "Date": "Tue, 20 Jun 2000 08:47:00 -0700 (PDT)",
+      "From": "tana.jones@enron.com",
+      "To": "greg.johnston@enron.com",
+      "Subject": "Re: Canadian Precedent Form of ISDA",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Tana Jones",
+      "X-To": "Greg Johnston",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_Dec2000\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_2195.txt"
+}

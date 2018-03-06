@@ -1,0 +1,11 @@
+Is there a way to return only the matched field from a multivalued field
+using filtering?
+
+
+
+
+
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Return-only-matched-multi-valued-field-tp4351494.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

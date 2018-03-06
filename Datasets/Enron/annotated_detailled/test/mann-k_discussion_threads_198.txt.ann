@@ -1,0 +1,42 @@
+{
+  "wrapper": "plaintext",
+  "text": "Here's where I am:\n\n\n\nKay",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 22,
+      "end": 25,
+      "text": "Kay",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 25,
+      "text": "Here's where I am:\n\n\n\nKay",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<25475611.1075845757218.JavaMail.evans@thyme>",
+      "Date": "Fri, 14 Jul 2000 07:10:00 -0700 (PDT)",
+      "From": "kay.mann@enron.com",
+      "To": "laura.luce@enron.com, fred.mitro@enron.com, rusty.stevens@enron.com, \n\tgregg.penman@enron.com, thomas.suffield@enron.com",
+      "Subject": "Peoples document",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Kay Mann",
+      "X-To": "Laura Luce, Fred Mitro, Rusty Stevens, Gregg Penman, Thomas Suffield",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Kay_Mann_June2001_2\\Notes Folders\\Discussion threads",
+      "X-Origin": "MANN-K",
+      "X-FileName": "kmann.nsf"
+    }
+  },
+  "id": "test/mann-k_discussion_threads_198.txt"
+}

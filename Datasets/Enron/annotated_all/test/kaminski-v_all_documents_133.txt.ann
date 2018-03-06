@@ -1,0 +1,486 @@
+{
+  "wrapper": "plaintext",
+  "text": "Vince,\n\nIn the morning we were talking about the El Paso candidate who thinks he is \nabove something and is not\nwilling to take certain project or responsibility.   In real life, we also \noccasionally have similar stiuation. (an\nexample is attached).\n\nI would like to have your guidance when such a situation occurs.  \n\nZimin\n\n\n\n\n---------------------- Forwarded by Zimin Lu/HOU/ECT on 05/02/2001 02:07 PM \n---------------------------\n\n\nZimin Lu\n05/02/2001 01:41 PM\nTo: Paulo Issler/HOU/ECT@ECT\ncc:  \nSubject: Re: Asian Option for Pavel  \n\n\nOur convention is whoever finalizes the model should write the \ndocumentation.  It does not make sense\nto write one when changes are anticipated.  You have been working on this \nalmost a year, it never \nstrikes you that we need a documentation ? \n\nI created Exotica.xll, does that also give you an excuse not working on \nExotica documentation ?   \n\nZimin \n\n\n\n\n\nPaulo Issler\n05/02/2001 11:52 AM\nTo: Zimin Lu/HOU/ECT@ECT\ncc: Tai Woo/ENRON@enronXgate @ ENRON, Pavel Zadorozhny/Enron@EnronXGate \nSubject: Re: Asian Option for Pavel  \n\nI am surprised that we do not have the documentation ready.\nI can make that for you. It is not there because you did not put that \ntogether by the time it was created and all the changes I have made did not \nrequired changes on the functionality.\nPaulo Issler\n \n\n\n\nZimin Lu\n05/02/2001 11:29 AM\nTo: Tai Woo/ENRON@enronXgate @ ENRON, Paulo Issler/HOU/ECT@ECT\ncc: Pavel Zadorozhny/Enron@EnronXGate \nSubject: Re: Asian Option for Pavel  \n\n\n\nTai Woo,\n\nHere are the c-codes for the CrudeAPO.  'Sig' is the spot\nvolatility meaning the price volatility within the delivery period. \nYou should consult  with Pavel for the definition of this \"extra\" \nparameters.   We \nwould like to see the Position Monitor once you get it running.\nWe might have some additional suggestions.\n\n\n\n\nPaulo,\n\nWhy don't we have a documentation on CrudeAPO you worked on ?\nI can not find it in Exotica help file.   Please supply that to Tai, thanks.\n\n\n\n--------------------------------------\n\n\n\n\n\n\n\n\nFrom: Tai Woo/ENRON@enronXgate on 05/02/2001 09:55 AM\nTo: Paulo Issler/HOU/ECT@ECT\ncc: Kara Maloney/ENRON@enronXgate, Zimin Lu/HOU/ECT@ECT \nSubject: Asian Option for Pavel\n\nThis morning, Zimin told me that Pavel is using a special model in evaluating \nhis Asian option portfolio. \nHe asked me to talk to you in order to access to the code so that I can see \nthe difference made to the model.\n\nAs I cannot find the doc. describing this model, please tell me what that new \ninput parameter 'Sig' is.\n\nThanks,\n\n\n\n\n\n\n\n\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "Vince",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 320,
+      "end": 325,
+      "text": "Zimin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 330,
+      "text": "Vince,\n\nIn the morning we were talking about the El Paso candidate who thinks he is \nabove something and is not\nwilling to take certain project or responsibility.   In real life, we also \noccasionally have similar stiuation. (an\nexample is attached).\n\nI would like to have your guidance when such a situation occurs.  \n\nZimin\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 366,
+      "end": 374,
+      "text": "Zimin Lu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 386,
+      "end": 396,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 397,
+      "end": 405,
+      "text": "02:07 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 330,
+      "end": 435,
+      "text": "---------------------- Forwarded by Zimin Lu/HOU/ECT on 05/02/2001 02:07 PM \n---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 437,
+      "end": 445,
+      "text": "Zimin Lu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 446,
+      "end": 456,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 457,
+      "end": 465,
+      "text": "01:41 PM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 470,
+      "end": 482,
+      "text": "Paulo Issler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 510,
+      "end": 536,
+      "text": "Re: Asian Option for Pavel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 435,
+      "end": 539,
+      "text": "\n\nZimin Lu\n05/02/2001 01:41 PM\nTo: Paulo Issler/HOU/ECT@ECT\ncc:  \nSubject: Re: Asian Option for Pavel  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 890,
+      "end": 895,
+      "text": "Zimin",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 539,
+      "end": 902,
+      "text": "\n\nOur convention is whoever finalizes the model should write the \ndocumentation.  It does not make sense\nto write one when changes are anticipated.  You have been working on this \nalmost a year, it never \nstrikes you that we need a documentation ? \n\nI created Exotica.xll, does that also give you an excuse not working on \nExotica documentation ?   \n\nZimin \n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 902,
+      "end": 914,
+      "text": "Paulo Issler",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 17,
+      "start": 915,
+      "end": 925,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 18,
+      "start": 926,
+      "end": 934,
+      "text": "11:52 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 19,
+      "start": 939,
+      "end": 947,
+      "text": "Zimin Lu",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 20,
+      "start": 964,
+      "end": 971,
+      "text": "Tai Woo",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 21,
+      "start": 998,
+      "end": 1014,
+      "text": "Pavel Zadorozhny",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 22,
+      "start": 1042,
+      "end": 1068,
+      "text": "Re: Asian Option for Pavel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 23,
+      "start": 902,
+      "end": 1071,
+      "text": "Paulo Issler\n05/02/2001 11:52 AM\nTo: Zimin Lu/HOU/ECT@ECT\ncc: Tai Woo/ENRON@enronXgate @ ENRON, Pavel Zadorozhny/Enron@EnronXGate \nSubject: Re: Asian Option for Pavel  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 24,
+      "start": 1319,
+      "end": 1331,
+      "text": "Paulo Issler",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 25,
+      "start": 1071,
+      "end": 1337,
+      "text": "\nI am surprised that we do not have the documentation ready.\nI can make that for you. It is not there because you did not put that \ntogether by the time it was created and all the changes I have made did not \nrequired changes on the functionality.\nPaulo Issler\n \n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 26,
+      "start": 1337,
+      "end": 1345,
+      "text": "Zimin Lu",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 27,
+      "start": 1346,
+      "end": 1356,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 28,
+      "start": 1357,
+      "end": 1365,
+      "text": "11:29 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 29,
+      "start": 1370,
+      "end": 1377,
+      "text": "Tai Woo",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 30,
+      "start": 1404,
+      "end": 1416,
+      "text": "Paulo Issler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 31,
+      "start": 1433,
+      "end": 1449,
+      "text": "Pavel Zadorozhny",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 32,
+      "start": 1477,
+      "end": 1503,
+      "text": "Re: Asian Option for Pavel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 33,
+      "start": 1337,
+      "end": 1506,
+      "text": "Zimin Lu\n05/02/2001 11:29 AM\nTo: Tai Woo/ENRON@enronXgate @ ENRON, Paulo Issler/HOU/ECT@ECT\ncc: Pavel Zadorozhny/Enron@EnronXGate \nSubject: Re: Asian Option for Pavel  \n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 34,
+      "start": 1509,
+      "end": 1516,
+      "text": "Tai Woo",
+      "type": "Body/Intro/Name",
+      "meta": null
+    },
+    {
+      "id": 35,
+      "start": 1506,
+      "end": 2039,
+      "text": "\n\n\nTai Woo,\n\nHere are the c-codes for the CrudeAPO.  'Sig' is the spot\nvolatility meaning the price volatility within the delivery period. \nYou should consult  with Pavel for the definition of this \"extra\" \nparameters.   We \nwould like to see the Position Monitor once you get it running.\nWe might have some additional suggestions.\n\n\n\n\nPaulo,\n\nWhy don't we have a documentation on CrudeAPO you worked on ?\nI can not find it in Exotica help file.   Please supply that to Tai, thanks.\n\n\n\n--------------------------------------\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 36,
+      "start": 2045,
+      "end": 2052,
+      "text": "Tai Woo",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 37,
+      "start": 2073,
+      "end": 2083,
+      "text": "05/02/2001",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 38,
+      "start": 2084,
+      "end": 2092,
+      "text": "09:55 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 39,
+      "start": 2097,
+      "end": 2109,
+      "text": "Paulo Issler",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 40,
+      "start": 2126,
+      "end": 2138,
+      "text": "Kara Maloney",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 41,
+      "start": 2157,
+      "end": 2165,
+      "text": "Zimin Lu",
+      "type": "Header/Person/Cc",
+      "meta": null
+    },
+    {
+      "id": 42,
+      "start": 2188,
+      "end": 2210,
+      "text": "Asian Option for Pavel",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 43,
+      "start": 2039,
+      "end": 2211,
+      "text": "From: Tai Woo/ENRON@enronXgate on 05/02/2001 09:55 AM\nTo: Paulo Issler/HOU/ECT@ECT\ncc: Kara Maloney/ENRON@enronXgate, Zimin Lu/HOU/ECT@ECT \nSubject: Asian Option for Pavel\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 44,
+      "start": 2538,
+      "end": 2545,
+      "text": "Thanks,",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 45,
+      "start": 2211,
+      "end": 2557,
+      "text": "\nThis morning, Zimin told me that Pavel is using a special model in evaluating \nhis Asian option portfolio. \nHe asked me to talk to you in order to access to the code so that I can see \nthe difference made to the model.\n\nAs I cannot find the doc. describing this model, please tell me what that new \ninput parameter 'Sig' is.\n\nThanks,\n\n\n\n\n\n\n\n\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 4,
+      "target": 2,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 8,
+      "target": 4,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 16,
+      "target": 11,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 8,
+      "target": 14,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "origin": 14,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "origin": 24,
+      "target": 16,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "origin": 26,
+      "target": 19,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "origin": 20,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "origin": 31,
+      "target": 21,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "origin": 30,
+      "target": 24,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "origin": 34,
+      "target": 29,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "origin": 34,
+      "target": 36,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "origin": 39,
+      "target": 30,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "origin": 41,
+      "target": 26,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<16284885.1075856182391.JavaMail.evans@thyme>",
+      "Date": "Wed, 2 May 2001 07:24:00 -0700 (PDT)",
+      "From": "zimin.lu@enron.com",
+      "To": "vince.kaminski@enron.com",
+      "Subject": "Your advice is appreciated",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Zimin Lu",
+      "X-To": "Vince J Kaminski",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents",
+      "X-Origin": "Kaminski-V",
+      "X-FileName": "vkamins.nsf"
+    }
+  },
+  "id": "test/kaminski-v_all_documents_133.txt"
+}

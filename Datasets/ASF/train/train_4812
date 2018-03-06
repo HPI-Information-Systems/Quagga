@@ -1,0 +1,24 @@
+1) nope, no big tlog or replaying problem
+
+2) Solr just seem freezed. Not responsive and nothing in the log.
+Now I just tried just to restart after the Zookeeper config deploy and on
+restart the log complety freezes and the instances don't come up...
+If I clean the indexes and then start, this works.
+Solr is deployed in Jboss, so I don't know if the stop is too aggressive and
+breaks something.
+
+3) No problem at all!
+
+I will continue with some analysis.
+
+
+
+-----
+---------------
+Alessandro Benedetti
+Search Consultant, R&D Software Engineer, Director
+Sease Ltd. - www.sease.io
+--
+View this message in context: http://lucene.472066.n3.nabble.com/Apache-Solr-4-10-x-Collection-Reload-times-out-tp4346075p4347347.html
+Sent from the Solr - User mailing list archive at Nabble.com.
+

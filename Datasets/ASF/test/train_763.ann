@@ -1,0 +1,96 @@
+{
+  "wrapper": "plaintext",
+  "text": "Maybe a naive question: why are you creating 1 Dstream per shard? It should\nbe one Dstream corresponding to kinesis stream, isn't it?\n\nOn Fri, Jan 27, 2017 at 8:09 PM, Takeshi Yamamuro <linguin.m.s@gmail.com>\nwrote:\n\n> Hi,\n>\n> Just a guess though, Kinesis shards sometimes have skew data.\n> So, before you compute something from kinesis RDDs, you'd be better to\n> repartition them\n> for better parallelism.\n>\n> // maropu\n>\n> On Fri, Jan 27, 2017 at 2:54 PM, Graham Clark <grclark@gmail.com> wrote:\n>\n>> Hi everyone - I am building a small prototype in Spark 1.6.0 (cloudera)\n>> to read information from Kinesis and write it to HDFS in parquet format.\n>> The write seems very slow, and if I understood Spark's diagnostics\n>> correctly, always seemed to run from the same executor, one partition after\n>> the other, serially. So I stripped the program down to this:\n>>\n>>\n>> val kinesisStreams = (0 until numShards).map { i => {\n>>\n>>   KinesisUtils.createStream(streamingContext, sparkApplicationName,\n>>\n>>     kinesisStreamName, kinesisUrl, awsRegion,\n>> InitialPositionInStream.LATEST)\n>>\n>>     new Duration(streamingInterval.millis),\n>> StorageLevel.MEMORY_AND_DISK_SER,\n>>\n>>     awsCredentials.accessKey, awsCredentials.secretKey)\n>>\n>> }}\n>>\n>> val allKinesisStreams = streamingContext.union(kinesisStreams)\n>>\n>> allKinesisStreams.foreachRDD {\n>>\n>>    rdd => {\n>>\n>>       info(\"total for this batch is \" + rdd.count())\n>>\n>>    }\n>> }\n>>\n>> The Kinesis stream has 20 shards (overprovisioned for this small test). I\n>> confirmed using a small boto program that data is periodically written to\n>> all 20 of the shards. I can see that Spark has created 20 executors, one\n>> for each Kinesis shard. It also creates one other executor, tied to a\n>> particular worker node, and that node seems to do the RDD counting. The\n>> streaming interval is 1 minute, during which time several shards have\n>> received data. Each minute interval, for this particular example, the\n>> driver prints out between 20 and 30 for the count value. I expected to see\n>> the count operation parallelized across the cluster. I think I must just be\n>> misunderstanding something fundamental! Can anyone point out where I'm\n>> going wrong?\n>>\n>> Yours in confusion,\n>> Graham\n>>\n>>\n>\n>\n> --\n> ---\n> Takeshi Yamamuro\n>\n\n\n\n-- \nBest Regards,\nAyan Guha\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 135,
+      "text": "Maybe a naive question: why are you creating 1 Dstream per shard? It should\nbe one Dstream corresponding to kinesis stream, isn't it?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 135,
+      "end": 216,
+      "text": "On Fri, Jan 27, 2017 at 8:09 PM, Takeshi Yamamuro <linguin.m.s@gmail.com>\nwrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 216,
+      "end": 223,
+      "text": "\n> Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 407,
+      "end": 421,
+      "text": ">\n> // maropu\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 216,
+      "end": 423,
+      "text": "\n> Hi,\n>\n> Just a guess though, Kinesis shards sometimes have skew data.\n> So, before you compute something from kinesis RDDs, you'd be better to\n> repartition them\n> for better parallelism.\n>\n> // maropu\n>\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 423,
+      "end": 498,
+      "text": "> On Fri, Jan 27, 2017 at 2:54 PM, Graham Clark <grclark@gmail.com> wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 498,
+      "end": 515,
+      "text": ">\n>> Hi everyone ",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 2219,
+      "end": 2255,
+      "text": ">>\n>> Yours in confusion,\n>> Graham\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 2300,
+      "end": 2328,
+      "text": "-- \nBest Regards,\nAyan Guha\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 2270,
+      "end": 2295,
+      "text": "> ---\n> Takeshi Yamamuro\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 498,
+      "end": 2329,
+      "text": ">\n>> Hi everyone - I am building a small prototype in Spark 1.6.0 (cloudera)\n>> to read information from Kinesis and write it to HDFS in parquet format.\n>> The write seems very slow, and if I understood Spark's diagnostics\n>> correctly, always seemed to run from the same executor, one partition after\n>> the other, serially. So I stripped the program down to this:\n>>\n>>\n>> val kinesisStreams = (0 until numShards).map { i => {\n>>\n>>   KinesisUtils.createStream(streamingContext, sparkApplicationName,\n>>\n>>     kinesisStreamName, kinesisUrl, awsRegion,\n>> InitialPositionInStream.LATEST)\n>>\n>>     new Duration(streamingInterval.millis),\n>> StorageLevel.MEMORY_AND_DISK_SER,\n>>\n>>     awsCredentials.accessKey, awsCredentials.secretKey)\n>>\n>> }}\n>>\n>> val allKinesisStreams = streamingContext.union(kinesisStreams)\n>>\n>> allKinesisStreams.foreachRDD {\n>>\n>>    rdd => {\n>>\n>>       info(\"total for this batch is \" + rdd.count())\n>>\n>>    }\n>> }\n>>\n>> The Kinesis stream has 20 shards (overprovisioned for this small test). I\n>> confirmed using a small boto program that data is periodically written to\n>> all 20 of the shards. I can see that Spark has created 20 executors, one\n>> for each Kinesis shard. It also creates one other executor, tied to a\n>> particular worker node, and that node seems to do the RDD counting. The\n>> streaming interval is 1 minute, during which time several shards have\n>> received data. Each minute interval, for this particular example, the\n>> driver prints out between 20 and 30 for the count value. I expected to see\n>> the count operation parallelized across the cluster. I think I must just be\n>> misunderstanding something fundamental! Can anyone point out where I'm\n>> going wrong?\n>>\n>> Yours in confusion,\n>> Graham\n>>\n>>\n>\n>\n> --\n> ---\n> Takeshi Yamamuro\n>\n\n\n\n-- \nBest Regards,\nAyan Guha\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "test/train_763"
+}

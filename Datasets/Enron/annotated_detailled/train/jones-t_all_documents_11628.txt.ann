@@ -1,0 +1,74 @@
+{
+  "wrapper": "plaintext",
+  "text": "Good Afternoon All!\n\nJust a reminder - Cheryl Nelson will be out of the office this Friday, May \n11, and will return on Tuesday, May 15.  Please contact me should you need \nimmediate assistance, during her absence.  Thank you for your attention to \nthis matter.\n\nRegards,\nKeegan Farrell\n(713) 345-3317\nEB3875",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 263,
+      "end": 286,
+      "text": "Regards,\nKeegan Farrell",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 272,
+      "end": 286,
+      "text": "Keegan Farrell",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 287,
+      "end": 301,
+      "text": "(713) 345-3317",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 287,
+      "end": 308,
+      "text": "(713) 345-3317\nEB3875",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 19,
+      "text": "Good Afternoon All!",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 308,
+      "text": "Good Afternoon All!\n\nJust a reminder - Cheryl Nelson will be out of the office this Friday, May \n11, and will return on Tuesday, May 15.  Please contact me should you need \nimmediate assistance, during her absence.  Thank you for your attention to \nthis matter.\n\nRegards,\nKeegan Farrell\n(713) 345-3317\nEB3875",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<29290052.1075847370909.JavaMail.evans@thyme>",
+      "Date": "Thu, 10 May 2001 07:42:00 -0700 (PDT)",
+      "From": "keegan.farrell@enron.com",
+      "To": "mark.taylor@enron.com, robert.bruce@enron.com, mary.cook@enron.com, \n\tangela.davis@enron.com, brent.hendry@enron.com, \n\tanne.koehler@enron.com, cheryl.nelson@enron.com, \n\tfrank.sayre@enron.com, sara.shackleton@enron.com, \n\tcarol.clair@enron.com, francisco.leite@enron.com, \n\tsusan.bailey@enron.com, samantha.boyd@enron.com, \n\ttana.jones@enron.com, stephanie.panus@enron.com, \n\tbecky.spencer@enron.com, taffy.milligan@enron.com, \n\tkaye.ellis@enron.com, esmeralda.gonzalez@enron.com, \n\tkayla.heitmeyer@enron.com, karina.prizont@enron.com",
+      "Subject": "REMINDER - C. Nelson out of the office",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Keegan Farrell",
+      "X-To": "Mark Taylor, Robert Bruce, Mary Cook, Angela Davis, Brent Hendry, Anne C Koehler, Cheryl Nelson, Frank Sayre, Sara Shackleton, Carol St Clair, Francisco Pinto Leite, Susan Bailey, Samantha Boyd, Tana Jones, Stephanie Panus, Becky Spencer, Taffy Milligan, Kaye Ellis, Esmeralda Gonzalez, Kayla Heitmeyer, Karina Prizont",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Tanya_Jones_June2001\\Notes Folders\\All documents",
+      "X-Origin": "JONES-T",
+      "X-FileName": "tjones.nsf"
+    }
+  },
+  "id": "train/jones-t_all_documents_11628.txt"
+}

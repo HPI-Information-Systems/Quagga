@@ -1,0 +1,26 @@
+What is the query you are executing if you can share. Due you think
+difference could be due to updates/ingestion happening same time?
+
+Thanks,
+Susheel
+
+On Tue, Jul 25, 2017 at 7:47 AM, Bernd Fehling <
+bernd.fehling@uni-bielefeld.de> wrote:
+
+> With SolrCloud 6.4.2 (5 shards on 5 server) and a wildcard query
+> I get different results between the same query.
+>
+> I assume this is alltogether due to the distributed search and
+> the response time of each server and the constant score of 1.0 ???
+>
+> Is there any config where I can set the shard order (shard_1...shard_n)
+> as result order for results with same score?
+>
+> Or for results of wildcard query?
+>
+> Any ideas?
+>
+> Regards
+> Bernd
+>
+

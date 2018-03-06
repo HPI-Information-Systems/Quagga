@@ -1,0 +1,32 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi all,\n\nI've run into an issue in a test environment where a document exists, but\nfails to be retrieved consistently by /get requests. In a series of 10\nrequests for the specific document across a few minute timespan, one of the\nmiddle requests returned a null document.\n\nCurrently, nothing is updating existing records in the collection, so it\ncouldn't have actually been deleted.\n\nThe test cloud and collection have 3 nodes, 6 shards, and 1 replica per\nshard. Based on the fact that the node that was queried was not the node\nthe document resided on, I assume that there may have been a temporary\nconnectivity issue that we're unaware of and the request couldn't find the\ndocument and returned null.\n\nSo is that a possibility, and are there any other circumstances where the\n/get handler would not be able to return a document that exists in a\ncollection?\n\nThanks,\nChris\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 8,
+      "text": "Hi all,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 859,
+      "end": 874,
+      "text": "\nThanks,\nChris\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 875,
+      "text": "Hi all,\n\nI've run into an issue in a test environment where a document exists, but\nfails to be retrieved consistently by /get requests. In a series of 10\nrequests for the specific document across a few minute timespan, one of the\nmiddle requests returned a null document.\n\nCurrently, nothing is updating existing records in the collection, so it\ncouldn't have actually been deleted.\n\nThe test cloud and collection have 3 nodes, 6 shards, and 1 replica per\nshard. Based on the fact that the node that was queried was not the node\nthe document resided on, I assume that there may have been a temporary\nconnectivity issue that we're unaware of and the request couldn't find the\ndocument and returned null.\n\nSo is that a possibility, and are there any other circumstances where the\n/get handler would not be able to return a document that exists in a\ncollection?\n\nThanks,\nChris\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_5215"
+}

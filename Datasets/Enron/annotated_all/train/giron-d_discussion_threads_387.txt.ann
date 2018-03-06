@@ -1,0 +1,50 @@
+{
+  "wrapper": "plaintext",
+  "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/02/2001 \n01:51 PM ---------------------------\n   \n\n\nFrom:  Russell Diamond                                                        \n     01/30/2001 09:42 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Veronica \nEspinoza/Corp/Enron@ENRON\ncc:  \nSubject: Credit Report - 1/30/01\n\n\nCounterparty      TAGG#  Comment\nAEP Communications, Inc.   q00902.1  Rebook to AEP Energy Services, Inc.\nAnadarko Energy Services Company  q02635.1  Rebook to Anardarko Petroleum \nCorporation\nAquila Energy Gas Marketing   qO0107.1,qO0135.1 Rebook to Utilicorp United, \nInc.\nArizona Electric Power Cooperation  qO1746.1  Rebook to Arizona Public \nService Company\nBank of America N.A.    qO2878.1.2  Rebook to Bank of America, National \nAssociation\nBoardwalk Equities Inc.    qN9053.3  Pending Russell Diamond\nCook Inlet Region Inc.    qO1585.1  Rebook to Cook Inlet Energy Supply LLC\nEOG Resources Marketing, Inc.   qO2581.1  Pending Rudwell Johnson\nInterstate Gas Company    qO1554.2  Rebook to Interstate Gas Supply, Inc./ \n\"Need L/C\" language in confirm\nInterstate Gas Supply, Inc.   qO1549.2  \"Need L/C\" language required in \nConfirm\nJ Aron & Company (Singapore)    qO2464.1  Rebook to J Aron & Company\nLong Beach, City of, Inc    qO2420.1  Pending Rudwell Johnson\nLouis Dreyfus Natural Gas Holdings  qO0682.1  Rebook to Louis Dreyfus \nCorporation\nMarkwest Hydrocarbons, Inc   qO2489.1  Penidng Russell Diamond\nMetromedia Energy, Inc    qO0099.1,qO0142.1 Pending Rudwell Johnson\nMidcoast Energy Resources, Inc.  qO1579.1,qO1581.1 Rebook to Midcoast \nMarketing, Inc.  -New ISDA Executed\nNational Fuel Marketing Company  qO3208.1  Pending Brant Reves, Veronica \nEspinoza\nNational Fuel Resources, Inc.   qO0648.1  Pending Jay Williams\nNew Counterparty    qO2519.1  Pending Russell Diamond\nNewark Group Inc. The    qO3223.1  Pending Rudwell Johnson\nPSNC Production Corporation Inc.  qO1462.1  Pending Darren Vanek\nPanCanadian Energy Inc.   qO1735.1  Rebook to PanCanadian Energy Services, \nInc.\nPremier Enterprises LLC   qO2599.1  Pending Brant Reves\nSalt River Project Agriculture    qO233.1  Pending Jay Williams\nSouthern Company Energy Marketing  qO3294.1.2  Rebook to Mirant Americas \nEnergy Marketing LP\nTauber Petrochemical Co   q02876.1  Rebook to Tauber Oil Company\nU.S. Brick Company    qO1584.1  Pending Brant Reves\nUSGT Resources, Inc.    qO0143.1  Rebook to USGT/Aquila LP\nUnicom Energy Inc    q)0903.1  Pending Darren Vanek\nUnocal Corporation    qO1049.1  Rebook to Union Oil Company of California\nWilliams Natural Gas Company   qO2919.1.2.3  Rebook to Williams Energy \nMarketing & Trading\n\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 111,
+      "text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/02/2001 \n01:51 PM ---------------------------\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 111,
+      "end": 1278,
+      "text": "   \n\n\nFrom:  Russell Diamond                                                        \n     01/30/2001 09:42 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Veronica \nEspinoza/Corp/Enron@ENRON\ncc:  \nSubject: Credit Report - 1/30/01\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 1278,
+      "end": 3586,
+      "text": "\n\nCounterparty      TAGG#  Comment\nAEP Communications, Inc.   q00902.1  Rebook to AEP Energy Services, Inc.\nAnadarko Energy Services Company  q02635.1  Rebook to Anardarko Petroleum \nCorporation\nAquila Energy Gas Marketing   qO0107.1,qO0135.1 Rebook to Utilicorp United, \nInc.\nArizona Electric Power Cooperation  qO1746.1  Rebook to Arizona Public \nService Company\nBank of America N.A.    qO2878.1.2  Rebook to Bank of America, National \nAssociation\nBoardwalk Equities Inc.    qN9053.3  Pending Russell Diamond\nCook Inlet Region Inc.    qO1585.1  Rebook to Cook Inlet Energy Supply LLC\nEOG Resources Marketing, Inc.   qO2581.1  Pending Rudwell Johnson\nInterstate Gas Company    qO1554.2  Rebook to Interstate Gas Supply, Inc./ \n\"Need L/C\" language in confirm\nInterstate Gas Supply, Inc.   qO1549.2  \"Need L/C\" language required in \nConfirm\nJ Aron & Company (Singapore)    qO2464.1  Rebook to J Aron & Company\nLong Beach, City of, Inc    qO2420.1  Pending Rudwell Johnson\nLouis Dreyfus Natural Gas Holdings  qO0682.1  Rebook to Louis Dreyfus \nCorporation\nMarkwest Hydrocarbons, Inc   qO2489.1  Penidng Russell Diamond\nMetromedia Energy, Inc    qO0099.1,qO0142.1 Pending Rudwell Johnson\nMidcoast Energy Resources, Inc.  qO1579.1,qO1581.1 Rebook to Midcoast \nMarketing, Inc.  -New ISDA Executed\nNational Fuel Marketing Company  qO3208.1  Pending Brant Reves, Veronica \nEspinoza\nNational Fuel Resources, Inc.   qO0648.1  Pending Jay Williams\nNew Counterparty    qO2519.1  Pending Russell Diamond\nNewark Group Inc. The    qO3223.1  Pending Rudwell Johnson\nPSNC Production Corporation Inc.  qO1462.1  Pending Darren Vanek\nPanCanadian Energy Inc.   qO1735.1  Rebook to PanCanadian Energy Services, \nInc.\nPremier Enterprises LLC   qO2599.1  Pending Brant Reves\nSalt River Project Agriculture    qO233.1  Pending Jay Williams\nSouthern Company Energy Marketing  qO3294.1.2  Rebook to Mirant Americas \nEnergy Marketing LP\nTauber Petrochemical Co   q02876.1  Rebook to Tauber Oil Company\nU.S. Brick Company    qO1584.1  Pending Brant Reves\nUSGT Resources, Inc.    qO0143.1  Rebook to USGT/Aquila LP\nUnicom Energy Inc    q)0903.1  Pending Darren Vanek\nUnocal Corporation    qO1049.1  Rebook to Union Oil Company of California\nWilliams Natural Gas Company   qO2919.1.2.3  Rebook to Williams Energy \nMarketing & Trading\n\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<4045854.1075854385727.JavaMail.evans@thyme>",
+      "Date": "Fri, 2 Feb 2001 05:52:00 -0800 (PST)",
+      "From": "darron.giron@enron.com",
+      "To": "carole.frank@enron.com",
+      "Subject": "Credit Report - 1/30/01",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Darron C Giron",
+      "X-To": "Carole Frank",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\Darron_Giron_Jun2001\\Notes Folders\\Discussion threads",
+      "X-Origin": "Giron-D",
+      "X-FileName": "dgiron.nsf"
+    }
+  },
+  "id": "train/giron-d_discussion_threads_387.txt"
+}

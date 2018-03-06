@@ -1,0 +1,184 @@
+{
+  "wrapper": "plaintext",
+  "text": "\n\n -----Original Message-----\nFrom: \tHayden, Frank  \nSent:\tFriday, April 12, 2002 11:07 AM\nTo:\tParks, Joe\nSubject:\tRE: var\n\nFor VAR 95 using a Delta gamma approach\n1.645 * position * price * daily vol = VAR \n\nRemember daily vol is implied vol divided by sqrt of time or 16 in this case.\n\nHow do you like your new digs?\n\n -----Original Message-----\nFrom: \tParks, Joe  \nSent:\tFriday, April 12, 2002 7:58 AM\nTo:\tHayden, Frank\nSubject:\tvar\n\nhey, how are you? can you send me an example of how you callculate var on contracts.\n\nfor example: price is 3.10, 100 contracts, vol. 60%\n\n\"SHOW ME THE MATH\"\n\nJOE\n832-851-2821\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 37,
+      "end": 50,
+      "text": "Hayden, Frank",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 67,
+      "end": 81,
+      "text": "April 12, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 82,
+      "end": 90,
+      "text": "11:07 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 95,
+      "end": 105,
+      "text": "Parks, Joe",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 115,
+      "end": 122,
+      "text": "RE: var",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 0,
+      "end": 123,
+      "text": "\n\n -----Original Message-----\nFrom: \tHayden, Frank  \nSent:\tFriday, April 12, 2002 11:07 AM\nTo:\tParks, Joe\nSubject:\tRE: var\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 7,
+      "start": 123,
+      "end": 320,
+      "text": "\nFor VAR 95 using a Delta gamma approach\n1.645 * position * price * daily vol = VAR \n\nRemember daily vol is implied vol divided by sqrt of time or 16 in this case.\n\nHow do you like your new digs?\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 8,
+      "start": 355,
+      "end": 365,
+      "text": "Parks, Joe",
+      "type": "Header/Person/From",
+      "meta": null
+    },
+    {
+      "id": 9,
+      "start": 382,
+      "end": 396,
+      "text": "April 12, 2002",
+      "type": "Header/Sent/Date",
+      "meta": null
+    },
+    {
+      "id": 10,
+      "start": 397,
+      "end": 404,
+      "text": "7:58 AM",
+      "type": "Header/Sent/Time",
+      "meta": null
+    },
+    {
+      "id": 11,
+      "start": 409,
+      "end": 422,
+      "text": "Hayden, Frank",
+      "type": "Header/Person/To",
+      "meta": null
+    },
+    {
+      "id": 12,
+      "start": 432,
+      "end": 435,
+      "text": "var",
+      "type": "Header/Subject",
+      "meta": null
+    },
+    {
+      "id": 13,
+      "start": 320,
+      "end": 436,
+      "text": " -----Original Message-----\nFrom: \tParks, Joe  \nSent:\tFriday, April 12, 2002 7:58 AM\nTo:\tHayden, Frank\nSubject:\tvar\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 14,
+      "start": 596,
+      "end": 599,
+      "text": "JOE",
+      "type": "Body/Outro/Name",
+      "meta": null
+    },
+    {
+      "id": 15,
+      "start": 600,
+      "end": 612,
+      "text": "832-851-2821",
+      "type": "Body/Signature/Phone",
+      "meta": null
+    },
+    {
+      "id": 16,
+      "start": 436,
+      "end": 613,
+      "text": "\nhey, how are you? can you send me an example of how you callculate var on contracts.\n\nfor example: price is 3.10, 100 contracts, vol. 60%\n\n\"SHOW ME THE MATH\"\n\nJOE\n832-851-2821\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "origin": 15,
+      "target": 14,
+      "type": "ContactInfo",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "origin": 14,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "origin": 11,
+      "target": 1,
+      "type": "Alias",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "origin": 4,
+      "target": 8,
+      "type": "Alias",
+      "meta": null
+    }
+  ],
+  "meta": {
+    "header": {
+      "Message-ID": "<32597007.1075841395641.JavaMail.evans@thyme>",
+      "Date": "Fri, 12 Apr 2002 13:10:42 -0700 (PDT)",
+      "From": "joe.parks@enron.com",
+      "To": "jparks1@houston.rr.com",
+      "Subject": "FW: var",
+      "Mime-Version": "1.0",
+      "Content-Type": "text/plain; charset=us-ascii",
+      "Content-Transfer-Encoding": "7bit",
+      "X-From": "Parks, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JPARKS>",
+      "X-To": "'jparks1@houston.rr.com'",
+      "X-cc": "",
+      "X-bcc": "",
+      "X-Folder": "\\ExMerge - Parks, Joe\\Sent Items",
+      "X-Origin": "PARKS-J",
+      "X-FileName": "joe parks 6-26-02.pst"
+    }
+  },
+  "id": "train/parks-j_sent_items_107.txt"
+}

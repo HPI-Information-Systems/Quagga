@@ -1,0 +1,56 @@
+{
+  "wrapper": "plaintext",
+  "text": "Hi,\n\nwe start our Flink Jobs on EMR with Lambda functions. Lambda functions\ncan have various triggers, among many others they can be triggered by\nsome CloudWatch rule. So you could create a rule based on your desires\nthat triggers a Lambda function, which will in turn spin up an EMR\ncluster with the steps being your particular jobs.\n\nHope that helps,\nbest regards\n\nKonstantin\n\n\nOn 21.09.2017 01:25, ShB wrote:\n> Are there any recommended ways to schedule and manage Flink Workflows on EMR?\n> I need to run a series of jobs daily, based on API requests coming in, and\n> this job will need to interface with S3 for data. \n> \n> \n> \n> --\n> Sent from: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/\n> \n\n-- \nKonstantin Gregor * konstantin.gregor@tngtech.com\nTNG Technology Consulting GmbH, Betastr. 13a, 85774 Unterf\u00c3\u00b6hring\nGesch\u00c3\u00a4ftsf\u00c3\u00bchrer: Henrik Klagges, Dr. Robert Dahlke, Gerhard M\u00c3\u00bcller\nAmtsgericht M\u00c3\u00bcnchen, HRB 135082\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "text": "Hi,\n",
+      "type": "Body/Intro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 353,
+      "end": 378,
+      "text": "best regards\n\nKonstantin\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 380,
+      "text": "Hi,\n\nwe start our Flink Jobs on EMR with Lambda functions. Lambda functions\ncan have various triggers, among many others they can be triggered by\nsome CloudWatch rule. So you could create a rule based on your desires\nthat triggers a Lambda function, which will in turn spin up an EMR\ncluster with the steps being your particular jobs.\n\nHope that helps,\nbest regards\n\nKonstantin\n\n\n",
+      "type": "Body",
+      "meta": null
+    },
+    {
+      "id": 4,
+      "start": 380,
+      "end": 412,
+      "text": "On 21.09.2017 01:25, ShB wrote:\n",
+      "type": "Header",
+      "meta": null
+    },
+    {
+      "id": 5,
+      "start": 722,
+      "end": 945,
+      "text": "-- \nKonstantin Gregor * konstantin.gregor@tngtech.com\nTNG Technology Consulting GmbH, Betastr. 13a, 85774 Unterf\u00c3\u00b6hring\nGesch\u00c3\u00a4ftsf\u00c3\u00bchrer: Henrik Klagges, Dr. Robert Dahlke, Gerhard M\u00c3\u00bcller\nAmtsgericht M\u00c3\u00bcnchen, HRB 135082\n",
+      "type": "Body/Signature",
+      "meta": null
+    },
+    {
+      "id": 6,
+      "start": 412,
+      "end": 946,
+      "text": "> Are there any recommended ways to schedule and manage Flink Workflows on EMR?\n> I need to run a series of jobs daily, based on API requests coming in, and\n> this job will need to interface with S3 for data. \n> \n> \n> \n> --\n> Sent from: http://apache-flink-user-mailing-list-archive.2336050.n4.nabble.com/\n> \n\n-- \nKonstantin Gregor * konstantin.gregor@tngtech.com\nTNG Technology Consulting GmbH, Betastr. 13a, 85774 Unterf\u00c3\u00b6hring\nGesch\u00c3\u00a4ftsf\u00c3\u00bchrer: Henrik Klagges, Dr. Robert Dahlke, Gerhard M\u00c3\u00bcller\nAmtsgericht M\u00c3\u00bcnchen, HRB 135082\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "eval/train_4907"
+}

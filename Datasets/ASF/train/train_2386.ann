@@ -1,0 +1,24 @@
+{
+  "wrapper": "plaintext",
+  "text": "Thanks for replying Shawn,\n\nThere was an issue with the db connection url, silly mistake.\n\nI am facing one another problem, do not know if should post in the same\nthread or as a new post. Anyways posting here only, let me know if needs to\nbe posted as new one.\n\nI am using DIH as you know. I have property_id as a unique key and I have i\nparent and 14-15 child entities(trying to improve performance for pretty old\nsystem hence can't avoid/reduce so many childs).\nWe have around 2.5 lacs ids in DB. So full import is becoming kind of near\nimpossible for me here. I tried to split this into multiple document files\nwithin the same core and added a new data import handler as well. but when I\nam running import on both urls. The latest data import overrides the\nprevious one, hence I am not able to get complete data.\n\nSo I have 2 questions here.\n\n1. Is there a better way of doing indexing and import than the way I am\ndoing it right now?\n2. if no, then how can I make full import faster here?\n\n--Ankur\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Getting-error-while-excuting-full-import-tp4329153p4330305.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 993,
+      "end": 1002,
+      "text": "\n--Ankur\n",
+      "type": "Body/Outro",
+      "meta": null
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 1200,
+      "text": "Thanks for replying Shawn,\n\nThere was an issue with the db connection url, silly mistake.\n\nI am facing one another problem, do not know if should post in the same\nthread or as a new post. Anyways posting here only, let me know if needs to\nbe posted as new one.\n\nI am using DIH as you know. I have property_id as a unique key and I have i\nparent and 14-15 child entities(trying to improve performance for pretty old\nsystem hence can't avoid/reduce so many childs).\nWe have around 2.5 lacs ids in DB. So full import is becoming kind of near\nimpossible for me here. I tried to split this into multiple document files\nwithin the same core and added a new data import handler as well. but when I\nam running import on both urls. The latest data import overrides the\nprevious one, hence I am not able to get complete data.\n\nSo I have 2 questions here.\n\n1. Is there a better way of doing indexing and import than the way I am\ndoing it right now?\n2. if no, then how can I make full import faster here?\n\n--Ankur\n\n\n\n--\nView this message in context: http://lucene.472066.n3.nabble.com/Getting-error-while-excuting-full-import-tp4329153p4330305.html\nSent from the Solr - User mailing list archive at Nabble.com.\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ],
+  "meta": {},
+  "id": "train/train_2386"
+}

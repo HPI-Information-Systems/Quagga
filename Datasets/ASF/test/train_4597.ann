@@ -1,0 +1,16 @@
+{
+  "wrapper": "text",
+  "id": "test/train_4597",
+  "meta": {},
+  "text": "<html>\n  <head>\n\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  </head>\n  <body text=\"#000000\" bgcolor=\"#FFFFFF\">\n    Hello,<br>\n    <br>\n    I recently came across the \"--driver-cores\" option when, for\n    example, launching a PySpark shell.<br>\n    <br>\n    Provided that there are idle CPUs on driver's node, what would be\n    the benefit of having multiple driver cores? For example, will this\n    accelerate the \"collect()\" operations? Will they be done in\n    parallel?<br>\n    <br>\n    Can't find any documentation about how the behavior will change from\n    using just 1 core for the driver.<br>\n    <br>\n    Thanks in advance.<br>\n    <br>\n    Judit<br>\n  </body>\n</html>\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+  "denotations": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 838,
+      "text": "<html>\n  <head>\n\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  </head>\n  <body text=\"#000000\" bgcolor=\"#FFFFFF\">\n    Hello,<br>\n    <br>\n    I recently came across the \"--driver-cores\" option when, for\n    example, launching a PySpark shell.<br>\n    <br>\n    Provided that there are idle CPUs on driver's node, what would be\n    the benefit of having multiple driver cores? For example, will this\n    accelerate the \"collect()\" operations? Will they be done in\n    parallel?<br>\n    <br>\n    Can't find any documentation about how the behavior will change from\n    using just 1 core for the driver.<br>\n    <br>\n    Thanks in advance.<br>\n    <br>\n    Judit<br>\n  </body>\n</html>\n\n---------------------------------------------------------------------\nTo unsubscribe e-mail: user-unsubscribe@spark.apache.org\n\n\n",
+      "type": "Body",
+      "meta": null
+    }
+  ]
+}

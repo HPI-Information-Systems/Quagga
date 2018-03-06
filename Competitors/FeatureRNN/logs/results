@@ -1,0 +1,127 @@
+========================================================================================================
+model.add(Masking(mask_value=0.0,
+                          input_shape=(None, len(self.features))))
+model.add(GRU(units=len(self.features),
+              return_sequences=True,
+              kernel_initializer='glorot_uniform',
+              recurrent_initializer='orthogonal',
+              bias_initializer='RandomUniform',
+              kernel_regularizer=l2(0.1),
+              activation='softsign',
+              recurrent_activation='softsign',
+              # dropout=0.2,
+              # recurrent_dropout=0.1,
+              name='rnn_layer1'))
+model.add(GRU(units=len(self.labels),
+              return_sequences=True,
+              kernel_initializer='glorot_uniform',
+              recurrent_initializer='orthogonal',
+              bias_initializer='RandomUniform',
+              kernel_regularizer=l2(0.2),
+              recurrent_regularizer=l2(0.2),
+              recurrent_activation='softmax',
+              activation='softmax',
+              name='output'))
+model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
+              sample_weight_mode='temporal',
+              metrics=['accuracy'])
+
+Accuracy:  0.964439505487
+             precision    recall  f1-score   support
+
+       Body       0.99      0.97      0.98      6065
+     Header       0.86      0.93      0.89      1134
+
+avg / total       0.97      0.96      0.96      7199
+
+['Body' 'Header']
+[[5893  172]
+ [  84 1050]]
+========================================================================================================
+model.add(GRU(units=len(self.features),
+                  # input_shape=(None, len(self.features)),
+                  return_sequences=True,
+                  kernel_initializer='glorot_uniform',
+                  recurrent_initializer='orthogonal',
+                  bias_initializer='zeros',
+                  bias_regularizer=l2(0.2),
+                  activation='tanh',
+                  recurrent_activation='hard_sigmoid',
+                  #dropout=0.2,
+                  # recurrent_dropout=0.1,
+                  name='rnn_layer1'))
+model.add(GRU(units=len(self.labels),
+              return_sequences=True,
+              kernel_initializer='glorot_uniform',
+              recurrent_initializer='orthogonal',
+              bias_initializer='zeros',
+              recurrent_activation='hard_sigmoid',
+              activation='softmax',
+              name='output'))
+model.compile(loss='categorical_crossentropy',  # 'msle',
+              optimizer='Adam',  # 'RMSprop',  # opts.Adadelta(),
+              sample_weight_mode='temporal',
+              metrics=['accuracy'])
+
+Accuracy:  0.833032365606
+                precision    recall  f1-score   support
+
+          Body       0.99      0.81      0.89      5550
+    Body/Intro       0.14      0.91      0.25        32
+    Body/Outro       0.28      0.79      0.42       193
+Body/Signature       0.41      0.88      0.55       290
+        Header       0.84      0.95      0.89      1134
+
+   avg / total       0.92      0.83      0.86      7199
+
+['Body' 'Body/Intro' 'Body/Outro' 'Body/Signature' 'Header']
+[[4480  167  361  339  203]
+ [   1   29    2    0    0]
+ [  29    1  153    8    2]
+ [  10    3   21  254    2]
+ [  26    1    0   26 1081]]
+
+ ==================================================================================================
+model.add(Masking(mask_value=0.0,
+                  input_shape=(None, len(self.features))))
+model.add(GaussianNoise(0.3))
+model.add(GRU(units=len(self.features),
+              return_sequences=True,
+              kernel_initializer='glorot_uniform',
+              recurrent_initializer='orthogonal',
+              bias_initializer='zeros',
+              bias_regularizer=l2(0.2),
+              activation='tanh',
+              recurrent_activation='hard_sigmoid',
+              name='rnn_layer1'))
+model.add(GRU(units=len(self.label_encoder.classes_),
+              return_sequences=True,
+              kernel_initializer='glorot_uniform',
+              recurrent_initializer='orthogonal',
+              bias_initializer='zeros',
+              recurrent_activation='hard_sigmoid',
+              activation='softmax',
+              name='output'))
+model.compile(loss='categorical_crossentropy',  # 'msle',
+              optimizer='Adam',  # 'RMSprop',  # opts.Adadelta(),
+              sample_weight_mode='temporal',
+              metrics=['accuracy'])
+
+Accuracy:  0.838588692874
+                precision    recall  f1-score   support
+
+          Body       0.99      0.81      0.89      5550
+    Body/Intro       0.16      0.91      0.28        32
+    Body/Outro       0.28      0.83      0.42       193
+Body/Signature       0.44      0.82      0.57       290
+        Header       0.83      0.96      0.89      1134
+
+   avg / total       0.92      0.84      0.86      7199
+
+['Body' 'Body/Intro' 'Body/Outro' 'Body/Signature' 'Header']
+[[4523  142  389  276  220]
+ [   1   29    2    0    0]
+ [  23    1  161    7    1]
+ [  21    1   27  239    2]
+ [  22    3    1   23 1085]]

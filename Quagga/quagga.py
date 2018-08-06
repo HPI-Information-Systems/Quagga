@@ -7,6 +7,7 @@ from keras_contrib.layers import CRF
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 import os.path
+import tensorflow as tf
 
 line_embedding_size = 32
 
@@ -97,6 +98,7 @@ char_index = list(' '
 num_possible_chars = len(char_index)
 line_length = 80
 
+graph = tf.get_default_graph()
 
 def embed(lines, embedding_functions=None):
     x = np.zeros((len(lines), line_length, num_possible_chars + 1))
@@ -139,39 +141,40 @@ def get_predictions(text, with_crf=True, zones=2, trainset='enron'):
         raise ValueError("Only trained on 'enron' and 'asf' corpus!")
     if with_crf not in [True, False]:
         raise ValueError("Invalid value for with_crf. Has to be bool!")
+    global graph
+    with graph.as_default():
+        if zones == 5:
+            if trainset == 'enron':
+                func_a = enron_five_zone_line_a_func
+                func_b = enron_five_zone_line_b_func
+                model = enron_five_zone_model
+                embedding_a = enron_five_zone_line_a
+            else:
+                func_a = asf_five_zone_line_a_func
+                func_b = asf_five_zone_line_b_func
+                model = asf_five_zone_model
+                embedding_a = asf_five_zone_line_a
 
-    if zones == 5:
-        if trainset == 'enron':
-            func_a = enron_five_zone_line_a_func
-            func_b = enron_five_zone_line_b_func
-            model = enron_five_zone_model
-            embedding_a = enron_five_zone_line_a
-        else:
-            func_a = asf_five_zone_line_a_func
-            func_b = asf_five_zone_line_b_func
-            model = asf_five_zone_model
-            embedding_a = asf_five_zone_line_a
+            if with_crf:
+                text_embedded = embed(text_lines, [func_a, func_b])
+                y = model.predict(np.array([text_embedded])).tolist()[0]
+                return y, text_lines, five_encoder
+            else:
+                return embedding_a.predict(embed(text_lines)).tolist(), text_lines, five_encoder
 
-        if with_crf:
-            text_embedded = embed(text_lines, [func_a, func_b])
-            y = model.predict(np.array([text_embedded])).tolist()[0]
-            return y, text_lines, five_encoder
         else:
-            return embedding_a.predict(embed(text_lines)).tolist(), text_lines, five_encoder
+            if trainset == 'enron':
+                func_b = enron_two_zone_line_b_func
+                model = enron_two_zone_model
+                embedding_b = enron_two_zone_line_b
+            else:
+                func_b = asf_two_zone_line_b_func
+                model = asf_two_zone_model
+                embedding_b = asf_two_zone_line_b
 
-    else:
-        if trainset == 'enron':
-            func_b = enron_two_zone_line_b_func
-            model = enron_two_zone_model
-            embedding_b = enron_two_zone_line_b
-        else:
-            func_b = asf_two_zone_line_b_func
-            model = asf_two_zone_model
-            embedding_b = asf_two_zone_line_b
-
-        if with_crf:
-            text_embedded = embed(text_lines, [func_b])
-            y = model.predict(np.array([text_embedded])).tolist()[0]
-            return y, text_lines, two_encoder
-        else:
-            return embedding_b.predict(embed(text_lines)).tolist(), text_lines, two_encoder
+            if with_crf:
+                text_embedded = embed(text_lines, [func_b])
+                y = model.predict(np.array([text_embedded])).tolist()[0]
+                return y, text_lines, two_encoder
+            else:
+                return embedding_b.predict(embed(text_lines)).tolist(), text_lines, two_encoder

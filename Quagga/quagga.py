@@ -1,180 +1,125 @@
-import keras.backend as K
-from keras_contrib.utils import save_load_utils
-from keras.models import model_from_json
-from keras.models import Model
-from keras.layers import Masking, GRU, Input, Bidirectional
-from keras_contrib.layers import CRF
+# -*- coding: utf-8 -*-
+
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
-import os.path
 import tensorflow as tf
+from quaggaModelBuilder import QuaggaModelBuilder
+from quaggaBlockParser import QuaggaBlockParser
 
-line_embedding_size = 32
+class Quagga:
+	# todo block parser
+	# todo store predictions
+	def __init__(self, emails, model_builder=QuaggaModelBuilder(), block_parser=QuaggaBlockParser()):
+		self.emails_input = emails
 
+		self.model_builder = model_builder
+		model_builder.build_configs()
+		model_builder.build_models()
+		self.model = model_builder.quagga_model
 
-def load_keras_model(path, model=None):
-    with open(os.path.abspath(path + '.json'), 'r') as jf:
-        json_model = jf.read()
-    if model is None:
-        model = model_from_json(json_model)
-        # model.summary()
-    # print(model.get_weights()[0])
-    try:
-        save_load_utils.load_all_weights(model, os.path.abspath(path + '.hdf5'))
-    except KeyError:
-        model.load_weights(os.path.abspath(path + '.hdf5'))
-    # print(model.get_weights()[0])
-    return model
+		self.block_parser = block_parser
+		
 
+	def print_predictions(self):
+		for email_predicted in self.emails_predicted:
+			for line_prediction in email_predicted:
+				print(str(line_prediction['predictions']) + ' ' + line_prediction['text'])
+	def store_predictions(self, filename):
+		#todo
+		pass
 
-def get_mail_model_five():
-    output_size = 5
-    in_mail = Input(shape=(None, line_embedding_size * 2), dtype='float32')
-    mask = Masking()(in_mail)
-    hidden = GRU(32,
-                 return_sequences=True,
-                 implementation=0)(mask)
-    crf = CRF(output_size, sparse_target=False)
-    output = crf(hidden)
+	def predict(self):
+		self.emails_predicted = [self.get_predictions(email) for email in self.emails_input]
+		
+	def get_predictions(self, mail):
+		text_raw = mail
+		text_lines = text_raw.split('\n')
 
-    model = Model(inputs=in_mail, outputs=output)
+		return self.prettify_prediction(*self.model.predict(text_lines))
+	        
+	def prettify_prediction(self, y, text_lines, label_encoder):
+		labels = label_encoder.classes_
+		predictions = []
+		for yi, line in zip(y, text_lines):
+			line_prediction = {
+		        'text': line,
+		        'predictions': {}
+		    }
+			for li, label in enumerate(labels):
+				line_prediction['predictions'][label] = yi[li]
+			predictions.append(line_prediction)
+		return predictions
 
-    # model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
-    return model
-
-
-def get_mail_model_two():
-    output_size = 2
-    in_mail = Input(shape=(None, line_embedding_size), dtype='float32')
-
-    mask = Masking()(in_mail)
-    hidden = Bidirectional(GRU(32 // 2,
-                               return_sequences=True,
-                               implementation=0))(mask)
-    crf = CRF(output_size, sparse_target=False)  # , test_mode='marginal', learn_mode='marginal')
-    output = crf(hidden)
-
-    model = Model(inputs=in_mail, outputs=output)
-    # model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
-    return model
-
-
-def get_embedding_function(model):
-    model_in = [model.input]
-    embedding_func = K.function(model_in + [K.learning_phase()], [model.layers[-2].output])
-
-    def lambdo(x):
-        return embedding_func([x, 0.])[0]
-
-    return lambdo
+	def parse(self):
+		self.emails_parsed = self.block_parser.parse_predictions(self.emails_predicted)
+		print(self.emails_parsed)
 
 
-enron_two_zone_line_b = load_keras_model('models/two_zones/enron_line_model_b')
-enron_two_zone_model = load_keras_model('models/two_zones/enron_model', model=get_mail_model_two())
-enron_five_zone_line_a = load_keras_model('models/five_zones/enron_line_model_a')
-enron_five_zone_line_b = load_keras_model('models/five_zones/enron_line_model_b')
-enron_five_zone_model = load_keras_model('models/five_zones/enron_model', model=get_mail_model_five())
-asf_two_zone_line_b = load_keras_model('models/two_zones/asf_line_model_b')
-asf_two_zone_model = load_keras_model('models/two_zones/asf_model', model=get_mail_model_two())
-asf_five_zone_line_a = load_keras_model('models/five_zones/asf_line_model_a')
-asf_five_zone_line_b = load_keras_model('models/five_zones/asf_line_model_b')
-asf_five_zone_model = load_keras_model('models/five_zones/asf_model', model=get_mail_model_five())
+if __name__ == '__main__':
+	
+	emails = ['Daren:\n\
+	\n\
+	Just wanted to follow up with you on the April noms at Texas\n\
+	City..............   the volumes recorded for April 1 were 5300 and 1165...\n\
+	since we have been directed not to change Sitara deal tickets for now, would\n\
+	you please correct?\n\
+	\n\
+	Thanks!!\n\
+	\n\
+	Charlotte\n\
+	\n\
+	---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000\n\
+	01:37 PM ---------------------------\n\
+	\n\
+	\n\
+	\n\
+	From:  Charlotte Hawkins                           03/30/2000 11:33 AM\n\
+	\n\
+	\n\
+	To: Daren J Farmer/HOU/ECT@ECT, Stacey Neuweiler/HOU/ECT@ECT\n\
+	cc: Vance L Taylor/HOU/ECT@ECT, Mary Jo Johnson/HOU/ECT@ECT, Melissa\n\
+	Graves/HOU/ECT@ECT\n\
+	Subject: April, Aspect Volume @ Texas City\n\
+	\n\
+	\n\
+	For April 1, 2000:\n\
+	\n\
+	Cross Media                         989815 =    903 MMBtu\n\
+	TNCT                                      989816  = 5878  MMBtu\n\
+	\n\
+	Any questions, just call.\n\
+	\n\
+	Thanks,\n\
+	\n\
+	Charlotte Hawkins']
 
-enron_five_zone_line_a_func = get_embedding_function(enron_five_zone_line_a)
-enron_five_zone_line_b_func = get_embedding_function(enron_five_zone_line_b)
-enron_two_zone_line_b_func = get_embedding_function(enron_two_zone_line_b)
-asf_five_zone_line_a_func = get_embedding_function(asf_five_zone_line_a)
-asf_five_zone_line_b_func = get_embedding_function(asf_five_zone_line_b)
-asf_two_zone_line_b_func = get_embedding_function(asf_two_zone_line_b)
-
-two_encoder = LabelEncoder().fit(['Body', 'Header'])
-five_encoder = LabelEncoder().fit(['Body', 'Header', 'Body/Signature', 'Body/Intro', 'Body/Outro'])
-
-char_index = list(' '
-                  'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-                  'abcdefghijklmnopqrstuvwxyz'
-                  '0123456789'
-                  '@€-_.:,;#\'+*~\?}=])[({/&%$§"!^°|><´`\n')
-num_possible_chars = len(char_index)
-line_length = 80
-
-graph = tf.get_default_graph()
-
-def embed(lines, embedding_functions=None):
-    x = np.zeros((len(lines), line_length, num_possible_chars + 1))
-
-    for i, line in enumerate(lines):
-        for j, c in enumerate(line):
-            if j >= line_length:
-                break
-            x[i][j][char_index.index(c) + 1 if c in char_index else 0] = 1
-
-    if embedding_functions is None:
-        return x
-
-    x = np.concatenate([embedding_function(x) for embedding_function in embedding_functions], axis=1)
-
-    return x
+	quagga = Quagga(emails)
+	quagga.predict()
+	#quagga.print_predictions()
+	quagga.parse()
 
 
-def prettify_prediction(y, text_lines, label_encoder):
-    labels = label_encoder.classes_
-    ret = []
-    for yi, line in zip(y, text_lines):
-        tmp = {
-            'text': line,
-            'predictions': {}
-        }
-        for li, label in enumerate(labels):
-            tmp['predictions'][label] = yi[li]
-        ret.append(tmp)
-    return ret
+
+"""
+    - Klasse um alle emails einzulesen
+    eingaben:
+    - emails in textformat eingeben (später evtl auch einlesen)
+    ausgaben:
+    - blöcke zurückgeben
+    - dieses format zurückgeben mit den regexes
+
+    - eine klasse fürs parsing
+    - eine klasse fürs model
+    - models nicht alle auf einmal laden
+    """
 
 
-def get_predictions(text, with_crf=True, zones=2, trainset='enron'):
-    text_raw = text
-    text_lines = text_raw.split('\n')
 
-    if zones not in [2, 5]:
-        raise ValueError('Only trained for 2 and 5 zone predictions!')
-    if trainset not in ['enron', 'asf']:
-        raise ValueError("Only trained on 'enron' and 'asf' corpus!")
-    if with_crf not in [True, False]:
-        raise ValueError("Invalid value for with_crf. Has to be bool!")
-    global graph
-    with graph.as_default():
-        if zones == 5:
-            if trainset == 'enron':
-                func_a = enron_five_zone_line_a_func
-                func_b = enron_five_zone_line_b_func
-                model = enron_five_zone_model
-                embedding_a = enron_five_zone_line_a
-            else:
-                func_a = asf_five_zone_line_a_func
-                func_b = asf_five_zone_line_b_func
-                model = asf_five_zone_model
-                embedding_a = asf_five_zone_line_a
 
-            if with_crf:
-                text_embedded = embed(text_lines, [func_a, func_b])
-                y = model.predict(np.array([text_embedded])).tolist()[0]
-                return y, text_lines, five_encoder
-            else:
-                return embedding_a.predict(embed(text_lines)).tolist(), text_lines, five_encoder
 
-        else:
-            if trainset == 'enron':
-                func_b = enron_two_zone_line_b_func
-                model = enron_two_zone_model
-                embedding_b = enron_two_zone_line_b
-            else:
-                func_b = asf_two_zone_line_b_func
-                model = asf_two_zone_model
-                embedding_b = asf_two_zone_line_b
 
-            if with_crf:
-                text_embedded = embed(text_lines, [func_b])
-                y = model.predict(np.array([text_embedded])).tolist()[0]
-                return y, text_lines, two_encoder
-            else:
-                return embedding_b.predict(embed(text_lines)).tolist(), text_lines, two_encoder
+
+
+
+
+
+

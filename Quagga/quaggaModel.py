@@ -1,13 +1,14 @@
 import numpy as np
 
+
 class QuaggaModel:
 	def __init__(self):
 		self.line_length = 80
 		self.char_index = list(' '
-				  'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-				  'abcdefghijklmnopqrstuvwxyz'
-				  '0123456789'
-				  '@€-_.:,;#\'+*~\?}=])[({/&%$§"!^°|><´`\n')
+		                       'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+		                       'abcdefghijklmnopqrstuvwxyz'
+		                       '0123456789'
+		                       '@€-_.:,;#\'+*~\?}=])[({/&%$§"!^°|><´`\n')
 		self.num_possible_chars = len(self.char_index)
 
 		self.zones = None
@@ -43,7 +44,7 @@ class QuaggaModel:
 		if embedding_functions is None:
 			return x
 		x = np.concatenate([embedding_function(x)
-						   for embedding_function in embedding_functions], axis=1)
+		                    for embedding_function in embedding_functions], axis=1)
 		return x
 
 	def predict(self, text_lines):

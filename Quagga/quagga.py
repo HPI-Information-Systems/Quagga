@@ -4,9 +4,12 @@ import numpy as np
 import tensorflow as tf
 from quaggaModelBuilder import QuaggaModelBuilder
 from quaggaBlockParser import QuaggaBlockParser
+from pprint import pprint
+
 
 class Quagga:
-	# todo block parser
+	# todo block parser (refactoring)
+	# todo block parser file format??
 	# todo store predictions
 	def __init__(self, emails, model_builder=QuaggaModelBuilder(), block_parser=QuaggaBlockParser()):
 		self.emails_input = emails
@@ -17,33 +20,37 @@ class Quagga:
 		self.model = model_builder.quagga_model
 
 		self.block_parser = block_parser
-		
 
 	def print_predictions(self):
 		for email_predicted in self.emails_predicted:
 			for line_prediction in email_predicted:
 				print(str(line_prediction['predictions']) + ' ' + line_prediction['text'])
-	def store_predictions(self, filename):
-		#todo
+
+	def store_emails_predicted(self, filename):
+		# todo
+		# einmal dict zurückgeben
+		# einfach das was rauskommt speichern
+		# bisschen zusammenstellen was man haben mchte
+		# json speichern
 		pass
 
 	def predict(self):
 		self.emails_predicted = [self.get_predictions(email) for email in self.emails_input]
-		
+
 	def get_predictions(self, mail):
 		text_raw = mail
 		text_lines = text_raw.split('\n')
 
 		return self.prettify_prediction(*self.model.predict(text_lines))
-	        
+
 	def prettify_prediction(self, y, text_lines, label_encoder):
 		labels = label_encoder.classes_
 		predictions = []
 		for yi, line in zip(y, text_lines):
 			line_prediction = {
-		        'text': line,
-		        'predictions': {}
-		    }
+				'text': line,
+				'predictions': {}
+			}
 			for li, label in enumerate(labels):
 				line_prediction['predictions'][label] = yi[li]
 			predictions.append(line_prediction)
@@ -51,11 +58,13 @@ class Quagga:
 
 	def parse(self):
 		self.emails_parsed = self.block_parser.parse_predictions(self.emails_predicted)
-		print(self.emails_parsed)
+
+	def store_emails_parsed(self):
+		# todo
+		pass
 
 
 if __name__ == '__main__':
-	
 	emails = ['Daren:\n\
 	\n\
 	Just wanted to follow up with you on the April noms at Texas\n\
@@ -94,32 +103,12 @@ if __name__ == '__main__':
 
 	quagga = Quagga(emails)
 	quagga.predict()
-	#quagga.print_predictions()
+	# quagga.print_predictions()
 	quagga.parse()
+	pprint(quagga.emails_parsed)
 
-
-
-"""
-    - Klasse um alle emails einzulesen
-    eingaben:
-    - emails in textformat eingeben (später evtl auch einlesen)
-    ausgaben:
-    - blöcke zurückgeben
-    - dieses format zurückgeben mit den regexes
-
-    - eine klasse fürs parsing
-    - eine klasse fürs model
-    - models nicht alle auf einmal laden
+""" 
+    - aktuelle keras version
+    - trainieren
+    - einlesen von emails
     """
-
-
-
-
-
-
-
-
-
-
-
-

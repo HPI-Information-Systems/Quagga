@@ -17,11 +17,12 @@ from quaggaModel import QuaggaModel
 
 
 class QuaggaModelBuilder:
-	# todo
 
+	# todo
 	# dataclass
 	# private underscores
 	# code duplication
+	# model trainieren
 
 	def __init__(self, with_crf=True, zones=2, trainset='enron'):
 
@@ -33,14 +34,13 @@ class QuaggaModelBuilder:
 			raise ValueError("Invalid value for with_crf. Has to be bool!")
 
 		self.line_embedding_size = 32
-		
+
 		# todo use @dataclass ?
 		self.model_paths = {}
-		
+
 		self.zones = zones
 		self.trainset = trainset
 		self.with_crf = with_crf
-
 
 		self.quagga_model = QuaggaModel()
 
@@ -85,20 +85,22 @@ class QuaggaModelBuilder:
 		inst.trainset = 'own trainset provided'
 		return inst
 
-
 	def build_configs(self):
 		self.quagga_model.set_configs(self.zones, self.with_crf, self.trainset)
-		if(self.zones == 2):
+		if (self.zones == 2):
 			self.quagga_model.encoder = LabelEncoder().fit(['Body', 'Header'])
-		elif(self.zones == 5):
-			self.quagga_model.encoder = LabelEncoder().fit(['Body', 'Header', 'Body/Signature', 'Body/Intro', 'Body/Outro'])
-	
+		elif (self.zones == 5):
+			self.quagga_model.encoder = LabelEncoder().fit(
+				['Body', 'Header', 'Body/Signature', 'Body/Intro', 'Body/Outro'])
+
 	def build_models(self):
 		self.build_model()
 		self.build_line_model()
 		self.quagga_model.graph = tf.get_default_graph()
+
 	def build_model(self):
 		self.quagga_model.model = self.load_keras_model(self.model_paths['model_path'], self.mail_model())
+
 	def build_line_model(self):
 		line_model_b = self.load_keras_model(self.model_paths['line_b_path'])
 		line_b_func = self.get_embedding_function(line_model_b)
@@ -111,18 +113,13 @@ class QuaggaModelBuilder:
 			line_a_func = self.get_embedding_function(line_model)
 			line_funcs = [line_a_func, line_b_func]
 
-
 		self.quagga_model.line_model = line_model
 		self.quagga_model.line_functions = line_funcs
-		
-
-
-	
 
 	def mail_model(self):
-		if(self.zones == 2):
+		if (self.zones == 2):
 			return self.get_mail_model_two()
-		elif(self.zones == 5):
+		elif (self.zones == 5):
 			return self.get_mail_model_five()
 
 	def load_keras_model(self, path, model=None):
@@ -130,7 +127,7 @@ class QuaggaModelBuilder:
 			json_model = jf.read()
 		if model is None:
 			model = model_from_json(json_model)
-			# model.summary()
+		# model.summary()
 		# print(model.get_weights()[0])
 		try:
 			save_load_utils.load_all_weights(model, os.path.abspath(path + '.hdf5'))
@@ -148,14 +145,13 @@ class QuaggaModelBuilder:
 
 		return lambdo
 
-	
 	def get_mail_model_five(self):
 		output_size = 5
 		in_mail = Input(shape=(None, self.line_embedding_size * 2), dtype='float32')
 		mask = Masking()(in_mail)
 		hidden = GRU(32,
-					 return_sequences=True,
-					 implementation=0)(mask)
+		             return_sequences=True,
+		             implementation=0)(mask)
 		crf = CRF(output_size, sparse_target=False)
 		output = crf(hidden)
 
@@ -164,21 +160,17 @@ class QuaggaModelBuilder:
 		# model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
 		return model
 
-	
 	def get_mail_model_two(self):
 		output_size = 2
 		in_mail = Input(shape=(None, self.line_embedding_size), dtype='float32')
 
 		mask = Masking()(in_mail)
 		hidden = Bidirectional(GRU(32 // 2,
-								   return_sequences=True,
-								   implementation=0))(mask)
+		                           return_sequences=True,
+		                           implementation=0))(mask)
 		crf = CRF(output_size, sparse_target=False)  # , test_mode='marginal', learn_mode='marginal')
 		output = crf(hidden)
 
 		model = Model(inputs=in_mail, outputs=output)
 		# model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
 		return model
-	
-
-

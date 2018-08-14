@@ -1,9 +1,11 @@
 import re
 
+
 class QuaggaBlockParser:
+	# todo fix same block multiple times
+
 	def __init__(self):
 		pass
-
 
 	def top_prediction(self, predictions):
 		return sorted(predictions.items(), key=lambda x: x[1], reverse=True)[0][0]
@@ -36,16 +38,16 @@ class QuaggaBlockParser:
 						blocks.append(curr_block)
 						next_mode = 1 if 'forward' in line_low else 2
 						curr_block = {'from': None, 'to': None, 'cc': None, 'sent': None, 'subject': None,
-									  'type': 'forward' if next_mode == 1 else 'reply',
-									  'raw_header': [],
-									  'text': []}
+						              'type': 'forward' if next_mode == 1 else 'reply',
+						              'raw_header': [],
+						              'text': []}
 						mode = next_mode
 
 					# stop eating forward header when seeing "-----Original Message-----"
 					if mode == 1 and 'original' in line_low:
 						blocks.append(curr_block)
 						curr_block = {'from': None, 'to': None, 'sent': None, 'subject': None,
-									  'type': 'reply', 'raw_header': [line_prediction['text']], 'text': []}
+						              'type': 'reply', 'raw_header': [line_prediction['text']], 'text': []}
 						mode = 2
 						# nothing else to expect from this line, carry on!
 						# note: there are cases where newlines are missing, ...
@@ -56,7 +58,8 @@ class QuaggaBlockParser:
 					if mode == 1 and re.match(r"-+ ?forward.+?-+", line_low):
 						curr_block['raw_header'].append(line_prediction['text'])
 
-						grps = re.search(r"-+ Forward(?:ed)? by (.+?) on (.+?)-+", line_prediction['text'], flags=re.IGNORECASE)
+						grps = re.search(r"-+ Forward(?:ed)? by (.+?) on (.+?)-+", line_prediction['text'],
+						                 flags=re.IGNORECASE)
 						# FIXME: this is not save to use, exceptions expected!
 						curr_block['from'] = grps.group(1)
 						curr_block['sent'] = grps.group(2)
@@ -66,7 +69,7 @@ class QuaggaBlockParser:
 						curr_block['subject'] = blocks[-1]['subject']
 
 						curr_block = {'from': None, 'to': None, 'cc': None, 'sent': None, 'subject': None,
-									  'type': None, 'raw_header': [], 'text': []}
+						              'type': None, 'raw_header': [], 'text': []}
 
 						# next up: zombie mode (eat bodies)
 						mode = 0
@@ -94,7 +97,8 @@ class QuaggaBlockParser:
 							# must then be the second line?
 							grps = re.search(r"(?:on )?(.+?)-+", line_prediction['text'], flags=re.IGNORECASE)
 							# FIXME: this is not save to use, exceptions expected!
-							curr_block['sent'] = ('' if curr_block['sent'] is None else curr_block['sent']) + grps.group(1)
+							curr_block['sent'] = ('' if curr_block['sent'] is None else curr_block[
+								'sent']) + grps.group(1)
 							mode = 0
 						continue
 
@@ -176,53 +180,51 @@ class QuaggaBlockParser:
 					# last resort: might just be a leading from field with no prefix
 					curr_block['from'] = ('' if curr_block['from'] is None else curr_block['from']) + ' ' + line_text
 
-					# Sara Shackleton
-					# 03/01/2000 07:43 AM
-					# To: Mark Taylor/HOU/ECT@ECT
-					# cc: Kaye Ellis/HOU/ECT@ECT
-					# Subject: Trip to Brazil
+				# Sara Shackleton
+				# 03/01/2000 07:43 AM
+				# To: Mark Taylor/HOU/ECT@ECT
+				# cc: Kaye Ellis/HOU/ECT@ECT
+				# Subject: Trip to Brazil
 
-					# Shirley Crenshaw
-					# 09/06/2000 12:56 PM
-					# To: ludkam@aol.com
-					# cc:  (bcc: Vince J Kaminski/HOU/ECT)
-					# Subject: Vince's Travel Itinerary
+				# Shirley Crenshaw
+				# 09/06/2000 12:56 PM
+				# To: ludkam@aol.com
+				# cc:  (bcc: Vince J Kaminski/HOU/ECT)
+				# Subject: Vince's Travel Itinerary
 
-					#  -----Original Message-----
-					# From: 	Crews, David
-					# Sent:	Wednesday, May 30, 2001 10:11 AM
-					# To:	Buy, Rick
-					# Cc:	Gorte, David
-					# Subject:	RE: FYI - Project Raven
+				#  -----Original Message-----
+				# From: 	Crews, David
+				# Sent:	Wednesday, May 30, 2001 10:11 AM
+				# To:	Buy, Rick
+				# Cc:	Gorte, David
+				# Subject:	RE: FYI - Project Raven
 
-					# 	Rick Buy/ENRON@enronXgate 05/30/01 09:20 AM 	   To: David Crews/Enron Communications@Enron Communications  cc: David Gorte/ENRON@enronXgate  Subject: RE: FYI - Project Raven
+				# 	Rick Buy/ENRON@enronXgate 05/30/01 09:20 AM 	   To: David Crews/Enron Communications@Enron Communications  cc: David Gorte/ENRON@enronXgate  Subject: RE: FYI - Project Raven
 
-					#     -----Original Message-----
-					#    From:   jennifer.d.sanders@us.andersen.com@ENRON
-					#
-					# [mailto:IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com]
-					#
-					#
-					#
-					#    Sent:   Tuesday, August 07, 2001 10:58 AM
-					#    To:     Nemec, Gerald
-					#    Subject:  Re: Hello!
+				#     -----Original Message-----
+				#    From:   jennifer.d.sanders@us.andersen.com@ENRON
+				#
+				# [mailto:IMCEANOTES-jennifer+2Ed+2Esanders+40us+2Eandersen+2Ecom+40ENRON@ENRON.com]
+				#
+				#
+				#
+				#    Sent:   Tuesday, August 07, 2001 10:58 AM
+				#    To:     Nemec, Gerald
+				#    Subject:  Re: Hello!
 
-					# To:   IMCEANOTES-jennifer+2Esanders/40us/2Eandersen/2Ecom/40ENRON@enron.com
-					# cc:     (bcc: Jennifer D. Sanders)
-					# Date: 08/07/2001 03:09 PM
-					# From: Gerald.Nemec@enron.com
-					# Subject:  RE: Hello!
+				# To:   IMCEANOTES-jennifer+2Esanders/40us/2Eandersen/2Ecom/40ENRON@enron.com
+				# cc:     (bcc: Jennifer D. Sanders)
+				# Date: 08/07/2001 03:09 PM
+				# From: Gerald.Nemec@enron.com
+				# Subject:  RE: Hello!
 
-				else: #line_prediction != 'header'
+				else:  # line_prediction != 'header'
 					mode = 0
 					curr_block['text'].append(line_prediction['text'])
 				# todo only add block if it changed
 				blocks.append(curr_block)
 			# end for line_prediction in email_predicted:
 
-
-			# todo deledet text and predictions here and do them in quagga.py
 			email_parsed = {
 				'blocks': blocks}
 			emails_parsed.append(email_parsed)
@@ -230,41 +232,41 @@ class QuaggaBlockParser:
 
 		return emails_parsed
 
-		# # join lines to blocks
-		# blocks = []
-		# prev = tp(pred[0]['predictions'])
-		# accu = []
-		# for l in pred:
-		#     ltp = tp(l['predictions'])
-		#     if prev != ltp:
-		#         blocks.append({
-		#             'type': prev,
-		#             'lines': accu
-		#         })
-		#         accu = []
-		#     prev = ltp
-		#     accu.append(l['text'])
-		# # add dangling accumulator
-		# blocks.append({
-		#     'type': prev,
-		#     'lines': accu
-		# })
-		#
-		# # parse header blocks
-		# for i, b in enumerate(blocks):
-		#     # don't care about non-headers
-		#     if b['type'] != 'Header':
-		#         continue
-		#
-		#     tmphead = {}
-		#     #for l in b['lines']:
-		#
-		#     # catch on:
-		#     # ---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000
-		#     # 01:37 PM ---------------------------
-		#     # or
-		#     # ---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM --------------------------
-		#     # but don't confuse with
-		#     # -----Original Message-----
-		#     #for l in b['lines']:
-		#         #if 'forward' in l.lower():
+	# # join lines to blocks
+	# blocks = []
+	# prev = tp(pred[0]['predictions'])
+	# accu = []
+	# for l in pred:
+	#     ltp = tp(l['predictions'])
+	#     if prev != ltp:
+	#         blocks.append({
+	#             'type': prev,
+	#             'lines': accu
+	#         })
+	#         accu = []
+	#     prev = ltp
+	#     accu.append(l['text'])
+	# # add dangling accumulator
+	# blocks.append({
+	#     'type': prev,
+	#     'lines': accu
+	# })
+	#
+	# # parse header blocks
+	# for i, b in enumerate(blocks):
+	#     # don't care about non-headers
+	#     if b['type'] != 'Header':
+	#         continue
+	#
+	#     tmphead = {}
+	#     #for l in b['lines']:
+	#
+	#     # catch on:
+	#     # ---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000
+	#     # 01:37 PM ---------------------------
+	#     # or
+	#     # ---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM --------------------------
+	#     # but don't confuse with
+	#     # -----Original Message-----
+	#     #for l in b['lines']:
+	#         #if 'forward' in l.lower():

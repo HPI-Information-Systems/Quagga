@@ -40,15 +40,18 @@ class Quagga:
 		self.email_reader = email_reader
 		self.email_bodies = [email.clean_body for email in self.email_reader]
 
-	def predict(self, model_builder=QuaggaModelBuilder(), model=None):
+	def build_model(self, model_builder=QuaggaModelBuilder(), model=None):
+
 		self.model_builder = model_builder
 		if model is not None:
 			self.model = model
 		else:
+			self.model_builder.quagga_model.graph = tf.get_default_graph()
 			self.model_builder = model_builder
 			self.model_builder.build()
 			self.model = model_builder.quagga_model
 
+	def predict(self):
 		self.emails_predicted = [self._get_predictions(email_body) for email_body in self.email_bodies]
 
 	def parse(self, block_parser=QuaggaBlockParser()):
@@ -88,4 +91,3 @@ if __name__ == '__main__':
 		quagga.parse()
 
 		pprint(quagga.emails_parsed)
-

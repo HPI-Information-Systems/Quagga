@@ -80,9 +80,10 @@ class QuaggaModelBuilder:
 		return inst
 
 	def build(self):
-		self._build_configs()
-		self._build_model()
-		self._build_line_model()
+		with self.quagga_model.graph.as_default():
+			self._build_configs()
+			self._build_model()
+			self._build_line_model()
 		self.quagga_model.graph = tf.get_default_graph()
 
 	def _build_configs(self):

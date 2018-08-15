@@ -7,11 +7,11 @@ class QuaggaModel:
 		self.num_possible_chars = len(self.char_index())
 
 		self.zones = None
-		self.with_crf = None
-		self.trainset = None
+		self.with_crf = ""
+		self.trainset = ""
 
 		self.line_model = None
-		self.line_functions = None
+		self.line_functions = []
 
 		self.model = None
 		self.encoder = None

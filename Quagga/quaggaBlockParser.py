@@ -10,7 +10,19 @@ class QuaggaBlockParser:
 	def _top_prediction(self, predictions):
 		return sorted(predictions.items(), key=lambda x: x[1], reverse=True)[0][0]
 
-	def parse_predictions(self, email_predicted):
+
+
+	def _add_header_info(self, blocks, email_raw_parser):
+		if len(blocks) > 0:
+			root_message = blocks[0]
+			root_message['from'] = email_raw_parser.sender
+			root_message['to'] = email_raw_parser.to
+			root_message['cc'] = email_raw_parser.cc
+			root_message['sent'] = email_raw_parser.sent.strftime("%Y-%m-%d %H:%M:%S")
+			root_message['subject'] = email_raw_parser.subject
+			# todo raw_header
+
+	def parse_predictions(self, email_predicted, email_raw_parser):
 
 		blocks = []
 		# pre-filled info comes from email protocol header
@@ -223,6 +235,7 @@ class QuaggaBlockParser:
 
 		# end for line_prediction in email_predicted:
 		blocks.append(curr_block)
+		self._add_header_info(blocks, email_raw_parser)
 
 		email_parsed = {
 			'blocks': blocks}

@@ -54,11 +54,15 @@ class Quagga:
 	def predict(self):
 		self.emails_predicted = [self._get_predictions(email_body) for email_body in self.email_bodies]
 
+
+
 	def parse(self, block_parser=QuaggaBlockParser()):
-		# todo add info from email protocol header to first block
 		self.block_parser = block_parser
-		for email_predicted in self.emails_predicted:
-			blocks = self.block_parser.parse_predictions(email_predicted)
+
+		for email_predicted, email_raw_parser in zip(self.emails_predicted, self.email_reader):
+
+			blocks = self.block_parser.parse_predictions(email_predicted, email_raw_parser)
+
 			self.emails_parsed.append(blocks)
 
 	def _get_predictions(self, mail_text):
@@ -87,6 +91,7 @@ if __name__ == '__main__':
 	with open(test_dir + "/bass-e__sent_mail_20.txt", "r", errors='ignore') as f:
 		quagga = Quagga()
 		quagga.read(QuaggaListReaderRawEmailTexts([f.read()]))
+		quagga.build_model()
 		quagga.predict()
 		quagga.parse()
 

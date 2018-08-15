@@ -5,67 +5,67 @@ from datetime import datetime, timezone
 class Email:
 	@property
 	def sent(self):
-		pass
+		return ''
 
 	@property
 	def file(self):
-		pass
+		return ''
 
 	@property
 	def folder(self):
-		pass
+		return ''
 
 	@property
 	def id(self):
-		pass
+		return ''
 
 	@property
 	def mailbox(self):
-		pass
+		return ''
 
 	@property
 	def subject(self):
-		pass
+		return ''
 
 	@property
 	def sender(self):
-		pass
+		return ''
 
 	@property
 	def xsender(self):
-		pass
+		return ''
 
 	@property
 	def to(self):
-		pass
+		return ''
 
 	@property
 	def xto(self):
-		pass
+		return ''
 
 	@property
 	def cc(self):
-		pass
+		return ''
 
 	@property
 	def xcc(self):
-		pass
+		return ''
 
 	@property
 	def bcc(self):
-		pass
+		return ''
 
 	@property
 	def xbcc(self):
-		pass
+		return ''
 
 	@property
 	def body(self):
-		pass
+		return ''
 
 	@property
 	def clean_body(self):
-		pass
+		return ''
 
 
 
@@ -132,6 +132,10 @@ class EmailParser(Email):
 	@property
 	def xbcc(self):
 		return self.mail.get('X-bcc', '')
+
+	@property
+	def header(self):
+		return ''
 
 	@property
 	def body(self):

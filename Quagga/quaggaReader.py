@@ -1,7 +1,7 @@
 from email import parser as ep
 import os
 
-from quaggaEmail import EmailParser, EmailBody
+from quaggaEmail import EmailMessage, EmailBody
 
 
 
@@ -69,7 +69,7 @@ class QuaggaDirectoryReader(EmailFiles):
 
 	def __next__(self):
 		path, filename, file = super().__next__()
-		return EmailParser(path, filename, self.mail_parser.parsestr(file))
+		return EmailMessage(path, filename, self.mail_parser.parsestr(file))
 
 class QuaggaListReaderExtractedBodies:  # null object
 	def __init__(self, body_texts):
@@ -100,7 +100,7 @@ class QuaggaListReaderRawEmailTexts():
 			raw_text = self.raw_texts_iter.__next__()
 		except StopIteration:
 			raise StopIteration
-		return EmailParser(None, None, self.mail_parser.parsestr(raw_text))
+		return EmailMessage(None, None, self.mail_parser.parsestr(raw_text))
 
 
 

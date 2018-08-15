@@ -70,7 +70,7 @@ class Email:
 
 
 
-class EmailParser(Email):
+class EmailMessage(Email):
 	def __init__(self, path, filename, mail):
 		self.path = path
 		self.filename = filename

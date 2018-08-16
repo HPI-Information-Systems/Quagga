@@ -2,7 +2,7 @@ import re
 from datetime import datetime, timezone
 
 
-class Email:
+class QuaggaEmail:
 	@property
 	def sent(self):
 		return ''
@@ -69,8 +69,7 @@ class Email:
 
 
 
-
-class EmailMessage(Email):
+class QuaggaEmailMessage(QuaggaEmail):
 	def __init__(self, path, filename, mail):
 		self.path = path
 		self.filename = filename
@@ -162,7 +161,7 @@ class EmailMessage(Email):
 		return s
 
 
-class EmailBody(Email):
+class QuaggaEmailBody(QuaggaEmail):
 	def __init__(self, body_text):
 		self.body_text = body_text
 

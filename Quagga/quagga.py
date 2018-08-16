@@ -5,7 +5,7 @@ import tensorflow as tf
 from quaggaModelBuilder import QuaggaModelBuilder
 from quaggaBlockParser import QuaggaBlockParser
 from quaggaReader import QuaggaDirectoryReader, QuaggaListReaderRawEmailTexts, QuaggaListReaderExtractedBodies
-from quaggaEmail import QuaggaEmail
+from quaggaEmail import QuaggaEmail, serialize_quagga_email
 
 from pprint import pprint
 from enum import IntEnum
@@ -20,34 +20,6 @@ class State(IntEnum):
 	MODEL = 2
 	PREDICT = 3
 	PARSE = 4
-
-
-def serialize(obj):
-	"""JSON serializer for objects not serializable by default json code"""
-
-	if isinstance(obj, QuaggaEmail):
-		# todo could solve this with (awful) metaprogramming
-		serial = {
-			'sent': obj.sent,
-			'file': obj.file,
-			'folder': obj.folder,
-			'id': obj.id,
-			'mailbox': obj.mailbox,
-			'subject': obj.subject,
-			'sender': obj.sender,
-			'xsender': obj.xsender,
-			'to': obj.to,
-			'xto': obj.xto,
-			'cc': obj.cc,
-			'xcc': obj.xcc,
-			'bcc': obj.bcc,
-			'xbcc': obj.xbcc,
-			'body': obj.body,
-			'clean_body': obj.clean_body,
-		}
-		return serial
-	else:
-		raise TypeError(" Object of type " + type(obj) + " is not JSON serializable")
 
 
 class Quagga:
@@ -170,7 +142,7 @@ class Quagga:
 		for email_storage in self.emails:
 			filename = email_storage['quagga_email'].filename
 			with open(path + '/' + filename + '.' + feature + '.json', 'a+') as fp:
-				json.dump(email_storage[feature], fp, default=serialize)
+				json.dump({feature : email_storage[feature]}, fp, default=serialize_quagga_email)
 
 		print("stored " + feature + " in " + foldername)
 

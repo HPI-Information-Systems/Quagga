@@ -171,3 +171,30 @@ class QuaggaEmailBody(QuaggaEmail):
 	@property
 	def clean_body(self):
 		return self.body_text
+
+
+
+def serialize_quagga_email(obj):
+	"""JSON serializer for objects not serializable by default json code"""
+
+	if isinstance(obj, QuaggaEmail):
+		# todo could solve this with (awful) metaprogramming
+		serial = {
+			'sent': obj.sent,
+			'file': obj.file,
+			'folder': obj.folder,
+			'id': obj.id,
+			'mailbox': obj.mailbox,
+			'subject': obj.subject,
+			'sender': obj.sender,
+			'xsender': obj.xsender,
+			'to': obj.to,
+			'xto': obj.xto,
+			'cc': obj.cc,
+			'xcc': obj.xcc,
+			'bcc': obj.bcc,
+			'xbcc': obj.xbcc,
+			'body': obj.body,
+			'clean_body': obj.clean_body,
+		}
+		return serial

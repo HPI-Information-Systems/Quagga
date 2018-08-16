@@ -10,8 +10,6 @@ class QuaggaBlockParser:
 	def _top_prediction(self, predictions):
 		return sorted(predictions.items(), key=lambda x: x[1], reverse=True)[0][0]
 
-
-
 	def _add_header_info(self, blocks, email_raw_parser):
 		if len(blocks) > 0:
 			root_message = blocks[0]
@@ -20,7 +18,7 @@ class QuaggaBlockParser:
 			root_message['cc'] = email_raw_parser.cc
 			root_message['sent'] = email_raw_parser.sent.strftime("%Y-%m-%d %H:%M:%S")
 			root_message['subject'] = email_raw_parser.subject
-			# todo raw_header
+		# todo raw_header
 
 	def parse_predictions(self, email_predicted, email_raw_parser):
 
@@ -231,7 +229,7 @@ class QuaggaBlockParser:
 			else:  # line_prediction != 'header'
 				mode = 0
 				curr_block['text'].append(line_prediction['text'])
-			# todo only add block if it changed
+		# todo only add block if it changed
 
 		# end for line_prediction in email_predicted:
 		blocks.append(curr_block)
@@ -242,41 +240,41 @@ class QuaggaBlockParser:
 
 		return email_parsed
 
-	# # join lines to blocks
-	# blocks = []
-	# prev = tp(pred[0]['predictions'])
-	# accu = []
-	# for l in pred:
-	#     ltp = tp(l['predictions'])
-	#     if prev != ltp:
-	#         blocks.append({
-	#             'type': prev,
-	#             'lines': accu
-	#         })
-	#         accu = []
-	#     prev = ltp
-	#     accu.append(l['text'])
-	# # add dangling accumulator
-	# blocks.append({
-	#     'type': prev,
-	#     'lines': accu
-	# })
-	#
-	# # parse header blocks
-	# for i, b in enumerate(blocks):
-	#     # don't care about non-headers
-	#     if b['type'] != 'Header':
-	#         continue
-	#
-	#     tmphead = {}
-	#     #for l in b['lines']:
-	#
-	#     # catch on:
-	#     # ---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000
-	#     # 01:37 PM ---------------------------
-	#     # or
-	#     # ---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM --------------------------
-	#     # but don't confuse with
-	#     # -----Original Message-----
-	#     #for l in b['lines']:
-	#         #if 'forward' in l.lower():
+# # join lines to blocks
+# blocks = []
+# prev = tp(pred[0]['predictions'])
+# accu = []
+# for l in pred:
+#     ltp = tp(l['predictions'])
+#     if prev != ltp:
+#         blocks.append({
+#             'type': prev,
+#             'lines': accu
+#         })
+#         accu = []
+#     prev = ltp
+#     accu.append(l['text'])
+# # add dangling accumulator
+# blocks.append({
+#     'type': prev,
+#     'lines': accu
+# })
+#
+# # parse header blocks
+# for i, b in enumerate(blocks):
+#     # don't care about non-headers
+#     if b['type'] != 'Header':
+#         continue
+#
+#     tmphead = {}
+#     #for l in b['lines']:
+#
+#     # catch on:
+#     # ---------------------- Forwarded by Charlotte Hawkins/HOU/ECT on 04/04/2000
+#     # 01:37 PM ---------------------------
+#     # or
+#     # ---------------------- Forwarded by Sherri Sera/Corp/Enron on 04/20/2001 12:21 PM --------------------------
+#     # but don't confuse with
+#     # -----Original Message-----
+#     #for l in b['lines']:
+#         #if 'forward' in l.lower():

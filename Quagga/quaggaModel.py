@@ -31,10 +31,10 @@ class QuaggaModel:
 	@staticmethod
 	def char_index():
 		return list(' '
-		                       'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-		                       'abcdefghijklmnopqrstuvwxyz'
-		                       '0123456789'
-		                       '@€-_.:,;#\'+*~\?}=])[({/&%$§"!^°|><´`\n')
+		            'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+		            'abcdefghijklmnopqrstuvwxyz'
+		            '0123456789'
+		            '@€-_.:,;#\'+*~\?}=])[({/&%$§"!^°|><´`\n')
 
 	def _embed(self, lines, embedding_functions=None):
 		x = np.zeros((len(lines), self.line_length, self.num_possible_chars + 1))

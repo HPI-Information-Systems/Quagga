@@ -4,7 +4,6 @@ import os
 from quaggaEmail import QuaggaEmailMessage, QuaggaEmailBody
 
 
-
 class EmailFiles:
 	def __init__(self, maildir, limit=None, skip=0):
 		self.maildir = maildir
@@ -38,7 +37,7 @@ class EmailFiles:
 		try:
 			filename = next(self.current_files)
 
-			if filename == '.DS_Store': # todo there has got to be a better way
+			if filename == '.DS_Store':  # todo there has got to be a better way
 				return self._next_file()
 
 			# save some effort when result is dumped anyway during skip-ahead
@@ -62,6 +61,7 @@ class EmailFiles:
 
 		return self._next_file()
 
+
 class QuaggaDirectoryReader(EmailFiles):
 	def __init__(self, maildir, limit=None, skip=0):
 		super().__init__(maildir, limit, skip)
@@ -70,6 +70,7 @@ class QuaggaDirectoryReader(EmailFiles):
 	def __next__(self):
 		path, filename, file = super().__next__()
 		return QuaggaEmailMessage(path, filename, self.mail_parser.parsestr(file))
+
 
 class QuaggaListReaderExtractedBodies:  # null object
 	def __init__(self, body_texts):
@@ -101,8 +102,6 @@ class QuaggaListReaderRawEmailTexts():
 		except StopIteration:
 			raise StopIteration
 		return QuaggaEmailMessage(None, None, self.mail_parser.parsestr(raw_text))
-
-
 
 
 if __name__ == '__main__':

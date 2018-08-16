@@ -68,7 +68,6 @@ class QuaggaEmail:
 		return ''
 
 
-
 class QuaggaEmailMessage(QuaggaEmail):
 	def __init__(self, path, filename, mail):
 		self.path = path

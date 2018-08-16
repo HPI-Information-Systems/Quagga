@@ -12,7 +12,7 @@ from enum import IntEnum
 from functools import wraps
 import json
 import sys, os
-from pathlib import Path
+
 
 class State(IntEnum):
 	INIT = 0
@@ -28,7 +28,7 @@ def serialize(obj):
 	if isinstance(obj, QuaggaEmail):
 		# todo could solve this with (awful) metaprogramming
 		serial = {
-			'sent' : obj.sent,
+			'sent': obj.sent,
 			'file': obj.file,
 			'folder': obj.folder,
 			'id': obj.id,
@@ -51,8 +51,7 @@ def serialize(obj):
 
 
 class Quagga:
-	# todo block parser (refactoring)
-	# todo block parser file format??
+
 	def __init__(self):
 		self.state = State.INIT
 		self.pipeline = [lambda: print(self.status),
@@ -75,7 +74,7 @@ class Quagga:
 		# PARSE
 		self.block_parser = None
 
-	def required_state(required_state, next_state): #first parameter is not self
+	def required_state(required_state, next_state):  # first parameter is not self
 		def decorator(func):
 			@wraps(func)
 			def wrapper(inst, *args, **kwargs):
@@ -131,8 +130,7 @@ class Quagga:
 	def read(self, email_reader):
 		print("reading emails...")
 		self.email_reader = email_reader
-		self.emails = [self._email_storage(quagga_email = quagga_email) for quagga_email in self.email_reader]
-
+		self.emails = [self._email_storage(quagga_email=quagga_email) for quagga_email in self.email_reader]
 
 	@required_state(State.READ, State.MODEL)
 	def build_model(self, model_builder=QuaggaModelBuilder(), model=None):
@@ -157,17 +155,14 @@ class Quagga:
 		print("parsing...")
 		self.block_parser = block_parser
 
-		for email_storage, prediction, quagga_email in zip(self.emails, self.emails_predicted, self.emails_quagga_email):
+		for email_storage, prediction, quagga_email in zip(self.emails, self.emails_predicted,
+		                                                   self.emails_quagga_email):
 			email_storage['parsed'] = self.block_parser.parse_predictions(prediction, quagga_email)
-
-
 
 	def store(self, foldername):
 		self.store_quagga_email(foldername)
 		self.store_predicted(foldername)
 		self.store_parsed(foldername)
-
-
 
 	def _store(self, foldername, feature):
 		path = os.path.abspath(foldername)
@@ -180,7 +175,6 @@ class Quagga:
 		print("stored " + feature + " in " + foldername)
 
 	def store_quagga_email(self, foldername):
-		# todo serialize quagga_email
 		self._store(foldername, 'quagga_email')
 
 	def store_predicted(self, foldername):
@@ -219,7 +213,7 @@ if __name__ == '__main__':
 
 	with open(test_dir + "/bass-e__sent_mail_20.txt", "r", errors='ignore') as f:
 		quagga = Quagga()
-		#quagga.read(QuaggaListReaderRawEmailTexts([f.read()]))
+		# quagga.read(QuaggaListReaderRawEmailTexts([f.read()]))
 		quagga.read(QuaggaDirectoryReader('testMails'))
 
 		# quagga.build_model()

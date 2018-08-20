@@ -3,6 +3,26 @@ from datetime import datetime, timezone
 
 
 class QuaggaEmail:
+	def __dict__(self):
+		return {
+			'sent': self.sent,
+			'file': self.file,
+			'folder': self.folder,
+			'id': self.id,
+			'mailbox': self.mailbox,
+			'subject': self.subject,
+			'sender': self.sender,
+			'xsender': self.xsender,
+			'to': self.to,
+			'xto': self.xto,
+			'cc': self.cc,
+			'xcc': self.xcc,
+			'bcc': self.bcc,
+			'xbcc': self.xbcc,
+			'body': self.body,
+			'clean_body': self.clean_body,
+		}
+
 	@property
 	def sent(self):
 		return ''
@@ -76,7 +96,8 @@ class QuaggaEmailMessage(QuaggaEmail):
 
 	@property
 	def sent(self):
-		return datetime.strptime(re.sub(r' *\([A-Z]+\)', '', self.mail['Date']),
+		print(self.mail['Date'])
+		return datetime.strptime(re.sub(r' *\([A-Z]+\)', '', str(self.mail['Date'])),
 		                         '%a, %d %b %Y %H:%M:%S %z').astimezone(timezone.utc)
 
 	@property
@@ -178,23 +199,5 @@ def serialize_quagga_email(obj):
 	"""JSON serializer for objects not serializable by default json code"""
 
 	if isinstance(obj, QuaggaEmail):
-		# todo could solve this with (awful) metaprogramming
-		serial = {
-			'sent': obj.sent,
-			'file': obj.file,
-			'folder': obj.folder,
-			'id': obj.id,
-			'mailbox': obj.mailbox,
-			'subject': obj.subject,
-			'sender': obj.sender,
-			'xsender': obj.xsender,
-			'to': obj.to,
-			'xto': obj.xto,
-			'cc': obj.cc,
-			'xcc': obj.xcc,
-			'bcc': obj.bcc,
-			'xbcc': obj.xbcc,
-			'body': obj.body,
-			'clean_body': obj.clean_body,
-		}
+		serial = obj.__dict__()
 		return serial

@@ -11,6 +11,7 @@ class EmailFiles:
 		self.current_root_dir = ''
 		self.skip = skip
 
+
 	def __iter__(self):
 		self.run = 0
 		self.os_walker = os.walk(self.maildir)
@@ -37,7 +38,7 @@ class EmailFiles:
 		try:
 			filename = next(self.current_files)
 
-			if filename == '.DS_Store':  # todo there has got to be a better way
+			if '.DS_Store' in filename or '.quaggaed.json' in filename:  # todo there has got to be a better way
 				return self._next_file()
 
 			# save some effort when result is dumped anyway during skip-ahead
@@ -66,6 +67,7 @@ class QuaggaDirectoryReader(EmailFiles):
 	def __init__(self, maildir, limit=None, skip=0):
 		super().__init__(maildir, limit, skip)
 		self.mail_parser = ep.Parser()
+
 
 	def __next__(self):
 		path, filename, file = super().__next__()

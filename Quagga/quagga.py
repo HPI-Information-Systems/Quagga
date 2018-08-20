@@ -13,14 +13,8 @@ from enum import IntEnum
 from functools import wraps
 import json
 import sys, os
+import copy
 
-
-class State(IntEnum):
-	INIT = 0
-	READ = 1
-	MODEL = 2
-	PREDICT = 3
-	PARSE = 4
 
 # todo
 # am anfang spezifiert man nur die ganzen sachen
@@ -29,29 +23,29 @@ class State(IntEnum):
 
 class Quagga:
 
-	def __init__(self):
-		self.state = State.INIT
-		self.pipeline = [lambda: print(self.status),
-		                 lambda: sys.exit("error: you must specify emails to work on before proceeding"),
-		                 lambda: self.build_model(),
-		                 lambda: self.predict(),
-		                 lambda: self.parse()]
-
-		self.emails = []
+	def __init__(self, email_reader, model_builder=QuaggaModelBuilder(), model=None, block_parser=QuaggaBlockParser()):
 
 		# READ
-		self.email_reader = None
+		self.emails_input_reader = email_reader
 
 		# MODEL
-		self.model_builder = None
-		self.model = None
+
+		print("building model...")
+		self.model_builder = model_builder
+		if model is None:
+			self.model_builder.quagga_model.graph = tf.get_default_graph()
+			self.model_builder = model_builder
+			self.model_builder.build()
+			self.model = model_builder.quagga_model
+		else:
+			self.model = model
 
 		# PREDICT
 
 		# PARSE
-		self.block_parser = None
+		self.block_parser = block_parser
 
-	def required_state(required_state):  # first parameter is not self
+	"""def required_state(required_state):  # first parameter is not self
 		def decorator(func):
 			@wraps(func)
 			def wrapper(inst, *args, **kwargs):
@@ -62,111 +56,60 @@ class Quagga:
 
 			return wrapper
 
-		return decorator
+		return decorator"""
 
 	@property
-	def status(self):
-		if self.state is State.INIT:
-			return "Quagga initialized. Read emails using read(email_reader)."
-		elif self.state is State.READ:
-			return "Emails read. Load model using build_model(model_builder) and predict using predict()."
-		elif self.state is State.MODEL:
-			return "Model loaded. Read emails using read(email_reader) and predict using predict()."
-		elif self.state is State.PREDICT:
-			return "Zones predicted. Parse emails using them with parse(block_parser)."
-		elif self.state is State.PARSE:
-			return "Emails parsed. Store using store(filename)."
+	def emails_input(self):
+		return copy.copy(self.emails_input_reader)
+
+	@property
+	def emails_body(self):
+		for email in self.emails_input:
+			yield email.clean_body
+
+	@property
+	def emails_predicted(self):
+		for body in self.emails_body:
+			yield self._get_predictions(body)
+
+	@property
+	def emails_parsed(self):
+		for email_prediction, email_input in zip(self.emails_predicted, self.emails_input):
+			yield self.block_parser.parse_predictions(email_prediction, email_input)
 
 	@staticmethod
-	def _email_storage(quagga_email=None, predicted=None, parsed=None):
-		return {'quagga_email': quagga_email,
+	def _email_storage(input=None, predicted=None, parsed=None):
+		return {'input': input,
 		        'predicted': predicted,
 		        'parsed': parsed}
 
-	@property
-	@required_state(State.READ)
-	def emails_quagga_email(self):
-		return [email_storage['quagga_email'] for email_storage in self.emails]
-
-	@property
-	@required_state(State.READ)
-	def emails_body(self):
-		return [email_storage['quagga_email'].clean_body for email_storage in self.emails]
-
-	@property
-	@required_state(State.PREDICT)
-	def emails_predicted(self):
-		return [email_storage['predicted'] for email_storage in self.emails]
-
-	@property
-	@required_state(State.PARSE)
-	def emails_parsed(self):
-		"""for prediction, quagga_email in zip(self.emails, self.emails_predicted,
-		                                                   self.emails_quagga_email):
-			yield self.block_parser.parse_predictions(prediction, quagga_email)"""
-
-		return [email_storage['parsed'] for email_storage in self.emails]
-
-	@required_state(State.INIT)
-	def read(self, email_reader):
-		print("reading emails...")
-		self.email_reader = email_reader
-		self.emails = [self._email_storage(quagga_email=quagga_email) for quagga_email in self.email_reader]
-		self.state = State.READ
-
-	@required_state(State.READ)
-	def build_model(self, model_builder=QuaggaModelBuilder(), model=None):
-		print("building model...")
-		self.model_builder = model_builder
-		if model is None:
-			self.model_builder.quagga_model.graph = tf.get_default_graph()
-			self.model_builder = model_builder
-			self.model_builder.build()
-			self.model = model_builder.quagga_model
-		else:
-			self.model = model
-		self.state = State.MODEL
-
-	@required_state(State.MODEL)
-	def predict(self):
-		print("predicting...")
-		for email_storage, body in zip(self.emails, self.emails_body):
-			email_storage['predicted'] = self._get_predictions(body)
-		self.state = State.PREDICT
-
-	@required_state(State.PREDICT)
-	def parse(self, block_parser=QuaggaBlockParser()):
-		print("parsing...")
-		self.block_parser = block_parser
-
-		for email_storage, prediction, quagga_email in zip(self.emails, self.emails_predicted,
-		                                                   self.emails_quagga_email):
-			email_storage['parsed'] = self.block_parser.parse_predictions(prediction, quagga_email)
-		self.state = State.PARSE
-
 	def store(self, foldername):
-		self.store_quagga_email(foldername)
-		self.store_predicted(foldername)
-		self.store_parsed(foldername)
 
-	def _store(self, foldername, feature):
+		def email_storages():
+			for email_input, email_predicted, email_parsed in zip(self.emails_input, self.emails_predicted,
+			                                                      self.emails_parsed):
+				yield self._email_storage(email_input, email_predicted, email_parsed)
+
+		self._store(foldername, 'quaggaed', email_storages())
+
+	def _store(self, foldername, stage, emails):
 		path = os.path.abspath(foldername)
 
-		for email_storage in self.emails:
-			filename = email_storage['quagga_email'].filename
-			with open(path + '/' + filename + '.' + feature + '.json', 'a+') as fp:
-				json.dump({feature : email_storage[feature]}, fp, default=serialize_quagga_email)
+		for input, email in zip(self.emails_input, emails):
+			filename = input.filename
+			with open(path + '/' + filename + '.' + stage + '.json', 'w+') as fp:
+				json.dump({stage: email}, fp, default=serialize_quagga_email)
 
-		print("stored " + feature + " in " + foldername)
+		print("stored " + stage + " in " + foldername)
 
-	def store_quagga_email(self, foldername):
-		self._store(foldername, 'quagga_email')
+	def store_input(self, foldername):
+		self._store(foldername, 'input', self.emails_input)
 
 	def store_predicted(self, foldername):
-		self._store(foldername, 'predicted')
+		self._store(foldername, 'predicted', self.emails_predicted)
 
 	def store_parsed(self, foldername):
-		self._store(foldername, 'parsed')
+		self._store(foldername, 'parsed', self.emails_parsed)
 
 	def print_predictions(self):
 		for email_predicted in self.emails_predicted:
@@ -196,19 +139,20 @@ class Quagga:
 if __name__ == '__main__':
 	test_dir = "testMails"
 
-	with open(test_dir + "/bass-e__sent_mail_20.txt", "r", errors='ignore') as f:
-		quagga = Quagga()
-		# quagga.read(QuaggaListReaderRawEmailTexts([f.read()]))
-		quagga.read(QuaggaDirectoryReader('testMails'))
+	quagga = Quagga(QuaggaDirectoryReader(test_dir))
 
-		# quagga.build_model()
-		# quagga.predict()
-		# quagga.parse()
+	print("========================= input ")
+	for input in quagga.emails_input:
+		pprint(input)
+	print("========================= bodies ")
+	for body in quagga.emails_body:
+		pprint(body)
+	print("========================= predictions ")
+	for prediction in quagga.emails_predicted:
+		pprint(prediction)
+	print("========================= parsed ")
+	for parsed in quagga.emails_parsed:
+		pprint(parsed)
 
-		pprint(quagga.emails_body)
-		pprint(quagga.emails_predicted)
-		pprint(quagga.emails_parsed)
 
-		pprint(quagga.emails)
-
-		quagga.store("testMailsQuaggaed")
+	quagga.store(test_dir)

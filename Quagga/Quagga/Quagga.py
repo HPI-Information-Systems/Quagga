@@ -26,7 +26,7 @@ class Quagga:
 	def __init__(self, email_reader, model_builder=QuaggaModelBuilder(), model=None, block_parser=QuaggaBlockParser()):
 
 		# READ
-		self.emails_input_reader = email_reader
+		self.emails_input = email_reader
 
 		# MODEL
 
@@ -58,9 +58,7 @@ class Quagga:
 
 		return decorator"""
 
-	@property
-	def emails_input(self):
-		return copy.copy(self.emails_input_reader)
+
 
 	@property
 	def emails_body(self):
@@ -90,7 +88,7 @@ class Quagga:
 			                                                      self.emails_parsed):
 				yield self._email_storage(email_input, email_predicted, email_parsed)
 
-		self._store(foldername, 'quaggaed', email_storages())
+		self._store(foldername, 'quagga', email_storages())
 
 	def _store(self, foldername, stage, emails):
 		path = os.path.abspath(foldername)

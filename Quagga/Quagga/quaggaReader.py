@@ -3,42 +3,35 @@ import os
 
 from quaggaEmail import QuaggaEmailMessage, QuaggaEmailBody
 
-
-class EmailFiles:
-	def __init__(self, maildir, limit=None, skip=0):
-		self.maildir = maildir
+class EmailFilesIterator:
+	def __init__(self, maildir, limit, skip):
+		self.run = 0
 		self.limit = limit
-		self.current_root_dir = ''
 		self.skip = skip
 
+		self.maildir = maildir
 
-	def __iter__(self):
-		self.run = 0
 		self.os_walker = os.walk(self.maildir)
 		self.current_dirs = []
 		self.current_files = iter([])
+		self.current_root_dir = ''
+
+		self.mail_parser = ep.Parser()
 
 		for i in range(self.skip):
 			self.run += 1
 			self._next_file(skipmode=True)
-		return self
 
 	@property
 	def current_root_dir_stripped(self):
 		return self.current_root_dir[len(self.maildir):]
 
-	def _next_dir(self):
-		self.current_root_dir, self.current_dirs, files = next(self.os_walker)
-		if len(files) > 0:
-			self.current_files = iter(files)
-		else:
-			self._next_dir()
-
 	def _next_file(self, skipmode=False):
 		try:
 			filename = next(self.current_files)
 
-			if '.DS_Store' in filename or '.quaggaed.json' in filename:  # todo there has got to be a better way
+			# in case output dir is same as input directory don't read already processed files
+			if '.DS_Store' in filename or '.quagga.' in filename:
 				return self._next_file()
 
 			# save some effort when result is dumped anyway during skip-ahead
@@ -56,25 +49,33 @@ class EmailFiles:
 			self._next_dir()
 			return self._next_file()
 
+
+	def _next_dir(self):
+		self.current_root_dir, self.current_dirs, files = next(self.os_walker)
+		if len(files) > 0:
+			self.current_files = iter(files)
+		else:
+			self._next_dir()
+
 	def __next__(self):
 		if self.limit is not None and (self.limit + self.skip) <= self.run:
 			raise StopIteration()
 
-		return self._next_file()
-
-
-class QuaggaDirectoryReader(EmailFiles):
-	def __init__(self, maildir, limit=None, skip=0):
-		super().__init__(maildir, limit, skip)
-		self.mail_parser = ep.Parser()
-
-
-	def __next__(self):
-		path, filename, file = super().__next__()
+		path, filename, file = self._next_file()
 		return QuaggaEmailMessage(path, filename, self.mail_parser.parsestr(file))
 
 
-class QuaggaListReaderExtractedBodies:  # null object
+class QuaggaDirectoryReader:
+	def __init__(self, maildir, limit=None, skip=0):
+		self.maildir = maildir
+		self.limit = limit
+		self.skip = skip
+
+	def __iter__(self):
+		return EmailFilesIterator(self.maildir, self.limit, self.skip)
+
+
+class QuaggaListReaderExtractedBodies:
 	def __init__(self, body_texts):
 		self.body_texts = body_texts
 

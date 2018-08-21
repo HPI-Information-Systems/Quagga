@@ -20,7 +20,7 @@ class QuaggaEmail:
 			'bcc': self.bcc,
 			'xbcc': self.xbcc,
 			'body': self.body,
-			'clean_body': self.clean_body,
+			'clean_body': self.clean_body
 		}
 
 	@property
@@ -96,7 +96,6 @@ class QuaggaEmailMessage(QuaggaEmail):
 
 	@property
 	def sent(self):
-		print(self.mail['Date'])
 		return datetime.strptime(re.sub(r' *\([A-Z]+\)', '', str(self.mail['Date'])),
 		                         '%a, %d %b %Y %H:%M:%S %z').astimezone(timezone.utc)
 

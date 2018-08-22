@@ -1,8 +1,7 @@
 import re
 
 
-class QuaggaBlockParser:
-	# todo fix same block multiple times
+class BlockParser:
 
 	def __init__(self):
 		pass

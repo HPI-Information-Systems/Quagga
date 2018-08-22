@@ -4,7 +4,7 @@ import numpy as np
 import os
 import json
 
-from quaggaEmail import EmailParser as Email
+from Quagga.Email import EmailParser as Email
 
 denotation_types = [
 	"Header",

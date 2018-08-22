@@ -3,7 +3,7 @@
 import keras.backend as K
 from keras_contrib.utils import save_load_utils
 from keras.models import model_from_json
-from keras.models import Model
+from keras.models import Model as KerasModel
 from keras.layers import Masking, GRU, Input, Bidirectional
 from keras_contrib.layers import CRF
 
@@ -13,10 +13,10 @@ import os.path
 
 import tensorflow as tf
 
-from quaggaModel import QuaggaModel
+from Utils.Model import Model as QuaggaModel
 
 
-class QuaggaModelBuilder:
+class ModelBuilder:
 
 	# todo model trainieren
 
@@ -80,11 +80,10 @@ class QuaggaModelBuilder:
 		return inst
 
 	def build(self):
-		with self.quagga_model.graph.as_default():
-			self._build_configs()
-			self._build_model()
-			self._build_line_model()
-		self.quagga_model.graph = tf.get_default_graph()
+		self._build_configs()
+		self._build_model()
+		self._build_line_model()
+
 
 	def _build_configs(self):
 		self.quagga_model.zones = self.zones
@@ -156,7 +155,7 @@ class QuaggaModelBuilder:
 		crf = CRF(output_size, sparse_target=False)
 		output = crf(hidden)
 
-		model = Model(inputs=in_mail, outputs=output)
+		model = KerasModel(inputs=in_mail, outputs=output)
 		# model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
 		return model
 
@@ -172,6 +171,6 @@ class QuaggaModelBuilder:
 		crf = CRF(output_size, sparse_target=False)  # , test_mode='marginal', learn_mode='marginal')
 		output = crf(hidden)
 
-		model = Model(inputs=in_mail, outputs=output)
+		model = KerasModel(inputs=in_mail, outputs=output)
 		# model.compile(loss=crf.loss_function, optimizer='adam', metrics=[crf.accuracy])
 		return model

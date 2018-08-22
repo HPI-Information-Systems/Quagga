@@ -2,7 +2,7 @@ import re
 from datetime import datetime, timezone
 
 
-class QuaggaEmail:
+class Email:
 	def __dict__(self):
 		return {
 			'sent': self.sent,
@@ -88,7 +88,7 @@ class QuaggaEmail:
 		return ''
 
 
-class QuaggaEmailMessage(QuaggaEmail):
+class EmailMessage(Email):
 	def __init__(self, path, filename, mail):
 		self.path = path
 		self.filename = filename
@@ -180,7 +180,7 @@ class QuaggaEmailMessage(QuaggaEmail):
 		return s
 
 
-class QuaggaEmailBody(QuaggaEmail):
+class EmailBody(Email):
 	def __init__(self, body_text):
 		self.body_text = body_text
 
@@ -197,6 +197,6 @@ class QuaggaEmailBody(QuaggaEmail):
 def serialize_quagga_email(obj):
 	"""JSON serializer for objects not serializable by default json code"""
 
-	if isinstance(obj, QuaggaEmail):
+	if isinstance(obj, Email):
 		serial = obj.__dict__()
 		return serial

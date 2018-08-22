@@ -1,7 +1,7 @@
 from email import parser as ep
 import os
 
-from quaggaEmail import QuaggaEmailMessage, QuaggaEmailBody
+from Utils.Email import EmailMessage, EmailBody
 
 class EmailFilesIterator:
 	def __init__(self, maildir, limit, skip):
@@ -62,10 +62,10 @@ class EmailFilesIterator:
 			raise StopIteration()
 
 		path, filename, file = self._next_file()
-		return QuaggaEmailMessage(path, filename, self.mail_parser.parsestr(file))
+		return EmailMessage(path, filename, self.mail_parser.parsestr(file))
 
 
-class QuaggaDirectoryReader:
+class DirectoryReader:
 	def __init__(self, maildir, limit=None, skip=0):
 		self.maildir = maildir
 		self.limit = limit
@@ -75,7 +75,7 @@ class QuaggaDirectoryReader:
 		return EmailFilesIterator(self.maildir, self.limit, self.skip)
 
 
-class QuaggaListReaderExtractedBodies:
+class ListReaderExtractedBodies:
 	def __init__(self, body_texts):
 		self.body_texts = body_texts
 
@@ -87,10 +87,10 @@ class QuaggaListReaderExtractedBodies:
 		self.index += 1
 		if self.index >= len(self.body_texts):
 			raise StopIteration
-		return QuaggaEmailBody(self.body_texts[self.index])
+		return EmailBody(self.body_texts[self.index])
 
 
-class QuaggaListReaderRawEmailTexts():
+class ListReaderRawEmailTexts():
 	def __init__(self, raw_texts):
 		self.mail_parser = ep.Parser()
 		self.raw_texts = raw_texts
@@ -104,7 +104,7 @@ class QuaggaListReaderRawEmailTexts():
 			raw_text = self.raw_texts_iter.__next__()
 		except StopIteration:
 			raise StopIteration
-		return QuaggaEmailMessage(None, None, self.mail_parser.parsestr(raw_text))
+		return EmailMessage(None, None, self.mail_parser.parsestr(raw_text))
 
 
 if __name__ == '__main__':
@@ -113,12 +113,12 @@ if __name__ == '__main__':
 
 	with open(test_dir + "/bass-e__sent_mail_20.txt", "r", errors='ignore') as f:
 		print("==============================")
-		for email in QuaggaDirectoryReader('testMails'):
+		for email in DirectoryReader('testMails'):
 			print(email.clean_body)
 
 		print("==============================")
 		raw_email = [f.read()]
-		for email in QuaggaListReaderRawEmailTexts(raw_email):
+		for email in ListReaderRawEmailTexts(raw_email):
 			print(email.clean_body)
 
 		print("==============================")
@@ -137,5 +137,5 @@ PL\n\
 \n\
 \n\
         < Embedded StdOleLink >"]
-		for email in QuaggaListReaderExtractedBodies(body):
+		for email in ListReaderExtractedBodies(body):
 			print(email.clean_body)

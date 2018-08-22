@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class QuaggaModel:
+class Model:
 	def __init__(self):
 		self.line_length = 80
 		self.num_possible_chars = len(self.char_index())
@@ -16,17 +16,14 @@ class QuaggaModel:
 		self.model = None
 		self.encoder = None
 
-		self.graph = None
-
 	def predict(self, text_lines):
-		with self.graph.as_default():
-			if self.with_crf:
-				text_embedded = self._embed(text_lines, self.line_functions)
-				y = self.model.predict(np.array([text_embedded])).tolist()[0]
-			else:
-				text_embedded = self._embed(text_lines)
-				y = self.line_model.predict(text_embedded).tolist()
-			return y, text_lines, self.encoder
+		if self.with_crf:
+			text_embedded = self._embed(text_lines, self.line_functions)
+			y = self.model.predict(np.array([text_embedded])).tolist()[0]
+		else:
+			text_embedded = self._embed(text_lines)
+			y = self.line_model.predict(text_embedded).tolist()
+		return y, text_lines, self.encoder
 
 	@staticmethod
 	def char_index():

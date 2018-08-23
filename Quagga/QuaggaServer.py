@@ -25,7 +25,7 @@ def five():
     model_builder = ModelBuilder(with_crf=(data.get('model', '') == 'crf'), zones=5, trainset=data.get('trainedOn', 'enron'))
     #quagga = Quagga(ListReaderExtractedBodies(data['rawText']), model_builder=model_builder)
     quagga._build_model(model_builder)
-    prediction = quagga._get_predictions(data.get('rawText'))
+    prediction = quagga._predict(data.get('rawText'))
     return jsonify(prediction)
 
 
@@ -35,7 +35,7 @@ def two():
     model_builder = ModelBuilder(with_crf=(data.get('model', '') == 'crf'), zones=2, trainset=data.get('trainedOn', 'enron'))
     #quagga = Quagga(ListReaderExtractedBodies(data['rawText']), model_builder=model_builder)
     quagga._build_model(model_builder)
-    prediction = quagga._get_predictions(data.get('rawText'))
+    prediction = quagga._predict(data.get('rawText'))
 
     return jsonify(prediction)
 

@@ -3,8 +3,6 @@ import re
 
 class BlockParser:
 
-	def __init__(self):
-		pass
 
 	def _top_prediction(self, predictions):
 		return sorted(predictions.items(), key=lambda x: x[1], reverse=True)[0][0]

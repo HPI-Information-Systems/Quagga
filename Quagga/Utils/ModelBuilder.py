@@ -6,14 +6,23 @@ from keras.models import model_from_json
 from keras.models import Model as KerasModel
 from keras.layers import Masking, GRU, Input, Bidirectional
 from keras_contrib.layers import CRF
-
 from sklearn.preprocessing import LabelEncoder
-
-import os.path
-
 import tensorflow as tf
+import os.path
+from pkg_resources import resource_filename
+
 
 from Quagga.Utils.Model import Model as QuaggaModel
+
+def get_relative_filename(file):
+	dirname = os.path.dirname(__file__)
+	filename = os.path.join(dirname, file)
+	return filename
+
+def get_resource_string(file):
+
+	#return get_relative_filename(file)
+	return resource_filename(__name__, file)
 
 
 class ModelBuilder:
@@ -42,21 +51,21 @@ class ModelBuilder:
 
 		if self.zones == 5:
 			if self.trainset == 'enron':
-				self.model_paths['line_a_path'] = 'models/five_zones/enron_line_model_a'
-				self.model_paths['line_b_path'] = 'models/five_zones/enron_line_model_b'
-				self.model_paths['model_path'] = 'models/five_zones/enron_model'
+				self.model_paths['line_a_path'] = get_resource_string('models/five_zones/enron_line_model_a')
+				self.model_paths['line_b_path'] = get_resource_string('models/five_zones/enron_line_model_b')
+				self.model_paths['model_path'] = get_resource_string('models/five_zones/enron_model')
 			elif self.trainset == 'asf':
-				self.model_paths['line_a_path'] = 'models/five_zones/asf_line_model_a'
-				self.model_paths['line_b_path'] = 'models/five_zones/asf_line_model_b'
-				self.model_paths['model_path'] = 'models/five_zones/asf_model'
+				self.model_paths['line_a_path'] = get_resource_string('models/five_zones/asf_line_model_a')
+				self.model_paths['line_b_path'] = get_resource_string('models/five_zones/asf_line_model_b')
+				self.model_paths['model_path'] = get_resource_string('models/five_zones/asf_model')
 
 		elif self.zones == 2:
 			if self.trainset == 'enron':
-				self.model_paths['line_b_path'] = 'models/two_zones/enron_line_model_b'
-				self.model_paths['model_path'] = 'models/two_zones/enron_model'
+				self.model_paths['line_b_path'] = get_resource_string('models/two_zones/enron_line_model_b')
+				self.model_paths['model_path'] = get_resource_string('models/two_zones/enron_model')
 			elif self.trainset == 'asf':
-				self.model_paths['line_b_path'] = 'models/two_zones/asf_line_model_b'
-				self.model_paths['model_path'] = 'models/two_zones/asf_model'
+				self.model_paths['line_b_path'] = get_resource_string('models/two_zones/asf_line_model_b')
+				self.model_paths['model_path'] = get_resource_string('models/two_zones/asf_model')
 
 	@classmethod
 	def from_paths_two_zones(cls, model_path, line_b_path):

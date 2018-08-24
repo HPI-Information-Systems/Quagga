@@ -8,6 +8,7 @@ from Quagga import EmailDirectoryReader, ListReaderRawEmailTexts, ListReaderExtr
 from Quagga.Utils.ModelBuilder import ModelBuilder
 from Quagga.Utils.BlockParser import BlockParser
 
+import os.path
 
 example_email_raw = "Message-ID: <20646012.1075840326283.JavaMail.evans@thyme>\n\
 Date: Mon, 26 Mar 2001 13:33:00 -0800 (PST)\n\
@@ -67,7 +68,12 @@ PL\n\
 \n\
 <Embedded StdOleLink>"
 
-input_dir = "Quagga/examples/testData"
+def get_relative_filename(file):
+	dirname = os.path.dirname(__file__)
+	filename = os.path.join(dirname, file)
+	return filename
+
+input_dir = get_relative_filename("testData")
 output_dir = input_dir + "/output"
 
 

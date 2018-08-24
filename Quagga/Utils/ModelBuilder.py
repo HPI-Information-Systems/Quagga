@@ -13,7 +13,7 @@ import os.path
 
 import tensorflow as tf
 
-from Utils.Model import Model as QuaggaModel
+from Quagga.Utils.Model import Model as QuaggaModel
 
 
 class ModelBuilder:

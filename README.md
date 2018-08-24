@@ -27,6 +27,15 @@ Besides using the well-known Enron email corpus for our experiments,
 we additionally created a new annotated email benchmark corpus from
 Apache mailing lists.
 
+# Setup
+### Installation
+Install the dependencies from requirements.txt into your virtualenv. Tested on Python 3.6.5.
+- todo, this section is gonna change once on we're on pypi.
+
+### Running
+Make sure to call using  ```python -m Quagga.[file to execute]``` from top-level directory, otherwise the imports won't work.
+
+
 # Related Work Sources
 - Original Code for [Jangada](http://www.cs.cmu.edu/~vitor/software/jangada/), Carvalho, 2004
 - More infos and data for [Jangada](http://www.cs.cmu.edu/~vitor/codeAndData.html) (600+ annotated mails in 20 newsgroup dataset)

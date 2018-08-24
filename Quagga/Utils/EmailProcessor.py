@@ -16,11 +16,10 @@ class EmailIterator:
 			email_input = next(self.emails_iter)
 			email_stage_input = next(self.emails_input_iter)
 		except StopIteration:
-
-			self.quagga.state = self.state
+			#self.quagga.state = self.state
 			raise StopIteration
 		email_stage_output = self.email_func(email_stage_input, email_input)
-		#self.quagga._store_email(self.working_directory, email_input.filename, "quagga." + self.stage, email_stage_output)
+		#self.quagga._store_email(self.working_directory, email_input.filename, self.stage, email_stage_output)
 		return email_stage_output
 
 

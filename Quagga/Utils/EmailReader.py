@@ -2,7 +2,7 @@ from email import parser as ep
 import os
 import json
 
-from Utils.Email import EmailMessage, EmailBody
+from Quagga.Utils.Email import EmailMessage, EmailBody
 
 
 class DirectoryIterator:
@@ -79,7 +79,7 @@ class TempQuaggaReader(DirectoryReader):
 		super().__init__(maildir, limit, skip)
 		self.stage = stage
 		self.file_func = lambda filename: self.stage in filename
-		self.email_func = lambda path, filename, file: output_func(json.loads(file)['quagga.' + self.stage])
+		self.email_func = lambda path, filename, file: output_func(json.loads(file)[self.stage])
 
 
 class EmailDirectoryReader(DirectoryReader):
@@ -90,21 +90,23 @@ class EmailDirectoryReader(DirectoryReader):
 		self.email_func = lambda path, filename, file: EmailMessage(path, filename, self.email_parser.parsestr(file))
 
 
-
+class ListReaderIterator:
+	def __init__(self, text, output_func):
+		self.text = text
+		self.iter = iter(text)
+		self.output_func = output_func
+		self.index = -1
+	def __next__(self):
+		self.index += 1
+		return self.output_func(next(self.iter), self.index)
 
 class ListReaderExtractedBodies:
 	def __init__(self, body_texts):
 		self.body_texts = body_texts
 
 	def __iter__(self):
-		self.index = -1
-		return self
+		return ListReaderIterator(self.body_texts, lambda email, _: EmailBody(email))
 
-	def __next__(self):
-		self.index += 1
-		if self.index >= len(self.body_texts):
-			raise StopIteration
-		return EmailBody(self.body_texts[self.index])
 
 
 class ListReaderRawEmailTexts():
@@ -113,24 +115,18 @@ class ListReaderRawEmailTexts():
 		self.raw_texts = raw_texts
 
 	def __iter__(self):
-		self.raw_texts_iter = iter(self.raw_texts)
-		return self
+		# in case no name is available just count
+		return ListReaderIterator(self.raw_texts, lambda email, i: EmailMessage('', str(i), self.mail_parser.parsestr(email)))
 
-	def __next__(self):
-		try:
-			raw_text = self.raw_texts_iter.__next__()
-		except StopIteration:
-			raise StopIteration
-		return EmailMessage(None, None, self.mail_parser.parsestr(raw_text))
 
 
 if __name__ == '__main__':
 
-	test_dir = "testMails"
+	test_dir = "testData"
 
 	with open(test_dir + "/bass-e__sent_mail_20.txt", "r", errors='ignore') as f:
 		print("==============================")
-		for email in EmailDirectoryReader('testMails'):
+		for email in EmailDirectoryReader('testData'):
 			print(email.clean_body)
 
 		print("==============================")

@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 
-from Utils.ModelBuilder import ModelBuilder
-from Utils.BlockParser import BlockParser
-from Utils.EmailReader import DirectoryReader, EmailDirectoryReader, TempQuaggaReader, ListReaderRawEmailTexts, \
+from Quagga.Utils.ModelBuilder import ModelBuilder
+from Quagga.Utils.BlockParser import BlockParser
+from Quagga.Utils.EmailReader import DirectoryReader, EmailDirectoryReader, TempQuaggaReader, ListReaderRawEmailTexts, \
 	ListReaderExtractedBodies
-from Utils.Email import Email, serialize_quagga_email
-from Utils.EmailProcessor import EmailProcessor
+from Quagga.Utils.Email import Email, serialize_quagga_email
+from Quagga.Utils.EmailProcessor import EmailProcessor
 
 import tensorflow as tf
 from pprint import pprint
@@ -15,8 +15,6 @@ import json
 from enum import IntEnum
 
 import os
-import sys
-import shutil
 
 
 class State(IntEnum):
@@ -31,13 +29,17 @@ class Quagga:
 	             block_parser=BlockParser()):
 
 		self.state = State.INIT
+
 		self.output_dir = output_dir
+
+		self._INPUT = 'quagga.input'
+		self._PREDICTED = 'quagga.predicted'
+		self._PARSED = 'quagga.parsed'
 
 		# READ
 		self.emails_input = email_reader
 
 		# MODEL
-
 		self.model_builder = model_builder
 		self.model = model
 
@@ -52,6 +54,7 @@ class Quagga:
 			self.model = model
 
 		self.graph = tf.get_default_graph()
+
 		# PREDICT
 
 		# PARSE
@@ -59,31 +62,29 @@ class Quagga:
 
 	@property
 	def emails_body(self):
-		for email in self.emails_input:
-			self._store_email(self.output_dir, email.filename, 'quagga.input', email)
-			yield email.clean_body
+		return EmailProcessor(self, self.emails_input, self.output_dir, self.emails_input, lambda email, _: email.clean_body, self._INPUT, State.INIT)
 
 	def emails_predicted(self, input_reader=None):  # todo use decorator for tempReaders
 		if self.state >= State.PREDICT:
-			return TempQuaggaReader('predicted', self.output_dir)
+			return TempQuaggaReader(self._PREDICTED, self.output_dir)
 		if input_reader is None:
 			input_reader = self.emails_body
 		else:
 			print("reading bodies from .quagga files...")
 
 		return EmailProcessor(self, self.emails_input, self.output_dir, input_reader,
-		                      lambda email_body, _: self._predict(email_body), 'predicted', State.PREDICT)
+		                      lambda email_body, _: self._predict(email_body), self._PREDICTED, State.PREDICT)
 
 	def emails_parsed(self, prediction_reader=None):
 		if self.state >= State.PARSE:
-			return TempQuaggaReader('parsed', self.output_dir)
+			return TempQuaggaReader(self._PARSED, self.output_dir)
 		if prediction_reader is None:
 			prediction_reader = self.emails_predicted()
 		else:
 			print("reading predictions from .quagga files...")
 		return EmailProcessor(self, self.emails_input, self.output_dir, prediction_reader,
 		                      lambda email_prediction, email_input: self._parse(
-			                      email_prediction, email_input), 'parsed', State.PARSE)
+			                      email_prediction, email_input), self._PARSED, State.PARSE)
 
 
 
@@ -91,27 +92,21 @@ class Quagga:
 	# this is optimized so things are loaded only once into memory and not written and read from disk immediately after
 	def store_all(self, foldername):
 		for input in self.emails_input:
-			self._store_email(foldername, input.filename, 'quagga.input', input)
+			self._store_email(foldername, input.filename, self._INPUT, input)
 			predicted = self._predict(input.clean_body)
-			self._store_email(foldername, input.filename, 'quagga.predicted', predicted)
+			self._store_email(foldername, input.filename, self._PREDICTED, predicted)
 			parsed = self._parse(predicted, input)
-			self._store_email(foldername, input.filename, 'quagga.parsed', parsed)
+			self._store_email(foldername, input.filename, self._PARSED, parsed)
 		print("stored all stages in " + foldername)
 
 	def store_input(self, foldername):
-		self._store(foldername, 'quagga.input', self.emails_input)
+		self._store(foldername, self._INPUT, self.emails_input)
 
 	def store_predicted(self, foldername):
-		self._store(foldername, 'quagga.predicted', self.emails_predicted())
+		self._store(foldername, self._PREDICTED, self.emails_predicted())
 
 	def store_parsed(self, foldername):
-		self._store(foldername, 'quagga.parsed', self.emails_parsed())
-
-	@staticmethod
-	def _email_storage(input=None, predicted=None, parsed=None):
-		return {'input': input,
-		        'predicted': predicted,
-		        'parsed': parsed}
+		self._store(foldername, self._PARSED, self.emails_parsed())
 
 	def _store(self, foldername, stage, emails):
 		if not os.path.exists(foldername):
@@ -168,12 +163,12 @@ class Quagga:
 
 
 if __name__ == '__main__':
-	input_dir = "testMails"
-	output_dir = "output"
+	input_dir = "test/testData"
+	output_dir = input_dir + "/output"
 
-	quagga = Quagga(EmailDirectoryReader(input_dir), output_dir=output_dir)
+	quagga = Quagga(EmailDirectoryReader(input_dir), output_dir)
 
-	"""print("========================= input ")
+	print("========================= input ")
 	for input in quagga.emails_input:
 		pprint(input)
 		
@@ -182,11 +177,11 @@ if __name__ == '__main__':
 		pprint(body)
 
 	print("========================= predictions ")
-	for prediction in quagga.emails_predicted(input_reader=TempQuaggaReader('input', output_dir, output_func=lambda input: input['clean_body'])):
+	for prediction in quagga.emails_predicted(input_reader=TempQuaggaReader('quagga.input', output_dir, output_func=lambda input: input['clean_body'])):
 		pprint(prediction)
 
 	print("========================= parsed ")
-	for parsed in quagga.emails_parsed(prediction_reader=TempQuaggaReader('predicted', output_dir)):
-		pprint(parsed)"""
+	for parsed in quagga.emails_parsed(prediction_reader=TempQuaggaReader('quagga.predicted', output_dir)):
+		pprint(parsed)
 
 	quagga.store_parsed(output_dir)

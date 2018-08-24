@@ -20,7 +20,7 @@ setup(
 	                  'kiwisolver==1.0.1', 'Markdown==2.6.11', 'MarkupSafe==1.0', 'matplotlib==2.2.2', 'numpy==1.14.5',
 	                  'pandas==0.23.3', 'protobuf==3.6.0', 'pyparsing==2.2.0', 'python-dateutil==2.7.3', 'pytz==2018.5',
 	                  'PyYAML==3.13', 'scikit-learn==0.19.2', 'scipy==1.1.0', 'six==1.11.0',
-	                  'sklearn==0.0', 'tensorboard==1.10.0', 'tensorflow==1.10.0', 'termcolor==1.1.0',
+	                  'sklearn==0.0', 'tensorflow==1.5', 'termcolor==1.1.0',
 	                  'Werkzeug==0.14.1', 'keras-contrib'],
 	dependency_links=['git+https://www.github.com/keras-team/keras-contrib.git@f25c26665e990cfdf1da61a3de10a34d67f74b37#egg=keras-contrib'],
 )

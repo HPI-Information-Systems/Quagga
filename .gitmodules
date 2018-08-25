@@ -1,0 +1,3 @@
+[submodule "QuaggaLib"]
+	path = QuaggaLib
+	url = https://github.com/HPI-Information-Systems/QuaggaLib

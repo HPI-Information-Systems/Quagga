@@ -1,0 +1,5 @@
+# ! please just do `pip install https://github.com/HPI-Information-Systems/QuaggaLib/archive/isfet.zip` manually
+ujson
+tqdm
+networkx
+pytz
